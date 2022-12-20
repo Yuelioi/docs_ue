@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Niagara/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Niagara | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Niagara/" hreflang="x-default" />
+
+	<meta name="title" content="Niagara" />
+<meta name="description" content="Niagara" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Niagara" />
+	<meta property="og:description" content="Niagara" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Niagara</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Niagara</h1>
+		</div>
+		<h2 >Niagara</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    			    <li id="">
+	<p><a id="toc_link" href="#categories">Categories</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AcquireNiagaraGPURayTracedCollis-"><p>Acquire Niagara GPURay Traced Collision Group</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a free collision group for use in HWRT collision group filtering. Returns -1 on failure.
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AdvanceSimulation"><p>Advance Simulation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Advances this system's simulation by the specified number of ticks and delta time.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AdvanceSimulationbyTime"><p>Advance Simulation by Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Advances this system's simulation by the specified time in seconds and delta time. Advancement is done in whole ticks of TickDeltaSeconds so actual simulated time will be the nearest lower multiple of TickDeltaSeconds.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearEmitterFixedBounds"><p>Clear Emitter Fixed Bounds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clear any previously set fixed bounds for the emitter instance.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearSystemFixedBounds"><p>Clear System Fixed Bounds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clear any previously set fixed bounds for the system instance.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAgeUpdateMode"><p>Get Age Update Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Age Update Mode
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBoolParameter"><p>Get Bool Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Accessors from Blueprint. For now just exposing common types but ideally we can expose any somehow in future.
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetColorParameter"><p>Get Color Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Color Parameter
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomTimeDilation"><p>Get Custom Time Dilation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Custom Time Dilation
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDataInterface"><p>Get Data Interface</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Data Interface
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDesiredAge"><p>Get Desired Age</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the desired age of the System instance.  This is only relevant when using the DesiredAge age update mode.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDesiredAgeSeekDelta"><p>Get Desired Age Seek Delta</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the delta value which is used when seeking from the current age, to the desired age.  This is only relevant
+when using the DesiredAge age update mode.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEmitterFixedBounds"><p>Get Emitter Fixed Bounds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the fixed bounds for an emitter instance.
+This will return the user set fixed bounds if set, or the emitters fixed bounds if set.
+Note: The returned box may be invalid if no fixed bounds exist
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFloatParameter"><p>Get Float Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Float Parameter
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetIntParameter"><p>Get Int Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Int Parameter
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaxDesiredAgeTickDelta"><p>Get Max Desired Age Tick Delta</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the maximum CPU time in seconds we will simulate to the desired age, when we go beyond this limit ticks will be processed in the next frame.
+This is only relevant when using the DesiredAge age update mode.
+Note: The componet will not be visibile if we have ticks to process and SetCanRenderWhileSeeking is set to true
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNiagaraParameterCollection"><p>Get Niagara Parameter Collection</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This is gonna be totally reworked
+UFUNCTION(BlueprintCallable, Category = Niagara, meta = (Keywords = "niagara System", UnsafeDuringActorConstruction = "true"))
+static void SetUpdateScriptConstant(UNiagaraComponent* Component, FName EmitterName, FName ConstantName, FVector Value);
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNiagaraSystemAsset"><p>Get Niagara System Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Asset
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetQuaternionParameter"><p>Get Quaternion Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Quat Parameter
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRandomSeedOffset"><p>Get Random Seed Offset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Random Seed Offset
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRawTextureSize"><p>Get Raw Texture Size</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Raw Texture Size
+</p><p>Target is Grid3D Collection</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSystemFixedBounds"><p>Get System Fixed Bounds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the fixed bounds for the system instance.
+This will return the user set fixed bounds if set, or the systems fixed bounds if set.
+Note: The returned box may be invalid if no fixed bounds exist
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTextureSize"><p>Get Texture Size</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Texture Size
+</p><p>Target is Grid3D Collection</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTickBehavior"><p>Get Tick Behavior</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Tick Behavior
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorParameter"><p>Get Vector Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Vector Parameter
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVector2DParameter"><p>Get Vector2D Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Vector 2DParameter
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVector4Parameter"><p>Get Vector4 Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Vector 4Parameter
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Getwhetherornottolockthedesireda-"><p>Get whether or not to lock the desired age delta time to the seek delta.</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets whether or not the delta time used to tick the system instance when using desired age is locked to the seek delta.  When true, the system instance
+will only be ticked when the desired age has changed by more than the seek delta.  When false the system instance will be ticked by the change in desired
+age when not seeking.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsInForcedSoloMode"><p>Is In Forced Solo Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Force Solo
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsPaused"><p>Is Paused</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Is Paused
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetBoolArray"><p>Niagara Get Bool Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a copy of Niagara Bool Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetBoolArrayValue"><p>Niagara Get Bool Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a single value within a Niagara Array Bool.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetColorArray"><p>Niagara Get Color Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a copy of Niagara FLinearColor Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetColorArrayValue"><p>Niagara Get Color Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a single value within a Niagara Array FLinearColor.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetFloatArray"><p>Niagara Get Float Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a copy of Niagara Float Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetFloatArrayValue"><p>Niagara Get Float Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a single value within a Niagara Array Float.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetInt32Array"><p>Niagara Get Int32 Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a copy of Niagara Int32 Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetInt32ArrayValue"><p>Niagara Get Int32 Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a single value within a Niagara Array Int32.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetPositionArray"><p>Niagara Get Position Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a copy of Niagara Position Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetPositionArrayValue"><p>Niagara Get Position Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a single value within a Niagara Array Position.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetQuaternionArray"><p>Niagara Get Quaternion Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a copy of Niagara FQuat Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetQuaternionArrayValue"><p>Niagara Get Quaternion Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a single value within a Niagara Array FQuat.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetVector2DArray"><p>Niagara Get Vector 2D Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a copy of Niagara FVector2D Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetVector2DArrayValue"><p>Niagara Get Vector 2D Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a single value within a Niagara Array FVector2D.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetVector4Array"><p>Niagara Get Vector 4 Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a copy of Niagara FVector4 Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetVector4ArrayValue"><p>Niagara Get Vector 4 Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a single value within a Niagara Array FVector4.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetVectorArray"><p>Niagara Get Vector Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a copy of Niagara FVector Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraGetVectorArrayValue"><p>Niagara Get Vector Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a single value within a Niagara Array FVector.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetBoolArray"><p>Niagara Set Bool Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets Niagara Array Bool Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetBoolArrayValue"><p>Niagara Set Bool Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a single value within a Niagara Array Bool.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetColorArray"><p>Niagara Set Color Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets Niagara Array FLinearColor Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetColorArrayValue"><p>Niagara Set Color Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a single value within a Niagara Array FLinearColor.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetFloatArray"><p>Niagara Set Float Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets Niagara Array Float Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetFloatArrayValue"><p>Niagara Set Float Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a single value within a Niagara Array Float.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetInt32Array"><p>Niagara Set Int32 Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets Niagara Array Int32 Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetInt32ArrayValue"><p>Niagara Set Int32 Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a single value within a Niagara Array Int32.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetPositionArray"><p>Niagara Set Position Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets Niagara Array FVector Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetPositionArrayValue"><p>Niagara Set Position Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Niagara Array Position Value
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetQuaternionArray"><p>Niagara Set Quaternion Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets Niagara Array FQuat Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetQuaternionArrayValue"><p>Niagara Set Quaternion Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a single value within a Niagara Array FQuat.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetVector2DArray"><p>Niagara Set Vector 2D Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets Niagara Array FVector2D Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetVector2DArrayValue"><p>Niagara Set Vector 2D Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a single value within a Niagara Array FVector2D.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetVector4Array"><p>Niagara Set Vector 4 Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets Niagara Array FVector4 Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetVector4ArrayValue"><p>Niagara Set Vector 4 Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a single value within a Niagara Array FVector4.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetVectorArray"><p>Niagara Set Vector Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets Niagara Array FVector Data.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NiagaraSetVectorArrayValue"><p>Niagara Set Vector Array Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a single value within a Niagara Array FVector.
+</p><p>Target is Niagara Data Interface Array Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReceiveParticleData"><p>Receive Particle Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This function is called once per tick with the gathered particle data. It will not be called if there is no particle data to call it with.
+</p><p>Target is Niagara Particle Callback Handler</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReceiveParticleData_Message"><p>Receive Particle Data (Message)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This function is called once per tick with the gathered particle data. It will not be called if there is no particle data to call it with.
+</p><p>Target is Niagara Particle Callback Handler</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReinitializeSystem"><p>Reinitialize System</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Called on when an external object wishes to force this System to reinitialize itself from the System data.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReleaseNiagaraGPURayTracedCollis-"><p>Release Niagara GPURay Traced Collision Group</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Releases a collision group back to the system for use by ohers.
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResetSystem"><p>Reset System</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Resets the System to it's initial pre-simulated state.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SeektoDesiredAge"><p>Seek to Desired Age</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the desired age of the System instance and designates that this change is a seek.  When seeking to a desired age the
+The component can optionally prevent rendering.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetActorNiagaraGPURayTracedColli-"><p>Set Actor Niagara GPURay Traced Collision Group</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the Niagara GPU ray traced collision group for all primitive components on the given actor.
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetAgeUpdateMode"><p>Set Age Update Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the age update mode for the System instance.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetAutoDestroy"><p>Set Auto Destroy</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Auto Destroy
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetBoolParameter"><p>Set Bool Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Bool Parameter
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCanRenderWhileSeeking"><p>Set Can Render While Seeking</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets whether or not the system can render while seeking.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetColorParameter"><p>Set Color Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Color Parameter
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetComponentNiagaraGPURayTracedC-"><p>Set Component Niagara GPURay Traced Collision Group</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the Niagara GPU ray traced collision group for the give primitive component.
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomTimeDilation"><p>Set Custom Time Dilation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the custom time dilation value for the component.
+Note: This is only available on components that are in solo mode currently.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDesiredAge"><p>Set Desired Age</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the desired age of the System instance.  This is only relevant when using the DesiredAge age update mode.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDesiredAgeSeekDelta"><p>Set Desired Age Seek Delta</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the delta value which is used when seeking from the current age, to the desired age.  This is only relevant
+when using the DesiredAge age update mode.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetEmitterFixedBounds"><p>Set Emitter Fixed Bounds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the fixed bounds for an emitter instance, this overrides all other bounds.
+The box is expected to be in local space not world space.
+A default uninitialized box will clear the fixed bounds and revert back to emitter fixed / dynamic bounds.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetFloatParameter"><p>Set Float Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Float Parameter
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetForcedSoloMode"><p>Set Forced Solo Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Force Solo
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetGpuComputeDebug"><p>Set Gpu Compute Debug</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Gpu Compute Debug
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIntParameter"><p>Set Int Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Int Parameter
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMaxDesiredAgeTickDelta"><p>Set Max Desired Age Tick Delta</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the maximum CPU time in seconds we will simulate to the desired age, when we go beyond this limit ticks will be processed in the next frame.
+This is only relevant when using the DesiredAge age update mode.
+Note: The componet will not be visibile if we have ticks to process and SetCanRenderWhileSeeking is set to true
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraSkeletalMeshComponent"><p>Set Niagara Skeletal Mesh Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara StaticMesh parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraStaticMeshComponent"><p>Set Niagara Static Mesh Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara StaticMesh parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraStaticMeshDirectly"><p>Set Niagara Static Mesh Directly</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Override System User Variable Static Mesh
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraSystemAsset"><p>Set Niagara System Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Switch which asset the component is using.
+This requires Niagara to wait for concurrent execution and the override parameter store to be synchronized with the new asset.
+By default existing parameters are reset when we call SetAsset, modify bResetExistingOverrideParameters to leave existing parameter data as is.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariable_Actor"><p>Set Niagara Variable (Actor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Variable Actor
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariable_Bool"><p>Set Niagara Variable (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara float parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariable_Float"><p>Set Niagara Variable (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara float parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariable_Int32"><p>Set Niagara Variable (Int32)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara int parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariable_LinearColor"><p>Set Niagara Variable (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara FLinearColor parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariable_Material"><p>Set Niagara Variable (Material)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Variable Material
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariable_Object"><p>Set Niagara Variable (Object)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Variable Object
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariable_Position"><p>Set Niagara Variable (Position)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara Position parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariable_Quaternion"><p>Set Niagara Variable (Quaternion)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara Vector3 parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariable_StaticMesh"><p>Set Niagara Variable (Static Mesh)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Variable Static Mesh
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariable_Texture"><p>Set Niagara Variable (Texture)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Variable Texture
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariable_TextureRender-"><p>Set Niagara Variable (TextureRenderTarget)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Variable Texture Render Target
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariable_Vector2"><p>Set Niagara Variable (Vector2)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara Vector3 parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariable_Vector3"><p>Set Niagara Variable (Vector3)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara Vector3 parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariable_Vector4"><p>Set Niagara Variable (Vector4)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara Vector4 parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariableByString_Actor"><p>Set Niagara Variable By String (Actor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Niagara Variable Actor
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariableByString_Bool"><p>Set Niagara Variable By String (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara float parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariableByString_Float"><p>Set Niagara Variable By String (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara float parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariableByString_Int32"><p>Set Niagara Variable By String (Int32)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara int parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariableByString_Linea-"><p>Set Niagara Variable By String (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara FLinearColor parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariableByString_Objec-"><p>Set Niagara Variable By String (Object)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Niagara Variable Object
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariableByString_Posit-"><p>Set Niagara Variable By String (Position)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara Position parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariableByString_Quate-"><p>Set Niagara Variable By String (Quaternion)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara Vector3 parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariableByString_Vecto-"><p>Set Niagara Variable By String (Vector2)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara Vector3 parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariableByString_Vecto-_1"><p>Set Niagara Variable By String (Vector3)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara Vector3 parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNiagaraVariableByString_Vecto-_2"><p>Set Niagara Variable By String (Vector4)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Niagara Vector4 parameter by name, overriding locally if necessary.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPaused"><p>Set Paused</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Paused
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetQuaternionParameter"><p>Set Quaternion Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Quat Parameter
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRandomSeedOffset"><p>Set Random Seed Offset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Random Seed Offset
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRenderingEnabled"><p>Set Rendering Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets whether or not rendering is enabled for this component.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSkeletalMeshDataInterfaceSamp-"><p>Set Skeletal Mesh Data Interface Sampling Regions</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the SamplingRegion to use on the skeletal mesh data interface, this is destructive as it modifies the data interface.
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSystemFixedBounds"><p>Set System Fixed Bounds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the fixed bounds for the system instance, this overrides all other bounds.
+The box is expected to be in local space not world space.
+A default uninitialized box will clear the fixed bounds and revert back to system fixed / dynamic bounds.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTexture2DArrayObject"><p>Set Texture 2DArray Object</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Overrides the 2D Array Texture for a Niagara 2D Array Texture Data Interface User Parameter.
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTextureObject"><p>Set Texture Object</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Overrides the Texture Object for a Niagara Texture Data Interface User Parameter.
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTickBehavior"><p>Set Tick Behavior</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Tick Behavior
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetUObjectReaderPropertyRemap"><p>Set UObject Reader Property Remap</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remaps a property reader, where the
+</p><p>Target is Object Reader</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVectorParameter"><p>Set Vector Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Vector Parameter
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVector2DParameter"><p>Set Vector2D Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Vector 2DParameter
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVector4Parameter"><p>Set Vector4 Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>TODO[mg]: add position setter for LWC
+</p><p>Target is Niagara Parameter Collection Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVolumeTextureObject"><p>Set Volume Texture Object</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Overrides the Volume Texture for a Niagara Volume Texture Data Interface User Parameter.
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Setwhetherornottolockthedesireda-"><p>Set whether or not to lock the desired age delta time to the seek delta.</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets whether or not the delta time used to tick the system instance when using desired age is locked to the seek delta.  When true, the system instance
+will only be ticked when the desired age has changed by more than the seek delta.  When false the system instance will be ticked by the change in desired
+age when not seeking.
+</p><p>Target is Niagara Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnSystematLocation"><p>Spawn System at Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawns a Niagara System at the specified world location/rotation
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnSystematLocationwithParams"><p>Spawn System at Location with Params</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn System at Location with Params
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnSystemAttached"><p>Spawn System Attached</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn System Attached
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnSystemAttachedwithParams"><p>Spawn System Attached with Params</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn System Attached with Params
+</p><p>Target is Niagara Function Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+<h2 id="categories">Categories</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Preview"><p>Preview</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Preview</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

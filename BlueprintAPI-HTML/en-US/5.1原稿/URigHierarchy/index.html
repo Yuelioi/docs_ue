@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/URigHierarchy/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>URig Hierarchy | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/URigHierarchy/" hreflang="x-default" />
+
+	<meta name="title" content="URig Hierarchy" />
+<meta name="description" content="URig Hierarchy" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="URig Hierarchy" />
+	<meta property="og:description" content="URig Hierarchy" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">URig Hierarchy</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">URig Hierarchy</h1>
+		</div>
+		<h2 >URig Hierarchy</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Contains"><p>Contains</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the provided element key is valid
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CopyHierarchy"><p>Copy Hierarchy</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Copies the contents of a hierarchy onto this one
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CopyPose"><p>Copy Pose</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Copies the contents of a hierarchy onto this one
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindBone"><p>Find Bone</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns bone element for a given key, for scripting purpose only, for cpp usage, use Find&lt;FRigBoneElement&gt;()
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindControl"><p>Find Control</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns control element for a given key, for scripting purpose only, for cpp usage, use Find&lt;FRigControlElement&gt;()
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindNull"><p>Find Null</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns null element for a given key, for scripting purpose only, for cpp usage, use Find&lt;FRigControlElement&gt;()
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllKeys"><p>Get All Keys</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all element keys of this hierarchy
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBones"><p>Get Bones</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all Bone elements
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetChildren"><p>Get Children</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the child elements of a given element key
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetControlValue"><p>Get Control Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a control's current value given its key
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetControlValuebyIndex"><p>Get Control Value by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a control's current value given its index
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetController"><p>Get Controller</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a controller for this hierarchy
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetControls"><p>Get Controls</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all Control elements
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurveValue"><p>Get Curve Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a curve's value given its key
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurveValuebyIndex"><p>Get Curve Value by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a curve's value given its index
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurves"><p>Get Curves</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all Curve elements
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEulerTransformfromControlValu-"><p>Get Euler Transform from Control Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the contained FEulerTransform value from a a Rig Control Value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFirstParent"><p>Get First Parent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the first parent element of a given element key
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFloatfromControlValue"><p>Get Float from Control Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the contained float value from a a Rig Control Value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGlobalControlOffsetTransform"><p>Get Global Control Offset Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the global offset transform for a given control element.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGlobalControlOffsetTransformb-"><p>Get Global Control Offset Transform by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the global offset transform for a given control element.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGlobalControlShapeTransform"><p>Get Global Control Shape Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the global shape transform for a given control element.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGlobalControlShapeTransformby-"><p>Get Global Control Shape Transform by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the global shape transform for a given control element.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGlobalTransform"><p>Get Global Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the global current or initial value for a given key.
+If the key is invalid FTransform::Identity will be returned.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGlobalTransformbyIndex"><p>Get Global Transform by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the global current or initial value for a element index.
+If the index is invalid FTransform::Identity will be returned.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetIndex"><p>Get Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the index of an element given its key
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetIntfromControlValue"><p>Get Int from Control Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the contained int32 value from a a Rig Control Value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetKey"><p>Get Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the key of an element given its index
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalTransform"><p>Get Local Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the local current or initial value for a given key.
+If the key is invalid FTransform::Identity will be returned.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalTransformbyIndex"><p>Get Local Transform by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the local current or initial value for a element index.
+If the index is invalid FTransform::Identity will be returned.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNulls"><p>Get Nulls</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all Null elements
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumberOfParents"><p>Get Number Of Parents</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of parents of an element
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParentTransform"><p>Get Parent Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the global current or initial value for a given key.
+If the element does not have a parent FTransform::Identity will be returned.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParentTransformbyIndex"><p>Get Parent Transform by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the global current or initial value for a given element index.
+If the element does not have a parent FTransform::Identity will be returned.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParentWeight"><p>Get Parent Weight</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the weight of a parent below a multi parent element
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParentWeightArray"><p>Get Parent Weight Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the weights of all parents below a multi parent element
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParents"><p>Get Parents</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the parent elements of a given element key
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPose"><p>Get Pose</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the current / initial pose of the hierarchy
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPreviousName"><p>Get Previous Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the previous name of an element prior to a rename operation
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPreviousParent"><p>Get Previous Parent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the previous parent of an element prior to a reparent operation
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetReferences"><p>Get References</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all references
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRigidBodies"><p>Get RigidBodies</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all RigidBody elements
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRotatorfromControlValue"><p>Get Rotator from Control Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the contained FRotator value from a a Rig Control Value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSelectedKeys"><p>Get Selected Keys</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the keys of selected elements
+@InTypeFilter The types to retrieve the selection for
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTransformfromControlValue"><p>Get Transform from Control Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the contained FTransform value from a a Rig Control Value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTransformNoScalefromControlVa-"><p>Get Transform No Scale from Control Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the contained FTransformNoScale value from a a Rig Control Value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVector2DFromControlValue"><p>Get Vector 2DFrom Control Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the contained FVector2D value from a a Rig Control Value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorfromControlValue"><p>Get Vector from Control Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the contained FVector value from a a Rig Control Value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsParentedTo"><p>Is Parented To</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if an element is parented to another element
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsSelected"><p>Is Selected</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if a given element is selected
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsSelectedbyIndex"><p>Is Selected by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if a given element is selected
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsValidIndex"><p>Is Valid Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the provided element index is valid
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeControlValuefromBool"><p>Make Control Value from Bool</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a rig control value from a bool value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeControlValuefromEulerTransfo-"><p>Make Control Value from Euler Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a rig control value from a FEulerTransform value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeControlValuefromFloat"><p>Make Control Value from Float</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a rig control value from a float value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeControlValuefromInt"><p>Make Control Value from Int</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a rig control value from a int32 value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeControlValuefromRotator"><p>Make Control Value from Rotator</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a rig control value from a FRotator value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeControlValuefromTransform"><p>Make Control Value from Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a rig control value from a FTransform value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeControlValuefromTransformNoS-"><p>Make Control Value from Transform No Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a rig control value from a FTransformNoScale value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeControlValuefromVector"><p>Make Control Value from Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a rig control value from a FVector value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeControlValuefromVector2D"><p>Make Control Value from Vector 2D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a rig control value from a FVector2D value
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Num"><p>Num</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of elements in the Hierarchy.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Reset"><p>Reset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clears the whole hierarchy and removes all elements.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResetCurveValues"><p>Reset Curve Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Resets all curves to 0.0
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResetPosetoInitial"><p>Reset Pose to Initial</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Resets the current pose of a filtered lost if elements to the initial / ref pose.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SendAutoKeyEvent"><p>Send Auto Key Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sends an autokey event from the hierarchy to the world
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlOffsetTransform"><p>Set Control Offset Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the offset transform for a given control element by key
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlOffsetTransformbyIndex"><p>Set Control Offset Transform by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the local offset transform for a given control element by index
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlSettings"><p>Set Control Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the control settings for a given control element by key
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlSettingsbyIndex"><p>Set Control Settings by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the control settings for a given control element by index
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlShapeTransform"><p>Set Control Shape Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the shape transform for a given control element by key
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlShapeTransformbyIndex"><p>Set Control Shape Transform by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the local shape transform for a given control element by index
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlValue"><p>Set Control Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a control's current value given its key
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlValuebyIndex"><p>Set Control Value by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a control's current value given its index
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlVisibility"><p>Set Control Visibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a control's current visibility based on a key
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlVisibilitybyIndex"><p>Set Control Visibility by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a control's current visibility based on a key
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCurveValue"><p>Set Curve Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a curve's value given its key
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCurveValuebyIndex"><p>Set Curve Value by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a curve's value given its index
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetGlobalTransform"><p>Set Global Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the global current or initial transform for a given key.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetGlobalTransformbyIndex"><p>Set Global Transform by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the global current or initial transform for a given element index.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalTransform"><p>Set Local Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the local current or initial transform for a given key.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalTransformbyIndex"><p>Set Local Transform by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the local current or initial transform for a given element index.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetParentWeight"><p>Set Parent Weight</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the weight of a parent below a multi parent element
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetParentWeightArray"><p>Set Parent Weight Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the all of the weights of the parents of a multi parent element
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPose"><p>Set Pose</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the current / initial pose of the hierarchy
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SortKeys"><p>Sort Keys</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sorts the input key list by traversing the hierarchy
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SwitchtoDefaultParent"><p>Switch to Default Parent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Switches a multi parent element to its first parent
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SwitchtoParent"><p>Switch to Parent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Switches a multi parent element to a single parent.
+This sets the new parent's weight to 1.0 and disables
+weights for all other potential parents.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SwitchtoWorldSpace"><p>Switch to World Space</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Switches a multi parent element to world space.
+This injects a world space reference.
+</p><p>Target is Rig Hierarchy</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

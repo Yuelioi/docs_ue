@@ -1,0 +1,2421 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Utilities/Struct/BreakSoundAttenuationSettings/" />');
+				var udnCSS = './../../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Break SoundAttenuationSettings | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Utilities/Struct/BreakSoundAttenuationSettings/" hreflang="x-default" />
+
+	<meta name="title" content="Break SoundAttenuationSettings" />
+<meta name="description" content="Break SoundAttenuationSettings" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Utilities,BlueprintAPI/Utilities/Struct" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Break SoundAttenuationSettings" />
+	<meta property="og:description" content="Break SoundAttenuationSettings" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../../Utilities">Utilities</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Struct">Struct</a>
+
+<span class="separator">></span> <span id="page">Break SoundAttenuationSettings</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Break SoundAttenuationSettings</h1>
+		</div>
+		<h2 >Break SoundAttenuationSettings</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<p>Adds a node that breaks a 'SoundAttenuationSettings' into its member fields
+</p><div class="graph">
+	<div class="node_container pure ">
+    <div class="node">
+        
+        <div class="titlebar_node">            
+            
+            <div class="titlebar_overlay">
+                <div class="titlebar_node_text">
+                    Break SoundAttenuationSettings
+                </div>
+            </div>
+        </div>        
+        <div class="nodebody">
+            
+            <div class="background"></div>
+                        
+            
+            <div class="inputs">
+                <div id="pin_Sound_Attenuation_Settings" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Sound Attenuation Settings
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                   
+               
+            <div class="outputs">
+                <div id="pin_Enable_Volume_Attenuation" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Enable Volume Attenuation
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean  floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Enable_Spatialization" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Enable Spatialization
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean  floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Enable_Air_Absorption" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Enable Air Absorption
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean  floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Enable_Listener_Focus" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Enable Listener Focus
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean  floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Enable_Focus_Interpolation" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Enable Focus Interpolation
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean  floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Enable_Occlusion" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Enable Occlusion
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean  floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Use_Complex_Collision_For_Occlusion" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Use Complex Collision For Occlusion
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean  floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Enable_Reverb_Send" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Enable Reverb Send
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean  floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Enable_Priority_Attenuation" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Enable Priority Attenuation
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean  floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Normalize_3D_Stereo_Sounds" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Normalize 3D Stereo Sounds
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean  floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Enable_Log_Frequency_Scaling" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Enable Log Frequency Scaling
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean  floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Enable_Submix_Send" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Enable Submix Send
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean  floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Enable_Source_Data_Override" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Enable Source Data Override
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean  floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Spatialization_Method" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Spatialization Method
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Binaural_Radius" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Binaural Radius
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Absorption_Method" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Absorption Method
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Occlusion_Trace_Channel" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Occlusion Trace Channel
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Reverb_Send_Method" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Reverb Send Method
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Priority_Attenuation_Method" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Priority Attenuation Method
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Non-_Spatialized_Radius" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Non- Spatialized Radius
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_3D_Stereo_Spread" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    3D Stereo Spread
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Min_Distance_Range" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Min Distance Range
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Max_Distance_Range" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Max Distance Range
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Custom_Lowpass_Air_Absorption_Curve" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Custom Lowpass Air Absorption Curve
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Custom_Highpass_Air_Absorption_Curve" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Custom Highpass Air Absorption Curve
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Low_Pass_Cutoff_Frequency_Min" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Low Pass Cutoff Frequency Min
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Low_Pass_Cutoff_Frequency_Max" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Low Pass Cutoff Frequency Max
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_High_Pass_Cutoff_Frequency_Min" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    High Pass Cutoff Frequency Min
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_High_Pass_Cutoff_Frequency_Max" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    High Pass Cutoff Frequency Max
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Focus_Azimuth" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Focus Azimuth
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Non_Focus_Azimuth" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Non Focus Azimuth
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Focus_Distance_Scale" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Focus Distance Scale
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Non_Focus_Distance_Scale" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Non Focus Distance Scale
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Focus_Priority_Scale" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Focus Priority Scale
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Non_Focus_Priority_Scale" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Non Focus Priority Scale
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Focus_Volume_Attenuation" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Focus Volume Attenuation
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Non_Focus_Volume_Attenuation" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Non Focus Volume Attenuation
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Focus_Attack_Interp_Speed" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Focus Attack Interp Speed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Focus_Release_Interp_Speed" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Focus Release Interp Speed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Occlusion_Low_Pass_Filter_Frequency" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Occlusion Low Pass Filter Frequency
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Occlusion_Volume_Attenuation" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Occlusion Volume Attenuation
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Occlusion_Interpolation_Time" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Occlusion Interpolation Time
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Reverb_Min_Send_Level" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Reverb Min Send Level
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Reverb_Max_Send_Level" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Reverb Max Send Level
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Reverb_Min_Send_Distance" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Reverb Min Send Distance
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Reverb_Max_Send_Distance" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Reverb Max Send Distance
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Manual_Reverb_Send_Level" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Manual Reverb Send Level
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Custom_Reverb_Send_Curve" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Custom Reverb Send Curve
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Submix_Send_Settings" class="pin_container ">
+        <div class="pin struct array">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Submix Send Settings
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Priority_Attenuation_at_Min_Distance" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Priority Attenuation at Min Distance
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Priority_Attenuation_at_Max_Distance" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Priority Attenuation at Max Distance
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Priority_Attenuation_Min_Distance" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Priority Attenuation Min Distance
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Priority_Attenuation_Max_Distance" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Priority Attenuation Max Distance
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Attenuation_Priority" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Attenuation Priority
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Custom_Priority_Attenuation_Curve" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Custom Priority Attenuation Curve
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Plugin_Settings" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Plugin Settings
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Attenuation_Function" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Attenuation Function
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Attenuation_Shape" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Attenuation Shape
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Attenuation_at_Max_(D_B)" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Attenuation at Max (D B)
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Falloff_Mode" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Falloff Mode
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Attenuation_Shape_Extents" class="pin_container ">
+        <div class="pin vector">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Attenuation Shape Extents
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>0.0
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>0.0
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Z</span>0.0
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Cone_Offset" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Cone Offset
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Falloff_Distance" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Falloff Distance
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Cone_Sphere_Radius" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Cone Sphere Radius
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Cone_Sphere_Falloff_Distance" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Cone Sphere Falloff Distance
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Custom_Attenuation_Curve" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Custom Attenuation Curve
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                      
+        </div>
+    </div>
+</div>
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'inputs');">
+        <p>Inputs</p>
+    </div>
+<div id="inputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Sound_Attenuation_Settings" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Sound Attenuation Settings</a>
+        <div class="name-cell-arguments">
+            Sound Attenuation Settings Structure (by ref)
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+	</table>
+</div>
+
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'outputs');">
+        <p>Outputs</p>
+    </div>
+<div id="outputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Enable_Volume_Attenuation" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Enable Volume Attenuation</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Attenuate:
+Allows distance-based volume attenuation.</p>
+    </td>
+</tr>
+<tr id="Enable_Spatialization" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Enable Spatialization</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Spatialize:
+Allows the source to be 3D spatialized.</p>
+    </td>
+</tr>
+<tr id="Enable_Air_Absorption" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Enable Air Absorption</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Attenuate with LPF:
+Allows simulation of air absorption by applying a filter with a cutoff frequency as a function of distance.</p>
+    </td>
+</tr>
+<tr id="Enable_Listener_Focus" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Enable Listener Focus</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Enable Listener Focus:
+Enable listener focus-based adjustments.</p>
+    </td>
+</tr>
+<tr id="Enable_Focus_Interpolation" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Enable Focus Interpolation</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Enable Focus Interpolation:
+Enables focus interpolation to smooth transition in and and of focus.</p>
+    </td>
+</tr>
+<tr id="Enable_Occlusion" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Enable Occlusion</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Enable Occlusion:
+Enables realtime occlusion tracing.</p>
+    </td>
+</tr>
+<tr id="Use_Complex_Collision_For_Occlusion" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Use Complex Collision For Occlusion</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Use Complex Collision for Occlusion:
+Enables tracing against complex collision when doing occlusion traces.</p>
+    </td>
+</tr>
+<tr id="Enable_Reverb_Send" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Enable Reverb Send</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Enable Reverb Send:
+Enables adjusting reverb sends based on distance.</p>
+    </td>
+</tr>
+<tr id="Enable_Priority_Attenuation" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Enable Priority Attenuation</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Enable Priority Attenuation:
+Enables attenuation of sound priority based off distance.</p>
+    </td>
+</tr>
+<tr id="Normalize_3D_Stereo_Sounds" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Normalize 3D Stereo Sounds</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Apply Normalization to Stereo Sounds:
+Enables applying a -6 dB attenuation to stereo assets which are 3d spatialized. Avoids clipping when assets have spread of 0.0 due to channel summing.</p>
+    </td>
+</tr>
+<tr id="Enable_Log_Frequency_Scaling" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Enable Log Frequency Scaling</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Enable Log Frequency Scaling:
+Enables applying a log scale to frequency values (so frequency sweeping is perceptually linear).</p>
+    </td>
+</tr>
+<tr id="Enable_Submix_Send" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Enable Submix Send</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Enable Submix Sends:
+Enables submix sends based on distance.</p>
+    </td>
+</tr>
+<tr id="Enable_Source_Data_Override" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Enable Source Data Override</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Enable Source Data Override:
+Enables overriding WaveInstance data using source data override plugin</p>
+    </td>
+</tr>
+<tr id="Spatialization_Method" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Spatialization Method</a>
+        <div class="name-cell-arguments">
+            ESoundSpatializationAlgorithm Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Spatialization Algorithm:
+What method we use to spatialize the sound.</p>
+    </td>
+</tr>
+<tr id="Binaural_Radius" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Binaural Radius</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Binaural Radius:
+What min radius to use to swap to non-binaural audio when a sound starts playing.</p>
+    </td>
+</tr>
+<tr id="Absorption_Method" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Absorption Method</a>
+        <div class="name-cell-arguments">
+            EAirAbsorptionMethod Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Absorption Method:
+What method to use to map distance values to frequency absorption values.</p>
+    </td>
+</tr>
+<tr id="Occlusion_Trace_Channel" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Occlusion Trace Channel</a>
+        <div class="name-cell-arguments">
+            ECollisionChannel Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Occlusion Trace Channel:
+Which trace channel to use for audio occlusion checks.</p>
+    </td>
+</tr>
+<tr id="Reverb_Send_Method" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Reverb Send Method</a>
+        <div class="name-cell-arguments">
+            EReverbSendMethod Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Reverb Send Method:
+What method to use to control master reverb sends</p>
+    </td>
+</tr>
+<tr id="Priority_Attenuation_Method" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Priority Attenuation Method</a>
+        <div class="name-cell-arguments">
+            EPriorityAttenuationMethod Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Priority Attenuation Method:
+What method to use to control priority attenuation</p>
+    </td>
+</tr>
+<tr id="Non-_Spatialized_Radius" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Non- Spatialized Radius</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Omni Radius:
+The distance below which a sound is non-spatialized (2D). This prevents near-field audio from flipping as audio crosses the listener's position. This does not apply when using a 3rd party binaural plugin (audio will remain spatialized).</p>
+    </td>
+</tr>
+<tr id="3D_Stereo_Spread" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>3D Stereo Spread</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Stereo Spread:
+The world-space distance between left and right stereo channels when stereo assets are 3D spatialized.</p>
+    </td>
+</tr>
+<tr id="Min_Distance_Range" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Min Distance Range</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>LPFRadius Min:
+The distance min range at which to apply an absorption LPF filter.</p>
+    </td>
+</tr>
+<tr id="Max_Distance_Range" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Max Distance Range</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>LPFRadius Max:
+The max distance range at which to apply an absorption LPF filter. Absorption freq cutoff interpolates between filter frequency ranges between these distance values.</p>
+    </td>
+</tr>
+<tr id="Custom_Lowpass_Air_Absorption_Curve" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Custom Lowpass Air Absorption Curve</a>
+        <div class="name-cell-arguments">
+            Runtime Float Curve Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Custom Lowpass Air Absorption Curve:
+The normalized custom curve to use for the air absorption lowpass frequency values. Does a mapping from defined distance values (x-axis) and defined frequency values (y-axis)</p>
+    </td>
+</tr>
+<tr id="Custom_Highpass_Air_Absorption_Curve" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Custom Highpass Air Absorption Curve</a>
+        <div class="name-cell-arguments">
+            Runtime Float Curve Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Custom Highpass Air Absorption Curve:
+The normalized custom curve to use for the air absorption highpass frequency values. Does a mapping from defined distance values (x-axis) and defined frequency values (y-axis)</p>
+    </td>
+</tr>
+<tr id="Low_Pass_Cutoff_Frequency_Min" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Low Pass Cutoff Frequency Min</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>LPFFrequency at Min:
+The range of the cutoff frequency (in Hz) of the lowpass absorption filter.</p>
+    </td>
+</tr>
+<tr id="Low_Pass_Cutoff_Frequency_Max" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Low Pass Cutoff Frequency Max</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>LPFFrequency at Max:
+The range of the cutoff frequency (in Hz) of the lowpass absorption filter.</p>
+    </td>
+</tr>
+<tr id="High_Pass_Cutoff_Frequency_Min" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>High Pass Cutoff Frequency Min</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>HPFFrequency at Min:
+The range of the cutoff frequency (in Hz) of the highpass absorption filter.</p>
+    </td>
+</tr>
+<tr id="High_Pass_Cutoff_Frequency_Max" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>High Pass Cutoff Frequency Max</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>HPFFrequency at Max:
+The range of the cutoff frequency (in Hz) of the highpass absorption filter.</p>
+    </td>
+</tr>
+<tr id="Focus_Azimuth" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Focus Azimuth</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Focus Azimuth:
+Azimuth angle (in degrees) relative to the listener forward vector which defines the focus region of sounds. Sounds playing at an angle less than this will be in focus.</p>
+    </td>
+</tr>
+<tr id="Non_Focus_Azimuth" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Non Focus Azimuth</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Non Focus Azimuth:
+Azimuth angle (in degrees) relative to the listener forward vector which defines the non-focus region of sounds. Sounds playing at an angle greater than this will be out of focus.</p>
+    </td>
+</tr>
+<tr id="Focus_Distance_Scale" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Focus Distance Scale</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Focus Distance Scale:
+Amount to scale the distance calculation of sounds that are in-focus. Can be used to make in-focus sounds appear to be closer or further away than they actually are.</p>
+    </td>
+</tr>
+<tr id="Non_Focus_Distance_Scale" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Non Focus Distance Scale</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Non Focus Distance Scale:
+Amount to scale the distance calculation of sounds that are not in-focus. Can be used to make in-focus sounds appear to be closer or further away than they actually are.</p>
+    </td>
+</tr>
+<tr id="Focus_Priority_Scale" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Focus Priority Scale</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Focus Priority Scale:
+Amount to scale the priority of sounds that are in focus. Can be used to boost the priority of sounds that are in focus.</p>
+    </td>
+</tr>
+<tr id="Non_Focus_Priority_Scale" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Non Focus Priority Scale</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Non Focus Priority Scale:
+Amount to scale the priority of sounds that are not in-focus. Can be used to reduce the priority of sounds that are not in focus.</p>
+    </td>
+</tr>
+<tr id="Focus_Volume_Attenuation" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Focus Volume Attenuation</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Focus Volume Attenuation:
+Amount to attenuate sounds that are in focus. Can be overridden at the sound-level.</p>
+    </td>
+</tr>
+<tr id="Non_Focus_Volume_Attenuation" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Non Focus Volume Attenuation</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Non Focus Volume Attenuation:
+Amount to attenuate sounds that are not in focus. Can be overridden at the sound-level.</p>
+    </td>
+</tr>
+<tr id="Focus_Attack_Interp_Speed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Focus Attack Interp Speed</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Focus Attack Interp Speed:
+Scalar used to increase interpolation speed upwards to the target Focus value</p>
+    </td>
+</tr>
+<tr id="Focus_Release_Interp_Speed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Focus Release Interp Speed</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Focus Release Interp Speed:
+Scalar used to increase interpolation speed downwards to the target Focus value</p>
+    </td>
+</tr>
+<tr id="Occlusion_Low_Pass_Filter_Frequency" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Occlusion Low Pass Filter Frequency</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Occlusion Low Pass Filter Frequency:
+The low pass filter frequency (in Hz) to apply if the sound playing in this audio component is occluded. This will override the frequency set in LowPassFilterFrequency. A frequency of 0.0 is the device sample rate and will bypass the filter.</p>
+    </td>
+</tr>
+<tr id="Occlusion_Volume_Attenuation" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Occlusion Volume Attenuation</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Occlusion Volume Attenuation:
+The amount of volume attenuation to apply to sounds which are occluded.</p>
+    </td>
+</tr>
+<tr id="Occlusion_Interpolation_Time" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Occlusion Interpolation Time</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Occlusion Interpolation Time:
+The amount of time in seconds to interpolate to the target OcclusionLowPassFilterFrequency when a sound is occluded.</p>
+    </td>
+</tr>
+<tr id="Reverb_Min_Send_Level" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Reverb Min Send Level</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Reverb Wet Level Min:
+The amount to send to master reverb when sound is located at a distance equal to value specified in the reverb min send distance.</p>
+    </td>
+</tr>
+<tr id="Reverb_Max_Send_Level" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Reverb Max Send Level</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Reverb Wet Level Max:
+The amount to send to master reverb when sound is located at a distance equal to value specified in the reverb max send distance.</p>
+    </td>
+</tr>
+<tr id="Reverb_Min_Send_Distance" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Reverb Min Send Distance</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Reverb Distance Min:
+The min distance to send to the master reverb.</p>
+    </td>
+</tr>
+<tr id="Reverb_Max_Send_Distance" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Reverb Max Send Distance</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Reverb Distance Max:
+The max distance to send to the master reverb.</p>
+    </td>
+</tr>
+<tr id="Manual_Reverb_Send_Level" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Manual Reverb Send Level</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Manual Reverb Send Level:
+The manual master reverb send level to use. Doesn't change as a function of distance.</p>
+    </td>
+</tr>
+<tr id="Custom_Reverb_Send_Curve" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Custom Reverb Send Curve</a>
+        <div class="name-cell-arguments">
+            Runtime Float Curve Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Custom Reverb Send Curve:
+The custom reverb send curve to use for distance-based send level.</p>
+    </td>
+</tr>
+<tr id="Submix_Send_Settings" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_array struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Submix Send Settings</a>
+        <div class="name-cell-arguments">
+            Array of Attenuation Submix Send Settings Structures
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Submix Send Settings:
+Set of submix send settings to use to send audio to submixes as a function of distance.</p>
+    </td>
+</tr>
+<tr id="Priority_Attenuation_at_Min_Distance" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Priority Attenuation at Min Distance</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Priority Attenuation Min:
+Interpolated value to scale priority against when the sound is at the minimum priority attenuation distance from the closest listener.</p>
+    </td>
+</tr>
+<tr id="Priority_Attenuation_at_Max_Distance" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Priority Attenuation at Max Distance</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Priority Attenuation Max:
+Interpolated value to scale priority against when the sound is at the maximum priority attenuation distance from the closest listener.</p>
+    </td>
+</tr>
+<tr id="Priority_Attenuation_Min_Distance" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Priority Attenuation Min Distance</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Priority Attenuation Distance Min:
+The min distance to attenuate priority.</p>
+    </td>
+</tr>
+<tr id="Priority_Attenuation_Max_Distance" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Priority Attenuation Max Distance</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Priority Attenuation Distance Max:
+The max distance to attenuate priority.</p>
+    </td>
+</tr>
+<tr id="Attenuation_Priority" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Attenuation Priority</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Manual Priority Attenuation:
+Static priority scalar to use (doesn't change as a function of distance).</p>
+    </td>
+</tr>
+<tr id="Custom_Priority_Attenuation_Curve" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Custom Priority Attenuation Curve</a>
+        <div class="name-cell-arguments">
+            Runtime Float Curve Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Custom Priority Attenuation Curve:
+The custom curve to use for distance-based priority attenuation.</p>
+    </td>
+</tr>
+<tr id="Plugin_Settings" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Plugin Settings</a>
+        <div class="name-cell-arguments">
+            Sound Attenuation Plugin Settings Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Plugin Settings:
+Sound attenuation plugin settings to use with sounds that play with this attenuation setting.</p>
+    </td>
+</tr>
+<tr id="Attenuation_Function" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Attenuation Function</a>
+        <div class="name-cell-arguments">
+            EAttenuationDistanceModel Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Distance Algorithm:
+The type of attenuation as a function of distance to use.</p>
+    </td>
+</tr>
+<tr id="Attenuation_Shape" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Attenuation Shape</a>
+        <div class="name-cell-arguments">
+            EAttenuationShape Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Attenuation Shape:
+The shape of the non-custom attenuation method.</p>
+    </td>
+</tr>
+<tr id="Attenuation_at_Max_(D_B)" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Attenuation at Max (D B)</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>D BAttenuation at Max:
+The attenuation volume at the falloff distance in decibels (Only for 'Natural Sound' Distance Algorithm).</p>
+    </td>
+</tr>
+<tr id="Falloff_Mode" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Falloff Mode</a>
+        <div class="name-cell-arguments">
+            ENaturalSoundFalloffMode Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Falloff Mode:
+Whether to continue attenuating, go silent, or hold last volume value when beyond falloff bounds and
+'Attenuation At Max (dB)' is set to a value greater than -60dB.
+(Only for 'Natural Sound' Distance Algorithm). */</p>
+    </td>
+</tr>
+<tr id="Attenuation_Shape_Extents" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Attenuation Shape Extents</a>
+        <div class="name-cell-arguments">
+            Vector
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Attenuation Shape Extents:
+The dimensions to use for the attenuation shape. Interpretation of the values differ per shape.
+Sphere  - X is Sphere Radius. Y and Z are unused
+Capsule - X is Capsule Half Height, Y is Capsule Radius, Z is unused
+Box     - X, Y, and Z are the Box's dimensions
+Cone    - X is Cone Radius, Y is Cone Angle, Z is Cone Falloff Angle</p>
+    </td>
+</tr>
+<tr id="Cone_Offset" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Cone Offset</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Cone Offset:
+The distance back from the sound's origin to begin the cone when using the cone attenuation shape.</p>
+    </td>
+</tr>
+<tr id="Falloff_Distance" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Falloff Distance</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Falloff Distance:
+The distance over which volume attenuation occurs.</p>
+    </td>
+</tr>
+<tr id="Cone_Sphere_Radius" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Cone Sphere Radius</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Cone Sphere Radius:
+An optional attenuation radius (sphere) that extends from the cone origin.</p>
+    </td>
+</tr>
+<tr id="Cone_Sphere_Falloff_Distance" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Cone Sphere Falloff Distance</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Cone Sphere Falloff Distance:
+The distance over which volume attenuation occurs for the optional sphere shape.</p>
+    </td>
+</tr>
+<tr id="Custom_Attenuation_Curve" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Custom Attenuation Curve</a>
+        <div class="name-cell-arguments">
+            Runtime Float Curve Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Custom Attenuation Curve:
+The custom volume attenuation curve to use.</p>
+    </td>
+</tr>
+	</table>
+</div>
+
+</div>
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

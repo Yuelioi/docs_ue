@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/FXConverterUtilities/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>FXConverter Utilities | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/FXConverterUtilities/" hreflang="x-default" />
+
+	<meta name="title" content="FXConverter Utilities" />
+<meta name="description" content="FXConverter Utilities" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="FXConverter Utilities" />
+	<meta property="og:description" content="FXConverter Utilities" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">FXConverter Utilities</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">FXConverter Utilities</h1>
+		</div>
+		<h2 >FXConverter Utilities</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddEmptyEmitter"><p>Add Empty Emitter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add an empty emitter to the system and return an emitter conversion context.
+</p><p>Target is Niagara System Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddEventHandler"><p>Add Event Handler</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add Event Handler
+</p><p>Target is Niagara Emitter Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddModuleEventScript"><p>Add Module Event Script</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add Module Event Script
+</p><p>Target is Niagara Emitter Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddModuleScript"><p>Add Module Script</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add Module Script
+</p><p>Target is Niagara Emitter Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddRenderer"><p>Add Renderer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a renderer to this emitter conversion context through renderer properties.
+</p><p>Target is Niagara Emitter Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Cleanup"><p>Cleanup</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Cleanup
+</p><p>Target is Niagara System Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateComponentRendererPropertie-"><p>Create Component Renderer Properties</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Component Renderer Properties
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateFloatCurveDI"><p>Create Float Curve DI</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Float Curve DI
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateLightRendererProperties"><p>Create Light Renderer Properties</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Light Renderer Properties
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateMeshRendererProperties"><p>Create Mesh Renderer Properties</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Mesh Renderer Properties
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateRibbonRendererProperties"><p>Create Ribbon Renderer Properties</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Ribbon Renderer Properties
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateScriptContext"><p>Create Script Context</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Niagara Script and Script Input Helpers
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateScriptInputBool"><p>Create Script Input Bool</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Script Input Bool
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateScriptInputDI"><p>Create Script Input DI</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Script Input DI
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateScriptInputDynamic"><p>Create Script Input Dynamic</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Script Input Dynamic
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateScriptInputEnum"><p>Create Script Input Enum</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Script Input Enum
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateScriptInputFloat"><p>Create Script Input Float</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Script Input Float
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateScriptInputInt"><p>Create Script Input Int</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Script Input Int
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateScriptInputLinkedParameter"><p>Create Script Input Linked Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Script Input Linked Parameter
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateScriptInputStruct"><p>Create Script Input Struct</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Script Input Struct
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateScriptInputVec2"><p>Create Script Input Vec 2</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Script Input Vec 2
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateScriptInputVector"><p>Create Script Input Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Script Input Vector
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateSkeletalMeshDataInterface"><p>Create Skeletal Mesh Data Interface</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Niagara DI Helpers
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateSystemConversionContext"><p>Create System Conversion Context</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Niagara System and Emitter Helpers
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateVec2CurveDI"><p>Create Vec 2Curve DI</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Vec 2Curve DI
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateVec3CurveDI"><p>Create Vec 3Curve DI</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Vec 3Curve DI
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateVec4CurveDI"><p>Create Vec 4Curve DI</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Vec 4Curve DI
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Finalize"><p>Finalize</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Apply all pending UNiagaraScriptConversionContexts and UNiagaraRendererProperties to the owned
+UNiagaraEmitterContexts by creating clipboard inputs and pasting them onto the emitter conversion context's
+Emitter.
+</p><p>Target is Niagara System Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindModuleScript"><p>Find Module Script</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find Module Script
+</p><p>Target is Niagara Emitter Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindorAddModuleEventScript"><p>Find or Add Module Event Script</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find a module script conversion context or add a module script conversion context  to this emitter conversion context for an event category. If a script conversion context
+is not found by name string then a new one is created and initialized from the NiagaraScriptAssetData.
+</p><p>Target is Niagara Emitter Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindorAddModuleScript"><p>Find or Add Module Script</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find or add a script conversion context to this emitter conversion context. If a script conversion context
+is not found by name string then a new one is created and initialized from the NiagaraScriptAssetData.
+</p><p>Target is Niagara Emitter Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindRenderer"><p>Find Renderer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find an added renderer properties by name string.
+</p><p>Target is Niagara Emitter Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllRenderers"><p>Get All Renderers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get All Renderers
+</p><p>Target is Niagara Emitter Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCascadeEmitterLodLevel"><p>Get Cascade Emitter Lod Level</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Cascade Emitter Lod Level
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCascadeEmitterName"><p>Get Cascade Emitter Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Cascade Emitter Name
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCascadeSystemEmitters"><p>Get Cascade System Emitters</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Cascade Emitter and ParticleLodLevel Getters
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDistributionLockedAxes"><p>Get Distribution Locked Axes</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Distribution Locked Axes
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDistributionMinMaxValues"><p>Get Distribution Min Max Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Cascade Distribution Getters
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDistributionType"><p>Get Distribution Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Distribution Type
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEmitter"><p>Get Emitter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Emitter
+</p><p>Target is Niagara Emitter Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEnabled"><p>Get Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Enabled
+</p><p>Target is Niagara Emitter Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFloatDistributionConstCurveVa-"><p>Get Float Distribution Const Curve Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Float Distribution Const Curve Values
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFloatDistributionConstValues"><p>Get Float Distribution Const Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Float Distribution Const Values
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFloatDistributionParameterVal-"><p>Get Float Distribution Parameter Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Float Distribution Parameter Values
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFloatDistributionUniformCurve-"><p>Get Float Distribution Uniform Curve Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Float Distribution Uniform Curve Values
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFloatDistributionUniformValue-"><p>Get Float Distribution Uniform Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Float Distribution Uniform Values
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLodLevelIsEnabled"><p>Get Lod Level Is Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Lod Level Is Enabled
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLodLevelModules"><p>Get Lod Level Modules</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Lod Level Modules
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLodLevelRequiredModule"><p>Get Lod Level Required Module</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Lod Level Required Module
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLodLevelSpawnModule"><p>Get Lod Level Spawn Module</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Lod Level Spawn Module
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLodLevelTypeDataModule"><p>Get Lod Level Type Data Module</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Lod Level Type Data Module
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLongPackagePath"><p>Get Long Package Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Generic Utilities
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetModuleEnabled"><p>Get Module Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Module Enabled
+</p><p>Target is Niagara Script Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleAccelerationDra-"><p>Get Particle Module Acceleration Drag Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Acceleration Drag Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModul-"><p>Get Particle Module Acceleration Drag Scale Over Life Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Acceleration Drag Scale Over Life Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleAccelerationOve-"><p>Get Particle Module Acceleration Over Lifetime Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Acceleration Over Lifetime Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleAccelerationPro-"><p>Get Particle Module Acceleration Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Acceleration Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleAttractorLinePr-"><p>Get Particle Module Attractor Line Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Attractor Line Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleAttractorPartic-"><p>Get Particle Module Attractor Particle Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Attractor Particle Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleAttractorPointP-"><p>Get Particle Module Attractor Point Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Attractor Point Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleCameraOffsetPro-"><p>Get Particle Module Camera Offset Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Camera Offset Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleCollisionProps"><p>Get Particle Module Collision Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Collision Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleColorOverLifePr-"><p>Get Particle Module Color Over Life Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Color Over Life Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleColorProps"><p>Get Particle Module Color Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Color Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleColorScaleOverL-"><p>Get Particle Module Color Scale Over Life Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Color Scale Over Life Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleConstantAcceler-"><p>Get Particle Module Constant Acceleration Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Constant Acceleration Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleKillBoxProps"><p>Get Particle Module Kill Box Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Kill Box Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleLifetimeProps"><p>Get Particle Module Lifetime Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Lifetime Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleLightProps"><p>Get Particle Module Light Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Light Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleLocationBoneSoc-"><p>Get Particle Module Location Bone Socket Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Location Bone Socket Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleLocationDirectP-"><p>Get Particle Module Location Direct Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Location Direct Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleLocationPrimiti-"><p>Get Particle Module Location Primitive Cylinder Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Location Primitive Cylinder Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleLocationPrimiti-_1"><p>Get Particle Module Location Primitive Sphere Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Location Primitive Sphere Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleLocationProps"><p>Get Particle Module Location Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Location Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleMeshMaterialPro-"><p>Get Particle Module Mesh Material Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Mesh Material Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleMeshRotationPro-"><p>Get Particle Module Mesh Rotation Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Mesh Rotation Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModul-_1"><p>Get Particle Module Mesh Rotation Rate Multiply Life Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Mesh Rotation Rate Multiply Life Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleMeshRotationRat-"><p>Get Particle Module Mesh Rotation Rate Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Mesh Rotation Rate Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleOrbitProps"><p>Get Particle Module Orbit Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Orbit Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleOrientationAxis-"><p>Get Particle Module Orientation Axis Lock Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Orientation Axis Lock Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleParameterDynami-"><p>Get Particle Module Parameter Dynamic Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Parameter Dynamic Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModulePivotOffsetProp-"><p>Get Particle Module Pivot Offset Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Pivot Offset Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleRequiredPerEmit-"><p>Get Particle Module Required Per Emitter Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Required Per Emitter Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleRequiredPerModu-"><p>Get Particle Module Required Per Module Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Required Per Module Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleRequiredPerRend-"><p>Get Particle Module Required Per Renderer Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Required Per Renderer Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleRotationOverLif-"><p>Get Particle Module Rotation Over Lifetime Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Rotation Over Lifetime Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleRotationProps"><p>Get Particle Module Rotation Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Rotation Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleRotationRatePro-"><p>Get Particle Module Rotation Rate Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Rotation Rate Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleSizeMultiplyLif-"><p>Get Particle Module Size Multiply Life Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Size Multiply Life Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleSizeProps"><p>Get Particle Module Size Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Size Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleSizeScalebySpee-"><p>Get Particle Module Size Scale by Speed Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Size Scale by Speed Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleSizeScaleProps"><p>Get Particle Module Size Scale Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Size Scale Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleSpawnPerUnitPro-"><p>Get Particle Module Spawn Per Unit Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Spawn Per Unit Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleSpawnProps"><p>Get Particle Module Spawn Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Spawn Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleSubUVMovieProps"><p>Get Particle Module Sub UVMovie Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Sub UVMovie Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleSubUVProps"><p>Get Particle Module Sub UVProps</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Sub UVProps
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleTrailSourceProp-"><p>Get Particle Module Trail Source Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Trail Source Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleTypeDataGpuProp-"><p>Get Particle Module Type Data Gpu Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Type Data Gpu Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleTypeDataMeshPro-"><p>Get Particle Module Type Data Mesh Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Type Data Mesh Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleTypeDataRibbonC-"><p>Get Particle Module Type Data Ribbon Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Type Data Ribbon Class
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleTypeDataRibbonP-"><p>Get Particle Module Type Data Ribbon Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Type Data Ribbon Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleVectorFieldLoca-"><p>Get Particle Module Vector Field Local Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Vector Field Local Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleVectorFieldRota-"><p>Get Particle Module Vector Field Rotation Rate Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Vector Field Rotation Rate Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleVelocityInherit-"><p>Get Particle Module Velocity Inherit Parent Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Velocity Inherit Parent Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleVelocityOverLif-"><p>Get Particle Module Velocity Over Lifetime Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Velocity Over Lifetime Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParticleModuleVelocityProps"><p>Get Particle Module Velocity Props</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Particle Module Velocity Props
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorDistributionConstCurveV-"><p>Get Vector Distribution Const Curve Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Vector Distribution Const Curve Values
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorDistributionConstValues"><p>Get Vector Distribution Const Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Vector Distribution Const Values
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorDistributionParameterVa-"><p>Get Vector Distribution Parameter Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Vector Distribution Parameter Values
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorDistributionUniformCurv-"><p>Get Vector Distribution Uniform Curve Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Vector Distribution Uniform Curve Values
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorDistributionUniformValu-"><p>Get Vector Distribution Uniform Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Vector Distribution Uniform Values
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="KeysfromInterpCurveFloat"><p>Keys from Interp Curve Float</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Cascade curve helpers
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="KeysfromInterpCurveTwoVectors"><p>Keys from Interp Curve Two Vectors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Keys from Interp Curve Two Vectors
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="KeysfromInterpCurveVector"><p>Keys from Interp Curve Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Keys from Interp Curve Vector
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="KeysfromInterpCurveVector2D"><p>Keys from Interp Curve Vector 2D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Keys from Interp Curve Vector 2D
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Log"><p>Log</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Log a message to the stack and the niagara message log for the module associated with this script.
+</p><p>Target is Niagara Script Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveModuleScriptsforAssets"><p>Remove Module Scripts for Assets</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove Module Scripts for Assets
+</p><p>Target is Niagara Emitter Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetEnabled"><p>Set Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Enabled
+</p><p>Target is Niagara Emitter Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMeshRendererMaterialOverrides-"><p>Set Mesh Renderer Material Overrides from Cascade</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Mesh Renderer Material Overrides from Cascade
+</p><p>Target is FXConverter Utilities Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetModuleEnabled"><p>Set Module Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Module Enabled
+</p><p>Target is Niagara Script Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetParameter"><p>Set Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set a parameter on the Script this Script Conversion Context holds.
+</p><p>Target is Niagara Script Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetParameterDirectly"><p>Set Parameter Directly</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a set parameter module to the emitter handled by this emitter conversion context.
+</p><p>Target is Niagara Emitter Conversion Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRendererBinding"><p>Set Renderer Binding</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Renderer Binding
+</p><p>Target is Niagara Emitter Conversion Context</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

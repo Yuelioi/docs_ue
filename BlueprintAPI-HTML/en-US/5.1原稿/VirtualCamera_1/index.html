@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/VirtualCamera_1/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Virtual Camera | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/VirtualCamera_1/" hreflang="x-default" />
+
+	<meta name="title" content="Virtual Camera" />
+<meta name="description" content="Virtual Camera" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Virtual Camera" />
+	<meta property="og:description" content="Virtual Camera" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Virtual Camera</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Virtual Camera</h1>
+		</div>
+		<h2 >Virtual Camera</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    			    <li id="">
+	<p><a id="toc_link" href="#categories">Categories</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ActivateGameViewport"><p>Activate Game Viewport</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Helper to bring the game viewport to front.
+</p><p>Target is Virtual Camera Player Controller Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddBlendabletoCamera"><p>Add Blendable to Camera</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add Blendable to Camera
+</p><p>Target is Virtual Camera Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddBlendabletoCamera_Message"><p>Add Blendable to Camera (Message)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add Blendable to Camera
+</p><p>Target is Virtual Camera Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddModifier"><p>Add Modifier</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a modifier to the stack with a given name.
+If that name is already in use then the modifier will not be added.
+Returns the created modifier if the Add succeeded
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddonVirtualCameraUpdatedDelegat-"><p>Add on Virtual Camera Updated Delegate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delegate that will be executed every tick while streaming.
+</p><p>Target is Virtual Camera Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddonVirtualCameraUpdatedDelegat-_1"><p>Add on Virtual Camera Updated Delegate (Message)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delegate that will be executed every tick while streaming.
+</p><p>Target is Virtual Camera Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddOutputProvider"><p>Add Output Provider</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Output Provider access
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CalculateAutoFocusDistance"><p>Calculate Auto Focus Distance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Calculates auto focus
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CallFunctionbyName"><p>Call Function by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the function was found &amp; executed correctly.
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConvertStringtoFrameRate"><p>Convert String to Frame Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a double framerate to a FFrameRate
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EditorSetGameView"><p>Editor Set Game View</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the current game view
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EnableDebugFocusPlane"><p>Enable Debug Focus Plane</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Enable/Disable debug focus plane
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllModifiers"><p>Get All Modifiers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all the Modifiers in the Component's Stack
+Note: It's possible not all Modifiers will be valid (such as if the user has not set a class for the modifier in the details panel)
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllOutputProviders"><p>Get All Output Providers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get All Output Providers
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllVCamComponentsinLevel"><p>Get All VCam Components in Level</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find all loaded VCam Components own by an actor in the world editor. Exclude actor that are pending kill, in PIE, PreviewEditor, ...
+</p><p>Target is VCam Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBoundObjects"><p>Get Bound Objects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get UObject from Camera Object Bindings
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentLevelSequence"><p>Get Current Level Sequence</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the currently opened level sequence asset
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentLevelSequenceCurrentFr-"><p>Get Current Level Sequence Current Frame</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current playback position in frames
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentLiveLinkDatafromOwning-"><p>Get Current Live Link Data from Owning Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Current Live Link Data from Owning Component
+</p><p>Target is VCam Modifier</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDisplayRate"><p>Get Display Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Grab the display rate from a LevelSequences' MovieScene
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDistanceinDesiredUnits"><p>Get Distance in Desired Units</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a distance in unreal units (cm) to other units of measurement for display.
+</p><p>Target is Virtual Camera Player Controller Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFocusInterpSpeed"><p>Get Focus Interp Speed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get FocusInterpSpeed variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetJoysticksSpeed"><p>Get Joysticks Speed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get JoysticksSpeed variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLevelSequenceFrameasTimecode"><p>Get Level Sequence Frame as Timecode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert a frame from a level sequence to timecode
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLevelSequenceFrameasTimecodeW-"><p>Get Level Sequence Frame as Timecode Without Object</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert a frame from a level sequence to timecode using only a provided display rate
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLevelSequenceLengthinFrames"><p>Get Level Sequence Length in Frames</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get length in frames of a level sequence
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLiveLinkDataforCurrentFrame"><p>Get Live Link Data for Current Frame</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Live Link Data for Current Frame
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalTransform"><p>Get Local Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the unmodified local transform.
+</p><p>Target is Virtual Camera Movement</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaxJoysticksSpeed"><p>Get Max Joysticks Speed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get MaxJoysticksSpeed variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetModifierbyIndex"><p>Get Modifier by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the Modifier in the Stack with the given index if it exist.
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetModifierbyName"><p>Get Modifier by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Tries to find a Modifier in the Stack with the given name.
+The returned Modifier must be checked before it is used.
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetModifierContext"><p>Get Modifier Context</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current Modifier Context
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetModifiersbyClass"><p>Get Modifiers by Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a specific Modifier class, returns a list of matching Modifiers
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetModifiersbyInterface"><p>Get Modifiers by Interface</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a specific Interface class, returns a list of matching Modifiers
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNextUndoDescription"><p>Get Next Undo Description</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the description of the undo action that will be performed next.
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumberOfModifiers"><p>Get Number Of Modifiers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of Modifiers in the Component's Stack
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumberOfOutputProviders"><p>Get Number Of Output Providers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Number Of Output Providers
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOutputProviderbyIndex"><p>Get Output Provider by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Output Provider by Index
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOutputProvidersbyClass"><p>Get Output Providers by Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Output Providers by Class
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOwningVCamComponent"><p>Get Owning VCam Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Owning VCam Component
+</p><p>Target is VCam Modifier</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSavedVirtualCameraFilmbackPre-"><p>Get Saved Virtual Camera Filmback Preset Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get VirtualCameraFilmback variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetShouldDisplayFilmLeader"><p>Get Should Display Film Leader</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get bDisplayFilmLeader variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetShouldOverrideCameraSettingso-"><p>Get Should Override Camera Settings on Teleport</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get bOverrideCameraSettingsOnTeleportToScreenshot variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTargetCamera"><p>Get Target Camera</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the Target CineCameraComponent
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTeleportonStart"><p>Get Teleport on Start</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get bTeleportOnStart variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTransform"><p>Get Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the modified transform.
+</p><p>Target is Virtual Camera Movement</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUserSettings"><p>Get User Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get User Settings
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVirtualCameraController"><p>Get Virtual Camera Controller</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Virtual Camera Controller
+</p><p>Target is VirtualCameraSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ImportSnapshotTexture"><p>Import Snapshot Texture</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Imports image as a uasset
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InitializeAutoFocusPoint"><p>Initialize Auto Focus Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the autofocus point to the correct starting location at the center of the screen
+</p><p>Target is Virtual Camera Player Controller Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InjectGamepadKeybinds"><p>Inject Gamepad Keybinds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Fills the Axis/Action mappings with assosiated gamepad bindings
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InsertModifier"><p>Insert Modifier</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Insert a modifier to the stack with a given name and index.
+If that name is already in use then the modifier will not be added.
+The index must be between zero and the number of existing modifiers inclusive
+Returns the created modifier if the Add succeeded
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InsertOutputProvider"><p>Insert Output Provider</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Insert Output Provider
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsCurrentLevelSequencePlaying"><p>Is Current Level Sequence Playing</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether the sequence is actively playing.
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsEnabled"><p>Is Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Is Enabled
+</p><p>Target is VCam Modifier</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsGameRunning"><p>Is Game Running</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if not in editor or if running the game in PIE or Simulate
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsMapGrayscle"><p>Is Map Grayscle</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get bIsMapGrayscale variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnComponentReplaced"><p>On Component Replaced</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Component Replaced:
+There are situations in the editor where the component may be replaced by another component as part of the actor being reconstructed
+This event will notify you of that change and give you a reference to the new component.
+Bindings will be copied to the new component so you do not need to rebind this event
+</p><p>Note: When the component is replaced you will need to get all properties on the component again such as Modifiers and Output Providers</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PauseCurrentLevelSequence"><p>Pause Current Level Sequence</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Pause the current level sequence
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlayCurrentLevelSequence"><p>Play Current Level Sequence</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Play the current level sequence
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveAllModifiers"><p>Remove All Modifiers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove all Modifiers from the Stack.
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveAllOutputProviders"><p>Remove All Output Providers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove all Output Providers from the Component.
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveModifier"><p>Remove Modifier</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the given Modifier from the Stack.
+Returns true if the modifier was removed successfully
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveModifierbyIndex"><p>Remove Modifier by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the Modifier at a specified index from the Stack.
+Returns true if the modifier was removed successfully
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveModifierbyName"><p>Remove Modifier by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the Modifier with a specific name from the Stack.
+Returns true if the modifier was removed successfully
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveonVirtualCameraUpdatedDele-"><p>Remove on Virtual Camera Updated Delegate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove delegate that is executed every tick while streaming.
+</p><p>Target is Virtual Camera Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveonVirtualCameraUpdatedDele-_1"><p>Remove on Virtual Camera Updated Delegate (Message)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove delegate that is executed every tick while streaming.
+</p><p>Target is Virtual Camera Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveOutputProvider"><p>Remove Output Provider</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove Output Provider
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveOutputProviderbyIndex"><p>Remove Output Provider by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove Output Provider by Index
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResetLocalAxis"><p>Reset Local Axis</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the axis transform, all scaling factor will be calculated from the origin.
+</p><p>Target is Virtual Camera Movement</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCurrentLevelSequenceCurrentFr-"><p>Set Current Level Sequence Current Frame</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set playback position for the current level sequence in frames
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetEnabled"><p>Set Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Enabled
+</p><p>Target is VCam Modifier</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetFocusInterpSpeed"><p>Set Focus Interp Speed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set FocusInterpSpeed variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIsMapGrayscle"><p>Set Is Map Grayscle</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set bIsMapGrayscale variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetJoysticksSpeed"><p>Set Joysticks Speed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set JoysticksSpeed variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalAxis"><p>Set Local Axis</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the transform from where the scaling factor will be calculated from.
+</p><p>Target is Virtual Camera Movement</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalTransform"><p>Set Local Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the local transform that will be modified by the scaling factor.
+</p><p>Target is Virtual Camera Movement</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocationScale"><p>Set Location Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Scale the local location of the local transform from the local axis.
+</p><p>Target is Virtual Camera Movement</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMaxJoysticksSpeed"><p>Set Max Joysticks Speed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set MaxJoysticksSpeed variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetModifierContextClass"><p>Set Modifier Context Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the Modifier Context to a new instance of the provided class
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetModifierIndex"><p>Set Modifier Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Moves an existing modifier in the stack from its current index to a new index
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetOutputProviderIndex"><p>Set Output Provider Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Moves an existing Output Provider in the stack from its current index to a new index
+</p><p>Target is VCam Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRotationScale"><p>Set Rotation Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Scale the local rotation of the local transform from the local axis.
+</p><p>Target is Virtual Camera Movement</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSavedVirtualCameraFilmbackPre-"><p>Set Saved Virtual Camera Filmback Preset Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set VirtualCameraFilmback variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetShouldDisplayFilmLeader"><p>Set Should Display Film Leader</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set bDisplayFilmLeader variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetShouldOverrideCameraSettingso-"><p>Set Should Override Camera Settings on Teleport</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set bOverrideCameraSettingsOnTeleportToScreenshot variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTeleportonStart"><p>Set Teleport on Start</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set bTeleportOnStart variable
+</p><p>Target is Virtual Camera User Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVirtualCameraController"><p>Set Virtual Camera Controller</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Virtual Camera Controller
+</p><p>Target is VirtualCameraSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TimecodetoFrameAmount"><p>Timecode to Frame Amount</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert timecode to amount of frames at a given framerate
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UpdatePostProcessSettingsforCapt-"><p>Update Post Process Settings for Capture</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Updates the provided USceneCaptureComponent2D's PostProcessingSettings. Returns true on success.
+</p><p>Target is VCam Blueprint Function Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+<h2 id="categories">Categories</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CinematicCamera"><p>Cinematic Camera</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Cinematic Camera</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Input"><p>Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>These are nodes that provide input from various sources (keyboard, mouse, gamepad etc.)</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Movement"><p>Movement</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Movement</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Screenshots"><p>Screenshots</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Screenshots</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Sequencer"><p>Sequencer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sequencer</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Settings"><p>Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Waypoints"><p>Waypoints</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Waypoints</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

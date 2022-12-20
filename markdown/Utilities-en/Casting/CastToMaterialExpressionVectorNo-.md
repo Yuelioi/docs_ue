@@ -1,0 +1,22 @@
+# CastToMaterialExpressionVectorNo-
+
+Tries to access object as a class it may be an instance of.
+
+## 图示
+
+![]($-20221218-13004924.png)
+
+## Inputs
+
+In: Exec.
+
+Object: Object Wildcard.  
+
+## Outputs
+
+Out: Exec.
+
+Cast Failed: Exec.
+
+As Material Expression Vector Noise: Material Expression Vector Noise Object Reference.
+

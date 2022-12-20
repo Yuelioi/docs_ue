@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Ability/Tasks/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Tasks | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Ability/Tasks/" hreflang="x-default" />
+
+	<meta name="title" content="Tasks" />
+<meta name="description" content="Tasks" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Ability" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Tasks" />
+	<meta property="og:description" content="Tasks" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Ability">Ability</a>
+
+<span class="separator">></span> <span id="page">Tasks</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Tasks</h1>
+		</div>
+		<h2 >Tasks</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ApplyRootMotionConstantForce"><p>Apply Root Motion Constant Force</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Apply force to character's movement
+</p><p>Target is Ability Task Apply Root Motion Constant Force</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ApplyRootMotionJumpForce"><p>Apply Root Motion Jump Force</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Apply force to character's movement
+</p><p>Target is Ability Task Apply Root Motion Jump Force</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ApplyRootMotionMovetoActorForce"><p>Apply Root Motion Move to Actor Force</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Apply force to character's movement
+</p><p>Target is Ability Task Apply Root Motion Move to Actor Force</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ApplyRootMotionMovetoForce"><p>Apply Root Motion Move to Force</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Apply force to character's movement
+</p><p>Target is Ability Task Apply Root Motion Move to Force</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ApplyRootMotionMovetoTargetDataA-"><p>Apply Root Motion Move to Target Data Actor Force</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Apply force to character's movement using an index into targetData instead of using an actor directly.
+</p><p>Target is Ability Task Apply Root Motion Move to Actor Force</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ApplyRootMotionRadialForce"><p>Apply Root Motion Radial Force</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Apply force to character's movement
+</p><p>Target is Ability Task Apply Root Motion Radial Force</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Finish"><p>Finish</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Finish
+</p><p>Target is Ability Task Apply Root Motion Jump Force</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MovetoLocation"><p>Move to Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Move to the specified location, using the vector curve (range 0 - 1) if specified, otherwise the float curve (range 0 - 1) or fallback to linear interpolation
+</p><p>Target is Ability Task Move to Location</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlayMontageAndWait"><p>PlayMontageAndWait</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Start playing an animation montage on the avatar actor and wait for it to finish
+If StopWhenAbilityEnds is true, this montage will be aborted if the ability ends normally. It is always stopped when the ability is explicitly cancelled.
+On normal execution, OnBlendOut is called when the montage is blending out, and OnCompleted when it is completely done playing
+OnInterrupted is called if another montage overwrites this, and OnCancelled is called if the ability or task is cancelled
+</p><p>Target is Ability Task Play Montage and Wait</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RepeatAction"><p>Repeat Action</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Start a task that repeats an action or set of actions.
+</p><p>Target is Ability Task Repeat</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnActor"><p>Spawn Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn new Actor on the network authority (server)
+</p><p>Target is Ability Task Spawn Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="StartAbilityState"><p>Start Ability State</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Starts a new ability state.
+</p><p>Target is Ability Task Start Ability State</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VisualizeTargeting"><p>Visualize Targeting</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawns target actor and uses it for visualization.
+</p><p>Target is Ability Task Visualize Targeting</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VisualizeTargetingUsingActor"><p>Visualize Targeting Using Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Visualize target using a specified target actor.
+</p><p>Target is Ability Task Visualize Targeting</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitConfirm"><p>Wait Confirm</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until the server confirms the use of this ability. This is used to gate predictive portions of the ability
+</p><p>Target is Ability Task Wait Confirm</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitDelay"><p>Wait Delay</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait specified time. This is functionally the same as a standard Delay node.
+</p><p>Target is Ability Task Wait Delay</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitforAbilityActivate"><p>Wait for Ability Activate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until a new ability (of the same or different type) is activated. Only input based abilities will be counted unless IncludeTriggeredAbilities is true.
+</p><p>Target is Ability Task Wait Ability Activate</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitforAbilityActivateQuery"><p>Wait for Ability Activate Query</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until a new ability (of the same or different type) is activated. Only input based abilities will be counted unless IncludeTriggeredAbilities is true.
+</p><p>Target is Ability Task Wait Ability Activate</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitforAbilityActivatewithTagReq-"><p>Wait for Ability Activate with Tag Requirements</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until a new ability (of the same or different type) is activated. Only input based abilities will be counted unless IncludeTriggeredAbilities is true. Uses a tag requirements structure to filter abilities.
+</p><p>Target is Ability Task Wait Ability Activate</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitforAttributeChange"><p>Wait for Attribute Change</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until an attribute changes.
+</p><p>Target is Ability Task Wait Attribute Change</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitforAttributeChangeRatioThres-"><p>Wait for Attribute Change Ratio Threshold</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait on attribute ratio change meeting a comparison threshold.
+</p><p>Target is Ability Task Wait Attribute Change Ratio Threshold</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitforAttributeChangeThreshold"><p>Wait for Attribute Change Threshold</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait on attribute change meeting a comparison threshold.
+</p><p>Target is Ability Task Wait Attribute Change Threshold</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitforAttributeChangewithCompar-"><p>Wait for Attribute Change with Comparison</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until an attribute changes to pass a given test.
+</p><p>Target is Ability Task Wait Attribute Change</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitforAttributeChanged"><p>Wait for Attribute Changed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait for Attribute Changed
+</p><p>Target is Ability Async Wait Attribute Changed</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitforCancelInput"><p>Wait for Cancel Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait Cancel
+</p><p>Target is Ability Task Wait Cancel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitforConfirmInput"><p>Wait for Confirm Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait Confirm Cancel
+</p><p>Target is Ability Task Wait Confirm Cancel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitforGameplayEffectRemoved"><p>Wait for Gameplay Effect Removed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until the specified gameplay effect is removed.
+</p><p>Target is Ability Task Wait Gameplay Effect Removed</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitforGameplayEffectStackChange"><p>Wait for Gameplay Effect Stack Change</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until the specified gameplay effect is removed.
+</p><p>Target is Ability Task Wait Gameplay Effect Stack Change</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitForNewAbilityCommit"><p>Wait For New Ability Commit</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until a new ability (of the same or different type) is commited.
+</p><p>Target is Ability Task Wait Ability Commit</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitForNewAbilityCommitQuery"><p>Wait For New Ability Commit Query</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait for Ability Commit Query
+</p><p>Target is Ability Task Wait Ability Commit</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitforOverlap"><p>Wait for Overlap</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until an overlap occurs. This will need to be better fleshed out so we can specify game specific collision requirements
+</p><p>Target is Ability Task Wait Overlap</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitGameplayEffectAppliedtoSelf"><p>Wait Gameplay Effect Applied to Self</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until the owner <em>receives</em> a GameplayEffect from a given source (the source may be the owner too!). If TriggerOnce is true, this task will only return one time. Otherwise it will return everytime a GE is applied that meets the requirements over the life of the ability
+Optional External Owner can be used to run this task on someone else (not the owner of the ability). By default you can leave this empty.
+</p><p>Target is Ability Task Wait Gameplay Effect Applied Self</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitGameplayEffectAppliedtoSelfQ-"><p>Wait Gameplay Effect Applied to Self Query</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until the owner <em>receives</em> a GameplayEffect from a given source (the source may be the owner too!). If TriggerOnce is true, this task will only return one time. Otherwise it will return everytime a GE is applied that meets the requirements over the life of the ability
+Optional External Owner can be used to run this task on someone else (not the owner of the ability). By default you can leave this empty.
+</p><p>This version uses FGameplayTagQuery (more power) instead of FGameplayTagRequirements (faster)
+</p><p>Target is Ability Task Wait Gameplay Effect Applied Self</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitGameplayEffectAppliedtoTarge-"><p>Wait Gameplay Effect Applied to Target</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until the owner (or External Owner) applies a GameplayEffect to a Target (the target may be the owner too!). If TriggerOnce is true, this task will only return one time. Otherwise it will return everytime a GE is applied that meets the requirements over the life of the ability
+Optional External Owner can be used to run this task on someone else (not the owner of the ability). By default you can leave this empty.
+</p><p>Target is Ability Task Wait Gameplay Effect Applied Target</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitGameplayEffectAppliedtoTarge-_1"><p>Wait Gameplay Effect Applied to Target Query</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until the owner (or External Owner) applies a GameplayEffect to a Target (the target may be the owner too!). If TriggerOnce is true, this task will only return one time. Otherwise it will return everytime a GE is applied that meets the requirements over the life of the ability
+Optional External Owner can be used to run this task on someone else (not the owner of the ability). By default you can leave this empty.
+</p><p>Target is Ability Task Wait Gameplay Effect Applied Target</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitGameplayEffectBlockedbyImmun-"><p>Wait Gameplay Effect Blocked by Immunity</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Listens for GE immunity. By default this means "this hero blocked a GE due to immunity". Setting OptionalExternalTarget will listen for a GE being blocked on an external target. Note this only works on the server.
+</p><p>Target is Ability Task Wait Gameplay Effect Blocked Immunity</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitGameplayEvent"><p>Wait Gameplay Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until the specified gameplay tag event is triggered. By default this will look at the owner of this ability. OptionalExternalTarget can be set to make this look at another actor's tags for changes
+It will keep listening as long as OnlyTriggerOnce = false
+If OnlyMatchExact = false it will trigger for nested tags
+</p><p>Target is Ability Task Wait Gameplay Event</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitGameplayTagAdd"><p>Wait Gameplay Tag Add</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until the specified gameplay tag is Added. By default this will look at the owner of this ability. OptionalExternalTarget can be set to make this look at another actor's tags for changes.
+If the tag is already present when this task is started, it will immediately broadcast the Added event. It will keep listening as long as OnlyTriggerOnce = false.
+</p><p>Target is Ability Task Wait Gameplay Tag Added</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitGameplayTagAddtoActor"><p>Wait Gameplay Tag Add to Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until the specified gameplay tag is Added to Target Actor's ability component
+If the tag is already present when this task is started, it will immediately broadcast the Added event. It will keep listening as long as OnlyTriggerOnce = false.
+</p><p>Target is Ability Async Wait Gameplay Tag Added</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitGameplayTagRemove"><p>Wait Gameplay Tag Remove</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until the specified gameplay tag is Removed. By default this will look at the owner of this ability. OptionalExternalTarget can be set to make this look at another actor's tags for changes.
+If the tag is not present when this task is started, it will immediately broadcast the Removed event. It will keep listening as long as OnlyTriggerOnce = false.
+</p><p>Target is Ability Task Wait Gameplay Tag Removed</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitGameplayTagRemovefromActor"><p>Wait Gameplay Tag Remove from Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until the specified gameplay tag is Removed from Target Actor's ability component
+If the tag is not present when this task is started, it will immediately broadcast the Removed event. It will keep listening as long as OnlyTriggerOnce = false.
+</p><p>Target is Ability Async Wait Gameplay Tag Removed</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitInputPress"><p>Wait Input Press</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until the user presses the input button for this ability's activation. Returns time this node spent waiting for the press. Will return 0 if input was already down.
+</p><p>Target is Ability Task Wait Input Press</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitInputRelease"><p>Wait Input Release</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until the user releases the input button for this ability's activation. Returns time from hitting this node, till release. Will return 0 if input was already released.
+</p><p>Target is Ability Task Wait Input Release</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitNetSync"><p>Wait Net Sync</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Synchronize execution flow between Client and Server. Depending on SyncType, the Client and Server will wait for the other to reach this node or another WaitNetSync node in the ability before continuing execution.
+</p><p>BothWait - Both Client and Server will wait until the other reaches the node. (Whoever gets their first, waits for the other before continueing).
+OnlyServerWait - Only server will wait for the client signal. Client will signal and immediately continue without waiting to hear from Server.
+OnlyClientWait - Only client will wait for the server signal. Server will signal and immediately continue without waiting to hear from Client.
+</p><p>Note that this is "ability instance wide". These sync points never affect sync points in other abilities.
+</p><p>In most cases you will have both client and server execution paths connected to the same WaitNetSync node. However it is possible to use separate nodes
+for cleanliness of the graph. The "signal" is "ability instance wide".
+</p><p>Target is Ability Task Network Sync Point</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitTargetData"><p>Wait Target Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawns target actor and waits for it to return valid data or to be canceled.
+</p><p>Target is Ability Task Wait Target Data</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitTargetDataUsingActor"><p>Wait Target Data Using Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Uses specified target actor and waits for it to return valid data or to be canceled.
+</p><p>Target is Ability Task Wait Target Data</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitMovementModeChange"><p>WaitMovementModeChange</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait until movement mode changes (E.g., landing)
+</p><p>Target is Ability Task Wait Movement Mode Change</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WaitVelocityChange"><p>WaitVelocityChange</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wait for the actor's movement component velocity to be of minimum magnitude when projected along given direction
+</p><p>Target is Ability Task Wait Velocity Change</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

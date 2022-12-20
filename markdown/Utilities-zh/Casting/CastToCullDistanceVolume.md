@@ -1,0 +1,22 @@
+# CastToCullDistanceVolume
+
+Tries to access object as a class it may be an instance of.
+
+## 图示
+
+![]($-20221218-12313623.png)
+
+## Inputs
+
+In: Exec.
+
+Object: Object Wildcard.  
+
+## Outputs
+
+Out: Exec.
+
+Cast Failed: Exec.
+
+As Cull Distance Volume: Cull Distance Volume Object Reference.
+

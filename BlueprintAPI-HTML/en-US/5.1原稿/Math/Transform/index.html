@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Math/Transform/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Transform | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Math/Transform/" hreflang="x-default" />
+
+	<meta name="title" content="Transform" />
+<meta name="description" content="Transform" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Math" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Transform" />
+	<meta property="og:description" content="Transform" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Math">Math</a>
+
+<span class="separator">></span> <span id="page">Transform</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Transform</h1>
+		</div>
+		<h2 >Transform</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BreakTransform"><p>Break Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Breaks apart a transform into location, rotation and scale
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ComposeTransforms"><p>Compose Transforms</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Compose two transforms in order: A * B.
+</p><p>Order matters when composing transforms:
+A * B will yield a transform that logically first applies A then B to any subsequent transformation.
+</p><p>Example: LocalToWorld = ComposeTransforms(DeltaRotation, LocalToWorld) will change rotation in local space by DeltaRotation.
+Example: LocalToWorld = ComposeTransforms(LocalToWorld, DeltaRotation) will change rotation in world space by DeltaRotation.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConvertTransformtoRelative"><p>Convert Transform to Relative</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert Transform to Relative
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Determinant"><p>Determinant</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Calculates the determinant of the transform (converts to FMatrix internally)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InverseTransformDirection"><p>Inverse Transform Direction</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Transform a direction vector by the inverse of the supplied transform - will not change its length.
+For example, if T was an object's transform, this would transform a direction from world space to local space.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InverseTransformLocation"><p>Inverse Transform Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Transform a position by the inverse of the supplied transform.
+For example, if T was an object's transform, this would transform a position from world space to local space.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InverseTransformRotation"><p>Inverse Transform Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Transform a rotator by the inverse of the supplied transform.
+For example, if T was an object's transform, this would transform a rotation from world space to local space.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InvertTransform"><p>Invert Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the inverse of the given transform T.
+</p><p>Example: Given a LocalToWorld transform, WorldToLocal will be returned.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Lerp_Transform"><p>Lerp (Transform)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Linearly interpolates between A and B based on Alpha (100% of A when Alpha=0 and 100% of B when Alpha=1).
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeRelativeTransform"><p>Make Relative Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Computes a relative transform of one transform compared to another.
+</p><p>Example: ChildOffset = MakeRelativeTransform(Child.GetActorTransform(), Parent.GetActorTransform())
+This computes the relative transform of the Child from the Parent.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeTransform"><p>Make Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Make a transform from location, rotation and scale
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NearlyEqual_Transform"><p>Nearly Equal (Transform)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if transform A is nearly equal to B
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SelectTransform"><p>Select Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If bPickA is true, A is returned, otherwise B is
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToMatrix_Transform"><p>To Matrix (Transform)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert a Transform to a Matrix with scale
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TransformDirection"><p>Transform Direction</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Transform a direction vector by the supplied transform - will not change its length.
+For example, if T was an object's transform, this would transform a direction from local space to world space.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TransformLocation"><p>Transform Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Transform a position by the supplied transform.
+For example, if T was an object's transform, this would transform a position from local space to world space.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TransformRotation"><p>Transform Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Transform a rotator by the supplied transform.
+For example, if T was an object's transform, this would transform a rotation from local space to world space.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

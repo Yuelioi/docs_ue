@@ -1,0 +1,22 @@
+# SwitchonESourceEffectDynamicsPea-
+
+Selects an output that matches the input value
+
+## 图示
+
+![]($-20221218-14234277.png)
+
+## Inputs
+
+In: Exec.
+
+Selection: ESourceEffectDynamicsPeakMode Enum.  
+
+## Outputs
+
+Mean Squared: Exec.
+
+Root Mean Squared: Exec.
+
+Peak: Exec.
+

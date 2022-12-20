@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/DynamicMeshComponent/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Dynamic Mesh Component | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/DynamicMeshComponent/" hreflang="x-default" />
+
+	<meta name="title" content="Dynamic Mesh Component" />
+<meta name="description" content="Dynamic Mesh Component" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Dynamic Mesh Component" />
+	<meta property="og:description" content="Dynamic Mesh Component" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Dynamic Mesh Component</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Dynamic Mesh Component</h1>
+		</div>
+		<h2 >Dynamic Mesh Component</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearOverrideRenderMaterial"><p>Clear Override Render Material</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clear any active override render material
+</p><p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearSecondaryRenderMaterial"><p>Clear Secondary Render Material</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clear any active secondary render material
+</p><p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConfigureMaterialSet"><p>Configure Material Set</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set new list of Materials for the Mesh. Dynamic Mesh Component does not have
+Slot Names, so the size of the Material Set should be the same as the number of
+different Material IDs on the mesh MaterialID attribute
+</p><p>Target is Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EnableComplexasSimpleCollision"><p>Enable Complex as Simple Collision</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>calls SetComplexAsSimpleCollisionEnabled(true, true)
+</p><p>Target is Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDynamicMesh"><p>Get Dynamic Mesh</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEnableRaytracing"><p>Get Enable Raytracing</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEnableWireframeRenderPass"><p>Get Enable Wireframe Render Pass</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOverrideRenderMaterial"><p>Get Override Render Material</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSecondaryBuffersVisibility"><p>Get Secondary Buffers Visibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSecondaryRenderMaterial"><p>Get Secondary Render Material</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetShadowsEnabled"><p>Get Shadows Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Shadows Enabled
+</p><p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTangentsType"><p>Get Tangents Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Tangents Type
+</p><p>Target is Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetViewModeOverridesEnabled"><p>Get View Mode Overrides Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get View Mode Overrides Enabled
+</p><p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasOverrideRenderMaterial"><p>Has Override Render Material</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetComplexasSimpleCollisionEnabl-"><p>Set Complex as Simple Collision Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If bEnabled=true, sets bEnableComplexCollision=true and CollisionType=CTF_UseComplexAsSimple
+If bEnabled=true, sets bEnableComplexCollision=false and CollisionType=CTF_UseDefault
+</p><p>Target is Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDeferredCollisionUpdatesEnabl-"><p>Set Deferred Collision Updates Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set value of bDeferCollisionUpdates, when enabled, collision is not automatically recomputed each time the mesh changes.
+</p><p>Target is Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDynamicMesh"><p>Set Dynamic Mesh</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the child UDynamicMesh. This can be used to 'share' a UDynamicMesh between Component instances.
+@warning Currently this is somewhat risky, it is on the caller/clients to make sure that the actual mesh is not being simultaneously modified on multiple threads
+</p><p>Target is Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetEnableRaytracing"><p>Set Enable Raytracing</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Enable/Disable raytracing support. This is an expensive call as it flushes
+the rendering queue and forces an immediate rebuild of the SceneProxy.
+</p><p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetEnableWireframeRenderPass"><p>Set Enable Wireframe Render Pass</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Configure whether wireframe rendering is enabled or not
+</p><p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetOverrideRenderMaterial"><p>Set Override Render Material</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set an active override render material. This should replace all materials during rendering.
+</p><p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSecondaryBuffersVisibility"><p>Set Secondary Buffers Visibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Show/Hide the secondary triangle buffers. Does not invalidate SceneProxy.
+</p><p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSecondaryRenderMaterial"><p>Set Secondary Render Material</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set an active secondary render material.
+</p><p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetShadowsEnabled"><p>Set Shadows Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Shadows Enabled
+</p><p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTangentsType"><p>Set Tangents Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Tangents Type
+</p><p>Target is Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetViewModeOverridesEnabled"><p>Set View Mode Overrides Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set View Mode Overrides Enabled
+</p><p>Target is Base Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UpdateCollision"><p>Update Collision</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Force an update of the Collision/Physics data for this Component.
+</p><p>Target is Dynamic Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ValidateMaterialSlots"><p>Validate Material Slots</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Compute the maximum MaterialID on the DynamicMesh, and ensure that Material Slots match.
+Pass both arguments as false to just do a check.
+</p><p>Target is Dynamic Mesh Component</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

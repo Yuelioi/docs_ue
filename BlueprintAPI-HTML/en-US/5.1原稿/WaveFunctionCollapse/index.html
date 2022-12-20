@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/WaveFunctionCollapse/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Wave Function Collapse | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/WaveFunctionCollapse/" hreflang="x-default" />
+
+	<meta name="title" content="Wave Function Collapse" />
+<meta name="description" content="Wave Function Collapse" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Wave Function Collapse" />
+	<meta property="og:description" content="Wave Function Collapse" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Wave Function Collapse</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Wave Function Collapse</h1>
+		</div>
+		<h2 >Wave Function Collapse</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddConstraint"><p>Add Constraint</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a constraint
+</p><p>Target is Wave Function Collapse Model</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddtoAdjacencytoOptionsMap"><p>Add to Adjacency to Options Map</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add an entry to an AdjacencyToOptionsMap
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BuildInitialTile"><p>Build Initial Tile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Builds the initial tile which adds every unique option in a model to its RemainingOptions array and calculates its entropy
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CalculateShannonEntropy"><p>Calculate Shannon Entropy</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Calculates Shannon Entropy from an array of options and a given model
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeriveModelfromActors"><p>Derive Model from Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Derive constraints from a given layout of actors and append them to a model
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAdjacentIndices"><p>Get Adjacent Indices</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get adjacent indices of a given index and its adjacency
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAdjacentPositions"><p>Get Adjacent Positions</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get adjacent positions of a given position and its adjacency
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetConstraintCount"><p>Get Constraint Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the total count of constraints in this model
+</p><p>Target is Wave Function Collapse Model</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNextZAxisClockwiseAdjacency"><p>Get Next ZAxis Clockwise Adjacency</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the next adjacency in clockwise direction on a Z-axis for a given adjacency.
+For example GetNextZAxisClockwiseAdjacency(Front) will return Right.
+Up or Down will return the original adjacency.
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOppositeAdjacency"><p>Get Opposite Adjacency</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the opposite adjacency for a given adjacency.  For example GetOppositeAdjacency(Front) will return Back.
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOptionContribution"><p>Get Option Contribution</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the contribution value of an option
+</p><p>Target is Wave Function Collapse Model</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOptionWeight"><p>Get Option Weight</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the weight value of an option
+</p><p>Target is Wave Function Collapse Model</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOptions"><p>Get Options</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get all options for a given key option in a given adjacency
+</p><p>Target is Wave Function Collapse Model</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPositiontoOptionMapfromActor"><p>Get Position to Option Map from Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get PositionToOptionsMap from a given actor that has ISM components.
+This is useful when you want to derive neighboring tile data from a WFC-solved actor to be used for post processing.
+This will only evaluate ISM components.
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IndexasPosition"><p>Index as Position</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert 2D array index to 3D grid position
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsOptionContained"><p>Is Option Contained</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Is the option contained in the given options array
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsSoftObjPathEqual"><p>Is Soft Obj Path Equal</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Is Soft Obj Path Equal
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeBorderOption"><p>Make Border Option</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Make FWaveFunctionCollapseOption of type: BorderOption
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeEmptyOption"><p>Make Empty Option</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Make FWaveFunctionCollapseOption of type: EmptyOption
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeVoidOption"><p>Make Void Option</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Make FWaveFunctionCollapseOption of type: VoidOption
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PositionasIndex"><p>Position as Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert 3D grid position to 2D array index
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SanitizeRotator"><p>Sanitize Rotator</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts Rotator to Matrix and back to sanitize multiple representations of the same rotation to a common Rotator value
+</p><p>Target is Wave Function Collapse BPLibrary</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetAllContributions"><p>Set All Contributions</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the contribution values of key objects to a given value
+</p><p>Target is Wave Function Collapse Model</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetAllWeights"><p>Set All Weights</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the weights of key objects to a given value
+</p><p>Target is Wave Function Collapse Model</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetOptionContribution"><p>Set Option Contribution</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the contribution value of a key object to a given value
+</p><p>Target is Wave Function Collapse Model</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetWeightsfromContributions"><p>Set Weights from Contributions</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the weights of key objects based on their contribution values
+</p><p>Target is Wave Function Collapse Model</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SwapMeshes"><p>Swap Meshes</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Swap meshes in the model with other meshes based on a map.
+This is useful when working with template meshes that need to be swapped.
+</p><p>Target is Wave Function Collapse Model</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

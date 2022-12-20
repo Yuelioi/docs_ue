@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/TextToSpeech/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Text To Speech | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/TextToSpeech/" hreflang="x-default" />
+
+	<meta name="title" content="Text To Speech" />
+<meta name="description" content="Text To Speech" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Text To Speech" />
+	<meta property="og:description" content="Text To Speech" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Text To Speech</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Text To Speech</h1>
+		</div>
+		<h2 >Text To Speech</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ActivateAllChannels"><p>Activate All Channels</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Activates all text to speech channels to accept requests for text to speech functionality.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ActivateChannel"><p>Activate Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Activates a text to speech channel to accept requests to perform text to speech functionality.
+If the provided channel Id does not exist, nothing will happen.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddCustomChannel"><p>Add Custom Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a new text to speech channel where text to speech requests are fulfilled by a user implemented C++ text to speech class.
+If you have not specified a custom text to speech class to be used, use AddDefaultChannel instead.
+This will not add a channel if the channel Id is not unique or if the user has not specified a custom text to speech class to be used in ITextToSpeechModule.
+Newly added channels must be activated to use text to speech functionalities.
+See: ITextToSpeechModule, AddDefaultChannel, ActivateChannel, ActivateAllChannels
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddDefaultChannel"><p>Add Default Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a new  channel for text to speech requests to be made to a platform C++ text to speech class.
+This will not create the channel if the provided channel id is not unique.
+Newly added channels must be activated to use text to speech functionalities.
+For out-of-the-box text to speech support, this is most likely the channel creation method you want.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeactivateAllChannels"><p>Deactivate All Channels</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Deactivates all text to speech channels making all requests for text to speech functionality do nothing.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeactivateChannel"><p>Deactivate Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Deactivates a text to speech channel and stops any vocalized strings on that channel. Future Requests for text to speech functionality will do nothing.
+If the provided channel Id does not exist, nothing will happen.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DoesChannelExist"><p>Does Channel Exist</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if a text to speech channel associated with a channel Id exists. Otherwise, the function returns false.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumberOfChannels"><p>Get Number Of Channels</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of text to speech channels that have been added.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRateonChannel"><p>Get Rate on Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the current speech rate strings are vocalized on a text to speech channel. Value is between 0.0 and 1.0.
+If the provided channel Id does not exist, 0.0f will be returned.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVolumeonChannel"><p>Get Volume on Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the current volume strings are vocalized on a text to speech channel.  Value is between 0.0f and 1.0f.
+If the provided channel Id doesn't exist, 0.0f will be returned.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsChannelActive"><p>Is Channel Active</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the text to speech channel is active, otherwise false.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsChannelMuted"><p>Is Channel Muted</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the text to speech channel is muted, otherwise false.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsSpeakingonChannel"><p>Is Speaking on Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return true when the targeted text to speech channel is vocalising, otherwise false.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MuteChannel"><p>Mute Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Mutes a text to speech channel so no vocalized strings are audible on that channel.
+If the requested channel is already muted, nothing will happen.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveAllChannels"><p>Remove All Channels</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes all text to speech channels, preventin future requests for text to speech functionality on all channels.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveChannel"><p>Remove Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes a text to speech channel, preventing all further requests for text to speech functionality from the channel.
+If the provided channel Id does not exist, nothing will happen.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRateonChannel"><p>Set Rate on Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the current speech rate strings should be vocalized on a text to speech channel.
+If the provided channel does not exist, nothing will happen.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVolumeonChannel"><p>Set Volume on Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the volume for strings vocalized on a text to speech channel.
+If the provided channel Id does not exist, nothing will happen.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpeakonChannel"><p>Speak on Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Immediately vocalizes the requested string asynchronously on the requested text to speech channel, interrupting any string that is already being vocalized on the channel.
+If the provided channel Id does not exist, nothing will be vocalized.
+Before executing this function, a text to speech channel must be added and activated.
+To create a platform default text to speech channel, use AddDefaultChannel.
+To create a custom text to speech channel with a user-implemented C++ text to speech class, use AddCustomChannel.
+This function is not intended for long strings that span multiple sentences or paragraphs.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="StopSpeakingonAllChannels"><p>Stop Speaking on All Channels</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Immediately stops strings from being vocalized on all text to speech channels.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="StopSpeakingonChannel"><p>Stop Speaking on Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Immediately stops any currently vocalized string on the channel.
+If the provided channel Id does not exist, nothing will happen.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UnmuteChannel"><p>Unmute Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Unmutes a text to speech channel so vocalized strings are audible on the channel.
+If the requested channel is already unmuted, nothing will happen.
+</p><p>Target is Text to Speech Engine Subsystem</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

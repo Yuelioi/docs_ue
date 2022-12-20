@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Utilities/Struct/MakeAudioMeterStyle/" />');
+				var udnCSS = './../../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Make AudioMeterStyle | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Utilities/Struct/MakeAudioMeterStyle/" hreflang="x-default" />
+
+	<meta name="title" content="Make AudioMeterStyle" />
+<meta name="description" content="Make AudioMeterStyle" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Utilities,BlueprintAPI/Utilities/Struct" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Make AudioMeterStyle" />
+	<meta property="og:description" content="Make AudioMeterStyle" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../../Utilities">Utilities</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Struct">Struct</a>
+
+<span class="separator">></span> <span id="page">Make AudioMeterStyle</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Make AudioMeterStyle</h1>
+		</div>
+		<h2 >Make AudioMeterStyle</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<p>Adds a node that create a 'AudioMeterStyle' from its members
+</p><div class="graph">
+	<div class="node_container pure ">
+    <div class="node">
+        
+        <div class="titlebar_node">            
+            
+            <div class="titlebar_overlay">
+                <div class="titlebar_node_text">
+                    Make AudioMeterStyle
+                </div>
+            </div>
+        </div>        
+        <div class="nodebody">
+            
+            <div class="background"></div>
+                        
+            
+            <div class="inputs">
+                <div id="pin_Meter_Value_Image" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Meter Value Image
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Background_Image" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Background Image
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Meter_Background_Image" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Meter Background Image
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Meter_Value_Background_Image" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Meter Value Background Image
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Meter_Peak_Image" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Meter Peak Image
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Meter_Size" class="pin_container ">
+        <div class="pin vector2d struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Meter Size
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>250.000000
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>25.000000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Meter_Padding" class="pin_container ">
+        <div class="pin vector2d struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Meter Padding
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>10.000000
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>5.000000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Meter_Value_Padding" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Meter Value Padding
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Peak_Value_Width" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Peak Value Width
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Value_Range_Db" class="pin_container ">
+        <div class="pin vector2d struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Value Range Db
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>-60.000000
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>10.000000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Show_Scale" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Show Scale
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Scale_Side" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Scale Side
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Scale_Hash_Offset" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Scale Hash Offset
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Scale_Hash_Width" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Scale Hash Width
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Scale_Hash_Height" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Scale Hash Height
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Decibels_Per_Hash" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Decibels Per Hash
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        5
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Font" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Font
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                   
+               
+            <div class="outputs">
+                <div id="pin_Audio_Meter_Style" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Audio Meter Style
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                      
+        </div>
+    </div>
+</div>
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'inputs');">
+        <p>Inputs</p>
+    </div>
+<div id="inputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Meter_Value_Image" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Meter Value Image</a>
+        <div class="name-cell-arguments">
+            Slate Brush Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Meter Value Image:
+Image to use to represent the meter value.</p>
+    </td>
+</tr>
+<tr id="Background_Image" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Background Image</a>
+        <div class="name-cell-arguments">
+            Slate Brush Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Background Image:
+Image to use to represent the background.</p>
+    </td>
+</tr>
+<tr id="Meter_Background_Image" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Meter Background Image</a>
+        <div class="name-cell-arguments">
+            Slate Brush Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Meter Background Image:
+Image to use to represent the meter background.</p>
+    </td>
+</tr>
+<tr id="Meter_Value_Background_Image" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Meter Value Background Image</a>
+        <div class="name-cell-arguments">
+            Slate Brush Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Meter Value Background Image:
+Image to use to draw behind the meter value.</p>
+    </td>
+</tr>
+<tr id="Meter_Peak_Image" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Meter Peak Image</a>
+        <div class="name-cell-arguments">
+            Slate Brush Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Meter Peak Image:
+Image to use to represent the meter peak.</p>
+    </td>
+</tr>
+<tr id="Meter_Size" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector2d struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Meter Size</a>
+        <div class="name-cell-arguments">
+            Vector 2D Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Meter Size:
+How thick to draw the meter</p>
+    </td>
+</tr>
+<tr id="Meter_Padding" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector2d struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Meter Padding</a>
+        <div class="name-cell-arguments">
+            Vector 2D Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Meter Padding:
+How much padding to add around the meter</p>
+    </td>
+</tr>
+<tr id="Meter_Value_Padding" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Meter Value Padding</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Meter Value Padding:
+How much padding to add around the meter value</p>
+    </td>
+</tr>
+<tr id="Peak_Value_Width" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Peak Value Width</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Peak Value Width:
+How wide to draw the peak value indicator</p>
+    </td>
+</tr>
+<tr id="Value_Range_Db" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector2d struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Value Range Db</a>
+        <div class="name-cell-arguments">
+            Vector 2D Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Value Range Db:
+The minimum and maximum value to display in dB (values are clamped in this range)</p>
+    </td>
+</tr>
+<tr id="Show_Scale" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Show Scale</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Show Scale:
+Whether or not to show the decibel scale alongside the meter</p>
+    </td>
+</tr>
+<tr id="Scale_Side" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Scale Side</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Scale Side:
+Which side to show the scale. If vertical, true means left side, false means right side. If horizontal, true means above, false means below.</p>
+    </td>
+</tr>
+<tr id="Scale_Hash_Offset" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Scale Hash Offset</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Scale Hash Offset:
+Offset for the hashes</p>
+    </td>
+</tr>
+<tr id="Scale_Hash_Width" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Scale Hash Width</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Scale Hash Width:
+The width of each hash mark</p>
+    </td>
+</tr>
+<tr id="Scale_Hash_Height" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Scale Hash Height</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Scale Hash Height:
+The height of each hash mark</p>
+    </td>
+</tr>
+<tr id="Decibels_Per_Hash" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Decibels Per Hash</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Decibels Per Hash:
+How wide to draw the decibel scale, if it's enabled</p>
+    </td>
+</tr>
+<tr id="Font" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Font</a>
+        <div class="name-cell-arguments">
+            Slate Font Info Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Font:
+Font family and size to be used when displaying the meter scale.</p>
+    </td>
+</tr>
+	</table>
+</div>
+
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'outputs');">
+        <p>Outputs</p>
+    </div>
+<div id="outputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Audio_Meter_Style" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Audio Meter Style</a>
+        <div class="name-cell-arguments">
+            Audio Meter Style Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+	</table>
+</div>
+
+</div>
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

@@ -1,0 +1,1607 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Datasmith/Element/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Element | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Datasmith/Element/" hreflang="x-default" />
+
+	<meta name="title" content="Element" />
+<meta name="description" content="Element" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Datasmith" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Element" />
+	<meta property="og:description" content="Element" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Datasmith">Datasmith</a>
+
+<span class="separator">></span> <span id="page">Element</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Element</h1>
+		</div>
+		<h2 >Element</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddActorBinding"><p>Add Actor Binding</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds an existing actor binding to this variant
+</p><p>Target is Datasmith Variant Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddChild"><p>Add Child</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a child to the Actor Element
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddMaterialOverride"><p>Add Material Override</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a new material to the Actor Element
+</p><p>Target is Datasmith Mesh Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddProperty"><p>Add Property</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a property to this blueprint actor
+</p><p>Target is Datasmith Custom Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddPropertyCapture"><p>Add Property Capture</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds an existing property capture to this binding
+</p><p>Target is Datasmith Actor Binding Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddVariant"><p>Add Variant</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds an existing variant to this variant set
+</p><p>Target is Datasmith Variant Set Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddVariantSet"><p>Add Variant Set</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds an existing variant set to this level variant sets
+</p><p>Target is Datasmith Level Variant Sets Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActor"><p>Get Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the actor that this binding will try capturing
+</p><p>Target is Datasmith Actor Binding Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorBinding"><p>Get Actor Binding</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets an actor binding from this variant
+</p><p>Target is Datasmith Variant Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorBindingsCount"><p>Get Actor Bindings Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets how many actor bindings are in this variant
+</p><p>Target is Datasmith Variant Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllowResize"><p>Get Allow Resize</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get allow texture resizing
+</p><p>Target is Datasmith Texture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAssociatedElement"><p>Get Associated Element</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the element that is associated with this meta data
+</p><p>Target is Datasmith Meta Data Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBoundingBoxDepth"><p>Get Bounding Box Depth</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the bounding box depth
+</p><p>Target is Datasmith Mesh Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBoundingBoxHeight"><p>Get Bounding Box Height</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the bounding box height
+</p><p>Target is Datasmith Mesh Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBoundingBoxSize"><p>Get Bounding Box Size</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the bounding box represented by a Vector. X is Width, Y is Height, Z is Depth.
+</p><p>Target is Datasmith Mesh Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBoundingBoxWidth"><p>Get Bounding Box Width</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the bounding box width
+</p><p>Target is Datasmith Mesh Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCameraISO"><p>Get Camera ISO</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get camera ISO
+</p><p>Target is Datasmith Post Process Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCameraShutterSpeed"><p>Get Camera Shutter Speed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get camera shutter speed in 1/seconds (ie: 60 = 1/60s)
+</p><p>Target is Datasmith Post Process Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCategory"><p>Get Category</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the category of this property capture
+</p><p>Target is Datasmith Base Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetChildren"><p>Get Children</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the children of the mesh actor. Use AddChild -or- RemoveChild to modify the actor's children
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetChildrenCount"><p>Get Children Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the number of children on this actor
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetClassorPathName"><p>Get Class or Path Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>The blueprint to instantiate.
+</p><p>Target is Datasmith Custom Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetColor"><p>Get Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get light color on linear mode
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetColorFilter"><p>Get Color Filter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set color filter in linear color scale
+</p><p>Target is Datasmith Post Process Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetColorSpace"><p>Get Color Space</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the color space of the texture
+</p><p>Target is Datasmith Texture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDof"><p>Get Dof</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get depth of field multiplier
+</p><p>Target is Datasmith Post Process Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetElementName"><p>Get Element Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the element name
+</p><p>Target is Datasmith Object Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFile"><p>Get File</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the output filename, it can be absolute or relative to the scene file
+</p><p>Target is Datasmith Mesh Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFocalLength"><p>Get Focal Length</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get camera focal length in millimeters
+</p><p>Target is Datasmith Camera Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFocusDistance"><p>Get Focus Distance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get camera focus distance in centimeters
+</p><p>Target is Datasmith Camera Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFStop"><p>Get FStop</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get camera FStop also known as FNumber
+</p><p>Target is Datasmith Camera Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetId"><p>Get Id</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Id
+</p><p>Target is Datasmith Material IDElement</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetIesBrightnessScale"><p>Get Ies Brightness Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the Ies brightness multiplier
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetIesFile"><p>Get Ies File</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the path of the Ies definition file
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetIntensity"><p>Get Intensity</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get light intensity
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLabel"><p>Get Label</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the element label used in the UI
+</p><p>Target is Datasmith Object Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLayer"><p>Get Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the the name of the layer that contains this entity
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLightMapArea"><p>Get Light Map Area</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the total surface area
+</p><p>Target is Datasmith Mesh Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLightmapCoordinateIndex"><p>Get Lightmap Coordinate Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the UV channel that will be used for the lightmap
+</p><p>Target is Datasmith Mesh Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLightmapSourceUV"><p>Get Lightmap Source UV</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the source UV channel that will be used at import to generate the lightmap UVs
+</p><p>Target is Datasmith Mesh Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLookatActor"><p>Get Look at Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get camera look at actor name
+</p><p>Target is Datasmith Camera Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLookatAllowRoll"><p>Get Look at Allow Roll</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get camera look at allow roll state
+</p><p>Target is Datasmith Camera Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterial"><p>Get Material</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the material name in the material slot SlotId
+</p><p>Target is Datasmith Mesh Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterialOverridesCount"><p>Get Material Overrides Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the amount of materials on this mesh
+</p><p>Target is Datasmith Mesh Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterials"><p>Get Materials</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the i-th material of this actor
+</p><p>Target is Datasmith Mesh Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMeshElement"><p>Get Mesh Element</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the Datasmith MeshElement associated with the actor. The Mesh can be a direct reference to an Unreal Mesh. If it's the case it will return an invalid MeshElement.
+</p><p>Target is Datasmith Mesh Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMotionBlur"><p>Get Motion Blur</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get motion blur multiplier
+</p><p>Target is Datasmith Post Process Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPostProcess"><p>Get Post Process</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get camera's postprocess
+</p><p>Target is Datasmith Camera Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetProperties"><p>Get Properties</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get this metadata element properties as a map of keys and values
+</p><p>Target is Datasmith Meta Data Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPropertiesCount"><p>Get Properties Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the total amount of properties in this blueprint actor
+</p><p>Target is Datasmith Custom Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetProperty"><p>Get Property</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the property i-th of this blueprint actor
+</p><p>Target is Datasmith Custom Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPropertybyName"><p>Get Property by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a property by its name if it exists
+</p><p>Target is Datasmith Meta Data Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPropertyCapture"><p>Get Property Capture</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets property that will be captured from the bound actor
+</p><p>Target is Datasmith Actor Binding Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPropertyCapturesCount"><p>Get Property Captures Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets how many properties will be captured from the bound actor
+</p><p>Target is Datasmith Actor Binding Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPropertyPath"><p>Get Property Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the path used when attempting to capture a generic property
+</p><p>Target is Datasmith Base Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPropertyType"><p>Get Property Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the type of this property
+</p><p>Target is Datasmith Key Value Property</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRecordedObject"><p>Get Recorded Object</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the category of this property capture
+</p><p>Target is Datasmith Object Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRGBCurve"><p>Get RGBCurve</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get texture gamma &lt;= 0 for auto
+</p><p>Target is Datasmith Texture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRotation"><p>Get Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get rotation (in quaternion format) of this entity
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSaturation"><p>Get Saturation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get color saturation
+</p><p>Target is Datasmith Post Process Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetScale"><p>Get Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get absolute scale of this entity
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSensorAspectRatio"><p>Get Sensor Aspect Ratio</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get framebuffer aspect ratio (width/height)
+</p><p>Target is Datasmith Camera Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSensorWidth"><p>Get Sensor Width</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get camera sensor width in millimeters
+</p><p>Target is Datasmith Camera Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetStaticMeshPathName"><p>Get Static Mesh Path Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the path name of the StaticMesh associated with the actor
+</p><p>Target is Datasmith Mesh Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTags"><p>Get Tags</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the tags of an Actor element
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTemperature"><p>Get Temperature</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the light temperature in Kelvin
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTextureMode"><p>Get Texture Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get texture usage
+</p><p>Target is Datasmith Texture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTranslation"><p>Get Translation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get absolute translation of this entity
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUseIes"><p>Get Use Ies</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set if this light is controlled by Ies definition file
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUseIesBrightness"><p>Get Use Ies Brightness</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get if the emissive amount of the ies is controlled by the brightness scale
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUseTemperature"><p>Get Use Temperature</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get if the light color is controlled by temperature
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValue"><p>Get Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the value of this property
+</p><p>Target is Datasmith Key Value Property</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValueBool"><p>Get Value Bool</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the recorded value for this property as a boolean.
+Returned value is meaningless if the property is not of boolean type.
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValueColor"><p>Get Value Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the recorded value for this property as a color.
+Returned value is meaningless if the property is not of color type.
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValueFloat"><p>Get Value Float</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the recorded value for this property as a float.
+Returned value is meaningless if the property is not of float type.
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValueInt"><p>Get Value Int</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the recorded value for this property as an int32.
+Returned value is meaningless if the property is not of int32 type.
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValueIntPoint"><p>Get Value Int Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the recorded value for this property as an int point.
+Returned value is meaningless if the property is not of int point type.
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValueLinearColor"><p>Get Value Linear Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the recorded value for this property as a linear color.
+Returned value is meaningless if the property is not of linear color type.
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValueQuat"><p>Get Value Quat</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the recorded value for this property as a quat.
+Returned value is meaningless if the property is not of quat type.
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValueRotator"><p>Get Value Rotator</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the recorded value for this property as a rotator.
+Returned value is meaningless if the property is not of rotator type.
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValueString"><p>Get Value String</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the recorded value for this property as a string.
+Returned value is meaningless if the property is not of string type.
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValueVector"><p>Get Value Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the recorded value for this property as a vector.
+Returned value is meaningless if the property is not of vector type.
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValueVector2D"><p>Get Value Vector 2D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the recorded value for this property as a vector2d.
+Returned value is meaningless if the property is not of vector2 type.
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValueVector4"><p>Get Value Vector 4</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the recorded value for this property as a vector4.
+Returned value is meaningless if the property is not of vector4 type.
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVariant"><p>Get Variant</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a variant from this variant set
+</p><p>Target is Datasmith Variant Set Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVariantSet"><p>Get Variant Set</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a variant set from this level variant sets
+</p><p>Target is Datasmith Level Variant Sets Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVariantSetsCount"><p>Get Variant Sets Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets how many variant sets are in this level variant sets
+</p><p>Target is Datasmith Level Variant Sets Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVariantsCount"><p>Get Variants Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets how many variants are in this variant set
+</p><p>Target is Datasmith Variant Set Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVignette"><p>Get Vignette</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get vignette amount
+</p><p>Target is Datasmith Post Process Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVisibility"><p>Get Visibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the actor's visibility
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsElementValid"><p>Is Element Valid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Is the Element still valid for the Datasmith Scene
+</p><p>Target is Datasmith Object Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsEnabled"><p>Is Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return true on light enabled, false otherwise
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveActorBinding"><p>Remove Actor Binding</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes an actor binding from this variant
+</p><p>Target is Datasmith Variant Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveChild"><p>Remove Child</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove a new child from the Actor Element
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveMaterialOverride"><p>Remove Material Override</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the amount of materials on this mesh
+</p><p>Target is Datasmith Mesh Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveProperty"><p>Remove Property</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes a property from this blueprint actor, doesn't preserve ordering
+</p><p>Target is Datasmith Custom Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemovePropertyCapture"><p>Remove Property Capture</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes one of the properties that will be captured from the bound actor
+</p><p>Target is Datasmith Actor Binding Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveVariant"><p>Remove Variant</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes a variant from this variant set
+</p><p>Target is Datasmith Variant Set Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveVariantSet"><p>Remove Variant Set</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes a variant set from this level variant sets
+</p><p>Target is Datasmith Level Variant Sets Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetActor"><p>Set Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the actor that this binding will try capturing
+</p><p>Target is Datasmith Actor Binding Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetAllowResize"><p>Set Allow Resize</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set allow texture resizing
+</p><p>Target is Datasmith Texture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCameraISO"><p>Set Camera ISO</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set camera ISO
+</p><p>Target is Datasmith Post Process Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCameraShutterSpeed"><p>Set Camera Shutter Speed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set camera shutter speed in 1/seconds (ie: 60 = 1/60s)
+</p><p>Target is Datasmith Post Process Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCategory"><p>Set Category</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the category of this property capture
+</p><p>Target is Datasmith Base Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetClassorPathName"><p>Set Class or Path Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Class or Path Name
+</p><p>Target is Datasmith Custom Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetColor"><p>Set Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set light color on linear mode
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetColorFilter"><p>Set Color Filter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get color filter in linear color scale
+</p><p>Target is Datasmith Post Process Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetColorSpace"><p>Set Color Space</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the color space of the texture
+</p><p>Target is Datasmith Texture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDof"><p>Set Dof</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set depth of field multiplier
+</p><p>Target is Datasmith Post Process Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetEnabled"><p>Set Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set enable property of the light
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetFile"><p>Set File</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set texture filename
+</p><p>Target is Datasmith Texture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetFocalLength"><p>Set Focal Length</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set camera focal length in millimeters
+</p><p>Target is Datasmith Camera Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetFocusDistance"><p>Set Focus Distance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set camera focus distance in centimeters
+</p><p>Target is Datasmith Camera Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetFStop"><p>Set FStop</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set camera FStop also known as FNumber
+</p><p>Target is Datasmith Camera Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIesBrightnessScale"><p>Set Ies Brightness Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the Ies brightness multiplier
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIesFile"><p>Set Ies File</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the path of the Ies definition file
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIntensity"><p>Set Intensity</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set light intensity
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLabel"><p>Set Label</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the element label used in the UI
+</p><p>Target is Datasmith Object Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLayer"><p>Set Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the the the layer that contains this entity, layer will be auto-created from its name
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLightmapCoordinateIndex"><p>Set Lightmap Coordinate Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the UV channel that will be used for the lightmap
+Note: If the lightmap coordinate index is something greater than -1 it will make the importer skip the lightmap generation
+</p><p>Target is Datasmith Mesh Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLightmapSourceUV"><p>Set Lightmap Source UV</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the source UV channel that will be used at import to generate the lightmap UVs
+</p><p>Target is Datasmith Mesh Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLookatActor"><p>Set Look at Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set camera look at actor name
+</p><p>Target is Datasmith Camera Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLookatAllowRoll"><p>Set Look at Allow Roll</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set camera look at allow roll state
+</p><p>Target is Datasmith Camera Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMaterial"><p>Set Material</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the material name to associate with slot SlotId
+</p><p>Target is Datasmith Mesh Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMotionBlur"><p>Set Motion Blur</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set motion blur multiplier
+</p><p>Target is Datasmith Post Process Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPropertyPath"><p>Set Property Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the path used when attempting to capture a generic property
+</p><p>Target is Datasmith Base Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPropertyType"><p>Set Property Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the type of this property
+</p><p>Target is Datasmith Key Value Property</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRecordedObject"><p>Set Recorded Object</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the category of this property capture
+</p><p>Target is Datasmith Object Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRGBCurve"><p>Set RGBCurve</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set texture gamma &lt;= 0 for auto
+</p><p>Target is Datasmith Texture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRotation"><p>Set Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set rotation (in quaternion format) of this entity
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSaturation"><p>Set Saturation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set color saturation
+</p><p>Target is Datasmith Post Process Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetScale"><p>Set Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set absolute scale of this entity
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSensorAspectRatio"><p>Set Sensor Aspect Ratio</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set framebuffer aspect ratio (width/height)
+</p><p>Target is Datasmith Camera Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSensorWidth"><p>Set Sensor Width</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set camera sensor width in millimeters
+</p><p>Target is Datasmith Camera Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetStaticMeshPathName"><p>Set Static Mesh Path Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the path name of the StaticMesh that the actor is using
+It can be either a package path to refer to an existing mesh or a mesh name to refer to a MeshElement in the DatasmithScene
+</p><p>Target is Datasmith Mesh Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTags"><p>Set Tags</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the tags of an Actor element
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTemperature"><p>Set Temperature</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set color filter temperature in Kelvin
+</p><p>Target is Datasmith Post Process Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTextureMode"><p>Set Texture Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set texture usage
+</p><p>Target is Datasmith Texture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTranslation"><p>Set Translation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set absolute translation of this entity
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetUseIes"><p>Set Use Ies</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get if this light is controlled by Ies definition file
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetUseIesBrightness"><p>Set Use Ies Brightness</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set if the emissive amount of the ies is controlled by the brightness scale
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetUseTemperature"><p>Set Use Temperature</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set if the light color is controlled by temperature
+</p><p>Target is Datasmith Light Actor Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValue"><p>Set Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the value of this property
+</p><p>Target is Datasmith Key Value Property</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValueBool"><p>Set Value Bool</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the recorded value for this capture
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValueColor"><p>Set Value Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the recorded value for this capture
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValueFloat"><p>Set Value Float</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the recorded value for this capture
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValueInt"><p>Set Value Int</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the recorded value for this capture
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValueIntPoint"><p>Set Value Int Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the recorded value for this capture
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValueLinearColor"><p>Set Value Linear Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the recorded value for this capture
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValueQuat"><p>Set Value Quat</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the recorded value for this capture
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValueRotator"><p>Set Value Rotator</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the recorded value for this capture
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValueString"><p>Set Value String</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the recorded value for this capture
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValueVector"><p>Set Value Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the recorded value for this capture
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValueVector2D"><p>Set Value Vector 2D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the recorded value for this capture
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValueVector4"><p>Set Value Vector 4</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the recorded value for this capture
+</p><p>Target is Datasmith Property Capture Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVignette"><p>Set Vignette</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set vignette amount
+</p><p>Target is Datasmith Post Process Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVisibility"><p>Set Visibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the actor's visibility
+</p><p>Target is Datasmith Actor Element</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

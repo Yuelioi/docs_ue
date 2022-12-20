@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Interchange/Node_1/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Node | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Interchange/Node_1/" hreflang="x-default" />
+
+	<meta name="title" content="Node" />
+<meta name="description" content="Node" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Interchange" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Node" />
+	<meta property="og:description" content="Node" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Interchange">Interchange</a>
+
+<span class="separator">></span> <span id="page">Node</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Node</h1>
+		</div>
+		<h2 >Node</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddBooleanAttribute"><p>Add Boolean Attribute</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a boolean attribute to this node. Return false if the attribute do not exist or if we cannot add it
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddFactoryDependencyUid"><p>Add Factory Dependency Uid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add one dependency to this object.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddFloatAttribute"><p>Add Float Attribute</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a float attribute to this node. Return false if the attribute do not exist or if we cannot add it
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddInt32Attribute"><p>Add Int 32Attribute</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a int32 attribute to this node. Return false if the attribute do not exist or if we cannot add it
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddStringAttribute"><p>Add String Attribute</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a string attribute to this node. Return false if the attribute do not exist or if we cannot add it
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddTargetNodeUid"><p>Add Target Node Uid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add asset node UID relating to this object.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAssetName"><p>Get Asset Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Optional, Any node that can import/export an asset should set the proper name we will give to the asset.
+If the attribute was never set, it will return GetDisplayLabel.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBooleanAttribute"><p>Get Boolean Attribute</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a boolean attribute from this node. Return false if the attribute do not exist
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDisplayLabel"><p>Get Display Label</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the display label.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFactoryDependencies"><p>Get Factory Dependencies</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This function allow to retrieve the dependency for this object.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFactoryDependenciesCount"><p>Get Factory Dependencies Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This function allow to retrieve the number of factory dependencies for this object.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFactoryDependency"><p>Get Factory Dependency</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This function allow to retrieve one dependency for this object.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFloatAttribute"><p>Get Float Attribute</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a float attribute from this node. Return false if the attribute do not exist
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetInt32Attribute"><p>Get Int 32Attribute</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a int32 attribute from this node. Return false if the attribute do not exist
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNodeContainerType"><p>Get Node Container Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the node container type which define the purpose of the node (Factory node, translated scene node or translated asset node).
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParentUid"><p>Get Parent Uid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the parent unique id. In case the attribute does not exist it will return InvalidNodeUid()
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetStringAttribute"><p>Get String Attribute</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a string attribute from this node. Return false if the attribute do not exist
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTargetNodeCount"><p>Get Target Node Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get number of target assets relating to this object.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTargetNodeUids"><p>Get Target Node Uids</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get target assets relating to this object.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUniqueID"><p>Get Unique ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the unique id pass in the constructor.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InitializeNode"><p>Initialize Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Initialize the base data of the node
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsEnabled"><p>Is Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>IsEnable true mean that the node will be import/export, if false it will be discarded.
+Return false if this node was disabled. Return true if the attribute is not there or if it was enabled.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveAttribute"><p>Remove Attribute</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove any attribute from this node. Return false if we cannot remove it. If the attribute do not exist it will return true.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveFactoryDependencyUid"><p>Remove Factory Dependency Uid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove one dependency from this object.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveTargetNodeUid"><p>Remove Target Node Uid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove asset node UID relating to this object.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetAssetName"><p>Set Asset Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the name we want for the imported asset this node represent. The asset factory will call GetAssetName()
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDisplayLabel"><p>Set Display Label</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Change the display label.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetEnabled"><p>Set Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the IsEnable attribute to determine if this node should be part of the import/export process
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetParentUid"><p>Set Parent Uid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the parent unique id.
+</p><p>Target is Interchange Base Node</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

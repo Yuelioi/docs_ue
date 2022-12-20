@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Math/Float/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Float | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Math/Float/" hreflang="x-default" />
+
+	<meta name="title" content="Float" />
+<meta name="description" content="Float" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Math" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Float" />
+	<meta property="og:description" content="Float" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Math">Math</a>
+
+<span class="separator">></span> <span id="page">Float</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Float</h1>
+		</div>
+		<h2 >Float</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="__Float"><p>% (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Percent Float Float
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Absolute_Float"><p>Absolute (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the absolute (positive) value of A
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Ceil"><p>Ceil</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rounds A up towards positive infinity / up to the next integer (e.g., -1.6 becomes -1 and 1.6 becomes 2)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CeiltoInteger64"><p>Ceil to Integer64</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rounds A up towards positive infinity / up to the next integer (e.g., -1.6 becomes -1 and 1.6 becomes 2)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Clamp_Float"><p>Clamp (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns Value clamped between A and B (inclusive)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClampAngle"><p>Clamp Angle</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clamps an arbitrary angle to be between the given angles.  Will clamp to nearest boundary.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Division_WholeandRemainder"><p>Division (Whole and Remainder)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of times Divisor will go into Dividend (i.e., Dividend divided by Divisor), as well as the remainder
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Division_WholeandRemainder_toInt-"><p>Division (Whole and Remainder) to Integer64</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of times Divisor will go into Dividend (i.e., Dividend divided by Divisor), as well as the remainder
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Exp"><p>Exp</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns exponential(e) to the power A (e^A)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FInterpEaseinOut"><p>FInterp Ease in Out</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Interpolate between A and B, applying an ease in/out function.  Exp controls the degree of the curve.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FixedTurn"><p>Fixed Turn</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a new rotation component value
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Floor"><p>Floor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rounds A down towards negative infinity / down to the previous integer (e.g., -1.6 becomes -2 and 1.6 becomes 1)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FloortoInteger64"><p>Floor to Integer64</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rounds A down towards negative infinity / down to the previous integer (e.g., -1.6 becomes -2 and 1.6 becomes 1)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Fraction"><p>Fraction</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the fractional part of a double.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Hypotenuse"><p>Hypotenuse</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the hypotenuse of a right-angled triangle given the width and height.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InRange_Float"><p>In Range (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if value is between Min and Max (V &gt;= Min &amp;&amp; V &lt;= Max)
+If InclusiveMin is true, value needs to be equal or larger than Min, else it needs to be larger
+If InclusiveMax is true, value needs to be smaller or equal than Max, else it needs to be smaller
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Lerp"><p>Lerp</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Linearly interpolates between A and B based on Alpha (100% of A when Alpha=0 and 100% of B when Alpha=1)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Log"><p>Log</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns log of A base B (if B^R == A, returns R)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Loge"><p>Loge</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns natural log of A (if e^R == A, returns R)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeLiteralFloat"><p>Make Literal Float</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a literal float
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakePulsatingValue"><p>Make Pulsating Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Simple function to create a pulsating scalar value
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MapRangeClamped"><p>Map Range Clamped</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns Value mapped from one range into another where the Value is clamped to the Input Range.  (e.g. 0.5 normalized from the range 0-&gt;1 to 0-&gt;50 would result in 25)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MapRangeUnclamped"><p>Map Range Unclamped</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns Value mapped from one range into another.  (e.g. 20 normalized from the range 10-&gt;50 to 20-&gt;40 would result in 25)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Max_Float"><p>Max (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the maximum value of A and B
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MaxOfFloatArray"><p>Max Of Float Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns max of all array entries and the index at which it was found. Returns value of 0 and index of -1 if the supplied array is empty.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Min_Float"><p>Min (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the minimum value of A and B
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MinOfFloatArray"><p>Min Of Float Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns min of all array entries and the index at which it was found. Returns value of 0 and index of -1 if the supplied array is empty.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MultiplybyPi"><p>Multiply by Pi</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Multiplies the input value by pi.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NearlyEqual_Float"><p>Nearly Equal (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if A is nearly equal to B (|A - B| &lt; ErrorTolerance)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NormalizetoRange"><p>Normalize to Range</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns Value normalized to the given range.  (e.g. 20 normalized to the range 10-&gt;50 would result in 0.25)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Power"><p>Power</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Power (Base to the Exp-th power)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Round"><p>Round</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rounds A to the nearest integer (e.g., -1.6 becomes -2 and 1.6 becomes 2)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RoundtoInteger64"><p>Round to Integer64</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rounds A to the nearest integer (e.g., -1.6 becomes -2 and 1.6 becomes 2)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SafeDivide"><p>Safe Divide</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This functions returns 0 if B (the denominator) is zero
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SelectFloat"><p>Select Float</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If bPickA is true, A is returned, otherwise B is
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Sign_Float"><p>Sign (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sign (float, returns -1 if A &lt; 0, 0 if A is zero, and +1 if A &gt; 0)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SnapToGrid_Float"><p>Snap To Grid (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Snaps a value to the nearest grid multiple. E.g.,
+Location = 5.1, GridSize = 10.0 : return value = 10.0
+If GridSize is 0 Location is returned
+if GridSize is very small precision issues may occur.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Sqrt"><p>Sqrt</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns square root of A
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Square"><p>Square</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns square of A (A*A)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Truncate"><p>Truncate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rounds A towards zero, truncating the fractional part (e.g., -1.6 becomes -1 and 1.6 becomes 1)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Truncate_Vector"><p>Truncate (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rounds A to an integer with truncation towards zero for each element in a vector.  (e.g. -1.7 truncated to -1, 2.8 truncated to 2)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TruncatetoInteger64"><p>Truncate to Integer64</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rounds A towards zero, truncating the fractional part (e.g., -1.6 becomes -1 and 1.6 becomes 1)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Wrap_Float"><p>Wrap (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns Value wrapped from A and B (inclusive)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

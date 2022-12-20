@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/EditorScripting/SequencerTools/ControlRig/" />');
+				var udnCSS = './../../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Control Rig | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/EditorScripting/SequencerTools/ControlRig/" hreflang="x-default" />
+
+	<meta name="title" content="Control Rig" />
+<meta name="description" content="Control Rig" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/EditorScripting,BlueprintAPI/EditorScripting/SequencerTools" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Control Rig" />
+	<meta property="og:description" content="Control Rig" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../../EditorScripting">Editor Scripting</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../SequencerTools">Sequencer Tools</a>
+
+<span class="separator">></span> <span id="page">Control Rig</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Control Rig</h1>
+		</div>
+		<h2 >Control Rig</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BakeControlRigSpace"><p>Bake Control Rig Space</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bake specified Control Rig Controls to a specified Space based upon the current settings
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BaketoControlRig"><p>Bake to Control Rig</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bake the current animation in the binding to a Control Rig track
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CollapseControlR-"><p>Collapse Control Rig Anim Layers</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"></li></ul><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteControlRigSpace"><p>Delete Control Rig Space</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Delete the Control Rig Space Key for the Control at the specified time. This will delete any attached Control Rig keys at this time and will perform any needed compensation to the new space.
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindorCreateCont-"><p>Find or Create Control Rig Component Track</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find or create a Control Rig Component
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindorCreateCont-_1"><p>Find or Create Control Rig Track</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find or create a Control Rig track of a specific class based upon the binding
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorWorldTransform"><p>Get Actor World Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Actors World Transform at a specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorWorldTransforms"><p>Get Actor World Transforms</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Actors World Transforms at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetControlRigWor-"><p>Get Control Rig World Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's World Transform at a specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetControlRigWor-_1"><p>Get Control Rig World Transforms</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's World Transforms at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetControlRigs"><p>Get Control Rigs</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get all of the control rigs and their bindings in the level sequence
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDefaultParentKey"><p>Get Default Parent Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"><p>Get the default parent key, can be used a parent space.
+</p></li></ul><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlRigBool"><p>Get Local Control Rig Bool</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's bool value at a specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlRigBools"><p>Get Local Control Rig Bools</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's bool values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlR-"><p>Get Local Control Rig Euler Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's EulerTransform value at a specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlR-_1"><p>Get Local Control Rig Euler Transforms</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's EulerTransform values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlRigFloat"><p>Get Local Control Rig Float</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's float value at a specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlRigFloats"><p>Get Local Control Rig Floats</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's float values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlRigInt"><p>Get Local Control Rig Int</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's integer value at a specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlRigInts"><p>Get Local Control Rig Ints</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's integer values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlRigPosition"><p>Get Local Control Rig Position</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's Position value at a specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlR-_2"><p>Get Local Control Rig Positions</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's Position values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlRigRotator"><p>Get Local Control Rig Rotator</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's Rotator value at a specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlRigRotators"><p>Get Local Control Rig Rotators</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's Rotator values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlRigScale"><p>Get Local Control Rig Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's Scale value at a specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlRigScales"><p>Get Local Control Rig Scales</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's Scale values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlR-_3"><p>Get Local Control Rig Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's Transform value at a specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlR-_4"><p>Get Local Control Rig Transform No Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's TransformNoScale value at a specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlR-_5"><p>Get Local Control Rig Transform No Scales</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's TransformNoScale values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlR-_6"><p>Get Local Control Rig Transforms</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's Transform values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlRigVector2D"><p>Get Local Control Rig Vector 2D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's Vector2D value at a specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalControlR-_7"><p>Get Local Control Rig Vector 2Ds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get ControlRig Control's Vector2D values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSkeletalMeshC-"><p>Get Skeletal Mesh Component World Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get SkeletalMeshComponent World Transform at a specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSkeletalMeshC-_1"><p>Get Skeletal Mesh Component World Transforms</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get SkeletalMeshComponents World Transforms at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVisibleControlRigs"><p>Get Visible Control Rigs</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get all of the visible control rigs in the level
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetWorldSpaceReferenceKey"><p>Get World Space Reference Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"><p>Get the default world space key, can be used a world space.
+</p></li></ul><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LoadAnimSequence-"><p>Load Anim Sequence Into Control Rig Section</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Load anim sequence into this control rig section
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MoveControlRigSpace"><p>Move Control Rig Space</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Move the Control Rig Space Key for the Control at the specified time to the new time. This will also move any Control Rig keys at this space switch boundary.
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RenameControlRig-"><p>Rename Control Rig Control Channels</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rename the Control Rig Channels in Sequencer to the specified new control names, which should be present on the Control Rig
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlRigSpace"><p>Set Control Rig Space</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"></li></ul><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlRigWor-"><p>Set Control Rig World Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's World Transform at a specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlRigWor-_1"><p>Set Control Rig World Transforms</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's World Transforms at a specific times.
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlRigBool"><p>Set Local Control Rig Bool</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's bool value at specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlRigBools"><p>Set Local Control Rig Bools</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's bool values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlR-"><p>Set Local Control Rig Euler Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's EulerTransform value at specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlR-_1"><p>Set Local Control Rig Euler Transforms</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's EulerTransform values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlRigFloat"><p>Set Local Control Rig Float</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's float value at specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlRigFloats"><p>Set Local Control Rig Floats</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's float values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlRigInt"><p>Set Local Control Rig Int</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's int value at specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlRigInts"><p>Set Local Control Rig Ints</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's int values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlRigPosition"><p>Set Local Control Rig Position</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's Position value at specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlR-_2"><p>Set Local Control Rig Positions</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's Position values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlRigRotator"><p>Set Local Control Rig Rotator</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's Rotator value at specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlRigRotators"><p>Set Local Control Rig Rotators</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's Rotator values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlRigScale"><p>Set Local Control Rig Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's Scale value at specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlRigScales"><p>Set Local Control Rig Scales</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's Scale values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlR-_3"><p>Set Local Control Rig Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's Transform value at specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlR-_4"><p>Set Local Control Rig Transform No Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's TransformNoScale value at specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlR-_5"><p>Set Local Control Rig Transform No Scales</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's TransformNoScale values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlR-_6"><p>Set Local Control Rig Transforms</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's Transform values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlRigVector2D"><p>Set Local Control Rig Vector 2D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's Vector2D value at specific time
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalControlR-_7"><p>Set Local Control Rig Vector 2Ds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set ControlRig Control's Vector2D values at specific times
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SnapControlRig"><p>Snap Control Rig</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Peform a Snap operation to snap the children to the parent.
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TweenControlRig"><p>Tween Control Rig</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Peform a Tween operation on the current active sequencer time(must be visible).
+</p><p>Target is Control Rig Sequencer Editor Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

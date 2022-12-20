@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/DataLayers/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Data Layers | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/DataLayers/" hreflang="x-default" />
+
+	<meta name="title" content="Data Layers" />
+<meta name="description" content="Data Layers" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Data Layers" />
+	<meta property="og:description" content="Data Layers" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Data Layers</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Data Layers</h1>
+		</div>
+		<h2 >Data Layers</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddActortoDataLayer"><p>Add Actor to Data Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds the actor to the DataLayer.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddActortoDataLayers"><p>Add Actor to Data Layers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds the provided actor to the DataLayers.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddActorstoDataLayer"><p>Add Actors to Data Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add the actors to the DataLayer
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddActorstoDataLayers"><p>Add Actors to Data Layers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add the actors to the DataLayers
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddSelectedActorstoDataLayer"><p>Add Selected Actors to Data Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds selected actors to the DataLayer.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddSelectedActorstoDataLayers"><p>Add Selected Actors to Data Layers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds selected actors to the DataLayers.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AppendActorsfromDataLayer"><p>Append Actors from Data Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Appends all the actors associated with the specified DataLayer.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AppendActorsfromDataLayers"><p>Append Actors from Data Layers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Appends all the actors associated with ANY of the specified DataLayers.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateDataLayer"><p>Create Data Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a UDataLayer Object
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteDataLayer"><p>Delete Data Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Deletes the provided DataLayer
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteDataLayers"><p>Delete Data Layers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Deletes all of the provided DataLayers
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorsfromDataLayer"><p>Get Actors from Data Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all the actors associated with the specified DataLayer. Analog to AppendActorsFromDataLayer but it returns rather than appends the actors.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorsfromDataLayers"><p>Get Actors from Data Layers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all the actors associated with ANY of the specified DataLayers. Analog to AppendActorsFromDataLayers but it returns rather than appends the actors.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDataLayer"><p>Get Data Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find a Data Layer by name.
+</p><p>Target is Data Layer Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDataLayerEffectiveRuntimeStat-"><p>Get Data Layer Effective Runtime State</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the Data Layer effective state using its name.
+</p><p>Target is Data Layer Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDataLayerEffectiveRuntimeStat-_1"><p>Get Data Layer Effective Runtime State by Label</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the Data Layer effective state using its label.
+</p><p>Target is Data Layer Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDataLayerfromLabel"><p>Get Data Layer from Label</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find a Data Layer by label.
+</p><p>Target is Data Layer Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDataLayerfromName"><p>Get Data Layer from Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find a Data Layer by name.
+</p><p>Target is Data Layer Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDataLayerRuntimeState"><p>Get Data Layer Runtime State</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the Data Layer state using its name.
+</p><p>Target is Data Layer Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDataLayerRuntimeStatebyLabel"><p>Get Data Layer Runtime State by Label</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the Data Layer state using its label.
+</p><p>Target is Data Layer Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsActorValidforDataLayer"><p>Is Actor Valid for Data Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checks to see if the specified actor is in an appropriate state to interact with DataLayers
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeAllDataLayersVisible"><p>Make All Data Layers Visible</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the visibility of all DataLayers to true
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveActorfromAllDataLayers"><p>Remove Actor from All Data Layers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes an actor from all DataLayers.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveActorfromDataLayer"><p>Remove Actor from Data Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes an actor from the specified DataLayer.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveActorfromDataLayers"><p>Remove Actor from Data Layers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the provided actor from the DataLayers.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveActorsfromAllDataLayers"><p>Remove Actors from All Data Layers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes an actor from all DataLayers.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveActorsfromDataLayer"><p>Remove Actors from Data Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the actors from the specified DataLayer.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveActorsfromDataLayers"><p>Remove Actors from Data Layers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the actors to the DataLayers
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveSelectedActorsfromDataLaye-"><p>Remove Selected Actors from Data Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the selected actors from the DataLayer.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveSelectedActorsfromDataLaye-_1"><p>Remove Selected Actors from Data Layers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes selected actors from the DataLayers.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RenameDataLayer"><p>Rename Data Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Renames the provided DataLayer to the provided new label
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SelectActorsinDataLayer"><p>Select Actors in Data Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Selects/de-selects actors belonging to the DataLayer.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SelectActorsinDataLayers"><p>Select Actors in Data Layers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Selects/de-selects actors belonging to the DataLayers.
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDataLayerIsLoadedinEditor"><p>Set Data Layer Is Loaded in Editor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Changes the DataLayer's IsLoadedInEditor flag to the provided state
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDataLayerRuntimeState"><p>Set Data Layer Runtime State</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the Data Layer state using its name.
+</p><p>Target is Data Layer Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDataLayerRuntimeStatebyLabel"><p>Set Data Layer Runtime State by Label</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the Data Layer state using its label.
+</p><p>Target is Data Layer Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDataLayerVisibility"><p>Set Data Layer Visibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Changes the DataLayer's visibility to the provided state
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDataLayersIsLoadedinEditor"><p>Set Data Layers Is Loaded in Editor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Changes the IsLoadedInEditor flag of the DataLayers to the provided state
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDataLayersVisibility"><p>Set Data Layers Visibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Changes visibility of the DataLayers to the provided state
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetParentDataLayer"><p>Set Parent Data Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Parent DataLayer for a specified DataLayer
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToggleDataLayerIsLoadedinEditor"><p>Toggle Data Layer Is Loaded in Editor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Toggles the DataLayer's IsLoadedInEditor flag
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToggleDataLayerVisibility"><p>Toggle Data Layer Visibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Toggles the DataLayer's visibility
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToggleDataLayersIsLoadedinEditor"><p>Toggle Data Layers Is Loaded in Editor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Toggles the IsLoadedInEditor flag of all of the DataLayers
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToggleDataLayersVisibility"><p>Toggle Data Layers Visibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Toggles the visibility of all of the DataLayers
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UpdateActorVisibility"><p>Update Actor Visibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Updates the provided actors visibility in the viewports
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UpdateAllActorsVisibility"><p>Update All Actors Visibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Updates the visibility of all actors in the viewports
+</p><p>Target is Data Layer Editor Subsystem</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

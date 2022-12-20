@@ -1,0 +1,22 @@
+# CastToGameplayEffectCalculationC-
+
+Tries to access class as one it may inherit from.
+
+## 图示
+
+![]($-20221218-12420582.png)
+
+## Inputs
+
+In: Exec.
+
+Class: Object Class Reference.  
+
+## Outputs
+
+Out: Exec.
+
+Cast Failed: Exec.
+
+As Gameplay Effect Calculation: Gameplay Effect Calculation Class Reference.
+

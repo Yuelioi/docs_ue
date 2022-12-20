@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/RigVMNode/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Rig VMNode | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/RigVMNode/" hreflang="x-default" />
+
+	<meta name="title" content="Rig VMNode" />
+<meta name="description" content="Rig VMNode" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Rig VMNode" />
+	<meta property="og:description" content="Rig VMNode" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Rig VMNode</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Rig VMNode</h1>
+		</div>
+		<h2 >Rig VMNode</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ExecutionIsHaltedatThisNode"><p>Execution Is Halted at This Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Execution Is Halted at This Node
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindPin"><p>Find Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a Pin given it's partial pin path below
+this node (for example: "Color.R")
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllPinsRecursively"><p>Get All Pins Recursively</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all of the Pins of this Node (including SubPins).
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEventName"><p>Get Event Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the name of the event
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGraph"><p>Get Graph</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the Graph of this Node
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetInjectionInfo"><p>Get Injection Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the injection info of this Node (or nullptr)
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLinkedSourceNodes"><p>Get Linked Source Nodes</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a list of Nodes connected as sources to
+this Node as the target.
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLinkedTargetNodes"><p>Get Linked Target Nodes</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a list of Nodes connected as targets to
+this Node as the source.
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLinks"><p>Get Links</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all links to any pin on this node
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNodeColor"><p>Get Node Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the color of this node - used for UI.
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNodeIndex"><p>Get Node Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the current index of the Node within the Graph.
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNodePath"><p>Get Node Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the a . separated string containing all of the
+names used to reach this Node within the Graph.
+(for now this is the same as the Node's name)
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNodeTitle"><p>Get Node Title</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the title of this Node - used for UI.
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOrphanedPins"><p>Get Orphaned Pins</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all of the top-level orphaned Pins of this Node.
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPins"><p>Get Pins</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all of the top-level Pins of this Node.
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPosition"><p>Get Position</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the 2d position of this node - used for UI.
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPreviousFName"><p>Get Previous FName</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the name of the node prior to the renaming
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRootGraph"><p>Get Root Graph</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the top level / root Graph of this Node
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSize"><p>Get Size</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the 2d size of this node - used for UI.
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetToolTipText"><p>Get Tool Tip Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the tooltip of this node
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasBreakpoint"><p>Has Breakpoint</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Has Breakpoint
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasInputPin"><p>Has Input Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the node has any input pins
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasIOPin"><p>Has IOPin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the node has any io pins
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasOrphanedPins"><p>Has Orphaned Pins</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the node has orphaned pins - which leads to a compiler error
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasOutputPin"><p>Has Output Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the node has any output pins
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasPinOfDirection"><p>Has Pin Of Direction</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the node has any pins of the provided direction
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsDefinedasConstant"><p>Is Defined as Constant</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the node is defined as non-varying
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsDefinedasVarying"><p>Is Defined as Varying</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the node is defined as non-varying
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsEvent"><p>Is Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this Node is the beginning of a scope
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsInjected"><p>Is Injected</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this is an injected node.
+Injected nodes are managed by pins are are not visible to the user.
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsLinkedTo"><p>Is Linked To</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this Node is linked to another
+given node through any of the Nodes' Pins.
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsMutable"><p>Is Mutable</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this Node has side effects or
+internal state.
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsPure"><p>Is Pure</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this Node has no side-effects
+and no internal state.
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsSelected"><p>Is Selected</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this Node is currently selected.
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsVisibleinUI"><p>Is Visible in UI</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this should be visible in the UI
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetExecutionIsHaltedatThisNode"><p>Set Execution Is Halted at This Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Execution Is Halted at This Node
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetHasBreakpoint"><p>Set Has Breakpoint</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Has Breakpoint
+</p><p>Target is Rig VMNode</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

@@ -1,0 +1,26 @@
+# ScheduleLocalNotificationBadgeat-
+
+Schedule a local notification badge at a specific time, inLocalTime specifies the current local time or if UTC time should be used
+
+Target is Blueprint Platform Library
+
+## 图示
+
+![]($-20221218-20293977.png)
+
+## Inputs
+
+In: Exec.
+
+Fire Date Time: Date Time Structure (by ref). The time at which to fire the local notification.
+
+Local Time: Boolean. If true the provided time is in the local timezone, if false it is in UTC.
+
+Activation Event: String. A string that is passed in the delegate callback when the app is brought into the foreground from the user activating the notification.  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Integer.
+

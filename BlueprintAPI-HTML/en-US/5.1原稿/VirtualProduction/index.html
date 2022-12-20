@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/VirtualProduction/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Virtual Production | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/VirtualProduction/" hreflang="x-default" />
+
+	<meta name="title" content="Virtual Production" />
+<meta name="description" content="Virtual Production" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Virtual Production" />
+	<meta property="og:description" content="Virtual Production" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Virtual Production</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Virtual Production</h1>
+		</div>
+		<h2 >Virtual Production</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    			    <li id="">
+	<p><a id="toc_link" href="#categories">Categories</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AppendVirtualProductionLog"><p>Append Virtual Production Log</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Append Virtual Production Log
+</p><p>Target is VPUIBase</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EditorDeleteSelectedObjects"><p>Editor Delete Selected Objects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Trigger an UnrealEd Delete
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EditorDuplicate"><p>Editor Duplicate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Trigger an UnrealEd Duplicate
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EditorRedo"><p>Editor Redo</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Trigger an UnrealEd Redo
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EditorUndo"><p>Editor Undo</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Trigger an UnrealEd Undo
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ExitVRMode"><p>Exit VRMode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Exit VR Mode
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActiveEditorVRControllers"><p>Get Active Editor VRControllers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Active Editor VRControllers
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDefaultOSCServer"><p>Get Default OSCServer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the default OSC server.
+</p><p>Target is VPUtilities Editor Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDirectorName"><p>Get Director Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Director Name
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEditorViewportTransform"><p>Get Editor Viewport Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the location of the 2D viewport camera
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEditorVRHeadTransform"><p>Get Editor VRHead Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the location of the VR HMD
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEditorVRRoomTransform"><p>Get Editor VRRoom Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the VR room transform (the playable area shown as a wireframe cage on Vive and Rift
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEditorWorld"><p>Get Editor World</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Wrapper around UUnrealEditorSubsystem::GetEditorWorld.
+Used because you can't get the subsystem without being an editor utility actor.
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFlightSpeed"><p>Get Flight Speed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get flight speed for scouting in VR
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGripNavSpeed"><p>Get Grip Nav Speed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get grip nav speed for scouting in VR
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLastVirtualProductionLogMessa-"><p>Get Last Virtual Production Log Message</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Log
+</p><p>Target is VPUIBase</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPanelActor"><p>Get Panel Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get UI panel Actor from the passed ID
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPanelWidget"><p>Get Panel Widget</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get UI panel widget from the passed ID
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetShowName"><p>Get Show Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Show Name
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVirtualProductionRole"><p>Get Virtual Production Role</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>The machine role(s) in a virtual production context.
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVProdPanelID"><p>Get VProd Panel ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get VProd Panel ID
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVPSettings"><p>Get VPSettings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get VPSettings
+</p><p>Target is VPSettings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVREditorLaserHoverLocation"><p>Get VREditor Laser Hover Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the hitlocation of the interaction controller's laser pointer, in world space
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HideInfoDisplayPanel"><p>Hide Info Display Panel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Hide VR Sequencer Window
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ImportSnapshotTexture"><p>Import Snapshot Texture</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Imports Image file into VirtualProduction/Snapshots/ folder
+</p><p>Target is VPUtilities Editor Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsHelperSystemEnabled"><p>Is Helper System Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Whether the helper system on the controllers is enabled
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsLocationGridSnappingEnabled"><p>Is Location Grid Snapping Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Whether location grid snapping is enabled
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsRotationGridSnappingEnabled"><p>Is Rotation Grid Snapping Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Whether rotation grid snapping is enabled
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsUsingInertiaDamping"><p>Is Using Inertia Damping</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Whether grip nav inertia is enabled when scouting in VR
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsUsingMetricSystem"><p>Is Using Metric System</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Whether the VR user wants to use the metric system instead of imperial
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsUsingTransformGizmo"><p>Is Using Transform Gizmo</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Whether the VR user wants to have the transform gizmo enabled
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsVREditorModeActive"><p>Is VREditor Mode Active</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get whether the user is in editor VR mode
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsVRScoutingUIOpen"><p>Is VRScouting UIOpen</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether a widget UI is open
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="JumptoBookmarkinLevelEditor"><p>Jump to Bookmark in Level Editor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Jump to a virtual production bookmark
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MoveLeveltoRootActor"><p>Move Level to Root Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Move Level to Root Actor
+</p><p>Target is VP Root Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnCreateContextMenu"><p>On Create Context Menu</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Create Context Menu
+</p><p>Target is VPContext Menu Provider</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnCreateContextMenu_Message"><p>On Create Context Menu (Message)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Create Context Menu
+</p><p>Target is VPContext Menu Provider</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Refresh3DEditorViewport"><p>Refresh 3DEditor Viewport</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Refresh the desktop 3D viewport so that it updates changes even when not set to 'Realtime'
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetFlightSpeed"><p>Set Flight Speed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set flight speed for scouting in VR
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetGrabSpeed"><p>Set Grab Speed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the VR grab speed cvar
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetGripNavSpeed"><p>Set Grip Nav Speed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set grip nav speed for scouting in VR
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetInertiaDampingCVar"><p>Set Inertia Damping CVar</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set value of cvar "VI.HighSpeedInertiaDamping"
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIsHelperSystemEnabled"><p>Set Is Helper System Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set whether the helper system on the controllers is enabled
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIsUsingInertiaDamping"><p>Set Is Using Inertia Damping</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set whether grip nav inertia is enabled when scouting in VR
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIsUsingMetricSystem"><p>Set Is Using Metric System</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set whether the VR user wants to use the metric system instead of imperial
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIsUsingTransformGizmo"><p>Set Is Using Transform Gizmo</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set whether the VR user wants to have the transform gizmo enabled
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetShowTransformGizmoCVar"><p>Set Show Transform Gizmo CVar</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set value of cvar "VI.ShowTransformGizmo"
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnBookmarkatCurrentLevelEdito-"><p>Spawn Bookmark at Current Level Editor Position</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn a virtual production bookmark
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnCameraRigfromActors"><p>Spawn Camera Rig from Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn Camera Rig from Actors
+</p><p>Target is VPCamera Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnCameraRigfromPoints"><p>Spawn Camera Rig from Points</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn Camera Rig from Points
+</p><p>Target is VPCamera Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnCameraRigfromSelectedActors"><p>Spawn Camera Rig from Selected Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn Camera Rig from Selected Actors
+</p><p>Target is VPCamera Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnDollyTrackfromPoints"><p>Spawn Dolly Track from Points</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn Dolly Track from Points
+</p><p>Target is VPCamera Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnDollyTrackfromPointsSmooth"><p>Spawn Dolly Track from Points Smooth</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn Dolly Track from Points Smooth
+</p><p>Target is VPCamera Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnVPEditorTickableActor"><p>Spawn VPEditor Tickable Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn an editor-only virtual production tickable actor
+Note: Actors based on the non-transient AVPEditorTickableActorBase will be saved in the level.
+Note: Being non-transient also means that transactions happening on them will be replicated on other connected multi-user machines
+</p><p>Target is VPUtilities Editor Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnVPTickableActor"><p>Spawn VPTickable Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn a virtual production tickable actor
+</p><p>Target is VPBlueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnVPTransientEditorTickableAc-"><p>Spawn VPTransient Editor Tickable Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn an editor-only transient virtual production tickable actor
+Note: Actors based on the transient AVPTransientEditorTickableActorBase will NOT be saved in the level.
+Note: Being transient also means that transactions happening on them will NOT be replicated on other connected multi-user machines
+</p><p>Target is VPUtilities Editor Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToggleComponentsVisibility"><p>Toggle Components Visibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Toggle Components Visibility
+</p><p>Target is VP Root Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToggleLocationGridSnapping"><p>Toggle Location Grid Snapping</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Toggle location grid snapping
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToggleRotationGridSnapping"><p>Toggle Rotation Grid Snapping</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Toggle rotation grid snapping
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToggleVRScoutingUI"><p>Toggle VRScouting UI</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Open a widget UI in front of the user. Opens default VProd UI (defined via the 'Virtual Scouting User Interface' setting) if null.
+</p><p>Target is VPScouting Subsystem</p>
+	</td>
+</tr>
+			</table>
+</div>
+<h2 id="categories">Categories</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Rendering"><p>Rendering</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rendering</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

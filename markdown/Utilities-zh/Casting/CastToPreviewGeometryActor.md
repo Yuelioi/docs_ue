@@ -1,0 +1,22 @@
+# CastToPreviewGeometryActor
+
+Tries to access object as a class it may be an instance of.
+
+## 图示
+
+![]($-20221218-13180580.png)
+
+## Inputs
+
+In: Exec.
+
+Object: Object Wildcard.  
+
+## Outputs
+
+Out: Exec.
+
+Cast Failed: Exec.
+
+As Preview Geometry Actor: Preview Geometry Actor Object Reference.
+

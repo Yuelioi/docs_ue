@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/DMX/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>DMX | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/DMX/" hreflang="x-default" />
+
+	<meta name="title" content="DMX" />
+<meta name="description" content="DMX" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="DMX" />
+	<meta property="og:description" content="DMX" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">DMX</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">DMX</h1>
+		</div>
+		<h2 >DMX</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    			    <li id="">
+	<p><a id="toc_link" href="#categories">Categories</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddAllPatches"><p>Add All Patches</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds all Patches from the active DMX Library as recording sources
+</p><p>Target is Take Recorder DMXLibrary Source</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BytestoInt"><p>Bytes to Int</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return integer given an array of bytes. Up to the first 4 bytes in the array will be used for the conversion.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BytestoNormalizedValue"><p>Bytes to Normalized Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return normalized value given an array of bytes. Up to the first 4 bytes in the array will be used for the conversion.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateFixturePatchinLibrary"><p>Create Fixture Patch in Library</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a new Fixture Patch in the DMX Library using the specified Fixture Type
+</p><p>Target is DMX Fixture Patch</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateFixtureTypeinLibrary"><p>Create Fixture Type in Library</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a new Fixture Type in the DMX Library
+</p><p>Target is DMX Fixture Type</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllDMXLibraries"><p>Get All DMXLibraries</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return reference to array of DMX Library objects.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllFixtureTypesinLibrary"><p>Get All Fixture Types in Library</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return reference to array of Fixture Types objects in library.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllFixturesinLibrary"><p>Get All Fixtures in Library</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return reference to array of Fixture Patch objects in library.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllFixturesinUniverse"><p>Get All Fixtures in Universe</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return reference to array of Fixture Patch objects in a given universe.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllFixturesOfCategory"><p>Get All Fixtures Of Category</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return reference to array of Fixture Patch objects of a given category.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllFixturesOfType"><p>Get All Fixtures Of Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return reference to array of Fixture Patch objects of a given type.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllFixtureswithTag"><p>Get All Fixtures with Tag</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return reference to array of Fixture Patch objects with a given tag.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAttributeLabel"><p>Get Attribute Label</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the FName for a FDMXAttributeName, since structs can't have UFUCNTIONS to create a getter
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDMXAttributeValues"><p>Get DMX Attribute Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>K2Node Get DMXAttribute Values</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDMXFixturePatch"><p>Get DMX Fixture Patch</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get selected Fixture Patch</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDMXFixtureType"><p>Get DMX Fixture Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get selected Fixture Type</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDMXPixelMappingRendererCompon-"><p>Get DMX Pixel Mapping Renderer Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Node for getting Renderer Component from PixelMapping object and Renderer FName</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDMXDatafromInputPort"><p>Get DMXData from Input Port</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets accumulated latest DMX Values from the Input Port (all that's been received since Begin Play)
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDMXDatafromOutputPort"><p>Get DMXData from Output Port</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets accumulated latest DMX Values from the Output Port  (all that's been sent since Begin Play)
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDMXInterpolatedStep"><p>Get DMXInterpolated Step</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the interpolation delta value (step) for this frame
+</p><p>Target is DMXFixture Component Single</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDMXInterpolatedValue"><p>Get DMXInterpolated Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the current interpolated value
+</p><p>Target is DMXFixture Component Double</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDMXTargetValue"><p>Get DMXTarget Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the target value towards which the component interpolates
+</p><p>Target is DMXFixture Component Double</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFixtureAttributes"><p>Get Fixture Attributes</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return map with all DMX functions and their associated values given DMX buffer and desired universe.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFixturebyName"><p>Get Fixture by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return reference to Fixture Patch object with a given name.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFixturePatch"><p>Get Fixture Patch</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the fixture patch used in the component
+</p><p>Target is DMXComponent</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFixtureTypebyName"><p>Get Fixture Type by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return reference to Fixture Type object with a given name.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalDMXNetworkInterfaceCardI-"><p>Get Local DMXNetwork Interface Card IPs</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the IP addresses of the network interface cards available to the system.
+</p><p>Target is DMXProtocol Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParentFixtureActor"><p>Get Parent Fixture Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If attached to a DMX Fixture Actor, returns the parent fixture actor.
+</p><p>Target is DMXFixture Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPixelMappingComponentModulato-"><p>Get Pixel Mapping Component Modulators</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the Modulators of the component corresponding to the patch specified.
+Note, this node does a lookup on all fixture patches in use, hence may be slow and shouldn't be called on tick.
+</p><p>Target is DMXPixel Mapping Renderer Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTextureCenterColors"><p>Get Texture Center Colors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reads pixel color in the middle of each "Texture" and output linear colors
+</p><p>Target is DMXFixture Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNormalizedAttributeValue"><p>GetNormalizedAttributeValue</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the normalized value of an Int value from a Fixture Patch function.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InitializeComponent"><p>Initialize Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Called to initialize the component in blueprints
+</p><p>Target is DMXFixture Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InttoNormalizedValue"><p>Int to Normalized Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the normalized value of an Int value from the specified Signal Format.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IntValuetoBytes"><p>Int Value to Bytes</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the Bytes format of Value in the desired Signal Format.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InterpolateComponent"><p>Interpolate Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Called each tick when interpolation is enabled, to calculate the next value
+</p><p>Target is DMXFixture Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsDMXInterpolationDone"><p>Is DMXInterpolation Done</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>True if the target value is reached and no interpolation is required
+</p><p>Target is DMXFixture Component Double</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsReceiveDMXEnabled"><p>Is Receive DMXEnabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether Receive DMX from the network is enabled globally.
+</p><p>Target is DMXProtocol Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsSendDMXEnabled"><p>Is Send DMXEnabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether send DMX to the network is enabled globally.
+</p><p>Target is DMXProtocol Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NormalizedValuetoBytes"><p>Normalized Value to Bytes</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the Bytes format of Value in the desired Signal Format.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnFixturePatchReceivedDMX"><p>On Fixture Patch Received DMX</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Fixture Patch Received DMX:
+Broadcasts when the patch received dmx</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnProtocolReceived"><p>On Protocol Received</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Protocol Received</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PixelMappingDistributionSort"><p>Pixel Mapping Distribution Sort</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sort an array according to the selected distribution pattern.
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveFixturePatchfromLibrary"><p>Remove Fixture Patch from Library</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes a fixture patch from the DMX Library
+</p><p>Target is DMX Fixture Patch</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveFixtureTypefromLibrary"><p>Remove Fixture Type from Library</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes a Fixture Type from a DMX Library
+</p><p>Target is DMX Fixture Type</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SendDMX"><p>Send DMX</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Send DMX using attribute names and integer values.
+</p><p>Target is DMX Fixture Patch</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SendDMXToOutputPort"><p>Send DMXTo Output Port</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sends DMX Values over the Output Port
+</p><p>Target is DMXSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetChannel1ValueNoInterp"><p>Set Channel 1Value No Interp</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets first value of the second channel. When interpolation is enabled this function should be called until the value is reached, else just once */
+</p><p>Target is DMXFixture Component Double</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetChannel2ValueNoInterp"><p>Set Channel 2Value No Interp</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets second value of the second channel. When interpolation is enabled this function should be called until the value is reached, else just once
+</p><p>Target is DMXFixture Component Double</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetColorNoInterp"><p>Set Color No Interp</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the color of the component. Note DMX Fixture Component Color does not support interpolation
+</p><p>Target is DMXFixture Component Color</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDMXInputPortDeviceAddress"><p>Set DMXInput Port Device Address</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the Device Address of the Output Port. For networking Protocols that's the IP Adress of the network interface card.
+</p><p>Target is DMXProtocol Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDMXOutputPortDestinationAddre-"><p>Set DMXOutput Port Destination Addresses</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the Destination Address Address of the Output Port. For networking Protocols that's the Unicast IP Adress. Not required for Multicast and Broadcast.
+</p><p>Target is DMXProtocol Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDMXOutputPortDeviceAddress"><p>Set DMXOutput Port Device Address</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the Device Address of the Output Port. For networking Protocols that's the IP Adress of the network interface card.
+</p><p>Target is DMXProtocol Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetFixturePatch"><p>Set Fixture Patch</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the fixture patch used in the component
+</p><p>Target is DMXComponent</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetReceiveDMXEnabled"><p>Set Receive DMXEnabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets if DMX is received from the network
+</p><p>Target is DMXProtocol Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetReceiveDMXFromPatch"><p>Set Receive DMXFrom Patch</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets whether the component receives dmx from the patch. Note, this is saved with the component when called in editor.
+</p><p>Target is DMXComponent</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSendDMXEnabled"><p>Set Send DMXEnabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets if DMX is sent to the network
+</p><p>Target is DMXProtocol Blueprint Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+<h2 id="categories">Categories</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FixturePatch"><p>Fixture Patch</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Fixture Patch</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PixelMapping"><p>Pixel Mapping</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Pixel Mapping</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

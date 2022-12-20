@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/LidarPointCloud/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Lidar Point Cloud | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/LidarPointCloud/" hreflang="x-default" />
+
+	<meta name="title" content="Lidar Point Cloud" />
+<meta name="description" content="Lidar Point Cloud" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Lidar Point Cloud" />
+	<meta property="og:description" content="Lidar Point Cloud" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Lidar Point Cloud</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Lidar Point Cloud</h1>
+		</div>
+		<h2 >Lidar Point Cloud</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AlignClouds"><p>Align Clouds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Aligns provided clouds based on the relative offset between their Original Coordinates. Retains overall centering of the group.
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ApplyColortoAllPoints"><p>Apply Color to All Points</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Applies the given color to all points
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ApplyColortoFirstPointbyRay"><p>Apply Color to First Point by Ray</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Applies the given color to the first point hit by the given ray
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ApplyColortoPointsbyRay"><p>Apply Color to Points by Ray</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Applies the given color to all points hit by the given ray
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ApplyColortoPointsinBox"><p>Apply Color to Points in Box</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Applies the given color to all points within the box
+</p><p>Target is Lidar Point Cloud Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ApplyColortoPointsinSphere"><p>Apply Color to Points in Sphere</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Applies the given color to all points within the sphere
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ArePointsbyRay"><p>Are Points by Ray</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if there are any points hit by the given ray.
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ArePointsinBox"><p>Are Points in Box</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if there are any points within the given box.
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ArePointsinSphere"><p>Are Points in Sphere</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if there are any points within the given sphere.
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BuildCollision"><p>Build Collision</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Builds collision mesh for the cloud, using current collision settings
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CalculateNormals"><p>Calculate Normals</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Calculates Normals for this point cloud
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CenterPoints"><p>Center Points</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Centers this cloud
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateEmptyLidarPointCloud"><p>Create Empty Lidar Point Cloud</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns new, empty Point Cloud object.
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateLidarPointCloudFromData"><p>Create Lidar Point Cloud From Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"><p>Returns new Point Cloud object created from the data provided.
+</p></li><li class="Default"><p>Warning: If using Async, make sure the data does not get invalidated during processing!
+</p></li></ul><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateLidarPointCloudFromFile"><p>Create Lidar Point Cloud From File</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns new Point Cloud object imported using default settings.
+If using Async, the process runs in the background without blocking the game thread.
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateLidarPointCloudFromFile_AS-"><p>Create Lidar Point Cloud From File (ASCII)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Point Cloud from File
+</p><p>Target is Lidar Point Cloud File IO ASCII</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Export"><p>Export</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Exports this Point Cloud to the given filename.
+Consult supported export formats.
+Returns true if successful
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ExportPointCloudtoFile"><p>Export Point Cloud to File</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Exports the Point Cloud to the given filename.
+Consult supported export formats.
+Returns true if successful
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBounds"><p>Get Bounds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Bounds
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDataSize"><p>Get Data Size</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the amount of memory in MB used to store the point cloud.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEstimatedPointSpacing"><p>Get Estimated Point Spacing</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Estimated Point Spacing
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumLODs"><p>Get Num LODs</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>End UObject Interface.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumNodes"><p>Get Num Nodes</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Num Nodes
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumPoints"><p>Get Num Points</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Num Points
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumVisiblePoints"><p>Get Num Visible Points</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Num Visible Points
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPointsasCopies"><p>Get Points as Copies</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns an array with copies of points from the tree
+If ReturnWorldSpace is selected, the points' locations will be converted into absolute value, otherwise they will be relative to the center of the cloud.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPointsinBoxasCopies"><p>Get Points in Box as Copies</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns an array with copies of points within the given box
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPointsinSphereasCopies"><p>Get Points in Sphere as Copies</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Populates the array with copies of points within the given sphere.
+If ReturnWorldSpace is selected, the points' locations will be converted into absolute value, otherwise they will be relative to the center of the cloud.
+</p><p>Target is Lidar Point Cloud Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSourcePath"><p>Get Source Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Source Path
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasCollisionData"><p>Has Collision Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true, if the Octree has collision built
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasPointsbyRay"><p>Has Points by Ray</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if there are any points hit by the given ray.
+</p><p>Target is Lidar Point Cloud Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasPointsinBox"><p>Has Points in Box</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if there are any points within the given box.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasPointsinSphere"><p>Has Points in Sphere</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if there are any points within the given sphere.
+</p><p>Target is Lidar Point Cloud Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HideAll"><p>Hide All</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Marks all points hidden
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Initialize"><p>Initialize</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Re-initializes the asset with new bounds.
+Warning: Will erase all currently held data!
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InsertPoint"><p>Insert Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Inserts the given point into the Octree structure.
+If bRefreshPointsBounds is set to false, make sure you call RefreshBounds() manually or cloud centering may not work correctly.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InsertPoints"><p>Insert Points</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Inserts group of points into the Octree structure, multi-threaded.
+If bRefreshPointsBounds is set to false, make sure you call RefreshBounds() manually or cloud centering may not work correctly.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsCentered"><p>Is Centered</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true, if the cloud has been centered.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsFullyLoaded"><p>Is Fully Loaded</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true, if the cloud is fully and persistently loaded.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsOptimizedforDynamicData"><p>Is Optimized for Dynamic Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Is Optimized for Dynamic Data
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LineTraceMulti"><p>Line Trace Multi</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Performs a raycast test against the point cloud.
+Populates OutHits array with the results.
+If ReturnWorldSpace is selected, the points' locations will be converted into absolute value, otherwise they will be relative to the center of the cloud.
+Returns true it anything has been hit.
+</p><p>Target is Lidar Point Cloud Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LineTraceSingle"><p>Line Trace Single</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Performs a raycast test against the point cloud. Returns the pointer if hit or nullptr otherwise.
+</p><p>Target is Lidar Point Cloud Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LineTraceForLidarPointCloud"><p>LineTraceForLidarPointCloud</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Does a collision trace along the given line and returns the first blocking hit encountered.
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LineTraceMultiForLidarPointCloud"><p>LineTraceMultiForLidarPointCloud</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Does a collision trace along the given line and returns all hits encountered up to and including the first blocking hit.
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LoadAllNodes"><p>Load All Nodes</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Persistently loads all nodes.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MarkPointVisibilityDirty"><p>Mark Point Visibility Dirty</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This should to be called if any manual modification to individual points' visibility has been made.
+If not marked dirty, the rendering may work sub-optimally.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Merge"><p>Merge</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Merges this point cloud with the ones provided
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MergeSingle"><p>Merge Single</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Merges this point cloud with the one provided
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NormalfromVector"><p>Normal from Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the given normal using provided vector
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NormaltoVector"><p>Normal to Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a Lidar Point Cloud Normal to a Vector
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RefreshBounds"><p>Refresh Bounds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Recalculates and updates points bounds.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RefreshRendering"><p>Refresh Rendering</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Refresh Rendering
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Reimport"><p>Reimport</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Re-imports the cloud from it's original source file, overwriting any current point information.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveCollision"><p>Remove Collision</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes collision mesh from the cloud.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveFirstPointbyRay"><p>Remove First Point by Ray</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the first point hit by the given ray
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveHiddenPoints"><p>Remove Hidden Points</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes all hidden points
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemovePoint"><p>Remove Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempts to remove the given point.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemovePointsbyRay"><p>Remove Points by Ray</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes all points hit by the given ray
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemovePointsinBox"><p>Remove Points in Box</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes all points within the given box
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemovePointsinSphere"><p>Remove Points in Sphere</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes all points within the given sphere
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RestoreOriginalCoordinates"><p>Restore Original Coordinates</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Restores original coordinates
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetData"><p>Set Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reinitializes the cloud with the new set of data.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocationOffset"><p>Set Location Offset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Applies given offset to this point cloud.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetOptimizedforDynamicData"><p>Set Optimized for Dynamic Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Optimized for Dynamic Data
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSourcePath"><p>Set Source Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Source Path
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVisibilityOfFirstPointbyRay"><p>Set Visibility Of First Point by Ray</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets visibility of the first point hit by the given ray.
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVisibilityOfPointsbyRay"><p>Set Visibility Of Points by Ray</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets visibility of points hit by the given ray.
+</p><p>Target is Lidar Point Cloud Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVisibilityOfPointsinBox"><p>Set Visibility Of Points in Box</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets visibility of points within the given box.
+</p><p>Target is Lidar Point Cloud Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVisibilityOfPointsinSphere"><p>Set Visibility Of Points in Sphere</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets visibility of points within the given sphere.
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UnhideAll"><p>Unhide All</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Marks all points visible
+</p><p>Target is Lidar Point Cloud</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectortoNormal"><p>Vector to Normal</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a Vector to a Lidar Point Cloud Normal
+</p><p>Target is Lidar Point Cloud Blueprint Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

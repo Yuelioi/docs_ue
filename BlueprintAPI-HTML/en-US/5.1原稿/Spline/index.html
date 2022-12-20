@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Spline/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Spline | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Spline/" hreflang="x-default" />
+
+	<meta name="title" content="Spline" />
+<meta name="description" content="Spline" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Spline" />
+	<meta property="og:description" content="Spline" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Spline</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Spline</h1>
+		</div>
+		<h2 >Spline</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddPoint"><p>Add Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds an FSplinePoint to the spline. This contains its input key, position, tangent, rotation and scale.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddPoints"><p>Add Points</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds an array of FSplinePoints to the spline.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddSplinePoint"><p>Add Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a point to the spline
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddSplinePointatIndex"><p>Add Spline Point at Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a point to the spline at the specified index
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearSplinePoints"><p>Clear Spline Points</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clears all the points in the spline
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConvertSplineSegmenttoPolyLine"><p>Convert Spline Segment to Poly Line</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a threshold, returns a list of vertices along the spline segment that, treated as a list of segments (polyline), matches the spline shape.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConvertSplinetoPolyLine"><p>Convert Spline to Poly Line</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a threshold, returns a list of vertices along the spline that, treated as a list of segments (polyline), matches the spline shape.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DivideSplineIntoPolylineRecursiv-"><p>Divide Spline Into Polyline Recursive</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a threshold, recursively sub-divides the spline section until the list of segments (polyline) matches the spline shape.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindDirectionClosesttoWorldLocat-"><p>Find Direction Closest to World Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a location, in world space, return a unit direction vector of the spline tangent closest to the location.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindInputKeyClosesttoWorldLocati-"><p>Find Input Key Closest to World Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a location, in world space, return the input key closest to that location.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindLocationClosesttoWorldLocati-"><p>Find Location Closest to World Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a location, in world space, return the point on the curve that is closest to the location.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindRightVectorClosesttoWorldLoc-"><p>Find Right Vector Closest to World Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a location, in world space, return a unit direction vector corresponding to the spline's right vector closest to the location.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindRollClosesttoWorldLocation"><p>Find Roll Closest to World Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a location, in world space, return the spline's roll closest to the location, in degrees.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindRotationClosesttoWorldLocati-"><p>Find Rotation Closest to World Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a location, in world space, return rotation corresponding to the spline's rotation closest to the location.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindScaleClosesttoWorldLocation"><p>Find Scale Closest to World Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a location, in world space, return the spline's scale closest to the location.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindTangentClosesttoWorldLocatio-"><p>Find Tangent Closest to World Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a location, in world space, return the tangent vector of the spline closest to the location.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindTransformClosesttoWorldLocat-"><p>Find Transform Closest to World Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a location, in world space, return an FTransform closest to that location.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindUpVectorClosesttoWorldLocati-"><p>Find Up Vector Closest to World Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a location, in world space, return a unit direction vector corresponding to the spline's up vector closest to the location.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetArriveTangentatSplinePoint"><p>Get Arrive Tangent at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the arrive tangent at spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDefaultUpVector"><p>Get Default Up Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the default up vector used by this spline
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDirectionatDistanceAlongSplin-"><p>Get Direction at Distance Along Spline</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a distance along the length of this spline, return a unit direction vector of the spline tangent there.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDirectionatSplineInputKey"><p>Get Direction at Spline Input Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get unit direction along spline at the provided input key value
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDirectionatSplinePoint"><p>Get Direction at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the direction at spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDirectionatTime"><p>Get Direction at Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a time from 0 to the spline duration, return a unit direction vector of the spline tangent there.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDistanceAlongSplineatSplineIn-"><p>Get Distance Along Spline at Spline Input Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get distance along the spline at the provided input key value
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDistanceAlongSplineatSplinePo-"><p>Get Distance Along Spline at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the distance along the spline at the spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFloatPropertyatSplineInputKey"><p>Get Float Property at Spline Input Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a metadata property float value along the spline at spline input key
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFloatPropertyatSplinePoint"><p>Get Float Property at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a metadata property float value along the spline at spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetInputKeyatDistanceAlongSpline"><p>Get Input Key at Distance Along Spline</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a distance along the length of this spline, return the corresponding input key at that point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLeaveTangentatSplinePoint"><p>Get Leave Tangent at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the leave tangent at spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocationandTangentatSplinePoi-"><p>Get Location and Tangent at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get location and tangent at a spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocationatDistanceAlongSpline"><p>Get Location at Distance Along Spline</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a distance along the length of this spline, return the point in space where this puts you
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocationatSplineInputKey"><p>Get Location at Spline Input Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get location along spline at the provided input key value
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocationatSplinePoint"><p>Get Location at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the location at spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocationatTime"><p>Get Location at Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a time from 0 to the spline duration, return the point in space where this puts you
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumberOfSplinePoints"><p>Get Number Of Spline Points</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the number of points that make up this spline
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumberOfSplineSegments"><p>Get Number Of Spline Segments</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the number of segments that make up this spline
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRightVectoratDistanceAlongSpl-"><p>Get Right Vector at Distance Along Spline</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a distance along the length of this spline, return a unit direction vector corresponding to the spline's right vector there.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRightVectoratSplineInputKey"><p>Get Right Vector at Spline Input Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get right vector at the provided input key value
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRightVectoratSplinePoint"><p>Get Right Vector at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the right vector at spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRightVectoratTime"><p>Get Right Vector at Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a time from 0 to the spline duration, return the spline's right vector there.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRollatDistanceAlongSpline"><p>Get Roll at Distance Along Spline</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a distance along the length of this spline, return the spline's roll there, in degrees.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRollatSplineInputKey"><p>Get Roll at Spline Input Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get roll in degrees at the provided input key value
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRollatSplinePoint"><p>Get Roll at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the amount of roll at spline point, in degrees
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRollatTime"><p>Get Roll at Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a time from 0 to the spline duration, return the spline's roll there, in degrees.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRotationatDistanceAlongSpline"><p>Get Rotation at Distance Along Spline</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a distance along the length of this spline, return a rotation corresponding to the spline's rotation there.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRotationatSplineInputKey"><p>Get Rotation at Spline Input Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get rotator corresponding to rotation along spline at the provided input key value
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRotationatSplinePoint"><p>Get Rotation at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the rotation at spline point as a rotator
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRotationatTime"><p>Get Rotation at Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a time from 0 to the spline duration, return a rotation corresponding to the spline's position and direction there.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetScaleatDistanceAlongSpline"><p>Get Scale at Distance Along Spline</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a distance along the length of this spline, return the spline's scale there.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetScaleatSplineInputKey"><p>Get Scale at Spline Input Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get scale at the provided input key value
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetScaleatSplinePoint"><p>Get Scale at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the scale at spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetScaleatTime"><p>Get Scale at Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a time from 0 to the spline duration, return the spline's scale there.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSplineLength"><p>Get Spline Length</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns total length along this spline
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSplinePointType"><p>Get Spline Point Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the type of a spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTangentatDistanceAlongSpline"><p>Get Tangent at Distance Along Spline</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a distance along the length of this spline, return the tangent vector of the spline there.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTangentatSplineInputKey"><p>Get Tangent at Spline Input Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get tangent along spline at the provided input key value
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTangentatSplinePoint"><p>Get Tangent at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the tangent at spline point. This fetches the Leave tangent of the point.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTangentatTime"><p>Get Tangent at Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a time from 0 to the spline duration, return the spline's tangent there.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTransformatDistanceAlongSplin-"><p>Get Transform at Distance Along Spline</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a distance along the length of this spline, return an FTransform corresponding to that point on the spline.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTransformatSplineInputKey"><p>Get Transform at Spline Input Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get transform at the provided input key value
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTransformatSplinePoint"><p>Get Transform at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the transform at spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTransformatTime"><p>Get Transform at Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a time from 0 to the spline duration, return the spline's transform at the corresponding position.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUpVectoratDistanceAlongSpline"><p>Get Up Vector at Distance Along Spline</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a distance along the length of this spline, return a unit direction vector corresponding to the spline's up vector there.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUpVectoratSplineInputKey"><p>Get Up Vector at Spline Input Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get up vector at the provided input key value
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUpVectoratSplinePoint"><p>Get Up Vector at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the up vector at spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUpVectoratTime"><p>Get Up Vector at Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a time from 0 to the spline duration, return the spline's up vector there.
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorPropertyatSplineInputKe-"><p>Get Vector Property at Spline Input Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a metadata property vector value along the spline at spline input key
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorPropertyatSplinePoint"><p>Get Vector Property at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a metadata property vector value along the spline at spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsClosedLoop"><p>Is Closed Loop</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether the spline is a closed loop or not
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveSplinePoint"><p>Remove Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes point at specified index from the spline
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetClosedLoop"><p>Set Closed Loop</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Specify whether the spline is a closed loop or not. The loop position will be at 1.0 after the last point's input key
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetClosedLoopatPosition"><p>Set Closed Loop at Position</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Specify whether the spline is a closed loop or not, and if so, the input key corresponding to the loop point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDefaultUpVector"><p>Set Default Up Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the default up vector used by this spline
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDrawDebug"><p>Set Draw Debug</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Specify whether this spline should be rendered when the Editor/Game spline show flag is set
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocationatSplinePoint"><p>Set Location at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Move an existing point to a new location
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRotationatSplinePoint"><p>Set Rotation at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the rotation of an existing spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetScaleatSplinePoint"><p>Set Scale at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the scale at a given spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSplinePointType"><p>Set Spline Point Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Specify the type of a spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSplinePoints"><p>Set Spline Points</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the spline to an array of points
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTangentatSplinePoint"><p>Set Tangent at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Specify the tangent at a given spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTangentsatSplinePoint"><p>Set Tangents at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Specify the tangents at a given spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetUpVectoratSplinePoint"><p>Set Up Vector at Spline Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Specify the up vector at a given spline point
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UpdateSpline"><p>Update Spline</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Update the spline tangents and SplineReparamTable
+</p><p>Target is Spline Component</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

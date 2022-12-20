@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Math/Color/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Color | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Math/Color/" hreflang="x-default" />
+
+	<meta name="title" content="Color" />
+<meta name="description" content="Color" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Math" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Color" />
+	<meta property="og:description" content="Color" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Math">Math</a>
+
+<span class="separator">></span> <span id="page">Color</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Color</h1>
+		</div>
+		<h2 >Color</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BreakColor"><p>Break Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Breaks apart a color into individual RGB components (as well as alpha)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Desaturate_LinearColor"><p>Desaturate (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a desaturated color, with 0 meaning no desaturation and 1 == full desaturation
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Distance_LinearColor"><p>Distance (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Euclidean distance between two color points.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HSVtoRGB"><p>HSV to RGB</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Make a color from individual color components (HSV space; Hue is [0..360) while Saturation and Value are 0..1)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HSVtoRGB_Vector"><p>HSV to RGB (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a HSV linear color (where H is in R (0..360), S is in G (0..1), and V is in B (0..1)) to RGB
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HSVtoRGBlinearcolor"><p>HSV to RGB linear color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a HSV linear color (where H is in R, S is in G, and V is in B) to linear RGB
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Lerp_LinearColor"><p>Lerp (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Linearly interpolates between A and B based on Alpha (100% of A when Alpha=0 and 100% of B when Alpha=1)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LerpUsingHSV_LinearColor"><p>Lerp Using HSV (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Linearly interpolates between two colors by the specified Alpha amount (100% of A when Alpha=0 and 100% of B when Alpha=1).  The interpolation is performed in HSV color space taking the shortest path to the new color's hue.  This can give better results than a normal lerp, but is much more expensive.  The incoming colors are in RGB space, and the output color will be RGB.  The alpha value will also be interpolated.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LinearColorBlack"><p>Linear Color Black</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Black linear color
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LinearColorBlue"><p>Linear Color Blue</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Blue linear color
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LinearColorGray"><p>Linear Color Gray</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Grey linear color
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LinearColorGreen"><p>Linear Color Green</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Green linear color
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LinearColorRed"><p>Linear Color Red</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Red linear color
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LinearColorSet"><p>Linear Color Set</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Assign contents of InColor
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LinearColorSetfromHSV"><p>Linear Color Set from HSV</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Assigns an HSV color to a linear space RGB color
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LinearColorSetfromPow22"><p>Linear Color Set from Pow 22</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Assigns an FColor coming from an observed Pow(1/2.2) output, into a linear color.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LinearColorSetfromSRGB"><p>Linear Color Set from SRGB</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Assigns an FColor coming from an observed sRGB output, into a linear color.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LinearColorSetRandomHue"><p>Linear Color Set Random Hue</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets to a random color. Choses a quite nice color based on a random hue.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LinearColorSetRGBA"><p>Linear Color Set RGBA</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Assign individual linear RGBA components.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LinearColorSetTemperature"><p>Linear Color Set Temperature</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts temperature in Kelvins of a black body radiator to RGB chromaticity.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LinearColorTransparent"><p>Linear Color Transparent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Transparent linear color - black with 0 opacity/alpha
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LinearColorWhite"><p>Linear Color White</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>White linear color
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LinearColorYellow"><p>Linear Color Yellow</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Yellow linear color
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Luminance_LinearColor"><p>Luminance (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the perceived brightness of a color on a display taking into account the impact on the human eye per color channel: green &gt; red &gt; blue.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeColor"><p>Make Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Make a color from individual color components (RGB space)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Max_LinearColor"><p>Max (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the maximum color channel value in this color structure
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Min_LinearColor"><p>Min (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the minimum color channel value in this color structure
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NearEqual_LinearColor"><p>Near Equal (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if linear color A is equal to linear color B (A == B) within a specified error tolerance
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NewOpacity_LinearColor"><p>New Opacity (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a copy of this color using the specified opacity/alpha.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="QuantizeWithRoundingTo8_bit_Line-"><p>Quantize With Rounding To 8-bit (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Quantizes the linear color with rounding and returns the result as an 8-bit color.  This bypasses the SRGB conversion.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RGBtoHSV"><p>RGB to HSV</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Breaks apart a color into individual HSV components (as well as alpha) (Hue is [0..360) while Saturation and Value are 0..1)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RGBtoHSV_LinearColor"><p>RGB to HSV (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a RGB linear color to HSV (where H is in R, S is in G, and V is in B)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RGBtoHSV_Vector"><p>RGB to HSV (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a RGB linear color to HSV (where H is in R (0..360), S is in G (0..1), and V is in B (0..1))
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SelectColor"><p>Select Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If bPickA is true, A is returned, otherwise B is
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToRGBE_LinearColor"><p>To RGBE (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert from linear to 8-bit RGBE as outlined in Gregory Ward's Real Pixels article, Graphics Gems II, page 80.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

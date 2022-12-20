@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Montage/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Montage | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Montage/" hreflang="x-default" />
+
+	<meta name="title" content="Montage" />
+<meta name="description" content="Montage" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Montage" />
+	<meta property="og:description" content="Montage" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Montage</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Montage</h1>
+		</div>
+		<h2 >Montage</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBlendinArgs"><p>Get Blend in Args</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Blend in Args
+</p><p>Target is Anim Montage</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBlendOutArgs"><p>Get Blend Out Args</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Blend Out Args
+</p><p>Target is Anim Montage</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentActiveMontage"><p>Get Current Active Montage</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a current Active Montage in this AnimInstance.
+Note that there might be multiple Active at the same time. This will only return the first active one it finds. *
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDefaultBlendinTime"><p>Get Default Blend in Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Default Blend in Time
+</p><p>Target is Anim Montage</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDefaultBlendOutTime"><p>Get Default Blend Out Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Default Blend Out Time
+</p><p>Target is Anim Montage</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsAnyMontagePlaying"><p>Is Any Montage Playing</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if any montage is playing currently. Doesn't mean it's active though, it could be blending out.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsValidSectionName"><p>Is Valid Section Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Anim Montage</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageGetBlendTime"><p>Montage Get Blend Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current blend time of the Montage.
+If Montage reference is NULL, it will return the current blend time on the first active Montage found.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageGetCurrentSection"><p>Montage Get Current Section</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the name of the current animation montage section.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageGetIsStopped"><p>Montage Get Is Stopped</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>return true if Montage is not currently active. (not valid or blending out)
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageGetPlayRate"><p>Montage Get Play Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get PlayRate for Montage.
+If Montage reference is NULL, PlayRate for any Active Montage will be returned.
+If Montage is not playing, 0 is returned.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageGetPosition"><p>Montage Get Position</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Current Montage Position
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageIsActive"><p>Montage Is Active</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the animation montage is active. If the Montage reference is NULL, it will return true if any Montage is active.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageIsPlaying"><p>Montage Is Playing</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the animation montage is currently active and playing.
+If reference is NULL, it will return true is ANY montage is currently active and playing.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageJumptoSection"><p>Montage Jump to Section</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Makes a montage jump to a named section. If Montage reference is NULL, it will do that to all active montages.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageJumptoSectionsEnd"><p>Montage Jump to Sections End</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Makes a montage jump to the end of a named section. If Montage reference is NULL, it will do that to all active montages.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontagePause"><p>Montage Pause</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Pauses the animation montage. If reference is NULL, it will pause ALL active montages.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontagePlay"><p>Montage Play</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Plays an animation montage. Returns the length of the animation montage in seconds. Returns 0.f if failed to play.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontagePlaywithBlendIn"><p>Montage Play with Blend In</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Plays an animation montage. Same as Montage_Play, but you can specify an AlphaBlend for Blend In settings.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontagePlaywithBlendSettings"><p>Montage Play with Blend Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Plays an animation montage. Same as Montage_Play, but you can overwrite all of the montage's default blend in settings.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageResume"><p>Montage Resume</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Resumes a paused animation montage. If reference is NULL, it will resume ALL active montages.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageSetNextSection"><p>Montage Set Next Section</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Relink new next section AFTER SectionNameToChange in run-time
+You can link section order the way you like in editor, but in run-time if you'd like to change it dynamically,
+use this function to relink the next section
+For example, you can have Start-&gt;Loop-&gt;Loop-&gt;Loop.... but when you want it to end, you can relink
+next section of Loop to be End to finish the montage, in which case, it stops looping by Loop-&gt;End.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageSetPlayRate"><p>Montage Set Play Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Change AnimMontage play rate. NewPlayRate = 1.0 is the default playback rate.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageSetPosition"><p>Montage Set Position</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set position.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageStop"><p>Montage Stop</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Stopped montages will blend out using their montage asset's BlendOut, with InBlendOutTime as the BlendTime
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageStopGroupbyName"><p>Montage Stop Group by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Stops all active montages belonging to a group.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageStopwithBlendOut"><p>Montage Stop with Blend Out</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Same as Montage_Stop. Uses values from the AlphaBlendArgs. Other settings come from the montage asset
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageStopwithBlendSettings"><p>Montage Stop with Blend Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Same as Montage_Stop, but all blend settings are provided instead of using the ones on the montage asset
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageSyncFollow"><p>Montage Sync Follow</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Synchronize a montage to another anim instance's montage. Both montages must be playing already
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MontageSyncStopFollowing"><p>Montage Sync Stop Following</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Stop following the montage's leader in this anim instance
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

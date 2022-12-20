@@ -1,0 +1,22 @@
+# Getrootactor_Message
+
+Returns DisplayCluster root actor.
+
+Target is Display Cluster Blueprint API
+
+## 图示
+
+![]($-20221218-20112288.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Object Reference.  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: N Display Root Actor Object Reference. Returns DisplayCluster root actor..
+

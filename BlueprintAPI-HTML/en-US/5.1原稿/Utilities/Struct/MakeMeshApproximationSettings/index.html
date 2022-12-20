@@ -1,0 +1,1578 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Utilities/Struct/MakeMeshApproximationSettings/" />');
+				var udnCSS = './../../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Make MeshApproximationSettings | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Utilities/Struct/MakeMeshApproximationSettings/" hreflang="x-default" />
+
+	<meta name="title" content="Make MeshApproximationSettings" />
+<meta name="description" content="Make MeshApproximationSettings" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Utilities,BlueprintAPI/Utilities/Struct" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Make MeshApproximationSettings" />
+	<meta property="og:description" content="Make MeshApproximationSettings" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../../Utilities">Utilities</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Struct">Struct</a>
+
+<span class="separator">></span> <span id="page">Make MeshApproximationSettings</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Make MeshApproximationSettings</h1>
+		</div>
+		<h2 >Make MeshApproximationSettings</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<p>Adds a node that create a 'MeshApproximationSettings' from its members
+</p><div class="graph">
+	<div class="node_container pure ">
+    <div class="node">
+        
+        <div class="titlebar_node">            
+            
+            <div class="titlebar_overlay">
+                <div class="titlebar_node_text">
+                    Make MeshApproximationSettings
+                </div>
+            </div>
+        </div>        
+        <div class="nodebody">
+            
+            <div class="background"></div>
+                        
+            
+            <div class="inputs">
+                <div id="pin_Output_Type" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Output Type
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            MeshAndMaterials
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Approximation_Accuracy_(Meters)" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Approximation Accuracy (Meters)
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Clamp_Voxel_Dimension" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Clamp Voxel Dimension
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        1024
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Attempt_Auto_Thickening" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Attempt Auto Thickening
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Target_Min_Thickness_Multiplier" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Target Min Thickness Multiplier
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Ignore_Tiny_Parts" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Ignore Tiny Parts
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Tiny_Part_Size_Multiplier" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Tiny Part Size Multiplier
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Base_Capping" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Base Capping
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            NoBaseCapping
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Winding_Threshold" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Winding Threshold
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Fill_Gaps" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Fill Gaps
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Gap_Filling_Distance_(Meters)" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Gap Filling Distance (Meters)
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Occlusion_Method" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Occlusion Method
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            VisibilityBasedFiltering
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Occlude_From_Bottom" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Occlude From Bottom
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Simplify_Method" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Simplify Method
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            GeometricTolerance
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Target_Tri_Count" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Target Tri Count
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        2000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Triangles_Per_M" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Triangles Per M
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Geometric_Deviation_(Meters)" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Geometric Deviation (Meters)
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Ground_Clipping" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Ground Clipping
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            NoGroundClipping
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Ground_Clipping_ZHeight" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Ground Clipping ZHeight
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Estimate_Hard_Normals" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Estimate Hard Normals
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Hard_Normal_Angle" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Hard Normal Angle
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_UVGeneration_Method" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    UVGeneration Method
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            PreferXAtlas
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Initial_Patch_Count" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Initial Patch Count
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        250
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Curvature_Alignment" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Curvature Alignment
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Merging_Threshold" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Merging Threshold
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Max_Angle_Deviation" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Max Angle Deviation
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Generate_Nanite_Enabled_Mesh" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Generate Nanite Enabled Mesh
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Nanite_Proxy_Triangle_Percent" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Nanite Proxy Triangle Percent
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Support_Ray_Tracing" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Support Ray Tracing
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Allow_Distance_Field" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Allow Distance Field
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Multi_Sampling_AA" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Multi Sampling AA
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        0
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Render_Capture_Resolution" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Render Capture Resolution
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        2048
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Material_Settings" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Material Settings
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Capture_Field_Of_View" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Capture Field Of View
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Near_Plane_Dist" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Near Plane Dist
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Use_Render_LODMeshes" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Use Render LODMeshes
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Enable_Simplify_Pre_Pass" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Enable Simplify Pre Pass
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Enable_Parallel_Baking" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Enable Parallel Baking
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Print_Debug_Messages" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Print Debug Messages
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Emit_Full_Debug_Mesh" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Emit Full Debug Mesh
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                   
+               
+            <div class="outputs">
+                <div id="pin_Mesh_Approximation_Settings" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Mesh Approximation Settings
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                      
+        </div>
+    </div>
+</div>
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'inputs');">
+        <p>Inputs</p>
+    </div>
+<div id="inputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Output_Type" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Output Type</a>
+        <div class="name-cell-arguments">
+            EMeshApproximationType Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Output Type:
+Type of output from mesh approximation process</p>
+    </td>
+</tr>
+<tr id="Approximation_Accuracy_(Meters)" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Approximation Accuracy (Meters)</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Approximation Accuracy:
+Approximation Accuracy in Meters, will determine (eg) voxel resolution</p>
+    </td>
+</tr>
+<tr id="Clamp_Voxel_Dimension" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Clamp Voxel Dimension</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Clamp Voxel Dimension:
+Maximum allowable voxel count along main directions. This is a limit on ApproximationAccuracy. Max of 1290 (1290^3 is the last integer &lt; 2^31, using a bigger number results in failures in TArray code &amp; probably elsewhere)</p>
+    </td>
+</tr>
+<tr id="Attempt_Auto_Thickening" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Attempt Auto Thickening</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Attempt Auto Thickening:
+if enabled, we will attempt to auto-thicken thin parts or flat sheets</p>
+    </td>
+</tr>
+<tr id="Target_Min_Thickness_Multiplier" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Target Min Thickness Multiplier</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Target Min Thickness Multiplier:
+Multiplier on Approximation Accuracy used for auto-thickening</p>
+    </td>
+</tr>
+<tr id="Ignore_Tiny_Parts" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Ignore Tiny Parts</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Ignore Tiny Parts:
+If enabled, tiny parts will be excluded from the mesh merging, which can improve performance</p>
+    </td>
+</tr>
+<tr id="Tiny_Part_Size_Multiplier" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Tiny Part Size Multiplier</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Tiny Part Size Multiplier:
+Multiplier on Approximation Accuracy used to define tiny-part threshold, using maximum bounding-box dimension</p>
+    </td>
+</tr>
+<tr id="Base_Capping" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Base Capping</a>
+        <div class="name-cell-arguments">
+            EMeshApproximationBaseCappingType Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Base Capping:
+Optional methods to attempt to close off the bottom of open meshes</p>
+    </td>
+</tr>
+<tr id="Winding_Threshold" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Winding Threshold</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Winding Threshold:
+Winding Threshold controls hole filling at open mesh borders. Smaller value means "more/rounder" filling</p>
+    </td>
+</tr>
+<tr id="Fill_Gaps" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Fill Gaps</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Fill Gaps:
+If true, topological expand/contract is used to try to fill small gaps between objects.</p>
+    </td>
+</tr>
+<tr id="Gap_Filling_Distance_(Meters)" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Gap Filling Distance (Meters)</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Gap Distance:
+Distance in Meters to expand/contract to fill gaps</p>
+    </td>
+</tr>
+<tr id="Occlusion_Method" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Occlusion Method</a>
+        <div class="name-cell-arguments">
+            EOccludedGeometryFilteringPolicy Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Occlusion Method:
+Type of hidden geometry removal to apply</p>
+    </td>
+</tr>
+<tr id="Occlude_From_Bottom" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Occlude From Bottom</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Occlude from Bottom:
+If true, then the OcclusionMethod computation is configured to try to consider downward-facing "bottom" geometry as occluded</p>
+    </td>
+</tr>
+<tr id="Simplify_Method" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Simplify Method</a>
+        <div class="name-cell-arguments">
+            EMeshApproximationSimplificationPolicy Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Simplify Method:
+Mesh Simplification criteria</p>
+    </td>
+</tr>
+<tr id="Target_Tri_Count" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Target Tri Count</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Target Tri Count:
+Target triangle count for Mesh Simplification, for SimplifyMethods that use a Count</p>
+    </td>
+</tr>
+<tr id="Triangles_Per_M" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Triangles Per M</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Triangles Per M:
+Approximate Number of triangles per Square Meter, for SimplifyMethods that use such a constraint</p>
+    </td>
+</tr>
+<tr id="Geometric_Deviation_(Meters)" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Geometric Deviation (Meters)</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Geometric Deviation:
+Allowable Geometric Deviation in Meters when SimplifyMethod incorporates a Geometric Tolerance</p>
+    </td>
+</tr>
+<tr id="Ground_Clipping" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Ground Clipping</a>
+        <div class="name-cell-arguments">
+            EMeshApproximationGroundPlaneClippingPolicy Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Ground Clipping:
+Configure how the final mesh should be clipped with a ground plane, if desired</p>
+    </td>
+</tr>
+<tr id="Ground_Clipping_ZHeight" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Ground Clipping ZHeight</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Ground Clipping ZHeight:
+Z-Height for the ground clipping plane, if enabled</p>
+    </td>
+</tr>
+<tr id="Estimate_Hard_Normals" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Estimate Hard Normals</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Estimate Hard Normals:
+If true, normal angle will be used to estimate hard normals</p>
+    </td>
+</tr>
+<tr id="Hard_Normal_Angle" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Hard Normal Angle</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Hard Normal Angle</p>
+    </td>
+</tr>
+<tr id="UVGeneration_Method" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>UVGeneration Method</a>
+        <div class="name-cell-arguments">
+            EMeshApproximationUVGenerationPolicy Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>UVGeneration Method:
+Mesh UV Generation Settings</p>
+    </td>
+</tr>
+<tr id="Initial_Patch_Count" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Initial Patch Count</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Initial Patch Count:
+Number of initial patches mesh will be split into before computing island merging</p>
+    </td>
+</tr>
+<tr id="Curvature_Alignment" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Curvature Alignment</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Curvature Alignment:
+This parameter controls alignment of the initial patches to creases in the mesh</p>
+    </td>
+</tr>
+<tr id="Merging_Threshold" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Merging Threshold</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Merging Threshold:
+Distortion/Stretching Threshold for island merging - larger values increase the allowable UV stretching</p>
+    </td>
+</tr>
+<tr id="Max_Angle_Deviation" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Max Angle Deviation</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Max Angle Deviation:
+UV islands will not be merged if their average face normals deviate by larger than this amount</p>
+    </td>
+</tr>
+<tr id="Generate_Nanite_Enabled_Mesh" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Generate Nanite Enabled Mesh</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Generate Nanite Enabled Mesh:
+Whether to generate a nanite-enabled mesh</p>
+    </td>
+</tr>
+<tr id="Nanite_Proxy_Triangle_Percent" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Nanite Proxy Triangle Percent</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Nanite Proxy Triangle Percent:
+Percentage of triangles to reduce down to for generating a coarse proxy mesh from the Nanite mesh</p>
+    </td>
+</tr>
+<tr id="Support_Ray_Tracing" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Support Ray Tracing</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Support Ray Tracing:
+Whether ray tracing will be supported on this mesh. Disable this to save memory if the generated mesh will only be rendered in the distance.</p>
+    </td>
+</tr>
+<tr id="Allow_Distance_Field" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Allow Distance Field</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Allow Distance Field:
+Whether to allow distance field to be computed for this mesh. Disable this to save memory if the generated mesh will only be rendered in the distance.</p>
+    </td>
+</tr>
+<tr id="Multi_Sampling_AA" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Multi Sampling AA</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Multi Sampling AA:
+If Value is &gt; 1, Multisample output baked textures by this amount in each direction (eg 4 == 16x supersampling)</p>
+    </td>
+</tr>
+<tr id="Render_Capture_Resolution" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Render Capture Resolution</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Render Capture Resolution:
+If Value is zero, use MaterialSettings resolution, otherwise override the render capture resolution</p>
+    </td>
+</tr>
+<tr id="Material_Settings" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Material Settings</a>
+        <div class="name-cell-arguments">
+            Material Proxy Settings Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Material Settings:
+Material generation settings</p>
+    </td>
+</tr>
+<tr id="Capture_Field_Of_View" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Capture Field Of View</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Capture Field Of View</p>
+    </td>
+</tr>
+<tr id="Near_Plane_Dist" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Near Plane Dist</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Near Plane Dist</p>
+    </td>
+</tr>
+<tr id="Use_Render_LODMeshes" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Use Render LODMeshes</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Use Render LODMeshes:
+If true, LOD0 Render Meshes (or Nanite Fallback meshes) are used instead of Source Mesh data. This can significantly reduce computation time and memory usage, but potentially at the cost of lower quality output.</p>
+    </td>
+</tr>
+<tr id="Enable_Simplify_Pre_Pass" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Enable Simplify Pre Pass</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Enable Simplify Pre Pass:
+If true, a faster mesh simplfication strategy will be used. This can significantly reduce computation time and memory usage, but potentially at the cost of lower quality output.</p>
+    </td>
+</tr>
+<tr id="Enable_Parallel_Baking" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Enable Parallel Baking</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Enable Parallel Baking:
+If false, texture capture and baking will be done serially after mesh generation, rather than in parallel when possible. This will reduce the maximum memory requirements of the process.</p>
+    </td>
+</tr>
+<tr id="Print_Debug_Messages" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Print Debug Messages</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Print Debug Messages:
+If true, print out debugging messages</p>
+    </td>
+</tr>
+<tr id="Emit_Full_Debug_Mesh" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Emit Full Debug Mesh</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Emit Full Debug Mesh:
+If true, write the full mesh triangle set (ie flattened, non-instanced) used for mesh generation. Warning: this asset may be extremely large!!</p>
+    </td>
+</tr>
+	</table>
+</div>
+
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'outputs');">
+        <p>Outputs</p>
+    </div>
+<div id="outputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Mesh_Approximation_Settings" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Mesh Approximation Settings</a>
+        <div class="name-cell-arguments">
+            Mesh Approximation Settings Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+	</table>
+</div>
+
+</div>
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

@@ -1,0 +1,1 @@
+(function(n){n.fn.extend({announcement:function(t){var i=n.extend({wrapper:"announcement",announceTime:15802128e5,message:"",actionLabel:"",cancelLabel:"",actionUrl:""},t);return this.each(function(){var t=n(this);t.append('<div id="'+i.wrapper+'"><\/div>')}),this}});n.fn.extend({announcement:n.fn.announcement})})(jQuery)

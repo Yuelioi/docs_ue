@@ -1,0 +1,22 @@
+# CastToCommonLoadGuard
+
+Tries to access object as a class it may be an instance of.
+
+## 图示
+
+![]($-20221218-12284723.png)
+
+## Inputs
+
+In: Exec.
+
+Object: Object Wildcard.  
+
+## Outputs
+
+Out: Exec.
+
+Cast Failed: Exec.
+
+As Common Load Guard: Common Load Guard Object Reference.
+

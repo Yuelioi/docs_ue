@@ -1,0 +1,22 @@
+# CastToBoxReflectionCaptureCompon-
+
+Tries to access object as a class it may be an instance of.
+
+## 图示
+
+![]($-20221218-12253556.png)
+
+## Inputs
+
+In: Exec.
+
+Object: Object Wildcard.  
+
+## Outputs
+
+Out: Exec.
+
+Cast Failed: Exec.
+
+As Box Reflection Capture Component: Box Reflection Capture Component Object Reference.
+

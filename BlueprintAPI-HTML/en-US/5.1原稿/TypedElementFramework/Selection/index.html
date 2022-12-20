@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/TypedElementFramework/Selection/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Selection | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/TypedElementFramework/Selection/" hreflang="x-default" />
+
+	<meta name="title" content="Selection" />
+<meta name="description" content="Selection" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/TypedElementFramework" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Selection" />
+	<meta property="og:description" content="Selection" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../TypedElementFramework">Typed Element Framework</a>
+
+<span class="separator">></span> <span id="page">Selection</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Selection</h1>
+		</div>
+		<h2 >Selection</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AllowSelectionModifiers"><p>Allow Selection Modifiers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Test to see whether selection modifiers (Ctrl or Shift) are allowed while selecting this element.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CanDeselectElement"><p>Can Deselect Element</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Test to see whether the given element can be deselected.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CanSelectElement"><p>Can Select Element</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Test to see whether the given element can be selected.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearSelection"><p>Clear Selection</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clear the current selection.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CountSelectedElements"><p>Count Selected Elements</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Count the number of selected elements, optionally filtering to elements that implement the given interface.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CountSelectedObjects"><p>Count Selected Objects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Count the number of selected objects.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeselectElement"><p>Deselect Element</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempt to deselect the given element.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeselectElements"><p>Deselect Elements</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempt to deselect the given elements.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeselectElementsfromList"><p>Deselect Elements from List</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempt to deselect the given elements.
+</p><p>Target is Typed Element Selection Set Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBottomSelectedObject"><p>Get Bottom Selected Object</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the last selected object of the given type.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentSelectionState"><p>Get Current Selection State</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Serializes the current selection set.
+The calling code is responsible for storing any state information. The selection set can be returned to a prior state using RestoreSelectionState.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNormalizedElementList"><p>Get Normalized Element List</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a normalized version of the given element list that can be used to perform operations like gizmo manipulation, deletion, copying, etc.
+This will do things like expand out groups, and resolve any parent&lt;-&gt;child elements so that duplication operations aren't performed on both the parent and the child.
+</p><p>Target is Typed Element Selection Set Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNormalizedSelection"><p>Get Normalized Selection</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a normalized version of this selection set that can be used to perform operations like gizmo manipulation, deletion, copying, etc.
+This will do things like expand out groups, and resolve any parent&lt;-&gt;child elements so that duplication operations aren't performed on both the parent and the child.
+</p><p>Target is Typed Element Selection Set Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumSelectedElements"><p>Get Num Selected Elements</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the number of selected elements.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSelectedElementHandles"><p>Get Selected Element Handles</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the handle of every selected element, optionally filtering to elements that implement the given interface.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSelectedObjects"><p>Get Selected Objects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the array of selected objects from the currently selected elements.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSelectionElement"><p>Get Selection Element</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given an element, return the element that should actually perform a selection operation.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTopSelectedObject"><p>Get Top Selected Object</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the first selected object of the given type.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasSelectedElements"><p>Has Selected Elements</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Test whether there selected elements, optionally filtering to elements that implement the given interface.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasSelectedObjects"><p>Has Selected Objects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Test whether there are any selected objects.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsElementSelected"><p>Is Element Selected</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Test to see whether the given element is currently considered selected.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnPreSelectionChange"><p>On Pre Selection Change</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Pre Selection Change:
+Delegate that is invoked whenever the underlying element list is potentially about to change.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnSelectionChange"><p>On Selection Change</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Selection Change:
+Delegate that is invoked whenever the underlying element list has been changed.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RestoreSelectionState"><p>Restore Selection State</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Restores the selection set from the given state.
+The calling code is responsible for managing any undo state.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SelectElement"><p>Select Element</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempt to select the given element.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SelectElements"><p>Select Elements</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempt to select the given elements.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SelectElementsfromList"><p>Select Elements from List</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempt to select the given elements.
+</p><p>Target is Typed Element Selection Set Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSelection"><p>Set Selection</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempt to make the selection the given elements.
+Note: Equivalent to calling ClearSelection then SelectElements, but happens in a single batch.
+</p><p>Target is Typed Element Selection Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSelectionfromList"><p>Set Selection from List</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempt to make the selection the given elements.
+Note: Equivalent to calling ClearSelection then SelectElements, but happens in a single batch.
+</p><p>Target is Typed Element Selection Set Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

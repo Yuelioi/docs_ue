@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Interchange/Node/Texture_1/" />');
+				var udnCSS = './../../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Texture | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Interchange/Node/Texture_1/" hreflang="x-default" />
+
+	<meta name="title" content="Texture" />
+<meta name="description" content="Texture" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Interchange,BlueprintAPI/Interchange/Node" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Texture" />
+	<meta property="og:description" content="Texture" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../../Interchange">Interchange</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Node">Node</a>
+
+<span class="separator">></span> <span id="page">Texture</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Texture</h1>
+		</div>
+		<h2 >Texture</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomAddressX"><p>Get Custom Address X</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomAddressY"><p>Get Custom Address Y</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomAddressZ"><p>Get Custom Address Z</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Custom Address Z
+</p><p>Target is Interchange Texture 2DArray Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomAdjustBrightness"><p>Get Custom Adjust Brightness</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomAdjustBrightnessCurve"><p>Get Custom Adjust Brightness Curve</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomAdjustHue"><p>Get Custom Adjust Hue</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomAdjustMaxAlpha"><p>Get Custom Adjust Max Alpha</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomAdjustMinAlpha"><p>Get Custom Adjust Min Alpha</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomAdjustRGBCurve"><p>Get Custom Adjust RGBCurve</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomAdjustSaturation"><p>Get Custom Adjust Saturation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomAdjustVibrance"><p>Get Custom Adjust Vibrance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomAlphaCoverageThresholds"><p>Get Custom Alpha Coverage Thresholds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomBrightness"><p>Get Custom Brightness</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Custom Brightness
+</p><p>Target is Interchange Texture Light Profile Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomChromaKeyColor"><p>Get Custom Chroma Key Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomChromaKeyThreshold"><p>Get Custom Chroma Key Threshold</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomCompositePower"><p>Get Custom Composite Power</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomCompositeTextureMode"><p>Get Custom Composite Texture Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomCompressionNoAlpha"><p>Get Custom Compression No Alpha</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomCompressionQuality"><p>Get Custom Compression Quality</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomCompressionSettings"><p>Get Custom Compression Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomDeferCompression"><p>Get Custom Defer Compression</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomDownscale"><p>Get Custom Downscale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomDownscaleOptions"><p>Get Custom Downscale Options</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomFilter"><p>Get Custom Filter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomLODBias"><p>Get Custom LODBias</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomLODGroup"><p>Get Custom LODGroup</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomLossyCompressionAmount"><p>Get Custom Lossy Compression Amount</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomMaxTextureSize"><p>Get Custom Max Texture Size</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomMipGenSettings"><p>Get Custom Mip Gen Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomMipLoadOptions"><p>Get Custom Mip Load Options</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomPaddingColor"><p>Get Custom Padding Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomPowerOfTwoMode"><p>Get Custom Power Of Two Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomSRGB"><p>Get Custom SRGB</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomTextureMultiplier"><p>Get Custom Texture Multiplier</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Custom Texture Multiplier
+</p><p>Target is Interchange Texture Light Profile Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomTranslatedTextureNodeUi-"><p>Get Custom Translated Texture Node Uid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the translated texture node unique ID.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomVirtualTextureStreaming"><p>Get Custom Virtual Texture Streaming</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustombChromaKeyTexture"><p>Get Customb Chroma Key Texture</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustombDitherMipMapAlpha"><p>Get Customb Dither Mip Map Alpha</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustombDoScaleMipsforAlphaCov-"><p>Get Customb Do Scale Mips for Alpha Coverage</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustombFlipGreenChannel"><p>Get Customb Flip Green Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustombPreserveBorder"><p>Get Customb Preserve Border</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustombUseLegacyGamma"><p>Get Customb Use Legacy Gamma</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return false if the Attribute was not set previously.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetObjectClass"><p>Get Object Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the class this node want to create
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InitializeTextureNode"><p>Initialize Texture Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Initialize node data
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomAddressX"><p>Set Custom Address X</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Address X
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomAddressY"><p>Set Custom Address Y</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Address Y
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomAddressZ"><p>Set Custom Address Z</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Address Z
+</p><p>Target is Interchange Texture 2DArray Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomAdjustBrightness"><p>Set Custom Adjust Brightness</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Adjust Brightness
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomAdjustBrightnessCurve"><p>Set Custom Adjust Brightness Curve</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Adjust Brightness Curve
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomAdjustHue"><p>Set Custom Adjust Hue</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Adjust Hue
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomAdjustMaxAlpha"><p>Set Custom Adjust Max Alpha</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Adjust Max Alpha
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomAdjustMinAlpha"><p>Set Custom Adjust Min Alpha</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Adjust Min Alpha
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomAdjustRGBCurve"><p>Set Custom Adjust RGBCurve</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Adjust RGBCurve
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomAdjustSaturation"><p>Set Custom Adjust Saturation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Adjust Saturation
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomAdjustVibrance"><p>Set Custom Adjust Vibrance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Adjust Vibrance
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomAlphaCoverageThresholds"><p>Set Custom Alpha Coverage Thresholds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Alpha Coverage Thresholds
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomBrightness"><p>Set Custom Brightness</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Brightness
+</p><p>Target is Interchange Texture Light Profile Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomChromaKeyColor"><p>Set Custom Chroma Key Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Chroma Key Color
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomChromaKeyThreshold"><p>Set Custom Chroma Key Threshold</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Chroma Key Threshold
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomCompositePower"><p>Set Custom Composite Power</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Composite Power
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomCompositeTextureMode"><p>Set Custom Composite Texture Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Composite Texture Mode
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomCompressionNoAlpha"><p>Set Custom Compression No Alpha</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Compression No Alpha
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomCompressionQuality"><p>Set Custom Compression Quality</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Compression Quality
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomCompressionSettings"><p>Set Custom Compression Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Compression Settings
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomDeferCompression"><p>Set Custom Defer Compression</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Defer Compression
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomDownscale"><p>Set Custom Downscale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Downscale
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomDownscaleOptions"><p>Set Custom Downscale Options</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Downscale Options
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomFilter"><p>Set Custom Filter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Filter
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomLODBias"><p>Set Custom LODBias</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom LODBias
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomLODGroup"><p>Set Custom LODGroup</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom LODGroup
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomLossyCompressionAmount"><p>Set Custom Lossy Compression Amount</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Lossy Compression Amount
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomMaxTextureSize"><p>Set Custom Max Texture Size</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Max Texture Size
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomMipGenSettings"><p>Set Custom Mip Gen Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Mip Gen Settings
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomMipLoadOptions"><p>Set Custom Mip Load Options</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Mip Load Options
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomPaddingColor"><p>Set Custom Padding Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Padding Color
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomPowerOfTwoMode"><p>Set Custom Power Of Two Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Power Of Two Mode
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomSRGB"><p>Set Custom SRGB</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom SRGB
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomTextureMultiplier"><p>Set Custom Texture Multiplier</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Texture Multiplier
+</p><p>Target is Interchange Texture Light Profile Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomTranslatedTextureNodeUi-"><p>Set Custom Translated Texture Node Uid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the translated texture node unique ID. This is the reference to the node that was create by the translator and this node is needed to get the texture payload.
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomVirtualTextureStreaming"><p>Set Custom Virtual Texture Streaming</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Custom Virtual Texture Streaming
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustombChromaKeyTexture"><p>Set Customb Chroma Key Texture</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Customb Chroma Key Texture
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustombDitherMipMapAlpha"><p>Set Customb Dither Mip Map Alpha</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Customb Dither Mip Map Alpha
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustombDoScaleMipsforAlphaCov-"><p>Set Customb Do Scale Mips for Alpha Coverage</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Customb Do Scale Mips for Alpha Coverage
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustombFlipGreenChannel"><p>Set Customb Flip Green Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Customb Flip Green Channel
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustombPreserveBorder"><p>Set Customb Preserve Border</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Customb Preserve Border
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustombUseLegacyGamma"><p>Set Customb Use Legacy Gamma</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Customb Use Legacy Gamma
+</p><p>Target is Interchange Texture Factory Node</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPayLoadKey"><p>Set Pay Load Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Pay Load Key
+</p><p>Target is Interchange Texture Node</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

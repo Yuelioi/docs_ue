@@ -1,0 +1,3 @@
+Takes the values accumulated into Transient. PhysicsForce, multiplies by Engine. DeltaTime and adds to the current Velocity. Outputs the updated Particles. Velocity and Particles. Position If the forces have been converted to Velocity (Write to Intrinsic Properties is checked in the advanced tab which means the force was applied to velocity), then zero out Transient. PhysicsForce and Transient. PhysicsDrag.
+
+获取累积到瞬态的值。物理力，乘以引擎。增量时间并添加到当前速度。输出更新的粒子。速度和粒子。位置 如果力已转换为速度（在高级选项卡中选中写入内在属性，这意味着力已应用于速度），则将瞬态归零。物理力和瞬态。物理拖动。

@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Utilities/Struct/MakeLightmassWorldInfoSettings/" />');
+				var udnCSS = './../../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Make LightmassWorldInfoSettings | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Utilities/Struct/MakeLightmassWorldInfoSettings/" hreflang="x-default" />
+
+	<meta name="title" content="Make LightmassWorldInfoSettings" />
+<meta name="description" content="Make LightmassWorldInfoSettings" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Utilities,BlueprintAPI/Utilities/Struct" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Make LightmassWorldInfoSettings" />
+	<meta property="og:description" content="Make LightmassWorldInfoSettings" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../../Utilities">Utilities</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Struct">Struct</a>
+
+<span class="separator">></span> <span id="page">Make LightmassWorldInfoSettings</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Make LightmassWorldInfoSettings</h1>
+		</div>
+		<h2 >Make LightmassWorldInfoSettings</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<p>Adds a node that create a 'LightmassWorldInfoSettings' from its members
+</p><div class="graph">
+	<div class="node_container pure ">
+    <div class="node">
+        
+        <div class="titlebar_node">            
+            
+            <div class="titlebar_overlay">
+                <div class="titlebar_node_text">
+                    Make LightmassWorldInfoSettings
+                </div>
+            </div>
+        </div>        
+        <div class="nodebody">
+            
+            <div class="background"></div>
+                        
+            
+            <div class="inputs">
+                <div id="pin_Static_Lighting_Level_Scale" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Static Lighting Level Scale
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Num_Indirect_Lighting_Bounces" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Num Indirect Lighting Bounces
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        3
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Num_Sky_Lighting_Bounces" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Num Sky Lighting Bounces
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        1
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Indirect_Lighting_Quality" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Indirect Lighting Quality
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Indirect_Lighting_Smoothness" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Indirect Lighting Smoothness
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Environment_Color" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Environment Color
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Environment_Intensity" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Environment Intensity
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Diffuse_Boost" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Diffuse Boost
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Volume_Lighting_Method" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Volume Lighting Method
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            VLM_VolumetricLightmap
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Use_Ambient_Occlusion" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Use Ambient Occlusion
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Generate_Ambient_Occlusion_Material_Mask" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Generate Ambient Occlusion Material Mask
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Visualize_Material_Diffuse" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Visualize Material Diffuse
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Visualize_Ambient_Occlusion" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Visualize Ambient Occlusion
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Compress_Lightmaps" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Compress Lightmaps
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Volumetric_Lightmap_Detail_Cell_Size" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Volumetric Lightmap Detail Cell Size
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Volumetric_Lightmap_Maximum_Brick_Memory_Mb" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Volumetric Lightmap Maximum Brick Memory Mb
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Volumetric_Lightmap_Spherical_Harmonic_Smoothing" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Volumetric Lightmap Spherical Harmonic Smoothing
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Volume_Light_Sample_Placement_Scale" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Volume Light Sample Placement Scale
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Direct_Illumination_Occlusion_Fraction" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Direct Illumination Occlusion Fraction
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Indirect_Illumination_Occlusion_Fraction" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Indirect Illumination Occlusion Fraction
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Occlusion_Exponent" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Occlusion Exponent
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Fully_Occluded_Samples_Fraction" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Fully Occluded Samples Fraction
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Max_Occlusion_Distance" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Max Occlusion Distance
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                   
+               
+            <div class="outputs">
+                <div id="pin_Lightmass_World_Info_Settings" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Lightmass World Info Settings
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                      
+        </div>
+    </div>
+</div>
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'inputs');">
+        <p>Inputs</p>
+    </div>
+<div id="inputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Static_Lighting_Level_Scale" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Static Lighting Level Scale</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Static Lighting Level Scale:
+Warning: Setting this to less than 1 will greatly increase build times!
+Scale of the level relative to real world scale (1 Unreal Unit = 1 cm).
+All scale-dependent Lightmass setting defaults have been tweaked to work well with real world scale,
+Any levels with a different scale should use this scale to compensate.
+For large levels it can drastically reduce build times to set this to 2 or 4.</p>
+    </td>
+</tr>
+<tr id="Num_Indirect_Lighting_Bounces" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Num Indirect Lighting Bounces</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Num Indirect Lighting Bounces:
+Number of light bounces to simulate for point / spot / directional lights, starting from the light source.
+0 is direct lighting only, 1 is one bounce, etc.
+Bounce 1 takes the most time to calculate and contributes the most to visual quality, followed by bounce 2.
+Successive bounces don't really affect build times, but have a much lower visual impact, unless the material diffuse colors are close to 1.</p>
+    </td>
+</tr>
+<tr id="Num_Sky_Lighting_Bounces" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Num Sky Lighting Bounces</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Num Sky Lighting Bounces:
+Number of skylight and emissive bounces to simulate.
+Lightmass uses a non-distributable radiosity method for skylight bounces whose cost is proportional to the number of bounces.</p>
+    </td>
+</tr>
+<tr id="Indirect_Lighting_Quality" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Indirect Lighting Quality</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Indirect Lighting Quality:
+Warning: Setting this higher than 1 will greatly increase build times!
+Can be used to increase the GI solver sample counts in order to get higher quality for levels that need it.
+It can be useful to reduce IndirectLightingSmoothness somewhat (~.75) when increasing quality to get defined indirect shadows.
+Note that this can't affect compression artifacts, UV seams or other texture based artifacts.</p>
+    </td>
+</tr>
+<tr id="Indirect_Lighting_Smoothness" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Indirect Lighting Smoothness</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Indirect Lighting Smoothness:
+Smoothness factor to apply to indirect lighting.  This is useful in some lighting conditions when Lightmass cannot resolve accurate indirect lighting.
+1 is default smoothness tweaked for a variety of lighting situations.
+Higher values like 3 smooth out the indirect lighting more, but at the cost of indirect shadows losing detail.</p>
+    </td>
+</tr>
+<tr id="Environment_Color" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Environment Color</a>
+        <div class="name-cell-arguments">
+            Color Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Environment Color:
+Represents a constant color light surrounding the upper hemisphere of the level, like a sky.
+This light source currently does not get bounced as indirect lighting and causes reflection capture brightness to be incorrect.  Prefer using a Static Skylight instead.</p>
+    </td>
+</tr>
+<tr id="Environment_Intensity" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Environment Intensity</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Environment Intensity:
+Scales EnvironmentColor to allow independent color and brightness controls.</p>
+    </td>
+</tr>
+<tr id="Diffuse_Boost" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Diffuse Boost</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Diffuse Boost:
+Scales the diffuse contribution of all materials in the scene.</p>
+    </td>
+</tr>
+<tr id="Volume_Lighting_Method" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Volume Lighting Method</a>
+        <div class="name-cell-arguments">
+            EVolumeLightingMethod Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Volume Lighting Method:
+Technique to use for providing precomputed lighting at all positions inside the Lightmass Importance Volume</p>
+    </td>
+</tr>
+<tr id="Use_Ambient_Occlusion" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Use Ambient Occlusion</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Use Ambient Occlusion:
+If true, AmbientOcclusion will be enabled.</p>
+    </td>
+</tr>
+<tr id="Generate_Ambient_Occlusion_Material_Mask" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Generate Ambient Occlusion Material Mask</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Generate Ambient Occlusion Material Mask:
+Whether to generate textures storing the AO computed by Lightmass.
+These can be accessed through the PrecomputedAOMask material node,
+Which is useful for blending between material layers on environment assets.
+Be sure to set DirectIlluminationOcclusionFraction and IndirectIlluminationOcclusionFraction to 0 if you only want the PrecomputedAOMask!</p>
+    </td>
+</tr>
+<tr id="Visualize_Material_Diffuse" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Visualize Material Diffuse</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Visualize Material Diffuse:
+If true, override normal direct and indirect lighting with just the exported diffuse term.</p>
+    </td>
+</tr>
+<tr id="Visualize_Ambient_Occlusion" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Visualize Ambient Occlusion</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Visualize Ambient Occlusion:
+If true, override normal direct and indirect lighting with just the AO term.</p>
+    </td>
+</tr>
+<tr id="Compress_Lightmaps" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Compress Lightmaps</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Compress Lightmaps:
+Whether to compress lightmap textures.  Disabling lightmap texture compression will reduce artifacts but increase memory and disk size by 4x.
+Use caution when disabling this.</p>
+    </td>
+</tr>
+<tr id="Volumetric_Lightmap_Detail_Cell_Size" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Volumetric Lightmap Detail Cell Size</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Volumetric Lightmap Detail Cell Size:
+Size of an Volumetric Lightmap voxel at the highest density (used around geometry), in world space units.
+This setting has a large impact on build times and memory, use with caution.
+Halving the DetailCellSize can increase memory by up to a factor of 8x.</p>
+    </td>
+</tr>
+<tr id="Volumetric_Lightmap_Maximum_Brick_Memory_Mb" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Volumetric Lightmap Maximum Brick Memory Mb</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Volumetric Lightmap Maximum Brick Memory Mb:
+Maximum amount of memory to spend on Volumetric Lightmap Brick data.  High density bricks will be discarded until this limit is met, with bricks furthest from geometry discarded first.</p>
+    </td>
+</tr>
+<tr id="Volumetric_Lightmap_Spherical_Harmonic_Smoothing" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Volumetric Lightmap Spherical Harmonic Smoothing</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Volumetric Lightmap Spherical Harmonic Smoothing:
+Controls how much smoothing should be done to Volumetric Lightmap samples during Spherical Harmonic de-ringing.
+Whenever highly directional lighting is stored in a Spherical Harmonic, a ringing artifact occurs which manifests as unexpected black areas on the opposite side.
+Smoothing can reduce this artifact.  Smoothing is only applied when the ringing artifact is present.
+0 = no smoothing, 1 = strong smooth (little directionality in lighting).</p>
+    </td>
+</tr>
+<tr id="Volume_Light_Sample_Placement_Scale" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Volume Light Sample Placement Scale</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Volume Light Sample Placement Scale:
+Scales the distances at which volume lighting samples are placed.  Volume lighting samples are computed by Lightmass and are used for GI on movable components.
+Using larger scales results in less sample memory usage and reduces Indirect Lighting Cache update times, but less accurate transitions between lighting areas.</p>
+    </td>
+</tr>
+<tr id="Direct_Illumination_Occlusion_Fraction" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Direct Illumination Occlusion Fraction</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Direct Illumination Occlusion Fraction:
+How much of the AO to apply to direct lighting.</p>
+    </td>
+</tr>
+<tr id="Indirect_Illumination_Occlusion_Fraction" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Indirect Illumination Occlusion Fraction</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Indirect Illumination Occlusion Fraction:
+How much of the AO to apply to indirect lighting.</p>
+    </td>
+</tr>
+<tr id="Occlusion_Exponent" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Occlusion Exponent</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Occlusion Exponent:
+Higher exponents increase contrast.</p>
+    </td>
+</tr>
+<tr id="Fully_Occluded_Samples_Fraction" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Fully Occluded Samples Fraction</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Fully Occluded Samples Fraction:
+Fraction of samples taken that must be occluded in order to reach full occlusion.</p>
+    </td>
+</tr>
+<tr id="Max_Occlusion_Distance" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Max Occlusion Distance</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Max Occlusion Distance:
+Maximum distance for an object to cause occlusion on another object.</p>
+    </td>
+</tr>
+	</table>
+</div>
+
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'outputs');">
+        <p>Outputs</p>
+    </div>
+<div id="outputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Lightmass_World_Info_Settings" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Lightmass World Info Settings</a>
+        <div class="name-cell-arguments">
+            Lightmass World Info Settings Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+	</table>
+</div>
+
+</div>
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

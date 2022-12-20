@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Sequencer/Keys/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Keys | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Sequencer/Keys/" hreflang="x-default" />
+
+	<meta name="title" content="Keys" />
+<meta name="description" content="Keys" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Sequencer" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Keys" />
+	<meta property="og:description" content="Keys" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Sequencer">Sequencer</a>
+
+<span class="separator">></span> <span id="page">Keys</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Keys</h1>
+		</div>
+		<h2 >Keys</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddKey_ActorReference"><p>Add Key (Actor Reference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a key to this channel. This initializes a new key and returns a reference to it.
+</p><p>Target is Movie Scene Scripting Actor Reference Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddKey_Bool"><p>Add Key (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a key to this channel. This initializes a new key and returns a reference to it.
+</p><p>Target is Movie Scene Scripting Bool Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddKey_Double"><p>Add Key (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a key to this channel. This initializes a new key and returns a reference to it.
+</p><p>Target is Movie Scene Scripting Double Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddKey_Enum"><p>Add Key (Enum)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a key to this channel. This initializes a new key and returns a reference to it.
+</p><p>Target is Movie Scene Scripting Byte Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddKey_Event"><p>Add Key (Event)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a key to this channel. This initializes a new key and returns a reference to it.
+</p><p>Target is Movie Scene Scripting Event Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddKey_Float"><p>Add Key (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a key to this channel. This initializes a new key and returns a reference to it.
+</p><p>Target is Movie Scene Scripting Float Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddKey_Integer"><p>Add Key (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a key to this channel. This initializes a new key and returns a reference to it.
+</p><p>Target is Movie Scene Scripting Integer Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddKey_ObjectPath"><p>Add Key (Object Path)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a key to this channel. This initializes a new key and returns a reference to it.
+</p><p>Target is Movie Scene Scripting Object Path Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddKey_String"><p>Add Key (String)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a key to this channel. This initializes a new key and returns a reference to it.
+</p><p>Target is Movie Scene Scripting String Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ComputeEffectiveRange_Bool"><p>Compute Effective Range (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Compute the effective range of this channel, for example, the extents of its key times
+</p><p>Target is Movie Scene Scripting Bool Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ComputeEffectiveRange_Double"><p>Compute Effective Range (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Compute the effective range of this channel, for example, the extents of its key times
+</p><p>Target is Movie Scene Scripting Double Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ComputeEffectiveRange_Float"><p>Compute Effective Range (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Compute the effective range of this channel, for example, the extents of its key times
+</p><p>Target is Movie Scene Scripting Float Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EvaluateKeys_Bool"><p>Evaluate Keys (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets baked keys in this channel.
+</p><p>Target is Movie Scene Scripting Bool Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EvaluateKeys_Double"><p>Evaluate Keys (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets baked keys in this channel.
+</p><p>Target is Movie Scene Scripting Double Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EvaluateKeys_Float"><p>Evaluate Keys (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets baked keys in this channel.
+</p><p>Target is Movie Scene Scripting Float Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetArriveTangent"><p>Get Arrive Tangent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If Interpolation Mode is RCIM_Cubic, the arriving tangent at this key
+</p><p>Target is Movie Scene Scripting Float Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetArriveTangentWeight"><p>Get Arrive Tangent Weight</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If Tangent Weight Mode is RCTWM_WeightedArrive or RCTWM_WeightedBoth, the weight of the arriving tangent on the left side.
+</p><p>Target is Movie Scene Scripting Double Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDefault_ActorReference"><p>Get Default (Actor Reference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get this channel's default value that will be used when no keys are present. Only a valid
+value when HasDefault() returns true.
+</p><p>Target is Movie Scene Scripting Actor Reference Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDefault_Bool"><p>Get Default (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get this channel's default value that will be used when no keys are present. Only a valid
+value when HasDefault() returns true.
+</p><p>Target is Movie Scene Scripting Bool Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDefault_Double"><p>Get Default (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get this channel's default value that will be used when no keys are present. Only a valid
+value when HasDefault() returns true.
+</p><p>Target is Movie Scene Scripting Double Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDefault_Enum"><p>Get Default (Enum)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get this channel's default value that will be used when no keys are present. Only a valid
+value when HasDefault() returns true.
+</p><p>Target is Movie Scene Scripting Byte Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDefault_Float"><p>Get Default (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get this channel's default value that will be used when no keys are present. Only a valid
+value when HasDefault() returns true.
+</p><p>Target is Movie Scene Scripting Float Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDefault_Integer"><p>Get Default (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get this channel's default value that will be used when no keys are present. Only a valid
+value when HasDefault() returns true.
+</p><p>Target is Movie Scene Scripting Integer Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDefault_ObjectPath"><p>Get Default (Object Path)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get this channel's default value that will be used when no keys are present. Only a valid
+value when HasDefault() returns true.
+</p><p>Target is Movie Scene Scripting Object Path Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDefault_String"><p>Get Default (String)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get this channel's default value that will be used when no keys are present. Only a valid
+value when HasDefault() returns true.
+</p><p>Target is Movie Scene Scripting String Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetInterpolationMode"><p>Get Interpolation Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the interpolation mode for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Double Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetKeys_ActorReference"><p>Get Keys (Actor Reference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all of the keys in this channel.
+</p><p>Target is Movie Scene Scripting Actor Reference Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetKeys_Bool"><p>Get Keys (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all of the keys in this channel.
+</p><p>Target is Movie Scene Scripting Bool Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetKeys_Double"><p>Get Keys (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all of the keys in this channel.
+</p><p>Target is Movie Scene Scripting Double Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetKeys_Enum"><p>Get Keys (Enum)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all of the keys in this channel.
+</p><p>Target is Movie Scene Scripting Byte Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetKeys_Event"><p>Get Keys (Event)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all of the keys in this channel.
+</p><p>Target is Movie Scene Scripting Event Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetKeys_Float"><p>Get Keys (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all of the keys in this channel.
+</p><p>Target is Movie Scene Scripting Float Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetKeys_Integer"><p>Get Keys (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all of the keys in this channel.
+</p><p>Target is Movie Scene Scripting Integer Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetKeys_ObjectPath"><p>Get Keys (Object Path)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all of the keys in this channel.
+</p><p>Target is Movie Scene Scripting Object Path Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetKeys_String"><p>Get Keys (String)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all of the keys in this channel.
+</p><p>Target is Movie Scene Scripting String Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLeaveTangent"><p>Get Leave Tangent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If Interpolation Mode is RCIM_Cubic, the leaving tangent at this key
+</p><p>Target is Movie Scene Scripting Double Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLeaveTangentWeight"><p>Get Leave Tangent Weight</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If Tangent Weight Mode is RCTWM_WeightedLeave or RCTWM_WeightedBoth, the weight of the leaving tangent on the right side.
+</p><p>Target is Movie Scene Scripting Float Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumKeys_Bool"><p>Get Num Keys (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns number of keys in this channel.
+</p><p>Target is Movie Scene Scripting Bool Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumKeys_Double"><p>Get Num Keys (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns number of keys in this channel.
+</p><p>Target is Movie Scene Scripting Double Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumKeys_Float"><p>Get Num Keys (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns number of keys in this channel.
+</p><p>Target is Movie Scene Scripting Float Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPostInfinityExtrapolation"><p>Get Post Infinity Extrapolation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Movie Scene Scripting Float Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPreInfinityExtrapolation"><p>Get Pre Infinity Extrapolation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Movie Scene Scripting Double Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTangentMode"><p>Get Tangent Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the tangent mode for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Float Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTangentWeightMode"><p>Get Tangent Weight Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If Interpolation Mode is RCIM_Cubic, the tangent weight mode at this key
+</p><p>Target is Movie Scene Scripting Float Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTime_ActorReference"><p>Get Time (Actor Reference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the time for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Actor Reference Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTime_Bool"><p>Get Time (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the time for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Bool Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTime_Double"><p>Get Time (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the time for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Double Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTime_Enum"><p>Get Time (Enum)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the time for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Byte Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTime_Event"><p>Get Time (Event)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the time for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Event Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTime_Float"><p>Get Time (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the time for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Float Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTime_Integer"><p>Get Time (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the time for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Integer Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTime_ObjectPath"><p>Get Time (Object Path)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the time for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Object Path Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTime_String"><p>Get Time (String)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the time for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting String Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValue_ActorReference"><p>Get Value (Actor Reference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the value for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Actor Reference Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValue_Bool"><p>Get Value (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the value for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Bool Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValue_Double"><p>Get Value (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the value for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Double Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValue_Enum"><p>Get Value (Enum)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the value for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Byte Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValue_Event"><p>Get Value (Event)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the value for this key, reflecting it in the owning channel.
+</p><p>Target is Movie Scene Scripting Event Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValue_Float"><p>Get Value (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the value for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Float Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValue_Integer"><p>Get Value (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the value for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Integer Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValue_ObjectPath"><p>Get Value (Object Path)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the value for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting Object Path Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValue_String"><p>Get Value (String)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the value for this key from the owning channel.
+</p><p>Target is Movie Scene Scripting String Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasDefault_ActorReference"><p>Has Default (Actor Reference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Movie Scene Scripting Actor Reference Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasDefault_Bool"><p>Has Default (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Movie Scene Scripting Bool Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasDefault_Double"><p>Has Default (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Movie Scene Scripting Double Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasDefault_Enum"><p>Has Default (Enum)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Movie Scene Scripting Byte Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasDefault_Float"><p>Has Default (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Movie Scene Scripting Float Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasDefault_Integer"><p>Has Default (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Movie Scene Scripting Integer Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasDefault_ObjectPath"><p>Has Default (Object Path)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Movie Scene Scripting Object Path Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasDefault_String"><p>Has Default (String)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Movie Scene Scripting String Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveDefault_ActorReference"><p>Remove Default (Actor Reference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove this channel's default value causing the channel to have no effect where no keys are present
+</p><p>Target is Movie Scene Scripting Actor Reference Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveDefault_Bool"><p>Remove Default (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove this channel's default value causing the channel to have no effect where no keys are present
+</p><p>Target is Movie Scene Scripting Bool Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveDefault_Double"><p>Remove Default (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove this channel's default value causing the channel to have no effect where no keys are present
+</p><p>Target is Movie Scene Scripting Double Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveDefault_Enum"><p>Remove Default (Enum)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove this channel's default value causing the channel to have no effect where no keys are present
+</p><p>Target is Movie Scene Scripting Byte Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveDefault_Float"><p>Remove Default (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove this channel's default value causing the channel to have no effect where no keys are present
+</p><p>Target is Movie Scene Scripting Float Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveDefault_Integer"><p>Remove Default (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove this channel's default value causing the channel to have no effect where no keys are present
+</p><p>Target is Movie Scene Scripting Integer Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveDefault_ObjectPath"><p>Remove Default (Object Path)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove this channel's default value causing the channel to have no effect where no keys are present
+</p><p>Target is Movie Scene Scripting Object Path Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveDefault_String"><p>Remove Default (String)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove this channel's default value causing the channel to have no effect where no keys are present
+</p><p>Target is Movie Scene Scripting String Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveKey_ActorReference"><p>Remove Key (Actor Reference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the specified key. Does nothing if the key is not specified or the key belongs to another channel.
+</p><p>Target is Movie Scene Scripting Actor Reference Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveKey_Bool"><p>Remove Key (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the specified key. Does nothing if the key is not specified or the key belongs to another channel.
+</p><p>Target is Movie Scene Scripting Bool Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveKey_Double"><p>Remove Key (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the specified key. Does nothing if the key is not specified or the key belongs to another channel.
+</p><p>Target is Movie Scene Scripting Double Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveKey_Enum"><p>Remove Key (Enum)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the specified key. Does nothing if the key is not specified or the key belongs to another channel.
+</p><p>Target is Movie Scene Scripting Byte Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveKey_Event"><p>Remove Key (Event)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the specified key. Does nothing if the key is not specified or the key belongs to another channel.
+</p><p>Target is Movie Scene Scripting Event Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveKey_Float"><p>Remove Key (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the specified key. Does nothing if the key is not specified or the key belongs to another channel.
+</p><p>Target is Movie Scene Scripting Float Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveKey_Integer"><p>Remove Key (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the specified key. Does nothing if the key is not specified or the key belongs to another channel.
+</p><p>Target is Movie Scene Scripting Integer Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveKey_ObjectPath"><p>Remove Key (Object Path)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the specified key. Does nothing if the key is not specified or the key belongs to another channel.
+</p><p>Target is Movie Scene Scripting Object Path Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveKey_String"><p>Remove Key (String)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the specified key. Does nothing if the key is not specified or the key belongs to another channel.
+</p><p>Target is Movie Scene Scripting String Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetArriveTangent"><p>Set Arrive Tangent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If Interpolation Mode is RCIM_Cubic, the arriving tangent at this key.
+</p><p>Target is Movie Scene Scripting Double Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetArriveTangentWeight"><p>Set Arrive Tangent Weight</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If Tangent Weight Mode is RCTWM_WeightedArrive or RCTWM_WeightedBoth, the weight of the arriving tangent on the left side.
+</p><p>Target is Movie Scene Scripting Float Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDefault_ActorReference"><p>Set Default (Actor Reference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set this channel's default value that should be used when no keys are present.
+Sets bHasDefaultValue to true automatically.
+</p><p>Target is Movie Scene Scripting Actor Reference Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDefault_Bool"><p>Set Default (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set this channel's default value that should be used when no keys are present.
+Sets bHasDefaultValue to true automatically.
+</p><p>Target is Movie Scene Scripting Bool Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDefault_Double"><p>Set Default (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set this channel's default value that should be used when no keys are present.
+Sets bHasDefaultValue to true automatically.
+</p><p>Target is Movie Scene Scripting Double Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDefault_Enum"><p>Set Default (Enum)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set this channel's default value that should be used when no keys are present.
+Sets bHasDefaultValue to true automatically.
+</p><p>Target is Movie Scene Scripting Byte Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDefault_Float"><p>Set Default (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set this channel's default value that should be used when no keys are present.
+Sets bHasDefaultValue to true automatically.
+</p><p>Target is Movie Scene Scripting Float Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDefault_Integer"><p>Set Default (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set this channel's default value that should be used when no keys are present.
+Sets bHasDefaultValue to true automatically.
+</p><p>Target is Movie Scene Scripting Integer Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDefault_ObjectPath"><p>Set Default (Object Path)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set this channel's default value that should be used when no keys are present.
+Sets bHasDefaultValue to true automatically.
+</p><p>Target is Movie Scene Scripting Object Path Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDefault_String"><p>Set Default (String)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set this channel's default value that should be used when no keys are present.
+Sets bHasDefaultValue to true automatically.
+</p><p>Target is Movie Scene Scripting String Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetInterpolationMode"><p>Set Interpolation Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the interpolation mode for this key, reflecting it in the owning channel.
+</p><p>Target is Movie Scene Scripting Double Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLeaveTangent"><p>Set Leave Tangent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If Interpolation Mode is RCIM_Cubic, the leaving tangent at this key.
+</p><p>Target is Movie Scene Scripting Double Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLeaveTangentWeight"><p>Set Leave Tangent Weight</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If Tangent Weight Mode is RCTWM_WeightedLeave or RCTWM_WeightedBoth, the weight of the leaving tangent on the right side.
+</p><p>Target is Movie Scene Scripting Float Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPostInfinityExtrapolation"><p>Set Post Infinity Extrapolation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the Post-infinity extrapolation state. See ERichCurveExtrapolation for more detail.
+</p><p>Target is Movie Scene Scripting Float Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPreInfinityExtrapolation"><p>Set Pre Infinity Extrapolation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the Pre-infinity extrapolation state. See ERichCurveExtrapolation for more detail.
+</p><p>Target is Movie Scene Scripting Double Channel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTangentMode"><p>Set Tangent Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the tangent mode for this key, reflecting it in the owning channel.
+</p><p>Target is Movie Scene Scripting Double Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTangentWeightMode"><p>Set Tangent Weight Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If Interpolation Mode is RCIM_Cubic, the tangent weight mode at this key.
+</p><p>Target is Movie Scene Scripting Double Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTime_ActorReference"><p>Set Time (Actor Reference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the time for this key in the owning channel. Will replace any key that already exists at that frame number in this channel.
+</p><p>Target is Movie Scene Scripting Actor Reference Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTime_Bool"><p>Set Time (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the time for this key in the owning channel. Will replace any key that already exists at that frame number in this channel.
+</p><p>Target is Movie Scene Scripting Bool Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTime_Double"><p>Set Time (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the time for this key in the owning channel. Will replace any key that already exists at that frame number in this channel.
+</p><p>Target is Movie Scene Scripting Double Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTime_Enum"><p>Set Time (Enum)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the time for this key in the owning channel. Will replace any key that already exists at that frame number in this channel.
+</p><p>Target is Movie Scene Scripting Byte Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTime_Event"><p>Set Time (Event)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the time for this key in the owning channel. Will replace any key that already exists at that frame number in this channel.
+</p><p>Target is Movie Scene Scripting Event Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTime_Float"><p>Set Time (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the time for this key in the owning channel. Will replace any key that already exists at that frame number in this channel.
+</p><p>Target is Movie Scene Scripting Float Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTime_Integer"><p>Set Time (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the time for this key in the owning channel. Will replace any key that already exists at that frame number in this channel.
+</p><p>Target is Movie Scene Scripting Integer Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTime_ObjectPath"><p>Set Time (Object Path)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the time for this key in the owning channel. Will replace any key that already exists at that frame number in this channel.
+</p><p>Target is Movie Scene Scripting Object Path Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTime_String"><p>Set Time (String)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the time for this key in the owning channel. Will replace any key that already exists at that frame number in this channel.
+</p><p>Target is Movie Scene Scripting String Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValue_ActorReference"><p>Set Value (Actor Reference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the value for this key, reflecting it in the owning channel.
+</p><p>Target is Movie Scene Scripting Actor Reference Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValue_Bool"><p>Set Value (Bool)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the value for this key, reflecting it in the owning channel.
+</p><p>Target is Movie Scene Scripting Bool Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValue_Double"><p>Set Value (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the value for this key, reflecting it in the owning channel.
+</p><p>Target is Movie Scene Scripting Double Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValue_Enum"><p>Set Value (Enum)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the value for this key, reflecting it in the owning channel.
+</p><p>Target is Movie Scene Scripting Byte Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValue_Float"><p>Set Value (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the value for this key, reflecting it in the owning channel.
+</p><p>Target is Movie Scene Scripting Float Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValue_Integer"><p>Set Value (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the value for this key, reflecting it in the owning channel.
+</p><p>Target is Movie Scene Scripting Integer Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValue_ObjectPath"><p>Set Value (Object Path)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the value for this key, reflecting it in the owning channel.
+</p><p>Target is Movie Scene Scripting Object Path Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetValue_String"><p>Set Value (String)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the value for this key, reflecting it in the owning channel.
+</p><p>Target is Movie Scene Scripting String Key</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

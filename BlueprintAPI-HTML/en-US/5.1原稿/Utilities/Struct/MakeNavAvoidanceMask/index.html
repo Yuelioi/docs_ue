@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Utilities/Struct/MakeNavAvoidanceMask/" />');
+				var udnCSS = './../../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Make NavAvoidanceMask | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Utilities/Struct/MakeNavAvoidanceMask/" hreflang="x-default" />
+
+	<meta name="title" content="Make NavAvoidanceMask" />
+<meta name="description" content="Make NavAvoidanceMask" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Utilities,BlueprintAPI/Utilities/Struct" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Make NavAvoidanceMask" />
+	<meta property="og:description" content="Make NavAvoidanceMask" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../../Utilities">Utilities</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Struct">Struct</a>
+
+<span class="separator">></span> <span id="page">Make NavAvoidanceMask</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Make NavAvoidanceMask</h1>
+		</div>
+		<h2 >Make NavAvoidanceMask</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<p>Adds a node that create a 'NavAvoidanceMask' from its members
+</p><div class="graph">
+	<div class="node_container pure ">
+    <div class="node">
+        
+        <div class="titlebar_node">            
+            
+            <div class="titlebar_overlay">
+                <div class="titlebar_node_text">
+                    Make NavAvoidanceMask
+                </div>
+            </div>
+        </div>        
+        <div class="nodebody">
+            
+            <div class="background"></div>
+                        
+            
+            <div class="inputs">
+                <div id="pin_Group_0" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 0
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_1" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 1
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_2" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 2
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_3" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 3
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_4" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 4
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_5" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 5
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_6" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 6
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_7" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 7
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_8" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 8
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_9" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 9
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_10" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 10
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_11" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 11
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_12" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 12
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_13" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 13
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_14" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 14
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_15" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 15
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_16" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 16
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_17" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 17
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_18" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 18
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_19" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 19
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_20" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 20
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_21" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 21
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_22" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 22
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_23" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 23
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_24" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 24
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_25" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 25
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_26" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 26
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_27" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 27
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_28" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 28
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_29" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 29
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_30" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 30
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Group_31" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Group 31
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                   
+               
+            <div class="outputs">
+                <div id="pin_Nav_Avoidance_Mask" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Nav Avoidance Mask
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                      
+        </div>
+    </div>
+</div>
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'inputs');">
+        <p>Inputs</p>
+    </div>
+<div id="inputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Group_0" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 0</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 0</p>
+    </td>
+</tr>
+<tr id="Group_1" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 1</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 1</p>
+    </td>
+</tr>
+<tr id="Group_2" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 2</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 2</p>
+    </td>
+</tr>
+<tr id="Group_3" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 3</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 3</p>
+    </td>
+</tr>
+<tr id="Group_4" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 4</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 4</p>
+    </td>
+</tr>
+<tr id="Group_5" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 5</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 5</p>
+    </td>
+</tr>
+<tr id="Group_6" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 6</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 6</p>
+    </td>
+</tr>
+<tr id="Group_7" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 7</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 7</p>
+    </td>
+</tr>
+<tr id="Group_8" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 8</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 8</p>
+    </td>
+</tr>
+<tr id="Group_9" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 9</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 9</p>
+    </td>
+</tr>
+<tr id="Group_10" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 10</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 10</p>
+    </td>
+</tr>
+<tr id="Group_11" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 11</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 11</p>
+    </td>
+</tr>
+<tr id="Group_12" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 12</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 12</p>
+    </td>
+</tr>
+<tr id="Group_13" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 13</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 13</p>
+    </td>
+</tr>
+<tr id="Group_14" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 14</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 14</p>
+    </td>
+</tr>
+<tr id="Group_15" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 15</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 15</p>
+    </td>
+</tr>
+<tr id="Group_16" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 16</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 16</p>
+    </td>
+</tr>
+<tr id="Group_17" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 17</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 17</p>
+    </td>
+</tr>
+<tr id="Group_18" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 18</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 18</p>
+    </td>
+</tr>
+<tr id="Group_19" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 19</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 19</p>
+    </td>
+</tr>
+<tr id="Group_20" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 20</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 20</p>
+    </td>
+</tr>
+<tr id="Group_21" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 21</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 21</p>
+    </td>
+</tr>
+<tr id="Group_22" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 22</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 22</p>
+    </td>
+</tr>
+<tr id="Group_23" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 23</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 23</p>
+    </td>
+</tr>
+<tr id="Group_24" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 24</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 24</p>
+    </td>
+</tr>
+<tr id="Group_25" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 25</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 25</p>
+    </td>
+</tr>
+<tr id="Group_26" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 26</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 26</p>
+    </td>
+</tr>
+<tr id="Group_27" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 27</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 27</p>
+    </td>
+</tr>
+<tr id="Group_28" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 28</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 28</p>
+    </td>
+</tr>
+<tr id="Group_29" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 29</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 29</p>
+    </td>
+</tr>
+<tr id="Group_30" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 30</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 30</p>
+    </td>
+</tr>
+<tr id="Group_31" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Group 31</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Group 31</p>
+    </td>
+</tr>
+	</table>
+</div>
+
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'outputs');">
+        <p>Outputs</p>
+    </div>
+<div id="outputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Nav_Avoidance_Mask" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Nav Avoidance Mask</a>
+        <div class="name-cell-arguments">
+            Nav Avoidance Mask Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+	</table>
+</div>
+
+</div>
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

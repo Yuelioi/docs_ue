@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Animation/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Animation | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Animation/" hreflang="x-default" />
+
+	<meta name="title" content="Animation" />
+<meta name="description" content="Animation" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Animation" />
+	<meta property="og:description" content="Animation" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Animation</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Animation</h1>
+		</div>
+		<h2 >Animation</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    			    <li id="">
+	<p><a id="toc_link" href="#categories">Categories</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BindtoAnimationEvent"><p>Bind to Animation Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Allows binding to a specific animation's event.
+</p><p>Target is User Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BindtoAnimationFinished"><p>Bind to Animation Finished</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bind an animation finished delegate.
+</p><p>Target is User Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BindtoAnimationStarted"><p>Bind to Animation Started</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bind an animation started delegate.
+</p><p>Target is User Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CalculateDirection"><p>Calculate Direction</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Calculate Direction
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearMorphTargets"><p>Clear Morph Targets</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clears the current morph targets.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateSlotAnimationasDynamicMont-"><p>Create Slot Animation as Dynamic Montage with Blend Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Utility function to create dynamic montage from AnimSequence with blend in settings
+</p><p>Target is Anim Montage</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindSocket"><p>Find Socket</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find a socket object in this SkeletalMesh by name.
+Entering NAME_None will return NULL. If there are multiple sockets with the same name, will return the first one.
+</p><p>Target is Skeletal Mesh</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindSocketandIndex"><p>Find Socket and Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find a socket object in this SkeletalMesh by name.
+Entering NAME_None will return NULL. If there are multiple sockets with the same name, will return the first one.
+Also returns the index for the socket allowing for future fast access via GetSocketByIndex()
+</p><p>Target is Skeletal Mesh</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindSocketInfo"><p>Find Socket Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find a socket object and asscociated info in this SkeletalMesh by name.
+Entering NAME_None will return NULL. If there are multiple sockets with the same name, will return the first one.
+Also returns the index for the socket allowing for future fast access via GetSocketByIndex()
+Also rteturns the socket loca transform and the bone index (if any)
+</p><p>Target is Skeletal Mesh</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActiveCurveNames"><p>Get Active Curve Names</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This returns last up-to-date list of active curve names
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllCurveNames"><p>Get All Curve Names</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This returns all curve names
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAnimRootMotionTranslationScal-"><p>Get Anim Root Motion Translation Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns current value of AnimRootMotionScale
+</p><p>Target is Character</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAnimationAsset"><p>Get Animation Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the currently used asset
+</p><p>Target is Anim Single Node Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAnimationGraphs"><p>Get Animation Graphs</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all Animation Graphs contained by the provided Animation Blueprint
+</p><p>Target is Animation Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentMontage"><p>Get Current Montage</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the currently playing montage for this ability, if any
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurveValue"><p>Get Curve Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the value of a named curve.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDeltaSeconds"><p>Get Delta Seconds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current delta time
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEndTime"><p>Get End Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the end time of this animation.
+</p><p>Target is Widget Animation</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLength"><p>Get Length</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Length
+</p><p>Target is Anim Single Node Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMirrorDataTable"><p>Get Mirror Data Table</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mirror Data Table
+</p><p>Target is Anim Single Node Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNodeMappingContainer"><p>Get Node Mapping Container</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Node Mapping Container
+</p><p>Target is Skeletal Mesh</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNodesOfClass"><p>Get Nodes Of Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all Animation Graph Nodes of the provided Node Class contained by the Animation Blueprint
+</p><p>Target is Animation Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOwningActor"><p>Get Owning Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the owning actor of this AnimInstance
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOwningComponent"><p>Get Owning Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the skeletal mesh component that has created this AnimInstance
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlayLength"><p>Get Play Length</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Play Length
+</p><p>Target is Animation Asset</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPositionalKeys"><p>Get Positional Keys</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the positional keys contained by the FRawAnimSequenceTrack
+</p><p>Target is Raw Anim Sequence Track Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRotationalKeys"><p>Get Rotational Keys</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the rotational keys contained by the FRawAnimSequenceTrack
+</p><p>Target is Raw Anim Sequence Track Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetScaleKeys"><p>Get Scale Keys</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the scale keys contained by the FRawAnimSequenceTrack
+</p><p>Target is Raw Anim Sequence Track Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSocketbyIndex"><p>Get Socket by Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a socket by index. Max index is NumSockets(). The meshes sockets are accessed first, then the skeletons.
+</p><p>Target is Skeletal Mesh</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetStartTime"><p>Get Start Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the start time of this animation.
+</p><p>Target is Widget Animation</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTickwhenOffscreen"><p>Get Tick when Offscreen</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets whether the widget ticks when offscreen or not
+</p><p>Target is Widget Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUserTag"><p>Get User Tag</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is UMGSequence Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVehicle"><p>Get Vehicle</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Makes a montage jump to the end of a named section.
+</p><p>Target is Vehicle Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasAnyRootMotion"><p>Has Any Root Motion</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>True if we are playing root motion from any source right now (anim root motion, root motion source)
+</p><p>Target is Character</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsPlayingAnimRootMotion"><p>Is Playing Anim Root Motion</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>True if we are playing Anim root motion right now
+</p><p>Target is Character</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsPlayingNetworkedRootMotionMont-"><p>Is Playing Networked Root Motion Montage</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>True if we are playing Root Motion right now, through a Montage with RootMotionMode == ERootMotionMode::RootMotionFromMontagesOnly.
+This means code path for networked root motion is enabled.
+</p><p>Target is Character</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsPlayingSlotAnimation"><p>Is Playing Slot Animation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return true if it's playing the slot animation
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LockAIResourceswithAnimation"><p>Lock AIResources with Animation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>locks indicated AI resources of animated pawn
+</p><p>Target is AIBlueprint Helper Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NumSockets"><p>Num Sockets</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of sockets available. Both on this mesh and it's skeleton.
+</p><p>Target is Skeletal Mesh</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnAnimInitialized"><p>On Anim Initialized</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Anim Initialized:
+Broadcast when the components anim instance is initialized</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlayAnim"><p>Play Anim</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>For AnimSequence specific *
+</p><p>Target is Anim Single Node Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlayAnimMontage"><p>Play Anim Montage</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Play Animation Montage on the character mesh. Returns the length of the animation montage in seconds, or 0.f if failed to play. *
+</p><p>Target is Character</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlayRootMotionSource"><p>Play Root Motion Source</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Callable by authority. Plays "out of band" animation: e.g, directly sets the RootMotionSourceID on the sync state, rather than the pending InputCmd.
+This is analogous to outside code teleporting the actor (outside of the core simulation function)
+</p><p>Target is Mock Root Motion Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlayRootMotionSourcebyClass"><p>Play Root Motion Source by Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Play Root Motion Source by Class
+</p><p>Target is Mock Root Motion Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlaySlotAnimationasDynamicMontag-"><p>Play Slot Animation as Dynamic Montage</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Play normal animation asset on the slot node by creating a dynamic UAnimMontage. You can only play one asset (whether montage or animsequence) at a time per SlotGroup.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlaySlotAnimationasDynamicMontag-_1"><p>Play Slot Animation as Dynamic Montage with Blend Args</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Play normal animation asset on the slot node by creating a dynamic UAnimMontage with blend in arguments. You can only play one asset (whether montage or animsequence) at a time per SlotGroup.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlaySlotAnimationasDynamicMontag-_2"><p>Play Slot Animation as Dynamic Montage with Blend Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Play normal animation asset on the slot node by creating a dynamic UAnimMontage with blend in settings. You can only play one asset (whether montage or animsequence) at a time per SlotGroup.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResetDynamics"><p>Reset Dynamics</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reset any dynamics running simulation-style updates (e.g. on teleport, time skip etc.)
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetAnimationAsset"><p>Set Animation Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set New Asset - calls InitializeAnimation, for now we need MeshComponent *
+</p><p>Target is Anim Single Node Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetBlendSpacePosition"><p>Set Blend Space Position</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Blend Space Position
+</p><p>Target is Anim Single Node Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLooping"><p>Set Looping</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Looping
+</p><p>Target is Anim Single Node Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMirrorDataTable"><p>Set Mirror Data Table</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Mirror Data Table
+</p><p>Target is Anim Single Node Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMorphTarget"><p>Set Morph Target</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a morph target to a certain weight.
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPlayRate"><p>Set Play Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Play Rate
+</p><p>Target is Anim Single Node Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPlaying"><p>Set Playing</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Playing
+</p><p>Target is Anim Single Node Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPosition"><p>Set Position</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Position
+</p><p>Target is Anim Single Node Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPositionwithPreviousTime"><p>Set Position with Previous Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Position with Previous Time
+</p><p>Target is Anim Single Node Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPreviewCurveOverride"><p>Set Preview Curve Override</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set pose value
+</p><p>Target is Anim Single Node Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPreviewSkeletalMesh"><p>Set Preview Skeletal Mesh</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets or updates the preview skeletal mesh
+</p><p>Target is Animation Asset</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetReverse"><p>Set Reverse</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Reverse
+</p><p>Target is Anim Single Node Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRootMotionMode"><p>Set Root Motion Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set RootMotionMode
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTickwhenOffscreen"><p>Set Tick when Offscreen</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets whether the widget ticks when offscreen or not
+</p><p>Target is Widget Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetUserTag"><p>Set User Tag</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set User Tag
+</p><p>Target is UMGSequence Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="StopAnim"><p>Stop Anim</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Stop Anim
+</p><p>Target is Anim Single Node Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="StopAnimMontage"><p>Stop Anim Montage</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Stop Animation Montage. If nullptr, it will stop what's currently active. The Blend Out Time is taken from the montage asset that is being stopped. *
+</p><p>Target is Character</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="StopSlotAnimation"><p>Stop Slot Animation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Stops currently playing slot animation slot or all
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TryGetPawnOwner"><p>Try Get Pawn Owner</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>kismet event functions
+</p><p>Target is Anim Instance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UnbindAllfromAnimationFinished"><p>Unbind All from Animation Finished</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Unbind All from Animation Finished
+</p><p>Target is User Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UnbindAllfromAnimationStarted"><p>Unbind All from Animation Started</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Unbind All from Animation Started
+</p><p>Target is User Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UnbindfromAnimationFinished"><p>Unbind from Animation Finished</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Unbind an animation finished delegate.
+</p><p>Target is User Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UnbindfromAnimationStarted"><p>Unbind from Animation Started</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Unbind an animation started delegate.
+</p><p>Target is User Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UnlockAIResourceswithAnimation"><p>Unlock AIResources with Animation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>unlocks indicated AI resources of animated pawn. Will unlock only animation-locked resources
+</p><p>Target is AIBlueprint Helper Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+<h2 id="categories">Categories</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LiveLink"><p>Live Link</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Live Link</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Montage"><p>Montage</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Montage</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Pose"><p>Pose</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Pose</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

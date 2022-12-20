@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Sprite/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Sprite | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Sprite/" hreflang="x-default" />
+
+	<meta name="title" content="Sprite" />
+<meta name="description" content="Sprite" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Sprite" />
+	<meta property="og:description" content="Sprite" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Sprite</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Sprite</h1>
+		</div>
+		<h2 >Sprite</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddNewLayer"><p>Add New Layer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates and adds a new layer to the tile map
+Note: This will only work on components that own their own tile map (OwnsTileMap returns true), you cannot modify standalone tile map assets
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BreakTile"><p>Break Tile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Breaks out the information for a tile
+</p><p>Target is Tile Map Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateNewTileMap"><p>Create New Tile Map</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a new tile map of the specified size, replacing the TileMap reference (or dropping the previous owned one)
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFlipbook"><p>Get Flipbook</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the flipbook used by this instance.
+</p><p>Target is Paper Flipbook Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetKeyFrameIndexatTime"><p>Get Key Frame Index at Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the keyframe index that covers the specified time (in seconds), or INDEX_NONE if none exists.
+When bClampToEnds is true, it will choose the first or last keyframe if the time is out of range.
+</p><p>Target is Paper Flipbook</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLayerColor"><p>Get Layer Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the per-layer color multiplier for a specific layer (multiplied with the tile map color and passed to the material as a vertex color)
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMapSize"><p>Get Map Size</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the size of the tile map
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumFrames"><p>Get Num Frames</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the total number of frames
+</p><p>Target is Paper Flipbook</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumKeyFrames"><p>Get Num Key Frames</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of key frames
+</p><p>Target is Paper Flipbook</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSprite"><p>Get Sprite</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the PaperSprite used by this instance.
+</p><p>Target is Paper Sprite Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSpriteatFrame"><p>Get Sprite at Frame</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the sprite at the specified keyframe index, or nullptr if none exists
+</p><p>Target is Paper Flipbook</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSpriteatTime"><p>Get Sprite at Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the sprite at the specified time (in seconds), or nullptr if none exists.
+When bClampToEnds is true, it will choose the first or last sprite if the time is out of range.
+</p><p>Target is Paper Flipbook</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSpriteColor"><p>Get Sprite Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the current color of the sprite
+</p><p>Target is Paper Flipbook Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTile"><p>Get Tile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the contents of a specified tile cell
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTileCenterPosition"><p>Get Tile Center Position</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the position of the center of the specified tile
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTileCornerPosition"><p>Get Tile Corner Position</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the position of the top left corner of the specified tile
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTileMapColor"><p>Get Tile Map Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the tile map global color multiplier (multiplied with the per-layer color and passed to the material as a vertex color)
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTilePolygon"><p>Get Tile Polygon</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the polygon for the specified tile (will be 4 or 6 vertices as a rectangle, diamond, or hexagon)
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTileTransform"><p>Get Tile Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the transform for a tile
+</p><p>Target is Tile Map Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTileUserData"><p>Get Tile User Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the user data name for the specified tile, or NAME_None if there is no user-specified data
+</p><p>Target is Tile Map Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTotalDuration"><p>Get Total Duration</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the total duration in seconds
+</p><p>Target is Paper Flipbook</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsValidKeyFrameIndex"><p>Is Valid Key Frame Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Is the specified Index within the valid range of key frames?
+</p><p>Target is Paper Flipbook</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeTile"><p>Make Tile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a tile from the specified information
+</p><p>Target is Tile Map Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeTileMapEditable"><p>Make Tile Map Editable</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Makes the tile map asset pointed to by this component editable.  Nothing happens if it was already instanced, but
+if the tile map is an asset reference, it is cloned to make a unique instance.
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OwnsTileMap"><p>Owns Tile Map</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Does this component own the tile map (is it instanced instead of being an asset reference)?
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RebuildCollision"><p>Rebuild Collision</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rebuilds collision for the tile map
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResizeMap"><p>Resize Map</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Resizes the tile map (Note: This will only work on components that own their own tile map (OwnsTileMap returns true), you cannot modify standalone tile map assets)
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDefaultCollisionThickness"><p>Set Default Collision Thickness</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the default thickness for any layers that don't override the collision thickness
+Note: This will only work on components that own their own tile map (OwnsTileMap returns true), you cannot modify standalone tile map assets
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetFlipbook"><p>Set Flipbook</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Change the flipbook used by this instance (will reset the play time to 0 if it is a new flipbook).
+</p><p>Target is Paper Flipbook Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLayerCollision"><p>Set Layer Collision</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the collision thickness for a specific layer
+Note: This will only work on components that own their own tile map (OwnsTileMap returns true), you cannot modify standalone tile map assets
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLayerColor"><p>Set Layer Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the per-layer color multiplier for a specific layer (multiplied with the tile map color and passed to the material as a vertex color)
+Note: This will only work on components that own their own tile map (OwnsTileMap returns true), you cannot modify standalone tile map assets
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSprite"><p>Set Sprite</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Change the PaperSprite used by this instance.
+</p><p>Target is Paper Sprite Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSpriteColor"><p>Set Sprite Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set color of the sprite
+</p><p>Target is Paper Sprite Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTerrainColor"><p>Set Terrain Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set color of the terrain
+</p><p>Target is Paper Terrain Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTile"><p>Set Tile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Modifies the contents of a specified tile cell (Note: This will only work on components that own their own tile map (OwnsTileMap returns true), you cannot modify standalone tile map assets)
+Note: Does not update collision by default, call RebuildCollision after all edits have been done in a frame if necessary
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTileMap"><p>Set Tile Map</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Change the PaperTileMap used by this instance.
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTileMapColor"><p>Set Tile Map Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the tile map global color multiplier (multiplied with the per-layer color and passed to the material as a vertex color)
+</p><p>Target is Paper Tile Map Component</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

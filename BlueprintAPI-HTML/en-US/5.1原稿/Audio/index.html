@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Audio/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Audio | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Audio/" hreflang="x-default" />
+
+	<meta name="title" content="Audio" />
+<meta name="description" content="Audio" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Audio" />
+	<meta property="og:description" content="Audio" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Audio</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Audio</h1>
+		</div>
+		<h2 >Audio</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    			    <li id="">
+	<p><a id="toc_link" href="#categories">Categories</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ActivateControlBus"><p>Activate Control Bus</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Manually activates a modulation bus. If called, deactivation will only occur
+if bus is manually deactivated or destroyed (i.e. will not deactivate
+when all references become inactive).
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ActivateControlBusMix"><p>Activate Control Bus Mix</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Manually activates a bus modulator mix. If called, deactivation will only occur
+if mix is manually deactivated and not referenced or destroyed (i.e. will not deactivate
+when all references become inactive).
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ActivateModulationGenerator"><p>Activate Modulation Generator</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Manually activates a modulation generator. If called, deactivation will only occur
+if generator is manually deactivated and not referenced or destroyed (i.e. will not deactivate
+when all references become inactive).
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ActivateReverbEffect"><p>Activate Reverb Effect</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Activates a Reverb Effect without the need for an Audio Volume
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AreAnyListenersWithinRange"><p>Are Any Listeners Within Range</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Determines if any audio listeners are within range of the specified location
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AudioInputDeviceInfoToString"><p>Audio Input Device Info To String</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the device info in a human readable format
+</p><p>Target is Audio Capture Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AudioOutputDeviceInfoToString"><p>Audio Output Device Info To String</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the device info in a human readable format
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearAllGlobalControlBusMixValue-"><p>Clear All Global Control Bus Mix Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clears all global control bus mix values if set, using the applied fade time to return all to their respective bus's parameter default value.
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearGlobalControlBusMixValue"><p>Clear Global Control Bus Mix Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clears global control bus mix if set, using the applied fade time to return to the provided bus's parameter default value.
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearSoundMixClassOverride"><p>Clear Sound Mix Class Override</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clears any existing override of the Sound Class Adjuster in the given Sound Mix
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearSoundMixModifiers"><p>Clear Sound Mix Modifiers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clear all sound mix modifiers from the audio system
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateControlBus"><p>Create Control Bus</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a modulation bus with the provided default value.
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateControlBusMix"><p>Create Control Bus Mix</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a modulation bus mix, with a bus stage set to the provided target value.
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateControlBusMixStage"><p>Create Control Bus Mix Stage</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a stage used to mix a control bus.
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateSound2D"><p>Create Sound 2D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This function allows users to create Audio Components in advance of playback with settings specifically for non-spatialized,
+non-distance-attenuated sounds. Audio Components created using this function by default will not have Spatialization applied.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeactivateControlBus"><p>Deactivate Control Bus</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Deactivates a bus. Does nothing if the provided bus is already inactive.
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeactivateControlBusMix"><p>Deactivate Control Bus Mix</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Deactivates a modulation bus mix. Does nothing if an instance of the provided bus mix is already inactive.
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeactivateModulationGenerator"><p>Deactivate Modulation Generator</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Deactivates a modulation generator. Does nothing if an instance of the provided generator is already inactive.
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeactivateReverbEffect"><p>Deactivate Reverb Effect</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Deactivates a Reverb Effect that was applied outside of an Audio Volume
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAvailableAudioInputDevices"><p>Get Available Audio Input Devices</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets information about all audio output devices available in the system
+</p><p>Target is Audio Capture Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAvailableAudioOutputDevices"><p>Get Available Audio Output Devices</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets information about all audio output devices available in the system
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetClosestListenerLocation"><p>Get Closest Listener Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Finds and returns the position of the closest listener to the specified location
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentAudioOutputDeviceName"><p>Get Current Audio Output Device Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets information about the currently used audio output device
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentReverbEffect"><p>Get Current Reverb Effect</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the highest priority reverb settings currently active from any source (Audio Volumes or manual settings).
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaxAudioChannelCount"><p>Get Max Audio Channel Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Retrieves the max voice count currently used by the audio engine.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSoundAssetCompressionType"><p>Get Sound Asset Compression Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the sound's asset compression type.
+</p><p>Target is Sound Wave</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LoadControlBusMixFromProfile"><p>Load Control Bus Mix From Profile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Loads control bus mix from a profile into UObject mix definition, deserialized from an ini file.
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlayDialogue2D"><p>Play Dialogue 2D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Plays a dialogue directly with no attenuation, perfect for UI.
+</p><ul ><li class="Default"><p>Fire and Forget.
+</p></li><li class="Default"><p>Not Replicated.
+</p></li></ul><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlayDialogueatLocation"><p>Play Dialogue at Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Plays a dialogue at the given location. This is a fire and forget sound and does not travel with any actor.
+Replication is also not handled at this point.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlaySound2D"><p>Play Sound 2D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Plays a sound directly with no attenuation, perfect for UI sounds.
+</p><ul ><li class="Default"><p>Fire and Forget.
+</p></li><li class="Default"><p>Not Replicated.
+</p></li></ul><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlaySoundatLocation"><p>Play Sound at Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Plays a sound at the given location. This is a fire and forget sound and does not travel with any actor.
+Replication is also not handled at this point.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PopSoundMixModifier"><p>Pop Sound Mix Modifier</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Pop a sound mix modifier from the audio system
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PrimeAllSoundsinSoundClass"><p>Prime All Sounds in Sound Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Primes the sound waves in the given USoundClass, caching the first chunk of streamed audio.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PrimeSound"><p>Prime Sound</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Primes the sound, caching the first chunk of streamed audio.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PushSoundMixModifier"><p>Push Sound Mix Modifier</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Push a sound mix modifier onto the audio system
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SaveControlBusMixtoProfile"><p>Save Control Bus Mix to Profile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Saves control bus mix to a profile, serialized to an ini file.  If mix is loaded, uses current proxy's state.
+If not, uses default UObject representation.
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetBaseSoundMix"><p>Set Base Sound Mix</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the sound mix of the audio system for special EQing
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlBusMix"><p>Set Control Bus Mix</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Control Bus Mix with the provided stage data, if the stages
+are provided in an active instance proxy of the mix.
+Does not update UObject definition of the mix.
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlBusMixByFilter"><p>Set Control Bus Mix By Filter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets filtered stages of a given class to a provided target value for active instance of mix.
+Does not update UObject definition of mix.
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetGlobalControlBusMixValue"><p>Set Global Control Bus Mix Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a Global Control Bus Mix with a single stage associated with the provided Bus to the given float value.  This call should
+be reserved for buses that are to be always active. It is <em>NOT</em> recommended for transient buses, as not calling clear can keep
+buses active indefinitely.
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetGlobalListenerFocusParameters"><p>Set Global Listener Focus Parameters</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the global listener focus parameters, which will scale focus behavior of sounds based on their focus azimuth
+settings in their attenuation settings.
+</p><ul ><li class="Default"><p>Fire and Forget.
+</p></li><li class="Default"><p>Not Replicated.
+</p></li></ul><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetGlobalPitchModulation"><p>Set Global Pitch Modulation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a global pitch modulation scalar that will apply to all non-UI sounds
+</p><ul ><li class="Default"><p>Fire and Forget.
+</p></li><li class="Default"><p>Not Replicated.
+</p></li></ul><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMaxAudioChannelsScaled"><p>Set Max Audio Channels Scaled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the max number of voices (also known as "channels") dynamically by percentage. E.g. if you want to temporarily
+reduce voice count by 50%, use 0.50. Later, you can return to the original max voice count by using 1.0.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSoundAssetCompressionType"><p>Set Sound Asset Compression Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Procedurally set the compression type.
+</p><p>Target is Sound Wave</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSoundClassDistanceScale"><p>Set Sound Class Distance Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Linearly interpolates the attenuation distance scale value from it's current attenuation distance override value
+(1.0f it not overridden) to its new attenuation distance override, over the given amount of time
+</p><ul ><li class="Default"><p>Fire and Forget.
+</p></li><li class="Default"><p>Not Replicated.
+</p></li></ul><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSoundMixClassOverride"><p>Set Sound Mix Class Override</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Overrides the sound class adjuster in the given sound mix. If the sound class does not exist in the input sound mix,
+the sound class adjuster will be added to the list of active sound mix modifiers.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSubmixDryLevel_lineargain"><p>SetSubmixDryLevel (linear gain)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the output volume of the submix in linear gain. This dynamic level acts as a multiplier on the DryLevel property of this submix.
+</p><p>Target is Sound Submix</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSubmixOutputVolume_lineargain"><p>SetSubmixOutputVolume (linear gain)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the output volume of the submix in linear gain. This dynamic volume acts as a multiplier on the OutputVolume property of this submix.
+</p><p>Target is Sound Submix</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSubmixWetLevel_lineargain"><p>SetSubmixWetLevel (linear gain)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the output volume of the submix in linear gain. This dynamic level acts as a multiplier on the WetLevel property of this submix.
+</p><p>Target is Sound Submix</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnDialogue2D"><p>Spawn Dialogue 2D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawns a DialogueWave, a special type of Asset that requires Context data in order to resolve a specific SoundBase,
+which is then passed on to the new Audio Component. Audio Components created using this function by default will not
+have Spatialization applied. Sound instances will begin playing upon spawning this Audio Component.
+</p><ul ><li class="Default"><p>Not Replicated.
+</p></li></ul><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnDialogueatLocation"><p>Spawn Dialogue at Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawns a DialogueWave, a special type of Asset that requires Context data in order to resolve a specific SoundBase,
+which is then passed on to the new Audio Component. This function allows users to create and play Audio Components at a
+specific World Location and Rotation. Useful for spatialized and/or distance-attenuated dialogue.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnDialogueAttached"><p>Spawn Dialogue Attached</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawns a DialogueWave, a special type of Asset that requires Context data in order to resolve a specific SoundBase,
+which is then passed on to the new Audio Component. This function allows users to create and play Audio Components
+attached to a specific Scene Component. Useful for spatialized and/or distance-attenuated dialogue that needs to
+follow another object in space.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnSound2D"><p>Spawn Sound 2D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This function allows users to create Audio Components with settings specifically for non-spatialized,
+non-distance-attenuated sounds. Audio Components created using this function by default will not have
+Spatialization applied. Sound instances will begin playing upon spawning this Audio Component.
+</p><ul ><li class="Default"><p>Not Replicated.
+</p></li></ul><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnSoundatLocation"><p>Spawn Sound at Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawns a sound at the given location. This does not travel with any actor. Replication is also not handled at this point.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnSoundAttached"><p>Spawn Sound Attached</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This function allows users to create and play Audio Components attached to a specific Scene Component.
+Useful for spatialized and/or distance-attenuated sounds that need to follow another object in space.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SwapAudioOutputDevice"><p>Swap Audio Output Device</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Hotswaps to the requested audio output device
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UnRetainAllSoundsinSoundClass"><p>Un Retain All Sounds in Sound Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Iterate through all sound waves and releases handles to retained chunks. (If the chunk is not being played it will be up for eviction)
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UpdateControlBusMix"><p>Update Control Bus Mix</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Commits updates from a UObject definition of a bus mix to active instance in audio thread
+(ignored if mix has not been activated).
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UpdateModulator"><p>Update Modulator</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Commits updates from a UObject definition of a modulator (e.g. Bus, Bus Mix, Generator)
+to active instance in audio thread (ignored if modulator type has not been activated).
+</p><p>Target is Audio Modulation Statics</p>
+	</td>
+</tr>
+			</table>
+</div>
+<h2 id="categories">Categories</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Analysis"><p>Analysis</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Analysis</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Bounce"><p>Bounce</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bounce</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Bus"><p>Bus</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bus</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Cache"><p>Cache</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Cache</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Components"><p>Components</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Components</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Effects"><p>Effects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Effects</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EnvelopeFollowing"><p>Envelope Following</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Envelope Following</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Modulation"><p>Modulation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Modulation</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OSC"><p>OSC</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>OSC</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Parameter"><p>Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Parameter</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Recording"><p>Recording</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Recording</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Spectrum"><p>Spectrum</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spectrum</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Subtitles"><p>Subtitles</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Subtitles</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Voice"><p>Voice</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Voice</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

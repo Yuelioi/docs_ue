@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Utilities/Struct/MakeMoviePipelineFilenameResolve-/" />');
+				var udnCSS = './../../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Make MoviePipelineFilenameResolveParams | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Utilities/Struct/MakeMoviePipelineFilenameResolve-/" hreflang="x-default" />
+
+	<meta name="title" content="Make MoviePipelineFilenameResolveParams" />
+<meta name="description" content="Make MoviePipelineFilenameResolveParams" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Utilities,BlueprintAPI/Utilities/Struct" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Make MoviePipelineFilenameResolveParams" />
+	<meta property="og:description" content="Make MoviePipelineFilenameResolveParams" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../../Utilities">Utilities</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Struct">Struct</a>
+
+<span class="separator">></span> <span id="page">Make MoviePipelineFilenameResolveParams</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Make MoviePipelineFilenameResolveParams</h1>
+		</div>
+		<h2 >Make MoviePipelineFilenameResolveParams</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<p>Adds a node that create a 'MoviePipelineFilenameResolveParams' from its members
+</p><div class="graph">
+	<div class="node_container pure ">
+    <div class="node">
+        
+        <div class="titlebar_node">            
+            
+            <div class="titlebar_overlay">
+                <div class="titlebar_node_text">
+                    Make MoviePipelineFilenameResolveParams
+                </div>
+            </div>
+        </div>        
+        <div class="nodebody">
+            
+            <div class="background"></div>
+                        
+            
+            <div class="inputs">
+                <div id="pin_Frame_Number" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Frame Number
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        0
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Frame_Number_Shot" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Frame Number Shot
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        0
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Frame_Number_Rel" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Frame Number Rel
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        0
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Frame_Number_Shot_Rel" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Frame Number Shot Rel
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        0
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Camera_Name_Override" class="pin_container ">
+        <div class="pin string">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Camera Name Override
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Shot_Name_Override" class="pin_container ">
+        <div class="pin string">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Shot Name Override
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Zero_Pad_Frame_Number_Count" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Zero Pad Frame Number Count
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        0
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Force_Relative_Frame_Numbers" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Force Relative Frame Numbers
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_File_Name_Format_Overrides" class="pin_container ">
+        <div class="pin string">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    File Name Format Overrides
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_File_Metadata" class="pin_container ">
+        <div class="pin string">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    File Metadata
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Initialization_Time" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Initialization Time
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Initialization_Version" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Initialization Version
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        0
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Job" class="pin_container ">
+        <div class="pin object">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Job
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                        <div class="value_picker floatleft">
+                            <div class="arrow"></div>
+                            Select Asset
+                        </div>
+                        <div class="value_picker_assign floatleft"></div>
+                        <div class="value_picker_browse floatleft"></div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Shot_Override" class="pin_container ">
+        <div class="pin object">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Shot Override
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                        <div class="value_picker floatleft">
+                            <div class="arrow"></div>
+                            Select Asset
+                        </div>
+                        <div class="value_picker_assign floatleft"></div>
+                        <div class="value_picker_browse floatleft"></div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Additional_Frame_Number_Offset" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Additional Frame Number Offset
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        0
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                   
+               
+            <div class="outputs">
+                <div id="pin_Movie_Pipeline_Filename_Resolve_Params" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Movie Pipeline Filename Resolve Params
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                      
+        </div>
+    </div>
+</div>
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'inputs');">
+        <p>Inputs</p>
+    </div>
+<div id="inputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Frame_Number" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Frame Number</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Frame Number:
+Frame Number for the Master (matching what you see in the Sequencer timeline. ie: If the Sequence PlaybackRange starts on 50, this value would be 50 on the first frame.</p>
+    </td>
+</tr>
+<tr id="Frame_Number_Shot" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Frame Number Shot</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Frame Number Shot:
+Frame Number for the Shot (matching what you would see in Sequencer at the sub-sequence level.</p>
+    </td>
+</tr>
+<tr id="Frame_Number_Rel" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Frame Number Rel</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Frame Number Rel:
+Frame Number for the Master (relative to 0, not what you would see in the Sequencer timeline. ie: If sequence PlaybackRange starts on 50, this value would be 0 on the first frame.</p>
+    </td>
+</tr>
+<tr id="Frame_Number_Shot_Rel" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Frame Number Shot Rel</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Frame Number Shot Rel:
+Frame Number for the Shot (relative to 0, not what you would see in the Sequencer timeline.</p>
+    </td>
+</tr>
+<tr id="Camera_Name_Override" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable string">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Camera Name Override</a>
+        <div class="name-cell-arguments">
+            String
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Camera Name Override:
+Name used by the {camera_name} format tag. If specified, this will override the camera name (which is normally pulled from the ShotOverride object).</p>
+    </td>
+</tr>
+<tr id="Shot_Name_Override" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable string">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Shot Name Override</a>
+        <div class="name-cell-arguments">
+            String
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Shot Name Override:
+Name used by the {shot_name} format tag. If specified, this will override the shot name (which is normally pulled from the ShotOverride object)</p>
+    </td>
+</tr>
+<tr id="Zero_Pad_Frame_Number_Count" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Zero Pad Frame Number Count</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Zero Pad Frame Number Count:
+When converitng frame numbers to strings, how many digits should we pad them up to? ie: 5 =&gt; 0005 with a count of 4.</p>
+    </td>
+</tr>
+<tr id="Force_Relative_Frame_Numbers" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Force Relative Frame Numbers</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Force Relative Frame Numbers:
+If true, force format strings (like {frame_number}) to resolve using the relative version. Used when slow-mo is detected as frame numbers would overlap.</p>
+    </td>
+</tr>
+<tr id="File_Name_Format_Overrides" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable string">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>File Name Format Overrides</a>
+        <div class="name-cell-arguments">
+            Map of Strings to Strings
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>File Name Format Overrides:
+A map between "{format}" tokens and their values. These are applied after the auto-generated ones from the system,
+which allows the caller to override things like {.ext} depending or {render_pass} which have dummy names by default.</p>
+    </td>
+</tr>
+<tr id="File_Metadata" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable string">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>File Metadata</a>
+        <div class="name-cell-arguments">
+            Map of Strings to Strings
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>File Metadata:
+A key/value pair that maps metadata names to their values. Output is only supported in exr formats at the moment.</p>
+    </td>
+</tr>
+<tr id="Initialization_Time" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Initialization Time</a>
+        <div class="name-cell-arguments">
+            Date Time Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Initialization Time:
+The initialization time for this job. Used to resolve time-based format arguments.</p>
+    </td>
+</tr>
+<tr id="Initialization_Version" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Initialization Version</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Initialization Version:
+The version for this job. Used to resolve version format arguments.</p>
+    </td>
+</tr>
+<tr id="Job" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable object">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Job</a>
+        <div class="name-cell-arguments">
+            Movie Pipeline Executor Job Object Reference
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Job:
+</p><ol ><li class="Default"><p>This is the job all of the settings should be pulled from.
+</p></li></ol>
+    </td>
+</tr>
+<tr id="Shot_Override" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable object">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Shot Override</a>
+        <div class="name-cell-arguments">
+            Movie Pipeline Executor Shot Object Reference
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Shot Override:
+</p><ol ><li class="Default"><p>If specified, settings will be pulled from this shot (if overriden by the shot). If null, always use the master configuration in the job.
+</p></li></ol>
+    </td>
+</tr>
+<tr id="Additional_Frame_Number_Offset" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Additional Frame Number Offset</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Additional Frame Number Offset:
+Additional offset added onto the offset provided by the Output Settings in the Job. Required for some internal things (FCPXML).</p>
+    </td>
+</tr>
+	</table>
+</div>
+
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'outputs');">
+        <p>Outputs</p>
+    </div>
+<div id="outputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Movie_Pipeline_Filename_Resolve_Params" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Movie Pipeline Filename Resolve Params</a>
+        <div class="name-cell-arguments">
+            Movie Pipeline Filename Resolve Params Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+	</table>
+</div>
+
+</div>
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

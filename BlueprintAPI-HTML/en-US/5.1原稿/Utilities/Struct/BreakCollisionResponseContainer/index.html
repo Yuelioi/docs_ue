@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Utilities/Struct/BreakCollisionResponseContainer/" />');
+				var udnCSS = './../../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Break CollisionResponseContainer | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Utilities/Struct/BreakCollisionResponseContainer/" hreflang="x-default" />
+
+	<meta name="title" content="Break CollisionResponseContainer" />
+<meta name="description" content="Break CollisionResponseContainer" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Utilities,BlueprintAPI/Utilities/Struct" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Break CollisionResponseContainer" />
+	<meta property="og:description" content="Break CollisionResponseContainer" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../../Utilities">Utilities</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Struct">Struct</a>
+
+<span class="separator">></span> <span id="page">Break CollisionResponseContainer</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Break CollisionResponseContainer</h1>
+		</div>
+		<h2 >Break CollisionResponseContainer</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<p>Adds a node that breaks a 'CollisionResponseContainer' into its member fields
+</p><div class="graph">
+	<div class="node_container pure ">
+    <div class="node">
+        
+        <div class="titlebar_node">            
+            
+            <div class="titlebar_overlay">
+                <div class="titlebar_node_text">
+                    Break CollisionResponseContainer
+                </div>
+            </div>
+        </div>        
+        <div class="nodebody">
+            
+            <div class="background"></div>
+                        
+            
+            <div class="inputs">
+                <div id="pin_Collision_Response_Container" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Collision Response Container
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                   
+               
+            <div class="outputs">
+                <div id="pin_World_Static" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    World Static
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_World_Dynamic" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    World Dynamic
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Pawn" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Pawn
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Visibility" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Visibility
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Camera" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Camera
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Physics_Body" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Physics Body
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Vehicle" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Vehicle
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Destructible" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Destructible
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Engine_Trace_Channel_1" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Engine Trace Channel 1
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Engine_Trace_Channel_2" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Engine Trace Channel 2
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Engine_Trace_Channel_3" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Engine Trace Channel 3
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Engine_Trace_Channel_4" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Engine Trace Channel 4
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Engine_Trace_Channel_5" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Engine Trace Channel 5
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Engine_Trace_Channel_6" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Engine Trace Channel 6
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_1" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 1
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_2" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 2
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_3" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 3
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_4" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 4
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_5" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 5
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_6" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 6
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_7" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 7
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_8" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 8
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_9" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 9
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_10" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 10
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_11" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 11
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_12" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 12
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_13" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 13
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_14" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 14
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_15" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 15
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_16" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 16
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_17" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 17
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Game_Trace_Channel_18" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Game Trace Channel 18
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                      
+        </div>
+    </div>
+</div>
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'inputs');">
+        <p>Inputs</p>
+    </div>
+<div id="inputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Collision_Response_Container" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Collision Response Container</a>
+        <div class="name-cell-arguments">
+            Collision Response Container Structure (by ref)
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+	</table>
+</div>
+
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'outputs');">
+        <p>Outputs</p>
+    </div>
+<div id="outputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="World_Static" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>World Static</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>World Static:
+Reserved Engine Trace Channels
+</p><p>Note -        If you change this (add/remove/modify)
+you should make sure it matches with ECollisionChannel (including DisplayName)
+They has to be mirrored if serialized</p>
+    </td>
+</tr>
+<tr id="World_Dynamic" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>World Dynamic</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>World Dynamic:
+0</p>
+    </td>
+</tr>
+<tr id="Pawn" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Pawn</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Pawn:
+1.</p>
+    </td>
+</tr>
+<tr id="Visibility" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Visibility</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Visibility:
+2</p>
+    </td>
+</tr>
+<tr id="Camera" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Camera</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Camera:
+3</p>
+    </td>
+</tr>
+<tr id="Physics_Body" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Physics Body</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Physics Body:
+4</p>
+    </td>
+</tr>
+<tr id="Vehicle" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Vehicle</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Vehicle:
+5</p>
+    </td>
+</tr>
+<tr id="Destructible" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Destructible</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Destructible:
+6</p>
+    </td>
+</tr>
+<tr id="Engine_Trace_Channel_1" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Engine Trace Channel 1</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Engine Trace Channel 1:
+Unspecified Engine Trace Channels</p>
+    </td>
+</tr>
+<tr id="Engine_Trace_Channel_2" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Engine Trace Channel 2</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Engine Trace Channel 2:
+8</p>
+    </td>
+</tr>
+<tr id="Engine_Trace_Channel_3" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Engine Trace Channel 3</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Engine Trace Channel 3:
+9</p>
+    </td>
+</tr>
+<tr id="Engine_Trace_Channel_4" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Engine Trace Channel 4</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Engine Trace Channel 4:
+10</p>
+    </td>
+</tr>
+<tr id="Engine_Trace_Channel_5" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Engine Trace Channel 5</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Engine Trace Channel 5:
+11</p>
+    </td>
+</tr>
+<tr id="Engine_Trace_Channel_6" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Engine Trace Channel 6</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Engine Trace Channel 6:
+12</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_1" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 1</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 1:
+in order to use this custom channels
+we recommend to define in your local file
+</p><ul ><li class="Default"><p>i.e. #define COLLISION_WEAPON               ECC_GameTraceChannel1
+and make sure you customize these it in INI file by
+</p></li></ul><p>in DefaultEngine.ini
+</p><p>[/Script/Engine.CollisionProfile]
+GameTraceChannel1="Weapon"
+</p><p>also in the INI file, you can override collision profiles that are defined by simply redefining
+note that Weapon isn't defined in the BaseEngine.ini file, but "Trigger" is defined in Engine
++Profiles=(Name="Trigger",CollisionEnabled=QueryOnly,ObjectTypeName=WorldDynamic, DefaultResponse=ECR_Overlap, CustomResponses=((Channel=Visibility, Response=ECR_Ignore), (Channel=Weapon, Response=ECR_Ignore)))</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_2" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 2</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 2:
+14</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_3" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 3</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 3:
+15</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_4" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 4</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 4:
+16</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_5" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 5</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 5:
+17</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_6" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 6</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 6:
+18</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_7" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 7</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 7:
+19</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_8" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 8</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 8:
+20</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_9" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 9</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 9:
+21</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_10" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 10</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 10:
+22</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_11" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 11</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 11:
+23</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_12" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 12</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 12:
+24</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_13" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 13</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 13:
+25</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_14" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 14</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 14:
+26</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_15" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 15</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 15:
+27</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_16" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 16</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 16:
+28</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_17" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 17</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 17:
+28</p>
+    </td>
+</tr>
+<tr id="Game_Trace_Channel_18" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Game Trace Channel 18</a>
+        <div class="name-cell-arguments">
+            ECollisionResponse Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Game Trace Channel 18:
+30</p>
+    </td>
+</tr>
+	</table>
+</div>
+
+</div>
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

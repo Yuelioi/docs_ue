@@ -1,0 +1,20 @@
+# BreakGeometryScriptCreateNewVolu-
+
+Adds a node that breaks a 'GeometryScriptCreateNewVolumeFromMeshOptions' into its member fields
+
+## 图示
+
+![]($-20221218-14365615.png)
+
+## Inputs
+
+Geometry Script Create New Volume from Mesh Options: Geometry Script Create New Volume From Mesh Options Structure (by ref).  
+
+## Outputs
+
+Volume Type: Volume Class Reference. Volume Type.
+
+Auto Simplify: Boolean. Auto Simplify.
+
+Max Triangles: Integer. Max Triangles.
+

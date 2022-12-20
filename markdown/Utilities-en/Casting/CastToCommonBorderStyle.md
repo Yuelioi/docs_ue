@@ -1,0 +1,22 @@
+# CastToCommonBorderStyle
+
+Tries to access object as a class it may be an instance of.
+
+## 图示
+
+![]($-20221218-12281741.png)
+
+## Inputs
+
+In: Exec.
+
+Object: Object Wildcard.  
+
+## Outputs
+
+Out: Exec.
+
+Cast Failed: Exec.
+
+As Common Border Style: Common Border Style Object Reference.
+

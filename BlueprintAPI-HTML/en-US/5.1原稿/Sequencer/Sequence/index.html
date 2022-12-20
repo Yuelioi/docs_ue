@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Sequencer/Sequence/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Sequence | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Sequencer/Sequence/" hreflang="x-default" />
+
+	<meta name="title" content="Sequence" />
+<meta name="description" content="Sequence" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Sequencer" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Sequence" />
+	<meta property="og:description" content="Sequence" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Sequencer">Sequencer</a>
+
+<span class="separator">></span> <span id="page">Sequence</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Sequence</h1>
+		</div>
+		<h2 >Sequence</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddChildFolder"><p>Add Child Folder</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a child folder to the target folder
+</p><p>Target is Movie Scene Folder Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddChildMasterTrack"><p>Add Child Master Track</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a master track to this folder
+</p><p>Target is Movie Scene Folder Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddChildObjectBinding"><p>Add Child Object Binding</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a guid for an object binding to this folder
+</p><p>Target is Movie Scene Folder Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddMarkedFrame"><p>Add Marked Frame</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"><p>Add a given user marked frame.
+</p></li><li class="Default"></li><li class="Default"></li></ul><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddMasterTrack"><p>Add Master Track</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a new master track of the specified type
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddPossessable"><p>Add Possessable</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a new binding to this sequence that will possess the specified object
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddRootFoldertoSequence"><p>Add Root Folder to Sequence</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a root folder to the given sequence
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddSpawnablefromClass"><p>Add Spawnable from Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a new binding to this sequence that will spawn the specified object
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddSpawnablefromInstance"><p>Add Spawnable from Instance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a new binding to this sequence that will spawn the specified object
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddTrack"><p>Add Track</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a new track to the specified binding
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteMarkedFrame"><p>Delete Marked Frame</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"></li><li class="Default"><p>@DeleteIndex The index to the user marked frame to delete
+</p></li></ul><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteMarkedFrames"><p>Delete Marked Frames</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"><p>Delete all user marked frames
+</p></li></ul><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindBindingbyId"><p>Find Binding by Id</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempt to locate a binding in this sequence by its Id
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindBindingbyName"><p>Find Binding by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempt to locate a binding in this sequence by its name
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindBindingbyTag"><p>Find Binding by Tag</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find the first object binding ID associated with the specified tag name (set up through RMB-&gt;Expose on Object bindings from within sequencer)
+</p><p>Target is Movie Scene Sequence</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindBindingsbyTag"><p>Find Bindings by Tag</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find all object binding IDs associated with the specified tag name (set up through RMB-&gt;Expose on Object bindings from within sequencer)
+</p><p>Target is Movie Scene Sequence</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindMarkedFramebyFrameNumber"><p>Find Marked Frame by Frame Number</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"></li><li class="Default"><p>@InFrameNumber The frame number of the user marked frame to find
+</p></li></ul><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindMarkedFramebyLabel"><p>Find Marked Frame by Label</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"></li><li class="Default"><p>@InLabel The label to the user marked frame to find
+</p></li></ul><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindMasterTracksbyExactType"><p>Find Master Tracks by Exact Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find all master tracks of the specified type, not allowing sub-classed types
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindMasterTracksbyType"><p>Find Master Tracks by Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find all master tracks of the specified type
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindNextMarkedFrame"><p>Find Next Marked Frame</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"></li><li class="Default"><p>@InFrameNumber The frame number to find the next/previous user marked frame from
+</p></li><li class="Default"><p>@bForward Find forward from the given frame number.
+</p></li></ul><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindTracksbyExactType"><p>Find Tracks by Exact Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find all tracks within a given binding of the specified type, not allowing sub-classed types
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindTracksbyType"><p>Find Tracks by Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find all tracks within a given binding of the specified type
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBindingID"><p>Get Binding ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the binding ID for a binding within a sequence.
+Note:: The resulting binding is only valid when applied to properties within the same sequence as this binding. Use GetPortableBindingID for bindings which live in different sub-sequences.
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBindings"><p>Get Bindings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get all the bindings in this sequence
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetChildFolders"><p>Get Child Folders</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the child folders of a given folder
+</p><p>Target is Movie Scene Folder Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetChildMasterTracks"><p>Get Child Master Tracks</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the master tracks contained by this folder
+</p><p>Target is Movie Scene Folder Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetChildObjectBindings"><p>Get Child Object Bindings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the object bindings contained by this folder
+</p><p>Target is Movie Scene Folder Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetChildPossessables"><p>Get Child Possessables</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get all the children of this binding
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetClockSource"><p>Get Clock Source</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the clock source for this sequence
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDisplayName"><p>Get Display Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get this binding's name
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDisplayRate"><p>Get Display Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets this sequence's display rate
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEarliestTimecodeSource"><p>Get Earliest Timecode Source</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the earliest timecode source out of all of the movie scene sections contained within this sequence's movie scene.
+</p><p>Target is Movie Scene Sequence</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEndFrame"><p>Get End Frame</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the ending frame for the specified range, if it has one. Defined as the first subsequent frame that is outside of the range.
+</p><p>Target is Sequencer Scripting Range Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEndSeconds"><p>Get End Seconds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the ending time for the specified range in seconds, if it has one. Defined as the first time that is outside of the range.
+</p><p>Target is Sequencer Scripting Range Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEvaluationType"><p>Get Evaluation Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the evaluation type for this sequence
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFolderColor"><p>Get Folder Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the display color of the given folder
+</p><p>Target is Movie Scene Folder Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFolderName"><p>Get Folder Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the given folder's display name
+</p><p>Target is Movie Scene Folder Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetId"><p>Get Id</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get this binding's ID
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMarkedFrames"><p>Get Marked Frames</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMasterTracks"><p>Get Master Tracks</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get all master tracks
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMovieScene"><p>Get Movie Scene</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get this sequence's movie scene data
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetName"><p>Get Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get this binding's object non-display name
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetObjectTemplate"><p>Get Object Template</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get this binding's object template
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParent"><p>Get Parent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the parent of this binding
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlaybackEnd"><p>Get Playback End</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get playback end of this sequence in display rate resolution
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlaybackEndSeconds"><p>Get Playback End Seconds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get playback end of this sequence in seconds
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlaybackRange"><p>Get Playback Range</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get playback range of this sequence in display rate resolution
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlaybackStart"><p>Get Playback Start</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get playback start of this sequence in display rate resolution
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlaybackStartSeconds"><p>Get Playback Start Seconds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get playback start of this sequence in seconds
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPortableBindingID"><p>Get Portable Binding ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a portable binding ID for a binding that resides in a different sequence to the one where this binding will be resolved.
+Note:: This function must be used over GetBindingID when the target binding resides in different shots or sub-sequences.
+Note:: Only unique instances of sequences within a master sequences are supported
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPossessables"><p>Get Possessables</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get all the possessables in this sequence
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPossessedObjectClass"><p>Get Possessed Object Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get this binding's possessed object class
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRootFoldersinSequence"><p>Get Root Folders in Sequence</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the root folders in the provided sequence
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSpawnables"><p>Get Spawnables</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get all the spawnables in this sequence
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetStartFrame"><p>Get Start Frame</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the starting frame for the specified range, if it has one. Defined as the first valid frame that is inside the range.
+</p><p>Target is Sequencer Scripting Range Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetStartSeconds"><p>Get Start Seconds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the starting time for the specified range in seconds, if it has one. Defined as the first valid time that is inside the range.
+</p><p>Target is Sequencer Scripting Range Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTickResolution"><p>Get Tick Resolution</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets this sequence's tick resolution
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTracks"><p>Get Tracks</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get all the tracks stored within this binding
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetViewRangeEnd"><p>Get View Range End</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the sequence view range end in seconds
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetViewRangeStart"><p>Get View Range Start</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the sequence view range start in seconds
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetWorkRangeEnd"><p>Get Work Range End</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the sequence work range end in seconds
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetWorkRangeStart"><p>Get Work Range Start</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the sequence work range start in seconds
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasEnd"><p>Has End</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether this range has an end
+</p><p>Target is Sequencer Scripting Range Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasStart"><p>Has Start</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether this range has a start
+</p><p>Target is Sequencer Scripting Range Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsReadOnly"><p>Is Read Only</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"></li></ul><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsValid"><p>Is Valid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether the specified binding is valid
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LocateBoundObjects"><p>Locate Bound Objects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Locate all the objects that correspond to the specified object ID, using the specified context
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeRange"><p>Make Range</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Make a new range for this sequence in its display rate
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeRangeSeconds"><p>Make Range Seconds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Make a new range for this sequence in seconds
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MoveBindingContents"><p>Move Binding Contents</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Move all the contents (tracks, child bindings) of the specified binding ID onto another
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Remove"><p>Remove</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the specified binding
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveChildFolder"><p>Remove Child Folder</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove a child folder from the given folder
+</p><p>Target is Movie Scene Folder Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveChildMasterTrack"><p>Remove Child Master Track</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove a master track from the given folder
+</p><p>Target is Movie Scene Folder Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveChildObjectBinding"><p>Remove Child Object Binding</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove an object binding from the given folder
+</p><p>Target is Movie Scene Folder Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveEnd"><p>Remove End</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the end from this range, making it infinite
+</p><p>Target is Sequencer Scripting Range Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveMasterTrack"><p>Remove Master Track</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes a master track
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveStart"><p>Remove Start</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the start from this range, making it infinite
+</p><p>Target is Sequencer Scripting Range Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveTrack"><p>Remove Track</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the specified track from this binding
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResolveBindingID"><p>Resolve Binding ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Make a binding for the given binding ID
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetClockSource"><p>Set Clock Source</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the clock source for this sequence
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDisplayName"><p>Set Display Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set this binding's name
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDisplayRate"><p>Set Display Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets this sequence's display rate
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetEndFrame"><p>Set End Frame</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the ending frame for the specified range. Interpreted as the first subsequent frame that is outside of the range.
+</p><p>Target is Sequencer Scripting Range Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetEndSeconds"><p>Set End Seconds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the ending time for the specified range in seconds. Interpreted as the first time that is outside of the range.
+</p><p>Target is Sequencer Scripting Range Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetEvaluationType"><p>Set Evaluation Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the evaluation type for this sequence
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetFolderColor"><p>Set Folder Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the display color of the given folder
+</p><p>Target is Movie Scene Folder Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetFolderName"><p>Set Folder Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the name of the given folder
+</p><p>Target is Movie Scene Folder Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMarkedFrame"><p>Set Marked Frame</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"></li><li class="Default"><p>@InMarkIndex The given user marked frame index to edit
+</p></li><li class="Default"><p>@InFrameNumber The frame number to set
+</p></li></ul><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetName"><p>Set Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set this binding's object non-display name
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetParent"><p>Set Parent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the parent to this binding
+</p><p>Target is Movie Scene Binding Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPlaybackEnd"><p>Set Playback End</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set playback end of this sequence
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPlaybackEndSeconds"><p>Set Playback End Seconds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set playback end of this sequence in seconds
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPlaybackStart"><p>Set Playback Start</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set playback start of this sequence
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPlaybackStartSeconds"><p>Set Playback Start Seconds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set playback start of this sequence in seconds
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetReadOnly"><p>Set Read Only</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"></li><li class="Default"><p>@bInReadOnly Whether the movie scene should be read only or not
+</p></li></ul><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetStartFrame"><p>Set Start Frame</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the starting frame for the specified range. Interpreted as the first valid frame that is inside the range.
+</p><p>Target is Sequencer Scripting Range Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetStartSeconds"><p>Set Start Seconds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the starting time for the specified range in seconds. Interpreted as the first valid time that is inside the range.
+</p><p>Target is Sequencer Scripting Range Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTickResolution"><p>Set Tick Resolution</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets this sequence's tick resolution and migrates frame times
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTickResolutionDirectly"><p>Set Tick Resolution Directly</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets this sequence's tick resolution directly without migrating frame times
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetViewRangeEnd"><p>Set View Range End</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the sequence view range end in seconds
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetViewRangeStart"><p>Set View Range Start</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the sequence view range start in seconds
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetWorkRangeEnd"><p>Set Work Range End</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the sequence work range end in seconds
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetWorkRangeStart"><p>Set Work Range Start</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the sequence work range start in seconds
+</p><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SortMarkedFrames"><p>Sort Marked Frames</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"><p>Sort the marked frames in chronological order
+</p></li></ul><p>Target is Movie Scene Sequence Extensions</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

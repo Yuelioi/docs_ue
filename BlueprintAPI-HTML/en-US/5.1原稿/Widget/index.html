@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Widget/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Widget | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Widget/" hreflang="x-default" />
+
+	<meta name="title" content="Widget" />
+<meta name="description" content="Widget" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Widget" />
+	<meta property="og:description" content="Widget" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Widget</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Widget</h1>
+		</div>
+		<h2 >Widget</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    			    <li id="">
+	<p><a id="toc_link" href="#categories">Categories</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddChildtoGrid"><p>Add Child to Grid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add Child to Grid
+</p><p>Target is Grid Panel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddChildtoHorizontalBox"><p>Add Child to Horizontal Box</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add Child to Horizontal Box
+</p><p>Target is Horizontal Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddChildtoOverlay"><p>Add Child to Overlay</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add Child to Overlay
+</p><p>Target is Overlay</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddChildtoUniformGrid"><p>Add Child to Uniform Grid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add Child to Uniform Grid
+</p><p>Target is Uniform Grid Panel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearError"><p>Clear Error</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clear Error
+</p><p>Target is Text Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ForceLayoutPrepass"><p>Force Layout Prepass</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Forces a pre-pass.  A pre-pass caches the desired size of the widget hierarchy owned by this widget.
+One pre-pass already happens for every widget before Tick occurs.  You only need to perform another
+pre-pass if you are adding child widgets this frame and want them to immediately be visible this frame.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ForceVolatile"><p>Force Volatile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the forced volatility of the widget.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAccessibleSummaryText"><p>Get Accessible Summary Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the accessible summary text from the underlying Slate accessible widget.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAccessibleText"><p>Get Accessible Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the accessible text from the underlying Slate accessible widget
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllWidgetsOfClass"><p>Get All Widgets Of Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find all widgets of a certain class.
+</p><p>Target is Widget Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllWidgetswithInterface"><p>Get All Widgets with Interface</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find all widgets in the world with the specified interface.
+This is a slow operation, use with caution e.g. do not use every frame.
+</p><p>Target is Widget Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCachedGeometry"><p>Get Cached Geometry</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the last geometry used to Tick the widget.  This data may not exist yet if this call happens prior to
+the widget having been ticked/painted, or it may be out of date, or a frame behind.
+</p><p>We recommend not to use this data unless there's no other way to solve your problem.  Normally in Slate we
+try and handle these issues by making a dependent widget part of the hierarchy, as to avoid frame behind
+or what are referred to as hysteresis problems, both caused by depending on geometry from the previous frame
+being used to advise how to layout a dependent object the current frame.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCheckedState"><p>Get Checked State</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the full current checked state.
+</p><p>Target is Check Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetClipping"><p>Get Clipping</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the clipping state of this widget.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDecoratorbyClass"><p>Get Decorator by Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Decorator by Class
+</p><p>Target is Rich Text Block</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDesiredSize"><p>Get Desired Size</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the widgets desired size.
+NOTE: The underlying Slate widget must exist and be valid, also at least one pre-pass must
+have occurred before this value will be of any use.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGameInstance"><p>Get Game Instance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the game instance associated with this UI.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetInputEventfromCharacterEvent"><p>Get Input Event from Character Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Input Event from Character Event
+</p><p>Target is Widget Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetInputEventfromKeyEvent"><p>Get Input Event from Key Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Input Event from Key Event
+</p><p>Target is Widget Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetInputEventfromNavigationEvent"><p>Get Input Event from Navigation Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Input Event from Navigation Event
+</p><p>Target is Widget Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetInputEventfromPointerEvent"><p>Get Input Event from Pointer Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Input Event from Pointer Event
+</p><p>Target is Widget Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetIsEnabled"><p>Get Is Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the current enabled status of the widget
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetIsSelectingKey"><p>Get Is Selecting Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the widget is currently selecting a key, otherwise returns false.
+</p><p>Target is Input Key Selector</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetKeyEventfromAnalogInputEvent"><p>Get Key Event from Analog Input Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Key Event from Analog Input Event
+</p><p>Target is Widget Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOwningLocalPlayer"><p>Get Owning Local Player</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the local player associated with this UI.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOwningPlayer"><p>Get Owning Player</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the player controller associated with this UI.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPaintSpaceGeometry"><p>Get Paint Space Geometry</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Paint Space Geometry
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParent"><p>Get Parent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the parent widget
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRenderOpacity"><p>Get Render Opacity</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the current visibility of the widget.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetScrollOffset"><p>Get Scroll Offset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the scroll offset of the scrollbox in Slate Units.
+</p><p>Target is Scroll Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetScrollOffsetOfEnd"><p>Get Scroll Offset Of End</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the scroll offset of the bottom of the ScrollBox in Slate Units.
+</p><p>Target is Scroll Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetText"><p>Get Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns widgets text.
+</p><p>Target is Rich Text Block</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTickSpaceGeometry"><p>Get Tick Space Geometry</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Tick Space Geometry
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetViewOffsetFraction"><p>Get View Offset Fraction</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get View Offset Fraction
+</p><p>Target is Scroll Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVisibility"><p>Get Visibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the current visibility of the widget.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetHintText_Multi_LineEditableTe-"><p>GetHintText (Multi-Line Editable Text)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Hint Text
+</p><p>Target is Editable Text (Multi-Line)</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetHintText_Multi_LineTextBox"><p>GetHintText (Multi-Line Text Box)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Hint Text
+</p><p>Target is Text Box (Multi-Line)</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetText_EditableText"><p>GetText (Editable Text)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the widget text
+</p><p>Target is Editable Text</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetText_Multi_LineEditableText"><p>GetText (Multi-Line Editable Text)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Text
+</p><p>Target is Editable Text (Multi-Line)</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetText_Multi_LineTextBox"><p>GetText (Multi-Line Text Box)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Text
+</p><p>Target is Text Box (Multi-Line)</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetText_TextBox"><p>GetText (Text Box)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Text
+</p><p>Target is Text Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetText_Text"><p>GetText (Text)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the widget text
+</p><p>Target is Text</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasAnyUserFocus"><p>Has Any User Focus</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this widget is focused by any user.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasError"><p>Has Error</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Has Error
+</p><p>Target is Text Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasKeyboardFocus"><p>Has Keyboard Focus</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checks to see if this widget currently has the keyboard focus
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasMouseCapture"><p>Has Mouse Capture</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checks to see if this widget is the current mouse captor
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasMouseCapturebyUser"><p>Has Mouse Capture by User</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checks to see if this widget is the current mouse captor
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasUserFocus"><p>Has User Focus</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this widget is focused by a specific user.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasUserFocusedDescendants"><p>Has User Focused Descendants</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if any descendant widget is focused by a specific user.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasAnyUserFocusedDescendants"><p>HasAnyUserFocusedDescendants</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if any descendant widget is focused by any user.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InvalidateLayoutandVolatility"><p>Invalidate Layout and Volatility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Invalidates the widget from the view of a layout caching widget that may own this widget.
+will force the owning widget to redraw and cache children on the next paint pass.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsChecked"><p>Is Checked</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the checkbox is currently checked
+</p><p>Target is Check Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsHovered"><p>Is Hovered</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the widget is currently being hovered by a pointer device
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsPressed"><p>Is Pressed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this button is currently pressed
+</p><p>Target is Check Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsVisible"><p>Is Visible</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the widget is Visible, HitTestInvisible or SelfHitTestInvisible.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RefreshTextLayout"><p>Refresh Text Layout</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Causes the text to reflow it's layout and re-evaluate any decorators
+</p><p>Target is Rich Text Block</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemovefromParent"><p>Remove from Parent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the widget from its parent widget.  If this widget was added to the player's screen or the viewport
+it will also be removed from those containers.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResetCursor"><p>Reset Cursor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Resets the cursor to use on the widget, removing any customization for it.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ScrolltoEnd"><p>Scroll to End</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Scrolls the ScrollBox to the bottom instantly during the next layout pass.
+</p><p>Target is Scroll Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ScrolltoStart"><p>Scroll to Start</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Scrolls the ScrollBox to the top instantly
+</p><p>Target is Scroll Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ScrollWidgetIntoView"><p>Scroll Widget Into View</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Scrolls the ScrollBox to the widget during the next layout pass.
+</p><p>Target is Scroll Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetAllNavigationRules"><p>Set All Navigation Rules</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the widget navigation rules for all directions. This can only be called on widgets that are in a widget tree.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetAllowGamepadKeys"><p>Set Allow Gamepad Keys</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets whether or not gamepad keys are allowed in the selected key.
+</p><p>Target is Input Key Selector</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetAllowModifierKeys"><p>Set Allow Modifier Keys</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets whether or not modifier keys are allowed in the selected key.
+</p><p>Target is Input Key Selector</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCheckedState"><p>Set Checked State</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the checked state.
+</p><p>Target is Check Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetClipping"><p>Set Clipping</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the clipping state of this widget.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetColumnFill"><p>Set Column Fill</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Column Fill
+</p><p>Target is Grid Panel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCursor"><p>Set Cursor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the cursor to show over the widget.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetEscapeKeys"><p>Set Escape Keys</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets escape keys.
+</p><p>Target is Input Key Selector</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetFocus"><p>Set Focus</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the focus to this widget for the owning user
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetHintText"><p>Set Hint Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Hint Text
+</p><p>Target is Editable Text</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetHintText_TextBox"><p>Set Hint Text (Text Box)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Hint Text
+</p><p>Target is Text Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIsChecked"><p>Set Is Checked</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the checked state.
+</p><p>Target is Check Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIsEnabled"><p>Set Is Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the current enabled status of the widget
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIsPassword"><p>Set Is Password</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Is Password
+</p><p>Target is Editable Text</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetKeySelectionText"><p>Set Key Selection Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the text which is displayed while selecting keys.
+</p><p>Target is Input Key Selector</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetKeyboardFocus"><p>Set Keyboard Focus</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the focus to this widget.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNavigationRule"><p>Set Navigation Rule</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Navigation Rule
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNavigationRuleBase"><p>Set Navigation Rule Base</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the widget navigation rules for a specific direction. This can only be called on widgets that are in a widget tree. This works only for non Explicit, non Custom and non CustomBoundary Rules.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNavigationRuleCustom"><p>Set Navigation Rule Custom</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the widget navigation rules for a specific direction. This can only be called on widgets that are in a widget tree. This works only for Custom Rule.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNavigationRuleCustomBoundary"><p>Set Navigation Rule Custom Boundary</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the widget navigation rules for a specific direction. This can only be called on widgets that are in a widget tree. This works only for CustomBoundary Rule.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNavigationRuleExplicit"><p>Set Navigation Rule Explicit</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the widget navigation rules for a specific direction. This can only be called on widgets that are in a widget tree. This works only for Explicit Rule.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNoKeySpecifiedText"><p>Set No Key Specified Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the text to display when no key text is available or not selecting a key.
+</p><p>Target is Input Key Selector</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRenderOpacity"><p>Set Render Opacity</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the visibility of the widget.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRowFill"><p>Set Row Fill</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Row Fill
+</p><p>Target is Grid Panel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetScrollOffset"><p>Set Scroll Offset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Updates the scroll offset of the scrollbox.
+</p><p>Target is Scroll Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSelectedKey"><p>Set Selected Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the currently selected key.
+</p><p>Target is Input Key Selector</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSize"><p>Set Size</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the size of the spacer
+</p><p>Target is Spacer</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetText"><p>Set Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Directly sets the widget text.
+Warning: This will wipe any binding created for the Text property!
+</p><p>Target is Rich Text Block</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTextBlockVisibility"><p>Set Text Block Visibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the visibility of the text block.
+</p><p>Target is Input Key Selector</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTextStyleSet"><p>Set Text Style Set</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Text Style Set
+</p><p>Target is Rich Text Block</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetToolTip"><p>Set Tool Tip</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a custom widget as the tooltip of the widget.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetToolTipText"><p>Set Tool Tip Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the tooltip text for the widget.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetUserFocus"><p>Set User Focus</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the focus to this widget for a specific user (if setting focus for the owning user, prefer SetFocus())
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVisibility"><p>Set Visibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the visibility of the widget.
+</p><p>Target is Widget</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetError_Multi_LineTextBox"><p>SetError (Multi-Line Text Box)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Error
+</p><p>Target is Text Box (Multi-Line)</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetError_TextBox"><p>SetError (Text Box)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Error
+</p><p>Target is Text Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetForegroundColor_Multi_LineTex-"><p>SetForegroundColor (Multi-Line Text Box)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Foreground Color
+</p><p>Target is Text Box (Multi-Line)</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetForegroundColor_TextBox"><p>SetForegroundColor (Text Box)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Foreground Color
+</p><p>Target is Text Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetHintText_Multi_LineEditableTe-"><p>SetHintText (Multi-Line Editable Text)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Hint Text
+</p><p>Target is Editable Text (Multi-Line)</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetHintText_Multi_LineTextBox"><p>SetHintText (Multi-Line Text Box)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Hint Text
+</p><p>Target is Text Box (Multi-Line)</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIsReadOnly_EditableText"><p>SetIsReadOnly (Editable Text)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Is Read Only
+</p><p>Target is Editable Text</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIsReadOnly_Multi_LineEditable-"><p>SetIsReadOnly (Multi-Line Editable Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Is Read Only
+</p><p>Target is Editable Text (Multi-Line)</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIsReadOnly_Multi_LineTextBox"><p>SetIsReadOnly (Multi-Line Text Box)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Is Read Only
+</p><p>Target is Text Box (Multi-Line)</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIsReadOnly_TextBox"><p>SetIsReadOnly (Text Box)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Is Read Only
+</p><p>Target is Text Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetText_EditableText"><p>SetText (Editable Text)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Directly sets the widget text.
+Warning: This will wipe any binding created for the Text property!
+</p><p>Target is Editable Text</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetText_Multi_LineEditableText"><p>SetText (Multi-Line Editable Text)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Text
+</p><p>Target is Editable Text (Multi-Line)</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetText_Multi_LineTextBox"><p>SetText (Multi-Line Text Box)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Text
+</p><p>Target is Text Box (Multi-Line)</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetText_TextBox"><p>SetText (Text Box)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Text
+</p><p>Target is Text Box</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetText_Text"><p>SetText (Text)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Directly sets the widget text.
+Warning: This will wipe any binding created for the Text property!
+</p><p>Target is Text</p>
+	</td>
+</tr>
+			</table>
+</div>
+<h2 id="categories">Categories</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Accessibility"><p>Accessibility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Accessibility</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Brush"><p>Brush</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Brush</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DragAndDrop"><p>Drag And Drop</p></a>
+	</td>
+	<td class="desc-cell">
+		
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EventReply"><p>Event Reply</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Event Reply</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HardwareCursor"><p>Hardware Cursor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Hardware Cursor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Menu"><p>Menu</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Menu</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Panel"><p>Panel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Panel</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SafeZone"><p>Safe Zone</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Safe Zone</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Transform"><p>Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Transform</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WindowTitleBar"><p>Window Title Bar</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Window Title Bar</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

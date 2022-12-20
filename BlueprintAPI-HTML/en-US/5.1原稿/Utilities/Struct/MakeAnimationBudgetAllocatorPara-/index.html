@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Utilities/Struct/MakeAnimationBudgetAllocatorPara-/" />');
+				var udnCSS = './../../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Make AnimationBudgetAllocatorParameters | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Utilities/Struct/MakeAnimationBudgetAllocatorPara-/" hreflang="x-default" />
+
+	<meta name="title" content="Make AnimationBudgetAllocatorParameters" />
+<meta name="description" content="Make AnimationBudgetAllocatorParameters" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Utilities,BlueprintAPI/Utilities/Struct" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Make AnimationBudgetAllocatorParameters" />
+	<meta property="og:description" content="Make AnimationBudgetAllocatorParameters" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../../Utilities">Utilities</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Struct">Struct</a>
+
+<span class="separator">></span> <span id="page">Make AnimationBudgetAllocatorParameters</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Make AnimationBudgetAllocatorParameters</h1>
+		</div>
+		<h2 >Make AnimationBudgetAllocatorParameters</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<p>Adds a node that create a 'AnimationBudgetAllocatorParameters' from its members
+</p><div class="graph">
+	<div class="node_container pure ">
+    <div class="node">
+        
+        <div class="titlebar_node">            
+            
+            <div class="titlebar_overlay">
+                <div class="titlebar_node_text">
+                    Make AnimationBudgetAllocatorParameters
+                </div>
+            </div>
+        </div>        
+        <div class="nodebody">
+            
+            <div class="background"></div>
+                        
+            
+            <div class="inputs">
+                <div id="pin_Budget_In_Ms" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Budget In Ms
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Min_Quality" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Min Quality
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Max_Tick_Rate" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Max Tick Rate
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        10
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Work_Unit_Smoothing_Speed" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Work Unit Smoothing Speed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Always_Tick_Falloff_Aggression" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Always Tick Falloff Aggression
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Interpolation_Falloff_Aggression" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Interpolation Falloff Aggression
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Interpolation_Max_Rate" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Interpolation Max Rate
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        6
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Max_Interpolated_Components" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Max Interpolated Components
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        16
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Interpolation_Tick_Multiplier" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Interpolation Tick Multiplier
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Initial_Estimated_Work_Unit_Time_Ms" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Initial Estimated Work Unit Time Ms
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Max_Ticked_Offsreen_Components" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Max Ticked Offsreen Components
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        4
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_State_Change_Throttle_In_Frames" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    State Change Throttle In Frames
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        30
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Budget_Factor_Before_Reduced_Work" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Budget Factor Before Reduced Work
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Budget_Factor_Before_Reduced_Work_Epsilon" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Budget Factor Before Reduced Work Epsilon
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Budget_Pressure_Smoothing_Speed" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Budget Pressure Smoothing Speed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Reduced_Work_Throttle_Min_In_Frames" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Reduced Work Throttle Min In Frames
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        2
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Reduced_Work_Throttle_Max_In_Frames" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Reduced Work Throttle Max In Frames
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        20
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Budget_Factor_Before_Aggressive_Reduced_Work" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Budget Factor Before Aggressive Reduced Work
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Reduced_Work_Throttle_Max_Per_Frame" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Reduced Work Throttle Max Per Frame
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        4
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Budget_Pressure_Before_Emergency_Reduced_Work" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Budget Pressure Before Emergency Reduced Work
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                   
+               
+            <div class="outputs">
+                <div id="pin_Animation_Budget_Allocator_Parameters" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Animation Budget Allocator Parameters
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                      
+        </div>
+    </div>
+</div>
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'inputs');">
+        <p>Inputs</p>
+    </div>
+<div id="inputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Budget_In_Ms" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Budget In Ms</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Budget in Ms:
+Values &gt; 0.1.
+The time in milliseconds that we allocate for skeletal mesh work to be performed.
+When overbudget various other parameters come into play, such as AlwaysTickFalloffAggression and InterpolationFalloffAggression.</p>
+    </td>
+</tr>
+<tr id="Min_Quality" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Min Quality</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Min Quality:
+Values [0.0, 1.0].
+The minimum quality metric allowed. Quality is determined simply by NumComponentsTickingThisFrame / NumComponentsThatWeNeedToTick.
+If this is anything other than 0.0 then we can potentially go over our time budget.</p>
+    </td>
+</tr>
+<tr id="Max_Tick_Rate" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Max Tick Rate</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Max Tick Rate:
+Values &gt;= 1.
+The maximum tick rate we allow. If this is set then we can potentially go over budget, but keep quality of individual meshes to a reasonable level.</p>
+    </td>
+</tr>
+<tr id="Work_Unit_Smoothing_Speed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Work Unit Smoothing Speed</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Work Unit Smoothing Speed:
+Values &gt; 0.1.
+The speed at which the average work unit converges on the measured amount.</p>
+    </td>
+</tr>
+<tr id="Always_Tick_Falloff_Aggression" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Always Tick Falloff Aggression</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Always Tick Falloff Aggression:
+Range [0.1, 0.9].
+Controls the rate at which 'always ticked' components falloff under load.
+Higher values mean that we reduce the number of always ticking components by a larger amount when the allocated time budget is exceeded.</p>
+    </td>
+</tr>
+<tr id="Interpolation_Falloff_Aggression" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Interpolation Falloff Aggression</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Interpolation Falloff Aggression:
+Range [0.1, 0.9].
+Controls the rate at which interpolated components falloff under load.
+Higher values mean that we reduce the number of interpolated components by a larger amount when the allocated time budget is exceeded.
+Components are only interpolated when the time budget is exceeded.</p>
+    </td>
+</tr>
+<tr id="Interpolation_Max_Rate" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Interpolation Max Rate</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Interpolation Max Rate:
+Values &gt; 1.
+Controls the rate at which ticks happen when interpolating.</p>
+    </td>
+</tr>
+<tr id="Max_Interpolated_Components" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Max Interpolated Components</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Max Interpolated Components:
+Range &gt;= 0.
+Max number of components to interpolate before we start throttling.</p>
+    </td>
+</tr>
+<tr id="Interpolation_Tick_Multiplier" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Interpolation Tick Multiplier</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Interpolation Tick Multiplier:
+Range [0.1, 0.9].
+Controls the expected value an amortized interpolated tick will take compared to a 'normal' tick.</p>
+    </td>
+</tr>
+<tr id="Initial_Estimated_Work_Unit_Time_Ms" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Initial Estimated Work Unit Time Ms</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Initial Estimated Work Unit Time Ms:
+Values &gt; 0.0.
+Controls the time in milliseconds we expect, on average, for a skeletal mesh component to execute.
+The value only applies for the first tick of a component, after which we use the real time the tick takes.</p>
+    </td>
+</tr>
+<tr id="Max_Ticked_Offsreen_Components" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Max Ticked Offsreen Components</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Max Ticked Offsreen Components:
+Values &gt;= 1
+The maximum number of offscreen components we tick (most significant first)</p>
+    </td>
+</tr>
+<tr id="State_Change_Throttle_In_Frames" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>State Change Throttle In Frames</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>State Change Throttle in Frames:
+Range [1, 128]
+Prevents throttle values from changing too often due to system and load noise.</p>
+    </td>
+</tr>
+<tr id="Budget_Factor_Before_Reduced_Work" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Budget Factor Before Reduced Work</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Budget Factor Before Reduced Work:
+Range &gt; 1
+Reduced work will be delayed until budget pressure goes over this amount.</p>
+    </td>
+</tr>
+<tr id="Budget_Factor_Before_Reduced_Work_Epsilon" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Budget Factor Before Reduced Work Epsilon</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Budget Factor Before Reduced Work Epsilon:
+Range &gt; 0.0.
+Increased work will be delayed until budget pressure goes under BudgetFactorBeforeReducedWork minus this amount.</p>
+    </td>
+</tr>
+<tr id="Budget_Pressure_Smoothing_Speed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Budget Pressure Smoothing Speed</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Budget Pressure Smoothing Speed:
+Range &gt; 0.0.
+How much to smooth the budget pressure value used to throttle reduced work.</p>
+    </td>
+</tr>
+<tr id="Reduced_Work_Throttle_Min_In_Frames" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Reduced Work Throttle Min In Frames</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Reduced Work Throttle Min in Frames:
+Range [1, 255].
+Prevents reduced work from changing too often due to system and load noise. Min value used when over budget pressure (i.e. aggressive reduction).</p>
+    </td>
+</tr>
+<tr id="Reduced_Work_Throttle_Max_In_Frames" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Reduced Work Throttle Max In Frames</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Reduced Work Throttle Max in Frames:
+Range [1, 255].
+Prevents reduced work from changing too often due to system and load noise. Max value used when under budget pressure.</p>
+    </td>
+</tr>
+<tr id="Budget_Factor_Before_Aggressive_Reduced_Work" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Budget Factor Before Aggressive Reduced Work</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Budget Factor Before Aggressive Reduced Work:
+Range &gt; 1.
+Reduced work will be applied more rapidly when budget pressure goes over this amount.</p>
+    </td>
+</tr>
+<tr id="Reduced_Work_Throttle_Max_Per_Frame" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Reduced Work Throttle Max Per Frame</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Reduced Work Throttle Max Per Frame:
+Range [1, 255].
+Controls the max number of components that are switched to/from reduced work per tick.</p>
+    </td>
+</tr>
+<tr id="Budget_Pressure_Before_Emergency_Reduced_Work" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Budget Pressure Before Emergency Reduced Work</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Budget Pressure Before Emergency Reduced Work:
+Range &gt; 0.0.
+Controls the budget pressure where emergency reduced work (applied to all components except those that are bAlwaysTick).</p>
+    </td>
+</tr>
+	</table>
+</div>
+
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'outputs');">
+        <p>Outputs</p>
+    </div>
+<div id="outputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Animation_Budget_Allocator_Parameters" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Animation Budget Allocator Parameters</a>
+        <div class="name-cell-arguments">
+            Animation Budget Allocator Parameters Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+	</table>
+</div>
+
+</div>
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/WorldSubsystems/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>World Subsystems | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/WorldSubsystems/" hreflang="x-default" />
+
+	<meta name="title" content="World Subsystems" />
+<meta name="description" content="World Subsystems" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="World Subsystems" />
+	<meta property="og:description" content="World Subsystems" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">World Subsystems</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">World Subsystems</h1>
+		</div>
+		<h2 >World Subsystems</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorPartitionSubsystem"><p>Get ActorPartitionSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Actor Partition Subsystem (World Subsystem)
+</p><p>UActorPartitionSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAutoDestroySubsystem"><p>Get AutoDestroySubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Auto Destroy Subsystem (World Subsystem)
+</p><p>The Auto destroy subsystem manages actors who have bAutoDestroyWhenFinished
+set as true. This ensures that even actors who do not have Tick enabled
+get properly destroyed, as well as decouple this behavior from AActor::Tick</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCameraAnimationSequenceSubsys-"><p>Get CameraAnimationSequenceSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Camera Animation Sequence Subsystem (World Subsystem)
+</p><p>World subsystem that holds global objects for handling camera animation sequences.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetColorCorrectRegionsSubsystem"><p>Get ColorCorrectRegionsSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Color Correct Regions Subsystem (World Subsystem)
+</p><p>World Subsystem responsible for managing AColorCorrectRegion classes in level.
+This subsystem handles:
+Level Loaded, Undo/Redo, Added to level, Removed from level events.
+Unfortunately AActor class itself is not aware of when it is added/removed, Undo/Redo etc in the level.
+</p><p>This is the only way (that we found) that was handling all region aggregation cases in more or less efficient way.
+Covered cases: Region added to a level, deleted from level, level loaded, undo, redo, level closed, editor closed:
+World subsystem keeps track of all Regions in a level via three events OnLevelActorAdded, OnLevelActorDeleted, OnLevelActorListChanged.
+Actor classes are unaware of when they are added/deleted/undo/redo etc in the level, therefore this is the best place to manage this.
+Alternative strategies (All tested):
+World's AddOnActorSpawnedHandler. Flawed. Invoked in some cases we don't need, but does not get called during UNDO/REDO
+AActor's PostSpawnInitialize, PostActorCreated  and OnConstruction are also flawed.
+AActor does not have an internal event for when its deleted (EndPlay is the closest we have).</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetConversationRegistry"><p>Get ConversationRegistry</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Conversation Registry (World Subsystem)
+</p><p>A registry that can answer questions about all available dialogue assets</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDataLayerSubsystem"><p>Get DataLayerSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Data Layer Subsystem (World Subsystem)
+</p><p>Data Layer Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDisplayClusterWorldSubsystem"><p>Get DisplayClusterWorldSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Display Cluster World Subsystem (World Subsystem)
+</p><p>World Subsystem used to react to level and world changes.
+When Concert reloads the packages, streamed levels are removed and re-added without invoiking LoadMap which
+circumvents FDisplayClusterGameManager::StartScene method invoked inside LoadMap method of DisplayClusterGameEngine.
+This causes issues such as not updating references to DisplayClusterRootActor which causes memory corruption, crashes
+and graphic corruption. This Subsystem is used to react to changes in number of levels used in the current world
+and forces DisplayClusterModule to refresh all of its managers.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGPULightmassSubsystem"><p>Get GPULightmassSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get GPULightmass Subsystem (World Subsystem)
+</p><p>GPULightmass Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetHLODSubsystem"><p>Get HLODSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get HLODSubsystem (World Subsystem)
+</p><p>UHLODSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLandscapeSubsystem"><p>Get LandscapeSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Landscape Subsystem (World Subsystem)
+</p><p>Landscape Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLevelInstanceSubsystem"><p>Get LevelInstanceSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Level Instance Subsystem (World Subsystem)
+</p><p>ULevelInstanceSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassActorSpawnerSubsystem"><p>Get MassActorSpawnerSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass Actor Spawner Subsystem (World Subsystem)
+</p><p>A subsystem managing spawning of actors for all mass subsystems</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassActorSubsystem"><p>Get MassActorSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass Actor Subsystem (World Subsystem)
+</p><p>A subsystem managing communication between Actors and Mass</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassAgentSubsystem"><p>Get MassAgentSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass Agent Subsystem (World Subsystem)
+</p><p>A subsystem managing communication between Actors and Mass</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassComponentHitSubsystem"><p>Get MassComponentHitSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass Component Hit Subsystem (World Subsystem)
+</p><p>Subsystem that keeps track of the latest component hits and allow mass entities to retrieve and handle them</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassCrowdRepresentationSubsys-"><p>Get MassCrowdRepresentationSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass Crowd Representation Subsystem (World Subsystem)
+</p><p>Subsystem responsible for all visual of mass crowd agents, will handle actors spawning and static mesh instances</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassCrowdSpawnerSubsystem"><p>Get MassCrowdSpawnerSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass Crowd Spawner Subsystem (World Subsystem)
+</p><p>A subsystem managing spawning of crowd</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassCrowdSubsystem"><p>Get MassCrowdSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass Crowd Subsystem (World Subsystem)
+</p><p>Subsystem that tracks mass entities that are wandering on the zone graph.
+It will create custom runtime lane data to allow branching decisions.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassDebuggerSubsystem"><p>Get MassDebuggerSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass Debugger Subsystem (World Subsystem)
+</p><p>Mass Debugger Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassEntitySubsystem"><p>Get MassEntitySubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass Entity Subsystem (World Subsystem)
+</p><p>@TODO: Comment this guy</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassLODSubsystem"><p>Get MassLODSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass LODSubsystem (World Subsystem)
+</p><ul ><li class="Default"><p>Manager responsible to manage and synchronized available viewers
+</p></li></ul>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassNavigationSubsystem"><p>Get MassNavigationSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass Navigation Subsystem (World Subsystem)
+</p><p>2 levels of hierarchy, 4 ratio between levels</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassReplicationSubsystem"><p>Get MassReplicationSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass Replication Subsystem (World Subsystem)
+</p><p>Manages the creation of NetworkIDs, ClientBubbles and ClientViewers.
+NetworkIDs are per replicated Agent Entity and are unique and replicated between server and clients.
+ClientBubbles relate to the player controller that owns the parent UNetConnection to a Client machine.
+ClientViewers relate to all the player controllers that have a parent or child UNetConnection to a single Client machine (split screen etc).</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassRepresentationSubsystem"><p>Get MassRepresentationSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass Representation Subsystem (World Subsystem)
+</p><p>Subsystem responsible for all visual of mass agents, will handle actors spawning and static mesh instances</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassSignalSubsystem"><p>Get MassSignalSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass Signal Subsystem (World Subsystem)
+</p><p>A subsystem for handling Signals in Mass</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassSimulationSubsystem"><p>Get MassSimulationSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass Simulation Subsystem (World Subsystem)
+</p><p>Mass Simulation Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassSpawnerSubsystem"><p>Get MassSpawnerSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass Spawner Subsystem (World Subsystem)
+</p><p>Mass Spawner Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMassStateTreeSubsystem"><p>Get MassStateTreeSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mass State Tree Subsystem (World Subsystem)
+</p><p>A subsystem managing StateTree assets in Mass</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNetworkPhysicsManager"><p>Get NetworkPhysicsManager</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Network Physics Manager (World Subsystem)
+</p><p>Network Physics Manager</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNetworkPredictionWorldManager"><p>Get NetworkPredictionWorldManager</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Network Prediction World Manager (World Subsystem)
+</p><p>Network Prediction World Manager</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetObjectTraceWorldSubsystem"><p>Get ObjectTraceWorldSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Object Trace World Subsystem (World Subsystem)
+</p><p>World subsystem used to track world info</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetQuartzSubsystem"><p>Get QuartzSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Quartz (World Subsystem)
+</p><p>Quartz Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSmartObjectSubsystem"><p>Get SmartObjectSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Smart Object Subsystem (World Subsystem)
+</p><p>Subsystem that holds all registered smart object instances and offers the API for spatial queries and reservations.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTickableWorldSubsystem"><p>Get TickableWorldSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Tickable World Subsystem (World Subsystem)
+</p><p>UTickableWorldSubsystem
+Base class for auto instanced and initialized systems that share the lifetime of a UWorld and are ticking along with it</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetViewportStatsSubsystem"><p>Get ViewportStatsSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Viewport Stats Subsystem (World Subsystem)
+</p><p>The Viewport Stats Subsystem offers the ability to add messages to the current
+viewport such as "LIGHTING NEEDS TO BE REBUILT" and "BLUEPRINT COMPILE ERROR".
+</p><p>Example usage:
+</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetWaterSubsystem"><p>Get WaterSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Water Subsystem (World Subsystem)
+</p><p>This is the API used to get information about water at runtime</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetWorldPartitionSubsystem"><p>Get WorldPartitionSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get World Partition Subsystem (World Subsystem)
+</p><p>UWorldPartitionSubsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetZoneGraphAnnotationSubsystem"><p>Get ZoneGraphAnnotationSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Zone Graph Annotation Subsystem (World Subsystem)
+</p><p>A subsystem managing Zonegraph Annotations.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetZoneGraphSubsystem"><p>Get ZoneGraphSubsystem</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Zone Graph Subsystem (World Subsystem)
+</p><p>Zone Graph Subsystem</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/MeshDescription/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Mesh Description | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/MeshDescription/" hreflang="x-default" />
+
+	<meta name="title" content="Mesh Description" />
+<meta name="description" content="Mesh Description" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Mesh Description" />
+	<meta property="og:description" content="Mesh Description" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Mesh Description</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Mesh Description</h1>
+		</div>
+		<h2 >Mesh Description</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ComputePolygonTriangulation"><p>Compute Polygon Triangulation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Generates triangles and internal edges for the given polygon
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateCube"><p>Create Cube</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Cube
+</p><p>Target is Static Mesh Description</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateEdge"><p>Create Edge</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a new edge to the mesh and returns its ID
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateEdgewithID"><p>Create Edge with ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a new edge to the mesh with the given ID
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreatePolygon"><p>Create Polygon</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a new polygon to the mesh and returns its ID. This will also make any missing edges, and all constituent triangles.
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreatePolygonGroup"><p>Create Polygon Group</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a new polygon group to the mesh and returns its ID
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreatePolygonGroupwithID"><p>Create Polygon Group with ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a new polygon group to the mesh with the given ID
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreatePolygonwithID"><p>Create Polygon with ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a new polygon to the mesh with the given ID. This will also make any missing edges, and all constituent triangles.
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateTriangle"><p>Create Triangle</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a new triangle to the mesh and returns its ID. This will also make an encapsulating polygon, and any missing edges.
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateTrianglewithID"><p>Create Triangle with ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a new triangle to the mesh with the given ID. This will also make an encapsulating polygon, and any missing edges.
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateVertex"><p>Create Vertex</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a new vertex to the mesh and returns its ID
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateVertexInstance"><p>Create Vertex Instance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a new vertex instance to the mesh and returns its ID
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateVertexInstancewithID"><p>Create Vertex Instance with ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a new vertex instance to the mesh with the given ID
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateVertexwithID"><p>Create Vertex with ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a new vertex to the mesh with the given ID
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteEdge"><p>Delete Edge</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Deletes an edge from a mesh
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeletePolygon"><p>Delete Polygon</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Deletes a polygon from the mesh
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeletePolygonGroup"><p>Delete Polygon Group</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Deletes a polygon group from the mesh
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteTriangle"><p>Delete Triangle</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Deletes a triangle from the mesh
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteVertex"><p>Delete Vertex</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Deletes a vertex from the mesh
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteVertexInstance"><p>Delete Vertex Instance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Deletes a vertex instance from a mesh
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Empty"><p>Empty</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Empty the mesh description
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEdgeConnectedPolygons"><p>Get Edge Connected Polygons</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the polygons connected to this edge
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEdgeConnectedTriangles"><p>Get Edge Connected Triangles</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns reference to an array of triangle IDs connected to this edge
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEdgeCount"><p>Get Edge Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of edges
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEdgeVertex"><p>Get Edge Vertex</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the vertex ID corresponding to one of the edge endpoints
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEdgeVertices"><p>Get Edge Vertices</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a pair of vertex IDs defining the edge
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumEdgeConnectedPolygons"><p>Get Num Edge Connected Polygons</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of polygons connected to this edge
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumEdgeConnectedTriangles"><p>Get Num Edge Connected Triangles</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of triangles connected to this edge
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumPolygonGroupPolygons"><p>Get Num Polygon Group Polygons</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of polygons in this polygon group
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumPolygonInternalEdges"><p>Get Num Polygon Internal Edges</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the number of internal edges in this polygon
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumPolygonTriangles"><p>Get Num Polygon Triangles</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the number of triangles which comprise this polygon
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumPolygonVertices"><p>Get Num Polygon Vertices</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of vertices this polygon has
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumVertexConnectedEdges"><p>Get Num Vertex Connected Edges</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns number of edges connected to this vertex
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumVertexConnectedPolygons"><p>Get Num Vertex Connected Polygons</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of polygons connected to this vertex
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumVertexConnectedTriangles"><p>Get Num Vertex Connected Triangles</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns number of triangles connected to this vertex
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumVertexInstanceConnectedPol-"><p>Get Num Vertex Instance Connected Polygons</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of polygons connected to this vertex instance.
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumVertexInstanceConnectedTri-"><p>Get Num Vertex Instance Connected Triangles</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of triangles connected to this vertex instance
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumVertexVertexInstances"><p>Get Num Vertex Vertex Instances</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns number of vertex instances created from this vertex
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPolygonAdjacentPolygons"><p>Get Polygon Adjacent Polygons</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Populates the passed array with adjacent polygons
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPolygonCount"><p>Get Polygon Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of polygons
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPolygonGroupCount"><p>Get Polygon Group Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of polygon groups
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPolygonGroupPolygons"><p>Get Polygon Group Polygons</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the polygons associated with the given polygon group
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPolygonInternalEdges"><p>Get Polygon Internal Edges</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Populate the provided array with a list of edges which are internal to the polygon, i.e. those which separate
+constituent triangles.
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPolygonPerimeterEdges"><p>Get Polygon Perimeter Edges</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the edges which form the polygon perimeter
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPolygonPolygonGroup"><p>Get Polygon Polygon Group</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the polygon group associated with a polygon
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPolygonTriangles"><p>Get Polygon Triangles</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return reference to an array of triangle IDs which comprise this polygon
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPolygonVertexInstances"><p>Get Polygon Vertex Instances</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns reference to an array of VertexInstance IDs forming the perimeter of this polygon
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPolygonVertices"><p>Get Polygon Vertices</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the vertices which form the polygon perimeter
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTriangleAdjacentTriangles"><p>Get Triangle Adjacent Triangles</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the adjacent triangles to this triangle
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTriangleCount"><p>Get Triangle Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of triangles
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTriangleEdges"><p>Get Triangle Edges</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the edges which define this triangle
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTrianglePolygon"><p>Get Triangle Polygon</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the polygon which contains this triangle
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTrianglePolygonGroup"><p>Get Triangle Polygon Group</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the polygon group which contains this triangle
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTriangleVertexInstance"><p>Get Triangle Vertex Instance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the specified vertex instance by index
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTriangleVertexInstances"><p>Get Triangle Vertex Instances</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the vertex instances which define this triangle
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTriangleVertices"><p>Get Triangle Vertices</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the vertices which define this triangle
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexAdjacentVertices"><p>Get Vertex Adjacent Vertices</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the vertices adjacent to this vertex
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexConnectedEdges"><p>Get Vertex Connected Edges</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns reference to an array of Edge IDs connected to this vertex
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexConnectedPolygons"><p>Get Vertex Connected Polygons</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the polygons connected to this vertex
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexConnectedTriangles"><p>Get Vertex Connected Triangles</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the triangles connected to this vertex
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexCount"><p>Get Vertex Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of vertices
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexInstanceConnectedPolygo-"><p>Get Vertex Instance Connected Polygons</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the polygons connected to this vertex instance
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexInstanceConnectedTriang-"><p>Get Vertex Instance Connected Triangles</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns reference to an array of Triangle IDs connected to this vertex instance
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexInstanceCount"><p>Get Vertex Instance Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of vertex instances
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexInstanceforPolygonVerte-"><p>Get Vertex Instance for Polygon Vertex</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the vertex instance which corresponds to the given vertex on the given polygon, or INDEX_NONE
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexInstanceforTriangleVert-"><p>Get Vertex Instance for Triangle Vertex</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the vertex instance which corresponds to the given vertex on the given triangle, or INDEX_NONE
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexInstancePairEdge"><p>Get Vertex Instance Pair Edge</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the edge ID defined by the two given vertex instance IDs, if there is one; otherwise INDEX_NONE
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexInstanceUV"><p>Get Vertex Instance UV</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Vertex Instance UV
+</p><p>Target is Static Mesh Description</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexInstanceVertex"><p>Get Vertex Instance Vertex</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the vertex ID associated with the given vertex instance
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexPairEdge"><p>Get Vertex Pair Edge</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the edge ID defined by the two given vertex IDs, if there is one; otherwise INDEX_NONE
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexPosition"><p>Get Vertex Position</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a vertex position
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVertexVertexInstances"><p>Get Vertex Vertex Instances</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns reference to an array of VertexInstance IDs instanced from this vertex
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsEdgeInternal"><p>Is Edge Internal</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Determine whether a given edge is an internal edge between triangles of a polygon
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsEdgeInternaltoPolygon"><p>Is Edge Internal to Polygon</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Determine whether a given edge is an internal edge between triangles of a specific polygon
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsEdgeValid"><p>Is Edge Valid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether the passed edge ID is valid
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsEmpty"><p>Is Empty</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return whether the mesh description is empty
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsPolygonGroupValid"><p>Is Polygon Group Valid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether the passed polygon group ID is valid
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsPolygonValid"><p>Is Polygon Valid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether the passed polygon ID is valid
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsTrianglePartOfNgon"><p>Is Triangle Part Of Ngon</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Determines if this triangle is part of an n-gon
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsTriangleValid"><p>Is Triangle Valid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether the passed triangle ID is valid
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsVertexInstanceValid"><p>Is Vertex Instance Valid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether the passed vertex instance ID is valid
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsVertexOrphaned"><p>Is Vertex Orphaned</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether a given vertex is orphaned, i.e. it doesn't form part of any polygon
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsVertexValid"><p>Is Vertex Valid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether the passed vertex ID is valid
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReserveNewEdges"><p>Reserve New Edges</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reserves space for this number of new edges
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReserveNewPolygonGroups"><p>Reserve New Polygon Groups</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reserves space for this number of new polygon groups
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReserveNewPolygons"><p>Reserve New Polygons</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reserves space for this number of new polygons
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReserveNewTriangles"><p>Reserve New Triangles</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reserves space for this number of new triangles
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReserveNewVertexInstances"><p>Reserve New Vertex Instances</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reserves space for this number of new vertex instances
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReserveNewVertices"><p>Reserve New Vertices</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reserves space for this number of new vertices
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReversePolygonFacing"><p>Reverse Polygon Facing</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reverse the winding order of the vertices of this polygon
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPolygonGroupMaterialSlotName"><p>Set Polygon Group Material Slot Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Polygon Group Material Slot Name
+</p><p>Target is Static Mesh Description</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPolygonPolygonGroup"><p>Set Polygon Polygon Group</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the polygon group associated with a polygon
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPolygonVertexInstances"><p>Set Polygon Vertex Instances</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the vertex instance at the given index around the polygon to the new value
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVertexInstanceUV"><p>Set Vertex Instance UV</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Vertex Instance UV
+</p><p>Target is Static Mesh Description</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVertexPosition"><p>Set Vertex Position</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a vertex position
+</p><p>Target is Mesh Description Base</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

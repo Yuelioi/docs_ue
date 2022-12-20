@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Utilities/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Utilities | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Utilities/" hreflang="x-default" />
+
+	<meta name="title" content="Utilities" />
+<meta name="description" content="Utilities" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Utilities" />
+	<meta property="og:description" content="Utilities" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Utilities</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Utilities</h1>
+		</div>
+		<h2 >Utilities</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    			    <li id="">
+	<p><a id="toc_link" href="#categories">Categories</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AsyncLoadAsset"><p>Async Load Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Asynchronously loads a Soft Object Reference and returns object of the correct type if the load succeeds</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AsyncLoadClassAsset"><p>Async Load Class Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Asynchronously loads a Soft Class Reference and returns class of the correct type if the load succeeds</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BreakSoftClassPath"><p>Break Soft Class Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the path string out of a Soft Class Path
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BreakSoftObjectPath"><p>Break Soft Object Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the path string out of a Soft Object Path
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CastToClass"><p>Cast To Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts an object into a class
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClassIsChildOf"><p>Class Is Child Of</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Determine if a class is a child of another class.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Copy"><p>Copy</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Outputs a copy of the value passed into it.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DoesImplementInterface"><p>Does Implement Interface</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checks if this object implements a specific interface, works for both native and blueprint interfacse
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EditorDestroyed"><p>Editor Destroyed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Editor Destroyed
+</p><p>Target is VPViewport Tickable Actor Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAtmosphereTransmitanceOnGroun-"><p>Get Atmosphere Transmitance On Ground At Planet Top</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Atmosphere Transmitance on Ground at Planet Top
+</p><p>Target is Sky Atmosphere Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetClass"><p>Get Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the class of a passed in Object, will always be valid if Object is not NULL
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetClassDisplayName"><p>Get Class Display Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the display name of a class
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCommandLine"><p>Get Command Line</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the command line that the process was launched with.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDataTableRow"><p>Get Data Table Row</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempts to retrieve a TableRow from a DataTable via it's RowName</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDisplayName"><p>Get Display Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the display name (or actor label), for displaying as a debugging aid.
+Note: In editor builds, this is the actor label.  In non-editor builds, this is the actual object name.  This function should not be used to uniquely identify actors!
+It is not localized and should not be used for display to an end user of a game.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEditorProperty"><p>Get Editor Property</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempts to retrieve the value of a named property from the given object.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFrameCount"><p>Get Frame Count</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the value of GFrameCounter, a running count of the number of frames that have occurred.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetObjectName"><p>Get Object Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the actual object name.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOuterObject"><p>Get Outer Object</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the outer object of an object.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPathName"><p>Get Path Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the full path to the specified object.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSkipAssigningGamepadtoPlayer1"><p>Get Skip Assigning Gamepad to Player 1</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Skip Assigning Gamepad to Player 1
+</p><p>Target is Game Maps Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasLaunchOption"><p>Has Launch Option</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checks the commandline to see if the desired option was specified on the commandline (e.g. -demobuild)
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsUnattended"><p>Is Unattended</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if running unattended (-unattended is on the command line)
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsValid"><p>Is Valid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return true if the object is usable : non-null and not pending kill
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsValidClass"><p>Is Valid Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return true if the class is usable : non-null and not pending kill
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsValidSoftClassReference"><p>Is Valid Soft Class Reference</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the Soft Class Reference is not null
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsValidSoftObjectReference"><p>Is Valid Soft Object Reference</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the Soft Object Reference is not null
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LoadAssetBlocking"><p>Load Asset Blocking</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Resolves or loads a Soft Object Reference immediately, this will cause hitches and Async Load Asset should be used if possible
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LoadClassAssetBlocking"><p>Load Class Asset Blocking</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Resolves or loads a Soft Class Reference immediately, this will cause hitches and Async Load Class Asset should be used if possible
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeSoftClassPath"><p>Make Soft Class Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Builds a SoftClassPath struct. Generally you should be using Soft Class References/Ptr types instead
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeSoftObjectPath"><p>Make Soft Object Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Builds a SoftObjectPath struct. Generally you should be using Soft Object References/Ptr types instead
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ParseCommandLine"><p>Parse Command Line</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"></li></ul><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ParseParam"><p>Parse Param</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the string has -param in it (do not specify the leading -)
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ParseParamValue"><p>Parse Param Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns 'value' if -option=value is in the string
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResolveSoftReference"><p>Resolve Soft Reference</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Resolves or makes a Soft Reference, connect a soft or hard reference to the input pin.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Select"><p>Select</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the option at Index, (first option is indexed at 0)</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SelectClass"><p>Select Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If bPickA is true, A is returned, otherwise B is
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SelectObject"><p>Select Object</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If bPickA is true, A is returned, otherwise B is
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetEditorProperty"><p>Set Editor Property</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempts to set the value of a named property on the given object.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSkipAssigningGamepadtoPlayer1"><p>Set Skip Assigning Gamepad to Player 1</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Modify "Skip Assigning Gamepad to Player 1" GameMapsSettings option
+</p><p>Target is Game Maps Settings</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToObject_Interface"><p>To Object (Interface)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts an interfance into an object
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToSoftClassReference"><p>To Soft Class Reference</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a Soft Class Path into a base Soft Class Reference, this is not guaranteed to be resolvable
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToSoftObjectReference"><p>To Soft Object Reference</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a Soft Object Path into a base Soft Object Reference, this is not guaranteed to be resolvable
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToString_SoftClassReference"><p>To String (SoftClassReference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a Soft Class Reference to a string. The other direction is not provided because it cannot be validated
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToString_SoftObjectReference"><p>To String (SoftObjectReference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a Soft Object Reference to a string. The other direction is not provided because it cannot be validated
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+<h2 id="categories">Categories</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Animation"><p>Animation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Animation</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Array"><p>Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Array</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Casting"><p>Casting</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Casting</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Collision"><p>Collision</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Collision</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DMX"><p>DMX</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>DMX</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Enum"><p>Enum</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Enum</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FlowControl"><p>Flow Control</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Flow Control</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Internationalization"><p>Internationalization</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Internationalization</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Macro"><p>Macro</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Macro</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Map"><p>Map</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Map</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Name"><p>Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Name</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Operators"><p>Operators</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Operators</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Paths"><p>Paths</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Paths</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Platform"><p>Platform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Platform</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Set"><p>Set</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="String"><p>String</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>String</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="StringTable"><p>String Table</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>String Table</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Struct"><p>Struct</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Struct</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Text"><p>Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Text</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Time"><p>Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Time</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TimeManagement"><p>Time Management</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Time Management</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="World"><p>World</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>World</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

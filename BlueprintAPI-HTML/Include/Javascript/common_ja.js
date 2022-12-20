@@ -1,0 +1,11 @@
+var defaultHost = "https://www.unrealengine.com";
+var stagingHost = "https://unrealengine-gamedev.ol.epicgames.net";
+var trackingURL = "https://tracking.unrealengine.com/tracking.js";
+var recommendationsTitle = "役立つ可能性のある他のページ";
+var recommendationsNoResults = "レコメンデーションシステムはあなたの開発での道のりにおいて役立つと思われる情報の発見を助けるために用意されています。関連性が高いおすすめをするまでには少し時間がかかるかもしれません。またしばらく後にチェックしてみてください。";
+var recommendationsCookieMessage = "<strong>注意:</strong> レコメンデーションはブラウザでクッキーが有効であることに依存します。役立つページのおすすめを見てみたい方は、クッキーを有効にしてください。";
+var finishButtonTemplate = '<a class="btn btn-default btn-lg finish-step"><span class="glyphicon glyphicon-ok"></span>ステップ完了</a>';
+var lastVisitedTitle = "Pick up where you left off";
+var inboxTitle = "My Docs";
+var inboxOptIn = "My Docs はあなたの履歴データを元に、情報発見のお手伝いをするレコメンデーションを行います。関連性の高いおすすめを行うには閲覧しているページについての情報をクッキーに保存する必要があります。 My Docs を有効にすることを希望しますか？";
+var inboxAccept = "有効";

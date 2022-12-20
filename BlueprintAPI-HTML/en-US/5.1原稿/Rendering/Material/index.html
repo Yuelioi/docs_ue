@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Rendering/Material/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Material | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Rendering/Material/" hreflang="x-default" />
+
+	<meta name="title" content="Material" />
+<meta name="description" content="Material" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Rendering" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Material" />
+	<meta property="og:description" content="Material" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Rendering">Rendering</a>
+
+<span class="separator">></span> <span id="page">Material</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Material</h1>
+		</div>
+		<h2 >Material</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CopyMaterialInstanceParameters"><p>Copy Material Instance Parameters</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Copies over parameters given a material interface (copy each instance following the hierarchy)
+Very slow implementation, avoid using at runtime. Hopefully we can replace it later with something like CopyInterpParameters()
+The output is the object itself (this). Copying 'quick parameters only' will result in a much
+faster copy process but will only copy dynamic scalar, vector and texture parameters on clients.
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CopyParameterOverrides"><p>Copy Parameter Overrides</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Copy parameter values from another material instance. This will copy only
+parameters explicitly overridden in that material instance!!
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateDynamicMaterialInstance"><p>Create Dynamic Material Instance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a Dynamic Material Instance for the specified element index, optionally from the supplied material.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateNamedDynamicMaterialInstan-"><p>Create Named Dynamic Material Instance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a Dynamic Material Instance for the specified named material override, optionally from the supplied material.
+</p><p>Target is Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBaseMaterial"><p>Get Base Material</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Walks up parent chain and finds the base Material that this is an instance of. Just calls the virtual GetMaterial()
+</p><p>Target is Material Interface</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomPrimitiveDataIndexforSc-"><p>Get Custom Primitive Data Index for Scalar Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the index of the scalar parameter for the custom primitive data array
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomPrimitiveDataIndexforVe-"><p>Get Custom Primitive Data Index for Vector Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the index of the vector parameter for the custom primitive data array
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterial"><p>Get Material</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the material used by the element at the specified index
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterialfromCollisionFaceInde-"><p>Get Material from Collision Face Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Try and retrieve the material applied to a particular collision face of mesh. Used with face index returned from collision trace.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterialIndex"><p>Get Material Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Material Index
+</p><p>Target is Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterialSlotNames"><p>Get Material Slot Names</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Material Slot Names
+</p><p>Target is Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterials"><p>Get Materials</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Materials
+</p><p>Target is Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNamedMaterial"><p>Get Named Material</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a named material. If this named material is not found, returns NULL.
+</p><p>Target is Particle System Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumMaterials"><p>Get Num Materials</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return number of material elements in this primitive
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParameterInfo"><p>Get Parameter Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Parameter Info
+</p><p>Target is Material Interface</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRenderingMaterialQualityLevel"><p>Get Rendering Material Quality Level</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the clamped state of r.MaterialQualityLevel, see console variable help (allows for scalability, cannot be used in construction scripts)
+0: low
+1: high
+2: medium
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetScalarParameterDefaultValue"><p>Get Scalar Parameter Default Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the default value of a scalar parameter from a material collection.
+</p><p>Target is Material Parameter Collection</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetScalarParameterNames"><p>Get Scalar Parameter Names</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns an array of the names of all the scalar parameters in this Material Parameter Collection *
+</p><p>Target is Material Parameter Collection</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetScalarParameterValue"><p>Get Scalar Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current scalar (float) parameter value from an MID
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetScalarParameterValueByInfo"><p>Get Scalar Parameter Value By Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current scalar (float) parameter value from an MID, using MPI (to allow access to layer parameters)
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTextureParameterValue"><p>Get Texture Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current MID texture parameter value
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTextureParameterValueByInfo"><p>Get Texture Parameter Value By Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current MID texture parameter value, using MPI (to allow access to layer parameters)
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorParameterDefaultValue"><p>Get Vector Parameter Default Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the default value of a scalar parameter from a material collection.
+</p><p>Target is Material Parameter Collection</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorParameterNames"><p>Get Vector Parameter Names</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns an array of the names of all the vector parameters in this Material Parameter Collection *
+</p><p>Target is Material Parameter Collection</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorParameterValue"><p>Get Vector Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current MID vector parameter value
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorParameterValueByInfo"><p>Get VectorParameter Value By Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current MID vector parameter value, using MPI (to allow access to layer parameters)
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InterpolateMaterialInstanceParam-"><p>Interpolate Material Instance Parameters</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Interpolates the scalar and vector parameters of this material instance based on two other material instances, and an alpha blending factor
+The output is the object itself (this).
+Supports the case SourceA==this || SourceB==this
+Both material have to be from the same base material
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsMaterialSlotNameValid"><p>Is Material Slot Name Valid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Is Material Slot Name Valid
+</p><p>Target is Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomPrimitiveDataFloat"><p>Set Custom Primitive Data Float</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set custom primitive data at index DataIndex. This sets the run-time data only, so it doesn't serialize.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomPrimitiveDataVector2"><p>Set Custom Primitive Data Vector 2</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set custom primitive data, two floats at once, from index DataIndex to index DataIndex + 1. This sets the run-time data only, so it doesn't serialize.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomPrimitiveDataVector3"><p>Set Custom Primitive Data Vector 3</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set custom primitive data, three floats at once, from index DataIndex to index DataIndex + 2. This sets the run-time data only, so it doesn't serialize.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCustomPrimitiveDataVector4"><p>Set Custom Primitive Data Vector 4</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set custom primitive data, four floats at once, from index DataIndex to index DataIndex + 3. This sets the run-time data only, so it doesn't serialize.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDefaultCustomPrimitiveDataFlo-"><p>Set Default Custom Primitive Data Float</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set default custom primitive data at index DataIndex, and marks the render state dirty
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDefaultCustomPrimitiveDataVec-"><p>Set Default Custom Primitive Data Vector 2</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set default custom primitive data, two floats at once, from index DataIndex to index DataIndex + 1, and marks the render state dirty
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDefaultCustomPrimitiveDataVec-_1"><p>Set Default Custom Primitive Data Vector 3</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set default custom primitive data, three floats at once, from index DataIndex to index DataIndex + 2, and marks the render state dirty
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDefaultCustomPrimitiveDataVec-_2"><p>Set Default Custom Primitive Data Vector 4</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set default custom primitive data, four floats at once, from index DataIndex to index DataIndex + 3, and marks the render state dirty
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDoubleVectorParameterValue"><p>Set Double Vector Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set an MID vector parameter value
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetForceMipLevelstobeResident"><p>Set Force Mip Levels to be Resident</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Force the streaming system to disregard the normal logic for the specified duration and
+instead always load all mip-levels for all textures used by this material.
+</p><p>Target is Material Interface</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMaterial"><p>Set Material</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Changes the material applied to an element of the mesh.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMaterialbyName"><p>Set Material by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Changes the material applied to an element of the mesh.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRuntimeVirtualTextureParamete-"><p>Set Runtime Virtual Texture Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set an MID texture parameter value
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRuntimeVirtualTextureParamete-_1"><p>Set Runtime Virtual Texture Parameter Value by Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set an MID texture parameter value using MPI (to allow access to layer parameters)
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetScalarParameterforCustomPrimi-"><p>Set Scalar Parameter for Custom Primitive Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set a scalar parameter for custom primitive data. This sets the run-time data only, so it doesn't serialize.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetScalarParameterforDefaultCust-"><p>Set Scalar Parameter for Default Custom Primitive Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set a scalar parameter for default custom primitive data. This will be serialized and is useful in construction scripts.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetScalarParameterValue"><p>Set Scalar Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set a MID scalar (float) parameter value
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetScalarParameterValuebyInfo"><p>Set Scalar Parameter Value by Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set a MID scalar (float) parameter value using MPI (to allow access to layer parameters)
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetScalarParameterValueonMateria-"><p>Set Scalar Parameter Value on Materials</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set all occurrences of Scalar Material Parameters with ParameterName in the set of materials of the SkeletalMesh to ParameterValue
+</p><p>Target is Mesh Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTextureParameterValue"><p>Set Texture Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set an MID texture parameter value
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTextureParameterValuebyInfo"><p>Set Texture Parameter Value by Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set an MID texture parameter value using MPI (to allow access to layer parameters)
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVectorParameterforCustomPrimi-"><p>Set Vector Parameter for Custom Primitive Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set a vector parameter for custom primitive data. This sets the run-time data only, so it doesn't serialize.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVectorParameterforDefaultCust-"><p>Set Vector Parameter for Default Custom Primitive Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set a vector parameter for default custom primitive data. This will be serialized and is useful in construction scripts.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVectorParameterValue"><p>Set Vector Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a vector parameter value on the material collection instance. Logs if ParameterName is invalid.
+</p><p>Target is Kismet Material Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVectorParameterValuebyInfo"><p>Set Vector Parameter Value by Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set an MID vector parameter value, using MPI (to allow access to layer parameters)
+</p><p>Target is Material Instance Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVectorParameterValueonMateria-"><p>Set Vector Parameter Value on Materials</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set all occurrences of Vector Material Parameters with ParameterName in the set of materials of the SkeletalMesh to ParameterValue
+</p><p>Target is Mesh Component</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

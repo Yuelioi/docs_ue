@@ -1,0 +1,11 @@
+var defaultHost = "https://www.unrealengine.com";
+var stagingHost = "https://unrealengine-gamedev.ol.epicgames.net";
+var trackingURL = "https://tracking.unrealengine.com/tracking.js";
+var recommendationsTitle = "다른 유용한 페이지";
+var recommendationsNoResults = "이 추천 시스템은 개발에 유용한 정보를 찾는 데 도움이 될 수 있도록 디자인되었습니다. 관련 있는 추천을 찾는데 약간의 시간이 소요될 수 있습니다. 어떤 추천을 받게 될지 다음에 다시 한번 확인해주세요.";
+var recommendationsCookieMessage = "<strong>안내:</strong> 추천은 브라우저에서 활성화된 쿠키를 기반하기 때문에 유용한 페이지에 대한 제안이 필요하시다면 쿠키를 꼭 활성화해주세요.";
+var finishButtonTemplate = '<a class="btn btn-default btn-lg finish-step"><span class="glyphicon glyphicon-ok"></span>단계 완료</a>';
+var lastVisitedTitle = "마지막으로 본 항목";
+var inboxTitle = "나의 문서";
+var inboxOptIn = "'나의 문서'는 문서의 기록에 따라 도움이 될 수 있는 정보를 찾는 데 도움이 되는 추천을 제공합니다. 관련 있는 추천을 제공하기 위해서는 쿠키를 사용해서 보는 페이지에 대한 일부 정보를 저장해야 합니다. '나의 문서'를 활성화하시겠습니까?";
+var inboxAccept = "활성화하기";

@@ -1,0 +1,22 @@
+# CastToMovieSceneReplaySection
+
+Tries to access object as a class it may be an instance of.
+
+## 图示
+
+![]($-20221218-13092313.png)
+
+## Inputs
+
+In: Exec.
+
+Object: Object Wildcard.  
+
+## Outputs
+
+Out: Exec.
+
+Cast Failed: Exec.
+
+As Movie Scene Replay Section: Movie Scene Replay Section Object Reference.
+

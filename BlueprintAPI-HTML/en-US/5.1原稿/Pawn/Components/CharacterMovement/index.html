@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Pawn/Components/CharacterMovement/" />');
+				var udnCSS = './../../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Character Movement | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Pawn/Components/CharacterMovement/" hreflang="x-default" />
+
+	<meta name="title" content="Character Movement" />
+<meta name="description" content="Character Movement" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Pawn,BlueprintAPI/Pawn/Components" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Character Movement" />
+	<meta property="og:description" content="Character Movement" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../../Pawn">Pawn</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Components">Components</a>
+
+<span class="separator">></span> <span id="page">Character Movement</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Character Movement</h1>
+		</div>
+		<h2 >Character Movement</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddForce"><p>Add Force</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add force to character. Forces are accumulated each tick and applied together
+so multiple calls to this function will accumulate.
+Forces are scaled depending on timestep, so they can be applied each frame. If you want an
+instantaneous force, use AddImpulse.
+Adding a force always takes the actor's mass into account.
+Note that changing the momentum of characters like this can change the movement mode.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddImpulse"><p>Add Impulse</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add impulse to character. Impulses are accumulated each tick and applied together
+so multiple calls to this function will accumulate.
+An impulse is an instantaneous force, usually applied once. If you want to continually apply
+forces each frame, use AddForce().
+Note that changing the momentum of characters like this can change the movement mode.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CalcVelocity"><p>Calc Velocity</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Updates Velocity and Acceleration based on the current state, applying the effects of friction and acceleration or deceleration. Does not apply gravity.
+This is used internally during movement updates. Normally you don't need to call this from outside code, but you might want to use it for custom movement modes.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearAccumulatedForces"><p>Clear Accumulated Forces</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clears forces accumulated through AddImpulse() and AddForce(), and also pending launch velocity.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ComputeFloorDistance"><p>ComputeFloorDistance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Compute distance to the floor from bottom sphere of capsule and store the result in FloorResult.
+This distance is the swept distance of the capsule to the first point impacted by the lower hemisphere, or distance from the bottom of the capsule in the case of a line trace.
+This function does not care if collision is disabled on the capsule (unlike FindFloor).
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DisableMovement"><p>Disable Movement</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Make movement impossible (sets movement mode to MOVE_None).
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindFloor"><p>FindFloor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweeps a vertical trace to find the floor for the capsule at the given location. Will attempt to perch if ShouldComputePerchResult() returns true for the downward sweep result.
+No floor will be found if collision is disabled on the capsule!
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAnalogInputModifier"><p>Get Analog Input Modifier</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns modifier [0..1] based on the magnitude of the last input vector, which is used to modify the acceleration and max speed during movement.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCharacterOwner"><p>Get Character Owner</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the Character that owns UpdatedComponent.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentAcceleration"><p>Get Current Acceleration</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns current acceleration, computed from input vector each update.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetImpartedMovementBaseVelocity"><p>Get Imparted Movement Base Velocity</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If we have a movement base, get the velocity that should be imparted by that base, usually when jumping off of it.
+Only applies the components of the velocity enabled by bImpartBaseVelocityX, bImpartBaseVelocityY, bImpartBaseVelocityZ.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLastUpdateLocation"><p>Get Last Update Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the location at the end of the last tick.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLastUpdateRotation"><p>Get Last Update Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the rotation at the end of the last tick.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLastUpdateVelocity"><p>Get Last Update Velocity</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the velocity at the end of the last tick.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaxAcceleration"><p>Get Max Acceleration</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns maximum acceleration for the current state.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaxBrakingDeceleration"><p>Get Max Braking Deceleration</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns maximum deceleration for the current state when braking (ie when there is no acceleration).
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaxJumpHeight"><p>Get Max Jump Height</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Compute the max jump height based on the JumpZVelocity velocity and gravity.
+This does not take into account the CharacterOwner's MaxJumpHoldTime.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaxJumpHeightwithJumpTime"><p>Get Max Jump Height with Jump Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Compute the max jump height based on the JumpZVelocity velocity and gravity.
+This does take into account the CharacterOwner's MaxJumpHoldTime.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMinAnalogSpeed"><p>Get Min Analog Speed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns maximum acceleration for the current state.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMovementBase"><p>Get Movement Base</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return PrimitiveComponent we are based on (standing and walking on).
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPerchRadiusThreshold"><p>Get Perch Radius Threshold</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns The distance from the edge of the capsule within which we don't allow the character to perch on the edge of a surface.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetValidPerchRadius"><p>Get Valid Perch Radius</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the radius within which we can stand on the edge of a surface without falling (if this is a walkable surface).
+Simply computed as the capsule radius minus the result of GetPerchRadiusThreshold().
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetWalkableFloorAngle"><p>GetWalkableFloorAngle</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the max angle in degrees of a walkable surface for the character.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetWalkableFloorZ"><p>GetWalkableFloorZ</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the Z component of the normal of the steepest walkable surface for the character. Any lower than this and it is not walkable.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsWalkable"><p>Is Walkable</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return true if the hit result should be considered a walkable surface for the character.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsWalking"><p>Is Walking</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the character is in the 'Walking' movement mode.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetAvoidanceEnabled"><p>Set Avoidance Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Change avoidance state and registers in RVO manager if needed
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetAvoidanceGroupMask"><p>Set Avoidance Group Mask</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Avoidance Group Mask
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetGroupstoAvoidMask"><p>Set Groups to Avoid Mask</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Groups to Avoid Mask
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetGroupstoIgnoreMask"><p>Set Groups to Ignore Mask</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Groups to Ignore Mask
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMovementMode"><p>Set Movement Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Change movement mode.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetWalkableFloorAngle"><p>Set Walkable Floor Angle</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the max angle in degrees of a walkable surface for the character. Also computes WalkableFloorZ.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetWalkableFloorZ"><p>Set Walkable Floor Z</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the Z component of the normal of the steepest walkable surface for the character. Also computes WalkableFloorAngle.
+</p><p>Target is Character Movement Component</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

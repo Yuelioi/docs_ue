@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/RigVMController/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Rig VMController | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/RigVMController/" hreflang="x-default" />
+
+	<meta name="title" content="Rig VMController" />
+<meta name="description" content="Rig VMController" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Rig VMController" />
+	<meta property="og:description" content="Rig VMController" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Rig VMController</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Rig VMController</h1>
+		</div>
+		<h2 >Rig VMController</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddArrayNode"><p>Add Array Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a Array Node to the edited Graph.
+This causes a NodeAdded modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddArrayNodefromObjectPath"><p>Add Array Node from Object Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a Array Node to the edited Graph given a struct object path name.
+This causes a NodeAdded modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddArrayPin"><p>Add Array Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds an array element pin to the end of an array pin.
+This causes a PinArraySizeChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddBranchNode"><p>Add Branch Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a branch node to the graph.
+Branch nodes can be used to split the execution of into multiple branches,
+allowing to drive behavior by logic.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddCommentNode"><p>Add Comment Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a Comment Node to the edited Graph.
+Comments can be used to annotate the Graph.
+This causes a NodeAdded modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddEnumNode"><p>Add Enum Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds an enum node to the graph
+Enum nodes can be used to represent constant enum values within the graph
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddExposedPin"><p>Add Exposed Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds an exposed pin to the graph controlled by this
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddFreeRerouteNode"><p>Add Free Reroute Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a free Reroute Node
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddFunctionReferenceNode"><p>Add Function Reference Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a function reference / invocation to the graph
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddFunctiontoLibrary"><p>Add Function to Library</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a function definition to a function library graph
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddifNode"><p>Add if Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds an if node to the graph.
+If nodes can be used to pick between two values based on a condition.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddifNodefromStruct"><p>Add if Node from Struct</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add if Node from Struct
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddInjectedNode"><p>Add Injected Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a Function / Struct Node to the edited Graph as an injected node
+UnitNode represent a RIGVM_METHOD declaration on a USTRUCT.
+This causes a NodeAdded modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddInjectedNodefromStructPath"><p>Add Injected Node from Struct Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a Function / Struct Node to the edited Graph as an injected node
+UnitNode represent a RIGVM_METHOD declaration on a USTRUCT.
+This causes a NodeAdded modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddLink"><p>Add Link</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a link to the graph.
+This causes a LinkAdded modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddLocalVariable"><p>Add Local Variable</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a local variable to the graph
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddLocalVariablefromObjectPath"><p>Add Local Variable from Object Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a local variable to the graph given a struct object path name.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddParameterNode"><p>Add Parameter Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a Parameter Node to the edited Graph.
+Parameters represent input or output arguments to the Graph / Function.
+Input Parameters are constant values / literals.
+This causes a NodeAdded modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddParameterNodefromObjectPath"><p>Add Parameter Node from Object Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a Parameter Node to the edited Graph given a struct object path name.
+Parameters represent input or output arguments to the Graph / Function.
+Input Parameters are constant values / literals.
+This causes a NodeAdded modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddPrototypeNode"><p>Add Prototype Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a prototype node to the graph.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddRerouteNodeonLink"><p>Add Reroute Node on Link</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a Reroute Node on an existing Link to the edited Graph.
+Reroute Nodes can be used to visually improve the data flow,
+they don't require any additional memory though and are purely
+</p><ol ><li class="Default"><p>This causes a NodeAdded modified event.
+</p></li></ol><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddRerouteNodeonLinkPath"><p>Add Reroute Node on Link Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a Reroute Node on an existing Link to the edited Graph given the Link's string representation.
+Reroute Nodes can be used to visually improve the data flow,
+they don't require any additional memory though and are purely
+</p><ol ><li class="Default"><p>This causes a NodeAdded modified event.
+</p></li></ol><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddRerouteNodeonPin"><p>Add Reroute Node on Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a Reroute Node on an existing Pin to the editor Graph.
+Reroute Nodes can be used to visually improve the data flow,
+they don't require any additional memory though and are purely
+</p><ol ><li class="Default"><p>This causes a NodeAdded modified event.
+</p></li></ol><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddSelectNode"><p>Add Select Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a select node to the graph.
+Select nodes can be used to pick between multiple values based on an index.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddSelectNodefromStruct"><p>Add Select Node from Struct</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add Select Node from Struct
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddUnitNode"><p>Add Unit Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a Function / Struct Node to the edited Graph.
+UnitNode represent a RIGVM_METHOD declaration on a USTRUCT.
+This causes a NodeAdded modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddUnitNodefromStructPath"><p>Add Unit Node from Struct Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a Function / Struct Node to the edited Graph given its struct object path name.
+UnitNode represent a RIGVM_METHOD declaration on a USTRUCT.
+This causes a NodeAdded modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddVariableNode"><p>Add Variable Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a Variable Node to the edited Graph.
+Variables represent local work state for the function and
+can be read from and written to.
+This causes a NodeAdded modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddVariableNodefromObjectPath"><p>Add Variable Node from Object Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a Variable Node to the edited Graph given a struct object path name.
+Variables represent local work state for the function and
+can be read from (bIsGetter == true) or written to (bIsGetter == false).
+This causes a NodeAdded modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BindPintoVariable"><p>Bind Pin to Variable</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Binds a pin to a variable (or removes the binding given NAME_None)
+This causes a PinBoundVariableChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BreakAllLinks"><p>Break All Links</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes all links on a given pin from the graph.
+This might cause multiple LinkRemoved modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BreakLink"><p>Break Link</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes a link from the graph.
+This causes a LinkRemoved modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CanImportNodesfromText"><p>Can Import Nodes from Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Exports the given nodes as text
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CancelUndoBracket"><p>Cancel Undo Bracket</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Cancels an undo bracket / scoped transaction.
+This is primarily useful for Python.
+This causes a UndoBracketCanceled modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ChangeExposedPinType"><p>Change Exposed Pin Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Changes the type of an exposed pin in the graph controlled by this
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearArrayPin"><p>Clear Array Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes all (but one) array element pin from an array pin.
+This causes a PinArraySizeChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearNodeSelection"><p>Clear Node Selection</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Deselects all currently selected nodes in the graph.
+This might cause several NodeDeselected modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CloseUndoBracket"><p>Close Undo Bracket</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Closes an undo bracket / scoped transaction.
+This is primarily useful for Python.
+This causes a UndoBracketClosed modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CollapseNodes"><p>Collapse Nodes</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Turns a series of nodes into a Collapse node
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DuplicateArrayPin"><p>Duplicate Array Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Duplicates an array element pin.
+This causes a PinArraySizeChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EjectNodefromPin"><p>Eject Node from Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Ejects the last injected node on a pin
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EnableReporting"><p>Enable Reporting</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Enables or disables the error reporting of this Controller.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ExpandLibraryNode"><p>Expand Library Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Turns a library node into its contained nodes
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ExportNodestoText"><p>Export Nodes to Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Exports the given nodes as text
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ExportSelectedNodestoText"><p>Export Selected Nodes to Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Exports the selected nodes as text
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GeneratePythonCommands"><p>Generate Python Commands</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Generate Python Commands
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGraph"><p>Get Graph</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the currently edited Graph of this controller.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPinDefaultValue"><p>Get Pin Default Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the default value of a pin given its pinpath.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTopLevelGraph"><p>Get Top Level Graph</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the top level graph
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ImportNodesfromText"><p>Import Nodes from Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Exports the given nodes as text
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InsertArrayPin"><p>Insert Array Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Inserts an array element pin into an array pin.
+This causes a PinArraySizeChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsReportingEnabled"><p>Is Reporting Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if reporting is enabled
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LocalizeFunction"><p>Localize Function</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Copies a function declaration into this graph's local function library
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LocalizeFunctions"><p>Localize Functions</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Copies a series of function declaratioms into this graph's local function library
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeBindingsfromVariableNode"><p>Make Bindings from Variable Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Turns a variable node into one or more bindings
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeVariableNodefromBinding"><p>Make Variable Node from Binding</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Turns a binding to a variable node
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ModifiedEventDynamic"><p>Modified Event Dynamic</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Modified Event Dynamic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnExternalVariableRemoved"><p>On External Variable Removed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes all nodes related to a given variable
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnExternalVariableRenamed"><p>On External Variable Renamed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Renames the variable name in all relevant nodes
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnExternalVariableTypeChanged"><p>On External Variable Type Changed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Changes the data type of all nodes matching a given variable name
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnExternalVariableTypeChangedfro-"><p>On External Variable Type Changed from Object Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On External Variable Type Changed from Object Path
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OpenUndoBracket"><p>Open Undo Bracket</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Opens an undo bracket / scoped transaction for
+a series of actions to be performed as one step on the
+Undo stack. This is primarily useful for Python.
+This causes a UndoBracketOpened modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PopGraph"><p>Pop Graph</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Pops the last graph off the stack
+This causes a GraphChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PromoteCollapseNodetoFunctionRef-"><p>Promote Collapse Node to Function Reference Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Turns a collapse node into a function node
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PromoteFunctionReferenceNodetoCo-"><p>Promote Function Reference Node to Collapse Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Turns a collapse node into a function node
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PromotePintoVariable"><p>Promote Pin to Variable</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Promotes a pin to a variable
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PushGraph"><p>Push Graph</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Pushes a new graph to the stack
+This causes a GraphChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Redo"><p>Redo</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Re-does the last action on the stack.
+Note: This should really only be used for unit tests,
+use the GEditor's main Undo method instead.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RefreshVariableNode"><p>Refresh Variable Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Refreshes the variable node with the new data
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveArrayPin"><p>Remove Array Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes an array element pin from an array pin.
+This causes a PinArraySizeChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveExposedPin"><p>Remove Exposed Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes an exposed pin from the graph controlled by this
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveFunctionfromLibrary"><p>Remove Function from Library</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes a function from a function library graph
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveInjectedNode"><p>Remove Injected Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes an injected node
+This causes a NodeRemoved modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveLocalVariable"><p>Remove Local Variable</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove a local variable from the graph
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveNode"><p>Remove Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes a node from the graph
+This causes a NodeRemoved modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveNodebyName"><p>Remove Node by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes a node from the graph given the node's name.
+This causes a NodeRemoved modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RenameExposedPin"><p>Rename Exposed Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Renames an exposed pin in the graph controlled by this
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RenameFunction"><p>Rename Function</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Renames a function in the function library
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RenameLocalVariable"><p>Rename Local Variable</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rename a local variable from the graph
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RenameNode"><p>Rename Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Renames a node in the graph
+This causes a NodeRenamed modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RenameParameter"><p>Rename Parameter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Renames a parameter in the graph.
+This causes a ParameterRenamed modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RenameVariable"><p>Rename Variable</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Renames a variable in the graph.
+This causes a VariableRenamed modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReplaceParameterNodewithVariable"><p>Replace Parameter Node with Variable</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Refreshes the variable node with the new data
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResetPinDefaultValue"><p>Reset Pin Default Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Resets the default value of a pin given its pinpath.
+This causes a PinDefaultValueChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SelectNode"><p>Select Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Selects a single node in the graph.
+This causes a NodeSelected / NodeDeselected modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SelectNodebyName"><p>Select Node by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Selects a single node in the graph by name.
+This causes a NodeSelected / NodeDeselected modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetArrayPinSize"><p>Set Array Pin Size</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the size of the array pin
+This causes a PinArraySizeChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCommentText"><p>Set Comment Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the comment text and properties of a comment node in the graph.
+This causes a CommentTextChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCommentTextbyName"><p>Set Comment Text by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the comment text and properties of a comment node in the graph by name.
+This causes a CommentTextChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetExposedPinIndex"><p>Set Exposed Pin Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the index for an exposed pin. This can be used to move the pin up and down on the node.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetGraph"><p>Set Graph</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the currently edited Graph of this controller.
+This causes a GraphChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIsRunningUnitTest"><p>Set Is Running Unit Test</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Helper function to disable a series of checks that can be ignored during a unit test
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalVariableDefaultValue"><p>Set Local Variable Default Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Local Variable Default Value
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalVariableType"><p>Set Local Variable Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the type of the local variable
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalVariableTypefromObjectPa-"><p>Set Local Variable Type from Object Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Local Variable Type from Object Path
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNodeCategory"><p>Set Node Category</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the category of a node in the graph.
+This causes a NodeCategoryChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNodeCategorybyName"><p>Set Node Category by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the category of a node in the graph.
+This causes a NodeCategoryChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNodeColor"><p>Set Node Color</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the color of a node in the graph.
+This causes a NodeColorChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNodeColorbyName"><p>Set Node Color by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the color of a node in the graph by name.
+This causes a NodeColorChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNodeDescription"><p>Set Node Description</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the function description of a node in the graph.
+This causes a NodeDescriptionChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNodeDescriptionbyName"><p>Set Node Description by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the keywords of a node in the graph.
+This causes a NodeDescriptionChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNodeKeywords"><p>Set Node Keywords</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the keywords of a node in the graph.
+This causes a NodeKeywordsChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNodeKeywordsbyName"><p>Set Node Keywords by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the keywords of a node in the graph.
+This causes a NodeKeywordsChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNodePosition"><p>Set Node Position</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the position of a node in the graph.
+This causes a NodePositionChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNodePositionbyName"><p>Set Node Position by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the position of a node in the graph by name.
+This causes a NodePositionChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNodeSelection"><p>Set Node Selection</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Selects the nodes given the selection
+This might cause several NodeDeselected modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNodeSize"><p>Set Node Size</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the size of a node in the graph.
+This causes a NodeSizeChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNodeSizebyName"><p>Set Node Size by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the size of a node in the graph by name.
+This causes a NodeSizeChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPinDefaultValue"><p>Set Pin Default Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the default value of a pin given its pinpath.
+This causes a PinDefaultValueChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPinExpansion"><p>Set Pin Expansion</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the pin to be expanded or not
+This causes a PinExpansionChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPinIsWatched"><p>Set Pin Is Watched</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the pin to be watched (or not)
+This causes a PinWatchedChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRemappedVariable"><p>Set Remapped Variable</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the remapped variable on a function reference node
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRerouteCompactness"><p>Set Reroute Compactness</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the compactness of a reroute node in the graph.
+This causes a RerouteCompactnessChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRerouteCompactnessbyName"><p>Set Reroute Compactness by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the compactness of a reroute node in the graph by name.
+This causes a RerouteCompactnessChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UnbindPinfromVariable"><p>Unbind Pin from Variable</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the binging of a pin to a variable
+This causes a PinBoundVariableChanged modified event.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Undo"><p>Undo</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Un-does the last action on the stack.
+Note: This should really only be used for unit tests,
+use the GEditor's main Undo method instead.
+</p><p>Target is Rig VMController</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

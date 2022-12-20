@@ -1,0 +1,24 @@
+# ProjectedtoGeographic
+
+Convert a Coordinate expressed in PROJECTED CRS to GEOGRAPHIC CRS
+
+Target is Geo Referencing System
+
+## 图示
+
+![]($-20221218-19143820.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Geo Referencing System Object Reference.
+
+Projected Coordinates: Vector (by ref).  
+
+## Outputs
+
+Out: Exec.
+
+Geographic Coordinates: Geographic Coordinates Structure.
+

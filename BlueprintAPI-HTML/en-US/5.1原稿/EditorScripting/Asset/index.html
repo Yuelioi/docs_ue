@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/EditorScripting/Asset/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Asset | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/EditorScripting/Asset/" hreflang="x-default" />
+
+	<meta name="title" content="Asset" />
+<meta name="description" content="Asset" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/EditorScripting" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Asset" />
+	<meta property="og:description" content="Asset" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../EditorScripting">Editor Scripting</a>
+
+<span class="separator">></span> <span id="page">Asset</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Asset</h1>
+		</div>
+		<h2 >Asset</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CheckoutAsset"><p>Checkout Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checkout the asset from the Content Browser.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CheckoutDirectory"><p>Checkout Directory</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checkout assets from the Content Browser. It will load the assets if needed.
+All objects that are in the directory will be checkout. Assets will be loaded before being checkout.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CheckoutLoadedAsset"><p>Checkout Loaded Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checkout the asset from the Content Browser.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CheckoutLoadedAssets"><p>Checkout Loaded Assets</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checkout the assets from the Content Browser.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConsolidateAssets"><p>Consolidate Assets</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Consolidates an asset by replacing all references/uses of the provided AssetsToConsolidate with references to AssetToConsolidateTo.
+This is useful when you want all references of assets to be replaced by a single asset.
+The function first attempts to directly replace all relevant references located within objects that are already loaded and in memory.
+Next, it deletes the AssetsToConsolidate, leaving behind object redirectors to AssetToConsolidateTo.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteAsset"><p>Delete Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Delete the package the assets live in. All objects that live in the package will be deleted.
+This is a Force Delete. It doesn't check if the asset has references in other Levels or by Actors.
+It will close all the asset editors and may clear the Transaction buffer (Undo History).
+Will try to mark the file as deleted. The Asset will be loaded before being deleted.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteDirectory"><p>Delete Directory</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Delete the packages inside a directory. If the directory is then empty, delete the directory.
+This is a Force Delete. It doesn't check if the assets have references in other Levels or by Actors.
+It will close all the asset editors and may clear the Transaction buffer (Undo History).
+Will try to mark the file as deleted. Assets will be loaded before being deleted.
+The search is always recursive. It will try to delete the sub folders.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteLoadedAsset"><p>Delete Loaded Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Delete an asset from the Content Browser that is already loaded.
+This is a Force Delete. It doesn't check if the asset has references in other Levels or by Actors.
+It will close all the asset editors and may clear the Transaction buffer (Undo History).
+Will try to mark the file as deleted.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteLoadedAssets"><p>Delete Loaded Assets</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Delete assets from the Content Browser that are already loaded.
+This is a Force Delete. It doesn't check if the assets have references in other Levels or by Actors.
+It will close all the asset editors and may clear the Transaction buffer (Undo History).
+Will try to mark the files as deleted.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DoAssetsExist"><p>Do Assets Exist</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check if the assets exist in the Content Browser.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DoesAssetExist"><p>Does Asset Exist</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check if the asset exists in the Content Browser.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DoesDirectoryExist"><p>Does Directory Exist</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check is the directory exist in the Content Browser.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DoesDirectoryHaveAssets"><p>Does Directory Have Assets</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check if there any asset that exist in the directory.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DuplicateAsset"><p>Duplicate Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Duplicate an asset from the Content Browser. Will try to checkout the file. The Asset will be loaded before being duplicated.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DuplicateDirectory"><p>Duplicate Directory</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Duplicate asset from the Content Browser that are in the folder.
+Will try to checkout the files. The Assets will be loaded before being duplicated.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DuplicateLoadedAsset"><p>Duplicate Loaded Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Duplicate an asset from the Content Browser that is already loaded. Will try to checkout the file.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindAssetData"><p>Find Asset Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the AssetData for the Asset that can then be used with the more complex lib AssetRegistryHelpers.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindPackageReferencersforAsset"><p>Find Package Referencers for Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find Package Referencers for an asset. Only Soft and Hard dependencies would be looked for.
+Soft are dependencies which don't need to be loaded for the object to be used.
+Had are dependencies which are required for correct usage of the source asset and must be loaded at the same time.
+Other references may exist. The asset may be currently used in memory by another asset, by the editor or by code.
+Package dependencies are cached with the asset. False positive can happen until all the assets are loaded and re-saved.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPathNameforLoadedAsset"><p>Get Path Name for Loaded Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return a valid AssetPath for a loaded asset. The asset need to be a valid asset in the Content Browser.
+Similar to GetPathName(). The format will be: /Game/MyFolder/MyAsset.MyAsset
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTagValues"><p>Get Tag Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all TagValues (from Asset Registry) associated with an (unloaded) asset as strings value.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ListAssetbyTagValue"><p>List Asset by Tag Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the list of all the assets that have the pair of Tag/Value.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ListAssets"><p>List Assets</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the list of all the assets found in the DirectoryPath.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LoadAsset"><p>Load Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Load an asset from the Content Browser. It will verify if the object is already loaded and only load it if it's necessary.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LoadBlueprintClass"><p>Load Blueprint Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Load a Blueprint asset from the Content Browser and return its generated class. It will verify if the object is already loaded and only load it if it's necessary.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeDirectory"><p>Make Directory</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create the directory on disk and in the Content Browser.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RenameAsset"><p>Rename Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rename an asset from the Content Browser. Equivalent to a Move operation.
+Will try to checkout the file. The Asset will be loaded before being renamed.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RenameDirectory"><p>Rename Directory</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rename assets from the Content Browser that are in the folder.
+Equivalent to a Move operation. Will try to checkout the files. The Assets will be loaded before being renamed.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RenameLoadedAsset"><p>Rename Loaded Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rename an asset from the Content Browser that is already loaded.
+Equivalent to a Move operation. Will try to checkout the files.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SaveAsset"><p>Save Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Save the packages the assets live in. All objects that live in the package will be saved.
+Will try to checkout the file first. The Asset will be loaded before being saved.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SaveDirectory"><p>Save Directory</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Save the packages the assets live in inside the directory. All objects that are in the directory will be saved.
+Will try to checkout the file first. Assets will be loaded before being saved.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SaveLoadedAsset"><p>Save Loaded Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Save the packages the assets live in. All objects that live in the package will be saved. Will try to checkout the file.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SaveLoadedAssets"><p>Save Loaded Assets</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Save the packages the assets live in. All objects that live in the package will be saved. Will try to checkout the files.
+</p><p>Target is Editor Asset Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

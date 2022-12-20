@@ -1,0 +1,22 @@
+# CastToMaterialExpressionSceneCol-
+
+Tries to access object as a class it may be an instance of.
+
+## 图示
+
+![]($-20221218-12591435.png)
+
+## Inputs
+
+In: Exec.
+
+Object: Object Wildcard.  
+
+## Outputs
+
+Out: Exec.
+
+Cast Failed: Exec.
+
+As Material Expression Scene Color: Material Expression Scene Color Object Reference.
+

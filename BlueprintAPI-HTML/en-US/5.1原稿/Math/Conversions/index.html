@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Math/Conversions/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Conversions | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Math/Conversions/" hreflang="x-default" />
+
+	<meta name="title" content="Conversions" />
+<meta name="description" content="Conversions" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Math" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Conversions" />
+	<meta property="og:description" content="Conversions" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Math">Math</a>
+
+<span class="separator">></span> <span id="page">Conversions</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Conversions</h1>
+		</div>
+		<h2 >Conversions</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RotationFromXVector"><p>Rotation From X Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the FRotator orientation corresponding to the direction in which the vector points.
+Sets Yaw and Pitch to the proper numbers, and sets Roll to zero because the roll can't be determined from a vector.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToBoolean_Integer"><p>To Boolean (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a int to a bool
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToByte_Boolean"><p>To Byte (Boolean)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a bool to a byte
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToByte_Integer"><p>To Byte (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts an integer to a byte (if the integer is too large, returns the low 8 bits)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToByte_Integer64"><p>To Byte (Integer64)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a 64 bit integer to a byte (if the integer is too large, returns the low 8 bits)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToColor_LinearColor"><p>To Color (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Quantizes the linear color and returns the result as a FColor with optional sRGB conversion and quality as goal.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToDouble_Byte"><p>To Double (Byte)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a byte to a double
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToDouble_Float"><p>To Double (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a 32 bit floating point to a 64 bit floating point
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToDouble_Integer"><p>To Double (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts an integer to a double
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToDouble_Integer64"><p>To Double (Integer64)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a 64 bit integer to a 64 bit floating point
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToFloat_Boolean"><p>To Float (Boolean)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a bool to a float (0.0f or 1.0f)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToFloat_Byte"><p>To Float (Byte)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a byte to a float
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToFloat_Double"><p>To Float (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a 64 bit floating point to a 32 bit floating point (if the float is too large, returns the low 32 bits)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToFloat_Integer"><p>To Float (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts an integer to a float
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToInteger_Boolean"><p>To Integer (Boolean)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a bool to an int
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToInteger_Byte"><p>To Integer (Byte)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a byte to an integer
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToInteger_Integer64"><p>To Integer (Integer64)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a 64 bit integer to a 32 bit integer (if the integer is too large, returns the low 32 bits)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToInteger64_Byte"><p>To Integer64 (Byte)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a byte to an integer
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToInteger64_Double"><p>To Integer64 (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a 64 bit floating point to a 64 bit integer
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToInteger64_Integer"><p>To Integer64 (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts an integer to a 64 bit integer
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToIntPoint_Vector2D"><p>To IntPoint (Vector2D)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert a Vector2D to an IntPoint
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToIntVector_Integer"><p>To IntVector (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts an integer to an IntVector
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToLinearColor_Color"><p>To LinearColor (Color)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a color to LinearColor
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToLinearColor_Double"><p>To LinearColor (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert a float into a LinearColor, where each element is a double
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToLinearColor_Float"><p>To LinearColor (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert a float into a LinearColor, where each element is a float
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToLinearColor_Vector"><p>To LinearColor (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a vector to LinearColor
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToQuaternion_Vector"><p>To Quaternion (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the Quaternion orientation corresponding to the direction in which the vector points.
+Similar to the FRotator version, returns a result without roll such that it preserves the up vector.
+</p><p>Note: If you don't care about preserving the up vector and just want the most direct rotation, you can use the faster
+'FQuat::FindBetweenVectors(FVector::ForwardVector, YourVector)' or 'FQuat::FindBetweenNormals(...)' if you know the vector is of unit length.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToQuaternion_Vector4"><p>To Quaternion (Vector4)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the Quaternion orientation corresponding to the direction in which the vector points.
+Similar to the FRotator version, returns a result without roll such that it preserves the up vector.
+</p><p>Note: If you don't care about preserving the up vector and just want the most direct rotation, you can use the faster
+'FQuat::FindBetweenVectors(FVector::ForwardVector, YourVector)' or 'FQuat::FindBetweenNormals(...)' if you know the vector is of unit length.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToRotation_Vector4"><p>To Rotation (Vector4)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the FRotator orientation corresponding to the direction in which the vector points.
+Sets Yaw and Pitch to the proper numbers, and sets Roll to zero because the roll can't be determined from a vector.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToRotator_Matrix"><p>To Rotator (Matrix)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert a Matrix to a Rotator
+(Assumes Matrix represents a transform)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToTransform_Matrix"><p>To Transform (Matrix)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert a Matrix to a Transform
+(Assumes Matrix represents a transform)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToTransform_Rotator"><p>To Transform (Rotator)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert Rotator to Transform
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToTransform_Vector"><p>To Transform (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert a vector to a transform. Uses vector as location
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToVector_Double"><p>To Vector (Double)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert a double into a vector, where each element is that double
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToVector_Float"><p>To Vector (Float)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert a float into a vector, where each element is that float
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToVector_Integer"><p>To Vector (Integer)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts an integer to a FVector
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToVector_IntVector"><p>To Vector (IntVector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert an IntVector to a vector
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToVector_LinearColor"><p>To Vector (LinearColor)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a LinearColor to a vector
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToVector_Vector2D"><p>To Vector (Vector2D)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert a Vector2D to a Vector
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToVector_Vector4"><p>To Vector (Vector4)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert a Vector4 to a Vector (dropping the W element)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToVector2D_IntPoint"><p>To Vector2D (IntPoint)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert an IntPoint to a Vector2D
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToVector2D_Vector"><p>To Vector2D (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert a Vector to a Vector2D using the Vector's (X, Y) coordinates
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToQuaternion_Rotator"><p>ToQuaternion (Rotator)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert to Quaternion representation of this Rotator.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ToRotator_Quat"><p>ToRotator (Quat)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert to Rotator representation of this Quaternion.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

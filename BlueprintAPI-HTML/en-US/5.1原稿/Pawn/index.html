@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Pawn/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Pawn | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Pawn/" hreflang="x-default" />
+
+	<meta name="title" content="Pawn" />
+<meta name="description" content="Pawn" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Pawn" />
+	<meta property="og:description" content="Pawn" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Pawn</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Pawn</h1>
+		</div>
+		<h2 >Pawn</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    			    <li id="">
+	<p><a id="toc_link" href="#categories">Categories</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DetachfromControllerPendingDestr-"><p>Detach from Controller Pending Destroy</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Call this function to detach safely pawn from its controller, knowing that we will be destroyed soon.
+</p><p>Target is Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBaseAimRotation"><p>Get Base Aim Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the aim rotation for the Pawn.
+If we have a controller, by default we aim at the player's 'eyes' direction
+that is by default the Pawn rotation for AI, and camera (crosshair) rotation for human players.
+</p><p>Target is Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetControlRotation"><p>Get Control Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the control rotation. This is the full aim rotation, which may be different than a camera orientation (for example in a third person view),
+and may differ from the rotation of the controlled Pawn (which may choose not to visually pitch or roll, for example).
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetControlledPawn"><p>Get Controlled Pawn</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the Pawn that is currently 'controlled' by this PlayerController
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetController"><p>Get Controller</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns controller for this actor.
+</p><p>Target is Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDesiredRotation"><p>Get Desired Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the desired pawn target rotation
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFocalLocation"><p>Get Focal Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the location the PlayerController is focused on.
+If there is a possessed Pawn, returns the Pawn's location.
+If there is a spectator Pawn, returns that Pawn's location.
+Otherwise, returns the PlayerController's spawn location (usually the last known Pawn location after it has died).
+</p><p>Target is Player Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalViewingPlayerController"><p>Get Local Viewing Player Controller</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns local Player Controller viewing this pawn, whether it is controlling or spectating
+</p><p>Target is Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMovementBaseActor"><p>Get Movement Base Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the owning actor of the Movement Base Component on which the pawn is standing.
+</p><p>Target is Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMovementComponent"><p>Get Movement Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return our PawnMovementComponent, if we have one.
+</p><p>Target is Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNavAgentLocation"><p>Get Nav Agent Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Basically retrieved pawn's location on navmesh
+</p><p>Target is Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlayerViewPoint"><p>Get Player View Point</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns Player's Point of View
+For the AI this means the Pawn's 'Eyes' ViewPoint
+For a Human player, this means the Camera's ViewPoint
+</p><p>@output      out_Location, view location of player
+@output      out_rotation, view rotation of player
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSpectatorPawn"><p>Get Spectator Pawn</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the Pawn used when spectating. nullptr when not spectating.
+</p><p>Target is Player Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetViewTarget"><p>Get View Target</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the actor the controller is looking at
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsBotControlled"><p>Is Bot Controlled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if controlled by a bot.
+</p><p>Target is Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsControlled"><p>Is Controlled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Is Controlled
+</p><p>Target is Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsLocalController"><p>Is Local Controller</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether this Controller is a local controller.
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsLocalPlayerController"><p>Is Local Player Controller</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether this Controller is a locally controlled PlayerController.
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsLocallyControlled"><p>Is Locally Controlled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if controlled by a local (not network) Controller.
+</p><p>Target is Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsLocallyViewed"><p>Is Locally Viewed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Is this pawn the ViewTarget of a local PlayerController?  Helpful for determining whether the pawn is
+visible/critical for any VFX.  NOTE: Technically there may be some cases where locally controlled pawns return
+false for this, such as if you are using a remote camera view of some sort.  But generally it will be true for
+locally controlled pawns, and it will always be true for pawns that are being spectated in-game or in Replays.
+</p><p>Target is Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsPawnControlled"><p>Is Pawn Controlled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check if this actor is currently being controlled at all (the actor has a valid Controller, which will be false for remote clients)
+</p><p>Target is Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsPlayerControlled"><p>Is Player Controlled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if controlled by a human player (possessed by a PlayerController).        This returns true for players controlled by remote clients
+</p><p>Target is Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsPlayerController"><p>Is Player Controller</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether this Controller is a PlayerController.
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LookUpatRate"><p>Look Up at Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Called via input to look up at a given rate (or down if Rate is negative).
+</p><p>Target is Default Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MoveForward"><p>Move Forward</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Input callback to move forward in local space (or backward if Val is negative).
+</p><p>Target is Default Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MoveRight"><p>Move Right</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Input callback to strafe right in local space (or left if Val is negative).
+</p><p>Target is Default Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MoveUpWorld"><p>Move Up World</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Input callback to move up in world space (or down if Val is negative).
+</p><p>Target is Default Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnPossessedPawnChanged"><p>On Possessed Pawn Changed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Possessed Pawn Changed:
+Called on both authorities and clients when the possessed pawn changes (either OldPawn or NewPawn might be nullptr)</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Possess"><p>Possess</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Handles attaching this controller to the specified pawn.
+Only runs on the network authority (where HasAuthority() returns true).
+Derived native classes can override OnPossess to filter the specified pawn.
+When possessed pawn changed, blueprint class gets notified by ReceivePossess
+and OnNewPawn delegate is broadcasted.
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReceiveControllerChangedDelegate"><p>Receive Controller Changed Delegate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Receive Controller Changed Delegate:
+Event called after a pawn's controller has changed, on the server and owning client. This will happen at the same time as the delegate on GameInstance</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReceiveRestartedDelegate"><p>Receive Restarted Delegate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Receive Restarted Delegate:
+Event called after a pawn has been restarted, usually by a possession change. This is called on the server for all pawns and the owning client for player pawns</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetControlRotation"><p>Set Control Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the control rotation.
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetInitialLocationandRotation"><p>Set Initial Location and Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the initial location and rotation of the controller, as well as the control rotation. Typically used when the controller is first created.
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnDefaultController"><p>Spawn Default Controller</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn default controller for this Pawn, and get possessed by it.
+</p><p>Target is Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TurnatRate"><p>Turn at Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Called via input to turn at a given rate.
+</p><p>Target is Default Pawn</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UnPossess"><p>Un Possess</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Called to unpossess our pawn for any reason that is not the pawn being destroyed (destruction handled by PawnDestroyed()).
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UpdateStereoAtlas"><p>Update Stereo Atlas</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Update Stereo Atlas
+</p><p>Target is Stereo Capture Pawn</p>
+	</td>
+</tr>
+			</table>
+</div>
+<h2 id="categories">Categories</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Components"><p>Components</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Components</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Input"><p>Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>These are nodes that provide input from various sources (keyboard, mouse, gamepad etc.)</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

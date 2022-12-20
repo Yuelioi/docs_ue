@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Math/Vector/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Vector | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Math/Vector/" hreflang="x-default" />
+
+	<meta name="title" content="Vector" />
+<meta name="description" content="Vector" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Math" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Vector" />
+	<meta property="og:description" content="Vector" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Math">Math</a>
+
+<span class="separator">></span> <span id="page">Vector</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Vector</h1>
+		</div>
+		<h2 >Vector</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BreakVector"><p>Break Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Breaks a vector apart into X, Y, Z
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BreakVector3f"><p>Break Vector 3f</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Break Vector 3f
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BreakVectorNetQuantize"><p>Break Vector Net Quantize</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Break Vector Net Quantize
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BreakVectorNetQuantize10"><p>Break Vector Net Quantize 10</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Break Vector Net Quantize 10
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BreakVectorNetQuantize100"><p>Break Vector Net Quantize 100</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Break Vector Net Quantize 100
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BreakVectorNetQuantizeNormal"><p>Break Vector Net Quantize Normal</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Break Vector Net Quantize Normal
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClampVectorSize"><p>Clamp Vector Size</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a copy of this vector, with its magnitude/size/length clamped between Min and Max.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateVectorfromYawPitch"><p>Create Vector from Yaw Pitch</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a directional vector from rotation values {Pitch, Yaw} supplied in degrees with specified Length
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CrossProduct"><p>Cross Product</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the cross product of two 3d vectors - see http://mathworld.wolfram.com/CrossProduct.html
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Distance_Vector"><p>Distance (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Distance between two points.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DistanceSquared_Vector"><p>Distance Squared (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Squared distance between two points.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Distance2D_Vector"><p>Distance2D (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Euclidean distance between two points in the XY plane (ignoring Z).
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Distance2DSquared_Vector"><p>Distance2D Squared (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Squared euclidean distance between two points in the XY plane (ignoring Z).
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DotProduct"><p>Dot Product</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the dot product of two 3d vectors - see http://mathworld.wolfram.com/DotProduct.html
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EqualExactly_Vector"><p>Equal Exactly (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if vector A is equal to vector B (A == B)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindClosestPointonLine"><p>Find Closest Point on Line</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find the closest point on an infinite line to a given point.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindClosestPointonSegment"><p>Find Closest Point on Segment</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find the closest point on a segment to a given point.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindNearestPointsonLineSegments"><p>Find Nearest Points on Line Segments</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find closest points between 2 segments.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAzimuthandElevation"><p>Get Azimuth and Elevation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Breaks a direction vector apart into Azimuth (Yaw) and Elevation (Pitch) rotation values given in degrees. (non-clamped)
+Relative to the provided reference frame (an Actor's WorldTransform for example)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetForwardVector"><p>Get Forward Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rotate the world forward vector by the given rotation
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaxElement"><p>Get Max Element</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find the maximum element (X, Y or Z) of a vector
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMinElement"><p>Get Min Element</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find the minimum element (X, Y or Z) of a vector
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPointDistancetoLine"><p>Get Point Distance to Line</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find the distance from a point to the closest point on an infinite line.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPointDistancetoSegment"><p>Get Point Distance to Segment</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find the distance from a point to the closest point on a segment.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetReflectionVector"><p>Get Reflection Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a direction vector and a surface normal, returns the vector reflected across the surface normal.
+Produces a result like shining a laser at a mirror!
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRightVector"><p>Get Right Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rotate the world right vector by the given rotation
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUnitDirection_Vector"><p>Get Unit Direction (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find the unit direction vector from one position to another or (0,0,0) if positions are the same.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUpVector"><p>Get Up Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rotate the world up vector by the given rotation
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorArrayAverage"><p>Get Vector Array Average</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find the average of an array of vectors
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetYawPitchfromVector"><p>Get Yaw Pitch from Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Breaks a vector apart into Yaw, Pitch rotation values given in degrees. (non-clamped)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsNormal_Vector"><p>Is Normal (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Determines if vector is normalized / unit (length 1).
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsUniform_Vector"><p>Is Uniform (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checks whether all components of this vector are the same, within a tolerance.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsUnit_Vector"><p>Is Unit (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Determines if vector is normalized / unit (length 1) within specified squared tolerance.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Lerp_Vector"><p>Lerp (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Linearly interpolates between A and B based on Alpha (100% of A when Alpha=0 and 100% of B when Alpha=1)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeVector"><p>Make Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Makes a vector {X, Y, Z}
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeVectorNetQuantize"><p>Make Vector Net Quantize</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>NetQuantized vector make/breaks
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeVectorNetQuantize10"><p>Make Vector Net Quantize 10</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Make Vector Net Quantize 10
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeVectorNetQuantize100"><p>Make Vector Net Quantize 100</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Make Vector Net Quantize 100
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeVectorNetQuantizeNormal"><p>Make Vector Net Quantize Normal</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Make Vector Net Quantize Normal
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MirrorVectorbyNormal"><p>Mirror Vector by Normal</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given a direction vector and a surface normal, returns the vector reflected across the surface normal.
+Produces a result like shining a laser at a mirror!
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NegateVector"><p>Negate Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Negate a vector.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NormalUnsafe_Vector"><p>Normal Unsafe (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Calculates normalized unit version of vector without checking for zero length.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Normalize"><p>Normalize</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a normalized unit copy of the vector, ensuring it is safe to do so based on the length.
+Returns zero vector if vector length is too small to safely normalize.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Normalize2D_Vector"><p>Normalize 2D (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a normalized unit copy of the 2D components of the vector, ensuring it is safe to do so. Z is set to zero.
+Returns zero vector if vector length is too small to normalize.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NormalizeInPlace_Vector"><p>Normalize In Place (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Normalize this vector in-place if it is large enough or set it to (0,0,0) otherwise.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NotEqualExactly_Vector"><p>Not Equal Exactly (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if vector A is not equal to vector B (A != B)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ProjectPointontoPlane"><p>Project Point on to Plane</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Projects/snaps a point onto a plane defined by a point on the plane and a plane normal.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ProjectVectorontoPlane"><p>Project Vector on to Plane</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Projects a vector onto a plane defined by a normalized vector (PlaneNormal).
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ProjectVectorontoVector"><p>Project Vector on to Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Projects one vector (V) onto another (Target) and returns the projected vector.
+If Target is nearly zero in length, returns the zero vector.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Reciprocal_Vector"><p>Reciprocal (Vector)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the reciprocal of this vector, avoiding division by zero.
+Zero components are set to BIG_NUMBER.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RotateVector"><p>Rotate Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns result of vector A rotated by Rotator B
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RotateVectorAroundAxis"><p>Rotate Vector Around Axis</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns result of vector A rotated by AngleDeg around Axis
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RotatorfromAxisandAngle"><p>Rotator from Axis and Angle</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a rotation from an this axis and supplied angle (in degrees)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SelectVector"><p>Select Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If bPickA is true, A is returned, otherwise B is
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UnrotateVector"><p>Unrotate Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns result of vector A rotated by the inverse of Rotator B
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorAddBounded"><p>Vector Add Bounded</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a vector to this and clamp the result to an axis aligned cube centered at the origin.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorAssign"><p>Vector Assign</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Assign the values of the supplied vector.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorBackward"><p>Vector Backward</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>3D vector Unreal backward direction constant (-1,0,0)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorBoundedtoBox"><p>Vector Bounded to Box</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a copy of this vector, clamped inside of the specified axis aligned cube.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorBoundedtoCube"><p>Vector Bounded to Cube</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a copy of this vector, clamped inside of an axis aligned cube centered at the origin.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorClampSize2D"><p>Vector Clamp Size 2D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a copy of this vector, with the 2D magnitude/size/length clamped between Min and Max. Z is unchanged.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorClampSizeMax"><p>Vector Clamp Size Max</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a copy of this vector, with its maximum magnitude/size/length clamped to MaxSize.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorClampSizeMax2D"><p>Vector Clamp Size Max 2D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a copy of this vector, with the maximum 2D magnitude/size/length clamped to MaxSize. Z is unchanged.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorComponentMax"><p>Vector Component Max</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find the maximum elements (X, Y and Z) between the two vector's components
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorComponentMin"><p>Vector Component Min</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find the minimum elements (X, Y and Z) between the two vector's components
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorCosineAngle2D"><p>Vector Cosine Angle 2D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the cosine of the angle between this vector and another projected onto the XY plane (no Z).
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorDown"><p>Vector Down</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>3D vector Unreal down direction constant (0,0,-1)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorForward"><p>Vector Forward</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>3D vector Unreal forward direction constant (1,0,0)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorGetAbs"><p>Vector Get Abs</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a copy of this vector with absolute value of each component.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorGetAbsMax"><p>Vector Get Abs Max</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find the maximum absolute element (abs(X), abs(Y) or abs(Z)) of a vector
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorGetAbsMin"><p>Vector Get Abs Min</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find the minimum absolute element (abs(X), abs(Y) or abs(Z)) of a vector
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorGetProjection"><p>Vector Get Projection</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Projects 2D components of vector based on Z.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorGetSignVector"><p>Vector Get Sign Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a copy of the vector as sign only.
+Each component is set to +1 or -1, with the sign of zero treated as +1.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorHeadingAngle"><p>Vector Heading Angle</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert a direction vector into a 'heading' angle.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorIsNAN"><p>Vector Is NAN</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Determines if any component is not a number (NAN)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorIsNearlyZero"><p>Vector Is Nearly Zero</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checks whether vector is near to zero within a specified tolerance.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorIsZero"><p>Vector Is Zero</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checks whether all components of the vector are exactly zero.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorLeft"><p>Vector Left</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>3D vector Unreal left direction constant (0,-1,0)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorLength"><p>Vector Length</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the length of the vector
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorLengthSquared"><p>Vector Length Squared</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the squared length of the vector
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorLengthXY"><p>Vector Length XY</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the length of the vector's XY components.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorLengthXYSquared"><p>Vector Length XY Squared</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the squared length of the vector's XY components.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorMirrorbyPlane"><p>Vector Mirror by Plane</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Mirrors a vector about a plane.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorOne"><p>Vector One</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>3D vector one constant (1,1,1)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorProjectontoNormal"><p>Vector Project on to Normal</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a copy of this vector projected onto the input vector, which is assumed to be unit length.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorRight"><p>Vector Right</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>3D vector Unreal right direction constant (0,1,0)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorSet"><p>Vector Set</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the values of the vector directly.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorSnappedtoGrid"><p>Vector Snapped to Grid</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a copy of this vector snapped to a grid.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectortoDegrees"><p>Vector to Degrees</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a vector containing radian values to a vector containing degree values.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectortoRadians"><p>Vector to Radians</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a vector containing degree values to a vector containing radian values.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorUnitCartesiantoSpherical"><p>Vector Unit Cartesian to Spherical</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a Cartesian unit vector into spherical coordinates on the unit sphere.
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorUnwindEuler"><p>Vector Unwind Euler</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>When this vector contains Euler angles (degrees), ensure that angles are between +/-180
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorUp"><p>Vector Up</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>3D vector Unreal up direction constant (0,0,1)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VectorZero"><p>Vector Zero</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>3D vector zero constant (0,0,0)
+</p><p>Target is Kismet Math Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

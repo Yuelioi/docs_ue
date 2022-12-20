@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Development/Editor/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Editor | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Development/Editor/" hreflang="x-default" />
+
+	<meta name="title" content="Editor" />
+<meta name="description" content="Editor" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Development" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Editor" />
+	<meta property="og:description" content="Editor" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Development">Development</a>
+
+<span class="separator">></span> <span id="page">Editor</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Editor</h1>
+		</div>
+		<h2 >Editor</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CanRun"><p>Can Run</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Can Run
+</p><p>Target is Editor Utility Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearActorSelectionSet"><p>Clear Actor Selection Set</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove all actors from the selection set
+</p><p>Target is Editor Actor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CloseTabbyID"><p>Close Tab by ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given an ID for a tab, try to find and close an existing tab. Returns true if it found a tab to close.
+</p><p>Target is Editor Utility Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateCopyforUndoBuffer"><p>Create Copy for Undo Buffer</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Mark as modified.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DoesTabExist"><p>Does Tab Exist</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given an ID for a tab, try to find an existing tab. Returns true if it found a tab.
+</p><p>Target is Editor Utility Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindUtilityWidgetfromBlueprint"><p>Find Utility Widget from Blueprint</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given an editor utility widget blueprint, get the widget it creates. This will return a null pointer if the widget is not currently in a tab.
+</p><p>Target is Editor Utility Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorReference"><p>Get Actor Reference</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempts to find the actor specified by PathToActor in the current editor world
+</p><p>Target is Editor Utility Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentContentBrowserPath"><p>Get Current Content Browser Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempts to get the path for the active content browser, returns false if there is no active content browser
+</p><p>Target is Editor Utility Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLevelViewportCameraInfo"><p>Get Level Viewport Camera Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets information about the camera position for the primary level editor viewport.  In non-editor builds, these will be zeroed
+In the UnrealEd module instead of Level Editor as it uses FLevelEditorViewportClient which is in this module
+</p><p>Target is Unreal Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSelectedAssetData"><p>Get Selected Asset Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the set of currently selected asset data
+</p><p>Target is Editor Utility Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSelectedAssets"><p>Get Selected Assets</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the set of currently selected assets
+</p><p>Target is Editor Utility Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSelectedBlueprintClasses"><p>Get Selected Blueprint Classes</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the set of currently selected classes
+</p><p>Target is Editor Utility Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSelectionBounds"><p>Get Selection Bounds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Selection Bounds
+</p><p>Target is Editor Utility Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSelectionSet"><p>Get Selection Set</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Selection Set
+</p><p>Target is Editor Utility Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RegisterandExecuteTask"><p>Register and Execute Task</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Register and Execute Task
+</p><p>Target is Editor Utility Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RegisterTabandGetID"><p>Register Tab and Get ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Register Tab and Get ID
+</p><p>Target is Editor Utility Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReleaseInstanceOfAsset"><p>Release Instance Of Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Allow startup object to be garbage collected
+</p><p>Target is Editor Utility Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RenameAsset"><p>Rename Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Renames an asset (cannot move folders)
+</p><p>Target is Editor Utility Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SelectNothing"><p>Select Nothing</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Selects nothing in the editor (another way to clear the selection)
+</p><p>Target is Editor Actor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetActorSelectionState"><p>Set Actor Selection State</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the selection state for the selected actor
+</p><p>Target is Editor Actor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLevelViewportCameraInfo"><p>Set Level Viewport Camera Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets information about the camera position for the primary level editor viewport.
+In the UnrealEd module instead of Level Editor as it uses FLevelEditorViewportClient which is in this module
+</p><p>Target is Unreal Editor Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnandRegisterTab"><p>Spawn and Register Tab</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn and Register Tab
+</p><p>Target is Editor Utility Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnandRegisterTabandGetID"><p>Spawn and Register Tab and Get ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Spawn and Register Tab and Get ID
+</p><p>Target is Editor Utility Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnRegisteredTabbyID"><p>Spawn Registered Tab by ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Given an ID for a tab, try to find a tab spawner that matches, and then spawn a tab. Returns true if it was able to find a matching tab spawner
+</p><p>Target is Editor Utility Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="StackTrace"><p>Stack Trace</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Prints a stack trace to the log, so you can see how a blueprint got to this node
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TryRun"><p>Try Run</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Try Run
+</p><p>Target is Editor Utility Subsystem</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

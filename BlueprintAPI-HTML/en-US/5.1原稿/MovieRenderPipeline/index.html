@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/MovieRenderPipeline/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Movie Render Pipeline | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/MovieRenderPipeline/" hreflang="x-default" />
+
+	<meta name="title" content="Movie Render Pipeline" />
+<meta name="description" content="Movie Render Pipeline" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Movie Render Pipeline" />
+	<meta property="og:description" content="Movie Render Pipeline" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Movie Render Pipeline</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Movie Render Pipeline</h1>
+		</div>
+		<h2 >Movie Render Pipeline</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    			    <li id="">
+	<p><a id="toc_link" href="#categories">Categories</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AllocateNewShotOverrideConfig"><p>Allocate New Shot Override Config</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Allocate New Shot Override Config
+</p><p>Target is Movie Pipeline Executor Shot</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BuildNewProcessCommandLine"><p>Build New Process Command Line</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Build New Process Command Line
+</p><p>Target is Movie Pipeline Setting</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BuildNewProcessCommandLineArgs"><p>Build New Process Command Line Args</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Build New Process Command Line Args
+</p><p>Target is Movie Pipeline Setting</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CancelAllJobs"><p>Cancel All Jobs</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Abort the currently executing job and skip all other jobs.
+</p><p>Target is Movie Pipeline Executor Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CancelCurrentJob"><p>Cancel Current Job</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Abort the currently executing job.
+</p><p>Target is Movie Pipeline Executor Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConnectSocket"><p>Connect Socket</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempts to connect a socket to the specified host and port. This is a blocking call.
+</p><p>Target is Movie Pipeline Executor Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConvertManifestFiletoString"><p>Convert Manifest File to String</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Loads the specified manifest file and converts it into an FString to be embedded with HTTP REST requests. Use in combination with SaveQueueToManifestFile.
+</p><p>Target is Movie Pipeline Editor Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CopyFrom"><p>Copy From</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Copy this configuration from another existing configuration.
+</p><p>Target is Movie Pipeline Config Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateJobfromSequence"><p>Create Job from Sequence</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a job from a level sequence. Sets the map as the currently editor world, the author, the sequence and the job name as the sequence name on the new job. Returns the newly created job.
+</p><p>Target is Movie Pipeline Editor Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DisconnectSocket"><p>Disconnect Socket</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"><p>Disconnects the socket (if currently connected.)
+</p></li></ul><p>Target is Movie Pipeline Executor Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DuplicateSequence"><p>Duplicate Sequence</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Duplicates the specified sequence using a medium depth copy. Standard duplication will only duplicate
+the top level Sequence (since shots and sub-sequences are other standalone assets) so this function
+recursively duplicates the given sequence, shot and subsequence and then fixes up the references to
+point to newly duplicated sequences.
+</p><p>Use at your own risk. Some features may not work when duplicated (complex object binding arrangements,
+blueprint GetSequenceBinding nodes, etc.) but can be useful when wanting to create a bunch of variations
+with minor differences (such as swapping out an actor, track, etc.)
+</p><p>This does not duplicate any assets that the sequence points to outside of Shots/Subsequences.
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EnsureJobHasDefaultSettings"><p>Ensure Job Has Default Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Ensure the job has the settings specified by the project settings added. If they're already added we don't modify the object so that we don't make it confused about whether or not you've modified the preset.
+</p><p>Target is Movie Pipeline Editor Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Execute"><p>Execute</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Execute the provided Queue. You are responsible for deciding how to handle each job
+in the queue and processing them. OnExecutorFinished should be called when all jobs
+are completed, which can report both success, warning, cancel, or error.
+</p><p>For C++ implementations override <code>virtual void Execute&#95;Implementation() const override</code>
+For Python/BP implementations override
+@unreal.ufunction(override=True)
+def execute(self):
+</p><p>Target is Movie Pipeline Executor Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ExportConfigtoAsset"><p>Export Config to Asset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Export Config to Asset
+</p><p>Target is Movie Pipeline Editor Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindorAddSettingbyClass"><p>Find or Add Setting by Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Finds a setting of a particular type for this pipeline config, adding it if it doesn't already exist.
+</p><p>Target is Movie Pipeline Config Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindorGetDefaultSettingforShot"><p>Find or Get Default Setting for Shot</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Allows access to a setting of provided type for specific shot.
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindSettingbyClass"><p>Find Setting by Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find a setting of a particular type for this config.
+</p><p>Target is Movie Pipeline Config Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindSettingsbyClass"><p>Find Settings by Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find all settings of a particular type for this config.
+</p><p>Target is Movie Pipeline Config Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActiveExecutor"><p>Get Active Executor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the active executor (if there is one). This can be used to subscribe to events on an already in-progress render. May be null.
+</p><p>Target is Movie Pipeline Queue Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllSettings"><p>Get All Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get All Settings
+</p><p>Target is Movie Pipeline Master Config</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCompletionPercentage"><p>Get Completion Percentage</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the completion percent of the Pipeline in 0-1
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetConfiguration"><p>Get Configuration</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Configuration
+</p><p>Target is Movie Pipeline Executor Job</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentAperture"><p>Get Current Aperture</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Current Aperture
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentExecutorShot"><p>Get Current Executor Shot</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Current Executor Shot
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentFocalLength"><p>Get Current Focal Length</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Current Focal Length
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentFocusDistance"><p>Get Current Focus Distance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Current Focus Distance
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentJob"><p>Get Current Job</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Current Job
+</p><p>Target is Movie Pipeline</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentSegmentName"><p>Get Current Segment Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Current Segment Name
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentSegmentState"><p>Get Current Segment State</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Current Segment State
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentSegmentWorkMetrics"><p>Get Current Segment Work Metrics</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Current Segment Work Metrics
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentSequence"><p>Get Current Sequence</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Current Sequence
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentShotFrameNumber"><p>Get Current Shot Frame Number</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Current Shot Frame Number
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentShotTimecode"><p>Get Current Shot Timecode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Current Shot Timecode
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEffectiveFrameRate"><p>Get Effective Frame Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the frame rate override from the Master Configuration (if any) or the Sequence frame rate if no override is specified.
+This should be treated as the actual output framerate of the overall Pipeline.
+</p><p>Target is Movie Pipeline Master Config</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEffectiveOutputResolution"><p>Get Effective Output Resolution</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>In case of Overscan percentage being higher than 0 we render additional pixels. This function returns the resolution with overscan taken into account.
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEstimatedTimeRemaining"><p>Get Estimated Time Remaining</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the estimated amount of time remaining for the current pipeline. Based on looking at the total
+amount of samples to render vs. how many have been completed so far. Inaccurate when Time Dilation
+is used, and gets more accurate over the course of the render.
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetInitializationTime"><p>Get Initialization Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the time this movie pipeline was initialized at.
+</p><p>Target is Movie Pipeline</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetJobAuthor"><p>Get Job Author</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Job Author
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetJobInitializationTime"><p>Get Job Initialization Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Job Initialization Time
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetJobName"><p>Get Job Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Job Name
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLastLoadedWorld"><p>Get Last Loaded World</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>~Python/Blueprint API
+</p><p>Target is Movie Pipeline Python Host Executor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMapPackageName"><p>Get Map Package Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the package name for the map in this job. The level travel command requires the package path and not the asset path.
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMasterFrameNumber"><p>Get Master Frame Number</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Master Frame Number
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMasterTimecode"><p>Get Master Timecode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Master Timecode
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMoviePipelineEngineChangelist-"><p>Get Movie Pipeline Engine Changelist Label</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get a string to represent the Changelist Number for the burn in. This can be driven by a Modular Feature if you want to permanently replace it with different information.
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOverallOutputFrames"><p>Get Overall Output Frames</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Overall Output Frames
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOverallSegmentCounts"><p>Get Overall Segment Counts</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Overall Segment Counts
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPipelineMasterConfig"><p>Get Pipeline Master Config</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the Master Configuration used to render this shot. This contains the global settings for the shot, as well as per-shot
+configurations which can contain their own settings.
+</p><p>Target is Movie Pipeline</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPipelineState"><p>Get Pipeline State</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current state of the specified Pipeline. See EMovieRenderPipelineState for more detail about each state.
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPresetOrigin"><p>Get Preset Origin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Preset Origin
+</p><p>Target is Movie Pipeline Executor Job</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPreviewTexture"><p>Get Preview Texture</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Preview Texture
+</p><p>Target is Movie Pipeline</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetQueue"><p>Get Queue</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the queue of Movie Pipelines that need to be rendered.
+</p><p>Target is Movie Pipeline Queue Engine Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetShotOverrideConfiguration"><p>Get Shot Override Configuration</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Shot Override Configuration
+</p><p>Target is Movie Pipeline Executor Shot</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetShotOverridePresetOrigin"><p>Get Shot Override Preset Origin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Shot Override Preset Origin
+</p><p>Target is Movie Pipeline Executor Shot</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetStatusMessage"><p>Get Status Message</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current status message for this shot. May be an empty string.
+</p><p>For C++ implementations override <code>virtual FString GetStatusMessage&#95;Implementation() override</code>
+For Python/BP implementations override
+@unreal.ufunction(override=True)
+def get_status_message(self):
+return ?
+</p><p>Target is Movie Pipeline Executor Shot</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetStatusProgress"><p>Get Status Progress</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current progress as last set by SetStatusProgress. 0 by default.
+</p><p>For C++ implementations override <code>virtual float GetStatusProgress&#95;Implementation() override</code>
+For Python/BP implementations override
+@unreal.ufunction(override=True)
+def get_status_progress(self):
+return ?
+</p><p>Target is Movie Pipeline Executor Job</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTransientSettings"><p>Get Transient Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Transient Settings
+</p><p>Target is Movie Pipeline Master Config</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUserSettings"><p>Get User Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns an array of all settings in this config that the user has added via the UI or via Scripting.
+</p><p>Target is Movie Pipeline Config Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HTTPResponseRecievedDelegate"><p>HTTPResponse Recieved Delegate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>HTTPResponse Recieved Delegate:
+If an HTTP Request has been made and a response returned, the returned response will be broadcast on this event.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Initialize"><p>Initialize</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Initialize the movie pipeline with the specified settings. This kicks off the rendering process.
+</p><p>Target is Movie Pipeline</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InitializeTransientSettings"><p>Initialize Transient Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Initializes a single instance of every setting so that even non-user-configured settings have a chance to apply their default values. Does nothing if they're already instanced for this configuration.
+</p><p>Target is Movie Pipeline Master Config</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsConsumed"><p>Is Consumed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets whether or not the job has been marked as being consumed. A consumed job is not editable
+in the UI and should not be submitted for rendering as it is either already finished or
+already in progress.
+</p><p>For C++ implementations override <code>virtual bool IsConsumed&#95;Implementation() override</code>
+For Python/BP implementations override
+@unreal.ufunction(override=True)
+def is_consumed(self):
+return ?
+</p><p>Target is Movie Pipeline Executor Job</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsMapValidforRemoteRender"><p>Is Map Valid for Remote Render</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checks to see if any of the Jobs try to point to maps that wouldn't be valid on a remote render (ie: unsaved maps)
+</p><p>Target is Movie Pipeline Editor Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsRendering"><p>Is Rendering</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Report the current state of the executor. This is used to know if we can call Execute again.
+</p><p>For C++ implementations override <code>virtual bool IsRendering&#95;Implementation() const override</code>
+For Python/BP implementations override
+@unreal.ufunction(override=True)
+def is_rendering(self):
+return ?
+</p><p>Target is Movie Pipeline Executor Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsShutdownRequested"><p>Is Shutdown Requested</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Has RequestShutdown() been called?
+</p><p>Target is Movie Pipeline</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsSocketConnected"><p>Is Socket Connected</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the socket is currently connected, false otherwise. Call ConnectSocket to attempt a connection.
+</p><p>Target is Movie Pipeline Executor Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LoadManifestFilefromString"><p>Load Manifest File from String</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Loads the specified manifest file and converts it into an UMoviePipelineQueue. Use in combination with SaveQueueToManifestFile.
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnDuplicated"><p>On Duplicated</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Should be called to clear status and user data after duplication so that jobs stay
+unique and don't pick up ids or other unwanted behavior from the pareant job.
+</p><p>For C++ implementations override <code>virtual bool OnDuplicated&#95;Implementation() override</code>
+For Python/BP implementations override
+@unreal.ufunction(override=True)
+def on_duplicated(self):
+</p><p>Target is Movie Pipeline Executor Job</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnExecutorErroredDelegate"><p>On Executor Errored Delegate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Executor Errored Delegate:
+Called when an individual job reports a warning/error. Jobs are considered fatal
+if the severity was bad enough to abort the job (missing sequence, write failure, etc.)
+</p><p>Exposed for Blueprints/Python. Called at the same time as the native one.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnExecutorErroredImpl"><p>On Executor Errored Impl</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Executor Errored Impl
+</p><p>Target is Movie Pipeline Executor Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnExecutorFinishedDelegate"><p>On Executor Finished Delegate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Executor Finished Delegate:
+Called when the Executor has finished all jobs. Reports success if no jobs
+had fatal errors. Subscribe to the error delegate for more information about
+any errors.
+</p><p>Exposed for Blueprints/Python. Called at the same time as the native one.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnExecutorFinishedImpl"><p>On Executor Finished Impl</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This should be called when the Executor has finished executing all of the things
+it has been asked to execute. This should be called in the event of a failure as
+well, and passing in false for success to allow the caller to know failure. Errors
+should be broadcast on the error delegate, so this is just a handy way to know at
+the end without having to track it yourself.
+</p><p>Target is Movie Pipeline Executor Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnIndividualJobFinishedDelegate"><p>On Individual Job Finished Delegate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Individual Job Finished Delegate</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnIndividualJobWorkFinishedDeleg-"><p>On Individual Job Work Finished Delegate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Individual Job Work Finished Delegate:
+Called after each job is finished in the queue. Params struct contains an output of all files written.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnIndividualShotWorkFinishedDele-"><p>On Individual Shot Work Finished Delegate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Individual Shot Work Finished Delegate:
+Called after each shot is finished for a particular render. Params struct contains an output of files written for this shot.
+Only called if the UMoviePipeline is set up correctly, requires a flag in the output setting to be set.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnMoviePipelineFinishedDelegate"><p>On Movie Pipeline Finished Delegate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Movie Pipeline Finished Delegate</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnMoviePipelineFinishedImpl"><p>On Movie Pipeline Finished Impl</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This function should be called by the Executor when execution has finished (this should still be called in the event of an error)
+</p><p>Target is Movie Pipeline</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnMoviePipelineShotWorkFinishedD-"><p>On Movie Pipeline Shot Work Finished Delegate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Movie Pipeline Shot Work Finished Delegate:
+Only called if <code>IsFlushDiskWritesPerShot()</code> is set!
+Called after each shot is finished and files have been flushed to disk. The returned data in
+the params struct will have only the per-shot metadata for the just finished shot. Use
+OnMoviePipelineFinished() if you need all ot the metadata.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnMoviePipelineWorkFinishedDeleg-"><p>On Movie Pipeline Work Finished Delegate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Movie Pipeline Work Finished Delegate:
+Called when we have completely finished this pipeline. This means that all frames have been rendered,
+all files written to disk, and any post-finalize exports have finished. This Pipeline will call
+Shutdown() on itself before calling this delegate to ensure we've unregistered from all delegates
+and are no longer trying to do anything (even if we still exist).
+</p><p>The params struct in the return will have metadata about files written to disk for each shot.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveSetting"><p>Remove Setting</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the specific instance from our Setting list.
+</p><p>Target is Movie Pipeline Config Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RequestShutdown"><p>Request Shutdown</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Request the movie pipeline to shut down at the next available time. The pipeline will attempt to abandon
+the current frame (such as if there are more temporal samples pending) but may be forced into finishing if
+there are spatial samples already submitted to the GPU. The shutdown flow will be run to ensure already
+completed work is written to disk. This is a non-blocking operation, use Shutdown() instead if you need to
+block until it is fully shut down.
+</p><p>Target is Movie Pipeline</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResolveFilenameFormatArguments"><p>Resolve Filename Format Arguments</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Resolves the provided InFormatString by converting {format_strings} into settings provided by the master config.
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResolveVersionNumber"><p>Resolve Version Number</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>If version number is manually specified by the Job, returns that. Otherwise search the Output Directory for the highest version already existing an increments it by one.
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SaveQueuetoManifestFile"><p>Save Queue to Manifest File</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Take the specified Queue, duplicate it and write it to disk in the ../Saved/MovieRenderPipeline/ folder. Returns the duplicated queue.
+</p><p>Target is Movie Pipeline Editor Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SendHTTPRequest"><p>Send HTTPRequest</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sends a asynchronous HTTP request. Responses will be returned in the the OnHTTPResponseRecieved event.
+</p><p>Target is Movie Pipeline Executor Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SendSocketMessage"><p>Send Socket Message</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sends a socket message if the socket is currently connected. Messages back will happen in the OnSocketMessageRecieved event.
+</p><p>Target is Movie Pipeline Executor Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetConfiguration"><p>Set Configuration</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Configuration
+</p><p>Target is Movie Pipeline Executor Job</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetConsumed"><p>Set Consumed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the job to be consumed. A consumed job is disabled in the UI and should not be
+submitted for rendering again. This allows jobs to be added to a queue, the queue
+submitted to a remote farm (consume the jobs) and then more jobs to be added and
+the second submission to the farm won't re-submit the already in-progress jobs.
+</p><p>Jobs can be unconsumed when the render finishes to re-enable editing.
+</p><p>For C++ implementations override <code>virtual void SetConsumed&#95;Implementation() override</code>
+For Python/BP implementations override
+@unreal.ufunction(override=True)
+def set_consumed(self, isConsumed):
+</p><p>Target is Movie Pipeline Executor Job</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetInitializationTime"><p>Set Initialization Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Override the time this movie pipeline was initialized at. This can be used for render farms
+to ensure that jobs on all machines use the same date/time instead of each calculating it locally.
+</p><p>Needs to be called after ::Initialize(...)
+</p><p>Target is Movie Pipeline</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetJobIndex"><p>Set Job Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the index of the given job
+</p><p>Target is Movie Pipeline Queue</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMoviePipelineClass"><p>Set Movie Pipeline Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Specify which MoviePipeline class type should be created by this executor when processing jobs.
+</p><p>Target is Movie Pipeline Executor Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetPresetOrigin"><p>Set Preset Origin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Preset Origin
+</p><p>Target is Movie Pipeline Executor Job</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetShotOverrideConfiguration"><p>Set Shot Override Configuration</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Shot Override Configuration
+</p><p>Target is Movie Pipeline Executor Shot</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetShotOverridePresetOrigin"><p>Set Shot Override Preset Origin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Shot Override Preset Origin
+</p><p>Target is Movie Pipeline Executor Shot</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetStatusMessage"><p>Set Status Message</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the status of this job to the given value. This will be shown on the UI if progress
+is set to a value less than zero. If progress is &gt; 0 then the progress bar will be shown
+on the UI instead. Progress and Status Message are cosmetic and dependent on the
+executor to update. Similar to the UMoviePipelineExecutor::SetStatusMessage function,
+but at a per-job level basis instead.
+</p><p>For C++ implementations override <code>virtual void SetStatusMessage&#95;Implementation() override</code>
+For Python/BP implementations override
+@unreal.ufunction(override=True)
+def set_status_message(self, inStatus):
+</p><p>Target is Movie Pipeline Executor Job</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetStatusProgress"><p>Set Status Progress</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the progress of this job to the given value. If a positive value is provided
+the UI will show the progress bar, while a negative value will make the UI show the
+status message instead. Progress and Status Message are cosmetic and dependent on the
+executor to update. Similar to the UMoviePipelineExecutor::SetStatusProgress function,
+but at a per-job level basis instead.
+</p><p>For C++ implementations override <code>virtual void SetStatusProgress&#95;Implementation() override</code>
+For Python/BP implementations override
+@unreal.ufunction(override=True)
+def set_status_progress(self, inProgress):
+</p><p>Target is Movie Pipeline Executor Job</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ShouldRender"><p>Should Render</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether this should should be rendered
+</p><p>Target is Movie Pipeline Executor Shot</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Shutdown"><p>Shutdown</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Abandons any future work on this Movie Pipeline and runs through the shutdown flow to ensure already
+completed work is written to disk. This is a blocking-operation and will not return until all outstanding
+work has been completed.
+</p><p>Target is Movie Pipeline</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SocketMessageRecievedDelegate"><p>Socket Message Recieved Delegate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Socket Message Recieved Delegate:
+If this executor has been configured to connect to a socket, this event will be called each time the socket recieves something.
+The message response expected from the server should have a 4 byte (int32) size prefix for the string to specify how much data
+we should expect. This delegate will not get invoked until we recieve that many bytes from the socket connection to avoid broadcasting
+partial messages.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UpdateJobShotListfromSequence"><p>Update Job Shot List from Sequence</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Scan the provided sequence in the job to see which camera cut sections we would try to render and update the job's shotlist.
+</p><p>Target is Movie Pipeline Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="WarnUserOfUnsavedMap"><p>Warn User Of Unsaved Map</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Pop a dialog box that specifies that they cannot render due to never saved map. Only shows OK button.
+</p><p>Target is Movie Pipeline Editor Blueprint Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+<h2 id="categories">Categories</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Queue"><p>Queue</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Queue</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Rendering"><p>Rendering</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rendering</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

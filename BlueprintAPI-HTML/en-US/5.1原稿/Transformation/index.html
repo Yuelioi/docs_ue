@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Transformation/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Transformation | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Transformation/" hreflang="x-default" />
+
+	<meta name="title" content="Transformation" />
+<meta name="description" content="Transformation" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Transformation" />
+	<meta property="og:description" content="Transformation" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Transformation</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Transformation</h1>
+		</div>
+		<h2 >Transformation</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddActorLocalOffset"><p>Add Actor Local Offset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta to the location of this component in its local reference frame.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddActorLocalRotation"><p>Add Actor Local Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta to the rotation of this component in its local reference frame
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddActorLocalTransform"><p>Add Actor Local Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta to the transform of this component in its local reference frame
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddActorWorldOffset"><p>Add Actor World Offset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta to the location of this actor in world space.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddActorWorldRotation"><p>Add Actor World Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta to the rotation of this actor in world space.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddActorWorldTransform"><p>Add Actor World Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta to the transform of this actor in world space. Ignores scale and sets it to (1,1,1).
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddActorWorldTransformKeepScale"><p>Add Actor World Transform Keep Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta to the transform of this actor in world space. Scale is unchanged.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddLocalOffset"><p>Add Local Offset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta to the location of the component in its local reference frame
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddLocalRotation"><p>Add Local Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta to the rotation of the component in its local reference frame
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddLocalTransform"><p>Add Local Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta to the transform of the component in its local reference frame. Scale is unchanged.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddRelativeLocation"><p>Add Relative Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta to the translation of the component relative to its parent
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddRelativeRotation"><p>Add Relative Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta the rotation of the component relative to its parent
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddWorldOffset"><p>Add World Offset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta to the location of the component in world space.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddWorldRotation"><p>Add World Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta to the rotation of the component in world space.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddWorldTransform"><p>Add World Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta to the transform of the component in world space. Ignores scale and sets it to (1,1,1).
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddWorldTransformKeepScale"><p>Add World Transform Keep Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a delta to the transform of the component in world space. Scale is unchanged.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AttachActorToActor"><p>Attach Actor To Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attaches the RootComponent of this Actor to the supplied actor, optionally at a named socket.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AttachActorToComponent"><p>Attach Actor To Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attaches the RootComponent of this Actor to the supplied component, optionally at a named socket. It is not valid to call this on components that are not Registered.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AttachComponentToComponent"><p>Attach Component To Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attach this component to another scene component, optionally at a named socket. It is valid to call this on components whether or not they have been Registered.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DetachFromActor"><p>Detach From Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Detaches the RootComponent of this Actor from any SceneComponent it is currently attached to.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DetachFromComponent"><p>Detach From Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Detach this component from whatever it is attached to. Automatically unwelds components that are welded together (See WeldTo)
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DoesSocketExist"><p>Does Socket Exist</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return true if socket with the given name exists
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorArrayAverageLocation"><p>Get Actor Array Average Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find the average location (centroid) of an array of Actors
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorForwardVector"><p>Get Actor Forward Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the forward (X) vector (length 1.0) from this Actor, in world space.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorLocation"><p>Get Actor Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the location of the RootComponent of this Actor
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorRelativeScale3D"><p>Get Actor Relative Scale 3D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the actor's relative scale 3d
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorRightVector"><p>Get Actor Right Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the right (Y) vector (length 1.0) from this Actor, in world space.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorRotation"><p>Get Actor Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns rotation of the RootComponent of this Actor.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorScale3D"><p>Get Actor Scale 3D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the Actor's world-space scale.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorTransform"><p>Get Actor Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the actor-to-world transform.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorUpVector"><p>Get Actor Up Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the up (Z) vector (length 1.0) from this Actor, in world space.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllSocketNames"><p>Get All Socket Names</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the names of all the sockets on the component.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAttachParent"><p>Get Attach Parent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the SceneComponent we are attached to.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAttachSocketName"><p>Get Attach Socket Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the socket we are attached to.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetComponentVelocity"><p>Get Component Velocity</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get velocity of the component: either ComponentVelocity, or the velocity of the physics body if simulating physics.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDistanceTo"><p>Get Distance To</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the distance from this Actor to OtherActor.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDotProductTo"><p>Get Dot Product To</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the dot product from this Actor to OtherActor. Returns -2.0 on failure. Returns 0.0 for coincidental actors.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetForwardVector"><p>Get Forward Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the forward (X) unit direction vector from this component, in world space.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetHorizontalDistanceTo"><p>Get Horizontal Distance To</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the distance from this Actor to OtherActor, ignoring Z.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetHorizontalDotProductTo"><p>Get Horizontal Dot Product To</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the dot product from this Actor to OtherActor, ignoring Z. Returns -2.0 on failure. Returns 0.0 for coincidental actors.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRelativeTransform"><p>Get Relative Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the transform of the component relative to its parent
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRightVector"><p>Get Right Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the right (Y) unit direction vector from this component, in world space.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSocketLocation"><p>Get Socket Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get world-space socket or bone location.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSocketRotation"><p>Get Socket Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get world-space socket or bone  FRotator rotation.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSocketTransform"><p>Get Socket Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get world-space socket transform.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSquaredDistanceTo"><p>Get Squared Distance To</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the squared distance from this Actor to OtherActor.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSquaredHorizontalDistanceTo"><p>Get Squared Horizontal Distance To</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the squared distance from this Actor to OtherActor, ignoring Z.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUpVector"><p>Get Up Vector</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the up (Z) unit direction vector from this component, in world space.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVelocity"><p>Get Velocity</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns velocity (in cm/s (Unreal Units/second) of the rootcomponent if it is either using physics or has an associated MovementComponent
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVerticalDistanceTo"><p>Get Vertical Distance To</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the distance from this Actor to OtherActor, ignoring XY.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetWorldLocation"><p>Get World Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return location of the component, in world space
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetWorldRotation"><p>Get World Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns rotation of the component, in world space.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetWorldScale"><p>Get World Scale</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns scale of the component, in world space.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetWorldTransform"><p>Get World Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current component-to-world transform for this component
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResetRelativeTransform"><p>Reset Relative Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reset the transform of the component relative to its parent. Sets relative location to zero, relative rotation to no rotation, and Scale to 1.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetAbsolute"><p>Set Absolute</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set which parts of the relative transform should be relative to parent, and which should be relative to world
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetActorLocation"><p>Set Actor Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Move the Actor to the specified location.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetActorLocationAndRotation"><p>Set Actor Location And Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Move the actor instantly to the specified location and rotation.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetActorRelativeLocation"><p>Set Actor Relative Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the actor's RootComponent to the specified relative location.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetActorRelativeRotation"><p>Set Actor Relative Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the actor's RootComponent to the specified relative rotation
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetActorRelativeScale3D"><p>Set Actor Relative Scale 3D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the actor's RootComponent to the specified relative scale 3d
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetActorRelativeTransform"><p>Set Actor Relative Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the actor's RootComponent to the specified relative transform
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetActorRotation"><p>Set Actor Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the Actor's rotation instantly to the specified rotation.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetActorScale3D"><p>Set Actor Scale 3D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the Actor's world-space scale.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetActorTransform"><p>Set Actor Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the Actors transform to the specified one.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMobility"><p>Set Mobility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set how often this component is allowed to move during runtime. Causes a component re-register if the component is already registered
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRelativeLocation"><p>Set Relative Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the location of the component relative to its parent
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRelativeLocationAndRotation"><p>Set Relative Location And Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the location and rotation of the component relative to its parent
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRelativeRotation"><p>Set Relative Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the rotation of the component relative to its parent
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRelativeScale3D"><p>Set Relative Scale 3D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the non-uniform scale of the component relative to its parent
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRelativeTransform"><p>Set Relative Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the transform of the component relative to its parent
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetWorldLocation"><p>Set World Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Put this component at the specified location in world space. Updates relative location to achieve the final world location.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetWorldLocationAndRotation"><p>Set World Location And Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the relative location and rotation of the component to put it at the supplied pose in world space.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetWorldRotation"><p>Set World Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"></li></ul><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetWorldScale3D"><p>Set World Scale 3D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the relative scale of the component to put it at the supplied scale in world space.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetWorldTransform"><p>Set World Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the transform of the component in world space.
+</p><p>Target is Scene Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Teleport"><p>Teleport</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Teleport this actor to a new location. If the actor doesn't fit exactly at the location specified, tries to slightly move it out of walls and such.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

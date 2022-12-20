@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Ability/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Ability | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Ability/" hreflang="x-default" />
+
+	<meta name="title" content="Ability" />
+<meta name="description" content="Ability" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Ability" />
+	<meta property="og:description" content="Ability" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Ability</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Ability</h1>
+		</div>
+		<h2 >Ability</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    			    <li id="">
+	<p><a id="toc_link" href="#categories">Categories</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddGameplayCueToOwner"><p>Add GameplayCue To Owner</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a persistent gameplay cue to the ability owner. Optionally will remove if ability ends
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddGameplayCueWithParamsToOwner"><p>Add GameplayCueWithParams To Owner</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a persistent gameplay cue to the ability owner. Optionally will remove if ability ends
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ApplyGameplayEffectSpecToOwner"><p>ApplyGameplayEffectSpecToOwner</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Apply a previously created gameplay effect spec to the owner of this ability
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ApplyGameplayEffectSpecToTarget"><p>ApplyGameplayEffectSpecToTarget</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Apply a previously created gameplay effect spec to a target
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ApplyGameplayEffectToOwner"><p>ApplyGameplayEffectToOwner</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Apply a gameplay effect to the owner of this ability
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ApplyGameplayEffectToTarget"><p>ApplyGameplayEffectToTarget</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Apply a gameplay effect to a Target
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CancelTaskbyInstanceName"><p>Cancel Task by Instance Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add any task with this instance name to a list to be canceled (not ended) next frame.  See also EndTaskByInstanceName.
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CancelAbility"><p>CancelAbility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Call from Blueprint to cancel the ability naturally
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CheckAbilityCooldown"><p>CheckAbilityCooldown</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checks the ability's cooldown, but does not apply it.
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CheckAbilityCost"><p>CheckAbilityCost</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checks the ability's cost, but does not apply it.
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CommitAbility"><p>CommitAbility</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempts to commit the ability (spend resources, etc). This our last chance to fail. Child classes that override ActivateAbility must call this themselves!
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CommitAbilityCooldown"><p>CommitAbilityCooldown</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempts to commit the ability's cooldown only. If BroadcastCommitEvent is true, it will broadcast the commit event that tasks like WaitAbilityCommit are listening for.
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CommitAbilityCost"><p>CommitAbilityCost</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempts to commit the ability's cost only. If BroadcastCommitEvent is true, it will broadcast the commit event that tasks like WaitAbilityCommit are listening for.
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConfirmTaskbyInstanceName"><p>Confirm Task by Instance Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Finds all currently active tasks named InstanceName and confirms them. What this means depends on the individual task. By default, this does nothing other than ending if bEndTask is true.
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EndAbility"><p>End Ability</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Call from blueprints to forcibly end the ability without canceling it. This will replicate the end ability to the client or server which can interrupt tasks
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EndAbilityLocally"><p>End Ability Locally</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Call from blueprints to end the ability naturally. This will only end predicted abilities locally, allowing it end naturally on the client or server
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EndAbilityState"><p>End Ability State</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Ends any active ability state task with the given name. If name is 'None' all active states will be ended (in an arbitrary order).
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EndTaskbyInstanceName"><p>End Task by Instance Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add any task with this instance name to a list to be ended (not canceled) next frame.  See also CancelTaskByInstanceName.
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ExecuteGameplayCueOnOwner"><p>Execute GameplayCue On Owner</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Invoke a gameplay cue on the ability owner
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ExecuteGameplayCueWithParamsOnOw-"><p>Execute GameplayCueWithParams On Owner</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Invoke a gameplay cue on the ability owner, with extra parameters
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAbilityLevel"><p>Get Ability Level</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns current level of the Ability
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAbilitySystemComponent"><p>Get Ability System Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Tries to find an ability system component on the actor, will use AbilitySystemInterface or fall back to a component search
+</p><p>Target is Ability System Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAbilitySystemComponentfromAct-"><p>Get Ability System Component from Actor Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the AbilitySystemComponent that is activating this ability
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorInfo"><p>Get Actor Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the actor info associated with this ability, has cached pointers to useful objects
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAvatarActorfromActorInfo"><p>Get Avatar Actor from Actor Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the physical actor that is executing this ability. May be null
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetContextfromOwner"><p>Get Context from Owner</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Generates a GameplayEffectContextHandle from our owner and an optional TargetData.
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCooldownTimeRemaining"><p>Get Cooldown Time Remaining</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the time in seconds remaining on the currently active cooldown.
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentSourceObject"><p>Get Current Source Object</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Retrieves the SourceObject associated with this ability. Can only be called on instanced abilities.
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGrantedbyEffectContext"><p>Get Granted by Effect Context</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Retrieves the EffectContext of the GameplayEffect that granted this ability. Can only be called on instanced abilities.
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaxStamina"><p>Get Max Stamina</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Max Stamina
+</p><p>Target is Network Prediction Extras Flying Pawn Mock Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMockCharacterAbilityComponent"><p>Get Mock Character Ability Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mock Character Ability Component
+</p><p>Target is Network Prediction Extras Character Mock Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMockFlyingAbilityComponent"><p>Get Mock Flying Ability Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Mock Flying Ability Component
+</p><p>Target is Network Prediction Extras Flying Pawn Mock Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOwningActorfromActorInfo"><p>Get Owning Actor from Actor Info</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the actor that owns this ability, which may not have a physical location
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetStamina"><p>Get Stamina</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Stamina
+</p><p>Target is Network Prediction Extras Character Mock Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAbilityLevelNonInstanced"><p>GetAbilityLevelNonInstanced</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns current ability level for non instanced abilities. You must call this version in these contexts!
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSkeletalMeshComponentFromActo-"><p>GetSkeletalMeshComponentFromActorInfo</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convenience method for abilities to get skeletal mesh component - useful for aiming abilities
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSourceObjectNonInstanced"><p>GetSourceObjectNonInstanced</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Retrieves the SourceObject associated with this ability. Callable on non instanced
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasAuthority"><p>HasAuthority</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>K2 Has Authority
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InvalidateClientPredictionKey"><p>Invalidate Client Prediction Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Invalidates the current prediction key. This should be used in cases where there is a valid prediction window, but the server is doing logic that only he can do, and afterwards performs an action that the client could predict (had the client been able to run the server-only code prior).
+This returns instantly and has no other side effects other than clearing the current prediction key.
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsLocallyControlled"><p>Is Locally Controlled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>True if the owning actor is locally controlled, true in single player
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeOutgoingGameplayEffectSpec"><p>Make Outgoing Gameplay Effect Spec</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convenience method for abilities to get outgoing gameplay effect specs (for example, to pass on to projectiles to apply to whoever they hit)
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeTargetLocationInfofromOwnerA-"><p>Make Target Location Info from Owner Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a target location from where the owner avatar is
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeTargetLocationInfofromOwnerS-"><p>Make Target Location Info from Owner Skeletal Mesh Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a target location from a socket on the owner avatar's skeletal mesh
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveGameplayCueFromOwner"><p>Remove GameplayCue From Owner</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes a persistent gameplay cue from the ability owner
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveGrantedbyEffect"><p>Remove Granted by Effect</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the GameplayEffect that granted this ability. Can only be called on instanced abilities.
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveGameplayEffectFromOwnerWit-"><p>RemoveGameplayEffectFromOwnerWithAssetTags</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes GameplayEffects from owner which match the given asset level tags
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveGameplayEffectFromOwnerWit-_1"><p>RemoveGameplayEffectFromOwnerWithGrantedTags</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes GameplayEffects from owner which grant the given tags
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveGameplayEffectFromOwnerWit-_2"><p>RemoveGameplayEffectFromOwnerWithHandle</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes GameplayEffect from owner that match the given handle
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SendGameplayEvent"><p>Send Gameplay Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sends a gameplay event, also creates a prediction window
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SendGameplayEventtoActor"><p>Send Gameplay Event to Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>This function can be used to trigger an ability on the actor in question with useful payload data.
+</p><p>Target is Ability System Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCanbeCanceled"><p>Set Can be Canceled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets whether the ability should ignore cancel requests. Only valid on instanced abilities
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetShouldBlockOtherAbilities"><p>Set Should Block Other Abilities</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets rather ability block flags are enabled or disabled. Only valid on instanced abilities
+</p><p>Target is Gameplay Ability</p>
+	</td>
+</tr>
+			</table>
+</div>
+<h2 id="categories">Categories</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Animation"><p>Animation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Animation</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Async"><p>Async</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Async</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Attribute"><p>Attribute</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attribute</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EffectContext"><p>Effect Context</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Effect Context</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GameplayAbility"><p>Gameplay Ability</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gameplay Ability</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GameplayCue"><p>Gameplay Cue</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gameplay Cue</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GameplayEffect"><p>Gameplay Effect</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gameplay Effect</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TargetData"><p>Target Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Target Data</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Tasks"><p>Tasks</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Tasks</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

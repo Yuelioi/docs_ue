@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Utilities/Paths/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Paths | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Utilities/Paths/" hreflang="x-default" />
+
+	<meta name="title" content="Paths" />
+<meta name="description" content="Paths" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Utilities" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Paths" />
+	<meta property="og:description" content="Paths" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Utilities">Utilities</a>
+
+<span class="separator">></span> <span id="page">Paths</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Paths</h1>
+		</div>
+		<h2 >Paths</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AutomationDir"><p>Automation Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory for automation save files
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AutomationLogDir"><p>Automation Log Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory for automation log files
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AutomationTransientDir"><p>Automation Transient Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory for automation save files that are meant to be deleted every run
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BugItDir"><p>Bug It Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory the engine uses to output BugIt files.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ChangeExtension"><p>Change Extension</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Changes the extension of the given filename (does nothing if the file has no extension)
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CloudDir"><p>Cloud Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory for local files used in cloud emulation or support
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CollapseRelativeDirectories"><p>Collapse Relative Directories</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Takes a fully pathed string and eliminates relative pathing (eg: annihilates ".." with the adjacent directory).
+Assumes all slashes have been converted to TEXT('/').
+For example, takes the string:
+BaseDirectory/SomeDirectory/../SomeOtherDirectory/Filename.ext
+and converts it to:
+BaseDirectory/SomeOtherDirectory/Filename.ext
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Combine"><p>Combine</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Combine two or more Paths into one single Path
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConvertfromSandboxPath"><p>Convert from Sandbox Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a sandbox (in Saved/Sandboxes) path to a normal path.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConvertRelativePathtoFull"><p>Convert Relative Path to Full</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a relative path name to a fully qualified name relative to the specified BasePath.
+BasePath will be the process BaseDir() if not BasePath is given
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConverttoAbsolutePath"><p>Convert to Absolute Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts passed in filename to use a absolute path
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConverttoRelativePath"><p>Convert to Relative Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts passed in filename to use a relative path
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConverttoSandboxPath"><p>Convert to Sandbox Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Converts a normal path to a sandbox path (in Saved/Sandboxes).
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateTempFilename"><p>Create Temp Filename</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a temporary filename with the specified prefix.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DiffDir"><p>Diff Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory for temp files used for diffing
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DirectoryExists"><p>Directory Exists</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this directory was found, false otherwise
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EngineConfigDir"><p>Engine Config Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory the root configuration files are located.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EngineContentDir"><p>Engine Content Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the content directory of the "core" engine that can be shared across
+several games or across games &amp; mods.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EngineDir"><p>Engine Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the base directory of the "core" engine that can be shared across
+several games or across games &amp; mods. Shaders and base localization files
+e.g. reside in the engine directory.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EngineIntermediateDir"><p>Engine Intermediate Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the intermediate directory of the engine
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EnginePluginsDir"><p>Engine Plugins Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the plugins directory of the engine
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EngineSavedDir"><p>Engine Saved Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the saved directory of the engine
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EngineSourceDir"><p>Engine Source Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory where engine source code files are kept
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EngineUserDir"><p>Engine User Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the root directory for user-specific engine files. Always writable.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EngineVersionAgnosticUserDir"><p>Engine Version Agnostic User Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the root directory for user-specific engine files which can be shared between versions. Always writable.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EnterpriseDir"><p>Enterprise Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the base directory enterprise directory.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EnterpriseFeaturePackDir"><p>Enterprise Feature Pack Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the enterprise FeaturePack directory
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EnterprisePluginsDir"><p>Enterprise Plugins Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the enterprise plugins directory
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FeaturePackDir"><p>Feature Pack Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory where feature packs are kept
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FileExists"><p>File Exists</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this file was found, false otherwise
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GameAgnosticSavedDir"><p>Game Agnostic Saved Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the saved directory that is not game specific. This is usually the same as
+EngineSavedDir().
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GameDevelopersDir"><p>Game Developers Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory that contains subfolders for developer-specific content
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GameSourceDir"><p>Game Source Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory where game source code files are kept
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GameUserDeveloperDir"><p>Game User Developer Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory that contains developer-specific content for the current user
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GeneratedConfigDir"><p>Generated Config Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory the engine saves generated config files.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBaseFilename"><p>Get Base Filename</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the same thing as GetCleanFilename, but without the extension
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCleanFilename"><p>Get Clean Filename</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the filename (with extension), minus any path information.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEditorLocalizationPaths"><p>Get Editor Localization Paths</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a list of editor-specific localization paths
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEngineLocalizationPaths"><p>Get Engine Localization Paths</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a list of engine-specific localization paths
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetExtension"><p>Get Extension</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the extension for this filename.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGameLocalizationPaths"><p>Get Game Localization Paths</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a list of game-specific localization paths
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetInvalidFileSystemChars"><p>Get Invalid File System Chars</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a string containing all invalid characters as dictated by the operating system
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPath"><p>Get Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the path in front of the filename
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetProjectContentDirectory"><p>Get Project Content Directory</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the content directory of the current project
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetProjectDirectory"><p>Get Project Directory</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the directory of the current project
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetProjectFilePath"><p>Get Project File Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the path to the project file.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetProjectSavedDirectory"><p>Get Project Saved Directory</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the saved directory of the current project
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPropertyNameLocalizationPaths"><p>Get Property Name Localization Paths</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a list of property name localization paths
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRelativePathtoRoot"><p>Get Relative Path to Root</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the relative path to get from BaseDir to RootDirectory
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRestrictedFolderNames"><p>Get Restricted Folder Names</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a list of restricted/internal folder names (without any slashes) which may be tested against full paths to determine if a path is restricted or not.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSystemPath"><p>Get System Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the full system path to a UObject
+If given a non-asset UObject, it will return an empty string
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetToolTipLocalizationPaths"><p>Get Tool Tip Localization Paths</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a list of tool tip localization paths
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasProjectPersistentDownloadDir"><p>Has Project Persistent Download Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"><p>Returns true if a writable directory for downloaded data that persists across play sessions is available
+</p></li></ul><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsDrive"><p>Is Drive</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this path represents a root drive or volume
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsProjectFilePathSet"><p>Is Project File Path Set</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checks whether the path to the project file, if any, is set.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsRelative"><p>Is Relative</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this path is relative to another path
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsRestrictedPath"><p>Is Restricted Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Determines if supplied path uses a restricted/internal subdirectory.  Note that slashes are normalized and character case is ignored for the comparison.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsSamePath"><p>Is Same Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Checks if two paths are the same.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LaunchDir"><p>Launch Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory the application was launched from (useful for commandline utilities)
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakePathRelativeTo"><p>Make Path Relative To</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Assuming both paths (or filenames) are relative to the same base dir, converts InPath to be relative to InRelativeTo
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakePlatformFilename"><p>Make Platform Filename</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Takes an "Unreal" pathname and converts it to a platform filename.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeStandardFilename"><p>Make Standard Filename</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Make fully standard "Unreal" pathname:
+</p><ul ><li class="Default"><p>Normalizes path separators [NormalizeFilename]
+</p></li><li class="Default"><p>Removes extraneous separators  [NormalizeDirectoryName, as well removing adjacent separators]
+</p></li><li class="Default"><p>Collapses internal ..'s
+</p></li><li class="Default"><p>Makes relative to Engine\Binaries\&lt;Platform&gt; (will ALWAYS start with ..\..\..)
+</p></li></ul><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeValidFileName"><p>Make Valid File Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a string that is safe to use as a filename because all items in
+GetInvalidFileSystemChars() are removed
+</p><p>Optionally specify the character to replace invalid characters with
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NormalizeDirectoryName"><p>Normalize Directory Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Normalize all / and \ to TEXT("/") and remove any trailing TEXT("/") if the character before that is not a TEXT("/") or a colon
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="NormalizeFilename"><p>Normalize Filename</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Convert all / and \ to TEXT("/")
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ProfilingDir"><p>Profiling Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory the engine uses to output profiling files.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ProjectConfigDir"><p>Project Config Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory the root configuration files are located.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ProjectContentDir"><p>Project Content Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the content directory of the current game by looking at FApp::GetProjectName().
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ProjectDir"><p>Project Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the base directory of the current project by looking at FApp::GetProjectName().
+This is usually a subdirectory of the installation
+root directory and can be overridden on the command line to allow self
+contained mod support.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ProjectIntermediateDir"><p>Project Intermediate Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the intermediate directory of the current game by looking at FApp::GetProjectName().
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ProjectLogDir"><p>Project Log Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory the engine uses to output logs. This currently can't
+be an .ini setting as the game starts logging before it can read from .ini
+files.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ProjectModsDir"><p>Project Mods Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the mods directory of the current project by looking at FApp::GetProjectName().
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ProjectPersistentDownloadDir"><p>Project Persistent Download Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<ul ><li class="Default"><p>Returns the writable directory for downloaded data that persists across play sessions.
+</p></li></ul><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ProjectPluginsDir"><p>Project Plugins Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the plugins directory of the current game by looking at FApp::GetProjectName().
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ProjectSavedDir"><p>Project Saved Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the saved directory of the current game by looking at FApp::GetProjectName().
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ProjectUserDir"><p>Project User Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the root directory for user-specific game files.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveDuplicateSlashes"><p>Remove Duplicate Slashes</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes duplicate slashes in paths.
+Assumes all slashes have been converted to TEXT('/').
+For example, takes the string:
+BaseDirectory/SomeDirectory//SomeOtherDirectory////Filename.ext
+and converts it to:
+BaseDirectory/SomeDirectory/SomeOtherDirectory/Filename.ext
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RootDir"><p>Root Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the root directory of the engine directory tree
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SandboxesDir"><p>Sandboxes Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory the engine stores sandbox output
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ScreenShotDir"><p>Screen Shot Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory the engine uses to output screenshot files.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetExtension"><p>Set Extension</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the extension of the given filename (like ChangeExtension, but also applies the extension if the file doesn't have one)
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetProjectFilePath"><p>Set Project File Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the path to the project file.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ShaderWorkingDir"><p>Shader Working Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the Shader Working Directory
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ShouldSavetoUserDir"><p>Should Save to User Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Should the "saved" directory structures be rooted in the user dir or relative to the "engine/game"
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SourceConfigDir"><p>Source Config Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory the engine uses to look for the source leaf ini files. This
+can't be an .ini variable for obvious reasons.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Split"><p>Split</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Parses a fully qualified or relative filename into its components (filename, path, extension).
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ValidatePath"><p>Validate Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Validates that the parts that make up the path contain no invalid characters as dictated by the operating system
+Note that this is a different set of restrictions to those imposed by FPackageName
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="VideoCaptureDir"><p>Video Capture Dir</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the directory the engine uses to output user requested video capture files.
+</p><p>Target is Blueprint Paths Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

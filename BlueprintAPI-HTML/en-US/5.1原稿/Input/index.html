@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Input/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Input | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Input/" hreflang="x-default" />
+
+	<meta name="title" content="Input" />
+<meta name="description" content="Input" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Input" />
+	<meta property="og:description" content="Input" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Input</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Input</h1>
+		</div>
+		<h2 >Input</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    			    <li id="">
+	<p><a id="toc_link" href="#categories">Categories</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddMappingContext"><p>Add Mapping Context</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a control mapping context.
+</p><p>Target is Enhanced Input Subsystem Interface</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddMappingContext_Message"><p>Add Mapping Context (Message)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Add a control mapping context.
+</p><p>Target is Enhanced Input Subsystem Interface</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BindAnalogEvent"><p>Bind Analog Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bind Analog Event
+</p><p>Target is VCam Input Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BindKeyDownEvent"><p>Bind Key Down Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bind Key Down Event
+</p><p>Target is VCam Input Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BindKeyUpEvent"><p>Bind Key Up Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bind Key Up Event
+</p><p>Target is VCam Input Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BindMouseButtonDownEvent"><p>Bind Mouse Button Down Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bind Mouse Button Down Event
+</p><p>Target is VCam Input Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BindMouseButtonUpEvent"><p>Bind Mouse Button Up Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bind Mouse Button Up Event
+</p><p>Target is VCam Input Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BindMouseDoubleClickEvent"><p>Bind Mouse Double Click Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bind Mouse Double Click Event
+</p><p>Target is VCam Input Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BindMouseMoveEvent"><p>Bind Mouse Move Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bind Mouse Move Event
+</p><p>Target is VCam Input Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BindMouseWheelEvent"><p>Bind Mouse Wheel Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bind Mouse Wheel Event
+</p><p>Target is VCam Input Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BreakInputActionValue"><p>Break Input Action Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Breaks an ActionValue into X, Y, Z. Axes not supported by value type will be 0.
+</p><p>Target is Enhanced Input Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearAllMappings"><p>Clear All Mappings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove all applied mapping contexts.
+</p><p>Target is Enhanced Input Subsystem Interface</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearAllMappings_Message"><p>Clear All Mappings (Message)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove all applied mapping contexts.
+</p><p>Target is Enhanced Input Subsystem Interface</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateBoolLocalValueInput"><p>Create Bool Local Value Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Bool Local Value Input
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateDataValueInput"><p>Create Data Value Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Data Value Input
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateDynamicValueInput"><p>Create Dynamic Value Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Dynamic Value Input
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateEnumLocalValueInput"><p>Create Enum Local Value Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Enum Local Value Input
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateExpressionValueInput"><p>Create Expression Value Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Expression Value Input
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateFloatLocalValueInput"><p>Create Float Local Value Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Float Local Value Input
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateIntLocalValueInput"><p>Create Int Local Value Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Int Local Value Input
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateLinkedValueInput"><p>Create Linked Value Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Linked Value Input
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateRootMotionSource"><p>Create Root Motion Source</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Root Motion Source
+</p><p>Target is Mock Root Motion Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateStructLocalValueInput"><p>Create Struct Local Value Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Struct Local Value Input
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateVec2LocalValueInput"><p>Create Vec 2Local Value Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Vec 2Local Value Input
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateVec3LocalValueInput"><p>Create Vec 3Local Value Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create Vec 3Local Value Input
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DisableInput"><p>Disable Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes this actor from the stack of input being handled by a PlayerController.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EnableInput"><p>Enable Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Pushes this actor on to the stack of input being handled by a PlayerController.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetShouldConsumeGamepadInput"><p>Get Should Consume Gamepad Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Should Consume Gamepad Input
+</p><p>Target is VCam Input Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTypeName"><p>Get Type Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Type Name
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InjectInputforAction"><p>Inject Input for Action</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Input simulation via injection. Runs modifiers and triggers delegates as if the input had come through the underlying input system as FKeys.
+Applies action modifiers and triggers on top.
+</p><p>Target is Enhanced Input Subsystem Interface</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InjectInputforAction_Message"><p>Inject Input for Action (Message)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Input simulation via injection. Runs modifiers and triggers delegates as if the input had come through the underlying input system as FKeys.
+Applies action modifiers and triggers on top.
+</p><p>Target is Enhanced Input Subsystem Interface</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InjectInputVectorforAction"><p>Inject Input Vector for Action</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Input simulation via injection. Runs modifiers and triggers delegates as if the input had come through the underlying input system as FKeys.
+Applies action modifiers and triggers on top.
+</p><p>Target is Enhanced Input Subsystem Interface</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InjectInputVectorforAction_Messa-"><p>Inject Input Vector for Action (Message)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Input simulation via injection. Runs modifiers and triggers delegates as if the input had come through the underlying input system as FKeys.
+Applies action modifiers and triggers on top.
+</p><p>Target is Enhanced Input Subsystem Interface</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InputPlayRootMotionSource"><p>Input Play Root Motion Source</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Input Play Root Motion Source
+</p><p>Target is Mock Root Motion Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InputPlayRootMotionSourcebyClass"><p>Input Play Root Motion Source by Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Input Play Root Motion Source by Class
+</p><p>Target is Mock Root Motion Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsLookInputIgnored"><p>Is Look Input Ignored</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if look input is ignored.
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsMoveInputIgnored"><p>Is Move Input Ignored</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if movement input is ignored.
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeInputActionValue"><p>Make Input Action Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Builds an ActionValue from X, Y, Z. Inherits type from an existing ActionValue. Ignores axis values unused by the provided value type.
+Note: Intended for use in Input Modifier Modify Raw overloads to modify an existing Input Action Value.
+</p><p>Target is Enhanced Input Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnGenerateLocalInputCmd"><p>On Generate Local Input Cmd</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Generate Local Input Cmd:
+Event called when local input is needed: fill out PendingInputCmd with latest input data</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveMappingContext"><p>Remove Mapping Context</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove a specific control context.
+This is safe to call even if the context is not applied.
+</p><p>Target is Enhanced Input Subsystem Interface</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveMappingContext_Message"><p>Remove Mapping Context (Message)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove a specific control context.
+This is safe to call even if the context is not applied.
+</p><p>Target is Enhanced Input Subsystem Interface</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RequestRebuildControlMappings"><p>Request Rebuild Control Mappings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Flag player for reapplication of all mapping contexts at the end of this frame.
+This is called automatically when adding or removing mappings contexts.
+</p><p>Target is Enhanced Input Subsystem Interface</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RequestRebuildControlMappings_Me-"><p>Request Rebuild Control Mappings (Message)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Flag player for reapplication of all mapping contexts at the end of this frame.
+This is called automatically when adding or removing mappings contexts.
+</p><p>Target is Enhanced Input Subsystem Interface</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RequestRebuildControlMappingsUsi-"><p>Request Rebuild Control Mappings Using Context</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Flag all enhanced input subsystems making use of the mapping context for reapplication of all control mappings at the end of this frame.
+</p><p>Target is Enhanced Input Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResetIgnoreInputFlags"><p>Reset Ignore Input Flags</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reset move and look input ignore flags.
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResetIgnoreLookInput"><p>Reset Ignore Look Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Stops ignoring look input by resetting the ignore look input state.
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResetIgnoreMoveInput"><p>Reset Ignore Move Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Stops ignoring move input by resetting the ignore move input state.
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIgnoreLookInput"><p>Set Ignore Look Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Locks or unlocks look input, consecutive calls stack up and require the same amount of calls to undo, or can all be undone using ResetIgnoreLookInput.
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetIgnoreMoveInput"><p>Set Ignore Move Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Locks or unlocks movement input, consecutive calls stack up and require the same amount of calls to undo, or can all be undone using ResetIgnoreMoveInput.
+</p><p>Target is Controller</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetInputModeGameAndUI"><p>Set Input Mode Game And UI</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Setup an input mode that allows only the UI to respond to user input, and if the UI doesn't handle it player input / player controller gets a chance.
+</p><p>Note: This means that any bound Input events in the widget will be called.
+</p><p>Target is Widget Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetInputModeGameOnly"><p>Set Input Mode Game Only</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Setup an input mode that allows only player input / player controller to respond to user input.
+</p><p>Note: Any bound Input Events in this widget will be called.
+</p><p>Target is Widget Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetInputModeUIOnly"><p>Set Input Mode UI Only</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Setup an input mode that allows only the UI to respond to user input.
+</p><p>Note: This means that any bound Input Events in the widget will not be called!
+</p><p>Target is Widget Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetShouldConsumeGamepadInput"><p>Set Should Consume Gamepad Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>By default the editor will use gamepads to control the editor camera
+Setting this to true will prevent this
+</p><p>Target is VCam Input Subsystem</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Touch"><p>Touch</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Event for when a finger presses, releases or is moved on a touch device.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TryGetInputbyName"><p>Try Get Input by Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Try Get Input by Name
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TryGetLocalValueasFloat"><p>Try Get Local Value as Float</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Try Get Local Value as Float
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TryGetLocalValueasInt"><p>Try Get Local Value as Int</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Try Get Local Value as Int
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TrySetLocalValueasInt"><p>Try Set Local Value as Int</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Try Set Local Value as Int
+</p><p>Target is Niagara Clipboard Editor Scripting Utilities</p>
+	</td>
+</tr>
+			</table>
+</div>
+<h2 id="categories">Categories</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AnalogEvent"><p>Analog Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Analog Event</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AndroidEvents"><p>Android Events</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Android Events</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugEvents"><p>Debug Events</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Debug Events</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GamepadEvents"><p>Gamepad Events</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Input events for gamepad buttons and axes.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GamepadValues"><p>Gamepad Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gamepad Values</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GenericUSBControllerEvents"><p>Generic USBController Events</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Generic USBController Events</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HeadMountedDisplay"><p>Head Mounted Display</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Head Mounted Display</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="InputEvent"><p>Input Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Input Event</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Key"><p>Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Key</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="KeyEvent"><p>Key Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Key Event</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="KeyboardEvents"><p>Keyboard Events</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Keyboard Events</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="KeyboardValues"><p>Keyboard Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Keyboard Values</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MappingQueries"><p>Mapping Queries</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Mapping Queries</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MotionEvents"><p>Motion Events</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Motion Events</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MotionTracking"><p>Motion Tracking</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Motion Tracking</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MouseEvents"><p>Mouse Events</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Input events for mouse buttons and axes.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MouseInput"><p>Mouse Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Mouse Input</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MouseValues"><p>Mouse Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Mouse Values</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OculusHandEvents"><p>Oculus Hand Events</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Oculus Hand Events</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OculusHandValues"><p>Oculus Hand Values</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Oculus Hand Values</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OculusRemoteEvents"><p>Oculus Remote Events</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Oculus Remote Events</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlayerMappable"><p>Player Mappable</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Player Mappable</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PointerEvent"><p>Pointer Event</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Pointer Event</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SteamEvents"><p>Steam Events</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Steam Events</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TouchEvents"><p>Touch Events</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Touch Events</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TouchInput"><p>Touch Input</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Touch Input</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="XBoxOneEvents"><p>XBox One Events</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>XBox One Events</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="XRTracking"><p>XRTracking</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>XRTracking</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

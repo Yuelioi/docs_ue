@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Game/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Game | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Game/" hreflang="x-default" />
+
+	<meta name="title" content="Game" />
+<meta name="description" content="Game" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Game" />
+	<meta property="og:description" content="Game" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Game</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Game</h1>
+		</div>
+		<h2 >Game</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    			    <li id="">
+	<p><a id="toc_link" href="#categories">Categories</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AbortMatch"><p>Abort Match</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Report that a match has failed due to unrecoverable error
+</p><p>Target is Game Mode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddComponentbyClass"><p>Add Component by Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a component to an actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CancelAsyncLoading"><p>Cancel Async Loading</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Cancels all currently queued streaming packages
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ChangeName"><p>Change Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the name for a controller
+</p><p>Target is Game Mode Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConstructObjectfromClass"><p>Construct Object from Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempts to spawn a new object</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateInstance"><p>Create Instance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a new instance of this streaming level with a provided unique instance name
+</p><p>Target is Level Streaming</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateLocalPlayer"><p>Create Local Player</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a new local player for this game, for cases like local multiplayer.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EnableLiveStreaming"><p>Enable Live Streaming</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Toggle live DVR streaming.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EndMatch"><p>End Match</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Transition from InProgress to WaitingPostMatch. You can call this manually, will also get called if ReadyToEndMatch returns true
+</p><p>Target is Game Mode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindPlayerStart"><p>FindPlayerStart</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return the specific player start actor that should be used for the next spawn
+This will either use a previously saved startactor, or calls ChoosePlayerStart
+</p><p>Target is Game Mode Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FlushLevelStreaming"><p>Flush Level Streaming</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Flushes level streaming in blocking fashion and returns when all sub-levels are loaded / visible / hidden
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentLevelName"><p>Get Current Level Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the name of the currently-open level.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGameBundleId"><p>Get Game Bundle Id</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Retrieves the game's platform-specific bundle identifier or package name of the game
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGameInstance"><p>Get Game Instance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the game instance object
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGameMode"><p>Get Game Mode</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the current GameModeBase or Null if it can't be retrieved, such as on the client
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGameName"><p>Get Game Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the name of the current game
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGameState"><p>Get Game State</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the current GameStateBase or Null if it can't be retrieved
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetInstigator"><p>Get Instigator</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the instigator for this actor, or nullptr if there is none.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetInstigatorController"><p>Get Instigator Controller</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the instigator's controller for this actor, or nullptr if there is none.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLoadedLevel"><p>Get Loaded Level</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets a pointer to the LoadedLevel value
+</p><p>Target is Level Streaming</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalPlayerControllerFromID"><p>Get Local Player Controller From ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the player controller with the specified physical controller ID. This only works for local players.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLocalPlayerControllerID"><p>Get Local Player Controller ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets what physical controller ID a player is using. This only works for local player controllers.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMatchState"><p>Get Match State</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the current match state, this is an accessor to protect the state machine flow
+</p><p>Target is Game Mode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumLocalPlayerControllers"><p>Get Num Local Player Controllers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of fully initialized local players, this will be 0 on dedicated servers.
+Indexes up to this can be used as PlayerIndex parameters for the following functions, and you are guaranteed to get a local player controller.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumPlayerControllers"><p>Get Num Player Controllers</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the total number of available player controllers, including remote players when called on a server.
+Indexes up to this can be used as PlayerIndex parameters for the following functions.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumPlayerStates"><p>Get Num Player States</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of active player states, there is one player state for every connected player even if they are a remote client.
+Indexes up to this can be use as PlayerStateIndex parameters for other functions.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumPlayers"><p>Get Num Players</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns number of active human players, excluding spectators
+</p><p>Target is Game Mode Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumSpectators"><p>Get Num Spectators</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns number of human players currently spectating
+</p><p>Target is Game Mode Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlatformName"><p>Get Platform Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the string name of the current platform, to perform different behavior based on platform.
+(Platform names include Windows, Mac, IOS, Android, PS4, XboxOne, Linux)
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlayerCameraManager"><p>Get Player Camera Manager</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the camera manager for the Player Controller at the specified player index.
+This will not include remote clients with no player controller.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlayerCharacter"><p>Get Player Character</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the pawn for the player controller at the specified player index, will return null if the pawn is not a character.
+This will not include characters of remote clients with no available player controller, you can iterate the PlayerStates list for that.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlayerController"><p>Get Player Controller</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the player controller found while iterating through the local and available remote player controllers.
+On a network client, this will only include local players as remote player controllers are not available.
+The index will be consistent as long as no new players join or leave, but it will not be the same across different clients and servers.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlayerPawn"><p>Get Player Pawn</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the pawn for the player controller at the specified player index.
+This will not include pawns of remote clients with no available player controller, you can use the player states list for that.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlayerState"><p>Get Player State</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the player state at the given index in the game state's PlayerArray.
+This will work on both the client and server and the index will be consistent.
+After initial replication, all clients and the server will have access to PlayerStates for all connected players.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlayerStatefromUniqueNetId"><p>Get Player State from Unique Net Id</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the player state that matches the passed in online id, or null for an invalid one.
+This will work on both the client and server for local and remote players.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetStreamingLevel"><p>Get Streaming Level</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns level streaming object with specified level package name
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetWorldAssetPackageFName"><p>Get World Asset Package FName</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the package name for the world asset referred to by this level streaming as an FName
+</p><p>Target is Level Streaming</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetWorldOriginLocation"><p>Get World Origin Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns world origin current location.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasMatchEnded"><p>Has Match Ended</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the match can be considered ended. Defaults to false.
+</p><p>Target is Game State Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasMatchStarted"><p>Has Match Started</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the match start callbacks have been called
+</p><p>Target is Game Mode Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsActorBeingDestroyed"><p>Is Actor Being Destroyed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this actor is currently being destroyed, some gameplay events may be unsafe
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsGamePaused"><p>Is Game Paused</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the game's paused state
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsLevelLoaded"><p>Is Level Loaded</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether streaming level is loaded
+</p><p>Target is Level Streaming</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsLevelVisible"><p>Is Level Visible</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether streaming level is visible
+</p><p>Target is Level Streaming</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsMatchinProgress"><p>Is Match in Progress</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the match state is InProgress or other gameplay state
+</p><p>Target is Game Mode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsStreamingStatePending"><p>Is Streaming State Pending</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns whether level has streaming state change pending
+</p><p>Target is Level Streaming</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LoadStreamLevel_byName"><p>Load Stream Level (by Name)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Stream the level (by Name); Calling again before it finishes has no effect
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LoadStreamLevel_byObjectReferenc-"><p>Load Stream Level (by Object Reference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Stream the level (by Object Reference); Calling again before it finishes has no effect
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnDestroyed"><p>On Destroyed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Destroyed:
+Event triggered when the actor has been explicitly destroyed.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnEndPlay"><p>On End Play</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On End Play:
+Event triggered when the actor is being deleted or removed from a level.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OpenLevel_byName"><p>Open Level (by Name)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Travel to another level
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OpenLevel_byObjectReference"><p>Open Level (by Object Reference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Travel to another level
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlayerCanRestart"><p>Player Can Restart</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if it's valid to call RestartPlayer. By default will call Player-&gt;CanRestartPlayer
+</p><p>Target is Game Mode Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PredictProjectilePath_Advanced"><p>Predict Projectile Path (Advanced)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Predict the arc of a virtual projectile affected by gravity with collision checks along the arc.
+Returns true if it hit something.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PredictProjectilePathByObjectTyp-"><p>Predict Projectile Path By ObjectType</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Predict the arc of a virtual projectile affected by gravity with collision checks along the arc. Returns a list of positions of the simulated arc and the destination reached by the simulation.
+Returns true if it hit something.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PredictProjectilePathByTraceChan-"><p>Predict Projectile Path By TraceChannel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Predict the arc of a virtual projectile affected by gravity with collision checks along the arc. Returns a list of positions of the simulated arc and the destination reached by the simulation.
+Returns true if it hit something (if tracing with collision).
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="QuitGame"><p>Quit Game</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Exit the current game
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RebaseLocalOriginOntoZero"><p>Rebase Local Origin Onto Zero</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns origin based position for local world location.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RebaseZeroOriginOntoLocal"><p>Rebase Zero Origin Onto Local</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns local location for origin based position.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveLocalPlayer"><p>Remove Local Player</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes a local player from this game.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RenderTargetCreateStaticTextureE-"><p>Render Target Create Static Texture Editor Only</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Creates a new Static Texture from a Render Target 2D. Render Target Must be power of two and use four channels.
+Only works in the editor
+</p><p>Target is Kismet Rendering Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResetLevel"><p>Reset Level</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Overridable function called when resetting level. This is used to reset the game state while staying in the same map
+Default implementation calls Reset() on all actors except GameMode and Controllers
+</p><p>Target is Game Mode Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RestartGame"><p>Restart Game</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Restart the game, by default travel to the current map
+</p><p>Target is Game Mode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RestartPlayer"><p>Restart Player</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Tries to spawn the player's pawn, at the location returned by FindPlayerStart
+</p><p>Target is Game Mode Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RestartPlayeratPlayerStart"><p>Restart Player at Player Start</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Tries to spawn the player's pawn at the specified actor's location
+</p><p>Target is Game Mode Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RestartPlayeratTransform"><p>Restart Player at Transform</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Tries to spawn the player's pawn at a specific location
+</p><p>Target is Game Mode Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReturntoMainMenuHost"><p>Return to Main Menu Host</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return to main menu, and disconnect any players
+</p><p>Target is Game Mode Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetGamePaused"><p>Set Game Paused</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the game's paused state
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLocalPlayerControllerID"><p>Set Local Player Controller ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets what physical controller ID a player should be using. This only works for local player controllers.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetWorldOriginLocation"><p>Set World Origin Location</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Requests a new location for a world origin.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SpawnActorfromClass"><p>Spawn Actor from Class</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attempts to spawn a new Actor with the specified transform</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="StartMatch"><p>Start Match</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Transition from WaitingToStart to InProgress. You can call this manually, will also get called if ReadyToStartMatch returns true
+</p><p>Target is Game Mode</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="StartPlay"><p>Start Play</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Transitions to calls BeginPlay on actors.
+</p><p>Target is Game Mode Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SuggestProjectileVelocity"><p>Suggest Projectile Velocity</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Calculates an launch velocity for a projectile to hit a specified point.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SuggestProjectileVelocityCustomA-"><p>Suggest Projectile Velocity Custom Arc</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the launch velocity needed for a projectile at rest at StartPos to land on EndPos.
+Assumes a medium arc (e.g. 45 deg on level ground). Projectile velocity is variable and unconstrained.
+Does no tracing.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UnloadStreamLevel_byName"><p>Unload Stream Level (by Name)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Unload a streamed in level (by Name)
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UnloadStreamLevel_byObjectRefere-"><p>Unload Stream Level (by Object Reference)</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Unload a streamed in level (by Object Reference)
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+			</table>
+</div>
+<h2 id="categories">Categories</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Audio"><p>Audio</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Audio</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Cinematic"><p>Cinematic</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Cinematic</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Components"><p>Components</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Components</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Damage"><p>Damage</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Damage</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Feedback"><p>Feedback</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Feedback</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ImagePlate"><p>Image Plate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Image Plate</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Loading"><p>Loading</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Loading</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Player"><p>Player</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Player</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

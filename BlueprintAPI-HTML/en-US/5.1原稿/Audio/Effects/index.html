@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Audio/Effects/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Effects | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Audio/Effects/" hreflang="x-default" />
+
+	<meta name="title" content="Effects" />
+<meta name="description" content="Effects" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Audio" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Effects" />
+	<meta property="og:description" content="Effects" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Audio">Audio</a>
+
+<span class="separator">></span> <span id="page">Effects</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Effects</h1>
+		</div>
+		<h2 >Effects</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    			    <li id="">
+	<p><a id="toc_link" href="#categories">Categories</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddMasterSubmixEffect"><p>Add Master Submix Effect</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a submix effect preset to the master submix.
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddSourceEffecttoPresetChain"><p>Add Source Effect to Preset Chain</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds source effect entry to preset chain. Only effects the instance of the preset chain
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AddSubmixEffect"><p>Add Submix Effect</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds a submix effect preset to the given submix at the end of its submix effect chain. Returns the number of submix effects.
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearMasterSubmixEffects"><p>Clear Master Submix Effects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clears all master submix effects.
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearSubmixEffectChainOverride"><p>Clear Submix Effect Chain Override</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clears all submix effect overrides on the given submix and returns it to the default effect chain.
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearSubmixEffects"><p>Clear Submix Effects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clears all submix effects on the given submix.
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumberOfEntriesinSourceEffect-"><p>Get Number Of Entries in Source Effect Chain</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of effect chain entries in the given source effect chain.
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RegisterEnvelopeFollowerListener"><p>Register Envelope Follower Listener</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Registers an envelope follower listener with the effect.
+</p><p>Target is Source Effect Envelope Follower Preset</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveMasterSubmixEffect"><p>Remove Master Submix Effect</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes a submix effect preset from the master submix.
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveSourceEffectfromPresetChai-"><p>Remove Source Effect from Preset Chain</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Adds source effect entry to preset chain. Only affects the instance of preset chain.
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveSubmixEffect"><p>Remove Submix Effect</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes all instances of a submix effect preset from the given submix.
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveSubmixEffectatIndex"><p>Remove Submix Effect at Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Removes the submix effect at the given submix chain index, if there is a submix effect at that index.
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReplaceSubmixEffect"><p>Replace Submix Effect</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Replaces the submix effect at the given submix chain index, adds the effect if there is none at that index.
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ResetKey"><p>Reset Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reset Key
+</p><p>Target is Submix Effect Dynamics Processor Preset</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetAudioBus"><p>Set Audio Bus</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the source key input as the provided AudioBus' output.  If no object is provided, key is set
+to effect's input.
+</p><p>Target is Submix Effect Multiband Compressor Preset</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetBypassSourceEffectChainEntry"><p>Set Bypass Source Effect Chain Entry</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set whether or not to bypass the effect at the source effect chain index.
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetExternalSubmix"><p>Set External Submix</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the source key input as the provided Submix's output.  If no object is provided, key is set
+to effect's input.
+</p><p>Target is Submix Effect Dynamics Processor Preset</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSettings"><p>Set Settings</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Settings
+</p><p>Target is Source Effect Dynamics Processor Preset</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSettingswithReverbEffect"><p>Set Settings with Reverb Effect</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Settings with Reverb Effect
+</p><p>Target is Submix Effect Reverb Preset</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetSubmixEffectChainOverride"><p>Set Submix Effect Chain Override</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets a submix effect chain override on the given submix. The effect chain will cross fade from the base effect chain or current override to the new override.
+</p><p>Target is Audio Mixer Blueprint Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UnregisterEnvelopeFollowerListen-"><p>Unregister Envelope Follower Listener</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Unregisters an envelope follower listener with the effect.
+</p><p>Target is Source Effect Envelope Follower Preset</p>
+	</td>
+</tr>
+			</table>
+</div>
+<h2 id="categories">Categories</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BitCrusher"><p>Bit Crusher</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bit Crusher</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Chorus"><p>Chorus</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Chorus</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Delay"><p>Delay</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Delay</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Filter"><p>Filter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Filter</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="TapDelay"><p>Tap Delay</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Tap Delay</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

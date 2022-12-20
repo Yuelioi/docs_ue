@@ -1,0 +1,22 @@
+# CastToMaterialExpressionTwoSided-
+
+Tries to access object as a class it may be an instance of.
+
+## 图示
+
+![]($-20221218-13004738.png)
+
+## Inputs
+
+In: Exec.
+
+Object: Object Wildcard.  
+
+## Outputs
+
+Out: Exec.
+
+Cast Failed: Exec.
+
+As Material Expression Two Sided Sign: Material Expression Two Sided Sign Object Reference.
+

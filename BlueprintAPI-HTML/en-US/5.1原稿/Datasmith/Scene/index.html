@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Datasmith/Scene/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Scene | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Datasmith/Scene/" hreflang="x-default" />
+
+	<meta name="title" content="Scene" />
+<meta name="description" content="Scene" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Datasmith" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Scene" />
+	<meta property="og:description" content="Scene" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Datasmith">Datasmith</a>
+
+<span class="separator">></span> <span id="page">Scene</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Scene</h1>
+		</div>
+		<h2 >Scene</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AttachActor"><p>Attach Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attach the actor to his new parent. Detach the actor if he was already attach.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="AttachActortoSceneRoot"><p>Attach Actor to Scene Root</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Attach the actor to the scene root. Detach the actor if he was already attach.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateActorBinding"><p>Create Actor Binding</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a new actor binding and add it to this variant
+</p><p>Target is Datasmith Variant Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateCameraActor"><p>Create Camera Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a new Camera Actor and add it to the Datasmith scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateLevelVariantSets"><p>Create Level Variant Sets</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a new level variant sets and add it to the Datasmith scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateMesh"><p>Create Mesh</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a new Mesh and add it to the Datasmith scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateMeshActor"><p>Create Mesh Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a new MeshActor and add it to the Datasmith scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateObjectPropertyCapture"><p>Create Object Property Capture</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a new object property capture and add it to this binding
+</p><p>Target is Datasmith Actor Binding Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreatePropertyCapture"><p>Create Property Capture</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a new property capture and add it to this binding
+</p><p>Target is Datasmith Actor Binding Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateTexture"><p>Create Texture</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a new Texture and add it to the Datasmith scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateVariant"><p>Create Variant</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a new variant and add it to the parent variant set
+</p><p>Target is Datasmith Variant Set Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateVariantSet"><p>Create Variant Set</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a new variant set and add it to the parent level variant sets
+</p><p>Target is Datasmith Level Variant Sets Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DestroyScene"><p>Destroy Scene</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Destroy reference to the udatasmith file. The Scene will no longer be available.
+DestroyScene is called automatically after ImportScene.
+</p><p>Target is Datasmith Scene Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllCameraActors"><p>Get All Camera Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create an array with all the CameraActor in the Datasmith scene without taking into account the hierarchy.
+Use CreateCameraActor -or- RemoveCameraActor to modify the Datasmith scene.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllCustomActors"><p>Get All Custom Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create an array with all the CustomActor in the Datasmith scene without taking into account the hierarchy.
+Use RemoveCustomActor to modify the Datasmith scene.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllLevelVariantSets"><p>Get All Level Variant Sets</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create an array with all the level variants sets from the Datasmith scene
+Use CreateLevelVariantSets -or- RemoveLevelVariantSets to modify the Datasmith scene.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllLightActors"><p>Get All Light Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create an array with all the LightActor in the Datasmith scene without taking into account the hierarchy.
+Use RemoveLightActor to modify the Datasmith scene.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllMaterials"><p>Get All Materials</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create an array with all the Materials in the Datasmith scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllMeshActors"><p>Get All Mesh Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create an array with all the MeshActor in the Datasmith scene without taking into account the hierarchy.
+Use CreateMeshActor -or- RemoveMeshActor to modify the Datasmith scene.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllMetadata"><p>Get All Metadata</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find all metadata elements associated with objects of the given type.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllObjectsandValuesforKey"><p>Get All Objects and Values for Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find all objects of the given type that have a metadata element that contains the given key and their associated values.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAllOptions"><p>Get All Options</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>List all the options structures applicable on this scene
+</p><p>Target is Datasmith Scene Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCameraActors"><p>Get Camera Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create an array with the CameraActor in the Datasmith scene that are at the root level of the hierarchy.
+Use CreateCameraActor -or- RemoveCameraActor to modify the Datasmith scene.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomActors"><p>Get Custom Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create an array with the CustomActor in the Datasmith scene that are at the root level of the hierarchy.
+Use RemoveCustomActor to modify the Datasmith scene.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetExportDuration"><p>Get Export Duration</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the time taken to export the scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetExporterVersion"><p>Get Exporter Version</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the Datasmith version used to export the scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetHost"><p>Get Host</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the name of the host application which created the scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLightActors"><p>Get Light Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create an array with the LightActor in the Datasmith scene that are at the root level of the hierarchy.
+Use RemoveLightActor to modify the Datasmith scene.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMeshActors"><p>Get Mesh Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create an array with the MeshActor in the Datasmith scene that are at the root level of the hierarchy.
+Use CreateMeshActor -or- RemoveMeshActor to modify the Datasmith scene.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMeshbyPathName"><p>Get Mesh by Path Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Find in the Datasmith scene the MeshElement that correspond to the mesh path name.
+The function will return an invalid MeshElement, if the MeshPathName is empty or if it's not relative to the Datasmith scene or if it's not found.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMeshes"><p>Get Meshes</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create an array with all the Mesh in the Datasmith scene. Use CreateMesh -or- RemoveMesh to modify the Datasmith scene.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMetadataForObject"><p>Get Metadata For Object</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Meta Data for Object
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMetadataKeysAndValuesForValue"><p>Get Metadata Keys And Values For Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the keys and values for which the associated value contains the string to match for the metadata element associated with the given object.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMetadataValueForKey"><p>Get Metadata Value For Key</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the value associated with the given key of the metadata element associated with the given object.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOptions"><p>Get Options</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Fetch the typed options for this scene
+</p><p>Target is Datasmith Scene Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPostProcess"><p>Get Post Process</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the Postprocess used by the scene. Can be invalid.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetProductName"><p>Get Product Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the product name of the application used to export the scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetProductVersion"><p>Get Product Version</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the product version of the application used to export the scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTextures"><p>Get Textures</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create an array with all the Textures in the Datasmith scene. Call CreateTexture -or- RemoveTexture to modify the Datasmith scene.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUsePhysicalSky"><p>Get Use Physical Sky</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Physical Sky could be generated in a large amount of modes, like material, lights etc
+that's why it has been added as static, just enable it and it is done.
+Notice that if a HDRI environment is used this gets disabled.
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUserID"><p>Get User ID</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the user identifier who exported the scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUserOS"><p>Get User OS</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the OS name used by user who exported the scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVendor"><p>Get Vendor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the vendor name of the application used to export the scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ImportScene"><p>Import Scene</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Import a Datasmith Scene created with ConstructDatasmithSceneFromFile.
+</p><p>Target is Datasmith Scene Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ImportScenes"><p>Import Scenes</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Import a Datasmith Scene created with ConstructDatasmithSceneFromFiles into an array of scenes.
+</p><p>Target is Datasmith Scene Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ReimportScene"><p>Reimport Scene</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reimport a scene opened with GetExistingDatasmithScene
+</p><p>Target is Datasmith Scene Element</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveCameraActor"><p>Remove Camera Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the Camera actor from the Datasmith scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveCustomActor"><p>Remove Custom Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the LightActor from the Datasmith scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveLevelVariantSets"><p>Remove Level Variant Sets</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the level variant sets from the Datasmith scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveLightActor"><p>Remove Light Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the LightActor from the Datasmith scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveMaterial"><p>Remove Material</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the material from the Datasmith scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveMesh"><p>Remove Mesh</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the mesh from the Datasmith scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveMeshActor"><p>Remove Mesh Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the MeshActor from the Datasmith scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RemoveTexture"><p>Remove Texture</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Remove the Texture from the Datasmith scene
+</p><p>Target is Datasmith Scene Element Base</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/RigVMPin/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Rig VMPin | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/RigVMPin/" hreflang="x-default" />
+
+	<meta name="title" content="Rig VMPin" />
+<meta name="description" content="Rig VMPin" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Rig VMPin" />
+	<meta property="og:description" content="Rig VMPin" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Rig VMPin</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Rig VMPin</h1>
+		</div>
+		<h2 >Rig VMPin</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindSubPin"><p>Find Sub Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a SubPin given a name / path or nullptr.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetArrayElementCppType"><p>Get Array Element Cpp Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the C++ data type of an element of the Pin array
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetArraySize"><p>Get Array Size</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the number of elements within an array Pin
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCPPType"><p>Get CPPType</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the C++ data type of the pin
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCPPTypeObject"><p>Get CPPType Object</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the struct of the data type of the Pin,
+or nullptr otherwise.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCustomWidgetName"><p>Get Custom Widget Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the name of a custom widget to be used
+for editing the Pin.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDefaultValue"><p>Get Default Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the default value of the Pin as a string.
+Note that this value is computed based on the Pin's
+SubPins - so for example for a FVector typed Pin
+the default value is actually composed out of the
+default values of the X, Y and Z SubPins.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDirection"><p>Get Direction</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the direction of the pin
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDisplayName"><p>Get Display Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the display label of the pin
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetEnum"><p>Get Enum</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the enum of the data type of the Pin,
+or nullptr otherwise.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGraph"><p>Get Graph</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the graph of this Pin.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLinkedSourcePins"><p>Get Linked Source Pins</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all of the linked source Pins,
+using this Pin as the target.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLinkedTargetPins"><p>Get Linked Target Pins</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all of the linked target Pins,
+using this Pin as the source.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetLinks"><p>Get Links</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all of the links linked to this Pin.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNode"><p>Get Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the node of this Pin.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOriginalPinfromInjectedNode"><p>Get Original Pin from Injected Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the original pin for a pin on an injected
+</p><ol ><li class="Default"><p>This can be used to determine where a link
+should go in the user interface
+</p></li></ol><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetParentPin"><p>Get Parent Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the parent Pin - or nullptr if the Pin
+is nested directly below a node.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPinforLink"><p>Get Pin for Link</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the pin to be used for a link.
+This might differ from this actual pin, since
+the pin might contain injected nodes.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPinIndex"><p>Get Pin Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the index of the Pin within the node / parent Pin
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPinPath"><p>Get Pin Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a . separated path containing all names of the pin and its owners,
+this includes the node name, for example "Node.Color.R"
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRootPin"><p>Get Root Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the top-most parent Pin, so for example
+for "Node.Transform.Translation.X" this returns
+the Pin for "Node.Transform".
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetScriptStruct"><p>Get Script Struct</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the struct of the data type of the Pin,
+or nullptr otherwise.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSegmentPath"><p>Get Segment Path</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns a . separated path containing all names of the pin within its main
+memory owner / storage. This is typically used to create an offset pointer
+within memory (FRigVMRegisterOffset).
+So for example for a PinPath such as "Node.Transform.Translation.X" the
+corresponding SegmentPath is "Translation.X", since the transform is the
+storage / memory.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSourceLinks"><p>Get Source Links</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all of the source pins
+using this Pin as the target.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSubPins"><p>Get Sub Pins</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all of the SubPins of this one.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTargetLinks"><p>Get Target Links</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns all of the target links,
+using this Pin as the source.
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetToolTipText"><p>Get Tool Tip Text</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the tooltip of this pin
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsArray"><p>Is Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the data type of the Pin is an array
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsArrayElement"><p>Is Array Element</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the Pin is a SubPin within an array
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsDefinedasConstant"><p>Is Defined as Constant</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the pin is defined as a constant value / literal
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsDynamicArray"><p>Is Dynamic Array</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this pin represents a dynamic array
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsExecuteContext"><p>Is Execute Context</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the C++ data type is an execute context
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsExpanded"><p>Is Expanded</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the pin is currently expanded
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsLinkedTo"><p>Is Linked To</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this Pin is linked to another Pin
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsReferenceCountedContainer"><p>Is Reference Counted Container</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this data type is referenced counted
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsRootPin"><p>Is Root Pin</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if this pin is a root pin
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsStringType"><p>Is String Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the C++ data type is FString or FName
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsStruct"><p>Is Struct</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the data type of the Pin is a struct
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsStructMember"><p>Is Struct Member</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the Pin is a SubPin within a struct
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsUnknownType"><p>Is Unknown Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the C++ data type is unknown
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsUObject"><p>Is UObject</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the data type of the Pin is a uobject
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RequiresWatch"><p>Requires Watch</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if the pin should be watched
+</p><p>Target is Rig VMPin</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

@@ -1,0 +1,14 @@
+# GetnumberofentriesinESourceBusSe-
+
+Returns ESourceBusSendLevelControlMethod_MAX value
+
+## 图示
+
+![]($-20221218-14030990.png)
+
+## Inputs
+
+## Outputs
+
+Return Value: Integer.
+

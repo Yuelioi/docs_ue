@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Utilities/Struct/MakeMotoSynthRuntimeSettings/" />');
+				var udnCSS = './../../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Make MotoSynthRuntimeSettings | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Utilities/Struct/MakeMotoSynthRuntimeSettings/" hreflang="x-default" />
+
+	<meta name="title" content="Make MotoSynthRuntimeSettings" />
+<meta name="description" content="Make MotoSynthRuntimeSettings" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Utilities,BlueprintAPI/Utilities/Struct" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Make MotoSynthRuntimeSettings" />
+	<meta property="og:description" content="Make MotoSynthRuntimeSettings" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../../Utilities">Utilities</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Struct">Struct</a>
+
+<span class="separator">></span> <span id="page">Make MotoSynthRuntimeSettings</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Make MotoSynthRuntimeSettings</h1>
+		</div>
+		<h2 >Make MotoSynthRuntimeSettings</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<p>Adds a node that create a 'MotoSynthRuntimeSettings' from its members
+</p><div class="graph">
+	<div class="node_container pure ">
+    <div class="node">
+        
+        <div class="titlebar_node">            
+            
+            <div class="titlebar_overlay">
+                <div class="titlebar_node_text">
+                    Make MotoSynthRuntimeSettings
+                </div>
+            </div>
+        </div>        
+        <div class="nodebody">
+            
+            <div class="background"></div>
+                        
+            
+            <div class="inputs">
+                <div id="pin_Synth_Tone_Enabled" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Synth Tone Enabled
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Synth_Tone_Volume_Range" class="pin_container ">
+        <div class="pin vector2d struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Synth Tone Volume Range
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>0.000000
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>0.000000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Synth_Tone_Filter_Frequency_Range" class="pin_container ">
+        <div class="pin vector2d struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Synth Tone Filter Frequency Range
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>500.000000
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>500.000000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Synth_Tone_Envelope_Enabled" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Synth Tone Envelope Enabled
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Synth_Tone_Attack_Time_Msec_Range" class="pin_container ">
+        <div class="pin vector2d struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Synth Tone Attack Time Msec Range
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>10.000000
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>10.000000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Synth_Tone_Attack_Curve_Range" class="pin_container ">
+        <div class="pin vector2d struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Synth Tone Attack Curve Range
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>1.000000
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>1.000000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Synth_Tone_Decay_Time_Msec_Range" class="pin_container ">
+        <div class="pin vector2d struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Synth Tone Decay Time Msec Range
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>100.000000
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>100.000000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Synth_Tone_Decay_Curve_Range" class="pin_container ">
+        <div class="pin vector2d struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Synth Tone Decay Curve Range
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>1.000000
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>1.000000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Synth_Octave_Shift" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Synth Octave Shift
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        0
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Noise_Enabled" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Noise Enabled
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Noise_Volume_Range" class="pin_container ">
+        <div class="pin vector2d struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Noise Volume Range
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>1.000000
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>1.000000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Noise_Envelope_Enabled" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Noise Envelope Enabled
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean False floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Noise_LPFRange" class="pin_container ">
+        <div class="pin vector2d struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Noise LPFRange
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>500.000000
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>500.000000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Noise_Attack_Time_Msec_Range" class="pin_container ">
+        <div class="pin vector2d struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Noise Attack Time Msec Range
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>10.000000
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>10.000000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Noise_Attack_Curve_Range" class="pin_container ">
+        <div class="pin vector2d struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Noise Attack Curve Range
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>1.000000
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>1.000000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Noise_Decay_Time_Msec_Range" class="pin_container ">
+        <div class="pin vector2d struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Noise Decay Time Msec Range
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>10.000000
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>10.000000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Noise_Decay_Curve_Range" class="pin_container ">
+        <div class="pin vector2d struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Noise Decay Curve Range
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        <span class="label">X</span>1.000000
+                    </div>
+                    <div class="value_text floatleft">
+                        <span class="label">Y</span>1.000000
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Granular_Engine_Enabled" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Granular Engine Enabled
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Granular_Engine_Volume" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Granular Engine Volume
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Granular_Engine_Pitch_Scale" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Granular Engine Pitch Scale
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Num_Samples_To_Crossfade_Between_Grains" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Num Samples To Crossfade Between Grains
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        10
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Num_Grain_Table_Entries_Per_Grain" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Num Grain Table Entries Per Grain
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        3
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Grain_Table_Random_Offset_For_Constant_RPMs" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Grain Table Random Offset For Constant RPMs
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        20
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Grain_Crossfade_Samples_For_Constant_RPMs" class="pin_container ">
+        <div class="pin integer">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Grain Crossfade Samples For Constant RPMs
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_text floatleft">
+                        20
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Stereo_Widener_Enabled" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Stereo Widener Enabled
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Stereo_Delay_Msec" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Stereo Delay Msec
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Stereo_Feedback" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Stereo Feedback
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Stereo_Widener_Wetlevel" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Stereo Widener Wetlevel
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Stereo_Widener_Dry_Level" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Stereo Widener Dry Level
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Stereo_Widener_Delay_Ratio" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Stereo Widener Delay Ratio
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Stereo_Widener_Filter_Enabled" class="pin_container ">
+        <div class="pin boolean">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Stereo Widener Filter Enabled
+                </div>
+                <div class="pinvalue">
+                    
+                    <div class="value_boolean True floatleft"></div>
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Stereo_Widener_Filter_Frequency" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Stereo Widener Filter Frequency
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Stereo_Widener_Filter_Q" class="pin_container ">
+        <div class="pin real">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Stereo Widener Filter Q
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                   
+               
+            <div class="outputs">
+                <div id="pin_Moto_Synth_Runtime_Settings" class="pin_container ">
+        <div class="pin struct">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Moto Synth Runtime Settings
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                      
+        </div>
+    </div>
+</div>
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'inputs');">
+        <p>Inputs</p>
+    </div>
+<div id="inputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Synth_Tone_Enabled" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Synth Tone Enabled</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Synth Tone Enabled:
+If the synth tone is enabled</p>
+    </td>
+</tr>
+<tr id="Synth_Tone_Volume_Range" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector2d struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Synth Tone Volume Range</a>
+        <div class="name-cell-arguments">
+            Vector 2D Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Synth Tone Volume Range:
+The volume of the synth tone   between min and max RPM</p>
+    </td>
+</tr>
+<tr id="Synth_Tone_Filter_Frequency_Range" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector2d struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Synth Tone Filter Frequency Range</a>
+        <div class="name-cell-arguments">
+            Vector 2D Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Synth Tone Filter Frequency Range:
+The filter frequency of the synth tone between min/max RPM</p>
+    </td>
+</tr>
+<tr id="Synth_Tone_Envelope_Enabled" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Synth Tone Envelope Enabled</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Synth Tone Envelope Enabled:
+Enable the synth tone envelope generator</p>
+    </td>
+</tr>
+<tr id="Synth_Tone_Attack_Time_Msec_Range" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector2d struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Synth Tone Attack Time Msec Range</a>
+        <div class="name-cell-arguments">
+            Vector 2D Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Synth Tone Attack Time Msec Range:
+Synth tone envelope attack time in milliseconds between min/max RPM</p>
+    </td>
+</tr>
+<tr id="Synth_Tone_Attack_Curve_Range" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector2d struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Synth Tone Attack Curve Range</a>
+        <div class="name-cell-arguments">
+            Vector 2D Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Synth Tone Attack Curve Range:
+Synth tone envelope attack curve.  1.0 = linear growth, &lt; 1.0 logorithmic growth, &gt; 1.0 exponential growth.</p>
+    </td>
+</tr>
+<tr id="Synth_Tone_Decay_Time_Msec_Range" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector2d struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Synth Tone Decay Time Msec Range</a>
+        <div class="name-cell-arguments">
+            Vector 2D Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Synth Tone Decay Time Msec Range:
+Synth tone decay time in milliseconds</p>
+    </td>
+</tr>
+<tr id="Synth_Tone_Decay_Curve_Range" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector2d struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Synth Tone Decay Curve Range</a>
+        <div class="name-cell-arguments">
+            Vector 2D Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Synth Tone Decay Curve Range:
+Synth tone envelope decay curve.  1.0 = linear decay, &lt; 1.0 exponential decay, &gt; 1.0 logarithmic decay.</p>
+    </td>
+</tr>
+<tr id="Synth_Octave_Shift" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Synth Octave Shift</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Synth Octave Shift:
+Octave shift of the synth</p>
+    </td>
+</tr>
+<tr id="Noise_Enabled" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Noise Enabled</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Noise Enabled:
+If the noise generator enabled</p>
+    </td>
+</tr>
+<tr id="Noise_Volume_Range" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector2d struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Noise Volume Range</a>
+        <div class="name-cell-arguments">
+            Vector 2D Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Noise Volume Range:
+The volume of the noise source</p>
+    </td>
+</tr>
+<tr id="Noise_Envelope_Enabled" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Noise Envelope Enabled</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Noise Envelope Enabled:
+If the noise generator has the envelope enabled</p>
+    </td>
+</tr>
+<tr id="Noise_LPFRange" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector2d struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Noise LPFRange</a>
+        <div class="name-cell-arguments">
+            Vector 2D Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Noise LPFRange:
+The filter frequency of the noise generator between min/max RPM</p>
+    </td>
+</tr>
+<tr id="Noise_Attack_Time_Msec_Range" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector2d struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Noise Attack Time Msec Range</a>
+        <div class="name-cell-arguments">
+            Vector 2D Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Noise Attack Time Msec Range:
+Noise envelope attack time in milliseconds between min/max RPM</p>
+    </td>
+</tr>
+<tr id="Noise_Attack_Curve_Range" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector2d struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Noise Attack Curve Range</a>
+        <div class="name-cell-arguments">
+            Vector 2D Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Noise Attack Curve Range:
+Noise envelope attack curve.  1.0 = linear growth, &lt; 1.0 logorithmic growth, &gt; 1.0 exponential growth.</p>
+    </td>
+</tr>
+<tr id="Noise_Decay_Time_Msec_Range" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector2d struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Noise Decay Time Msec Range</a>
+        <div class="name-cell-arguments">
+            Vector 2D Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Noise Decay Time Msec Range:
+Noise envelope attack time in milliseconds between min/max RPM</p>
+    </td>
+</tr>
+<tr id="Noise_Decay_Curve_Range" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable vector2d struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Noise Decay Curve Range</a>
+        <div class="name-cell-arguments">
+            Vector 2D Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Noise Decay Curve Range:
+Noise envelope attack curve between min/max RPM.  1.0 = linear growth, &lt; 1.0 logorithmic growth, &gt; 1.0 exponential growth.</p>
+    </td>
+</tr>
+<tr id="Granular_Engine_Enabled" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Granular Engine Enabled</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Granular Engine Enabled:
+If the granular engine is enabled</p>
+    </td>
+</tr>
+<tr id="Granular_Engine_Volume" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Granular Engine Volume</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Granular Engine Volume:
+The volume of the granular engine</p>
+    </td>
+</tr>
+<tr id="Granular_Engine_Pitch_Scale" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Granular Engine Pitch Scale</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Granular Engine Pitch Scale:
+The pitch scale of the granular engine</p>
+    </td>
+</tr>
+<tr id="Num_Samples_To_Crossfade_Between_Grains" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Num Samples To Crossfade Between Grains</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Num Samples to Crossfade Between Grains:
+The volume of the granular engine</p>
+    </td>
+</tr>
+<tr id="Num_Grain_Table_Entries_Per_Grain" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Num Grain Table Entries Per Grain</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Num Grain Table Entries Per Grain:
+How many grain-table entries to use per runtime grain</p>
+    </td>
+</tr>
+<tr id="Grain_Table_Random_Offset_For_Constant_RPMs" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Grain Table Random Offset For Constant RPMs</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Grain Table Random Offset for Constant RPMs:
+Random grain table offset for cases where RPM is constant. Allows random shuffling of grains to avoid a robotic sound.</p>
+    </td>
+</tr>
+<tr id="Grain_Crossfade_Samples_For_Constant_RPMs" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable integer">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Grain Crossfade Samples For Constant RPMs</a>
+        <div class="name-cell-arguments">
+            Integer
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Grain Crossfade Samples for Constant RPMs:
+Number of samples to cross fade grains when on a constant-RPM state. More crossfaded samples can reduce the robotic sound.</p>
+    </td>
+</tr>
+<tr id="Stereo_Widener_Enabled" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Stereo Widener Enabled</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Stereo Widener Enabled:
+If the stereo widener is enabled</p>
+    </td>
+</tr>
+<tr id="Stereo_Delay_Msec" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Stereo Delay Msec</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Stereo Delay Msec:
+If the stereo widener is enabled</p>
+    </td>
+</tr>
+<tr id="Stereo_Feedback" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Stereo Feedback</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Stereo Feedback:
+Amount of feedback for stereo widener</p>
+    </td>
+</tr>
+<tr id="Stereo_Widener_Wetlevel" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Stereo Widener Wetlevel</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Stereo Widener Wetlevel:
+Wet level of stereo delay used for stereo widener</p>
+    </td>
+</tr>
+<tr id="Stereo_Widener_Dry_Level" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Stereo Widener Dry Level</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Stereo Widener Dry Level:
+Dry level of stereo delay used for stereo widener</p>
+    </td>
+</tr>
+<tr id="Stereo_Widener_Delay_Ratio" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Stereo Widener Delay Ratio</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Stereo Widener Delay Ratio:
+Delay ratio of left/right channels for stereo widener effect</p>
+    </td>
+</tr>
+<tr id="Stereo_Widener_Filter_Enabled" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable boolean">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Stereo Widener Filter Enabled</a>
+        <div class="name-cell-arguments">
+            Boolean
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Stereo Widener Filter Enabled:
+Delay ratio of left/right channels for stereo widener effect</p>
+    </td>
+</tr>
+<tr id="Stereo_Widener_Filter_Frequency" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Stereo Widener Filter Frequency</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Stereo Widener Filter Frequency:
+Delay ratio of left/right channels for stereo widener effect</p>
+    </td>
+</tr>
+<tr id="Stereo_Widener_Filter_Q" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable real">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Stereo Widener Filter Q</a>
+        <div class="name-cell-arguments">
+            Float (single-precision)
+        </div>
+    </td>
+    <td class="desc-cell">
+        <p>Stereo Widener Filter Q:
+Delay ratio of left/right channels for stereo widener effect</p>
+    </td>
+</tr>
+	</table>
+</div>
+
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'outputs');">
+        <p>Outputs</p>
+    </div>
+<div id="outputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Moto_Synth_Runtime_Settings" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable struct">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Moto Synth Runtime Settings</a>
+        <div class="name-cell-arguments">
+            Moto Synth Runtime Settings Structure
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+	</table>
+</div>
+
+</div>
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

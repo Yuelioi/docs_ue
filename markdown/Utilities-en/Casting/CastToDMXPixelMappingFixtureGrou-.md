@@ -1,0 +1,22 @@
+# CastToDMXPixelMappingFixtureGrou-
+
+Tries to access object as a class it may be an instance of.
+
+## 图示
+
+![]($-20221218-12375186.png)
+
+## Inputs
+
+In: Exec.
+
+Object: Object Wildcard.  
+
+## Outputs
+
+Out: Exec.
+
+Cast Failed: Exec.
+
+As DMXPixel Mapping Fixture Group Component: DMXPixel Mapping Fixture Group Component Object Reference.
+

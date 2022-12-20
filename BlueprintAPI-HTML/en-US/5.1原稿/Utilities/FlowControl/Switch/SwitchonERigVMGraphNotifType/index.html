@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Utilities/FlowControl/Switch/SwitchonERigVMGraphNotifType/" />');
+				var udnCSS = './../../../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Switch on ERigVMGraphNotifType | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Utilities/FlowControl/Switch/SwitchonERigVMGraphNotifType/" hreflang="x-default" />
+
+	<meta name="title" content="Switch on ERigVMGraphNotifType" />
+<meta name="description" content="Switch on ERigVMGraphNotifType" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Utilities,BlueprintAPI/Utilities/FlowControl,BlueprintAPI/Utilities/FlowControl/Switch" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Switch on ERigVMGraphNotifType" />
+	<meta property="og:description" content="Switch on ERigVMGraphNotifType" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../../../Utilities">Utilities</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../../FlowControl">Flow Control</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Switch">Switch</a>
+
+<span class="separator">></span> <span id="page">Switch on ERigVMGraphNotifType</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Switch on ERigVMGraphNotifType</h1>
+		</div>
+		<h2 >Switch on ERigVMGraphNotifType</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<p>Selects an output that matches the input value
+</p><div class="graph">
+	<div class="node_container switch ">
+    <div class="node">
+        
+        <div class="titlebar_node">            
+            
+            <div class="titlebar_overlay">
+                <div class="titlebar_node_text">
+                    Switch on ERigVMGraphNotifType
+                </div>
+            </div>
+        </div>        
+        <div class="nodebody">
+            
+            <div class="background"></div>
+                        
+            
+            <div class="inputs">
+                <div id="pin_In" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Selection" class="pin_container ">
+        <div class="pin enum">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Selection
+                </div>
+                <div class="pinvalue">
+                    
+                        <div class="value_combo floatleft">
+                            <div class="arrow"></div>
+                            GraphChanged
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                   
+               
+            <div class="outputs">
+                <div id="pin_Graph_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Graph Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Node_Added" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Node Added
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Node_Removed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Node Removed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Node_Selected" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Node Selected
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Node_Deselected" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Node Deselected
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Node_Selection_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Node Selection Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Node_Position_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Node Position Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Node_Size_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Node Size Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Node_Color_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Node Color Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Pin_Added" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Pin Added
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Pin_Removed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Pin Removed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Pin_Renamed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Pin Renamed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Pin_Expansion_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Pin Expansion Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Pin_Watched_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Pin Watched Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Pin_Array_Size_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Pin Array Size Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Pin_Default_Value_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Pin Default Value Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Pin_Direction_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Pin Direction Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Pin_Type_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Pin Type Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Pin_Index_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Pin Index Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Link_Added" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Link Added
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Link_Removed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Link Removed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Comment_Text_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Comment Text Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Reroute_Compactness_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Reroute Compactness Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Variable_Added" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Variable Added
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Variable_Removed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Variable Removed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Variable_Renamed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Variable Renamed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Parameter_Added" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Parameter Added
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Parameter_Removed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Parameter Removed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Parameter_Renamed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Parameter Renamed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Interaction_Bracket_Opened" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Interaction Bracket Opened
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Interaction_Bracket_Closed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Interaction Bracket Closed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Interaction_Bracket_Canceled" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Interaction Bracket Canceled
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Pin_Bound_Variable_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Pin Bound Variable Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Node_Renamed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Node Renamed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Node_Reference_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Node Reference Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Node_Category_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Node Category Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Node_Keywords_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Node Keywords Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Node_Description_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Node Description Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Variable_Remapping_Changed" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Variable Remapping Changed
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div><div id="pin_Invalid" class="pin_container ">
+        <div class="pin exec">
+            <div class="pin_connector_container">
+                <div class="pin_connector"></div>
+            </div>
+            <div class="pinbody">
+                <div class="titlebar_pin">
+                    Invalid
+                </div>
+                <div class="pinvalue">
+                    
+                    
+                </div>
+            </div>
+        </div>
+</div>
+            </div>
+                      
+        </div>
+    </div>
+</div>
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'inputs');">
+        <p>Inputs</p>
+    </div>
+<div id="inputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="In" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>In</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Selection" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_variable enum">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Selection</a>
+        <div class="name-cell-arguments">
+            ERigVMGraphNotifType Enum
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+	</table>
+</div>
+
+</div><div class="heading expanded" onclick="sectionOnClick(this, 'outputs');">
+        <p>Outputs</p>
+    </div>
+<div id="outputs">
+    <div class="member-list">
+	<table cellspacing="0">
+		<col width="15%">
+		<col width="20%">
+		<col width="65%">
+			<tr id="Graph_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Graph Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Node_Added" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Node Added</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Node_Removed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Node Removed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Node_Selected" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Node Selected</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Node_Deselected" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Node Deselected</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Node_Selection_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Node Selection Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Node_Position_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Node Position Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Node_Size_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Node Size Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Node_Color_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Node Color Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Pin_Added" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Pin Added</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Pin_Removed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Pin Removed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Pin_Renamed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Pin Renamed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Pin_Expansion_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Pin Expansion Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Pin_Watched_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Pin Watched Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Pin_Array_Size_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Pin Array Size Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Pin_Default_Value_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Pin Default Value Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Pin_Direction_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Pin Direction Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Pin_Type_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Pin Type Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Pin_Index_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Pin Index Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Link_Added" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Link Added</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Link_Removed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Link Removed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Comment_Text_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Comment Text Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Reroute_Compactness_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Reroute Compactness Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Variable_Added" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Variable Added</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Variable_Removed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Variable Removed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Variable_Renamed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Variable Renamed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Parameter_Added" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Parameter Added</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Parameter_Removed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Parameter Removed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Parameter_Renamed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Parameter Renamed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Interaction_Bracket_Opened" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Interaction Bracket Opened</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Interaction_Bracket_Closed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Interaction Bracket Closed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Interaction_Bracket_Canceled" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Interaction Bracket Canceled</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Pin_Bound_Variable_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Pin Bound Variable Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Node_Renamed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Node Renamed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Node_Reference_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Node Reference Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Node_Category_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Node Category Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Node_Keywords_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Node Keywords Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Node_Description_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Node Description Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Variable_Remapping_Changed" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Variable Remapping Changed</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+<tr id="Invalid" class="normal-row">
+    <td class="icon-cell">
+        <div class="input_exec">
+	
+</div>
+    </td>
+    <td class="name-cell">
+        <a>Invalid</a>
+        <div class="name-cell-arguments">
+            Exec
+        </div>
+    </td>
+    <td class="desc-cell">
+        
+    </td>
+</tr>
+	</table>
+</div>
+
+</div>
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

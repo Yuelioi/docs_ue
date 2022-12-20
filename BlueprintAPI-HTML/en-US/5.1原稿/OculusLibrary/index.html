@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/OculusLibrary/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Oculus Library | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/OculusLibrary/" hreflang="x-default" />
+
+	<meta name="title" content="Oculus Library" />
+<meta name="description" content="Oculus Library" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Oculus Library" />
+	<meta property="og:description" content="Oculus Library" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Oculus Library</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Oculus Library</h1>
+		</div>
+		<h2 >Oculus Library</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    			    <li id="">
+	<p><a id="toc_link" href="#categories">Categories</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EnableOrientationTracking"><p>Enable Orientation Tracking</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Enables/disables orientation tracking on devices that support it.
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="EnablePositionTracking"><p>Enable Position Tracking</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Enables/disables positional tracking on devices that support it.
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAvailableDisplayFrequencies"><p>Get Available Display Frequencies</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the current available frequencies
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetBaseRotationandBaseOffsetinMe-"><p>Get Base Rotation and Base Offset in Meters</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns current base rotation and base offset.
+The base offset is currently used base position offset, previously set by the
+ResetPosition or SetBasePositionOffset calls. It represents a vector that translates the HMD's position
+into (0,0,0) point, in meters.
+The axis of the vector are the same as in Unreal: X - forward, Y - right, Z - up.
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCurrentDisplayFrequency"><p>Get Current Display Frequency</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the current display frequency
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDeviceType"><p>Get Device Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get Device Type
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetFixedFoveatedRenderingLevel"><p>Get Fixed Foveated Rendering Level</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the current multiresolution level
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGPUFrameTime"><p>Get GPUFrame Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the GPU frame time on supported mobile platforms (Go for now)
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetGPUUtilization"><p>Get GPUUtilization</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the GPU utilization availability and value
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetHmdColorDesc"><p>Get Hmd Color Desc</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the color space of the target HMD
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPose"><p>Get Pose</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Grabs the current orientation and position for the HMD.  If positional tracking is not available, DevicePosition will be a zero vector
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRawSensorData"><p>Get Raw Sensor Data</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reports raw sensor data. If HMD doesn't support any of the parameters then it will be set to zero.
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSystemHmd3DofModeEnabled"><p>Get System Hmd 3Dof Mode Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true if system headset is in 3dof mode
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUserProfile"><p>Get User Profile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns current user profile.
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasInputFocus"><p>Has Input Focus</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true, if the app has input focus.
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasSystemOverlayPresent"><p>Has System Overlay Present</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns true, if the system overlay is present.
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsDeviceTracked"><p>Is Device Tracked</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns if the device is currently tracked by the runtime or not.
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetBaseRotationandBaseOffsetinMe-"><p>Set Base Rotation and Base Offset in Meters</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets 'base rotation' - the rotation that will be subtracted from
+the actual HMD orientation.
+Sets base position offset (in meters). The base position offset is the distance from the physical (0, 0, 0) position
+to current HMD position (bringing the (0, 0, 0) point to the current HMD position)
+Note, this vector is set by ResetPosition call; use this method with care.
+The axis of the vector are the same as in Unreal: X - forward, Y - right, Z - up.
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetClientColorDesc"><p>Set Client Color Desc</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the target HMD to do color space correction to a specific color space
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetColorScaleandOffset"><p>Set Color Scale and Offset</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the Color Scale/Offset
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCPUAndGPULevels"><p>Set CPUAnd GPULevels</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns if the device is currently tracked by the runtime or not.
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDisplayFrequency"><p>Set Display Frequency</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the requested display frequency
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetFixedFoveatedRenderingLevel"><p>Set Fixed Foveated Rendering Level</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the requested multiresolution level for the next frame, and whether FFR's level is now dynamic or not.
+</p><p>Target is Oculus Function Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+<h2 id="categories">Categories</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Guardian"><p>Guardian</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Guardian</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HandTracking"><p>Hand Tracking</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Hand Tracking</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MR"><p>MR</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>MR</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

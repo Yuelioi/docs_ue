@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Collision/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Collision | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Collision/" hreflang="x-default" />
+
+	<meta name="title" content="Collision" />
+<meta name="description" content="Collision" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Collision" />
+	<meta property="og:description" content="Collision" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Collision</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Collision</h1>
+		</div>
+		<h2 >Collision</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BoxOverlapActors"><p>Box Overlap Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns an array of actors that overlap the given axis-aligned box.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BoxOverlapComponent"><p>Box Overlap Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Perform a box overlap against a single component as an AABB (No rotation)
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BoxOverlapComponents"><p>Box Overlap Components</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns an array of components that overlap the given axis-aligned box.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BoxTraceByChannel"><p>Box Trace By Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweeps a box along the given line and returns the first blocking hit encountered.
+This trace finds the objects that RESPONDS to the given TraceChannel
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BoxTraceByProfile"><p>Box Trace By Profile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweep a box against the world and return the first blocking hit using a specific profile
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BoxTraceForObjects"><p>Box Trace For Objects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweeps a box along the given line and returns the first hit encountered.
+This only finds objects that are of a type specified by ObjectTypes.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="BreakHitResult"><p>Break Hit Result</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Extracts data from a HitResult.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CanCharacterStepUp"><p>Can Character Step Up</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Return true if the given Pawn can step up onto this component.
+This controls whether they can try to step up on it when they bump in to it, not whether they can walk on it after landing on it.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CapsuleOverlapActors"><p>Capsule Overlap Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns an array of actors that overlap the given capsule.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CapsuleOverlapComponents"><p>Capsule Overlap Components</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns an array of components that overlap the given capsule.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CapsuleTraceByChannel"><p>Capsule Trace By Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweeps a capsule along the given line and returns the first blocking hit encountered.
+This trace finds the objects that RESPOND to the given TraceChannel
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CapsuleTraceByProfile"><p>Capsule Trace By Profile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweep a capsule against the world and return the first blocking hit using a specific profile
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CapsuleTraceForObjects"><p>Capsule Trace For Objects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweeps a capsule along the given line and returns the first hit encountered.
+This only finds objects that are of a type specified by ObjectTypes.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearMoveIgnoreActors"><p>Clear Move Ignore Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clear the list of actors we ignore when moving.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearMoveIgnoreComponents"><p>Clear Move Ignore Components</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clear the list of components we ignore when moving.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ComponentOverlapActors"><p>Component Overlap Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns an array of actors that overlap the given component.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ComponentOverlapComponents"><p>Component Overlap Components</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns an array of components that overlap the given component.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="FindCollisionUV"><p>Find Collision UV</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Try and find the UV for a collision impact. Note this ONLY works if 'Support UV From Hit Results' is enabled in Physics Settings.
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorArrayBounds"><p>Get Actor Array Bounds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Bind the bounds of an array of Actors
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorBounds"><p>Get Actor Bounds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the bounding box of all components that make up this Actor (excluding ChildActorComponents).
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetActorEnableCollision"><p>Get Actor Enable Collision</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get current state of collision for the whole actor
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetClosestPointonCollision"><p>Get Closest Point on Collision</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the distance and closest point to the collision surface.
+Component must have simple collision to be queried for closest point.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCollisionComponents"><p>Get Collision Components</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns body's collision components
+</p><p>Target is Water Body Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCollisionEnabled"><p>Get Collision Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the form of collision for this component
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCollisionObjectType"><p>Get Collision Object Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the collision object type
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCollisionProfileName"><p>Get Collision Profile Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the collision profile name
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetCollisionResponsetoChannel"><p>Get Collision Response to Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets the response type given a specific channel
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetComponentBounds"><p>Get Component Bounds</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get bounds
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMoveIgnoreActors"><p>Get Move Ignore Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the list of actors we currently ignore when moving.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMoveIgnoreComponents"><p>Get Move Ignore Components</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the list of actors we currently ignore when moving.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOverlappingActors"><p>Get Overlapping Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns list of actors this actor is overlapping (any component overlapping any component). Does not return itself.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetOverlappingComponents"><p>Get Overlapping Components</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns list of components this actor is overlapping.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSurfaceType"><p>Get Surface Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the EPhysicalSurface type of the given Hit.
+To edit surface type for your project, use ProjectSettings/Physics/PhysicalSurface section
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IgnoreActorwhenMoving"><p>Ignore Actor when Moving</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Tells this component whether to ignore collision with all components of a specific Actor when this component is moved.
+Components on the other Actor may also need to be told to do the same when they move.
+Does not affect movement of this component when simulating physics.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IgnoreComponentwhenMoving"><p>Ignore Component when Moving</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Tells this component whether to ignore collision with another component when this component is moved.
+The other components may also need to be told to do the same when they move.
+Does not affect movement of this component when simulating physics.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsCollisionEnabled"><p>Is Collision Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Utility to see if there is any form of collision (query or physics) enabled on this component.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsOverlappingActor"><p>Is Overlapping Actor</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether any component of this Actor is overlapping any component of another Actor.
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsOverlappingComponent"><p>Is Overlapping Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether this component is overlapping another component.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsPhysicsCollisionEnabled"><p>Is Physics Collision Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Utility to see if there is any physics collision enabled on this component.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsQueryCollisionEnabled"><p>Is Query Collision Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Utility to see if there is any query collision enabled on this component.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LineTraceByChannel"><p>Line Trace By Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Does a collision trace along the given line and returns the first blocking hit encountered.
+This trace finds the objects that RESPONDS to the given TraceChannel
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LineTraceByProfile"><p>Line Trace By Profile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Trace a ray against the world using a specific profile and return the first blocking hit
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LineTraceComponent"><p>Line Trace Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Perform a line trace against a single component
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LineTraceForObjects"><p>Line Trace For Objects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Does a collision trace along the given line and returns the first hit encountered.
+This only finds objects that are of a type specified by ObjectTypes.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MakeHitResult"><p>Make Hit Result</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a HitResult struct
+</p><p>Target is Gameplay Statics</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MultiBoxTraceByChannel"><p>Multi Box Trace By Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweeps a box along the given line and returns all hits encountered.
+This trace finds the objects that RESPONDS to the given TraceChannel
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MultiBoxTraceByProfile"><p>Multi Box Trace By Profile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweep a box against the world and return all initial overlaps using a specific profile, then overlapping hits and then first blocking hit
+Results are sorted, so a blocking hit (if found) will be the last element of the array
+Only the single closest blocking result will be generated, no tests will be done after that
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MultiBoxTraceForObjects"><p>Multi Box Trace For Objects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweeps a box along the given line and returns all hits encountered.
+This only finds objects that are of a type specified by ObjectTypes.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MultiCapsuleTraceByChannel"><p>Multi Capsule Trace By Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweeps a capsule along the given line and returns all hits encountered up to and including the first blocking hit.
+This trace finds the objects that RESPOND to the given TraceChannel
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MultiCapsuleTraceByProfile"><p>Multi Capsule Trace By Profile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweep a capsule against the world and return all initial overlaps using a specific profile, then overlapping hits and then first blocking hit
+Results are sorted, so a blocking hit (if found) will be the last element of the array
+Only the single closest blocking result will be generated, no tests will be done after that
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MultiCapsuleTraceForObjects"><p>Multi Capsule Trace For Objects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweeps a capsule along the given line and returns all hits encountered.
+This only finds objects that are of a type specified by ObjectTypes.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MultiLineTraceByChannel"><p>Multi Line Trace By Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Does a collision trace along the given line and returns all hits encountered up to and including the first blocking hit.
+This trace finds the objects that RESPOND to the given TraceChannel
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MultiLineTraceByProfile"><p>Multi Line Trace By Profile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Trace a ray against the world using a specific profile and return overlapping hits and then first blocking hit
+Results are sorted, so a blocking hit (if found) will be the last element of the array
+Only the single closest blocking result will be generated, no tests will be done after that
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MultiLineTraceForObjects"><p>Multi Line Trace For Objects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Does a collision trace along the given line and returns all hits encountered.
+This only finds objects that are of a type specified by ObjectTypes.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MultiSphereTraceByChannel"><p>Multi Sphere Trace By Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweeps a sphere along the given line and returns all hits encountered up to and including the first blocking hit.
+This trace finds the objects that RESPOND to the given TraceChannel
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MultiSphereTraceByProfile"><p>Multi Sphere Trace By Profile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweep a sphere against the world and return all initial overlaps using a specific profile, then overlapping hits and then first blocking hit
+Results are sorted, so a blocking hit (if found) will be the last element of the array
+Only the single closest blocking result will be generated, no tests will be done after that
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="MultiSphereTraceForObjects"><p>Multi Sphere Trace For Objects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweeps a sphere along the given line and returns all hits encountered.
+This only finds objects that are of a type specified by ObjectTypes.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnActorBeginOverlap"><p>On Actor Begin Overlap</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Actor Begin Overlap:
+Called when another actor begins to overlap this actor, for example a player walking into a trigger.
+For events when objects have a blocking collision, for example a player hitting a wall, see 'Hit' events.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnActorEndOverlap"><p>On Actor End Overlap</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Actor End Overlap:
+Called when another actor stops overlapping this actor.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnActorHit"><p>On Actor Hit</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Actor Hit:
+Called when this Actor hits (or is hit by) something solid. This could happen due to things like Character movement, using Set Location with 'sweep' enabled, or physics simulation.
+For events when objects overlap (e.g. walking into a trigger) see the 'Overlap' event.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnChaosPhysicsCollision"><p>On Chaos Physics Collision</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Chaos Physics Collision</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnComponentBeginOverlap"><p>On Component Begin Overlap</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Component Begin Overlap:
+Event called when something starts to overlaps this component, for example a player walking into a trigger.
+For events when objects have a blocking collision, for example a player hitting a wall, see 'Hit' events.
+</p><p>will be adjusted to indicate force from the other object against this object.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnComponentEndOverlap"><p>On Component End Overlap</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Component End Overlap:
+Event called when something stops overlapping this component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnComponentHit"><p>On Component Hit</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Component Hit:
+Event called when a component hits (or is hit by) something solid. This could happen due to things like Character movement, using Set Location with 'sweep' enabled, or physics simulation.
+For events when objects overlap (e.g. walking into a trigger) see the 'Overlap' event.
+</p><p>will be adjusted to indicate force from the other object against this object.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnComponentSleep"><p>On Component Sleep</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Component Sleep:
+Event called when the underlying physics objects is put to sleep</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnComponentWake"><p>On Component Wake</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Component Wake:
+Event called when the underlying physics objects is woken up</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetActorEnableCollision"><p>Set Actor Enable Collision</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Allows enabling/disabling collision for the whole actor
+</p><p>Target is Actor</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCollisionEnabled"><p>Set Collision Enabled</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Controls what kind of collision is enabled for this body
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCollisionObjectType"><p>Set Collision Object Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Changes the collision channel that this object uses when it moves
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCollisionProfileName"><p>Set Collision Profile Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Collision Profile Name
+This function is called by constructors when they set ProfileName
+This will change current CollisionProfileName to be this, and overwrite Collision Setting
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCollisionResponsetoAllChannel-"><p>Set Collision Response to All Channels</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Changes all ResponseToChannels container for this PrimitiveComponent. to be NewResponse
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetCollisionResponsetoChannel"><p>Set Collision Response to Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Changes a member of the ResponseToChannels container for this PrimitiveComponent.
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SphereOverlapActors"><p>Sphere Overlap Actors</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns an array of actors that overlap the given sphere.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SphereOverlapComponent"><p>Sphere Overlap Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Perform a sphere overlap against a single component
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SphereOverlapComponents"><p>Sphere Overlap Components</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns an array of components that overlap the given sphere.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SphereTraceByChannel"><p>Sphere Trace By Channel</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweeps a sphere along the given line and returns the first blocking hit encountered.
+This trace finds the objects that RESPONDS to the given TraceChannel
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SphereTraceByProfile"><p>Sphere Trace By Profile</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweep a sphere against the world and return the first blocking hit using a specific profile
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SphereTraceComponent"><p>Sphere Trace Component</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Perform a sphere trace against a single component
+</p><p>Target is Primitive Component</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SphereTraceForObjects"><p>Sphere Trace For Objects</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sweeps a sphere along the given line and returns the first hit encountered.
+This only finds objects that are of a type specified by ObjectTypes.
+</p><p>Target is Kismet System Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

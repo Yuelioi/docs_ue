@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Input/DebugEvents/KeyboardEvents/" />');
+				var udnCSS = './../../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Keyboard Events | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Input/DebugEvents/KeyboardEvents/" hreflang="x-default" />
+
+	<meta name="title" content="Keyboard Events" />
+<meta name="description" content="Keyboard Events" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Input,BlueprintAPI/Input/DebugEvents" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Keyboard Events" />
+	<meta property="og:description" content="Keyboard Events" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../../Input">Input</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../DebugEvents">Debug Events</a>
+
+<span class="separator">></span> <span id="page">Keyboard Events</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Keyboard Events</h1>
+		</div>
+		<h2 >Keyboard Events</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKey_1"><p>Debug Key ?</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the ? key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKey"><p>Debug Key `</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the ` key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKey0"><p>Debug Key 0</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the 0 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKey1"><p>Debug Key 1</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the 1 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKey2"><p>Debug Key 2</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the 2 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKey3"><p>Debug Key 3</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the 3 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKey4"><p>Debug Key 4</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the 4 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKey5"><p>Debug Key 5</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the 5 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKey6"><p>Debug Key 6</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the 6 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKey7"><p>Debug Key 7</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the 7 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKey8"><p>Debug Key 8</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the 8 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKey9"><p>Debug Key 9</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the 9 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyA"><p>Debug Key A</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the A key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyAmpersand"><p>Debug Key Ampersand</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Ampersand key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyApostrophe"><p>Debug Key Apostrophe</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Apostrophe key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyAsterisk"><p>Debug Key Asterisk</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Asterisk key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyB"><p>Debug Key B</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the B key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyBackslash"><p>Debug Key Backslash</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Backslash key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyBackspace"><p>Debug Key Backspace</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Backspace key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyC"><p>Debug Key C</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the C key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyCapsLock"><p>Debug Key Caps Lock</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Caps Lock key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyCaret"><p>Debug Key Caret</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Caret key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyColon"><p>Debug Key Colon</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Colon key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyComma"><p>Debug Key Comma</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Comma key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyD"><p>Debug Key D</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the D key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyDelete"><p>Debug Key Delete</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Delete key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyDollar"><p>Debug Key Dollar</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Dollar key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyDown"><p>Debug Key Down</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Down key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyE"><p>Debug Key E</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the E key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyEnd"><p>Debug Key End</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the End key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyEnter"><p>Debug Key Enter</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Enter key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyEquals"><p>Debug Key Equals</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Equals key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyEscape"><p>Debug Key Escape</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Escape key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyExclamation"><p>Debug Key Exclamation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Exclamation key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyF"><p>Debug Key F</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the F key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyF1"><p>Debug Key F1</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the F1 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyF10"><p>Debug Key F10</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the F10 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyF11"><p>Debug Key F11</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the F11 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyF12"><p>Debug Key F12</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the F12 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyF2"><p>Debug Key F2</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the F2 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyF3"><p>Debug Key F3</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the F3 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyF4"><p>Debug Key F4</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the F4 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyF5"><p>Debug Key F5</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the F5 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyF6"><p>Debug Key F6</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the F6 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyF7"><p>Debug Key F7</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the F7 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyF8"><p>Debug Key F8</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the F8 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyF9"><p>Debug Key F9</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the F9 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyG"><p>Debug Key G</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the G key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyH"><p>Debug Key H</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the H key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyHome"><p>Debug Key Home</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Home key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyHyphen"><p>Debug Key Hyphen</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Hyphen key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyI"><p>Debug Key I</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the I key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyInsert"><p>Debug Key Insert</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Insert key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyJ"><p>Debug Key J</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the J key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyK"><p>Debug Key K</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the K key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyL"><p>Debug Key L</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the L key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyLeft"><p>Debug Key Left</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Left key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyLeftAlt"><p>Debug Key Left Alt</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Left Alt key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyLeftBracket"><p>Debug Key Left Bracket</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Left Bracket key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyLeftCmd"><p>Debug Key Left Cmd</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Left Cmd key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyLeftCtrl"><p>Debug Key Left Ctrl</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Left Ctrl key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyLeftParantheses"><p>Debug Key Left Parantheses</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Left Parantheses key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyLeftShift"><p>Debug Key Left Shift</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Left Shift key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyM"><p>Debug Key M</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the M key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyN"><p>Debug Key N</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the N key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNum_2"><p>Debug Key Num -</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num - key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNum"><p>Debug Key Num *</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num * key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNum_3"><p>Debug Key Num .</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num . key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNum_4"><p>Debug Key Num /</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num / key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNum_1"><p>Debug Key Num +</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num + key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNum0"><p>Debug Key Num 0</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num 0 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNum1"><p>Debug Key Num 1</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num 1 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNum2"><p>Debug Key Num 2</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num 2 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNum3"><p>Debug Key Num 3</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num 3 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNum4"><p>Debug Key Num 4</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num 4 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNum5"><p>Debug Key Num 5</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num 5 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNum6"><p>Debug Key Num 6</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num 6 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNum7"><p>Debug Key Num 7</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num 7 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNum8"><p>Debug Key Num 8</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num 8 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNum9"><p>Debug Key Num 9</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num 9 key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyNumLock"><p>Debug Key Num Lock</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Num Lock key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyO"><p>Debug Key O</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the O key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyP"><p>Debug Key P</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the P key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyPageDown"><p>Debug Key Page Down</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Page Down key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyPageUp"><p>Debug Key Page Up</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Page Up key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyPause"><p>Debug Key Pause</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Pause key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyPeriod"><p>Debug Key Period</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Period key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyQ"><p>Debug Key Q</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Q key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyQuote"><p>Debug Key Quote</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Quote key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyR"><p>Debug Key R</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the R key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyRight"><p>Debug Key Right</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Right key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyRightAlt"><p>Debug Key Right Alt</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Right Alt key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyRightBracket"><p>Debug Key Right Bracket</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Right Bracket key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyRightCmd"><p>Debug Key Right Cmd</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Right Cmd key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyRightCtrl"><p>Debug Key Right Ctrl</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Right Ctrl key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyRightParantheses"><p>Debug Key Right Parantheses</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Right Parantheses key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyRightShift"><p>Debug Key Right Shift</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Right Shift key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyS"><p>Debug Key S</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the S key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyScrollLock"><p>Debug Key Scroll Lock</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Scroll Lock key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeySemicolon"><p>Debug Key Semicolon</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Semicolon key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeySlash"><p>Debug Key Slash</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Slash key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeySpaceBar"><p>Debug Key Space Bar</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Space Bar key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyT"><p>Debug Key T</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the T key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyTab"><p>Debug Key Tab</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Tab key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyTouchpadButtonXAxis"><p>Debug Key Touchpad Button X Axis</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Touchpad Button X Axis key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyTouchpadButtonYAxis"><p>Debug Key Touchpad Button Y Axis</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Touchpad Button Y Axis key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyU"><p>Debug Key U</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the U key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyUnderscore"><p>Debug Key Underscore</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Underscore key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyUp"><p>Debug Key Up</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Up key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyV"><p>Debug Key V</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the V key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyW"><p>Debug Key W</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the W key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyX"><p>Debug Key X</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the X key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyY"><p>Debug Key Y</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Y key is pressed or released.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DebugKeyZ"><p>Debug Key Z</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Events for when the Z key is pressed or released.</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

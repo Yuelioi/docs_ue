@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../";
+				var pageid = 0;
+				var heroimage = "./../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/MaterialEditing/" />');
+				var udnCSS = './../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Material Editing | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/MaterialEditing/" hreflang="x-default" />
+
+	<meta name="title" content="Material Editing" />
+<meta name="description" content="Material Editing" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Material Editing" />
+	<meta property="og:description" content="Material Editing" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+<span class="separator">></span> <span id="page">Material Editing</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Material Editing</h1>
+		</div>
+		<h2 >Material Editing</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ClearAllMaterialInstanceParamete-"><p>Clear All Material Instance Parameters</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Clears all material parameters set by this Material Instance
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConnectMaterialExpressions"><p>Connect Material Expressions</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create connection between two material expressions
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="ConnectMaterialProperty"><p>Connect Material Property</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Connect a material expression output to one of the material property inputs (e.g. diffuse color, opacity etc)
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateMaterialExpression"><p>Create Material Expression</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a new material expression node within the supplied material
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CreateMaterialExpressioninFuncti-"><p>Create Material Expression in Function</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Create a new material expression node within the supplied material function
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteAllMaterialExpressions"><p>Delete All Material Expressions</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Delete all material expressions in the supplied material
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteAllMaterialExpressionsinFu-"><p>Delete All Material Expressions in Function</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Delete all material expressions in the supplied material function
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteMaterialExpression"><p>Delete Material Expression</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Delete a specific expression from a material. Will disconnect from other expressions.
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DeleteMaterialExpressioninFuncti-"><p>Delete Material Expression in Function</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Delete a specific expression from a material function. Will disconnect from other expressions.
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="DuplicateMaterialExpression"><p>Duplicate Material Expression</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Duplicates the provided material expression adding it to the same material / material function, and copying parameters.
+Note: Does not duplicate transient properties (Ex: GraphNode).
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetChildInstances"><p>Get Child Instances</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all direct child mat instances
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetInputsforMaterialExpression"><p>Get Inputs for Material Expression</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the set of nodes acting as inputs to a node from an active material editor
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterialDefaultScalarParamete-"><p>Get Material Default Scalar Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the default scalar (float) parameter value from a Material
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterialDefaultStaticSwitchPa-"><p>Get Material Default Static Switch Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the default static switch parameter value from a Material
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterialDefaultTextureParamet-"><p>Get Material Default Texture Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the default texture parameter value from a Material
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterialDefaultVectorParamete-"><p>Get Material Default Vector Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the default vector parameter value from a Material
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterialInsta-"><p>Get Material Instance Runtime Virtual Texture Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current texture parameter value from a Material Instance
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterialInstanceScalarParamet-"><p>Get Material Instance Scalar Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current scalar (float) parameter value from a Material Instance
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterialInstanceStaticSwitchP-"><p>Get Material Instance Static Switch Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current static switch parameter value from a Material Instance
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterialInstanceTextureParame-"><p>Get Material Instance Texture Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current texture parameter value from a Material Instance
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterialInstanceVectorParamet-"><p>Get Material Instance Vector Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current vector parameter value from a Material Instance
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterialPropertyInputNode"><p>Get Material Property Input Node</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the node providing the output for a given material property from an active material editor
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMaterialSelectedNodes"><p>Get Material Selected Nodes</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the set of selected nodes from an active material editor
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumMaterialExpressions"><p>Get Num Material Expressions</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns number of material expressions in the supplied material
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumMaterialExpressionsinFunct-"><p>Get Num Material Expressions in Function</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns number of material expressions in the supplied material
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetScalarParameterNames"><p>Get Scalar Parameter Names</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all scalar parameter names
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetScalarParameterSource"><p>Get Scalar Parameter Source</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the path of the asset where the parameter originated, as well as true/false if it was found
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetStaticSwitchParameterNames"><p>Get Static Switch Parameter Names</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all static switch parameter names
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetStaticSwitchParameterSource"><p>Get Static Switch Parameter Source</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the path of the asset where the parameter originated, as well as true/false if it was found
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetStatistics"><p>Get Statistics</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns statistics about the given material
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTextureParameterNames"><p>Get Texture Parameter Names</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all texture parameter names
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTextureParameterSource"><p>Get Texture Parameter Source</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the path of the asset where the parameter originated, as well as true/false if it was found
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUsedTextures"><p>Get Used Textures</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the list of textures used by a material
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorParameterNames"><p>Get Vector Parameter Names</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Gets all vector parameter names
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVectorParameterSource"><p>Get Vector Parameter Source</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Returns the path of the asset where the parameter originated, as well as true/false if it was found
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasMaterialUsage"><p>Has Material Usage</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check if a particular usage is enabled for the supplied material (e.g. SkeletalMesh, ParticleSprite etc)
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LayoutMaterialExpressions"><p>Layout Material Expressions</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Layouts the expressions in a grid pattern
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="LayoutMaterialFunctionExpression-"><p>Layout Material Function Expressions</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Layouts the expressions in a grid pattern
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="RecompileMaterial"><p>Recompile Material</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Trigger a recompile of a material. Must be performed after making changes to the graph to have changes reflected.
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMaterialFunction"><p>Set Material Function</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set Material Function
+</p><p>Target is Material Expression Material Function Call</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMaterialInstanceParent"><p>Set Material Instance Parent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the parent Material or Material Instance to use for this Material Instance
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMaterialInsta-"><p>Set Material Instance Runtime Virtual Texture Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the texture parameter value for a Material Instance
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMaterialInstanceScalarParamet-"><p>Set Material Instance Scalar Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the scalar (float) parameter value for a Material Instance
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMaterialInstanceStaticSwitchP-"><p>Set Material Instance Static Switch Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the static switch parameter value for a Material Instance
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMaterialInstanceTextureParame-"><p>Set Material Instance Texture Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the texture parameter value for a Material Instance
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMaterialInstanceVectorParamet-"><p>Set Material Instance Vector Parameter Value</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the vector parameter value for a Material Instance
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMaterialUsage"><p>Set Material Usage</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Enable a particular usage for the supplied material (e.g. SkeletalMesh, ParticleSprite etc)
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UpdateMaterialFunction"><p>Update Material Function</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Update a Material Function after edits have been made.
+Will recompile any Materials that use the supplied Material Function.
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="UpdateMaterialInstance"><p>Update Material Instance</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Called after making modifications to a Material Instance to recompile shaders etc.
+</p><p>Target is Material Editing Library</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>

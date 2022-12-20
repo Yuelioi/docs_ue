@@ -1,0 +1,22 @@
+# CastToToolMenuContextBase
+
+Tries to access object as a class it may be an instance of.
+
+## 图示
+
+![]($-20221218-13293594.png)
+
+## Inputs
+
+In: Exec.
+
+Object: Object Wildcard.  
+
+## Outputs
+
+Out: Exec.
+
+Cast Failed: Exec.
+
+As Tool Menu Context Base: Tool Menu Context Base Object Reference.
+

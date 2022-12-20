@@ -1,0 +1,1 @@
+$(document).ready(function(){var n=$('[name="MARKDOWNANCHORNOTUSEDELSEWHERE"]');n.length===0&&(n=$("#H1TitleId"));var i=n.offset().top,t=$("#head"),r=t.length>0?t.offset().top+t.height():0;$(document).scrollTop(i-r)})

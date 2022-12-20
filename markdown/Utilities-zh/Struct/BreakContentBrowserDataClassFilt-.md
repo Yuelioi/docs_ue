@@ -1,0 +1,22 @@
+# BreakContentBrowserDataClassFilt-
+
+Adds a node that breaks a 'ContentBrowserDataClassFilter' into its member fields
+
+## 图示
+
+![]($-20221218-14325163.png)
+
+## Inputs
+
+Content Browser Data Class Filter: Content Browser Data Class Filter Structure (by ref).  
+
+## Outputs
+
+Class Names To Include: Array of Names. Class Names to Include:. Array of class names that should be included in this query.
+
+Class Names To Exclude: Array of Names. Class Names to Exclude:. Array of class names that should be excluded from this query.
+
+Recursive Class Names To Include: Boolean. Recursive Class Names to Include:. Whether we should include inclusive sub-classes in this query.
+
+Recursive Class Names To Exclude: Boolean. Recursive Class Names to Exclude:. Whether we should include exclusive sub-classes in this query.
+

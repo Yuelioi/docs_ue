@@ -1,0 +1,22 @@
+# ForEachEAudioSpectrumType
+
+ForEach EAudioSpectrumType
+
+## 图示
+
+![]($-20221218-13463051.png)
+
+## Inputs
+
+In: Exec.
+
+Skip Hidden: Boolean. Controls whether or not the loop will skip over hidden enumeration values..  
+
+## Outputs
+
+Loop Body: Exec.
+
+Enum Value: EAudioSpectrumType Enum.
+
+Completed: Exec.
+

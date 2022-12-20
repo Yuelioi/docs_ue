@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="./../../../../Include/Javascript/common_en-US.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var time = new Date(0);
+		var preview = false;
+		var relativeHTMLPath = "./../../../../";
+				var pageid = 0;
+				var heroimage = "./../../../../Images/ue5-hero.png";
+				var lang = "en-US";
+				var basePath = document.location.pathname.substring(0, document.location.pathname.indexOf('/' + lang + '/') + lang.length + 1);
+		document.write('<base href="' + basePath + '/BlueprintAPI/Media/MediaPlayer/" />');
+				var udnCSS = './../../../../Include/CSS/udn_public.css';
+		var udnLangCSS = '';
+				var udnOverrideCSS = './../../../../Include/CSS/skin_overrides.css';
+		var udnOverrideDarkCSS = './../../../../Include/CSS/skin_overrides_dark.css';
+		var fancyboxCSS = './../../../../Include/CSS/jquery.fancybox.css';
+		var jqueryuiCSS = './../../../../Include/CSS/jquery-ui.min.css';
+		var qtipCSS = './../../../../Include/CSS/jquery.qtip.css';
+		var prettifyCSS = './../../../../Include/CSS/prettify.css';
+		var navbarCSS = './../../../../Include/CSS/navBar.css';
+		var twentytwentyCSS = './../../../../Include/CSS/twentytwenty.css';
+		var recommendationsCSS = './../../../../Include/CSS/jquery.recommendations.css';
+	</script>
+    <title>Media Player | Unreal Engine Documentation</title>
+    	    <meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-control" content="no-store">
+    <script  src="./../../../../Include/Javascript/CustomEvent.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-3.4.0.min.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/udn_extras.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery-ui.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/informational.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.qtip.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/prettify.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.slimscroll.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.event.move.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script  src="./../../../../Include/Javascript/lazysizes.min.js" type="text/javascript"></script>
+	    <script  src="./../../../../Include/Javascript/jquery.recommendations.js" type="text/javascript"></script>
+	
+    <link async rel="icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async rel="shortcut icon" href="./../../../../Include/Images/site_icon.png" type="image/x-icon" />
+    <link async href="./../../../../Include/Images/touch_icon.png" rel="apple-touch-icon" />
+    <link async href="./../../../../Include/Images/touch_icon_114.png" sizes="114x114" rel="apple-touch-icon" />    
+		<script  src="./../../../../Include/Javascript/CollapsibleLists.js" type="text/javascript"></script>
+	<script  src="./../../../../Include/Javascript/navigationBarUI.js"></script>
+	<script  src="./../../../../Include/Javascript/navigationBar.js"></script>
+		
+	<link rel="alternate" href="https://docs.unrealengine.com/latest/en-US/BlueprintAPI/Media/MediaPlayer/" hreflang="x-default" />
+
+	<meta name="title" content="Media Player" />
+<meta name="description" content="Media Player" />
+<meta name="availability" content="Public" />
+<meta name="crumbs" content="%ROOT%,BlueprintAPI,BlueprintAPI/Media" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Media Player" />
+	<meta property="og:description" content="Media Player" />
+		<meta property="og:image" content="https://docs.unrealengine.com/5.0/Images/placeholder-social.png" />
+	</head>
+<body id="webbgThree" style="visibility: hidden;" onload="document.body.style.visibility='visible';">
+			<script>window.__tracking_base = 'https://tracking.unrealengine.com';</script>
+	<script src="https://tracking.unrealengine.com/tracking.js" async></script>    <div id="webThree">
+				<div id="page_head">
+						<div id="head">
+				<div id="logo"></div>
+			</div>
+						<div id="pagenav">
+				<div class="crumbs" id="crumbs">
+<span id="versionContainer">
+	<span id="versionSelect" class="btn btn-version" onclick="ToggleMenu($('#versionMenu'), $(this));"></span>
+	<div id="versionMenu">
+		<div id="4_26" data-version="4.26" class="btn btn-select" onclick="createCookie('version', '4.26', 365);SwitchVersion('4.26');">Unreal Engine 4.26 Documentation</div>
+		<div id="4_27" data-version="4.27" class="btn btn-select" onclick="createCookie('version', '4.27', 365);SwitchVersion('4.27');">Unreal Engine 4.27 Documentation</div>
+		<div id="5_0" data-version="5.0" class="btn btn-select" onclick="createCookie('version', '5.0', 365);SwitchVersion('5.0');">Unreal Engine 5.0 Documentation</div>
+	</div>
+</span>
+	<span class="separator">></span> <a id="parent_link" href="../../../BlueprintAPI">Unreal Engine Blueprint API Reference</a>
+
+	<span class="separator">></span> <a id="parent_link" href="../../Media">Media</a>
+
+<span class="separator">></span> <span id="page">Media Player</span>
+</div>				<div id="pageNavRight">
+								<!-- Start of Search -->
+												<div id="search_container">
+					<form name="bodySearch" method="get" action="https://www.unrealengine.com/en-US/bing-search" onsubmit="return validateSearch()">
+						<input type="image" src="./../../../../Include/Images/search_box_icon.png" class="searchbutton"/>
+						<input type="hidden" name="filter" value="Documentation" />
+						<input type="text" name="keyword" placeholder="Search Documentation..." class="searchbox" autocomplete="off"/>
+					</form>
+				</div>
+								<!-- End of Search -->
+				<div id="skinContainer">
+	<div id="skinSelect" class="btn btn-skin" onclick="ToggleMenu($('#skinMenu'), $(this));"></div>
+	<div id="skinMenu">
+		<div id="light" class="btn btn-select" onclick="createCookie('skin', 'light', 365);location.reload();">Light Theme</div>
+		<div id="dark" class="btn btn-select" onclick="createCookie('skin', 'dark', 365);location.reload();">Dark Theme</div>
+	</div>
+</div>				</div>
+			</div>
+		</div>						<div id="navWrapper">
+			<div id="nav-filter-container">
+				<div id="nav-filter-inner">
+					<form>
+						<input type="text" placeholder="Filter pages..." id="nav-filter" onchange="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, this.value);if(this.value.length == 0){$('#filter-clear').hide();}else{$('#filter-clear').show();}" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+						<button class="close-icon" id="filter-clear" type="reset" onclick="clearTimeout(filterTimer); filterTimer = setTimeout(updateNavTreeFilter,250, '');$(this).hide();"></button>
+					</form>
+				</div>
+			</div>
+			<nav id="navPanel">
+			</nav>
+			<div id="navigation" title="Click to toggle navigation menu"><span>></span></div>
+		</div>		
+		<div id="splitter">
+		</div>
+				<div id="contentContainer">
+										<div id="pagedefault">
+				<div id="product-banner">
+	<div id="product-logo"></div>
+</div>				<div id="pagecontainer" style="padding-right:0px;">
+					<!-- Start of Markdown converted page content -->
+										<div class="hero  background">
+	<div class="imgContainer"><img src="./../../../../Images/ue5-hero.png" /></div>	<div class="info">
+		<div id="pageTitle">
+			<h1 id="H1TitleId">Media Player</h1>
+		</div>
+		<h2 >Media Player</h2>
+		<div id="access">
+			<div class="accessContainer">
+															</div>
+		</div>
+	</div>
+</div>															<div id="maincol">
+						<div class="togglesection" id="osContainer">
+	<div class="normaltitle">
+		<p>Choose your operating system:</p>
+	</div><div class="toggleButtons">
+		<div class="btn btn-default btn-toggle OS windows" id="windows" onclick="setSelector('OS', 'windows');">
+			<p>Windows</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS mac" id="mac" onclick="setSelector('OS', 'mac');">
+			<p>macOS</p>
+		</div>
+		<div class="btn btn-default btn-toggle OS linux" id="linux" onclick="setSelector('OS', 'linux');">
+			<p>Linux</p>
+		</div>
+	</div>
+</div>																																				<div class="toc">
+<div style="position:relative;">
+    <div class="title">
+    On this page
+    </div>
+<div id="tocScroll">
+    <ul>
+	    		    			    <li id="">
+	<p><a id="toc_link" href="#actions">Actions</a></p>
+	</li>		    	        </ul>
+</div>
+</div>
+</div>
+<h2 id="actions">Actions</h2>
+<div class="member-list">
+	<table cellspacing="0">
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CanPause"><p>Can Pause</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether media playback can be paused right now.
+</p><p>Playback can be paused if the media supports pausing and if it is currently playing.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CanPlaySource"><p>Can Play Source</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether the specified media source can be played by this player.
+</p><p>If a desired player name is set for this player, it will only check
+whether that particular player type can play the specified source.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="CanPlayUrl"><p>Can Play Url</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether the specified URL can be played by this player.
+</p><p>If a desired player name is set for this player, it will only check
+whether that particular player type can play the specified URL.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Close"><p>Close</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Close the currently open media, if any.
+</p><p>See: OnMediaClosed, OpenPlaylist, OpenPlaylistIndex, OpenSource, OpenUrl, Pause, Play
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAudioTrackChannels"><p>Get Audio Track Channels</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the number of channels in the specified audio track.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAudioTrackSampleRate"><p>Get Audio Track Sample Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the sample rate of the specified audio track.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetAudioTrackType"><p>Get Audio Track Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the type of the specified audio track format.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDesiredPlayerName"><p>Get Desired Player Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the name of the current desired native player.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetDuration"><p>Get Duration</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the media's duration.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetHorizontalFieldOfView"><p>Get Horizontal Field Of View</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current horizontal field of view (only for 360 videos).
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetMediaName"><p>Get Media Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the human readable name of the currently loaded media source.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumTrackFormats"><p>Get Num Track Formats</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the number of formats of the specified track.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetNumTracks"><p>Get Num Tracks</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the number of tracks of the given type.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlayerName"><p>Get Player Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the name of the current native media player.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlaylist"><p>Get Playlist</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current play list.
+</p><p>Media players always have a valid play list. In C++ code you can use
+the GetPlaylistRef to get a reference instead of a pointer to it.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetPlaylistIndex"><p>Get Playlist Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current play list index.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetRate"><p>Get Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the media's current playback rate.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSelectedTrack"><p>Get Selected Track</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the index of the currently selected track of the given type.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetSupportedRates"><p>Get Supported Rates</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the supported playback rates.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTime"><p>Get Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the media's current playback time.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTimeDelay"><p>Get Time Delay</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Delay of the player's time.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTimeStamp"><p>Get Time Stamp</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the media's current playback timestamp.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTrackDisplayName"><p>Get Track Display Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the human readable name of the specified track.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTrackFormat"><p>Get Track Format</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the index of the active format of the specified track type.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetTrackLanguage"><p>Get Track Language</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the language tag of the specified track.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetUrl"><p>Get Url</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the URL of the currently loaded media, if any.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVerticalFieldOfView"><p>Get Vertical Field Of View</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current vertical field of view (only for 360 videos).
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVideoTrackAspectRatio"><p>Get Video Track Aspect Ratio</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the aspect ratio of the specified video track.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVideoTrackDimensions"><p>Get Video Track Dimensions</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current dimensions of the specified video track.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVideoTrackFrameRate"><p>Get Video Track Frame Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the frame rate of the specified video track.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVideoTrackFrameRates"><p>Get Video Track Frame Rates</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the supported range of frame rates of the specified video track.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetVideoTrackType"><p>Get Video Track Type</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the type of the specified video track format.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="GetViewRotation"><p>Get View Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Get the current view rotation (only for 360 videos).
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="HasError"><p>Has Error</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether the player is in an error state.
+</p><p>When the player is in an error state, no further operations are possible.
+The current media must be closed, and a new media source must be opened
+before the player can be used again. Errors are usually caused by faulty
+media files or interrupted network connections.
+</p><p>See: IsReady
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsBuffering"><p>Is Buffering</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether playback is buffering data.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsClosed"><p>Is Closed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Whether media is currently closed.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsConnecting"><p>Is Connecting</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether the player is currently connecting to a media source.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsLooping"><p>Is Looping</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether playback is looping.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsPaused"><p>Is Paused</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether playback is currently paused.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsPlaying"><p>Is Playing</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether playback has started.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsPreparing"><p>Is Preparing</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether the media is currently opening or buffering.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="IsReady"><p>Is Ready</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether media is ready for playback.
+</p><p>A player is ready for playback if it has a media source opened that
+finished preparing and is not in an error state.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Next"><p>Next</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Open the next item in the current play list.
+</p><p>The player will start playing the new media source if it was playing
+something previously, otherwise it will only open the media source.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnEndReached"><p>On End Reached</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On End Reached:
+A delegate that is invoked when playback has reached the end of the media.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnMediaClosed"><p>On Media Closed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Media Closed:
+A delegate that is invoked when a media source has been closed.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnMediaOpenFailed"><p>On Media Open Failed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Media Open Failed:
+A delegate that is invoked when a media source has failed to open.
+</p><p>This delegate is only executed if OpenSource / OpenUrl returned true and
+the media failed to open asynchronously later. It is not executed if
+OpenSource / OpenUrl returned false, indicating an immediate failure.
+</p><p>@see OnMediaOpened</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnMediaOpened"><p>On Media Opened</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Media Opened:
+A delegate that is invoked when a media source has been opened.
+</p><p>Depending on whether the underlying player implementation opens the media
+synchronously or asynchronously, this event may be executed before or
+after the call to OpenSource / OpenUrl returns.
+</p><p>@see OnMediaOpenFailed, OnTracksChanged</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnPlaybackResumed"><p>On Playback Resumed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Playback Resumed:
+A delegate that is invoked when media playback has been resumed.
+</p><p>@see OnPlaybackSuspended</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnPlaybackSuspended"><p>On Playback Suspended</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Playback Suspended:
+A delegate that is invoked when media playback has been suspended.
+</p><p>@see OnPlaybackResumed</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnSeekCompleted"><p>On Seek Completed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Seek Completed:
+A delegate that is invoked when a seek operation completed successfully.
+</p><p>Depending on whether the underlying player implementation performs seeks
+synchronously or asynchronously, this event may be executed before or
+after the call to Seek returns.</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OnTracksChanged"><p>On Tracks Changed</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>On Tracks Changed:
+A delegate that is invoked when the media track collection changed.
+</p><p>@see OnMediaOpened</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OpenFile"><p>Open File</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Opens the specified media file path.
+</p><p>A return value of true indicates that the player will attempt to open
+the media, but it may fail to do so later for other reasons, i.e. if
+a connection to the media server timed out. Use the OnMediaOpened and
+OnMediaOpenFailed delegates to detect if and when the media is ready!
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OpenPlaylist"><p>Open Playlist</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Open the first media source in the specified play list.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OpenPlaylistIndex"><p>Open Playlist Index</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Open a particular media source in the specified play list.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OpenSource"><p>Open Source</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Open the specified media source.
+</p><p>A return value of true indicates that the player will attempt to open
+the media, but it may fail to do so later for other reasons, i.e. if
+a connection to the media server timed out. Use the OnMediaOpened and
+OnMediaOpenFailed delegates to detect if and when the media is ready!
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OpenSourceLatent"><p>Open Source Latent</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Open the specified media source with options using a latent action.
+</p><p>A result of true indicates that the player successfully completed all requested operations.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OpenSourcewithOptions"><p>Open Source with Options</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Open the specified media source with supplied options applied.
+</p><p>A return value of true indicates that the player will attempt to open
+the media, but it may fail to do so later for other reasons, i.e. if
+a connection to the media server timed out. Use the OnMediaOpened and
+OnMediaOpenFailed delegates to detect if and when the media is ready!
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="OpenUrl"><p>Open Url</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Opens the specified media URL.
+</p><p>A return value of true indicates that the player will attempt to open
+the media, but it may fail to do so later for other reasons, i.e. if
+a connection to the media server timed out. Use the OnMediaOpened and
+OnMediaOpenFailed delegates to detect if and when the media is ready!
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Pause"><p>Pause</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Pauses media playback.
+</p><p>This is the same as setting the playback rate to 0.0.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Play"><p>Play</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Starts media playback.
+</p><p>This is the same as setting the playback rate to 1.0.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="PlayandSeek"><p>Play and Seek</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Starts playback from the media opened event, but can be used elsewhere.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Previous"><p>Previous</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Open the previous item in the current play list.
+</p><p>The player will start playing the new media source if it was playing
+something previously, otherwise it will only open the media source.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Reopen"><p>Reopen</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Reopens the currently opened media or play list.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Rewind"><p>Rewind</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Rewinds the media to the beginning.
+</p><p>This is the same as seeking to zero time.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="Seek"><p>Seek</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Seeks to the specified playback time.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SelectTrack"><p>Select Track</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Select the active track of the given type.
+</p><p>The selected track will use its currently active format. Active formats will
+be remembered on a per track basis. The first available format is active by
+</p><ol ><li class="Default"><p>To switch the track format, use SetTrackFormat instead.
+</p></li></ol><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetBlockonTime"><p>Set Block on Time</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the time on which to block.
+</p><p>If set, this player will block in TickInput or TickFetch until the video sample
+for the specified time are actually available.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetDesiredPlayerName"><p>Set Desired Player Name</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the name of the desired native player.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetLooping"><p>Set Looping</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Enables or disables playback looping.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetMediaOptions"><p>Set Media Options</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Sets the media options used by the player.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetNativeVolume"><p>Set Native Volume</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the volume on the native player if not mixing with Sound Wave asset.
+</p><p>The SetNativeVolume can be used to change the audio output volume at runtime. Note that
+not all media player plug-ins may support native audio output on all platforms.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetRate"><p>Set Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Changes the media's playback rate.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTimeDelay"><p>Set Time Delay</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Delay of the player's time.
+</p><p>This setting can be used to manually sync multiple sources.
+Set to 1 seconds, if you would like that Player to play 1 second behind his current time.
+If the value is too big, it is possible that the player would not hold that frame for that long.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetTrackFormat"><p>Set Track Format</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the format on the specified track.
+</p><p>Selecting the format will not switch to the specified track. To switch
+tracks, use SelectTrack instead. If the track is already selected, the
+format change will be applied immediately.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetVideoTrackFrameRate"><p>Set Video Track Frame Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the frame rate of the specified video track.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetViewField"><p>Set View Field</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the field of view (only for 360 videos).
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SetViewRotation"><p>Set View Rotation</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Set the view's rotation (only for 360 videos).
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SupportsRate"><p>Supports Rate</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether the specified playback rate is supported.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SupportsScrubbing"><p>Supports Scrubbing</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether the currently loaded media supports scrubbing.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+		<tr class="normal-row">
+	<td class="name-cell">
+		<a href="SupportsSeeking"><p>Supports Seeking</p></a>
+	</td>
+	<td class="desc-cell">
+		<p>Check whether the currently loaded media can jump to a certain position.
+</p><p>Target is Media Player</p>
+	</td>
+</tr>
+			</table>
+</div>
+
+																	</div>
+					<!-- End of Markdown converted page content -->
+				</div>
+												<div id="recommendations"></div>			</div>
+						<div id="footer"></div>			
+											</div>
+	</div></body>
+</html>
