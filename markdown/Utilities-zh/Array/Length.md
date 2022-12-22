@@ -1,6 +1,6 @@
 # Length
 
-Target is Kismet Array Library
+目标是Kismet阵列库
 
 ## 图示
 
@@ -8,9 +8,8 @@ Target is Kismet Array Library
 
 ## Inputs
 
-Target Array: Array of Wildcards. The array to get the length of *.  
+目标阵列。通配符的数组。要获得*的长度的数组。  
 
 ## Outputs
 
-Return Value: Integer. The length of the array.
-
+返回值。整数。数组的长度。

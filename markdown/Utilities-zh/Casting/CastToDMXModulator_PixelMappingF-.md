@@ -1,6 +1,6 @@
 # CastToDMXModulator_PixelMappingF-
 
-Tries to access object as a class it may be an instance of.
+试图将对象作为它可能是一个实例的类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as a class it may be an instance of.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Cast Failed: Exec.
+铸造失败。执行。
 
-As DMX Modulator Constant Frame Delay: DMX Modulator Constant Frame Delay Object Reference.
-
+作为DMX调制器恒定帧延时。DMX调制器恒定帧延迟对象参考。

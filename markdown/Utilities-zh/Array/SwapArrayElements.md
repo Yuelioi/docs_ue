@@ -1,6 +1,6 @@
 # SwapArrayElements
 
-Target is Kismet Array Library
+目标是Kismet阵列库
 
 ## 图示
 
@@ -8,15 +8,14 @@ Target is Kismet Array Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Target Array: Array of Wildcards. The array to perform the operation on *.
+目标阵列。通配符数组。要对*进行操作的数组。
 
-First Index: Integer. The index of one element to be swapped *.
+第一个索引。整数。要调换的一个元素的索引 *。
 
-Second Index: Integer. The index of the other element to be swapped.  
+第二个索引。整数。要交换的另一个元素的索引。  
 
 ## Outputs
 
-Out: Exec.
-
+出：执行。

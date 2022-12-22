@@ -1,6 +1,6 @@
 # Insert
 
-Target is Kismet Array Library
+目标是Kismet阵列库
 
 ## 图示
 
@@ -8,15 +8,14 @@ Target is Kismet Array Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Target Array: Array of Wildcards. The array to insert into *.
+目标阵列。通配符数组。要插入*的数组。
 
-New Item: Wildcard (by ref). The item to insert into the array *.
+新项目。通配符（通过引用）。要插入到数组中的项目*。
 
-Index: Integer. The index at which to insert the item into the array.  
+索引。整数。在数组中插入项目的索引。  
 
 ## Outputs
 
-Out: Exec.
-
+出：执行。

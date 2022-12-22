@@ -1,8 +1,8 @@
 # EditorDestroyed
 
-Editor Destroyed
+编辑被毁
 
-Target is VPViewport Tickable Actor Base
+目标是VPViewport Tickable Actor Base
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is VPViewport Tickable Actor Base
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Target: VPViewport Tickable Actor Base Object Reference.  
+目标。VPViewport Tickable Actor基础对象参考。  
 
 ## Outputs
 
-Out: Exec.
-
+出：执行。

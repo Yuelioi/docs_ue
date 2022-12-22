@@ -1,6 +1,6 @@
 # FilterArray
 
-Target is Kismet Array Library
+目标是Kismet阵列库
 
 ## 图示
 
@@ -8,15 +8,14 @@ Target is Kismet Array Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Target Array: Array of Actor Object References. The array to filter from *.
+目标数组。演员对象引用数组。要过滤的数组 *.
 
-Filter Class: Actor Class Reference. The Actor sub-class type that acts as the filter, only objects derived from it will be returned. *.  
+过滤器类。Actor类参考。作为过滤器的Actor子类类型，只有从它派生的对象才会被返回。*.  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Filtered Array: Array of Actor Object References.
-
+筛选的数组。演员对象参考数组。

@@ -1,8 +1,8 @@
 # GetClass
 
-Returns the class of a passed in Object, will always be valid if Object is not NULL
+返回传入的Object的类，如果Object不是NULL，则永远有效。
 
-Target is Gameplay Statics
+目标是游戏性的统计学
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Gameplay Statics
 
 ## Inputs
 
-Object: Object Reference.  
+对象。对象参考。  
 
 ## Outputs
 
-Return Value: Object Class Reference. Returns the class of a passed in Object, will always be valid if Object is not NULL.
-
+返回值。Object Class Reference。返回传入的Object的类别，如果Object不是NULL，则永远有效。

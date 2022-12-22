@@ -1,6 +1,6 @@
 # CastToMovieScene-_12
 
-Tries to access class as one it may inherit from.
+试图将类作为它可能继承的一个类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access class as one it may inherit from.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Class: Object Class Reference.  
+类。对象类参考。 
 
 ## Outputs
 
-Out: Exec.
+输出。执行。
 
 Cast Failed: Exec.
 
-As Movie Scene Material Parameter Collection Track: Movie Scene Material Parameter Collection Track Class Reference.
-
+作为电影场景材料参数集合轨道。电影场景材料参数集合轨道类参考。

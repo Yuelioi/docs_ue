@@ -1,6 +1,6 @@
 # CastToMoviePipelineDeferredPass_-
 
-Tries to access object as a class it may be an instance of.
+试图将对象作为它可能是一个实例的类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as a class it may be an instance of.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。 
 
 ## Outputs
 
-Out: Exec.
+输出。Exec.
 
 Cast Failed: Exec.
 
-As Movie Pipeline Deferred Pass Detail Lighting: Movie Pipeline Deferred Pass Detail Lighting Object Reference.
-
+作为电影管道延迟通过的详细照明。电影管道递延通过详细照明对象参考。

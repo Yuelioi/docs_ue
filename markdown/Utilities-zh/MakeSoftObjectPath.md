@@ -1,8 +1,8 @@
 # MakeSoftObjectPath
 
-Builds a SoftObjectPath struct. Generally you should be using Soft Object References/Ptr types instead
+构建一个 SoftObjectPath 结构。一般来说，你应该使用软对象引用/Ptr类型来代替。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Path String: String.  
+路径字符串：字符串。  
 
 ## Outputs
 
-Return Value: Soft Object Path Structure. Builds a SoftObjectPath struct. Generally you should be using Soft Object References/Ptr types instead.
-
+返回值。软对象路径结构。构建一个SoftObjectPath结构。一般来说，你应该使用软对象引用/Ptr类型来代替。

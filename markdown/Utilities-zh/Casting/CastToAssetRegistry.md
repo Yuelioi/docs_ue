@@ -1,6 +1,6 @@
 # CastToAssetRegistry
 
-Tries to access object as an interface it may implement.
+试图将对象作为它可能实现的一个接口来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as an interface it may implement.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Cast Failed: Exec.
+铸造失败。执行。
 
-As Asset Registry: Asset Registry Interface.
-
+作为资产注册处。资产注册处界面。

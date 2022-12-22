@@ -1,8 +1,8 @@
 # IsValid
 
-Return true if the object is usable : non-null and not pending kill
+如果对象可用，则返回true：非空且未被杀死。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Object: Object Reference.  
+对象。对象参考。  
 
 ## Outputs
 
-Return Value: Boolean. Return true if the object is usable : non-null and not pending kill.
-
+返回值。布尔值。如果该对象可用，则返回true：非空，且没有待杀。

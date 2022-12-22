@@ -1,8 +1,8 @@
 # IsTriggeredbyMirroredAnimation
 
-Get whether the animation which triggered this notify was mirrored.
+获取触发此通知的动画是否被镜像了。
 
-Target is Anim Notify Mirror Inspection Library
+目标是Anim Notify Mirror Inspection Library
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Anim Notify Mirror Inspection Library
 
 ## Inputs
 
-Event Reference: Anim Notify Event Reference Structure (by ref). The event to inspect.  
+事件参考。Anim Notify Event Reference结构（通过ref）。要检查的事件。  
 
 ## Outputs
 
-Return Value: Boolean.
-
+返回值。布尔值。

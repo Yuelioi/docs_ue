@@ -1,8 +1,8 @@
 # ParseParamValue
 
-Returns 'value' if -option=value is in the string
+如果-option=value在字符串中，则返回'value'。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet System Library
 
 ## Inputs
 
-In String: String.
+在字符串中：字符串。
 
-In Param: String.  
+参数中：字符串。  
 
 ## Outputs
 
-Out Value: String.
+输出值：字符串。
 
-Return Value: Boolean. Returns 'value' if -option=value is in the string.
-
+返回值。布尔值。如果-option=value在字符串中，返回'value'。

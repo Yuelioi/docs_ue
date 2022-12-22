@@ -1,6 +1,6 @@
 # FindItem
 
-Target is Kismet Array Library
+目标是Kismet阵列库
 
 ## 图示
 
@@ -8,11 +8,10 @@ Target is Kismet Array Library
 
 ## Inputs
 
-Target Array: Array of Wildcards. The array to search for the item *.
+目标阵列。通配符数组。要搜索项目的数组 *。
 
-Item to Find: Wildcard (by ref). The item to look for *.  
+要查找的项目：通配符（通过参考）。要寻找的项目*。
 
 ## Outputs
 
-Return Value: Integer. The index the item was found at, or -1 if not found.
-
+返回值。整数。找到项目的索引，如果没有找到，则为-1。

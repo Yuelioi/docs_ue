@@ -1,8 +1,8 @@
 # ToSoftObjectReference
 
-Converts a Soft Object Path into a base Soft Object Reference, this is not guaranteed to be resolvable
+将一个软对象路径转换为一个基本的软对象引用，这不保证是可解析的。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Soft Object Path: Soft Object Path Structure (by ref).  
+软对象路径。软对象路径结构（通过参考）。  
 
 ## Outputs
 
-Return Value: Soft Object Reference. Converts a Soft Object Path into a base Soft Object Reference, this is not guaranteed to be resolvable.
-
+返回值。软对象引用。将一个软对象路径转换为一个基本的软对象引用，这不保证是可解析的。

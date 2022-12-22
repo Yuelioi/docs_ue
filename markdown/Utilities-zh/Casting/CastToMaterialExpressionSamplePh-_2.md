@@ -1,6 +1,6 @@
 # CastToMaterialExpressionSamplePh-_2
 
-Tries to access object as a class it may be an instance of.
+试图将对象作为它可能是一个实例的类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as a class it may be an instance of.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。 
 
 ## Outputs
 
-Out: Exec.
+输出。Exec.
 
-Cast Failed: Exec.
+Cast Failed: 执行。
 
-As Material Expression Sample Physics Vector Field: Material Expression Sample Physics Vector Field Object Reference.
-
+作为材料表达式的物理矢量场样本。材料表达式 物理矢量场示例对象参考。

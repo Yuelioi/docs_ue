@@ -1,8 +1,8 @@
 # ParseParam
 
-Returns true if the string has -param in it (do not specify the leading -)
+如果字符串中含有-param，则返回true（不要指定前面的-）。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-In String: String.
+在字符串中：字符串。
 
-In Param: String.  
+参数中：字符串。  
 
 ## Outputs
 
-Return Value: Boolean. Returns true if the string has -param in it (do not specify the leading -).
-
+返回值。布尔值。如果字符串中含有-param，则返回true（不要指定前面的-）。

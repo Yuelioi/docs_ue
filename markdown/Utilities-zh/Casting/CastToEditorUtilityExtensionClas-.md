@@ -1,6 +1,6 @@
 # CastToEditorUtilityExtensionClas-
 
-Tries to access class as an interface it may implement.
+试图将类作为它可能实现的一个接口来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access class as an interface it may implement.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Class: Object Class Reference.  
+类。对象类参考。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Cast Failed: Exec.
+铸造失败。执行。
 
-As Editor Utility Extension: Editor Utility Extension Interface.
-
+作为编辑器实用程序扩展。编辑器实用程序扩展界面。

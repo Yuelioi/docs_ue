@@ -1,8 +1,8 @@
 # LoadAssetBlocking
 
-Resolves or loads a Soft Object Reference immediately, this will cause hitches and Async Load Asset should be used if possible
+立即解决或加载一个软对象参考，这将导致故障，如果可能，应使用异步加载资产。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Asset: Soft Object Reference.  
+资产：软对象参考。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Return Value: Object Reference. Resolves or loads a Soft Object Reference immediately, this will cause hitches and Async Load Asset should be used if possible.
-
+返回值。对象参考。立即解决或加载一个软对象参考，这将导致打乱，如果可能，应该使用Async Load Asset。

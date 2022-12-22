@@ -1,8 +1,8 @@
 # ToString_SoftObjectReference
 
-Converts a Soft Object Reference to a string. The other direction is not provided because it cannot be validated
+将一个软对象引用转换为一个字符串。不提供另一个方向，因为它不能被验证
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Soft Object Reference: Soft Object Reference (by ref).  
+软对象参考。软对象参考（通过参考）。  
 
 ## Outputs
 
-Return Value: String. Converts a Soft Object Reference to a string. The other direction is not provided because it cannot be validated.
-
+返回值。字符串。将一个软对象引用转换为一个字符串。不提供另一个方向，因为它不能被验证。

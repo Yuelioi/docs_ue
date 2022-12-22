@@ -1,6 +1,6 @@
 # CastToMassEntitySpawnDataGenerat-
 
-Tries to access object as a class it may be an instance of.
+试图将对象作为它可能是一个实例的类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as a class it may be an instance of.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Cast Failed: Exec.
+铸造失败。执行。
 
-As Mass Entity Spawn Data Generator Base: Mass Entity Spawn Data Generator Base Object Reference.
-
+作为大规模实体产卵数据生成器基础。大规模实体再生数据生成器基础对象参考。

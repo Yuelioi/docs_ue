@@ -1,8 +1,8 @@
 # GetPathName
 
-Returns the full path to the specified object.
+返回指定对象的完整路径。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Object: Object Reference.  
+对象。对象参考。  
 
 ## Outputs
 
-Return Value: String. Returns the full path to the specified object..
-
+返回值。字符串。返回指定对象的完整路径。

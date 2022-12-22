@@ -1,8 +1,8 @@
 # Shuffle
 
-Shuffle (randomize) the elements of an array
+洗牌（随机化）一个数组的元素
 
-Target is Kismet Array Library
+目标是Kismet阵列库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet Array Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Target Array: Array of Wildcards. The array to shuffle.  
+目标阵列。通配符阵列。要洗牌的数组。  
 
 ## Outputs
 
-Out: Exec.
-
+出：执行。

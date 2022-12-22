@@ -1,8 +1,8 @@
 # ToString_SoftClassReference
 
-Converts a Soft Class Reference to a string. The other direction is not provided because it cannot be validated
+将一个软类引用转换为一个字符串。不提供另一个方向，因为它不能被验证
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Soft Class Reference: Object Soft Class Reference (by ref).  
+软类参考。对象软类参考（通过参考）。  
 
 ## Outputs
 
-Return Value: String. Converts a Soft Class Reference to a string. The other direction is not provided because it cannot be validated.
-
+返回值。字符串。将一个软类引用转换为一个字符串。不提供另一个方向，因为它不能被验证。

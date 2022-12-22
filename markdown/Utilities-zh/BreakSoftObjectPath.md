@@ -1,8 +1,8 @@
 # BreakSoftObjectPath
 
-Gets the path string out of a Soft Object Path
+从一个软对象路径中获取路径字符串
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-In Soft Object Path: Soft Object Path Structure.  
+在软对象路径中。软对象路径结构。  
 
 ## Outputs
 
-Path String: String.
-
+路径字符串。字符串。

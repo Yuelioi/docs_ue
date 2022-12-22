@@ -1,8 +1,8 @@
 # CastToClass
 
-Converts an object into a class
+将一个对象转换为一个类
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-Object: Object Reference.
+对象。对象参考。
 
-Class: Object Class Reference.  
+类。对象类参考。  
 
 ## Outputs
 
-Return Value: Object Class Reference. Converts an object into a class.
-
+返回值。对象类参考。将一个对象转换为一个类。

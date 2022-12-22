@@ -1,6 +1,6 @@
 # AsyncLoadAsset
 
-Asynchronously loads a Soft Object Reference and returns object of the correct type if the load succeeds
+异步加载一个软对象参考，如果加载成功，返回正确类型的对象。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Asynchronously loads a Soft Object Reference and returns object of the correct t
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Asset: Soft Object Reference.  
+资产：软对象参考。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Completed: Exec.
+已完成。执行。
 
-Object: Object Reference.
-
+对象。对象参考。

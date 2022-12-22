@@ -1,8 +1,8 @@
 # Add
 
-Add item to array
+将项目添加到数组中
 
-Target is Kismet Array Library
+目标是Kismet阵列库
 
 ## 图示
 
@@ -10,15 +10,14 @@ Target is Kismet Array Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Target Array: Array of Wildcards. The array to add item to.
+目标阵列。通配符阵列。要添加项目的数组。
 
-New Item: Wildcard (by ref). The item to add to the array.  
+新项目。通配符（通过引用）。要添加到数组中的项目。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Return Value: Integer. The index of the newly added item.
-
+返回值。整数。新添加项目的索引。

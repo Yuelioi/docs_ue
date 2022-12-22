@@ -1,6 +1,6 @@
 # ResolveSoftReference
 
-Resolves or makes a Soft Reference, connect a soft or hard reference to the input pin.
+解决或制作软参考，将软参考或硬参考连接到输入引脚。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Resolves or makes a Soft Reference, connect a soft or hard reference to the inpu
 
 ## Inputs
 
-Input: Wildcard.  
+输入：通配符。  
 
 ## Outputs
 
-Output: Wildcard.
-
+输出。通配符。

@@ -1,8 +1,8 @@
 # GetDistanceBetweenTwoSockets
 
-Computes the distance between two bones / sockets and can remap the range.
+计算两个骨头/插座之间的距离，并可以重新映射范围。
 
-Target is Kismet Animation Library
+目标是Kismet动画库
 
 ## 图示
 
@@ -10,27 +10,26 @@ Target is Kismet Animation Library
 
 ## Inputs
 
-Component: Skeletal Mesh Component Object Reference. The skeletal component to look for the sockets / bones within.
+组件。骨骼网组件对象参考。寻找插座/骨骼的骨架组件。
 
-Socket or Bone Name A: Name. The name of the first socket / bone.
+插座或骨骼名称 A: 名称。第一个插座/骨的名称。
 
-Socket Space A: ERelativeTransformSpace Enum. The space for the first socket / bone.
+插座空间A：ERelativeTransformSpace枚举。第一个插座/骨头的空间。
 
-Socket or Bone Name B: Name. The name of the second socket / bone.
+插座或骨骼名称 B：名称。第二个插座/骨的名称。
 
-Socket Space B: ERelativeTransformSpace Enum. The space for the second socket / bone.
+插座空间B。ERelativeTransformSpace枚举。第二个插座/骨头的空间。
 
-Remap Range: Boolean. If set to true, the distance will be remapped using the range parameters.
+重映射范围。布尔值。如果设置为真，距离将使用范围参数重新映射。
 
-In Range Min: Float (single-precision). The minimum for the input range (commonly == 0.0).
+在范围内最小。浮点数（单精度）。输入范围的最小值（通常==0.0）。
 
-In Range Max: Float (single-precision). The maximum for the input range (the max expected distance).
+In Range Max: Float (single-precision).输入范围的最大值（最大预期距离）。
 
-Out Range Min: Float (single-precision). The minimum for the output range (commonly == 0.0).
+输出范围最小。浮点数（单精度）。输出范围的最小值（通常==0.0）。
 
-Out Range Max: Float (single-precision). The maximum for the output range (commonly == 1.0).  
+输出范围最大值：浮点数（单精度）。输出范围的最大值（通常==1.0）。  
 
 ## Outputs
 
-Return Value: Float (single-precision).
-
+返回值。浮点数（单精度）。

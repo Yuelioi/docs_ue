@@ -1,8 +1,8 @@
 # SelectClass
 
-If bPickA is true, A is returned, otherwise B is
+如果bPickA为真，则返回A，否则返回B。
 
-Target is Kismet Math Library
+目标是Kismet数学图书馆
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet Math Library
 
 ## Inputs
 
-A: Object Class Reference.
+答：对象类参考。
 
-B: Object Class Reference.
+B：对象类参考。
 
-Select A: Boolean.  
+选择A：布尔值。  
 
 ## Outputs
 
-Return Value: Object Class Reference. If bPickA is true, A is returned, otherwise B is.
-
+返回值。对象类参考。如果bPickA为真，则返回A，否则为B。

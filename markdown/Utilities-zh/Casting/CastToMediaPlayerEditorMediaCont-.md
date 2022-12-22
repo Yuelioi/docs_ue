@@ -1,6 +1,6 @@
 # CastToMediaPlayerEditorMediaCont-
 
-Tries to access object as a class it may be an instance of.
+试图将对象作为它可能是一个实例的类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as a class it may be an instance of.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。 
 
 ## Outputs
 
-Out: Exec.
+输出。Exec.
 
 Cast Failed: Exec.
 
-As Media Player Editor Media Context: Media Player Editor Media Context Object Reference.
-
+作为媒体播放器编辑器的媒体上下文。媒体播放器编辑器 媒体上下文对象参考。

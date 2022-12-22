@@ -1,6 +1,6 @@
 # CastToActorChangedTransformFilte-
 
-Tries to access object as a class it may be an instance of.
+试图将对象作为它可能是一个实例的类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as a class it may be an instance of.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Cast Failed: Exec.
+铸造失败。执行。
 
-As Actor Changed Transform Filter: Actor Changed Transform Filter Object Reference.
-
+作为演员改变了的变换过滤器。Actor Changed Transform Filter对象参考。

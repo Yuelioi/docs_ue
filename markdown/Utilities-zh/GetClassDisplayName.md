@@ -1,8 +1,8 @@
 # GetClassDisplayName
 
-Returns the display name of a class
+返回一个类的显示名称
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Class: Object Class Reference.  
+类。对象类参考。  
 
 ## Outputs
 
-Return Value: String. Returns the display name of a class.
-
+返回值。字符串。返回一个类的显示名称。

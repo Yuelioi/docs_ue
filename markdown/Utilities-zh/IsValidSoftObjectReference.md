@@ -1,8 +1,8 @@
 # IsValidSoftObjectReference
 
-Returns true if the Soft Object Reference is not null
+如果软对象引用不是空的，返回true
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Soft Object Reference: Soft Object Reference (by ref).  
+软对象参考。软对象参考（通过参考）。  
 
 ## Outputs
 
-Return Value: Boolean. Returns true if the Soft Object Reference is not null.
-
+返回值。布尔值。如果软对象引用不是空的，返回真。

@@ -1,8 +1,8 @@
 # IsValidSoftClassReference
 
-Returns true if the Soft Class Reference is not null
+如果软类引用不是空的，则返回true
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Soft Class Reference: Object Soft Class Reference (by ref).  
+软类参考。对象软类参考（通过参考）。  
 
 ## Outputs
 
-Return Value: Boolean. Returns true if the Soft Class Reference is not null.
-
+返回值。布尔值。如果软类引用不是空的，则返回真。

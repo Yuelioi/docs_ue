@@ -1,8 +1,8 @@
 # LookAtFunction
 
-Computes the transform which is "looking" at target position with a local axis.
+计算以本地轴线 "观察 "目标位置的变换。
 
-Target is Kismet Animation Library
+目标是Kismet动画库
 
 ## 图示
 
@@ -10,19 +10,18 @@ Target is Kismet Animation Library
 
 ## Inputs
 
-Current Transform: Transform (by ref). The input transform to modify.
+目前转型。变换（通过引用）。要修改的输入变换。
 
-Target Position: Vector (by ref). The position this transform should look at.
+目标位置。矢量（通过引用）。这个变换应该看的位置。
 
-Look at Vector: Vector. The local vector to align with the target.
+看向量。矢量。与目标对齐的本地矢量。
 
-Use Up Vector: Boolean. If set to true the lookat will also perform a twist rotation.
+使用向上的矢量。布尔值。如果设置为true，lookat也会进行扭曲旋转。
 
-Up Vector: Vector. The position to use for the upvector target (only used is bUseUpVector is turned on).
+向量向上。矢量。用于上行矢量目标的位置（仅在bUseUpVector打开时使用）。
 
-Clamp Cone in Degree: Float (single-precision). A limit for only allowing the lookat to rotate as much as defined by the float value.  
+钳子锥度。浮点（单精度）。一个限制，只允许lookat旋转到浮点值所定义的程度。  
 
 ## Outputs
 
-Return Value: Transform.
-
+返回值。转换。

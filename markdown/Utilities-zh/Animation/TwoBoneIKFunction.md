@@ -1,8 +1,8 @@
 # TwoBoneIKFunction
 
-Computes the transform for two bones using inverse kinematics.
+使用逆运动学计算两根骨头的变换。
 
-Target is Kismet Animation Library
+目标是Kismet动画库
 
 ## 图示
 
@@ -10,25 +10,24 @@ Target is Kismet Animation Library
 
 ## Inputs
 
-Root Pos: Vector (by ref). The input root position of the two bone chain.
+根部位置。矢量（通过引用）。两个骨链的输入根部位置。
 
-Joint Pos: Vector (by ref). The input center (elbow) position of the two bone chain.
+联合位置。矢量（通过参考）。两个骨链的输入中心（肘部）位置。
 
-End Pos: Vector (by ref). The input end (wrist) position of the two bone chain.
+结束位置。矢量（通过参考）。两个骨链的输入端（手腕）位置。
 
-Joint Target: Vector (by ref). The IK target for the write to reach.
+联合目标。向量（通过参考）。写作要达到的IK目标。
 
-Effector: Vector (by ref). The position of the target effector for the IK Chain..
+效应器。向量（通过参考）。IK链的目标效应器的位置。
 
-Allow Stretching: Boolean. If set to true the bones are allowed to stretch.
+允许伸展：布尔值。如果设置为 "真"，则允许骨骼伸展。
 
-Start Stretch Ratio: Float (single-precision). The ratio at which the bones should start to stretch. The higher the value, the later the stretching wil start..
+开始拉伸率。Float（单精度）。骨头应该开始拉伸的比率。该值越高，拉伸就会越晚开始。
 
-Max Stretch Scale: Float (single-precision). The maximum multiplier for the stretch to reach..  
+最大拉伸比例。Float（单精度）。拉伸的最大倍数，以达到。
 
 ## Outputs
 
-Out Joint Pos: Vector. The resulting position for the center (elbow).
+出关节位置。矢量。中心（肘部）的结果位置。
 
-Out End Pos: Vector. The resulting position for the end (wrist).
-
+出端位置。矢量。终端（手腕）的结果位置。

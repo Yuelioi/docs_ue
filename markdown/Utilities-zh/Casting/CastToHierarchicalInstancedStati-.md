@@ -1,6 +1,6 @@
 # CastToHierarchicalInstancedStati-
 
-Tries to access object as a class it may be an instance of.
+试图将对象作为它可能是一个实例的类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as a class it may be an instance of.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Cast Failed: Exec.
+铸造失败。执行。
 
-As Hierarchical Instanced Static Mesh Component: Hierarchical Instanced Static Mesh Component Object Reference.
-
+作为分层实例化的静态网格组件。层次化实例化静态网格组件对象参考。

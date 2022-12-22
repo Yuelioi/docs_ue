@@ -1,6 +1,6 @@
 # CastToAssetEditorContextInterfac-
 
-Tries to access object as an interface it may implement.
+试图将对象作为它可能实现的一个接口来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as an interface it may implement.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Cast Failed: Exec.
+铸造失败。执行。
 
-As Asset Editor Context Interface: Asset Editor Context Interface Interface.
-
+作为资产编辑器的上下文界面。资产编辑器上下文界面界面。

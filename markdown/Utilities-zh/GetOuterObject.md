@@ -1,8 +1,8 @@
 # GetOuterObject
 
-Returns the outer object of an object.
+返回一个对象的外部对象。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Object: Object Reference.  
+对象。对象参考。  
 
 ## Outputs
 
-Return Value: Object Reference. Returns the outer object of an object..
-
+返回值。对象参考。返回一个对象的外部对象。

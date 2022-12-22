@@ -1,6 +1,6 @@
 # CastToMaterialExpressionParticle-_8
 
-Tries to access class as one it may inherit from.
+试图将类作为它可能继承的一个类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access class as one it may inherit from.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Class: Object Class Reference.  
+类。对象类参考。 
 
 ## Outputs
 
-Out: Exec.
+输出。执行。
 
 Cast Failed: Exec.
 
-As Material Expression Particle Position WS: Material Expression Particle Position WS Class Reference.
-
+As Material Expression Particle Position WS: 材料表达式 粒子位置 WS 类参考。

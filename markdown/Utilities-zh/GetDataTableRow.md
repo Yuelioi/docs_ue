@@ -1,6 +1,6 @@
 # GetDataTableRow
 
-Attempts to retrieve a TableRow from a DataTable via it's RowName
+试图通过它的RowName从DataTable中检索一个TableRow。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Attempts to retrieve a TableRow from a DataTable via it's RowName
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Data Table: Data Table Object Reference. Data Table Object Reference Data Table. The DataTable you want to retreive a row from.
+数据表。数据表对象参考.数据表对象参考 数据表。你想检索的数据表的行。
 
-Row Name: Name. Name Row Name. The name of the row to retrieve from the DataTable.  
+行名。名字。Name行名。要从DataTable中检索的行的名称。  
 
 ## Outputs
 
-Row Found: Exec.
+发现行。执行。
 
-Row Not Found: Exec.
+未找到行。执行。
 
-Out Row: Wildcard. Wildcard Out Row. The returned TableRow, if found.
-
+出行：通配符。通配符输出行。如果找到的话，返回的TableRow。

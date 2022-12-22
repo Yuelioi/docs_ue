@@ -1,8 +1,8 @@
 # GetObjectName
 
-Returns the actual object name.
+返回实际的对象名称。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Object: Object Reference.  
+对象。对象参考。  
 
 ## Outputs
 
-Return Value: String. Returns the actual object name..
-
+返回值。字符串。返回实际的对象名称。

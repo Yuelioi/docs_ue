@@ -1,8 +1,8 @@
 # BreakSoftClassPath
 
-Gets the path string out of a Soft Class Path
+从一个软类路径中获取路径字符串
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-In Soft Class Path: Soft Class Path Structure.  
+在软类路径中。软类路径结构。  
 
 ## Outputs
 
-Path String: String.
-
+路径字符串。字符串。

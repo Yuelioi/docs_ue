@@ -1,6 +1,6 @@
 # CastToAssetValidator_AssetRefere-
 
-Tries to access object as a class it may be an instance of.
+试图将对象作为它可能是一个实例的类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as a class it may be an instance of.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Cast Failed: Exec.
+铸造失败。执行。
 
-As Asset Validator Asset Reference Restrictions: Asset Validator Asset Reference Restrictions Object Reference.
-
+作为资产验证器的资产参考限制。资产验证器 资产参考限制 对象参考。

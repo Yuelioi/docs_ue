@@ -1,8 +1,8 @@
 # IsUnattended
 
-Returns true if running unattended (-unattended is on the command line)
+如果在无人看管的情况下运行，返回true（-无人看管是在命令行上）。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Kismet System Library
 
 ## Outputs
 
-Return Value: Boolean. Unattended state.
-
+返回值。布尔值。无人值守的状态。

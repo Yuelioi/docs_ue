@@ -1,8 +1,8 @@
 # StartProfilingTimer
 
-This function starts measuring the time for a profiling bracket
+此功能开始测量一个剖面支架的时间
 
-Target is Kismet Animation Library
+目标是Kismet动画库
 
 ## 图示
 
@@ -14,5 +14,4 @@ In: Exec.
 
 ## Outputs
 
-Out: Exec.
-
+出：执行。

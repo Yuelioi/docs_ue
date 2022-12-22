@@ -1,8 +1,8 @@
 # DoesImplementInterface
 
-Checks if this object implements a specific interface, works for both native and blueprint interfacse
+检查此对象是否实现了一个特定的接口，对本地和蓝图接口都有效。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-Test Object: Object Reference.
+测试对象。对象参考。
 
-Interface: Interface Interface.  
+接口。接口接口。  
 
 ## Outputs
 
-Return Value: Boolean. Checks if this object implements a specific interface, works for both native and blueprint interfacse.
-
+返回值。布尔值。检查该对象是否实现了一个特定的接口，对本地和蓝图接口都有效。

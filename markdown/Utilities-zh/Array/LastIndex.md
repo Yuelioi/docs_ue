@@ -1,6 +1,6 @@
 # LastIndex
 
-Target is Kismet Array Library
+目标是Kismet阵列库
 
 ## 图示
 
@@ -8,9 +8,8 @@ Target is Kismet Array Library
 
 ## Inputs
 
-Target Array: Array of Wildcards. The array to perform the operation on *.  
+目标阵列。通配符数组。要对*进行操作的数组。  
 
 ## Outputs
 
-Return Value: Integer. The last valid index of the array.
-
+返回值。整数。数组的最后一个有效索引。

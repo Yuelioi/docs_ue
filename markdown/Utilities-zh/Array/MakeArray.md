@@ -1,6 +1,6 @@
 # MakeArray
 
-Create an array from a series of items.
+从一系列的项目中创建一个数组。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Create an array from a series of items.
 
 ## Inputs
 
-[ 0]: Wildcard.  
+[ 0]:通配符。  
 
 ## Outputs
 
-Array: Array of Wildcards.
-
+阵列。通配符阵列。

@@ -1,8 +1,8 @@
 # Identical
 
-Checks if two arrays are memberwise identical
+检查两个数组的成员是否相同
 
-Target is Kismet Array Library
+目标是Kismet阵列库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet Array Library
 
 ## Inputs
 
-Array A: Array of Wildcards. One of the arrays to compare.
+阵列A：通配符阵列。要比较的数组之一。
 
-Array B: Array of Wildcards. The other array to compare.  
+阵列B。通配符阵列。要比较的另一个数组。  
 
 ## Outputs
 
-Return Value: Boolean. Whether the two arrays are identical.
-
+返回值。布尔值。两个数组是否相同。

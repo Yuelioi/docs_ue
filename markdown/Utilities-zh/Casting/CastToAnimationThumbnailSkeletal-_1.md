@@ -1,6 +1,6 @@
 # CastToAnimationThumbnailSkeletal-_1
 
-Tries to access class as one it may inherit from.
+试图将类作为它可能继承的一个类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access class as one it may inherit from.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Class: Object Class Reference.  
+类。对象类参考。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Cast Failed: Exec.
+铸造失败。执行。
 
-As Animation Thumbnail Skeletal Mesh Actor: Animation Thumbnail Skeletal Mesh Actor Class Reference.
-
+作为动画缩略图骨架网状结构的演员。Animation Thumbnail Skeletal Mesh Actor类参考。

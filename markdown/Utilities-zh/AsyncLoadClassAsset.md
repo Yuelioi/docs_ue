@@ -1,6 +1,6 @@
 # AsyncLoadClassAsset
 
-Asynchronously loads a Soft Class Reference and returns class of the correct type if the load succeeds
+异步加载一个软类参考，如果加载成功，返回正确类型的类。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Asynchronously loads a Soft Class Reference and returns class of the correct typ
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Asset Class: Object Soft Class Reference.  
+资产类。对象软类参考。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Completed: Exec.
+已完成。执行。
 
-Class: Object Class Reference.
-
+类。对象类参考。

@@ -8,9 +8,8 @@
 
 ## Inputs
 
-Item: Wildcard.  
+项目。通配符。  
 
 ## Outputs
 
-Return Value: Wildcard.
-
+返回值。通配符。

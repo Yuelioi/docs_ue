@@ -1,8 +1,8 @@
 # GetAtmosphereTransmitanceOnGroun-
 
-Get Atmosphere Transmitance on Ground at Planet Top
+在Planet Top获得地面上的大气透射率
 
-Target is Sky Atmosphere Component
+目标是天空大气成分
 
 ## 图示
 
@@ -10,15 +10,14 @@ Target is Sky Atmosphere Component
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Target: Sky Atmosphere Component Object Reference.
+目标。天空大气组件对象参考。
 
-Directional Light: Directional Light Component Object Reference.  
+定向光。定向光组件对象参考。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Return Value: Linear Color Structure. Get Atmosphere Transmitance on Ground at Planet Top.
-
+返回值。线性颜色结构。在行星顶部获得地面的大气透射率。

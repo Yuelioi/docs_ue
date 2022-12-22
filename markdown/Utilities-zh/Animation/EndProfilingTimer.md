@@ -1,8 +1,8 @@
 # EndProfilingTimer
 
-This function ends measuring a profiling bracket and optionally logs the result
+这个函数结束了对一个剖面支架的测量，并可选择记录结果
 
-Target is Kismet Animation Library
+目标是Kismet动画库
 
 ## 图示
 
@@ -10,15 +10,14 @@ Target is Kismet Animation Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Log: Boolean. If set to true the result is logged to the OutputLog.
+日志。布尔值。如果设置为 "true"，结果将被记录到OutputLog中。
 
-Log Prefix: String. A prefix to use for the log.  
+日志前缀。字符串。日志要使用的前缀。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Return Value: Float (single-precision).
-
+返回值。浮点数（单精度）。

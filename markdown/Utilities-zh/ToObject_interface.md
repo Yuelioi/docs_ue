@@ -1,8 +1,8 @@
 # ToObject_interface
 
-Converts an interfance into an object
+将一个界面转换为一个对象
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Interface: Interface Interface (by ref).  
+接口。接口接口（通过参考）。  
 
 ## Outputs
 
-Return Value: Object Reference. Converts an interfance into an object.
-
+返回值。对象参考。将一个interfance转换为一个对象。

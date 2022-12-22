@@ -1,6 +1,6 @@
 # CastToAbilityAsync_WaitAttribute-
 
-Tries to access object as a class it may be an instance of.
+试图将对象作为它可能是一个实例的类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as a class it may be an instance of.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Cast Failed: Exec.
+铸造失败。执行。
 
-As Ability Async Wait Attribute Changed: Ability Async Wait Attribute Changed Object Reference.
-
+作为Ability Async Wait Attribute Changed:能力的异步等待属性改变了对象参考。

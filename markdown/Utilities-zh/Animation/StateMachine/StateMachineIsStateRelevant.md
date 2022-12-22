@@ -1,8 +1,8 @@
 # StateMachineIsStateRelevant
 
-Returns whether a state is relevant (specified in the provided FCachedAnimStateData)
+返回一个状态是否相关（在提供的FCachedAnimStateData中指定）。
 
-Target is Cached Anim Data Library
+目标是缓存的动画数据库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Cached Anim Data Library
 
 ## Inputs
 
-In Anim Instance: Anim Instance Object Reference.
+在Anim Instance中:Anim Instance Object Reference.
 
-Cached Anim State Data: Cached Anim State Data Structure (by ref).  
+缓存的动画状态数据。缓存的动画状态数据结构（通过参考）。  
 
 ## Outputs
 
-Return Value: Boolean. Returns whether a state is relevant (specified in the provided FCachedAnimStateData).
-
+返回值。布尔值。返回一个状态是否相关（在提供的FCachedAnimStateData中指定）。

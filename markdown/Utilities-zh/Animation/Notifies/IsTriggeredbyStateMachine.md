@@ -1,8 +1,8 @@
 # IsTriggeredbyStateMachine
 
-Get whether the notify was triggered from the specified state machine
+获取通知是否由指定的状态机触发。
 
-Target is Anim Notify State Machine Inspection Library
+目标是Anim Notify状态机检查库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Anim Notify State Machine Inspection Library
 
 ## Inputs
 
-Event Reference: Anim Notify Event Reference Structure (by ref). The event to inspect.
+事件参考。Anim Notify Event Reference结构（通过ref）。要检查的事件。
 
-Anim Instance: Anim Instance Object Reference.
+Anim Instance:Anim Instance Object Reference.
 
-State Machine Name: Name. The Name of a state machine to test.  
+状态机名称。名称。要测试的状态机的名称。  
 
 ## Outputs
 
-Return Value: Boolean.
-
+返回值。布尔值。

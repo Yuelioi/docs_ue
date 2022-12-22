@@ -1,6 +1,6 @@
 # CastToConvertCascadeToNiagaraRes-
 
-Tries to access object as a class it may be an instance of.
+试图将对象作为它可能是一个实例的类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as a class it may be an instance of.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Cast Failed: Exec.
+铸造失败。执行。
 
-As Convert Cascade To Niagara Results: Convert Cascade To Niagara Results Object Reference.
-
+作为Convert Cascade To Niagara Results。转换级联到尼亚加拉的结果对象参考。

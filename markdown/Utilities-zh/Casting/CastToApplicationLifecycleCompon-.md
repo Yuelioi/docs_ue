@@ -1,6 +1,6 @@
 # CastToApplicationLifecycleCompon-
 
-Tries to access object as a class it may be an instance of.
+试图将对象作为它可能是一个实例的类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as a class it may be an instance of.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Cast Failed: Exec.
+铸造失败。执行。
 
-As Application Lifecycle Component: Application Lifecycle Component Object Reference.
-
+作为应用寿命周期组件。应用程序生命周期组件对象参考。

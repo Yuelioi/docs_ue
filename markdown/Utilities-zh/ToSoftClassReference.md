@@ -1,8 +1,8 @@
 # ToSoftClassReference
 
-Converts a Soft Class Path into a base Soft Class Reference, this is not guaranteed to be resolvable
+将一个软类路径转换为一个基本的软类引用，这不保证是可以解决的。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Soft Class Path: Soft Class Path Structure (by ref).  
+软体类路径。软类路径结构（按参考文献）。  
 
 ## Outputs
 
-Return Value: Object Soft Class Reference. Converts a Soft Class Path into a base Soft Class Reference, this is not guaranteed to be resolvable.
-
+返回值。对象软类引用。将一个软类路径转换为一个基本的软类引用，这不保证是可解析的。

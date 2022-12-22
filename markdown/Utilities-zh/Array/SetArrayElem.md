@@ -1,6 +1,6 @@
 # SetArrayElem
 
-Target is Kismet Array Library
+目标是Kismet阵列库
 
 ## 图示
 
@@ -8,17 +8,16 @@ Target is Kismet Array Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Target Array: Array of Wildcards. The array to perform the operation on *.
+目标阵列。通配符数组。要对*进行操作的数组。
 
-Index: Integer. The index to assign the item to *.
+索引。整数。将项目分配给*的索引。
 
-Item: Wildcard (by ref). The item to assign to the index of the array *.
+项目。通配符（通过引用）。要分配给数组索引的项目*。
 
-Size to Fit: Boolean. If true, the array will expand if Index is greater than the current size of the array.  
+适合的大小。布尔值。如果为真，如果Index大于数组的当前大小，数组将扩展。  
 
 ## Outputs
 
-Out: Exec.
-
+出：执行。

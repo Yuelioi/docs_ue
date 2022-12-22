@@ -1,6 +1,6 @@
 # Get_aref
 
-Given an array and an index, returns the item in the array at that index (since. it's a direct reference, you can operate directly on the item and changes made. to it will be reflected back in the array)
+给定一个数组和一个索引，返回该索引处的数组中的项目（因为是直接引用，所以可以直接对该项目进行操作，对其所做的改变也会反映在数组中）。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Given an array and an index, returns the item in the array at that index (since.
 
 ## Inputs
 
-Array: Array of Wildcards.
+阵列。通配符阵列。
 
-Dimension 1: Integer.  
+尺寸1：整数。  
 
 ## Outputs
 
-Output: Wildcard (by ref).
-
+输出。通配符（通过参考）。

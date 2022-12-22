@@ -1,6 +1,6 @@
 # Select
 
-Return the option at Index, (first option is indexed at 0)
+返回索引处的选项，（第一个选项的索引为0）。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Return the option at Index, (first option is indexed at 0)
 
 ## Inputs
 
-Option 0: Wildcard.
+选项0：通配符。
 
-Option 1: Wildcard.
+选项1：通配符。
 
-Index: Index Wildcard.  
+索引。索引通配符。  
 
 ## Outputs
 
-Return Value: Wildcard.
-
+返回值。通配符。

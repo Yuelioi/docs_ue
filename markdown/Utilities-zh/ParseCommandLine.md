@@ -1,10 +1,10 @@
 # ParseCommandLine
 
-  * 
+  
 
 
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -12,17 +12,16 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-In Cmd Line: String. The the string to parse (ie '-foo -bar=/game/baz testtoken' ) *.  
+在Cmd线。字符串。要解析的字符串（即'-foo -bar=/game/baz testtoken' ） *.  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Out Tokens: Array of Strings.
+输出令牌。字符串阵列。
 
-Out Switches: Array of Strings.
+输出开关。弦乐的阵列。
 
-Out Params: Map of Strings to Strings.
-
+输出参数。绘制字符串的地图。

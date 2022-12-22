@@ -1,6 +1,6 @@
 # RemoveIndex
 
-Target is Kismet Array Library
+目标是Kismet阵列库
 
 ## 图示
 
@@ -8,13 +8,12 @@ Target is Kismet Array Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Target Array: Array of Wildcards. The array to remove from *.
+目标阵列。通配符阵列。要从*中删除的数组。
 
-Index to Remove: Integer. The index into the array to remove from.  
+要删除的索引。整数。要移除的数组中的索引。  
 
 ## Outputs
 
-Out: Exec.
-
+出：执行。

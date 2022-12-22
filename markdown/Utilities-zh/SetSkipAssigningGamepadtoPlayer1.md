@@ -1,8 +1,8 @@
 # SetSkipAssigningGamepadtoPlayer1
 
-Modify "Skip Assigning Gamepad to Player 1" GameMapsSettings option
+修改 "跳过指定游戏板给玩家1 "的GameMapsSettings选项
 
-Target is Game Maps Settings
+目标是游戏地图设置
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Game Maps Settings
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Target: Game Maps Settings Object Reference.
+目标。游戏地图设置对象参考。
 
-Skip First Player: Boolean. If set connected game pads will only be assigned to the second and subsequent players.  
+跳过第一个玩家。布尔值。如果设置了连接的游戏垫将只分配给第二个和随后的球员。  
 
 ## Outputs
 
-Out: Exec.
-
+出：执行。

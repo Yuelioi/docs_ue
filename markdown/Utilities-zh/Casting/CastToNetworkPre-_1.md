@@ -1,6 +1,6 @@
 # CastToNetworkPre-_1
 
-Tries to access object as a class it may be an instance of.
+试图将对象作为它可能是一个实例的类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as a class it may be an instance of.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。 
 
 ## Outputs
 
-Out: Exec.
+输出。Exec.
 
-Cast Failed: Exec.
+Cast Failed: 执行。
 
-As Network Prediction Extras Flying Pawn Mock Ability: Network Prediction Extras Flying Pawn Mock Ability Object Reference.
-
+作为网络预测额外的飞卒模拟能力。网络预测额外的飞行棋子模拟能力对象参考。
