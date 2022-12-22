@@ -1,6 +1,6 @@
 # BytetoEnumEAppleProResEncoderCol-
 
-Byte to Enum EAppleProResEncoderColorPrimaries
+字节到枚举 EAppleProResEncoderColorPrimaries
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAppleProResEncoderColorPrimaries
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAppleProResEncoderColorPrimaries Enum.
-
+返回值。EAppleProResEncoderColorPrimaries Enum.

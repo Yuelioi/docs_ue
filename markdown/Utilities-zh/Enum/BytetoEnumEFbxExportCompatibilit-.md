@@ -1,6 +1,6 @@
 # BytetoEnumEFbxExportCompatibilit-
 
-Byte to Enum EFbxExportCompatibility
+字节到枚举 EFbxExportCompatibility
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFbxExportCompatibility
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFbxExportCompatibility Enum.
-
+返回值。EFbxExportCompatibility Enum。

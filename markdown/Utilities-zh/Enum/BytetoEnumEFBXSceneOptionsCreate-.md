@@ -1,6 +1,6 @@
 # BytetoEnumEFBXSceneOptionsCreate-
 
-Byte to Enum EFBXSceneOptionsCreateHierarchyType
+字节到枚举 EFBXSceneOptionsCreateHierarchyType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFBXSceneOptionsCreateHierarchyType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFBXSceneOptionsCreateHierarchyType Enum.
-
+返回值。EFBXSceneOptionsCreateHierarchyType Enum。

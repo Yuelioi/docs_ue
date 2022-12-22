@@ -1,6 +1,6 @@
 # BytetoEnumEDMXSendResult
 
-Byte to Enum EDMXSendResult
+字节到枚举 EDMXSendResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDMXSendResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDMXSendResult Enum.
-
+返回值。EDMXSendResult Enum.

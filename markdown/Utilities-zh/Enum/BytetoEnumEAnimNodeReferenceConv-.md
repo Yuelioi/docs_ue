@@ -1,6 +1,6 @@
 # BytetoEnumEAnimNodeReferenceConv-
 
-Byte to Enum EAnimNodeReferenceConversionResult
+字节到枚举 EAnimNodeReferenceConversionResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAnimNodeReferenceConversionResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAnimNodeReferenceConversionResult Enum.
-
+返回值。EAnimNodeReferenceConversionResult Enum。

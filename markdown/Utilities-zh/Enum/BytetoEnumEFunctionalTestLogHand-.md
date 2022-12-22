@@ -1,6 +1,6 @@
 # BytetoEnumEFunctionalTestLogHand-
 
-Byte to Enum EFunctionalTestLogHandling
+字节到枚举 EFunctionalTestLogHandling
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFunctionalTestLogHandling
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFunctionalTestLogHandling Enum.
-
+返回值。EFunctionalTestLogHandling Enum.

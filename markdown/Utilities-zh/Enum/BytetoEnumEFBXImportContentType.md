@@ -1,6 +1,6 @@
 # BytetoEnumEFBXImportContentType
 
-Byte to Enum EFBXImportContentType
+字节到枚举 EFBXImportContentType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFBXImportContentType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFBXImportContentType Enum.
-
+返回值。EFBXImportContentType Enum。

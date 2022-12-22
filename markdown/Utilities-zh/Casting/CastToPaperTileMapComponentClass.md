@@ -1,6 +1,6 @@
 # CastToPaperTileMapComponentClass
 
-Tries to access class as one it may inherit from.
+Attempt to access the class as one of the classes it may inherit from.
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access class as one it may inherit from.
 
 ## Inputs
 
-In: Exec.
+In. Implementation.
 
-Class: Object Class Reference.  
+Classes. Object class reference. 
 
 ## Outputs
 
-Out: Exec.
+Output. Execute.
 
-Cast Failed: Exec.
+Cast Failed: Executes.
 
-As Paper Tile Map Component: Paper Tile Map Component Class Reference.
-
+Referenced by the Paper Tile Map Component class.

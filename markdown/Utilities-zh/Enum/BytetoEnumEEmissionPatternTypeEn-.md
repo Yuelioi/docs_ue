@@ -1,6 +1,6 @@
 # BytetoEnumEEmissionPatternTypeEn-
 
-Byte to Enum EEmissionPatternTypeEnum
+字节到枚举 EEmissionPatternTypeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EEmissionPatternTypeEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EEmissionPatternTypeEnum Enum.
-
+返回值。EEmissionPatternTypeEnum枚举。

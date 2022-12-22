@@ -1,6 +1,6 @@
 # BytetoEnumEARJointTransformSpace
 
-Byte to Enum EARJointTransformSpace
+字节到枚举 EARJointTransformSpace
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARJointTransformSpace
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARJointTransformSpace Enum.
-
+返回值。EARJointTransformSpace Enum。

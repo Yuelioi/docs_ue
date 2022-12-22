@@ -1,6 +1,6 @@
 # BytetoEnumEBoundaryType
 
-Byte to Enum EBoundaryType
+字节到枚举的EB边界类型
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EBoundaryType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EBoundaryType Enum.
-
+返回值。EBoundaryType Enum。

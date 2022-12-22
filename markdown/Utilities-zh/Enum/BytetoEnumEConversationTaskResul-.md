@@ -1,6 +1,6 @@
 # BytetoEnumEConversationTaskResul-
 
-Byte to Enum EConversationTaskResultType
+字节到枚举 EConversationTaskResultType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EConversationTaskResultType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EConversationTaskResultType Enum.
-
+返回值。EConversationTaskResultType Enum。

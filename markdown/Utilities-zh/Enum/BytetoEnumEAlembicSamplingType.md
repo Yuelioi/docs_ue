@@ -1,6 +1,6 @@
 # BytetoEnumEAlembicSamplingType
 
-Byte to Enum EAlembicSamplingType
+字节到枚举 EAlembicSamplingType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAlembicSamplingType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAlembicSamplingType Enum.
-
+返回值。EAlembicSamplingType Enum。

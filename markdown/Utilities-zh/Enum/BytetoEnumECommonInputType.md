@@ -1,6 +1,6 @@
 # BytetoEnumECommonInputType
 
-Byte to Enum ECommonInputType
+字节到枚举 ECommonInputType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ECommonInputType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECommonInputType Enum.
-
+返回值。ECommonInputType Enum。

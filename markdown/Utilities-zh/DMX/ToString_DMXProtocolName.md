@@ -1,8 +1,8 @@
 # ToString_DMXProtocolName
 
-Conv DMXProtocol Name to String
+将DMXProtocol名称转换为字符串
 
-Target is DMXName Containers Conversions
+目标是 DMXName 容器转换
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is DMXName Containers Conversions
 
 ## Inputs
 
-In Protocol Name: DMXProtocol Name Structure (by ref).  
+在协议名称中。DMXProtocol Name结构（通过引用）。 
 
 ## Outputs
 
-Return Value: String. Conv DMXProtocol Name to String.
-
+返回值。字符串。转换DMXProtocol Name为字符串。

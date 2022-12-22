@@ -1,6 +1,6 @@
 # BytetoEnumEBTNodeResult
 
-Byte to Enum EBTNodeResult
+字节到枚举 EBTNodeResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EBTNodeResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EBTNodeResult Enum.
-
+返回值。EBTNodeResult Enum。

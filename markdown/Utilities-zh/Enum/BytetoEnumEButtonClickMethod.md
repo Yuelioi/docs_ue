@@ -1,6 +1,6 @@
 # BytetoEnumEButtonClickMethod
 
-Byte to Enum EButtonClickMethod
+字节到枚举的EB按钮点击方法
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EButtonClickMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EButtonClickMethod Enum.
-
+返回值。EButtonClickMethod Enum。

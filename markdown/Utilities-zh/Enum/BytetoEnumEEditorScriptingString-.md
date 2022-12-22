@@ -1,6 +1,6 @@
 # BytetoEnumEEditorScriptingString-
 
-Byte to Enum EEditorScriptingStringMatchType
+字节到枚举 EEditorScriptingStringMatchType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EEditorScriptingStringMatchType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EEditorScriptingStringMatchType Enum.
-
+返回值。EEditorScriptingStringMatchType Enum。

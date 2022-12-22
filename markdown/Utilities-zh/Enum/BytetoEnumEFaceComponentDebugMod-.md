@@ -1,6 +1,6 @@
 # BytetoEnumEFaceComponentDebugMod-
 
-Byte to Enum EFaceComponentDebugMode
+字节到枚举 EFaceComponentDebugMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFaceComponentDebugMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFaceComponentDebugMode Enum.
-
+返回值。EFaceComponentDebugMode枚举。

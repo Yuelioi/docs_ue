@@ -1,6 +1,6 @@
 # BytetoEnumEEXRCompressionFormat
 
-Byte to Enum EEXRCompressionFormat
+字节到枚举 EEXRCompressionFormat
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EEXRCompressionFormat
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EEXRCompressionFormat Enum.
-
+返回值。EEXRCompressionFormat Enum。

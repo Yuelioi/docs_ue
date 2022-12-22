@@ -1,6 +1,6 @@
 # BytetoEnumEDisplayClusterNodeRol-
 
-Byte to Enum EDisplayClusterNodeRole
+字节到枚举EDClusterNodeRole
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDisplayClusterNodeRole
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDisplayClusterNodeRole Enum.
-
+返回值。EDisplayClusterNodeRole Enum。

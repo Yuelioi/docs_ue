@@ -8,9 +8,8 @@ Byte to Enum ECalibrationPointVisualization
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECalibrationPointVisualization Enum.
-
+返回值。ECalibrationPointVisualization Enum。

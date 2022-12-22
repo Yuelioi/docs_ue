@@ -1,6 +1,6 @@
 # BytetoEnumEDMXColorMode
 
-Byte to Enum EDMXColorMode
+字节到枚举 EDMXColorMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDMXColorMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDMXColorMode Enum.
-
+返回值。EDMXColorMode Enum。

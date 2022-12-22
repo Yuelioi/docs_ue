@@ -1,6 +1,6 @@
 # BytetoEnumEFFTSize
 
-Byte to Enum EFFTSize
+字节到枚举EFFTSize
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFFTSize
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFFTSize Enum.
-
+返回值。EFFTSize Enum。

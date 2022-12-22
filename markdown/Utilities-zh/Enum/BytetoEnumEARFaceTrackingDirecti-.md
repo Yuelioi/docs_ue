@@ -1,6 +1,6 @@
 # BytetoEnumEARFaceTrackingDirecti-
 
-Byte to Enum EARFaceTrackingDirection
+字节到枚举 EARFaceTrackingDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARFaceTrackingDirection
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARFaceTrackingDirection Enum.
-
+返回值。EARFaceTrackingDirection Enum。

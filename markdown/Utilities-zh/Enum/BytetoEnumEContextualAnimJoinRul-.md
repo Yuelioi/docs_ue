@@ -1,6 +1,6 @@
 # BytetoEnumEContextualAnimJoinRul-
 
-Byte to Enum EContextualAnimJoinRule
+字节到枚举 EContextualAnimJoinRule
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EContextualAnimJoinRule
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EContextualAnimJoinRule Enum.
-
+返回值。EContextualAnimJoinRule Enum。

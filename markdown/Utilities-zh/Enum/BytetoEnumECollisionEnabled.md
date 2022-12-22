@@ -8,9 +8,8 @@ Byte to Enum ECollisionEnabled
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECollisionEnabled Enum.
-
+返回值。ECollisionEnabled Enum.

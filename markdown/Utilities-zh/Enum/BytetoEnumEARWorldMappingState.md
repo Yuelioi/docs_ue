@@ -1,6 +1,6 @@
 # BytetoEnumEARWorldMappingState
 
-Byte to Enum EARWorldMappingState
+字节到枚举 EARWorldMappingState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARWorldMappingState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARWorldMappingState Enum.
-
+返回值。EARWorldMappingState Enum.

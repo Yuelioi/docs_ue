@@ -1,6 +1,6 @@
 # BytetoEnumEBone
 
-Byte to Enum EBone
+字节到Enum EBone
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EBone
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EBone Enum.
-
+返回值。EBone Enum。

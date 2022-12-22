@@ -1,6 +1,6 @@
 # BytetoEnumEBuildHierarchyMethod
 
-Byte to Enum EBuildHierarchyMethod
+字节到枚举 EBuildHierarchyMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EBuildHierarchyMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EBuildHierarchyMethod Enum.
-
+返回值。EBuildHierarchyMethod Enum。

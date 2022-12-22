@@ -1,6 +1,6 @@
 # BytetoEnumEAudioBusChannels
 
-Byte to Enum EAudioBusChannels
+字节到枚举 EAudioBusChannels
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAudioBusChannels
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAudioBusChannels Enum.
-
+返回值。EAudioBusChannels Enum.

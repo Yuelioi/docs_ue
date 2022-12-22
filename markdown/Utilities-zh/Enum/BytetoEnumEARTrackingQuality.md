@@ -1,6 +1,6 @@
 # BytetoEnumEARTrackingQuality
 
-Byte to Enum EARTrackingQuality
+字节到枚举 EARTrackingQuality
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARTrackingQuality
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARTrackingQuality Enum.
-
+返回值。EARTrackingQuality Enum。

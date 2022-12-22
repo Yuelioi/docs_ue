@@ -1,6 +1,6 @@
 # BytetoEnumEDatasmithAreaLightAct-
 
-Byte to Enum EDatasmithAreaLightActorShape
+字节到枚举 EDatasmithAreaLightActorShape
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDatasmithAreaLightActorShape
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDatasmithAreaLightActorShape Enum.
-
+返回值。EDatasmithAreaLightActorShape Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEFieldScalarType
 
-Byte to Enum EFieldScalarType
+字节到枚举 EFieldScalarType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFieldScalarType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFieldScalarType Enum.
-
+返回值。EFieldScalarType Enum。

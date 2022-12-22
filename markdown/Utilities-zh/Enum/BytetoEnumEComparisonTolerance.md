@@ -1,6 +1,6 @@
 # BytetoEnumEComparisonTolerance
 
-Byte to Enum EComparisonTolerance
+字节到枚举 EComparisonTolerance
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EComparisonTolerance
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EComparisonTolerance Enum.
-
+返回值。EComparisonTolerance Enum。

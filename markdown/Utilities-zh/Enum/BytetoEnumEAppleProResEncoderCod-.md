@@ -1,6 +1,6 @@
 # BytetoEnumEAppleProResEncoderCod-
 
-Byte to Enum EAppleProResEncoderCodec
+字节到枚举 EAppleProResEncoderCodec
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAppleProResEncoderCodec
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAppleProResEncoderCodec Enum.
-
+返回值。EAppleProResEncoderCodec Enum.

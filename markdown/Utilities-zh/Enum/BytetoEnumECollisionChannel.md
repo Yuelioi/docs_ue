@@ -8,9 +8,8 @@ Byte to Enum ECollisionChannel
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECollisionChannel Enum.
-
+返回值。ECollisionChannel Enum。

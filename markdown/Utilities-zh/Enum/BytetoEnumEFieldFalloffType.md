@@ -1,6 +1,6 @@
 # BytetoEnumEFieldFalloffType
 
-Byte to Enum EFieldFalloffType
+字节到枚举 EFieldFalloffType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFieldFalloffType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFieldFalloffType Enum.
-
+返回值。EFieldFalloffType Enum。

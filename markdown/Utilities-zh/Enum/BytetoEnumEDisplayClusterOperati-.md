@@ -1,6 +1,6 @@
 # BytetoEnumEDisplayClusterOperati-
 
-Byte to Enum EDisplayClusterOperationMode
+字节到枚举EDClusterOperationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDisplayClusterOperationMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDisplayClusterOperationMode Enum.
-
+返回值。EDisplayClusterOperationMode Enum。

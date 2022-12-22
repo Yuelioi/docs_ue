@@ -1,6 +1,6 @@
 # BytetoEnumEEyeTrackerStatus
 
-Byte to Enum EEyeTrackerStatus
+字节到枚举 EEyeTrackerStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EEyeTrackerStatus
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EEyeTrackerStatus Enum.
-
+返回值。EEyeTrackerStatus Enum。

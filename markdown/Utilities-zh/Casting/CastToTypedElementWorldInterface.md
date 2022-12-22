@@ -1,6 +1,6 @@
 # CastToTypedElementWorldInterface
 
-Tries to access object as an interface it may implement.
+试图将对象作为它可能实现的一个接口来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as an interface it may implement.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。 
 
 ## Outputs
 
-Out: Exec.
+输出。Exec.
 
-Cast Failed: Exec.
+Cast Failed: 执行。
 
-As Typed Element World Interface: Typed Element World Interface Interface.
-
+作为类型化的元素世界界面。类型化元素世界界面界面。

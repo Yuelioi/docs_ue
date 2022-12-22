@@ -1,6 +1,6 @@
 # BytetoEnumEARServicePermissionRe-
 
-Byte to Enum EARServicePermissionRequestResult
+字节到枚举 EARServicePermissionRequestResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARServicePermissionRequestResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARServicePermissionRequestResult Enum.
-
+返回值。EARServicePermissionRequestResult Enum。

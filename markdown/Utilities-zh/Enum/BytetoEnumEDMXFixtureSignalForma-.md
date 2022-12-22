@@ -1,6 +1,6 @@
 # BytetoEnumEDMXFixtureSignalForma-
 
-Byte to Enum EDMXFixtureSignalFormat
+字节到枚举 EDMXFixtureSignalFormat
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDMXFixtureSignalFormat
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDMXFixtureSignalFormat Enum.
-
+返回值: EDMXFixtureSignalFormat Enum.

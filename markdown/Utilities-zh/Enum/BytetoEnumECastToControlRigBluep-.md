@@ -1,6 +1,6 @@
 # BytetoEnumECastToControlRigBluep-
 
-Byte to Enum ECastToControlRigBlueprintCases
+字节到枚举 ECastToControlRigBlueprintCases
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ECastToControlRigBlueprintCases
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECastToControlRigBlueprintCases Enum.
-
+返回值。ECastToControlRigBlueprintCases Enum。

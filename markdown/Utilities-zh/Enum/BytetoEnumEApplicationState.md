@@ -8,9 +8,8 @@ Byte to Enum EApplicationState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EApplicationState Enum.
-
+返回值。EApplicationState Enum。

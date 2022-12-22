@@ -1,6 +1,6 @@
 # BytetoEnumEAzureSpatialAnchorDat-
 
-Byte to Enum EAzureSpatialAnchorDataCategory
+字节到枚举 EAzureSpatialAnchorDataCategory
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAzureSpatialAnchorDataCategory
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAzureSpatialAnchorDataCategory Enum.
-
+返回值。EAzureSpatialAnchorDataCategory Enum。

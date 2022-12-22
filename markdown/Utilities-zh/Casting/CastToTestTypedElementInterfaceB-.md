@@ -1,6 +1,6 @@
 # CastToTestTypedElementInterfaceB-
 
-Tries to access class as an interface it may implement.
+试图将类作为它可能实现的一个接口来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access class as an interface it may implement.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Class: Object Class Reference.  
+类。对象类参考。 
 
 ## Outputs
 
-Out: Exec.
+输出。执行。
 
-Cast Failed: Exec.
+Cast Failed: 执行。
 
-As Test Typed Element Interface B: Test Typed Element Interface B Interface.
-
+作为测试类型的元素界面B。测试类型化元素界面B界面。

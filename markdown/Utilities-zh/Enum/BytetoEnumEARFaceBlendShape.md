@@ -1,6 +1,6 @@
 # BytetoEnumEARFaceBlendShape
 
-Byte to Enum EARFaceBlendShape
+字节到枚举 EARFaceBlendShape
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARFaceBlendShape
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARFaceBlendShape Enum.
-
+返回值。EARFaceBlendShape Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEConstantQFFTSizeEnum
 
-Byte to Enum EConstantQFFTSizeEnum
+字节到枚举 EConstantQFFTSizeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EConstantQFFTSizeEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EConstantQFFTSizeEnum Enum.
-
+返回值。EConstantQFFTSizeEnum枚举。

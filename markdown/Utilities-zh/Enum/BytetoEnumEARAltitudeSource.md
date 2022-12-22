@@ -1,6 +1,6 @@
 # BytetoEnumEARAltitudeSource
 
-Byte to Enum EARAltitudeSource
+字节到枚举EARAltitudeSource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARAltitudeSource
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARAltitudeSource Enum.
-
+返回值。EARAltitudeSource Enum。

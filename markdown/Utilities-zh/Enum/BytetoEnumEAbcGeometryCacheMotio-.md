@@ -1,6 +1,6 @@
 # BytetoEnumEAbcGeometryCacheMotio-
 
-Byte to Enum EAbcGeometryCacheMotionVectorsImport
+字节到枚举 EAbcGeometryCacheMotionVectorsImport
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAbcGeometryCacheMotionVectorsImport
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAbcGeometryCacheMotionVectorsImport Enum.
-
+返回值。EAbcGeometryCacheMotionVectorsImport Enum。

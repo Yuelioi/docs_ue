@@ -1,6 +1,6 @@
 # BytetoEnumEDetectedFaceFeatureTy-
 
-Byte to Enum EDetectedFaceFeatureType
+字节到枚举 EDetectedFaceFeatureType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDetectedFaceFeatureType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDetectedFaceFeatureType Enum.
-
+返回值。EDetectedFaceFeatureType Enum。

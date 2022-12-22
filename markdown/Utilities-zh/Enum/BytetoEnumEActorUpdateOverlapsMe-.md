@@ -1,6 +1,6 @@
 # BytetoEnumEActorUpdateOverlapsMe-
 
-Byte to Enum EActorUpdateOverlapsMethod
+字节到枚举 EActorUpdateOverlapsMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EActorUpdateOverlapsMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EActorUpdateOverlapsMethod Enum.
-
+返回值。EActorUpdateOverlapsMethod Enum。

@@ -1,6 +1,6 @@
 # CastToUserDefinedImageCapturePro-_1
 
-Tries to access class as one it may inherit from.
+试图将类作为它可能继承的一个类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access class as one it may inherit from.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Class: Object Class Reference.  
+类。对象类参考。 
 
 ## Outputs
 
-Out: Exec.
+输出。执行。
 
 Cast Failed: Exec.
 
-As Capture Protocol: Capture Protocol Class Reference.
-
+作为捕获协议。捕获协议类参考。

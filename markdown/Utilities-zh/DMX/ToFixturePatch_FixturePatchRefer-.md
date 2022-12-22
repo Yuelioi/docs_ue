@@ -1,8 +1,8 @@
 # ToFixturePatch_FixturePatchRefer-
 
-Conv Fixture Patch Ref to Obj
+将灯具贴片参考转换为Obj
 
-Target is DMXEntity Reference Conversions
+目标是DMXEntity参考转换
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is DMXEntity Reference Conversions
 
 ## Inputs
 
-In Fixture Patch Ref: DMX Fixture Patch Ref Structure (by ref).  
+Fixture Patch Ref中：DMX Fixture Patch Ref结构（通过ref）。 
 
 ## Outputs
 
-Return Value: DMX Fixture Patch Object Reference. Conv Fixture Patch Ref to Obj.
-
+返回值。DMX Fixture Patch对象参考。Conv Fixture Patch Ref to Obj.

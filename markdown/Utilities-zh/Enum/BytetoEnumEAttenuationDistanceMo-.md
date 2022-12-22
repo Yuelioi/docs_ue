@@ -1,6 +1,6 @@
 # BytetoEnumEAttenuationDistanceMo-
 
-Byte to Enum EAttenuationDistanceModel
+字节到枚举 EAttenuationDistanceModel
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAttenuationDistanceModel
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAttenuationDistanceModel Enum.
-
+返回值。EAttenuationDistanceModel Enum。

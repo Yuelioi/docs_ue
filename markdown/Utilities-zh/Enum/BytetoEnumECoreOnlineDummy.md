@@ -1,6 +1,6 @@
 # BytetoEnumECoreOnlineDummy
 
-Byte to Enum ECoreOnlineDummy
+字节到枚举 ECoreOnlineDummy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ECoreOnlineDummy
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECoreOnlineDummy Enum.
-
+返回值。ECoreOnlineDummy Enum.

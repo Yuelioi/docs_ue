@@ -1,8 +1,8 @@
 # ToName_DMXProtocolName
 
-Conv DMXProtocol Name to Name
+将DMXProtocol名称转换为名称
 
-Target is DMXName Containers Conversions
+目标是DMXName 容器转换
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is DMXName Containers Conversions
 
 ## Inputs
 
-In Protocol Name: DMXProtocol Name Structure (by ref).  
+在协议名称中。DMXProtocol Name结构（通过引用）。 
 
 ## Outputs
 
-Return Value: Name. Conv DMXProtocol Name to Name.
-
+返回值。名称。CONV DMXProtocol Name到Name。

@@ -1,6 +1,6 @@
 # BytetoEnumEFixedFoveatedRenderin-
 
-Byte to Enum EFixedFoveatedRenderingLevel
+字节到枚举 EFixedFoveatedRenderingLevel
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFixedFoveatedRenderingLevel
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFixedFoveatedRenderingLevel Enum.
-
+返回值。EFixedFoveatedRenderingLevel Enum.

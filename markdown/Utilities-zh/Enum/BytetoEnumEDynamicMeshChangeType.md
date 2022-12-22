@@ -1,6 +1,6 @@
 # BytetoEnumEDynamicMeshChangeType
 
-Byte to Enum EDynamicMeshChangeType
+字节到枚举 EDynamicMeshChangeType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDynamicMeshChangeType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDynamicMeshChangeType Enum.
-
+返回值。EDynamicMeshChangeType Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEAppMsgType
 
-Byte to Enum EAppMsgType
+字节到枚举 EAppMsgType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAppMsgType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAppMsgType Enum.
-
+返回值。EAppMsgType Enum。

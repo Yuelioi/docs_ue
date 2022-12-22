@@ -1,6 +1,6 @@
 # BytetoEnumEAzureSpatialAnchorsLo-
 
-Byte to Enum EAzureSpatialAnchorsLocateAnchorStatus
+字节到枚举 EAzureSpatialAnchorsLocateAnchorStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAzureSpatialAnchorsLocateAnchorStatus
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAzureSpatialAnchorsLocateAnchorStatus Enum.
-
+返回值。EAzureSpatialAnchorsLocateAnchorStatus Enum.

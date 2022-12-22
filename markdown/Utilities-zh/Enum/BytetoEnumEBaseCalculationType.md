@@ -1,6 +1,6 @@
 # BytetoEnumEBaseCalculationType
 
-Byte to Enum EBaseCalculationType
+字节到枚举 EBaseCalculationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EBaseCalculationType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EBaseCalculationType Enum.
-
+返回值。EBaseCalculationType Enum。

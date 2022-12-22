@@ -1,8 +1,8 @@
 # ToName_DMXFixtureCategory
 
-Conv DMXFixture Category to Name
+转换DMXFixture类别为名称
 
-Target is DMXName Containers Conversions
+目标是DMXName 容器转换
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is DMXName Containers Conversions
 
 ## Inputs
 
-In Fixture Category: DMXFixture Category Structure (by ref).  
+在灯具类别中。DMXFixture类别结构（通过引用）。 
 
 ## Outputs
 
-Return Value: Name. Conv DMXFixture Category to Name.
-
+返回值。名称。将DMXFixture类别转换为名称。

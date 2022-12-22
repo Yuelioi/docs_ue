@@ -1,6 +1,6 @@
 # BytetoEnumEConstraintInterpType
 
-Byte to Enum EConstraintInterpType
+字节到枚举 EConstraintInterpType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EConstraintInterpType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EConstraintInterpType Enum.
-
+返回值。EConstraintInterpType Enum。

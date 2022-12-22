@@ -1,6 +1,6 @@
 # BytetoEnumEDrawDebugTrace
 
-Byte to Enum EDrawDebugTrace
+字节到枚举EDrawDebugTrace
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDrawDebugTrace
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDrawDebugTrace Enum.
-
+返回值。EDrawDebugTrace Enum。

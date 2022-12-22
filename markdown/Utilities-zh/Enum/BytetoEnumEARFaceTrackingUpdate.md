@@ -1,6 +1,6 @@
 # BytetoEnumEARFaceTrackingUpdate
 
-Byte to Enum EARFaceTrackingUpdate
+字节到枚举 EARFaceTrackingUpdate
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARFaceTrackingUpdate
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARFaceTrackingUpdate Enum.
-
+返回值。EARFaceTrackingUpdate Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEDMXImportGDTFType
 
-Byte to Enum EDMXImportGDTFType
+字节到枚举 EDMXImportGDTFType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDMXImportGDTFType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDMXImportGDTFType Enum.
-
+返回值。EDMXImportGDTFType Enum.

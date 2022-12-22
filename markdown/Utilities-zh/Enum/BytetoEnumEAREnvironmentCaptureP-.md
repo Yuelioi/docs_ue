@@ -1,6 +1,6 @@
 # BytetoEnumEAREnvironmentCaptureP-
 
-Byte to Enum EAREnvironmentCaptureProbeType
+字节到枚举 EAREnvironmentCaptureProbeType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAREnvironmentCaptureProbeType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAREnvironmentCaptureProbeType Enum.
-
+返回值。EAREnvironmentCaptureProbeType Enum。

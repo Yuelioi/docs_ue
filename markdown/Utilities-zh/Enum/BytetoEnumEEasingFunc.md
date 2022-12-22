@@ -1,6 +1,6 @@
 # BytetoEnumEEasingFunc
 
-Byte to Enum EEasingFunc
+字节到枚举 EEasingFunc
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EEasingFunc
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EEasingFunc Enum.
-
+返回值。EEasingFunc Enum。

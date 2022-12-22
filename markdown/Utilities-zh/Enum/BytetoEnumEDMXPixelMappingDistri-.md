@@ -1,6 +1,6 @@
 # BytetoEnumEDMXPixelMappingDistri-
 
-Byte to Enum EDMXPixelMappingDistribution
+字节到枚举 EDMXPixelMappingDistribution
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDMXPixelMappingDistribution
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDMXPixelMappingDistribution Enum.
-
+返回值。EDMXPixelMappingDistribution 枚举。

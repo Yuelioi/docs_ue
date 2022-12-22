@@ -1,6 +1,6 @@
 # BytetoEnumEFieldPositionType
 
-Byte to Enum EFieldPositionType
+字节到枚举 EFieldPositionType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFieldPositionType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFieldPositionType Enum.
-
+返回值。EFieldPositionType Enum。

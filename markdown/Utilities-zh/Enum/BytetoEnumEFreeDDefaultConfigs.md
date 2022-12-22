@@ -1,6 +1,6 @@
 # BytetoEnumEFreeDDefaultConfigs
 
-Byte to Enum EFreeDDefaultConfigs
+字节到枚举 EFreeDDefaultConfigs
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFreeDDefaultConfigs
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFreeDDefaultConfigs Enum.
-
+返回值。EFreeDDefaultConfigs Enum。

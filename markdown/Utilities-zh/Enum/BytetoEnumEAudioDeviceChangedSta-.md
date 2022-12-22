@@ -1,6 +1,6 @@
 # BytetoEnumEAudioDeviceChangedSta-
 
-Byte to Enum EAudioDeviceChangedState
+字节到枚举 EAudioDeviceChangedState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAudioDeviceChangedState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAudioDeviceChangedState Enum.
-
+返回值。EAudioDeviceChangedState Enum.

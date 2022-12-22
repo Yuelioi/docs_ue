@@ -1,6 +1,6 @@
 # BytetoEnumEDynamicBoxType
 
-Byte to Enum EDynamicBoxType
+字节到枚举 EDynamicBoxType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDynamicBoxType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDynamicBoxType Enum.
-
+返回值。EDynamicBoxType Enum。

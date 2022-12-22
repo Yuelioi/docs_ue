@@ -1,6 +1,6 @@
 # BytetoEnumEARServiceInstallReque-
 
-Byte to Enum EARServiceInstallRequestResult
+字节到枚举 EARServiceInstallRequestResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARServiceInstallRequestResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARServiceInstallRequestResult Enum.
-
+返回值。EARServiceInstallRequestResult Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEContentBrowserPathTyp-
 
-Byte to Enum EContentBrowserPathType
+字节到枚举 EContentBrowserPathType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EContentBrowserPathType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EContentBrowserPathType Enum.
-
+返回值。EContentBrowserPathType Enum。

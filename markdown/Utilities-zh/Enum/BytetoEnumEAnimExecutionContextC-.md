@@ -1,6 +1,6 @@
 # BytetoEnumEAnimExecutionContextC-
 
-Byte to Enum EAnimExecutionContextConversionResult
+字节到枚举 EAnimExecutionContextConversionResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAnimExecutionContextConversionResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAnimExecutionContextConversionResult Enum.
-
+返回值。EAnimExecutionContextConversionResult Enum。

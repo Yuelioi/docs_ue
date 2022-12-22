@@ -1,6 +1,6 @@
 # BytetoEnumEDataSourceTypeEnum
 
-Byte to Enum EDataSourceTypeEnum
+字节到枚举 EDataSourceTypeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDataSourceTypeEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDataSourceTypeEnum Enum.
-
+返回值。EDataSourceTypeEnum Enum。

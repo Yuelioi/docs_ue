@@ -8,9 +8,8 @@ Byte to Enum EChaosTrailingSortMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EChaosTrailingSortMethod Enum.
-
+返回值。EChaosTrailingSortMethod Enum。

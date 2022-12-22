@@ -1,6 +1,6 @@
 # BytetoEnumEARGeoTrackingStateRea-
 
-Byte to Enum EARGeoTrackingStateReason
+字节到枚举 EARGeoTrackingStateReason
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARGeoTrackingStateReason
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARGeoTrackingStateReason Enum.
-
+返回值。EARGeoTrackingStateReason Enum。

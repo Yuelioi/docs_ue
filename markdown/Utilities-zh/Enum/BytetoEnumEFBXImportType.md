@@ -1,6 +1,6 @@
 # BytetoEnumEFBXImportType
 
-Byte to Enum EFBXImportType
+字节到枚举 EFBXImportType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFBXImportType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFBXImportType Enum.
-
+返回值。EFBXImportType Enum。

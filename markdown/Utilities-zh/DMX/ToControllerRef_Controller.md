@@ -1,8 +1,8 @@
 # ToControllerRef_Controller
 
-Conv Controller Obj to Ref
+将控制器Obj转换为Ref
 
-Target is DMXEntity Reference Conversions
+目标是DMXEntity参考转换
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is DMXEntity Reference Conversions
 
 ## Inputs
 
-In Controller: DMXEntity Controller Object Reference.  
+在控制器中。DMXEntity控制器对象参考。 
 
 ## Outputs
 
-Return Value: DMX Controller Ref Structure. Conv Controller Obj to Ref.
-
+返回值。DMX控制器参考结构。将控制器对象转换为参考值。

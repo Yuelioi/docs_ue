@@ -1,6 +1,6 @@
 # BytetoEnumEFieldFilterType
 
-Byte to Enum EFieldFilterType
+字节到枚举 EFieldFilterType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFieldFilterType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFieldFilterType Enum.
-
+返回值。EFieldFilterType Enum。

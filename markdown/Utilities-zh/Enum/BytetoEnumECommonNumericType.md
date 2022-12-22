@@ -1,6 +1,6 @@
 # BytetoEnumECommonNumericType
 
-Byte to Enum ECommonNumericType
+字节到枚举 ECommonNumericType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ECommonNumericType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECommonNumericType Enum.
-
+返回值。ECommonNumericType Enum。

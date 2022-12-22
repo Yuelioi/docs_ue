@@ -1,6 +1,6 @@
 # BytetoEnumEDatasmithKeyValueProp-
 
-Byte to Enum EDatasmithKeyValuePropertyType
+字节到枚举 EDatasmithKeyValuePropertyType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDatasmithKeyValuePropertyType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDatasmithKeyValuePropertyType Enum.
-
+返回值。EDatasmithKeyValuePropertyType枚举。

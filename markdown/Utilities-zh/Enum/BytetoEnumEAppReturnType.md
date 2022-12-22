@@ -1,6 +1,6 @@
 # BytetoEnumEAppReturnType
 
-Byte to Enum EAppReturnType
+字节到枚举 EAppReturnType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAppReturnType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAppReturnType Enum.
-
+返回值。EAppReturnType Enum。

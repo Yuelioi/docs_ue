@@ -1,6 +1,6 @@
 # BytetoEnumEAzureSpatialAnchorsRe-
 
-Byte to Enum EAzureSpatialAnchorsResult
+字节到枚举 EAzureSpatialAnchorsResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAzureSpatialAnchorsResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAzureSpatialAnchorsResult Enum.
-
+返回值。EAzureSpatialAnchorsResult Enum。

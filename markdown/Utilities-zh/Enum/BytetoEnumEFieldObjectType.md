@@ -1,6 +1,6 @@
 # BytetoEnumEFieldObjectType
 
-Byte to Enum EFieldObjectType
+字节到枚举 EFieldObjectType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFieldObjectType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFieldObjectType Enum.
-
+返回值。EFieldObjectType Enum。

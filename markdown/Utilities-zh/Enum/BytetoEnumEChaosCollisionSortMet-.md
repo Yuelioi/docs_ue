@@ -8,9 +8,8 @@ Byte to Enum EChaosCollisionSortMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EChaosCollisionSortMethod Enum.
-
+返回值。EChaosCollisionSortMethod Enum。

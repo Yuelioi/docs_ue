@@ -1,8 +1,8 @@
 # ToString_DMXAttribute
 
-Conv DMXAttribute to String
+转换DMXAttribute为字符串
 
-Target is DMXAttribute Name Conversions
+目标是DMXAttribute名称转换
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is DMXAttribute Name Conversions
 
 ## Inputs
 
-In Attribute: DMXAttribute Name Structure (by ref).  
+在属性中。DMXAttribute Name结构（通过引用）。 
 
 ## Outputs
 
-Return Value: String. Conv DMXAttribute to String.
-
+返回值。字符串。Conv DMXAttribute到String。

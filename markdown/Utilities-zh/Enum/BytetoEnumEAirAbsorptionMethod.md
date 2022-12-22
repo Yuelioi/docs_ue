@@ -1,6 +1,6 @@
 # BytetoEnumEAirAbsorptionMethod
 
-Byte to Enum EAirAbsorptionMethod
+字节到枚举 EAAbsorptionMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAirAbsorptionMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAirAbsorptionMethod Enum.
-
+返回值。EAirAbsorptionMethod Enum。

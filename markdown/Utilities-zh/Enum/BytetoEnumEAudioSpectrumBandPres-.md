@@ -1,6 +1,6 @@
 # BytetoEnumEAudioSpectrumBandPres-
 
-Byte to Enum EAudioSpectrumBandPresetType
+字节到枚举 EAudioSpectrumBandPresetType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAudioSpectrumBandPresetType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAudioSpectrumBandPresetType Enum.
-
+返回值。EAudioSpectrumBandPresetType Enum。

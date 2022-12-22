@@ -1,6 +1,6 @@
 # BytetoEnumEDNADataLayer
 
-Byte to Enum EDNADataLayer
+字节到枚举 EDNADataLayer
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDNADataLayer
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDNADataLayer Enum.
-
+返回值。EDNADataLayer Enum。

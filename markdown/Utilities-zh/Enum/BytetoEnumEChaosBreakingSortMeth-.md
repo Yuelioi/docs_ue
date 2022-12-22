@@ -8,9 +8,8 @@ Byte to Enum EChaosBreakingSortMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EChaosBreakingSortMethod Enum.
-
+返回值。EChaosBreakingSortMethod Enum。

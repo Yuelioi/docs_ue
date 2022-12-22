@@ -1,6 +1,6 @@
 # BytetoEnumEARSessionConfigFlags
 
-Byte to Enum EARSessionConfigFlags
+字节到枚举 EARSessionConfigFlags
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARSessionConfigFlags
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARSessionConfigFlags Enum.
-
+返回值: EARSessionConfigFlags Enum.

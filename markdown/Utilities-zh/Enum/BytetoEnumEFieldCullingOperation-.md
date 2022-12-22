@@ -8,9 +8,8 @@ Byte to Enum EFieldCullingOperationType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFieldCullingOperationType Enum.
-
+返回值。EFieldCullingOperationType Enum。

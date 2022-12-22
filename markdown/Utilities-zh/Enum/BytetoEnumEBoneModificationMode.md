@@ -1,6 +1,6 @@
 # BytetoEnumEBoneModificationMode
 
-Byte to Enum EBoneModificationMode
+字节到枚举 EBoneModificationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EBoneModificationMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EBoneModificationMode Enum.
-
+返回值。EBoneModificationMode Enum。

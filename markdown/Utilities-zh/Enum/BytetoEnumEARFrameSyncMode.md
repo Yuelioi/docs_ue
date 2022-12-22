@@ -1,6 +1,6 @@
 # BytetoEnumEARFrameSyncMode
 
-Byte to Enum EARFrameSyncMode
+字节到枚举EARFrameSyncMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARFrameSyncMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARFrameSyncMode Enum.
-
+返回值。EARFrameSyncMode枚举。

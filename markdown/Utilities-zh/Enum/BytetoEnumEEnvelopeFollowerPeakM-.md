@@ -1,6 +1,6 @@
 # BytetoEnumEEnvelopeFollowerPeakM-
 
-Byte to Enum EEnvelopeFollowerPeakMode
+字节到枚举 EEnvelopeFollowerPeakMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EEnvelopeFollowerPeakMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EEnvelopeFollowerPeakMode Enum.
-
+返回值。EEnvelopeFollowerPeakMode Enum。

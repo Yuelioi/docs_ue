@@ -1,6 +1,6 @@
 # CastToTakeRecorderCameraCutSourc-
 
-Tries to access object as a class it may be an instance of.
+试图将对象作为它可能是一个实例的类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as a class it may be an instance of.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。 
 
 ## Outputs
 
-Out: Exec.
+输出。Exec.
 
 Cast Failed: Exec.
 
-As Take Recorder Camera Cut Source: Take Recorder Camera Cut Source Object Reference.
-
+作为拍摄记录器摄像机切割源。摄录机切割源对象参考。

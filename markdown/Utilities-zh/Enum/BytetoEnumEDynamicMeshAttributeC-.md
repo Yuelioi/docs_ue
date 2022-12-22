@@ -1,6 +1,6 @@
 # BytetoEnumEDynamicMeshAttributeC-
 
-Byte to Enum EDynamicMeshAttributeChangeFlags
+字节到枚举 EDynamicMeshAttributeChangeFlags
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDynamicMeshAttributeChangeFlags
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDynamicMeshAttributeChangeFlags Enum.
-
+返回值。EDynamicMeshAttributeChangeFlags Enum。

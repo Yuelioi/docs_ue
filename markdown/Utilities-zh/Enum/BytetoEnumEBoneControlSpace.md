@@ -1,6 +1,6 @@
 # BytetoEnumEBoneControlSpace
 
-Byte to Enum EBoneControlSpace
+字节到枚举的EBoneControlSpace
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EBoneControlSpace
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EBoneControlSpace Enum.
-
+返回值。EBoneControlSpace Enum。

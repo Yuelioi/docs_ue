@@ -1,6 +1,6 @@
 # BytetoEnumEAudioRecordingExportT-
 
-Byte to Enum EAudioRecordingExportType
+字节到枚举 EAudioRecordingExportType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAudioRecordingExportType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAudioRecordingExportType Enum.
-
+返回值。EAudioRecordingExportType Enum。

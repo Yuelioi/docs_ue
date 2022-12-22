@@ -1,6 +1,6 @@
 # BytetoEnumEFieldPhysicsType
 
-Byte to Enum EFieldPhysicsType
+字节到枚举 EFieldPhysicsType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFieldPhysicsType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFieldPhysicsType Enum.
-
+返回值。EFieldPhysicsType Enum。

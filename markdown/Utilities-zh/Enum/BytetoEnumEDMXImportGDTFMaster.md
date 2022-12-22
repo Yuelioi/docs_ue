@@ -1,6 +1,6 @@
 # BytetoEnumEDMXImportGDTFMaster
 
-Byte to Enum EDMXImportGDTFMaster
+字节到枚举 EDMXImportGDTFMMaster
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDMXImportGDTFMaster
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDMXImportGDTFMaster Enum.
-
+返回值。EDMXImportGDTFMaster Enum.

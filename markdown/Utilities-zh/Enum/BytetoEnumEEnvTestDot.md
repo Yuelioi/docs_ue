@@ -1,6 +1,6 @@
 # BytetoEnumEEnvTestDot
 
-Byte to Enum EEnvTestDot
+字节到枚举 EEnvTestDot
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EEnvTestDot
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EEnvTestDot Enum.
-
+返回值。EEnvTestDot Enum。

@@ -8,9 +8,8 @@ Byte to Enum ECreateModelingObjectResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECreateModelingObjectResult Enum.
-
+返回值。ECreateModelingObjectResult Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEARSceneReconstruction
 
-Byte to Enum EARSceneReconstruction
+字节到枚举 EARSceneReconstruction
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARSceneReconstruction
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARSceneReconstruction Enum.
-
+返回值。EARSceneReconstruction Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEDataprepReportMethod
 
-Byte to Enum EDataprepReportMethod
+字节到枚举 EDataprepReportMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDataprepReportMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDataprepReportMethod Enum.
-
+返回值。EDataprepReportMethod Enum。

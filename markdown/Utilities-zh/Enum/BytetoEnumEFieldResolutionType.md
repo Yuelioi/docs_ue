@@ -1,6 +1,6 @@
 # BytetoEnumEFieldResolutionType
 
-Byte to Enum EFieldResolutionType
+字节到枚举 EFieldResolutionType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFieldResolutionType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFieldResolutionType Enum.
-
+返回值。EFieldResolutionType Enum。

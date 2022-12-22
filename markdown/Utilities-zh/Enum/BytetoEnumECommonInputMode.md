@@ -1,6 +1,6 @@
 # BytetoEnumECommonInputMode
 
-Byte to Enum ECommonInputMode
+字节到枚举 ECommonInputMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ECommonInputMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECommonInputMode Enum.
-
+返回值。ECommonInputMode Enum。

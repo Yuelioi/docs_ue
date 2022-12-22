@@ -1,6 +1,6 @@
 # BytetoEnumEARPlaneDetectionMode
 
-Byte to Enum EARPlaneDetectionMode
+字节到枚举 EARPlaneDetectionMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARPlaneDetectionMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARPlaneDetectionMode Enum.
-
+返回值。EARPlaneDetectionMode Enum。

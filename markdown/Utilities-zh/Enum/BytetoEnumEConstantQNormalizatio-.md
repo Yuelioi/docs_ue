@@ -1,6 +1,6 @@
 # BytetoEnumEConstantQNormalizatio-
 
-Byte to Enum EConstantQNormalizationEnum
+字节到枚举 EConstantQNormalizationEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EConstantQNormalizationEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EConstantQNormalizationEnum Enum.
-
+返回值。EConstantQNormalizationEnum枚举。

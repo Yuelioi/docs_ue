@@ -1,6 +1,6 @@
 # BytetoEnumEARPlaneOrientation
 
-Byte to Enum EARPlaneOrientation
+字节到枚举 EARPlaneOrientation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARPlaneOrientation
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARPlaneOrientation Enum.
-
+返回值。EARPlaneOrientation Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumECommonSwitcherTransit-
 
-Byte to Enum ECommonSwitcherTransition
+字节到枚举 ECommonSwitcherTransition
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ECommonSwitcherTransition
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECommonSwitcherTransition Enum.
-
+返回值。ECommonSwitcherTransition Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEComponentMobility
 
-Byte to Enum EComponentMobility
+字节到枚举 EComponentMobility
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EComponentMobility
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EComponentMobility Enum.
-
+返回值。EComponentMobility Enum。

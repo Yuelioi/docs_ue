@@ -1,6 +1,6 @@
 # BytetoEnumEARPinCloudMode
 
-Byte to Enum EARPinCloudMode
+字节到枚举 EARPinCloudMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARPinCloudMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARPinCloudMode Enum.
-
+返回值。EARPinCloudMode Enum。

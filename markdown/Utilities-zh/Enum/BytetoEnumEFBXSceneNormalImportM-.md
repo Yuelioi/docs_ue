@@ -1,6 +1,6 @@
 # BytetoEnumEFBXSceneNormalImportM-
 
-Byte to Enum EFBXSceneNormalImportMethod
+字节到枚举 EFBXSceneNormalImportMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFBXSceneNormalImportMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFBXSceneNormalImportMethod Enum.
-
+返回值。EFBXSceneNormalImportMethod Enum。

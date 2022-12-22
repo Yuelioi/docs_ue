@@ -1,6 +1,6 @@
 # BytetoEnumEContextualAnimIKTarge-
 
-Byte to Enum EContextualAnimIKTargetProvider
+字节到枚举 EContextualAnimIKTargetProvider
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EContextualAnimIKTargetProvider
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EContextualAnimIKTargetProvider Enum.
-
+返回值。EContextualAnimIKTargetProvider Enum.

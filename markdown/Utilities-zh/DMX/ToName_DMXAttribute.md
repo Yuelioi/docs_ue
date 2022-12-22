@@ -1,8 +1,8 @@
 # ToName_DMXAttribute
 
-Conv DMXAttribute to Name
+转换DMXAttribute为Name
 
-Target is DMXAttribute Name Conversions
+目标是DMXAttribute名称转换
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is DMXAttribute Name Conversions
 
 ## Inputs
 
-In Attribute: DMXAttribute Name Structure (by ref).  
+在属性中。DMXAttribute Name结构（通过引用）。 
 
 ## Outputs
 
-Return Value: Name. Conv DMXAttribute to Name.
-
+返回值。名称。Conv DMXAttribute to Name。

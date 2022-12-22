@@ -1,6 +1,6 @@
 # BytetoEnumEFBXSceneNormalGenerat-
 
-Byte to Enum EFBXSceneNormalGenerationMethod
+字节到枚举 EFBXSceneNormalGenerationMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFBXSceneNormalGenerationMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFBXSceneNormalGenerationMethod Enum.
-
+返回值。EFBXSceneNormalGenerationMethod Enum。

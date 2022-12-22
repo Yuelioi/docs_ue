@@ -1,6 +1,6 @@
 # BytetoEnumEEndPlayReason
 
-Byte to Enum EEndPlayReason
+字节到枚举 EEndPlayReason
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EEndPlayReason
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EEndPlayReason Enum.
-
+返回值。EEndPlayReason Enum。

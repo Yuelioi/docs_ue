@@ -8,9 +8,8 @@ Byte to Enum ECreateObjectTypeHint
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECreateObjectTypeHint Enum.
-
+返回值。ECreateObjectTypeHint Enum。

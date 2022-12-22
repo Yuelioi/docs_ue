@@ -1,6 +1,6 @@
 # BytetoEnumEARServiceAvailability
 
-Byte to Enum EARServiceAvailability
+字节到枚举 EARServiceAvailability
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARServiceAvailability
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARServiceAvailability Enum.
-
+返回值。EARServiceAvailability Enum。

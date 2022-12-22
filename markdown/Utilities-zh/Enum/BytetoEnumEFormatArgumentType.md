@@ -1,6 +1,6 @@
 # BytetoEnumEFormatArgumentType
 
-Byte to Enum EFormatArgumentType
+字节到枚举 EFormatArgumentType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFormatArgumentType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFormatArgumentType Enum.
-
+返回值。EFormatArgumentType Enum。

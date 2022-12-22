@@ -8,9 +8,8 @@ Byte to Enum ECollisionResponse
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECollisionResponse Enum.
-
+返回值。ECollisionResponse Enum。

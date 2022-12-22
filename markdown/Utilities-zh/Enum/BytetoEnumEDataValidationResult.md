@@ -1,6 +1,6 @@
 # BytetoEnumEDataValidationResult
 
-Byte to Enum EDataValidationResult
+字节到枚举 EDataValidationResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDataValidationResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDataValidationResult Enum.
-
+返回值。EDataValidationResult Enum。

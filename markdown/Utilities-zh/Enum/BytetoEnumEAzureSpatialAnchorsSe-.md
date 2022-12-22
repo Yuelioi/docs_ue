@@ -1,6 +1,6 @@
 # BytetoEnumEAzureSpatialAnchorsSe-
 
-Byte to Enum EAzureSpatialAnchorsSessionUserFeedback
+字节到枚举 EAzureSpatialAnchorsSessionUserFeedback
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAzureSpatialAnchorsSessionUserFeedback
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAzureSpatialAnchorsSessionUserFeedback Enum.
-
+返回值。EAzureSpatialAnchorsSessionUserFeedback Enum.

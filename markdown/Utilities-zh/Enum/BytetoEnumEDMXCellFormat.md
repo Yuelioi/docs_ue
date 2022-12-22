@@ -1,6 +1,6 @@
 # BytetoEnumEDMXCellFormat
 
-Byte to Enum EDMXCellFormat
+字节到枚举 EDMXCellFormat
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDMXCellFormat
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDMXCellFormat Enum.
-
+返回值。EDMXCellFormat Enum.

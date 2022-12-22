@@ -1,6 +1,6 @@
 # BytetoEnumEARTextureType
 
-Byte to Enum EARTextureType
+字节到枚举 EARTextureType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARTextureType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARTextureType Enum.
-
+返回值。EARTextureType Enum。

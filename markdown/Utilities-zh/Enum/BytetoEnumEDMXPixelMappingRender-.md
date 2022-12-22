@@ -1,6 +1,6 @@
 # BytetoEnumEDMXPixelMappingRender-
 
-Byte to Enum EDMXPixelMappingRendererType
+字节到枚举 EDMXPixelMappingRendererType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDMXPixelMappingRendererType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDMXPixelMappingRendererType Enum.
-
+返回值。EDMXPixelMappingRendererType Enum。

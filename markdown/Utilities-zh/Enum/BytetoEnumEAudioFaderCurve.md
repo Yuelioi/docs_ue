@@ -1,6 +1,6 @@
 # BytetoEnumEAudioFaderCurve
 
-Byte to Enum EAudioFaderCurve
+字节到枚举 EAudioFaderCurve
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAudioFaderCurve
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAudioFaderCurve Enum.
-
+返回值。EAudioFaderCurve Enum。

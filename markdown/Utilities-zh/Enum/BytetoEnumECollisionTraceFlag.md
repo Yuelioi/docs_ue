@@ -8,9 +8,8 @@ Byte to Enum ECollisionTraceFlag
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECollisionTraceFlag Enum.
-
+返回值。ECollisionTraceFlag Enum。

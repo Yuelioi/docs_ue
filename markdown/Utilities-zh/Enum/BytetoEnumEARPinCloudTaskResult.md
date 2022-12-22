@@ -1,6 +1,6 @@
 # BytetoEnumEARPinCloudTaskResult
 
-Byte to Enum EARPinCloudTaskResult
+字节到枚举 EARPinCloudTaskResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARPinCloudTaskResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARPinCloudTaskResult Enum.
-
+返回值。EARPinCloudTaskResult Enum。

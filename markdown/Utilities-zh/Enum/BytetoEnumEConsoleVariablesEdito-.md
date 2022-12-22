@@ -1,6 +1,6 @@
 # BytetoEnumEConsoleVariablesEdito-
 
-Byte to Enum EConsoleVariablesEditorRowDisplayType
+字节到枚举 EConsoleVariablesEditorRowDisplayType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EConsoleVariablesEditorRowDisplayType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EConsoleVariablesEditorRowDisplayType Enum.
-
+返回值。EConsoleVariablesEditorRowDisplayType枚举。

@@ -1,6 +1,6 @@
 # BytetoEnumEBrushBlendType
 
-Byte to Enum EBrushBlendType
+字节到枚举 EBrushBlendType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EBrushBlendType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EBrushBlendType Enum.
-
+返回值。EBrushBlendType Enum。

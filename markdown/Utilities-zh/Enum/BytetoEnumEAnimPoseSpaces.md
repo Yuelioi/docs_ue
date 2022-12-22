@@ -1,6 +1,6 @@
 # BytetoEnumEAnimPoseSpaces
 
-Byte to Enum EAnimPoseSpaces
+字节到枚举 EAnimPoseSpaces
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAnimPoseSpaces
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAnimPoseSpaces Enum.
-
+返回值。EAnimPoseSpaces Enum。

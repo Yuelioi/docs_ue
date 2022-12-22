@@ -1,6 +1,6 @@
 # BytetoEnumEButtonPressMethod
 
-Byte to Enum EButtonPressMethod
+字节到枚举的EB按钮按压方法
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EButtonPressMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EButtonPressMethod Enum.
-
+返回值。EButtonPressMethod Enum。

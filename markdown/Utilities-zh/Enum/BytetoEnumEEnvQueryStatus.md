@@ -1,6 +1,6 @@
 # BytetoEnumEEnvQueryStatus
 
-Byte to Enum EEnvQueryStatus
+字节到枚举 EEnvQueryStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EEnvQueryStatus
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EEnvQueryStatus Enum.
-
+返回值。EEnvQueryStatus Enum。

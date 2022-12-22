@@ -1,6 +1,6 @@
 # CastToTestTypedElementInterfaceC
 
-Tries to access object as an interface it may implement.
+试图将对象作为它可能实现的一个接口来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as an interface it may implement.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。 
 
 ## Outputs
 
-Out: Exec.
+输出。Exec.
 
 Cast Failed: Exec.
 
-As Test Typed Element Interface C: Test Typed Element Interface C Interface.
-
+作为测试类型的元素界面C：测试类型的元素界面C界面。

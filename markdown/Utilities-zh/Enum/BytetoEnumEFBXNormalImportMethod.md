@@ -1,6 +1,6 @@
 # BytetoEnumEFBXNormalImportMethod
 
-Byte to Enum EFBXNormalImportMethod
+字节到枚举 EFBXNormalImportMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFBXNormalImportMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFBXNormalImportMethod Enum.
-
+返回值。EFBXNormalImportMethod Enum。

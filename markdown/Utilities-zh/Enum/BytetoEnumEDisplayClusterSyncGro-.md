@@ -1,6 +1,6 @@
 # BytetoEnumEDisplayClusterSyncGro-
 
-Byte to Enum EDisplayClusterSyncGroup
+字节到枚举 EDClusterSyncGroup
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDisplayClusterSyncGroup
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDisplayClusterSyncGroup Enum.
-
+返回值。EDisplayClusterSyncGroup Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEARFaceComponentTransf-
 
-Byte to Enum EARFaceComponentTransformMixing
+字节到枚举 EARFaceComponentTransformMixing
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARFaceComponentTransformMixing
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARFaceComponentTransformMixing Enum.
-
+返回值。EARFaceComponentTransformMixing Enum。

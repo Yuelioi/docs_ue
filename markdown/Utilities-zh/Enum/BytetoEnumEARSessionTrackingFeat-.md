@@ -1,6 +1,6 @@
 # BytetoEnumEARSessionTrackingFeat-
 
-Byte to Enum EARSessionTrackingFeature
+字节到枚举 EARSessionTrackingFeature
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARSessionTrackingFeature
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARSessionTrackingFeature Enum.
-
+返回值。EARSessionTrackingFeature Enum.

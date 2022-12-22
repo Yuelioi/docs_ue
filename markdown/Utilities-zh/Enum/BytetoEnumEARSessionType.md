@@ -1,6 +1,6 @@
 # BytetoEnumEARSessionType
 
-Byte to Enum EARSessionType
+字节到枚举EARSessionType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARSessionType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARSessionType Enum.
-
+返回值。EARSessionType Enum。

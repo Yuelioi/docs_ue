@@ -1,8 +1,8 @@
 # ToFixtureTypeRef_FixtureType
 
-Conv Fixture Type Obj to Ref
+将灯具类型Obj转换为Ref
 
-Target is DMXEntity Reference Conversions
+目标是DMXEntity参考转换
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is DMXEntity Reference Conversions
 
 ## Inputs
 
-In Fixture Type: DMX Fixture Type Object Reference.  
+在灯具类型中。DMX灯具类型对象参考。 
 
 ## Outputs
 
-Return Value: DMX Fixture Type Ref Structure. Conv Fixture Type Obj to Ref.
-
+返回值。DMX灯具类型参考结构。将灯具类型对象转换为参考。

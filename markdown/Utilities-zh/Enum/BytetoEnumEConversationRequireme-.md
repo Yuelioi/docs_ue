@@ -1,6 +1,6 @@
 # BytetoEnumEConversationRequireme-
 
-Byte to Enum EConversationRequirementResult
+字节到枚举 EConversationRequirementResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EConversationRequirementResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EConversationRequirementResult Enum.
-
+返回值。EConversationRequirementResult Enum。

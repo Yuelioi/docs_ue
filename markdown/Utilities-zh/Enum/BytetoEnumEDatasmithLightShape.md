@@ -1,6 +1,6 @@
 # BytetoEnumEDatasmithLightShape
 
-Byte to Enum EDatasmithLightShape
+字节到枚举 EDatasmithLightShape
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDatasmithLightShape
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDatasmithLightShape Enum.
-
+返回值。EDatasmithLightShape Enum。

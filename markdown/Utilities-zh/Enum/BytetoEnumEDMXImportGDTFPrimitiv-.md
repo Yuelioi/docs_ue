@@ -8,9 +8,8 @@ Byte to Enum EDMXImportGDTFPrimitiveType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDMXImportGDTFPrimitiveType Enum.
-
+返回值。EDMXImportGDTFPrimitiveType Enum。

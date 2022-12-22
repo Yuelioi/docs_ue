@@ -1,6 +1,6 @@
 # BytetoEnumEFBXAnimationLengthImp-
 
-Byte to Enum EFBXAnimationLengthImportType
+字节到枚举 EFBXAnimationLengthImportType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFBXAnimationLengthImportType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFBXAnimationLengthImportType Enum.
-
+返回值。EFBXAnimationLengthImportType Enum。

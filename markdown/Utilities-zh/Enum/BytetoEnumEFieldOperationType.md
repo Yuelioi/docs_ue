@@ -1,6 +1,6 @@
 # BytetoEnumEFieldOperationType
 
-Byte to Enum EFieldOperationType
+字节到枚举 EFieldOperationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFieldOperationType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFieldOperationType Enum.
-
+返回值。EFieldOperationType Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEDMXImportGDTFSnap
 
-Byte to Enum EDMXImportGDTFSnap
+字节到枚举 EDMXImportGDTFSnap
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDMXImportGDTFSnap
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDMXImportGDTFSnap Enum.
-
+返回值。EDMXImportGDTFSnap Enum.

@@ -1,6 +1,6 @@
 # BytetoEnumEARLiveLinkSourceType
 
-Byte to Enum EARLiveLinkSourceType
+字节到枚举 EARLiveLinkSourceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARLiveLinkSourceType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARLiveLinkSourceType Enum.
-
+返回值。EARLiveLinkSourceType Enum。

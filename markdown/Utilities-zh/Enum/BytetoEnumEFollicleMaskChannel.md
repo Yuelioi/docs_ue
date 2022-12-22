@@ -1,6 +1,6 @@
 # BytetoEnumEFollicleMaskChannel
 
-Byte to Enum EFollicleMaskChannel
+字节到枚举 EFollicleMaskChannel
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFollicleMaskChannel
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFollicleMaskChannel Enum.
-
+返回值。EFollicleMaskChannel Enum。

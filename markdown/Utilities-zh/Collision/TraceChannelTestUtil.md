@@ -51,4 +51,3 @@ Draw Time: Float (single-precision).
 Out: Exec.
 
 Return Value: Trace Query Test Results Object Reference. Helper function to trace and permute many options at once.
-

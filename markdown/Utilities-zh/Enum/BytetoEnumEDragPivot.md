@@ -1,6 +1,6 @@
 # BytetoEnumEDragPivot
 
-Byte to Enum EDragPivot
+字节到枚举 EDragPivot
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDragPivot
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDragPivot Enum.
-
+返回值。EDragPivot Enum。

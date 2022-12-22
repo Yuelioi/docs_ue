@@ -1,6 +1,6 @@
 # BytetoEnumEARDepthAccuracy
 
-Byte to Enum EARDepthAccuracy
+字节到枚举 EARDepthAccuracy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARDepthAccuracy
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARDepthAccuracy Enum.
-
+返回值。EARDepthAccuracy Enum。

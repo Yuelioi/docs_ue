@@ -1,6 +1,6 @@
 # CastToPaperTileMapActorClass
 
-Tries to access class as one it may inherit from.
+试图将该类作为它可能继承的类之一来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access class as one it may inherit from.
 
 ## Inputs
 
-In: Exec.
+在。实现。
 
-Class: Object Class Reference.  
+类。对象类的引用。
 
 ## Outputs
 
-Out: Exec.
+输出。执行。
 
-Cast Failed: Exec.
+铸造失败。执行。
 
-As Paper Tile Map Actor: Paper Tile Map Actor Class Reference.
-
+纸质瓷砖地图演员类参考。

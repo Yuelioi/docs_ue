@@ -1,6 +1,6 @@
 # BytetoEnumEAttenuationShape
 
-Byte to Enum EAttenuationShape
+字节到枚举 EAttenuationShape
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAttenuationShape
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAttenuationShape Enum.
-
+返回值。EAttenuationShape Enum。

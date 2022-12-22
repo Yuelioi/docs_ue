@@ -1,6 +1,6 @@
 # BytetoEnumEButtonTouchMethod
 
-Byte to Enum EButtonTouchMethod
+字节到枚举的EB按钮触摸方法
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EButtonTouchMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EButtonTouchMethod Enum.
-
+返回值。EButtonTouchMethod Enum。

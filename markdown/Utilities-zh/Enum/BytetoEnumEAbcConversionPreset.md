@@ -1,6 +1,6 @@
 # BytetoEnumEAbcConversionPreset
 
-Byte to Enum EAbcConversionPreset
+字节到枚举 EAbcConversionPreset
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAbcConversionPreset
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAbcConversionPreset Enum.
-
+返回值。EAbcConversionPreset Enum。

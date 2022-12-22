@@ -1,6 +1,6 @@
 # BytetoEnumEARFaceTrackingFileWri-
 
-Byte to Enum EARFaceTrackingFileWriterType
+字节到枚举 EARFaceTrackingFileWriterType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARFaceTrackingFileWriterType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARFaceTrackingFileWriterType Enum.
-
+返回值。EARFaceTrackingFileWriterType Enum。

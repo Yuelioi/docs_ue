@@ -1,6 +1,6 @@
 # BytetoEnumEAzureSpatialAnchorsLo-_2
 
-Byte to Enum EAzureSpatialAnchorsLogVerbosity
+字节到枚举 EAzureSpatialAnchorsLogVerbosity
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAzureSpatialAnchorsLogVerbosity
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAzureSpatialAnchorsLogVerbosity Enum.
-
+返回值。EAzureSpatialAnchorsLogVerbosity Enum.

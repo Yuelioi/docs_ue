@@ -1,6 +1,6 @@
 # BytetoEnumEAudioVolumeLocationSt-
 
-Byte to Enum EAudioVolumeLocationState
+字节到枚举 EAudioVolumeLocationState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAudioVolumeLocationState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAudioVolumeLocationState Enum.
-
+返回值。EAudioVolumeLocationState Enum。

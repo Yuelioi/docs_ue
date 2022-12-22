@@ -1,6 +1,6 @@
 # BytetoEnumEDynamicStateOverrideE-
 
-Byte to Enum EDynamicStateOverrideEnum
+字节到枚举 EDynamicStateOverrideEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDynamicStateOverrideEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDynamicStateOverrideEnum Enum.
-
+返回值。EDynamicStateOverrideEnum枚举。

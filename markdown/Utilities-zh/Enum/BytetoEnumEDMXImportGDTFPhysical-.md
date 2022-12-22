@@ -1,6 +1,6 @@
 # BytetoEnumEDMXImportGDTFPhysical-
 
-Byte to Enum EDMXImportGDTFPhysicalUnit
+字节到枚举 EDMXImportGDTFPhysicalUnit
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDMXImportGDTFPhysicalUnit
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDMXImportGDTFPhysicalUnit Enum.
-
+返回值。EDMXImportGDTFPhysicalUnit Enum.

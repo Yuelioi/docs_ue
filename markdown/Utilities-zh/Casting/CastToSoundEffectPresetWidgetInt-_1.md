@@ -1,6 +1,6 @@
 # CastToSoundEffectPresetWidgetInt-_1
 
-Tries to access class as an interface it may implement.
+试图将类作为它可能实现的一个接口来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access class as an interface it may implement.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Class: Object Class Reference.  
+类。对象类参考。 
 
 ## Outputs
 
-Out: Exec.
+输出。执行。
 
 Cast Failed: Exec.
 
-As Sound Effect Preset Widget Interface: Sound Effect Preset Widget Interface Interface.
-
+作为声音效果预设小工具接口。声音效果预设小工具界面界面。

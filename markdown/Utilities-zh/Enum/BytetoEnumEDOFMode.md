@@ -1,6 +1,6 @@
 # BytetoEnumEDOFMode
 
-Byte to Enum EDOFMode
+字节到枚举EDOFMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDOFMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDOFMode Enum.
-
+返回值。EDOFMode Enum。

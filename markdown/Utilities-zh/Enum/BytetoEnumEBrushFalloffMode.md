@@ -1,6 +1,6 @@
 # BytetoEnumEBrushFalloffMode
 
-Byte to Enum EBrushFalloffMode
+字节到枚举 EBrushFalloffMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EBrushFalloffMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EBrushFalloffMode Enum.
-
+返回值。EBrushFalloffMode Enum。

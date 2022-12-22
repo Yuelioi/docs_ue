@@ -1,6 +1,6 @@
 # BytetoEnumEControllerHand
 
-Byte to Enum EControllerHand
+字节到枚举 EControllerHand
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EControllerHand
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EControllerHand Enum.
-
+返回值。EControllerHand Enum。

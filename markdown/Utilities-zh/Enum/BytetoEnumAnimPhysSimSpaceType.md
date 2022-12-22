@@ -1,6 +1,6 @@
 # BytetoEnumAnimPhysSimSpaceType
 
-Byte to Enum AnimPhysSimSpaceType
+字节到枚举 AnimPhysSimSpaceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum AnimPhysSimSpaceType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: AnimPhysSimSpaceType Enum.
-
+返回值。AnimPhysSimSpaceType Enum.

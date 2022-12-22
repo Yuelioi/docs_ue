@@ -1,6 +1,6 @@
 # CastToSmartObjectZoneAnnotations-
 
-Tries to access class as one it may inherit from.
+试图将类作为它可能继承的一个类来访问。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access class as one it may inherit from.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Class: Object Class Reference.  
+类。对象类参考。 
 
 ## Outputs
 
-Out: Exec.
+输出。执行。
 
 Cast Failed: Exec.
 
-As Smart Object Zone Annotations: Smart Object Zone Annotations Class Reference.
-
+作为智能对象区注解。Smart Object Zone Annotations类参考。

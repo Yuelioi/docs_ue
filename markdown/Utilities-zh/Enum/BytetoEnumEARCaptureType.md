@@ -1,6 +1,6 @@
 # BytetoEnumEARCaptureType
 
-Byte to Enum EARCaptureType
+字节到枚举EARCaptureType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARCaptureType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARCaptureType Enum.
-
+返回值。EARCaptureType Enum。

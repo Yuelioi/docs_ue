@@ -1,6 +1,6 @@
 # BytetoEnumEComparisonMethod
 
-Byte to Enum EComparisonMethod
+字节到枚举 EComparisonMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EComparisonMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EComparisonMethod Enum.
-
+返回值。EComparisonMethod Enum。

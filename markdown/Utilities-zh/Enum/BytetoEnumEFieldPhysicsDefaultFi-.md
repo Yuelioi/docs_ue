@@ -1,6 +1,6 @@
 # BytetoEnumEFieldPhysicsDefaultFi-
 
-Byte to Enum EFieldPhysicsDefaultFields
+字节到枚举 EFieldPhysicsDefaultFields
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFieldPhysicsDefaultFields
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFieldPhysicsDefaultFields Enum.
-
+返回值。EFieldPhysicsDefaultFields Enum。

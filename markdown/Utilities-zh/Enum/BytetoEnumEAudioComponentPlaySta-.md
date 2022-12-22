@@ -1,6 +1,6 @@
 # BytetoEnumEAudioComponentPlaySta-
 
-Byte to Enum EAudioComponentPlayState
+字节到枚举 EAudioComponentPlayState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAudioComponentPlayState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAudioComponentPlayState Enum.
-
+返回值。EAudioComponentPlayState Enum。

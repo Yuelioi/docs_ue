@@ -1,6 +1,6 @@
 # BytetoEnumEFunctionalTestResult
 
-Byte to Enum EFunctionalTestResult
+字节到枚举 EFunctionalTestResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EFunctionalTestResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EFunctionalTestResult Enum.
-
+返回值。EFunctionalTestResult Enum。

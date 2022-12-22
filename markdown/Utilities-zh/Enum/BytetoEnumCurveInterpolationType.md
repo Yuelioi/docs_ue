@@ -1,6 +1,6 @@
 # BytetoEnumCurveInterpolationType
 
-Byte to Enum CurveInterpolationType
+字节到枚举 曲线插值类型
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum CurveInterpolationType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: CurveInterpolationType Enum.
-
+返回值。CurveInterpolationType Enum。

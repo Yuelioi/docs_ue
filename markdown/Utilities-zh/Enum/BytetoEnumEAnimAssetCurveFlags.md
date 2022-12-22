@@ -8,9 +8,8 @@ Byte to Enum EAnimAssetCurveFlags
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAnimAssetCurveFlags Enum.
-
+返回值。EAnimAssetCurveFlags Enum.

@@ -1,6 +1,6 @@
 # BytetoEnumEARLineTraceChannels
 
-Byte to Enum EARLineTraceChannels
+字节到枚举 EARLineTraceChannels
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARLineTraceChannels
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARLineTraceChannels Enum.
-
+返回值。EARLineTraceChannels Enum.

@@ -1,6 +1,6 @@
 # BytetoEnumEArucoDictionary
 
-Byte to Enum EArucoDictionary
+字节到枚举 EArucoDictionary
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EArucoDictionary
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EArucoDictionary Enum.
-
+返回值。EArucoDictionary Enum。

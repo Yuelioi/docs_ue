@@ -1,6 +1,6 @@
 # CastToPaperTileMapComponent
 
-Tries to access object as a class it may be an instance of.
+试图将该对象作为一个类来访问，它可能是一个实例。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Tries to access object as a class it may be an instance of.
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Object: Object Wildcard.  
+对象。对象通配符。
 
 ## Outputs
 
-Out: Exec.
+输出，执行。
 
-Cast Failed: Exec.
+铸造失败。执行。
 
-As Paper Tile Map Component: Paper Tile Map Component Object Reference.
-
+作为Paper Tile Map组件。纸质瓷砖地图组件对象参考。

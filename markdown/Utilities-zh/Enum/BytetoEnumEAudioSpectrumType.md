@@ -1,6 +1,6 @@
 # BytetoEnumEAudioSpectrumType
 
-Byte to Enum EAudioSpectrumType
+字节到枚举 EAudioSpectrumType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAudioSpectrumType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAudioSpectrumType Enum.
-
+返回值。EAudioSpectrumType Enum。

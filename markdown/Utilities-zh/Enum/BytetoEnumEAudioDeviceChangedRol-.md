@@ -1,6 +1,6 @@
 # BytetoEnumEAudioDeviceChangedRol-
 
-Byte to Enum EAudioDeviceChangedRole
+字节到枚举 EAudioDeviceChangedRole
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAudioDeviceChangedRole
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAudioDeviceChangedRole Enum.
-
+返回值。EAudioDeviceChangedRole Enum。

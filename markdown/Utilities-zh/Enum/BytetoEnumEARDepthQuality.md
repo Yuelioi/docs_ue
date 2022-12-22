@@ -1,6 +1,6 @@
 # BytetoEnumEARDepthQuality
 
-Byte to Enum EARDepthQuality
+字节到枚举 EARDepthQuality
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARDepthQuality
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARDepthQuality Enum.
-
+返回值。EARDepthQuality Enum。

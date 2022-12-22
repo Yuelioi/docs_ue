@@ -1,6 +1,6 @@
 # BytetoEnumEDataValidationUsecase
 
-Byte to Enum EDataValidationUsecase
+字节到枚举 EDataValidationUsecase
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDataValidationUsecase
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDataValidationUsecase Enum.
-
+返回值。EDataValidationUsecase Enum。

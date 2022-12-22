@@ -1,6 +1,6 @@
 # BytetoEnumEDemoPlayFailure
 
-Byte to Enum EDemoPlayFailure
+字节到枚举 EDemoPlayFailure
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDemoPlayFailure
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDemoPlayFailure Enum.
-
+返回值。EDemoPlayFailure Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEDMXImportGDTFLampType
 
-Byte to Enum EDMXImportGDTFLampType
+字节到枚举 EDMXImportGDTFLampType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDMXImportGDTFLampType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDMXImportGDTFLampType Enum.
-
+返回值。EDMXImportGDTFLampType Enum。

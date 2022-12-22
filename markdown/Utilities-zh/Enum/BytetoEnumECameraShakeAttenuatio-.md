@@ -8,9 +8,8 @@ Byte to Enum ECameraShakeAttenuation
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECameraShakeAttenuation Enum.
-
+返回值。ECameraShakeAttenuation Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEDMXImportGDTFInterpol-
 
-Byte to Enum EDMXImportGDTFInterpolationTo
+字节到枚举 EDMXImportGDTFInterpolationTo
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDMXImportGDTFInterpolationTo
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDMXImportGDTFInterpolationTo Enum.
-
+返回值。EDMXImportGDTFInterpolationTo Enum.

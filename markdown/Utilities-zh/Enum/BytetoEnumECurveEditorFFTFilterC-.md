@@ -8,9 +8,8 @@ Byte to Enum ECurveEditorFFTFilterClass
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECurveEditorFFTFilterClass Enum.
-
+返回值。ECurveEditorFFTFilterClass Enum。

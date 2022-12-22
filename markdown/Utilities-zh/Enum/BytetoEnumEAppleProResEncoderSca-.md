@@ -1,6 +1,6 @@
 # BytetoEnumEAppleProResEncoderSca-
 
-Byte to Enum EAppleProResEncoderScanMode
+字节到枚举 EAppleProResEncoderScanMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAppleProResEncoderScanMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAppleProResEncoderScanMode Enum.
-
+返回值。EAppleProResEncoderScanMode Enum.

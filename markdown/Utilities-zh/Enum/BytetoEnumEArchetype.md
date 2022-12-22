@@ -1,6 +1,6 @@
 # BytetoEnumEArchetype
 
-Byte to Enum EArchetype
+字节到枚举EArchetype
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EArchetype
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EArchetype Enum.
-
+返回值。EArchetype Enum。

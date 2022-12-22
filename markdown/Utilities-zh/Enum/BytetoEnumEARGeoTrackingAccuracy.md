@@ -1,6 +1,6 @@
 # BytetoEnumEARGeoTrackingAccuracy
 
-Byte to Enum EARGeoTrackingAccuracy
+字节到枚举 EARGeoTrackingAccuracy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARGeoTrackingAccuracy
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARGeoTrackingAccuracy Enum.
-
+返回值。EARGeoTrackingAccuracy Enum。

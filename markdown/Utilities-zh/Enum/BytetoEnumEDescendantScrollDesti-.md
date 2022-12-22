@@ -1,6 +1,6 @@
 # BytetoEnumEDescendantScrollDesti-
 
-Byte to Enum EDescendantScrollDestination
+字节到枚举 EDescendantScrollDestination
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDescendantScrollDestination
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDescendantScrollDestination Enum.
-
+返回值。EDescendantScrollDestination Enum。

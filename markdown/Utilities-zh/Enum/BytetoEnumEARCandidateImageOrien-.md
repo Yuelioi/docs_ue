@@ -1,6 +1,6 @@
 # BytetoEnumEARCandidateImageOrien-
 
-Byte to Enum EARCandidateImageOrientation
+字节到枚举 EARCandidateImageOrientation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARCandidateImageOrientation
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARCandidateImageOrientation Enum.
-
+返回值。EARCandidateImageOrientation Enum。

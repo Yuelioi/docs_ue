@@ -1,6 +1,6 @@
 # BytetoEnumECSVImportType
 
-Byte to Enum ECSVImportType
+字节到枚举 ECSVImportType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ECSVImportType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ECSVImportType Enum.
-
+返回值。ECSVImportType Enum。

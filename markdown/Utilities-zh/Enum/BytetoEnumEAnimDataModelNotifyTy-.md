@@ -1,6 +1,6 @@
 # BytetoEnumEAnimDataModelNotifyTy-
 
-Byte to Enum EAnimDataModelNotifyType
+字节到枚举 EAnimDataModelNotifyType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAnimDataModelNotifyType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAnimDataModelNotifyType Enum.
-
+返回值。EAnimDataModelNotifyType Enum。

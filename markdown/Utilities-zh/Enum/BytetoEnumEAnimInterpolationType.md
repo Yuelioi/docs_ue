@@ -1,6 +1,6 @@
 # BytetoEnumEAnimInterpolationType
 
-Byte to Enum EAnimInterpolationType
+字节到枚举 EAnimInterpolationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAnimInterpolationType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAnimInterpolationType Enum.
-
+返回值。EAnimInterpolationType Enum。

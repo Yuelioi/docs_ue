@@ -1,6 +1,6 @@
 # BytetoEnumEAREye
 
-Byte to Enum EAREye
+字节到枚举EAREYE
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EAREye
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EAREye Enum.
-
+返回值。EAREye Enum.

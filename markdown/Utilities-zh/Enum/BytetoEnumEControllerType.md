@@ -1,6 +1,6 @@
 # BytetoEnumEControllerType
 
-Byte to Enum EControllerType
+字节到枚举 EControllerType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EControllerType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EControllerType Enum.
-
+返回值。EControllerType Enum。

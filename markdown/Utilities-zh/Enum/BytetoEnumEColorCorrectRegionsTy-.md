@@ -1,6 +1,6 @@
 # BytetoEnumEColorCorrectRegionsTy-
 
-Byte to Enum EColorCorrectRegionsType
+Byte to Enum EC ColorCorrectRegionsType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EColorCorrectRegionsType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EColorCorrectRegionsType Enum.
-
+返回值。EC ColorCorrectRegionsType Enum。

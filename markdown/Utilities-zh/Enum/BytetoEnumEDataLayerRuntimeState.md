@@ -1,6 +1,6 @@
 # BytetoEnumEDataLayerRuntimeState
 
-Byte to Enum EDataLayerRuntimeState
+字节到枚举 EDataLayerRuntimeState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EDataLayerRuntimeState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EDataLayerRuntimeState Enum.
-
+返回值。EDataLayerRuntimeState Enum。

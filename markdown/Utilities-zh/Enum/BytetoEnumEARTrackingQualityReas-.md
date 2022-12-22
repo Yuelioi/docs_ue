@@ -1,6 +1,6 @@
 # BytetoEnumEARTrackingQualityReas-
 
-Byte to Enum EARTrackingQualityReason
+字节到枚举 EARTrackingQualityReason
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARTrackingQualityReason
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARTrackingQualityReason Enum.
-
+返回值。EARTrackingQualityReason Enum。

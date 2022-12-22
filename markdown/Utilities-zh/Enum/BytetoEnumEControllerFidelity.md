@@ -1,6 +1,6 @@
 # BytetoEnumEControllerFidelity
 
-Byte to Enum EControllerFidelity
+字节到枚举 EControllerFidelity
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EControllerFidelity
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EControllerFidelity Enum.
-
+返回值。EControllerFidelity Enum。

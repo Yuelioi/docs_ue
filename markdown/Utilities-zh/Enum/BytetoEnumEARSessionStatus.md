@@ -1,6 +1,6 @@
 # BytetoEnumEARSessionStatus
 
-Byte to Enum EARSessionStatus
+字节到枚举 EARSessionStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EARSessionStatus
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EARSessionStatus Enum.
-
+返回值。EARSessionStatus Enum.
