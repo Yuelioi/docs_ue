@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAudioSpectr-_1
 
-Returns EAudioSpectrumType_MAX value
+返回EAudioSpectrumType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAudioSpectrumType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # BytetoEnumEGameplayAbilityTrigge-
 
-Byte to Enum EGameplayAbilityTriggerSource
+字节到枚举 EGameplayAbilityTriggerSource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGameplayAbilityTriggerSource
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGameplayAbilityTriggerSource Enum.
-
+返回值。EGameplayAbilityTriggerSource Enum。

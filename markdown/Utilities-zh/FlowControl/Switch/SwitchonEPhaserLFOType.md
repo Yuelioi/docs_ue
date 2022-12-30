@@ -1,6 +1,6 @@
 # SwitchonEPhaserLFOType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EPhaserLFOType Enum.  
+选择。EPhaserLFOType Enum.  
 
 ## Outputs
 
-Sine: Exec.
+正弦波。Exec.
 
-Up Saw: Exec.
+上锯：执行。
 
-Down Saw: Exec.
+下锯：执行。
 
-Square: Exec.
+方形。执行
 
-Triangle: Exec.
+三角形 Exec.
 
-Exponential: Exec.
+指数 Exec.
 
-Random Sample Hold: Exec.
-
+随机采样保持：执行。

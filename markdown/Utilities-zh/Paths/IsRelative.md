@@ -1,8 +1,8 @@
 # IsRelative
 
-Returns true if this path is relative to another path
+如果这个路径是相对于另一个路径的，则返回true
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Path: String.  
+在路径中。字符串。 
 
 ## Outputs
 
-Return Value: Boolean. Returns true if this path is relative to another path.
-
+返回值。布尔值。如果此路径是相对于另一个路径的，则返回true。

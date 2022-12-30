@@ -21,4 +21,3 @@ Hand Skeleton: EHandSkeleton Enum. Hand Skeleton:. What kind of skeleton are we 
 Mirror: Boolean. Mirror:. Should the pose be mirrored so it can be applied to the opposite hand.
 
 Steam VRSkeletal Transform: Steam VRSkeleton Transform Structure. Steam VRSkeletal Transform:. The UE4 equivalent of the SteamVR Transform values per bone.
-

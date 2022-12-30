@@ -1,6 +1,6 @@
 # BytetoEnumEMotionExtractor_MathO-
 
-Byte to Enum EMotionExtractor_MathOperation
+字节到枚举 EMotionExtractor_MathOperation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMotionExtractor_MathOperation
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMotionExtractor_MathOperation Enum.
-
+返回值。EMotionExtractor_MathOperation Enum。

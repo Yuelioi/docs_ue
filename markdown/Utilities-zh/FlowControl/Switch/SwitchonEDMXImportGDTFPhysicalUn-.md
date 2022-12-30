@@ -1,6 +1,6 @@
 # SwitchonEDMXImportGDTFPhysicalUn-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,53 +8,52 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDMXImportGDTFPhysicalUnit Enum.  
+选择。EDMXImportGDTFPhysicalUnit Enum.  
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Percent: Exec.
+百分比。Exec.
 
-Length: Exec.
+长度。Exec.
 
-Mass: Exec.
+质量: 执行时间
 
-Time: Exec.
+时间：执行：执行
 
-Temperature: Exec.
+温度。执行
 
-Luminous Intensity: Exec.
+发光强度: 执行.
 
-Angle: Exec.
+角度: 执行.
 
-Force: Exec.
+力量: 执行
 
-Frequency: Exec.
+频率。执行
 
-Current: Exec.
+电流。执行
 
-Voltage: Exec.
+电压。执行
 
-Power: Exec.
+功率: Exec.
 
-Energy: Exec.
+能量。执行
 
-Area: Exec.
+面积: 审批 执行.
 
-Volume: Exec.
+体积。执行。
 
-Speed: Exec.
+速度：执行。
 
-Acceleration: Exec.
+加速。Exec.
 
-Angular Speed: Exec.
+角度速度：执行。
 
-Angular Accc: Exec.
+角度加速度：执行。
 
-Wave Length: Exec.
+波长: Exec.
 
-Color Component: Exec.
-
+颜色成分: Exec.

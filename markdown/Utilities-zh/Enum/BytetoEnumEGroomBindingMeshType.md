@@ -1,6 +1,6 @@
 # BytetoEnumEGroomBindingMeshType
 
-Byte to Enum EGroomBindingMeshType
+字节到枚举 EGroomBindingMeshType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGroomBindingMeshType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGroomBindingMeshType Enum.
-
+返回值。EGroomBindingMeshType Enum。

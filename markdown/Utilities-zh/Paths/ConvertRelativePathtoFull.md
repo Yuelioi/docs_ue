@@ -1,8 +1,8 @@
 # ConvertRelativePathtoFull
 
-Converts a relative path name to a fully qualified name relative to the specified BasePath.. BasePath will be the process BaseDir() if not BasePath is given
+将一个相对路径名转换为相对于指定的BasePath的完全合格的名称。如果没有给出BasePath，BasePath将是进程BaseDir()。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Path: String.
+在Path中。字符串。
 
-In Base Path: String.  
+在基础路径中。字符串。 
 
 ## Outputs
 
-Return Value: String. Converts a relative path name to a fully qualified name relative to the specified BasePath.. BasePath will be the process BaseDir() if not BasePath is given.
-
+返回值。字符串。将相对路径名称转换为相对于指定的BasePath的完全合格名称。如果没有给出BasePath，BasePath将是进程BaseDir()。

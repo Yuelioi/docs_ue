@@ -1,6 +1,6 @@
 # SwitchonEARTextureType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,25 +8,24 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARTextureType Enum.  
+选择。EARTextureType枚举。 
 
 ## Outputs
 
-Unknown: Exec.
+未知。Exec.
 
 Camera Image: Exec.
 
 Camera Depth: Exec.
 
-Environment Capture: Exec.
+环境捕捉: Exec.
 
-Person Segmentation Image: Exec.
+人物分割图像: 执行。
 
-Person Segmentation Depth: Exec.
+人物分割深度: 执行。
 
-Scene Depth Map: Exec.
+场景深度图。Exec.
 
-Scene Depth Confidence Map: Exec.
-
+场景深度置信度图: Exec.

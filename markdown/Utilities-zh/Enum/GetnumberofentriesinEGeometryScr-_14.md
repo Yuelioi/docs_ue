@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGeometryScr-_14
 
-Returns EGeometryScriptUVFlattenMethod_MAX value
+返回 EGeometryScriptUVFlattenMethod_MAX 值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGeometryScriptUVFlattenMethod_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

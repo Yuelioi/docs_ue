@@ -1,6 +1,6 @@
 # BytetoEnumFZoneShapeType
 
-Byte to Enum FZoneShapeType
+字节到枚举 FZoneShapeType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum FZoneShapeType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: FZoneShapeType Enum.
-
+返回值。FZoneShapeType Enum。

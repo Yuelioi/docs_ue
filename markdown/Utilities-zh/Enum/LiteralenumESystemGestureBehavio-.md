@@ -1,6 +1,6 @@
 # LiteralenumESystemGestureBehavio-
 
-Literal enum ESystemGestureBehavior
+字面意义上的枚举：ESystemGestureBehavior
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESystemGestureBehavior
 
 ## Inputs
 
-Enum: ESystemGestureBehavior Enum.  
+枚举。ESystemGestureBehavior Enum.  
 
 ## Outputs
 
-Return Value: ESystemGestureBehavior Enum.
-
+返回值。ESystemGestureBehavior Enum。

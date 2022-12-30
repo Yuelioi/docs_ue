@@ -1,6 +1,6 @@
 # BreakComponentSpacePose
 
-Adds a node that breaks a 'ComponentSpacePose' into its member fields
+添加一个节点，将 "组件空间姿势 "分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ComponentSpacePose' into its member fields
 
 ## Inputs
 
-Component Space Pose: Component Space Pose Structure (by ref).  
+组件空间姿态。构件空间姿势结构（通过引用）。 
 
 ## Outputs
 
-Transforms: Array of Transforms. Transforms.
+变形。变形的数组。变换：变换的数组。
 
-Names: Array of Names. Names.
-
+名称。名称的数组。名称。

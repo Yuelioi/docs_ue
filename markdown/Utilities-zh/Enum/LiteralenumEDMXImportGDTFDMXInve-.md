@@ -1,6 +1,6 @@
 # LiteralenumEDMXImportGDTFDMXInve-
 
-Literal enum EDMXImportGDTFDMXInvert
+字面意义上的枚举 EDMXImportGDTFDMXInvert
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDMXImportGDTFDMXInvert
 
 ## Inputs
 
-Enum: EDMXImportGDTFDMXInvert Enum.  
+枚举。EDMXImportGDTFDMXInvert Enum.  
 
 ## Outputs
 
-Return Value: EDMXImportGDTFDMXInvert Enum.
-
+返回值。EDMXImportGDTFDMXInvert Enum.

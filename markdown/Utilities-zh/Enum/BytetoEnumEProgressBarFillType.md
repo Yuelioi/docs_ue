@@ -1,6 +1,6 @@
 # BytetoEnumEProgressBarFillType
 
-Byte to Enum EProgressBarFillType
+字节到枚举 EProgressBarFillType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EProgressBarFillType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EProgressBarFillType Enum.
-
+返回值。EProgressBarFillType Enum。

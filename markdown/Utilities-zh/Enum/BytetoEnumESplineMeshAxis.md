@@ -1,6 +1,6 @@
 # BytetoEnumESplineMeshAxis
 
-Byte to Enum ESplineMeshAxis
+字节到枚举 ESplineMeshAxis
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESplineMeshAxis
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESplineMeshAxis Enum.
-
+返回值。ESplineMeshAxis Enum。

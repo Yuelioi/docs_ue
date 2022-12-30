@@ -8,9 +8,8 @@ Byte to Enum EWaveFunctionCollapseAdjacency
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWaveFunctionCollapseAdjacency Enum.
-
+返回值。EWaveFunctionCollapseAdjacency Enum。

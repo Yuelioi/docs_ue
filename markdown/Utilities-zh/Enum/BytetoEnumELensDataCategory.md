@@ -1,6 +1,6 @@
 # BytetoEnumELensDataCategory
 
-Byte to Enum ELensDataCategory
+字节到枚举 ELensDataCategory
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ELensDataCategory
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELensDataCategory Enum.
-
+返回值。ELensDataCategory Enum。

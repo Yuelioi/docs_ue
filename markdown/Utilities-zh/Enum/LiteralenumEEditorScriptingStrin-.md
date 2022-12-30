@@ -1,6 +1,6 @@
 # LiteralenumEEditorScriptingStrin-
 
-Literal enum EEditorScriptingStringMatchType
+枚举 EEditorScriptingStringMatchType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EEditorScriptingStringMatchType
 
 ## Inputs
 
-Enum: EEditorScriptingStringMatchType Enum.  
+枚举。EEditorScriptingStringMatchType枚举。 
 
 ## Outputs
 
-Return Value: EEditorScriptingStringMatchType Enum.
-
+返回值。EEditorScriptingStringMatchType枚举。

@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptFillHo-
 
-Literal enum EGeometryScriptFillHolesMethod
+字面意义上的枚举 EGeometryScriptFillHolesMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptFillHolesMethod
 
 ## Inputs
 
-Enum: EGeometryScriptFillHolesMethod Enum.  
+枚举。EGeometryScriptFillHolesMethod Enum.  
 
 ## Outputs
 
-Return Value: EGeometryScriptFillHolesMethod Enum.
-
+返回值。EGeometryScriptFillHolesMethod Enum.

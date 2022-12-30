@@ -1,20 +1,20 @@
 # MakeStandardFilename
 
-Make fully standard "Unreal" pathname:
+制作完全标准的 "Unreal "路径名。
 
-  * Normalizes path separators [NormalizeFilename]
+  * 规范化路径分隔符 [NormalizeFilename] 。
 
-  * Removes extraneous separators [NormalizeDirectoryName, as well removing adjacent separators]
+  * 移除不相干的分隔符 [NormalizeDirectoryName，以及移除相邻的分隔符] 。
 
-  * Collapses internal ..'s
+  * 折叠内部的...。
 
-  * Makes relative to Engine\Binaries\<Platform> (will ALWAYS start with ..\\..\\..)
-
-
+  * 使其相对于Engine\Binaries\<Platform>（总是以.\.\.开始）。
 
 
 
-Target is Blueprint Paths Library
+
+
+目标是蓝图路径库
 
 ## 图示
 
@@ -22,9 +22,8 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Path: String.  
+在路径中。字符串。 
 
 ## Outputs
 
-Out Path: String.
-
+输出路径。字符串。

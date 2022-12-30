@@ -1,6 +1,6 @@
 # BytetoEnumEGoogleARCoreAugmented-_1
 
-Byte to Enum EGoogleARCoreAugmentedFaceRegion
+字节到枚举 EGoogleARCoreAugmentedFaceRegion
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGoogleARCoreAugmentedFaceRegion
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreAugmentedFaceRegion Enum.
-
+返回值。EGoogleARCoreAugmentedFaceRegion Enum。

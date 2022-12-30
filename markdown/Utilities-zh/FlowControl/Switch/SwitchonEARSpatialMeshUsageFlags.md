@@ -1,6 +1,6 @@
 # SwitchonEARSpatialMeshUsageFlags
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARSpatialMeshUsageFlags Enum.  
+选择。EARSpatialMeshUsageFlags Enum.  
 
 ## Outputs
 
-Not Applicable: Exec.
+不适用。Exec.
 
-Visible: Exec.
+可见的。Exec.
 
-Collision: Exec.
-
+碰撞。执行.

@@ -1,6 +1,6 @@
 # BytetoEnumEVREDCppVariantType
 
-Byte to Enum EVREDCppVariantType
+字节到枚举 EVREDCppVariantType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EVREDCppVariantType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EVREDCppVariantType Enum.
-
+返回值。EVREDCppVariantType Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEPoseDriverOutput
 
-Byte to Enum EPoseDriverOutput
+字节到枚举 EPoseDriverOutput
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EPoseDriverOutput
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EPoseDriverOutput Enum.
-
+返回值。EPoseDriverOutput Enum。

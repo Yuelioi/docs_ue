@@ -1,6 +1,6 @@
 # SwitchonEColorCorrectRegionsType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EColorCorrectRegionsType Enum.  
+选择。EC ColorCorrectRegionsType枚举。 
 
 ## Outputs
 
-Sphere: Exec.
+球体。Exec.
 
 Box: Exec.
 
-Cylinder: Exec.
+圆柱体 Exec.
 
-Cone: Exec.
-
+锥体 Exec.

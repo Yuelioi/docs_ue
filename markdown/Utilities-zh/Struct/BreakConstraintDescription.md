@@ -1,6 +1,6 @@
 # BreakConstraintDescription
 
-Adds a node that breaks a 'ConstraintDescription' into its member fields
+添加一个节点，将'ConstraintDescription'分解到其成员字段中。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'ConstraintDescription' into its member fields
 
 ## Inputs
 
-Constraint Description: Constraint Description Structure (by ref).  
+约束描述。约束描述结构（通过引用）。 
 
 ## Outputs
 
-Translation: Boolean. Translation.
+翻译。Boolean（布尔）。翻译：翻译。
 
-Rotation: Boolean. Rotation.
+Rotation（旋转）。布尔值。旋转。
 
-Scale: Boolean. Scale.
+缩放。布尔型。规模。
 
-Parent: Boolean. Parent:. this does composed transform - where as individual will accumulate per component.
+父：布尔值。
 
-Translation Axes: Filter Option Per Axis Structure. Translation Axes.
+翻译轴。每轴结构的过滤选项。平移轴。
 
-Rotation Axes: Filter Option Per Axis Structure. Rotation Axes.
+Rotation Axes（旋转轴）。每个轴结构的过滤选项。旋转轴。
 
-Scale Axes: Filter Option Per Axis Structure. Scale Axes.
-
+缩放轴。每个轴结构的过滤选项。规模轴。

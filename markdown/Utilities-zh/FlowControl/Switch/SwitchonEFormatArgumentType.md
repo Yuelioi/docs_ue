@@ -1,6 +1,6 @@
 # SwitchonEFormatArgumentType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,9 +8,9 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EFormatArgumentType Enum.  
+选择。EFormatArgumentType Enum.  
 
 ## Outputs
 
@@ -20,9 +20,8 @@ UInt: Exec.
 
 Float: Exec.
 
-Double: Exec.
+双倍数: Exec.
 
-Text: Exec.
+文本。执行
 
-Gender: Exec.
-
+性别 执事: 执事。

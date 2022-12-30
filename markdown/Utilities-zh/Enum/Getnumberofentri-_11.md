@@ -1,6 +1,6 @@
 # Getnumberofentri-_11
 
-Returns EGameplayAbilityTargetingLocationType_MAX value
+返回EGameplayAbilityTargetingLocationType_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGameplayAbilityTargetingLocationType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

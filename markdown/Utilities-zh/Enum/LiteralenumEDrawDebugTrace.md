@@ -1,6 +1,6 @@
 # LiteralenumEDrawDebugTrace
 
-Literal enum EDrawDebugTrace
+枚举 EDDrawDebugTrace
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDrawDebugTrace
 
 ## Inputs
 
-Enum: EDrawDebugTrace Enum.  
+枚举。EDrawDebugTrace Enum.  
 
 ## Outputs
 
-Return Value: EDrawDebugTrace Enum.
-
+返回值。EDrawDebugTrace Enum。

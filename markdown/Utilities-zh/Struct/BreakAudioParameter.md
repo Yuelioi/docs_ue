@@ -1,6 +1,6 @@
 # BreakAudioParameter
 
-Adds a node that breaks a 'AudioParameter' into its member fields
+添加一个节点，将'AudioParameter'分解成其成员字段
 
 ## 图示
 
@@ -8,31 +8,30 @@ Adds a node that breaks a 'AudioParameter' into its member fields
 
 ## Inputs
 
-Audio Parameter: Audio Parameter Structure (by ref).  
+音频参数。音频参数结构（通过引用）。 
 
 ## Outputs
 
-Name: Name. Param Name:. Name of the parameter.
+名称。名称. Param Name:。参数的名称。
 
-Value (Float): Float (single-precision). Float Param:. Float value of parameter.
+Value (Float): Float (single-precision). Float Param:. 参数的浮点值。
 
-Value (Bool): Boolean. Bool Param:. Boolean value of parameter.
+值（Bool）。布尔值。Bool Param:. 参数的布尔值。
 
-Value (Int): Integer. Int Param:. Integer value of parameter. If set to 'Default Construct', value is number of array items to construct..
+Value (Int): 整数。Int Param:. 参数的整数值。如果设置为 "默认构造"，该值是要构造的数组项的数量。
 
-Value (Object): Object Reference. Object Param:. Object value of parameter.
+Value (Object): 对象参考。Object Param:. 参数的对象值。
 
-Value (String): String. String Param:. String value of parameter.
+Value (String): 字符串。String Param:.字符串 参数的字符串值。
 
-Value (Float Array): Array of Float (single-precision)s. Array Float Param:. Array Float value of parameter.
+Value (Float Array): Float（单精度）的数组。Array Float Param:. Array Float参数的值。
 
-Value (Bool Array): Array of Booleans. Array Bool Param:. Boolean value of parameter.
+值（Bool数组）。布尔值的数组。数组Bool Param:. 参数的布尔值。
 
-Value (Int Array): Array of Integers. Array Int Param:. Integer value of parameter.
+Value (Int Array): 整数的数组。Array Int Param:. 参数的整数值。
 
-Value (Object Array): Array of Object References. Array Object Param:. Object value of parameter.
+Value (Object Array): 对象引用的数组。Array Object Param:. 参数的对象值。
 
-Value (String Array): Array of Strings. Array String Param:. String value of parameter.
+值（字符串阵列）。字符串的数组。Array String Param:. 参数的字符串值。
 
-Type: EAudioParameterType Enum. Param Type.
-
+类型。EAudioParameterType枚举。参数类型。

@@ -1,6 +1,6 @@
 # LocalArrayofBooleans
 
-Local temporary Array of Booleans variable
+本地临时的布尔变量阵列
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Array of Booleans variable
 
 ## Outputs
 
-Variable: Array of Booleans.
-
+变量。布尔运算数组。

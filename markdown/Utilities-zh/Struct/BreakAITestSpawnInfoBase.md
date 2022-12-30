@@ -1,22 +1,21 @@
 # BreakAITestSpawnInfoBase
 
-Adds a node that breaks a 'AITestSpawnInfoBase' into its member fields
+添加一个节点，将'AITestSpawnInfoBase'分解到其成员字段中。
 
 ## 图示
 
 ![]($-20221218-14304955.png)
 
-## Inputs
+## 输入
 
-AITest Spawn Info Base: AITest Spawn Info Base Structure (by ref).  
+AITest Spawn Info Base: AITest Spawn Info Base结构（通过参考）。 
 
-## Outputs
+## ＃＃输出
 
-Spawn Location: Actor Object Reference. Spawn Location:. Where should AI be spawned.
+产卵位置。Actor Object Reference. Spawn Location:. AI应该在哪里被生成。
 
-Number To Spawn: Integer. Number to Spawn.
+Number To Spawn: 整数。产出的数量。
 
-Spawn Delay: Float (single-precision). Spawn Delay:. delay between consecutive spawn attempts.
+Spawn Delay: Float（单精度）。Spawn Delay: 连续产卵尝试之间的延迟。
 
-Pre Spawn Delay: Float (single-precision). Pre Spawn Delay:. delay before attempting first spawn.
-
+Pre Spawn Delay: 浮点（单精度）。Pre Spawn Delay: 尝试第一次产卵前的延迟。

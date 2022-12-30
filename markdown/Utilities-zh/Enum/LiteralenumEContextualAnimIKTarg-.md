@@ -1,6 +1,6 @@
 # LiteralenumEContextualAnimIKTarg-
 
-Literal enum EContextualAnimIKTargetProvider
+枚举 EContextualAnimIKTargetProvider
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EContextualAnimIKTargetProvider
 
 ## Inputs
 
-Enum: EContextualAnimIKTargetProvider Enum.  
+枚举。EContextualAnimIKTargetProvider Enum.  
 
 ## Outputs
 
-Return Value: EContextualAnimIKTargetProvider Enum.
-
+返回值。EContextualAnimIKTargetProvider Enum.

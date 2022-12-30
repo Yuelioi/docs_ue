@@ -8,9 +8,8 @@ Byte to Enum ESPStereoCameraLayer
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESPStereoCameraLayer Enum.
-
+返回值。ESPStereoCameraLayer Enum。

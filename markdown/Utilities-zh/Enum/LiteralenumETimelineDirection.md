@@ -1,6 +1,6 @@
 # LiteralenumETimelineDirection
 
-Literal enum ETimelineDirection
+字面上的枚举 ETimelineDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETimelineDirection
 
 ## Inputs
 
-Enum: ETimelineDirection Enum.  
+枚举。ETimelineDirection Enum.  
 
 ## Outputs
 
-Return Value: ETimelineDirection Enum.
-
+返回值。ETimelineDirection Enum。

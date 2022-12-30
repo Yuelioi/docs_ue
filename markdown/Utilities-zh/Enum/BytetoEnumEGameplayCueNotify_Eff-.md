@@ -1,6 +1,6 @@
 # BytetoEnumEGameplayCueNotify_Eff-
 
-Byte to Enum EGameplayCueNotify_EffectPlaySpace
+字节到枚举 EGameplayCueNotify_EffectPlaySpace
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGameplayCueNotify_EffectPlaySpace
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGameplayCueNotify_EffectPlaySpace Enum.
-
+返回值。EGameplayCueNotify_EffectPlaySpace枚举。

@@ -1,6 +1,6 @@
 # BytetoEnumESynth1PatchDestinatio-
 
-Byte to Enum ESynth1PatchDestination
+字节到枚举 ESynth1PatchDestination
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESynth1PatchDestination
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESynth1PatchDestination Enum.
-
+返回值。ESynth1PatchDestination Enum。

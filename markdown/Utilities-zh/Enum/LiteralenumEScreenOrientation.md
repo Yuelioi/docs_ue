@@ -1,6 +1,6 @@
 # LiteralenumEScreenOrientation
 
-Literal enum EScreenOrientation
+字面意义上的enum EScreenOrientation
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: EScreenOrientation Enum.
 
 ## Outputs
 
-Return Value: EScreenOrientation Enum.
-
+返回值。EScreenOrientation Enum。

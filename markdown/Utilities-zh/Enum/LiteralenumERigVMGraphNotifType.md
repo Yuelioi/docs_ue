@@ -1,6 +1,6 @@
 # LiteralenumERigVMGraphNotifType
 
-Literal enum ERigVMGraphNotifType
+枚举ERigVMGraphNotifType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERigVMGraphNotifType
 
 ## Inputs
 
-Enum: ERigVMGraphNotifType Enum.  
+枚举。ERigVMGraphNotifType Enum.  
 
 ## Outputs
 
-Return Value: ERigVMGraphNotifType Enum.
-
+返回值。ERigVMGraphNotifType Enum。

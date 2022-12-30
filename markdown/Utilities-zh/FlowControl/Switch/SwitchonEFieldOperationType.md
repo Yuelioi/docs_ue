@@ -1,6 +1,6 @@
 # SwitchonEFieldOperationType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EFieldOperationType Enum.  
+选择。EFieldOperationType Enum.  
 
 ## Outputs
 
-Multiply: Exec.
+倍增。Exec.
 
-Divide: Exec.
+分割: 分割。Exec.
 
-Add: Exec.
+加。执行
 
-Subtract: Exec.
-
+减：执行

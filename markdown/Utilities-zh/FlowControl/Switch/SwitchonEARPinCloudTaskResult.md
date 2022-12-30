@@ -1,6 +1,6 @@
 # SwitchonEARPinCloudTaskResult
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,25 +8,24 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARPinCloudTaskResult Enum.  
+选择。EARPinCloudTaskResult枚举。 
 
 ## Outputs
 
-Success: Exec.
+成功。执行。
 
-Failed: Exec.
+失败。执行。
 
-Started: Exec.
+开始。执行。
 
-Cloud ARPin Not Enabled: Exec.
+云ARPin未启用。Exec.
 
-Not Tracking: Exec.
+没有跟踪。执行。
 
-Session Paused: Exec.
+会话暂停: 执行.
 
-Invalid Pin: Exec.
+无效引脚: Exec.
 
-Resource Exhausted: Exec.
-
+资源已用尽。执行。

@@ -1,6 +1,6 @@
 # LiteralenumESlateBrushDrawType
 
-Literal enum ESlateBrushDrawType
+枚举ESlateBrushDrawType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESlateBrushDrawType
 
 ## Inputs
 
-Enum: ESlateBrushDrawType Enum.  
+枚举。ESlateBrushDrawType Enum.  
 
 ## Outputs
 
-Return Value: ESlateBrushDrawType Enum.
-
+返回值。ESlateBrushDrawType枚举。

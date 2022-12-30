@@ -1,6 +1,6 @@
 # SwitchonEApplicationState
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EApplicationState Enum.  
+选择。EApplicationState Enum.  
 
 ## Outputs
 
-Unknown: Exec.
+未知。Exec.
 
-Inactive: Exec.
+无效的。Exec.
 
-Background: Exec.
+背景。职务: 职务
 
-Active: Exec.
-
+活跃的。执行中

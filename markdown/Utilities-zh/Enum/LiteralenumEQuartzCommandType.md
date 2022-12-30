@@ -1,6 +1,6 @@
 # LiteralenumEQuartzCommandType
 
-Literal enum EQuartzCommandType
+枚举EQuartzCommandType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EQuartzCommandType
 
 ## Inputs
 
-Enum: EQuartzCommandType Enum.  
+枚举。EQuartzCommandType Enum.  
 
 ## Outputs
 
-Return Value: EQuartzCommandType Enum.
-
+返回值。EQuartzCommandType Enum：EQuartzCommandType Enum。

@@ -1,6 +1,6 @@
 # BreakFilterOptionPerAxis
 
-Adds a node that breaks a 'FilterOptionPerAxis' into its member fields
+添加一个节点，将'FilterOptionPerAxis'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'FilterOptionPerAxis' into its member fields
 
 ## Inputs
 
-Filter Option Per Axis: Filter Option Per Axis Structure (by ref).  
+每轴过滤选项：每轴过滤选项结构（通过引用）。 
 
 ## Outputs
 
-X: Boolean. X.
+X：布尔值。X.
 
-Y: Boolean. Y.
+Y：布尔值。Y.
 
-Z: Boolean. Z.
-
+Z: 布尔值。Z.

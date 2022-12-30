@@ -1,6 +1,6 @@
 # LiteralenumEPhysicalSurface
 
-Literal enum EPhysicalSurface
+枚举 EPhysicalSurface
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EPhysicalSurface
 
 ## Inputs
 
-Enum: EPhysicalSurface Enum.  
+枚举。EPhysicalSurface Enum.  
 
 ## Outputs
 
-Return Value: EPhysicalSurface Enum.
-
+返回值。EPhysicalSurface Enum。

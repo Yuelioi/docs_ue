@@ -1,6 +1,6 @@
 # BytetoEnumERaMaterialName
 
-Byte to Enum ERaMaterialName
+字节到枚举ERaMaterialName
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERaMaterialName
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERaMaterialName Enum.
-
+返回值。ERaMaterialName枚举。

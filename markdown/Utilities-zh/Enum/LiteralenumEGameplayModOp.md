@@ -1,6 +1,6 @@
 # LiteralenumEGameplayModOp
 
-Literal enum EGameplayModOp
+字面意义上的枚举 EGameplayModOp
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayModOp
 
 ## Inputs
 
-Enum: EGameplayModOp Enum.  
+枚举。EGameplayModOp Enum.  
 
 ## Outputs
 
-Return Value: EGameplayModOp Enum.
-
+返回值。EGameplayModOp Enum。

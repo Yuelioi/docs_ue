@@ -1,6 +1,6 @@
 # SwitchonEFFTSize
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EFFTSize Enum.  
+选择。EFFTSize Enum.  
 
 ## Outputs
 
-Default Size: Exec.
+默认大小。Exec.
 
-Min: Exec.
+最小值。执行。
 
-Small: Exec.
+小：Exec.
 
-Medium: Exec.
+中号 执行
 
-Large: Exec.
+大号 执行
 
-Very Large: Exec.
+非常大的。优秀
 
-Max: Exec.
-
+最大：执行。

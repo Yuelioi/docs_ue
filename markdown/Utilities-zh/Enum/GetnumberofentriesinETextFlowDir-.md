@@ -1,6 +1,6 @@
 # GetnumberofentriesinETextFlowDir-
 
-Returns ETextFlowDirection_MAX value
+返回ETextFlowDirection_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ETextFlowDirection_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

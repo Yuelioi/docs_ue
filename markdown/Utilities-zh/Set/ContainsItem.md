@@ -1,8 +1,8 @@
 # ContainsItem
 
-Returns true if the set contains the given item.
+如果该组包含给定的项目，则返回真。
 
-Target is Blueprint Set Library
+目标是蓝图集库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Blueprint Set Library
 
 ## Inputs
 
-Target Set: Set of Wildcards. The set to search for the item.
+目标集。通配符集。要寻找的项目的集合。
 
-Item to Find: Wildcard (by ref). The item to look for.  
+要查找的项目：通配符（通过引用）。要寻找的项目。 
 
 ## Outputs
 
-Return Value: Boolean. True if the item was found within the set.
-
+返回值。布尔值。如果在集合中找到该项目，则为真。

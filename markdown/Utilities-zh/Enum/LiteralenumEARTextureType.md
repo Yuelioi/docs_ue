@@ -1,6 +1,6 @@
 # LiteralenumEARTextureType
 
-Literal enum EARTextureType
+枚举EARTextureType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARTextureType
 
 ## Inputs
 
-Enum: EARTextureType Enum.  
+枚举。EARTextureType Enum.  
 
 ## Outputs
 
-Return Value: EARTextureType Enum.
-
+返回值。EARTextureType Enum。

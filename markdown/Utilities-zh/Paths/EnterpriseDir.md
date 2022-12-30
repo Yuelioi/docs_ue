@@ -1,8 +1,8 @@
 # EnterpriseDir
 
-Returns the base directory enterprise directory.
+返回基础目录企业目录。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. enterprise directory.
-
+返回值。字符串。企业目录。

@@ -8,9 +8,8 @@ Byte to Enum EMediaWebcamCaptureDeviceFilter
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMediaWebcamCaptureDeviceFilter Enum.
-
+返回值。EMediaWebcamCaptureDeviceFilter Enum。

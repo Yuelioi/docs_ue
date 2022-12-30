@@ -8,9 +8,8 @@ Byte to Enum ERigElementType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERigElementType Enum.
-
+返回值。ERigElementType Enum。

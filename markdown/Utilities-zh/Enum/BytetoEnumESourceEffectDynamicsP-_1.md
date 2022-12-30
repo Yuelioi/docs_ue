@@ -8,9 +8,8 @@ Byte to Enum ESourceEffectDynamicsProcessorType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESourceEffectDynamicsProcessorType Enum.
-
+返回值。ESourceEffectDynamicsProcessorType Enum。

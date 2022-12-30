@@ -1,6 +1,6 @@
 # LiteralenumEGameplayCueEvent
 
-Literal enum EGameplayCueEvent
+字面意义上的枚举：EGameplayCueEvent
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayCueEvent
 
 ## Inputs
 
-Enum: EGameplayCueEvent Enum.  
+枚举。EGameplayCueEvent Enum.  
 
 ## Outputs
 
-Return Value: EGameplayCueEvent Enum.
-
+返回值。EGameplayCueEvent Enum。

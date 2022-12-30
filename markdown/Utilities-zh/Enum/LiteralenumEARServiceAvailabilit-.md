@@ -1,6 +1,6 @@
 # LiteralenumEARServiceAvailabilit-
 
-Literal enum EARServiceAvailability
+枚举 EARServiceAvailability
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARServiceAvailability
 
 ## Inputs
 
-Enum: EARServiceAvailability Enum.  
+枚举。EARServiceAvailability Enum.  
 
 ## Outputs
 
-Return Value: EARServiceAvailability Enum.
-
+返回值。EARServiceAvailability Enum。

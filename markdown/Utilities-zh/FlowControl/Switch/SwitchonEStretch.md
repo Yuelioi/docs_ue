@@ -1,6 +1,6 @@
 # SwitchonEStretch
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,25 +8,24 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EStretch Enum.  
+选择。EStretch Enum.  
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Fill: Exec.
+填充: Exec.
 
 Scale To Fit: Exec.
 
-Scale To Fit X: Exec.
+Scale To Fit X: 执行。
 
-Scale To Fit Y: Exec.
+适应Y的比例：执行。
 
-Scale To Fill: Exec.
+填充比例: Exec.
 
-Scale By Safe Zone: Exec.
+按安全区比例: Exec.
 
-User Specified: Exec.
-
+用户指定: 执行.

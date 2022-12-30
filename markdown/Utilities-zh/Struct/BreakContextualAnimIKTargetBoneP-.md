@@ -1,6 +1,6 @@
 # BreakContextualAnimIKTargetBoneP-
 
-Adds a node that breaks a 'ContextualAnimIKTargetBoneParams' into its member fields
+添加一个节点，将'ContextualAnimIKTargetBoneParams'分解到其成员字段。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ContextualAnimIKTargetBoneParams' into its member fie
 
 ## Inputs
 
-Contextual Anim IKTarget Bone Params: Contextual Anim IKTarget Bone Params Structure (by ref).  
+Contextual Anim IKTarget Bone Params: Contextual Anim IKTarget Bone Params 结构（通过引用）。 
 
 ## Outputs
 
-Target Role: Name. Target Role.
+目标角色。名称。目标角色.
 
-Bone Name: Name. Bone Name.
-
+Bone Name: 名称。骨骼名称。

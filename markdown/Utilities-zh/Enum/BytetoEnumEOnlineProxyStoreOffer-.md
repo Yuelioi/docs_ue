@@ -8,9 +8,8 @@ Byte to Enum EOnlineProxyStoreOfferDiscountType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EOnlineProxyStoreOfferDiscountType Enum.
-
+返回值。EOnlineProxyStoreOfferDiscountType Enum。

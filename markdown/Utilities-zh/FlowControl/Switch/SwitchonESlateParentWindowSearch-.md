@@ -1,6 +1,6 @@
 # SwitchonESlateParentWindowSearch-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESlateParentWindowSearchMethod Enum.  
+选择。ESlateParentWindowSearchMethod Enum.  
 
 ## Outputs
 
-Active Window: Exec.
+活动窗口。Exec.
 
-Main Window: Exec.
-
+主窗口。Exec.

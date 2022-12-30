@@ -1,6 +1,6 @@
 # BreakArtifactSettings
 
-Adds a node that breaks a 'ArtifactSettings' into its member fields
+添加一个节点，将'ArtifactSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'ArtifactSettings' into its member fields
 
 ## Inputs
 
-Artifact Settings: Artifact Settings Structure (by ref).  
+神器设置。神器设置结构（通过引用）。 
 
 ## Outputs
 
-Artifact Name: String. Artifact Name:. This needs to match what the launcher passes in the -epicapp command line arg.
+神器名称。字符串。Artifact Name:. 这需要与启动器在-epicapp命令行参数中传递的内容一致。
 
-Client Id: String. Client Id.
+客户端ID。字符串。客户端标识：。
 
-Client Secret: String. Client Secret.
+Client Secret: 字符串。客户端秘密。
 
-Product Id: String. Product Id.
+Product Id: 字符串。产品ID.
 
-Sandbox Id: String. Sandbox Id.
+Sandbox Id: 字符串。沙盒ID。
 
-Deployment Id: String. Deployment Id.
+部署标识。字符串。部署标识。
 
-Encryption Key: String. Encryption Key.
-
+加密密钥。字符串。加密密钥。

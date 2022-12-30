@@ -1,6 +1,6 @@
 # LiteralenumEInterchangeVertexCol-
 
-Literal enum EInterchangeVertexColorImportOption
+枚举EInterchangeVertexColorImportOption
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EInterchangeVertexColorImportOption
 
 ## Inputs
 
-Enum: EInterchangeVertexColorImportOption Enum.  
+枚举。EInterchangeVertexColorImportOption枚举。 
 
 ## Outputs
 
-Return Value: EInterchangeVertexColorImportOption Enum.
-
+返回值。EInterchangeVertexColorImportOption Enum.

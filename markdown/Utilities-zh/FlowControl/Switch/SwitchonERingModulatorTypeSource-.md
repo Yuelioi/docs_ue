@@ -1,6 +1,6 @@
 # SwitchonERingModulatorTypeSource-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERingModulatorTypeSourceEffect Enum.  
+选择。ERingModulatorTypeSourceEffect Enum.  
 
 ## Outputs
 
-Sine: Exec.
+正弦波。Exec.
 
-Saw: Exec.
+锯齿：Exec.
 
-Triangle: Exec.
+三角形 Exec.
 
-Square: Exec.
-
+正方形 执行

@@ -1,6 +1,6 @@
 # SwitchonEDMXFixtureSignalFormat
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDMXFixtureSignalFormat Enum.  
+选择。EDMXFixtureSignalFormat枚举。 
 
 ## Outputs
 
-8 Bit: Exec.
+8位：Exec.
 
-16 Bit: Exec.
+16位：执行。
 
-24 Bit: Exec.
+24位：执行。
 
-32 Bit: Exec.
-
+32位：执行。

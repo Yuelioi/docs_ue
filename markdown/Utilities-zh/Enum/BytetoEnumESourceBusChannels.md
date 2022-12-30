@@ -1,6 +1,6 @@
 # BytetoEnumESourceBusChannels
 
-Byte to Enum ESourceBusChannels
+字节到枚举 ESourceBusChannels
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESourceBusChannels
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESourceBusChannels Enum.
-
+返回值。ESourceBusChannels Enum。

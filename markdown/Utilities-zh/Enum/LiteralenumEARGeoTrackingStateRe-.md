@@ -1,6 +1,6 @@
 # LiteralenumEARGeoTrackingStateRe-
 
-Literal enum EARGeoTrackingStateReason
+EARGeoTrackingStateReason的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARGeoTrackingStateReason
 
 ## Inputs
 
-Enum: EARGeoTrackingStateReason Enum.  
+枚举。EARGeoTrackingStateReason Enum.  
 
 ## Outputs
 
-Return Value: EARGeoTrackingStateReason Enum.
-
+返回值。EARGeoTrackingStateReason Enum。

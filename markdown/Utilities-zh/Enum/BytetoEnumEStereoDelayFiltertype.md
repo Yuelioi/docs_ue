@@ -1,6 +1,6 @@
 # BytetoEnumEStereoDelayFiltertype
 
-Byte to Enum EStereoDelayFiltertype
+字节到枚举 EStereoDelayFiltertype
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EStereoDelayFiltertype
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EStereoDelayFiltertype Enum.
-
+返回值。EStereoDelayFiltertype Enum。

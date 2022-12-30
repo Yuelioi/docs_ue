@@ -1,6 +1,6 @@
 # BreakDisplayClus-_27
 
-Adds a node that breaks a 'DisplayClusterConfigurationViewport_RenderSettings' into its member fields
+添加一个节点，将'DisplayClusterConfigurationViewport_RenderSettings'分解到其成员字段中。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'DisplayClusterConfigurationViewport_RenderSettings' i
 
 ## Inputs
 
-Display Cluster Configuration Viewport Render Settings: Display Cluster Configuration Viewport Render Settings Structure (by ref).  
+显示群组配置视口渲染设置。显示群组配置视口渲染设置结构（通过参考）。 
 
 ## Outputs
 
-Stereo Mode: EDisplayClusterConfigurationViewport_StereoMode Enum. Stereo Mode:. Enables and sets Stereo mode.
+立体模式。EDisplayClusterConfigurationViewport_StereoMode枚举。立体声模式：。启用和设置立体模式。
 
-Screen Percentage: Float (single-precision). Buffer Ratio:. Adjust resolution scaling for an individual viewport. Viewport Screen Percentage Multiplier is applied to this value..
+屏幕百分比。Float（单精度）。Buffer Ratio:。调整单个视口的分辨率缩放比例。视口屏幕百分比乘数被应用到这个值。
 
-Replace: Display Cluster Configuration Post Render Override Structure. Replace:. Override viewport render from source texture.
+替换。Display Cluster Configuration Post Render Override结构。替换：。覆盖来自源纹理的视口渲染。
 
-Postprocess Blur: Display Cluster Configuration Post Render Blur Postprocess Structure. Postprocess Blur:. Add postprocess blur to viewport.
+Postprocess Blur: Display Cluster Configuration Post Render Blur Postprocess Structure。Postprocess Blur:.后处理模糊 为视口添加后处理模糊。
 
-Generate Mips: Display Cluster Configuration Post Render Generate Mips Structure. Generate Mips:. Generate Mips texture for this viewport (used, only if projection policy supports this feature).
+Generate Mips: Display Cluster Configuration Post Render Generate Mips结构。生成Mips:. 为该视口生成Mips纹理（仅在投影策略支持此功能时使用）。
 
-Overscan: Display Cluster Configuration Viewport Overscan Structure. Overscan:. Render a larger frame than specified in the configuration to achieve continuity across displays when using post-processing effects..
-
+Overscan: 显示群组配置视口过扫描结构。Overscan:. 渲染一个比配置中指定的更大的帧，以便在使用后期处理效果时实现跨显示器的连续性。

@@ -1,6 +1,6 @@
 # LiteralenumERigVMPinDirection
 
-Literal enum ERigVMPinDirection
+枚举ERigVMPinDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERigVMPinDirection
 
 ## Inputs
 
-Enum: ERigVMPinDirection Enum.  
+枚举。ERigVMPinDirection Enum.  
 
 ## Outputs
 
-Return Value: ERigVMPinDirection Enum.
-
+返回值。ERigVMPinDirection Enum.

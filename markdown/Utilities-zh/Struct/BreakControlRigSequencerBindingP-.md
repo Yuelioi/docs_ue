@@ -1,6 +1,6 @@
 # BreakControlRigSequencerBindingP-
 
-Adds a node that breaks a 'ControlRigSequencerBindingProxy' into its member fields
+添加一个节点，将'ControlRigSequencerBindingProxy'分解到其成员字段中。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ControlRigSequencerBindingProxy' into its member fiel
 
 ## Inputs
 
-Control Rig Sequencer Binding Proxy: Control Rig Sequencer Binding Proxy Structure (by ref).  
+控制钻机序列器绑定代理。控制钻机序列器绑定代理结构（通过引用）。 
 
 ## Outputs
 
-Proxy: Sequencer Binding Proxy Structure. Proxy.
+代理。定序器绑定代理结构。代理人。
 
-Control Rig: Control Rig Object Reference. Control Rig.
+控制钻机。控制装置对象参考。Control Rig: 控制装置。
 
-Track: Movie Scene Control Rig Parameter Track Object Reference. Track.
-
+轨道。电影场景控制装置的参数轨道对象参考。轨迹。

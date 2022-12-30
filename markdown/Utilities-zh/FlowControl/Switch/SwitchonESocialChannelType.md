@@ -1,6 +1,6 @@
 # SwitchonESocialChannelType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESocialChannelType Enum.  
+选择。ESocialChannelType枚举。 
 
 ## Outputs
 
-General: Exec.
+一般。Exec.
 
-Founder: Exec.
+创始人 创始人: 执行
 
-Party: Exec.
+党员 执行董事
 
-Team: Exec.
+团队。执行者
 
-System: Exec.
+体系。执委会: 执委会
 
-Private: Exec.
-
+私密性。执行

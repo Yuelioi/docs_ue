@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFRelation
 
-Adds a node that breaks a 'DMXImportGDTFRelation' into its member fields
+添加一个节点，将'DMXImportGDTFRelation'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'DMXImportGDTFRelation' into its member fields
 
 ## Inputs
 
-DMXImport GDTFRelation: DMXImport GDTFRelation Structure (by ref).  
+DMXImport GDTFRelation。DMXImport GDTFRelation结构（通过引用）。 
 
 ## Outputs
 
-Name: String. Name.
+名称。字符串。名称。
 
-Master: String. Master.
+Master: 字符串。主人.
 
-Follower: String. Follower.
+Follower: 字符串。Follower.
 
-Type: EDMXImportGDTFType Enum. Type.
-
+类型。EDMXImportGDTFType Enum. 类型。

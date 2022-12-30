@@ -1,6 +1,6 @@
 # LocalArrayofVectors
 
-Local temporary Array of Vectors variable
+本地临时的矢量数组变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Array of Vectors variable
 
 ## Outputs
 
-Variable: Array of Vectors.
-
+变量。向量数组。

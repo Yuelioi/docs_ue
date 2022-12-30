@@ -1,6 +1,6 @@
 # BytetoEnumESynth1PatchSource
 
-Byte to Enum ESynth1PatchSource
+字节到枚举 ESynth1PatchSource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESynth1PatchSource
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESynth1PatchSource Enum.
-
+返回值。ESynth1PatchSource Enum。

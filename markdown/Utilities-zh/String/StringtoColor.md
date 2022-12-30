@@ -1,8 +1,8 @@
 # StringtoColor
 
-Convert String Back To Color. IsValid indicates whether or not the string could be successfully converted.
+将字符串转换为颜色。IsValid表示字符串是否可以成功转换。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet String Library
 
 ## Inputs
 
-In String: String.  
+在字符串中。字符串。 
 
 ## Outputs
 
 Out Converted Color: Linear Color Structure.
 
-Out Is Valid: Boolean.
-
+输出是否有效。Boolean（布尔）。

@@ -1,6 +1,6 @@
 # BreakAIDynamicParam
 
-Adds a node that breaks a 'AIDynamicParam' into its member fields
+添加一个节点，将'AIDynamicParam'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'AIDynamicParam' into its member fields
 
 ## Inputs
 
-AIDynamic Param: AIDynamic Param Structure (by ref).  
+AIDynamic Param: AIDynamic Param结构（通过引用）。 
 
 ## Outputs
 
-Param Name: Name. Param Name.
+Param Name: 名称。Param Name: 参数名称。
 
-Param Type: EAIParamType Enum. Param Type.
+Param Type: 参数类型。EAIParamType Enum. Param Type: 参数类型。
 
-Value: Float (single-precision). Value.
+值。Float（单精度）。值。
 
-BBKey: Blackboard Key Selector Structure. BBKey.
-
+BBKey。黑板键选择器结构。BBKey。

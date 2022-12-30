@@ -1,6 +1,6 @@
 # LiteralenumEARSessionTrackingFea-
 
-Literal enum EARSessionTrackingFeature
+字面意义上的EARSessionTrackingFeature枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARSessionTrackingFeature
 
 ## Inputs
 
-Enum: EARSessionTrackingFeature Enum.  
+枚举。EARSessionTrackingFeature Enum.  
 
 ## Outputs
 
-Return Value: EARSessionTrackingFeature Enum.
-
+返回值。EARSessionTrackingFeature Enum.

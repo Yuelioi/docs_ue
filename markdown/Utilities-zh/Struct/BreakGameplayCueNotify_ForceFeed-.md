@@ -1,6 +1,6 @@
 # BreakGameplayCueNotify_ForceFeed-
 
-Adds a node that breaks a 'GameplayCueNotify_ForceFeedbackInfo' into its member fields
+添加一个打破'GameplayCueNotify_ForceFeedbackInfo'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,27 +8,26 @@ Adds a node that breaks a 'GameplayCueNotify_ForceFeedbackInfo' into its member 
 
 ## Inputs
 
-Gameplay Cue Notify Force Feedback Info: Gameplay Cue Notify Force Feedback Info Structure (by ref).  
+Gameplay Cue Notify Force Feedback Info。Gameplay Cue Notify Force Feedback Info 结构（通过引用）。 
 
 ## Outputs
 
-Spawn Condition Override: Gameplay Cue Notify Spawn Condition Structure. Spawn Condition Override:. Condition to check before playing the force feedback..
+Spawn Condition Override: Gameplay Cue Notify Spawn Condition 结构。Spawn Condition Override:。在播放武力反馈之前要检查的条件。
 
-Placement Info Override: Gameplay Cue Notify Placement Info Structure. Placement Info Override:. Defines how the force feedback will be placed..
+安置信息覆盖。Gameplay Cue Notify Placement Info Structure. 放置信息重写：。定义力反馈的放置方式。
 
-Force Feedback Effect: Force Feedback Effect Object Reference. Force Feedback Effect:. Force feedback effect to play..
+Force Feedback Effect（力反馈效果）。Force Feedback Effect Object Reference（力反馈效果对象参考）。Force Feedback Effect:.力反馈效果。播放的力反馈效果。
 
-Force Feedback Tag: Name. Force Feedback Tag:. Tag used to identify the force feedback effect so it can later be canceled.. Warning: If this is "None" it will stop ALL force feedback effects if it is canceled..
+Force Feedback Tag（力反馈标签）。名称。力反馈标签：。用于识别力反馈效果的标签，以便以后可以取消它。警告。如果它是 "无"，如果它被取消，将停止所有的力反馈效果。
 
-Is Looping: Boolean. Is Looping:. If enabled, the force feedback will be set to loop..
+是否循环。布尔值。是否循环：。如果启用，力反馈将被设置为循环。
 
-Override Spawn Condition: Boolean. Override Spawn Condition:. If enabled, use the spawn condition override and not the default one..
+覆盖再生条件。布尔值。Override Spawn Condition（覆盖再生条件）：。如果启用，使用产卵条件覆盖，而不是默认条件。
 
-Override Placement Info: Boolean. Override Placement Info:. If enabled, use the placement info override and not the default one..
+Override Placement Info（覆盖位置信息）。布尔值。覆盖放置信息：。如果启用，使用放置信息覆盖，而不是默认的。
 
-Play In World: Boolean. Play in World:. If enabled, the force feedback will be played in the world and affect all players..
+在世界中游戏。布尔值。在世界中播放：。如果启用，力反馈将在世界中播放并影响所有玩家。
 
-World Intensity: Float (single-precision). World Intensity:. Multiplier applied to the force feedback when played in world..
+世界强度。Float（单精度）。世界强度：。在世界中播放时应用于力反馈的乘数。
 
-World Attenuation: Force Feedback Attenuation Object Reference. World Attenuation:. How the force feedback is attenuated over distance when played in world..
-
+World Attenuation（世界衰减）。Force Feedback Attenuation（力反馈衰减）对象参考。World Attenuation:（世界衰减）。在世界中播放时，力反馈是如何通过距离衰减的。

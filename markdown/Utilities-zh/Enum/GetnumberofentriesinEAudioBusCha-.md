@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAudioBusCha-
 
-Returns EAudioBusChannels_MAX value
+返回EAudioBusChannels_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAudioBusChannels_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # LiteralenumEBaseCalculationType
 
-Literal enum EBaseCalculationType
+字面意义上的EBaseCalculationType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EBaseCalculationType
 
 ## Inputs
 
-Enum: EBaseCalculationType Enum.  
+枚举。EBaseCalculationType Enum.  
 
 ## Outputs
 
-Return Value: EBaseCalculationType Enum.
-
+返回值。EBaseCalculationType Enum。

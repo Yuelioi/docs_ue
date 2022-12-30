@@ -1,6 +1,6 @@
 # BytetoEnumEMultiUserConnectionSt-
 
-Byte to Enum EMultiUserConnectionStatus
+字节到枚举EMultiUserConnectionStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMultiUserConnectionStatus
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMultiUserConnectionStatus Enum.
-
+返回值。EMultiUserConnectionStatus枚举。

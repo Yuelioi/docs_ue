@@ -1,6 +1,6 @@
 # BytetoEnumEMediaSoundComponentFF-
 
-Byte to Enum EMediaSoundComponentFFTSize
+字节到枚举 EMediaSoundComponentFFTSize
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMediaSoundComponentFFTSize
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMediaSoundComponentFFTSize Enum.
-
+返回值。EMediaSoundComponentFFTSize Enum。

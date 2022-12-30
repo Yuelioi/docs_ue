@@ -1,6 +1,6 @@
 # LiteralenumEActorUpdateOverlapsM-
 
-Literal enum EActorUpdateOverlapsMethod
+字面上的枚举 EActorUpdateOverlapsMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EActorUpdateOverlapsMethod
 
 ## Inputs
 
-Enum: EActorUpdateOverlapsMethod Enum.  
+枚举。EActorUpdateOverlapsMethod Enum.  
 
 ## Outputs
 
-Return Value: EActorUpdateOverlapsMethod Enum.
-
+返回值。EActorUpdateOverlapsMethod Enum.

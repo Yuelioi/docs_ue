@@ -1,20 +1,19 @@
 # BreakGeographicCoordinates
 
-Adds a node that breaks a 'GeographicCoordinates' into its member fields
+添加一个节点，将 "GeographicCoordinates "分解成其成员字段。
 
 ## 图示
 
 ![]($-20221218-14364552.png)
 
-## Inputs
+## 输入
 
-Geographic Coordinates: Geographic Coordinates Structure (by ref).  
+地理坐标。Geographic Coordinates Structure (by ref).  
 
-## Outputs
+## ＃＃＃输出
 
-Longitude: Float (double-precision). Longitude:. FVector where X = Latitude, Y = Longitude, Z = Altitude.
+经度。Float (double-precision). 经度:。FVector，其中X = Latitude, Y = Longitude, Z = Altitude。
 
-Latitude: Float (double-precision). Latitude.
+纬度。Float（双精度）。纬度。
 
-Altitude: Float (double-precision). Altitude.
-
+海拔高度。Float（双精度）。海拔高度。

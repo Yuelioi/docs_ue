@@ -1,6 +1,6 @@
 # GetnumberofentriesinEControllerH-
 
-Returns EControllerHand_MAX value
+返回EControllerHand_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EControllerHand_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

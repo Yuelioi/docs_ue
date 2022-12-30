@@ -1,6 +1,6 @@
 # BytetoEnumESubmixFilterType
 
-Byte to Enum ESubmixFilterType
+字节到枚举 ESubmixFilterType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESubmixFilterType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESubmixFilterType Enum.
-
+返回值。ESubmixFilterType Enum。

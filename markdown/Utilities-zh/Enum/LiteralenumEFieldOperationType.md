@@ -1,6 +1,6 @@
 # LiteralenumEFieldOperationType
 
-Literal enum EFieldOperationType
+字面意义上的EFieldOperationType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFieldOperationType
 
 ## Inputs
 
-Enum: EFieldOperationType Enum.  
+枚举。EFieldOperationType Enum.  
 
 ## Outputs
 
-Return Value: EFieldOperationType Enum.
-
+返回值。EFieldOperationType Enum.

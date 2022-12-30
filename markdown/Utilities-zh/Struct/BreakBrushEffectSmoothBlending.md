@@ -1,6 +1,6 @@
 # BreakBrushEffectSmoothBlending
 
-Adds a node that breaks a 'BrushEffectSmoothBlending' into its member fields
+添加一个节点，将'BrushEffectSmoothBlending'分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'BrushEffectSmoothBlending' into its member fields
 
 ## Inputs
 
-Brush Effect Smooth Blending: Brush Effect Smooth Blending Structure (by ref).  
+刷子效果平滑混合。刷子效果平滑混合结构（通过引用）。 
 
 ## Outputs
 
-Inner Smooth Distance: Float (single-precision). Inner Smooth Distance.
+内部平滑距离。Float（单精度）。Inner Smooth Distance: 内部平滑距离。
 
-Outer Smooth Distance: Float (single-precision). Outer Smooth Distance.
-
+外平滑距离。Float（单精度）。外平滑距离。

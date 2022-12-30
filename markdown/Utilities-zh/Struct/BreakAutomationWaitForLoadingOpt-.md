@@ -1,6 +1,6 @@
 # BreakAutomationWaitForLoadingOpt-
 
-Adds a node that breaks a 'AutomationWaitForLoadingOptions' into its member fields
+添加一个打破'AutomationWaitForLoadingOptions'的节点到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'AutomationWaitForLoadingOptions' into its member fiel
 
 ## Inputs
 
-Automation Wait for Loading Options: Automation Wait For Loading Options Structure (by ref).  
+Automation Wait for Loading Options: Automation Wait For Loading Options 结构（通过引用）。 
 
 ## Outputs
 
-Wait For Replication To Settle: Boolean. Wait for Replication to Settle.
-
+Wait For Replication To Settle: Boolean. Wait for Replication To Settle: 等待复制结算。

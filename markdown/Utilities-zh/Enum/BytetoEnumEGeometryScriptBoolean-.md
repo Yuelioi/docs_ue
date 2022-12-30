@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptBoolean-
 
-Byte to Enum EGeometryScriptBooleanOperation
+字节到枚举 EGeometryScriptBooleanOperation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptBooleanOperation
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptBooleanOperation Enum.
-
+返回值。EGeometryScriptBooleanOperation Enum.

@@ -1,6 +1,6 @@
 # LiteralenumEARLiveLinkSourceType
 
-Literal enum EARLiveLinkSourceType
+EARLiveLinkSourceType的文字枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARLiveLinkSourceType
 
 ## Inputs
 
-Enum: EARLiveLinkSourceType Enum.  
+枚举。EARLiveLinkSourceType Enum。 
 
 ## Outputs
 
-Return Value: EARLiveLinkSourceType Enum.
-
+返回值。EARLiveLinkSourceType Enum。

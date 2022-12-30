@@ -1,6 +1,6 @@
 # LiteralenumFControlRigChannelEnu-
 
-Literal enum FControlRigChannelEnum
+FControlRigChannelEnum的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum FControlRigChannelEnum
 
 ## Inputs
 
-Enum: FControlRigChannelEnum Enum.  
+枚举。FControlRigChannelEnum枚举。 
 
 ## Outputs
 
-Return Value: FControlRigChannelEnum Enum.
-
+返回值。FControlRigChannelEnum Enum。

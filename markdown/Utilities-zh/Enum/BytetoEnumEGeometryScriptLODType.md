@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptLODType
 
-Byte to Enum EGeometryScriptLODType
+字节到枚举 EGeometryScriptLODType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptLODType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptLODType Enum.
-
+返回值。EGeometryScriptLODType Enum。

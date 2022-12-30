@@ -1,6 +1,6 @@
 # SwitchonEScripti-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,25 +8,24 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EScriptingCollisionShapeType_Deprecated Enum.  
+选择。EScriptingCollisionShapeType_Deprecated Enum.  
 
 ## Outputs
 
-Box: Exec.
+方框。Exec.
 
 Sphere: Exec.
 
-Capsule: Exec.
+Capsule: 蒴果。Exec.
 
-NDOP10 X: Exec.
+NDOP10 X：执行。
 
 NDOP10 Y: Exec.
 
-NDOP10 Z: Exec.
+NDOP10 Z: 执行。
 
-NDOP18: Exec.
+NDOP18：执行。
 
-NDOP26: Exec.
-
+NDOP26：执行。

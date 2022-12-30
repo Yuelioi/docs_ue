@@ -1,6 +1,6 @@
 # BytetoEnumEUpdatePositionMethod
 
-Byte to Enum EUpdatePositionMethod
+字节到枚举 EUpdatePositionMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EUpdatePositionMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EUpdatePositionMethod Enum.
-
+返回值。EUpdatePositionMethod Enum。

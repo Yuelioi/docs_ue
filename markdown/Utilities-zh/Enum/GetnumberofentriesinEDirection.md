@@ -1,6 +1,6 @@
 # GetnumberofentriesinEDirection
 
-Returns EDirection_MAX value
+返回EDirection_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EDirection_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

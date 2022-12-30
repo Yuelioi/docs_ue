@@ -1,6 +1,6 @@
 # LiteralenumEWalkableSlopeBehavio-
 
-Literal enum EWalkableSlopeBehavior
+枚举 EWalkableSlopeBehavior
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWalkableSlopeBehavior
 
 ## Inputs
 
-Enum: EWalkableSlopeBehavior Enum.  
+枚举。EWalkableSlopeBehavior Enum.  
 
 ## Outputs
 
-Return Value: EWalkableSlopeBehavior Enum.
-
+返回值。EWalkableSlopeBehavior Enum.

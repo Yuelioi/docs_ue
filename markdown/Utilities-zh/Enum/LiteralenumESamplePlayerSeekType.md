@@ -1,6 +1,6 @@
 # LiteralenumESamplePlayerSeekType
 
-Literal enum ESamplePlayerSeekType
+字面意义上的枚举：ESamplePlayerSeekType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESamplePlayerSeekType
 
 ## Inputs
 
-Enum: ESamplePlayerSeekType Enum.  
+枚举。ESamplePlayerSeekType枚举。 
 
 ## Outputs
 
-Return Value: ESamplePlayerSeekType Enum.
-
+返回值。ESamplePlayerSeekType Enum。

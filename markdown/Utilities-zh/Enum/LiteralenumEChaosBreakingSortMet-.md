@@ -1,6 +1,6 @@
 # LiteralenumEChaosBreakingSortMet-
 
-Literal enum EChaosBreakingSortMethod
+枚举EChaosBreakingSortMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EChaosBreakingSortMethod
 
 ## Inputs
 
-Enum: EChaosBreakingSortMethod Enum.  
+枚举。EChaosBreakingSortMethod Enum.  
 
 ## Outputs
 
-Return Value: EChaosBreakingSortMethod Enum.
-
+返回值。EChaosBreakingSortMethod Enum。

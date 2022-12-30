@@ -1,6 +1,6 @@
 # BytetoEnumFTransformChannelEnum
 
-Byte to Enum FTransformChannelEnum
+字节到枚举 FTTransformChannelEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum FTransformChannelEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: FTransformChannelEnum Enum.
-
+返回值。FTransformChannelEnum枚举。

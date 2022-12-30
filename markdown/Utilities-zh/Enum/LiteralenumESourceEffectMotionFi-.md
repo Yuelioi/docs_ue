@@ -1,6 +1,6 @@
 # LiteralenumESourceEffectMotionFi-
 
-Literal enum ESourceEffectMotionFilterCircuit
+枚举ESourceEffectMotionFilterCircuit
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESourceEffectMotionFilterCircuit
 
 ## Inputs
 
-Enum: ESourceEffectMotionFilterCircuit Enum.  
+枚举。ESourceEffectMotionFilterCircuit Enum.  
 
 ## Outputs
 
-Return Value: ESourceEffectMotionFilterCircuit Enum.
-
+返回值。ESourceEffectMotionFilterCircuit Enum。

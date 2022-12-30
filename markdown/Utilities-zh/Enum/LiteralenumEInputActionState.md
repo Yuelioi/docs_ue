@@ -1,6 +1,6 @@
 # LiteralenumEInputActionState
 
-Literal enum EInputActionState
+枚举EInputActionState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EInputActionState
 
 ## Inputs
 
-Enum: EInputActionState Enum.  
+枚举。EInputActionState Enum.  
 
 ## Outputs
 
-Return Value: EInputActionState Enum.
-
+返回值。EInputActionState Enum.

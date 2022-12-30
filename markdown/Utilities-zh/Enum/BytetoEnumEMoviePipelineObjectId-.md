@@ -8,9 +8,8 @@ Byte to Enum EMoviePipelineObjectIdPassIdType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMoviePipelineObjectIdPassIdType Enum.
-
+返回值。EMoviePipelineObjectIdPassIdType Enum。

@@ -1,8 +1,8 @@
 # EngineUserDir
 
-Returns the root directory for user-specific engine files. Always writable.
+返回用户特定引擎文件的根目录。总是可写的。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. root user directory.
-
+返回值。字符串。用户根目录。

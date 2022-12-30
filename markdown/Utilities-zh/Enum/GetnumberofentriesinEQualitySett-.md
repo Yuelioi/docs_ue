@@ -1,6 +1,6 @@
 # GetnumberofentriesinEQualitySett-
 
-Returns EQualitySettings_MAX value
+返回EQualitySettings_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EQualitySettings_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

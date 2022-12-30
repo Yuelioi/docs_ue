@@ -1,6 +1,6 @@
 # LiteralenumESteamVRTrackedDevice-
 
-Literal enum ESteamVRTrackedDeviceType
+字面意思是ESteamVRTrackedDeviceType枚举。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESteamVRTrackedDeviceType
 
 ## Inputs
 
-Enum: ESteamVRTrackedDeviceType Enum.  
+枚举。ESteamVRTrackedDeviceType枚举。 
 
 ## Outputs
 
-Return Value: ESteamVRTrackedDeviceType Enum.
-
+返回值。ESteamVRTrackedDeviceType Enum。

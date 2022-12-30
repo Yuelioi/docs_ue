@@ -1,6 +1,6 @@
 # LiteralenumEDisplayClusterNodeRo-
 
-Literal enum EDisplayClusterNodeRole
+字面意义上的枚举 EDClusterNodeRole
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDisplayClusterNodeRole
 
 ## Inputs
 
-Enum: EDisplayClusterNodeRole Enum.  
+枚举。EDisplayClusterNodeRole Enum.  
 
 ## Outputs
 
-Return Value: EDisplayClusterNodeRole Enum.
-
+返回值。EDisplayClusterNodeRole Enum。

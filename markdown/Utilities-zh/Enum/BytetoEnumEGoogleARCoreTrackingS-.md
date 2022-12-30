@@ -1,6 +1,6 @@
 # BytetoEnumEGoogleARCoreTrackingS-
 
-Byte to Enum EGoogleARCoreTrackingState
+字节到枚举 EGoogleARCoreTrackingState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGoogleARCoreTrackingState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreTrackingState Enum.
-
+返回值。EGoogleARCoreTrackingState Enum。

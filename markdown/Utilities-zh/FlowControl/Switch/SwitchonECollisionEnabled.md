@@ -1,6 +1,6 @@
 # SwitchonECollisionEnabled
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ECollisionEnabled Enum.  
+选择。ECollisionEnabled Enum.  
 
 ## Outputs
 
-No Collision: Exec.
+无碰撞。Exec.
 
-Query Only (No Physics Collision): Exec.
+仅查询（无物理碰撞）。Exec.
 
-Physics Only (No Query Collision): Exec.
+仅限物理学（无查询碰撞）。执行。
 
-Collision Enabled (Query And Physics): Exec.
-
+启用碰撞（查询和物理）。执行。

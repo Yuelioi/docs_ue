@@ -1,8 +1,8 @@
 # Length
 
-Get the number of items in a set.
+获取一个集合中的项目数量。
 
-Target is Blueprint Set Library
+目标是蓝图集库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Blueprint Set Library
 
 ## Inputs
 
-Target Set: Set of Wildcards. The set to get the length of.  
+目标集。集的通配符。要获得长度的集合。 
 
 ## Outputs
 
-Return Value: Integer. The length of the set.
-
+返回值。整数。该集合的长度。

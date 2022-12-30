@@ -1,8 +1,8 @@
 # IsDrive
 
-Returns true if this path represents a root drive or volume
+如果该路径代表一个根驱动器或卷，则返回true。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Path: String.  
+在路径中。字符串。 
 
 ## Outputs
 
-Return Value: Boolean. Returns true if this path represents a root drive or volume.
-
+返回值。布尔值。如果该路径代表一个根驱动器或卷，则返回true。

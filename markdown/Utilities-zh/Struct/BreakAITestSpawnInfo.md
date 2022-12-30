@@ -1,6 +1,6 @@
 # BreakAITestSpawnInfo
 
-Adds a node that breaks a 'AITestSpawnInfo' into its member fields
+添加一个节点，将'AITestSpawnInfo'分解为其成员字段
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that breaks a 'AITestSpawnInfo' into its member fields
 
 ## Inputs
 
-AITest Spawn Info: AITest Spawn Info Structure (by ref).  
+AITest再生信息。AITest再生信息结构（通过引用）。 
 
 ## Outputs
 
-Pawn Class: Pawn Class Reference. Pawn Class:. Determines AI to be spawned.
+Pawn Class: 卒类参考。Pawn Class:. 确定要生成的AI。
 
-Controller Class: AIController Class Reference. Controller Class:. class to override default pawn's controller class. If None the default will be used.
+Controller Class: AIController类参考。Controller Class:.覆盖默认卒的控制器类的类。如果没有，将使用默认值。
 
-Team ID: Generic Team Id Structure. Team ID.
+Team ID: 通用的团队标识结构。团队ID：团队ID。
 
-Behavior Tree: Behavior Tree Object Reference. Behavior Tree:. if set will be applied to spawned AI.
+Behavior Tree（行为树）。行为树对象参考。Behavior Tree:.如果设置将应用于产卵的AI。
 
-Spawn Location: Actor Object Reference. Spawn Location:. Where should AI be spawned.
+产卵位置。Actor对象参考。Spawn Location:.产卵地点。AI应该在哪里产卵。
 
-Number To Spawn: Integer. Number to Spawn.
+Number To Spawn: 整数。产出的数量。
 
-Spawn Delay: Float (single-precision). Spawn Delay:. delay between consecutive spawn attempts.
+Spawn Delay: Float（单精度）。Spawn Delay: 连续产卵尝试之间的延迟。
 
-Pre Spawn Delay: Float (single-precision). Pre Spawn Delay:. delay before attempting first spawn.
-
+Pre Spawn Delay: 浮点数（单精度）。Pre Spawn Delay: 尝试第一次产卵前的延迟。

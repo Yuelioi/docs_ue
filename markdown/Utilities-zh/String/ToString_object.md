@@ -1,8 +1,8 @@
 # ToString_object
 
-Converts a UObject value to a string by calling the object's GetName method
+通过调用对象的GetName方法将一个UObject值转换为一个字符串
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-In Obj: Object Reference.  
+在Obj中：对象参考。 
 
 ## Outputs
 
-Return Value: String. Converts a UObject value to a string by calling the object's GetName method.
-
+返回值。字符串。通过调用对象的GetName方法将一个UObject值转换为一个字符串。

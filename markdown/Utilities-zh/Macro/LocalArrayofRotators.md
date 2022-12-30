@@ -1,6 +1,6 @@
 # LocalArrayofRotators
 
-Local temporary Array of Rotators variable
+本地临时的旋转器阵列变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Array of Rotators variable
 
 ## Outputs
 
-Variable: Array of Rotators.
-
+变量。旋转器阵列。

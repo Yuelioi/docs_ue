@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-_2
 
-Adds a node that breaks a 'DisplayClusterConfigurationICVFX_CameraBorder' into its member fields
+添加一个打破'DisplayClusterConfigurationICVFX_CameraBorder'的节点到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DisplayClusterConfigurationICVFX_CameraBorder' into i
 
 ## Inputs
 
-Display Cluster Configuration ICVFX Camera Border: Display Cluster Configuration ICVFX Camera Border Structure (by ref).  
+显示集群配置ICVFX摄像机边界。显示集群配置ICVFX相机边框结构（通过参考）。 
 
 ## Outputs
 
-Enable Inner Frustum Border: Boolean. Enable:. Enable Innder Frustum Border..
+启用内部Frustum边界。布尔值。启用：。Enable Innder Frustum Border.
 
-Border Width: Float (single-precision). Thickness:. Adjust border width to the top and bottom edges of the inner frustum..
+边界宽度：浮点数（单精度）。厚度：。调整边界宽度到内壳的顶部和底部边缘。
 
-Border Color: Linear Color Structure. Color:. Adjust color of the border edges of the inner frustum..
-
+边框颜色：线性颜色结构。颜色:。调整内壳边缘的颜色。

@@ -1,6 +1,6 @@
 # SwitchonEVectorCurveChannel
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EVectorCurveChannel Enum.  
+选择。EVectorCurveChannel Enum.  
 
 ## Outputs
 
-X: Exec.
+X：执行。
 
-Y: Exec.
+Y：执行。
 
-Z: Exec.
+Z：执行。
 
-Invalid: Exec.
-
+无效。执行。

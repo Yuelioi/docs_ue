@@ -1,6 +1,6 @@
 # SwitchonEQuartzCommandDelegateSu-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EQuartzCommandDelegateSubType Enum.  
+选择。EQuartzCommandDelegateSubType枚举。 
 
 ## Outputs
 
 Failed to Queue: Exec.
 
-Queued: Exec.
+已排队。Exec.
 
-Canceled: Exec.
+取消了。执行.
 
-About to Start: Exec.
+即将开始。执行.
 
-Started: Exec.
-
+已经开始。执行.

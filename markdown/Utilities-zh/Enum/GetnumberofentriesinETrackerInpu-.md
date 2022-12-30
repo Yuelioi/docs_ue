@@ -1,6 +1,6 @@
 # GetnumberofentriesinETrackerInpu-
 
-Returns ETrackerInputSource_MAX value
+返回ETrackerInputSource_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ETrackerInputSource_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

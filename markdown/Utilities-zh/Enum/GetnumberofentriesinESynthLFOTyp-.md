@@ -1,6 +1,6 @@
 # GetnumberofentriesinESynthLFOTyp-
 
-Returns ESynthLFOType_MAX value
+返回ESynthLFOType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESynthLFOType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

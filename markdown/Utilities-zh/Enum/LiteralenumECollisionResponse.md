@@ -1,6 +1,6 @@
 # LiteralenumECollisionResponse
 
-Literal enum ECollisionResponse
+字面意义上的ECollisionResponse枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECollisionResponse
 
 ## Inputs
 
-Enum: ECollisionResponse Enum.  
+枚举。ECollisionResponse Enum.  
 
 ## Outputs
 
-Return Value: ECollisionResponse Enum.
-
+返回值。ECollisionResponse Enum。

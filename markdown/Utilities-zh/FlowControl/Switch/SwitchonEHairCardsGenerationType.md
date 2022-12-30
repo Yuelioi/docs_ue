@@ -1,6 +1,6 @@
 # SwitchonEHairCardsGenerationType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EHairCardsGenerationType Enum.  
+选择。EHairCardsGenerationType枚举。 
 
 ## Outputs
 
-Cards Count: Exec.
+卡片数。Exec.
 
 Use Guides: Exec.
-

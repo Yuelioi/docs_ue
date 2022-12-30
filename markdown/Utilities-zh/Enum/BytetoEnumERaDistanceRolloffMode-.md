@@ -1,6 +1,6 @@
 # BytetoEnumERaDistanceRolloffMode-
 
-Byte to Enum ERaDistanceRolloffModel
+字节到枚举ERaDistanceRolloffModel
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERaDistanceRolloffModel
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERaDistanceRolloffModel Enum.
-
+返回值。ERaDistanceRolloffModel Enum。

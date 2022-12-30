@@ -1,6 +1,6 @@
 # SwitchonESequenceEvalReinit
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESequenceEvalReinit Enum.  
+选择。ESequenceEvalReinit枚举。 
 
 ## Outputs
 
-No Reset: Exec.
+不重置。Exec.
 
-Start Position: Exec.
+开始位置。Exec.
 
-Explicit Time: Exec.
-
+明确时间: Exec.

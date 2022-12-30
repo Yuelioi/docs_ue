@@ -1,6 +1,6 @@
 # LiteralenumEMaterialSamplerType
 
-Literal enum EMaterialSamplerType
+枚举EMaterialSamplerType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMaterialSamplerType
 
 ## Inputs
 
-Enum: EMaterialSamplerType Enum.  
+枚举。EMaterialSamplerType枚举。 
 
 ## Outputs
 
-Return Value: EMaterialSamplerType Enum.
-
+返回值。EMaterialSamplerType Enum。

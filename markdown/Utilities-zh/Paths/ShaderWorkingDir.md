@@ -1,8 +1,8 @@
 # ShaderWorkingDir
 
-Returns the Shader Working Directory
+返回着色器工作目录
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. shader working directory.
-
+返回值。字符串。着色器工作目录。

@@ -1,6 +1,6 @@
 # LiteralenumEAudioRecordingExport-
 
-Literal enum EAudioRecordingExportType
+枚举 EAudioRecordingExportType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAudioRecordingExportType
 
 ## Inputs
 
-Enum: EAudioRecordingExportType Enum.  
+枚举。EAudioRecordingExportType Enum.  
 
 ## Outputs
 
-Return Value: EAudioRecordingExportType Enum.
-
+返回值。EAudioRecordingExportType Enum.

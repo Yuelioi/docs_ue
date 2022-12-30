@@ -1,6 +1,6 @@
 # BytetoEnumEVProdPanelIDs
 
-Byte to Enum EVProdPanelIDs
+字节到枚举EVProdPanelIDs
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EVProdPanelIDs
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EVProdPanelIDs Enum.
-
+返回值。EVProdPanelIDs Enum.

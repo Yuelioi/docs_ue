@@ -1,6 +1,6 @@
 # LiteralenumEGoogleARCoreAugmente-
 
-Literal enum EGoogleARCoreAugmentedFaceMode
+枚举 EGoogleARCoreAugmentedFaceMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGoogleARCoreAugmentedFaceMode
 
 ## Inputs
 
-Enum: EGoogleARCoreAugmentedFaceMode Enum.  
+枚举。EGoogleARCoreAugmentedFaceMode枚举。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreAugmentedFaceMode Enum.
-
+返回值。EGoogleARCoreAugmentedFaceMode Enum。

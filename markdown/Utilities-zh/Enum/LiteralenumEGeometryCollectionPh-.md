@@ -1,6 +1,6 @@
 # LiteralenumEGeometryCollectionPh-
 
-Literal enum EGeometryCollectionPhysicsTypeEnum
+枚举 EGeometryCollectionPhysicsTypeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryCollectionPhysicsTypeEnum
 
 ## Inputs
 
-Enum: EGeometryCollectionPhysicsTypeEnum Enum.  
+枚举。EGeometryCollectionPhysicsTypeEnum Enum.  
 
 ## Outputs
 
-Return Value: EGeometryCollectionPhysicsTypeEnum Enum.
-
+返回值。EGeometryCollectionPhysicsTypeEnum枚举。

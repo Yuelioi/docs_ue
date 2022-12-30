@@ -1,6 +1,6 @@
 # LiteralenumEUpdateClockSource
 
-Literal enum EUpdateClockSource
+字面意义上的枚举：EUpdateClockSource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EUpdateClockSource
 
 ## Inputs
 
-Enum: EUpdateClockSource Enum.  
+枚举。EUpdateClockSource Enum.  
 
 ## Outputs
 
-Return Value: EUpdateClockSource Enum.
-
+返回值。EUpdateClockSource Enum。

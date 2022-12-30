@@ -1,6 +1,6 @@
 # LiteralenumEDMXFixtureSignalForm-
 
-Literal enum EDMXFixtureSignalFormat
+枚举 EDMXFixtureSignalFormat
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDMXFixtureSignalFormat
 
 ## Inputs
 
-Enum: EDMXFixtureSignalFormat Enum.  
+枚举。EDMXFixtureSignalFormat Enum.  
 
 ## Outputs
 
-Return Value: EDMXFixtureSignalFormat Enum.
-
+返回值: EDMXFixtureSignalFormat Enum.

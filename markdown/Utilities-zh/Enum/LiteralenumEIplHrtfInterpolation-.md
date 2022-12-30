@@ -1,6 +1,6 @@
 # LiteralenumEIplHrtfInterpolation-
 
-Literal enum EIplHrtfInterpolationMethod
+枚举 EIplHrtfInterpolationMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EIplHrtfInterpolationMethod
 
 ## Inputs
 
-Enum: EIplHrtfInterpolationMethod Enum.  
+枚举。EIplHrtfInterpolationMethod Enum.  
 
 ## Outputs
 
-Return Value: EIplHrtfInterpolationMethod Enum.
-
+返回值。EIplHrtfInterpolationMethod Enum.

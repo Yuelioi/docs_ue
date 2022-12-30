@@ -1,6 +1,6 @@
 # GetnumberofentriesinERootMotionM-
 
-Returns ERootMotionModifierState_MAX value
+返回ERootMotionModifierState_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ERootMotionModifierState_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

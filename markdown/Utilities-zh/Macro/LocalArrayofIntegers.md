@@ -1,6 +1,6 @@
 # LocalArrayofIntegers
 
-Local temporary Array of Integers variable
+本地临时整数阵列变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Array of Integers variable
 
 ## Outputs
 
-Variable: Array of Integers.
-
+变量。整数的数组。

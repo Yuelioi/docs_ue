@@ -1,6 +1,6 @@
 # BytetoEnumETextTransformPolicy
 
-Byte to Enum ETextTransformPolicy
+字节到枚举 ETextTransformPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETextTransformPolicy
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETextTransformPolicy Enum.
-
+返回值。ETextTransformPolicy Enum。

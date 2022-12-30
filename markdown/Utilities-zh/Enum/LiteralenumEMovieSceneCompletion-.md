@@ -1,6 +1,6 @@
 # LiteralenumEMovieSceneCompletion-
 
-Literal enum EMovieSceneCompletionMode
+EMovieSceneCompletionMode字面枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMovieSceneCompletionMode
 
 ## Inputs
 
-Enum: EMovieSceneCompletionMode Enum.  
+枚举。EMovieSceneCompletionMode枚举。 
 
 ## Outputs
 
-Return Value: EMovieSceneCompletionMode Enum.
-
+返回值。EMovieSceneCompletionMode Enum。

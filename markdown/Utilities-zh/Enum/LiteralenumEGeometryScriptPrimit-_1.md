@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptPrimit-_1
 
-Literal enum EGeometryScriptPrimitivePolygroupMode
+字面意义上的枚举 EGeometryScriptPrimitivePolygroupMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptPrimitivePolygroupMode
 
 ## Inputs
 
-Enum: EGeometryScriptPrimitivePolygroupMode Enum.  
+枚举。EGeometryScriptPrimitivePolygroupMode枚举。 
 
 ## Outputs
 
-Return Value: EGeometryScriptPrimitivePolygroupMode Enum.
-
+返回值。EGeometryScriptPrimitivePolygroupMode Enum.

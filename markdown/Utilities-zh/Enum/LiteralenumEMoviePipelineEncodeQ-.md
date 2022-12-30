@@ -1,6 +1,6 @@
 # LiteralenumEMoviePipelineEncodeQ-
 
-Literal enum EMoviePipelineEncodeQuality
+枚举EMoviePipelineEncodeQuality
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMoviePipelineEncodeQuality
 
 ## Inputs
 
-Enum: EMoviePipelineEncodeQuality Enum.  
+枚举。EMoviePipelineEncodeQuality Enum.  
 
 ## Outputs
 
-Return Value: EMoviePipelineEncodeQuality Enum.
-
+返回值。EMoviePipelineEncodeQuality Enum。

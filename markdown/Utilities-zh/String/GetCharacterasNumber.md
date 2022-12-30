@@ -1,8 +1,8 @@
 # GetCharacterasNumber
 
-Gets a single character from the string (as an integer)
+从字符串中获取一个单一的字符（作为一个整数）。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source String: String. The string to convert.
+源字符串。字符串。要转换的字符串。
 
-Index: Integer. Location of the character whose value is required.  
+索引。整数。需要其值的字符的位置。 
 
 ## Outputs
 
-Return Value: Integer. The integer value of the character or 0 if index is out of range.
-
+返回值。整数。字符的整数值，如果索引超出范围则为0。

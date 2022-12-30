@@ -1,6 +1,6 @@
 # LiteralenumEGameplayAbilityNetEx-
 
-Literal enum EGameplayAbilityNetExecutionPolicy
+字面上的枚举：EGameplayAbilityNetExecutionPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayAbilityNetExecutionPolicy
 
 ## Inputs
 
-Enum: EGameplayAbilityNetExecutionPolicy Enum.  
+枚举。EGameplayAbilityNetExecutionPolicy Enum。 
 
 ## Outputs
 
-Return Value: EGameplayAbilityNetExecutionPolicy Enum.
-
+返回值。EGameplayAbilityNetExecutionPolicy Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEGameplayAbilityInstan-
 
-Byte to Enum EGameplayAbilityInstancingPolicy
+字节到枚举 EGameplayAbilityInstancingPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGameplayAbilityInstancingPolicy
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGameplayAbilityInstancingPolicy Enum.
-
+返回值。EGameplayAbilityInstancingPolicy Enum。

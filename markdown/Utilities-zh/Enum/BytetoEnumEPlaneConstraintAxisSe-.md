@@ -1,6 +1,6 @@
 # BytetoEnumEPlaneConstraintAxisSe-
 
-Byte to Enum EPlaneConstraintAxisSetting
+字节到枚举 EPlaneConstraintAxisSetting
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EPlaneConstraintAxisSetting
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EPlaneConstraintAxisSetting Enum.
-
+返回值。EPlaneConstraintAxisSetting Enum。

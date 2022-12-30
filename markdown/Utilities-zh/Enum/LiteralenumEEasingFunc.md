@@ -1,6 +1,6 @@
 # LiteralenumEEasingFunc
 
-Literal enum EEasingFunc
+字面意义上的EEasingFunc枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EEasingFunc
 
 ## Inputs
 
-Enum: EEasingFunc Enum.  
+枚举。EEasingFunc Enum.  
 
 ## Outputs
 
-Return Value: EEasingFunc Enum.
-
+返回值。EEasingFunc Enum。

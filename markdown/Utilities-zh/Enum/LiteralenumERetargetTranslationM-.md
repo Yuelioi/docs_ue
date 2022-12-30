@@ -1,6 +1,6 @@
 # LiteralenumERetargetTranslationM-
 
-Literal enum ERetargetTranslationMode
+字面意义上的枚举ERetargetTranslationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERetargetTranslationMode
 
 ## Inputs
 
-Enum: ERetargetTranslationMode Enum.  
+枚举。ERetargetTranslationMode Enum.  
 
 ## Outputs
 
-Return Value: ERetargetTranslationMode Enum.
-
+返回值。ERetargetTranslationMode Enum。

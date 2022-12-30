@@ -1,6 +1,6 @@
 # LiteralenumEAppleProResEncoderCo-_1
 
-Literal enum EAppleProResEncoderColorPrimaries
+枚举 EAppleProResEncoderColorPrimaries
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: EAppleProResEncoderColorPrimaries Enum.
 
 ## Outputs
 
-Return Value: EAppleProResEncoderColorPrimaries Enum.
-
+返回值。EAppleProResEncoderColorPrimaries Enum.

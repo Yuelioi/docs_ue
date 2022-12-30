@@ -1,6 +1,6 @@
 # LiteralenumETravelFailure
 
-Literal enum ETravelFailure
+字面意义上的ETravelFailure枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETravelFailure
 
 ## Inputs
 
-Enum: ETravelFailure Enum.  
+枚举。ETravelFailure Enum.  
 
 ## Outputs
 
-Return Value: ETravelFailure Enum.
-
+返回值。ETravelFailure Enum。

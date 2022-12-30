@@ -1,6 +1,6 @@
 # BytetoEnumEQuartzCommandQuantiza-
 
-Byte to Enum EQuartzCommandQuantization
+字节到枚举 EQuartzCommandQuantization
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EQuartzCommandQuantization
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EQuartzCommandQuantization Enum.
-
+返回值。EQuartzCommandQuantization Enum。

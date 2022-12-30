@@ -1,6 +1,6 @@
 # BreakColor
 
-Adds a node that breaks a 'Color' into its member fields
+添加一个节点，将 "颜色 "分解为其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'Color' into its member fields
 
 ## Inputs
 
-Color: Color Structure (by ref).  
+颜色：颜色结构（通过引用）。 
 
 ## Outputs
 
-B: Byte. B.
+B: 字节。B.
 
-G: Byte. G.
+G: 字节。G.
 
-R: Byte. R.
+R: 字节。R.
 
-A: Byte. A.
-
+A: 字节。A.

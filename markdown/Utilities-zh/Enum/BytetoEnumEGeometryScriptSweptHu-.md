@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptSweptHu-
 
-Byte to Enum EGeometryScriptSweptHullAxis
+字节到枚举 EGeometryScriptSweptHullAxis
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptSweptHullAxis
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptSweptHullAxis Enum.
-
+返回值: EGeometryScriptSweptHullAxis Enum.

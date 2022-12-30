@@ -1,6 +1,6 @@
 # BreakEditorScrip-_1
 
-Adds a node that breaks a 'EditorScriptingJoinStaticMeshActorsOptions_Deprecated' into its member fields
+添加一个打破'EditorScriptingJoinStaticMeshActorsOptions_Deprecated'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'EditorScriptingJoinStaticMeshActorsOptions_Deprecated
 
 ## Inputs
 
-Editor Scripting Join Static Mesh Actors Options Deprecated: Editor Scripting Join Static Mesh Actors Options Deprecated Structure (by ref).  
+Editor Scripting Join Static Mesh Actors Options Deprecated。Editor Scripting Join Static Mesh Actors Options Deprecated 结构（通过引用）。 
 
 ## Outputs
 
-Destroy Source Actors: Boolean. Destroy Source Actors:. Destroy the provided Actors after the operation..
+Destroy Source Actors: 布尔值。Destroy Source Actors：. 在操作后销毁所提供的角色。
 
-New Actor Label: String. New Actor Label:. Name of the new spawned Actor to replace the provided Actors..
+New Actor Label（新演员标签）。字符串。新演员标签：。生成的新演员的名称，以取代提供的演员。
 
-Rename Components From Source: Boolean. Rename Components from Source:. Rename StaticMeshComponents based on source Actor's name..
-
+Rename Components From Source: 布尔值。从源头重命名组件：。根据源角色的名称重命名静态网格组件。

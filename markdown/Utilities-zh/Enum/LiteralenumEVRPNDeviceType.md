@@ -1,6 +1,6 @@
 # LiteralenumEVRPNDeviceType
 
-Literal enum EVRPNDeviceType
+枚举EVRPNDeviceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EVRPNDeviceType
 
 ## Inputs
 
-Enum: EVRPNDeviceType Enum.  
+枚举。EVRPNDeviceType Enum.  
 
 ## Outputs
 
-Return Value: EVRPNDeviceType Enum.
-
+返回值。EVRPNDeviceType Enum.

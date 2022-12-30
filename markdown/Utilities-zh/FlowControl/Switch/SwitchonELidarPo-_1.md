@@ -1,6 +1,6 @@
 # SwitchonELidarPo-_1
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ELidarPointCloudSpriteOrientation Enum.  
+选择。ELidarPointCloudSpriteOrientation枚举。 
 
 ## Outputs
 
-Prefer Facing Camera: Exec.
+倾向于面向相机。Exec.
 
-Prefer Facing Normal: Exec.
-
+Prefering Facing Normal: 执行。

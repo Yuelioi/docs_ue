@@ -1,6 +1,6 @@
 # LocalArrayofTexts
 
-Local temporary Array of Texts variable
+本地临时文本阵列变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Array of Texts variable
 
 ## Outputs
 
-Variable: Array of Texts.
-
+变量。文本数组。

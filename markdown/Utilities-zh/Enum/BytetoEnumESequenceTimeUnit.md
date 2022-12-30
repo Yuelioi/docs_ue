@@ -1,6 +1,6 @@
 # BytetoEnumESequenceTimeUnit
 
-Byte to Enum ESequenceTimeUnit
+字节到枚举 ESequenceTimeUnit
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESequenceTimeUnit
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESequenceTimeUnit Enum.
-
+返回值。ESequenceTimeUnit Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEWaterBrushFalloffMode
 
-Byte to Enum EWaterBrushFalloffMode
+字节到枚举 EWaterBrushFalloffMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EWaterBrushFalloffMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWaterBrushFalloffMode Enum.
-
+返回值。EWaterBrushFalloffMode枚举。

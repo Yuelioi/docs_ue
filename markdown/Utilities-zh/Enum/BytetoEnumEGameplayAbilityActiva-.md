@@ -1,6 +1,6 @@
 # BytetoEnumEGameplayAbilityActiva-
 
-Byte to Enum EGameplayAbilityActivationMode
+字节到枚举 EGameplayAbilityActivationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGameplayAbilityActivationMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGameplayAbilityActivationMode Enum.
-
+返回值。EGameplayAbilityActivationMode Enum。

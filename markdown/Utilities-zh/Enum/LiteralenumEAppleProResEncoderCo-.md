@@ -1,6 +1,6 @@
 # LiteralenumEAppleProResEncoderCo-
 
-Literal enum EAppleProResEncoderCodec
+EAppleProResEncoderCodec的字面意义枚举。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAppleProResEncoderCodec
 
 ## Inputs
 
-Enum: EAppleProResEncoderCodec Enum.  
+枚举。EAppleProResEncoderCodec Enum.  
 
 ## Outputs
 
-Return Value: EAppleProResEncoderCodec Enum.
-
+返回值。EAppleProResEncoderCodec Enum.

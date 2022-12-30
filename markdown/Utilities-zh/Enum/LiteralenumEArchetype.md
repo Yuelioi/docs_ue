@@ -1,6 +1,6 @@
 # LiteralenumEArchetype
 
-Literal enum EArchetype
+字面意义上的EArchetype枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EArchetype
 
 ## Inputs
 
-Enum: EArchetype Enum.  
+枚举。EArchetype Enum.  
 
 ## Outputs
 
-Return Value: EArchetype Enum.
-
+返回值。EArchetype Enum。

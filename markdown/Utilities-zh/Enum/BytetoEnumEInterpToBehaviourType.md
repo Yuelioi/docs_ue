@@ -1,6 +1,6 @@
 # BytetoEnumEInterpToBehaviourType
 
-Byte to Enum EInterpToBehaviourType
+字节到枚举 EInterpToBehaviourType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EInterpToBehaviourType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EInterpToBehaviourType Enum.
-
+返回值。EInterpToBehaviourType Enum。

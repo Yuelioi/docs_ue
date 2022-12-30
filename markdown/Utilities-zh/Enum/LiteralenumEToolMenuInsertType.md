@@ -1,6 +1,6 @@
 # LiteralenumEToolMenuInsertType
 
-Literal enum EToolMenuInsertType
+字面上的枚举 EToolMenuInsertType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EToolMenuInsertType
 
 ## Inputs
 
-Enum: EToolMenuInsertType Enum.  
+枚举。EToolMenuInsertType Enum.  
 
 ## Outputs
 
-Return Value: EToolMenuInsertType Enum.
-
+返回值。EToolMenuInsertType Enum。

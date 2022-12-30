@@ -1,6 +1,6 @@
 # SwitchonEGoogleARCoreFunctionSta-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,27 +8,26 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGoogleARCoreFunctionStatus Enum.  
+选择。EGoogleARCoreFunctionStatus枚举。 
 
 ## Outputs
 
-Success: Exec.
+成功。执行。
 
-Fatal: Exec.
+致命：Exec.
 
-Session Paused: Exec.
+会话暂停。Exec.
 
-Not Tracking: Exec.
+不跟踪。Exec.
 
-Resource Exhausted: Exec.
+资源已用尽。Exec.
 
-Not Available: Exec.
+无法使用。执行.
 
-Invalid Type: Exec.
+无效类型。执行。
 
-Illegal State: Exec.
+不合法的状态。Exec.
 
-Unknown: Exec.
-
+未知数。执行

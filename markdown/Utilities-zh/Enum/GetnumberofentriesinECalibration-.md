@@ -1,6 +1,6 @@
 # GetnumberofentriesinECalibration-
 
-Returns ECalibrationPointVisualization_MAX value
+返回ECalibrationPointVisualization_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ECalibrationPointVisualization_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

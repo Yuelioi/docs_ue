@@ -1,6 +1,6 @@
 # LiteralenumEButtonTouchMethod
 
-Literal enum EButtonTouchMethod
+字面意义上的枚举：EButtonTouchMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EButtonTouchMethod
 
 ## Inputs
 
-Enum: EButtonTouchMethod Enum.  
+枚举。EButtonTouchMethod Enum.  
 
 ## Outputs
 
-Return Value: EButtonTouchMethod Enum.
-
+返回值。EButtonTouchMethod Enum.

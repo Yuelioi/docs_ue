@@ -1,6 +1,6 @@
 # BytetoEnumEImplicitTypeEnum
 
-Byte to Enum EImplicitTypeEnum
+字节到枚举 EImplicitTypeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EImplicitTypeEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EImplicitTypeEnum Enum.
-
+返回值。EImplicitTypeEnum Enum。

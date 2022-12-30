@@ -1,6 +1,6 @@
 # LiteralenumEIKRigGoalPreviewMode
 
-Literal enum EIKRigGoalPreviewMode
+枚举EIKRigGoalPreviewMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EIKRigGoalPreviewMode
 
 ## Inputs
 
-Enum: EIKRigGoalPreviewMode Enum.  
+枚举。EIKRigGoalPreviewMode Enum.  
 
 ## Outputs
 
-Return Value: EIKRigGoalPreviewMode Enum.
-
+返回值。EIKRigGoalPreviewMode Enum.

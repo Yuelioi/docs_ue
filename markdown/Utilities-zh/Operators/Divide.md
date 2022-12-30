@@ -1,6 +1,6 @@
 # Divide
 
-Divide
+分割
 
 ## 图示
 
@@ -8,11 +8,10 @@ Divide
 
 ## Inputs
 
-A: Wildcard.
+A: 通配符。
 
-B: Wildcard.  
+B：通配符。 
 
 ## Outputs
 
-Return Value: Wildcard. Divide (FrameNumber A / B).
-
+返回值。通配符。Divide (FrameNumber A / B).

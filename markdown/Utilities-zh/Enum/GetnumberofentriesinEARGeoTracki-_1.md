@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARGeoTracki-_1
 
-Returns EARGeoTrackingState_MAX value
+返回EARGeoTrackingState_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARGeoTrackingState_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,20 +1,19 @@
 # BreakGeometryScriptConvexHullOpt-
 
-Adds a node that breaks a 'GeometryScriptConvexHullOptions' into its member fields
+添加一个节点，将'GeometryScriptConvexHullOptions'分解为其成员字段。
 
 ## 图示
 
 ![]($-20221218-14365166.png)
 
-## Inputs
+## 输入
 
-Geometry Script Convex Hull Options: Geometry Script Convex Hull Options Structure (by ref).  
+Geometry Script Convex Hull Options: Geometry Script Convex Hull Options结构(通过参考).  
 
-## Outputs
+## 输出
 
-Prefilter Vertices: Boolean. Prefilter Vertices.
+预滤器顶点。布尔值。Prefilter Vertices.
 
-Prefilter Grid Resolution: Integer. Prefilter Grid Resolution.
+Prefilter Grid Resolution: 整数。预滤器网格分辨率。
 
-Simplify To Face Count: Integer. Simplify to Face Count.
-
+简化到面数。整数。简化到面数。

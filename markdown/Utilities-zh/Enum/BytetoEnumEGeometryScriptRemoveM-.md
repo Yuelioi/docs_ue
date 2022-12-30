@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptRemoveM-
 
-Byte to Enum EGeometryScriptRemoveMeshSimplificationType
+字节到枚举 EGeometryScriptRemoveMeshSimplificationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptRemoveMeshSimplificationType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptRemoveMeshSimplificationType Enum.
-
+返回值。EGeometryScriptRemoveMeshSimplificationType Enum.

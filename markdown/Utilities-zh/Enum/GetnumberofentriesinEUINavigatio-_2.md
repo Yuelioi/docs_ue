@@ -1,6 +1,6 @@
 # GetnumberofentriesinEUINavigatio-_2
 
-Returns EUINavigationRule_MAX value
+返回EUINavigationRule_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EUINavigationRule_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

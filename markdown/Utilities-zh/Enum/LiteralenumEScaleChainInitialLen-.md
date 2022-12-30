@@ -1,6 +1,6 @@
 # LiteralenumEScaleChainInitialLen-
 
-Literal enum EScaleChainInitialLength
+枚举EScaleChainInitialLength
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EScaleChainInitialLength
 
 ## Inputs
 
-Enum: EScaleChainInitialLength Enum.  
+枚举。EScaleChainInitialLength Enum.  
 
 ## Outputs
 
-Return Value: EScaleChainInitialLength Enum.
-
+返回值。EScaleChainInitialLength Enum。

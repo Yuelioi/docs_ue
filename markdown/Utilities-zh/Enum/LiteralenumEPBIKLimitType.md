@@ -1,6 +1,6 @@
 # LiteralenumEPBIKLimitType
 
-Literal enum EPBIKLimitType
+枚举 EPBIKLimitType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EPBIKLimitType
 
 ## Inputs
 
-Enum: EPBIKLimitType Enum.  
+枚举。EPBIKLimitType Enum.  
 
 ## Outputs
 
-Return Value: EPBIKLimitType Enum.
-
+返回值。EPBIKLimitType Enum.

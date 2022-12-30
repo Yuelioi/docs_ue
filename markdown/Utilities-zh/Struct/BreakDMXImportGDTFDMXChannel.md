@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFDMXChannel
 
-Adds a node that breaks a 'DMXImportGDTFDMXChannel' into its member fields
+添加一个节点，将'DMXImportGDTFDMXChannel'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'DMXImportGDTFDMXChannel' into its member fields
 
 ## Inputs
 
-DMXImport GDTFDMXChannel: DMXImport GDTFDMXChannel Structure (by ref).  
+DMXImport GDTFDMXChannel。DMXImport GDTFDMXChannel 结构（通过引用）。 
 
 ## Outputs
 
-DMXBreak: Integer. DMXBreak.
+DMXBreak。整数。DMXBreak.
 
-Offset: Array of Integers. Offset.
+偏移量。整数的数组。偏移量。
 
-Default: DMXImport GDTFDMXValue Structure. Default.
+默认值。DMXImport GDTFDMXValue结构。默认值。
 
-Highlight: DMXImport GDTFDMXValue Structure. Highlight.
+突出显示。DMXImport GDTFDMXValue结构。突出显示。
 
-Geometry: Name. Geometry.
+几何图形。名称。几何图形：
 
-Logical Channel: DMXImport GDTFLogical Channel Structure. Logical Channel.
-
+逻辑通道。DMXImport GDTFLogical Channel结构。逻辑通道。

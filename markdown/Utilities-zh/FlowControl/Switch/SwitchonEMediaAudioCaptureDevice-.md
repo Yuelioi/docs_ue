@@ -1,6 +1,6 @@
 # SwitchonEMediaAudioCaptureDevice-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMediaAudioCaptureDeviceFilter Enum.  
+选择。EMediaAudioCaptureDeviceFilter枚举。 
 
 ## Outputs
 
-Card: Exec.
+卡。Exec.
 
 Microphone: Exec.
 
-Software: Exec.
+软件。执行。
 
-Unknown: Exec.
-
+未知数。执行。

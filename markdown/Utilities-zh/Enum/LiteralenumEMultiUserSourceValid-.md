@@ -1,6 +1,6 @@
 # LiteralenumEMultiUserSourceValid-
 
-Literal enum EMultiUserSourceValidationMode
+枚举EMultiUserSourceValidationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMultiUserSourceValidationMode
 
 ## Inputs
 
-Enum: EMultiUserSourceValidationMode Enum.  
+枚举。EMultiUserSourceValidationMode枚举。 
 
 ## Outputs
 
-Return Value: EMultiUserSourceValidationMode Enum.
-
+返回值。EMultiUserSourceValidationMode枚举。

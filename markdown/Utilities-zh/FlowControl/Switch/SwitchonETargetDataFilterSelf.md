@@ -1,6 +1,6 @@
 # SwitchonETargetDataFilterSelf
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETargetDataFilterSelf Enum.  
+选择。ETargetDataFilterSelf Enum.  
 
 ## Outputs
 
-Allow Self Or Others: Exec.
+允许自己或他人。执行。
 
-Filter Self Out: Exec.
+将自己过滤掉。执行。
 
-Filter Others Out: Exec.
-
+滤除他人：执行。执行。

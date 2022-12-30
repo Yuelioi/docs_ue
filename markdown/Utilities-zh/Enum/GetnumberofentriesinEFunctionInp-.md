@@ -1,6 +1,6 @@
 # GetnumberofentriesinEFunctionInp-
 
-Returns EFunctionInputType_MAX value
+返回EFunctionInputType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EFunctionInputType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

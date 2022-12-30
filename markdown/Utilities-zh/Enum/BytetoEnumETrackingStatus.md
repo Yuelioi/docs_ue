@@ -1,6 +1,6 @@
 # BytetoEnumETrackingStatus
 
-Byte to Enum ETrackingStatus
+字节到枚举ETrackingStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETrackingStatus
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETrackingStatus Enum.
-
+返回值。ETrackingStatus Enum。

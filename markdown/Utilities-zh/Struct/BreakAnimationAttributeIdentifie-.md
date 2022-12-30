@@ -1,6 +1,6 @@
 # BreakAnimationAttributeIdentifie-
 
-Adds a node that breaks a 'AnimationAttributeIdentifier' into its member fields
+添加一个节点，将'AnimationAttributeIdentifier'分解到其成员字段中
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'AnimationAttributeIdentifier' into its member fields
 
 ## Inputs
 
-Animation Attribute Identifier: Animation Attribute Identifier Structure (by ref).  
+Animation Attribute Identifier（动画属性标识符）。动画属性标识符结构（通过引用）。 
 
 ## Outputs
 
-Name: Name. Name.
+名称。名称。Name: 名称。
 
-Bone Name: Name. Bone Name.
+骨骼名称。名称。骨骼名称.
 
-Bone Index: Integer. Bone Index.
+骨的索引。整数。骨的索引。
 
-Script Struct: Script Struct Object Reference. Script Struct.
+脚本结构。脚本结构对象参考。Script Struct: 脚本结构。
 
-Script Struct Path: Soft Object Path Structure. Script Struct Path.
-
+Script Struct: 脚本结构路径。Soft Object Path Structure. 脚本结构》：脚本结构路径。

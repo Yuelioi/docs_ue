@@ -1,6 +1,6 @@
 # LiteralenumECoreOnlineDummy
 
-Literal enum ECoreOnlineDummy
+字面意义上的ECoreOnlineDummy枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECoreOnlineDummy
 
 ## Inputs
 
-Enum: ECoreOnlineDummy Enum.  
+枚举。ECoreOnlineDummy Enum.  
 
 ## Outputs
 
-Return Value: ECoreOnlineDummy Enum.
-
+返回值。ECoreOnlineDummy Enum.

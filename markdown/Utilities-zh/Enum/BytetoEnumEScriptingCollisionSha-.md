@@ -1,6 +1,6 @@
 # BytetoEnumEScriptingCollisionSha-
 
-Byte to Enum EScriptingCollisionShapeType_Deprecated
+字节到枚举 EScriptingCollisionShapeType_Deprecated
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EScriptingCollisionShapeType_Deprecated
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EScriptingCollisionShapeType_Deprecated Enum.
-
+返回值。EScriptingCollisionShapeType_Deprecated Enum。

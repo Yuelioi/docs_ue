@@ -1,6 +1,6 @@
 # BytetoEnumESystemGestureBehavior
 
-Byte to Enum ESystemGestureBehavior
+字节到枚举 ESystemGestureBehavior
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESystemGestureBehavior
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESystemGestureBehavior Enum.
-
+返回值。ESystemGestureBehavior Enum。

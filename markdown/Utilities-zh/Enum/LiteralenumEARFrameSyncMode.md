@@ -1,6 +1,6 @@
 # LiteralenumEARFrameSyncMode
 
-Literal enum EARFrameSyncMode
+枚举EARFrameSyncMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARFrameSyncMode
 
 ## Inputs
 
-Enum: EARFrameSyncMode Enum.  
+枚举。EARFrameSyncMode枚举。 
 
 ## Outputs
 
-Return Value: EARFrameSyncMode Enum.
-
+返回值。EARFrameSyncMode Enum.

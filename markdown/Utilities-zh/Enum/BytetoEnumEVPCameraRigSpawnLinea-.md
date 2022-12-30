@@ -1,6 +1,6 @@
 # BytetoEnumEVPCameraRigSpawnLinea-
 
-Byte to Enum EVPCameraRigSpawnLinearApproximationMode
+字节到枚举EVPCameraRigSpawnLinearApproximationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EVPCameraRigSpawnLinearApproximationMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EVPCameraRigSpawnLinearApproximationMode Enum.
-
+返回值。EVPCameraRigSpawnLinearApproximationMode枚举。

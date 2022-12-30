@@ -1,6 +1,6 @@
 # LiteralenumESynthLFOType
 
-Literal enum ESynthLFOType
+字面意义上的ESynthLFOType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESynthLFOType
 
 ## Inputs
 
-Enum: ESynthLFOType Enum.  
+枚举。ESynthLFOType枚举。 
 
 ## Outputs
 
-Return Value: ESynthLFOType Enum.
-
+返回值。ESynthLFOType Enum。

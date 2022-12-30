@@ -1,6 +1,6 @@
 # BreakFrameNumberRange
 
-Adds a node that breaks a 'FrameNumberRange' into its member fields
+添加一个节点，将'FrameNumberRange'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'FrameNumberRange' into its member fields
 
 ## Inputs
 
-Frame Number Range: Frame Number Range Structure (by ref).  
+帧数范围。帧数范围结构（通过引用）。 
 
 ## Outputs
 
-Lower Bound: Frame Number Range Bound Structure. Lower Bound.
+下边界。帧数范围的边界结构。下界：下界。
 
-Upper Bound: Frame Number Range Bound Structure. Upper Bound.
-
+Upper Bound: 帧数范围结构。Upper Bound.

@@ -1,6 +1,6 @@
 # LiteralenumEMoviePipelineTexture-
 
-Literal enum EMoviePipelineTextureStreamingMethod
+EMoviePipelineTextureStreamingMethod的字面枚举。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMoviePipelineTextureStreamingMethod
 
 ## Inputs
 
-Enum: EMoviePipelineTextureStreamingMethod Enum.  
+枚举。EMoviePipelineTextureStreamingMethod Enum.  
 
 ## Outputs
 
-Return Value: EMoviePipelineTextureStreamingMethod Enum.
-
+返回值。EMoviePipelineTextureStreamingMethod Enum。

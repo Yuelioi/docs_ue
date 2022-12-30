@@ -1,6 +1,6 @@
 # LiteralenumESourceEffectFilterTy-
 
-Literal enum ESourceEffectFilterType
+枚举ESourceEffectFilterType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESourceEffectFilterType
 
 ## Inputs
 
-Enum: ESourceEffectFilterType Enum.  
+枚举。ESourceEffectFilterType Enum.  
 
 ## Outputs
 
-Return Value: ESourceEffectFilterType Enum.
-
+返回值。ESourceEffectFilterType Enum。

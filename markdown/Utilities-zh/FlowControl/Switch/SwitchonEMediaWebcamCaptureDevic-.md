@@ -1,6 +1,6 @@
 # SwitchonEMediaWebcamCaptureDevic-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMediaWebcamCaptureDeviceFilter Enum.  
+选择。EMediaWebcamCaptureDeviceFilter Enum.  
 
 ## Outputs
 
-Depth Sensor: Exec.
+深度传感器。Exec.
 
-Front: Exec.
+前面 前部：Exec.
 
-Rear: Exec.
+后部：执行。启用。
 
-Unknown: Exec.
-
+未知。执行

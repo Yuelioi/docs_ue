@@ -1,6 +1,6 @@
 # LiteralenumELoudnessNRTCurveType-
 
-Literal enum ELoudnessNRTCurveTypeEnum
+枚举ELoudnessNRTCurveTypeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELoudnessNRTCurveTypeEnum
 
 ## Inputs
 
-Enum: ELoudnessNRTCurveTypeEnum Enum.  
+枚举。ELoudnessNRTCurveTypeEnum Enum.  
 
 ## Outputs
 
-Return Value: ELoudnessNRTCurveTypeEnum Enum.
-
+返回值。ELoudnessNRTCurveTypeEnum枚举。

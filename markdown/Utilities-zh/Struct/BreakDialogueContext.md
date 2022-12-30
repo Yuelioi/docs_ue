@@ -1,6 +1,6 @@
 # BreakDialogueContext
 
-Adds a node that breaks a 'DialogueContext' into its member fields
+添加一个节点，将'DialogueContext'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DialogueContext' into its member fields
 
 ## Inputs
 
-Dialogue Context: Dialogue Context Structure (by ref).  
+对话上下文。对话语境结构（通过参考）。 
 
 ## Outputs
 
-Speaker: Dialogue Voice Object Reference. Speaker:. The person speaking the dialogue..
+发言人。对话语音对象参考。发言人：。讲述对话的人。
 
-Targets: Array of Dialogue Voice Object References. Targets:. The people being spoken to..
-
+目标。对话语音对象参考数组。目标:. 被对话的人。

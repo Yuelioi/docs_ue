@@ -1,6 +1,6 @@
 # BytetoEnumEWindowMode
 
-Byte to Enum EWindowMode
+字节到枚举 EWindowMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EWindowMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWindowMode Enum.
-
+返回值。EWindowMode Enum。

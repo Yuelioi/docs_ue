@@ -1,6 +1,6 @@
 # LiteralenumETransformCurveChanne-
 
-Literal enum ETransformCurveChannel
+字面意义上的枚举 ETTransformCurveChannel
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETransformCurveChannel
 
 ## Inputs
 
-Enum: ETransformCurveChannel Enum.  
+枚举。ETransformCurveChannel Enum.  
 
 ## Outputs
 
-Return Value: ETransformCurveChannel Enum.
-
+返回值。ETransformCurveChannel Enum。

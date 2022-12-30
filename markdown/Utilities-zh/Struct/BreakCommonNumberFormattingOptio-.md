@@ -1,6 +1,6 @@
 # BreakCommonNumberFormattingOptio-
 
-Adds a node that breaks a 'CommonNumberFormattingOptions' into its member fields
+添加一个节点，将'CommonNumberFormattingOptions'分解为其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'CommonNumberFormattingOptions' into its member fields
 
 ## Inputs
 
-Common Number Formatting Options: Common Number Formatting Options Structure (by ref).  
+常用数字格式化选项。常用数字格式化选项结构（通过引用）。 
 
 ## Outputs
 
-Rounding Mode: ERoundingMode Enum. Rounding Mode:. The rounding mode to be used when the actual value can not be precisely represented due to restrictions on the number of integral or fractional digits. See values for details..
+四舍五入模式。ERoundingMode枚举。四舍五入模式：。当实际值由于积分或小数位数的限制而无法精确表示时，要使用的四舍五入模式。详见数值。
 
-Use Grouping: Boolean. Use Grouping:. Should the numerals use group separators. IE: "1,000,000".
+使用分组。Boolean（布尔）。使用分组：。数字是否应该使用分组分隔符。即："1,000,000"。
 
-Minimum Integral Digits: Integer. Minimum Integral Digits:. How many integral digits should be shown at minimum? May cause digit "padding". IE: A minimum of 3 integral digits means 1.0 -> "001"..
+最小整数位。整数。最小整数位：。最少应该显示多少个整数位？可能导致数字 "填充"。IE：最小3位整数意味着1.0->"001"。
 
-Maximum Integral Digits: Integer. Maximum Integral Digits:. How many integral digits should be shown at maximum? May cause rounding. IE: A maximum of 2 integral digits means 100.0 -> "99"..
+最大整数位。整数。最大整数位：。最多应该显示多少个整数位？可能会导致四舍五入。IE：最大2位整数意味着100.0->"99"。
 
-Minimum Fractional Digits: Integer. Minimum Fractional Digits:. How many fractional digits should be shown at minimum? May cause digit "padding". IE: A minimum of 2 fractional digits means 1.0 -> "1.00"..
+最小的小数位。整数。最小小数点：。最少应该显示多少个小数位？可能导致数字 "填充"。IE：最小2个小数位意味着1.0->"1.00"。
 
-Maximum Fractional Digits: Integer. Maximum Fractional Digits:. How many fractional digits should be shown at maximum? May cause rounding. IE: HalfFromZero rounding and a maximum of 2 fractional digits means 0.009 -> "0.01"..
-
+最大的小数点。整数。最大的小数点：。最多应该显示多少个小数位？可能会导致四舍五入。IE：HalfFromZero四舍五入和最大2个小数位意味着0.009 -> "0.01"。

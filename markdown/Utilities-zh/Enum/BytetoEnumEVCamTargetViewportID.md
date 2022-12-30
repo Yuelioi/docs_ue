@@ -1,6 +1,6 @@
 # BytetoEnumEVCamTargetViewportID
 
-Byte to Enum EVCamTargetViewportID
+字节到枚举 EVCamTargetViewportID
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EVCamTargetViewportID
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EVCamTargetViewportID Enum.
-
+返回值。EVCamTargetViewportID Enum。

@@ -1,6 +1,6 @@
 # SwitchonELocationAccuracy
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ELocationAccuracy Enum.  
+选择。ELocationAccuracy Enum.  
 
 ## Outputs
 
-Three Kilometers: Exec.
+三公里。执行。
 
-One Kilometer: Exec.
+一公里。执行。
 
-One Hundred Meters: Exec.
+一百米。执行。
 
-Ten Meters: Exec.
+十米 优秀
 
-Best: Exec.
+最佳：Exec.
 
-Best For Navigation: Exec.
-
+最适合导航。优秀

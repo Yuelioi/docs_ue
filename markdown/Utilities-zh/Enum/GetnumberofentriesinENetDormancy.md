@@ -1,6 +1,6 @@
 # GetnumberofentriesinENetDormancy
 
-Returns ENetDormancy_MAX value
+返回ENetDormancy_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ENetDormancy_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

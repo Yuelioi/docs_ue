@@ -1,6 +1,6 @@
 # SwitchonESynth1PatchDestination
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,9 +8,9 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESynth1PatchDestination Enum.  
+选择。ESynth1PatchDestination Enum.  
 
 ## Outputs
 
@@ -20,25 +20,24 @@ Osc 1Frequency: Exec.
 
 Osc 1Pulsewidth: Exec.
 
-Osc 2Gain: Exec.
+Osc 2Gain: 脉冲宽度：Exec.
 
-Osc 2Frequency: Exec.
+Osc 2Frequency: 频率：Exec.
 
 Osc 2Pulsewidth: Exec.
 
-Filter Frequency: Exec.
+滤波器频率 Exec.
 
-Filter Q: Exec.
+滤波器Q：执行。
 
-Gain: Exec.
+增益 执行
 
-Pan: Exec.
+平移 执行。
 
-LFO1Frequency: Exec.
+LFO1的频率。执行。
 
-LFO1Gain: Exec.
+LFO1G的增益。执行。
 
-LFO2Frequency: Exec.
+LFO2的频率。执行。
 
-LFO2Gain: Exec.
-
+LFO2Gain: 执行。

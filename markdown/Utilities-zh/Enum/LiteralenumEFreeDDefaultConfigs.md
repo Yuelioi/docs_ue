@@ -1,6 +1,6 @@
 # LiteralenumEFreeDDefaultConfigs
 
-Literal enum EFreeDDefaultConfigs
+EFreeDDefaultConfigs 枚举的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFreeDDefaultConfigs
 
 ## Inputs
 
-Enum: EFreeDDefaultConfigs Enum.  
+枚举。EFreeDDefaultConfigs Enum.  
 
 ## Outputs
 
-Return Value: EFreeDDefaultConfigs Enum.
-
+返回值。EFreeDDefaultConfigs Enum。

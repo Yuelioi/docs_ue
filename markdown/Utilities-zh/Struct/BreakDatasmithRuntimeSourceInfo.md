@@ -1,6 +1,6 @@
 # BreakDatasmithRuntimeSourceInfo
 
-Adds a node that breaks a 'DatasmithRuntimeSourceInfo' into its member fields
+添加一个节点，将 "DatasmithRuntimeSourceInfo "分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'DatasmithRuntimeSourceInfo' into its member fields
 
 ## Inputs
 
-Datasmith Runtime Source Info: Datasmith Runtime Source Info Structure (by ref).  
+Datasmith Runtime Source Info。Datasmith Runtime Source Info结构（通过引用）。 
 
 ## Outputs
 
-Name: String. Name.
-
+名称。字符串。Name：字符串。

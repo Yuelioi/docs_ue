@@ -1,8 +1,8 @@
 # Add
 
-Adds item to set
+将项目添加到套装中
 
-Target is Blueprint Set Library
+目标是蓝图集库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Blueprint Set Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Target Set: Set of Wildcards. The set to add item to.
+目标集。通配符集。要添加项目的集合。
 
-New Item: Wildcard (by ref). The item to add to the set.  
+新项目。通配符（通过引用）。要添加到该集合的项目。 
 
 ## Outputs
 
-Out: Exec.
-
+输出。执行。

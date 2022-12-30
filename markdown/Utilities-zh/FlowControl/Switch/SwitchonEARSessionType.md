@@ -1,6 +1,6 @@
 # SwitchonEARSessionType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,25 +8,24 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARSessionType Enum.  
+选择。EARSessionType枚举。 
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Orientation: Exec.
+方向。Exec.
 
-World: Exec.
+世界。执行.
 
-Face: Exec.
+脸部: 执行.
 
-Image: Exec.
+形象。Exec.
 
-Object Scanning: Exec.
+对象扫描: Exec.
 
-Pose Tracking: Exec.
+姿势跟踪: 执行。
 
-Geo Tracking: Exec.
-
+地理跟踪: 执行。

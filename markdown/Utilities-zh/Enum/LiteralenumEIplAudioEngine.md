@@ -1,6 +1,6 @@
 # LiteralenumEIplAudioEngine
 
-Literal enum EIplAudioEngine
+EIplAudioEngine的字面意义枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EIplAudioEngine
 
 ## Inputs
 
-Enum: EIplAudioEngine Enum.  
+枚举。EIplAudioEngine Enum.  
 
 ## Outputs
 
-Return Value: EIplAudioEngine Enum.
-
+返回值。EIplAudioEngine Enum.

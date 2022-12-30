@@ -1,6 +1,6 @@
 # LiteralenumESoundAssetCompressio-
 
-Literal enum ESoundAssetCompressionType
+字面意义上的枚举：ESoundAssetCompressionType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESoundAssetCompressionType
 
 ## Inputs
 
-Enum: ESoundAssetCompressionType Enum.  
+枚举。ESoundAssetCompressionType枚举。 
 
 ## Outputs
 
-Return Value: ESoundAssetCompressionType Enum.
-
+返回值。ESoundAssetCompressionType Enum。

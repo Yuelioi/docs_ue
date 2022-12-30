@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptGridSiz-
 
-Byte to Enum EGeometryScriptGridSizingMethod
+字节到枚举 EGeometryScriptGridSizingMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptGridSizingMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptGridSizingMethod Enum.
-
+返回值。EGeometryScriptGridSizingMethod Enum.

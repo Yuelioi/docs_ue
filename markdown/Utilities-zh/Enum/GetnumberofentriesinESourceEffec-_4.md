@@ -1,6 +1,6 @@
 # GetnumberofentriesinESourceEffec-_4
 
-Returns ESourceEffectMotionFilterCircuit_MAX value
+返回ESourceEffectMotionFilterCircuit_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESourceEffectMotionFilterCircuit_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

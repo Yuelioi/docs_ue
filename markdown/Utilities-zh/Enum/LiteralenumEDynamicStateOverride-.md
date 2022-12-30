@@ -1,6 +1,6 @@
 # LiteralenumEDynamicStateOverride-
 
-Literal enum EDynamicStateOverrideEnum
+枚举 EDynamicStateOverrideEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDynamicStateOverrideEnum
 
 ## Inputs
 
-Enum: EDynamicStateOverrideEnum Enum.  
+枚举。EDynamicStateOverrideEnum枚举。 
 
 ## Outputs
 
-Return Value: EDynamicStateOverrideEnum Enum.
-
+返回值。EDynamicStateOverrideEnum枚举。

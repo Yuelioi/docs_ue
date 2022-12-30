@@ -1,6 +1,6 @@
 # GetnumberofentriesinEIplAudioEng-
 
-Returns EIplAudioEngine_MAX value
+返回EIplAudioEngine_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EIplAudioEngine_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

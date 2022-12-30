@@ -1,6 +1,6 @@
 # SwitchonFTransformChannelEnum
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,9 +8,9 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: FTransformChannelEnum Enum.  
+选择。FTransformChannelEnum枚举。 
 
 ## Outputs
 
@@ -18,17 +18,16 @@ Translate X: Exec.
 
 Translate Y: Exec.
 
-Translate Z: Exec.
+平移Z：执行。
 
-Rotate X: Exec.
+旋转X：执行。
 
-Rotate Y: Exec.
+旋转Y：执行。
 
-Rotate Z: Exec.
+旋转Z：执行。
 
-Scale X: Exec.
+缩放X：执行。
 
-Scale Y: Exec.
+缩放Y：执行。
 
-Scale Z: Exec.
-
+缩放Z：执行。

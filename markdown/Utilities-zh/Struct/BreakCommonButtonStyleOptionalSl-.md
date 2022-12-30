@@ -1,6 +1,6 @@
 # BreakCommonButtonStyleOptionalSl-
 
-Adds a node that breaks a 'CommonButtonStyleOptionalSlateSound' into its member fields
+添加一个节点，将'CommonButtonStyleOptionalSlateSound'分解到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'CommonButtonStyleOptionalSlateSound' into its member 
 
 ## Inputs
 
-Common Button Style Optional Slate Sound: Common Button Style Optional Slate Sound Structure (by ref).  
+Common Button Style Optional Slate Sound。普通按钮风格可选石板声结构（通过引用）。 
 
 ## Outputs
 
-Has Sound: Boolean. Has Sound.
+有声音。布尔值。拥有声音。
 
-Sound: Slate Sound Structure. Sound.
-
+声音。石板的声音结构。Sound.

@@ -8,9 +8,8 @@ Byte to Enum ERingModulatorTypeSourceEffect
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERingModulatorTypeSourceEffect Enum.
-
+返回值。ERingModulatorTypeSourceEffect Enum。

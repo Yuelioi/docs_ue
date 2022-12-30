@@ -1,6 +1,6 @@
 # SwitchonEEndPlayReason
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EEndPlayReason Enum.  
+选择。EEndPlayReason 枚举。 
 
 ## Outputs
 
-Destroyed: Exec.
+销毁。Exec.
 
-Level Transition: Exec.
+级别转换。执行。
 
-End Play In Editor: Exec.
+End Play In Editor: 执行。
 
-Removed From World: Exec.
+从世界中删除。执行。
 
-Quit: Exec.
-
+退出。退出：执行。

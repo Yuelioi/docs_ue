@@ -1,6 +1,6 @@
 # BytetoEnumEMultiBoxType
 
-Byte to Enum EMultiBoxType
+字节到枚举EMultiBoxType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMultiBoxType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMultiBoxType Enum.
-
+返回值。EMultiBoxType枚举。

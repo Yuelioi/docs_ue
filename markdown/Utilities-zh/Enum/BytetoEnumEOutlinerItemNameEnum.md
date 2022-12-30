@@ -1,6 +1,6 @@
 # BytetoEnumEOutlinerItemNameEnum
 
-Byte to Enum EOutlinerItemNameEnum
+字节到枚举 EOutlinerItemNameEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EOutlinerItemNameEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EOutlinerItemNameEnum Enum.
-
+返回值。EOutlinerItemNameEnum枚举。

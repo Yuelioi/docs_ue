@@ -1,6 +1,6 @@
 # LiteralenumETriggerEvent
 
-Literal enum ETriggerEvent
+枚举 ETriggerEvent
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETriggerEvent
 
 ## Inputs
 
-Enum: ETriggerEvent Enum.  
+枚举。ETriggerEvent Enum.  
 
 ## Outputs
 
-Return Value: ETriggerEvent Enum.
-
+返回值。ETriggerEvent Enum.

@@ -1,6 +1,6 @@
 # BytetoEnumERandomVelocityGenerat-
 
-Byte to Enum ERandomVelocityGenerationTypeEnum
+字节到枚举 ERandomVelocityGenerationTypeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERandomVelocityGenerationTypeEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERandomVelocityGenerationTypeEnum Enum.
-
+返回值。ERandomVelocityGenerationTypeEnum枚举。

@@ -1,6 +1,6 @@
 # ForEachETrackingConfidence
 
-ForEach ETrackingConfidence
+对于每一个ETrackingConfidence
 
 ## 图示
 
@@ -8,15 +8,14 @@ ForEach ETrackingConfidence
 
 ## Inputs
 
-In: Exec.
+在。Exec.
 
-Skip Hidden: Boolean. Controls whether or not the loop will skip over hidden enumeration values..  
+跳过隐藏。布尔值。控制循环是否会跳过隐藏的枚举值。 
 
 ## Outputs
 
-Loop Body: Exec.
+循环主体：Exec.
 
-Enum Value: ETrackingConfidence Enum.
+枚举值。ETrackingConfidence枚举。
 
-Completed: Exec.
-
+已完成。Exec.Enum值：ETrackingConfidence枚举。

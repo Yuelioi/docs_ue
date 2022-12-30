@@ -1,6 +1,6 @@
 # SwitchonEScreenOrientation
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,13 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EScreenOrientation Enum.  
+选择。EScreenOrientation Enum.  
 
 ## Outputs
 
-Unknown: Exec.
+未知。Exec.
 
 Portrait: Exec.
 
@@ -22,9 +22,8 @@ Portrait Upside Down: Exec.
 
 Landscape Left: Exec.
 
-Landscape Right: Exec.
+横向右侧 正面朝上
 
-Face Up: Exec.
+面朝上：执行。
 
-Face Down: Exec.
-
+面朝下：执行

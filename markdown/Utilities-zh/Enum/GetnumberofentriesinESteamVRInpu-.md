@@ -1,6 +1,6 @@
 # GetnumberofentriesinESteamVRInpu-
 
-Returns ESteamVRInputStringBits_MAX value
+返回ESteamVRInputStringBits_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESteamVRInputStringBits_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,8 +1,8 @@
 # EnginePluginsDir
 
-Returns the plugins directory of the engine
+返回引擎的插件目录
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. Plugins directory..
-
+返回值。字符串。插件目录.

@@ -1,6 +1,6 @@
 # LiteralenumEAudioBusChannels
 
-Literal enum EAudioBusChannels
+字面意义上的EAudioBusChannels枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAudioBusChannels
 
 ## Inputs
 
-Enum: EAudioBusChannels Enum.  
+枚举。EAudioBusChannels Enum.  
 
 ## Outputs
 
-Return Value: EAudioBusChannels Enum.
-
+返回值。EAudioBusChannels Enum.

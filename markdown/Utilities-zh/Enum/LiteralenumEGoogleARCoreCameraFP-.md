@@ -1,6 +1,6 @@
 # LiteralenumEGoogleARCoreCameraFP-
 
-Literal enum EGoogleARCoreCameraFPS
+枚举 EGoogleARCoreCameraFPS
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGoogleARCoreCameraFPS
 
 ## Inputs
 
-Enum: EGoogleARCoreCameraFPS Enum.  
+枚举。EGoogleARCoreCameraFPS枚举。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreCameraFPS Enum.
-
+返回值。EGoogleARCoreCameraFPS Enum。

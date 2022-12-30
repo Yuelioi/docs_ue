@@ -1,6 +1,6 @@
 # SwitchonEVisibilityBasedAnimTick-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EVisibilityBasedAnimTickOption Enum.  
+选择。EVisibilityBasedAnimTickOption Enum.  
 
 ## Outputs
 
 Always Tick Pose And Refresh Bones: Exec.
 
-Always Tick Pose: Exec.
+Always Tick Pose: 执行。
 
-Only Tick Montages When Not Rendered: Exec.
+只在未渲染时勾选蒙太奇。Exec.
 
-Only Tick Pose When Rendered: Exec.
-
+Only Tick Pose When Rendered: 渲染时：执行。

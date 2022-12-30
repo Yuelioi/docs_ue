@@ -1,6 +1,6 @@
 # BreakCurveTableRowHandle
 
-Adds a node that breaks a 'CurveTableRowHandle' into its member fields
+添加一个节点，将'CurveTableRowHandle'分解为其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'CurveTableRowHandle' into its member fields
 
 ## Inputs
 
-Curve Table Row Handle: Curve Table Row Handle Structure (by ref).  
+曲线表行句柄。曲线表行柄结构（通过引用）。 
 
 ## Outputs
 
-Curve Table: Curve Table Object Reference. Curve Table:. Pointer to table we want a row from.
+曲线表。曲线表对象参考。Curve Table: 曲线表：。指向我们想要的行的指针。
 
-Row Name: Name. Row Name:. Name of row in the table that we want.
-
+行名。名称。行名：。我们想要的表格中的行的名称。

@@ -1,6 +1,6 @@
 # LiteralenumESequenceTimeUnit
 
-Literal enum ESequenceTimeUnit
+字面意义上的ESequenceTimeUnit枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESequenceTimeUnit
 
 ## Inputs
 
-Enum: ESequenceTimeUnit Enum.  
+枚举。ESequenceTimeUnit枚举。 
 
 ## Outputs
 
-Return Value: ESequenceTimeUnit Enum.
-
+返回值。ESequenceTimeUnit Enum。

@@ -1,6 +1,6 @@
 # LiteralenumEHairCardsClusterType
 
-Literal enum EHairCardsClusterType
+枚举 EHairCardsClusterType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EHairCardsClusterType
 
 ## Inputs
 
-Enum: EHairCardsClusterType Enum.  
+枚举。EHairCardsClusterType Enum.  
 
 ## Outputs
 
-Return Value: EHairCardsClusterType Enum.
-
+返回值。EHairCardsClusterType Enum。

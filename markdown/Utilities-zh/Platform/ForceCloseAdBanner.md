@@ -1,8 +1,8 @@
 # ForceCloseAdBanner
 
-Forces closed any displayed ad. Can lead to loss of revenue. (iOS and Android only)
+强制关闭任何显示的广告。可能导致收入损失。(仅限iOS和Android)
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.  
+在。执行。 
 
 ## Outputs
 
-Out: Exec.
-
+Out: 执行。

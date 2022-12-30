@@ -1,6 +1,6 @@
 # GetnumberofentriesinEDMXImportGD-_6
 
-Returns EDMXImportGDTFPhysicalUnit_MAX value
+返回EDMXImportGDTFPhysicalUnit_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EDMXImportGDTFPhysicalUnit_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

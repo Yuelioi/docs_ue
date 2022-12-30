@@ -1,6 +1,6 @@
 # BytetoEnumEMovieRenderPipelineSt-
 
-Byte to Enum EMovieRenderPipelineState
+字节到枚举 EMovieRenderPipelineState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMovieRenderPipelineState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMovieRenderPipelineState Enum.
-
+返回值。EMovieRenderPipelineState Enum。

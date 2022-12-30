@@ -1,6 +1,6 @@
 # SwitchonEAzureSp-_3
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAzureSpatialAnchorsSessionUserFeedback Enum.  
+选择。EAzureSpatialAnchorsSessionUserFeedback枚举。 
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Not Enough Motion: Exec.
+没有足够的运动。执行。
 
-Motion Too Quick: Exec.
+运动过快：执行。
 
-Not Enough Features: Exec.
-
+没有足够的功能。执行。

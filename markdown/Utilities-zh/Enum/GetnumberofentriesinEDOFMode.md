@@ -1,6 +1,6 @@
 # GetnumberofentriesinEDOFMode
 
-Returns EDOFMode_MAX value
+返回EDOFMode_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EDOFMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

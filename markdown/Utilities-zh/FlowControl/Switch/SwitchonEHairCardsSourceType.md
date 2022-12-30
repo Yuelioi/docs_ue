@@ -1,6 +1,6 @@
 # SwitchonEHairCardsSourceType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EHairCardsSourceType Enum.  
+选择。EHairCardsSourceType枚举。 
 
 ## Outputs
 
-Procedural (Experimental): Exec.
+程序性的（实验性的）。Exec.
 
-Imported: Exec.
-
+进口的。Exec.

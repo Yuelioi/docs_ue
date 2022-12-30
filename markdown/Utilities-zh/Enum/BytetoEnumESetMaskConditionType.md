@@ -1,6 +1,6 @@
 # BytetoEnumESetMaskConditionType
 
-Byte to Enum ESetMaskConditionType
+字节到枚举 ESetMaskConditionType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESetMaskConditionType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESetMaskConditionType Enum.
-
+返回值。ESetMaskConditionType Enum。

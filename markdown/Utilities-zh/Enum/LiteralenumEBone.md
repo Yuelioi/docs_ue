@@ -1,6 +1,6 @@
 # LiteralenumEBone
 
-Literal enum EBone
+字面意义上的EBone枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EBone
 
 ## Inputs
 
-Enum: EBone Enum.  
+枚举。EBone Enum.  
 
 ## Outputs
 
-Return Value: EBone Enum.
-
+返回值。EBone Enum。

@@ -1,6 +1,6 @@
 # LiteralenumEZoneLaneTagMaskCompa-
 
-Literal enum EZoneLaneTagMaskComparison
+字面上的枚举：EZoneLaneTagMaskComparison
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EZoneLaneTagMaskComparison
 
 ## Inputs
 
-Enum: EZoneLaneTagMaskComparison Enum.  
+枚举。EZoneLaneTagMaskComparison Enum.  
 
 ## Outputs
 
-Return Value: EZoneLaneTagMaskComparison Enum.
-
+返回值。EZoneLaneTagMaskComparison Enum。

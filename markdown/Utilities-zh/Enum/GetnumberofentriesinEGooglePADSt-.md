@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGooglePADSt-
 
-Returns EGooglePADStorageMethod_MAX value
+返回EGooglePADStorageMethod_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGooglePADStorageMethod_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

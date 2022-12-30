@@ -1,6 +1,6 @@
 # SwitchonEColorCo-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EColorCorrectRegionTemperatureType Enum.  
+选择。EColorCorrectRegionTemperatureType枚举。 
 
 ## Outputs
 
-Temperature (Legacy): Exec.
+温度（遗留）。Exec.
 
-White Balance: Exec.
+白平衡。Exec.
 
-Color Temperature: Exec.
-
+色温。执行。

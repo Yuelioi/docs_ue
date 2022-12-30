@@ -1,6 +1,6 @@
 # BreakConvolutionBloomSettings
 
-Adds a node that breaks a 'ConvolutionBloomSettings' into its member fields
+添加一个节点，将'ConvolutionBloomSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that breaks a 'ConvolutionBloomSettings' into its member fields
 
 ## Inputs
 
-Convolution Bloom Settings: Convolution Bloom Settings Structure (by ref).  
+Convolution Bloom Settings。Convolution Bloom Settings结构（通过引用）。 
 
 ## Outputs
 
-Convolution Kernel: Texture 2D Object Reference. Texture:. Texture to replace default convolution bloom kernel.
+Convolution Kernel: 纹理2D对象参考。纹理：。替换默认卷积绽放内核的纹理。
 
-Scatter Dispersion: Float (single-precision). Scatter Dispersion:. Intensity multiplier on the scatter dispersion energy of the kernel. 1.0 means exactly use the same energy as the kernel scatter dispersion..
+Scatter Dispersion（散射色散）。Float（单精度）。Scatter Dispersion:.散射色散 内核散射色散能量的强度乘数。1.0表示完全使用与内核散射色散相同的能量。
 
-Convolution Scale: Float (single-precision). Size:. Relative size of the convolution kernel image compared to the minor axis of the viewport.
+卷积比例。Float（单精度）。大小：。与视口的小轴相比，卷积核图像的相对大小。
 
-Convolution Center: Vector 2D Structure. Center UV:. The UV location of the center of the kernel. Should be very close to (.5,.5).
+卷积中心。矢量二维结构。Center UV:. 内核中心的UV位置。应该非常接近于（.5,.5）。
 
-Convolution Boost Min: Float (single-precision). Pre Filter Min:. Boost intensity of select pixels prior to computing bloom convolution (Min, Max, Multiplier). Max < Min disables.
+Convolution Boost Min: Float（单精度）。预过滤最小值：。在计算Bloom卷积之前，提升选定像素的强度（Min, Max, Multiplier）。Max < Min 禁用。
 
-Convolution Boost Max: Float (single-precision). Pre Filter Max:. Boost intensity of select pixels prior to computing bloom convolution (Min, Max, Multiplier). Max < Min disables.
+Convolution Boost Max：浮点数（单精度）。预过滤最大值：。在计算Bloom卷积之前，提高选定像素的强度（最小、最大、乘数）。Max < Min 停用。
 
-Convolution Boost Mult: Float (single-precision). Pre Filter Mult:. Boost intensity of select pixels prior to computing bloom convolution (Min, Max, Multiplier). Max < Min disables.
+Convolution Boost Mult: 浮点数（单精度）。Pre Filter Mult:. 在计算Bloom卷积之前，提高选定像素的强度（最小、最大、乘数）。Max < Min 停用。
 
-Convolution Buffer: Float (single-precision). Buffer Scale:. Implicit buffer region as a fraction of the screen size to insure the bloom does not wrap across the screen. Larger sizes have perf impact..
-
+卷积缓冲区（Convolution Buffer）。Float（单精度）。缓冲区比例：。隐含的缓冲区是屏幕尺寸的一部分，以确保bloom不会在屏幕上缠绕。较大的尺寸会影响性能。

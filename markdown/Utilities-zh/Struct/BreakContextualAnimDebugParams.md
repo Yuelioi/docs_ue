@@ -1,6 +1,6 @@
 # BreakContextualAnimDebugParams
 
-Adds a node that breaks a 'ContextualAnimDebugParams' into its member fields
+添加一个节点，将'ContextualAnimDebugParams'分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ContextualAnimDebugParams' into its member fields
 
 ## Inputs
 
-Contextual Anim Debug Params: Contextual Anim Debug Params Structure (by ref).  
+Contextual Anim Debug Params: Contextual Anim Debug Params结构（通过引用）。 
 
 ## Outputs
 
-Test Actor: Actor Weak object. Test Actor.
+Test Actor: Actor Weak对象。Test Actor: 测试演员。
 
-Draw Alignment Transform At Time: Float (single-precision). Draw Alignment Transform at Time.
-
+Draw Alignment Transform At Time: Float (single-precision). Draw Alignment Transform at Time（在时间上绘制对齐变换）。

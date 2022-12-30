@@ -1,6 +1,6 @@
 # LiteralenumESynthLFOPatchType
 
-Literal enum ESynthLFOPatchType
+字面意思是ESynthLFOPatchType。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESynthLFOPatchType
 
 ## Inputs
 
-Enum: ESynthLFOPatchType Enum.  
+枚举。ESynthLFOPatchType枚举。 
 
 ## Outputs
 
-Return Value: ESynthLFOPatchType Enum.
-
+返回值。ESynthLFOPatchType Enum。

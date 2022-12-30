@@ -8,9 +8,8 @@ Byte to Enum EGoogleARCoreCameraFacing
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreCameraFacing Enum.
-
+返回值。EGoogleARCoreCameraFacing Enum。

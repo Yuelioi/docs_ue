@@ -1,6 +1,6 @@
 # GetnumberofentriesinERandomizeTr-
 
-Returns ERandomizeTransformReferenceFrame_MAX value
+返回ERandomizeTransformReferenceFrame_MAX的值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ERandomizeTransformReferenceFrame_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

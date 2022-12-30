@@ -1,6 +1,6 @@
 # GetnumberofentriesinEControllerT-
 
-Returns EControllerType_MAX value
+返回EControllerType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EControllerType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

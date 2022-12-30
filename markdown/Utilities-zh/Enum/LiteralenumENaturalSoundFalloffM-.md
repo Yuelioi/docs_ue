@@ -1,6 +1,6 @@
 # LiteralenumENaturalSoundFalloffM-
 
-Literal enum ENaturalSoundFalloffMode
+ENaturalSoundFalloffMode的字面枚举。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ENaturalSoundFalloffMode
 
 ## Inputs
 
-Enum: ENaturalSoundFalloffMode Enum.  
+枚举。ENaturalSoundFalloffMode枚举。 
 
 ## Outputs
 
-Return Value: ENaturalSoundFalloffMode Enum.
-
+返回值。ENaturalSoundFalloffMode Enum。

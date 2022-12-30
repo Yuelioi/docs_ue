@@ -1,6 +1,6 @@
 # LiteralenumEComponentMobility
 
-Literal enum EComponentMobility
+EComponentMobility枚举的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EComponentMobility
 
 ## Inputs
 
-Enum: EComponentMobility Enum.  
+枚举。EComponentMobility Enum.  
 
 ## Outputs
 
-Return Value: EComponentMobility Enum.
-
+返回值。EComponentMobility Enum。

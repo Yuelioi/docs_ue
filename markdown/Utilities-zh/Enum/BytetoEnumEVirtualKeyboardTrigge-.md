@@ -1,6 +1,6 @@
 # BytetoEnumEVirtualKeyboardTrigge-
 
-Byte to Enum EVirtualKeyboardTrigger
+字节到枚举EVirtualKeyboardTrigger
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EVirtualKeyboardTrigger
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EVirtualKeyboardTrigger Enum.
-
+返回值。EVirtualKeyboardTrigger Enum。

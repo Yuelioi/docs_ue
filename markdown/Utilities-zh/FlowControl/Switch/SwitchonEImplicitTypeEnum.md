@@ -1,6 +1,6 @@
 # SwitchonEImplicitTypeEnum
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EImplicitTypeEnum Enum.  
+选择。EImplicitTypeEnum枚举。 
 
 ## Outputs
 
-Box: Exec.
+箱子。Exec.
 
 Sphere: Exec.
 
-Capsule: Exec.
+Capsule（胶囊）。防御性
 
-Level Set: Exec.
+级别设置。Exec.
 
-None: Exec.
+没有。Exec.
 
-Convex: Exec.
-
+凸面 Exec.

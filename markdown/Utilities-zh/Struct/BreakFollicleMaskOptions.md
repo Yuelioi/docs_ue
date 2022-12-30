@@ -1,6 +1,6 @@
 # BreakFollicleMaskOptions
 
-Adds a node that breaks a 'FollicleMaskOptions' into its member fields
+添加一个节点，将'FollicleMaskOptions'分解为其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'FollicleMaskOptions' into its member fields
 
 ## Inputs
 
-Follicle Mask Options: Follicle Mask Options Structure (by ref).  
+卵泡面膜选项。卵泡面膜选项结构（通过引用）。 
 
 ## Outputs
 
-Groom: Groom Asset Object Reference. Groom:. Groom asset.
+新郎。Groom资产对象参考。Groom:. 梳理资产。
 
-Channel: EFollicleMaskChannel Enum. Channel:. Texture channel in which the groom's roots mask will be writtent to..
-
+Channel: EFollicleMaskChannel枚举。通道:. 纹理通道，新郎的根部面具将被写入其中。

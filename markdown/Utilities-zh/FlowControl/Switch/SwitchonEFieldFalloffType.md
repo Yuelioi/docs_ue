@@ -1,6 +1,6 @@
 # SwitchonEFieldFalloffType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EFieldFalloffType Enum.  
+选择。EFieldFalloffType枚举。 
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Linear: Exec.
+线性。Exec.
 
-Inverse: Exec.
+逆向。执行
 
-Squared: Exec.
+平方的。Exec.
 
-Logarithmic: Exec.
-
+对数。执行

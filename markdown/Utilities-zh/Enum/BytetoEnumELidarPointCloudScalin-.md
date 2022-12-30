@@ -1,6 +1,6 @@
 # BytetoEnumELidarPointCloudScalin-
 
-Byte to Enum ELidarPointCloudScalingMethod
+字节到枚举 ELidarPointCloudScalingMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ELidarPointCloudScalingMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELidarPointCloudScalingMethod Enum.
-
+返回值。ELidarPointCloudScalingMethod Enum。

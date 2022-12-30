@@ -1,6 +1,6 @@
 # LiteralenumEDataSortTypeEnum
 
-Literal enum EDataSortTypeEnum
+字面意义上的枚举 EDataSortTypeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDataSortTypeEnum
 
 ## Inputs
 
-Enum: EDataSortTypeEnum Enum.  
+枚举。EDataSortTypeEnum枚举。 
 
 ## Outputs
 
-Return Value: EDataSortTypeEnum Enum.
-
+返回值。EDataSortTypeEnum枚举。

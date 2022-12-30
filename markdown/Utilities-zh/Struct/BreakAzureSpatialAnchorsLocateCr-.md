@@ -1,6 +1,6 @@
 # BreakAzureSpatialAnchorsLocateCr-
 
-Adds a node that breaks a 'AzureSpatialAnchorsLocateCriteria' into its member fields
+添加一个节点，将'AzureSpatialAnchorsLocateCriteria'分解为其成员字段
 
 ## 图示
 
@@ -8,27 +8,26 @@ Adds a node that breaks a 'AzureSpatialAnchorsLocateCriteria' into its member fi
 
 ## Inputs
 
-Azure Spatial Anchors Locate Criteria: Azure Spatial Anchors Locate Criteria Structure (by ref).  
+Azure Spatial Anchors Locate Criteria: Azure Spatial Anchors Locate Criteria结构（通过引用）。 
 
 ## Outputs
 
-Bypass Cache: Boolean. Bypass Cache:. If true the device local cache of anchors is ignored..
+绕过缓存。Boolean. 绕过缓存：。如果为真，则忽略设备本地缓存的锚点。
 
-Identifiers: Array of Strings. Identifiers:. List of specific anchor identifiers to locate..
+Identifiers（标识符）。字符串的数组。Identifiers:. 要定位的具体锚点标识符的列表。
 
-Near Anchor: Azure Cloud Spatial Anchor Object Reference. Near Anchor:. Specify (optionally) an anchor around which to locate anchors..
+近似锚点。Azure Cloud Spatial Anchor Object Reference。近锚点：。指定（可选）一个锚点，围绕该锚点进行定位。
 
-Near Anchor Distance: Float (single-precision). Near Anchor Distance:. Specify the distance at which to locate anchors near the NearAnchor, in cm..
+近锚点距离。浮点数（单精度）。近锚点距离：。指定在NearAnchor附近定位锚点的距离，单位是厘米。
 
-Near Anchor Max Result Count: Integer. Near Anchor Max Result Count:. Specify the maximum number of anchors around the NearAnchor to locate..
+近锚最大结果计数。整数。近锚点最大结果数：。指定定位NearAnchor周围锚点的最大数量。
 
-Search Near Device: Boolean. Search Near Device:. Specify whether to search near the device location..
+搜索附近的设备。Boolean. 搜索附近的设备:. 指定是否要在设备位置附近搜索。
 
-Near Device Distance: Float (single-precision). Near Device Distance:. Specify the distance at which to locate anchors near the device, in cm..
+近设备距离。浮点数（单精度）。靠近设备的距离:. 指定在设备附近寻找锚点的距离，单位是厘米。
 
-Near Device Max Result Count: Integer. Near Device Max Result Count:. Specify the maximum number of anchors around the device to locate..
+近设备最大结果数。整数。近设备最大结果数：。指定在设备周围定位的最大锚点数量。
 
-Requested Categories: EAzureSpatialAnchorDataCategory Enum. Requested Categories:. Specify what data to retrieve..
+要求的类别。EAzureSpatialAnchorDataCategory枚举。要求的类别：。指定要检索的数据。
 
-Strategy: EAzureSpatialAnchorsLocateStrategy Enum. Strategy:. Specify the method by which anchors will be located..
-
+策略。EAzureSpatialAnchorsLocateStrategy Enum。策略:. 指定定位锚点的方法。

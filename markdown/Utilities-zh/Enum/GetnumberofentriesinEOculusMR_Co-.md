@@ -1,6 +1,6 @@
 # GetnumberofentriesinEOculusMR_Co-
 
-Returns EOculusMR_CompositionMethod_MAX value
+返回EOculusMR_CompositionMethod_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EOculusMR_CompositionMethod_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # LiteralenumEScriptingCollisionSh-
 
-Literal enum EScriptingCollisionShapeType_Deprecated
+枚举EScriptingCollisionShapeType_Deprecated
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EScriptingCollisionShapeType_Deprecated
 
 ## Inputs
 
-Enum: EScriptingCollisionShapeType_Deprecated Enum.  
+枚举。EScriptingCollisionShapeType_Deprecated枚举。 
 
 ## Outputs
 
-Return Value: EScriptingCollisionShapeType_Deprecated Enum.
-
+返回值。EScriptingCollisionShapeType_Deprecated Enum。

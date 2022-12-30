@@ -1,18 +1,17 @@
 # BreakGeometryScriptCalculateNorm-
 
-Adds a node that breaks a 'GeometryScriptCalculateNormalsOptions' into its member fields
+添加一个节点，将'GeometryScriptCalculateNormalsOptions'分解为其成员字段。
 
 ## 图示
 
 ![]($-20221218-14364904.png)
 
-## Inputs
+## 输入
 
-Geometry Script Calculate Normals Options: Geometry Script Calculate Normals Options Structure (by ref).  
+Geometry Script Calculate Normals Options: Geometry Script Calculate Normals Options 结构(通过参考).  
 
-## Outputs
+## 输出
 
-Angle Weighted: Boolean. Angle Weighted.
+角度加权。布尔值。角度加权。
 
-Area Weighted: Boolean. Area Weighted.
-
+面积加权。布尔值。面积加权

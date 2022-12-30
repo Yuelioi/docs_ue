@@ -1,6 +1,6 @@
 # GetnumberofentriesinEOculusHandT-
 
-Returns EOculusHandType_MAX value
+返回EOculusHandType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EOculusHandType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

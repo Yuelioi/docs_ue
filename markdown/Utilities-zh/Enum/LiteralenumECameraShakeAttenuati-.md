@@ -1,6 +1,6 @@
 # LiteralenumECameraShakeAttenuati-
 
-Literal enum ECameraShakeAttenuation
+枚举ECameraShakeAttenuation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECameraShakeAttenuation
 
 ## Inputs
 
-Enum: ECameraShakeAttenuation Enum.  
+枚举。ECameraShakeAttenuation Enum.  
 
 ## Outputs
 
-Return Value: ECameraShakeAttenuation Enum.
-
+返回值。ECameraShakeAttenuation Enum。

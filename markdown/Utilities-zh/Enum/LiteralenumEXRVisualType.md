@@ -1,6 +1,6 @@
 # LiteralenumEXRVisualType
 
-Literal enum EXRVisualType
+枚举EXRVisualType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EXRVisualType
 
 ## Inputs
 
-Enum: EXRVisualType Enum.  
+枚举。EXRVisualType Enum。 
 
 ## Outputs
 
-Return Value: EXRVisualType Enum.
-
+返回值。EXRVisualType Enum。

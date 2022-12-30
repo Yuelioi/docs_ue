@@ -1,6 +1,6 @@
 # LiteralenumEQuarztQuantizationRe-
 
-Literal enum EQuarztQuantizationReference
+枚举EQuarztQuantizationReference
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EQuarztQuantizationReference
 
 ## Inputs
 
-Enum: EQuarztQuantizationReference Enum.  
+枚举。EQuarztQuantizationReference枚举。 
 
 ## Outputs
 
-Return Value: EQuarztQuantizationReference Enum.
-
+返回值。EQuarztQuantizationReference Enum。

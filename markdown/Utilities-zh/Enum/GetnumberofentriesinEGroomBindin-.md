@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGroomBindin-
 
-Returns EGroomBindingMeshType_MAX value
+返回EGroomBindingMeshType_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGroomBindingMeshType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # BreakAttributeMetaData
 
-Adds a node that breaks a 'AttributeMetaData' into its member fields
+添加一个节点，将'AttributeMetaData'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'AttributeMetaData' into its member fields
 
 ## Inputs
 
-Attribute Meta Data: Attribute Meta Data Structure (by ref).  
+属性元数据。属性元数据结构（通过引用）。 
 
 ## Outputs
 
-Base Value: Float (single-precision). Base Value.
+基准值。Float（单精度）。基准值。
 
-Min Value: Float (single-precision). Min Value.
+最小值。Float (single-precision). 最小值。
 
-Max Value: Float (single-precision). Max Value.
+最大值。Float (single-precision). 最大值。
 
-Can Stack: Boolean. Can Stack.
-
+可以堆叠。Boolean（布尔）。可以堆栈。

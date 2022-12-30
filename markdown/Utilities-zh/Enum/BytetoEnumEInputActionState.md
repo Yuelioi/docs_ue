@@ -1,6 +1,6 @@
 # BytetoEnumEInputActionState
 
-Byte to Enum EInputActionState
+字节到枚举 EInputActionState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EInputActionState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EInputActionState Enum.
-
+返回值。EInputActionState Enum.

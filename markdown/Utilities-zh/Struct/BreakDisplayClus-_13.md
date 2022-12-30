@@ -1,6 +1,6 @@
 # BreakDisplayClus-_13
 
-Adds a node that breaks a 'DisplayClusterConfigurationICVFX_LightcardSettings' into its member fields
+添加一个打破'DisplayClusterConfigurationICVFX_LightcardSettings'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'DisplayClusterConfigurationICVFX_LightcardSettings' i
 
 ## Inputs
 
-Display Cluster Configuration ICVFX Lightcard Settings: Display Cluster Configuration ICVFX Lightcard Settings Structure (by ref).  
+显示群集配置ICVFX光卡设置。显示集群配置ICVFX光卡设置结构（通过参考）。 
 
 ## Outputs
 
-Enable Light Cards: Boolean. Enable:. Enable Light Cards.
+启用光卡。布尔值。启用：。启用灯卡。
 
-Ignore Freezing Of Outer Viewports For Lightcards: Boolean. Ignore Outer Viewports Freezing for Lightcards:. Enable\Disable freeze rendering for lightcards when outer viewports rendering also freezed. This will impact performance..
+忽略光卡外部视口的冻结。布尔值。Ignore Outer Viewports Freezing for Lightcards:.忽略光卡的外视口冻结。Enable/Disable freeze rendering for lightcards when outer viewports rendering also freeze. 这将影响性能。
 
-Blending Mode: EDisplayClusterConfigurationICVFX_LightcardRenderMode Enum. Blendingmode:. Specify how to render Light Cards in relation to the inner frustum..
+Blending Mode（混合模式）。EDisplayClusterConfigurationICVFX_LightcardRenderMode枚举。Blendingmode:.混合模式。指定如何渲染与内部地壳有关的光卡。
 
-Light Cards Content: Display Cluster Configuration ICVFX Visibility List Structure. Show Only List:. Content specified here will be treated as a Light Card and adhere to the Blending Mode setting.
+光卡内容。显示集群配置ICVFX可见性列表结构。只显示列表：。这里指定的内容将被视为光卡，并遵守混合模式的设置。
 
-Render Settings: Display Cluster Configuration ICVFX Lightcard Render Settings Structure. Render Settings:. Configure global render settings for this viewport.
-
+渲染设置。Display Cluster Configuration ICVFX Lightcard Render Settings 结构。渲染设置：. 配置该视口的全局渲染设置。

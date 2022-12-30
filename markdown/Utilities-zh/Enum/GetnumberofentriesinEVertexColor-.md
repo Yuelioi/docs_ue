@@ -1,6 +1,6 @@
 # GetnumberofentriesinEVertexColor-
 
-Returns EVertexColorImportOption_MAX value
+返回EVertexColorImportOption_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EVertexColorImportOption_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

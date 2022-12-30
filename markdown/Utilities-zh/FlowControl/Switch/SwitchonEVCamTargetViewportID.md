@@ -1,6 +1,6 @@
 # SwitchonEVCamTargetViewportID
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EVCamTargetViewportID Enum.  
+选择。EVCamTargetViewportID枚举。 
 
 ## Outputs
 
-Currently Selected: Exec.
+目前选择。Exec.
 
-Viewport 1: Exec.
+视口1：执行。
 
-Viewport 2: Exec.
+视口2: Exec.
 
-Viewport 3: Exec.
+视口3：执行。
 
-Viewport 4: Exec.
-
+视口4：执行

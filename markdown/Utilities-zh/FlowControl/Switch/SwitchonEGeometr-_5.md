@@ -1,6 +1,6 @@
 # SwitchonEGeometr-_5
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGeometryScriptPrimitivePolygroupMode Enum.  
+选择。EGeometryScriptPrimitivePolygroupMode枚举。 
 
 ## Outputs
 
-Single Group: Exec.
+单个组。Exec.
 
-Per Face: Exec.
+每一个面。Exec.
 
-Per Quad: Exec.
-
+每四组：执行 执行

@@ -1,6 +1,6 @@
 # GetnumberofentriesinERigLogicCal-
 
-Returns ERigLogicCalculationType_MAX value
+返回ERigLogicCalculationType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ERigLogicCalculationType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

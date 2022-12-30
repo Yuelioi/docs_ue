@@ -1,6 +1,6 @@
 # BreakControlRigSnapperSelection
 
-Adds a node that breaks a 'ControlRigSnapperSelection' into its member fields
+添加一个打破'ControlRigSnapperSelection'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ControlRigSnapperSelection' into its member fields
 
 ## Inputs
 
-Control Rig Snapper Selection: Control Rig Snapper Selection Structure (by ref).  
+控制钻机鲷鱼选择。控制钻机夹钳选择结构（通过引用）。 
 
 ## Outputs
 
-Actors: Array of Actor For World Transforms Structures. Actors.
+Actors（演员）。Array of Actor For World Transfures结构。行为者。
 
-Control Rigs: Array of Control Rig For World Transforms Structures. Control Rigs.
-
+Control Rigs: Array of Control Rig For World Transforms Structures. 控制装置。

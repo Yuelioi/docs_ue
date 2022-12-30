@@ -1,6 +1,6 @@
 # LiteralenumEVerticalAlignment
 
-Literal enum EVerticalAlignment
+枚举EVerticalAlignment
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EVerticalAlignment
 
 ## Inputs
 
-Enum: EVerticalAlignment Enum.  
+枚举。EVerticalAlignment Enum.  
 
 ## Outputs
 
-Return Value: EVerticalAlignment Enum.
-
+返回值。EVerticalAlignment Enum。

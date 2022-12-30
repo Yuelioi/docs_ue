@@ -1,6 +1,6 @@
 # BreakChaosBreakEvent
 
-Adds a node that breaks a 'ChaosBreakEvent' into its member fields
+添加一个打破'ChaosBreakEvent'的节点到其成员字段中
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'ChaosBreakEvent' into its member fields
 
 ## Inputs
 
-Chaos Break Event: Chaos Break Event Structure (by ref).  
+混沌断裂事件。混沌断裂事件结构（通过引用）。 
 
 ## Outputs
 
-Component: Primitive Component Object Reference. Component.
+组件。原始组件对象参考。组件。
 
-Location: Vector. Location.
+位置。矢量。Location: 位置。
 
-Velocity: Vector. Velocity.
+速度。矢量。Velocity: 速度。
 
-Angular Velocity: Vector. Angular Velocity.
+角速度。矢量。角速度。
 
-Mass: Float (single-precision). Mass.
-
+质量。浮点（单精度）。质量。

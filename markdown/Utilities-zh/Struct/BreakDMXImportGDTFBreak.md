@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFBreak
 
-Adds a node that breaks a 'DMXImportGDTFBreak' into its member fields
+添加一个节点，将'DMXImportGDTFBreak'分解到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DMXImportGDTFBreak' into its member fields
 
 ## Inputs
 
-DMXImport GDTFBreak: DMXImport GDTFBreak Structure (by ref).  
+DMXImport GDTFBreak。DMXImport GDTFBreak 结构（通过引用）。 
 
 ## Outputs
 
-DMXOffset: Integer. DMXOffset.
+DMXOffset。整数。DMXOffset.
 
-DMXBreak: Byte. DMXBreak.
-
+DMXBreak: 字节。DMXBreak.

@@ -1,8 +1,8 @@
 # LogString
 
-Prints a string to the log. If Print To Log is true, it will be visible in the Output Log window. Otherwise it will be logged only as 'Verbose', so it generally won't show up.
+打印一个字符串到日志。如果打印到日志为真，它将在输出日志窗口中可见。否则它将只被记录为 "Verbose"，所以一般不会显示出来。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-In String: String. The string to log out.
+在字符串中。字符串。要注销的字符串。
 
-Print to Log: Boolean. Whether or not to print the output to the log.  
+打印到日志。布尔值。是否将输出打印到日志。 
 
 ## Outputs
 
-Out: Exec.
-
+输出。执行。

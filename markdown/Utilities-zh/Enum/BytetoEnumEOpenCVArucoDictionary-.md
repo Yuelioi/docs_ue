@@ -1,6 +1,6 @@
 # BytetoEnumEOpenCVArucoDictionary-
 
-Byte to Enum EOpenCVArucoDictionarySize
+字节到枚举 EOpenCVArucoDictionarySize
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EOpenCVArucoDictionarySize
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EOpenCVArucoDictionarySize Enum.
-
+返回值。EOpenCVArucoDictionarySize Enum.

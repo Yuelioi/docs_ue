@@ -1,6 +1,6 @@
 # GetnumberofentriesinEOculusXrApi
 
-Returns EOculusXrApi_MAX value
+返回EOculusXrApi_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EOculusXrApi_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

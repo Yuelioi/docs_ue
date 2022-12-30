@@ -1,6 +1,6 @@
 # BytetoEnumERichCurveInterpMode
 
-Byte to Enum ERichCurveInterpMode
+字节到枚举ERichCurveInterpMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERichCurveInterpMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERichCurveInterpMode Enum.
-
+返回值。ERichCurveInterpMode枚举。

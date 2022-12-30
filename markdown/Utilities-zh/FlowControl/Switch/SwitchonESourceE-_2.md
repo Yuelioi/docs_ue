@@ -1,6 +1,6 @@
 # SwitchonESourceE-_2
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESourceEffectMotionFilterModDestination Enum.  
+选择。ESourceEffectMotionFilterModDestination Enum.  
 
 ## Outputs
 
-Filter ACutoff Frequency: Exec.
+滤波器ACutoff频率。Exec.
 
-Filter AResonance: Exec.
+滤波器 AResonance: Exec.
 
-Filter AOutput Volume DB: Exec.
+滤波器AOutput Volume DB：执行。
 
-Filter BCutoff Frequency: Exec.
+滤波器BC关断频率: Exec.
 
-Filter BResonance: Exec.
+滤波器 BResonance: 执行
 
-Filter BOutput Volume DB: Exec.
+滤波器BO输出音量DB：执行。
 
-Filter Mix: Exec.
-
+滤波器混合 Exec.

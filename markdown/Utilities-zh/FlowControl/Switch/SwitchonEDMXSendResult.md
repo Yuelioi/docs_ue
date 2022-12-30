@@ -1,6 +1,6 @@
 # SwitchonEDMXSendResult
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDMXSendResult Enum.  
+选择。EDMXSendResult Enum.  
 
 ## Outputs
 
-Successfully Sent: Exec.
+成功发送：Exec.
 
-Error Get Universe: Exec.
+错误获取宇宙。Exec.
 
-Error Set Buffer: Exec.
+错误 设置缓冲区。Exec.
 
-Error Size Buffer: Exec.
+错误 缓冲区大小。Exec.
 
-Error Enqueue Package: Exec.
+Error Enqueue Package: 执行。
 
-Error No Sending Interface: Exec.
-
+错误 没有发送接口。Exec.

@@ -1,6 +1,6 @@
 # SwitchonEAnimNod-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAnimNodeReferenceConversionResult Enum.  
+选择。EAnimNodeReferenceConversionResult枚举。 
 
 ## Outputs
 
-Succeeded: Exec.
+成功了。执行。
 
-Failed: Exec.
-
+失败。执行。

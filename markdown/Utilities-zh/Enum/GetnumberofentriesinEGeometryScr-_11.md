@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGeometryScr-_11
 
-Returns EGeometryScriptSearchOutcomePins_MAX value
+返回 EGeometryScriptSearchOutcomePins_MAX 值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGeometryScriptSearchOutcomePins_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # BytetoEnumEHDRCaptureGamut
 
-Byte to Enum EHDRCaptureGamut
+字节到枚举 EHDRCaptureGamut
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EHDRCaptureGamut
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EHDRCaptureGamut Enum.
-
+返回值。EHDRCaptureGamut Enum。

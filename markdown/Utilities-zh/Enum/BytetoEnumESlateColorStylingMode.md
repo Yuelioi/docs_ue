@@ -1,6 +1,6 @@
 # BytetoEnumESlateColorStylingMode
 
-Byte to Enum ESlateColorStylingMode
+字节到枚举 ESlateColorStylingMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESlateColorStylingMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESlateColorStylingMode Enum.
-
+返回值。ESlateColorStylingMode Enum。

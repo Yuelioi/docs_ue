@@ -1,6 +1,6 @@
 # LiteralenumETrackingConfidence
 
-Literal enum ETrackingConfidence
+字面上的枚举 ETTrackingConfidence
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETrackingConfidence
 
 ## Inputs
 
-Enum: ETrackingConfidence Enum.  
+枚举。ETrackingConfidence Enum.  
 
 ## Outputs
 
-Return Value: ETrackingConfidence Enum.
-
+返回值。ETrackingConfidence Enum。

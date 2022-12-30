@@ -1,6 +1,6 @@
 # LiteralenumEWorldPartitionRuntim-
 
-Literal enum EWorldPartitionRuntimeCellState
+枚举 EWorldPartitionRuntimeCellState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWorldPartitionRuntimeCellState
 
 ## Inputs
 
-Enum: EWorldPartitionRuntimeCellState Enum.  
+枚举。EWorldPartitionRuntimeCellState Enum.  
 
 ## Outputs
 
-Return Value: EWorldPartitionRuntimeCellState Enum.
-
+返回值。EWorldPartitionRuntimeCellState Enum.

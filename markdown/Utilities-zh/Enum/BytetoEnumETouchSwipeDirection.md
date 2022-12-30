@@ -1,6 +1,6 @@
 # BytetoEnumETouchSwipeDirection
 
-Byte to Enum ETouchSwipeDirection
+字节到枚举 ETouchSwipeDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETouchSwipeDirection
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETouchSwipeDirection Enum.
-
+返回值。ETouchSwipeDirection Enum。

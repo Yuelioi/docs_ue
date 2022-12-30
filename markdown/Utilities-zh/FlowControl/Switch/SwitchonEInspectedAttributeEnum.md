@@ -1,6 +1,6 @@
 # SwitchonEInspectedAttributeEnum
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EInspectedAttributeEnum Enum.  
+选择。EInspectedAttributeEnum枚举。 
 
 ## Outputs
 
-Volume: Exec.
+量。Exec.
 
 Level: Exec.
 
-Initial Dynamic State: Exec.
+初始动态状态。Exec.
 
-Relative Size: Exec.
-
+相对大小: Exec.

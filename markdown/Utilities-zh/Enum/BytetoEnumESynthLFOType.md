@@ -1,6 +1,6 @@
 # BytetoEnumESynthLFOType
 
-Byte to Enum ESynthLFOType
+字节到枚举 ESynthLFOType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESynthLFOType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESynthLFOType Enum.
-
+返回值。ESynthLFOType Enum。

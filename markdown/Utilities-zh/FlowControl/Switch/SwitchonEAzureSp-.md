@@ -1,6 +1,6 @@
 # SwitchonEAzureSp-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAzureSpatialAnchorsLocateAnchorStatus Enum.  
+选择。EAzureSpatialAnchorsLocateAnchorStatus枚举。 
 
 ## Outputs
 
-Already Tracked: Exec.
+已经被跟踪。已经跟踪：Exec.
 
-Located: Exec.
+已定位 位于：执行。
 
-Not Located: Exec.
+未定位。执行。
 
-Not Located Anchor Does Not Exist: Exec.
-
+未定位 锚点不存在。锚点不存在: Exec.

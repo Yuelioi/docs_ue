@@ -1,6 +1,6 @@
 # SwitchonECSVImportType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ECSVImportType Enum.  
+选择。ECSVImportType枚举。 
 
 ## Outputs
 
-ECSV Data Table: Exec.
+ECSV 数据表。Exec.
 
-ECSV Curve Table: Exec.
+ECSV曲线表: Exec.
 
 ECSV Curve Float: Exec.
 
-ECSV Curve Vector: Exec.
+ECSV 曲线向量: Exec.
 
-ECSV Curve Linear Color: Exec.
-
+ECSV 曲线线性颜色: Exec.

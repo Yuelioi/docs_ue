@@ -1,8 +1,8 @@
 # AutomationLogDir
 
-Returns the directory for automation log files
+返回自动化日志文件的目录
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. Returns the directory for automation log files.
-
+返回值。字符串。返回自动化日志文件的目录。

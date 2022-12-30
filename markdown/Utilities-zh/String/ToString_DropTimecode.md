@@ -1,8 +1,8 @@
 # ToString_DropTimecode
 
-Convert a timecode structure into a string
+将一个时间码结构转换为一个字符串
 
-Target is Drop Timecode to String Conversion
+目标是Drop Timecode to String Conversion
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Drop Timecode to String Conversion
 
 ## Inputs
 
-In Timecode: Drop Timecode Structure (by ref).  
+在时间码中。删除时间码结构（通过引用）。 
 
 ## Outputs
 
-Return Value: String. Convert a timecode structure into a string.
-
+返回值。字符串。将一个时间码结构转换为一个字符串。

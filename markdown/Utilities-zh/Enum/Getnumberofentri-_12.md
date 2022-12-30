@@ -1,6 +1,6 @@
 # Getnumberofentri-_12
 
-Returns EGameplayCueNotify_EffectPlaySpace_MAX value
+返回EGameplayCueNotify_EffectPlaySpace_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGameplayCueNotify_EffectPlaySpace_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

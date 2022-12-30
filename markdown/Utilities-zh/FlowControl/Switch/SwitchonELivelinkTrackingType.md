@@ -1,6 +1,6 @@
 # SwitchonELivelinkTrackingType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ELivelinkTrackingType Enum.  
+选择。ELivelinkTrackingType枚举。 
 
 ## Outputs
 
-Face Tracking: Exec.
+面部跟踪。Exec.
 
-Pose Tracking: Exec.
-
+姿势跟踪：执行。执行。

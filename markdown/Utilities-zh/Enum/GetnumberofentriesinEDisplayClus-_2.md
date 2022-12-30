@@ -1,6 +1,6 @@
 # GetnumberofentriesinEDisplayClus-_2
 
-Returns EDisplayClusterSyncGroup_MAX value
+返回EDisplayClusterSyncGroup_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EDisplayClusterSyncGroup_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

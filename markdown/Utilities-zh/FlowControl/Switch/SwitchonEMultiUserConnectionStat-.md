@@ -1,6 +1,6 @@
 # SwitchonEMultiUserConnectionStat-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMultiUserConnectionStatus Enum.  
+选择。EMultiUserConnectionStatus枚举。 
 
 ## Outputs
 
-Connecting: Exec.
+连接。执行。
 
-Connected: Exec.
+已连接 执行中。
 
-Disconnecting: Exec.
+断开连接。Exec.
 
-Disconnected: Exec.
-
+断开连接。Exec.

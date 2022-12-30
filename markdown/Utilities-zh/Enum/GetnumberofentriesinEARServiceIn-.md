@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARServiceIn-
 
-Returns EARServiceInstallRequestResult_MAX value
+返回EARServiceInstallRequestResult_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARServiceInstallRequestResult_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

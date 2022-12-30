@@ -1,6 +1,6 @@
 # LiteralenumEAppMsgType
 
-Literal enum EAppMsgType
+EAppMsgType 枚举的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAppMsgType
 
 ## Inputs
 
-Enum: EAppMsgType Enum.  
+枚举。EAppMsgType Enum.  
 
 ## Outputs
 
-Return Value: EAppMsgType Enum.
-
+返回值。EAppMsgType Enum.

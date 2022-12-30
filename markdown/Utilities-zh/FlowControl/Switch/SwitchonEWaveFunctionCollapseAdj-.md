@@ -1,6 +1,6 @@
 # SwitchonEWaveFunctionCollapseAdj-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EWaveFunctionCollapseAdjacency Enum.  
+选择。EWaveFunctionCollapseAdjacency Enum.  
 
 ## Outputs
 
-X+ Front: Exec.
+X+ 前面。Exec.
 
 X- Back: Exec.
 
-Y+ Right: Exec.
+Y+ 右边。执行。
 
-Y- Left: Exec.
+Y- 左：执行。
 
-Z+ Up: Exec.
+Z+向上。执行。
 
-Z- Down: Exec.
-
+Z-向下：执行。

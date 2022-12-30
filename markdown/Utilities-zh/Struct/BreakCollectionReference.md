@@ -1,6 +1,6 @@
 # BreakCollectionReference
 
-Adds a node that breaks a 'CollectionReference' into its member fields
+添加一个节点，该节点将 "集合参考 "分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'CollectionReference' into its member fields
 
 ## Inputs
 
-Collection Reference: Collection Reference Structure (by ref).  
+藏品参考。藏品参考结构（通过ref）。 
 
 ## Outputs
 
-Collection Name: Name. Collection Name:. Name of the collection.
-
+收藏品名称。名称。集合名称：。收藏品的名称。

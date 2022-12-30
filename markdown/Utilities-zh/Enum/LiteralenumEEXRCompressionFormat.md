@@ -1,6 +1,6 @@
 # LiteralenumEEXRCompressionFormat
 
-Literal enum EEXRCompressionFormat
+字面意义上的枚举 EEXRCompressionFormat
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EEXRCompressionFormat
 
 ## Inputs
 
-Enum: EEXRCompressionFormat Enum.  
+枚举。EEXRCompressionFormat Enum.  
 
 ## Outputs
 
-Return Value: EEXRCompressionFormat Enum.
-
+返回值。EEXRCompressionFormat Enum。

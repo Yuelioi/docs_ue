@@ -1,6 +1,6 @@
 # LiteralenumEParticleSysParamType
 
-Literal enum EParticleSysParamType
+枚举EParticleSysParamType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EParticleSysParamType
 
 ## Inputs
 
-Enum: EParticleSysParamType Enum.  
+枚举。EParticleSysParamType Enum.  
 
 ## Outputs
 
-Return Value: EParticleSysParamType Enum.
-
+返回值。EParticleSysParamType Enum.

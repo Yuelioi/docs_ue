@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFMeasurement
 
-Adds a node that breaks a 'DMXImportGDTFMeasurement' into its member fields
+添加一个节点，将'DMXImportGDTFMeasurement'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'DMXImportGDTFMeasurement' into its member fields
 
 ## Inputs
 
-DMXImport GDTFMeasurement: DMXImport GDTFMeasurement Structure (by ref).  
+DMXImport GDTFMeasurement。DMXImport GDTFMeasurement结构（通过引用）。 
 
 ## Outputs
 
-Physical: Float (single-precision). Physical.
+物理的。Float（单精度）。物理值：物理值。
 
-Luminous Intensity: Float (single-precision). Luminous Intensity.
+发光强度。Float（单精度）。发光强度。
 
-Transmission: Float (single-precision). Transmission.
+传输。浮点（单精度）。传输。
 
-Interpolation To: EDMXImportGDTFInterpolationTo Enum. Interpolation To.
+插值到。EDMXImportGDTFInterpolationTo Enum。插值到。
 
-Measurement Points: Array of DMXImport GDTFMeasurement Point Structures. Measurement Points.
-
+测量点。DMXImport GDTFMeasurement Point结构的数组。测量点。

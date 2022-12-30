@@ -1,6 +1,6 @@
 # LiteralenumERigBoneType
 
-Literal enum ERigBoneType
+字面意义上的ERigBoneType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERigBoneType
 
 ## Inputs
 
-Enum: ERigBoneType Enum.  
+枚举。ERigBoneType Enum.  
 
 ## Outputs
 
-Return Value: ERigBoneType Enum.
-
+返回值。ERigBoneType Enum。

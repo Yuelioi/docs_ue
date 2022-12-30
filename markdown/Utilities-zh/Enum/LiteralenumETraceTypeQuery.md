@@ -8,9 +8,8 @@ Literal enum ETraceTypeQuery
 
 ## Inputs
 
-Enum: ETraceTypeQuery Enum.  
+枚举。ETraceTypeQuery 枚举。 
 
 ## Outputs
 
-Return Value: ETraceTypeQuery Enum.
-
+返回值。ETraceTypeQuery Enum。

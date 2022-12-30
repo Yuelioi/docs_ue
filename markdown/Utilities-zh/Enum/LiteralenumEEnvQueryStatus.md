@@ -1,6 +1,6 @@
 # LiteralenumEEnvQueryStatus
 
-Literal enum EEnvQueryStatus
+字面意义上的EEnvQueryStatus枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EEnvQueryStatus
 
 ## Inputs
 
-Enum: EEnvQueryStatus Enum.  
+枚举。EEnvQueryStatus枚举。 
 
 ## Outputs
 
-Return Value: EEnvQueryStatus Enum.
-
+返回值。EEnvQueryStatus Enum。

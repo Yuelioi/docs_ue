@@ -1,6 +1,6 @@
 # LiteralenumFZoneShapeType
 
-Literal enum FZoneShapeType
+字面意义上的FZoneShapeType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum FZoneShapeType
 
 ## Inputs
 
-Enum: FZoneShapeType Enum.  
+枚举。FZoneShapeType Enum.  
 
 ## Outputs
 
-Return Value: FZoneShapeType Enum.
-
+返回值。FZoneShapeType Enum。

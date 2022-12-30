@@ -1,6 +1,6 @@
 # GetnumberofentriesinEMediaSoundC-
 
-Returns EMediaSoundComponentFFTSize_MAX value
+返回EMediaSoundComponentFFTSize_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EMediaSoundComponentFFTSize_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

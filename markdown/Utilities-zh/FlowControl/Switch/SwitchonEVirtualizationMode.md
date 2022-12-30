@@ -1,6 +1,6 @@
 # SwitchonEVirtualizationMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EVirtualizationMode Enum.  
+选择。EVirtualizationMode Enum.  
 
 ## Outputs
 
-Disabled: Exec.
+禁用。Exec.
 
 Play When Silent: Exec.
 
-Restart: Exec.
-
+重新启动。执行。

@@ -1,6 +1,6 @@
 # BytetoEnumEVectorCurveChannel
 
-Byte to Enum EVectorCurveChannel
+字节到枚举EVectorCurveChannel
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EVectorCurveChannel
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EVectorCurveChannel Enum.
-
+返回值。EVectorCurveChannel Enum。

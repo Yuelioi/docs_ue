@@ -1,6 +1,6 @@
 # BreakCameraTrackingFocusSettings
 
-Adds a node that breaks a 'CameraTrackingFocusSettings' into its member fields
+添加一个节点，将'CameraTrackingFocusSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'CameraTrackingFocusSettings' into its member fields
 
 ## Inputs
 
-Camera Tracking Focus Settings: Camera Tracking Focus Settings Structure (by ref).  
+相机跟踪焦点设置。摄像机跟踪聚焦设置结构（通过引用）。 
 
 ## Outputs
 
-Actor To Track: Actor Soft Object Reference. Actor to Track:. Focus distance will be tied to this actor's location..
+Actor To Track: Actor Soft Object Reference. Actor to Track:（要追踪的演员）。焦点距离将与该演员的位置相联系。
 
-Relative Offset: Vector. Relative Offset:. Offset from actor position to track. Relative to actor if tracking an actor, relative to world otherwise..
+Relative Offset（相对偏移）。矢量。Relative Offset:.相对偏移。从演员位置到追踪的偏移。如果跟踪一个演员，则相对于演员，否则相对于世界。
 
-Draw Debug Tracking Focus Point: Boolean. Draw Debug Tracking Focus Point:. True to draw a debug representation of the tracked position..
-
+Draw Debug Tracking Focus Point：布尔值。Draw Debug Tracking Focus Point: 绘制调试跟踪焦点。为真，可以画出被追踪位置的调试表示。

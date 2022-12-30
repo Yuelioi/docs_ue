@@ -1,6 +1,6 @@
 # SwitchonEAudioRecordingExportTyp-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAudioRecordingExportType Enum.  
+选择。EAudioRecordingExportType枚举。 
 
 ## Outputs
 
-Sound Wave: Exec.
+声浪。Exec.
 
-Wav File: Exec.
-
+Wav文件: Exec.

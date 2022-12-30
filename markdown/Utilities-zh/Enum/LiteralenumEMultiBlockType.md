@@ -1,6 +1,6 @@
 # LiteralenumEMultiBlockType
 
-Literal enum EMultiBlockType
+字面意义上的EMultiBlockType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMultiBlockType
 
 ## Inputs
 
-Enum: EMultiBlockType Enum.  
+枚举。EMultiBlockType枚举。 
 
 ## Outputs
 
-Return Value: EMultiBlockType Enum.
-
+返回值。EMultiBlockType枚举。

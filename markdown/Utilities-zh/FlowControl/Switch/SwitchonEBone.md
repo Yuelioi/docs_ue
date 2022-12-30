@@ -1,6 +1,6 @@
 # SwitchonEBone
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,67 +8,66 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EBone Enum.  
+选择。EBone Enum.  
 
 ## Outputs
 
-Wrist Root: Exec.
+手腕根部。Exec.
 
 Hand Start: Exec.
 
-Forearm Stub: Exec.
+前臂根部。Exec.
 
-Thumb 0: Exec.
+拇指0：执行。
 
-Thumb 1: Exec.
+拇指1：执行。
 
-Thumb 2: Exec.
+拇指2：执行
 
-Thumb 3: Exec.
+拇指3: 执行
 
-Index 1: Exec.
+索引1：执行。
 
-Index 2: Exec.
+索引2：执行。
 
-Index 3: Exec.
+指数3：执行
 
-Middle 1: Exec.
+中间1：执行。
 
-Middle 2: Exec.
+中部2：执行。
 
-Middle 3: Exec.
+中间3：执行。
 
-Ring 1: Exec.
+环节1：执行。
 
-Ring 2: Exec.
+第二环：执行。
 
-Ring 3: Exec.
+戒指3：执行。
 
-Pinky 0: Exec.
+小指0：执行。
 
-Pinky 1: Exec.
+小指1：执行。
 
-Pinky 2: Exec.
+小指2：执行。
 
-Pinky 3: Exec.
+小指3：执行。
 
-Thumb Tip: Exec.
+拇指尖。执行
 
-Max Skinnable: Exec.
+最大可剥皮: 执行
 
-Index Tip: Exec.
+食指尖: 可执行
 
-Middle Tip: Exec.
+中部尖头: 执行
 
-Ring Tip: Exec.
+环形尖头。执行
 
-Pinky Tip: Exec.
+小拇指尖 执行
 
-Hand End: Exec.
+手端 执行
 
-Hand Max: Exec.
+手的最大值：执行。
 
-Invalid: Exec.
-
+无效。执行。

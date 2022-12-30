@@ -1,6 +1,6 @@
 # LiteralenumEGeom-
 
-Literal enum EGeometryScriptRemoveMeshSimplificationType
+枚举 EGeometryScriptRemoveMeshSimplificationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptRemoveMeshSimplificationType
 
 ## Inputs
 
-Enum: EGeometryScriptRemoveMeshSimplificationType Enum.  
+枚举。EGeometryScriptRemoveMeshSimplificationType Enum.  
 
 ## Outputs
 
-Return Value: EGeometryScriptRemoveMeshSimplificationType Enum.
-
+返回值: EGeometryScriptRemoveMeshSimplificationType Enum.

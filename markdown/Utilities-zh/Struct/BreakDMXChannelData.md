@@ -1,6 +1,6 @@
 # BreakDMXChannelData
 
-Adds a node that breaks a 'DMXChannelData' into its member fields
+添加一个节点，将'DMXChannelData'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DMXChannelData' into its member fields
 
 ## Inputs
 
-DMXChannel Data: DMXChannel Data Structure (by ref).  
+DMXChannel数据。DMX通道数据结构（通过引用）。 
 
 ## Outputs
 
-Min Value: Float (single-precision). Min Value.
+最小值。Float（单精度）。最小值。
 
-Max Value: Float (single-precision). Max Value.
+最大值。Float (single-precision). 最大值。
 
-Default Value: Float (single-precision). Default Value.
-
+默认值。浮点（单精度）。默认值。

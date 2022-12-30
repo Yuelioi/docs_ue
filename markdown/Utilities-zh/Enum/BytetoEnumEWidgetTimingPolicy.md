@@ -1,6 +1,6 @@
 # BytetoEnumEWidgetTimingPolicy
 
-Byte to Enum EWidgetTimingPolicy
+字节到枚举 EWidgetTimingPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EWidgetTimingPolicy
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWidgetTimingPolicy Enum.
-
+返回值。EWidgetTimingPolicy Enum.

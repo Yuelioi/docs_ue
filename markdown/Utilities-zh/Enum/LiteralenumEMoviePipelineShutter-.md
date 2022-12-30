@@ -1,6 +1,6 @@
 # LiteralenumEMoviePipelineShutter-
 
-Literal enum EMoviePipelineShutterTiming
+EMoviePipelineShutterTiming的枚举。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMoviePipelineShutterTiming
 
 ## Inputs
 
-Enum: EMoviePipelineShutterTiming Enum.  
+枚举。EMoviePipelineShutterTiming枚举。 
 
 ## Outputs
 
-Return Value: EMoviePipelineShutterTiming Enum.
-
+返回值。EMoviePipelineShutterTiming枚举。

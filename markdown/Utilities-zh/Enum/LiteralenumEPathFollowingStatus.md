@@ -1,6 +1,6 @@
 # LiteralenumEPathFollowingStatus
 
-Literal enum EPathFollowingStatus
+枚举EPathFollowingStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EPathFollowingStatus
 
 ## Inputs
 
-Enum: EPathFollowingStatus Enum.  
+枚举。EPathFollowingStatus Enum.  
 
 ## Outputs
 
-Return Value: EPathFollowingStatus Enum.
-
+返回值。EPathFollowingStatus Enum.

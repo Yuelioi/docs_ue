@@ -1,6 +1,6 @@
 # LocalArrayofTransforms
 
-Local temporary Array of Transforms variable
+局部临时数组的变换变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Array of Transforms variable
 
 ## Outputs
 
-Variable: Array of Transforms.
-
+变量。变形的数组。

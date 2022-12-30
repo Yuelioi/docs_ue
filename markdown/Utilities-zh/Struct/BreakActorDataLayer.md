@@ -1,6 +1,6 @@
 # BreakActorDataLayer
 
-Adds a node that breaks a 'ActorDataLayer' into its member fields
+添加一个节点，将 "演员数据层 "分解成其成员字段。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'ActorDataLayer' into its member fields
 
 ## Inputs
 
-Actor Data Layer: Actor Data Layer Structure (by ref).  
+演员数据层。演员数据层结构（通过引用）。 
 
 ## Outputs
 
-Name: Name. Name:. The name of this layer.
-
+名称。名称：。名称：。本层的名称。

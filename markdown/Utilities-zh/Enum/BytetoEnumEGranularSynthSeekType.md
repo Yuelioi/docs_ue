@@ -1,6 +1,6 @@
 # BytetoEnumEGranularSynthSeekType
 
-Byte to Enum EGranularSynthSeekType
+字节到枚举 EGranularSynthSeekType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGranularSynthSeekType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGranularSynthSeekType Enum.
-
+返回值。EGranularSynthSeekType Enum。

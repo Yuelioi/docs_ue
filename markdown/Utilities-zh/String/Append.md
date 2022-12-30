@@ -1,8 +1,8 @@
 # Append
 
-Concatenates two strings together to make a new string
+将两个字符串串联起来，形成一个新的字符串
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet String Library
 
 ## Inputs
 
-A: String. The original string.
+A：字符串。原始字符串。
 
-B: String. The string to append to A.  
+B: 字符串。要追加到A的字符串。 
 
 ## Outputs
 
-Return Value: String. A new string which is the concatenation of A+B.
-
+返回值。字符串。一个新的字符串，是A+B的串联。

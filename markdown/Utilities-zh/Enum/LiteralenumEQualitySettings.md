@@ -1,6 +1,6 @@
 # LiteralenumEQualitySettings
 
-Literal enum EQualitySettings
+字面意义上的EQualitySettings枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EQualitySettings
 
 ## Inputs
 
-Enum: EQualitySettings Enum.  
+枚举。EQualitySettings Enum.  
 
 ## Outputs
 
-Return Value: EQualitySettings Enum.
-
+返回值。EQualitySettings Enum。

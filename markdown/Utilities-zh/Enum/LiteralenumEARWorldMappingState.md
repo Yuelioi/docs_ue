@@ -1,6 +1,6 @@
 # LiteralenumEARWorldMappingState
 
-Literal enum EARWorldMappingState
+EARWorldMappingState的字面枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARWorldMappingState
 
 ## Inputs
 
-Enum: EARWorldMappingState Enum.  
+枚举。EARWorldMappingState Enum.  
 
 ## Outputs
 
-Return Value: EARWorldMappingState Enum.
-
+返回值。EARWorldMappingState Enum.

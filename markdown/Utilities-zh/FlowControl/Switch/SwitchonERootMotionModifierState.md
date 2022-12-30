@@ -1,6 +1,6 @@
 # SwitchonERootMotionModifierState
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERootMotionModifierState Enum.  
+选择。ERootMotionModifierState Enum.  
 
 ## Outputs
 
-Waiting: Exec.
+等待。Exec.
 
-Active: Exec.
+活跃中。Exec.
 
 Marked For Removal: Exec.
 
-Disabled: Exec.
-
+已被禁用。Exec.

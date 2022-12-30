@@ -1,12 +1,12 @@
 # HasProjectPersistentDownloadDir
 
-  * Returns true if a writable directory for downloaded data that persists across play sessions is available
+  * 如果下载的数据有一个可写的目录，并在游戏过程中持续存在，则返回true。
 
 
 
 
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -16,5 +16,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: Boolean. Returns true if a writable directory for downloaded data that persists across play sessions is available.
-
+返回值。布尔值。如果下载的数据有一个可写的目录，并在游戏过程中持续存在，则返回为真。

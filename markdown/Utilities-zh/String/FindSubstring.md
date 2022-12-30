@@ -1,8 +1,8 @@
 # FindSubstring
 
-Finds the starting index of a substring in the a specified string
+查找指定字符串中一个子串的起始索引
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,17 +10,16 @@ Target is Kismet String Library
 
 ## Inputs
 
-Search In: String. The string to search within.
+搜索在。字符串。要搜索的字符串。
 
-Substring: String. The string to look for in the SearchIn string.
+子串。字符串。要在SearchIn字符串中寻找的字符串。
 
-Use Case: Boolean. Whether or not to be case-sensitive.
+Use Case: Boolean. 是否对大小写敏感。
 
-Search from End: Boolean. Whether or not to start the search from the end of the string instead of the beginning.
+从末尾开始搜索。布尔型。是否从字符串的末尾开始搜索，而不是从开头开始。
 
-Start Position: Integer. The position to start the search from.  
+开始位置。整数。开始搜索的位置。 
 
 ## Outputs
 
-Return Value: Integer. The index (starting from 0 if bSearchFromEnd is false) of the first occurence of the substring.
-
+返回值。整数。子串第一次出现的索引（如果bSearchFromEnd为假，则从0开始）。

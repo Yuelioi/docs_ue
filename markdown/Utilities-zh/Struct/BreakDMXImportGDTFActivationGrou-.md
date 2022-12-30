@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFActivationGrou-
 
-Adds a node that breaks a 'DMXImportGDTFActivationGroup' into its member fields
+添加一个节点，将'DMXImportGDTFActivationGroup'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'DMXImportGDTFActivationGroup' into its member fields
 
 ## Inputs
 
-DMXImport GDTFActivation Group: DMXImport GDTFActivation Group Structure (by ref).  
+DMXImport GDTFActivation Group。DMXImport GDTFActivation Group 结构（通过参考）。 
 
 ## Outputs
 
-Name: Name. Name.
-
+名称。名称。名称：名称。

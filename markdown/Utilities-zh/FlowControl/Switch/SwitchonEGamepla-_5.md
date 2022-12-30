@@ -1,6 +1,6 @@
 # SwitchonEGamepla-_5
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGameplayCueNotify_EffectPlaySpace Enum.  
+选择。EGameplayCueNotify_EffectPlaySpace枚举。 
 
 ## Outputs
 
-World Space: Exec.
+世界空间。执行。
 
-Camera Space: Exec.
-
+摄像机空间。Exec.

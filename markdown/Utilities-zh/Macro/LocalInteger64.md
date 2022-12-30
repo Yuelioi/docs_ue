@@ -1,6 +1,6 @@
 # LocalInteger64
 
-Local temporary Integer64 variable
+本地临时Integer64变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Integer64 variable
 
 ## Outputs
 
-Variable: Integer64.
-
+变量。Integer64。

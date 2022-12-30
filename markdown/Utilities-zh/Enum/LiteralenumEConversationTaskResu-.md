@@ -1,6 +1,6 @@
 # LiteralenumEConversationTaskResu-
 
-Literal enum EConversationTaskResultType
+枚举EConversationTaskResultType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EConversationTaskResultType
 
 ## Inputs
 
-Enum: EConversationTaskResultType Enum.  
+枚举。EConversationTaskResultType Enum.  
 
 ## Outputs
 
-Return Value: EConversationTaskResultType Enum.
-
+返回值。EConversationTaskResultType Enum。

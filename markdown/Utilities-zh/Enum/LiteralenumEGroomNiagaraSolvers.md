@@ -1,6 +1,6 @@
 # LiteralenumEGroomNiagaraSolvers
 
-Literal enum EGroomNiagaraSolvers
+字面意义上的枚举：EGroomNiagaraSolvers
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGroomNiagaraSolvers
 
 ## Inputs
 
-Enum: EGroomNiagaraSolvers Enum.  
+枚举。EGroomNiagaraSolvers Enum.  
 
 ## Outputs
 
-Return Value: EGroomNiagaraSolvers Enum.
-
+返回值。EGroomNiagaraSolvers Enum。

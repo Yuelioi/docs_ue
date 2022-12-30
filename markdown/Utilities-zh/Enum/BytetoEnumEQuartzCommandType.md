@@ -1,6 +1,6 @@
 # BytetoEnumEQuartzCommandType
 
-Byte to Enum EQuartzCommandType
+字节到枚举 EQuartzCommandType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EQuartzCommandType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EQuartzCommandType Enum.
-
+返回值。EQuartzCommandType Enum。

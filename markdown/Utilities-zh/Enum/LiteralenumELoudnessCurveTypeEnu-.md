@@ -1,6 +1,6 @@
 # LiteralenumELoudnessCurveTypeEnu-
 
-Literal enum ELoudnessCurveTypeEnum
+ELoudnessCurveTypeEnum的文字枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELoudnessCurveTypeEnum
 
 ## Inputs
 
-Enum: ELoudnessCurveTypeEnum Enum.  
+枚举。ELoudnessCurveTypeEnum枚举。 
 
 ## Outputs
 
-Return Value: ELoudnessCurveTypeEnum Enum.
-
+返回值。ELoudnessCurveTypeEnum枚举。

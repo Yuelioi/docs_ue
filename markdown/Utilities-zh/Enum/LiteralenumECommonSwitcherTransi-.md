@@ -1,6 +1,6 @@
 # LiteralenumECommonSwitcherTransi-
 
-Literal enum ECommonSwitcherTransition
+枚举 ECommonSwitcherTransition
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECommonSwitcherTransition
 
 ## Inputs
 
-Enum: ECommonSwitcherTransition Enum.  
+枚举。ECommonSwitcherTransition Enum.  
 
 ## Outputs
 
-Return Value: ECommonSwitcherTransition Enum.
-
+返回值。ECommonSwitcherTransition Enum.

@@ -1,6 +1,6 @@
 # SwitchonEGeometryScriptSweptHull-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGeometryScriptSweptHullAxis Enum.  
+选择。EGeometryScriptSweptHullAxis枚举。 
 
 ## Outputs
 
-X: Exec.
+X：执行。
 
-Y: Exec.
+Y：执行。
 
-Z: Exec.
+Z: 执行。
 
-Smallest Box Dimension: Exec.
+最小的盒子尺寸。Exec.
 
-Smallest Volume: Exec.
-
+最小的体积。执行

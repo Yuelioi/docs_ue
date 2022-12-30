@@ -1,6 +1,6 @@
 # LiteralenumEAbcConversionPreset
 
-Literal enum EAbcConversionPreset
+字面上的枚举：EAbcConversionPreset
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAbcConversionPreset
 
 ## Inputs
 
-Enum: EAbcConversionPreset Enum.  
+枚举。EAbcConversionPreset Enum.  
 
 ## Outputs
 
-Return Value: EAbcConversionPreset Enum.
-
+返回值。EAbcConversionPreset Enum。

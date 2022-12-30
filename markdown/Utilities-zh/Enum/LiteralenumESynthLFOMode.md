@@ -1,6 +1,6 @@
 # LiteralenumESynthLFOMode
 
-Literal enum ESynthLFOMode
+字面意义上的枚举ESynthLFOMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESynthLFOMode
 
 ## Inputs
 
-Enum: ESynthLFOMode Enum.  
+枚举。ESynthLFOMode枚举。 
 
 ## Outputs
 
-Return Value: ESynthLFOMode Enum.
-
+返回值。ESynthLFOMode Enum。

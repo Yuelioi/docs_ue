@@ -1,6 +1,6 @@
 # BreakContextualAnimTrackSettings
 
-Adds a node that breaks a 'ContextualAnimTrackSettings' into its member fields
+添加一个节点，将'ContextualAnimTrackSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'ContextualAnimTrackSettings' into its member fields
 
 ## Inputs
 
-Contextual Anim Track Settings: Contextual Anim Track Settings Structure (by ref).  
+Contextual Anim Track Settings: 上下文动画轨道设置结构（通过引用）。 
 
 ## Outputs
 
 Preview Actor Class: Actor Class Reference. Preview Actor Class.
 
-Join Rule: EContextualAnimJoinRule Enum. Join Rule.
+连接规则: EContextualAnimJoinRule Enum. Join Rule.
 
 IKTarget Definitions: Array of Contextual Anim IKTarget Definition Structures. IKTarget Definitions.
 
-Mesh To Component: Transform. Mesh to Component.
-
+网格到组件。变换。Mesh to Component.

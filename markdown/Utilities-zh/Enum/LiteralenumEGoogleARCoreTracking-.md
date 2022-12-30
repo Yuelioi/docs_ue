@@ -1,6 +1,6 @@
 # LiteralenumEGoogleARCoreTracking-
 
-Literal enum EGoogleARCoreTrackingFailureReason
+枚举 EGoogleARCoreTrackingFailureReason
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGoogleARCoreTrackingFailureReason
 
 ## Inputs
 
-Enum: EGoogleARCoreTrackingFailureReason Enum.  
+枚举。EGoogleARCoreTrackingFailureReason Enum。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreTrackingFailureReason Enum.
-
+返回值。EGoogleARCoreTrackingFailureReason Enum。

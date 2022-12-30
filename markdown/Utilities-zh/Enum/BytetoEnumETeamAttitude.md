@@ -1,6 +1,6 @@
 # BytetoEnumETeamAttitude
 
-Byte to Enum ETeamAttitude
+字节到枚举 ETeamAttitude
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETeamAttitude
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETeamAttitude Enum.
-
+返回值。ETeamAttitude Enum。

@@ -1,8 +1,8 @@
 # GetNativeCulture
 
-Get the native culture for the given localization category.
+获取给定本地化类别的本地文化。
 
-Target is Kismet Internationalization Library
+目标是Kismet国际化库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet Internationalization Library
 
 ## Inputs
 
-Text Category: ELocalizedTextSourceCategory Enum.  
+文本类别。ELocalizedTextSourceCategory枚举。 
 
 ## Outputs
 
-Return Value: String. The culture as an IETF language tag (eg, "zh-Hans-CN")..
-
+返回值。字符串。作为IETF语言标签的文化（例如，"zh-Hans-CN"）。

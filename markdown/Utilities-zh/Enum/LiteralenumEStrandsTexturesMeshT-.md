@@ -1,6 +1,6 @@
 # LiteralenumEStrandsTexturesMeshT-
 
-Literal enum EStrandsTexturesMeshType
+字面上的枚举：EStrandsTexturesMeshType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EStrandsTexturesMeshType
 
 ## Inputs
 
-Enum: EStrandsTexturesMeshType Enum.  
+枚举。EStrandsTexturesMeshType枚举。 
 
 ## Outputs
 
-Return Value: EStrandsTexturesMeshType Enum.
-
+返回值。EStrandsTexturesMeshType Enum。

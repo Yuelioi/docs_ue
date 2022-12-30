@@ -1,6 +1,6 @@
 # SwitchonEMultiBoxType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,15 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMultiBoxType Enum.  
+选择。EMultiBoxType枚举。 
 
 ## Outputs
 
-Menu Bar: Exec.
+菜单栏。执行。
 
-Tool Bar: Exec.
+工具栏。Exec.
 
 Vertical Tool Bar: Exec.
 
@@ -24,7 +24,6 @@ Slim Horizontal Tool Bar: Exec.
 
 Uniform Tool Bar: Exec.
 
-Menu: Exec.
+菜单 Exec.
 
-Button Row: Exec.
-
+按钮行: Exec.

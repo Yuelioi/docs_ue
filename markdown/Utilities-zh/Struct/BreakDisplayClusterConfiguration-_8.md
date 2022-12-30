@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-_8
 
-Adds a node that breaks a 'DisplayClusterConfigurationNetworkSettings' into its member fields
+添加一个节点，将'DisplayClusterConfigurationNetworkSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'DisplayClusterConfigurationNetworkSettings' into its 
 
 ## Inputs
 
-Display Cluster Configuration Network Settings: Display Cluster Configuration Network Settings Structure (by ref).  
+显示群集配置网络设置。显示群集配置网络设置结构（按参考）。 
 
 ## Outputs
 
-Connect Retries Amount: Integer. Connect Retries Amount:. Advanced: amount of times nDisplay tries to reconnect before dropping.
+连接重试量。整数。连接重试量：. 高级：nDisplay在掉线前尝试重新连接的次数。
 
-Connect Retry Delay: Integer. Connect Retry Delay:. Advanced: delay in between connection retries.
+Connect Retry Delay（连接重试延迟）。整数。Connect Retry Delay:.连接重试延迟。高级：连接重试之间的延迟。
 
-Game Start Barrier Timeout: Integer. Game Start Barrier Timeout:. Advanced: timeout for Game Thread Barrier.
+Game Start Barrier Timeout: 整数。Game Start Barrier Timeout:. 高级：游戏线程障碍的超时。
 
-Frame Start Barrier Timeout: Integer. Frame Start Barrier Timeout:. Advanced: timeout value for Start Frame Barrier.
+Frame Start Barrier Timeout（帧开始障碍超时）。整数。Frame Start Barrier Timeout:. 高级：开始帧障碍的超时值。
 
-Frame End Barrier Timeout: Integer. Frame End Barrier Timeout:. Advanced: timeout value for End Frame Barrier.
+Frame End Barrier Timeout（帧结束障碍超时）。整数。帧结束障碍超时：。高级：结束帧障碍的超时值。
 
-Render Sync Barrier Timeout: Integer. Render Sync Barrier Timeout:. Advanced: timeout value for Render Sync.
-
+Render Sync Barrier Timeout。整数。Render Sync Barrier Timeout:. 高级：Render Sync的超时值。

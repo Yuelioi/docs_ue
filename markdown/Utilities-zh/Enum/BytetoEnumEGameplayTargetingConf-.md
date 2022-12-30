@@ -1,6 +1,6 @@
 # BytetoEnumEGameplayTargetingConf-
 
-Byte to Enum EGameplayTargetingConfirmation
+字节到枚举 EGameplayTargetingConfirmation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGameplayTargetingConfirmation
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGameplayTargetingConfirmation Enum.
-
+返回值。EGameplayTargetingConfirmation Enum。

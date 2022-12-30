@@ -1,6 +1,6 @@
 # LiteralenumEBoneControlSpace
 
-Literal enum EBoneControlSpace
+字面上的枚举：EBoneControlSpace
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EBoneControlSpace
 
 ## Inputs
 
-Enum: EBoneControlSpace Enum.  
+枚举。EBoneControlSpace 枚举。 
 
 ## Outputs
 
-Return Value: EBoneControlSpace Enum.
-
+返回值。EBoneControlSpace Enum。

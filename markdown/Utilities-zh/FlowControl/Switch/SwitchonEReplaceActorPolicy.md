@@ -1,6 +1,6 @@
 # SwitchonEReplaceActorPolicy
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EReplaceActorPolicy Enum.  
+选择。EReplaceActorPolicy Enum.  
 
 ## Outputs
 
-Append: Exec.
+附加。Exec.
 
-Replace: Exec.
+Replace: 替换。Exec.
 
-Update Transform: Exec.
+更新转换。执行.
 
-Ignore: Exec.
-
+忽略 执行.

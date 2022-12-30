@@ -1,6 +1,6 @@
 # GetnumberofentriesinEVirtualKeyb-_1
 
-Returns EVirtualKeyboardTrigger_MAX value
+返回EVirtualKeyboardTrigger_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EVirtualKeyboardTrigger_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

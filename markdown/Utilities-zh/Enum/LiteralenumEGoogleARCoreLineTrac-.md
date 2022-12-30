@@ -1,6 +1,6 @@
 # LiteralenumEGoogleARCoreLineTrac-
 
-Literal enum EGoogleARCoreLineTraceChannel
+枚举 EGoogleARCoreLineTraceChannel
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGoogleARCoreLineTraceChannel
 
 ## Inputs
 
-Enum: EGoogleARCoreLineTraceChannel Enum.  
+枚举。EGoogleARCoreLineTraceChannel枚举。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreLineTraceChannel Enum.
-
+返回值。EGoogleARCoreLineTraceChannel Enum.

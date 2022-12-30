@@ -1,6 +1,6 @@
 # BreakFractureEffect
 
-Adds a node that breaks a 'FractureEffect' into its member fields
+添加一个打破'FractureEffect'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'FractureEffect' into its member fields
 
 ## Inputs
 
-Fracture Effect: Fracture Effect Structure (by ref).  
+断裂效应。断裂效应结构（通过引用）。 
 
 ## Outputs
 
-Particle System: Particle System Object Reference. Particle System:. Particle system effect to play at fracture location..
+Particle System（粒子系统）。Particle System Object Reference. Particle System: 粒子系统：。Particle system effect to play at fracture location.
 
-Sound: Sound Base Object Reference. Sound:. Sound cue to play at fracture location..
-
+Sound(声音): 声音。Sound Base Object Reference. 声音:. 在断裂位置播放的声音提示。

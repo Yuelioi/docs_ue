@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAzureSpatia-_2
 
-Returns EAzureSpatialAnchorsResult_MAX value
+返回EAzureSpatialAnchorsResult_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAzureSpatialAnchorsResult_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

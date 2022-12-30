@@ -1,8 +1,8 @@
 # SelectString
 
-If bPickA is true, A is returned, otherwise B is
+如果bPickA为真，则返回A，否则B为
 
-Target is Kismet Math Library
+目标是Kismet数学库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet Math Library
 
 ## Inputs
 
-A: String.
+A：字符串。
 
-B: String.
+B：字符串。
 
-Pick A: Boolean.  
+选A：布尔值。 
 
 ## Outputs
 
-Return Value: String. If bPickA is true, A is returned, otherwise B is.
-
+返回值。字符串。如果bPickA为真，则返回A，否则为B。

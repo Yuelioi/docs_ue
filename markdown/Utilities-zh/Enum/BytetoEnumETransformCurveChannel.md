@@ -1,6 +1,6 @@
 # BytetoEnumETransformCurveChannel
 
-Byte to Enum ETransformCurveChannel
+字节到枚举 ETTransformCurveChannel
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETransformCurveChannel
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETransformCurveChannel Enum.
-
+返回值。ETransformCurveChannel Enum。

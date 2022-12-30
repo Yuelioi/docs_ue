@@ -1,6 +1,6 @@
 # LiteralenumEArucoDictionary
 
-Literal enum EArucoDictionary
+字面意义上的EArucoDictionary枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EArucoDictionary
 
 ## Inputs
 
-Enum: EArucoDictionary Enum.  
+枚举。EArucoDictionary Enum.  
 
 ## Outputs
 
-Return Value: EArucoDictionary Enum.
-
+返回值。EArucoDictionary Enum。

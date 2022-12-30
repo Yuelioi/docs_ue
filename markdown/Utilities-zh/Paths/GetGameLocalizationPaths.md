@@ -1,8 +1,8 @@
 # GetGameLocalizationPaths
 
-Returns a list of game-specific localization paths
+返回一个游戏特定的本地化路径的列表
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: Array of Strings. Returns a list of game-specific localization paths.
-
+返回值。字符串的数组。返回一个特定于游戏的本地化路径列表。

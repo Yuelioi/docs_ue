@@ -1,6 +1,6 @@
 # GetnumberofentriesinELocationXTo-
 
-Returns ELocationXToSpawnEnum_MAX value
+返回ELocationXToSpawnEnum_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ELocationXToSpawnEnum_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

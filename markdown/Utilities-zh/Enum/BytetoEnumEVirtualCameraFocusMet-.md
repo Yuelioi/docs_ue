@@ -1,6 +1,6 @@
 # BytetoEnumEVirtualCameraFocusMet-
 
-Byte to Enum EVirtualCameraFocusMethod
+字节到枚举EVirtualCameraFocusMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EVirtualCameraFocusMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EVirtualCameraFocusMethod Enum.
-
+返回值。EVirtualCameraFocusMethod Enum。

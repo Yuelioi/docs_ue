@@ -1,6 +1,6 @@
 # BytetoEnumETextJustify
 
-Byte to Enum ETextJustify
+字节到枚举 ETextJustify
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETextJustify
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETextJustify Enum.
-
+返回值。ETextJustify Enum。

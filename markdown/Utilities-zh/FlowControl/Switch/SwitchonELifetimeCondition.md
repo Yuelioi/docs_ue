@@ -1,6 +1,6 @@
 # SwitchonELifetimeCondition
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,37 +8,36 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ELifetimeCondition Enum.  
+选择。ELifetimeCondition Enum.  
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Initial Only: Exec.
+仅限初始。Exec.
 
-Owner Only: Exec.
+仅限所有者。执行人
 
-Skip Owner: Exec.
+跳过所有者：执行。
 
-Simulated Only: Exec.
+仅限模拟的。执行。
 
-Autonomous Only: Exec.
+仅限自主。执行。
 
-Simulated or Physics: Exec.
+模拟或物理。执行。
 
-Initial or Owner: Exec.
+初始或所有者：执行。
 
-Custom: Exec.
+自定义。执行。
 
-Replay or Owner: Exec.
+重放或所有者：执行。
 
-Replay Only: Exec.
+仅重播。Exec.
 
-Simulated Only No Replay: Exec.
+只模拟不回放。Exec.
 
-Simulated or Physics No Replay: Exec.
+仿真或物理学 无回放。Exec.
 
-Skip Replay: Exec.
-
+跳过重播。执行。

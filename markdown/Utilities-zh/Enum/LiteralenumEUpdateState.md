@@ -1,6 +1,6 @@
 # LiteralenumEUpdateState
 
-Literal enum EUpdateState
+字面上的枚举：EUpdateState
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: EUpdateState Enum.
 
 ## Outputs
 
-Return Value: EUpdateState Enum.
-
+返回值。EUpdateState Enum.

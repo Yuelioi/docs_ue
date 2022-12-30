@@ -1,6 +1,6 @@
 # LiteralenumEFBXSceneNormalImport-
 
-Literal enum EFBXSceneNormalImportMethod
+字面意思是EFBXSceneNormalImportMethod。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFBXSceneNormalImportMethod
 
 ## Inputs
 
-Enum: EFBXSceneNormalImportMethod Enum.  
+枚举。EFBXSceneNormalImportMethod Enum.  
 
 ## Outputs
 
-Return Value: EFBXSceneNormalImportMethod Enum.
-
+返回值。EFBXSceneNormalImportMethod Enum.

@@ -1,6 +1,6 @@
 # LiteralenumEARServicePermissionR-
 
-Literal enum EARServicePermissionRequestResult
+枚举 EARServicePermissionRequestResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARServicePermissionRequestResult
 
 ## Inputs
 
-Enum: EARServicePermissionRequestResult Enum.  
+枚举。EARServicePermissionRequestResult Enum.  
 
 ## Outputs
 
-Return Value: EARServicePermissionRequestResult Enum.
-
+返回值。EARServicePermissionRequestResult Enum.

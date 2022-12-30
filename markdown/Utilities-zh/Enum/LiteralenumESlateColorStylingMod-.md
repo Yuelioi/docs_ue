@@ -1,6 +1,6 @@
 # LiteralenumESlateColorStylingMod-
 
-Literal enum ESlateColorStylingMode
+枚举ESlateColorStylingMode的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESlateColorStylingMode
 
 ## Inputs
 
-Enum: ESlateColorStylingMode Enum.  
+枚举。ESlateColorStylingMode枚举。 
 
 ## Outputs
 
-Return Value: ESlateColorStylingMode Enum.
-
+返回值。ESlateColorStylingMode Enum.

@@ -1,6 +1,6 @@
 # LiteralenumESynthModEnvPatch
 
-Literal enum ESynthModEnvPatch
+字面意义上的枚举 ESynthModEnvPatch
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESynthModEnvPatch
 
 ## Inputs
 
-Enum: ESynthModEnvPatch Enum.  
+枚举。ESynthModEnvPatch枚举。 
 
 ## Outputs
 
-Return Value: ESynthModEnvPatch Enum.
-
+返回值。ESynthModEnvPatch Enum.

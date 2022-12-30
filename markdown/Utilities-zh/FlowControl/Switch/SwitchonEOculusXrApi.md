@@ -1,6 +1,6 @@
 # SwitchonEOculusXrApi
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,9 +8,9 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EOculusXrApi Enum.  
+选择。EOculusXrApi Enum。 
 
 ## Outputs
 
@@ -18,5 +18,4 @@ Legacy Oculus SDK (No Longer Developed By Epic): Exec.
 
 Legacy Oculus SDK + Open XR (Temporary Experimental Solution): Exec.
 
-Native Open XR With Oculus Vendor Extensions (Epic's Development Focus): Exec.
-
+本地Open XR与Oculus供应商扩展（Epic的开发重点）。Exec.

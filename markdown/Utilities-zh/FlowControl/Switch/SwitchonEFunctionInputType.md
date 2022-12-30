@@ -1,6 +1,6 @@
 # SwitchonEFunctionInputType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,31 +8,30 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EFunctionInputType Enum.  
+选择。EFunctionInputType Enum.  
 
 ## Outputs
 
 Function Input Scalar: Exec.
 
-Function Input Vector 2: Exec.
+函数输入向量2：执行。
 
-Function Input Vector 3: Exec.
+函数输入向量3：执行。
 
-Function Input Vector 4: Exec.
+函数输入向量4：执行。
 
-Function Input Texture 2D: Exec.
+Function Input Texture 2D: 执行。
 
-Function Input Texture Cube: Exec.
+Function Input Texture Cube: 执行。
 
-Function Input Texture 2DArray: Exec.
+函数输入Texture 2DArray: 执行。
 
-Function Input Volume Texture: Exec.
+函数输入体积纹理。执行。
 
-Function Input Static Bool: Exec.
+Function Input Static Bool: 执行。
 
-Function Input Material Attributes: Exec.
+Function Input Material Attributes: 执行。
 
-Function Input Texture External: Exec.
-
+Function Input Texture External: 执行。

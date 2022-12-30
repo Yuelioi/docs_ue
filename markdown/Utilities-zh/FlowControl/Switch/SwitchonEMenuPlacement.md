@@ -1,6 +1,6 @@
 # SwitchonEMenuPlacement
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,35 +8,34 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMenuPlacement Enum.  
+选择。EMenuPlacement枚举。 
 
 ## Outputs
 
-Below: Exec.
+下面。Exec.
 
-Centered Below: Exec.
+Centered Below（居中）。Exec.
 
-Below Right: Exec.
+下方：右侧。执行中
 
-Combo Box: Exec.
+组合框。执行：执行。
 
-Combo Box Right: Exec.
+右边的组合框。右图：Exec.
 
-Right: Exec.
+右边：执行 执行
 
-Above: Exec.
+上图。Exec.
 
-Centered Above: Exec.
+居中 上图。上图：执行者。
 
-Above Right: Exec.
+上图：右侧。执笔
 
-Left: Exec.
+左边：执行
 
-Center: Exec.
+中间。执政。
 
-Right Center, Left Center: Exec.
+右侧中心，左侧中心。执行。
 
-Match Bottom Left Corner: Exec.
-
+匹配左下角。执行

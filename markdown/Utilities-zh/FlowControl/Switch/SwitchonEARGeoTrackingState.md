@@ -1,6 +1,6 @@
 # SwitchonEARGeoTrackingState
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARGeoTrackingState Enum.  
+选择。EARGeoTrackingState Enum.  
 
 ## Outputs
 
-Initializing: Exec.
+初始化。执行中。
 
-Localized: Exec.
+本地化。执行。
 
-Localizing: Exec.
+本地化：执行。执行。
 
-Not Available: Exec.
-
+不可用。Exec.

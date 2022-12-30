@@ -1,6 +1,6 @@
 # LiteralenumEARDepthAccuracy
 
-Literal enum EARDepthAccuracy
+字面意义上的枚举EARDepthAccuracy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARDepthAccuracy
 
 ## Inputs
 
-Enum: EARDepthAccuracy Enum.  
+枚举。EARDepthAccuracy Enum.  
 
 ## Outputs
 
-Return Value: EARDepthAccuracy Enum.
-
+返回值。EARDepthAccuracy Enum.

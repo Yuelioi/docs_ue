@@ -1,8 +1,8 @@
 # CreateTempFilename
 
-Creates a temporary filename with the specified prefix.
+创建一个具有指定前缀的临时文件名。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-Path: String. The file pathname..
+路径。字符串。文件的路径名。
 
-Prefix: String. The file prefix..
+前缀。字符串。文件前缀。
 
-Extension: String. File extension ('.' required)..  
+扩展名。字符串。文件扩展名（需要'.'）.  
 
 ## Outputs
 
-Return Value: String.
-
+返回值。字符串。

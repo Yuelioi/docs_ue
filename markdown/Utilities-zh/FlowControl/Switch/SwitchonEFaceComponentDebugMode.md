@@ -1,6 +1,6 @@
 # SwitchonEFaceComponentDebugMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EFaceComponentDebugMode Enum.  
+选择。EFaceComponentDebugMode Enum.  
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
 Show Eye Vectors: Exec.
 
-Show Face Mesh: Exec.
-
+显示脸部网格。执行。

@@ -1,6 +1,6 @@
 # LiteralenumEDataSourceTypeEnum
 
-Literal enum EDataSourceTypeEnum
+枚举 EDataSourceTypeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDataSourceTypeEnum
 
 ## Inputs
 
-Enum: EDataSourceTypeEnum Enum.  
+枚举。EDataSourceTypeEnum枚举。 
 
 ## Outputs
 
-Return Value: EDataSourceTypeEnum Enum.
-
+返回值。EDataSourceTypeEnum枚举。

@@ -1,6 +1,6 @@
 # SwitchonEFBXImportContentType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EFBXImportContentType Enum.  
+选择。EFBXImportContentType Enum.  
 
 ## Outputs
 
-Geometry And Skinning Weights.: Exec.
+Geometry And Skinning Weights..: Exec.
 
-Geometry Only: Exec.
+仅限几何图形。执行。
 
-Skinning Weights Only: Exec.
-
+仅限蒙皮权重。Exec.

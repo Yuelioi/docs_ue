@@ -1,6 +1,6 @@
 # LiteralenumEVisibilityBasedAnimT-
 
-Literal enum EVisibilityBasedAnimTickOption
+枚举EVisibilityBasedAnimTickOption
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EVisibilityBasedAnimTickOption
 
 ## Inputs
 
-Enum: EVisibilityBasedAnimTickOption Enum.  
+枚举。EVisibilityBasedAnimTickOption Enum.  
 
 ## Outputs
 
-Return Value: EVisibilityBasedAnimTickOption Enum.
-
+返回值。EVisibilityBasedAnimTickOption Enum。

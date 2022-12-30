@@ -1,6 +1,6 @@
 # LiteralenumEObjectStateTypeEnum
 
-Literal enum EObjectStateTypeEnum
+字面意义上的EObjectStateType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EObjectStateTypeEnum
 
 ## Inputs
 
-Enum: EObjectStateTypeEnum Enum.  
+枚举。EObjectStateTypeEnum Enum.  
 
 ## Outputs
 
-Return Value: EObjectStateTypeEnum Enum.
-
+返回值。EObjectStateTypeEnum枚举。

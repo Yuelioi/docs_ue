@@ -1,6 +1,6 @@
 # SwitchonEImportanceWeight
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EImportanceWeight Enum.  
+选择。EImportanceWeight Enum.  
 
 ## Outputs
 
-Luminance: Exec.
+亮度。Exec.
 
 Red: Exec.
 
-Green: Exec.
+绿色：执行。执行
 
-Blue: Exec.
+蓝色：执行 Exec.
 
-Alpha: Exec.
-
+阿尔法 执行

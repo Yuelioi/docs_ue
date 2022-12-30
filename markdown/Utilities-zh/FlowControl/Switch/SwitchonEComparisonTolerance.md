@@ -1,6 +1,6 @@
 # SwitchonEComparisonTolerance
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EComparisonTolerance Enum.  
+选择。EComparisonTolerance Enum.  
 
 ## Outputs
 
-Zero: Exec.
+零：执行。
 
-Low: Exec.
+低：执行。
 
-Medium: Exec.
+中等 执着。
 
-High: Exec.
+高：执行。
 
-Custom: Exec.
-
+自定义。执行。

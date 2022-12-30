@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFBeam
 
-Adds a node that breaks a 'DMXImportGDTFBeam' into its member fields
+添加一个节点，将'DMXImportGDTFBeam'分解成其成员字段。
 
 ## 图示
 
@@ -8,31 +8,30 @@ Adds a node that breaks a 'DMXImportGDTFBeam' into its member fields
 
 ## Inputs
 
-DMXImport GDTFBeam: DMXImport GDTFBeam Structure (by ref).  
+DMXImport GDTFBeam: DMXImport GDTFBeam结构（通过引用）。 
 
 ## Outputs
 
-Lamp Type: EDMXImportGDTFLampType Enum. Lamp Type.
+灯的类型。EDMXImportGDTFLampType枚举。灯的类型。
 
-Power Consumption: Float (single-precision). Power Consumption.
+耗电量。Float（单精度）。耗电量。
 
-Luminous Flux: Float (single-precision). Luminous Flux.
+Luminous Flux（光通量）：浮点（单精度）。光通量。
 
-Color Temperature: Float (single-precision). Color Temperature.
+色温。浮点（单精度）。色温。
 
-Beam Angle: Float (single-precision). Beam Angle.
+光束角度。浮动（单精度）。光束角度。
 
-Field Angle: Float (single-precision). Field Angle.
+场角。浮点（单精度）。场角。
 
-Beam Radius: Float (single-precision). Beam Radius.
+光束半径。浮点（单精度）。光束半径。
 
-Beam Type: EDMXImportGDTFBeamType Enum. Beam Type.
+光束类型。EDMXImportGDTFBeamType枚举。光束类型。
 
-Color Rendering Index: Byte. Color Rendering Index.
+Color Rendering Index（颜色渲染指数）。字节。颜色渲染指数。
 
-Name: Name. Name.
+名称。名称。名称：名称。
 
-Model: Name. Model.
+模型。名称. 模型。
 
-Position: Matrix Structure. Position.
-
+位置。矩阵结构。职务：职务。

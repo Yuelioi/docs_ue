@@ -1,6 +1,6 @@
 # LiteralenumEInterchangeNodeConta-
 
-Literal enum EInterchangeNodeContainerType
+枚举 EInterchangeNodeContainerType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EInterchangeNodeContainerType
 
 ## Inputs
 
-Enum: EInterchangeNodeContainerType Enum.  
+枚举。EInterchangeNodeContainerType枚举。 
 
 ## Outputs
 
-Return Value: EInterchangeNodeContainerType Enum.
-
+返回值。EInterchangeNodeContainerType Enum。

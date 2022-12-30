@@ -1,6 +1,6 @@
 # LiteralenumESourceEffectFilterCi-
 
-Literal enum ESourceEffectFilterCircuit
+枚举ESourceEffectFilterCircuit
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESourceEffectFilterCircuit
 
 ## Inputs
 
-Enum: ESourceEffectFilterCircuit Enum.  
+枚举。ESourceEffectFilterCircuit Enum.  
 
 ## Outputs
 
-Return Value: ESourceEffectFilterCircuit Enum.
-
+返回值。ESourceEffectFilterCircuit Enum。

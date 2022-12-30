@@ -1,6 +1,6 @@
 # LiteralenumEMoviePipelineObjectI-
 
-Literal enum EMoviePipelineObjectIdPassIdType
+枚举EMoviePipelineObjectIdPassIdType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMoviePipelineObjectIdPassIdType
 
 ## Inputs
 
-Enum: EMoviePipelineObjectIdPassIdType Enum.  
+枚举。EMoviePipelineObjectIdPassIdType枚举。 
 
 ## Outputs
 
-Return Value: EMoviePipelineObjectIdPassIdType Enum.
-
+返回值。EMoviePipelineObjectIdPassIdType枚举。

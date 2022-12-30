@@ -21,4 +21,3 @@ Texture Pairing Sync: Float (single-precision). Texture Pairing Sync:. Wait for 
 Texture Resource Sync: Float (single-precision). Texture Resource Sync:. Wait for remote resource(GPU) handle ready (ETextureShareBPSyncFrame::Sync) [Seconds, zero for infinite].
 
 Texture Sync: Float (single-precision). Texture Sync:. Wait before Read op texture until remote process finished texture write op [Seconds, zero for infinite].
-

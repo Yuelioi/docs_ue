@@ -1,6 +1,6 @@
 # BytetoEnumEZoneShapePolygonRouti-
 
-Byte to Enum EZoneShapePolygonRoutingType
+字节到枚举 EZoneShapePolygonRoutingType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EZoneShapePolygonRoutingType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EZoneShapePolygonRoutingType Enum.
-
+返回值。EZoneShapePolygonRoutingType Enum。

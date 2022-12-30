@@ -1,6 +1,6 @@
 # SwitchonEGeometryScriptMathWarpT-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGeometryScriptMathWarpType Enum.  
+选择。EGeometryScriptMathWarpType枚举。 
 
 ## Outputs
 
-Sin Wave 1D: Exec.
+Sin Wave 1D: 执行。
 
-Sin Wave 2D: Exec.
+Sin Wave 2D: 执行。
 
-Sin Wave 3D: Exec.
-
+Sin Wave 3D: 执行。

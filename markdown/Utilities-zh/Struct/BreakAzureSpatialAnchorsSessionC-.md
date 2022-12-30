@@ -1,6 +1,6 @@
 # BreakAzureSpatialAnchorsSessionC-
 
-Adds a node that breaks a 'AzureSpatialAnchorsSessionConfiguration' into its member fields
+添加一个节点，将'AzureSpatialAnchorsSessionConfiguration'分解为其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'AzureSpatialAnchorsSessionConfiguration' into its mem
 
 ## Inputs
 
-Azure Spatial Anchors Session Configuration: Azure Spatial Anchors Session Configuration Structure (by ref).  
+Azure Spatial Anchors Session Configuration。Azure Spatial Anchors会话配置结构（通过引用）。 
 
 ## Outputs
 
-Access Token: String. Access Token.
+访问令牌。字符串。访问令牌。
 
-Account Id: String. Account Id.
+帐户标识。字符串。帐户ID。
 
-Account Key: String. Account Key.
+Account Key: 字符串。帐户密钥。
 
-Account Domain: String. Account Domain.
+Account Domain: String. 帐户域。
 
 Authentication Token: String. Authentication Token.
-

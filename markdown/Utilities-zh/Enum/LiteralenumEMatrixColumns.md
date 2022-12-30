@@ -1,6 +1,6 @@
 # LiteralenumEMatrixColumns
 
-Literal enum EMatrixColumns
+字面意义上的枚举EMatrixColumns
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMatrixColumns
 
 ## Inputs
 
-Enum: EMatrixColumns Enum.  
+枚举。EMatrixColumns Enum.  
 
 ## Outputs
 
-Return Value: EMatrixColumns Enum.
-
+返回值。EMatrixColumns Enum。

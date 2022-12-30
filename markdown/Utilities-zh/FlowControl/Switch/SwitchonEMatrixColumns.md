@@ -1,6 +1,6 @@
 # SwitchonEMatrixColumns
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMatrixColumns Enum.  
+选择。EMatrixColumns Enum.  
 
 ## Outputs
 
-First: Exec.
+首先。执行。
 
-Second: Exec.
+第二：执行。
 
-Third: Exec.
+第三：执行。
 
-Fourth: Exec.
-
+第四：执行。

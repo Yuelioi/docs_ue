@@ -1,6 +1,6 @@
 # BreakFloatRange
 
-Adds a node that breaks a 'FloatRange' into its member fields
+添加一个节点，将'FloatRange'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'FloatRange' into its member fields
 
 ## Inputs
 
-Float Range: Float Range Structure (by ref).  
+Float Range。Float Range结构（通过引用）。 
 
 ## Outputs
 
-Lower Bound: Float Range Bound Structure. Lower Bound:. Holds the range's lower bound..
+下边界。Float Range Bound结构。Lower Bound:. 保存范围的下限。
 
-Upper Bound: Float Range Bound Structure. Upper Bound:. Holds the range's upper bound..
-
+Upper Bound: Float Range Bound结构。Upper Bound:. 保存范围的上界。

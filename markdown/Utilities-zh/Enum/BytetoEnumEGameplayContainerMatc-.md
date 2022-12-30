@@ -1,6 +1,6 @@
 # BytetoEnumEGameplayContainerMatc-
 
-Byte to Enum EGameplayContainerMatchType
+字节到枚举 EGameplayContainerMatchType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGameplayContainerMatchType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGameplayContainerMatchType Enum.
-
+返回值。EGameplayContainerMatchType Enum。

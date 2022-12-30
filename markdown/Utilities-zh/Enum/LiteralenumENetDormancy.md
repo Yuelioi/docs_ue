@@ -1,6 +1,6 @@
 # LiteralenumENetDormancy
 
-Literal enum ENetDormancy
+字面意义上的枚举 ENetDormancy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ENetDormancy
 
 ## Inputs
 
-Enum: ENetDormancy Enum.  
+枚举。ENetDormancy Enum.  
 
 ## Outputs
 
-Return Value: ENetDormancy Enum.
-
+返回值。ENetDormancy Enum。

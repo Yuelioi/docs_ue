@@ -1,6 +1,6 @@
 # BytetoEnumEWidgetBlendMode
 
-Byte to Enum EWidgetBlendMode
+字节到枚举 EWidgetBlendMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EWidgetBlendMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWidgetBlendMode Enum.
-
+返回值。EWidgetBlendMode枚举。

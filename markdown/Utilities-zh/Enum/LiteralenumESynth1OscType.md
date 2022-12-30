@@ -1,6 +1,6 @@
 # LiteralenumESynth1OscType
 
-Literal enum ESynth1OscType
+字面意义上的枚举ESynth1OscType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESynth1OscType
 
 ## Inputs
 
-Enum: ESynth1OscType Enum.  
+枚举。ESynth1OscType枚举。 
 
 ## Outputs
 
-Return Value: ESynth1OscType Enum.
-
+返回值。ESynth1OscType Enum。

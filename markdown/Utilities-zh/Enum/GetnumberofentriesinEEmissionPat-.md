@@ -1,6 +1,6 @@
 # GetnumberofentriesinEEmissionPat-
 
-Returns EEmissionPatternTypeEnum_MAX value
+返回EEmissionPatternTypeEnum_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EEmissionPatternTypeEnum_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinECommonInput-_1
 
-Returns ECommonInputType_MAX value
+返回 ECommonInputType_MAX 值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ECommonInputType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

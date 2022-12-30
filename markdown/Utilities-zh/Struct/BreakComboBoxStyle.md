@@ -1,6 +1,6 @@
 # BreakComboBoxStyle
 
-Adds a node that breaks a 'ComboBoxStyle' into its member fields
+添加一个节点，将'ComboBoxStyle'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'ComboBoxStyle' into its member fields
 
 ## Inputs
 
-Combo Box Style: Combo Box Style Structure (by ref).  
+Combo Box Style。Combo Box Style结构（通过引用）。 
 
 ## Outputs
 
-Combo Button Style: Combo Button Style Structure. Combo Button Style:. The style to use for our SComboButton.
+Combo Button Style: Combo Button Style结构。Combo Button Style:. 用于我们的SComboButton的样式。
 
-Pressed Sound: Slate Sound Structure. Pressed Slate Sound:. The sound the button should play when pressed.
+Pressed Sound（按下的声音）。Slate Sound结构。Pressed Slate Sound:. 按钮被按下时应该播放的声音。
 
-Selection Change Sound: Slate Sound Structure. Selection Change Slate Sound:. The Sound to play when the selection is changed.
+选择变化的声音。石板的声音结构。选择变化的石板声：。改变选择时要播放的声音。
 
-Content Padding: Margin Structure. Content Padding:: Button Content Padding.
+Content Padding（内容填充）。Margin结构。Content Padding:（内容填充）。按钮内容填充。
 
-Menu Row Padding: Margin Structure. Menu Row Padding:: Menu Row Padding.
-
+菜单行填充。边距结构。Menu Row Padding:（菜单行填充）。菜单行填充：菜单行填充。

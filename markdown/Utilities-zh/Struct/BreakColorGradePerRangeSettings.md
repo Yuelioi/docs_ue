@@ -1,6 +1,6 @@
 # BreakColorGradePerRangeSettings
 
-Adds a node that breaks a 'ColorGradePerRangeSettings' into its member fields
+添加一个节点，将'ColorGradePerRangeSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'ColorGradePerRangeSettings' into its member fields
 
 ## Inputs
 
-Color Grade Per Range Settings: Color Grade Per Range Settings Structure (by ref).  
+Color Grade Per Range Settings（每个范围的颜色等级设置）。每个范围的颜色等级设置结构（通过引用）。 
 
 ## Outputs
 
-Saturation: Vector 4 Structure. Saturation.
+饱和度。Vector 4 结构。饱和度：向量4结构。
 
-Contrast: Vector 4 Structure. Contrast.
+对比度。矢量4结构。对比度。
 
-Gamma: Vector 4 Structure. Gamma.
+伽玛。向量4结构。伽玛。
 
-Gain: Vector 4 Structure. Gain.
+增益。Vector 4 Structure. 增益。
 
 Offset: Vector 4 Structure. Offset.
-

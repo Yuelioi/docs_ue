@@ -1,6 +1,6 @@
 # BreakDisplayClusterReplaceTextur-
 
-Adds a node that breaks a 'DisplayClusterReplaceTextureCropRectangle' into its member fields
+添加一个节点，将'DisplayClusterReplaceTextureCropRectangle'分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DisplayClusterReplaceTextureCropRectangle' into its m
 
 ## Inputs
 
-Display Cluster Replace Texture Crop Rectangle: Display Cluster Replace Texture Crop Rectangle Structure (by ref).  
+Display Cluster Replace Texture Crop Rectangle。Display Cluster Replace Texture Crop Rectangle 结构（通过引用）。 
 
 ## Outputs
 
-Texture Crop Origin: Texture Crop Origin Structure. Origin:. Texture Crop Origin.
+纹理裁剪原点。纹理裁剪原点结构。Origin:. 纹理裁剪起源。
 
-Texture Crop Size: Texture Crop Size Structure. Size:. Texture Crop Size.
-
+Texture Crop Size（纹理裁剪尺寸）。纹理作物尺寸结构。Size:（尺寸）。纹理裁剪尺寸。

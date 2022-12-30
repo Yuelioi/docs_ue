@@ -1,6 +1,6 @@
 # GetnumberofentriesinESourceEffec-_2
 
-Returns ESourceEffectFilterParam_MAX value
+返回ESourceEffectFilterParam_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESourceEffectFilterParam_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

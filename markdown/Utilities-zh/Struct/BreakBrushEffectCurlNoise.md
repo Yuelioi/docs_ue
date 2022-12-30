@@ -1,6 +1,6 @@
 # BreakBrushEffectCurlNoise
 
-Adds a node that breaks a 'BrushEffectCurlNoise' into its member fields
+添加一个节点，将'刷子效果卷曲噪声'分解到其成员字段中
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'BrushEffectCurlNoise' into its member fields
 
 ## Inputs
 
-Brush Effect Curl Noise: Brush Effect Curl Noise Structure (by ref).  
+刷子效果卷曲噪声。刷子效果卷曲噪声结构（通过引用）。 
 
 ## Outputs
 
-Curl 1Amount: Float (single-precision). Curl 1Amount.
+Curl 1Amount。Float（单精度）。Curl 1Amount：刷子效果卷曲噪声结构（通过引用）。
 
-Curl 2Amount: Float (single-precision). Curl 2Amount.
+Curl 2Amount: 浮点（单精度）。Curl 2Amount.
 
-Curl 1Tiling: Float (single-precision). Curl 1Tiling.
+Curl 1Tiling: Float（单精度）。Curl 1Tiling.
 
-Curl 2Tiling: Float (single-precision). Curl 2Tiling.
-
+Curl 2Tiling: Float（单精度）。Curl 2Tiling.

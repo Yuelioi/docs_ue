@@ -1,6 +1,6 @@
 # LiteralenumEVirtualKeyboardDismi-
 
-Literal enum EVirtualKeyboardDismissAction
+枚举EVirtualKeyboardDismissAction
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EVirtualKeyboardDismissAction
 
 ## Inputs
 
-Enum: EVirtualKeyboardDismissAction Enum.  
+枚举。EVirtualKeyboardDismissAction枚举。 
 
 ## Outputs
 
-Return Value: EVirtualKeyboardDismissAction Enum.
-
+返回值。EVirtualKeyboardDismissAction Enum.

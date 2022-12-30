@@ -1,6 +1,6 @@
 # SwitchonEGranularSynthSeekType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGranularSynthSeekType Enum.  
+选择。EGranularSynthSeekType枚举。 
 
 ## Outputs
 
-From Beginning: Exec.
+从头开始。Exec.
 
-From Current Position: Exec.
-
+从当前位置开始。Exec.

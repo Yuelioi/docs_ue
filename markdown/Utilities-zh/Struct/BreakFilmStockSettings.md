@@ -1,6 +1,6 @@
 # BreakFilmStockSettings
 
-Adds a node that breaks a 'FilmStockSettings' into its member fields
+添加一个节点，将 "FilmStockSettings "分解成其成员字段。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'FilmStockSettings' into its member fields
 
 ## Inputs
 
-Film Stock Settings: Film Stock Settings Structure (by ref).  
+电影库存设置。电影库存设置结构（通过参考）。 
 
 ## Outputs
 
-Slope: Float (single-precision). Slope.
+斜率。Float（单精度）。坡度。
 
-Toe: Float (single-precision). Toe.
+脚趾。浮动（单精度）。脚趾。
 
-Shoulder: Float (single-precision). Shoulder.
+肩部。浮动（单精度）。肩部。
 
-Black Clip: Float (single-precision). Black Clip.
+黑夹子。浮动（单精度）。黑色夹子。
 
-White Clip: Float (single-precision). White Clip.
-
+白色夹子。浮点（单精度）。白色夹子

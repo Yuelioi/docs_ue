@@ -1,6 +1,6 @@
 # BreakDataRegistryId
 
-Adds a node that breaks a 'DataRegistryId' into its member fields
+添加一个节点，将'DataRegistryId'分解到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DataRegistryId' into its member fields
 
 ## Inputs
 
-Data Registry Id: Data Registry Id Structure (by ref).  
+数据注册处Id。数据注册处Id结构（通过引用）。 
 
 ## Outputs
 
-Registry Type: Data Registry Type Structure. Registry Type:. The type of this item, used to look up the correct registry.
+注册表类型。数据注册表类型结构。注册表类型：。这个项目的类型，用于查找正确的注册表。
 
-Item Name: Name. Item Name:. The name of this object, may be a leaf gameplay tag or a raw name depending on the type.
-
+项目名称。名称。项目名称：。这个对象的名称，可以是叶子游戏标签或原始名称，取决于类型。

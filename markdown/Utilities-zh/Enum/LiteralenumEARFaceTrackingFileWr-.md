@@ -1,6 +1,6 @@
 # LiteralenumEARFaceTrackingFileWr-
 
-Literal enum EARFaceTrackingFileWriterType
+枚举EARFaceTrackingFileWriterType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARFaceTrackingFileWriterType
 
 ## Inputs
 
-Enum: EARFaceTrackingFileWriterType Enum.  
+枚举。EARFaceTrackingFileWriterType Enum.  
 
 ## Outputs
 
-Return Value: EARFaceTrackingFileWriterType Enum.
-
+返回值。EARFaceTrackingFileWriterType Enum。

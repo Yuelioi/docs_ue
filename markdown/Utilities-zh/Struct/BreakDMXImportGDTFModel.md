@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFModel
 
-Adds a node that breaks a 'DMXImportGDTFModel' into its member fields
+添加一个节点，将'DMXImportGDTFModel'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'DMXImportGDTFModel' into its member fields
 
 ## Inputs
 
-DMXImport GDTFModel: DMXImport GDTFModel Structure (by ref).  
+DMXImport GDTFModel。DMXImport GDTFModel 结构（通过引用）。 
 
 ## Outputs
 
-Name: Name. Name.
+名称。名称。名称： 名称。
 
-Length: Float (single-precision). Length.
+长度。Float（单精度）。长度
 
-Width: Float (single-precision). Width.
+width: Float (single-precision). 宽度。
 
-Height: Float (single-precision). Height.
+高度。Float (single-precision). 高度。
 
-Primitive Type: EDMXImportGDTFPrimitiveType Enum. Primitive Type.
-
+原始类型。EDMXImportGDTFPrimitiveType枚举。原始类型。

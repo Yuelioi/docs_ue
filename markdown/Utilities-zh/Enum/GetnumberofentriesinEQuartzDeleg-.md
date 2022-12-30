@@ -1,6 +1,6 @@
 # GetnumberofentriesinEQuartzDeleg-
 
-Returns EQuartzDelegateType_MAX value
+返回EQuartzDelegateType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EQuartzDelegateType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

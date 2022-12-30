@@ -1,6 +1,6 @@
 # Getnumberofentri-_38
 
-Returns EVPCameraRigSpawnLinearApproximationMode_MAX value
+返回EVPCameraRigSpawnLinearApproximationMode_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EVPCameraRigSpawnLinearApproximationMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

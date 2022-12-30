@@ -1,8 +1,8 @@
 # RemoveItems
 
-Removes all elements in an Array from a set.
+将一个数组中的所有元素从一个集合中移除。
 
-Target is Blueprint Set Library
+目标是蓝图集库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Blueprint Set Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Target Set: Set of Wildcards. The set to remove from.
+目标集。通配符的集合。要删除的集合。
 
-Items: Array of Wildcards. The items to remove from the set.  
+项目。通配符阵列。要从该集合中移除的项目。 
 
 ## Outputs
 
-Out: Exec.
-
+输出。执行。

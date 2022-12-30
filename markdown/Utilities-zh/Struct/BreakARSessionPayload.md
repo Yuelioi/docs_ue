@@ -1,6 +1,6 @@
 # BreakARSessionPayload
 
-Adds a node that breaks a 'ARSessionPayload' into its member fields
+添加一个节点，将'ARSessionPayload'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ARSessionPayload' into its member fields
 
 ## Inputs
 
-ARSession Payload: ARSession Payload Structure (by ref).  
+ARSession Payload。ARSession Payload结构（通过引用）。 
 
 ## Outputs
 
-Config Flags: Integer. Config Flags.
+配置标志。整数。Config Flags: 配置标志。
 
-Default Mesh Material: Material Interface Object Reference. Default Mesh Material.
+默认的网格材料。材料接口对象参考。默认的网格材料。
 
-Default Wireframe Mesh Material: Material Interface Object Reference. Default Wireframe Mesh Material.
-
+默认的线框网格材质。材质界面对象参考。默认的线框网格材质。

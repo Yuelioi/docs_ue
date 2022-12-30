@@ -1,6 +1,6 @@
 # SwitchonEPlaneComponentDebugMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EPlaneComponentDebugMode Enum.  
+选择。EPlaneComponentDebugMode枚举。 
 
 ## Outputs
 
-None: Exec.
+无。执行。
 
-Show Network Role: Exec.
+显示网络角色。Exec.
 
-Show Classification: Exec.
-
+显示分类。Exec.

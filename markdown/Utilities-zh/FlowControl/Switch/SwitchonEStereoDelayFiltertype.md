@@ -1,6 +1,6 @@
 # SwitchonEStereoDelayFiltertype
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EStereoDelayFiltertype Enum.  
+选择。EStereoDelayFiltertype Enum.  
 
 ## Outputs
 
-Lowpass: Exec.
+低通。Exec.
 
-Highpass: Exec.
+高通。Exec.
 
-Bandpass: Exec.
+带通。执行
 
-Notch: Exec.
-
+凹槽：执行

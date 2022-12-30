@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-_16
 
-Adds a node that breaks a 'DisplayClusterConfigurationRectangle' into its member fields
+添加一个节点，将'DisplayClusterConfigurationRectangle'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'DisplayClusterConfigurationRectangle' into its member
 
 ## Inputs
 
-Display Cluster Configuration Rectangle: Display Cluster Configuration Rectangle Structure (by ref).  
+显示群集配置矩形。显示集群配置矩形结构（通过引用）。 
 
 ## Outputs
 
-X: Integer. X.
+X：整数。X.
 
-Y: Integer. Y.
+Y: 整数。Y.
 
-W: Integer. W.
+W: 整数。W.
 
-H: Integer. H.
-
+H：整数。H.

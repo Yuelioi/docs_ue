@@ -1,6 +1,6 @@
 # SwitchonEMIDIEventType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMIDIEventType Enum.  
+选择。EMIDIEventType枚举。 
 
 ## Outputs
 
-Note Off: Exec.
+注意 关闭：执行。
 
-Note On: Exec.
+注释开。Exec.
 
-Note After Touch: Exec.
+触摸后注意。Exec.
 
-Control Change: Exec.
+控制改变。Exec.
 
-Program Change: Exec.
+程序更改：执行。执行。
 
-Channel After Touch: Exec.
+触摸后的频道。执行。
 
-Pitch Bend: Exec.
-
+弯音：执行。

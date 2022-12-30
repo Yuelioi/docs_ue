@@ -1,6 +1,6 @@
 # LiteralenumEUINavigationRule
 
-Literal enum EUINavigationRule
+字面上的枚举：EUINavigationRule
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EUINavigationRule
 
 ## Inputs
 
-Enum: EUINavigationRule Enum.  
+枚举。EUINavigationRule Enum.  
 
 ## Outputs
 
-Return Value: EUINavigationRule Enum.
-
+返回值。EUINavigationRule Enum。

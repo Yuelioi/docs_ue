@@ -1,6 +1,6 @@
 # BytetoEnumEZoneGraphLaneRoutingC-
 
-Byte to Enum EZoneGraphLaneRoutingCountRule
+字节到枚举 EZoneGraphLaneRoutingCountRule
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EZoneGraphLaneRoutingCountRule
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EZoneGraphLaneRoutingCountRule Enum.
-
+返回值。EZoneGraphLaneRoutingCountRule Enum。

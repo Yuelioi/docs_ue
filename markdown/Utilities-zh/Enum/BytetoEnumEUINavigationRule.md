@@ -1,6 +1,6 @@
 # BytetoEnumEUINavigationRule
 
-Byte to Enum EUINavigationRule
+字节到枚举 EUINavigationRule
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EUINavigationRule
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EUINavigationRule Enum.
-
+返回值。EUINavigationRule Enum。

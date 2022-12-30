@@ -1,6 +1,6 @@
 # GetnumberofentriesinETimelineDir-
 
-Returns ETimelineDirection_MAX value
+返回ETimelineDirection_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ETimelineDirection_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

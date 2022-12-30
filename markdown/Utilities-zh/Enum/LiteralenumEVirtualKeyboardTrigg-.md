@@ -1,6 +1,6 @@
 # LiteralenumEVirtualKeyboardTrigg-
 
-Literal enum EVirtualKeyboardTrigger
+枚举EVirtualKeyboardTrigger
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EVirtualKeyboardTrigger
 
 ## Inputs
 
-Enum: EVirtualKeyboardTrigger Enum.  
+枚举。EVirtualKeyboardTrigger Enum.  
 
 ## Outputs
 
-Return Value: EVirtualKeyboardTrigger Enum.
-
+返回值。EVirtualKeyboardTrigger Enum.

@@ -1,6 +1,6 @@
 # LiteralenumEDataValidationUsecas-
 
-Literal enum EDataValidationUsecase
+枚举EDataValidationUsecase
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDataValidationUsecase
 
 ## Inputs
 
-Enum: EDataValidationUsecase Enum.  
+枚举。EDataValidationUsecase Enum.  
 
 ## Outputs
 
-Return Value: EDataValidationUsecase Enum.
-
+返回值。EDataValidationUsecase Enum。

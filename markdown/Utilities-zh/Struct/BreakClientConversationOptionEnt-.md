@@ -1,6 +1,6 @@
 # BreakClientConversationOptionEnt-
 
-Adds a node that breaks a 'ClientConversationOptionEntry' into its member fields
+添加一个节点，将'客户端对话选项条目'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'ClientConversationOptionEntry' into its member fields
 
 ## Inputs
 
-Client Conversation Option Entry: Client Conversation Option Entry Structure (by ref).  
+客户端对话选项条目。客户端对话选项条目结构（通过引用）。 
 
 ## Outputs
 
-Choice Text: Text. Choice Text.
+选择文本。文本。Choice Text: 选择文本。
 
-Choice Tags: Gameplay Tag Container Structure. Choice Tags.
+选择标签。Gameplay标签容器结构。选择标签。
 
-Choice Type: EConversationChoiceType Enum. Choice Type.
+选择类型。EConversationChoiceType枚举。选择类型。
 
-Choice Reference: Conversation Choice Reference Structure. Choice Reference.
+Choice Reference（选择参考）。Conversation Choice Reference结构。选择参考。
 
-Extra Data: Array of Conversation Node Parameter Pair Structures. Extra Data:. Occasionally a choice might need to send down metadata that's entirely extra.. It's just bonus information for the client to do things like show more information. in the UI. This information is not used on the return to the server to make the choice..
-
+额外数据。Array of Conversation Node Parameter Pair Structures. 额外数据：。偶尔一个选择可能需要向下发送完全是额外的元数据。这只是额外的信息，用于客户端做一些事情，比如在用户界面中显示更多的信息。这些信息在返回服务器时不会被用来做选择。

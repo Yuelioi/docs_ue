@@ -1,6 +1,6 @@
 # LiteralenumESynth1PatchDestinati-
 
-Literal enum ESynth1PatchDestination
+枚举ESynth1PatchDestination
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESynth1PatchDestination
 
 ## Inputs
 
-Enum: ESynth1PatchDestination Enum.  
+枚举。ESynth1PatchDestination枚举。 
 
 ## Outputs
 
-Return Value: ESynth1PatchDestination Enum.
-
+返回值。ESynth1PatchDestination Enum。

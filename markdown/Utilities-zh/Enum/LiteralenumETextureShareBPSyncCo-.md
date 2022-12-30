@@ -1,6 +1,6 @@
 # LiteralenumETextureShareBPSyncCo-
 
-Literal enum ETextureShareBPSyncConnect
+枚举 ETextureShareBPSyncConnect
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETextureShareBPSyncConnect
 
 ## Inputs
 
-Enum: ETextureShareBPSyncConnect Enum.  
+枚举。ETextureShareBPSyncConnect Enum.  
 
 ## Outputs
 
-Return Value: ETextureShareBPSyncConnect Enum.
-
+返回值。ETextureShareBPSyncConnect Enum。

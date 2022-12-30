@@ -1,6 +1,6 @@
 # GreaterEqual
 
-Greater Equal
+大平等
 
 ## 图示
 
@@ -8,11 +8,10 @@ Greater Equal
 
 ## Inputs
 
-A: Wildcard.
+A: 通配符。
 
-B: Wildcard.  
+B：通配符。 
 
 ## Outputs
 
-Return Value: Boolean. Returns true if A is greater than or equal to B (A >= B).
-
+返回值。布尔值。如果A大于或等于B（A >= B），返回真。

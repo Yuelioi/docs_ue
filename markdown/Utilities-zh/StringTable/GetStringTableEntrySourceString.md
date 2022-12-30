@@ -1,8 +1,8 @@
 # GetStringTableEntrySourceString
 
-Returns the source string of the given string table entry (or an empty string).
+返回给定字符串表项的源字符串（或空字符串）。
 
-Target is Kismet String Table Library
+目标是Kismet字符串表库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet String Table Library
 
 ## Inputs
 
-Table Id: Name.
+表标识。名称。
 
-Key: String.  
+键。字符串。 
 
 ## Outputs
 
-Return Value: String. Returns the source string of the given string table entry (or an empty string)..
-
+返回值。字符串。返回给定字符串表项的源字符串（或空字符串）。

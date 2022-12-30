@@ -1,6 +1,6 @@
 # LiteralenumESpawnActorCollisionH-
 
-Literal enum ESpawnActorCollisionHandlingMethod
+枚举ESpawnActorCollisionHandlingMethod的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESpawnActorCollisionHandlingMethod
 
 ## Inputs
 
-Enum: ESpawnActorCollisionHandlingMethod Enum.  
+枚举。ESpawnActorCollisionHandlingMethod Enum.  
 
 ## Outputs
 
-Return Value: ESpawnActorCollisionHandlingMethod Enum.
-
+返回值。ESpawnActorCollisionHandlingMethod Enum.

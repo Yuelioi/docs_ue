@@ -1,8 +1,8 @@
 # ConverttoRelativePath
 
-Converts passed in filename to use a relative path
+将传入的文件名转换为使用一个相对路径
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Filename: String.  
+文件名：字符串。 
 
 ## Outputs
 
-Return Value: String. Converts passed in filename to use a relative path.
-
+返回值。字符串。将传入的文件名转换为使用相对路径。

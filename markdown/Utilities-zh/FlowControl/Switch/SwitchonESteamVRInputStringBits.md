@@ -1,6 +1,6 @@
 # SwitchonESteamVRInputStringBits
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESteamVRInputStringBits Enum.  
+选择。ESteamVRInputStringBits Enum.  
 
 ## Outputs
 
-Hand: Exec.
+手中。Exec.
 
-Controller Type: Exec.
+控制器类型。Exec.
 
-Input Source: Exec.
+输入源。Exec.
 
-All: Exec.
-
+全部：执行

@@ -1,6 +1,6 @@
 # LiteralenumEGeoAnchorComponentDe-
 
-Literal enum EGeoAnchorComponentDebugMode
+枚举：EGeoAnchorComponentDebugMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeoAnchorComponentDebugMode
 
 ## Inputs
 
-Enum: EGeoAnchorComponentDebugMode Enum.  
+枚举。EGeoAnchorComponentDebugMode枚举。 
 
 ## Outputs
 
-Return Value: EGeoAnchorComponentDebugMode Enum.
-
+返回值。EGeoAnchorComponentDebugMode Enum.

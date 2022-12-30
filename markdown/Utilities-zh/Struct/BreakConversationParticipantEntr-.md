@@ -1,6 +1,6 @@
 # BreakConversationParticipantEntr-
 
-Adds a node that breaks a 'ConversationParticipantEntry' into its member fields
+添加一个节点，将 "对话参与者条目 "分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ConversationParticipantEntry' into its member fields
 
 ## Inputs
 
-Conversation Participant Entry: Conversation Participant Entry Structure (by ref).  
+对话参与者条目。对话参与者条目结构（通过引用）。 
 
 ## Outputs
 
-Actor: Actor Object Reference. Actor.
+Actor（演员）。Actor对象参考。Actor.
 
-Participant ID: Gameplay Tag Structure. Participant ID.
-
+参与者ID。Gameplay标签结构。参与者ID。

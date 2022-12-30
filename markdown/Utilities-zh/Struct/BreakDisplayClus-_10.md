@@ -1,6 +1,6 @@
 # BreakDisplayClus-_10
 
-Adds a node that breaks a 'DisplayClusterConfigurationICVFX_ChromakeyRenderSettings' into its member fields
+添加一个打破'DisplayClusterConfigurationICVFX_ChromakeyRenderSettings'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that breaks a 'DisplayClusterConfigurationICVFX_ChromakeyRenderSetti
 
 ## Inputs
 
-Display Cluster Configuration ICVFX Chromakey Render Settings: Display Cluster Configuration ICVFX Chromakey Render Settings Structure (by ref).  
+显示集群配置ICVFX Chromakey 渲染设置。显示集群配置ICVFX Chromakey 渲染设置结构（通过参考）。 
 
 ## Outputs
 
-Use Custom Chromakey: Boolean. Enable:. Set to True to use custom chromakey content..
+使用自定义Chromakey：布尔值。启用：。设置为 "True"，以使用自定义Chromakey内容。
 
-Replace Camera Viewport: Boolean. Replace Camera Viewport:. Replace the texture of the camera viewport from this chromakey RTT.
+替换相机视口。Boolean（布尔）。Replace Camera Viewport:.替换相机视口。替换此chromakey RTT的相机视口的纹理。
 
-Custom Size: Display Cluster Configuration ICVFX Custom Size Structure. Custom Size:. Performance: Use custom size (low-res) for chromakey RTT frame. Default size same as camera frame.
+自定义尺寸。显示集群配置ICVFX自定义尺寸结构。自定义尺寸:。性能。对chromakey RTT帧使用自定义尺寸（低分辨率）。默认尺寸与摄像机帧相同。
 
-Custom Chromakey Content: Display Cluster Configuration ICVFX Visibility List Structure. Show Only List:. Content specified here will be overridden to use the chromakey color specified and include chromakey markers if enabled..
+自定义Chromakey内容。显示集群配置ICVFX可见度列表结构。只显示列表：。这里指定的内容将被覆盖，以使用指定的chromakey颜色，并包括chromakey标记（如果启用）。
 
-Replace: Display Cluster Configuration Post Render Override Structure. Replace:. Replace viewport render from source texture.
+替换。显示群组配置后渲染覆盖结构。替换：。从源纹理替换视口渲染。
 
-Post Process Blur: Display Cluster Configuration Post Render Blur Postprocess Structure. Postprocess Blur:. Apply blur to the Custom Chromakey content..
+Post Process Blur（后处理模糊）：Display Cluster Configuration（显示集群配置）Post Render Blur Postprocess（后处理）结构。Postprocess Blur:。对自定义Chromakey内容应用模糊处理。
 
-Generate Mips: Display Cluster Configuration Post Render Generate Mips Structure. Generate Mips.
+生成Mips。Display Cluster Configuration Post Render Generate Mips Structure. 生成Mips。
 
-Advanced Render Settings: Display Cluster Configuration ICVFX Overlay Advanced Render Settings Structure. Advanced Render Settings:. Advanced render settings.
-
+高级渲染设置。Display Cluster Configuration ICVFX Overlay Advanced Render Settings Structure. 高级渲染设置：. 高级渲染设置。

@@ -1,6 +1,6 @@
 # LiteralenumEGameplayContainerMat-
 
-Literal enum EGameplayContainerMatchType
+字面意义上的枚举：EGameplayContainerMatchType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayContainerMatchType
 
 ## Inputs
 
-Enum: EGameplayContainerMatchType Enum.  
+枚举。EGameplayContainerMatchType枚举。 
 
 ## Outputs
 
-Return Value: EGameplayContainerMatchType Enum.
-
+返回值。EGameplayContainerMatchType枚举。

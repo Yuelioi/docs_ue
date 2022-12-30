@@ -1,6 +1,6 @@
 # LiteralenumEAppReturnType
 
-Literal enum EAppReturnType
+EAppReturnType的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAppReturnType
 
 ## Inputs
 
-Enum: EAppReturnType Enum.  
+枚举。EAppReturnType Enum.  
 
 ## Outputs
 
-Return Value: EAppReturnType Enum.
-
+返回值。EAppReturnType Enum。

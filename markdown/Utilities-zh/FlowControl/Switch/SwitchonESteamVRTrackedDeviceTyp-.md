@@ -1,6 +1,6 @@
 # SwitchonESteamVRTrackedDeviceTyp-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESteamVRTrackedDeviceType Enum.  
+选择。ESteamVRTrackedDeviceType枚举。 
 
 ## Outputs
 
-Controller: Exec.
+控制器。Exec.
 
-Tracking Reference: Exec.
+追踪参考。Exec.
 
-Other: Exec.
+Other: 执行.
 
-Invalid: Exec.
-
+无效。执行.

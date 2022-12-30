@@ -8,9 +8,8 @@ Byte to Enum ELidarPointCloudSpriteShape
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELidarPointCloudSpriteShape Enum.
-
+返回值。ELidarPointCloudSpriteShape Enum。

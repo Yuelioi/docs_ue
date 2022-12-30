@@ -1,6 +1,6 @@
 # SwitchonETextCommit
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETextCommit Enum.  
+选择。ETextCommit枚举。 
 
 ## Outputs
 
-Default: Exec.
+默认值。执行。
 
-On Enter: Exec.
+输入时。执行。
 
-On User Moved Focus: Exec.
+在用户移动焦点时。执行。
 
-On Cleared: Exec.
-
+开启 清除。执行.

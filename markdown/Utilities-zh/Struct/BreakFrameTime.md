@@ -1,6 +1,6 @@
 # BreakFrameTime
 
-Adds a node that breaks a 'FrameTime' into its member fields
+添加一个节点，将 "帧时间 "分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'FrameTime' into its member fields
 
 ## Inputs
 
-Frame Time: Frame Time Structure (by ref).  
+帧时间。帧时间结构（通过引用）。 
 
 ## Outputs
 
-Frame Number: Frame Number Structure. Frame Number:. Count of frames from start of timing.
+帧号。帧号结构。帧数：。从计时开始的帧数。
 
-Sub Frame: Float (single-precision). Sub Frame:. Time within a frame, always between >= 0 and < 1.
-
+子帧。浮点数（单精度）。子帧：。一帧内的时间，总是在>=0和<1之间。

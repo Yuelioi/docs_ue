@@ -1,6 +1,6 @@
 # LiteralenumFZoneShapePointType
 
-Literal enum FZoneShapePointType
+枚举FZoneShapePointType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum FZoneShapePointType
 
 ## Inputs
 
-Enum: FZoneShapePointType Enum.  
+枚举。FZoneShapePointType Enum.  
 
 ## Outputs
 
-Return Value: FZoneShapePointType Enum.
-
+返回值。FZoneShapePointType Enum。

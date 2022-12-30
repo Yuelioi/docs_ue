@@ -1,6 +1,6 @@
 # BreakGameplayCueNotify_Placement-
 
-Adds a node that breaks a 'GameplayCueNotify_PlacementInfo' into its member fields
+添加一个打破'GameplayCueNotify_PlacementInfo'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'GameplayCueNotify_PlacementInfo' into its member fiel
 
 ## Inputs
 
-Gameplay Cue Notify Placement Info: Gameplay Cue Notify Placement Info Structure (by ref).  
+Gameplay Cue Notify Placement Info。Gameplay Cue Notify Placement Info结构（通过引用）。 
 
 ## Outputs
 
-Socket Name: Name. Socket Name:. Target's socket (or bone) used for location and rotation. If "None", it uses the target's root..
+插座名称。名称。插座名称：。用于定位和旋转的目标插座（或骨骼）。如果是 "无"，它使用目标的根。
 
-Attach Policy: EGameplayCueNotify_AttachPolicy Enum. Attach Policy:. Whether to attach to the target actor or not attach..
+附加政策。EGameplayCueNotify_AttachPolicy枚举。附加政策：。是否附加到目标角色上，或不附加。
 
-Attachment Rule: EAttachmentRule Enum. Attachment Rule:. How the transform is handled when attached..
+Attachment Rule: EAttachmentRule枚举。附加规则:. 附加时如何处理变换。
 
-Override Rotation: Boolean. Override Rotation:. If enabled, will always spawn using rotation override..
+Override Rotation（覆盖旋转）。Boolean（布尔）。覆盖旋转：。如果启用，将始终使用旋转覆盖生成。
 
-Override Scale: Boolean. Override Scale:. If enabled, will always spawn using the scale override..
+Override Scale（覆盖比例）。Boolean（布尔）。Override Scale（覆盖比例）：。如果启用，将总是使用覆盖的比例生成。
 
-Rotation Override: Rotator. Rotation Override:. If enabled, will always spawn using rotation override.. This will also set the rotation to be absolute, so any changes to the parent's rotation will be ignored after attachment..
+Rotation Override（旋转覆盖）。旋转器。Rotation Override:（旋转覆盖）。如果启用，将总是使用旋转覆盖来生成。这也会将旋转设置为绝对的，所以在附加之后，对父体旋转的任何改变都会被忽略。
 
-Scale Override: Vector. Scale Override:. If enabled, will always spawn using scale override.. This will also set the scale to be absolute, so any changes to the parent's scale will be ignored after attachment..
-
+规模覆盖。矢量。Scale Override:. 如果启用，将总是使用scale override来生成。这也会将比例设置为绝对值，所以任何对父体比例的改变都会在附加后被忽略。

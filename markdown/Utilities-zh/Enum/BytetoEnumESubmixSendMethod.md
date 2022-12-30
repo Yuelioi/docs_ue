@@ -1,6 +1,6 @@
 # BytetoEnumESubmixSendMethod
 
-Byte to Enum ESubmixSendMethod
+字节到枚举 ESubmixSendMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESubmixSendMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESubmixSendMethod Enum.
-
+返回值。ESubmixSendMethod Enum。

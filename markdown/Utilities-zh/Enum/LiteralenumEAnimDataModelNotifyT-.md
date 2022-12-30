@@ -1,6 +1,6 @@
 # LiteralenumEAnimDataModelNotifyT-
 
-Literal enum EAnimDataModelNotifyType
+枚举 EAnimDataModelNotifyType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAnimDataModelNotifyType
 
 ## Inputs
 
-Enum: EAnimDataModelNotifyType Enum.  
+枚举。EAnimDataModelNotifyType Enum.  
 
 ## Outputs
 
-Return Value: EAnimDataModelNotifyType Enum.
-
+返回值。EAnimDataModelNotifyType Enum。

@@ -23,4 +23,3 @@ Source Component: Mesh Component Object Reference. Source Component:. Socket-bas
 Source Ability: Gameplay Ability Object Reference. Source Ability:. Ability that will be using the targeting data.
 
 Source Socket Name: Name. Source Socket Name:. If SourceComponent is valid, this is the name of the socket transform that will be used. If no Socket is provided, SourceComponent's transform will be used..
-

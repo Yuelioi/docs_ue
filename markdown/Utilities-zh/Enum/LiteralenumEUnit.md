@@ -1,6 +1,6 @@
 # LiteralenumEUnit
 
-Literal enum EUnit
+字面意义上的EUnit枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EUnit
 
 ## Inputs
 
-Enum: EUnit Enum.  
+枚举。EUnit Enum.  
 
 ## Outputs
 
-Return Value: EUnit Enum.
-
+返回值。EUnit Enum。

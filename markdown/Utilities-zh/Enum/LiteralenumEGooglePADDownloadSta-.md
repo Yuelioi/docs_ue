@@ -1,6 +1,6 @@
 # LiteralenumEGooglePADDownloadSta-
 
-Literal enum EGooglePADDownloadStatus
+枚举 EGooglePADDownloadStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGooglePADDownloadStatus
 
 ## Inputs
 
-Enum: EGooglePADDownloadStatus Enum.  
+枚举。EGooglePADDownloadStatus枚举。 
 
 ## Outputs
 
-Return Value: EGooglePADDownloadStatus Enum.
-
+返回值。EGooglePADDownloadStatus Enum。

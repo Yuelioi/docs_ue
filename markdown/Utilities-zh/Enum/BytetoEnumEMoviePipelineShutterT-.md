@@ -1,6 +1,6 @@
 # BytetoEnumEMoviePipelineShutterT-
 
-Byte to Enum EMoviePipelineShutterTiming
+字节到枚举 EMoviePipelineShutterTiming
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMoviePipelineShutterTiming
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMoviePipelineShutterTiming Enum.
-
+返回值。EMoviePipelineShutterTiming Enum。

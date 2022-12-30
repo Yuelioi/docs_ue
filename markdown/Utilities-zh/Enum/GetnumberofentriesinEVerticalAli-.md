@@ -1,6 +1,6 @@
 # GetnumberofentriesinEVerticalAli-
 
-Returns EVerticalAlignment_MAX value
+返回EVerticalAlignment_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EVerticalAlignment_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

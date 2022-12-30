@@ -1,6 +1,6 @@
 # LiteralenumEScriptCollisionShape-
 
-Literal enum EScriptCollisionShapeType
+枚举 EScriptCollisionShapeType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EScriptCollisionShapeType
 
 ## Inputs
 
-Enum: EScriptCollisionShapeType Enum.  
+枚举。EScriptCollisionShapeType 枚举。 
 
 ## Outputs
 
-Return Value: EScriptCollisionShapeType Enum.
-
+返回值。EScriptCollisionShapeType Enum。

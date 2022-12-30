@@ -1,8 +1,8 @@
 # IsEmpty
 
-Returns true if the string is empty
+如果字符串为空，返回true
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-In String: String. The string to check.  
+在字符串中。字符串。要检查的字符串。 
 
 ## Outputs
 
-Return Value: Boolean. Whether or not the string is empty.
-
+返回值。布尔值。该字符串是否为空。

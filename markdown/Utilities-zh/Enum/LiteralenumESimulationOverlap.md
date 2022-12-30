@@ -1,6 +1,6 @@
 # LiteralenumESimulationOverlap
 
-Literal enum ESimulationOverlap
+字面意义上的枚举 ESimulationOverlap
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESimulationOverlap
 
 ## Inputs
 
-Enum: ESimulationOverlap Enum.  
+枚举。ESimulationOverlap枚举。 
 
 ## Outputs
 
-Return Value: ESimulationOverlap Enum.
-
+返回值。ESimulationOverlap Enum。

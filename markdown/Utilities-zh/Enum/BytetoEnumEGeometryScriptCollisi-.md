@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptCollisi-
 
-Byte to Enum EGeometryScriptCollisionGenerationMethod
+字节到枚举 EGeometryScriptCollisionGenerationMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptCollisionGenerationMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptCollisionGenerationMethod Enum.
-
+返回值。EGeometryScriptCollisionGenerationMethod Enum.

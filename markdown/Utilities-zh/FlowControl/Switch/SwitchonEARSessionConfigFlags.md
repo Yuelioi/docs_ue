@@ -1,6 +1,6 @@
 # SwitchonEARSessionConfigFlags
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARSessionConfigFlags Enum.  
+选择。EARSessionConfigFlags Enum.  
 
 ## Outputs
 
-None: Exec.
+无。执行。
 
-Generate Mesh Data: Exec.
+生成网格数据。执行。
 
-Render Mesh Data In Wireframe: Exec.
+在线框中渲染网格数据。执行。
 
-Generate Collision For Mesh Data: Exec.
+为网格数据生成碰撞。执行。
 
-Generate Nav Mesh For Mesh Data: Exec.
+为网格数据生成导航网格。执行。
 
-Use Mesh Data For Occlusion: Exec.
-
+使用网格数据进行遮挡。执行。

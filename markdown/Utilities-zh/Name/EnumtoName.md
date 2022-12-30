@@ -1,6 +1,6 @@
 # EnumtoName
 
-Returns name of enumerator
+返回枚举器的名称
 
 ## 图示
 
@@ -8,9 +8,8 @@ Returns name of enumerator
 
 ## Inputs
 
-Enumerator: Byte.  
+枚举器。字节。 
 
 ## Outputs
 
-Return Value: Name.
-
+返回值。名称。

@@ -1,6 +1,6 @@
 # BreakCachedAnimAssetPlayerData
 
-Adds a node that breaks a 'CachedAnimAssetPlayerData' into its member fields
+添加一个节点，将'CachedAnimAssetPlayerData'分解成其成员字段。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'CachedAnimAssetPlayerData' into its member fields
 
 ## Inputs
 
-Cached Anim Asset Player Data: Cached Anim Asset Player Data Structure (by ref).  
+Cached Anim Asset Player Data: 缓存的动画资产播放器数据结构（通过引用）。 
 
 ## Outputs
 
-State Machine Name: Name. State Machine Name:. Name of StateMachine State is in.
+状态机名称。名称. State Machine Name:.状态机名称。StateMachine的名称 状态在。
 
-State Name: Name. State Name:. Name of State to Cache.
-
+状态名称。名称。状态名称:. 要缓存的状态的名称。

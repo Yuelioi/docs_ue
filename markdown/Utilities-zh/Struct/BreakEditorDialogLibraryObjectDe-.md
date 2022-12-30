@@ -1,6 +1,6 @@
 # BreakEditorDialogLibraryObjectDe-
 
-Adds a node that breaks a 'EditorDialogLibraryObjectDetailsViewOptions' into its member fields
+添加一个节点，将'EditorDialogLibraryObjectDetailsViewOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'EditorDialogLibraryObjectDetailsViewOptions' into its
 
 ## Inputs
 
-Editor Dialog Library Object Details View Options: Editor Dialog Library Object Details View Options Structure (by ref).  
+编辑器对话库对象细节查看选项。编辑器对话库对象细节查看选项结构（通过引用）。 
 
 ## Outputs
 
-Show Object Name: Boolean. Show Object Name.
+显示对象名称。布尔值。显示对象名称：显示对象名称。
 
-Allow Search: Boolean. Allow Search.
-
+允许搜索。布尔值。允许搜索。

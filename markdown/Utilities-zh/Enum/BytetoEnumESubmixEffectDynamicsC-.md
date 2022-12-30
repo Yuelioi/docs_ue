@@ -1,6 +1,6 @@
 # BytetoEnumESubmixEffectDynamicsC-
 
-Byte to Enum ESubmixEffectDynamicsChannelLinkMode
+字节到枚举 ESubmixEffectDynamicsChannelLinkMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESubmixEffectDynamicsChannelLinkMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESubmixEffectDynamicsChannelLinkMode Enum.
-
+返回值。ESubmixEffectDynamicsChannelLinkMode Enum。

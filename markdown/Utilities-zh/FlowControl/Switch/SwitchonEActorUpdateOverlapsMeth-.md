@@ -1,6 +1,6 @@
 # SwitchonEActorUpdateOverlapsMeth-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EActorUpdateOverlapsMethod Enum.  
+选择。EActorUpdateOverlapsMethod Enum.  
 
 ## Outputs
 
-Use Config Default: Exec.
+使用配置 默认。Exec.
 
-Always Update: Exec.
+始终更新：Exec.
 
-Only Update Movable: Exec.
+只更新可移动的。执行。
 
-Never Update: Exec.
-
+永不更新: Exec.

@@ -1,6 +1,6 @@
 # BytetoEnumEStrandsTexturesTraceT-
 
-Byte to Enum EStrandsTexturesTraceType
+字节到枚举 EStrandsTexturesTraceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EStrandsTexturesTraceType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EStrandsTexturesTraceType Enum.
-
+返回值。EStrandsTexturesTraceType Enum。

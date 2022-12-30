@@ -1,6 +1,6 @@
 # LiteralenumESPStereoCameraLayer
 
-Literal enum ESPStereoCameraLayer
+枚举ESPStereoCameraLayer
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESPStereoCameraLayer
 
 ## Inputs
 
-Enum: ESPStereoCameraLayer Enum.  
+枚举。ESPStereoCameraLayer Enum.  
 
 ## Outputs
 
-Return Value: ESPStereoCameraLayer Enum.
-
+返回值。ESPStereoCameraLayer Enum。

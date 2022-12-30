@@ -1,6 +1,6 @@
 # SwitchonEOculusColorSpace
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,27 +8,26 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EOculusColorSpace Enum.  
+选择。EOculusColorSpace Enum.  
 
 ## Outputs
 
-Unknown: Exec.
+未知数。Exec.
 
-Unmanaged: Exec.
+无人管理。Exec.
 
-Rec 2020: Exec.
+2020年记录。Exec.
 
 Rec 709: Exec.
 
-Rift CV1: Exec.
+裂谷CV1: Exec.
 
-Rift S: Exec.
+裂谷S：执行。
 
-Quest: Exec.
+追求。Exec.
 
-P3: Exec.
+P3：执行。
 
 Adobe RGB: Exec.
-

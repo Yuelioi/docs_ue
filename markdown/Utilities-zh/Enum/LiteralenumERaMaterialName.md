@@ -1,6 +1,6 @@
 # LiteralenumERaMaterialName
 
-Literal enum ERaMaterialName
+字面意义上的ERaMaterialName枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERaMaterialName
 
 ## Inputs
 
-Enum: ERaMaterialName Enum.  
+枚举。ERaMaterialName枚举。 
 
 ## Outputs
 
-Return Value: ERaMaterialName Enum.
-
+返回值。ERaMaterialName枚举。

@@ -1,6 +1,6 @@
 # BytetoEnumEMovieSceneCompletionM-
 
-Byte to Enum EMovieSceneCompletionMode
+字节到枚举 EMovieSceneCompletionMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMovieSceneCompletionMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMovieSceneCompletionMode Enum.
-
+返回值。EMovieSceneCompletionMode枚举。

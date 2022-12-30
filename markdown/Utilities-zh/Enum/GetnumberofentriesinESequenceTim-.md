@@ -1,6 +1,6 @@
 # GetnumberofentriesinESequenceTim-
 
-Returns ESequenceTimeUnit_MAX value
+返回ESequenceTimeUnit_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESequenceTimeUnit_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

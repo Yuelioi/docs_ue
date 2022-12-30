@@ -1,6 +1,6 @@
 # SwitchonEDMXImportGDTFSnap
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDMXImportGDTFSnap Enum.  
+选择。EDMXImportGDTFSnap Enum.  
 
 ## Outputs
 
-Yes: Exec.
+是：执行。
 
-No: Exec.
+No: 执行。
 
-On: Exec.
+打开。执行。
 
-Off: Exec.
-
+关闭：执行。

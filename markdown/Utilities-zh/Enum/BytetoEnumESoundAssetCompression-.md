@@ -1,6 +1,6 @@
 # BytetoEnumESoundAssetCompression-
 
-Byte to Enum ESoundAssetCompressionType
+字节到枚举 ESoundAssetCompressionType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESoundAssetCompressionType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESoundAssetCompressionType Enum.
-
+返回值。ESoundAssetCompressionType Enum。

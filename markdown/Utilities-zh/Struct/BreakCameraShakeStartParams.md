@@ -1,6 +1,6 @@
 # BreakCameraShakeStartParams
 
-Adds a node that breaks a 'CameraShakeStartParams' into its member fields
+添加一个节点，将'CameraShakeStartParams'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'CameraShakeStartParams' into its member fields
 
 ## Inputs
 
-Camera Shake Start Params: Camera Shake Start Params Structure (by ref).  
+Camera Shake Start Params（相机抖动启动参数）。Camera Shake Start Params结构（通过引用）。 
 
 ## Outputs
 
-Is Restarting: Boolean. Is Restarting.
-
+Is Restarting（正在重启）。Boolean（布尔）。Is Restarting（是否重启）：重启。

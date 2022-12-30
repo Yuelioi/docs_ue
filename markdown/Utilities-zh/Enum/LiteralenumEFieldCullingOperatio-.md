@@ -1,6 +1,6 @@
 # LiteralenumEFieldCullingOperatio-
 
-Literal enum EFieldCullingOperationType
+字面意义上的枚举 EFieldCullingOperationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFieldCullingOperationType
 
 ## Inputs
 
-Enum: EFieldCullingOperationType Enum.  
+枚举。EFieldCullingOperationType Enum.  
 
 ## Outputs
 
-Return Value: EFieldCullingOperationType Enum.
-
+返回值。EFieldCullingOperationType Enum.

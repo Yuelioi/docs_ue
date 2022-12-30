@@ -1,6 +1,6 @@
 # BreakGameplayAttribute
 
-Adds a node that breaks a 'GameplayAttribute' into its member fields
+Add a node that breaks 'GameplayAttribute' into its member fields
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'GameplayAttribute' into its member fields
 
 ## Inputs
 
-Gameplay Attribute: Gameplay Attribute Structure (by ref).  
+Gameplay Attribute. gameplay Attribute structure (by reference). 
 
 ## Outputs
 
-Attribute Name: String. Attribute Name:. Name of the attribute, usually the same as property name.
-
+Attribute Name. String. Attribute Name:. The name of the attribute, usually the same as the attribute name.

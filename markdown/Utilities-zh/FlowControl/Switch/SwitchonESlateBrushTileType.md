@@ -1,6 +1,6 @@
 # SwitchonESlateBrushTileType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESlateBrushTileType Enum.  
+选择。ESlateBrushTileType枚举。 
 
 ## Outputs
 
-No Tile: Exec.
+没有瓦片。Exec.
 
-Horizontal: Exec.
+水平：执行。
 
-Vertical: Exec.
+垂直：执行。
 
 Both: Exec.
-

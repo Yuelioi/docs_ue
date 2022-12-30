@@ -1,6 +1,6 @@
 # BytetoEnumFControlRigChannelEnum
 
-Byte to Enum FControlRigChannelEnum
+字节到枚举 FControlRigChannelEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum FControlRigChannelEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: FControlRigChannelEnum Enum.
-
+返回值。FControlRigChannelEnum枚举。

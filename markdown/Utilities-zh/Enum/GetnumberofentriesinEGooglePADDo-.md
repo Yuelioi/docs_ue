@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGooglePADDo-
 
-Returns EGooglePADDownloadStatus_MAX value
+返回 EGooglePADDownloadStatus_MAX 值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGooglePADDownloadStatus_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

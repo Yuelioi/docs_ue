@@ -1,6 +1,6 @@
 # BreakDatasmithImportFactoryCreat-
 
-Adds a node that breaks a 'DatasmithImportFactoryCreateFileResult' into its member fields
+添加一个节点，将 "DatasmithImportFactoryCreateFileResult "分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'DatasmithImportFactoryCreateFileResult' into its memb
 
 ## Inputs
 
-Datasmith Import Factory Create File Result: Datasmith Import Factory Create File Result Structure (by ref).  
+Datasmith导入工厂创建文件的结果。Datasmith进口工厂创建文件结果结构（通过引用）。 
 
 ## Outputs
 
-Imported Actors: Array of Actor Object References. Imported Actors:. List of all created actors if user requires to use multiple actors. The root actor will be the first element of the array..
+导入的演员。演员对象引用的数组。Imported Actors:。如果用户需要使用多个演员，所有创建的演员的列表。根演员将是该数组的第一个元素。
 
-Imported Meshes: Array of Object References. Imported Meshes:. Meshes created during the import process.
+导入的网格。对象引用数组。Imported Meshes:导入的网格。在导入过程中创建的网格。
 
-Import Succeed: Boolean. Import Succeed.
+导入成功。布尔值。导入成功。
 
-Scene: Datasmith Scene Object Reference. Scene.
-
+Scene（场景）。Datasmith场景对象参考。Scene.

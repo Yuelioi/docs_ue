@@ -1,6 +1,6 @@
 # GetnumberofentriesinESlateAccess-
 
-Returns ESlateAccessibleBehavior_MAX value
+返回ESlateAccessibleBehavior_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESlateAccessibleBehavior_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

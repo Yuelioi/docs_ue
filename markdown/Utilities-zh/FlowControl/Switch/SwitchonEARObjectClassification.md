@@ -1,6 +1,6 @@
 # SwitchonEARObjectClassification
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,37 +8,36 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARObjectClassification Enum.  
+选择。EARObjectClassification Enum.  
 
 ## Outputs
 
-Not Applicable: Exec.
+不适用。Exec.
 
-Unknown: Exec.
+未知数。Exec.
 
-Wall: Exec.
+墙。Exec.
 
-Ceiling: Exec.
+天花板: 执行.
 
-Floor: Exec.
+地板: 墙: 墙
 
-Table: Exec.
+桌子 桌子: 高级的
 
-Seat: Exec.
+座位: 执行
 
-Face: Exec.
+脸部 Exec.
 
-Image: Exec.
+形象: 官员 执政: 执政。
 
-World: Exec.
+世界。Exec.
 
-Scene Object: Exec.
+场景对象。Exec.
 
-Hand Mesh: Exec.
+手部网格。Exec.
 
-Door: Exec.
+门。Exec.
 
-Window: Exec.
-
+窗户 执行

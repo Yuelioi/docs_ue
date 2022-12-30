@@ -1,6 +1,6 @@
 # GetnumberofentriesinESlateParent-
 
-Returns ESlateParentWindowSearchMethod_MAX value
+返回ESlateParentWindowSearchMethod_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESlateParentWindowSearchMethod_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

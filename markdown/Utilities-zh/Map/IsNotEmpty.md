@@ -1,8 +1,8 @@
 # IsNotEmpty
 
-Check if the map has any entries
+检查该地图是否有任何条目
 
-Target is Blueprint Map Library
+目标是蓝图地图库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Blueprint Map Library
 
 ## Inputs
 
-Target Map: Map of Wildcards to Wildcards. The map to check.  
+目标地图。通配符到通配符的地图。要检查的地图。 
 
 ## Outputs
 
-Return Value: Boolean. A boolean indicating if the map has any entires.
-
+返回值。布尔值。一个布尔值，表示该地图是否有任何参量。

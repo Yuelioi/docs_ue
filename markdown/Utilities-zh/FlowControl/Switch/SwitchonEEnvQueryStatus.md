@@ -1,6 +1,6 @@
 # SwitchonEEnvQueryStatus
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EEnvQueryStatus Enum.  
+选择。EEnvQueryStatus枚举。 
 
 ## Outputs
 
-Processing: Exec.
+处理。执行。
 
-Success: Exec.
+成功。执行。
 
-Failed: Exec.
+失败。执行。
 
-Aborted: Exec.
+弃权。执行。
 
-Owner Lost: Exec.
+所有者丢失。执行。
 
-Missing Param: Exec.
-
+缺少参数: Exec.

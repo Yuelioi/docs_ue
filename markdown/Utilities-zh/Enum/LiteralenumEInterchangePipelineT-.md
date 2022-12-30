@@ -1,6 +1,6 @@
 # LiteralenumEInterchangePipelineT-
 
-Literal enum EInterchangePipelineTask
+枚举 EInterchangePipelineTask
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EInterchangePipelineTask
 
 ## Inputs
 
-Enum: EInterchangePipelineTask Enum.  
+枚举。EInterchangePipelineTask Enum.  
 
 ## Outputs
 
-Return Value: EInterchangePipelineTask Enum.
-
+返回值。EInterchangePipelineTask Enum。

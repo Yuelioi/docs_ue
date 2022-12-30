@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptUVFlatt-
 
-Byte to Enum EGeometryScriptUVFlattenMethod
+字节到枚举 EGeometryScriptUVFlattenMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptUVFlattenMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptUVFlattenMethod Enum.
-
+返回值。EGeometryScriptUVFlattenMethod Enum.

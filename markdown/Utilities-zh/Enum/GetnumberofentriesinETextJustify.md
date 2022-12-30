@@ -1,6 +1,6 @@
 # GetnumberofentriesinETextJustify
 
-Returns ETextJustify_MAX value
+返回ETextJustify_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ETextJustify_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

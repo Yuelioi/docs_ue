@@ -1,6 +1,6 @@
 # LocalWildcard
 
-Local temporary Wildcard variable
+本地临时通配符变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Wildcard variable
 
 ## Outputs
 
-Variable: Wildcard.
-
+变量。通配符。

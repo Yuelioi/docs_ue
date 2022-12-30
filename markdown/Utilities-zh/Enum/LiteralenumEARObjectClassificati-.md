@@ -1,6 +1,6 @@
 # LiteralenumEARObjectClassificati-
 
-Literal enum EARObjectClassification
+字面意义上的EARObjectClassification枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARObjectClassification
 
 ## Inputs
 
-Enum: EARObjectClassification Enum.  
+枚举。EARObjectClassification Enum.  
 
 ## Outputs
 
-Return Value: EARObjectClassification Enum.
-
+返回值。EARObjectClassification Enum.

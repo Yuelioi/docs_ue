@@ -1,6 +1,6 @@
 # SwitchonEWidgetClipping
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EWidgetClipping Enum.  
+选择。EWidgetClipping Enum.  
 
 ## Outputs
 
-Inherit: Exec.
+继承。Exec.
 
 Clip To Bounds: Exec.
 
-Clip to Bounds - Without Intersecting (Advanced): Exec.
+Clip to Bounds - Without Intersecting (Advanced): 执行。
 
-Clip to Bounds - Always (Advanced): Exec.
+剪辑到边界 - 始终（高级）。Exec.
 
-On Demand (Advanced): Exec.
-
+On Demand (高级): 执行。

@@ -1,6 +1,6 @@
 # LiteralenumEInputActionValueType
 
-Literal enum EInputActionValueType
+枚举EInputActionValueType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EInputActionValueType
 
 ## Inputs
 
-Enum: EInputActionValueType Enum.  
+枚举。EInputActionValueType 枚举。 
 
 ## Outputs
 
-Return Value: EInputActionValueType Enum.
-
+返回值。EInputActionValueType枚举。

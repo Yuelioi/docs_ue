@@ -1,6 +1,6 @@
 # SwitchonEVerticalAlignment
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EVerticalAlignment Enum.  
+选择。EVerticalAlignment Enum.  
 
 ## Outputs
 
-Fill: Exec.
+填充：Exec.Ltd.
 
 Top: Exec.
 
-Center: Exec.
+中心：Exec: 填充: Exec.
 
-Bottom: Exec.
-
+底部 执笔： 执笔： 执笔： 执笔： 执笔： 执笔：

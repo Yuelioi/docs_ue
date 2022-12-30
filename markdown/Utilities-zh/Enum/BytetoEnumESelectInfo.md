@@ -8,9 +8,8 @@ Byte to Enum ESelectInfo
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESelectInfo Enum.
-
+返回值。ESelectInfo Enum。

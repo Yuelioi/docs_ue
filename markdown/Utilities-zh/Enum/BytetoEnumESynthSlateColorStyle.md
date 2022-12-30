@@ -8,9 +8,8 @@ Byte to Enum ESynthSlateColorStyle
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESynthSlateColorStyle Enum.
-
+返回值。ESynthSlateColorStyle Enum。

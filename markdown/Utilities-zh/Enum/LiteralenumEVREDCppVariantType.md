@@ -1,6 +1,6 @@
 # LiteralenumEVREDCppVariantType
 
-Literal enum EVREDCppVariantType
+枚举EVREDCppVariantType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EVREDCppVariantType
 
 ## Inputs
 
-Enum: EVREDCppVariantType Enum.  
+枚举。EVREDCppVariantType枚举。 
 
 ## Outputs
 
-Return Value: EVREDCppVariantType Enum.
-
+返回值。EVREDCppVariantType Enum。

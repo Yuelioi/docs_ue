@@ -1,6 +1,6 @@
 # BreakControlRigComponentMappedCo-
 
-Adds a node that breaks a 'ControlRigComponentMappedComponent' into its member fields
+添加一个节点，将'ControlRigComponentMappedComponent'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'ControlRigComponentMappedComponent' into its member f
 
 ## Inputs
 
-Control Rig Component Mapped Component: Mapped Component Structure (by ref).  
+控制钻机组件映射的组件。被映射的组件结构（通过引用）。 
 
 ## Outputs
 
-Component: Scene Component Object Reference. Component.
+组件。场景组件对象参考。组件。
 
-Element Name: Name. Element Name.
+元素名称。名称。元素名称。
 
-Element Type: ERigElementType Enum. Element Type:. The type of element this is mapped to.
+元素类型。ERigElementType Enum. 元素类型：。这是映射到的元素的类型。
 
-Direction: EControlRigComponentMapDirection Enum. Direction.
-
+方向。EControlRigComponentMapDirection枚举。方向。

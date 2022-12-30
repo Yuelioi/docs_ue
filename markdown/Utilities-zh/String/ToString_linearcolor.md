@@ -1,8 +1,8 @@
 # ToString_linearcolor
 
-Converts a linear color value to a string, in the form '(R=,G=,B=,A=)'
+将一个线性颜色值转换为字符串，形式为'(R=,G=,B=,A=)'
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-In Color: Linear Color Structure.  
+在颜色中：线性颜色结构。 
 
 ## Outputs
 
-Return Value: String. Converts a linear color value to a string, in the form '(R=,G=,B=,A=)'.
-
+返回值。字符串。将一个线性颜色值转换为字符串，形式为'(R=,G=,B=,A=)'。

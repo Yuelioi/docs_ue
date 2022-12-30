@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptTangent-
 
-Byte to Enum EGeometryScriptTangentTypes
+字节到枚举 EGeometryScriptTangentTypes
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptTangentTypes
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptTangentTypes Enum.
-
+返回值: EGeometryScriptTangentTypes Enum.

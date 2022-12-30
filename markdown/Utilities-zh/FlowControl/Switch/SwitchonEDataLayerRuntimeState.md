@@ -1,6 +1,6 @@
 # SwitchonEDataLayerRuntimeState
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDataLayerRuntimeState Enum.  
+选择。EDataLayerRuntimeState Enum.  
 
 ## Outputs
 
-Unloaded: Exec.
+卸载。Exec.
 
-Loaded: Exec.
+已加载 Exec.
 
-Activated: Exec.
-
+激活的。执行

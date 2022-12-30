@@ -1,6 +1,6 @@
 # BytetoEnumESteamVRInputStringBit-
 
-Byte to Enum ESteamVRInputStringBits
+字节到枚举 ESteamVRInputStringBits
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESteamVRInputStringBits
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESteamVRInputStringBits Enum.
-
+返回值。ESteamVRInputStringBits Enum。

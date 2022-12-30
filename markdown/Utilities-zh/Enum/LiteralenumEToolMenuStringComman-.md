@@ -1,6 +1,6 @@
 # LiteralenumEToolMenuStringComman-
 
-Literal enum EToolMenuStringCommandType
+字面上的枚举 EToolMenuStringCommandType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EToolMenuStringCommandType
 
 ## Inputs
 
-Enum: EToolMenuStringCommandType Enum.  
+枚举。EToolMenuStringCommandType枚举。 
 
 ## Outputs
 
-Return Value: EToolMenuStringCommandType Enum.
-
+返回值。EToolMenuStringCommandType Enum。

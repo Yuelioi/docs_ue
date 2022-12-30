@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-_19
 
-Adds a node that breaks a 'DisplayClusterConfigurationViewport_ICVFX' into its member fields
+添加一个节点，将'DisplayClusterConfigurationViewport_ICVFX'分解到其成员字段中。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'DisplayClusterConfigurationViewport_ICVFX' into its m
 
 ## Inputs
 
-Display Cluster Configuration Viewport ICVFX: Display Cluster Configuration Viewport ICVFX Structure (by ref).  
+显示群集配置视口ICVFX。显示集群配置视口ICVFX结构（通过参考）。 
 
 ## Outputs
 
-Allow ICVFX: Boolean. Allow ICVFX:. Enable in-camera VFX for this Viewport (works only with supported Projection Policies).
+允许ICVFX。布尔型。允许ICVFX：。为该视口启用相机内VFX（仅适用于支持的投影策略）。
 
-Allow Inner Frustum: Boolean. Allow Inner Frustum:. Allow the inner frustum to appear on this Viewport.
+Allow Inner Frustum：布尔值。允许内壳：。允许在此视口上出现内围壳。
 
-Camera Render Mode: EDisplayClusterConfigurationICVFX_OverrideCameraRenderMode Enum. Camera Render Mode:. Disable incamera render to this viewport.
+Camera Render Mode（摄像机渲染模式）。EDisplayClusterConfigurationICVFX_OverrideCameraRenderMode枚举。摄像机渲染模式：。禁用相机渲染到此视口的功能。
 
-Lightcard Render Mode: EDisplayClusterConfigurationICVFX_OverrideLightcardRenderMode Enum. Lightcard Render Mode:. Use unique lightcard mode for this viewport.
-
+光卡渲染模式。EDisplayClusterConfigurationICVFX_OverrideLightcardRenderMode枚举。光卡渲染模式：。为该视口使用独特的光卡模式。

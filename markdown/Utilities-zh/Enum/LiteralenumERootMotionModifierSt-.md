@@ -1,6 +1,6 @@
 # LiteralenumERootMotionModifierSt-
 
-Literal enum ERootMotionModifierState
+字面意义上的ERootMotionModifierState枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERootMotionModifierState
 
 ## Inputs
 
-Enum: ERootMotionModifierState Enum.  
+枚举。ERootMotionModifierState Enum.  
 
 ## Outputs
 
-Return Value: ERootMotionModifierState Enum.
-
+返回值。ERootMotionModifierState Enum。

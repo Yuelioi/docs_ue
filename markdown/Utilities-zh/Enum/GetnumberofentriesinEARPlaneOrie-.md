@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARPlaneOrie-
 
-Returns EARPlaneOrientation_MAX value
+返回EARPlaneOrientation_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARPlaneOrientation_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

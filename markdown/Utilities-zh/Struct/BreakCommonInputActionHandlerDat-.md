@@ -1,6 +1,6 @@
 # BreakCommonInputActionHandlerDat-
 
-Adds a node that breaks a 'CommonInputActionHandlerData' into its member fields
+添加一个节点，将'CommonInputActionHandlerData'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'CommonInputActionHandlerData' into its member fields
 
 ## Inputs
 
-Common Input Action Handler Data: Common Input Action Handler Data Structure (by ref).  
+通用输入动作处理程序数据。通用输入动作处理程序数据结构（通过引用）。 
 
 ## Outputs
 
-Input Action Row: Data Table Row Handle Structure. Input Action Row.
-
+输入动作行。数据表行处理结构。输入动作行。

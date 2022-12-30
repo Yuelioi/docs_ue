@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptRemoveH-
 
-Byte to Enum EGeometryScriptRemoveHiddenTrianglesMethod
+字节到枚举 EGeometryScriptRemoveHiddenTrianglesMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptRemoveHiddenTrianglesMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptRemoveHiddenTrianglesMethod Enum.
-
+返回值。EGeometryScriptRemoveHiddenTrianglesMethod Enum.

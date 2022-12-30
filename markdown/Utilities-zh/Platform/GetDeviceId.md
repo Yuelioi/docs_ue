@@ -1,8 +1,8 @@
 # GetDeviceId
 
-Returns the platform specific unique device id
+返回平台特定的唯一设备ID
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Kismet System Library
 
 ## Outputs
 
-Return Value: String. Returns the platform specific unique device id.
-
+返回值。字符串。返回平台特定的唯一设备ID。

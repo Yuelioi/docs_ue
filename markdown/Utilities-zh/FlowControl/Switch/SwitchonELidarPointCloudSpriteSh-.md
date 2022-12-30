@@ -1,6 +1,6 @@
 # SwitchonELidarPointCloudSpriteSh-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ELidarPointCloudSpriteShape Enum.  
+选择。ELidarPointCloudSpriteShape枚举。 
 
 ## Outputs
 
-Square: Exec.
+方形。Exec.
 
-Circle: Exec.
-
+圆圈 Exec.

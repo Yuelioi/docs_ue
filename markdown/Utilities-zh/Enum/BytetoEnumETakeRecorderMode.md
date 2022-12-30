@@ -1,6 +1,6 @@
 # BytetoEnumETakeRecorderMode
 
-Byte to Enum ETakeRecorderMode
+字节到枚举ETakeRecorderMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETakeRecorderMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETakeRecorderMode Enum.
-
+返回值。ETakeRecorderMode Enum。

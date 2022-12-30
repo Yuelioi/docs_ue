@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptMorphol-
 
-Byte to Enum EGeometryScriptMorphologicalOpType
+字节到枚举 EGeometryScriptMorphologicalOpType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptMorphologicalOpType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptMorphologicalOpType Enum.
-
+返回值。EGeometryScriptMorphologicalOpType Enum.

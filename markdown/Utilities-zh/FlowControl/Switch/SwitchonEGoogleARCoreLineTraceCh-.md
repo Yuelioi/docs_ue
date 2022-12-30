@@ -1,6 +1,6 @@
 # SwitchonEGoogleARCoreLineTraceCh-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGoogleARCoreLineTraceChannel Enum.  
+选择。EGoogleARCoreLineTraceChannel枚举。 
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Feature Point: Exec.
+特征点。Exec.
 
-Infinite Plane: Exec.
+无限的平面。Exec.
 
-Plane Using Extent: Exec.
+使用范围的平面。Exec.
 
-Plane Using Boundary Polygon: Exec.
+使用边界多边形的平面。使用边界多边形: Exec.
 
-Feature Point With Surface Normal: Exec.
+使用表面法线的特征点。执行。
 
-Augmented Image: Exec.
-
+增强的图像。执行。

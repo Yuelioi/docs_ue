@@ -1,6 +1,6 @@
 # LiteralenumEConstantQNormalizati-
 
-Literal enum EConstantQNormalizationEnum
+枚举 EConstantQNormalizationEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EConstantQNormalizationEnum
 
 ## Inputs
 
-Enum: EConstantQNormalizationEnum Enum.  
+枚举。EConstantQNormalizationEnum枚举。 
 
 ## Outputs
 
-Return Value: EConstantQNormalizationEnum Enum.
-
+返回值。EConstantQNormalizationEnum枚举。

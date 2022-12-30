@@ -1,6 +1,6 @@
 # BytetoEnumEInterchangeVertexColo-
 
-Byte to Enum EInterchangeVertexColorImportOption
+字节到枚举 EInterchangeVertexColorImportOption
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EInterchangeVertexColorImportOption
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EInterchangeVertexColorImportOption Enum.
-
+返回值。EInterchangeVertexColorImportOption Enum。

@@ -1,6 +1,6 @@
 # LiteralenumEWidgetInteractionSou-
 
-Literal enum EWidgetInteractionSource
+枚举 EWidgetInteractionSource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWidgetInteractionSource
 
 ## Inputs
 
-Enum: EWidgetInteractionSource Enum.  
+枚举。EWidgetInteractionSource Enum.  
 
 ## Outputs
 
-Return Value: EWidgetInteractionSource Enum.
-
+返回值。EWidgetInteractionSource Enum.

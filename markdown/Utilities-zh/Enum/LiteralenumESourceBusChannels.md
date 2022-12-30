@@ -1,6 +1,6 @@
 # LiteralenumESourceBusChannels
 
-Literal enum ESourceBusChannels
+字面意义上的ESourceBusChannels枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESourceBusChannels
 
 ## Inputs
 
-Enum: ESourceBusChannels Enum.  
+枚举。ESourceBusChannels Enum.  
 
 ## Outputs
 
-Return Value: ESourceBusChannels Enum.
-
+返回值。ESourceBusChannels Enum。

@@ -1,6 +1,6 @@
 # LiteralenumEPyTestEnum
 
-Literal enum EPyTestEnum
+EPyTestEnum的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EPyTestEnum
 
 ## Inputs
 
-Enum: EPyTestEnum Enum.  
+枚举。EPyTestEnum枚举。 
 
 ## Outputs
 
-Return Value: EPyTestEnum Enum.
-
+返回值。EPyTestEnum Enum.

@@ -1,8 +1,8 @@
 # SetCurrentLanguage
 
-Set only the current language (for localization).. Note: Unless you're doing something advanced, you likely want SetCurrentLanguageAndLocale or SetCurrentCulture instead.
+只设置当前语言（用于本地化）。注意：除非你在做一些高级的事情，否则你可能想用SetCurrentLanguageAndLocale或SetCurrentCulture代替。
 
-Target is Kismet Internationalization Library
+目标是Kismet国际化库
 
 ## 图示
 
@@ -10,15 +10,14 @@ Target is Kismet Internationalization Library
 
 ## Inputs
 
-In: Exec.
+在。Exec.
 
-Culture: String. The language to set, as an IETF language tag (eg, "zh-Hans-CN")..
+文化。字符串。要设置的语言，作为IETF语言标签（例如，"zh-Hans-CN"）。
 
-Save to Config: Boolean. If true, save the new setting to the users' "GameUserSettings" config so that it persists after a reload..  
+保存到配置。布尔值。如果为真，将新的设置保存到用户的 "GameUserSettings "配置中，以便在重新加载后持续存在。 
 
 ## Outputs
 
-Out: Exec.
+输出。执行：执行。
 
-Return Value: Boolean. True if the language was set, false otherwise..
-
+返回值。布尔值。如果语言被设置为真，否则为假。

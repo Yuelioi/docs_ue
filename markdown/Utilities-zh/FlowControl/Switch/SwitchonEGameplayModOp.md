@@ -1,6 +1,6 @@
 # SwitchonEGameplayModOp
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGameplayModOp Enum.  
+选择。EGameplayModOp Enum.  
 
 ## Outputs
 
-Add: Exec.
+添加。Exec.
 
-Multiply: Exec.
+乘法 Exec.
 
-Divide: Exec.
+除法。执行.
 
-Override: Exec.
+覆盖。执行.
 
-Invalid: Exec.
-
+无效。Exec.

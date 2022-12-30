@@ -1,6 +1,6 @@
 # BytetoEnumEMotionExtractor_Axis
 
-Byte to Enum EMotionExtractor_Axis
+字节到枚举 EMotionExtractor_Axis
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMotionExtractor_Axis
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMotionExtractor_Axis Enum.
-
+返回值。EMotionExtractor_Axis Enum。

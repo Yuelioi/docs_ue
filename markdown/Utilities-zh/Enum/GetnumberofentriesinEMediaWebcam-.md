@@ -1,6 +1,6 @@
 # GetnumberofentriesinEMediaWebcam-
 
-Returns EMediaWebcamCaptureDeviceFilter_MAX value
+返回EMediaWebcamCaptureDeviceFilter_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EMediaWebcamCaptureDeviceFilter_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

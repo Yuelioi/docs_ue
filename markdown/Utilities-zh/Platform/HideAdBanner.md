@@ -1,8 +1,8 @@
 # HideAdBanner
 
-Hides the ad banner (iAd on iOS, or AdMob on Android). Will force close the ad if it's open. (iOS and Android only)
+隐藏广告横幅（iOS的iAd，或Android的AdMob）。如果广告是开放的，将强制关闭它。(仅限iOS和Android)
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.  
+在。执行：执行。 
 
 ## Outputs
 
-Out: Exec.
-
+Out: 执行。

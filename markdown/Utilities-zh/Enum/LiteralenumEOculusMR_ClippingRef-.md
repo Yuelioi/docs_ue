@@ -1,6 +1,6 @@
 # LiteralenumEOculusMR_ClippingRef-
 
-Literal enum EOculusMR_ClippingReference
+EOculusMR_ClippingReference的字面枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EOculusMR_ClippingReference
 
 ## Inputs
 
-Enum: EOculusMR_ClippingReference Enum.  
+枚举。EOculusMR_ClippingReference Enum.  
 
 ## Outputs
 
-Return Value: EOculusMR_ClippingReference Enum.
-
+返回值。EOculusMR_ClippingReference Enum.

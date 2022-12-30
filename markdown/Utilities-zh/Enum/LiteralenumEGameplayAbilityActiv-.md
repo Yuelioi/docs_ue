@@ -1,6 +1,6 @@
 # LiteralenumEGameplayAbilityActiv-
 
-Literal enum EGameplayAbilityActivationMode
+字面意义上的枚举：EGameplayAbilityActivationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayAbilityActivationMode
 
 ## Inputs
 
-Enum: EGameplayAbilityActivationMode Enum.  
+枚举。EGameplayAbilityActivationMode枚举。 
 
 ## Outputs
 
-Return Value: EGameplayAbilityActivationMode Enum.
-
+返回值。EGameplayAbilityActivationMode Enum。

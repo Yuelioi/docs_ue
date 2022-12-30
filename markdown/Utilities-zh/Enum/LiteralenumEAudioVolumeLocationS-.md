@@ -1,6 +1,6 @@
 # LiteralenumEAudioVolumeLocationS-
 
-Literal enum EAudioVolumeLocationState
+枚举 EAudioVolumeLocationState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAudioVolumeLocationState
 
 ## Inputs
 
-Enum: EAudioVolumeLocationState Enum.  
+枚举。EAudioVolumeLocationState Enum.  
 
 ## Outputs
 
-Return Value: EAudioVolumeLocationState Enum.
-
+返回值。EAudioVolumeLocationState Enum.

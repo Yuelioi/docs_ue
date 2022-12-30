@@ -1,6 +1,6 @@
 # BytetoEnumEHairCardsSourceType
 
-Byte to Enum EHairCardsSourceType
+字节到枚举 EHairCardsSourceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EHairCardsSourceType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EHairCardsSourceType Enum.
-
+返回值。EHairCardsSourceType Enum。

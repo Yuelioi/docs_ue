@@ -1,6 +1,6 @@
 # LiteralenumESocialChannelType
 
-Literal enum ESocialChannelType
+字面意义上的枚举ESocialChannelType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESocialChannelType
 
 ## Inputs
 
-Enum: ESocialChannelType Enum.  
+枚举。ESocialChannelType枚举。 
 
 ## Outputs
 
-Return Value: ESocialChannelType Enum.
-
+返回值。ESocialChannelType Enum。

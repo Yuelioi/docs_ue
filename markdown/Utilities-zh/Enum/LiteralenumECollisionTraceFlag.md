@@ -1,6 +1,6 @@
 # LiteralenumECollisionTraceFlag
 
-Literal enum ECollisionTraceFlag
+文字枚举ECollisionTraceFlag
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECollisionTraceFlag
 
 ## Inputs
 
-Enum: ECollisionTraceFlag Enum.  
+枚举。ECollisionTraceFlag Enum.  
 
 ## Outputs
 
-Return Value: ECollisionTraceFlag Enum.
-
+返回值。ECollisionTraceFlag Enum.

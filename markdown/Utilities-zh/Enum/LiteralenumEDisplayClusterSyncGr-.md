@@ -1,6 +1,6 @@
 # LiteralenumEDisplayClusterSyncGr-
 
-Literal enum EDisplayClusterSyncGroup
+字面意义上的枚举 EDClusterSyncGroup
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDisplayClusterSyncGroup
 
 ## Inputs
 
-Enum: EDisplayClusterSyncGroup Enum.  
+枚举。EDisplayClusterSyncGroup枚举。 
 
 ## Outputs
 
-Return Value: EDisplayClusterSyncGroup Enum.
-
+返回值。EDisplayClusterSyncGroup Enum.

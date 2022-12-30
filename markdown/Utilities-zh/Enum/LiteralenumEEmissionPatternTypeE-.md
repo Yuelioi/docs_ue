@@ -1,6 +1,6 @@
 # LiteralenumEEmissionPatternTypeE-
 
-Literal enum EEmissionPatternTypeEnum
+枚举 EEmissionPatternTypeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EEmissionPatternTypeEnum
 
 ## Inputs
 
-Enum: EEmissionPatternTypeEnum Enum.  
+枚举。EEmissionPatternTypeEnum枚举。 
 
 ## Outputs
 
-Return Value: EEmissionPatternTypeEnum Enum.
-
+返回值。EEmissionPatternTypeEnum枚举。

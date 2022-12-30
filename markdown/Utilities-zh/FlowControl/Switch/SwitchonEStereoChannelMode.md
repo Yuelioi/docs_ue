@@ -1,6 +1,6 @@
 # SwitchonEStereoChannelMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EStereoChannelMode Enum.  
+选择。EStereoChannelMode Enum.  
 
 ## Outputs
 
-Mid Side: Exec.
+中侧。Exec.
 
-Left Right: Exec.
-
+左侧 右侧 执行。

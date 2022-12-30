@@ -1,6 +1,6 @@
 # SwitchonEButtonPressMethod
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EButtonPressMethod Enum.  
+选择。EButtonPressMethod Enum.  
 
 ## Outputs
 
-Down And Up: Exec.
+向下和向上：Exec.
 
-Button Press: Exec.
+按下按钮。Exec.
 
-Button Release: Exec.
-
+按键释放。执行。

@@ -1,6 +1,6 @@
 # BreakDetectedFace
 
-Adds a node that breaks a 'DetectedFace' into its member fields
+添加一个节点，将'DetectedFace'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'DetectedFace' into its member fields
 
 ## Inputs
 
-Detected Face: Detected Face Structure (by ref).  
+检测到的面孔。检测到的面孔结构（通过引用）。 
 
 ## Outputs
 
-Bounding Box: Box 2D Structure. Bounding Box:. The bounding box of the detected face.
+Bounding Box（包围盒）。Box 2D结构。Bounding Box：。检测到的人脸的包围盒。
 
-Features: Array of Detected Face Feature 2D Structures. Features:. The set of 2D features that were detected.
+特征。检测到的人脸特征二维结构的数组。特征：。检测到的2D特征的集合。
 
-Feature Regions: Array of Detected Face Feature Region Structures. Feature Regions:. The set of region features that were detected.
+特征区域。检测到的人脸特征区域结构的数组。特征区域：。被检测到的区域特征集合。
 
-Points: Array of Vector 2D Structures. Points:. The set of points that encompass the detected feature area.
+点。矢量二维结构的数组。点：。包含检测到的特征区域的点的集合。
 
-Confidence: Float (single-precision). Confidence:. How confident the ML was in determining this feature and its type.
-
+Confidence（信心）。Float（单精度）。信度：。ML在确定该特征及其类型时的信心程度。

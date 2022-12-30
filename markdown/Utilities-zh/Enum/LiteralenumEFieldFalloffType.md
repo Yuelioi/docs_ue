@@ -1,6 +1,6 @@
 # LiteralenumEFieldFalloffType
 
-Literal enum EFieldFalloffType
+字面意义上的枚举：EFieldFalloffType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFieldFalloffType
 
 ## Inputs
 
-Enum: EFieldFalloffType Enum.  
+枚举。EFieldFalloffType Enum.  
 
 ## Outputs
 
-Return Value: EFieldFalloffType Enum.
-
+返回值。EFieldFalloffType Enum.

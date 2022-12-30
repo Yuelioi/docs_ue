@@ -1,6 +1,6 @@
 # GetnumberofentriesinEWarpingEval-
 
-Returns EWarpingEvaluationMode_MAX value
+返回EWarpingEvaluationMode_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EWarpingEvaluationMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinEReplaceAsse-
 
-Returns EReplaceAssetPolicy_MAX value
+返回EReplaceAssetPolicy_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EReplaceAssetPolicy_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

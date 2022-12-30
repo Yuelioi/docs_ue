@@ -1,6 +1,6 @@
 # SwitchonEGooglePADDownloadStatus
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,35 +8,34 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGooglePADDownloadStatus Enum.  
+选择。EGooglePADDownloadStatus枚举。 
 
 ## Outputs
 
-Asset Pack UNKNOWN: Exec.
+Asset Pack UNKNOWN: 执行。
 
-Asset Pack DOWNLOAD PENDING: Exec.
+资产包下载待定。Exec.
 
-Asset Pack DOWNLOADING: Exec.
+资产包正在下载。Exec.
 
 Asset Pack TRANSFERRING: Exec.
 
-Asset Pack DOWNLOAD COMPLETED: Exec.
+资产包下载已完成。Exec.
 
-Asset Pack DOWNLOAD FAILED: Exec.
+资产包下载失败。Exec.
 
-Asset Pack DOWNLOAD CANCELED: Exec.
+资产包下载取消。Exec.
 
-Asset Pack WAITING FOR WIFI: Exec.
+资产包正在等待WIFI。Exec.
 
-Asset Pack NOT INSTALLED: Exec.
+资产包未安装。Exec.
 
-Asset Pack INFO PENDING: Exec.
+资产包信息待定。执行。
 
-Asset Pack INFO FAILED: Exec.
+资产包 INFO FAILED: Exec.
 
-Asset Pack REMOVAL PENDING: Exec.
+资产包移除待定。Exec.
 
-Asset Pack REMOVAL FAILED: Exec.
-
+资产包删除失败。Exec.

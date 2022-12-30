@@ -1,6 +1,6 @@
 # LiteralenumEARSceneReconstructio-
 
-Literal enum EARSceneReconstruction
+枚举EARSceneReconstruction
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARSceneReconstruction
 
 ## Inputs
 
-Enum: EARSceneReconstruction Enum.  
+枚举。EARSceneReconstruction Enum.  
 
 ## Outputs
 
-Return Value: EARSceneReconstruction Enum.
-
+返回值。EARSceneReconstruction Enum.

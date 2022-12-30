@@ -1,8 +1,8 @@
 # ToString_rotator
 
-Converts a rotator value to a string, in the form 'P= Y= R='
+将旋转器的值转换为字符串，形式为'P= Y= R=' 。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-In Rot: Rotator.  
+在Rot: 旋转器。 
 
 ## Outputs
 
-Return Value: String. Converts a rotator value to a string, in the form 'P= Y= R='.
-
+返回值。字符串。将一个旋转器的值转换为字符串，形式为'P= Y= R='。

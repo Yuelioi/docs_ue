@@ -1,6 +1,6 @@
 # BytetoEnumEWaterBodyType
 
-Byte to Enum EWaterBodyType
+字节到枚举 EWaterBodyType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EWaterBodyType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWaterBodyType Enum.
-
+返回值。EWaterBodyType Enum。

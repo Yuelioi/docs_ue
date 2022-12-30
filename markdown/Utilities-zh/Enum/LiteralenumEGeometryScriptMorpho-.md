@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptMorpho-
 
-Literal enum EGeometryScriptMorphologicalOpType
+字面意义上的枚举 EGeometryScriptMorphologicalOpType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptMorphologicalOpType
 
 ## Inputs
 
-Enum: EGeometryScriptMorphologicalOpType Enum.  
+枚举。EGeometryScriptMorphologicalOpType Enum.  
 
 ## Outputs
 
-Return Value: EGeometryScriptMorphologicalOpType Enum.
-
+返回值。EGeometryScriptMorphologicalOpType Enum.

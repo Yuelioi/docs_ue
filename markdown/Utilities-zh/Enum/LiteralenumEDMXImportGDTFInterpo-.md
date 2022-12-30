@@ -1,6 +1,6 @@
 # LiteralenumEDMXImportGDTFInterpo-
 
-Literal enum EDMXImportGDTFInterpolationTo
+字面意义上的枚举 EDMXImportGDTFInterpolationTo
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDMXImportGDTFInterpolationTo
 
 ## Inputs
 
-Enum: EDMXImportGDTFInterpolationTo Enum.  
+枚举。EDMXImportGDTFInterpolationTo Enum.  
 
 ## Outputs
 
-Return Value: EDMXImportGDTFInterpolationTo Enum.
-
+返回值。EDMXImportGDTFInterpolationTo Enum.

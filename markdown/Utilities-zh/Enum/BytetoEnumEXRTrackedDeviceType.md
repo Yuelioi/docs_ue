@@ -1,6 +1,6 @@
 # BytetoEnumEXRTrackedDeviceType
 
-Byte to Enum EXRTrackedDeviceType
+字节到枚举 EXRTrackedDeviceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EXRTrackedDeviceType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EXRTrackedDeviceType Enum.
-
+返回值。EXRTrackedDeviceType Enum。

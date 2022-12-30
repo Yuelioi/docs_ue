@@ -1,6 +1,6 @@
 # BreakAnimationTrackAddedPayload
 
-Adds a node that breaks a 'AnimationTrackAddedPayload' into its member fields
+添加一个节点，将'AnimationTrackAddedPayload'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'AnimationTrackAddedPayload' into its member fields
 
 ## Inputs
 
-Animation Track Added Payload: Animation Track Added Payload Structure (by ref).  
+Animation Track Added Payload。Animation Track Added Payload 结构（通过引用）。 
 
 ## Outputs
 
-Track Index: Integer. Track Index:. Index of the track (bone) which was added.
+轨迹索引。整数。轨道索引：。被添加的轨迹（骨骼）的索引。
 
-Name: Name. Name:. Name of the track (bone).
-
+名称。名称：。名称：。轨道（骨骼）的名称。

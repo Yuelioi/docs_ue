@@ -1,6 +1,6 @@
 # SwitchonEMoviePi-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMoviePipelineObjectIdPassIdType Enum.  
+选择。EMoviePipelineObjectIdPassIdType枚举。 
 
 ## Outputs
 
-Full: Exec.
+完整：Exec.Ltd.
 
-Material: Exec.
+Material: 材料。Exec.
 
 Actor: Exec.
 
-Actor With Hierarchy: Exec.
+有等级制度的演员。Exec.
 
-Folder: Exec.
+文件夹。Exec.
 
-Layer: Exec.
-
+层。Exec.

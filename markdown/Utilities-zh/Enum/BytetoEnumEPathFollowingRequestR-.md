@@ -1,6 +1,6 @@
 # BytetoEnumEPathFollowingRequestR-
 
-Byte to Enum EPathFollowingRequestResult
+字节到枚举 EPathFollowingRequestResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EPathFollowingRequestResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EPathFollowingRequestResult Enum.
-
+返回值。EPathFollowingRequestResult Enum.

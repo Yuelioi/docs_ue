@@ -1,6 +1,6 @@
 # LiteralenumAnimPhysSimSpaceType
 
-Literal enum AnimPhysSimSpaceType
+字面意义上的枚举：AnimPhysSimSpaceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum AnimPhysSimSpaceType
 
 ## Inputs
 
-Enum: AnimPhysSimSpaceType Enum.  
+枚举。AnimPhysSimSpaceType Enum.  
 
 ## Outputs
 
-Return Value: AnimPhysSimSpaceType Enum.
-
+返回值: AnimPhysSimSpaceType Enum.

@@ -1,6 +1,6 @@
 # SwitchonEFieldFilterType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EFieldFilterType Enum.  
+选择。EFieldFilterType Enum.  
 
 ## Outputs
 
-Dynamic: Exec.
+动态。Exec.
 
 Kinematic: Exec.
 
-Static: Exec.
+静态的。执行。
 
-All: Exec.
+全部：执行。
 
-Sleeping: Exec.
+睡眠状态 Exec.
 
-Disabled: Exec.
-
+禁用：执行。执行.

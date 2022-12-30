@@ -1,6 +1,6 @@
 # SwitchonEQuartzT-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EQuartzTimeSignatureQuantization Enum.  
+选择。EQuartzTimeSignatureQuantization Enum.  
 
 ## Outputs
 
-/ 2: Exec.
+/ 2：执行。
 
-/ 4: Exec.
+/ 4：执行。
 
-/ 8: Exec.
+/ 8：执行。
 
-/ 16: Exec.
+/ 16：执行。
 
-/ 32: Exec.
-
+/ 32：执行。

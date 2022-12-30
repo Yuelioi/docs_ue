@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARFrameSync-
 
-Returns EARFrameSyncMode_MAX value
+返回EARFrameSyncMode_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARFrameSyncMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

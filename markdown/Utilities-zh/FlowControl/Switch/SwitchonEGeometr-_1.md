@@ -1,6 +1,6 @@
 # SwitchonEGeometr-_1
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,13 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGeometryScriptCollisionGenerationMethod Enum.  
+选择。EGeometryScriptCollisionGenerationMethod Enum.  
 
 ## Outputs
 
-Aligned Boxes: Exec.
+对齐的方框。Exec.
 
 Oriented Boxes: Exec.
 
@@ -22,9 +22,8 @@ Minimal Spheres: Exec.
 
 Capsules: Exec.
 
-Convex Hulls: Exec.
+凸起的外壳: Exec.
 
-Swept Hulls: Exec.
+掠过的外壳: Exec.
 
-Min Volume Shapes: Exec.
-
+最小体积形状: Exec.

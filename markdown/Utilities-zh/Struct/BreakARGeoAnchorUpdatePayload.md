@@ -1,6 +1,6 @@
 # BreakARGeoAnchorUpdatePayload
 
-Adds a node that breaks a 'ARGeoAnchorUpdatePayload' into its member fields
+添加一个节点，将'ARGeoAnchorUpdatePayload'分解到其成员字段中。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'ARGeoAnchorUpdatePayload' into its member fields
 
 ## Inputs
 
-ARGeo Anchor Update Payload: ARGeo Anchor Update Payload Structure (by ref).  
+ARGeo Anchor Update Payload。ARGeo Anchor Update Payload结构（通过引用）。 
 
 ## Outputs
 
-Session Payload: ARSession Payload Structure. Session Payload.
+Session Payload: ARSession Payload结构。Session Payload: ARSession Payload Structure.
 
-World Transform: Transform. World Transform.
+World Transform: Transform. 世界转换。
 
-Longitude: Float (single-precision). Longitude.
+经度。Float（单精度）。经度：经度。
 
-Latitude: Float (single-precision). Latitude.
+纬度。Float (single-precision). 纬度。
 
-Altitude Meters: Float (single-precision). Altitude Meters.
+海拔米数。Float (single-precision). 海拔米数。
 
-Altitude Source: EARAltitudeSource Enum. Altitude Source.
+高度来源。EARAltitudeSource枚举。高度来源：EARAltitudeSource枚举。
 
-Anchor Name: String. Anchor Name.
-
+锚点名称。字符串。Anchor Name: 锚点名称。

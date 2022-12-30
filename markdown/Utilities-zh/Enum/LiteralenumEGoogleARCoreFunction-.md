@@ -1,6 +1,6 @@
 # LiteralenumEGoogleARCoreFunction-
 
-Literal enum EGoogleARCoreFunctionStatus
+枚举 EGoogleARCoreFunctionStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGoogleARCoreFunctionStatus
 
 ## Inputs
 
-Enum: EGoogleARCoreFunctionStatus Enum.  
+枚举。EGoogleARCoreFunctionStatus枚举。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreFunctionStatus Enum.
-
+返回值。EGoogleARCoreFunctionStatus Enum。

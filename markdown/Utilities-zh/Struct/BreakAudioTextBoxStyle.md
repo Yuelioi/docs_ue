@@ -1,6 +1,6 @@
 # BreakAudioTextBoxStyle
 
-Adds a node that breaks a 'AudioTextBoxStyle' into its member fields
+添加一个节点，将'AudioTextBoxStyle'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'AudioTextBoxStyle' into its member fields
 
 ## Inputs
 
-Audio Text Box Style: Audio Text Box Style Structure (by ref).  
+音频文本框样式。音频文本框样式结构（通过引用）。 
 
 ## Outputs
 
-Background Image: Slate Brush Structure. Background Image:. Image for the label border.
+背景图片。Slate Brush结构。Background Image:（背景图像）。用于标签边框的图像。
 
-Background Color: Slate Color Structure. Background Color:. Color used to draw the label background.
-
+Background Color: 石板颜色结构。Background Color:（背景色）。用于绘制标签背景的颜色。

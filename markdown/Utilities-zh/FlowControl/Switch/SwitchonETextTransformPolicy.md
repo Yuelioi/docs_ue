@@ -1,6 +1,6 @@
 # SwitchonETextTransformPolicy
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETextTransformPolicy Enum.  
+选择。ETextTransformPolicy Enum.  
 
 ## Outputs
 
-None: Exec.
+无。执行：Exec.
 
 To Lower: Exec.
 
-To Upper: Exec.
-
+到上层。执行。

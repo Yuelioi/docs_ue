@@ -1,6 +1,6 @@
 # BytetoEnumEOverlapFilterOption
 
-Byte to Enum EOverlapFilterOption
+字节到枚举 EOverlapFilterOption
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EOverlapFilterOption
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EOverlapFilterOption Enum.
-
+返回值。EOverlapFilterOption Enum。

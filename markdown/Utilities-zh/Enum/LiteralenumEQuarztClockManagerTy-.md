@@ -1,6 +1,6 @@
 # LiteralenumEQuarztClockManagerTy-
 
-Literal enum EQuarztClockManagerType
+枚举 EQuarztClockManagerType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EQuarztClockManagerType
 
 ## Inputs
 
-Enum: EQuarztClockManagerType Enum.  
+枚举。EQuarztClockManagerType Enum.  
 
 ## Outputs
 
-Return Value: EQuarztClockManagerType Enum.
-
+返回值。EQuarztClockManagerType Enum：EQuarztClockManagerType Enum。

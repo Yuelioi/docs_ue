@@ -1,6 +1,6 @@
 # BytetoEnumETextureShareBPSyncCon-
 
-Byte to Enum ETextureShareBPSyncConnect
+字节到枚举 ETextureShareBPSyncConnect
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETextureShareBPSyncConnect
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETextureShareBPSyncConnect Enum.
-
+返回值。ETextureShareBPSyncConnect Enum。

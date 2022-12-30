@@ -1,6 +1,6 @@
 # BytetoEnumEPhysicalSurface
 
-Byte to Enum EPhysicalSurface
+字节到枚举 EPhysicalSurface
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EPhysicalSurface
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EPhysicalSurface Enum.
-
+返回值。EPhysicalSurface Enum。

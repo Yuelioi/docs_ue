@@ -1,6 +1,6 @@
 # LiteralenumEWaterBrushFalloffMod-
 
-Literal enum EWaterBrushFalloffMode
+枚举 EWaterBrushFalloffMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWaterBrushFalloffMode
 
 ## Inputs
 
-Enum: EWaterBrushFalloffMode Enum.  
+枚举。EWaterBrushFalloffMode枚举。 
 
 ## Outputs
 
-Return Value: EWaterBrushFalloffMode Enum.
-
+返回值。EWaterBrushFalloffMode Enum.

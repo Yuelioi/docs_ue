@@ -1,6 +1,6 @@
 # LiteralenumEZoneGraphLaneRouting-
 
-Literal enum EZoneGraphLaneRoutingCountRule
+枚举EZoneGraphLaneRoutingCountRule
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EZoneGraphLaneRoutingCountRule
 
 ## Inputs
 
-Enum: EZoneGraphLaneRoutingCountRule Enum.  
+枚举。EZoneGraphLaneRoutingCountRule 枚举。 
 
 ## Outputs
 
-Return Value: EZoneGraphLaneRoutingCountRule Enum.
-
+返回值。EZoneGraphLaneRoutingCountRule Enum。

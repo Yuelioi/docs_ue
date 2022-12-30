@@ -1,6 +1,6 @@
 # BytetoEnumEGeoAnchorComponentDeb-
 
-Byte to Enum EGeoAnchorComponentDebugMode
+字节到枚举EGeoAnchorComponentDebugMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeoAnchorComponentDebugMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeoAnchorComponentDebugMode Enum.
-
+返回值。EGeoAnchorComponentDebugMode枚举。

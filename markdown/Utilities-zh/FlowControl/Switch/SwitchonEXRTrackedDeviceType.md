@@ -1,6 +1,6 @@
 # SwitchonEXRTrackedDeviceType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EXRTrackedDeviceType Enum.  
+选择。EXRTrackedDeviceType枚举。 
 
 ## Outputs
 
-Head Mounted Display: Exec.
+头戴式显示器。Exec.
 
-Controller: Exec.
+控制器。Exec.
 
-Tracking Reference: Exec.
+追踪参考。Exec.
 
-Other: Exec.
+其他。执行者
 
-Any: Exec.
-
+任何一个。执行.

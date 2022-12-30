@@ -1,6 +1,6 @@
 # LocalArrayofStrings
 
-Local temporary Array of Strings variable
+本地临时字符串数组变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Array of Strings variable
 
 ## Outputs
 
-Variable: Array of Strings.
-
+变量。字符串阵列。

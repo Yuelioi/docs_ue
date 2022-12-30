@@ -1,6 +1,6 @@
 # BreakBodyInstanceCore
 
-Adds a node that breaks a 'BodyInstanceCore' into its member fields
+添加一个节点，将'BodyInstanceCore'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'BodyInstanceCore' into its member fields
 
 ## Inputs
 
-Body Instance Core: Body Instance Core Structure (by ref).  
+身体实例核心。身体实例核心结构（通过引用）。 
 
 ## Outputs
 
-Simulate Physics: Boolean. Simulate Physics:. If true, this body will use simulation. If false, will be 'fixed' (ie kinematic) and move where it is told.. For a Skeletal Mesh Component, simulating requires a physics asset setup and assigned on the SkeletalMesh asset.. For a Static Mesh Component, simulating requires simple collision to be setup on the StaticMesh asset..
+模拟物理。布尔型。Simulate Physics：。如果为真，这个体将使用模拟。如果是假的，将是 "固定 "的（即运动学的），并在它被告知的地方移动。对于骨骼网格组件，模拟需要设置物理资产并分配给骨骼网格资产。对于静态网格组件，模拟需要在StaticMesh资产上设置简单的碰撞。
 
-Enable Gravity: Boolean. Enable Gravity:. If object should have the force of gravity applied.
+Enable Gravity（启用重力）。布尔值。启用重力：。如果物体应该有重力的作用。
 
-Auto Weld: Boolean. Auto Weld:. If true and is attached to a parent, the two bodies will be joined into a single rigid body. Physical settings like collision profile and body settings are determined by the root.
+自动焊接。布尔值。自动焊接：。如果为真，并且连接到一个父体，两个体将被连接成一个单一的刚体。碰撞轮廓和体的设置等物理设置由根部决定。
 
-Start Awake: Boolean. Start Awake:. If object should start awake, or if it should initially be sleeping.
+开始唤醒：布尔值。开始唤醒：。如果物体应该开始苏醒，或者它最初应该是睡眠状态。
 
-Generate Wake Events: Boolean. Generate Wake Events:. Should 'wake/sleep' events fire when this object is woken up or put to sleep by the physics simulation..
+生成唤醒事件。布尔值。生成唤醒事件：。当这个物体被物理模拟唤醒或进入睡眠状态时，"唤醒/睡眠 "事件是否应该启动。
 
-Update Mass When Scale Changes: Boolean. Update Mass when Scale Changes:. If true, it will update mass when scale change *.
-
+当比例变化时更新质量。布尔值。Scale Changes时更新质量：。如果为真，它将在比例变化时更新质量 *。

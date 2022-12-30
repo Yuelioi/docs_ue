@@ -1,6 +1,6 @@
 # LiteralenumEGroomBindingMeshType
 
-Literal enum EGroomBindingMeshType
+字面上的枚举：EGroomBindingMeshType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGroomBindingMeshType
 
 ## Inputs
 
-Enum: EGroomBindingMeshType Enum.  
+枚举。EGroomBindingMeshType枚举。 
 
 ## Outputs
 
-Return Value: EGroomBindingMeshType Enum.
-
+返回值。EGroomBindingMeshType Enum。

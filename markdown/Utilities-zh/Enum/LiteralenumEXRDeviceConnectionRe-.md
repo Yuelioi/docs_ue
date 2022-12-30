@@ -1,6 +1,6 @@
 # LiteralenumEXRDeviceConnectionRe-
 
-Literal enum EXRDeviceConnectionResult
+EXRDeviceConnectionResult的字面意义枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EXRDeviceConnectionResult
 
 ## Inputs
 
-Enum: EXRDeviceConnectionResult Enum.  
+枚举。EXRDeviceConnectionResult枚举。 
 
 ## Outputs
 
-Return Value: EXRDeviceConnectionResult Enum.
-
+返回值。EXRDeviceConnectionResult Enum。

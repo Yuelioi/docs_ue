@@ -1,6 +1,6 @@
 # BytetoEnumEWidgetSpace
 
-Byte to Enum EWidgetSpace
+字节到枚举 EWidgetSpace
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EWidgetSpace
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWidgetSpace Enum.
-
+返回值。EWidgetSpace Enum。

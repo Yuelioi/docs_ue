@@ -1,6 +1,6 @@
 # BreakDetectedFeature
 
-Adds a node that breaks a 'DetectedFeature' into its member fields
+添加一个节点，将'DetectedFeature'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'DetectedFeature' into its member fields
 
 ## Inputs
 
-Detected Feature: Detected Feature Structure (by ref).  
+检测到的特征。检测到的特征结构（通过引用）。 
 
 ## Outputs
 
-Confidence: Float (single-precision). Confidence:. How confident the ML was in determining this feature and its type.
-
+Confidence（信心）。Float（单精度）。信度：。ML在确定这个特征及其类型时的信心程度。

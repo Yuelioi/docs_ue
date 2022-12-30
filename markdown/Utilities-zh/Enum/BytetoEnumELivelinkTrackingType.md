@@ -1,6 +1,6 @@
 # BytetoEnumELivelinkTrackingType
 
-Byte to Enum ELivelinkTrackingType
+字节到枚举 ELivelinkTrackingType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ELivelinkTrackingType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELivelinkTrackingType Enum.
-
+返回值。ELivelinkTrackingType Enum。

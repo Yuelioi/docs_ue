@@ -1,6 +1,6 @@
 # BreakEulerTransform
 
-Adds a node that breaks a 'EulerTransform' into its member fields
+添加一个节点，将'EulerTransform'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'EulerTransform' into its member fields
 
 ## Inputs
 
-Euler Transform: Euler Transform Structure (by ref).  
+欧拉变换。欧拉变换结构（通过引用）。 
 
 ## Outputs
 
-Location: Vector. Location:. The translation of this transform.
+位置。矢量。位置：。这个变换的平移。
 
-Rotation: Rotator. Rotation:. The rotation of this transform.
+旋转。旋转器。旋转:. 这个变换的旋转。
 
-Scale: Vector. Scale:. The scale of this transform.
-
+Scale（刻度）。矢量。规模：。这个变换的比例。

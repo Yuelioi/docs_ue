@@ -1,6 +1,6 @@
 # SwitchonETextWrappingPolicy
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETextWrappingPolicy Enum.  
+选择。ETextWrappingPolicy Enum.  
 
 ## Outputs
 
-Default Wrapping: Exec.
+默认包装。Exec.
 
-Allow Per Character Wrapping: Exec.
-
+允许每个字符的包装。Exec.

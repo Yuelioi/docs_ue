@@ -1,6 +1,6 @@
 # LiteralenumEDMXColorMode
 
-Literal enum EDMXColorMode
+字面意义上的枚举 EDMXColorMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDMXColorMode
 
 ## Inputs
 
-Enum: EDMXColorMode Enum.  
+枚举。EDMXColorMode Enum.  
 
 ## Outputs
 
-Return Value: EDMXColorMode Enum.
-
+返回值。EDMXColorMode Enum.

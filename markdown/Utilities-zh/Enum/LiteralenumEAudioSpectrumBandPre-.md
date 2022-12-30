@@ -1,6 +1,6 @@
 # LiteralenumEAudioSpectrumBandPre-
 
-Literal enum EAudioSpectrumBandPresetType
+枚举 EAudioSpectrumBandPresetType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAudioSpectrumBandPresetType
 
 ## Inputs
 
-Enum: EAudioSpectrumBandPresetType Enum.  
+枚举。EAudioSpectrumBandPresetType枚举。 
 
 ## Outputs
 
-Return Value: EAudioSpectrumBandPresetType Enum.
-
+返回值。EAudioSpectrumBandPresetType枚举。

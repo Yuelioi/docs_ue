@@ -1,6 +1,6 @@
 # BreakDataprepContext
 
-Adds a node that breaks a 'DataprepContext' into its member fields
+添加一个节点，将'DataprepContext'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'DataprepContext' into its member fields
 
 ## Inputs
 
-Dataprep Context: Dataprep Context Structure (by ref).  
+Dataprep Context。Dataprep Context结构（通过引用）。 
 
 ## Outputs
 
-Objects: Array of Object References. Objects:. This is the objects on which an operation can operate.
-
+对象。对象引用的数组。Objects:. 这是一个操作可以操作的对象。

@@ -1,6 +1,6 @@
 # BreakControlRigR-
 
-Adds a node that breaks a 'ControlRigRigHierarchyToGraphDragAndDropContext' into its member fields
+添加一个打破'ControlRigRigHierarchyToGraphDragAndDropContext'的节点到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'ControlRigRigHierarchyToGraphDragAndDropContext' into
 
 ## Inputs
 
-Control Rig Rig Hierarchy to Graph Drag and Drop Context: Control Rig Rig Hierarchy To Graph Drag And Drop Context Structure (by ref).  
+控制钻机层次结构到图形拖放上下文。Control Rig Rig Hierarchy To Graph Drag And Drop Context 结构（通过参考）。 
 
 ## Outputs
 
-Dragged Element Keys: Array of Rig Element Key Structures. Dragged Element Keys.
-
+拖动的元素键。钻机元素键结构的数组。拖动的元素键。

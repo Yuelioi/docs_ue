@@ -1,6 +1,6 @@
 # GetnumberofentriesinEMotionExtra-_2
 
-Returns EMotionExtractor_MotionType_MAX value
+返回EMotionExtractor_MotionType_MAX的值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EMotionExtractor_MotionType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

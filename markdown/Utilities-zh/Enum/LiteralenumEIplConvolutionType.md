@@ -1,6 +1,6 @@
 # LiteralenumEIplConvolutionType
 
-Literal enum EIplConvolutionType
+EIplConvolutionType的字面含义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EIplConvolutionType
 
 ## Inputs
 
-Enum: EIplConvolutionType Enum.  
+枚举。EIplConvolutionType 枚举。 
 
 ## Outputs
 
-Return Value: EIplConvolutionType Enum.
-
+返回值。EIplConvolutionType Enum：EIplConvolutionType Enum。

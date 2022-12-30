@@ -1,6 +1,6 @@
 # LiteralenumEApplicationState
 
-Literal enum EApplicationState
+EApplicationState枚举的字面意义
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: EApplicationState Enum.
 
 ## Outputs
 
-Return Value: EApplicationState Enum.
-
+返回值。EApplicationState Enum.

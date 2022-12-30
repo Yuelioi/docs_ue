@@ -1,6 +1,6 @@
 # BytetoEnumEGoogleARCoreAvailabil-
 
-Byte to Enum EGoogleARCoreAvailability
+字节到枚举 EGoogleARCoreAvailability
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGoogleARCoreAvailability
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreAvailability Enum.
-
+返回值。EGoogleARCoreAvailability Enum。

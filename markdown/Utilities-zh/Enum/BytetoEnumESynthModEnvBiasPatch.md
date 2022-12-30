@@ -1,6 +1,6 @@
 # BytetoEnumESynthModEnvBiasPatch
 
-Byte to Enum ESynthModEnvBiasPatch
+字节到枚举 ESynthModEnvBiasPatch
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESynthModEnvBiasPatch
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESynthModEnvBiasPatch Enum.
-
+返回值。ESynthModEnvBiasPatch Enum。

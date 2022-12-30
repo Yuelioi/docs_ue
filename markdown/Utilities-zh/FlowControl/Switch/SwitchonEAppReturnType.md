@@ -1,6 +1,6 @@
 # SwitchonEAppReturnType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,25 +8,24 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAppReturnType Enum.  
+选择。EAppReturnType枚举。 
 
 ## Outputs
 
-No: Exec.
+No: 执行。
 
-Yes: Exec.
+是：执行。
 
-Yes All: Exec.
+是全部。Exec.
 
 No All: Exec.
 
-Cancel: Exec.
+取消。执行。
 
-Ok: Exec.
+OK: 执行。
 
-Retry: Exec.
+重试。执行.
 
-Continue: Exec.
-
+继续。执行.

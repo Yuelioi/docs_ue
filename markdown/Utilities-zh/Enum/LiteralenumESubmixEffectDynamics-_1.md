@@ -1,6 +1,6 @@
 # LiteralenumESubmixEffectDynamics-_1
 
-Literal enum ESubmixEffectDynamicsKeySource
+枚举ESubmixEffectDynamicsKeySource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESubmixEffectDynamicsKeySource
 
 ## Inputs
 
-Enum: ESubmixEffectDynamicsKeySource Enum.  
+枚举。ESubmixEffectDynamicsKeySource Enum.  
 
 ## Outputs
 
-Return Value: ESubmixEffectDynamicsKeySource Enum.
-
+返回值。ESubmixEffectDynamicsKeySource Enum。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinESynthModEnv-_1
 
-Returns ESynthModEnvPatch_MAX value
+返回ESynthModEnvPatch_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESynthModEnvPatch_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

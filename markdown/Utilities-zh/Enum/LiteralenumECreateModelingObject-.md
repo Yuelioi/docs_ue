@@ -1,6 +1,6 @@
 # LiteralenumECreateModelingObject-
 
-Literal enum ECreateModelingObjectResult
+枚举ECreateModelingObjectResult的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECreateModelingObjectResult
 
 ## Inputs
 
-Enum: ECreateModelingObjectResult Enum.  
+枚举。ECreateModelingObjectResult枚举。 
 
 ## Outputs
 
-Return Value: ECreateModelingObjectResult Enum.
-
+返回值。ECreateModelingObjectResult枚举。

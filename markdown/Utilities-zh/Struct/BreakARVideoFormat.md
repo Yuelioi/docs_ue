@@ -1,6 +1,6 @@
 # BreakARVideoFormat
 
-Adds a node that breaks a 'ARVideoFormat' into its member fields
+添加一个节点，将'ARVideoFormat'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ARVideoFormat' into its member fields
 
 ## Inputs
 
-ARVideo Format: ARVideo Format Structure (by ref).  
+ARVideo Format。ARVideo Format结构（通过引用）。 
 
 ## Outputs
 
-FPS: Integer. FPS:. The desired or supported number of frames per second for this video format.
+FPS: 整数。FPS:. 该视频格式所需的或支持的每秒帧数。
 
-Width: Integer. Width:. The desired or supported width in pixels for this video format.
+Width（宽度）：整数。宽度：。此视频格式所需或支持的宽度，单位为像素。
 
-Height: Integer. Height:. The desired or supported height in pixels for this video format.
-
+高度：整数。高度:。此视频格式所需或支持的高度，单位为像素。

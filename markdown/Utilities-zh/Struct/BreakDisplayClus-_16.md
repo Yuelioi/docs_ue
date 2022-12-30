@@ -1,6 +1,6 @@
 # BreakDisplayClus-_16
 
-Adds a node that breaks a 'DisplayClusterConfigurationPostRender_BlurPostprocess' into its member fields
+添加一个打破'DisplayClusterConfigurationPostRender_BlurPostprocess'的节点到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DisplayClusterConfigurationPostRender_BlurPostprocess
 
 ## Inputs
 
-Display Cluster Configuration Post Render Blur Postprocess: Display Cluster Configuration Post Render Blur Postprocess Structure (by ref).  
+Display Cluster Configuration Post Render Blur Postprocess。Display Cluster Configuration Post Render Blur Postprocess 结构（通过引用）。 
 
 ## Outputs
 
-Mode: EDisplayClusterConfiguration_PostRenderBlur Enum. Mode:. Enable/disable Post Process Blur and specify method..
+模式。EDisplayClusterConfiguration_PostRenderBlur枚举。模式：。启用/禁用后处理模糊并指定方法。
 
-Kernel Radius: Integer. Kernel Radius:. Kernel Radius.
+Kernel Radius（内核半径）。整数。Kernel Radius:.内核半径。Kernel Radius: 核心半径。
 
-Kernel Scale: Float (single-precision). Kernel Scale:. Kernel Scale.
-
+核心刻度。Float (single-precision). Kernel Scale:. Kernel Scale.

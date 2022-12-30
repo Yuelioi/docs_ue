@@ -1,8 +1,8 @@
 # ChangeExtension
 
-Changes the extension of the given filename (does nothing if the file has no extension)
+改变给定文件名的扩展名（如果文件没有扩展名，则不做任何事情）。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Path: String.
+在路径中。字符串。
 
-In New Extension: String.  
+在新扩展名中。字符串。 
 
 ## Outputs
 
-Return Value: String. Changes the extension of the given filename (does nothing if the file has no extension).
-
+返回值。字符串。改变给定文件名的扩展名（如果文件没有扩展名则不做任何事情）。

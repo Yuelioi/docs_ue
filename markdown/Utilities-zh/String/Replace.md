@@ -1,8 +1,8 @@
 # Replace
 
-Replace all occurrences of a substring in this string
+替换这个字符串中所有出现的子串
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,15 +10,14 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source String: String.
+源字符串。字符串。
 
-From: String. substring to replace.
+From: 字符串。要替换的子串。
 
-To: String. substring to replace From with.
+To: Substring to replace From with.字符串。
 
-Search Case: ESearchCase Enum. Indicates whether the search is case sensitive or not ( defaults to ESearchCase::IgnoreCase ).  
+Search Case: ESearchCase Enum。表示搜索是否区分大小写（默认为ESearchCase::IgnoreCase）。 
 
 ## Outputs
 
-Return Value: String. a copy of this string with the replacement made.
-
+返回值。字符串。该字符串的副本，并进行了替换。

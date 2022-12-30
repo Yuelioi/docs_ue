@@ -1,6 +1,6 @@
 # SwitchonEVirtualKeyboardDismissA-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EVirtualKeyboardDismissAction Enum.  
+选择。EVirtualKeyboardDismissAction Enum.  
 
 ## Outputs
 
-Text Change On Dismiss: Exec.
+Text Change On Dismiss: 执行。
 
-Text Commit On Accept: Exec.
+Text Commit On Accept: 执行。
 
-Text Commit On Dismiss: Exec.
-
+解散时的文本承诺。执行。

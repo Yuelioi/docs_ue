@@ -1,6 +1,6 @@
 # SwitchonETakeRecorderState
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETakeRecorderState Enum.  
+选择。ETakeRecorderState枚举。 
 
 ## Outputs
 
-Counting Down: Exec.
+倒计时：Exec.
 
 Pre Record: Exec.
 
 Ticking After Pre: Exec.
 
-Started: Exec.
+开始。执行.
 
-Stopped: Exec.
+已停止。执行.
 
-Cancelled: Exec.
-
+取消了。执行.

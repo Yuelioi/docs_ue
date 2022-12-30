@@ -1,6 +1,6 @@
 # SwitchonEDMXImportGDTFPrimitiveT-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,29 +8,28 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDMXImportGDTFPrimitiveType Enum.  
+选择。EDMXImportGDTFPrimitiveType枚举。 
 
 ## Outputs
 
-Undefined: Exec.
+未定义。Exec.
 
 Cube: Exec.
 
-Cylinder: Exec.
+圆柱体：执行。Exec.
 
-Sphere: Exec.
+球体: 执行
 
-Base: Exec.
+底座 执行
 
-Yoke: Exec.
+轭。执行
 
-Head: Exec.
+头部：执行。
 
-Scanner: Exec.
+扫描器 执行
 
-Conventional: Exec.
+传统的。Exec.
 
-Pigtail: Exec.
-
+辫子。Exec.

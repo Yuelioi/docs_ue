@@ -1,6 +1,6 @@
 # SwitchonEUINavigation
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EUINavigation Enum.  
+选择。EUINavigation Enum。 
 
 ## Outputs
 
-Left: Exec.
+左：Exec。
 
-Right: Exec.
+右边：执行。执行。
 
-Up: Exec.
+向上：执行。执行：执行。
 
-Down: Exec.
+向下：执行
 
-Next: Exec.
+下一步。执行
 
-Previous: Exec.
+上一篇: Exec.
 
-Invalid: Exec.
-
+无效。执行

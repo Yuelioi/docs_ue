@@ -1,6 +1,6 @@
 # MakePrimaryAssetId
 
-Adds a node that create a 'PrimaryAssetId' from its members
+添加一个节点，从其成员中创建一个'PrimaryAssetId'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'PrimaryAssetId' from its members
 
 ## Inputs
 
-Primary Asset Type: Primary Asset Type Structure. Primary Asset Type:. The Type of this object, by default its base class's name.
+主要资产类型。主要资产类型结构。主要资产类型：。此对象的类型，默认为其基类的名称。
 
-Primary Asset Name: Name. Primary Asset Name:. The Name of this object, by default its short name.  
+主要资产名称。名称。主要资产名称：。此对象的名称，默认为其短名称。 
 
 ## Outputs
 
-Primary Asset Id: Primary Asset Id Structure.
-
+主要资产标识。主要资产ID结构。

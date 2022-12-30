@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARFaceTrack-
 
-Returns EARFaceTrackingDirection_MAX value
+返回EARFaceTrackingDirection_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARFaceTrackingDirection_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

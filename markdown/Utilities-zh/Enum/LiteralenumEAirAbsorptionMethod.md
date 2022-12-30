@@ -1,6 +1,6 @@
 # LiteralenumEAirAbsorptionMethod
 
-Literal enum EAirAbsorptionMethod
+字面意义上的EAAbsorptionMethod枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAirAbsorptionMethod
 
 ## Inputs
 
-Enum: EAirAbsorptionMethod Enum.  
+枚举。EAirAbsorptionMethod Enum.  
 
 ## Outputs
 
-Return Value: EAirAbsorptionMethod Enum.
-
+返回值。EAirAbsorptionMethod Enum。

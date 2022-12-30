@@ -1,6 +1,6 @@
 # SwitchonERejoinStatus
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERejoinStatus Enum.  
+选择。ERejoinStatus枚举。 
 
 ## Outputs
 
-No Match To Rejoin: Exec.
+No Match To Rejoin: 执行。
 
-Rejoin Available: Exec.
+可以重新加入。Exec.
 
-Updating Status: Exec.
+更新状态。执行。
 
-Needs Recheck: Exec.
+需要重新检查。Exec.
 
-No Match To Rejoin Match Ended: Exec.
-
+没有匹配的要重新加入 匹配结束了。Exec.

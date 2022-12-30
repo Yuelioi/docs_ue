@@ -1,6 +1,6 @@
 # LiteralenumESubmixEffectDynamics-
 
-Literal enum ESubmixEffectDynamicsChannelLinkMode
+字面意义上的枚举ESubmixEffectDynamicsChannelLinkMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESubmixEffectDynamicsChannelLinkMode
 
 ## Inputs
 
-Enum: ESubmixEffectDynamicsChannelLinkMode Enum.  
+枚举。ESubmixEffectDynamicsChannelLinkMode枚举。 
 
 ## Outputs
 
-Return Value: ESubmixEffectDynamicsChannelLinkMode Enum.
-
+返回值。ESubmixEffectDynamicsChannelLinkMode Enum。

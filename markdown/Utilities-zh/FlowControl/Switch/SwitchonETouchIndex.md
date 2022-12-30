@@ -1,6 +1,6 @@
 # SwitchonETouchIndex
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,29 +8,28 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETouchIndex Enum.  
+选择。ETouchIndex枚举。 
 
 ## Outputs
 
-Touch 1: Exec.
+触摸1：执行。
 
-Touch 2: Exec.
+触摸2：执行。
 
-Touch 3: Exec.
+触摸3：执行。
 
-Touch 4: Exec.
+触摸4：执行。
 
-Touch 5: Exec.
+触摸5。执行。
 
-Touch 6: Exec.
+触摸6：执行。
 
-Touch 7: Exec.
+触摸7：执行。
 
-Touch 8: Exec.
+触摸8：执行。
 
-Touch 9: Exec.
+触摸9：执行。
 
-Touch 10: Exec.
-
+触摸10：执行。

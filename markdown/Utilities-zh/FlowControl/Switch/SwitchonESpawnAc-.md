@@ -1,6 +1,6 @@
 # SwitchonESpawnAc-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESpawnActorCollisionHandlingMethod Enum.  
+选择。ESpawnActorCollisionHandlingMethod枚举。 
 
 ## Outputs
 
-Default: Exec.
+默认值。执行。
 
-Always Spawn, Ignore Collisions: Exec.
+总是再生，忽略碰撞。执行。
 
-Try to Adjust Location, But Always Spawn: Exec.
+尝试调整位置，但总是再生。执行。
 
-Try to Adjust Location, Don't Spawn if Still Colliding: Exec.
+尝试调整位置，如果仍有碰撞就不再生。执行.
 
-Do Not Spawn: Exec.
-
+不产卵。执行。

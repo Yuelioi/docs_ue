@@ -1,6 +1,6 @@
 # GetnumberofentriesinEOverlapFilt-
 
-Returns EOverlapFilterOption_MAX value
+返回EOverlapFilterOption_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EOverlapFilterOption_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

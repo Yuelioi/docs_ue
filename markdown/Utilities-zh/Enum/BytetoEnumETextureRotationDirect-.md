@@ -1,6 +1,6 @@
 # BytetoEnumETextureRotationDirect-
 
-Byte to Enum ETextureRotationDirection
+字节到枚举 ETextureRotationDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETextureRotationDirection
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETextureRotationDirection Enum.
-
+返回值。ETextureRotationDirection Enum。

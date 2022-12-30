@@ -1,8 +1,8 @@
 # IsProjectFilePathSet
 
-Checks whether the path to the project file, if any, is set.
+检查项目文件的路径（如果有的话）是否被设置。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: Boolean. true if the path is set, false otherwise..
-
+返回值。布尔值。如果路径被设置，则为true，否则为false。

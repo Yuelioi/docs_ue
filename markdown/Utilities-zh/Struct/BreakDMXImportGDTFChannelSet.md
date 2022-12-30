@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFChannelSet
 
-Adds a node that breaks a 'DMXImportGDTFChannelSet' into its member fields
+添加一个节点，将'DMXImportGDTFChannelSet'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'DMXImportGDTFChannelSet' into its member fields
 
 ## Inputs
 
-DMXImport GDTFChannel Set: DMXImport GDTFChannel Set Structure (by ref).  
+DMXImport GDTFChannel Set。DMXImport GDTFChannel Set结构（通过引用）。 
 
 ## Outputs
 
-Name: String. Name.
+名称。字符串。名称。
 
-DMXFrom: DMXImport GDTFDMXValue Structure. DMXFrom.
+DMXFrom。DMXImport GDTFDMXValue结构。DMXFrom.
 
-Physical From: Float (single-precision). Physical From.
+物理的从。Float（单精度）。物理输出：物理输出。
 
-Physical To: Float (single-precision). Physical To.
+物理到：物理到。浮点（单精度）。物理到：物理到。
 
-Wheel Slot Index: Integer. Wheel Slot Index.
-
+轮槽索引。整数。轮槽索引：轮槽索引。

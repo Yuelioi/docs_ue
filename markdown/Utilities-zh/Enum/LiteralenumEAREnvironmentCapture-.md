@@ -1,6 +1,6 @@
 # LiteralenumEAREnvironmentCapture-
 
-Literal enum EAREnvironmentCaptureProbeType
+枚举EAREnvironmentCaptureProbeType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAREnvironmentCaptureProbeType
 
 ## Inputs
 
-Enum: EAREnvironmentCaptureProbeType Enum.  
+枚举。EAREnvironmentCaptureProbeType Enum.  
 
 ## Outputs
 
-Return Value: EAREnvironmentCaptureProbeType Enum.
-
+返回值。EAREnvironmentCaptureProbeType Enum.

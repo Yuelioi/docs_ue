@@ -1,6 +1,6 @@
 # BreakDetectedFeature2D
 
-Adds a node that breaks a 'DetectedFeature2D' into its member fields
+添加一个节点，将'DetectedFeature2D'分解为其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DetectedFeature2D' into its member fields
 
 ## Inputs
 
-Detected Feature 2D: Detected Feature 2D Structure (by ref).  
+Detected Feature 2D: 检测到的特征2D结构（通过引用）。 
 
 ## Outputs
 
-Bounding Box: Box 2D Structure. Bounding Box:. The bounding box of the detected feature in the image.
+包围盒。Box 2D结构。Bounding Box:. 图像中检测到的特征的边界框。
 
-Confidence: Float (single-precision). Confidence:. How confident the ML was in determining this feature and its type.
-
+Confidence（信心）。Float（单精度）。信度：。ML在确定该特征及其类型时的信心。

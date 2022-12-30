@@ -1,6 +1,6 @@
 # LiteralenumELidarPointCloudSprit-
 
-Literal enum ELidarPointCloudSpriteOrientation
+枚举 ELidarPointCloudSpriteOrientation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELidarPointCloudSpriteOrientation
 
 ## Inputs
 
-Enum: ELidarPointCloudSpriteOrientation Enum.  
+枚举。ELidarPointCloudSpriteOrientation Enum.  
 
 ## Outputs
 
-Return Value: ELidarPointCloudSpriteOrientation Enum.
-
+返回值。ELidarPointCloudSpriteOrientation Enum。

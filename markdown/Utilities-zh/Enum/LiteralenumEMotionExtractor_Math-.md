@@ -1,6 +1,6 @@
 # LiteralenumEMotionExtractor_Math-
 
-Literal enum EMotionExtractor_MathOperation
+EMotionExtractor_MathOperation的字面枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMotionExtractor_MathOperation
 
 ## Inputs
 
-Enum: EMotionExtractor_MathOperation Enum.  
+枚举。EMotionExtractor_MathOperation Enum.  
 
 ## Outputs
 
-Return Value: EMotionExtractor_MathOperation Enum.
-
+返回值。EMotionExtractor_MathOperation Enum。

@@ -1,6 +1,6 @@
 # LiteralenumETextTransformPolicy
 
-Literal enum ETextTransformPolicy
+字面上的枚举：ETextTransformPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETextTransformPolicy
 
 ## Inputs
 
-Enum: ETextTransformPolicy Enum.  
+枚举。ETextTransformPolicy Enum.  
 
 ## Outputs
 
-Return Value: ETextTransformPolicy Enum.
-
+返回值。ETextTransformPolicy Enum。

@@ -1,6 +1,6 @@
 # MakePrimaryAssetType
 
-Adds a node that create a 'PrimaryAssetType' from its members
+添加一个节点，从其成员中创建一个'PrimaryAssetType'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'PrimaryAssetType' from its members
 
 ## Inputs
 
-Name: Name. Name:. The Type of this object, by default its base class's name.  
+名称。名称。名称：。这个对象的类型，默认是其基类的名称。 
 
 ## Outputs
 
-Primary Asset Type: Primary Asset Type Structure.
-
+主要资产类型。主要资产类型结构。

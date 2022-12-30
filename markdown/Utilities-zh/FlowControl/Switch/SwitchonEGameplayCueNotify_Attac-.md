@@ -1,6 +1,6 @@
 # SwitchonEGameplayCueNotify_Attac-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGameplayCueNotify_AttachPolicy Enum.  
+选择。EGameplayCueNotify_AttachPolicy Enum.  
 
 ## Outputs
 
 Do Not Attach: Exec.
 
-Attach To Target: Exec.
-
+附加到目标。Exec.

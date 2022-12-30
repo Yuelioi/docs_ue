@@ -1,6 +1,6 @@
 # LiteralenumEARGeoTrackingAccurac-
 
-Literal enum EARGeoTrackingAccuracy
+EARGeoTrackingAccuracy的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARGeoTrackingAccuracy
 
 ## Inputs
 
-Enum: EARGeoTrackingAccuracy Enum.  
+枚举。EARGeoTrackingAccuracy Enum.  
 
 ## Outputs
 
-Return Value: EARGeoTrackingAccuracy Enum.
-
+返回值。EARGeoTrackingAccuracy Enum。

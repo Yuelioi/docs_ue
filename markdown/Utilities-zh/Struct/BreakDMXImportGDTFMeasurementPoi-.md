@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFMeasurementPoi-
 
-Adds a node that breaks a 'DMXImportGDTFMeasurementPoint' into its member fields
+添加一个节点，将'DMXImportGDTFMeasurementPoint'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DMXImportGDTFMeasurementPoint' into its member fields
 
 ## Inputs
 
-DMXImport GDTFMeasurement Point: DMXImport GDTFMeasurement Point Structure (by ref).  
+DMXImport GDTFMeasurement Point。DMXImport GDTFMeasurement Point 结构（通过引用）。 
 
 ## Outputs
 
-Wave Length: Float (single-precision). Wave Length.
+波长。Float（单精度）。波长。
 
-Energy: Float (single-precision). Energy.
-
+能量。Float (single-precision). 能量。

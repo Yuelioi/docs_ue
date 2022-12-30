@@ -1,6 +1,6 @@
 # BytetoEnumESlateParentWindowSear-
 
-Byte to Enum ESlateParentWindowSearchMethod
+字节到枚举 ESlateParentWindowSearchMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESlateParentWindowSearchMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESlateParentWindowSearchMethod Enum.
-
+返回值。ESlateParentWindowSearchMethod Enum。

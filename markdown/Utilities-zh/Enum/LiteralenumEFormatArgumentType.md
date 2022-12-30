@@ -1,6 +1,6 @@
 # LiteralenumEFormatArgumentType
 
-Literal enum EFormatArgumentType
+枚举 EFormatArgumentType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFormatArgumentType
 
 ## Inputs
 
-Enum: EFormatArgumentType Enum.  
+枚举。EFormatArgumentType Enum.  
 
 ## Outputs
 
-Return Value: EFormatArgumentType Enum.
-
+返回值。EFormatArgumentType枚举。

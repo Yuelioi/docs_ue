@@ -1,6 +1,6 @@
 # SwitchonEWalkableSlopeBehavior
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EWalkableSlopeBehavior Enum.  
+选择。EWalkableSlopeBehavior Enum.  
 
 ## Outputs
 
-Unchanged: Exec.
+未改变: Exec.Ltd.
 
-Increase Walkable Slope: Exec.
+增加可行走的坡度。执行。
 
-Decrease Walkable Slope: Exec.
+减少可行走的坡度: 执行。
 
-Unwalkable: Exec.
-
+不可行走: 执行.

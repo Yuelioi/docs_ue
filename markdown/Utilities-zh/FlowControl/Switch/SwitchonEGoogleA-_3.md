@@ -1,6 +1,6 @@
 # SwitchonEGoogleA-_3
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGoogleARCoreTrackingFailureReason Enum.  
+选择。EGoogleARCoreTrackingFailureReason 枚举。 
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Bad State: Exec.
+坏的状态。Exec.
 
-Insufficient Light: Exec.
+光线不足。执行。
 
-Excessive Motion: Exec.
+过度的运动: 执行。
 
-Insufficient Features: Exec.
-
+不够的特征。优秀。

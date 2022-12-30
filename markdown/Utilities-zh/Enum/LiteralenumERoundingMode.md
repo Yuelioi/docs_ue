@@ -1,6 +1,6 @@
 # LiteralenumERoundingMode
 
-Literal enum ERoundingMode
+字面意义上的ERoundingMode枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERoundingMode
 
 ## Inputs
 
-Enum: ERoundingMode Enum.  
+枚举。ERoundingMode Enum.  
 
 ## Outputs
 
-Return Value: ERoundingMode Enum.
-
+返回值。ERoundingMode Enum。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinEComparisonM-
 
-Returns EComparisonMethod_MAX value
+返回EComparisonMethod_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EComparisonMethod_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

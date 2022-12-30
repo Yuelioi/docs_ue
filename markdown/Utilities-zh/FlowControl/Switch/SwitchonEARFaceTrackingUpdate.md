@@ -1,6 +1,6 @@
 # SwitchonEARFaceTrackingUpdate
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARFaceTrackingUpdate Enum.  
+选择。EARFaceTrackingUpdate Enum.  
 
 ## Outputs
 
-Curves And Geo: Exec.
+曲线和地理。执行
 
-Curves Only: Exec.
-
+仅限曲线。执行。

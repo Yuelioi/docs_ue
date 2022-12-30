@@ -1,6 +1,6 @@
 # BytetoEnumEIplSpatializationMeth-
 
-Byte to Enum EIplSpatializationMethod
+字节到枚举 EIplSpatializationMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EIplSpatializationMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EIplSpatializationMethod Enum.
-
+返回值。EIplSpatializationMethod Enum。

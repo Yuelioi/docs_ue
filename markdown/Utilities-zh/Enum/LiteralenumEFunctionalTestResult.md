@@ -1,6 +1,6 @@
 # LiteralenumEFunctionalTestResult
 
-Literal enum EFunctionalTestResult
+字面意义上的枚举EFunctionalTestResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFunctionalTestResult
 
 ## Inputs
 
-Enum: EFunctionalTestResult Enum.  
+枚举。EFunctionalTestResult Enum.  
 
 ## Outputs
 
-Return Value: EFunctionalTestResult Enum.
-
+返回值。EFunctionalTestResult Enum.

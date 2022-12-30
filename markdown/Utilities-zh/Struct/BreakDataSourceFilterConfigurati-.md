@@ -1,6 +1,6 @@
 # BreakDataSourceFilterConfigurati-
 
-Adds a node that breaks a 'DataSourceFilterConfiguration' into its member fields
+添加一个节点，将'DataSourceFilterConfiguration'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DataSourceFilterConfiguration' into its member fields
 
 ## Inputs
 
-Data Source Filter Configuration: Data Source Filter Configuration Structure (by ref).  
+数据源过滤器配置。数据源过滤器配置结构（通过引用）。 
 
 ## Outputs
 
-Only Apply During Actor Spawn: Boolean. Only Apply During Actor Spawn:. Flag whether or not this filter should only applied once, whenever an actor is spawned.
+Only Apply During Actor Spawn: 布尔值。Only Apply During Actor Spawn:（仅在演员再生时应用）。标志着这个过滤器是否应该只应用一次，每当一个角色被生出时。
 
-Can Run Asynchronously: Boolean. Can Run Asynchronously:. Flag whether or not this filter does not rely on gamethread only data, and therefore can work on a differen thread.
+可以异步运行。布尔值。可以异步运行：。标记该过滤器是否不依赖于游戏线程的数据，因此可以在不同的线程上工作。
 
-Filter Applying Tick Interval: Byte. Filter Applying Tick Interval:. Interval, in frames, between applying the filter. The resulting value is cached for intermediate frames..
-
+Filter Applying Tick Interval（过滤器应用时间间隔）。字节。过滤器应用Tick间隔：。应用过滤器的时间间隔，以帧为单位。产生的值被缓存在中间帧中。

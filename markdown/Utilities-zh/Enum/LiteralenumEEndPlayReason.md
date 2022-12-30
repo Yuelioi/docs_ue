@@ -1,6 +1,6 @@
 # LiteralenumEEndPlayReason
 
-Literal enum EEndPlayReason
+字面意义上的EEndPlayReason枚举
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: EEndPlayReason Enum.
 
 ## Outputs
 
-Return Value: EEndPlayReason Enum.
-
+返回值。EEndPlayReason Enum。

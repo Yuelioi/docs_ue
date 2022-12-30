@@ -1,6 +1,6 @@
 # LiteralenumECommonNumericType
 
-Literal enum ECommonNumericType
+枚举 ECommonNumericType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECommonNumericType
 
 ## Inputs
 
-Enum: ECommonNumericType Enum.  
+枚举。ECommonNumericType 枚举。 
 
 ## Outputs
 
-Return Value: ECommonNumericType Enum.
-
+返回值。ECommonNumericType Enum。

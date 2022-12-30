@@ -1,8 +1,8 @@
 # ToString_Integer64
 
-Converts an 64-bit integer value to a string
+将一个64位的整数值转换为一个字符串
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-In Int: Integer64.  
+在Int: Integer64。 
 
 ## Outputs
 
-Return Value: String. Converts an 64-bit integer value to a string.
-
+返回值。字符串。将一个64位的整数值转换为一个字符串。

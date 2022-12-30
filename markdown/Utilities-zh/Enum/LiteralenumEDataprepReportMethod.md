@@ -1,6 +1,6 @@
 # LiteralenumEDataprepReportMethod
 
-Literal enum EDataprepReportMethod
+枚举EDataprepReportMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDataprepReportMethod
 
 ## Inputs
 
-Enum: EDataprepReportMethod Enum.  
+枚举。EDataprepReportMethod Enum.  
 
 ## Outputs
 
-Return Value: EDataprepReportMethod Enum.
-
+返回值。EDataprepReportMethod Enum。

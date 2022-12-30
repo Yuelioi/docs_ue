@@ -1,6 +1,6 @@
 # BytetoEnumEMediaAudioCaptureDevi-
 
-Byte to Enum EMediaAudioCaptureDeviceFilter
+字节到枚举 EMediaAudioCaptureDeviceFilter
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMediaAudioCaptureDeviceFilter
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMediaAudioCaptureDeviceFilter Enum.
-
+返回值。EMediaAudioCaptureDeviceFilter Enum。

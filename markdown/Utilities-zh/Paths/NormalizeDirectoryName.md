@@ -1,8 +1,8 @@
 # NormalizeDirectoryName
 
-Normalize all / and \ to TEXT("/") and remove any trailing TEXT("/") if the character before that is not a TEXT("/") or a colon
+将所有的/和\规范化为TEXT("/")，如果前面的字符不是TEXT("/")或冒号，则删除任何后面的TEXT("/")。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Path: String.  
+在路径中。字符串。 
 
 ## Outputs
 
-Out Path: String.
-
+输出路径。字符串。

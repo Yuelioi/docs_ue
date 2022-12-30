@@ -1,6 +1,6 @@
 # SwitchonEToolMenuInsertType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EToolMenuInsertType Enum.  
+选择。EToolMenuInsertType枚举。 
 
 ## Outputs
 
-Default: Exec.
+默认值。执行。
 
-Before: Exec.
+之前。执行。
 
-After: Exec.
+之后。执行。
 
-First: Exec.
-
+首先。执行

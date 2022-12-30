@@ -8,9 +8,8 @@ Byte to Enum EGoogleARCoreCameraDepthSensorUsage
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreCameraDepthSensorUsage Enum.
-
+返回值。EGoogleARCoreCameraDepthSensorUsage Enum。

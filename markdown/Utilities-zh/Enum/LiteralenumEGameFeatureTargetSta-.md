@@ -1,6 +1,6 @@
 # LiteralenumEGameFeatureTargetSta-
 
-Literal enum EGameFeatureTargetState
+字面意义上的枚举：EGameFeatureTargetState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameFeatureTargetState
 
 ## Inputs
 
-Enum: EGameFeatureTargetState Enum.  
+枚举。EGameFeatureTargetState Enum.  
 
 ## Outputs
 
-Return Value: EGameFeatureTargetState Enum.
-
+返回值。EGameFeatureTargetState Enum.

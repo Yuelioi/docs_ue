@@ -1,6 +1,6 @@
 # BytetoEnumFDataDrivenCVarType
 
-Byte to Enum FDataDrivenCVarType
+字节到枚举 FDataDrivenCVarType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum FDataDrivenCVarType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: FDataDrivenCVarType Enum.
-
+返回值。FDataDrivenCVarType Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEScaleChainInitialLeng-
 
-Byte to Enum EScaleChainInitialLength
+字节到枚举 EScaleChainInitialLength
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EScaleChainInitialLength
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EScaleChainInitialLength Enum.
-
+返回值。EScaleChainInitialLength枚举。

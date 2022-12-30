@@ -1,6 +1,6 @@
 # SwitchonEFunctionalTestResult
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EFunctionalTestResult Enum.  
+选择。EFunctionalTestResult枚举。 
 
 ## Outputs
 
-Default: Exec.
+默认值。Exec。
 
-Invalid: Exec.
+无效。Exec。
 
-Error: Exec.
+错误。执行。
 
-Running: Exec.
+运行中。执行中
 
-Failed: Exec.
+失败。执行中
 
-Succeeded: Exec.
-
+成功了。执行中

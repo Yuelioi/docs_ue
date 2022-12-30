@@ -1,6 +1,6 @@
 # Add
 
-Add
+添加
 
 ## 图示
 
@@ -8,11 +8,10 @@ Add
 
 ## Inputs
 
-A: Wildcard.
+A: 通配符。
 
-B: Wildcard.  
+B：通配符。 
 
 ## Outputs
 
-Return Value: Wildcard. Addition (FrameNumber A + int B).
-
+返回值。通配符。加法（FrameNumber A + int B）。

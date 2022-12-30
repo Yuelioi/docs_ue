@@ -1,6 +1,6 @@
 # BreakCameraLensSettings
 
-Adds a node that breaks a 'CameraLensSettings' into its member fields
+添加一个节点，将'CameraLensSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'CameraLensSettings' into its member fields
 
 ## Inputs
 
-Camera Lens Settings: Camera Lens Settings Structure (by ref).  
+相机镜头设置。相机镜头设置结构（通过引用）。 
 
 ## Outputs
 
-Min Focal Length: Float (single-precision). Min Focal Length:. Minimum focal length for this lens.
+最小焦距。Float（单精度）。最小焦距：。该镜头的最小焦距。
 
-Max Focal Length: Float (single-precision). Max Focal Length:. Maximum focal length for this lens.
+最大焦距。浮点（单精度）。最大焦距：。此镜头的最大焦距。
 
-Min FStop: Float (single-precision). Min FStop:. Minimum aperture for this lens (e.g. 2.8 for an f/2.8 lens).
+最小光圈：浮点（单精度）。最小光圈：。该镜头的最小光圈（例如，f/2.8镜头的2.8）。
 
-Max FStop: Float (single-precision). Max FStop:. Maximum aperture for this lens (e.g. 2.8 for an f/2.8 lens).
+最大光圈：浮点（单精度）。最大光圈:. 这个镜头的最大光圈（例如，f/2.8镜头的2.8）。
 
-Minimum Focus Distance: Float (single-precision). Minimum Focus Distance:. Shortest distance this lens can focus on..
+最小对焦距离。浮动（单精度）。最小对焦距离：。这支镜头能对焦的最短距离。
 
-Diaphragm Blade Count: Integer. Diaphragm Blade Count:. Number of blades of diaphragm..
-
+光圈叶片数。整数。光圈叶片数:. 光阑片的叶片数量.

@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptUVIsla-
 
-Literal enum EGeometryScriptUVIslandSource
+字面意义上的枚举 EGeometryScriptUVIslandSource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptUVIslandSource
 
 ## Inputs
 
-Enum: EGeometryScriptUVIslandSource Enum.  
+枚举。EGeometryScriptUVIslandSource Enum.  
 
 ## Outputs
 
-Return Value: EGeometryScriptUVIslandSource Enum.
-
+返回值。EGeometryScriptUVIslandSource Enum.

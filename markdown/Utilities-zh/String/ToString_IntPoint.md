@@ -1,8 +1,8 @@
 # ToString_IntPoint
 
-Converts an IntPoint value to a string, in the form 'X= Y='
+将一个IntPoint值转换为字符串，形式为'X= Y=' 。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-In Int Point: Int Point Structure.  
+在Int Point中：Int Point结构。 
 
 ## Outputs
 
-Return Value: String. Converts an IntPoint value to a string, in the form 'X= Y='.
-
+返回值。字符串。将一个IntPoint值转换为字符串，形式为'X= Y='。

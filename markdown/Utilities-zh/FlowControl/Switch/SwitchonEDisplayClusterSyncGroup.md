@@ -1,6 +1,6 @@
 # SwitchonEDisplayClusterSyncGroup
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDisplayClusterSyncGroup Enum.  
+选择。EDisplayClusterSyncGroup Enum.  
 
 ## Outputs
 
-Pre Tick: Exec.
+预先勾选。Exec.
 
 Tick: Exec.
 
-Post Tick: Exec.
-
+后期勾选。执行

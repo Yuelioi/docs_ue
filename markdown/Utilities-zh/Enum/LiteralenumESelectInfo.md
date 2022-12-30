@@ -1,6 +1,6 @@
 # LiteralenumESelectInfo
 
-Literal enum ESelectInfo
+字面意义上的ESelectInfo枚举
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: ESelectInfo Enum.
 
 ## Outputs
 
-Return Value: ESelectInfo Enum.
-
+返回值。ESelectInfo Enum。

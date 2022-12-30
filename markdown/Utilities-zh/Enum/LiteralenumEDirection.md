@@ -1,6 +1,6 @@
 # LiteralenumEDirection
 
-Literal enum EDirection
+字面意义上的ED方向枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDirection
 
 ## Inputs
 
-Enum: EDirection Enum.  
+枚举。EDirection Enum.  
 
 ## Outputs
 
-Return Value: EDirection Enum.
-
+返回值。EDirection Enum。

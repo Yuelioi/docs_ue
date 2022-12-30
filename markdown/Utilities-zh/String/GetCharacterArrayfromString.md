@@ -1,8 +1,8 @@
 # GetCharacterArrayfromString
 
-Returns an array that contains one entry for each character in SourceString
+返回一个数组，其中包含SourceString中每个字符的一个条目。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source String: String. The string to break apart into characters.  
+源字符串。字符串。要分解成字符的字符串。 
 
 ## Outputs
 
-Return Value: Array of Strings. An array containing one entry for each character in SourceString.
-
+返回值。串的数组。一个数组，包含SourceString中每个字符的一个条目。

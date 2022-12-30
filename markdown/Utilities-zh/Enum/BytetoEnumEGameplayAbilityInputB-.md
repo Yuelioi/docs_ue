@@ -1,6 +1,6 @@
 # BytetoEnumEGameplayAbilityInputB-
 
-Byte to Enum EGameplayAbilityInputBinds
+字节到枚举 EGameplayAbilityInputBinds
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGameplayAbilityInputBinds
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGameplayAbilityInputBinds Enum.
-
+返回值。EGameplayAbilityInputBinds Enum。

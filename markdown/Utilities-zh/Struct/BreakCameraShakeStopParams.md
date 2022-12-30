@@ -1,6 +1,6 @@
 # BreakCameraShakeStopParams
 
-Adds a node that breaks a 'CameraShakeStopParams' into its member fields
+添加一个节点，将'CameraShakeStopParams'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'CameraShakeStopParams' into its member fields
 
 ## Inputs
 
-Camera Shake Stop Params: Camera Shake Stop Params Structure (by ref).  
+Camera Shake Stop Params（相机摇动停止参数）。Camera Shake Stop Params结构（通过引用）。 
 
 ## Outputs
 
-Immediately: Boolean. Immediately.
-
+Immediately（立即）。Boolean（布尔）。Immediately（立即）：立即。

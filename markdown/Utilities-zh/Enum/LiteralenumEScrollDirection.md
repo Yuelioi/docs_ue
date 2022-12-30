@@ -1,6 +1,6 @@
 # LiteralenumEScrollDirection
 
-Literal enum EScrollDirection
+字面意义上的枚举：EScrollDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EScrollDirection
 
 ## Inputs
 
-Enum: EScrollDirection Enum.  
+枚举。EScrollDirection Enum.  
 
 ## Outputs
 
-Return Value: EScrollDirection Enum.
-
+返回值。EScrollDirection Enum。

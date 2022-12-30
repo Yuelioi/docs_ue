@@ -1,6 +1,6 @@
 # LiteralenumECastToControlRigBlue-
 
-Literal enum ECastToControlRigBlueprintCases
+枚举ECastToControlRigBlueprintCases
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECastToControlRigBlueprintCases
 
 ## Inputs
 
-Enum: ECastToControlRigBlueprintCases Enum.  
+枚举。ECastToControlRigBlueprintCases 枚举。 
 
 ## Outputs
 
-Return Value: ECastToControlRigBlueprintCases Enum.
-
+返回值。ECastToControlRigBlueprintCases 枚举。

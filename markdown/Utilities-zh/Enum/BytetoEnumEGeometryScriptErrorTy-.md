@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptErrorTy-
 
-Byte to Enum EGeometryScriptErrorType
+字节到枚举 EGeometryScriptErrorType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptErrorType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptErrorType Enum.
-
+返回值。EGeometryScriptErrorType 枚举。

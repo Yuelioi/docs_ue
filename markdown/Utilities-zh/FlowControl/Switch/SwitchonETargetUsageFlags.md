@@ -1,6 +1,6 @@
 # SwitchonETargetUsageFlags
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETargetUsageFlags Enum.  
+选择。ETargetUsageFlags Enum.  
 
 ## Outputs
 
-USAGE None: Exec.
+USAGE 无。Exec.
 
-USAGE Input: Exec.
+USAGE输入。Exec.
 
-USAGE Transform: Exec.
+USAGE 变换。执行。
 
-USAGE Output: Exec.
+USAGE 输出。执行。
 
 USAGE Persistent: Exec.
-

@@ -1,6 +1,6 @@
 # BreakCachedAnimStateArray
 
-Adds a node that breaks a 'CachedAnimStateArray' into its member fields
+添加一个节点，将'CachedAnimStateArray'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'CachedAnimStateArray' into its member fields
 
 ## Inputs
 
-Cached Anim State Array: Cached Anim State Array Structure (by ref).  
+缓存的动画状态数组。缓存的动画状态数组结构（通过引用）。 
 
 ## Outputs
 
-States: Array of Cached Anim State Data Structures. States:. Array of states.
-
+状态。缓存动画状态数据结构的数组。States:. 状态的数组。

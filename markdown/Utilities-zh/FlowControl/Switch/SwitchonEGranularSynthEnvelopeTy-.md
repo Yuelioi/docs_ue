@@ -1,6 +1,6 @@
 # SwitchonEGranularSynthEnvelopeTy-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,37 +8,36 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGranularSynthEnvelopeType Enum.  
+选择。EGranularSynthEnvelopeType枚举。 
 
 ## Outputs
 
-Rectangular: Exec.
+长方形。Exec.
 
-Triangle: Exec.
+三角形 Exec.
 
 Downward Triangle: Exec.
 
-Upward Triangle: Exec.
+向上的三角形。Exec.
 
-Exponential Decay: Exec.
+指数衰减。Exec.
 
-Exponential Increase: Exec.
+指数增加。Exec.
 
-Gaussian: Exec.
+高斯型：执行。
 
 Hanning: Exec.
 
 Lanczos: Exec.
 
-Cosine: Exec.
+余弦: 执行
 
-Cosine Squared: Exec.
+余弦方程: Exec.
 
-Welch: Exec.
+韦尔奇: Exec.
 
-Blackman: Exec.
+布莱克曼: 执行。
 
-Blackman Harris: Exec.
-
+Blackman Harris: 执行董事

@@ -1,6 +1,6 @@
 # LiteralenumEVertexColorImportOpt-
 
-Literal enum EVertexColorImportOption
+文字枚举EVertexColorImportOption
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EVertexColorImportOption
 
 ## Inputs
 
-Enum: EVertexColorImportOption Enum.  
+枚举。EVertexColorImportOption Enum.  
 
 ## Outputs
 
-Return Value: EVertexColorImportOption Enum.
-
+返回值。EVertexColorImportOption Enum.

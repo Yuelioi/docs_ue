@@ -1,6 +1,6 @@
 # LiteralenumEIplSpatializationMet-
 
-Literal enum EIplSpatializationMethod
+枚举 EIplSpatializationMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EIplSpatializationMethod
 
 ## Inputs
 
-Enum: EIplSpatializationMethod Enum.  
+枚举。EIplSpatializationMethod Enum.  
 
 ## Outputs
 
-Return Value: EIplSpatializationMethod Enum.
-
+返回值。EIplSpatializationMethod Enum：EIplSpatializationMethod Enum。

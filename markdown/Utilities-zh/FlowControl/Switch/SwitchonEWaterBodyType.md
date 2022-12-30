@@ -1,6 +1,6 @@
 # SwitchonEWaterBodyType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EWaterBodyType Enum.  
+选择。EWaterBodyType枚举。 
 
 ## Outputs
 
-River: Exec.
+河流。Exec.
 
-Lake: Exec.
+湖泊 Exec.
 
-Ocean: Exec.
+Ocean: 高级的
 
-Custom: Exec.
-
+自定义。特级

@@ -1,6 +1,6 @@
 # BreakBracketPayload
 
-Adds a node that breaks a 'BracketPayload' into its member fields
+添加一个节点，将'BracketPayload'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'BracketPayload' into its member fields
 
 ## Inputs
 
-Bracket Payload: Bracket Payload Structure (by ref).  
+支架有效载荷。括号内有效载荷结构（通过引用）。 
 
 ## Outputs
 
-Description: String. Description:. Description of bracket-ed operation applied to the model.
-
+描述。字符串。描述：。应用于模型的括号式操作的描述。

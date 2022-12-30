@@ -1,6 +1,6 @@
 # GetnumberofentriesinEScriptColli-
 
-Returns EScriptCollisionShapeType_MAX value
+返回EScriptCollisionShapeType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EScriptCollisionShapeType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

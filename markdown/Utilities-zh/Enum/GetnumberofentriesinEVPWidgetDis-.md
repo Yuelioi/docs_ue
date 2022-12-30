@@ -1,6 +1,6 @@
 # GetnumberofentriesinEVPWidgetDis-
 
-Returns EVPWidgetDisplayType_MAX value
+返回EVPWidgetDisplayType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EVPWidgetDisplayType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

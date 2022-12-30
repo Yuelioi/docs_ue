@@ -1,6 +1,6 @@
 # LiteralenumEFaceComponentDebugMo-
 
-Literal enum EFaceComponentDebugMode
+枚举：EFaceComponentDebugMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFaceComponentDebugMode
 
 ## Inputs
 
-Enum: EFaceComponentDebugMode Enum.  
+枚举。EFaceComponentDebugMode枚举。 
 
 ## Outputs
 
-Return Value: EFaceComponentDebugMode Enum.
-
+返回值。EFaceComponentDebugMode Enum.

@@ -1,6 +1,6 @@
 # BytetoEnumEOrientation
 
-Byte to Enum EOrientation
+字节到枚举EOrientation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EOrientation
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EOrientation Enum.
-
+返回值。EOrientation Enum。

@@ -1,8 +1,8 @@
 # GetBaseFilename
 
-Returns the same thing as GetCleanFilename, but without the extension
+返回与GetCleanFilename相同的东西，但没有扩展名。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Path: String.
+在路径中。字符串。
 
-Remove Path: Boolean.  
+删除路径。布尔值。 
 
 ## Outputs
 
-Return Value: String. Returns the same thing as GetCleanFilename, but without the extension.
-
+返回值。字符串。返回与GetCleanFilename相同的东西，但没有扩展名。

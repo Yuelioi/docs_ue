@@ -1,6 +1,6 @@
 # LiteralenumEQuartzCommandDelegat-
 
-Literal enum EQuartzCommandDelegateSubType
+枚举EQuartzCommandDelegateSubType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EQuartzCommandDelegateSubType
 
 ## Inputs
 
-Enum: EQuartzCommandDelegateSubType Enum.  
+枚举。EQuartzCommandDelegateSubType 枚举。 
 
 ## Outputs
 
-Return Value: EQuartzCommandDelegateSubType Enum.
-
+返回值。EQuartzCommandDelegateSubType Enum。

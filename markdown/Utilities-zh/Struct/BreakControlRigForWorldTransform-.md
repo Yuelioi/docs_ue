@@ -1,6 +1,6 @@
 # BreakControlRigForWorldTransform-
 
-Adds a node that breaks a 'ControlRigForWorldTransforms' into its member fields
+添加一个节点，将'ControlRigForWorldTransforms'分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ControlRigForWorldTransforms' into its member fields
 
 ## Inputs
 
-Control Rig for World Transforms: Control Rig For World Transforms Structure (by ref).  
+世界转换的控制钻机。Control Rig For World Transforms 结构（通过引用）。 
 
 ## Outputs
 
-Control Rig: Control Rig Weak object. Control Rig.
+控制钻机。控制钻机的弱对象。控制钻机。
 
-Control Names: Array of Names. Control Names.
-
+控制名称。名称的数组。控件名称：控件名称。

@@ -1,6 +1,6 @@
 # SwitchonEDOFMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDOFMode Enum.  
+选择。EDOFMode枚举。 
 
 ## Outputs
 
-Default: Exec.
+默认值。执行。
 
-Six DOF: Exec.
+六度空间：执行。
 
-YZPlane: Exec.
+YZPlane: 执行。
 
-XZPlane: Exec.
+XZ平面。执行。
 
-XYPlane: Exec.
+XY平面。Exec.
 
-Custom Plane: Exec.
+自定义平面。Exec.
 
-None: Exec.
-
+没有。Exec.

@@ -1,6 +1,6 @@
 # BytetoEnumEMovieSceneEvaluationT-
 
-Byte to Enum EMovieSceneEvaluationType
+字节到枚举 EMovieSceneEvaluationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMovieSceneEvaluationType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMovieSceneEvaluationType Enum.
-
+返回值。EMovieSceneEvaluationType Enum。

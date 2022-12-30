@@ -1,6 +1,6 @@
 # BytetoEnumEMaterialProperty
 
-Byte to Enum EMaterialProperty
+字节到枚举EMaterialProperty
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMaterialProperty
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMaterialProperty Enum.
-
+返回值。EMaterialProperty Enum。

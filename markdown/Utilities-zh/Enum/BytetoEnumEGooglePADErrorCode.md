@@ -1,6 +1,6 @@
 # BytetoEnumEGooglePADErrorCode
 
-Byte to Enum EGooglePADErrorCode
+字节到枚举 EGooglePADErrorCode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGooglePADErrorCode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGooglePADErrorCode Enum.
-
+返回值。EGooglePADErrorCode Enum。

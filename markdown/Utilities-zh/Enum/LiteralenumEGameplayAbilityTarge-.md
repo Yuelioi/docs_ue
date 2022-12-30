@@ -1,6 +1,6 @@
 # LiteralenumEGameplayAbilityTarge-
 
-Literal enum EGameplayAbilityTargetingLocationType
+枚举EGameplayAbilityTargetingLocationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayAbilityTargetingLocationType
 
 ## Inputs
 
-Enum: EGameplayAbilityTargetingLocationType Enum.  
+枚举。EGameplayAbilityTargetingLocationType枚举。 
 
 ## Outputs
 
-Return Value: EGameplayAbilityTargetingLocationType Enum.
-
+返回值。EGameplayAbilityTargetingLocationType Enum。

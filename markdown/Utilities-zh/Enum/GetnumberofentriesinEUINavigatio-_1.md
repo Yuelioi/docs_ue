@@ -1,6 +1,6 @@
 # GetnumberofentriesinEUINavigatio-_1
 
-Returns EUINavigationAction_MAX value
+返回EUINavigationAction_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EUINavigationAction_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

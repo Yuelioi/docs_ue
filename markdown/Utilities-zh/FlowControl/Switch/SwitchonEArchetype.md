@@ -1,6 +1,6 @@
 # SwitchonEArchetype
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EArchetype Enum.  
+选择。EArchetype Enum.  
 
 ## Outputs
 
-Asian: Exec.
+亚洲：Exec.
 
-Black: Exec.
+黑人: 执事: 执事
 
-Caucasian: Exec.
+高加索人: 执行
 
-Hispanic: Exec.
+西班牙裔: 执行
 
-Alien: Exec.
+外国人：执行
 
-Other: Exec.
-
+其他 执行者

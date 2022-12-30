@@ -1,6 +1,6 @@
 # LiteralenumEDMXSendResult
 
-Literal enum EDMXSendResult
+字面意义上的枚举 EDMXSendResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDMXSendResult
 
 ## Inputs
 
-Enum: EDMXSendResult Enum.  
+枚举。EDMXSendResult Enum.  
 
 ## Outputs
 
-Return Value: EDMXSendResult Enum.
-
+返回值。EDMXSendResult Enum.

@@ -1,6 +1,6 @@
 # BreakConditionalGameplayEffect
 
-Adds a node that breaks a 'ConditionalGameplayEffect' into its member fields
+添加一个打破'ConditionalGameplayEffect'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ConditionalGameplayEffect' into its member fields
 
 ## Inputs
 
-Conditional Gameplay Effect: Conditional Gameplay Effect Structure (by ref).  
+条件性游戏效果。条件性游戏效果结构（通过引用）。 
 
 ## Outputs
 
-Effect Class: Gameplay Effect Class Reference. Effect Class:. gameplay effect that will be applied to the target.
+效果类。Gameplay Effect Class Reference. 效果类：。将应用于目标的游戏效果。
 
-Required Source Tags: Gameplay Tag Container Structure. Required Source Tags:. Tags that the source must have for this GE to apply.
-
+必要的源标签。Gameplay Tag容器结构。Required Source Tags:（必要的源标签）。为了应用这个GE，源必须有的标签。

@@ -1,6 +1,6 @@
 # LiteralenumEAudioSpectrumType
 
-Literal enum EAudioSpectrumType
+枚举 EAudioSpectrumType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAudioSpectrumType
 
 ## Inputs
 
-Enum: EAudioSpectrumType Enum.  
+枚举。EAudioSpectrumType Enum.  
 
 ## Outputs
 
-Return Value: EAudioSpectrumType Enum.
-
+返回值。EAudioSpectrumType Enum。

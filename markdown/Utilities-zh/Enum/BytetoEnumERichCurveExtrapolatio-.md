@@ -1,6 +1,6 @@
 # BytetoEnumERichCurveExtrapolatio-
 
-Byte to Enum ERichCurveExtrapolation
+字节到枚举 ERichCurveExtrapolation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERichCurveExtrapolation
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERichCurveExtrapolation Enum.
-
+返回值。ERichCurveExtrapolation Enum。

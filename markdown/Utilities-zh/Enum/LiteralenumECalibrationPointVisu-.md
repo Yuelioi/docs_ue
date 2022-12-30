@@ -1,6 +1,6 @@
 # LiteralenumECalibrationPointVisu-
 
-Literal enum ECalibrationPointVisualization
+枚举ECalibrationPointVisualization
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECalibrationPointVisualization
 
 ## Inputs
 
-Enum: ECalibrationPointVisualization Enum.  
+枚举。ECalibrationPointVisualization Enum.  
 
 ## Outputs
 
-Return Value: ECalibrationPointVisualization Enum.
-
+返回值。ECalibrationPointVisualization Enum。

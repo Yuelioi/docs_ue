@@ -1,6 +1,6 @@
 # SwitchonEGoogleA-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGoogleARCoreAugmentedFaceRegion Enum.  
+选择。EGoogleARCoreAugmentedFaceRegion枚举。 
 
 ## Outputs
 
-Nose Tip: Exec.
+鼻尖。Exec.
 
-Forehead Left: Exec.
+额头左侧：Exec.
 
-Forehead Right: Exec.
-
+Forehead Right: 右额。Exec.

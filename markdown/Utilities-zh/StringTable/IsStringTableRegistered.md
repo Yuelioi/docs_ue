@@ -1,8 +1,8 @@
 # IsStringTableRegistered
 
-Returns true if the given table ID corresponds to a registered string table.
+如果给定的表ID对应于一个已注册的字符串表，则返回true。
 
-Target is Kismet String Table Library
+目标是Kismet字符串表库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Table Library
 
 ## Inputs
 
-Table Id: Name.  
+表的ID。名称。 
 
 ## Outputs
 
-Return Value: Boolean. Returns true if the given table ID corresponds to a registered string table..
-
+返回值。布尔值。如果给定的表ID对应于注册的字符串表，则返回真。

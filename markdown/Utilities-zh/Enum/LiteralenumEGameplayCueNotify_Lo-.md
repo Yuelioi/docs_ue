@@ -1,6 +1,6 @@
 # LiteralenumEGameplayCueNotify_Lo-
 
-Literal enum EGameplayCueNotify_LocallyControlledPolicy
+枚举EGameplayCueNotify_LocallyControlledPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayCueNotify_LocallyControlledPolicy
 
 ## Inputs
 
-Enum: EGameplayCueNotify_LocallyControlledPolicy Enum.  
+枚举。EGameplayCueNotify_LocallyControlledPolicy枚举。 
 
 ## Outputs
 
-Return Value: EGameplayCueNotify_LocallyControlledPolicy Enum.
-
+返回值。EGameplayCueNotify_LocallyControlledPolicy Enum。

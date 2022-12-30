@@ -1,6 +1,6 @@
 # GetnumberofentriesinEFaceCompone-
 
-Returns EFaceComponentDebugMode_MAX value
+返回EFaceComponentDebugMode_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EFaceComponentDebugMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

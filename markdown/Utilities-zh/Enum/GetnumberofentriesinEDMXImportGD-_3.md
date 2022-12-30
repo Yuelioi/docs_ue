@@ -1,6 +1,6 @@
 # GetnumberofentriesinEDMXImportGD-_3
 
-Returns EDMXImportGDTFLampType_MAX value
+返回EDMXImportGDTFLampType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EDMXImportGDTFLampType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

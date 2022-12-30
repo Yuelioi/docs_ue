@@ -1,6 +1,6 @@
 # BytetoEnumEToolMenuInsertType
 
-Byte to Enum EToolMenuInsertType
+字节到枚举 EToolMenuInsertType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EToolMenuInsertType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EToolMenuInsertType Enum.
-
+返回值。EToolMenuInsertType Enum。

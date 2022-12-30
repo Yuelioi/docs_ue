@@ -1,6 +1,6 @@
 # LiteralenumEMaterialUsage
 
-Literal enum EMaterialUsage
+字面意义上的枚举EMaterialUsage
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMaterialUsage
 
 ## Inputs
 
-Enum: EMaterialUsage Enum.  
+枚举。EMaterialUsage枚举。 
 
 ## Outputs
 
-Return Value: EMaterialUsage Enum.
-
+返回值。EMaterialUsage Enum。

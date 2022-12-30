@@ -1,6 +1,6 @@
 # SwitchonETakeRecorderActorRecord-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETakeRecorderActorRecordType Enum.  
+选择。ETakeRecorderActorRecordType枚举。 
 
 ## Outputs
 
-Possessable: Exec.
+有可能。Exec.
 
 Spawnable: Exec.
 
-Project Default: Exec.
-
+项目默认。Exec.

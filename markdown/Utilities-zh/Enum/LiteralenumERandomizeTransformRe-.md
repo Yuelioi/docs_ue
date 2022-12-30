@@ -1,6 +1,6 @@
 # LiteralenumERandomizeTransformRe-
 
-Literal enum ERandomizeTransformReferenceFrame
+字面意义上的枚举：ERandomizeTransformReferenceFrame
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERandomizeTransformReferenceFrame
 
 ## Inputs
 
-Enum: ERandomizeTransformReferenceFrame Enum.  
+枚举。ERandomizeTransformReferenceFrame枚举。 
 
 ## Outputs
 
-Return Value: ERandomizeTransformReferenceFrame Enum.
-
+返回值。ERandomizeTransformReferenceFrame枚举。

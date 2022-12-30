@@ -1,6 +1,6 @@
 # LiteralenumEMediaCaptureState
 
-Literal enum EMediaCaptureState
+枚举EMediaCaptureState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMediaCaptureState
 
 ## Inputs
 
-Enum: EMediaCaptureState Enum.  
+枚举。EMediaCaptureState Enum.  
 
 ## Outputs
 
-Return Value: EMediaCaptureState Enum.
-
+返回值。EMediaCaptureState Enum。

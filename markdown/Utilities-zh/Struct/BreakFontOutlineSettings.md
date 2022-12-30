@@ -1,6 +1,6 @@
 # BreakFontOutlineSettings
 
-Adds a node that breaks a 'FontOutlineSettings' into its member fields
+添加一个节点，将'FontOutlineSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'FontOutlineSettings' into its member fields
 
 ## Inputs
 
-Font Outline Settings: Font Outline Settings Structure (by ref).  
+字体轮廓设置。字体轮廓设置结构（通过引用）。 
 
 ## Outputs
 
-Outline Size: Integer. Outline Size:. Size of the outline in slate units (at 1.0 font scale this unit is a pixel).
+轮廓大小。整数。轮廓尺寸：。以石板为单位的轮廓尺寸（在1.0的字体比例下，这个单位是一个像素）。
 
-Separate Fill Alpha: Boolean. Separate Fill Alpha:. When enabled the outline will be completely translucent where the filled area will be. This allows for a separate fill alpha value. The trade off when enabling this is slightly worse quality for completely opaque fills where the inner outline border meets the fill area.
+分离填充阿尔法。布尔值。Separate Fill Alpha:. 当启用时，轮廓将在填充区域完全半透明。这允许一个单独的填充阿尔法值。当启用这个功能时，对于完全不透明的填充，在内部轮廓边界与填充区域相遇的地方，质量会稍差。
 
-Apply Outline To Drop Shadows: Boolean. Apply Outline to Drop Shadows:. When enabled the outline will be applied to any drop shadow that uses this font.
+将轮廓应用于阴影。布尔值。将轮廓应用于渐变阴影：。启用后，轮廓将被应用于任何使用此字体的阴影。
 
-Outline Material: Object Reference. Outline Material:. Optional material to apply to the outline.
+轮廓材料。对象参考。轮廓材料:. 适用于轮廓的可选材料。
 
-Outline Color: Linear Color Structure. Outline Color:. The color of the outline for any character in this font.
-
+轮廓颜色：线性颜色结构。轮廓颜色:. 该字体中任何字符的轮廓颜色。

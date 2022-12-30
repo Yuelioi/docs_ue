@@ -1,6 +1,6 @@
 # LiteralenumEMediaPlayerOptionBoo-
 
-Literal enum EMediaPlayerOptionBooleanOverride
+枚举EMediaPlayerOptionBooleanOverride
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMediaPlayerOptionBooleanOverride
 
 ## Inputs
 
-Enum: EMediaPlayerOptionBooleanOverride Enum.  
+枚举。EMediaPlayerOptionBooleanOverride枚举。 
 
 ## Outputs
 
-Return Value: EMediaPlayerOptionBooleanOverride Enum.
-
+返回值。EMediaPlayerOptionBooleanOverride Enum。

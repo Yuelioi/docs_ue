@@ -1,6 +1,6 @@
 # LiteralenumEMultiUserConnectionS-
 
-Literal enum EMultiUserConnectionStatus
+EMultiUserConnectionStatus枚举的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMultiUserConnectionStatus
 
 ## Inputs
 
-Enum: EMultiUserConnectionStatus Enum.  
+枚举。EMultiUserConnectionStatus枚举。 
 
 ## Outputs
 
-Return Value: EMultiUserConnectionStatus Enum.
-
+返回值。EMultiUserConnectionStatus枚举。

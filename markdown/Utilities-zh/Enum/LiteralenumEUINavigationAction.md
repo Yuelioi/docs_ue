@@ -1,6 +1,6 @@
 # LiteralenumEUINavigationAction
 
-Literal enum EUINavigationAction
+字面上的枚举：EUINavigationAction
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EUINavigationAction
 
 ## Inputs
 
-Enum: EUINavigationAction Enum.  
+枚举。EUINavigationAction Enum.  
 
 ## Outputs
 
-Return Value: EUINavigationAction Enum.
-
+返回值。EUINavigationAction Enum。

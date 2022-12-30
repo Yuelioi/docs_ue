@@ -1,6 +1,6 @@
 # BytetoEnumEMoviePipelineTextureS-
 
-Byte to Enum EMoviePipelineTextureStreamingMethod
+字节到枚举 EMoviePipelineTextureStreamingMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMoviePipelineTextureStreamingMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMoviePipelineTextureStreamingMethod Enum.
-
+返回值。EMoviePipelineTextureStreamingMethod Enum。

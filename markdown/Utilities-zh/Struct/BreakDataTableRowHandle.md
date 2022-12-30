@@ -1,6 +1,6 @@
 # BreakDataTableRowHandle
 
-Adds a node that breaks a 'DataTableRowHandle' into its member fields
+添加一个节点，该节点将'数据表行柄'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DataTableRowHandle' into its member fields
 
 ## Inputs
 
-Data Table Row Handle: Data Table Row Handle Structure (by ref).  
+数据表行句柄。数据表行柄结构（通过引用）。 
 
 ## Outputs
 
-Data Table: Data Table Object Reference. Data Table:. Pointer to table we want a row from.
+数据表。数据表对象参考。数据表：。指向我们想要的行的指针。
 
-Row Name: Name. Row Name:. Name of row in the table that we want.
-
+行名。名称。行名:. 我们想要的表格中的行的名称。

@@ -1,6 +1,6 @@
 # LiteralenumEWaterBodyType
 
-Literal enum EWaterBodyType
+枚举 EWaterBodyType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWaterBodyType
 
 ## Inputs
 
-Enum: EWaterBodyType Enum.  
+枚举。EWaterBodyType Enum.  
 
 ## Outputs
 
-Return Value: EWaterBodyType Enum.
-
+返回值。EWaterBodyType Enum。

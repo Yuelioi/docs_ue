@@ -1,20 +1,19 @@
 # BreakFOscillator
 
-Adds a node that breaks a 'FOscillator' into its member fields
+添加一个节点，将 "FOscillator "分解成其成员字段。
 
 ## 图示
 
 ![]($-20221218-14361290.png)
 
-## Inputs
+## 输入
 
-FOscillator: FOscillator Structure (by ref).  
+FOscillator。FOscillator结构（通过参考）。 
 
-## Outputs
+## ＃＃＃输出
 
-Amplitude: Float (single-precision). Amplitude:. Amplitude of the sinusoidal oscillation..
+振幅。Float (single-precision). 振幅：。正弦波振荡的振幅。
 
-Frequency: Float (single-precision). Frequency:. Frequency of the sinusoidal oscillation..
+频率。Float（单精度）。频率：。正弦波振荡的频率。
 
-Waveform: EOscillatorWaveform Enum. Waveform:. Type of waveform to use for oscillation..
-
+波形。EOscillatorWaveform Enum。Waveform:. 用于震荡的波形类型。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinEMediaPlayer-_1
 
-Returns EMediaPlayerTrack_MAX value
+返回EMediaPlayerTrack_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EMediaPlayerTrack_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

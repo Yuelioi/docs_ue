@@ -1,6 +1,6 @@
 # BreakChaosCollisionEventData
 
-Adds a node that breaks a 'ChaosCollisionEventData' into its member fields
+添加一个节点，将'ChaosCollisionEventData'分解到其成员字段中
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'ChaosCollisionEventData' into its member fields
 
 ## Inputs
 
-Chaos Collision Event Data: Chaos Collision Event Data Structure (by ref).  
+混沌碰撞事件数据。混沌碰撞事件数据结构（通过引用）。 
 
 ## Outputs
 
-Location: Vector. Location:. Location of the collision event.
+位置。矢量。位置：。碰撞事件的位置。
 
-Normal: Vector. Normal:. Normal of the collision event.
+Normal（正常）。向量。法线:。碰撞事件的法线。
 
-Velocity 1: Vector. Velocity 1:. The velocity of object 1 of the collision event.
+Velocity 1: 向量。速度1：。碰撞事件中物体1的速度。
 
-Velocity 2: Vector. Velocity 2:. The velocity of object 2 of the collision event.
+Velocity 2: 矢量。速度2：。碰撞事件中物体2的速度。
 
-Mass 1: Float (single-precision). Mass 1:. The mass of object 1 of the collision event.
+质量1：浮点数（单精度）。质量1：。碰撞事件中物体1的质量。
 
-Mass 2: Float (single-precision). Mass 2:. The mass of object 2 of the collision event.
+质量2：浮点（单精度）。质量2：。碰撞事件中物体2的质量。
 
-Impulse: Vector. Impulse:. The accumulated impulse vector of the collision event.
-
+Impulse：矢量。脉冲：。碰撞事件的累积脉冲向量。

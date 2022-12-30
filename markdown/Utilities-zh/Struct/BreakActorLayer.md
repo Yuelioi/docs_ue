@@ -1,6 +1,6 @@
 # BreakActorLayer
 
-Adds a node that breaks a 'ActorLayer' into its member fields
+添加一个节点，将 "演员层 "分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'ActorLayer' into its member fields
 
 ## Inputs
 
-Actor Layer: Actor Layer Structure (by ref).  
+演员层。演员层结构（通过引用）。 
 
 ## Outputs
 
-Name: Name. Name:. The name of this layer.
-
+名称。名称：。名称：。本层的名称。

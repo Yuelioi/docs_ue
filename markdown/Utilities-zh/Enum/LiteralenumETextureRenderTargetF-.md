@@ -1,6 +1,6 @@
 # LiteralenumETextureRenderTargetF-
 
-Literal enum ETextureRenderTargetFormat
+枚举ETextureRenderTargetFormat
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETextureRenderTargetFormat
 
 ## Inputs
 
-Enum: ETextureRenderTargetFormat Enum.  
+枚举。ETextureRenderTargetFormat枚举。 
 
 ## Outputs
 
-Return Value: ETextureRenderTargetFormat Enum.
-
+返回值。ETextureRenderTargetFormat Enum。

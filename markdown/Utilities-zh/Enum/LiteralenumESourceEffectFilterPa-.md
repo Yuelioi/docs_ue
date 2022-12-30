@@ -1,6 +1,6 @@
 # LiteralenumESourceEffectFilterPa-
 
-Literal enum ESourceEffectFilterParam
+枚举ESourceEffectFilterParam
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESourceEffectFilterParam
 
 ## Inputs
 
-Enum: ESourceEffectFilterParam Enum.  
+枚举。ESourceEffectFilterParam枚举。 
 
 ## Outputs
 
-Return Value: ESourceEffectFilterParam Enum.
-
+返回值。ESourceEffectFilterParam Enum。

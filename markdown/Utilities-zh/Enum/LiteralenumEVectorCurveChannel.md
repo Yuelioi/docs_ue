@@ -1,6 +1,6 @@
 # LiteralenumEVectorCurveChannel
 
-Literal enum EVectorCurveChannel
+字面上的枚举EVectorCurveChannel
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EVectorCurveChannel
 
 ## Inputs
 
-Enum: EVectorCurveChannel Enum.  
+枚举。EVectorCurveChannel Enum.  
 
 ## Outputs
 
-Return Value: EVectorCurveChannel Enum.
-
+返回值。EVectorCurveChannel Enum.

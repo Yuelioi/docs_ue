@@ -1,8 +1,8 @@
 # ReplaceInline
 
-Replace all occurrences of SearchText with ReplacementText in this string.
+用ReplacementText替换这个字符串中所有出现的SearchText。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,19 +10,18 @@ Target is Kismet String Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Source String: String (by ref).
+源字符串。字符串（通过引用）。
 
-Search Text: String. the text that should be removed from this string.
+搜索文本。字符串。应从该字符串中删除的文本。
 
-Replacement Text: String. the text to insert in its place.
+Replacement Text: 替换文本。字符串。要在其位置上插入的文本。
 
-Search Case: ESearchCase Enum. Indicates whether the search is case sensitive or not ( defaults to ESearchCase::IgnoreCase ).  
+Search Case: ESearchCase Enum。表示搜索是否区分大小写（默认为ESearchCase::IgnoreCase）。 
 
 ## Outputs
 
-Out: Exec.
+输出。Exec。
 
-Return Value: Integer. the number of occurrences of SearchText that were replaced..
-
+返回值。整数。被替换的SearchText的出现次数。

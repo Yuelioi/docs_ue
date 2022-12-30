@@ -1,6 +1,6 @@
 # BreakARFilter
 
-Adds a node that breaks a 'ARFilter' into its member fields
+添加一个节点，将'ARFilter'分解成其成员字段
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that breaks a 'ARFilter' into its member fields
 
 ## Inputs
 
-ARFilter: ARFilter Structure (by ref).  
+ARFilter。ARFilter结构（通过引用）。 
 
 ## Outputs
 
-Package Names: Array of Names. Package Names:. The filter component for package names.
+包名称。名称的数组。包名：。包名称的过滤组件。
 
-Package Paths: Array of Names. Package Paths:. The filter component for package paths.
+包路径。名称的数组。Package Paths:. 包路径的过滤组件。
 
-Object Paths: Array of Names. Object Paths:. The filter component containing specific object paths.
+对象路径。名称的数组。Object Paths:.对象路径。包含特定对象路径的过滤组件。
 
-Class Names: Array of Names. Class Names:. The filter component for class names. Instances of the specified classes, but not subclasses (by default), will be included. Derived classes will be included only if bRecursiveClasses is true..
+类名称。名称的数组。类名：。类名的过滤组件。指定类的实例，但不包括子类（默认），将被包括。只有当bRecursiveClasses为真时，派生类才会被包含。
 
-Recursive Classes Exclusion Set: Set of Names. Recursive Classes Exclusion Set:. Only if bRecursiveClasses is true, the results will exclude classes (and subclasses) in this list.
+递归类的排除集。名称的集合。递归类排除集：。只有当bRecursiveClasses为真时，结果将排除这个列表中的类（和子类）。
 
-Recursive Paths: Boolean. Recursive Paths:. If true, PackagePath components will be recursive.
+递归路径。布尔型。递归路径：。如果为真，PackagePath组件将被递归。
 
-Recursive Classes: Boolean. Recursive Classes:. If true, subclasses of ClassNames will also be included and RecursiveClassesExclusionSet will be excluded..
+递归类。布尔值。递归类：。如果为真，ClassNames的子类也将被包括在内，而RecursiveClassesExclusionSet将被排除。
 
-Include Only On Disk Assets: Boolean. Include Only on Disk Assets:. If true, only on-disk assets will be returned. Be warned that this is rarely what you want and should only be used for performance reasons.
-
+只包括在磁盘资产上。布尔值。只包括在磁盘上的资产：。如果为真，将只返回磁盘上的资产。请注意，这很少是你想要的，应该只用于性能原因。

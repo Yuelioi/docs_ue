@@ -1,6 +1,6 @@
 # LiteralenumEFieldPositionType
 
-Literal enum EFieldPositionType
+字面意义上的枚举 EFieldPositionType
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: EFieldPositionType Enum.
 
 ## Outputs
 
-Return Value: EFieldPositionType Enum.
-
+返回值。EFieldPositionType Enum.

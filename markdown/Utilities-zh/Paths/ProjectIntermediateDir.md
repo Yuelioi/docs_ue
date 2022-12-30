@@ -1,8 +1,8 @@
 # ProjectIntermediateDir
 
-Returns the intermediate directory of the current game by looking at FApp::GetProjectName().
+通过查看FApp::GetProjectName（）返回当前游戏的中间目录。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. intermediate directory.
-
+返回值。字符串。中间目录。

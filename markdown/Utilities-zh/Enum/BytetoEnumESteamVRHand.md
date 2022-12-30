@@ -1,6 +1,6 @@
 # BytetoEnumESteamVRHand
 
-Byte to Enum ESteamVRHand
+字节到枚举 ESteamVRHand
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESteamVRHand
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESteamVRHand Enum.
-
+返回值。ESteamVRHand Enum。

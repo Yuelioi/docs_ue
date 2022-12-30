@@ -1,8 +1,8 @@
 # GameDevelopersDir
 
-Returns the directory that contains subfolders for developer-specific content
+返回包含开发人员特定内容的子文件夹的目录
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. Returns the directory that contains subfolders for developer-specific content.
-
+返回值。字符串。返回包含开发人员特定内容的子文件夹的目录。

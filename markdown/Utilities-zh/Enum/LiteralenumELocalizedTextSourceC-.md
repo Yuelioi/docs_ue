@@ -1,6 +1,6 @@
 # LiteralenumELocalizedTextSourceC-
 
-Literal enum ELocalizedTextSourceCategory
+枚举ELocalizedTextSourceCategory
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELocalizedTextSourceCategory
 
 ## Inputs
 
-Enum: ELocalizedTextSourceCategory Enum.  
+枚举。ELocalizedTextSourceCategory Enum.  
 
 ## Outputs
 
-Return Value: ELocalizedTextSourceCategory Enum.
-
+返回值。ELocalizedTextSourceCategory Enum。

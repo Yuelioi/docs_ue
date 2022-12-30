@@ -1,6 +1,6 @@
 # LiteralenumETextCommit
 
-Literal enum ETextCommit
+字面意义的枚举 ETextCommit
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETextCommit
 
 ## Inputs
 
-Enum: ETextCommit Enum.  
+枚举。ETextCommit Enum.  
 
 ## Outputs
 
-Return Value: ETextCommit Enum.
-
+返回值。ETextCommit Enum。

@@ -1,6 +1,6 @@
 # LiteralenumESlateAccessibleBehav-
 
-Literal enum ESlateAccessibleBehavior
+枚举ESlateAccessibleBehavior
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESlateAccessibleBehavior
 
 ## Inputs
 
-Enum: ESlateAccessibleBehavior Enum.  
+枚举。ESlateAccessibleBehavior Enum.  
 
 ## Outputs
 
-Return Value: ESlateAccessibleBehavior Enum.
-
+返回值。ESlateAccessibleBehavior Enum.

@@ -1,6 +1,6 @@
 # LiteralenumEARAltitudeSource
 
-Literal enum EARAltitudeSource
+字面意义上的EARAltitudeSource枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARAltitudeSource
 
 ## Inputs
 
-Enum: EARAltitudeSource Enum.  
+枚举。EARAltitudeSource Enum.  
 
 ## Outputs
 
-Return Value: EARAltitudeSource Enum.
-
+返回值。EARAltitudeSource Enum.

@@ -1,8 +1,8 @@
 # GetExtension
 
-Gets the extension for this filename.
+获取此文件名的扩展名。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Path: String.
+在路径中。字符串。
 
-Include Dot: Boolean. if true, includes the leading dot in the result.  
+包括圆点。布尔值。如果为真，在结果中包括前面的点。 
 
 ## Outputs
 
-Return Value: String. the extension of this filename, or an empty string if the filename doesn't have an extension..
-
+返回值。字符串。此文件名的扩展名，如果文件名没有扩展名，则为空字符串。

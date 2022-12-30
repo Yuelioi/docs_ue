@@ -1,8 +1,8 @@
 # ControlScreensaver
 
-Allows or inhibits screensaver
+允许或抑制屏幕保护程序
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Allow Screen Saver: Boolean. If false, don't allow screensaver if possible, otherwise allow default behavior.  
+允许屏幕保护程序：布尔值。如果是false，可能的话不允许屏幕保护程序，否则允许默认行为。 
 
 ## Outputs
 
-Out: Exec.
-
+输出。Exec.

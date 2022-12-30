@@ -1,6 +1,6 @@
 # BreakDMXOutputPortReference
 
-Adds a node that breaks a 'DMXOutputPortReference' into its member fields
+添加一个节点，将'DMXOutputPortReference'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DMXOutputPortReference' into its member fields
 
 ## Inputs
 
-DMXOutput Port Reference: DMXOutput Port Reference Structure (by ref).  
+DMXOutput Port Reference。DMX输出端口参考结构（通过参考）。 
 
 ## Outputs
 
-Port Guid: Guid Structure. Port Guid:. Unique identifier shared with port config and port instance.. Note: This needs be BlueprintReadWrite to be accessible to property type customization, but is hidden by customization..
+端口指南。指南结构。端口指南：。与端口配置和端口实例共享的唯一标识符。注意：这需要BlueprintReadWrite才能被属性类型定制所访问，但被定制所隐藏。
 
-Enabled Flag: Boolean. Enabled Flag:. Optional flag for port references that can be enabled or disabled.
-
+Enabled Flag:布尔值。Enabled Flag:.启用标志。端口引用的可选标志，可以启用或禁用。

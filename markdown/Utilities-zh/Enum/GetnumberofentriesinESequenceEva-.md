@@ -1,6 +1,6 @@
 # GetnumberofentriesinESequenceEva-
 
-Returns ESequenceEvalReinit_MAX value
+返回ESequenceEvalReinit_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESequenceEvalReinit_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # LiteralenumESlateSizeRule
 
-Literal enum ESlateSizeRule
+字面上的枚举：ESlateSizeRule
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESlateSizeRule
 
 ## Inputs
 
-Enum: ESlateSizeRule Enum.  
+枚举。ESlateSizeRule Enum.  
 
 ## Outputs
 
-Return Value: ESlateSizeRule Enum.
-
+返回值。ESlateSizeRule Enum。

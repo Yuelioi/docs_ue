@@ -1,6 +1,6 @@
 # BytetoEnumETakeRecorderActorReco-
 
-Byte to Enum ETakeRecorderActorRecordType
+字节到枚举 ETakeRecorderActorRecordType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETakeRecorderActorRecordType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETakeRecorderActorRecordType Enum.
-
+返回值。ETakeRecorderActorRecordType Enum。

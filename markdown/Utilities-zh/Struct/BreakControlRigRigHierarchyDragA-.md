@@ -1,6 +1,6 @@
 # BreakControlRigRigHierarchyDragA-
 
-Adds a node that breaks a 'ControlRigRigHierarchyDragAndDropContext' into its member fields
+添加一个打破'ControlRigRigHierarchyDragAndDropContext'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ControlRigRigHierarchyDragAndDropContext' into its me
 
 ## Inputs
 
-Control Rig Rig Hierarchy Drag and Drop Context: Control Rig Rig Hierarchy Drag And Drop Context Structure (by ref).  
+Control Rig Rig Hierarchy Drag and Drop Context。Control Rig Rig Hierarchy Drag And Drop Context结构（通过参考）。 
 
 ## Outputs
 
-Dragged Element Keys: Array of Rig Element Key Structures. Dragged Element Keys.
+拖动的元素键。钻机元素键结构的数组。拖动的元素键。
 
-Target Element Key: Rig Element Key Structure. Target Element Key.
-
+目标元素键。钻机元素键结构。目标元素键。

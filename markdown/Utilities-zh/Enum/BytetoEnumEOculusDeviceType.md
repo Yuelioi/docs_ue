@@ -1,6 +1,6 @@
 # BytetoEnumEOculusDeviceType
 
-Byte to Enum EOculusDeviceType
+字节到枚举 EOculusDeviceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EOculusDeviceType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EOculusDeviceType Enum.
-
+返回值。EOculusDeviceType Enum。

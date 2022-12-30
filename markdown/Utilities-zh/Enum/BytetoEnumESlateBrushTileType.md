@@ -1,6 +1,6 @@
 # BytetoEnumESlateBrushTileType
 
-Byte to Enum ESlateBrushTileType
+字节到枚举 ESlateBrushTileType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESlateBrushTileType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESlateBrushTileType Enum.
-
+返回值。ESlateBrushTileType Enum。

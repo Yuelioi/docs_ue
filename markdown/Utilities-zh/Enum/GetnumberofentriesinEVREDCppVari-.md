@@ -1,6 +1,6 @@
 # GetnumberofentriesinEVREDCppVari-
 
-Returns EVREDCppVariantType_MAX value
+返回EVREDCppVariantType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EVREDCppVariantType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

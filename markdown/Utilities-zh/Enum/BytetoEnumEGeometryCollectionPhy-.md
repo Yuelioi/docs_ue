@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryCollectionPhy-
 
-Byte to Enum EGeometryCollectionPhysicsTypeEnum
+字节到枚举 EGeometryCollectionPhysicsTypeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryCollectionPhysicsTypeEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryCollectionPhysicsTypeEnum Enum.
-
+返回值。EGeometryCollectionPhysicsTypeEnum枚举。

@@ -1,6 +1,6 @@
 # LiteralenumEDataValidationResult
 
-Literal enum EDataValidationResult
+枚举EDataValidationResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDataValidationResult
 
 ## Inputs
 
-Enum: EDataValidationResult Enum.  
+枚举。EDataValidationResult Enum.  
 
 ## Outputs
 
-Return Value: EDataValidationResult Enum.
-
+返回值。EDataValidationResult Enum。

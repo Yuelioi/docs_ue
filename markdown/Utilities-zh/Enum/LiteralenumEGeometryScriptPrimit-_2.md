@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptPrimit-_2
 
-Literal enum EGeometryScriptPrimitiveUVMode
+字面上的枚举 EGeometryScriptPrimitiveUVMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptPrimitiveUVMode
 
 ## Inputs
 
-Enum: EGeometryScriptPrimitiveUVMode Enum.  
+枚举。EGeometryScriptPrimitiveUVMode枚举。 
 
 ## Outputs
 
-Return Value: EGeometryScriptPrimitiveUVMode Enum.
-
+返回值。EGeometryScriptPrimitiveUVMode Enum.

@@ -1,6 +1,6 @@
 # LiteralenumESourceEffectDynamics-_1
 
-Literal enum ESourceEffectDynamicsProcessorType
+枚举 ESourceEffectDynamicsProcessorType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESourceEffectDynamicsProcessorType
 
 ## Inputs
 
-Enum: ESourceEffectDynamicsProcessorType Enum.  
+枚举。ESourceEffectDynamicsProcessorType Enum.  
 
 ## Outputs
 
-Return Value: ESourceEffectDynamicsProcessorType Enum.
-
+返回值。ESourceEffectDynamicsProcessorType Enum。

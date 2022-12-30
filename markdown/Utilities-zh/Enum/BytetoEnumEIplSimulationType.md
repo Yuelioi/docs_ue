@@ -1,6 +1,6 @@
 # BytetoEnumEIplSimulationType
 
-Byte to Enum EIplSimulationType
+字节到枚举 EIplSimulationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EIplSimulationType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EIplSimulationType Enum.
-
+返回值。EIplSimulationType Enum。

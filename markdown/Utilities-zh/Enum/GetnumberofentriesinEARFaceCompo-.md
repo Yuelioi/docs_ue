@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARFaceCompo-
 
-Returns EARFaceComponentTransformMixing_MAX value
+返回EARFaceComponentTransformMixing_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARFaceComponentTransformMixing_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

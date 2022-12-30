@@ -43,4 +43,3 @@ Mode From: DMXImport GDTFDMXValue Structure. Mode From.
 Mode To: DMXImport GDTFDMXValue Structure. Mode To.
 
 Channel Sets: Array of DMXImport GDTFChannel Set Structures. Channel Sets.
-

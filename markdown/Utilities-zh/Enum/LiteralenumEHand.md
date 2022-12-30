@@ -1,6 +1,6 @@
 # LiteralenumEHand
 
-Literal enum EHand
+字面意义上的EHand枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EHand
 
 ## Inputs
 
-Enum: EHand Enum.  
+枚举。EHand Enum.  
 
 ## Outputs
 
-Return Value: EHand Enum.
-
+返回值。EHand Enum。

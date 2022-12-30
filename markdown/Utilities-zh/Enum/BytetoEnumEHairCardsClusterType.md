@@ -1,6 +1,6 @@
 # BytetoEnumEHairCardsClusterType
 
-Byte to Enum EHairCardsClusterType
+字节到枚举 EHairCardsClusterType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EHairCardsClusterType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EHairCardsClusterType Enum.
-
+返回值。EHairCardsClusterType Enum。

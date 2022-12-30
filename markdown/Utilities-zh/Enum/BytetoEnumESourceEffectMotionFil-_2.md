@@ -1,6 +1,6 @@
 # BytetoEnumESourceEffectMotionFil-_2
 
-Byte to Enum ESourceEffectMotionFilterModSource
+字节到枚举 ESourceEffectMotionFilterModSource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESourceEffectMotionFilterModSource
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESourceEffectMotionFilterModSource Enum.
-
+返回值。ESourceEffectMotionFilterModSource Enum。

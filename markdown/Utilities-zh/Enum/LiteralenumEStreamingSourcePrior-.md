@@ -1,6 +1,6 @@
 # LiteralenumEStreamingSourcePrior-
 
-Literal enum EStreamingSourcePriority
+枚举 EStreamingSourcePriority
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EStreamingSourcePriority
 
 ## Inputs
 
-Enum: EStreamingSourcePriority Enum.  
+枚举。EStreamingSourcePriority Enum.  
 
 ## Outputs
 
-Return Value: EStreamingSourcePriority Enum.
-
+返回值。EStreamingSourcePriority Enum.

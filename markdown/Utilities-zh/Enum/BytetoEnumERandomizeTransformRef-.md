@@ -1,6 +1,6 @@
 # BytetoEnumERandomizeTransformRef-
 
-Byte to Enum ERandomizeTransformReferenceFrame
+字节到枚举 ERandomizeTransformReferenceFrame
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERandomizeTransformReferenceFrame
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERandomizeTransformReferenceFrame Enum.
-
+返回值。ERandomizeTransformReferenceFrame枚举。

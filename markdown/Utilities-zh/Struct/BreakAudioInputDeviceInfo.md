@@ -1,6 +1,6 @@
 # BreakAudioInputDeviceInfo
 
-Adds a node that breaks a 'AudioInputDeviceInfo' into its member fields
+添加一个节点，将'AudioInputDeviceInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'AudioInputDeviceInfo' into its member fields
 
 ## Inputs
 
-Audio Input Device Info: Audio Input Device Info Structure (by ref).  
+音频输入设备信息。音频输入设备信息结构（通过引用）。 
 
 ## Outputs
 
-Device Name: String. Device Name:. The name of the audio device.
+设备名称。字符串。设备名称：。音频设备的名称。
 
-Device Id: String. Device Id:. ID of the device..
+Device Id: 字符串。设备ID:. 设备的ID。
 
-Input Channels: Integer. Input Channels:. The number of channels supported by the audio device.
+输入通道。整数。输入通道:. 音频设备支持的通道数。
 
-Preferred Sample Rate: Integer. Preferred Sample Rate:. The preferred sample rate of the audio device.
+偏好的采样率。整数。首选采样率：。音频设备的首选采样率。
 
-Supports Hardware AEC: Boolean. Supports Hardware AEC:. Whether or not the device supports Acoustic Echo Canceling.
-
+支持硬件AEC：布尔值。支持硬件AEC：。设备是否支持声学回声消除。

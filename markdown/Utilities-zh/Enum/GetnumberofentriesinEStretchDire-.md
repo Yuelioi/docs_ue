@@ -1,6 +1,6 @@
 # GetnumberofentriesinEStretchDire-
 
-Returns EStretchDirection_MAX value
+返回EStretchDirection_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EStretchDirection_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # BreakBlackboardKeySelector
 
-Adds a node that breaks a 'BlackboardKeySelector' into its member fields
+添加一个节点，将'BlackboardKeySelector'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'BlackboardKeySelector' into its member fields
 
 ## Inputs
 
-Blackboard Key Selector: Blackboard Key Selector Structure (by ref).  
+黑板钥匙选择器。黑板键选择器结构（通过引用）。 
 
 ## Outputs
 
-Allowed Types: Array of Blackboard Key Type Object References. Allowed Types:. array of allowed types with additional properties (e.g. uobject's base class). EditAnywhere is required for FBlackboardSelectorDetails::CacheBlackboardData().
+允许的类型。黑板钥匙类型对象引用的数组。Allowed Types:.具有额外属性的允许类型数组（例如uobject的基类）。EditAnywhere是FBlackboardSelectorDetails::CacheBlackboardData()的要求。
 
-Selected Key Name: Name. Selected Key Name:. name of selected key.
+选定的键名。名称。Selected Key Name:.所选键的名称。
 
-Selected Key Type: Blackboard Key Type Class Reference. Selected Key Type:. class of selected key.
+选定的键类型。Blackboard Key Type Class Reference. 选定的键类型：选定的键的类别。
 
-Selected Key ID: Byte. Selected Key ID:. ID of selected key.
+选定的键ID: 字节。选定的键ID:. 所选钥匙的ID。
 
-None Is Allowed Value: Boolean. None Is Allowed Value.
-
+无是允许的值。Boolean（布尔）。None Is Allowed Value（无允许值）。

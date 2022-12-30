@@ -1,6 +1,6 @@
 # LiteralenumESplineMeshAxis
 
-Literal enum ESplineMeshAxis
+枚举ESplineMeshAxis的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESplineMeshAxis
 
 ## Inputs
 
-Enum: ESplineMeshAxis Enum.  
+枚举。ESplineMeshAxis Enum.  
 
 ## Outputs
 
-Return Value: ESplineMeshAxis Enum.
-
+返回值。ESplineMeshAxis Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEInterchangePipelineTa-
 
-Byte to Enum EInterchangePipelineTask
+字节到枚举 EInterchangePipelineTask
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EInterchangePipelineTask
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EInterchangePipelineTask Enum.
-
+返回值。EInterchangePipelineTask Enum。

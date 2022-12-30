@@ -1,6 +1,6 @@
 # SwitchonEGamepla-_2
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGameplayAbilityNetSecurityPolicy Enum.  
+选择。EGameplayAbilityNetSecurityPolicy Enum.  
 
 ## Outputs
 
-Client or Server: Exec.
+客户端或服务器。执行。
 
-Server Only Execution: Exec.
+仅限服务器执行。Exec.
 
-Server Only Termination: Exec.
+仅限服务器终止。执行。
 
-Server Only: Exec.
-
+仅限服务器。执行。

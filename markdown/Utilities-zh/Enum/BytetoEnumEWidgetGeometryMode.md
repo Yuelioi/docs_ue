@@ -1,6 +1,6 @@
 # BytetoEnumEWidgetGeometryMode
 
-Byte to Enum EWidgetGeometryMode
+字节到枚举 EWidgetGeometryMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EWidgetGeometryMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWidgetGeometryMode Enum.
-
+返回值。EWidgetGeometryMode Enum.

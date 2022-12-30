@@ -1,8 +1,8 @@
 # ToString_integer
 
-Converts an integer value to a string
+将一个整数值转换为一个字符串
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-In Int: Integer.  
+在Int: 整数。 
 
 ## Outputs
 
-Return Value: String. Converts an integer value to a string.
-
+返回值。字符串。将一个整数值转换为一个字符串。

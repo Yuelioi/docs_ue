@@ -1,6 +1,6 @@
 # BytetoEnumEIplDirectOcclusionMet-
 
-Byte to Enum EIplDirectOcclusionMethod
+字节到枚举 EIplDirectOcclusionMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EIplDirectOcclusionMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EIplDirectOcclusionMethod Enum.
-
+返回值。EIplDirectOcclusionMethod Enum。

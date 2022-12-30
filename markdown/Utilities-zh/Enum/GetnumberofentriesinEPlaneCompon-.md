@@ -1,6 +1,6 @@
 # GetnumberofentriesinEPlaneCompon-
 
-Returns EPlaneComponentDebugMode_MAX value
+返回 EPlaneComponentDebugMode_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EPlaneComponentDebugMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

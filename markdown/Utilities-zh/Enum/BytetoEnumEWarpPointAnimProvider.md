@@ -1,6 +1,6 @@
 # BytetoEnumEWarpPointAnimProvider
 
-Byte to Enum EWarpPointAnimProvider
+字节到枚举 EWarpPointAnimProvider
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EWarpPointAnimProvider
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWarpPointAnimProvider Enum.
-
+返回值。EWarpPointAnimProvider Enum。

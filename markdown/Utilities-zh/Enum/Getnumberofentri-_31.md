@@ -1,6 +1,6 @@
 # Getnumberofentri-_31
 
-Returns EScriptingCollisionShapeType_Deprecated_MAX value
+返回EScriptingCollisionShapeType_Deprecated_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EScriptingCollisionShapeType_Deprecated_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

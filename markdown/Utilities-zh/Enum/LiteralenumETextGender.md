@@ -1,6 +1,6 @@
 # LiteralenumETextGender
 
-Literal enum ETextGender
+字面意义上的ETextGender枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETextGender
 
 ## Inputs
 
-Enum: ETextGender Enum.  
+枚举。ETextGender Enum.  
 
 ## Outputs
 
-Return Value: ETextGender Enum.
-
+返回值。ETextGender Enum。

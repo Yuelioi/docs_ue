@@ -1,6 +1,6 @@
 # BytetoEnumEMultiUserSourceValida-
 
-Byte to Enum EMultiUserSourceValidationMode
+字节到枚举EMultiUserSourceValidationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMultiUserSourceValidationMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMultiUserSourceValidationMode Enum.
-
+返回值。EMultiUserSourceValidationMode枚举。

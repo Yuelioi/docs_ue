@@ -1,6 +1,6 @@
 # GetnumberofentriesinEMovieSceneC-
 
-Returns EMovieSceneCompletionMode_MAX value
+返回EMovieSceneCompletionMode_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EMovieSceneCompletionMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

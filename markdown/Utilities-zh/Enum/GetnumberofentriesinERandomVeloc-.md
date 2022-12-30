@@ -1,6 +1,6 @@
 # GetnumberofentriesinERandomVeloc-
 
-Returns ERandomVelocityGenerationTypeEnum_MAX value
+返回ERandomVelocityGenerationTypeEnum_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ERandomVelocityGenerationTypeEnum_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

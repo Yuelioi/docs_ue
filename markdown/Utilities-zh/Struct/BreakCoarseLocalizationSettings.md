@@ -1,6 +1,6 @@
 # BreakCoarseLocalizationSettings
 
-Adds a node that breaks a 'CoarseLocalizationSettings' into its member fields
+添加一个节点，将'CoarseLocalizationSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'CoarseLocalizationSettings' into its member fields
 
 ## Inputs
 
-Coarse Localization Settings: Coarse Localization Settings Structure (by ref).  
+粗略的本地化设置。粗略的本地化设置结构（通过引用）。 
 
 ## Outputs
 
-Enable: Boolean. Enable:. If true coarse localization will be active.
+启用。布尔值。启用：。如果为真，粗略的本地化将被激活。
 
-Enable GPS: Boolean. Enable GPS:. If true GPS can be used for localization ("location" must also be enabled in Project Settings->Platforms->Hololens->Capabilities).
+启用GPS：布尔值。启用GPS：。如果为真，GPS可用于定位（"定位 "也必须在项目设置->平台->Hololens->Capabilities中启用）。
 
-Enable Wifi: Boolean. Enable Wifi:. If true WiFi can be used for localization ("wiFiControl" must also be enabled in Project Settings->Platforms->Hololens->Capabilities).
+启用Wifi：布尔值。启用Wifi：。如果为真，WiFi可用于本地化（"wiFiControl "也必须在项目设置->平台->Hololens->Capabilities中启用）。
 
-BLEBeacon UUIDs: Array of Strings. BLEBeacon UUIDs:. List of bluetooth beacon uuids that can be used for localization ("bluetooth" must also be enabled in Project Settings->Platforms->Hololens->Capabilities).
-
+BLEBeacon UUIDs。字符串的数组。BLEBeacon UUIDs:. 可用于本地化的蓝牙信标UUID列表（"蓝牙 "也必须在项目设置->平台->Hololens->Capabilities中启用）。

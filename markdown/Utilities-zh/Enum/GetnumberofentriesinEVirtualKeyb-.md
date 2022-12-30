@@ -1,6 +1,6 @@
 # GetnumberofentriesinEVirtualKeyb-
 
-Returns EVirtualKeyboardDismissAction_MAX value
+返回EVirtualKeyboardDismissAction_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EVirtualKeyboardDismissAction_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

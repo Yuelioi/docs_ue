@@ -1,6 +1,6 @@
 # BreakContextualAnimQueryContext
 
-Adds a node that breaks a 'ContextualAnimQueryContext' into its member fields
+添加一个节点，将'ContextualAnimQueryContext'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ContextualAnimQueryContext' into its member fields
 
 ## Inputs
 
-Contextual Anim Query Context: Contextual Anim Query Context Structure (by ref).  
+Contextual Anim Query Context。语境动画查询语境结构（通过引用）。 
 
 ## Outputs
 
-Actor: Actor Weak object. Actor.
+Actor（演员）。Actor Weak对象。Actor: 演员。
 
-Transform: Transform. Transform.
-
+Transform: Transform. 变形。

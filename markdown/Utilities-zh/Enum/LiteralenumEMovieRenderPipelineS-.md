@@ -1,6 +1,6 @@
 # LiteralenumEMovieRenderPipelineS-
 
-Literal enum EMovieRenderPipelineState
+枚举EMovieRenderPipelineState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMovieRenderPipelineState
 
 ## Inputs
 
-Enum: EMovieRenderPipelineState Enum.  
+枚举。EMovieRenderPipelineState Enum.  
 
 ## Outputs
 
-Return Value: EMovieRenderPipelineState Enum.
-
+返回值。EMovieRenderPipelineState Enum。

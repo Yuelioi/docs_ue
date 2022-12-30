@@ -1,6 +1,6 @@
 # LiteralenumESubmixEffectDynamics-_2
 
-Literal enum ESubmixEffectDynamicsPeakMode
+字面意义上的枚举ESubmixEffectDynamicsPeakMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESubmixEffectDynamicsPeakMode
 
 ## Inputs
 
-Enum: ESubmixEffectDynamicsPeakMode Enum.  
+枚举。ESubmixEffectDynamicsPeakMode枚举。 
 
 ## Outputs
 
-Return Value: ESubmixEffectDynamicsPeakMode Enum.
-
+返回值。ESubmixEffectDynamicsPeakMode Enum。

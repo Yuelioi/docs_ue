@@ -1,6 +1,6 @@
 # LiteralenumERawCurveTrackTypes
 
-Literal enum ERawCurveTrackTypes
+枚举ERawCurveTrackTypes
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERawCurveTrackTypes
 
 ## Inputs
 
-Enum: ERawCurveTrackTypes Enum.  
+枚举。ERawCurveTrackTypes Enum.  
 
 ## Outputs
 
-Return Value: ERawCurveTrackTypes Enum.
-
+返回值。ERawCurveTrackTypes Enum。

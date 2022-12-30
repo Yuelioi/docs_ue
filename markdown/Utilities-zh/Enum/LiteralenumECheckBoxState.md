@@ -1,6 +1,6 @@
 # LiteralenumECheckBoxState
 
-Literal enum ECheckBoxState
+ECheckBoxState 枚举的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECheckBoxState
 
 ## Inputs
 
-Enum: ECheckBoxState Enum.  
+枚举。ECheckBoxState Enum.  
 
 ## Outputs
 
-Return Value: ECheckBoxState Enum.
-
+返回值。ECheckBoxState Enum.

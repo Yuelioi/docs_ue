@@ -1,6 +1,6 @@
 # BreakDMXRawArtNetRequest
 
-Adds a node that breaks a 'DMXRawArtNetRequest' into its member fields
+添加一个节点，将'DMXRawArtNetRequest'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'DMXRawArtNetRequest' into its member fields
 
 ## Inputs
 
-DMXRaw Art Net Request: DMXRaw Art Net Request Structure (by ref).  
+DMXRaw艺术网请求。DMXRaw艺术网请求结构（通过参考）。 
 
 ## Outputs
 
-Net: Integer. Net.
+Net。整数。Net：整数。
 
-Sub Net: Integer. Sub Net.
+子网。整数。子网。
 
-Universe: Integer. Universe.
+宇宙。整数。宇宙。
 
-Address: Integer. Address.
+地址。整数。地址。
 
-Value: Byte. Value.
-
+值。字节。值。

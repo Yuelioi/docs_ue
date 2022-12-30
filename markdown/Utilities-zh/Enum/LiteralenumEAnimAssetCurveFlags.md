@@ -1,6 +1,6 @@
 # LiteralenumEAnimAssetCurveFlags
 
-Literal enum EAnimAssetCurveFlags
+枚举 EAnimAssetCurveFlags
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAnimAssetCurveFlags
 
 ## Inputs
 
-Enum: EAnimAssetCurveFlags Enum.  
+枚举。EAnimAssetCurveFlags枚举。 
 
 ## Outputs
 
-Return Value: EAnimAssetCurveFlags Enum.
-
+返回值。EAnimAssetCurveFlags Enum.

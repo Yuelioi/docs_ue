@@ -1,6 +1,6 @@
 # BytetoEnumENetworkSmoothingMode
 
-Byte to Enum ENetworkSmoothingMode
+字节到枚举 ENetworkSmoothingMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ENetworkSmoothingMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ENetworkSmoothingMode Enum.
-
+返回值。ENetworkSmoothingMode Enum。

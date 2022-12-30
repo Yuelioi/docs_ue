@@ -1,6 +1,6 @@
 # GetnumberofentriesinESynthFilter-
 
-Returns ESynthFilterAlgorithm_MAX value
+返回ESynthFilterAlgorithm_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESynthFilterAlgorithm_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # BytetoEnumEOscillatorWaveform
 
-Byte to Enum EOscillatorWaveform
+字节到枚举 EOscillatorWaveform
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EOscillatorWaveform
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EOscillatorWaveform Enum.
-
+返回值。EOscillatorWaveform Enum。

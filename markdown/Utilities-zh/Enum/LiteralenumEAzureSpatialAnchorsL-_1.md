@@ -1,6 +1,6 @@
 # LiteralenumEAzureSpatialAnchorsL-_1
 
-Literal enum EAzureSpatialAnchorsLocateStrategy
+枚举 EAzureSpatialAnchorsLocateStrategy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAzureSpatialAnchorsLocateStrategy
 
 ## Inputs
 
-Enum: EAzureSpatialAnchorsLocateStrategy Enum.  
+枚举。EAzureSpatialAnchorsLocateStrategy枚举。 
 
 ## Outputs
 
-Return Value: EAzureSpatialAnchorsLocateStrategy Enum.
-
+返回值。EAzureSpatialAnchorsLocateStrategy Enum.

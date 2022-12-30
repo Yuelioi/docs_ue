@@ -1,6 +1,6 @@
 # BreakDMXOutputPortConfig
 
-Adds a node that breaks a 'DMXOutputPortConfig' into its member fields
+添加一个节点，将'DMXOutputPortConfig'分解成其成员字段
 
 ## 图示
 
@@ -8,33 +8,32 @@ Adds a node that breaks a 'DMXOutputPortConfig' into its member fields
 
 ## Inputs
 
-DMXOutput Port Config: DMXOutput Port Config Structure (by ref).  
+DMXOutput Port Config: DMX输出端口配置结构（通过引用）。 
 
 ## Outputs
 
-Port Name: String. Port Name:. The name displayed wherever the port can be displayed.
+端口名称。字符串。端口名称：。在可以显示端口的地方显示的名称。
 
-Protocol Name: Name. Protocol Name:. DMX Protocol.
+协议名称。名称。协议名称：。DMX协议。
 
-Communication Type: EDMXCommunicationType Enum. Communication Type:. The type of communication used with this port.
+通信类型。EDMXCommunicationType枚举。通信类型:。与该端口使用的通信类型。
 
-Network Interface Card IP Address: String. Device Address:. The IP address of the network interface card over which outbound DMX is sent.
+网络接口卡IP地址。字符串。设备地址:。网络接口卡的IP地址，通过它向外发送DMX。
 
-Destination IP Address: Array of DMXOutput Port Destination Address Structures. Destination Addresses:. For Unicast, the IP addresses outbound DMX is sent to.
+目的地IP地址。DMX输出端口目的地址结构的数组。目的地地址:. 对于单播，向外发送DMX的IP地址。
 
-Input Into Engine: Boolean. Loopback to Engine:. If true, the signals output from this port are input into to the engine. Note, signals input into the engine this way will not be visible in Monitors when monitoring ## Inputs..
+输入到引擎: 布尔值。Loopback to Engine:。如果为真，从这个端口输出的信号将被输入到引擎中。注意，这样输入引擎的信号在监测##输入时，在监视器中不可见。
 
-Local Universe Start: Integer. Local Universe Start:. Local Start Universe.
+本地宇宙开始。整数。本地宇宙开始：。本地开始的宇宙。
 
-Amount Of Universes: Integer. Num Universes:. Number of Universes.
+数量的宇宙。整数。Num Universes:. 宇宙的数量。
 
-Extern Universe Start: Integer. Extern Universe Start:. The start address this being transposed to.. E.g. if LocalUniverseStart is 1 and this is 100, Local Universe 1 is sent/received as Universe 100..
+外部宇宙的开始。整数。外部宇宙的开始：. 这个起始地址被移位到...。例如，如果LocalUniverseStart是1，而这个地址是100，那么Local Universe 1就被作为Universe 100发送/接收。
 
-Priority: Integer. Priority:. Priority on which packets are being sent.
+优先级。整数。优先级：。发送数据包的优先级。
 
-Delay: Float (double-precision). Delay:. The amout by which sending of packets is delayed.
+延迟。浮点数（双精度）。延迟:. 发送数据包的延迟量。
 
-Delay Frame Rate: Frame Rate Structure. Delay Frame Rate:. Framerate of the delay.
+延迟帧率。帧率结构。延迟帧率：。延迟的帧率。
 
-Port Guid: Guid Structure. Port Guid:. Unique identifier, shared with the port instance.. Note: This needs be BlueprintReadWrite to be accessible to property type customization, but is hidden by customization..
-
+Port Guid: Guid结构。端口指导：。唯一的标识符，与端口实例共享。注意：这需要BlueprintReadWrite才能被属性类型定制所访问，但被定制所隐藏。

@@ -1,6 +1,6 @@
 # SwitchonEGamepla-_7
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGameplayCueNotify_LocallyControlledSource Enum.  
+选择。EGameplayCueNotify_LocallyControlledSource Enum.  
 
 ## Outputs
 
 Instigator Actor: Exec.
 
-Target Actor: Exec.
-
+Target Actor: 执行者。

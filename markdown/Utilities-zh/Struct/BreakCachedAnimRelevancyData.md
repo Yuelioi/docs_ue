@@ -1,6 +1,6 @@
 # BreakCachedAnimRelevancyData
 
-Adds a node that breaks a 'CachedAnimRelevancyData' into its member fields
+添加一个节点，将'CachedAnimRelevancyData'分解成其成员字段
 
 ## 图示
 
@@ -12,7 +12,6 @@ Cached Anim Relevancy Data: Cached Anim Relevancy Data Structure (by ref).
 
 ## Outputs
 
-State Machine Name: Name. State Machine Name:. Name of StateMachine State is in.
+状态机名称。名称. 状态机名称：. StateMachine的名称 状态是在。
 
-State Name: Name. State Name:. Name of State to Cache.
-
+状态名称。名称。状态名称:. 要缓存的状态的名称。

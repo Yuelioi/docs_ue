@@ -1,6 +1,6 @@
 # SwitchonEDataValidationUsecase
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDataValidationUsecase Enum.  
+选择。EDataValidationUsecase Enum.  
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Manual: Exec.
+手工操作。Exec.
 
-Commandlet: Exec.
+Commandlet: 执行.
 
-Save: Exec.
+保存。Exec.
 
-Pre Submit: Exec.
+预先提交。执行。
 
-Script: Exec.
-
+脚本。执行。

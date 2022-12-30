@@ -1,6 +1,6 @@
 # SwitchonEMotionRange
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMotionRange Enum.  
+选择。EMotionRange Enum.  
 
 ## Outputs
 
-Without Controller: Exec.
+没有控制器。Exec.
 
-With Controller: Exec.
-
+有控制器。执行。

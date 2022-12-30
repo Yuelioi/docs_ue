@@ -1,8 +1,8 @@
 # MakeLiteralName
 
-Creates a literal name
+创建一个字面名称
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Value: Name. value to set the name to.  
+值。名称。将名称设置为的值。 
 
 ## Outputs
 
-Return Value: Name. The literal name.
-
+返回值。名称。字面上的名称。

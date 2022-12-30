@@ -1,6 +1,6 @@
 # GetnumberofentriesinERigControlV-
 
-Returns ERigControlValueType_MAX value
+返回ERigControlValueType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ERigControlValueType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

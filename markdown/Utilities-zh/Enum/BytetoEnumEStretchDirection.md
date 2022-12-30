@@ -1,6 +1,6 @@
 # BytetoEnumEStretchDirection
 
-Byte to Enum EStretchDirection
+字节到枚举 EStretchDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EStretchDirection
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EStretchDirection Enum.
-
+返回值。EStretchDirection Enum。

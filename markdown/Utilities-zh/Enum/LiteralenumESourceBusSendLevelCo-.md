@@ -1,6 +1,6 @@
 # LiteralenumESourceBusSendLevelCo-
 
-Literal enum ESourceBusSendLevelControlMethod
+枚举ESourceBusSendLevelControlMethod。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESourceBusSendLevelControlMethod
 
 ## Inputs
 
-Enum: ESourceBusSendLevelControlMethod Enum.  
+枚举。ESourceBusSendLevelControlMethod Enum.  
 
 ## Outputs
 
-Return Value: ESourceBusSendLevelControlMethod Enum.
-
+返回值。ESourceBusSendLevelControlMethod Enum.

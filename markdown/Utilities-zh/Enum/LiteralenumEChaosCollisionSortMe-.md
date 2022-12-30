@@ -1,6 +1,6 @@
 # LiteralenumEChaosCollisionSortMe-
 
-Literal enum EChaosCollisionSortMethod
+枚举EChaosCollisionSortMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EChaosCollisionSortMethod
 
 ## Inputs
 
-Enum: EChaosCollisionSortMethod Enum.  
+枚举。EChaosCollisionSortMethod Enum.  
 
 ## Outputs
 
-Return Value: EChaosCollisionSortMethod Enum.
-
+返回值。EChaosCollisionSortMethod Enum.

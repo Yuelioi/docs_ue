@@ -1,6 +1,6 @@
 # BreakCurveFlagsChangedPayload
 
-Adds a node that breaks a 'CurveFlagsChangedPayload' into its member fields
+添加一个节点，将'CurveFlagsChangedPayload'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'CurveFlagsChangedPayload' into its member fields
 
 ## Inputs
 
-Curve Flags Changed Payload: Curve Flags Changed Payload Structure (by ref).  
+曲线标志改变了的载荷。曲线标志改变了的载荷结构（通过引用）。 
 
 ## Outputs
 
-Old Flags: Integer. Old Flags:. Old flags mask for the curve.
+旧标志。整数。Old Flags:. 曲线的旧标志掩码。
 
-Identifier: Animation Curve Identifier Structure. Identifier:. Identifier of the curve.
-
+Identifier（标识符）。Animation Curve Identifier结构。Identifier:.标识符。曲线的标识符。

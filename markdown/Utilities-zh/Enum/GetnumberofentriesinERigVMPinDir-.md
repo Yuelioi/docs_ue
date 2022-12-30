@@ -1,6 +1,6 @@
 # GetnumberofentriesinERigVMPinDir-
 
-Returns ERigVMPinDirection_MAX value
+返回ERigVMPinDirection_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ERigVMPinDirection_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

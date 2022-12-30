@@ -1,6 +1,6 @@
 # SwitchonEAudioDeviceChangedRole
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAudioDeviceChangedRole Enum.  
+选择。EAudioDeviceChangedRole枚举。 
 
 ## Outputs
 
-Invalid: Exec.
+无效。Exec.
 
-Console: Exec.
+控制台。Exec.
 
-Multimedia: Exec.
+多媒体。执行.
 
-Communications: Exec.
-
+通信：执行 执行

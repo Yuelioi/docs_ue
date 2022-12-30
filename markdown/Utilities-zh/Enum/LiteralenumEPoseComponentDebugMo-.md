@@ -1,6 +1,6 @@
 # LiteralenumEPoseComponentDebugMo-
 
-Literal enum EPoseComponentDebugMode
+枚举EPoseComponentDebugMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EPoseComponentDebugMode
 
 ## Inputs
 
-Enum: EPoseComponentDebugMode Enum.  
+枚举。EPoseComponentDebugMode Enum.  
 
 ## Outputs
 
-Return Value: EPoseComponentDebugMode Enum.
-
+返回值。EPoseComponentDebugMode Enum.

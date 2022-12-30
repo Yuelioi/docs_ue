@@ -1,6 +1,6 @@
 # LiteralenumEGoogleARCoreInstallS-
 
-Literal enum EGoogleARCoreInstallStatus
+枚举 EGoogleARCoreInstallStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGoogleARCoreInstallStatus
 
 ## Inputs
 
-Enum: EGoogleARCoreInstallStatus Enum.  
+枚举。EGoogleARCoreInstallStatus枚举。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreInstallStatus Enum.
-
+返回值。EGoogleARCoreInstallStatus Enum。

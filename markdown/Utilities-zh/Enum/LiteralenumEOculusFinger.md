@@ -1,6 +1,6 @@
 # LiteralenumEOculusFinger
 
-Literal enum EOculusFinger
+枚举 EOculusFinger
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EOculusFinger
 
 ## Inputs
 
-Enum: EOculusFinger Enum.  
+枚举。EOculusFinger Enum.  
 
 ## Outputs
 
-Return Value: EOculusFinger Enum.
-
+返回值。EOculusFinger Enum。

@@ -1,6 +1,6 @@
 # LiteralenumETargetDataFilterSelf
 
-Literal enum ETargetDataFilterSelf
+字面意义上的枚举 ETargetDataFilterSelf
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETargetDataFilterSelf
 
 ## Inputs
 
-Enum: ETargetDataFilterSelf Enum.  
+枚举。ETargetDataFilterSelf Enum.  
 
 ## Outputs
 
-Return Value: ETargetDataFilterSelf Enum.
-
+返回值。ETargetDataFilterSelf Enum.

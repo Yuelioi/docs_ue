@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARWorldAlig-
 
-Returns EARWorldAlignment_MAX value
+返回EARWorldAlignment_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARWorldAlignment_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

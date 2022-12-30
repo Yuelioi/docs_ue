@@ -1,6 +1,6 @@
 # BreakContextualAnimAlignmentSect-
 
-Adds a node that breaks a 'ContextualAnimAlignmentSectionData' into its member fields
+添加一个节点，将'ContextualAnimAlignmentSectionData'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ContextualAnimAlignmentSectionData' into its member f
 
 ## Inputs
 
-Contextual Anim Alignment Section Data: Contextual Anim Alignment Section Data Structure (by ref).  
+Contextual Anim Alignment Section Data（上下文动画对齐部分数据）。上下文动画对齐部分数据结构（通过引用）。 
 
 ## Outputs
 
-Section Name: Name. Section Name.
+Section Name: 名称。Section Name.
 
-Scene Pivots: Array of Transforms. Scene Pivots.
-
+Scene Pivots: 变换的数组。Scene Pivots.

@@ -1,6 +1,6 @@
 # BytetoEnumEPoseComponentDebugMod-
 
-Byte to Enum EPoseComponentDebugMode
+字节到枚举 EPoseComponentDebugMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EPoseComponentDebugMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EPoseComponentDebugMode Enum.
-
+返回值。EPoseComponentDebugMode Enum.

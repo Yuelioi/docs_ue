@@ -1,6 +1,6 @@
 # LiteralenumEGameplayCueNotify_Ef-
 
-Literal enum EGameplayCueNotify_EffectPlaySpace
+枚举EGameplayCueNotify_EffectPlaySpace
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayCueNotify_EffectPlaySpace
 
 ## Inputs
 
-Enum: EGameplayCueNotify_EffectPlaySpace Enum.  
+枚举。EGameplayCueNotify_EffectPlaySpace枚举。 
 
 ## Outputs
 
-Return Value: EGameplayCueNotify_EffectPlaySpace Enum.
-
+返回值。EGameplayCueNotify_EffectPlaySpace Enum。

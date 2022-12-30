@@ -1,6 +1,6 @@
 # GetnumberofentriesinEUserInterfa-
 
-Returns EUserInterfaceActionType_MAX value
+返回EUserInterfaceActionType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EUserInterfaceActionType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

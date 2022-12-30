@@ -1,6 +1,6 @@
 # BreakDMXRawSACN
 
-Adds a node that breaks a 'DMXRawSACN' into its member fields
+添加一个节点，将'DMXRawSACN'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DMXRawSACN' into its member fields
 
 ## Inputs
 
-DMXRaw SACN: DMXRaw SACN Structure (by ref).  
+DMXRaw SACN: DMXRaw SACN结构（通过引用）。 
 
 ## Outputs
 
-Universe: Integer. Universe.
+宇宙。整数。Universe: 宇宙。
 
-Address: Integer. Address.
+地址。整数。地址。
 
-Value: Byte. Value.
-
+值。字节。值。

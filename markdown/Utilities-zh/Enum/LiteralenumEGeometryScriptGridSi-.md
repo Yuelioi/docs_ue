@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptGridSi-
 
-Literal enum EGeometryScriptGridSizingMethod
+枚举 EGeometryScriptGridSizingMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptGridSizingMethod
 
 ## Inputs
 
-Enum: EGeometryScriptGridSizingMethod Enum.  
+枚举。EGeometryScriptGridSizingMethod Enum.  
 
 ## Outputs
 
-Return Value: EGeometryScriptGridSizingMethod Enum.
-
+返回值。EGeometryScriptGridSizingMethod Enum.

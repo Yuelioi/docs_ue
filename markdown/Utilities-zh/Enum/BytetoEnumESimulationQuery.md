@@ -1,6 +1,6 @@
 # BytetoEnumESimulationQuery
 
-Byte to Enum ESimulationQuery
+字节到枚举的ESimulationQuery
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESimulationQuery
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESimulationQuery Enum.
-
+返回值。ESimulationQuery Enum。

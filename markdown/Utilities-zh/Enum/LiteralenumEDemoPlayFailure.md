@@ -1,6 +1,6 @@
 # LiteralenumEDemoPlayFailure
 
-Literal enum EDemoPlayFailure
+字面意义上的枚举 EDemoPlayFailure
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDemoPlayFailure
 
 ## Inputs
 
-Enum: EDemoPlayFailure Enum.  
+枚举。EDemoPlayFailure枚举。 
 
 ## Outputs
 
-Return Value: EDemoPlayFailure Enum.
-
+返回值。EDemoPlayFailure Enum。

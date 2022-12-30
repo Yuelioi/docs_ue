@@ -1,6 +1,6 @@
 # SwitchonERichTextInlineIconDispl-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERichTextInlineIconDisplayMode Enum.  
+选择。ERichTextInlineIconDisplayMode枚举。 
 
 ## Outputs
 
-Icon Only: Exec.
+只有图标。Exec.
 
-Text Only: Exec.
+仅限文本 Exec.
 
-Icon And Text: Exec.
-
+Icon and Text: 执行

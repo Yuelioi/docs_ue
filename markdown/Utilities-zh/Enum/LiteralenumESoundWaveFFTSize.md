@@ -1,6 +1,6 @@
 # LiteralenumESoundWaveFFTSize
 
-Literal enum ESoundWaveFFTSize
+字面意义上的枚举 ESoundWaveFFTSize
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESoundWaveFFTSize
 
 ## Inputs
 
-Enum: ESoundWaveFFTSize Enum.  
+枚举。ESoundWaveFFTSize 枚举。 
 
 ## Outputs
 
-Return Value: ESoundWaveFFTSize Enum.
-
+返回值。ESoundWaveFFTSize Enum.

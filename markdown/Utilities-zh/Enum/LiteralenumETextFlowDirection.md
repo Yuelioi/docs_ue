@@ -1,6 +1,6 @@
 # LiteralenumETextFlowDirection
 
-Literal enum ETextFlowDirection
+字面上的枚举：ETextFlowDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETextFlowDirection
 
 ## Inputs
 
-Enum: ETextFlowDirection Enum.  
+枚举。ETextFlowDirection Enum.  
 
 ## Outputs
 
-Return Value: ETextFlowDirection Enum.
-
+返回值。ETextFlowDirection Enum.

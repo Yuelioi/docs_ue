@@ -1,6 +1,6 @@
 # LiteralenumEOculusDeviceType
 
-Literal enum EOculusDeviceType
+枚举EOculusDeviceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EOculusDeviceType
 
 ## Inputs
 
-Enum: EOculusDeviceType Enum.  
+枚举。EOculusDeviceType枚举。 
 
 ## Outputs
 
-Return Value: EOculusDeviceType Enum.
-
+返回值。EOculusDeviceType Enum。

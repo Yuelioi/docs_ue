@@ -1,6 +1,6 @@
 # LiteralenumEImportanceWeight
 
-Literal enum EImportanceWeight
+枚举 EImportanceWeight
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EImportanceWeight
 
 ## Inputs
 
-Enum: EImportanceWeight Enum.  
+枚举。EImportanceWeight Enum.  
 
 ## Outputs
 
-Return Value: EImportanceWeight Enum.
-
+返回值。EImportanceWeight Enum。

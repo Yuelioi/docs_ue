@@ -1,6 +1,6 @@
 # GetnumberofentriesinETranslation-
 
-Returns ETranslationUnit_MAX value
+返回ETTranslationUnit_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ETranslationUnit_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # SwitchonEGoogleARCoreInstallStat-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGoogleARCoreInstallStatus Enum.  
+选择。EGoogleARCoreInstallStatus枚举。 
 
 ## Outputs
 
-Installed: Exec.
+已安装。执行。
 
-Requrested: Exec.
-
+要求的。Exec.

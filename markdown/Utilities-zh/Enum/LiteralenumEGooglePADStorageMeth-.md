@@ -1,6 +1,6 @@
 # LiteralenumEGooglePADStorageMeth-
 
-Literal enum EGooglePADStorageMethod
+枚举 EGooglePADStorageMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGooglePADStorageMethod
 
 ## Inputs
 
-Enum: EGooglePADStorageMethod Enum.  
+枚举。EGooglePADStorageMethod Enum.  
 
 ## Outputs
 
-Return Value: EGooglePADStorageMethod Enum.
-
+返回值。EGooglePADStorageMethod Enum。

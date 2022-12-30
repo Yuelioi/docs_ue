@@ -1,6 +1,6 @@
 # LiteralenumERejoinStatus
 
-Literal enum ERejoinStatus
+字面意义上的ERejoinStatus枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERejoinStatus
 
 ## Inputs
 
-Enum: ERejoinStatus Enum.  
+枚举。ERejoinStatus枚举。 
 
 ## Outputs
 
-Return Value: ERejoinStatus Enum.
-
+返回值。ERejoinStatus Enum。

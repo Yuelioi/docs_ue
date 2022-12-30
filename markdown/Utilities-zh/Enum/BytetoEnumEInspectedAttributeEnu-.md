@@ -1,6 +1,6 @@
 # BytetoEnumEInspectedAttributeEnu-
 
-Byte to Enum EInspectedAttributeEnum
+字节到枚举 EInspectedAttributeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EInspectedAttributeEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EInspectedAttributeEnum Enum.
-
+返回值。EInspectedAttributeEnum Enum。

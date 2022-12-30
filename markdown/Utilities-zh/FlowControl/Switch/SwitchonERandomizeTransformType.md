@@ -1,6 +1,6 @@
 # SwitchonERandomizeTransformType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERandomizeTransformType Enum.  
+选择。ERandomizeTransformType枚举。 
 
 ## Outputs
 
-Rotation: Exec.
+旋转。Exec.
 
-Location: Exec.
+位置: 顺序 顺序: 顺序
 
-Scale: Exec.
-
+规模: Exec: 规模: Exec.

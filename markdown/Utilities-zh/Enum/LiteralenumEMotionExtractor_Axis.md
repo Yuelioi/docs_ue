@@ -1,6 +1,6 @@
 # LiteralenumEMotionExtractor_Axis
 
-Literal enum EMotionExtractor_Axis
+EMotionExtractor_Axis字面枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMotionExtractor_Axis
 
 ## Inputs
 
-Enum: EMotionExtractor_Axis Enum.  
+枚举。EMotionExtractor_Axis Enum.  
 
 ## Outputs
 
-Return Value: EMotionExtractor_Axis Enum.
-
+返回值。EMotionExtractor_Axis Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEWalkableSlopeBehavior
 
-Byte to Enum EWalkableSlopeBehavior
+字节到枚举 EWalkableSlopeBehavior
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EWalkableSlopeBehavior
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWalkableSlopeBehavior Enum.
-
+返回值。EWalkableSlopeBehavior Enum.

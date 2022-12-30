@@ -1,8 +1,8 @@
 # GetAdIDCount
 
-Retrieves the total number of Ad IDs that can be selected between
+检索可以选择的广告ID的总数。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Kismet System Library
 
 ## Outputs
 
-Return Value: Integer. Retrieves the total number of Ad IDs that can be selected between.
-
+返回值。整数。检索可以选择的广告ID的总数。

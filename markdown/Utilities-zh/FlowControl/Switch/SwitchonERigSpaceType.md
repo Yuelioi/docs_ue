@@ -1,6 +1,6 @@
 # SwitchonERigSpaceType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERigSpaceType Enum.  
+选择。ERigSpaceType枚举。 
 
 ## Outputs
 
-Global: Exec.
+全局：Exec.
 
-Bone: Exec.
+骨骼：执行。
 
-Control: Exec.
+控制：控制。执行：执行。
 
-Space: Exec.
-
+空间。执行。

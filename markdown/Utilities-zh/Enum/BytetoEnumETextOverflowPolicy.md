@@ -1,6 +1,6 @@
 # BytetoEnumETextOverflowPolicy
 
-Byte to Enum ETextOverflowPolicy
+字节到枚举 ETextOverflowPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETextOverflowPolicy
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETextOverflowPolicy Enum.
-
+返回值。ETextOverflowPolicy Enum。

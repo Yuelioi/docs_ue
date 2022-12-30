@@ -1,6 +1,6 @@
 # LiteralenumEGooglePADCellularDat-
 
-Literal enum EGooglePADCellularDataConfirmStatus
+枚举 EGooglePADCellularDataConfirmStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGooglePADCellularDataConfirmStatus
 
 ## Inputs
 
-Enum: EGooglePADCellularDataConfirmStatus Enum.  
+枚举。EGooglePADCellularDataConfirmStatus枚举。 
 
 ## Outputs
 
-Return Value: EGooglePADCellularDataConfirmStatus Enum.
-
+返回值。EGooglePADCellularDataConfirmStatus枚举。

@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-_6
 
-Adds a node that breaks a 'DisplayClusterConfigurationInfo' into its member fields
+添加一个节点，将'DisplayClusterConfigurationInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DisplayClusterConfigurationInfo' into its member fiel
 
 ## Inputs
 
-Display Cluster Configuration Info: Display Cluster Configuration Info Structure (by ref).  
+显示群集配置信息。显示集群配置信息结构（通过引用）。 
 
 ## Outputs
 
-Description: String. Description.
+描述。字符串。描述。
 
-Version: String. Version.
+版本。字符串。版本。
 
-Asset Path: String. Asset Path.
-
+资产路径。字符串。资产路径。

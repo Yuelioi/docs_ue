@@ -1,6 +1,6 @@
 # Getnumberofentri-_9
 
-Returns EFBXSceneOptionsCreateHierarchyType_MAX value
+返回EFBXSceneOptionsCreateHierarchyType_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EFBXSceneOptionsCreateHierarchyType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

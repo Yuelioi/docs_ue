@@ -1,6 +1,6 @@
 # BreakBox
 
-Adds a node that breaks a 'Box' into its member fields
+添加一个节点，将一个 "盒子 "分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'Box' into its member fields
 
 ## Inputs
 
-Box: Box Structure (by ref).  
+盒子。盒子结构（通过引用）。 
 
 ## Outputs
 
-Min: Vector. Min.
+Min: 矢量。Min: 最小值。
 
-Max: Vector. Max.
-
+Max: 向量。最大值。

@@ -1,6 +1,6 @@
 # SwitchonEDNADataLayer
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDNADataLayer Enum.  
+选择。EDNADataLayer Enum.  
 
 ## Outputs
 
-Descriptor: Exec.
+描述符。Exec.
 
-Definition: Exec.
+定义。执行。
 
-Behavior: Exec.
+行为。执行
 
 Geometry: Exec.
 
-Geometry Without Blend Shapes: Exec.
+Geometry without Blend Shapes: Exec.
 
-All Without Blend Shapes: Exec.
+所有没有混合的形状。Exec.
 
-All: Exec.
-
+全部：执行。

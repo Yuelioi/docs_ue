@@ -1,6 +1,6 @@
 # LiteralenumESynthKnobSize
 
-Literal enum ESynthKnobSize
+字面上的枚举：ESynthKnobSize
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESynthKnobSize
 
 ## Inputs
 
-Enum: ESynthKnobSize Enum.  
+枚举。ESynthKnobSize枚举。 
 
 ## Outputs
 
-Return Value: ESynthKnobSize Enum.
-
+返回值。ESynthKnobSize Enum.

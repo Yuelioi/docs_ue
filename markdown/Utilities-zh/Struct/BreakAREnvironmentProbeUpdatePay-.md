@@ -1,6 +1,6 @@
 # BreakAREnvironmentProbeUpdatePay-
 
-Adds a node that breaks a 'AREnvironmentProbeUpdatePayload' into its member fields
+添加一个节点，将'AREnvironmentProbeUpdatePayload'分解到其成员字段中。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'AREnvironmentProbeUpdatePayload' into its member fiel
 
 ## Inputs
 
-AREnvironment Probe Update Payload: AREnvironment Probe Update Payload Structure (by ref).  
+AREnvironment Probe Update Payload。AREnvironment Probe Update Payload结构（通过引用）。 
 
 ## Outputs
 
-World Transform: Transform. World Transform.
-
+世界变换。变换。世界变换：世界变换。

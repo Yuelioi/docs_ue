@@ -1,6 +1,6 @@
 # LiteralenumESubmixSendMethod
 
-Literal enum ESubmixSendMethod
+字面意义上的枚举：ESubmixSendMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESubmixSendMethod
 
 ## Inputs
 
-Enum: ESubmixSendMethod Enum.  
+枚举。ESubmixSendMethod Enum.  
 
 ## Outputs
 
-Return Value: ESubmixSendMethod Enum.
-
+返回值。ESubmixSendMethod Enum。

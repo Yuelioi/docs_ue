@@ -1,6 +1,6 @@
 # LiteralenumEMusicalNoteName
 
-Literal enum EMusicalNoteName
+枚举EMusicalNoteName
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMusicalNoteName
 
 ## Inputs
 
-Enum: EMusicalNoteName Enum.  
+枚举。EMusicalNoteName枚举。 
 
 ## Outputs
 
-Return Value: EMusicalNoteName Enum.
-
+返回值。EMusicalNoteName Enum。

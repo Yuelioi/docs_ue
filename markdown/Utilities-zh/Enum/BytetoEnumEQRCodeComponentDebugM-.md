@@ -1,6 +1,6 @@
 # BytetoEnumEQRCodeComponentDebugM-
 
-Byte to Enum EQRCodeComponentDebugMode
+字节到枚举 EQRCodeComponentDebugMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EQRCodeComponentDebugMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EQRCodeComponentDebugMode Enum.
-
+返回值。EQRCodeComponentDebugMode Enum。

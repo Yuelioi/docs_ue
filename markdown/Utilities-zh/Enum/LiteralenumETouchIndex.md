@@ -1,6 +1,6 @@
 # LiteralenumETouchIndex
 
-Literal enum ETouchIndex
+字面意义上的ETouchIndex枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETouchIndex
 
 ## Inputs
 
-Enum: ETouchIndex Enum.  
+枚举。ETouchIndex枚举。 
 
 ## Outputs
 
-Return Value: ETouchIndex Enum.
-
+返回值。ETouchIndex Enum.

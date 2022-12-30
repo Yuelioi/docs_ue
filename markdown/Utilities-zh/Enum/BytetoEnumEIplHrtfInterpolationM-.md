@@ -1,6 +1,6 @@
 # BytetoEnumEIplHrtfInterpolationM-
 
-Byte to Enum EIplHrtfInterpolationMethod
+字节到枚举 EIplHrtfInterpolationMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EIplHrtfInterpolationMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EIplHrtfInterpolationMethod Enum.
-
+返回值。EIplHrtfInterpolationMethod Enum。

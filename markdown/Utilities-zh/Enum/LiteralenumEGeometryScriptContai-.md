@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptContai-
 
-Literal enum EGeometryScriptContainmentOutcomePins
+字面上的枚举 EGeometryScriptContainmentOutcomePins
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptContainmentOutcomePins
 
 ## Inputs
 
-Enum: EGeometryScriptContainmentOutcomePins Enum.  
+枚举。EGeometryScriptContainmentOutcomePins枚举。 
 
 ## Outputs
 
-Return Value: EGeometryScriptContainmentOutcomePins Enum.
-
+返回值。EGeometryScriptContainmentOutcomePins Enum.

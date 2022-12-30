@@ -1,6 +1,6 @@
 # SwitchonEMultiUserSourceValidati-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMultiUserSourceValidationMode Enum.  
+选择。EMultiUserSourceValidationMode枚举。 
 
 ## Outputs
 
-Hard: Exec.
+硬：执行。
 
-Soft: Exec.
+软：Exec.
 
 Soft Auto Proceed: Exec.
-

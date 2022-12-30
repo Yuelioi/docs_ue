@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptSearchO-
 
-Byte to Enum EGeometryScriptSearchOutcomePins
+字节到枚举 EGeometryScriptSearchOutcomePins
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptSearchOutcomePins
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptSearchOutcomePins Enum.
-
+返回值。EGeometryScriptSearchOutcomePins Enum.

@@ -1,8 +1,8 @@
 # Contains
 
-Returns whether this string contains the specified substring.
+返回这个字符串是否包含指定的子串。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,15 +10,14 @@ Target is Kismet String Library
 
 ## Inputs
 
-Search In: String.
+搜索在。字符串.
 
-Substring: String.
+子串。字符串。
 
-Use Case: Boolean.
+用例：布尔值。
 
-Search from End: Boolean.  
+从末端搜索。布尔值。 
 
 ## Outputs
 
-Return Value: Boolean. Returns whether the string contains the substring.
-
+返回值。布尔值。返回字符串是否包含该子串。

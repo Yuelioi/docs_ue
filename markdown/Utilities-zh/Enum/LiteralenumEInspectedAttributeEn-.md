@@ -1,6 +1,6 @@
 # LiteralenumEInspectedAttributeEn-
 
-Literal enum EInspectedAttributeEnum
+EInspectedAttributeEnum的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EInspectedAttributeEnum
 
 ## Inputs
 
-Enum: EInspectedAttributeEnum Enum.  
+枚举。EInspectedAttributeEnum Enum.  
 
 ## Outputs
 
-Return Value: EInspectedAttributeEnum Enum.
-
+返回值。EInspectedAttributeEnum Enum。

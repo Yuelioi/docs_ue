@@ -1,6 +1,6 @@
 # BytetoEnumEGameplayTagEventType
 
-Byte to Enum EGameplayTagEventType
+字节到枚举 EGameplayTagEventType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGameplayTagEventType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGameplayTagEventType Enum.
-
+返回值。EGameplayTagEventType Enum。

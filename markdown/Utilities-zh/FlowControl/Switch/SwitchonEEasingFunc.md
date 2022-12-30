@@ -1,6 +1,6 @@
 # SwitchonEEasingFunc
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,37 +8,36 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EEasingFunc Enum.  
+选择。EEasingFunc Enum.  
 
 ## Outputs
 
-Linear: Exec.
+线性。Exec.
 
-Step: Exec.
+步骤。执行。
 
-Sinusoidal In: Exec.
+正弦坐标：Exec.Sonusoidal In: 执行
 
-Sinusoidal Out: Exec.
+正弦波输出。执行。
 
-Sinusoidal In Out: Exec.
+正弦波输入输出。执行
 
-Ease In: Exec.
+缓和输入。执行。
 
-Ease Out: Exec.
+缓和输出。执行
 
-Ease In Out: Exec.
+易进易出。执行。
 
-Expo In: Exec.
+拓展中。执行。
 
-Expo Out: Exec.
+拓展 撤出。执行。
 
-Expo In Out: Exec.
+展览中出。Exec.
 
-Circular In: Exec.
+循环在。执行。
 
-Circular Out: Exec.
+循环输出。执行。
 
-Circular In Out: Exec.
-
+循环输入 循环输出。执行。

@@ -1,6 +1,6 @@
 # BreakCachedAnimTransitionData
 
-Adds a node that breaks a 'CachedAnimTransitionData' into its member fields
+添加一个节点，将'CachedAnimTransitionData'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'CachedAnimTransitionData' into its member fields
 
 ## Inputs
 
-Cached Anim Transition Data: Cached Anim Transition Data Structure (by ref).  
+缓存的动画过渡数据。缓存的动画过渡数据结构（通过引用）。 
 
 ## Outputs
 
-State Machine Name: Name. State Machine Name:. Name of StateMachine State is in.
+状态机名称。名称。State Machine Name:.状态机名称。StateMachine的名称 状态处于。
 
-From State Name: Name. From State Name:. Name of From State to Cache.
+从状态名称。名称。From State Name:. 从状态到缓存的名称。
 
-To State Name: Name. To State Name:. Name of To State to Cache.
-
+到州名称。名称。到州名称：。To State to Cache的名称。

@@ -1,6 +1,6 @@
 # LiteralenumEWaveFunctionCollapse-
 
-Literal enum EWaveFunctionCollapseAdjacency
+字面上的枚举 EWaveFunctionCollapseAdjacency
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWaveFunctionCollapseAdjacency
 
 ## Inputs
 
-Enum: EWaveFunctionCollapseAdjacency Enum.  
+枚举。EWaveFunctionCollapseAdjacency 枚举。 
 
 ## Outputs
 
-Return Value: EWaveFunctionCollapseAdjacency Enum.
-
+返回值。EWaveFunctionCollapseAdjacency Enum.

@@ -1,8 +1,8 @@
 # VideoCaptureDir
 
-Returns the directory the engine uses to output user requested video capture files.
+返回引擎用于输出用户请求的视频捕获文件的目录。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. Video capture directory.
-
+返回值。字符串。视频捕获目录。

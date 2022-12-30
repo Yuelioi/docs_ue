@@ -1,6 +1,6 @@
 # BreakARPose2D
 
-Adds a node that breaks a 'ARPose2D' into its member fields
+添加一个节点，将'ARPose2D'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ARPose2D' into its member fields
 
 ## Inputs
 
-ARPose 2D: ARPose 2D Structure (by ref).  
+ARPose 2D: ARPose 2D结构（通过引用）。 
 
 ## Outputs
 
-Skeleton Definition: ARSkeleton Definition Structure. Skeleton Definition:. The definition of this skeleton.
+Skeleton Definition（骨架定义）。ARSkeleton Definition结构。Skeleton Definition:.骨架定义。这个骨架的定义。
 
-Joint Locations: Array of Vector 2D Structures. Joint Locations:. The location of each joint in 2D normalized space.
+关节位置。矢量二维结构的阵列。关节位置：。每个关节在二维归一化空间中的位置。
 
-Is Joint Tracked: Array of Booleans. Is Joint Tracked:. Flags indicating if each joint is tracked.
-
+关节是否被追踪。布尔运算数组。关节是否被追踪：。表示每个关节是否被追踪的标志。

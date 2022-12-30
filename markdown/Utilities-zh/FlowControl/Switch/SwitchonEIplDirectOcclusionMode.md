@@ -1,6 +1,6 @@
 # SwitchonEIplDirectOcclusionMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EIplDirectOcclusionMode Enum.  
+选择。EIplDirectOcclusionMode枚举。 
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Direct Occlusion, No Transmission: Exec.
+Direct Occlusion，无传输。执行。
 
-Direct Occlusion, Frequency- Independent Transmission: Exec.
+Direct Occlusion, Frequency- Independent Transmission: 执行。
 
-Direct Occlusion, Frequency- Dependent Transmission: Exec.
-
+直接闭塞，依赖频率的传输。执行。

@@ -1,6 +1,6 @@
 # BytetoEnumEMediaPlayerTrack
 
-Byte to Enum EMediaPlayerTrack
+字节到枚举EMediaPlayerTrack
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMediaPlayerTrack
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMediaPlayerTrack Enum.
-
+返回值。EMediaPlayerTrack Enum。

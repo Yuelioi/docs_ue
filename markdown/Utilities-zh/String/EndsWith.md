@@ -1,8 +1,8 @@
 # EndsWith
 
-Test whether this string ends with given string.
+测试这个字符串是否以给定的字符串结束。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source String: String.
+源字符串。字符串。
 
-In Suffix: String.
+在后缀。字符串。
 
-Search Case: ESearchCase Enum. Indicates whether the search is case sensitive or not ( defaults to ESearchCase::IgnoreCase ).  
+Search Case: ESearchCase Enum。表示搜索是否区分大小写（默认为ESearchCase::IgnoreCase）。 
 
 ## Outputs
 
-Return Value: Boolean. true if this string ends with specified text, false otherwise.
-
+返回值。布尔值。如果这个字符串以指定的文本结束，则为真，否则为假。

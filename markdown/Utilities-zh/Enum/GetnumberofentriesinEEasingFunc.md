@@ -1,6 +1,6 @@
 # GetnumberofentriesinEEasingFunc
 
-Returns EEasingFunc_MAX value
+返回EEasingFunc_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EEasingFunc_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

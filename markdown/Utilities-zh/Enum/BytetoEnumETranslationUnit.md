@@ -1,6 +1,6 @@
 # BytetoEnumETranslationUnit
 
-Byte to Enum ETranslationUnit
+字节到枚举ETTranslationUnit
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETranslationUnit
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETranslationUnit Enum.
-
+返回值。ETranslationUnit Enum。

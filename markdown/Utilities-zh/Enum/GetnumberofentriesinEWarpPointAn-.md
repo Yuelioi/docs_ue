@@ -1,6 +1,6 @@
 # GetnumberofentriesinEWarpPointAn-
 
-Returns EWarpPointAnimProvider_MAX value
+返回 EWarpPointAnimProvider_MAX 值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EWarpPointAnimProvider_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

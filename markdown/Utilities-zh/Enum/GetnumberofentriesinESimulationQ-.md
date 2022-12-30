@@ -1,6 +1,6 @@
 # GetnumberofentriesinESimulationQ-
 
-Returns ESimulationQuery_MAX value
+返回ESimulationQuery_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESimulationQuery_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

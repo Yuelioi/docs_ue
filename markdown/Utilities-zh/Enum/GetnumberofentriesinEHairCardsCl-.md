@@ -1,6 +1,6 @@
 # GetnumberofentriesinEHairCardsCl-
 
-Returns EHairCardsClusterType_MAX value
+返回EHairCardsClusterType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EHairCardsClusterType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

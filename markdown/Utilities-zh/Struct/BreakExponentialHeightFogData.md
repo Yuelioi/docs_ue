@@ -1,6 +1,6 @@
 # BreakExponentialHeightFogData
 
-Adds a node that breaks a 'ExponentialHeightFogData' into its member fields
+添加一个节点，将'ExponentialHeightFogData'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ExponentialHeightFogData' into its member fields
 
 ## Inputs
 
-Exponential Height Fog Data: Exponential Height Fog Data Structure (by ref).  
+指数高度雾数据。指数高度雾数据结构（通过引用）。 
 
 ## Outputs
 
-Fog Density: Float (single-precision). Fog Density:. Global density factor for this fog..
+雾密度。Float（单精度）。雾密度：。此雾的全局密度系数。
 
-Fog Height Falloff: Float (single-precision). Fog Height Falloff:. Height density factor, controls how the density increases as height decreases.. Smaller values make the visible transition larger..
+Fog Height Falloff: 浮点（单精度）。Fog Height Falloff:.雾的高度衰减。高度密度因子，控制密度如何随着高度的降低而增加。较小的值使可见的过渡更大。
 
-Fog Height Offset: Float (single-precision). Fog Height Offset:. Height offset, relative to the actor position Z..
-
+雾化高度偏移。Float（单精度）。雾化高度偏移：。高度偏移，相对于演员的位置Z。

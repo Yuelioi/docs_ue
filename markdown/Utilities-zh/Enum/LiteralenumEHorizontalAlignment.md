@@ -1,6 +1,6 @@
 # LiteralenumEHorizontalAlignment
 
-Literal enum EHorizontalAlignment
+枚举EHorizontalAlignment
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EHorizontalAlignment
 
 ## Inputs
 
-Enum: EHorizontalAlignment Enum.  
+枚举。EHorizontalAlignment Enum.  
 
 ## Outputs
 
-Return Value: EHorizontalAlignment Enum.
-
+返回值。EHorizontalAlignment Enum.

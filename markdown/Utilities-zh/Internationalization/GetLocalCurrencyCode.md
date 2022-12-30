@@ -1,8 +1,8 @@
 # GetLocalCurrencyCode
 
-Returns the currency code associated with the device's locale
+返回与设备的地域性相关的货币代码
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.  
+在。Exec.  
 
 ## Outputs
 
 Out: Exec.
 
-Return Value: String. the currency code associated with the device's locale.
-
+返回值。字符串。与设备所在地相关的货币代码。

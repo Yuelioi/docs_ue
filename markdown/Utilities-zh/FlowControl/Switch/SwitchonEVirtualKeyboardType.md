@@ -1,6 +1,6 @@
 # SwitchonEVirtualKeyboardType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EVirtualKeyboardType Enum.  
+选择。EVirtualKeyboardType枚举。 
 
 ## Outputs
 
-Default: Exec.
+默认值。Exec.
 
-Number: Exec.
+数值。Exec.
 
-Web: Exec.
+网络。执行
 
-Email: Exec.
+电子邮件。执行董事
 
-Password: Exec.
+密码: Exec.
 
-Alpha Numeric: Exec.
-
+阿尔法数字: Exec.

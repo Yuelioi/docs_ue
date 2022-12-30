@@ -1,6 +1,6 @@
 # GetnumberofentriesinECurveEditor-_1
 
-Returns ECurveEditorFFTFilterType_MAX value
+返回ECurveEditorFFTFilterType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ECurveEditorFFTFilterType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

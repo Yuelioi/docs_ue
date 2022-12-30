@@ -1,6 +1,6 @@
 # LiteralenumEDMXPixelMappingRende-
 
-Literal enum EDMXPixelMappingRendererType
+枚举 EDMXPixelMappingRendererType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDMXPixelMappingRendererType
 
 ## Inputs
 
-Enum: EDMXPixelMappingRendererType Enum.  
+枚举。EDMXPixelMappingRendererType Enum.  
 
 ## Outputs
 
-Return Value: EDMXPixelMappingRendererType Enum.
-
+返回值。EDMXPixelMappingRendererType Enum.

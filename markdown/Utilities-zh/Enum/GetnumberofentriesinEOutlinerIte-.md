@@ -1,6 +1,6 @@
 # GetnumberofentriesinEOutlinerIte-
 
-Returns EOutlinerItemNameEnum_MAX value
+返回EOutlinerItemNameEnum_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EOutlinerItemNameEnum_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

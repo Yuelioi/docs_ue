@@ -1,6 +1,6 @@
 # LiteralenumEAzureSpatialAnchorsL-_2
 
-Literal enum EAzureSpatialAnchorsLogVerbosity
+枚举 EAzureSpatialAnchorsLogVerbosity
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAzureSpatialAnchorsLogVerbosity
 
 ## Inputs
 
-Enum: EAzureSpatialAnchorsLogVerbosity Enum.  
+枚举。EAzureSpatialAnchorsLogVerbosity Enum.  
 
 ## Outputs
 
-Return Value: EAzureSpatialAnchorsLogVerbosity Enum.
-
+返回值。EAzureSpatialAnchorsLogVerbosity Enum.

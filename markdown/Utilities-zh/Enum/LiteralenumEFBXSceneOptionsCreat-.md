@@ -1,6 +1,6 @@
 # LiteralenumEFBXSceneOptionsCreat-
 
-Literal enum EFBXSceneOptionsCreateHierarchyType
+EFBXSceneOptionsCreateHierarchyType的字面意义。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFBXSceneOptionsCreateHierarchyType
 
 ## Inputs
 
-Enum: EFBXSceneOptionsCreateHierarchyType Enum.  
+枚举。EFBXSceneOptionsCreateHierarchyType Enum.  
 
 ## Outputs
 
-Return Value: EFBXSceneOptionsCreateHierarchyType Enum.
-
+返回值。EFBXSceneOptionsCreateHierarchyType Enum.

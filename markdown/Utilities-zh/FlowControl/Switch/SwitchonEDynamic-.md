@@ -1,6 +1,6 @@
 # SwitchonEDynamic-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDynamicMeshAttributeChangeFlags Enum.  
+选择。EDynamicMeshAttributeChangeFlags Enum.  
 
 ## Outputs
 
-Unknown: Exec.
+未知。Exec.
 
 Mesh Topology: Exec.
 
-Vertex Positions: Exec.
+顶点位置。执行。
 
-Normals Tangents: Exec.
+Normals Tangents: 执行。
 
-Vertex Colors: Exec.
+顶点颜色: Exec.
 
-UVs: Exec.
+紫外线。执行。
 
-Triangle Groups: Exec.
-
+三角形组。执行。

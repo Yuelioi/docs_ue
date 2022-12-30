@@ -1,6 +1,6 @@
 # LiteralenumEHairCardsSourceType
 
-Literal enum EHairCardsSourceType
+枚举 EHairCardsSourceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EHairCardsSourceType
 
 ## Inputs
 
-Enum: EHairCardsSourceType Enum.  
+枚举。EHairCardsSourceType Enum.  
 
 ## Outputs
 
-Return Value: EHairCardsSourceType Enum.
-
+返回值。EHairCardsSourceType Enum。

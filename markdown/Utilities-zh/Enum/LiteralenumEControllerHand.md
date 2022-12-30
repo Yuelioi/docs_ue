@@ -1,6 +1,6 @@
 # LiteralenumEControllerHand
 
-Literal enum EControllerHand
+EControllerHand枚举的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EControllerHand
 
 ## Inputs
 
-Enum: EControllerHand Enum.  
+枚举。EControllerHand Enum.  
 
 ## Outputs
 
-Return Value: EControllerHand Enum.
-
+返回值。EControllerHand Enum。

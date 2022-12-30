@@ -1,6 +1,6 @@
 # LiteralenumEAnimExecutionContext-
 
-Literal enum EAnimExecutionContextConversionResult
+枚举 EAnimExecutionContextConversionResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAnimExecutionContextConversionResult
 
 ## Inputs
 
-Enum: EAnimExecutionContextConversionResult Enum.  
+枚举。EAnimExecutionContextConversionResult Enum.  
 
 ## Outputs
 
-Return Value: EAnimExecutionContextConversionResult Enum.
-
+返回值。EAnimExecutionContextConversionResult Enum。

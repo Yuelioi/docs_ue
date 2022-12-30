@@ -1,8 +1,8 @@
 # GetVolumeButtonsHandledbySystem
 
-Returns true if system default handling of volume up and volume down buttons enabled (Android only)
+如果系统默认处理音量增大和音量减小按钮，则返回true（仅Android）。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Kismet System Library
 
 ## Outputs
 
-Return Value: Boolean. Returns true if system default handling of volume up and volume down buttons enabled (Android only).
-
+返回值。布尔值。如果系统默认处理音量增大和减小的按钮，则返回true（仅Android）。

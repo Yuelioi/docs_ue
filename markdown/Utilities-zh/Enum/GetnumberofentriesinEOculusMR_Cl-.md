@@ -1,6 +1,6 @@
 # GetnumberofentriesinEOculusMR_Cl-
 
-Returns EOculusMR_ClippingReference_MAX value
+返回EOculusMR_ClippingReference_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EOculusMR_ClippingReference_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

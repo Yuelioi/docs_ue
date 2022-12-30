@@ -1,6 +1,6 @@
 # LocalText
 
-Local temporary Text variable
+本地临时文本变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Text variable
 
 ## Outputs
 
-Variable: Text.
-
+变量。文本。

@@ -1,6 +1,6 @@
 # SwitchonEProgressBarFillType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EProgressBarFillType Enum.  
+选择。EProgressBarFillType枚举。 
 
 ## Outputs
 
-Left To Right: Exec.
+从左到右。Exec.
 
-Right To Left: Exec.
+Right To Left: 从右到左：Exec.
 
-Fill From Center: Exec.
+从中间填充：Exec: 从中间填充: Exec.
 
-Fill From Center Horizontal: Exec.
+从中心水平填充: Exec.
 
-Fill From Center Vertical: Exec.
+从中间填充 垂直方向: Exec.
 
-Top To Bottom: Exec.
+从上到下 从上到下：从上到下
 
-Bottom To Top: Exec.
-
+底部到顶部：执行

@@ -1,6 +1,6 @@
 # LiteralenumELocationXToSpawnEnum
 
-Literal enum ELocationXToSpawnEnum
+文字枚举 ELocationXToSpawnEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELocationXToSpawnEnum
 
 ## Inputs
 
-Enum: ELocationXToSpawnEnum Enum.  
+枚举。ELocationXToSpawnEnum枚举。 
 
 ## Outputs
 
-Return Value: ELocationXToSpawnEnum Enum.
-
+返回值。ELocationXToSpawnEnum枚举。

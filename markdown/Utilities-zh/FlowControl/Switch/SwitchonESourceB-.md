@@ -1,6 +1,6 @@
 # SwitchonESourceB-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESourceBusSendLevelControlMethod Enum.  
+选择。ESourceBusSendLevelControlMethod Enum.  
 
 ## Outputs
 
-Linear: Exec.
+线性。Exec.
 
 Custom Curve: Exec.
 
-Manual: Exec.
-
+手动。Exec.

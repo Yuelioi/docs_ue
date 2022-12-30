@@ -1,6 +1,6 @@
 # LiteralenumESynthFilterAlgorithm
 
-Literal enum ESynthFilterAlgorithm
+字面意义上的枚举：ESynthFilterAlgorithm
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESynthFilterAlgorithm
 
 ## Inputs
 
-Enum: ESynthFilterAlgorithm Enum.  
+枚举。ESynthFilterAlgorithm Enum.  
 
 ## Outputs
 
-Return Value: ESynthFilterAlgorithm Enum.
-
+返回值。ESynthFilterAlgorithm Enum。

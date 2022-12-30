@@ -1,6 +1,6 @@
 # BytetoEnumEGameplayModOp
 
-Byte to Enum EGameplayModOp
+字节到枚举 EGameplayModOp
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGameplayModOp
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGameplayModOp Enum.
-
+返回值。EGameplayModOp Enum。

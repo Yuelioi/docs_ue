@@ -1,6 +1,6 @@
 # BytetoEnumETickMode
 
-Byte to Enum ETickMode
+字节到枚举ETickMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETickMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETickMode Enum.
-
+返回值。ETickMode Enum。

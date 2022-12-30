@@ -1,6 +1,6 @@
 # LiteralenumEVirtualCameraFocusMe-
 
-Literal enum EVirtualCameraFocusMethod
+枚举EVirtualCameraFocusMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EVirtualCameraFocusMethod
 
 ## Inputs
 
-Enum: EVirtualCameraFocusMethod Enum.  
+枚举。EVirtualCameraFocusMethod Enum.  
 
 ## Outputs
 
-Return Value: EVirtualCameraFocusMethod Enum.
-
+返回值。EVirtualCameraFocusMethod Enum.

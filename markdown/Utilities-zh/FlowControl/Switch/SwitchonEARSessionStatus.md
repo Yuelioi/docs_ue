@@ -1,6 +1,6 @@
 # SwitchonEARSessionStatus
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARSessionStatus Enum.  
+选择。EARSessionStatus枚举。 
 
 ## Outputs
 
-Not Started: Exec.
+未开始。执行中。
 
-Running: Exec.
+正在运行。执行中。
 
-Not Supported: Exec.
+不支持。执行.
 
-Fatal Error: Exec.
+致命的错误。执行。
 
-Permission Not Granted: Exec.
+未获得许可。Exec.
 
-Unsupported Configuration: Exec.
+不支持的配置。Exec.
 
-Other: Exec.
-
+其他。Exec.

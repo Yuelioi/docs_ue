@@ -1,6 +1,6 @@
 # LiteralenumEHairCardsGenerationT-
 
-Literal enum EHairCardsGenerationType
+字面意义上的枚举：EHairCardsGenerationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EHairCardsGenerationType
 
 ## Inputs
 
-Enum: EHairCardsGenerationType Enum.  
+枚举。EHairCardsGenerationType Enum.  
 
 ## Outputs
 
-Return Value: EHairCardsGenerationType Enum.
-
+返回值。EHairCardsGenerationType Enum。

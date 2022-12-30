@@ -1,8 +1,8 @@
 # ToLower
 
-Returns a string converted to Lower case
+返回一个转换为小写的字符串
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source String: String. The string to convert.  
+源字符串。字符串。要转换的字符串。 
 
 ## Outputs
 
-Return Value: String. The string in lower case.
-
+返回值。字符串。小写的字符串。

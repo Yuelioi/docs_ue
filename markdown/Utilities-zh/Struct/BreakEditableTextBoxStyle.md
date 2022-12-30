@@ -1,6 +1,6 @@
 # BreakEditableTextBoxStyle
 
-Adds a node that breaks a 'EditableTextBoxStyle' into its member fields
+添加一个节点，将'EditableTextBoxStyle'分解到其成员字段中。
 
 ## 图示
 
@@ -8,33 +8,32 @@ Adds a node that breaks a 'EditableTextBoxStyle' into its member fields
 
 ## Inputs
 
-Editable Text Box Style: Editable Text Box Style Structure (by ref).  
+可编辑文本框样式。可编辑文本框样式结构（通过引用）。 
 
 ## Outputs
 
-Background Image Normal: Slate Brush Structure. Background Image Normal:. Border background image when the box is not hovered or focused.
+Background Image Normal: 石板刷结构。Background Image Normal:背景图像正常：。当文本框未被悬停或聚焦时的边界背景图像。
 
-Background Image Hovered: Slate Brush Structure. Background Image Hovered:. Border background image when the box is hovered.
+悬停的背景图像。石板刷结构。悬停的背景图像:。当方框被悬停时的边框背景图像。
 
-Background Image Focused: Slate Brush Structure. Background Image Focused:. Border background image when the box is focused.
+聚焦的背景图像。石板刷结构。聚焦的背景图像：。当盒子被聚焦时的边框背景图像。
 
-Background Image Read Only: Slate Brush Structure. Background Image Read Only:. Border background image when the box is read-only.
+背景图像只读。石板刷结构。背景图像只读：。框内只读时的边框背景图像。
 
-Padding: Margin Structure. Padding:. Padding.
+Padding（填充）。边距结构。Padding:。Padding（填充）。
 
-Font: Slate Font Info Structure. Font:. Font family and size to be used when displaying this text..
+Font（字体）。Slate字体信息结构。字体:. 显示该文本时要使用的字体家族和大小。
 
-Foreground Color: Slate Color Structure. Foreground Color:. The foreground color of text..
+Foreground Color（前景色）：石板色结构。Foreground Color:.前景颜色。文本的前景颜色。
 
-Background Color: Slate Color Structure. Background Color:. The background color applied to the active background image.
+Background Color（背景色）：石板色结构。背景色:. 应用于活动背景图像的背景色。
 
-Read Only Foreground Color: Slate Color Structure. Read Only Foreground Color:. The read-only foreground color of text in read-only mode..
+只读前景色：石板颜色结构。只读前景色：。在只读模式下文本的只读前景色。
 
-Focused Foreground Color: Slate Color Structure. Focused Foreground Color:. The foreground color of text when the edit box has keyboard focus..
+Focused Foreground Color（聚焦前景色）：Slate Color Structure（石板色结构）。聚焦的前景色：。当编辑框有键盘焦点时文本的前景颜色。
 
-HScroll Bar Padding: Margin Structure. HScroll Bar Padding:. Padding around the horizontal scrollbar.
+HScroll Bar Padding: Margin结构。HScroll Bar Padding:。围绕水平滚动条的填充。
 
-VScroll Bar Padding: Margin Structure. VScroll Bar Padding:. Padding around the vertical scrollbar.
+VScroll Bar Padding: 边距结构。VScroll Bar Padding:. 围绕垂直滚动条的填充。
 
-Scroll Bar Style: Scroll Bar Style Structure. Scroll Bar Style:. Style used for the scrollbars.
-
+滚动条样式。滚动条样式结构。Scroll Bar Style:.滚动条样式。用于滚动条的样式。

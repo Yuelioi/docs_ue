@@ -1,6 +1,6 @@
 # BreakDebugFloatHistory
 
-Adds a node that breaks a 'DebugFloatHistory' into its member fields
+添加一个节点，将'DebugFloatHistory'分解到其成员字段中
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'DebugFloatHistory' into its member fields
 
 ## Inputs
 
-Debug Float History: Debug Float History Structure (by ref).  
+Debug Float History: 调试浮点历史结构（通过引用）。 
 
 ## Outputs
 
-Max Samples: Integer. Max Samples:. Max Samples to record..
+Max Samples: 整数。Max Samples:. 记录的最大样本数。
 
-Min Value: Float (single-precision). Min Value:. Min value to record..
+最小值。Float (single-precision). 最小值:。要记录的最小值。
 
-Max Value: Float (single-precision). Max Value:. Max value to record..
+最大值。Float (single-precision). 最大值：。要记录的最大值。
 
-Auto Adjust Min Max: Boolean. Auto Adjust Min Max:. Auto adjust Min/Max as new values are recorded?.
-
+Auto Adjust Min Max: 布尔值。Auto Adjust Min Max: 自动调整最小最大值：。在记录新值时自动调整最小/最大值？

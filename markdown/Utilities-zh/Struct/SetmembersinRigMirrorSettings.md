@@ -17,4 +17,3 @@ Struct Ref: Rig Mirror Settings Structure (by ref).
 Out: Exec.
 
 Struct Out: Rig Mirror Settings Structure (by ref). Reference to the input struct.
-

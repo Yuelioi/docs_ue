@@ -1,6 +1,6 @@
 # BytetoEnumETimelineDirection
 
-Byte to Enum ETimelineDirection
+字节到枚举 ETimelineDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETimelineDirection
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETimelineDirection Enum.
-
+返回值。ETimelineDirection Enum。

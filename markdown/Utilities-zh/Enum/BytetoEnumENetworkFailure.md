@@ -1,6 +1,6 @@
 # BytetoEnumENetworkFailure
 
-Byte to Enum ENetworkFailure
+字节到枚举 ENetworkFailure
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ENetworkFailure
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ENetworkFailure Enum.
-
+返回值。ENetworkFailure Enum。

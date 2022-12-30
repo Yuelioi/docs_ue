@@ -1,6 +1,6 @@
 # BreakCustomMeshTriangle
 
-Adds a node that breaks a 'CustomMeshTriangle' into its member fields
+添加一个打破'CustomMeshTriangle'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'CustomMeshTriangle' into its member fields
 
 ## Inputs
 
-Custom Mesh Triangle: Custom Mesh Triangle Structure (by ref).  
+Custom Mesh Triangle。Custom Mesh Triangle结构（通过引用）。 
 
 ## Outputs
 
-Vertex 0: Vector. Vertex 0.
+顶点0：向量。顶点0：向量。
 
-Vertex 1: Vector. Vertex 1.
+顶点1：向量。顶点1。
 
-Vertex 2: Vector. Vertex 2.
-
+顶点2：向量。顶点2。

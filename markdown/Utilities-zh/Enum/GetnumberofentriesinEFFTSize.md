@@ -1,6 +1,6 @@
 # GetnumberofentriesinEFFTSize
 
-Returns EFFTSize_MAX value
+返回EFFTSize_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EFFTSize_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

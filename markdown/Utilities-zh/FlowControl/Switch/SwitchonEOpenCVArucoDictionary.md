@@ -1,6 +1,6 @@
 # SwitchonEOpenCVArucoDictionary
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,13 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EOpenCVArucoDictionary Enum.  
+选择。EOpenCVArucoDictionary Enum.  
 
 ## Outputs
 
-4x 4: Exec.
+4x 4：执行。
 
 5x 5: Exec.
 
@@ -22,5 +22,4 @@ Selection: EOpenCVArucoDictionary Enum.
 
 7x 7: Exec.
 
-Original: Exec.
-
+原始的。执行

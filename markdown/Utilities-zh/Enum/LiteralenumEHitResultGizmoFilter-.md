@@ -1,6 +1,6 @@
 # LiteralenumEHitResultGizmoFilter-
 
-Literal enum EHitResultGizmoFilterMode
+枚举EHitResultGizmoFilterMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EHitResultGizmoFilterMode
 
 ## Inputs
 
-Enum: EHitResultGizmoFilterMode Enum.  
+枚举。EHitResultGizmoFilterMode枚举。 
 
 ## Outputs
 
-Return Value: EHitResultGizmoFilterMode Enum.
-
+返回值。EHitResultGizmoFilterMode Enum。

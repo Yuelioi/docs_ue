@@ -1,6 +1,6 @@
 # BytetoEnumESimulationOverlap
 
-Byte to Enum ESimulationOverlap
+字节到枚举 ESimulationOverlap
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESimulationOverlap
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESimulationOverlap Enum.
-
+返回值。ESimulationOverlap Enum。

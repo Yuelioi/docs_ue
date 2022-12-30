@@ -1,6 +1,6 @@
 # BytetoEnumESynthFilterAlgorithm
 
-Byte to Enum ESynthFilterAlgorithm
+字节到枚举 ESynthFilterAlgorithm
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESynthFilterAlgorithm
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESynthFilterAlgorithm Enum.
-
+返回值。ESynthFilterAlgorithm Enum。

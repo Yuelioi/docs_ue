@@ -1,6 +1,6 @@
 # BytetoEnumEIplDirectOcclusionMod-
 
-Byte to Enum EIplDirectOcclusionMode
+字节到枚举 EIplDirectOcclusionMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EIplDirectOcclusionMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EIplDirectOcclusionMode Enum.
-
+返回值。EIplDirectOcclusionMode Enum。

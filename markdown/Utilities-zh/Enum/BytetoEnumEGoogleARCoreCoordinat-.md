@@ -1,6 +1,6 @@
 # BytetoEnumEGoogleARCoreCoordinat-
 
-Byte to Enum EGoogleARCoreCoordinates2DType
+字节到枚举 EGoogleARCoreCoordinates2DType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGoogleARCoreCoordinates2DType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreCoordinates2DType Enum.
-
+返回值。EGoogleARCoreCoordinates2DType Enum。

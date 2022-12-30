@@ -1,6 +1,6 @@
 # LiteralenumEWidgetBlendMode
 
-Literal enum EWidgetBlendMode
+枚举 EWidgetBlendMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWidgetBlendMode
 
 ## Inputs
 
-Enum: EWidgetBlendMode Enum.  
+枚举。EWidgetBlendMode枚举。 
 
 ## Outputs
 
-Return Value: EWidgetBlendMode Enum.
-
+返回值。EWidgetBlendMode Enum.

@@ -1,6 +1,6 @@
 # BreakFieldObjectCommands
 
-Adds a node that breaks a 'FieldObjectCommands' into its member fields
+添加一个节点，将'FieldObjectCommands'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'FieldObjectCommands' into its member fields
 
 ## Inputs
 
-Field Object Commands: Field Object Commands Structure (by ref).  
+字段对象命令。字段对象命令结构（通过引用）。 
 
 ## Outputs
 
-Target Names: Array of Names. Target Names:. Commands Target Name.
+目标名称。名称的数组。目标名称：。命令目标名称。
 
-Root Nodes: Array of Field Node Base Object References. Root Nodes:. Commands Root Node.
+根节点。字段节点基本对象参考数组。根节点：. 命令根节点。
 
-Meta Datas: Array of Field System Meta Data Object References. Meta Datas:. Commands Meta Data.
-
+元数据。场系统元数据对象参考数组。元数据：。命令元数据。

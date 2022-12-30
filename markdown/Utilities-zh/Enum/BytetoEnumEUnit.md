@@ -1,6 +1,6 @@
 # BytetoEnumEUnit
 
-Byte to Enum EUnit
+字节到枚举 EUnit
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EUnit
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EUnit Enum.
-
+返回值。EUnit Enum。

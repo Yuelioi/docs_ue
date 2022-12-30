@@ -1,6 +1,6 @@
 # BytetoEnumEReverbSendMethod
 
-Byte to Enum EReverbSendMethod
+字节到枚举EReverbSendMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EReverbSendMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EReverbSendMethod Enum.
-
+返回值。EReverbSendMethod Enum。

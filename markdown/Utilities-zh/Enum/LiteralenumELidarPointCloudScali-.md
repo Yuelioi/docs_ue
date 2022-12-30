@@ -1,6 +1,6 @@
 # LiteralenumELidarPointCloudScali-
 
-Literal enum ELidarPointCloudScalingMethod
+枚举ELidarPointCloudScalingMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELidarPointCloudScalingMethod
 
 ## Inputs
 
-Enum: ELidarPointCloudScalingMethod Enum.  
+枚举。ELidarPointCloudScalingMethod Enum.  
 
 ## Outputs
 
-Return Value: ELidarPointCloudScalingMethod Enum.
-
+返回值。ELidarPointCloudScalingMethod Enum.

@@ -1,6 +1,6 @@
 # LiteralenumEZoneShapeLaneConnect-
 
-Literal enum EZoneShapeLaneConnectionRestrictions
+字面上的枚举：EZoneShapeLaneConnectionRestrictions
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EZoneShapeLaneConnectionRestrictions
 
 ## Inputs
 
-Enum: EZoneShapeLaneConnectionRestrictions Enum.  
+枚举。EZoneShapeLaneConnectionRestrictions枚举。 
 
 ## Outputs
 
-Return Value: EZoneShapeLaneConnectionRestrictions Enum.
-
+返回值。EZoneShapeLaneConnectionRestrictions Enum。

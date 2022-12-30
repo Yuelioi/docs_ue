@@ -1,6 +1,6 @@
 # LiteralenumETextOverflowPolicy
 
-Literal enum ETextOverflowPolicy
+字面意义上的ETextOverflowPolicy枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETextOverflowPolicy
 
 ## Inputs
 
-Enum: ETextOverflowPolicy Enum.  
+枚举。ETextOverflowPolicy Enum.  
 
 ## Outputs
 
-Return Value: ETextOverflowPolicy Enum.
-
+返回值。ETextOverflowPolicy Enum。

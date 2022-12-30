@@ -1,6 +1,6 @@
 # Getnumberofentri-_36
 
-Returns ESubmixEffectDynamicsChannelLinkMode_MAX value
+返回ESubmixEffectDynamicsChannelLinkMode_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESubmixEffectDynamicsChannelLinkMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

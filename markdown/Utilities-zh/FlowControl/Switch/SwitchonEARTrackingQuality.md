@@ -1,6 +1,6 @@
 # SwitchonEARTrackingQuality
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARTrackingQuality Enum.  
+选择。EARTrackingQuality Enum.  
 
 ## Outputs
 
-Not Tracking: Exec.
+不跟踪。Exec.
 
-Orientation Only: Exec.
+仅限方向。执政：执政。
 
-Orientation And Position: Exec.
-
+方向和位置。职务

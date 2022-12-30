@@ -1,6 +1,6 @@
 # BytetoEnumEQuartzTimeSignatureQu-
 
-Byte to Enum EQuartzTimeSignatureQuantization
+字节到枚举 EQuartzTimeSignatureQuantization
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EQuartzTimeSignatureQuantization
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EQuartzTimeSignatureQuantization Enum.
-
+返回值。EQuartzTimeSignatureQuantization Enum。

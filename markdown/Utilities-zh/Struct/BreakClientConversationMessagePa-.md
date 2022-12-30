@@ -1,6 +1,6 @@
 # BreakClientConversationMessagePa-
 
-Adds a node that breaks a 'ClientConversationMessagePayload' into its member fields
+添加一个节点，将'ClientConversationMessagePayload'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'ClientConversationMessagePayload' into its member fie
 
 ## Inputs
 
-Client Conversation Message Payload: Client Conversation Message Payload Structure (by ref).  
+Client Conversation Message Payload。Client Conversation Message Payload结构（通过引用）。 
 
 ## Outputs
 
-Message: Client Conversation Message Structure. Message.
+消息。Client Conversation Message Structure. Message.
 
-Participants: Conversation Participants Structure. Participants.
+Participants: Conversation Participants结构。参与者。
 
-Current Node: Conversation Node Handle Structure. Current Node.
+当前节点。Conversation Node Handle结构。当前节点。
 
-Options: Array of Client Conversation Option Entry Structures. Options.
-
+选项。客户端对话选项条目结构的数组。选项。

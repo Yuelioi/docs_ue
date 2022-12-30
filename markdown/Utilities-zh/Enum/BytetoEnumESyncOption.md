@@ -1,6 +1,6 @@
 # BytetoEnumESyncOption
 
-Byte to Enum ESyncOption
+字节到枚举 ESyncOption
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESyncOption
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESyncOption Enum.
-
+返回值。ESyncOption Enum。

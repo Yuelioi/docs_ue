@@ -51,4 +51,3 @@ Budget Factor Before Aggressive Reduced Work: Float (single-precision). Budget F
 Reduced Work Throttle Max Per Frame: Integer. Reduced Work Throttle Max Per Frame:. Range [1, 255].. Controls the max number of components that are switched to/from reduced work per tick..
 
 Budget Pressure Before Emergency Reduced Work: Float (single-precision). Budget Pressure Before Emergency Reduced Work:. Range > 0.0.. Controls the budget pressure where emergency reduced work (applied to all components except those that are bAlwaysTick)..
-

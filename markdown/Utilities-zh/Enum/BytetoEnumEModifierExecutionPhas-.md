@@ -1,6 +1,6 @@
 # BytetoEnumEModifierExecutionPhas-
 
-Byte to Enum EModifierExecutionPhase
+字节到枚举EModifierExecutionPhase
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EModifierExecutionPhase
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EModifierExecutionPhase Enum.
-
+返回值。EModifierExecutionPhase枚举。

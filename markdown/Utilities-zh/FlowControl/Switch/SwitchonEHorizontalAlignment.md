@@ -1,6 +1,6 @@
 # SwitchonEHorizontalAlignment
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EHorizontalAlignment Enum.  
+选择。EHorizontalAlignment Enum.  
 
 ## Outputs
 
-Fill: Exec.
+填充：Exec.Ltd.
 
 Left: Exec.
 
-Center: Exec.
+中央：EHorizontalAlignment Enum: 填充: Exec.
 
-Right: Exec.
-
+右边 执行

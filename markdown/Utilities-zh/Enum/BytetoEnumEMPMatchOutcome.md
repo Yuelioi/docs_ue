@@ -1,6 +1,6 @@
 # BytetoEnumEMPMatchOutcome
 
-Byte to Enum EMPMatchOutcome
+字节到枚举 EMPMatchOutcome
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMPMatchOutcome
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMPMatchOutcome Enum.
-
+返回值。EMPMatchOutcome Enum。

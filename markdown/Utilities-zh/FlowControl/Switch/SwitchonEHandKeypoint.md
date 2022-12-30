@@ -1,6 +1,6 @@
 # SwitchonEHandKeypoint
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,61 +8,60 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EHandKeypoint Enum.  
+选择。EHandKeypoint Enum.  
 
 ## Outputs
 
-Palm: Exec.
+掌中宝。Exec.
 
-Wrist: Exec.
+腕部 Exec.
 
-Thumb Metacarpal: Exec.
+拇指掌骨。有效
 
-Thumb Proximal: Exec.
+拇指近端: 有效
 
-Thumb Distal: Exec.
+拇指远端: Exec.
 
-Thumb Tip: Exec.
+拇指尖: Exec: Exec.
 
-Index Metacarpal: Exec.
+食指掌骨: Exec.
 
-Index Proximal: Exec.
+食指近端: 拇指尖: 有指数
 
-Index Intermediate: Exec.
+指数 中级 指数：无
 
-Index Distal: Exec.
+指数远端：Exec.
 
-Index Tip: Exec.
+指尖 顶端: Exec.
 
-Middle Metacarpal: Exec.
+掌骨中部: Exec.
 
-Middle Proximal: Exec.
+中近端：执行。前部：中
 
-Middle Intermediate: Exec.
+中段：中段。中级: Exec.
 
-Middle Distal: Exec.
+远端：Exec.
 
-Middle Tip: Exec.
+中部的尖端。顶端: Exec.
 
-Ring Metacarpal: Exec.
+环形掌骨。掌骨: 呈环状。
 
-Ring Proximal: Exec.
+环形近端。Exec.
 
-Ring Intermediate: Exec.
+环形物 中级物。执行环
 
-Ring Distal: Exec.
+环状物远端：Exec.
 
-Ring Tip: Exec.
+指环尖端。外环：外环
 
-Little Metacarpal: Exec.
+小掌骨 Exec.
 
-Little Proximal: Exec.
+小近端 小近端.
 
-Little Intermediate: Exec.
+中级：小。掌骨: 小
 
-Little Distal: Exec.
+小远端:执行.
 
-Little Tip: Exec.
-
+小尖端 顶端.

@@ -1,6 +1,6 @@
 # LiteralenumEWidgetAnimationEvent
 
-Literal enum EWidgetAnimationEvent
+枚举 EWidgetAnimationEvent
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWidgetAnimationEvent
 
 ## Inputs
 
-Enum: EWidgetAnimationEvent Enum.  
+枚举。EWidgetAnimationEvent Enum.  
 
 ## Outputs
 
-Return Value: EWidgetAnimationEvent Enum.
-
+返回值。EWidgetAnimationEvent Enum.

@@ -1,6 +1,6 @@
 # LiteralenumEDynamicMeshAttribute-
 
-Literal enum EDynamicMeshAttributeChangeFlags
+字面上的枚举 EDynamicMeshAttributeChangeFlags
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDynamicMeshAttributeChangeFlags
 
 ## Inputs
 
-Enum: EDynamicMeshAttributeChangeFlags Enum.  
+Enum: EDynamicMeshAttributeChangeFlags枚举。 
 
 ## Outputs
 
-Return Value: EDynamicMeshAttributeChangeFlags Enum.
-
+返回值。EDynamicMeshAttributeChangeFlags Enum.

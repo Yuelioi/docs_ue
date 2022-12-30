@@ -1,6 +1,6 @@
 # LiteralenumESubmixSendStage
 
-Literal enum ESubmixSendStage
+字面意义上的枚举ESubmixSendStage
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESubmixSendStage
 
 ## Inputs
 
-Enum: ESubmixSendStage Enum.  
+枚举。ESubmixSendStage枚举。 
 
 ## Outputs
 
-Return Value: ESubmixSendStage Enum.
-
+返回值。ESubmixSendStage Enum。

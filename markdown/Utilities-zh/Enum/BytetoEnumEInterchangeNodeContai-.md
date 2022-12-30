@@ -1,6 +1,6 @@
 # BytetoEnumEInterchangeNodeContai-
 
-Byte to Enum EInterchangeNodeContainerType
+字节到枚举 EInterchangeNodeContainerType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EInterchangeNodeContainerType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EInterchangeNodeContainerType Enum.
-
+返回值。EInterchangeNodeContainerType Enum。

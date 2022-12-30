@@ -1,6 +1,6 @@
 # GetnumberofentriesinEInitialVelo-
 
-Returns EInitialVelocityTypeEnum_MAX value
+返回EInitialVelocityTypeEnum_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EInitialVelocityTypeEnum_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

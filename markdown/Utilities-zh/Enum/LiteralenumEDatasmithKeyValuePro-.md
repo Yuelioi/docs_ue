@@ -1,6 +1,6 @@
 # LiteralenumEDatasmithKeyValuePro-
 
-Literal enum EDatasmithKeyValuePropertyType
+字面上的枚举：EDatasmithKeyValuePropertyType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDatasmithKeyValuePropertyType
 
 ## Inputs
 
-Enum: EDatasmithKeyValuePropertyType Enum.  
+枚举。EDatasmithKeyValuePropertyType枚举。 
 
 ## Outputs
 
-Return Value: EDatasmithKeyValuePropertyType Enum.
-
+返回值。EDatasmithKeyValuePropertyType枚举。

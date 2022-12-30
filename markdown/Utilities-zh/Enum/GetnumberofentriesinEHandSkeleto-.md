@@ -1,6 +1,6 @@
 # GetnumberofentriesinEHandSkeleto-
 
-Returns EHandSkeleton_MAX value
+返回EHandSkeleton_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EHandSkeleton_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

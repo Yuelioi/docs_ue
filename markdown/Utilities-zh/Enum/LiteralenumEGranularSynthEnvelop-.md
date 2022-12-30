@@ -1,6 +1,6 @@
 # LiteralenumEGranularSynthEnvelop-
 
-Literal enum EGranularSynthEnvelopeType
+字面枚举：EGranularSynthEnvelopeType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGranularSynthEnvelopeType
 
 ## Inputs
 
-Enum: EGranularSynthEnvelopeType Enum.  
+枚举。EGranularSynthEnvelopeType枚举。 
 
 ## Outputs
 
-Return Value: EGranularSynthEnvelopeType Enum.
-
+返回值。EGranularSynthEnvelopeType Enum。

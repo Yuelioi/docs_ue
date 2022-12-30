@@ -1,6 +1,6 @@
 # BreakCachedFloatCurve
 
-Adds a node that breaks a 'CachedFloatCurve' into its member fields
+添加一个节点，将'CachedFloatCurve'分解为其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'CachedFloatCurve' into its member fields
 
 ## Inputs
 
-Cached Float Curve: Cached Float Curve Structure (by ref).  
+Cached Float Curve。Cached Float Curve结构（通过引用）。 
 
 ## Outputs
 
-Curve Name: Name. Curve Name.
-
+曲线名称。名称。曲线名称。

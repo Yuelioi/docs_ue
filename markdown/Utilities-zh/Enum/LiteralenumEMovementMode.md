@@ -1,6 +1,6 @@
 # LiteralenumEMovementMode
 
-Literal enum EMovementMode
+字面意义上的EMovementMode枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMovementMode
 
 ## Inputs
 
-Enum: EMovementMode Enum.  
+枚举。EMovementMode Enum.  
 
 ## Outputs
 
-Return Value: EMovementMode Enum.
-
+返回值。EMovementMode Enum.

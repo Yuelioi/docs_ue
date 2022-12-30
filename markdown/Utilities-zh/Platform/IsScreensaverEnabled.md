@@ -1,8 +1,8 @@
 # IsScreensaverEnabled
 
-Returns true if screen saver is enabled.
+如果启用了屏幕保护程序，则返回true。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.  
+在。执行。 
 
 ## Outputs
 
-Out: Exec.
+输出。执行。
 
-Return Value: Boolean. Returns true if screen saver is enabled..
-
+返回值。布尔值。如果屏幕保护程序被启用，返回true。

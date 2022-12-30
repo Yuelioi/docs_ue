@@ -1,6 +1,6 @@
 # LiteralenumEMotionRange
 
-Literal enum EMotionRange
+字面意义上的枚举EMotionRange
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMotionRange
 
 ## Inputs
 
-Enum: EMotionRange Enum.  
+枚举。EMotionRange Enum.  
 
 ## Outputs
 
-Return Value: EMotionRange Enum.
-
+返回值。EMotionRange Enum。

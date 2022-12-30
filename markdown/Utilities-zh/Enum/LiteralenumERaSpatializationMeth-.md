@@ -1,6 +1,6 @@
 # LiteralenumERaSpatializationMeth-
 
-Literal enum ERaSpatializationMethod
+字面意义上的ERaSpatializationMethod枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERaSpatializationMethod
 
 ## Inputs
 
-Enum: ERaSpatializationMethod Enum.  
+枚举。ERaSpatializationMethod Enum.  
 
 ## Outputs
 
-Return Value: ERaSpatializationMethod Enum.
-
+返回值。ERaSpatializationMethod Enum。

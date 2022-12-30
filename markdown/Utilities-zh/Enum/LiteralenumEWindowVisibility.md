@@ -1,6 +1,6 @@
 # LiteralenumEWindowVisibility
 
-Literal enum EWindowVisibility
+枚举 EWindowVisibility
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWindowVisibility
 
 ## Inputs
 
-Enum: EWindowVisibility Enum.  
+枚举。EWindowVisibility Enum.  
 
 ## Outputs
 
-Return Value: EWindowVisibility Enum.
-
+返回值。EWindowVisibility Enum。

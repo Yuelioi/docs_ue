@@ -1,6 +1,6 @@
 # BytetoEnumEWarpingVectorMode
 
-Byte to Enum EWarpingVectorMode
+字节到枚举 EWarpingVectorMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EWarpingVectorMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWarpingVectorMode Enum.
-
+返回值。EWarpingVectorMode Enum。

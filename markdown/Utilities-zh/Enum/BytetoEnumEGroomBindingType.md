@@ -1,6 +1,6 @@
 # BytetoEnumEGroomBindingType
 
-Byte to Enum EGroomBindingType
+字节到枚举EGroomBindingType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGroomBindingType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGroomBindingType Enum.
-
+返回值。EGroomBindingType Enum。

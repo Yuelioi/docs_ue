@@ -1,6 +1,6 @@
 # SwitchonEGoogleARCoreAvailabilit-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGoogleARCoreAvailability Enum.  
+选择。EGoogleARCoreAvailability Enum.  
 
 ## Outputs
 
-Unknown Error: Exec.
+未知错误。Exec.
 
-Unknown Checking: Exec.
+未知检查。Exec.
 
-Unknown Timed Out: Exec.
+未知的超时。执行。
 
-Unsupported Device Not Capable: Exec.
+不支持的设备没有能力。执行。
 
-Supported Not Installed: Exec.
+支持的未安装。执行。
 
-Supported Apk Too Old: Exec.
+支持的应用程序太旧。执行。
 
-Supported Installed: Exec.
-
+支持 已安装: 执行.

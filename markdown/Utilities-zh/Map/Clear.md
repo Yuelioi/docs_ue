@@ -1,8 +1,8 @@
 # Clear
 
-Clears a map of all entries, resetting it to empty
+清除地图上的所有条目，将其重置为空。
 
-Target is Blueprint Map Library
+目标是蓝图地图库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Blueprint Map Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Target Map: Map of Wildcards to Wildcards. The map to clear.  
+目标地图。通配符到通配符的地图。要清除的地图。 
 
 ## Outputs
 
-Out: Exec.
-
+出来。Exec.

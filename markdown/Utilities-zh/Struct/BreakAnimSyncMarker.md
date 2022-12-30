@@ -1,6 +1,6 @@
 # BreakAnimSyncMarker
 
-Adds a node that breaks a 'AnimSyncMarker' into its member fields
+添加一个节点，将'AnimSyncMarker'分解到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'AnimSyncMarker' into its member fields
 
 ## Inputs
 
-Anim Sync Marker: Anim Sync Marker Structure (by ref).  
+Anim Sync Marker: Anim Sync Marker 结构（通过引用）。 
 
 ## Outputs
 
-Marker Name: Name. Marker Name:. The name of this marker.
+Marker Name: 名称. Marker Name:. 这个标记的名称。
 
-Time: Float (single-precision). Time:. Time in seconds of this marker.
-
+时间。Float（单精度）。时间:。这个标记的时间，以秒为单位。

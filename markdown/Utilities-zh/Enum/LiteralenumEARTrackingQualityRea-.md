@@ -1,6 +1,6 @@
 # LiteralenumEARTrackingQualityRea-
 
-Literal enum EARTrackingQualityReason
+枚举EARTrackingQualityReason的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARTrackingQualityReason
 
 ## Inputs
 
-Enum: EARTrackingQualityReason Enum.  
+枚举。EARTrackingQualityReason 枚举。 
 
 ## Outputs
 
-Return Value: EARTrackingQualityReason Enum.
-
+返回值。EARTrackingQualityReason Enum。

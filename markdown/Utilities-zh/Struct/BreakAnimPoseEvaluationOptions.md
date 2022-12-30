@@ -1,6 +1,6 @@
 # BreakAnimPoseEvaluationOptions
 
-Adds a node that breaks a 'AnimPoseEvaluationOptions' into its member fields
+添加一个节点，将'AnimPoseEvaluationOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'AnimPoseEvaluationOptions' into its member fields
 
 ## Inputs
 
-Anim Pose Evaluation Options: Anim Pose Evaluation Options Structure (by ref).  
+Anim Pose Evaluation Options: Anim Pose Evaluation Options 结构 (通过引用).  
 
 ## Outputs
 
-Evaluation Type: EAnimDataEvalType Enum. Evaluation Type:. Type of evaluation which should be used.
+评价类型: EAnimDataEvalType Enum. 评价类型:. 应该使用的评估类型。
 
-Should Retarget: Boolean. Should Retarget:. Whether or not to retarget animation during evaluation.
+Should Retarget（应该重定位）：布尔值。应该重定目标：。在评估过程中是否重定位动画。
 
-Extract Root Motion: Boolean. Extract Root Motion:. Whether or not to extract root motion values.
+提取根部运动。Boolean（布尔）。提取根部运动：。是否提取根部动作值。
 
-Optional Skeletal Mesh: Skeletal Mesh Object Reference. Optional Skeletal Mesh:. Optional skeletal mesh with proportions to use when evaluating a pose.
-
+可选的骨架网。骨架网格对象参考。Optional Skeletal Mesh:（可选骨骼网格）。可选的骨骼网格，用于评估姿势时的比例。

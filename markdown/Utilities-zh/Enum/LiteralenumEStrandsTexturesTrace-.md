@@ -1,6 +1,6 @@
 # LiteralenumEStrandsTexturesTrace-
 
-Literal enum EStrandsTexturesTraceType
+字面意义上的枚举：EStrandsTexturesTraceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EStrandsTexturesTraceType
 
 ## Inputs
 
-Enum: EStrandsTexturesTraceType Enum.  
+枚举。EStrandsTexturesTraceType Enum.  
 
 ## Outputs
 
-Return Value: EStrandsTexturesTraceType Enum.
-
+返回值。EStrandsTexturesTraceType Enum。

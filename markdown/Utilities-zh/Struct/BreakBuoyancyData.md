@@ -1,6 +1,6 @@
 # BreakBuoyancyData
 
-Adds a node that breaks a 'BuoyancyData' into its member fields
+添加一个节点，将'浮力数据'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'BuoyancyData' into its member fields
 
 ## Inputs
 
-Buoyancy Data: Buoyancy Data Structure (by ref).  
+浮力数据。浮力数据结构（通过引用）。 
 
 ## Outputs
 
-Pontoons: Array of Spherical Pontoon Structures. Pontoons.
-
+Pontoons。球形浮桥结构的阵列。Pontoons（浮桥）。

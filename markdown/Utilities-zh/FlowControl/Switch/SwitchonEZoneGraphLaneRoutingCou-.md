@@ -1,6 +1,6 @@
 # SwitchonEZoneGraphLaneRoutingCou-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EZoneGraphLaneRoutingCountRule Enum.  
+选择。EZoneGraphLaneRoutingCountRule Enum.  
 
 ## Outputs
 
-Any: Exec.
+任意。Exec.
 
-One: Exec.
+一个：Exec.
 
-Many: Exec.
-
+许多。Exec.

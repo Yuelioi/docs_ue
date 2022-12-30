@@ -1,6 +1,6 @@
 # SwitchonEGameplayCueEvent
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGameplayCueEvent Enum.  
+选择。EGameplayCueEvent Enum.  
 
 ## Outputs
 
 On Active: Exec.
 
-While Active: Exec.
+激活时。Exec.
 
-Executed: Exec.
+已执行。执行中
 
-Removed: Exec.
-
+移除。执行

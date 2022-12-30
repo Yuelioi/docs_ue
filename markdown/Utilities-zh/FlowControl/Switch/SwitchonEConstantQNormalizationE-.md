@@ -1,6 +1,6 @@
 # SwitchonEConstantQNormalizationE-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EConstantQNormalizationEnum Enum.  
+选择。EConstantQNormalizationEnum枚举。 
 
 ## Outputs
 
-Equal Euclidean Norm: Exec.
+等于欧几里得规范。Exec.
 
-Equal Energy: Exec.
+等价的能量。Exec.
 
-Equal Amplitude: Exec.
-
+平等的振幅。幅度相等: Exec.

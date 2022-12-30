@@ -1,8 +1,8 @@
 # ShowInterstitialAd
 
-Shows the loaded interstitial ad (loaded with LoadInterstitialAd). (Android only)
+显示加载的插播广告（用LoadInterstitialAd加载）。(仅限安卓)
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.  
+在。Exec.  
 
 ## Outputs
 
-Out: Exec.
-
+输出。执行。

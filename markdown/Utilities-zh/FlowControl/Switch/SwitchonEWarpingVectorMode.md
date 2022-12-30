@@ -1,6 +1,6 @@
 # SwitchonEWarpingVectorMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EWarpingVectorMode Enum.  
+选择。EWarpingVectorMode Enum.  
 
 ## Outputs
 
-Component Space Vector: Exec.
+分量空间向量。Exec.
 
 Actor Space Vector: Exec.
 
-World Space Vector: Exec.
+世界空间向量。Exec.
 
-IKFoot Root Local Space Vector: Exec.
-
+IKFoot Root 本地空间向量。执行。

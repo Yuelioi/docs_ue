@@ -1,6 +1,6 @@
 # Sequence
 
-Executes a series of pins in order
+按顺序执行一系列的针脚
 
 ## 图示
 
@@ -8,11 +8,10 @@ Executes a series of pins in order
 
 ## Inputs
 
-In: Exec.  
+在。执行。 
 
 ## Outputs
 
-Then 0: Exec.
+然后0：执行。
 
-Then 1: Exec.
-
+然后1：执行。

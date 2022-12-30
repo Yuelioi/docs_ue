@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAttenuation-_1
 
-Returns EAttenuationShape_MAX value
+返回EAttenuationShape_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAttenuationShape_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

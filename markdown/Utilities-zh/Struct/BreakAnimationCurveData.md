@@ -1,6 +1,6 @@
 # BreakAnimationCurveData
 
-Adds a node that breaks a 'AnimationCurveData' into its member fields
+添加一个节点，将'AnimationCurveData'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'AnimationCurveData' into its member fields
 
 ## Inputs
 
-Animation Curve Data: Animation Curve Data Structure (by ref).  
+动画曲线数据。动画曲线数据结构（通过引用）。 
 
 ## Outputs
 
-Float Curves: Array of Float Curve Structures. Float Curves:. Float-based animation curves.
+Float Curves。浮动曲线结构的数组。Float Curves:。基于浮点的动画曲线。
 
-Transform Curves: Array of Transform Curve Structures. Transform Curves:. FTransform-based animation curves, used for animation layer editing.
-
+Transform Curves（变换曲线）。变形曲线结构的数组。变换曲线：。基于FT变换的动画曲线，用于动画层编辑。

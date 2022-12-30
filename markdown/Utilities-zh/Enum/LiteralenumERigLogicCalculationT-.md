@@ -1,6 +1,6 @@
 # LiteralenumERigLogicCalculationT-
 
-Literal enum ERigLogicCalculationType
+枚举ERigLogicCalculationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERigLogicCalculationType
 
 ## Inputs
 
-Enum: ERigLogicCalculationType Enum.  
+枚举。ERigLogicCalculationType Enum.  
 
 ## Outputs
 
-Return Value: ERigLogicCalculationType Enum.
-
+返回值。ERigLogicCalculationType枚举。

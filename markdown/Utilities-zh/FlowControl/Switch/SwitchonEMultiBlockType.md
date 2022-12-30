@@ -1,6 +1,6 @@
 # SwitchonEMultiBlockType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,27 +8,26 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMultiBlockType Enum.  
+选择。EMultiBlockType枚举。 
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Button Row: Exec.
+按钮行：Exec.Ltd.
 
-Editable Text: Exec.
+可编辑的文本。Exec.
 
-Heading: Exec.
+标题 Exec.
 
-Menu Entry: Exec.
+菜单条目。执行
 
-Separator: Exec.
+分隔符。Exec.
 
-Tool Bar Button: Exec.
+工具栏按钮: Exec.
 
-Tool Bar Combo Button: Exec.
+工具栏组合按钮: Exec.
 
-Widget: Exec.
-
+小工具。Exec.

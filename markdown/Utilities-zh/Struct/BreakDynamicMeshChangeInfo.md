@@ -1,6 +1,6 @@
 # BreakDynamicMeshChangeInfo
 
-Adds a node that breaks a 'DynamicMeshChangeInfo' into its member fields
+添加一个打破'动态网格变化信息'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DynamicMeshChangeInfo' into its member fields
 
 ## Inputs
 
-Dynamic Mesh Change Info: Dynamic Mesh Change Info Structure (by ref).  
+动态网格变化信息。动态网格变化信息结构（通过引用）。 
 
 ## Outputs
 
-Type: EDynamicMeshChangeType Enum. Type.
+类型。EDynamicMeshChangeType枚举。类型。
 
-Flags: EDynamicMeshAttributeChangeFlags Enum. Flags.
+Flags（标志）。EDynamicMeshAttributeChangeFlags Enum. 旗帜。
 
-Is Revert Change: Boolean. Is Revert Change:. for changes that are an FChange, indicates whether this is an 'Apply' or 'Revert' of the FChange.
-
+Is Revert Change: 布尔值。Is Revert Change:.对于属于FChange的变化，表示这是FChange的 "应用 "或 "恢复"。

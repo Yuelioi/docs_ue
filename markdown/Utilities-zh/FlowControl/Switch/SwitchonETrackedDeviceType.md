@@ -1,6 +1,6 @@
 # SwitchonETrackedDeviceType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETrackedDeviceType Enum.  
+选择。ETrackedDeviceType枚举。 
 
 ## Outputs
 
-No Devices: Exec.
+没有设备。Exec.
 
 HMD: Exec.
 
-Left Hand: Exec.
+左手。Exec.
 
-Right Hand: Exec.
+右手。执行。
 
-All Hands: Exec.
+所有的手。执行。
 
-Device Object Zero: Exec.
+设备对象零：执行。
 
-All Devices: Exec.
-
+所有设备。执行。

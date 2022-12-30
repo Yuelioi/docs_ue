@@ -1,6 +1,6 @@
 # BytetoEnumEImageComponentDebugMo-
 
-Byte to Enum EImageComponentDebugMode
+字节到枚举 EImageComponentDebugMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EImageComponentDebugMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EImageComponentDebugMode Enum.
-
+返回值。EImageComponentDebugMode Enum。

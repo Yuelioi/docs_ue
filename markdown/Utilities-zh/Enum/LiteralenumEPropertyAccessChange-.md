@@ -1,6 +1,6 @@
 # LiteralenumEPropertyAccessChange-
 
-Literal enum EPropertyAccessChangeNotifyMode
+枚举 EPropertyAccessChangeNotifyMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EPropertyAccessChangeNotifyMode
 
 ## Inputs
 
-Enum: EPropertyAccessChangeNotifyMode Enum.  
+枚举。EPropertyAccessChangeNotifyMode枚举。 
 
 ## Outputs
 
-Return Value: EPropertyAccessChangeNotifyMode Enum.
-
+返回值。EPropertyAccessChangeNotifyMode Enum.

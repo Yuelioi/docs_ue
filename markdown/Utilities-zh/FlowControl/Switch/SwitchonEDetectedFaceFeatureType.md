@@ -1,6 +1,6 @@
 # SwitchonEDetectedFaceFeatureType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,35 +8,34 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDetectedFaceFeatureType Enum.  
+选择。EDetectedFaceFeatureType枚举。 
 
 ## Outputs
 
-Unkown: Exec.
+不知道。Exec.
 
 Face Contour: Exec.
 
 Inner Lips: Exec.
 
-Left Eye: Exec.
+左眼: 脸部轮廓: Exec.
 
-Left Eyebrow: Exec.
+左边的眉毛: 执行.
 
-Left Pupil: Exec.
+左眼瞳孔: 没问题
 
-Median Line: Exec.
+中位线 执行
 
-Nose: Exec.
+鼻子: 对
 
-Nose Crest: Exec.
+鼻峰: 对 正常
 
-Outer Lips: Exec.
+外唇: 适当的
 
-Right Eye: Exec.
+右眼: 执行.
 
-Right Eyebrow: Exec.
+右眼眉毛: 右眼：无
 
-Right Pupil: Exec.
-
+右眼瞳孔: 清除

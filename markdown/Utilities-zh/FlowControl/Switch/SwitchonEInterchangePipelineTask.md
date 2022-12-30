@@ -1,6 +1,6 @@
 # SwitchonEInterchangePipelineTask
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EInterchangePipelineTask Enum.  
+选择。EInterchangePipelineTask Enum.  
 
 ## Outputs
 
-Pre Factory Import: Exec.
+预备工厂导入。Exec.
 
-Post Factory Import: Exec.
+工厂导入后。执行。
 
-Export: Exec.
-
+出口。执行

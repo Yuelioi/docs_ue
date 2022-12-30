@@ -1,6 +1,6 @@
 # BreakContextualAnimQueryParams
 
-Adds a node that breaks a 'ContextualAnimQueryParams' into its member fields
+添加一个节点，将'ContextualAnimQueryParams'分解为其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'ContextualAnimQueryParams' into its member fields
 
 ## Inputs
 
-Contextual Anim Query Params: Contextual Anim Query Params Structure (by ref).  
+Contextual Anim Query Params: Contextual Anim Query Params结构（通过引用）。 
 
 ## Outputs
 
-Querier: Actor Weak object. Querier.
+查询者。Actor Weak对象。Querier.
 
 Query Transform: Transform. Query Transform.
 
-Complex Query: Boolean. Complex Query.
+复杂查询。Boolean（布尔）。复杂查询
 
-Find Anim Start Time: Boolean. Find Anim Start Time.
-
+查找动画开始时间: 布尔值. 查找动画开始时间.

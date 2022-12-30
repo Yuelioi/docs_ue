@@ -1,6 +1,6 @@
 # LiteralenumEPlanetShape
 
-Literal enum EPlanetShape
+字面意义上的EPlanetShape枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EPlanetShape
 
 ## Inputs
 
-Enum: EPlanetShape Enum.  
+枚举。EPlanetShape Enum.  
 
 ## Outputs
 
-Return Value: EPlanetShape Enum.
-
+返回值。EPlanetShape Enum.

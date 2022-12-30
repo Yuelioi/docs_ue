@@ -1,6 +1,6 @@
 # Equal_Enum
 
-Returns true if A is equal to B (A == B)
+如果A等于B，返回真（A == B）。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Returns true if A is equal to B (A == B)
 
 ## Inputs
 
-A: Wildcard.
+A：通配符。
 
-B: Wildcard.  
+B：通配符。 
 
 ## Outputs
 
-Return Value: Boolean.
-
+返回值。布尔值。

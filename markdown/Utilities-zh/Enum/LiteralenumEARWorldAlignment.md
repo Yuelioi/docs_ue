@@ -1,6 +1,6 @@
 # LiteralenumEARWorldAlignment
 
-Literal enum EARWorldAlignment
+字面意义上的EARWorldAlignment枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARWorldAlignment
 
 ## Inputs
 
-Enum: EARWorldAlignment Enum.  
+枚举。EARWorldAlignment Enum.  
 
 ## Outputs
 
-Return Value: EARWorldAlignment Enum.
-
+返回值。EARWorldAlignment Enum.

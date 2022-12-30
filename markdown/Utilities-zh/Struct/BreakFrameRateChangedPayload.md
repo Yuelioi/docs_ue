@@ -1,6 +1,6 @@
 # BreakFrameRateChangedPayload
 
-Adds a node that breaks a 'FrameRateChangedPayload' into its member fields
+添加一个节点，将'FrameRateChangedPayload'分解为其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'FrameRateChangedPayload' into its member fields
 
 ## Inputs
 
-Frame Rate Changed Payload: Frame Rate Changed Payload Structure (by ref).  
+帧速率改变的有效载荷。帧速率改变的有效载荷结构（通过引用）。 
 
 ## Outputs
 
-Previous Frame Rate: Frame Rate Structure. Previous Frame Rate:. Previous sampling rate for the Model.
-
+先前的帧速率。帧速率结构。Previous Frame Rate:. 模型的先前采样率。

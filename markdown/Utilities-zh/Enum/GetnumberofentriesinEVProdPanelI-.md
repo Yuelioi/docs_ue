@@ -1,6 +1,6 @@
 # GetnumberofentriesinEVProdPanelI-
 
-Returns EVProdPanelIDs_MAX value
+返回EVProdPanelIDs_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EVProdPanelIDs_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

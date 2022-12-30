@@ -1,6 +1,6 @@
 # BytetoEnumEInter-
 
-Byte to Enum EInterchangePipelineConfigurationDialogResult
+字节到枚举 EInterchangePipelineConfigurationDialogResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EInterchangePipelineConfigurationDialogResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EInterchangePipelineConfigurationDialogResult Enum.
-
+返回值。EInterchangePipelineConfigurationDialogResult Enum。

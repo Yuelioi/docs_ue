@@ -1,8 +1,8 @@
 # IsEmpty
 
-Check if the set is empty
+检查集合是否为空
 
-Target is Blueprint Set Library
+目标是蓝图集库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Blueprint Set Library
 
 ## Inputs
 
-Target Set: Set of Wildcards. The set to check.  
+目标集。通配符的集合。要检查的集合。 
 
 ## Outputs
 
-Return Value: Boolean. A boolean indicating if the array is empty.
-
+返回值。布尔值。一个布尔值，表示数组是否为空。

@@ -1,6 +1,6 @@
 # LiteralenumEOculusMR_CameraDevic-
 
-Literal enum EOculusMR_CameraDeviceEnum
+EOculusMR_CameraDeviceEnum的文字枚举。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EOculusMR_CameraDeviceEnum
 
 ## Inputs
 
-Enum: EOculusMR_CameraDeviceEnum Enum.  
+枚举。EOculusMR_CameraDeviceEnum Enum.  
 
 ## Outputs
 
-Return Value: EOculusMR_CameraDeviceEnum Enum.
-
+返回值。EOculusMR_CameraDeviceEnum Enum。

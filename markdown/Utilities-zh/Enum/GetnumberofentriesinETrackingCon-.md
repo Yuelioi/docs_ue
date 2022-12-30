@@ -1,6 +1,6 @@
 # GetnumberofentriesinETrackingCon-
 
-Returns ETrackingConfidence_MAX value
+返回ETrackingConfidence_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ETrackingConfidence_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

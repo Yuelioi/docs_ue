@@ -1,6 +1,6 @@
 # LiteralenumEDebugTypeEnum
 
-Literal enum EDebugTypeEnum
+字面上的枚举 EDebugTypeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDebugTypeEnum
 
 ## Inputs
 
-Enum: EDebugTypeEnum Enum.  
+枚举。EDebugTypeEnum枚举。 
 
 ## Outputs
 
-Return Value: EDebugTypeEnum Enum.
-
+返回值。EDebugTypeEnum Enum。

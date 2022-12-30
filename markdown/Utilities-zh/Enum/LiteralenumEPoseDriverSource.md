@@ -1,6 +1,6 @@
 # LiteralenumEPoseDriverSource
 
-Literal enum EPoseDriverSource
+字面意义上的EPoseDriverSource枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EPoseDriverSource
 
 ## Inputs
 
-Enum: EPoseDriverSource Enum.  
+枚举。EPoseDriverSource Enum.  
 
 ## Outputs
 
-Return Value: EPoseDriverSource Enum.
-
+返回值。EPoseDriverSource Enum.

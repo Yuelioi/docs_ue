@@ -1,6 +1,6 @@
 # SwitchonEVirtualKeyboardTrigger
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EVirtualKeyboardTrigger Enum.  
+选择。EVirtualKeyboardTrigger Enum.  
 
 ## Outputs
 
-On Focus By Pointer: Exec.
+On Focus By Pointer: 执行。
 
-On All Focus Events: Exec.
-
+在所有焦点事件中。执行。

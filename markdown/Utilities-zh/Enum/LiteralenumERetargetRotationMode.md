@@ -1,6 +1,6 @@
 # LiteralenumERetargetRotationMode
 
-Literal enum ERetargetRotationMode
+字面意义上的ERetargetRotationMode枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERetargetRotationMode
 
 ## Inputs
 
-Enum: ERetargetRotationMode Enum.  
+枚举。ERetargetRotationMode枚举。 
 
 ## Outputs
 
-Return Value: ERetargetRotationMode Enum.
-
+返回值。ERetargetRotationMode Enum。

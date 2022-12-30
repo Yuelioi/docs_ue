@@ -1,6 +1,6 @@
 # LiteralenumECommonInputType
 
-Literal enum ECommonInputType
+字面意义上的ECmonInputType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECommonInputType
 
 ## Inputs
 
-Enum: ECommonInputType Enum.  
+枚举。ECommonInputType Enum.  
 
 ## Outputs
 
-Return Value: ECommonInputType Enum.
-
+返回值。ECommonInputType Enum。

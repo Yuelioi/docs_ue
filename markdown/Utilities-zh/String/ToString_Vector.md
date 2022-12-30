@@ -1,8 +1,8 @@
 # ToString_Vector
 
-Converts a vector value to a string, in the form 'X= Y= Z='
+将一个矢量值转换为字符串，形式为'X= Y= Z=' 。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-In Vec: Vector.  
+在Vec: 矢量。 
 
 ## Outputs
 
-Return Value: String. Converts a vector value to a string, in the form 'X= Y= Z='.
-
+返回值。字符串。将一个向量值转换为字符串，形式为'X= Y= Z='。

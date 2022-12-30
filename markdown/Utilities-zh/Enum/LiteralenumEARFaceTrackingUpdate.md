@@ -1,6 +1,6 @@
 # LiteralenumEARFaceTrackingUpdate
 
-Literal enum EARFaceTrackingUpdate
+枚举EARFaceTrackingUpdate
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARFaceTrackingUpdate
 
 ## Inputs
 
-Enum: EARFaceTrackingUpdate Enum.  
+枚举。EARFaceTrackingUpdate Enum.  
 
 ## Outputs
 
-Return Value: EARFaceTrackingUpdate Enum.
-
+返回值。EARFaceTrackingUpdate Enum。

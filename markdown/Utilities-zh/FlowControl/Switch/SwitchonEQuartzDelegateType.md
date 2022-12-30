@@ -1,6 +1,6 @@
 # SwitchonEQuartzDelegateType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EQuartzDelegateType Enum.  
+选择。EQuartzDelegateType Enum.  
 
 ## Outputs
 
-Metronome Tick: Exec.
+节拍器Tick。Exec.
 
-Command Event: Exec.
-
+命令事件。Exec.

@@ -1,8 +1,8 @@
 # RootDir
 
-Returns the root directory of the engine directory tree
+返回引擎目录树的根目录
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. Root directory..
-
+返回值。字符串。根目录。

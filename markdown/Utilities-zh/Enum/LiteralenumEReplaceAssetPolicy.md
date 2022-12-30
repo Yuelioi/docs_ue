@@ -1,6 +1,6 @@
 # LiteralenumEReplaceAssetPolicy
 
-Literal enum EReplaceAssetPolicy
+字面意义上的EReplaceAssetPolicy枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EReplaceAssetPolicy
 
 ## Inputs
 
-Enum: EReplaceAssetPolicy Enum.  
+枚举。EReplaceAssetPolicy Enum.  
 
 ## Outputs
 
-Return Value: EReplaceAssetPolicy Enum.
-
+返回值。EReplaceAssetPolicy Enum。

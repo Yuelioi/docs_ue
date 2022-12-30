@@ -1,6 +1,6 @@
 # LiteralenumEOrientation
 
-Literal enum EOrientation
+字面意义上的EOrientation枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EOrientation
 
 ## Inputs
 
-Enum: EOrientation Enum.  
+枚举。EOrientation Enum.  
 
 ## Outputs
 
-Return Value: EOrientation Enum.
-
+返回值。EOrientation Enum。

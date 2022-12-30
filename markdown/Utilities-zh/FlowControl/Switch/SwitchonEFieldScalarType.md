@@ -1,6 +1,6 @@
 # SwitchonEFieldScalarType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,13 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EFieldScalarType Enum.  
+选择。EFieldScalarType Enum.  
 
 ## Outputs
 
-External Strain: Exec.
+外部应变。Exec.
 
 Kill Particle: Exec.
 
@@ -22,5 +22,4 @@ Disabled Threshold: Exec.
 
 Sleeping Threshold: Exec.
 
-Internal Strain: Exec.
-
+内部应变: Exec.

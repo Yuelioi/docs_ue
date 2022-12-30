@@ -1,6 +1,6 @@
 # LiteralenumERigElementType
 
-Literal enum ERigElementType
+字面意义上的ERigElementType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERigElementType
 
 ## Inputs
 
-Enum: ERigElementType Enum.  
+枚举。ERigElementType Enum.  
 
 ## Outputs
 
-Return Value: ERigElementType Enum.
-
+返回值。ERigElementType Enum。

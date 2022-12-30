@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAttenuation-
 
-Returns EAttenuationDistanceModel_MAX value
+返回EAttenuationDistanceModel_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAttenuationDistanceModel_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

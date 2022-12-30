@@ -1,6 +1,6 @@
 # SwitchonEGameFeatureTargetState
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGameFeatureTargetState Enum.  
+选择。EGameFeatureTargetState Enum.  
 
 ## Outputs
 
-Installed: Exec.
+已安装。执行。
 
-Registered: Exec.
+已注册。Exec.
 
-Loaded: Exec.
+已加载。Exec.
 
-Active: Exec.
-
+活跃。执行中

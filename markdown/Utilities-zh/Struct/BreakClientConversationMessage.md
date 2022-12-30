@@ -1,6 +1,6 @@
 # BreakClientConversationMessage
 
-Adds a node that breaks a 'ClientConversationMessage' into its member fields
+添加一个节点，将'客户对话信息'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'ClientConversationMessage' into its member fields
 
 ## Inputs
 
-Client Conversation Message: Client Conversation Message Structure (by ref).  
+客户端对话信息。客户端对话信息结构（通过参考）。 
 
 ## Outputs
 
-Speaker ID: Gameplay Tag Structure. Speaker ID.
+演讲者ID。Gameplay Tag结构。演讲者ID。
 
-Participant Display Name: Text. Participant Display Name.
+参与者显示名称。文本。参与者显示名称。
 
-Text: Text. Text.
+文本。文本。文本。
 
-Metadata Parameters: Array of Conversation Node Parameter Pair Structures. Metadata Parameters:. Additional metadata for this message (e.g. Emotion: "Angry"/"Happy").
-
+元数据参数。对话节点参数对结构的数组。元数据参数：。这个消息的额外元数据（例如，情绪："愤怒"/"快乐"）。

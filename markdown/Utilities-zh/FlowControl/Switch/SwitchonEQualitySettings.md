@@ -1,6 +1,6 @@
 # SwitchonEQualitySettings
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EQualitySettings Enum.  
+选择。EQualitySettings Enum.  
 
 ## Outputs
 
-Low: Exec.
+低：执行。
 
-Medium: Exec.
+中：执行 低：执行。
 
-High: Exec.
+高：执行。
 
-Custom: Exec.
-
+自定义。执行。

@@ -1,6 +1,6 @@
 # LiteralenumEMeterPeakType
 
-Literal enum EMeterPeakType
+枚举EMeterPeakType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMeterPeakType
 
 ## Inputs
 
-Enum: EMeterPeakType Enum.  
+枚举。EMeterPeakType Enum.  
 
 ## Outputs
 
-Return Value: EMeterPeakType Enum.
-
+返回值。EMeterPeakType Enum。

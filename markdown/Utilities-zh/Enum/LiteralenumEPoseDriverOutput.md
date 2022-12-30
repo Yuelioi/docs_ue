@@ -1,6 +1,6 @@
 # LiteralenumEPoseDriverOutput
 
-Literal enum EPoseDriverOutput
+枚举EPoseDriverOutput
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EPoseDriverOutput
 
 ## Inputs
 
-Enum: EPoseDriverOutput Enum.  
+枚举。EPoseDriverOutput Enum.  
 
 ## Outputs
 
-Return Value: EPoseDriverOutput Enum.
-
+返回值。EPoseDriverOutput Enum.

@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAudioCompon-
 
-Returns EAudioComponentPlayState_MAX value
+返回EAudioComponentPlayState_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAudioComponentPlayState_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

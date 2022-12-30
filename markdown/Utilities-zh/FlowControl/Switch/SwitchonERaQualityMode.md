@@ -1,6 +1,6 @@
 # SwitchonERaQualityMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERaQualityMode Enum.  
+选择。ERaQualityMode枚举。 
 
 ## Outputs
 
-Stereo Panning: Exec.
+立体声平移。Exec.
 
 Binaural Low Quality: Exec.
 
 Binaural Medium Quality: Exec.
 
-Binaural High Quality: Exec.
-
+双耳 高质量: Exec.

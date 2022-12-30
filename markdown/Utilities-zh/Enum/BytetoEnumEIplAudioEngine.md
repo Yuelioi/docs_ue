@@ -1,6 +1,6 @@
 # BytetoEnumEIplAudioEngine
 
-Byte to Enum EIplAudioEngine
+字节到枚举 EIplAudioEngine
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EIplAudioEngine
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EIplAudioEngine Enum.
-
+返回值。EIplAudioEngine Enum.

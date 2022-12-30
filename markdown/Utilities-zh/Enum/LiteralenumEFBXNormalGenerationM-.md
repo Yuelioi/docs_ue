@@ -1,6 +1,6 @@
 # LiteralenumEFBXNormalGenerationM-
 
-Literal enum EFBXNormalGenerationMethod
+字面意思是EFBXNormalGenerationMethod。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFBXNormalGenerationMethod
 
 ## Inputs
 
-Enum: EFBXNormalGenerationMethod Enum.  
+枚举。EFBXNormalGenerationMethod Enum.  
 
 ## Outputs
 
-Return Value: EFBXNormalGenerationMethod Enum.
-
+返回值。EFBXNormalGenerationMethod Enum：EFBXNormalGenerationMethod Enum。

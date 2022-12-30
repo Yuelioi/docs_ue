@@ -1,6 +1,6 @@
 # SwitchonEARPlaneOrientation
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARPlaneOrientation Enum.  
+选择。EARPlaneOrientation Enum.  
 
 ## Outputs
 
-Horizontal: Exec.
+水平：执行。
 
-Vertical: Exec.
+Vertical（垂直）：Exec.
 
-Diagonal: Exec.
-
+Diagonal（对角线）。Exec.

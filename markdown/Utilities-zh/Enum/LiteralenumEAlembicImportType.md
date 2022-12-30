@@ -1,6 +1,6 @@
 # LiteralenumEAlembicImportType
 
-Literal enum EAlembicImportType
+字面意义上的EAlembicImportType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAlembicImportType
 
 ## Inputs
 
-Enum: EAlembicImportType Enum.  
+枚举。EAlembicImportType枚举。 
 
 ## Outputs
 
-Return Value: EAlembicImportType Enum.
-
+返回值。EAlembicImportType Enum。

@@ -1,8 +1,8 @@
 # IsSamePath
 
-Checks if two paths are the same.
+检查两个路径是否相同。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-Path A: String. First path to check..
+路径A：字符串。第一个要检查的路径。
 
-Path B: String. Second path to check..  
+路径B：字符串。第二个要检查的路径。 
 
 ## Outputs
 
-Return Value: Boolean. True if both paths are the same. False otherwise..
-
+返回值。布尔值。如果两个路径相同为真。否则为假。

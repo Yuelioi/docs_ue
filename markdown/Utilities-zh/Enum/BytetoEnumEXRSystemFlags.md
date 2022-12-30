@@ -1,6 +1,6 @@
 # BytetoEnumEXRSystemFlags
 
-Byte to Enum EXRSystemFlags
+字节到枚举EXRSystemFlags
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EXRSystemFlags
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EXRSystemFlags Enum.
-
+返回值。EXRSystemFlags Enum。

@@ -1,6 +1,6 @@
 # SwitchonEARFaceTransformMixing
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARFaceTransformMixing Enum.  
+选择。EARFaceTransformMixing枚举。 
 
 ## Outputs
 
-Component Only: Exec.
+仅限组件。Exec.
 
 Component Location Tracked Rotation: Exec.
 
-Component With Tracked: Exec.
+组件有跟踪的。Exec.
 
-Tracking Only: Exec.
-
+仅跟踪。Exec.

@@ -1,6 +1,6 @@
 # GetnumberofentriesinEInterchange-_2
 
-Returns EInterchangePipelineTask_MAX value
+返回EInterchangePipelineTask_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EInterchangePipelineTask_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

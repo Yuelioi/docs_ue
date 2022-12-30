@@ -1,6 +1,6 @@
 # BreakGameplayCueNotify_SoundPara-
 
-Adds a node that breaks a 'GameplayCueNotify_SoundParameterInterfaceInfo' into its member fields
+Adds a node that breaks 'GameplayCueNotify_SoundParameterInterfaceInfo' to its member field.
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'GameplayCueNotify_SoundParameterInterfaceInfo' into i
 
 ## Inputs
 
-Gameplay Cue Notify Sound Parameter Interface Info: Gameplay Cue Notify Sound Parameter Interface Info Structure (by ref).  
+Gameplay Cue Notify Sound Parameter Interface Info. Gameplay Cue Notify Sound Parameter Interface Info structure (by reference). 
 
 ## Outputs
 
-Stop Trigger Name: Name. Stop Trigger Name:. The name of the stop trigger set via the parameter interface.
-
+Stop Trigger Name. Stop Trigger Name: (Stop Trigger Name). The name of the stop trigger set via the parameter interface.

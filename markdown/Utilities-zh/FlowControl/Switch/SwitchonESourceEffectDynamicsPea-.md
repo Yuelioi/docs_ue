@@ -1,6 +1,6 @@
 # SwitchonESourceEffectDynamicsPea-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESourceEffectDynamicsPeakMode Enum.  
+选择。ESourceEffectDynamicsPeakMode Enum.  
 
 ## Outputs
 
-Mean Squared: Exec.
+平均平方。Exec.
 
-Root Mean Squared: Exec.
+Root Mean Squared:均方根。Exec.
 
-Peak: Exec.
-
+峰值。执行

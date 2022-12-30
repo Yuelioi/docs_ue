@@ -1,6 +1,6 @@
 # GetnumberofentriesinEFieldOperat-
 
-Returns EFieldOperationType_MAX value
+返回EFieldOperationType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EFieldOperationType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

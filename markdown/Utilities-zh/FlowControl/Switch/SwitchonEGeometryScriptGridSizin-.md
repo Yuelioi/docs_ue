@@ -1,6 +1,6 @@
 # SwitchonEGeometryScriptGridSizin-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGeometryScriptGridSizingMethod Enum.  
+选择。EGeometryScriptGridSizingMethod Enum.  
 
 ## Outputs
 
-Grid Cell Size: Exec.
+网格单元尺寸。Exec.
 
-Grid Resolution: Exec.
-
+网格分辨率。Exec.

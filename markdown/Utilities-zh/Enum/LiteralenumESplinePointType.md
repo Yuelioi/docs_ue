@@ -1,6 +1,6 @@
 # LiteralenumESplinePointType
 
-Literal enum ESplinePointType
+字面意义上的ESplinePointType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESplinePointType
 
 ## Inputs
 
-Enum: ESplinePointType Enum.  
+枚举。ESplinePointType Enum.  
 
 ## Outputs
 
-Return Value: ESplinePointType Enum.
-
+返回值。ESplinePointType Enum。

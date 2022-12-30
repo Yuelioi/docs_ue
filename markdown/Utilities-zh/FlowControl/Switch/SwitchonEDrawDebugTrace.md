@@ -1,6 +1,6 @@
 # SwitchonEDrawDebugTrace
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDrawDebugTrace Enum.  
+选择。EDrawDebugTrace Enum.  
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-For One Frame: Exec.
+对于一帧。执行。
 
-For Duration: Exec.
+对于持续时间。Exec.
 
-Persistent: Exec.
-
+持久性。执行。

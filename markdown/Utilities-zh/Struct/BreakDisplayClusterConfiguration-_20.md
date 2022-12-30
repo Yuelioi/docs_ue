@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-_20
 
-Adds a node that breaks a 'DisplayClusterConfigurationViewport_Overscan' into its member fields
+添加一个节点，将'DisplayClusterConfigurationViewport_Overscan'分解到其成员字段中。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'DisplayClusterConfigurationViewport_Overscan' into it
 
 ## Inputs
 
-Display Cluster Configuration Viewport Overscan: Display Cluster Configuration Viewport Overscan Structure (by ref).  
+Display Cluster Configuration Viewport Overscan。Display Cluster Configuration Viewport Overscan 结构（通过引用）。 
 
 ## Outputs
 
-Enable: Boolean. Enabled:. Enable/disable Viewport Overscan and specify units as percent or pixel values..
+启用。布尔值。Enabled:（已启用）。启用/禁用视口过扫描，指定单位为百分比或像素值。
 
-Mode: EDisplayClusterConfigurationViewportOverscanMode Enum. Mode:. Enable/disable Viewport Overscan and specify units as percent or pixel values..
+模式。EDisplayClusterConfigurationViewportOverscanMode枚举。模式:. 启用/禁用视口过扫描并指定单位为百分比或像素值。
 
-Left: Float (single-precision). Left:. Left.
+左：浮点（单精度）。左边:. 左边。
 
-Right: Float (single-precision). Right:. Right.
+右边。浮点（单精度）。右：. 右边。
 
-Top: Float (single-precision). Top:. Top.
+顶部：浮点运算（单精度）。顶部：. 顶部。
 
-Bottom: Float (single-precision). Bottom:. Bottom.
+底部。Float (single-precision). 底部:. 底部。
 
-Adapt Resolution: Boolean. Oversize:. Set to True to render at the overscan resolution, set to false to render at the resolution in the configuration and scale for overscan..
-
+适应分辨率。Boolean（布尔）。Oversize:. 设置为 "True "可按过扫描分辨率渲染，设置为 "False "可按配置中的分辨率渲染，并对过扫描进行缩放。

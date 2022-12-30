@@ -1,6 +1,6 @@
 # LiteralenumEPriorityAttenuationM-
 
-Literal enum EPriorityAttenuationMethod
+字面意义上的枚举 EPriorityAttenuationMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EPriorityAttenuationMethod
 
 ## Inputs
 
-Enum: EPriorityAttenuationMethod Enum.  
+枚举。EPriorityAttenuationMethod Enum.  
 
 ## Outputs
 
-Return Value: EPriorityAttenuationMethod Enum.
-
+返回值。EPriorityAttenuationMethod Enum.

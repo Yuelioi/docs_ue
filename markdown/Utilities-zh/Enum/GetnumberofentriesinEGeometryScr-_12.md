@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGeometryScr-_12
 
-Returns EGeometryScriptSweptHullAxis_MAX value
+返回 EGeometryScriptSweptHullAxis_MAX 值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGeometryScriptSweptHullAxis_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

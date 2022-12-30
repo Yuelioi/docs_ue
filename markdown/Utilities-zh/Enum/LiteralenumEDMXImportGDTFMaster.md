@@ -1,6 +1,6 @@
 # LiteralenumEDMXImportGDTFMaster
 
-Literal enum EDMXImportGDTFMaster
+字面意义上的枚举 EDMXImportGDTFMMaster
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDMXImportGDTFMaster
 
 ## Inputs
 
-Enum: EDMXImportGDTFMaster Enum.  
+枚举。EDMXImportGDTFMaster Enum.  
 
 ## Outputs
 
-Return Value: EDMXImportGDTFMaster Enum.
-
+返回值。EDMXImportGDTFMaster Enum.

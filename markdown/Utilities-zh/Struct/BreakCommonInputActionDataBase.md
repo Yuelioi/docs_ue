@@ -1,6 +1,6 @@
 # BreakCommonInputActionDataBase
 
-Adds a node that breaks a 'CommonInputActionDataBase' into its member fields
+添加一个节点，将'CommonInputActionDataBase'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'CommonInputActionDataBase' into its member fields
 
 ## Inputs
 
-Common Input Action Data Base: Common Input Action Data Base Structure (by ref).  
+通用输入动作数据库。通用输入动作数据库结构（通过引用）。 
 
 ## Outputs
 
-Display Name: Text. Display Name:. User facing name (used when NOT a hold action).
+显示名称。文本。显示名称：。用户面对的名字（在非保持动作时使用）。
 
-Hold Display Name: Text. Hold Display Name:. User facing name used when it IS a hold action.
+保持显示名称。文本。保持显示名称：。当它是一个保持动作时使用的面向用户的名称。
 
-Nav Bar Priority: Integer. Nav Bar Priority:. Priority in nav-bar.
-
+导航栏优先权。整数。导航栏优先权：。在导航栏中的优先权。

@@ -1,6 +1,6 @@
 # BreakGameplayEffectQuery
 
-Adds a node that breaks a 'GameplayEffectQuery' into its member fields
+添加一个节点，将'GameplayEffectQuery'分解成其成员字段
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'GameplayEffectQuery' into its member fields
 
 ## Inputs
 
-Gameplay Effect Query: Gameplay Effect Query Structure (by ref).  
+游戏效果查询。游戏效果查询结构（通过引用）。 
 
 ## Outputs
 
-Custom Match Delegate BP: Delegate. Custom Match Delegate BP:. BP-exposed delegate for providing custom matching conditions..
+Custom Match Delegate BP: 代表。Custom Match Delegate BP:.BP公开的委托，用于提供自定义匹配条件。
 
-Owning Tag Query: Gameplay Tag Query Structure. Owning Tag Query:. Query that is matched against tags this GE gives.
+Owning Tag Query: Gameplay Tag Query Structure. Owning Tag Query: 拥有标签查询：。与该GE给出的标签相匹配的查询。
 
-Effect Tag Query: Gameplay Tag Query Structure. Effect Tag Query:. Query that is matched against tags this GE has.
+效果标签查询。Gameplay Tag Query结构。效果标签查询：。与此GE的标签相匹配的查询。
 
-Source Tag Query: Gameplay Tag Query Structure. Source Tag Query:. Query that is matched against tags the source of this GE has.
+Source Tag Query（来源标签查询）。Gameplay标签查询结构。Source Tag Query:（源标签查询）。与此GE的源标签相匹配的查询。
 
-Modifying Attribute: Gameplay Attribute Structure. Modifying Attribute:. Matches on GameplayEffects which modify given attribute..
+Modifying Attribute（修改属性）。Gameplay Attribute结构。Modifying Attribute:.修改属性。匹配修改给定属性的GameplayEffects。
 
-Effect Source: Object Reference. Effect Source:. Matches on GameplayEffects which come from this source.
+效果来源。对象参考。效果来源：。匹配来自这个来源的游戏效果。
 
-Effect Definition: Gameplay Effect Class Reference. Effect Definition:. Matches on GameplayEffects with this definition.
-
+Effect Definition（效果定义）。游戏效果类参考。效果定义：。匹配具有此定义的GameplayEffects。

@@ -1,6 +1,6 @@
 # BytetoEnumELidarPointCloudDuplic-
 
-Byte to Enum ELidarPointCloudDuplicateHandling
+字节到枚举 ELidarPointCloudDuplicateHandling
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ELidarPointCloudDuplicateHandling
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELidarPointCloudDuplicateHandling Enum.
-
+返回值。ELidarPointCloudDuplicateHandling Enum。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinESendLevelCo-
 
-Returns ESendLevelControlMethod_MAX value
+返回ESendLevelControlMethod_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESendLevelControlMethod_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

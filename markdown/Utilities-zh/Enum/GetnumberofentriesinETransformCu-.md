@@ -1,6 +1,6 @@
 # GetnumberofentriesinETransformCu-
 
-Returns ETransformCurveChannel_MAX value
+返回ETTransformCurveChannel_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ETransformCurveChannel_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

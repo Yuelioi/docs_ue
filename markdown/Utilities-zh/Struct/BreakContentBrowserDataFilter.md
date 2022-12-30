@@ -1,6 +1,6 @@
 # BreakContentBrowserDataFilter
 
-Adds a node that breaks a 'ContentBrowserDataFilter' into its member fields
+添加一个节点，将'ContentBrowserDataFilter'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'ContentBrowserDataFilter' into its member fields
 
 ## Inputs
 
-Content Browser Data Filter: Content Browser Data Filter Structure (by ref).  
+内容浏览器数据过滤器。内容浏览器数据过滤器结构（通过引用）。 
 
 ## Outputs
 
-Recursive Paths: Boolean. Recursive Paths:. Whether we should include sub-paths in this query.
+递归路径。布尔型。递归路径：。我们是否应该在这个查询中包括子路径。
 
-Item Type Filter: EContentBrowserItemTypeFilter Enum. Item Type Filter:. Flags controlling which item types should be included in this query.
+项目类型过滤器。EContentBrowserItemTypeFilter枚举。项目类型过滤器：. 控制哪些项目类型应该被包含在这个查询中的标志。
 
-Item Category Filter: EContentBrowserItemCategoryFilter Enum. Item Category Filter:. Flags controlling which item categories should be included in this query.
+项目类别过滤器。EContentBrowserItemCategoryFilter枚举。项目类别过滤器：. 控制哪些项目类别应该包括在这个查询中的标志。
 
-Item Attribute Filter: EContentBrowserItemAttributeFilter Enum. Item Attribute Filter:. Flags controlling which item attributes should be included in this query.
-
+Item Attribute Filter（项目属性过滤器）。EContentBrowserItemAttributeFilter枚举。Item Attribute Filter:.项目属性过滤器。控制哪些项目属性应该包括在这个查询中的标志。

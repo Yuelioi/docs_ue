@@ -1,6 +1,6 @@
 # GetnumberofentriesinESamplePlaye-
 
-Returns ESamplePlayerSeekType_MAX value
+返回ESamplePlayerSeekType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESamplePlayerSeekType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

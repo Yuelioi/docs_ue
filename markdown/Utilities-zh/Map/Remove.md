@@ -1,8 +1,8 @@
 # Remove
 
-Removes a key and its associated value from the map.
+从地图中删除一个键和它的相关值。
 
-Target is Blueprint Map Library
+目标是蓝图地图库
 
 ## 图示
 
@@ -10,15 +10,14 @@ Target is Blueprint Map Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Target Map: Map of Wildcards to Wildcards. The map to remove the key and its associated value from.
+目标地图。通配符到通配符的地图。要删除键和其相关值的地图。
 
-Key: Wildcard (by ref). The key that will be used to look the value up.  
+键。通配符（通过引用）。将用于查询该值的键。 
 
 ## Outputs
 
-Out: Exec.
+输出。执行。
 
-Return Value: Boolean. True if an item was removed (False indicates nothing in the map uses the provided key).
-
+返回值。布尔值。如果有项目被删除，则为真（假表示地图中没有任何东西使用所提供的键）。

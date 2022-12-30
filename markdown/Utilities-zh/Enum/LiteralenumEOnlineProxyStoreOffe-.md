@@ -1,6 +1,6 @@
 # LiteralenumEOnlineProxyStoreOffe-
 
-Literal enum EOnlineProxyStoreOfferDiscountType
+枚举EOnlineProxyStoreOfferDiscountType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EOnlineProxyStoreOfferDiscountType
 
 ## Inputs
 
-Enum: EOnlineProxyStoreOfferDiscountType Enum.  
+枚举。EOnlineProxyStoreOfferDiscountType Enum.  
 
 ## Outputs
 
-Return Value: EOnlineProxyStoreOfferDiscountType Enum.
-
+返回值。EOnlineProxyStoreOfferDiscountType Enum.

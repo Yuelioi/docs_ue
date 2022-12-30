@@ -1,6 +1,6 @@
 # LiteralenumEAttenuationShape
 
-Literal enum EAttenuationShape
+字面意义上的EAttenuationShape枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAttenuationShape
 
 ## Inputs
 
-Enum: EAttenuationShape Enum.  
+枚举。EAttenuationShape Enum.  
 
 ## Outputs
 
-Return Value: EAttenuationShape Enum.
-
+返回值。EAttenuationShape Enum.

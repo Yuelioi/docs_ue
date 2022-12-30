@@ -1,6 +1,6 @@
 # SwitchonEMediaSoundComponentFFTS-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMediaSoundComponentFFTSize Enum.  
+选择。EMediaSoundComponentFFTSize枚举。 
 
 ## Outputs
 
-Min 64: Exec.
+最小64：执行。
 
-Small 256: Exec.
+小256。执行。
 
-Medium 512: Exec.
+中型 512: 执行。
 
-Large 1024: Exec.
-
+大的1024。执行中

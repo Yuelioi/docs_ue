@@ -1,8 +1,8 @@
 # ToString_Matrix
 
-Converts a name value to a string
+将一个名字值转换为一个字符串
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-In Matrix: Matrix Structure (by ref).  
+在矩阵中。矩阵结构（通过引用）。 
 
 ## Outputs
 
-Return Value: String. Converts a name value to a string.
-
+返回值。字符串。将一个名称值转换为字符串。

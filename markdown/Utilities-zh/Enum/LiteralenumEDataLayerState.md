@@ -1,6 +1,6 @@
 # LiteralenumEDataLayerState
 
-Literal enum EDataLayerState
+字面意义上的EDataLayerState枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDataLayerState
 
 ## Inputs
 
-Enum: EDataLayerState Enum.  
+枚举。EDataLayerState Enum.  
 
 ## Outputs
 
-Return Value: EDataLayerState Enum.
-
+返回值。EDataLayerState Enum。

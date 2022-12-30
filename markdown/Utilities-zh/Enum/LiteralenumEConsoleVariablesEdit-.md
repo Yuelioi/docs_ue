@@ -1,6 +1,6 @@
 # LiteralenumEConsoleVariablesEdit-
 
-Literal enum EConsoleVariablesEditorRowDisplayType
+枚举EConsoleVariablesEditorRowDisplayType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EConsoleVariablesEditorRowDisplayType
 
 ## Inputs
 
-Enum: EConsoleVariablesEditorRowDisplayType Enum.  
+枚举。EConsoleVariablesEditorRowDisplayType枚举。 
 
 ## Outputs
 
-Return Value: EConsoleVariablesEditorRowDisplayType Enum.
-
+返回值。EConsoleVariablesEditorRowDisplayType枚举。

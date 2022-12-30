@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFGeneralGeometr-
 
-Adds a node that breaks a 'DMXImportGDTFGeneralGeometry' into its member fields
+添加一个节点，将'DMXImportGDTFGeneralGeometry'分解到其成员字段中。
 
 ## 图示
 
@@ -8,27 +8,26 @@ Adds a node that breaks a 'DMXImportGDTFGeneralGeometry' into its member fields
 
 ## Inputs
 
-DMXImport GDTFGeneral Geometry: DMXImport GDTFGeneral Geometry Structure (by ref).  
+DMXImport GDTFGeneral Geometry。DMXImport GDTFGeneral Geometry 结构（通过引用）。 
 
 ## Outputs
 
-Axis: DMXImport GDTFGeneral Axis Structure. Axis.
+Axis: DMXImport GDTFGeneral Axis结构。轴。
 
-Geometry: DMXImport GDTFType Geometry Structure. Geometry.
+Geometry（几何）。DMXImport GDTFType Geometry Structure. 几何结构。
 
-Filter Beam: DMXImport GDTFFilter Beam Structure. Filter Beam.
+Filter Beam：DMXImport GDTFF Filter Beam结构。滤波器光束。
 
-Filter Color: DMXImport GDTFFilter Color Structure. Filter Color.
+滤波器颜色：DMXImport GDTFF Filter Color Structure。滤色器颜色。
 
-Filter Gobo: DMXImport GDTFFilter Gobo Structure. Filter Gobo.
+滤镜图案。DMXImport GDTFF过滤器图案灯结构。滤镜图案。
 
-Filter Shaper: DMXImport GDTFFilter Shaper Structure. Filter Shaper.
+滤镜整形器。DMXImport GDTFF过滤器形状结构。滤波整形器。
 
-Geometry Reference: DMXImport GDTFGeometry Reference Structure. Geometry Reference.
+Geometry Reference（几何参考）。DMXImport GDTFGeometry Reference结构。Geometry Reference（几何参考）。
 
-Name: Name. Name.
+名称。名称。名称。
 
-Model: Name. Model.
+模型。名称。模型。
 
-Position: Matrix Structure. Position.
-
+位置。矩阵结构。职务：职务。

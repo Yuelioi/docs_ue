@@ -1,6 +1,6 @@
 # LocalTransform
 
-Local temporary Transform variable
+本地临时变换变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Transform variable
 
 ## Outputs
 
-Variable: Transform.
-
+变量。变换。

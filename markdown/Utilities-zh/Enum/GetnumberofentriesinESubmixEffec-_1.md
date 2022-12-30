@@ -1,6 +1,6 @@
 # GetnumberofentriesinESubmixEffec-_1
 
-Returns ESubmixEffectDynamicsPeakMode_MAX value
+返回ESubmixEffectDynamicsPeakMode_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESubmixEffectDynamicsPeakMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # LiteralenumEScrollWhenFocusChang-
 
-Literal enum EScrollWhenFocusChanges
+EScrollWhenFocusChanges的字面意义枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EScrollWhenFocusChanges
 
 ## Inputs
 
-Enum: EScrollWhenFocusChanges Enum.  
+枚举。EScrollWhenFocusChanges Enum.  
 
 ## Outputs
 
-Return Value: EScrollWhenFocusChanges Enum.
-
+返回值。EScrollWhenFocusChanges Enum.

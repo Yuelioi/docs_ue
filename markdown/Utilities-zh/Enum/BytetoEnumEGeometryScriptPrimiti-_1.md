@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptPrimiti-_1
 
-Byte to Enum EGeometryScriptPrimitivePolygroupMode
+字节到枚举 EGeometryScriptPrimitivePolygroupMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptPrimitivePolygroupMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptPrimitivePolygroupMode Enum.
-
+返回值。EGeometryScriptPrimitivePolygroupMode枚举。

@@ -1,6 +1,6 @@
 # SwitchonETeamAttitude
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETeamAttitude Enum.  
+选择。ETeamAttitude Enum.  
 
 ## Outputs
 
-Friendly: Exec.
+友好：执行。
 
-Neutral: Exec.
+中立 敌视：Exec.
 
-Hostile: Exec.
-
+敌对的：Exec.

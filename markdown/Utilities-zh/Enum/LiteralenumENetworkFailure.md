@@ -1,6 +1,6 @@
 # LiteralenumENetworkFailure
 
-Literal enum ENetworkFailure
+枚举 ENetworkFailure
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ENetworkFailure
 
 ## Inputs
 
-Enum: ENetworkFailure Enum.  
+枚举。ENetworkFailure Enum.  
 
 ## Outputs
 
-Return Value: ENetworkFailure Enum.
-
+返回值。ENetworkFailure Enum。

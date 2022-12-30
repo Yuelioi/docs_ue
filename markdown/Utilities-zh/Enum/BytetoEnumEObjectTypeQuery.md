@@ -1,6 +1,6 @@
 # BytetoEnumEObjectTypeQuery
 
-Byte to Enum EObjectTypeQuery
+字节到枚举 EObjectTypeQuery
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EObjectTypeQuery
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EObjectTypeQuery Enum.
-
+返回值。EObjectTypeQuery Enum。

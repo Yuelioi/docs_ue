@@ -1,6 +1,6 @@
 # BreakContentBrowserDataCollectio-
 
-Adds a node that breaks a 'ContentBrowserDataCollectionFilter' into its member fields
+添加一个节点，将'ContentBrowserDataCollectionFilter'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'ContentBrowserDataCollectionFilter' into its member f
 
 ## Inputs
 
-Content Browser Data Collection Filter: Content Browser Data Collection Filter Structure (by ref).  
+内容浏览器数据收集过滤器。内容浏览器数据收集过滤器结构（通过引用）。 
 
 ## Outputs
 
-Include Child Collections: Boolean. Include Child Collections:. Whether we should include child collections in this query.
-
+包括子集合。布尔值。Include Child Collections:. 我们是否应该在这个查询中包括子集合。

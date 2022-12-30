@@ -1,6 +1,6 @@
 # LiteralenumEEnvTestDot
 
-Literal enum EEnvTestDot
+字面意义上的EEnvTestDot枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EEnvTestDot
 
 ## Inputs
 
-Enum: EEnvTestDot Enum.  
+枚举。EEnvTestDot枚举。 
 
 ## Outputs
 
-Return Value: EEnvTestDot Enum.
-
+返回值。EEnvTestDot Enum.

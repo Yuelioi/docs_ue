@@ -1,6 +1,6 @@
 # LiteralenumEPlaneComponentDebugM-
 
-Literal enum EPlaneComponentDebugMode
+枚举 EPlaneComponentDebugMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EPlaneComponentDebugMode
 
 ## Inputs
 
-Enum: EPlaneComponentDebugMode Enum.  
+枚举。EPlaneComponentDebugMode Enum.  
 
 ## Outputs
 
-Return Value: EPlaneComponentDebugMode Enum.
-
+返回值。EPlaneComponentDebugMode Enum.

@@ -1,6 +1,6 @@
 # SwitchonEBoneModificationMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EBoneModificationMode Enum.  
+选择。EBoneModificationMode枚举。 
 
 ## Outputs
 
-Ignore: Exec.
+忽略。Exec.
 
-Replace Existing: Exec.
+替换现有的。Exec.
 
-Add To Existing: Exec.
-
+添加到现有的。现有的

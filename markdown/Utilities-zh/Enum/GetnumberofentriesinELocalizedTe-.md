@@ -1,6 +1,6 @@
 # GetnumberofentriesinELocalizedTe-
 
-Returns ELocalizedTextSourceCategory_MAX value
+返回ELocalizedTextSourceCategory_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ELocalizedTextSourceCategory_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

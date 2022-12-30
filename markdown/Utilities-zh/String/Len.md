@@ -1,8 +1,8 @@
 # Len
 
-Returns the number of characters in the string
+返回字符串中的字符数
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-S: String.  
+S：字符串。 
 
 ## Outputs
 
-Return Value: Integer. The number of chars in the string.
-
+返回值。整数。字符串中的字符数。

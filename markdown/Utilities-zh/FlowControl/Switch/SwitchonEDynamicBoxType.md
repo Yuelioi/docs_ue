@@ -1,6 +1,6 @@
 # SwitchonEDynamicBoxType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDynamicBoxType Enum.  
+选择。EDynamicBoxType枚举。 
 
 ## Outputs
 
-Horizontal: Exec.
+水平方向：Exec.Level: Exec.
 
-Vertical: Exec.
+Vertical（垂直）：Exec.
 
 Wrap: Exec.
 
 Vertical Wrap: Exec.
 
-Radial: Exec.
+径向。Exec.
 
-Overlay: Exec.
-
+叠加。Exec.

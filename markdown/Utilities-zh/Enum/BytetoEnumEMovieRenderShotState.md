@@ -8,9 +8,8 @@ Byte to Enum EMovieRenderShotState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMovieRenderShotState Enum.
-
+返回值。EMovieRenderShotState Enum。

@@ -8,9 +8,8 @@ Byte to Enum ERigBoneType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERigBoneType Enum.
-
+返回值。ERigBoneType Enum。

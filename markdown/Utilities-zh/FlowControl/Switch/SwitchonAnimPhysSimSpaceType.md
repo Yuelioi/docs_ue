@@ -1,6 +1,6 @@
 # SwitchonAnimPhysSimSpaceType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: AnimPhysSimSpaceType Enum.  
+选择。AnimPhysSimSpaceType Enum.  
 
 ## Outputs
 
-Component: Exec.
+组件。Exec.
 
 Actor: Exec.
 
-World: Exec.
+世界。Exec.
 
 Root Relative: Exec.
 
 Bone Relative: Exec.
-

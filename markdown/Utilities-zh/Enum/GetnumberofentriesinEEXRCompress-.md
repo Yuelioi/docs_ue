@@ -1,6 +1,6 @@
 # GetnumberofentriesinEEXRCompress-
 
-Returns EEXRCompressionFormat_MAX value
+返回EEXRCompressionFormat_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EEXRCompressionFormat_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

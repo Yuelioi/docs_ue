@@ -1,6 +1,6 @@
 # LiteralenumEOscillatorWaveform
 
-Literal enum EOscillatorWaveform
+枚举 EOscillatorWaveform
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EOscillatorWaveform
 
 ## Inputs
 
-Enum: EOscillatorWaveform Enum.  
+枚举。EOscillatorWaveform Enum.  
 
 ## Outputs
 
-Return Value: EOscillatorWaveform Enum.
-
+返回值。EOscillatorWaveform Enum.

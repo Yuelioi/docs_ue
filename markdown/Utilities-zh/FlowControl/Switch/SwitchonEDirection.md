@@ -1,6 +1,6 @@
 # SwitchonEDirection
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDirection Enum.  
+选择。EDirection Enum.  
 
 ## Outputs
 
-Left: Exec.
+左：Exec。
 
-Right: Exec.
+右：执行。Exec.
 
-Up: Exec.
+向上。Exec.
 
-Down: Exec.
+下：执行。
 
-Front: Exec.
+前部：执行。执行
 
-Back: Exec.
-
+后面。执行

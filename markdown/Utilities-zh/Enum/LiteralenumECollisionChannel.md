@@ -1,6 +1,6 @@
 # LiteralenumECollisionChannel
 
-Literal enum ECollisionChannel
+字面意义上的ECollisionChannel枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECollisionChannel
 
 ## Inputs
 
-Enum: ECollisionChannel Enum.  
+枚举。ECollisionChannel Enum.  
 
 ## Outputs
 
-Return Value: ECollisionChannel Enum.
-
+返回值。ECollisionChannel Enum。

@@ -1,6 +1,6 @@
 # BreakDropTimecode
 
-Adds a node that breaks a 'DropTimecode' into its member fields
+添加一个节点，将'DropTimecode'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'DropTimecode' into its member fields
 
 ## Inputs
 
-Drop Timecode: Drop Timecode Structure (by ref).  
+Drop Timecode。Drop Timecode结构（通过引用）。 
 
 ## Outputs
 
-Timecode: Timecode Structure. Timecode:. Decoded Timecode.
+Timecode: Timecode: 时间码结构。Timecode:. 解码的时间码。
 
-Frame Rate: Integer. Frame Rate:. Guess at incoming frame rate.
+Frame Rate: 整数。帧率：。猜测传入的帧率。
 
-Color Framing: Boolean. Color Framing:. Sync is in phase with color burst.
+Color Framing: 布尔值。Color Framing:. 同步与色彩突发相一致。
 
-Running Forward: Boolean. Running Forward:. When timecode is reading forward.
+向前运行。布尔值。正向运行：。当时间码被向前读取时。
 
-New Frame: Boolean. New Frame:. Is a new timecode frame.
-
+New Frame（新帧）。布尔值。新帧：。是一个新的时间码帧。

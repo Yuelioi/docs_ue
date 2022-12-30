@@ -1,6 +1,6 @@
 # SwitchonEGoogleA-_2
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGoogleARCoreInstallRequestResult Enum.  
+选择。EGoogleARCoreInstallRequestResult Enum.  
 
 ## Outputs
 
-Installed: Exec.
+已安装。已安装: Exec.
 
-Device Not Compatible: Exec.
+设备不兼容。Exec.
 
-User Declined Installation: Exec.
+用户拒绝安装。Exec.
 
-Fatal Error: Exec.
-
+致命的错误。执行。

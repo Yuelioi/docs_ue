@@ -1,6 +1,6 @@
 # BytetoEnumEMaterialSamplerType
 
-Byte to Enum EMaterialSamplerType
+字节到枚举 EMaterialSamplerType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMaterialSamplerType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMaterialSamplerType Enum.
-
+返回值。EMaterialSamplerType Enum。

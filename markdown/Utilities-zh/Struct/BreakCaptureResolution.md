@@ -1,6 +1,6 @@
 # BreakCaptureResolution
 
-Adds a node that breaks a 'CaptureResolution' into its member fields
+添加一个节点，将'CaptureResolution'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'CaptureResolution' into its member fields
 
 ## Inputs
 
-Capture Resolution: Capture Resolution Structure (by ref).  
+捕获决议。捕获分辨率结构（通过引用）。 
 
 ## Outputs
 
-Res X: Integer. Res X.
+Res X: 整数。Res X: 整数。
 
-Res Y: Integer. Res Y.
-
+Res Y: 整数。Res Y.

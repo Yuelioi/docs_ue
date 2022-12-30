@@ -1,6 +1,6 @@
 # BreakComposurePostMoveSettings
 
-Adds a node that breaks a 'ComposurePostMoveSettings' into its member fields
+添加一个节点，将'ComposurePostMoveSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'ComposurePostMoveSettings' into its member fields
 
 ## Inputs
 
-Composure Post Move Settings: Composure Post Move Settings Structure (by ref).  
+Composure Post Move Settings。Composure Post Move Settings结构（通过引用）。 
 
 ## Outputs
 
-Pivot: Vector 2D Structure. Pivot:. The normalized pivot point for applying rotation and scale to the image. The x and y values are normalized to the range 0-1 where 1 represents the full width and height of the image..
+Pivot。矢量2D结构。Pivot:. 用于对图像进行旋转和缩放的归一化支点。x和y值被归一化为0-1的范围，其中1代表图像的全部宽度和高度。
 
-Translation: Vector 2D Structure. Translation:. The translation to apply to the image. The x and y values are normalized to the range 0-1 where 1 represents the full width and height of the image..
+翻译。矢量二维结构。翻译：。应用于图像的平移。x和y值被归一化为0-1的范围，其中1代表图像的全部宽度和高度。
 
-Rotation Angle: Float (single-precision). Rotation Angle:. The anti clockwise rotation to apply to the image in degrees..
+旋转角度。Float（单精度）。旋转角度：。应用于图像的逆时针旋转，单位是度。
 
-Scale: Float (single-precision). Scale:. The scale to apply to the image..
-
+规模。Float（单精度）。规模：。应用到图像上的比例。

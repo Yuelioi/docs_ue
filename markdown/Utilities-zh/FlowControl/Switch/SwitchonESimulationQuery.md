@@ -1,6 +1,6 @@
 # SwitchonESimulationQuery
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESimulationQuery Enum.  
+选择。ESimulationQuery Enum.  
 
 ## Outputs
 
-Collision Overlap: Exec.
+碰撞重合。执行。
 
-Shade Overlap: Exec.
+阴影重合。执行。
 
-Any Overlap: Exec.
-
+任何重叠。执行。

@@ -1,6 +1,6 @@
 # BytetoEnumEWindowVisibility
 
-Byte to Enum EWindowVisibility
+字节到枚举 EWindowVisibility
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EWindowVisibility
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWindowVisibility Enum.
-
+返回值。EWindowVisibility Enum。

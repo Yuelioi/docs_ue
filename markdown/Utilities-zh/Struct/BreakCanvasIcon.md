@@ -1,6 +1,6 @@
 # BreakCanvasIcon
 
-Adds a node that breaks a 'CanvasIcon' into its member fields
+添加一个节点，将'CanvasIcon'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'CanvasIcon' into its member fields
 
 ## Inputs
 
-Canvas Icon: Canvas Icon Structure (by ref).  
+Canvas Icon：Canvas Icon结构（通过引用）。 
 
 ## Outputs
 
-Texture: Texture Object Reference. Texture:. Source texture.
+Texture（纹理）。纹理对象参考。Texture:（纹理）。源纹理。
 
-U: Float (single-precision). U:. UV coords.
+U: Float（单精度）。U:. UV坐标。
 
-V: Float (single-precision). V.
+V：浮点（单精度）。V.
 
-UL: Float (single-precision). UL.
+UL：浮点（单精度）。UL.
 
-VL: Float (single-precision). VL.
-
+VL：浮点（单精度）。VL.

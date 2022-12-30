@@ -1,6 +1,6 @@
 # BytetoEnumEGameplayCueNotify_Loc-_1
 
-Byte to Enum EGameplayCueNotify_LocallyControlledSource
+字节到枚举 EGameplayCueNotify_LocallyControlledSource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGameplayCueNotify_LocallyControlledSource
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGameplayCueNotify_LocallyControlledSource Enum.
-
+返回值。EGameplayCueNotify_LocallyControlledSource Enum。

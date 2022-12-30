@@ -1,6 +1,6 @@
 # BreakAbcConversionSettings
 
-Adds a node that breaks a 'AbcConversionSettings' into its member fields
+添加一个节点，将'AbcConversionSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'AbcConversionSettings' into its member fields
 
 ## Inputs
 
-Abc Conversion Settings: Abc Conversion Settings Structure (by ref).  
+Abc转换设置。Abc转换设置结构（通过引用）。 
 
 ## Outputs
 
-Preset: EAbcConversionPreset Enum. Preset:. Currently preset that should be applied.
+预设。EAbcConversionPreset Enum。预设：。目前应该应用的预设。
 
-Flip U: Boolean. Flip U:. Flag whether or not to flip the U channel in the Texture Coordinates.
+Flip U：布尔值。翻转U：。标记是否翻转纹理坐标中的U通道。
 
-Flip V: Boolean. Flip V:. Flag whether or not to flip the V channel in the Texture Coordinates.
+Flip V：布尔值。翻转V：。标记是否翻转纹理坐标中的V通道。
 
-Scale: Vector. Scale:. Scale value that should be applied.
+缩放。矢量。缩放：。应该应用的比例值。
 
-Rotation: Vector. Rotation:. Rotation in Euler angles that should be applied.
-
+Rotation（旋转）。Vector（向量）。Rotation:.旋转 应该应用的欧拉角的旋转。

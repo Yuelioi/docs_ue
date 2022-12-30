@@ -1,6 +1,6 @@
 # LiteralenumEAnimPoseSpaces
 
-Literal enum EAnimPoseSpaces
+枚举 EAnimPoseSpaces
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAnimPoseSpaces
 
 ## Inputs
 
-Enum: EAnimPoseSpaces Enum.  
+枚举。EAnimPoseSpaces Enum.  
 
 ## Outputs
 
-Return Value: EAnimPoseSpaces Enum.
-
+返回值。EAnimPoseSpaces Enum.

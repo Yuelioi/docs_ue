@@ -1,6 +1,6 @@
 # SwitchonEVREDCppVariantType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EVREDCppVariantType Enum.  
+选择。EVREDCppVariantType枚举。 
 
 ## Outputs
 
-Unsupported: Exec.
+不支持的。Exec.
 
-Camera: Exec.
+相机。Exec.
 
 Geometry: Exec.
 
-Variant Set: Exec.
+变体集。防御性
 
-Material: Exec.
+材料: 异常
 
-Transform: Exec.
+变体: 变化 变形: Exec.
 
-Light: Exec.
-
+光线。执行

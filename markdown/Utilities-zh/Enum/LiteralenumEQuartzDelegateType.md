@@ -1,6 +1,6 @@
 # LiteralenumEQuartzDelegateType
 
-Literal enum EQuartzDelegateType
+枚举EQuartzDelegateType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EQuartzDelegateType
 
 ## Inputs
 
-Enum: EQuartzDelegateType Enum.  
+枚举。EQuartzDelegateType Enum。 
 
 ## Outputs
 
-Return Value: EQuartzDelegateType Enum.
-
+返回值。EQuartzDelegateType Enum。

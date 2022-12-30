@@ -1,8 +1,8 @@
 # GetProjectFilePath
 
-Gets the path to the project file.
+获取项目文件的路径。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. Project file path..
-
+返回值。字符串。项目文件路径。

@@ -1,6 +1,6 @@
 # BytetoEnumESynth1OscType
 
-Byte to Enum ESynth1OscType
+字节到枚举 ESynth1OscType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESynth1OscType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESynth1OscType Enum.
-
+返回值。ESynth1OscType Enum。

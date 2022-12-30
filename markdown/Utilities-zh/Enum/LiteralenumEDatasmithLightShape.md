@@ -1,6 +1,6 @@
 # LiteralenumEDatasmithLightShape
 
-Literal enum EDatasmithLightShape
+字面意义上的枚举：EDatasmithLightShape
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDatasmithLightShape
 
 ## Inputs
 
-Enum: EDatasmithLightShape Enum.  
+枚举。EDatasmithLightShape Enum.  
 
 ## Outputs
 
-Return Value: EDatasmithLightShape Enum.
-
+返回值。EDatasmithLightShape Enum。

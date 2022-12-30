@@ -1,6 +1,6 @@
 # NotEqual
 
-Not Equal
+不平等
 
 ## 图示
 
@@ -8,11 +8,10 @@ Not Equal
 
 ## Inputs
 
-A: Wildcard.
+A: 通配符。
 
-B: Wildcard.  
+B：通配符。 
 
 ## Outputs
 
-Return Value: Boolean. Returns true if the values are not equal (A != B).
-
+返回值。布尔值。如果数值不相等（A != B），返回true。

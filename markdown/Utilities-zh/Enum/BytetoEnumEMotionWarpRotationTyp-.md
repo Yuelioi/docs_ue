@@ -1,6 +1,6 @@
 # BytetoEnumEMotionWarpRotationTyp-
 
-Byte to Enum EMotionWarpRotationType
+字节到枚举 EMotionWarpRotationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMotionWarpRotationType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMotionWarpRotationType Enum.
-
+返回值。EMotionWarpRotationType Enum。

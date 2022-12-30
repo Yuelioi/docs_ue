@@ -1,6 +1,6 @@
 # LiteralenumESlateParentWindowSea-
 
-Literal enum ESlateParentWindowSearchMethod
+枚举ESlateParentWindowSearchMethod
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: ESlateParentWindowSearchMethod Enum.
 
 ## Outputs
 
-Return Value: ESlateParentWindowSearchMethod Enum.
-
+返回值。ESlateParentWindowSearchMethod Enum.

@@ -8,9 +8,8 @@ Byte to Enum EGooglePADCellularDataConfirmStatus
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGooglePADCellularDataConfirmStatus Enum.
-
+返回值。EGooglePADCellularDataConfirmStatus枚举。

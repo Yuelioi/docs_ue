@@ -1,18 +1,18 @@
 # GetCurrentLanguage
 
-Get the current language (for localization) as an IETF language tag:
+获取当前语言（用于本地化），作为IETF语言标签。
 
-  * A two-letter ISO 639-1 language code (eg, "zh").
+  * 一个两个字母的ISO 639-1语言代码（例如，"zh"）。
 
-  * An optional four-letter ISO 15924 script code (eg, "Hans").
+  * 一个可选的四个字母的ISO 15924脚本代码（例如，"Hans"）。
 
-  * An optional two-letter ISO 3166-1 country code (eg, "CN").
-
-
+  * 一个可选的两个字母的ISO 3166-1国家代码（例如，"CN"）。
 
 
 
-Target is Kismet Internationalization Library
+
+
+目标是Kismet国际化库
 
 ## 图示
 
@@ -22,5 +22,4 @@ Target is Kismet Internationalization Library
 
 ## Outputs
 
-Return Value: String. The language as an IETF language tag (eg, "zh-Hans-CN")..
-
+返回值。字符串。作为IETF语言标签的语言（例如，"zh-Hans-CN"）。

@@ -1,6 +1,6 @@
 # MakeSet
 
-Create a set from a series of items.
+从一系列的项目中创建一个集合。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Create a set from a series of items.
 
 ## Inputs
 
-[ 0]: Wildcard.  
+[ 0]: 通配符。 
 
 ## Outputs
 
-Set: Set of Wildcards.
-
+集合。通配符的集合。

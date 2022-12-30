@@ -1,6 +1,6 @@
 # BytetoEnumELifetimeCondition
 
-Byte to Enum ELifetimeCondition
+字节到枚举 ELifetimeCondition
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ELifetimeCondition
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELifetimeCondition Enum.
-
+返回值。ELifetimeCondition Enum。

@@ -1,6 +1,6 @@
 # LiteralenumESlateVisibility
 
-Literal enum ESlateVisibility
+字面意义上的枚举 ESlateVisibility
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: ESlateVisibility Enum.
 
 ## Outputs
 
-Return Value: ESlateVisibility Enum.
-
+返回值。ESlateVisibility Enum。

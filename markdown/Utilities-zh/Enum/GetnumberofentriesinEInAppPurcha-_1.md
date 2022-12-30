@@ -1,6 +1,6 @@
 # GetnumberofentriesinEInAppPurcha-_1
 
-Returns EInAppPurchaseStatus_MAX value
+返回EInAppPurchaseStatus_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EInAppPurchaseStatus_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

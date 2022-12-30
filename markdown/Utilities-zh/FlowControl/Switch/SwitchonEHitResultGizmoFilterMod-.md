@@ -1,6 +1,6 @@
 # SwitchonEHitResultGizmoFilterMod-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EHitResultGizmoFilterMode Enum.  
+选择。EHitResultGizmoFilterMode枚举。 
 
 ## Outputs
 
-All: Exec.
+全部：执行。
 
 No Gizmos: Exec.
 
-Gizmos Only: Exec.
-
+仅仅是小工具。Exec.

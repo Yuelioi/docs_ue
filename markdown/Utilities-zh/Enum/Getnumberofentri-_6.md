@@ -1,6 +1,6 @@
 # Getnumberofentri-_6
 
-Returns EAzureSpatialAnchorsSessionUserFeedback_MAX value
+返回EAzureSpatialAnchorsSessionUserFeedback_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAzureSpatialAnchorsSessionUserFeedback_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

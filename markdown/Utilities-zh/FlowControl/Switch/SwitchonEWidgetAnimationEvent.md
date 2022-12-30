@@ -1,6 +1,6 @@
 # SwitchonEWidgetAnimationEvent
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EWidgetAnimationEvent Enum.  
+选择。EWidgetAnimationEvent Enum.  
 
 ## Outputs
 
-Started: Exec.
+开始。开始：执行。
 
-Finished: Exec.
-
+已完成。执行。

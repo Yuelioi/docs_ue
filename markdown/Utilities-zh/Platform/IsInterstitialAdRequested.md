@@ -1,8 +1,8 @@
 # IsInterstitialAdRequested
 
-Returns true if the requested interstitial ad has been successfully requested (false if load request fails). (Android only)
+如果请求的间隙广告被成功请求，则返回true（如果加载请求失败则返回false）。(仅限安卓)
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.  
+在。Exec.  
 
 ## Outputs
 
-Out: Exec.
+输出。执行。
 
-Return Value: Boolean. Returns true if the requested interstitial ad has been successfully requested (false if load request fails). (Android only).
-
+返回值。布尔值。如果请求的间隙广告被成功请求，返回true（如果加载请求失败，返回false）。(仅限安卓）。

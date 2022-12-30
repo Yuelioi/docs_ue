@@ -1,8 +1,8 @@
 # GetProjectContentDirectory
 
-Get the content directory of the current project
+获取当前项目的内容目录
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Kismet System Library
 
 ## Outputs
 
-Return Value: String. Get the content directory of the current project.
-
+返回值。字符串。获取当前项目的内容目录。

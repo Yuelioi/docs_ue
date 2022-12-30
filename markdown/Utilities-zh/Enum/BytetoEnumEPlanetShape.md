@@ -1,6 +1,6 @@
 # BytetoEnumEPlanetShape
 
-Byte to Enum EPlanetShape
+字节到枚举 EPlanetShape
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EPlanetShape
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EPlanetShape Enum.
-
+返回值。EPlanetShape Enum。

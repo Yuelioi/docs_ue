@@ -1,6 +1,6 @@
 # GetnumberofentriesinEFieldPositi-
 
-Returns EFieldPositionType_MAX value
+返回EFieldPositionType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EFieldPositionType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

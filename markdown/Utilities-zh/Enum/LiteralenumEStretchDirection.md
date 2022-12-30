@@ -1,6 +1,6 @@
 # LiteralenumEStretchDirection
 
-Literal enum EStretchDirection
+枚举EStretchDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EStretchDirection
 
 ## Inputs
 
-Enum: EStretchDirection Enum.  
+枚举。EStretchDirection Enum.  
 
 ## Outputs
 
-Return Value: EStretchDirection Enum.
-
+返回值。EStretchDirection Enum。

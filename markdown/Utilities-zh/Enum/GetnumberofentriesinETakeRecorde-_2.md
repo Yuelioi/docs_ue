@@ -1,6 +1,6 @@
 # GetnumberofentriesinETakeRecorde-_2
 
-Returns ETakeRecorderState_MAX value
+返回ETakeRecorderState_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ETakeRecorderState_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

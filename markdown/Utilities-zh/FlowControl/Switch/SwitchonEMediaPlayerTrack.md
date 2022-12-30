@@ -1,6 +1,6 @@
 # SwitchonEMediaPlayerTrack
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMediaPlayerTrack Enum.  
+选择。EMediaPlayerTrack Enum.  
 
 ## Outputs
 
-Audio: Exec.
+音频。Exec.
 
-Caption: Exec.
+字幕 Exec.
 
-Metadata: Exec.
+元数据。Exec.
 
-Script: Exec.
+脚本。执行
 
-Subtitle: Exec.
+副标题。Exec.
 
-Text: Exec.
+文本 执行
 
-Video: Exec.
-
+视频 执行

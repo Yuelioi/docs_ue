@@ -1,6 +1,6 @@
 # SwitchonETriggerEvent
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETriggerEvent Enum.  
+选择。ETriggerEvent Enum.  
 
 ## Outputs
 
-Triggered: Exec.
+触发的。Exec.
 
-Started: Exec.
+开始。执行中
 
-Ongoing: Exec.
+正在进行中。执行.
 
-Canceled: Exec.
+取消了。执行中
 
-Completed: Exec.
-
+已完成。执行中

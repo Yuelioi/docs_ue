@@ -1,6 +1,6 @@
 # GetnumberofentriesinEDistanceCur-
 
-Returns EDistanceCurve_Axis_MAX value
+返回EDistanceCurve_Axis_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EDistanceCurve_Axis_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

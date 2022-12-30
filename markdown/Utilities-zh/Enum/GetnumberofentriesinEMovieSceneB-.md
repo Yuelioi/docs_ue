@@ -1,6 +1,6 @@
 # GetnumberofentriesinEMovieSceneB-
 
-Returns EMovieSceneBlendType_MAX value
+返回EMovieSceneBlendType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EMovieSceneBlendType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

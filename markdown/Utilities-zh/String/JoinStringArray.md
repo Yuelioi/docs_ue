@@ -1,8 +1,8 @@
 # JoinStringArray
 
-Concatenates an array of strings into a single string.
+将一个字符串数组串联成一个字符串。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source Array: Array of Strings. The array of strings to concatenate..
+源数组。字符串的数组。要串联的字符串数组。
 
-Separator: String. The string used to separate each element..  
+Separator（分隔符）。字符串。用来分隔每个元素的字符串。 
 
 ## Outputs
 
-Return Value: String. The final, joined, separated string..
-
+返回值。字符串。最后的、连接的、分离的字符串。

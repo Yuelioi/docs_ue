@@ -1,6 +1,6 @@
 # LiteralenumESlateGesture
 
-Literal enum ESlateGesture
+字面意义上的枚举 ESlateGesture
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESlateGesture
 
 ## Inputs
 
-Enum: ESlateGesture Enum.  
+枚举。ESlateGesture Enum.  
 
 ## Outputs
 
-Return Value: ESlateGesture Enum.
-
+返回值。ESlateGesture Enum。

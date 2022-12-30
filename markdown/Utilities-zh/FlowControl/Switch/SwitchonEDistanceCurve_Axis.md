@@ -1,6 +1,6 @@
 # SwitchonEDistanceCurve_Axis
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDistanceCurve_Axis Enum.  
+选择。EDistanceCurve_Axis Enum.  
 
 ## Outputs
 
-X: Exec.
+X：执行。
 
-Y: Exec.
+Y: 执行。
 
-Z: Exec.
+Z: 执行。
 
-XY: Exec.
+XY: 执行。
 
-XZ: Exec.
+XZ: 执行。
 
 YZ: Exec.
 
 XYZ: Exec.
-

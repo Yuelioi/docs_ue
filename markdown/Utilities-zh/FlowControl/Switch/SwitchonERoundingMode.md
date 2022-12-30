@@ -1,6 +1,6 @@
 # SwitchonERoundingMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERoundingMode Enum.  
+选择。ERoundingMode Enum.  
 
 ## Outputs
 
-Half To Even: Exec.
+半数到偶数。Exec.
 
-Half From Zero: Exec.
+一半从零开始：Exec.
 
-Half To Zero: Exec.
+半数到零：执行。
 
-From Zero: Exec.
+从零开始：执行。
 
-To Zero: Exec.
+至零：执行。
 
-To Negative Infinity: Exec.
+至负无穷大。执行。
 
-To Positive Infinity: Exec.
-
+至正无穷大。执行

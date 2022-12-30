@@ -1,6 +1,6 @@
 # BreakContextualAnimIKTargetDefin-
 
-Adds a node that breaks a 'ContextualAnimIKTargetDefinition' into its member fields
+添加一个节点，将'ContextualAnimIKTargetDefinition'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'ContextualAnimIKTargetDefinition' into its member fie
 
 ## Inputs
 
-Contextual Anim IKTarget Definition: Contextual Anim IKTarget Definition Structure (by ref).  
+Contextual Anim IKTarget Definition: Contextual Anim IKTarget Definition结构（通过引用）。 
 
 ## Outputs
 
-IKGoal Name: Name. IKGoal Name.
+IKGoal Name: 名称。IKGoal Name.
 
-Bone Name: Name. Bone Name.
+Bone Name: 名称。骨骼名称。
 
-Alpha Curve Name: Name. Alpha Curve Name.
+阿尔法曲线名称。名称。阿尔法曲线名称。
 
-Provider: EContextualAnimIKTargetProvider Enum. Provider.
+提供者。EContextualAnimIKTargetProvider枚举。提供者。
 
-Auto Params: Contextual Anim IKTarget Bone Params Structure. Auto Params:. @TODO: Hide from the UI when Type != Auto.
+Auto Params: Contextual Anim IKTarget Bone Params Structure. Auto Params:. @TODO: 当Type != Auto时从UI中隐藏。
 
-Bone Params: Contextual Anim IKTarget Bone Params Structure. Bone Params:. @TODO: Hide from the UI when Type != Bone.
-
+Bone Params: Contextual Anim IKTarget Bone Params Structure. Bone Params:. @TODO: 当Type !"=Bone. "时从用户界面上隐藏。

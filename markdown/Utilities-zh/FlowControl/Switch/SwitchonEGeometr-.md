@@ -1,6 +1,6 @@
 # SwitchonEGeometr-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,29 +8,28 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGeometryCollectionPhysicsTypeEnum Enum.  
+选择。EGeometryCollectionPhysicsTypeEnum枚举。 
 
 ## Outputs
 
-Angular Velocity: Exec.
+角速度。Exec.
 
-Dynamic State: Exec.
+动态状态: Exec: Exec.
 
-Linear Velocity: Exec.
+Linear Velocity: 执行。
 
-Initial Angular Velocity: Exec.
+初始角速度: 执行。
 
-Initial Linear Velocity: Exec.
+最初的线性速度。执行。
 
-Collision Group: Exec.
+碰撞组。Exec.
 
-Linear Force: Exec.
+线性力: Exec.
 
-Angular Torque: Exec.
+角度扭力: Exec.
 
-Disable Threshold: Exec.
+禁用阈值: Exec.
 
-Sleeping Threshold: Exec.
-
+睡眠阈值: Exec.

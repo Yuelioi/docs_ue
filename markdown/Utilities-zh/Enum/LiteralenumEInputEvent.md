@@ -1,6 +1,6 @@
 # LiteralenumEInputEvent
 
-Literal enum EInputEvent
+枚举EInputEvent
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EInputEvent
 
 ## Inputs
 
-Enum: EInputEvent Enum.  
+枚举。EInputEvent Enum.  
 
 ## Outputs
 
-Return Value: EInputEvent Enum.
-
+返回值。EInputEvent Enum.

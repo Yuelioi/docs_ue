@@ -1,6 +1,6 @@
 # SwitchonEGeometryScriptErrorType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGeometryScriptErrorType Enum.  
+选择。EGeometryScriptErrorType枚举。 
 
 ## Outputs
 
-No Error: Exec.
+没有错误。Exec.
 
-Unknown Error: Exec.
+未知错误。Exec.
 
 Invalid ## Inputs: Exec.
 
-Operation Failed: Exec.
-
+操作失败。Exec.

@@ -1,6 +1,6 @@
 # LiteralenumFDataDrivenCVarType
 
-Literal enum FDataDrivenCVarType
+枚举FDataDrivenCVarType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum FDataDrivenCVarType
 
 ## Inputs
 
-Enum: FDataDrivenCVarType Enum.  
+枚举。FDataDrivenCVarType Enum.  
 
 ## Outputs
 
-Return Value: FDataDrivenCVarType Enum.
-
+返回值。FDataDrivenCVarType Enum。

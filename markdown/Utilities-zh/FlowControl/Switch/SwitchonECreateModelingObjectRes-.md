@@ -1,6 +1,6 @@
 # SwitchonECreateModelingObjectRes-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,25 +8,24 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ECreateModelingObjectResult Enum.  
+选择。ECreateModelingObjectResult枚举。 
 
 ## Outputs
 
 Ok: Exec.
 
-Cancelled: Exec.
+取消了。执行。
 
-Failed Unknown: Exec.
+失败的未知数。执行。
 
-Failed No APIFound: Exec.
+失败 没有找到APIF。执行。
 
-Failed Invalid World: Exec.
+失败 无效的世界。执行。
 
-Failed Invalid Mesh: Exec.
+失败 无效的网格。执行。
 
-Failed Invalid Texture: Exec.
+失败 无效的纹理。执行。
 
-Failed Asset Creation Failed: Exec.
-
+失败 资产创建失败。执行。

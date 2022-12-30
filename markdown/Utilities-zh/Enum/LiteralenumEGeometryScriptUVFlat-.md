@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptUVFlat-
 
-Literal enum EGeometryScriptUVFlattenMethod
+字面意义上的枚举 EGeometryScriptUVFlattenMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptUVFlattenMethod
 
 ## Inputs
 
-Enum: EGeometryScriptUVFlattenMethod Enum.  
+枚举。EGeometryScriptUVFlattenMethod Enum.  
 
 ## Outputs
 
-Return Value: EGeometryScriptUVFlattenMethod Enum.
-
+返回值。EGeometryScriptUVFlattenMethod Enum.

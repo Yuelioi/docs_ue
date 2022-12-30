@@ -1,6 +1,6 @@
 # LiteralenumEReplaceActorPolicy
 
-Literal enum EReplaceActorPolicy
+字面意义上的EReplaceActorPolicy枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EReplaceActorPolicy
 
 ## Inputs
 
-Enum: EReplaceActorPolicy Enum.  
+枚举。EReplaceActorPolicy Enum.  
 
 ## Outputs
 
-Return Value: EReplaceActorPolicy Enum.
-
+返回值。EReplaceActorPolicy Enum。

@@ -1,6 +1,6 @@
 # LiteralenumEHDRCaptureGamut
 
-Literal enum EHDRCaptureGamut
+枚举EHDRCaptureGamut
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: EHDRCaptureGamut Enum.
 
 ## Outputs
 
-Return Value: EHDRCaptureGamut Enum.
-
+返回值。EHDRCaptureGamut Enum.

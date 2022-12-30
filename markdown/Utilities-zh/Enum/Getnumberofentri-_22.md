@@ -1,6 +1,6 @@
 # Getnumberofentri-_22
 
-Returns EGeometryScriptRemoveMeshSimplificationType_MAX value
+返回 EGeometryScriptRemoveMeshSimplificationType_MAX 值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGeometryScriptRemoveMeshSimplificationType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

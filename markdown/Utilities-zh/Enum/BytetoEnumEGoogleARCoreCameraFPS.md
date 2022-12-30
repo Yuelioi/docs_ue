@@ -8,9 +8,8 @@ Byte to Enum EGoogleARCoreCameraFPS
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreCameraFPS Enum.
-
+返回值。EGoogleARCoreCameraFPS Enum。

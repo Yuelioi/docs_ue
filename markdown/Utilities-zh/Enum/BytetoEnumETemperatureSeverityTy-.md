@@ -1,6 +1,6 @@
 # BytetoEnumETemperatureSeverityTy-
 
-Byte to Enum ETemperatureSeverityType
+字节到枚举 ETemperatureSeverityType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETemperatureSeverityType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETemperatureSeverityType Enum.
-
+返回值。ETemperatureSeverityType Enum。

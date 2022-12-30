@@ -1,6 +1,6 @@
 # LiteralenumEVariantManagerTestEn-
 
-Literal enum EVariantManagerTestEnum
+枚举EVariantManagerTestEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EVariantManagerTestEnum
 
 ## Inputs
 
-Enum: EVariantManagerTestEnum Enum.  
+枚举。EVariantManagerTestEnum枚举。 
 
 ## Outputs
 
-Return Value: EVariantManagerTestEnum Enum.
-
+返回值。EVariantManagerTestEnum Enum.

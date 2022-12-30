@@ -1,6 +1,6 @@
 # LiteralenumEAbcGeometryCacheMoti-
 
-Literal enum EAbcGeometryCacheMotionVectorsImport
+枚举 EAbcGeometryCacheMotionVectorsImport
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAbcGeometryCacheMotionVectorsImport
 
 ## Inputs
 
-Enum: EAbcGeometryCacheMotionVectorsImport Enum.  
+枚举。EAbcGeometryCacheMotionVectorsImport Enum.  
 
 ## Outputs
 
-Return Value: EAbcGeometryCacheMotionVectorsImport Enum.
-
+返回值。EAbcGeometryCacheMotionVectorsImport Enum.

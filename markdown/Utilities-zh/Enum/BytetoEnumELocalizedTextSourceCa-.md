@@ -1,6 +1,6 @@
 # BytetoEnumELocalizedTextSourceCa-
 
-Byte to Enum ELocalizedTextSourceCategory
+字节到枚举 ELocalizedTextSourceCategory
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ELocalizedTextSourceCategory
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELocalizedTextSourceCategory Enum.
-
+返回值。ELocalizedTextSourceCategory Enum。

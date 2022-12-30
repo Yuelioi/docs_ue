@@ -1,6 +1,6 @@
 # GetnumberofentriesinEOpenCVAruco-_1
 
-Returns EOpenCVArucoDictionarySize_MAX value
+返回EOpenCVArucoDictionarySize_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EOpenCVArucoDictionarySize_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # BytetoEnumESendLevelControlMetho-
 
-Byte to Enum ESendLevelControlMethod
+字节到枚举 ESendLevelControlMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESendLevelControlMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESendLevelControlMethod Enum.
-
+返回值。ESendLevelControlMethod Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEScreenOrientation
 
-Byte to Enum EScreenOrientation
+字节到枚举 EScreenOrientation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EScreenOrientation
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EScreenOrientation Enum.
-
+返回值。EScreenOrientation Enum。

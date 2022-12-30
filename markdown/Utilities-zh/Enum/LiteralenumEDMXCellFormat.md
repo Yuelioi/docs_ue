@@ -1,6 +1,6 @@
 # LiteralenumEDMXCellFormat
 
-Literal enum EDMXCellFormat
+EDMXCellFormat的字面意义枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDMXCellFormat
 
 ## Inputs
 
-Enum: EDMXCellFormat Enum.  
+枚举。EDMXCellFormat Enum.  
 
 ## Outputs
 
-Return Value: EDMXCellFormat Enum.
-
+返回值。EDMXCellFormat Enum.

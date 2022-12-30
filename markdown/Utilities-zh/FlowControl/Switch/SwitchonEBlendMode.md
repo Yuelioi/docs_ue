@@ -1,6 +1,6 @@
 # SwitchonEBlendMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EBlendMode Enum.  
+选择。EBlendMode Enum.  
 
 ## Outputs
 
-Opaque: Exec.
+不透明的。Exec.
 
 Masked: Exec.
 
-Translucent: Exec.
+半透明的。Exec.
 
-Additive: Exec.
+添加剂。Exec.
 
-Modulate: Exec.
+调制: Exec.
 
-Alpha Composite (Premultiplied Alpha): Exec.
+α复合（预乘α）。Exec.
 
-Alpha Holdout: Exec.
-
+阿尔法保持。Exec.

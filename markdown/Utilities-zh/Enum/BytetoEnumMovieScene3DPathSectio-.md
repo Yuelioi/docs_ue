@@ -1,6 +1,6 @@
 # BytetoEnumMovieScene3DPathSectio-
 
-Byte to Enum MovieScene3DPathSection_Axis
+字节到枚举 MovieScene3DPathSection_Axis
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum MovieScene3DPathSection_Axis
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: MovieScene3DPathSection_Axis Enum.
-
+返回值。MovieScene3DPathSection_Axis Enum。

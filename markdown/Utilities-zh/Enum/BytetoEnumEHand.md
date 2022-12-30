@@ -1,6 +1,6 @@
 # BytetoEnumEHand
 
-Byte to Enum EHand
+字节到枚举EHand
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EHand
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EHand Enum.
-
+返回值。EHand Enum。

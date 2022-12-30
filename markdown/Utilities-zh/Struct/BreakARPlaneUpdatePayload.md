@@ -1,6 +1,6 @@
 # BreakARPlaneUpdatePayload
 
-Adds a node that breaks a 'ARPlaneUpdatePayload' into its member fields
+添加一个节点，将'ARPlaneUpdatePayload'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'ARPlaneUpdatePayload' into its member fields
 
 ## Inputs
 
-ARPlane Update Payload: ARPlane Update Payload Structure (by ref).  
+ARPlane Update Payload。ARPlane Update Payload结构（通过引用）。 
 
 ## Outputs
 
-Session Payload: ARSession Payload Structure. Session Payload.
+Session Payload: ARSession Payload结构。会话有效载荷。
 
-World Transform: Transform. World Transform.
+世界转换。变换。世界转换。
 
-Center: Vector. Center.
+中心。向量。Center: 中心。
 
-Extents: Vector. Extents.
+Extents: Vector.向量。Extents（外延）。
 
-Boundary Vertices: Array of Vectors. Boundary Vertices.
+Boundary Vertices: 矢量的阵列。边界顶点。
 
-Object Classification: EARObjectClassification Enum. Object Classification.
-
+对象分类。EARObjectClassification枚举。物体分类。

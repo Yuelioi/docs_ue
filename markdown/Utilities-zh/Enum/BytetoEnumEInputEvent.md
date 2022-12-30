@@ -1,6 +1,6 @@
 # BytetoEnumEInputEvent
 
-Byte to Enum EInputEvent
+字节到枚举EInputEvent
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EInputEvent
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EInputEvent Enum.
-
+返回值。EInputEvent Enum。

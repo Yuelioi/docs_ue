@@ -8,9 +8,8 @@ Byte to Enum EScrollWhenFocusChanges
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EScrollWhenFocusChanges Enum.
-
+返回值。EScrollWhenFocusChanges Enum.

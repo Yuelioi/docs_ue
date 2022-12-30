@@ -1,6 +1,6 @@
 # LiteralenumEARTrackingState
 
-Literal enum EARTrackingState
+字面意义上的EARTrackingState枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARTrackingState
 
 ## Inputs
 
-Enum: EARTrackingState Enum.  
+枚举。EARTrackingState Enum.  
 
 ## Outputs
 
-Return Value: EARTrackingState Enum.
-
+返回值。EARTrackingState Enum。

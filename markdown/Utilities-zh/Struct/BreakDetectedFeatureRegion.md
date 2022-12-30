@@ -1,6 +1,6 @@
 # BreakDetectedFeatureRegion
 
-Adds a node that breaks a 'DetectedFeatureRegion' into its member fields
+添加一个节点，将'DetectedFeatureRegion'分解为其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DetectedFeatureRegion' into its member fields
 
 ## Inputs
 
-Detected Feature Region: Detected Feature Region Structure (by ref).  
+检测到的地物区域。检测到的地物区域结构（通过引用）。 
 
 ## Outputs
 
-Points: Array of Vector 2D Structures. Points:. The set of points that encompass the detected feature area.
+点。矢量二维结构的阵列。Points:。包含检测到的特征区域的点的集合。
 
-Confidence: Float (single-precision). Confidence:. How confident the ML was in determining this feature and its type.
-
+信度。Float（单精度）。信度：。ML在确定该特征及其类型时的信心程度。

@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptPrimiti-
 
-Byte to Enum EGeometryScriptPrimitiveOriginMode
+字节到枚举 EGeometryScriptPrimitiveOriginMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptPrimitiveOriginMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptPrimitiveOriginMode Enum.
-
+返回值。EGeometryScriptPrimitiveOriginMode Enum.

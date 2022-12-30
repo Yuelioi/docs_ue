@@ -1,6 +1,6 @@
 # LiteralenumEGameplayCueNotify_At-
 
-Literal enum EGameplayCueNotify_AttachPolicy
+字面意义上的枚举：EGameplayCueNotify_AttachPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayCueNotify_AttachPolicy
 
 ## Inputs
 
-Enum: EGameplayCueNotify_AttachPolicy Enum.  
+枚举。EGameplayCueNotify_AttachPolicy枚举。 
 
 ## Outputs
 
-Return Value: EGameplayCueNotify_AttachPolicy Enum.
-
+返回值。EGameplayCueNotify_AttachPolicy Enum。

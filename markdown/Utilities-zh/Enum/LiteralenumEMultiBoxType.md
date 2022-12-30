@@ -1,6 +1,6 @@
 # LiteralenumEMultiBoxType
 
-Literal enum EMultiBoxType
+字面意义上的EMultiBoxType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMultiBoxType
 
 ## Inputs
 
-Enum: EMultiBoxType Enum.  
+枚举。EMultiBoxType 枚举。 
 
 ## Outputs
 
-Return Value: EMultiBoxType Enum.
-
+返回值。EMultiBoxType Enum。

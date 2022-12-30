@@ -1,6 +1,6 @@
 # BreakActorRecordedProperty
 
-Adds a node that breaks a 'ActorRecordedProperty' into its member fields
+添加一个节点，将'ActorRecordedProperty'分解为其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ActorRecordedProperty' into its member fields
 
 ## Inputs
 
-Actor Recorded Property: Actor Recorded Property Structure (by ref).  
+演员记录的属性。演员记录的属性结构（通过引用）。 
 
 ## Outputs
 
-Property Name: Name. Property Name.
+属性名称。名称。属性名称。
 
-Enabled: Boolean. Enabled.
-
+启用。Boolean（布尔）。Enabled（启用）。

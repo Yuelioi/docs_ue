@@ -1,6 +1,6 @@
 # SwitchonETextureRotationDirectio-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,25 +8,24 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETextureRotationDirection Enum.  
+选择。ETextureRotationDirection Enum.  
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
 Left: Exec.
 
-Right: Exec.
+右边：执行。执行。
 
-Down: Exec.
+向下：执行。
 
-Left Mirrored: Exec.
+左边的镜像。执行。
 
-Right Mirrored: Exec.
+右边的镜像。执行。
 
-Down Mirrored: Exec.
+向下 镜像。执行。
 
-Up Mirrored: Exec.
-
+向上 镜像。执行

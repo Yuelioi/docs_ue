@@ -1,6 +1,6 @@
 # BytetoEnumETransitionCurve
 
-Byte to Enum ETransitionCurve
+字节到枚举 ETstritionCurve
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETransitionCurve
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETransitionCurve Enum.
-
+返回值。ETransitionCurve Enum。

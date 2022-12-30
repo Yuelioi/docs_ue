@@ -1,6 +1,6 @@
 # SwitchonEDescendantScrollDestina-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDescendantScrollDestination Enum.  
+选择。EDescendantScrollDestination 枚举。 
 
 ## Outputs
 
-Into View: Exec.
+进入视图。执行。
 
-Top Or Left: Exec.
+顶部或左侧：Exec.Net
 
-Center: Exec.
+中间：执行。Exec.
 
-Bottom Or Right: Exec.
-
+底部或右侧。执行。

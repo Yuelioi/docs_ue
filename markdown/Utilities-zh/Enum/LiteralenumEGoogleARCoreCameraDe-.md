@@ -1,6 +1,6 @@
 # LiteralenumEGoogleARCoreCameraDe-
 
-Literal enum EGoogleARCoreCameraDepthSensorUsage
+枚举 EGoogleARCoreCameraDepthSensorUsage
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGoogleARCoreCameraDepthSensorUsage
 
 ## Inputs
 
-Enum: EGoogleARCoreCameraDepthSensorUsage Enum.  
+枚举。EGoogleARCoreCameraDepthSensorUsage枚举。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreCameraDepthSensorUsage Enum.
-
+返回值。EGoogleARCoreCameraDepthSensorUsage Enum。

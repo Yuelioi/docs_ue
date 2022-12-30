@@ -1,6 +1,6 @@
 # BytetoEnumEGroomNiagaraSolvers
 
-Byte to Enum EGroomNiagaraSolvers
+字节到枚举 EGroomNiagaraSolvers
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGroomNiagaraSolvers
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGroomNiagaraSolvers Enum.
-
+返回值。EGroomNiagaraSolvers Enum。

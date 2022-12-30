@@ -1,6 +1,6 @@
 # LiteralenumEConstantQFFTSizeEnum
 
-Literal enum EConstantQFFTSizeEnum
+枚举 EConstantQFFTSizeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EConstantQFFTSizeEnum
 
 ## Inputs
 
-Enum: EConstantQFFTSizeEnum Enum.  
+枚举。EConstantQFFTSizeEnum枚举。 
 
 ## Outputs
 
-Return Value: EConstantQFFTSizeEnum Enum.
-
+返回值。EConstantQFFTSizeEnum枚举。

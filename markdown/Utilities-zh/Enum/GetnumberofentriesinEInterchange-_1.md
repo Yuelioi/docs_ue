@@ -1,6 +1,6 @@
 # GetnumberofentriesinEInterchange-_1
 
-Returns EInterchangeNodeContainerType_MAX value
+返回EInterchangeNodeContainerType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EInterchangeNodeContainerType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

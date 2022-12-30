@@ -1,8 +1,8 @@
 # CollapseRelativeDirectories
 
-Takes a fully pathed string and eliminates relative pathing (eg: annihilates ".." with the adjacent directory).. Assumes all slashes have been converted to TEXT('/').. For example, takes the string:. BaseDirectory/SomeDirectory/../SomeOtherDirectory/Filename.ext. and converts it to:. BaseDirectory/SomeOtherDirectory/Filename.ext
+接受一个完整路径的字符串并消除相对路径（例如：将"... "与相邻的目录消灭）。假设所有斜线都被转换为TEXT('/')。例如，将字符串：. BaseDirectory/SomeDirectory/.../SomeOtherDirectory/Filename.ext.并将其转换为：. BaseDirectory/SomeOtherDirectory/Filename.ext。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Path: String.  
+在路径中。字符串。 
 
 ## Outputs
 
-Out Path: String.
+输出路径。字符串。
 
-Return Value: Boolean. Takes a fully pathed string and eliminates relative pathing (eg: annihilates ".." with the adjacent directory).. Assumes all slashes have been converted to TEXT('/').. For example, takes the string:. BaseDirectory/SomeDirectory/../SomeOtherDirectory/Filename.ext. and converts it to:. BaseDirectory/SomeOtherDirectory/Filename.ext.
-
+返回值。布尔值。接受一个完整路径的字符串并消除相对路径（例如：将"... "与相邻的目录消灭）。假设所有斜线都被转换为TEXT('/')。例如，将字符串：. BaseDirectory/SomeDirectory/.../SomeOtherDirectory/Filename.ext.并将其转换为：. BaseDirectory/SomeOtherDirectory/Filename.ext。

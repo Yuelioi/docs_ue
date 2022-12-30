@@ -1,6 +1,6 @@
 # GetnumberofentriesinEToolMenuIns-
 
-Returns EToolMenuInsertType_MAX value
+返回EToolMenuInsertType_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EToolMenuInsertType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

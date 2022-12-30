@@ -1,8 +1,8 @@
 # GetRegisteredStringTables
 
-Returns an array of all registered string table IDs
+返回所有注册字符串表ID的数组
 
-Target is Kismet String Table Library
+目标是Kismet字符串表库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Kismet String Table Library
 
 ## Outputs
 
-Return Value: Array of Names. Returns an array of all registered string table IDs.
-
+返回值。名称的数组。返回所有注册的字符串表ID的数组。

@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-_11
 
-Adds a node that breaks a 'DisplayClusterConfigurationPolymorphicEntity' into its member fields
+添加一个节点，将'DisplayClusterConfigurationPolymorphicEntity'分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DisplayClusterConfigurationPolymorphicEntity' into it
 
 ## Inputs
 
-Display Cluster Configuration Polymorphic Entity: Display Cluster Configuration Polymorphic Entity Structure (by ref).  
+Display Cluster Configuration Polymorphic Entity。显示集群配置多态实体结构（通过引用）。 
 
 ## Outputs
 
-Type: String. Type:. Polymorphic entity type.
+类型。字符串。类型：。多态实体类型。
 
-Parameters: Map of Strings to Strings. Parameters:. Generic parameters map.
-
+参数。字符串到字符串的映射。参数:。通用参数映射。

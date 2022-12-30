@@ -1,6 +1,6 @@
 # LiteralenumEInAppPurchaseStatus
 
-Literal enum EInAppPurchaseStatus
+枚举EInAppPurchaseStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EInAppPurchaseStatus
 
 ## Inputs
 
-Enum: EInAppPurchaseStatus Enum.  
+枚举。EInAppPurchaseStatus Enum.  
 
 ## Outputs
 
-Return Value: EInAppPurchaseStatus Enum.
-
+返回值。EInAppPurchaseStatus Enum.

@@ -1,8 +1,8 @@
 # ToString_boolean
 
-Converts a boolean value to a string, either 'true' or 'false'
+将一个布尔值转换为字符串，要么是 "真 "要么是 "假
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-In Bool: Boolean.  
+在Bool: 布尔值。 
 
 ## Outputs
 
-Return Value: String. Converts a boolean value to a string, either 'true' or 'false'.
-
+返回值。字符串。将布尔值转换为字符串，要么是 "真 "要么是 "假"。

@@ -1,6 +1,6 @@
 # SwitchonEFieldResolutionType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EFieldResolutionType Enum.  
+选择。EFieldResolutionType Enum.  
 
 ## Outputs
 
-Minimum: Exec.
+最小值。Exec.
 
 Parents: Exec.
 
-Maximum: Exec.
-
+最大。执行

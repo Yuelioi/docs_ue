@@ -1,6 +1,6 @@
 # SwitchonEConversationRequirement-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EConversationRequirementResult Enum.  
+选择。EConversationRequirementResult枚举。 
 
 ## Outputs
 
-Passed: Exec.
+通过。Exec.
 
-Failed But Visible: Exec.
+失败但可以看到。Exec.
 
-Failed And Hidden: Exec.
-
+失败并隐藏。执行。

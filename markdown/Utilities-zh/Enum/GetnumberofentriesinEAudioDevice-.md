@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAudioDevice-
 
-Returns EAudioDeviceChangedRole_MAX value
+返回EAudioDeviceChangedRole_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAudioDeviceChangedRole_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

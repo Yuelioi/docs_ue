@@ -1,6 +1,6 @@
 # LiteralenumEHandSkeleton
 
-Literal enum EHandSkeleton
+字面意义上的EHandSkeleton枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EHandSkeleton
 
 ## Inputs
 
-Enum: EHandSkeleton Enum.  
+枚举。EHandSkeleton Enum.  
 
 ## Outputs
 
-Return Value: EHandSkeleton Enum.
-
+返回值。EHandSkeleton Enum.

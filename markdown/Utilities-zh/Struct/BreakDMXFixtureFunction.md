@@ -1,6 +1,6 @@
 # BreakDMXFixtureFunction
 
-Adds a node that breaks a 'DMXFixtureFunction' into its member fields
+添加一个节点，将'DMXFixtureFunction'分解成其成员字段
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'DMXFixtureFunction' into its member fields
 
 ## Inputs
 
-DMXFixture Function: DMXFixture Function Structure (by ref).  
+DMXFixture功能。DMXFixture功能结构（通过引用）。 
 
 ## Outputs
 
-Attribute Mapping: DMXAttribute Name Structure. Attribute:. The Attribute name to map this Function to.. This is used to easily find the Function in Blueprints, using an Attribute. list instead of typing the Function name directly.. The list of Attributes can be edited on. Project Settings->Plugins->DMX Protocol->Fixture Settings->Fixture Function Attributes.
+属性映射。DMXAttribute Name结构。属性：。将该功能映射到的属性名称。这用于在蓝图中轻松查找功能，使用属性列表，而不是直接输入功能名称。属性列表可以在下面编辑。项目设置->插件->DMX协议->灯具设置->灯具功能属性。
 
-Function Name: String. Function Name.
+功能名称。字符串。功能名称。
 
-Description: String. Description.
+描述。字符串。Description: 描述。
 
-Default Value: Integer64. Default Value:. The Default Value of the function, imported from GDTF. The plugin doesn't make use of this value, but it can be used in blueprints.
+默认值。整数64。默认值：。该函数的默认值，从GDTF导入。这个插件不使用这个值，但它可以在蓝图中使用。
 
-Channel Assignment: Integer. Channel:. This function's starting channel (use editor above to make changes).
+通道分配。整数。Channel:. 这个函数的起始通道（使用上面的编辑器来进行修改）。
 
-Data Type: EDMXFixtureSignalFormat Enum. Data Type:. This function's data type. Defines the used number of channels (bytes).
+数据类型。EDMXFixtureSignalFormat枚举。数据类型:. 这个函数的数据类型。定义了使用的通道数（字节）。
 
-Use LSB Mode: Boolean. Use LSBMode:. Least Significant Byte mode makes the individual bytes (channels) of the function be. interpreted with the first bytes being the lowest part of the number (endianness).: E.g., given a 16 bit function with two channel values set to [0, 1],. they would be interpreted as the binary number 0x01 0x00, which means 256.. The first byte (0) became the lowest part in binary form and the following byte (1), the highest.: Most Fixtures use MSB (Most Significant Byte) mode, which interprets bytes as highest first.. In MSB mode, the example above would be interpreted in binary as 0x00 0x01, which means 1.. The first byte (0) became the highest part in binary form and the following byte (1), the lowest..
-
+使用LSB模式。布尔值。使用LSBMode:. 最小有效字节模式使函数的各个字节（通道）被.解释为第一个字节是数字的最低部分（endianness）。例如，给定一个16位的函数，有两个通道值设置为[0, 1]，它们将被解释为二进制数字0x01 0x00，这意味着256。第一个字节（0）成为二进制形式的最低部分，下面的字节（1），是最高的。大多数灯具使用MSB（最重要的字节）模式，它将字节解释为最高的第一个。在MSB模式下，上面的例子在二进制中被解释为0x00 0x01，这意味着1。第一个字节（0）成为二进制形式的最高部分，下面的字节（1），是最低的。

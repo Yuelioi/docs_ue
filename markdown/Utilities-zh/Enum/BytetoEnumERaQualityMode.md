@@ -1,6 +1,6 @@
 # BytetoEnumERaQualityMode
 
-Byte to Enum ERaQualityMode
+字节到枚举ERaQualityMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERaQualityMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERaQualityMode Enum.
-
+返回值。ERaQualityMode Enum。

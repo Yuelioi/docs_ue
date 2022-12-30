@@ -1,6 +1,6 @@
 # LiteralenumEContentBrowserPathTy-
 
-Literal enum EContentBrowserPathType
+文字枚举EContentBrowserPathType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EContentBrowserPathType
 
 ## Inputs
 
-Enum: EContentBrowserPathType Enum.  
+枚举。EContentBrowserPathType枚举。 
 
 ## Outputs
 
-Return Value: EContentBrowserPathType Enum.
-
+返回值。EContentBrowserPathType Enum。

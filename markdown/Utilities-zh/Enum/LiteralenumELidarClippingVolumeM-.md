@@ -1,6 +1,6 @@
 # LiteralenumELidarClippingVolumeM-
 
-Literal enum ELidarClippingVolumeMode
+枚举ELidarClippingVolumeMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELidarClippingVolumeMode
 
 ## Inputs
 
-Enum: ELidarClippingVolumeMode Enum.  
+枚举。ELidarClippingVolumeMode Enum.  
 
 ## Outputs
 
-Return Value: ELidarClippingVolumeMode Enum.
-
+返回值。ELidarClippingVolumeMode Enum.

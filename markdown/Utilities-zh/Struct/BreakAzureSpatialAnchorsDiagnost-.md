@@ -1,6 +1,6 @@
 # BreakAzureSpatialAnchorsDiagnost-
 
-Adds a node that breaks a 'AzureSpatialAnchorsDiagnosticsConfig' into its member fields
+添加一个节点，将'AzureSpatialAnchorsDiagnosticsConfig'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'AzureSpatialAnchorsDiagnosticsConfig' into its member
 
 ## Inputs
 
-Azure Spatial Anchors Diagnostics Config: Azure Spatial Anchors Diagnostics Config Structure (by ref).  
+Azure Spatial Anchors Diagnostics Config: Azure Spatial Anchors Diagnostics Config结构（通过参考）。 
 
 ## Outputs
 
-Images Enabled: Boolean. Images Enabled.
+图像已启用。布尔值。图像已启用。
 
-Log Directory: String. Log Directory.
+日志目录。字符串。日志目录。
 
-Log Level: EAzureSpatialAnchorsLogVerbosity Enum. Log Level.
+日志级别。EAzureSpatialAnchorsLogVerbosity Enum。日志级别。
 
-Max Disk Size In MB: Integer. Max Disk Size in MB.
-
+Max Disk Size In MB: Integer. 最大磁盘大小（MB）。

@@ -1,6 +1,6 @@
 # LiteralenumEWaveFunctionType
 
-Literal enum EWaveFunctionType
+枚举 EWaveFunctionType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWaveFunctionType
 
 ## Inputs
 
-Enum: EWaveFunctionType Enum.  
+枚举。EWaveFunctionType Enum.  
 
 ## Outputs
 
-Return Value: EWaveFunctionType Enum.
-
+返回值。EWaveFunctionType Enum。

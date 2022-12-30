@@ -1,8 +1,8 @@
 # GetMeta_DataIDsfromStringTableEn-
 
-Returns an array of all meta-data IDs within the given string table entry
+返回给定字符串表项中所有元数据ID的数组。
 
-Target is Kismet String Table Library
+目标是Kismet字符串表库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet String Table Library
 
 ## Inputs
 
-Table Id: Name.
+表的ID。名称。
 
-Key: String.  
+关键。字符串。 
 
 ## Outputs
 
-Return Value: Array of Names. Returns an array of all meta-data IDs within the given string table entry.
-
+返回值。名称的数组。返回给定字符串表项中所有元数据ID的数组。

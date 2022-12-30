@@ -1,6 +1,6 @@
 # LiteralenumELensDataCategory
 
-Literal enum ELensDataCategory
+字面意义上的ELensDataCategory枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELensDataCategory
 
 ## Inputs
 
-Enum: ELensDataCategory Enum.  
+枚举。ELensDataCategory Enum.  
 
 ## Outputs
 
-Return Value: ELensDataCategory Enum.
-
+返回值。ELensDataCategory Enum.

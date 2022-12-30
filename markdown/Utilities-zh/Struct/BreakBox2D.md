@@ -1,6 +1,6 @@
 # BreakBox2D
 
-Adds a node that breaks a 'Box2D' into its member fields
+添加一个节点，将一个'Box2D'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'Box2D' into its member fields
 
 ## Inputs
 
-Box 2D: Box 2D Structure (by ref).  
+Box 2D: Box 2D结构（通过引用）。 
 
 ## Outputs
 
-Min: Vector 2D Structure. Min.
+Min: 矢量二维结构。Min.Max: 矢量二维结构。
 
-Max: Vector 2D Structure. Max.
-
+Max: 矢量二维结构。最大：矢量2D结构。

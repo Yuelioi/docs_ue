@@ -1,6 +1,6 @@
 # LiteralenumEMovieSceneControlRig-
 
-Literal enum EMovieSceneControlRigSpaceType
+枚举EMovieSceneControlRigSpaceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMovieSceneControlRigSpaceType
 
 ## Inputs
 
-Enum: EMovieSceneControlRigSpaceType Enum.  
+枚举。EMovieSceneControlRigSpaceType枚举。 
 
 ## Outputs
 
-Return Value: EMovieSceneControlRigSpaceType Enum.
-
+返回值。EMovieSceneControlRigSpaceType枚举。

@@ -1,6 +1,6 @@
 # BreakARSharedWorldReplicationSta-
 
-Adds a node that breaks a 'ARSharedWorldReplicationState' into its member fields
+添加一个节点，将'ARSharedWorldReplicationState'分解到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ARSharedWorldReplicationState' into its member fields
 
 ## Inputs
 
-ARShared World Replication State: ARShared World Replication State Structure (by ref).  
+ARShared World Replication State。ARShared World Replication State结构（通过引用）。 
 
 ## Outputs
 
-Preview Image Offset: Integer. Preview Image Offset:. The offset in the overall image data buffer.
+Preview Image Offset: 整数。预览图像偏移量：。整体图像数据缓冲区中的偏移量。
 
-ARWorld Offset: Integer. ARWorld Offset:. The offset in the overall ARWorld data buffer.
-
+ARWorld Offset: 整数。ARWorld Offset:. 在整个ARWorld数据缓冲区的偏移量。

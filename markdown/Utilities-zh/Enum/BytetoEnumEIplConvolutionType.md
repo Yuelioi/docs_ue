@@ -1,6 +1,6 @@
 # BytetoEnumEIplConvolutionType
 
-Byte to Enum EIplConvolutionType
+字节到枚举 EIplConvolutionType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EIplConvolutionType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EIplConvolutionType Enum.
-
+返回值。EIplConvolutionType Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumERigVMGraphNotifType
 
-Byte to Enum ERigVMGraphNotifType
+字节到枚举 ERigVMGraphNotifType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERigVMGraphNotifType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERigVMGraphNotifType Enum.
-
+返回值。ERigVMGraphNotifType Enum。

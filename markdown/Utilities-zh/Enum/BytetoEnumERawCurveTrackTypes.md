@@ -8,9 +8,8 @@ Byte to Enum ERawCurveTrackTypes
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERawCurveTrackTypes Enum.
-
+返回值。ERawCurveTrackTypes Enum。

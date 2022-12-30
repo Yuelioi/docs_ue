@@ -1,6 +1,6 @@
 # SwitchonEControllerType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EControllerType Enum.  
+选择。EControllerType枚举。 
 
 ## Outputs
 
-Laser: Exec.
+激光。Exec.
 
 Assisting Laser: Exec.
 
-UI: Exec.
+UI: 执行。
 
-Navigation: Exec.
+导航：执行。执行。
 
-Unknown: Exec.
-
+未知数。Exec.

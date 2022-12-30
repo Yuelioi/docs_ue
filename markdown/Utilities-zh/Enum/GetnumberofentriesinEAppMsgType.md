@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAppMsgType
 
-Returns EAppMsgType_MAX value
+返回 EAppMsgType_MAX 值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAppMsgType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

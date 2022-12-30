@@ -1,6 +1,6 @@
 # BytetoEnumESlateVisibility
 
-Byte to Enum ESlateVisibility
+字节到枚举 ESlateVisibility
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESlateVisibility
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESlateVisibility Enum.
-
+返回值。ESlateVisibility Enum。

@@ -8,9 +8,8 @@ Byte to Enum ETouchInputState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETouchInputState Enum.
-
+返回值。ETouchInputState Enum。

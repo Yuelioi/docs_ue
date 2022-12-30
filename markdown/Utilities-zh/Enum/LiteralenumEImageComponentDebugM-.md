@@ -1,6 +1,6 @@
 # LiteralenumEImageComponentDebugM-
 
-Literal enum EImageComponentDebugMode
+枚举EImageComponentDebugMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EImageComponentDebugMode
 
 ## Inputs
 
-Enum: EImageComponentDebugMode Enum.  
+枚举。EImageComponentDebugMode Enum.  
 
 ## Outputs
 
-Return Value: EImageComponentDebugMode Enum.
-
+返回值。EImageComponentDebugMode Enum.

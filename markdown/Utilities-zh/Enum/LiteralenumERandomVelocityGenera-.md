@@ -1,6 +1,6 @@
 # LiteralenumERandomVelocityGenera-
 
-Literal enum ERandomVelocityGenerationTypeEnum
+文字枚举ERandomVelocityGenerationTypeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERandomVelocityGenerationTypeEnum
 
 ## Inputs
 
-Enum: ERandomVelocityGenerationTypeEnum Enum.  
+枚举。ERandomVelocityGenerationTypeEnum枚举。 
 
 ## Outputs
 
-Return Value: ERandomVelocityGenerationTypeEnum Enum.
-
+返回值。ERandomVelocityGenerationTypeEnum枚举。

@@ -1,6 +1,6 @@
 # SwitchonETextGender
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETextGender Enum.  
+选择。ETextGender Enum.  
 
 ## Outputs
 
-Masculine: Exec.
+男性化。执行。
 
-Feminine: Exec.
+Feminine: 雌性：Exec.
 
-Neuter: Exec.
-
+中性。执行

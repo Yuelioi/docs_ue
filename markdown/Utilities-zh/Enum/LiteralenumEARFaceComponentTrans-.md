@@ -1,6 +1,6 @@
 # LiteralenumEARFaceComponentTrans-
 
-Literal enum EARFaceComponentTransformMixing
+枚举EARFaceComponentTransformMixing
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARFaceComponentTransformMixing
 
 ## Inputs
 
-Enum: EARFaceComponentTransformMixing Enum.  
+枚举。EARFaceComponentTransformMixing Enum.  
 
 ## Outputs
 
-Return Value: EARFaceComponentTransformMixing Enum.
-
+返回值。EARFaceComponentTransformMixing Enum。

@@ -1,6 +1,6 @@
 # LiteralenumEHandTrackingFrequenc-
 
-Literal enum EHandTrackingFrequency
+枚举EHandTrackingFrequency的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EHandTrackingFrequency
 
 ## Inputs
 
-Enum: EHandTrackingFrequency Enum.  
+枚举。EHandTrackingFrequency Enum.  
 
 ## Outputs
 
-Return Value: EHandTrackingFrequency Enum.
-
+返回值。EHandTrackingFrequency Enum。

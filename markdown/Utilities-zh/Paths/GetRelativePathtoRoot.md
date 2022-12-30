@@ -1,8 +1,8 @@
 # GetRelativePathtoRoot
 
-Gets the relative path to get from BaseDir to RootDirectory
+获取从BaseDir到RootDirectory的相对路径
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. Gets the relative path to get from BaseDir to RootDirectory.
-
+返回值。字符串。获取从BaseDir到RootDirectory的相对路径。

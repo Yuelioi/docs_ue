@@ -1,6 +1,6 @@
 # LiteralenumEUpdatePositionMethod
 
-Literal enum EUpdatePositionMethod
+字面上的枚举 EUpdatePositionMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EUpdatePositionMethod
 
 ## Inputs
 
-Enum: EUpdatePositionMethod Enum.  
+枚举。EUpdatePositionMethod Enum.  
 
 ## Outputs
 
-Return Value: EUpdatePositionMethod Enum.
-
+返回值。EUpdatePositionMethod Enum。

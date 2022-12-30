@@ -1,6 +1,6 @@
 # SwitchonETransitionCurve
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETransitionCurve Enum.  
+选择。ETTransitionCurve 枚举。 
 
 ## Outputs
 
-Linear: Exec.
+线性。Exec.
 
 Quad In: Exec.
 
-Quad Out: Exec.
+Quad Out: 执行。
 
-Quad In Out: Exec.
+四进一出。Exec.
 
-Cubic In: Exec.
+立方体 输入 执行。
 
-Cubic Out: Exec.
+立体输出。执行。
 
-Cubic In Out: Exec.
-
+立方体输入输出。执行。

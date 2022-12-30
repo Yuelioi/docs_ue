@@ -1,6 +1,6 @@
 # GetnumberofentriesinEPhaserLFOTy-
 
-Returns EPhaserLFOType_MAX value
+返回EPhaserLFOType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EPhaserLFOType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

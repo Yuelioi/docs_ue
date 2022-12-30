@@ -1,6 +1,6 @@
 # LiteralenumCurveInterpolationTyp-
 
-Literal enum CurveInterpolationType
+曲线插值类型的枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum CurveInterpolationType
 
 ## Inputs
 
-Enum: CurveInterpolationType Enum.  
+枚举。CurveInterpolationType Enum.  
 
 ## Outputs
 
-Return Value: CurveInterpolationType Enum.
-
+返回值。CurveInterpolationType Enum。

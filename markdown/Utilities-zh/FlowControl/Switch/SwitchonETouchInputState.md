@@ -1,6 +1,6 @@
 # SwitchonETouchInputState
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETouchInputState Enum.  
+选择。ETouchInputState Enum.  
 
 ## Outputs
 
 Actor Focus Targeting: Exec.
 
-Auto Focus Targeting: Exec.
+Auto Focus Targeting: 执行。
 
-Blueprint Defined: Exec.
+Blueprint Defined: 执行。
 
-Manual Touch Focus: Exec.
+手动触摸对焦。Exec.
 
-Scrubbing: Exec.
+擦洗: Exec.
 
-Touch And Hold: Exec.
-
+触摸并保持: 执行.

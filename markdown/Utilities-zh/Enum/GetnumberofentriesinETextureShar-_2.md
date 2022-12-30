@@ -1,6 +1,6 @@
 # GetnumberofentriesinETextureShar-_2
 
-Returns ETextureShareBPSyncSurface_MAX value
+返回ETextureShareBPSyncSurface_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ETextureShareBPSyncSurface_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

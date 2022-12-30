@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAudioRecord-
 
-Returns EAudioRecordingExportType_MAX value
+返回EAudioRecordingExportType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAudioRecordingExportType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

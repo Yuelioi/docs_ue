@@ -1,6 +1,6 @@
 # BreakContextualAnimTransitionCon-
 
-Adds a node that breaks a 'ContextualAnimTransitionContainer' into its member fields
+添加一个打破'ContextualAnimTransitionContainer'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ContextualAnimTransitionContainer' into its member fi
 
 ## Inputs
 
-Contextual Anim Transition Container: Contextual Anim Transition Container Structure (by ref).  
+上下文动画过渡容器。语境动画过渡容器结构（通过引用）。 
 
 ## Outputs
 
-From Sections: Array of Names. From Sections.
+从各部分。名称的数组。From Sections.
 
-To Section: Name. To Section.
+到节。名称。到节。
 
-Force Transition: Boolean. Force Transition:. @TODO: Remove this from here it should be on the EdMode.
-
+强制过渡。布尔值。强制过渡：。@TODO: 从这里删除，它应该是在EdMode中。

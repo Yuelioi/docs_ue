@@ -1,6 +1,6 @@
 # LiteralenumEGroomInterpolationTy-
 
-Literal enum EGroomInterpolationType
+字面上的枚举：EGroomInterpolationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGroomInterpolationType
 
 ## Inputs
 
-Enum: EGroomInterpolationType Enum.  
+枚举。EGroomInterpolationType枚举。 
 
 ## Outputs
 
-Return Value: EGroomInterpolationType Enum.
-
+返回值。EGroomInterpolationType Enum。

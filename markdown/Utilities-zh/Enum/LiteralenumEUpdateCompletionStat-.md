@@ -1,6 +1,6 @@
 # LiteralenumEUpdateCompletionStat-
 
-Literal enum EUpdateCompletionStatus
+字面上的枚举：EUpdateCompletionStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EUpdateCompletionStatus
 
 ## Inputs
 
-Enum: EUpdateCompletionStatus Enum.  
+枚举。EUpdateCompletionStatus枚举。 
 
 ## Outputs
 
-Return Value: EUpdateCompletionStatus Enum.
-
+返回值。EUpdateCompletionStatus枚举。

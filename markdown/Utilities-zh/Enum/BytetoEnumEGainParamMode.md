@@ -13,4 +13,3 @@ Byte: Byte.
 ## Outputs
 
 Return Value: EGainParamMode Enum.
-

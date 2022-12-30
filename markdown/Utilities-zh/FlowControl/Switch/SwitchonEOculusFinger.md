@@ -1,6 +1,6 @@
 # SwitchonEOculusFinger
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EOculusFinger Enum.  
+选择。EOculusFinger Enum.  
 
 ## Outputs
 
-Thumb: Exec.
+拇指。Exec.
 
-Index: Exec.
+指数：EOculusFinger Enum: Exec.
 
-Middle: Exec.
+中指 执行.
 
-Ring: Exec.
+戒指: 执行
 
-Pinky: Exec.
+小指 执行
 
-Invalid: Exec.
-
+无效。执行。

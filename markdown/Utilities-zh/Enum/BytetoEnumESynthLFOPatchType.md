@@ -8,9 +8,8 @@ Byte to Enum ESynthLFOPatchType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESynthLFOPatchType Enum.
-
+返回值。ESynthLFOPatchType Enum。

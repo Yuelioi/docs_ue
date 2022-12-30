@@ -1,6 +1,6 @@
 # SwitchonEGeometryScriptLODType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGeometryScriptLODType Enum.  
+选择。EGeometryScriptLODType枚举。 
 
 ## Outputs
 
-Max Available: Exec.
+最大可用值。Exec.
 
-Hi Res Source Model: Exec.
+高分辨率源模型。Exec.
 
-Source Model: Exec.
+源模型：Exec: 源模型: Exec.
 
-Render Data: Exec.
-
+渲染数据。渲染数据: Exec.

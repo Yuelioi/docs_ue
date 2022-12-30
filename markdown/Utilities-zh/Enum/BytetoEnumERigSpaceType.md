@@ -1,6 +1,6 @@
 # BytetoEnumERigSpaceType
 
-Byte to Enum ERigSpaceType
+字节到枚举ERigSpaceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERigSpaceType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERigSpaceType Enum.
-
+返回值。ERigSpaceType Enum。

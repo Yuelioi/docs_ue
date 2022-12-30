@@ -1,6 +1,6 @@
 # LiteralenumFCPXMLExportDataSourc-
 
-Literal enum FCPXMLExportDataSource
+字面意义上的枚举：FCPXMLExportDataSource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum FCPXMLExportDataSource
 
 ## Inputs
 
-Enum: FCPXMLExportDataSource Enum.  
+枚举。FCPXMLExportDataSource枚举。 
 
 ## Outputs
 
-Return Value: FCPXMLExportDataSource Enum.
-
+返回值。FCPXMLExportDataSource Enum。

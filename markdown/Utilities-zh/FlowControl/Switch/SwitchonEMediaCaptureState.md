@@ -1,6 +1,6 @@
 # SwitchonEMediaCaptureState
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMediaCaptureState Enum.  
+选择。EMediaCaptureState Enum。 
 
 ## Outputs
 
-Error: Exec.
+错误。Exec.
 
-Capturing: Exec.
+捕获。执行。
 
-Preparing: Exec.
+准备工作。执行.
 
-Stop Requested: Exec.
+要求停止。执行.
 
-Stopped: Exec.
-
+已停止。执行。

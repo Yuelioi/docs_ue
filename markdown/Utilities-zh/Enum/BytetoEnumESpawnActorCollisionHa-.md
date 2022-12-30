@@ -8,9 +8,8 @@ Byte to Enum ESpawnActorCollisionHandlingMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESpawnActorCollisionHandlingMethod Enum.
-
+返回值。ESpawnActorCollisionHandlingMethod Enum。

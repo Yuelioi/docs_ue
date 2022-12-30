@@ -1,6 +1,6 @@
 # BytetoEnumEMappingQueryIssue
 
-Byte to Enum EMappingQueryIssue
+字节到枚举 EMappingQueryIssue
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMappingQueryIssue
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMappingQueryIssue Enum.
-
+返回值。EMappingQueryIssue Enum。

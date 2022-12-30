@@ -1,6 +1,6 @@
 # BytetoEnumEVirtualKeyboardDismis-
 
-Byte to Enum EVirtualKeyboardDismissAction
+字节到枚举EVirtualKeyboardDismissAction
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EVirtualKeyboardDismissAction
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EVirtualKeyboardDismissAction Enum.
-
+返回值。EVirtualKeyboardDismissAction枚举。

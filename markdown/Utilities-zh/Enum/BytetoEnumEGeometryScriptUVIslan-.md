@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptUVIslan-
 
-Byte to Enum EGeometryScriptUVIslandSource
+字节到枚举 EGeometryScriptUVIslandSource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptUVIslandSource
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptUVIslandSource Enum.
-
+返回值。EGeometryScriptUVIslandSource Enum.

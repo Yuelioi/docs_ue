@@ -1,8 +1,8 @@
 # EngineContentDir
 
-Returns the content directory of the "core" engine that can be shared across. several games or across games & mods.
+返回 "核心 "引擎的内容目录，该目录可以在多个游戏或游戏与MOD之间共享。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. engine content directory.
-
+返回值。字符串。引擎内容目录。

@@ -1,6 +1,6 @@
 # BytetoEnumEMovieSceneBlendType
 
-Byte to Enum EMovieSceneBlendType
+字节到枚举 EMovieSceneBlendType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMovieSceneBlendType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMovieSceneBlendType Enum.
-
+返回值。EMovieSceneBlendType Enum。

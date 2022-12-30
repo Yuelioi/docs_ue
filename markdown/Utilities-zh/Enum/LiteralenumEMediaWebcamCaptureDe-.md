@@ -1,6 +1,6 @@
 # LiteralenumEMediaWebcamCaptureDe-
 
-Literal enum EMediaWebcamCaptureDeviceFilter
+枚举EMediaWebcamCaptureDeviceFilter的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMediaWebcamCaptureDeviceFilter
 
 ## Inputs
 
-Enum: EMediaWebcamCaptureDeviceFilter Enum.  
+枚举。EMediaWebcamCaptureDeviceFilter枚举。 
 
 ## Outputs
 
-Return Value: EMediaWebcamCaptureDeviceFilter Enum.
-
+返回值。EMediaWebcamCaptureDeviceFilter Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumESlateAccessibleBehavi-
 
-Byte to Enum ESlateAccessibleBehavior
+字节到枚举 ESlateAccessibleBehavior
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESlateAccessibleBehavior
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESlateAccessibleBehavior Enum.
-
+返回值。ESlateAccessibleBehavior Enum。

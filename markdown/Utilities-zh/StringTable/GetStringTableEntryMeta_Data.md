@@ -1,8 +1,8 @@
 # GetStringTableEntryMeta_Data
 
-Returns the specified meta-data of the given string table entry (or an empty string).
+返回指定的字符串表项的元数据（或空字符串）。
 
-Target is Kismet String Table Library
+目标是Kismet字符串表库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet String Table Library
 
 ## Inputs
 
-Table Id: Name.
+表标识。名称。
 
-Key: String.
+键。字符串。
 
-Meta Data Id: Name.  
+元数据 Id: 名称。 
 
 ## Outputs
 
-Return Value: String. Returns the specified meta-data of the given string table entry (or an empty string)..
-
+返回值。字符串。返回给定字符串表项的指定元数据（或一个空字符串）。

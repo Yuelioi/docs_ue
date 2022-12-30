@@ -1,6 +1,6 @@
 # BytetoEnumERigControlAxis
 
-Byte to Enum ERigControlAxis
+字节到枚举ERigControlAxis
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERigControlAxis
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERigControlAxis Enum.
-
+返回值。ERigControlAxis Enum。

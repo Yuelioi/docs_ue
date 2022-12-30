@@ -1,6 +1,6 @@
 # BytetoEnumEOculusMR_PostProcessE-
 
-Byte to Enum EOculusMR_PostProcessEffects
+字节到枚举 EOculusMR_PostProcessEffects
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EOculusMR_PostProcessEffects
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EOculusMR_PostProcessEffects Enum.
-
+返回值。EOculusMR_PostProcessEffects Enum。

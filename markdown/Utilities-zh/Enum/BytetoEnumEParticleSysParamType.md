@@ -1,6 +1,6 @@
 # BytetoEnumEParticleSysParamType
 
-Byte to Enum EParticleSysParamType
+字节到枚举 EParticleSysParamType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EParticleSysParamType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EParticleSysParamType Enum.
-
+返回值。EParticleSysParamType Enum。

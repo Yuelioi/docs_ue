@@ -1,12 +1,12 @@
 # ResetGamepadAssignmenttoControll-
 
-  * Resets the gamepad assignment to player controller id (Android and iOS only)
+  *将游戏手柄的分配重设为玩家的控制器ID（仅限安卓和iOS）。
 
 
 
 
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -14,11 +14,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Controller Id: Integer.  
+控制器ID。整数。 
 
 ## Outputs
 
-Out: Exec.
-
+输出。Exec.

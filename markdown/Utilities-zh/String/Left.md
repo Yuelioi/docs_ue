@@ -1,8 +1,8 @@
 # Left
 
-Returns the left most given number of characters
+返回给定的最左边的字符数
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source String: String.
+源字符串。字符串。
 
-Count: Integer.  
+计数。整数。 
 
 ## Outputs
 
-Return Value: String. Returns the left most given number of characters.
-
+返回值。字符串。返回给定的最左边的字符数。

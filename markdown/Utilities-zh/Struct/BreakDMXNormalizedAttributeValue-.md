@@ -1,6 +1,6 @@
 # BreakDMXNormalizedAttributeValue-
 
-Adds a node that breaks a 'DMXNormalizedAttributeValueMap' into its member fields
+添加一个节点，将'DMXNormalizedAttributeValueMap'分解成其成员字段。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'DMXNormalizedAttributeValueMap' into its member field
 
 ## Inputs
 
-DMXNormalized Attribute Value Map: DMXNormalized Attribute Value Map Structure (by ref).  
+DMXNormalized Attribute Value Map。DMXNormalized Attribute Value Map结构（通过引用）。 
 
 ## Outputs
 
-Map: Map of DMXAttribute Name Structures to Float (single-precision)s. Map.
-
+地图。DMXAttribute Name结构到Float（单精度）的映射。地图：DMXAttribute Name结构到Float（单精度）的地图。

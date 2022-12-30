@@ -1,6 +1,6 @@
 # BreakAnimatedBoneAttribute
 
-Adds a node that breaks a 'AnimatedBoneAttribute' into its member fields
+添加一个打破'AnimatedBoneAttribute'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'AnimatedBoneAttribute' into its member fields
 
 ## Inputs
 
-Animated Bone Attribute: Animated Bone Attribute Structure (by ref).  
+动画骨骼属性。动画骨骼属性结构（通过引用）。 
 
 ## Outputs
 
-Identifier: Animation Attribute Identifier Structure. Identifier:. Identifier to reference this attribute by.
+Identifier: Animation Attribute Identifier 结构。Identifier:. 用来引用此属性的标识符。
 
-Curve: Attribute Curve Structure. Curve:. Curve containing the (animated) attribute data.
-
+Curve（曲线）。Attribute Curve结构。曲线：。包含（动画的）属性数据的曲线。

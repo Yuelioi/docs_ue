@@ -1,8 +1,8 @@
 # ToString_vector2d
 
-Converts a vector2d value to a string, in the form 'X= Y='
+将一个向量2d值转换为字符串，形式为'X= Y=' 。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-In Vec: Vector 2D Structure.  
+在Vec中。矢量2D结构。 
 
 ## Outputs
 
-Return Value: String. Converts a vector2d value to a string, in the form 'X= Y='.
-
+返回值。字符串。将一个vector2d值转换为字符串，形式为'X= Y='。

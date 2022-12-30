@@ -1,8 +1,8 @@
 # EnterpriseFeaturePackDir
 
-Returns the enterprise FeaturePack directory
+返回企业FeaturePack目录
 
-Target is Blueprint Paths Library
+目标是Blueprint Paths Library
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. FeaturePack directory..
-
+返回值。字符串。FeaturePack目录...

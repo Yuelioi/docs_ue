@@ -1,8 +1,8 @@
 # Equal_CaseInsensitive_string
 
-Test if the input strings are equal (A == B), ignoring case
+测试输入的字符串是否相等（A == B），忽略大小写。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet String Library
 
 ## Inputs
 
-A: String. The string to compare against.
+A：字符串。要对比的字符串。
 
-B: String. The string to compare.  
+B：字符串。要比较的字符串。 
 
 ## Outputs
 
-Return Value: Boolean. True if the strings are equal, false otherwise.
-
+返回值。布尔值。如果两个字符串相等，则为真，否则为假。

@@ -33,4 +33,3 @@ Enable Viewport OCIO: Boolean. Use Overall Cluster OCIOConfiguration:. Enable th
 All Viewports Color Configuration: Display Cluster Configuration OCIOConfiguration Structure. All Viewports OCIOConfiguration:. Apply this OpenColorIO configuration to all viewports..
 
 Per- Viewport OCIO Overrides: Array of Display Cluster Configuration OCIOProfile Structures. Per Viewport OCIOProfiles:. Apply an OpenColorIO configuration on a per-viewport or group-of-viewports basis..
-

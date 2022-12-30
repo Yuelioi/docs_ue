@@ -1,6 +1,6 @@
 # LiteralenumEMIDCreationFlags
 
-Literal enum EMIDCreationFlags
+枚举EMIDCreationFlags的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMIDCreationFlags
 
 ## Inputs
 
-Enum: EMIDCreationFlags Enum.  
+枚举。EMIDCreationFlags Enum.  
 
 ## Outputs
 
-Return Value: EMIDCreationFlags Enum.
-
+返回值。EMIDCreationFlags Enum.

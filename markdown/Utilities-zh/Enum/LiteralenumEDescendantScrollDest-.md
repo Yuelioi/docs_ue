@@ -1,6 +1,6 @@
 # LiteralenumEDescendantScrollDest-
 
-Literal enum EDescendantScrollDestination
+字面上的枚举 EDescendantScrollDestination
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDescendantScrollDestination
 
 ## Inputs
 
-Enum: EDescendantScrollDestination Enum.  
+枚举。EDescendantScrollDestination Enum.  
 
 ## Outputs
 
-Return Value: EDescendantScrollDestination Enum.
-
+返回值。EDescendantScrollDestination Enum。

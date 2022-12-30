@@ -1,8 +1,8 @@
 # MatchesWildcard
 
-Searches this string for a given wild card
+在这个字符串中搜索一个给定的通配符
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source String: String.
+源字符串。字符串。
 
-Wildcard: String. *?-type wildcard.
+通配符。字符串。*?-类型的通配符。
 
-Search Case: ESearchCase Enum. Indicates whether the search is case sensitive or not ( defaults to ESearchCase::IgnoreCase ).  
+Search Case: ESearchCase Enum。表示搜索是否区分大小写（默认为ESearchCase::IgnoreCase）。 
 
 ## Outputs
 
-Return Value: Boolean. true if this string matches the *?-type wildcard given..
-
+返回值。Boolean。如果这个字符串与给定的*?-type通配符匹配，则为true。

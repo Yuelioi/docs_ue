@@ -1,6 +1,6 @@
 # LiteralenumEIKRigGoalSpace
 
-Literal enum EIKRigGoalSpace
+枚举EIKRigGoalSpace
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EIKRigGoalSpace
 
 ## Inputs
 
-Enum: EIKRigGoalSpace Enum.  
+枚举。EIKRigGoalSpace Enum.  
 
 ## Outputs
 
-Return Value: EIKRigGoalSpace Enum.
-
+返回值。EIKRigGoalSpace Enum。

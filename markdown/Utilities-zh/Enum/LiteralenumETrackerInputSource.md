@@ -1,6 +1,6 @@
 # LiteralenumETrackerInputSource
 
-Literal enum ETrackerInputSource
+字面意义上的ETrackerInputSource枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETrackerInputSource
 
 ## Inputs
 
-Enum: ETrackerInputSource Enum.  
+枚举。ETrackerInputSource Enum.  
 
 ## Outputs
 
-Return Value: ETrackerInputSource Enum.
-
+返回值。ETrackerInputSource Enum.

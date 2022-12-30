@@ -1,6 +1,6 @@
 # LiteralenumEMovieRenderShotState
 
-Literal enum EMovieRenderShotState
+枚举EMovieRenderShotState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMovieRenderShotState
 
 ## Inputs
 
-Enum: EMovieRenderShotState Enum.  
+枚举。EMovieRenderShotState Enum.  
 
 ## Outputs
 
-Return Value: EMovieRenderShotState Enum.
-
+返回值。EMovieRenderShotState Enum。

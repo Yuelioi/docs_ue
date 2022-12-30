@@ -1,6 +1,6 @@
 # LiteralenumEDistanceCurve_Axis
 
-Literal enum EDistanceCurve_Axis
+字面上的枚举 EDistanceCurve_Axis
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDistanceCurve_Axis
 
 ## Inputs
 
-Enum: EDistanceCurve_Axis Enum.  
+枚举。EDistanceCurve_Axis Enum.  
 
 ## Outputs
 
-Return Value: EDistanceCurve_Axis Enum.
-
+返回值。EDistanceCurve_Axis Enum.

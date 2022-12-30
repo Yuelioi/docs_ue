@@ -1,6 +1,6 @@
 # BytetoEnumEMovieScenePositionTyp-
 
-Byte to Enum EMovieScenePositionType
+字节到枚举 EMovieScenePositionType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMovieScenePositionType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMovieScenePositionType Enum.
-
+返回值。EMovieScenePositionType Enum。

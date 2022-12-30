@@ -1,6 +1,6 @@
 # BreakAnchors
 
-Adds a node that breaks a 'Anchors' into its member fields
+添加一个节点，将'Anchors'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'Anchors' into its member fields
 
 ## Inputs
 
-Anchors: Anchors Structure (by ref).  
+锚点。锚点结构（通过引用）。 
 
 ## Outputs
 
-Minimum: Vector 2D Structure. Minimum:. Holds the minimum anchors, left + top..
+最小值。Vector 2D结构。Minimum：. 保存最小锚点，左+顶。
 
-Maximum: Vector 2D Structure. Maximum:. Holds the maximum anchors, right + bottom..
-
+最大。二维矢量结构。最大:. 保存最大的锚点，右侧+底部。

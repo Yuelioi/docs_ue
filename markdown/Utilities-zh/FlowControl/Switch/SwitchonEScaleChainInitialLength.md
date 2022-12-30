@@ -1,6 +1,6 @@
 # SwitchonEScaleChainInitialLength
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EScaleChainInitialLength Enum.  
+选择。EScaleChainInitialLength枚举。 
 
 ## Outputs
 
-Fixed Default Length Value: Exec.
+固定的默认长度值。Exec.
 
-Distance: Exec.
+距离。Exec.
 
-Chain Length: Exec.
-
+链的长度。Exec.

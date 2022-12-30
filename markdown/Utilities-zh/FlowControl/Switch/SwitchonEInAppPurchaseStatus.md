@@ -1,6 +1,6 @@
 # SwitchonEInAppPurchaseStatus
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EInAppPurchaseStatus Enum.  
+选择。EInAppPurchaseStatus枚举。 
 
 ## Outputs
 
-Invalid: Exec.
+无效。Exec.
 
-Failed: Exec.
+失败。执行。
 
-Deferred: Exec.
+推迟。执行。
 
-Canceled: Exec.
+取消了。执行.
 
-Purchased: Exec.
+购入。执行.
 
-Restored: Exec.
-
+恢复了。执行.

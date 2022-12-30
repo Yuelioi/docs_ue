@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAudioFaderC-
 
-Returns EAudioFaderCurve_MAX value
+返回EAudioFaderCurve_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAudioFaderCurve_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

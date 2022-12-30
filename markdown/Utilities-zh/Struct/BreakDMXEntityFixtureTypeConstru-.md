@@ -1,6 +1,6 @@
 # BreakDMXEntityFixtureTypeConstru-
 
-Adds a node that breaks a 'DMXEntityFixtureTypeConstructionParams' into its member fields
+添加一个节点，将'DMXEntityFixtureTypeConstructionParams'分解为其成员字段。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DMXEntityFixtureTypeConstructionParams' into its memb
 
 ## Inputs
 
-DMXEntity Fixture Type Construction Params: DMXEntity Fixture Type Construction Params Structure (by ref).  
+DMXEntity Fixture Type Construction Params。DMXEntity Fixture Type Construction Params 结构（通过引用）。 
 
 ## Outputs
 
-Parent DMXLibrary: DMXLibrary Object Reference. Parent DMXLibrary:. The DMX Library in which the Fixture Type will be constructed.
+父 DMXLibrary。DMXLibrary对象参考。父 DMXLibrary：。将构建灯具类型的DMX库。
 
-DMXCategory: DMXFixture Category Structure. DMXCategory:. The Category of the Fixture, useful for Filtering.
+DMXCategory（DMX类别）。DMXFixture类别结构。DMXCategory:. 灯具的类别，对过滤有用。
 
-Modes: Array of DMXFixture Mode Structures. Modes:. The Modes of the Fixture Type.
-
+模式。DMXFixture模式结构的数组。模式:。灯具类型的模式。

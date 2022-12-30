@@ -1,6 +1,6 @@
 # LiteralenumEQuartzCommandQuantiz-
 
-Literal enum EQuartzCommandQuantization
+EQuartzCommandQuantization的字面意义枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EQuartzCommandQuantization
 
 ## Inputs
 
-Enum: EQuartzCommandQuantization Enum.  
+枚举。EQuartzCommandQuantization Enum.  
 
 ## Outputs
 
-Return Value: EQuartzCommandQuantization Enum.
-
+返回值。EQuartzCommandQuantization Enum。

@@ -1,6 +1,6 @@
 # SwitchonEDMXPixelMappingRenderer-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDMXPixelMappingRendererType Enum.  
+选择。EDMXPixelMappingRendererType枚举。 
 
 ## Outputs
 
-Texture: Exec.
+纹理。Exec.
 
 Material: Exec.
 
 UMG: Exec.
-

@@ -1,6 +1,6 @@
 # Getnumberofentri-_34
 
-Returns ESourceEffectMotionFilterModSource_MAX value
+返回ESourceEffectMotionFilterModSource_MAX的值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESourceEffectMotionFilterModSource_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

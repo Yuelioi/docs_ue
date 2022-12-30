@@ -1,6 +1,6 @@
 # LiteralenumEMediaVideoCaptureDev-
 
-Literal enum EMediaVideoCaptureDeviceFilter
+枚举EMediaVideoCaptureDeviceFilter
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMediaVideoCaptureDeviceFilter
 
 ## Inputs
 
-Enum: EMediaVideoCaptureDeviceFilter Enum.  
+枚举。EMediaVideoCaptureDeviceFilter枚举。 
 
 ## Outputs
 
-Return Value: EMediaVideoCaptureDeviceFilter Enum.
-
+返回值。EMediaVideoCaptureDeviceFilter枚举。

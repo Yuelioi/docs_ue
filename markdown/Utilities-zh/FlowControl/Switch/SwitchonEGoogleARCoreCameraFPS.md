@@ -1,6 +1,6 @@
 # SwitchonEGoogleARCoreCameraFPS
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGoogleARCoreCameraFPS Enum.  
+选择。EGoogleARCoreCameraFPS Enum.  
 
 ## Outputs
 
-FPS Any: Exec.
+FPS 任何。执行。
 
-FPS 30: Exec.
+FPS 30: 执行。
 
-FPS 60: Exec.
-
+FPS 60: 执行。

@@ -1,6 +1,6 @@
 # BreakDepthFieldGlowInfo
 
-Adds a node that breaks a 'DepthFieldGlowInfo' into its member fields
+添加一个节点，将'DepthFieldGlowInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'DepthFieldGlowInfo' into its member fields
 
 ## Inputs
 
-Depth Field Glow Info: Depth Field Glow Info Structure (by ref).  
+深度场辉光信息。深度场辉光信息结构（通过引用）。 
 
 ## Outputs
 
-Enable Glow: Boolean. Enable Glow:. Whether to turn on the outline glow (depth field fonts only).
+Enable Glow（启用发光）。布尔值。Enable Glow:（启用辉光）。是否开启轮廓辉光（仅限深度场字体）。
 
-Glow Color: Linear Color Structure. Glow Color:. Base color to use for the glow.
+Glow Color（发光颜色）：线性颜色结构。Glow Color（发光颜色）：。辉光使用的基础颜色。
 
-Glow Outer Radius: Vector 2D Structure. Glow Outer Radius:. If bEnableGlow, outline glow outer radius (0 to 1, 0.5 is edge of character silhouette). glow influence will be 0 at GlowOuterRadius.X and 1 at GlowOuterRadius.Y.
+Glow Outer Radius（发光外半径）。矢量2D结构。Glow Outer Radius:.辉光外半径。如果bEnableGlow，则勾勒出辉光的外半径（0到1，0.5是角色轮廓的边缘）。辉光影响在GlowOuterRadius.X处为0，在GlowOuterRadius.Y处为1。
 
-Glow Inner Radius: Vector 2D Structure. Glow Inner Radius:. If bEnableGlow, outline glow inner radius (0 to 1, 0.5 is edge of character silhouette). glow influence will be 1 at GlowInnerRadius.X and 0 at GlowInnerRadius.Y.
-
+Glow Inner Radius（发光内半径）。矢量2D结构。Glow Inner Radius:. 如果bEnableGlow，则勾勒出辉光内半径（0到1，0.5是角色轮廓的边缘）。辉光影响将在GlowInnerRadius.X处为1，在GlowInnerRadius.Y处为0。

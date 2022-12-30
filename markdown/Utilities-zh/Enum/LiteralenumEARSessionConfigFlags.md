@@ -1,6 +1,6 @@
 # LiteralenumEARSessionConfigFlags
 
-Literal enum EARSessionConfigFlags
+字面意义上的EARSessionConfigFlags枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARSessionConfigFlags
 
 ## Inputs
 
-Enum: EARSessionConfigFlags Enum.  
+枚举。EARSessionConfigFlags Enum.  
 
 ## Outputs
 
-Return Value: EARSessionConfigFlags Enum.
-
+返回值。EARSessionConfigFlags Enum.

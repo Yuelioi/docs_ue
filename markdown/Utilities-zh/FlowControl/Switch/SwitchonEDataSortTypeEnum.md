@@ -1,6 +1,6 @@
 # SwitchonEDataSortTypeEnum
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDataSortTypeEnum Enum.  
+选择。EDataSortTypeEnum 枚举。 
 
 ## Outputs
 
-No Sorting: Exec.
+没有排序。Exec.
 
-Random Shuffle: Exec.
+Random Shuffle: 执行。
 
-Sort By Mass - Max To Min: Exec.
+按质量排序 - 最大到最小。执行.
 
-Sort By Mass - Min To Max: Exec.
-
+按质量排序 - 最小到最大: 执行.

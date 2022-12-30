@@ -1,6 +1,6 @@
 # LiteralenumEInte-
 
-Literal enum EInterchangePipelineConfigurationDialogResult
+枚举EInterchangePipelineConfigurationDialogResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EInterchangePipelineConfigurationDialogResult
 
 ## Inputs
 
-Enum: EInterchangePipelineConfigurationDialogResult Enum.  
+枚举。EInterchangePipelineConfigurationDialogResult枚举。 
 
 ## Outputs
 
-Return Value: EInterchangePipelineConfigurationDialogResult Enum.
-
+返回值。EInterchangePipelineConfigurationDialogResult Enum。

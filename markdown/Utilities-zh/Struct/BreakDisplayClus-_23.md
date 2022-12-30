@@ -1,6 +1,6 @@
 # BreakDisplayClus-_23
 
-Adds a node that breaks a 'DisplayClusterConfigurationViewport_CustomPostprocessSettings' into its member fields
+添加一个打破'DisplayClusterConfigurationViewport_CustomPostprocessSettings'的节点到其成员字段中
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'DisplayClusterConfigurationViewport_CustomPostprocess
 
 ## Inputs
 
-Display Cluster Configuration Viewport Custom Postprocess Settings: Display Cluster Configuration Viewport Custom Postprocess Settings Structure (by ref).  
+显示群集配置视口自定义后处理设置。显示群集配置视口自定义后处理设置结构（按参考）。 
 
 ## Outputs
 
-Is Enabled: Boolean. Is Enabled:. Enable custom postprocess.
+是否启用。布尔值。是否启用：。启用自定义后处理。
 
-Is One Frame: Boolean. Is One Frame:. Apply postprocess for one frame.
+是一帧。布尔值。是一帧：。对一帧应用后处理。
 
-Post Process Settings: Post Process Settings Structure. Post Process Settings:. Custom postprocess settings.
+后处理设置。后期处理设置结构。后期处理设置：。自定义后处理设置。
 
-Blend Weight: Float (single-precision). Blend Weight:. Override blend weight.
-
+混合重量。Float（单精度）。混合权重：。覆盖混合权重。

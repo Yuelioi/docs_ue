@@ -1,6 +1,6 @@
 # GetnumberofentriesinECollisionRe-
 
-Returns ECollisionResponse_MAX value
+返回ECollisionResponse_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ECollisionResponse_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

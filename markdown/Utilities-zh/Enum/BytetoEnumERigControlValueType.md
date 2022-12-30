@@ -1,6 +1,6 @@
 # BytetoEnumERigControlValueType
 
-Byte to Enum ERigControlValueType
+字节到枚举ERigControlValueType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERigControlValueType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERigControlValueType Enum.
-
+返回值。ERigControlValueType Enum。

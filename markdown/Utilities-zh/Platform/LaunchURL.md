@@ -1,8 +1,8 @@
 # LaunchURL
 
-Opens the specified URL in the platform's web browser of choice
+在平台选择的网络浏览器中打开指定的URL
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-URL: String.  
+URL。字符串。 
 
 ## Outputs
 
-Out: Exec.
-
+输出。Exec.

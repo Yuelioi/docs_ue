@@ -1,6 +1,6 @@
 # SwitchonEMaterialProperty
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,9 +8,9 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMaterialProperty Enum.  
+选择。EMaterialProperty Enum.  
 
 ## Outputs
 
@@ -20,23 +20,22 @@ Opacity: Exec.
 
 Opacity Mask: Exec.
 
-Diffuse: Exec.
+Diffuse（扩散）: Exec.
 
-Metallic: Exec.
+Metallic（金属）: Exec.
 
-Specular: Exec.
+Specular(镜面): Exec.
 
-Roughness: Exec.
+粗糙度 Exec.
 
-Anisotropy: Exec.
+各向异性 执行.
 
-Normal: Exec.
+正常。Exec.
 
-Tangent: Exec.
+切线。Exec.
 
-Subsurface: Exec.
+次表层: Exec.
 
-Ambient Occlusion: Exec.
+Ambient Occlusion（环境遮蔽）。执行。
 
-Refraction: Exec.
-
+折射。Exec.

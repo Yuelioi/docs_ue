@@ -1,6 +1,6 @@
 # GetnumberofentriesinEWidgetTimin-
 
-Returns EWidgetTimingPolicy_MAX value
+返回 EWidgetTimingPolicy_MAX 值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EWidgetTimingPolicy_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

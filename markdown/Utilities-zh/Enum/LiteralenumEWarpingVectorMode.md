@@ -1,6 +1,6 @@
 # LiteralenumEWarpingVectorMode
 
-Literal enum EWarpingVectorMode
+枚举 EWarpingVectorMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWarpingVectorMode
 
 ## Inputs
 
-Enum: EWarpingVectorMode Enum.  
+枚举。EWarpingVectorMode Enum.  
 
 ## Outputs
 
-Return Value: EWarpingVectorMode Enum.
-
+返回值。EWarpingVectorMode Enum。

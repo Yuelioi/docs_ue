@@ -1,6 +1,6 @@
 # BytetoEnumEMoviePipelineEncodeQu-
 
-Byte to Enum EMoviePipelineEncodeQuality
+字节到枚举 EMoviePipelineEncodeQuality
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMoviePipelineEncodeQuality
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMoviePipelineEncodeQuality Enum.
-
+返回值。EMoviePipelineEncodeQuality Enum。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinEWorldPartit-
 
-Returns EWorldPartitionRuntimeCellState_MAX value
+返回EWorldPartitionRuntimeCellState_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EWorldPartitionRuntimeCellState_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

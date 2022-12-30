@@ -1,6 +1,6 @@
 # Multiply
 
-Multiply
+乘法
 
 ## 图示
 
@@ -8,11 +8,10 @@ Multiply
 
 ## Inputs
 
-A: Wildcard.
+A: 通配符。
 
-B: Wildcard.  
+B：通配符。 
 
 ## Outputs
 
-Return Value: Wildcard. Multiplies a value in seconds against a FrameRate to get a new FrameTime..
-
+返回值。通配符。将一个以秒为单位的值与FrameRate相乘，得到一个新的FrameTime。

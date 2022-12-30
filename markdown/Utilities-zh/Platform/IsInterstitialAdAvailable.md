@@ -1,8 +1,8 @@
 # IsInterstitialAdAvailable
 
-Returns true if the requested interstitial ad is loaded and ready. (Android only)
+如果请求的插播广告已经加载并准备就绪，则返回true。(仅限安卓)
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.  
+在。执行。 
 
 ## Outputs
 
-Out: Exec.
+Out: 执行。
 
-Return Value: Boolean. Returns true if the requested interstitial ad is loaded and ready. (Android only).
-
+返回值。布尔值。如果请求的插播广告已经加载并准备就绪，则返回true。(仅限安卓）。

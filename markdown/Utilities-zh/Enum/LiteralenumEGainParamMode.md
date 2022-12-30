@@ -1,6 +1,6 @@
 # LiteralenumEGainParamMode
 
-Literal enum EGainParamMode
+字面意义上的枚举：EGainParamMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGainParamMode
 
 ## Inputs
 
-Enum: EGainParamMode Enum.  
+枚举。EGainParamMode Enum.  
 
 ## Outputs
 
-Return Value: EGainParamMode Enum.
-
+返回值。EGainParamMode Enum.

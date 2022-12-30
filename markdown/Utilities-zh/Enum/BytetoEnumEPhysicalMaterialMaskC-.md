@@ -1,6 +1,6 @@
 # BytetoEnumEPhysicalMaterialMaskC-
 
-Byte to Enum EPhysicalMaterialMaskColor
+字节到枚举 EPhysicalMaterialMaskColor
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EPhysicalMaterialMaskColor
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EPhysicalMaterialMaskColor Enum.
-
+返回值。EPhysicalMaterialMaskColor Enum。

@@ -11,4 +11,3 @@ Adds a node that create a 'DrawToRenderTargetContext' from its members
 ## Outputs
 
 Draw to Render Target Context: Draw To Render Target Context Structure.
-

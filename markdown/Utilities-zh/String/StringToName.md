@@ -1,8 +1,8 @@
 # StringToName
 
-Converts a string to a name value
+将一个字符串转换为一个名称值
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-In String: String.  
+在字符串中。字符串。 
 
 ## Outputs
 
-Return Value: Name. Converts a string to a name value.
-
+返回值。名称。将一个字符串转换为一个名称值。

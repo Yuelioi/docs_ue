@@ -1,6 +1,6 @@
 # BytetoEnumEMenuPlacement
 
-Byte to Enum EMenuPlacement
+字节到枚举EMenuPlacement
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMenuPlacement
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMenuPlacement Enum.
-
+返回值。EMenuPlacement枚举。

@@ -1,6 +1,6 @@
 # Getnumberofentri-_23
 
-Returns EGoogleARCoreCameraDepthSensorUsage_MAX value
+返回 EGoogleARCoreCameraDepthSensorUsage_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGoogleARCoreCameraDepthSensorUsage_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

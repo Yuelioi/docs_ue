@@ -1,6 +1,6 @@
 # BreakFrameNumberRangeBound
 
-Adds a node that breaks a 'FrameNumberRangeBound' into its member fields
+添加一个打破'FrameNumberRangeBound'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'FrameNumberRangeBound' into its member fields
 
 ## Inputs
 
-Frame Number Range Bound: Frame Number Range Bound Structure (by ref).  
+帧数范围约束。帧号范围绑定结构（通过引用）。 
 
 ## Outputs
 
-Type: ERangeBoundTypes Enum. Type.
+类型。ERangeBoundTypes枚举。类型。
 
-Value: Frame Number Structure. Value.
-
+值。帧数结构。值。

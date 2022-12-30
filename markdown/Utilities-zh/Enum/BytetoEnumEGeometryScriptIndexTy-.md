@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptIndexTy-
 
-Byte to Enum EGeometryScriptIndexType
+字节到枚举 EGeometryScriptIndexType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptIndexType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptIndexType Enum.
-
+返回值。EGeometryScriptIndexType 枚举。

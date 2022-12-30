@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-_3
 
-Adds a node that breaks a 'DisplayClusterConfigurationICVFX_CustomSize' into its member fields
+添加一个打破'DisplayClusterConfigurationICVFX_CustomSize'的节点到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DisplayClusterConfigurationICVFX_CustomSize' into its
 
 ## Inputs
 
-Display Cluster Configuration ICVFX Custom Size: Display Cluster Configuration ICVFX Custom Size Structure (by ref).  
+显示群集配置ICVFX自定义尺寸。显示集群配置ICVFX自定义尺寸结构（通过参考）。 
 
 ## Outputs
 
-Use Custom Size: Boolean. Use Custom Size:. Use custom size.
+使用自定义大小。布尔值。使用自定义大小:。使用自定义大小。
 
-Custom Width: Integer. Custom Width:. Used when enabled "bUseCustomSize".
+自定义宽度：整数。Custom Width:.自定义宽度。在启用 "bUseCustomSize "时使用。
 
-Custom Height: Integer. Custom Height:. Used when enabled "bUseCustomSize".
-
+Custom Height（自定义高度）：整数。自定义高度:. 在启用 "bUseCustomSize "时使用。

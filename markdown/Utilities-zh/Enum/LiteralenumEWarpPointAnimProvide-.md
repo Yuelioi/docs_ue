@@ -1,6 +1,6 @@
 # LiteralenumEWarpPointAnimProvide-
 
-Literal enum EWarpPointAnimProvider
+枚举 EWarpPointAnimProvider
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWarpPointAnimProvider
 
 ## Inputs
 
-Enum: EWarpPointAnimProvider Enum.  
+枚举。EWarpPointAnimProvider Enum.  
 
 ## Outputs
 
-Return Value: EWarpPointAnimProvider Enum.
-
+返回值。EWarpPointAnimProvider Enum。

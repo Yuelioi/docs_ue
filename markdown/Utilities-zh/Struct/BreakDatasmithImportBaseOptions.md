@@ -1,6 +1,6 @@
 # BreakDatasmithImportBaseOptions
 
-Adds a node that breaks a 'DatasmithImportBaseOptions' into its member fields
+添加一个节点，将'DatasmithImportBaseOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that breaks a 'DatasmithImportBaseOptions' into its member fields
 
 ## Inputs
 
-Datasmith Import Base Options: Datasmith Import Base Options Structure (by ref).  
+Datasmith导入基础选项。Datasmith Import Base Options结构（通过引用）。 
 
 ## Outputs
 
-Scene Handling: EDatasmithImportScene Enum. Scene Handling:. Specifies where to put the content.
+场景处理。EDatasmithImportScene枚举。场景处理：。指定放置内容的位置。
 
-Geometry: Boolean. Include Geometry:. Specifies whether or not to import geometry.
+Geometry（几何）。Boolean（布尔）。Include Geometry（包括几何体）：。指定是否要导入几何体。
 
-Materials & Textures: Boolean. Include Material:. Specifies whether or not to import materials and textures.
+材料与纹理。Boolean（布尔）。包括材料：。指定是否导入材质和纹理。
 
-Lights: Boolean. Include Light:. Specifies whether or not to import lights.
+灯光。Boolean（布尔）。包括灯光：。指定是否导入灯光。
 
-Cameras: Boolean. Include Camera:. Specifies whether or not to import cameras.
+摄影机。布尔型。包括相机：。指定是否导入摄像机。
 
-Animations: Boolean. Include Animation:. Specifies whether or not to import animations.
+动画。布尔型。包括动画：。指定是否导入动画。
 
-Asset Options: Datasmith Asset Import Options Structure. Asset Options.
+资产选项。Datasmith资产导入选项结构。资产选项。
 
-Static Mesh Options: Datasmith Static Mesh Import Options Structure. Static Mesh Options.
-
+Static Mesh Options（静态网格选项）。Datasmith 静态网格导入选项结构。Static Mesh Options（静态网格选项）。

@@ -1,6 +1,6 @@
 # LiteralenumETickingGroup
 
-Literal enum ETickingGroup
+字面意义上的ETickingGroup枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETickingGroup
 
 ## Inputs
 
-Enum: ETickingGroup Enum.  
+枚举。ETickingGroup Enum.  
 
 ## Outputs
 
-Return Value: ETickingGroup Enum.
-
+返回值。ETickingGroup Enum。

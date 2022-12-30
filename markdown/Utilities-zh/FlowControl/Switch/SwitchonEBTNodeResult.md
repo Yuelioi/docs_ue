@@ -1,6 +1,6 @@
 # SwitchonEBTNodeResult
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EBTNodeResult Enum.  
+选择。EBTNodeResult Enum.  
 
 ## Outputs
 
-Succeeded: Exec.
+成功了。Exec.
 
-Failed: Exec.
+失败。执行。
 
-Aborted: Exec.
+终止。执行。
 
-In Progress: Exec.
-
+正在进行中。执行中

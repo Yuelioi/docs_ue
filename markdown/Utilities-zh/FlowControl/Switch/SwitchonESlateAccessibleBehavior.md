@@ -1,6 +1,6 @@
 # SwitchonESlateAccessibleBehavior
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESlateAccessibleBehavior Enum.  
+选择。ESlateAccessibleBehavior Enum.  
 
 ## Outputs
 
-Not Accessible: Exec.
+不可访问。Exec.
 
 Auto: Exec.
 
-Summary: Exec.
+摘要：Exec.Summary: Exec.
 
-Custom: Exec.
+自定义。执行.
 
-Tool Tip: Exec.
-
+工具提示。执行

@@ -1,6 +1,6 @@
 # SwitchonECheckBoxState
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ECheckBoxState Enum.  
+选择。ECheckBoxState Enum.  
 
 ## Outputs
 
-Unchecked: Exec.
+未勾选。Exec.
 
-Checked: Exec.
+已勾选 Exec.
 
-Undetermined: Exec.
-
+未确定的。执行。

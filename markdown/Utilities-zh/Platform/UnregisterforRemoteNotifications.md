@@ -1,8 +1,8 @@
 # UnregisterforRemoteNotifications
 
-Requests Requests unregistering from receiving remote notifications to the user's device.. (Android only)
+请求 请求取消对用户设备接收远程通知的注册......（仅Android）。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.  
+在。执行。 
 
 ## Outputs
 
-Out: Exec.
-
+输出。Exec.

@@ -1,6 +1,6 @@
 # SwitchonEVPWidgetDisplayType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EVPWidgetDisplayType Enum.  
+选择。EVPWidgetDisplayType枚举。 
 
 ## Outputs
 
-Inactive: Exec.
+无效。Exec.
 
 Viewport: Exec.
 
-Post Process: Exec.
+后期处理。Exec.
 
-Composure: Exec.
-
+姿态：执行。

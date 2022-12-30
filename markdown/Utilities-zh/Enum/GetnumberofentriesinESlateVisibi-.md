@@ -1,6 +1,6 @@
 # GetnumberofentriesinESlateVisibi-
 
-Returns ESlateVisibility_MAX value
+返回ESlateVisibility_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESlateVisibility_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # LiteralenumEVirtualKeyboardType
 
-Literal enum EVirtualKeyboardType
+文字枚举EVirtualKeyboardType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EVirtualKeyboardType
 
 ## Inputs
 
-Enum: EVirtualKeyboardType Enum.  
+枚举。EVirtualKeyboardType枚举。 
 
 ## Outputs
 
-Return Value: EVirtualKeyboardType Enum.
-
+返回值。EVirtualKeyboardType Enum。

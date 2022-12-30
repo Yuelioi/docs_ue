@@ -1,8 +1,8 @@
 # SetWindowTitle
 
-Sets the game window title
+设置游戏窗口标题
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Title: Text (by ref).  
+标题。文本（通过参考）。 
 
 ## Outputs
 
-Out: Exec.
-
+出来。执行

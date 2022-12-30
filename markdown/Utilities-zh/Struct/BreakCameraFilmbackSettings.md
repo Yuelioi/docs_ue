@@ -1,6 +1,6 @@
 # BreakCameraFilmbackSettings
 
-Adds a node that breaks a 'CameraFilmbackSettings' into its member fields
+添加一个节点，将'CameraFilmbackSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'CameraFilmbackSettings' into its member fields
 
 ## Inputs
 
-Camera Filmback Settings: Camera Filmback Settings Structure (by ref).  
+Camera Filmback Settings（相机回传设置）。相机回传设置结构（通过引用）。 
 
 ## Outputs
 
-Sensor Width: Float (single-precision). Sensor Width:. Horizontal size of filmback or digital sensor, in mm..
+传感器宽度：浮点数（单精度）。传感器宽度：。摄录机或数字传感器的水平尺寸，单位是毫米。
 
-Sensor Height: Float (single-precision). Sensor Height:. Vertical size of filmback or digital sensor, in mm..
+传感器高度。浮点（单精度）。传感器高度：。滤光片或数字传感器的垂直尺寸，单位为毫米。
 
-Sensor Aspect Ratio: Float (single-precision). Sensor Aspect Ratio:. Read-only. Computed from Sensor dimensions..
-
+传感器纵横比。浮点（单精度）。传感器长宽比：。只读。根据传感器尺寸计算。

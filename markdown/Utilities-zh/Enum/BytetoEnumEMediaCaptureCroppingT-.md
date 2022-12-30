@@ -1,6 +1,6 @@
 # BytetoEnumEMediaCaptureCroppingT-
 
-Byte to Enum EMediaCaptureCroppingType
+字节到枚举 EMediaCaptureCroppingType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMediaCaptureCroppingType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMediaCaptureCroppingType Enum.
-
+返回值。EMediaCaptureCroppingType Enum。

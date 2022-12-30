@@ -8,9 +8,8 @@ Byte to Enum ELidarPointCloudColorationMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELidarPointCloudColorationMode Enum.
-
+返回值。ELidarPointCloudColorationMode枚举。

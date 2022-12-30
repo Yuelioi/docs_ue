@@ -1,6 +1,6 @@
 # BytetoEnumETickingGroup
 
-Byte to Enum ETickingGroup
+字节到枚举 ETickingGroup
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETickingGroup
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETickingGroup Enum.
-
+返回值。ETickingGroup Enum。

@@ -1,6 +1,6 @@
 # SwitchonEEditorScriptingStringMa-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EEditorScriptingStringMatchType Enum.  
+选择。EEditorScriptingStringMatchType枚举。 
 
 ## Outputs
 
-Contains: Exec.
+包含。包含: Exec.
 
-Matches Wildcard: Exec.
+匹配通配符。通配符: Exec.
 
-Exact Match: Exec.
-
+完全匹配。执行.

@@ -8,9 +8,8 @@ Byte to Enum EGoogleARCoreTrackingFailureReason
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreTrackingFailureReason Enum.
-
+返回值。EGoogleARCoreTrackingFailureReason Enum。

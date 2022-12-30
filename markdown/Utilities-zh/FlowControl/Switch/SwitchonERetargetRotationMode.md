@@ -1,6 +1,6 @@
 # SwitchonERetargetRotationMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERetargetRotationMode Enum.  
+选择。ERetargetRotationMode Enum.  
 
 ## Outputs
 
-Interpolated: Exec.
+插值。Exec.
 
-One To One: Exec.
+一对一：Exec.
 
-One To One Reversed: Exec.
+一对一反转：执行。
 
-None: Exec.
-
+没有。Exec.

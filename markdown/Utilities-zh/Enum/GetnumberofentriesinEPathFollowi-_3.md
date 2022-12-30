@@ -1,6 +1,6 @@
 # GetnumberofentriesinEPathFollowi-_3
 
-Returns EPathFollowingStatus_MAX value
+返回EPathFollowingStatus_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EPathFollowingStatus_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

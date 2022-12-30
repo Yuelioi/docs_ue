@@ -1,6 +1,6 @@
 # LiteralenumEARServiceInstallRequ-
 
-Literal enum EARServiceInstallRequestResult
+枚举 EARServiceInstallRequestResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARServiceInstallRequestResult
 
 ## Inputs
 
-Enum: EARServiceInstallRequestResult Enum.  
+枚举。EARServiceInstallRequestResult Enum.  
 
 ## Outputs
 
-Return Value: EARServiceInstallRequestResult Enum.
-
+返回值。EARServiceInstallRequestResult Enum。

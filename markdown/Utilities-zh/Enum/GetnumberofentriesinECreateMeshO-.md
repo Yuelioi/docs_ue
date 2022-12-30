@@ -1,6 +1,6 @@
 # GetnumberofentriesinECreateMeshO-
 
-Returns ECreateMeshObjectSourceMeshType_MAX value
+返回ECreateMeshObjectSourceMeshType_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ECreateMeshObjectSourceMeshType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

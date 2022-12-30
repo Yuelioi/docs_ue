@@ -1,6 +1,6 @@
 # BreakBasedPosition
 
-Adds a node that breaks a 'BasedPosition' into its member fields
+添加一个节点，将'BasedPosition'分解到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'BasedPosition' into its member fields
 
 ## Inputs
 
-Based Position: Based Position Structure (by ref).  
+基准位置。基准位置结构（通过引用）。 
 
 ## Outputs
 
-Base: Actor Object Reference. Base:. Actor that is the base.
+基准。演员对象参考。基础：。作为基地的演员。
 
-Position: Vector. Position:. Position relative to the base actor.
-
+位置。Vector（向量）。位置：。相对于基础角色的位置。

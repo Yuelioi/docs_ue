@@ -1,6 +1,6 @@
 # LiteralenumETrackingStatus
 
-Literal enum ETrackingStatus
+字面意义上的ETrackingStatus枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETrackingStatus
 
 ## Inputs
 
-Enum: ETrackingStatus Enum.  
+枚举。ETrackingStatus枚举。 
 
 ## Outputs
 
-Return Value: ETrackingStatus Enum.
-
+返回值。ETrackingStatus Enum。

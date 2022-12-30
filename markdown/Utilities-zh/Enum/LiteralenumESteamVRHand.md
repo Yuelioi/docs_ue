@@ -1,6 +1,6 @@
 # LiteralenumESteamVRHand
 
-Literal enum ESteamVRHand
+字面意义上的枚举：ESteamVRHand
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESteamVRHand
 
 ## Inputs
 
-Enum: ESteamVRHand Enum.  
+枚举。ESteamVRHand Enum.  
 
 ## Outputs
 
-Return Value: ESteamVRHand Enum.
-
+返回值。ESteamVRHand Enum。

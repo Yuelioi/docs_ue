@@ -1,6 +1,6 @@
 # GetnumberofentriesinERigSpaceTyp-
 
-Returns ERigSpaceType_MAX value
+返回ERigSpaceType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ERigSpaceType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

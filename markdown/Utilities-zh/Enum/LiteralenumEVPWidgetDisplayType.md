@@ -1,6 +1,6 @@
 # LiteralenumEVPWidgetDisplayType
 
-Literal enum EVPWidgetDisplayType
+枚举EVPWidgetDisplayType
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: EVPWidgetDisplayType Enum.
 
 ## Outputs
 
-Return Value: EVPWidgetDisplayType Enum.
-
+返回值。EVPWidgetDisplayType Enum.

@@ -1,6 +1,6 @@
 # LiteralenumEGroomBindingType
 
-Literal enum EGroomBindingType
+字面意义上的枚举：EGroomBindingType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGroomBindingType
 
 ## Inputs
 
-Enum: EGroomBindingType Enum.  
+枚举。EGroomBindingType枚举。 
 
 ## Outputs
 
-Return Value: EGroomBindingType Enum.
-
+返回值。EGroomBindingType枚举。

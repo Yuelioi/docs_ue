@@ -1,6 +1,6 @@
 # BytetoEnumEUsdUpAxis
 
-Byte to Enum EUsdUpAxis
+字节到枚举 EUsdUpAxis
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EUsdUpAxis
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EUsdUpAxis Enum.
-
+返回值。EUsdUpAxis Enum.

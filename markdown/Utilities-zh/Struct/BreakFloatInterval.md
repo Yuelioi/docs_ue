@@ -1,6 +1,6 @@
 # BreakFloatInterval
 
-Adds a node that breaks a 'FloatInterval' into its member fields
+添加一个节点，将'FloatInterval'分解为其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'FloatInterval' into its member fields
 
 ## Inputs
 
-Float Interval: Float Interval Structure (by ref).  
+Float Interval。浮动区间结构（通过引用）。 
 
 ## Outputs
 
-Min: Float (single-precision). Min:. Values must be >= Min.
+最小值。Float（单精度）。Min:. 值必须>=Min。
 
-Max: Float (single-precision). Max:. Values must be <= Max.
-
+Max: 浮点数（单精度）。最大：。值必须<=最大。

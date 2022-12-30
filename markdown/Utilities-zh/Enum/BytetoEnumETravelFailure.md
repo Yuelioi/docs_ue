@@ -1,6 +1,6 @@
 # BytetoEnumETravelFailure
 
-Byte to Enum ETravelFailure
+字节到枚举 ETravelFailure
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETravelFailure
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETravelFailure Enum.
-
+返回值。ETravelFailure Enum。

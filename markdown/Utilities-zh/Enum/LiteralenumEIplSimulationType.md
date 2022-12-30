@@ -1,6 +1,6 @@
 # LiteralenumEIplSimulationType
 
-Literal enum EIplSimulationType
+枚举 EIplSimulationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EIplSimulationType
 
 ## Inputs
 
-Enum: EIplSimulationType Enum.  
+枚举。EIplSimulationType Enum.  
 
 ## Outputs
 
-Return Value: EIplSimulationType Enum.
-
+返回值。EIplSimulationType Enum。

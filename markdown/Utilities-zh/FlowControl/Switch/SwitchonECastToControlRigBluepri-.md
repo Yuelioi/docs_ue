@@ -1,6 +1,6 @@
 # SwitchonECastToControlRigBluepri-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ECastToControlRigBlueprintCases Enum.  
+选择。ECastToControlRigBlueprintCases Enum.  
 
 ## Outputs
 
-Cast Succeeded: Exec.
+铸造成功。执行。
 
-Cast Failed: Exec.
-
+铸造失败。执行。

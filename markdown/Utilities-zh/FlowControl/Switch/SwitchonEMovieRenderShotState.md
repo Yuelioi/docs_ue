@@ -1,6 +1,6 @@
 # SwitchonEMovieRenderShotState
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMovieRenderShotState Enum.  
+选择。EMovieRenderShotState Enum.  
 
 ## Outputs
 
-Uninitialized: Exec.
+未初始化的。Exec.
 
-Warming Up: Exec.
+Warming Up: 执行。
 
 Motion Blur: Exec.
 
-Rendering: Exec.
+渲染。Exec.
 
-Finished: Exec.
-
+完成。执行.

@@ -1,6 +1,6 @@
 # GetnumberofentriesinERejoinStatu-
 
-Returns ERejoinStatus_MAX value
+返回ERejoinStatus_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ERejoinStatus_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

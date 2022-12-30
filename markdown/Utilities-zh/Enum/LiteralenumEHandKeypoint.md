@@ -1,6 +1,6 @@
 # LiteralenumEHandKeypoint
 
-Literal enum EHandKeypoint
+枚举EHandKeypoint
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EHandKeypoint
 
 ## Inputs
 
-Enum: EHandKeypoint Enum.  
+枚举。EHandKeypoint Enum.  
 
 ## Outputs
 
-Return Value: EHandKeypoint Enum.
-
+返回值。EHandKeypoint Enum.

@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAppleProRes-_1
 
-Returns EAppleProResEncoderColorPrimaries_MAX value
+返回 EAppleProResEncoderColorPrimaries_MAX 的值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAppleProResEncoderColorPrimaries_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

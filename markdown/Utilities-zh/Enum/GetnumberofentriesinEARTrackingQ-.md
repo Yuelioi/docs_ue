@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARTrackingQ-
 
-Returns EARTrackingQuality_MAX value
+返回EARTrackingQuality_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARTrackingQuality_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

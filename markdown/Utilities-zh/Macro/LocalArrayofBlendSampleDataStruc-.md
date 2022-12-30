@@ -1,6 +1,6 @@
 # LocalArrayofBlendSampleDataStruc-
 
-Local temporary Array of Blend Sample Data Structures variable
+Blend样本数据结构变量的本地临时阵列
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Array of Blend Sample Data Structures variable
 
 ## Outputs
 
-Variable: Array of Blend Sample Data Structures.
-
+变量。混合样本数据结构的数组。

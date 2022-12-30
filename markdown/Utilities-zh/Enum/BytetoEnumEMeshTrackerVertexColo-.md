@@ -8,9 +8,8 @@ Byte to Enum EMeshTrackerVertexColorMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMeshTrackerVertexColorMode Enum.
-
+返回值。EMeshTrackerVertexColorMode枚举。

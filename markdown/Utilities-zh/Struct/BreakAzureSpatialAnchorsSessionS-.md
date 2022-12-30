@@ -1,6 +1,6 @@
 # BreakAzureSpatialAnchorsSessionS-
 
-Adds a node that breaks a 'AzureSpatialAnchorsSessionStatus' into its member fields
+添加一个节点，将'AzureSpatialAnchorsSessionStatus'分解为其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'AzureSpatialAnchorsSessionStatus' into its member fie
 
 ## Inputs
 
-Azure Spatial Anchors Session Status: Azure Spatial Anchors Session Status Structure (by ref).  
+Azure Spatial Anchors Session Status。Azure Spatial Anchors会话状态结构（通过引用）。 
 
 ## Outputs
 
-Ready For Create Progress: Float (single-precision). Ready for Create Progress.
+Ready For Create Progress: Float（单精度）。准备用于创建进度。
 
-Recommended For Create Progress: Float (single-precision). Recommended for Create Progress.
+建议创建进度。浮点数（单精度）。建议用于创建进度。
 
-Session Create Hash: Integer. Session Create Hash.
+会话创建哈希值：整数。会话创建哈希值。
 
-Session Locate Hash: Integer. Session Locate Hash.
+会话定位哈希值：整数。会话定位哈希值。
 
-Feedback: EAzureSpatialAnchorsSessionUserFeedback Enum. Feedback.
-
+反馈。EAzureSpatialAnchorsSessionUserFeedback枚举。反馈：EAzureSpatialAnchorsSessionUserFeedback枚举。

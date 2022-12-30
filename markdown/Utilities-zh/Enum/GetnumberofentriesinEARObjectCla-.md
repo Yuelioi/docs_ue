@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARObjectCla-
 
-Returns EARObjectClassification_MAX value
+返回EARObjectClassification_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARObjectClassification_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

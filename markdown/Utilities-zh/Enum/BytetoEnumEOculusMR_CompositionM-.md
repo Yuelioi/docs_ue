@@ -1,6 +1,6 @@
 # BytetoEnumEOculusMR_CompositionM-
 
-Byte to Enum EOculusMR_CompositionMethod
+字节到枚举 EOculusMR_CompositionMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EOculusMR_CompositionMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EOculusMR_CompositionMethod Enum.
-
+返回值。EOculusMR_CompositionMethod Enum。

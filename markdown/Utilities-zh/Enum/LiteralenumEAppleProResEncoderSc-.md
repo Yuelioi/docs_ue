@@ -1,6 +1,6 @@
 # LiteralenumEAppleProResEncoderSc-
 
-Literal enum EAppleProResEncoderScanMode
+枚举 EAppleProResEncoderScanMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAppleProResEncoderScanMode
 
 ## Inputs
 
-Enum: EAppleProResEncoderScanMode Enum.  
+枚举。EAppleProResEncoderScanMode Enum.  
 
 ## Outputs
 
-Return Value: EAppleProResEncoderScanMode Enum.
-
+返回值。EAppleProResEncoderScanMode Enum.

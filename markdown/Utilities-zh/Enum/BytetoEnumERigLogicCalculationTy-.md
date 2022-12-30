@@ -1,6 +1,6 @@
 # BytetoEnumERigLogicCalculationTy-
 
-Byte to Enum ERigLogicCalculationType
+字节到枚举ERigLogicCalculationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERigLogicCalculationType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERigLogicCalculationType Enum.
-
+返回值。ERigLogicCalculationType Enum。

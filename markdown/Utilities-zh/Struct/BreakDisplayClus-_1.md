@@ -1,6 +1,6 @@
 # BreakDisplayClus-_1
 
-Adds a node that breaks a 'DisplayClusterConfigurationFramePostProcess_OutputRemap' into its member fields
+添加一个打破'DisplayClusterConfigurationFramePostProcess_OutputRemap'的节点到其成员字段中
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'DisplayClusterConfigurationFramePostProcess_OutputRem
 
 ## Inputs
 
-Display Cluster Configuration Frame Post Process Output Remap: Display Cluster Configuration Frame Post Process Output Remap Structure (by ref).  
+Display Cluster Configuration Frame Post Process Output Remap。显示群集配置框架后进程输出重映射结构（通过参考）。 
 
 ## Outputs
 
-Enable Output Remapping: Boolean. Enable:. Enables or disables output remapping.
+启用输出重映射。布尔值。启用：。启用或禁用输出重映射。
 
-Data Source: EDisplayClusterConfigurationFramePostProcess_OutputRemapSource Enum. Data Source:. Selects either the Static Mesh or External File setting as the source for output remapping.
+数据来源。EDisplayClusterConfigurationFramePostProcess_OutputRemapSource枚举。数据源：。选择静态网格或外部文件设置作为输出重映射的来源。
 
-Static Mesh: Static Mesh Object Reference. Static Mesh:. The Static Mesh reference to use for output remapping when the Data Source is set to Static Mesh.
+静态网格。静态网格对象参考。Static Mesh:.静态网格。当数据源设置为静态网格时，用于输出重映射的静态网格参考。
 
-Mesh Component Name: String. Mesh Component Name:. The MeshComponent reference (ProceduralMeshComponent or StaticMeshComponent) to use for output remapping when the Data Source is set to Mesh Component.
+网格组件名称。字符串。网格组件名称：。当数据源设置为Mesh Component时，用于输出重映射的MeshComponent引用（ProceduralMeshComponent或StaticMeshComponent）。
 
-External File: String. External File:. The external .obj file to use for output remapping when the Data Source is set to File.
-
+External File：字符串。External File:（外部文件）。当数据源设置为文件时用于输出重映射的外部.obj文件。

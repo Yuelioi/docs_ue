@@ -1,8 +1,8 @@
 # Combine
 
-Combine two or more Paths into one single Path
+将两个或多个路径合并为一个单一的路径
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Paths: Array of Strings.  
+在Paths中。字符串的数组。 
 
 ## Outputs
 
-Return Value: String. Combine two or more Paths into one single Path.
-
+返回值。字符串。将两个或多个Path合并为一个Path。

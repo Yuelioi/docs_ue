@@ -1,6 +1,6 @@
 # LiteralenumERandomizeTransformTy-
 
-Literal enum ERandomizeTransformType
+字面意义上的枚举ERandomizeTransformType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERandomizeTransformType
 
 ## Inputs
 
-Enum: ERandomizeTransformType Enum.  
+枚举。ERandomizeTransformType枚举。 
 
 ## Outputs
 
-Return Value: ERandomizeTransformType Enum.
-
+返回值。ERandomizeTransformType枚举。

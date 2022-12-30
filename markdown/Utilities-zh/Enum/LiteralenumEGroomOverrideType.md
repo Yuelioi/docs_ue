@@ -1,6 +1,6 @@
 # LiteralenumEGroomOverrideType
 
-Literal enum EGroomOverrideType
+字面意义上的枚举：EGroomOverrideType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGroomOverrideType
 
 ## Inputs
 
-Enum: EGroomOverrideType Enum.  
+枚举。EGroomOverrideType枚举。 
 
 ## Outputs
 
-Return Value: EGroomOverrideType Enum.
-
+返回值。EGroomOverrideType Enum。

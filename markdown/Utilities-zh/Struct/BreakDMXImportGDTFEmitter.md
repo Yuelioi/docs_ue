@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFEmitter
 
-Adds a node that breaks a 'DMXImportGDTFEmitter' into its member fields
+添加一个节点，将'DMXImportGDTFEmitter'分解到其成员字段中。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'DMXImportGDTFEmitter' into its member fields
 
 ## Inputs
 
-DMXImport GDTFEmitter: DMXImport GDTFEmitter Structure (by ref).  
+DMXImport GDTFEmitter。DMXImport GDTFEmitter 结构（通过引用）。 
 
 ## Outputs
 
-Name: Name. Name.
+名称。名称。名称。
 
-Color: DMXColor CIE Structure. Color.
+Color: DMXColor CIE结构。颜色。
 
-Dominant Wave Length: Float (single-precision). Dominant Wave Length.
+主导波长。浮点（单精度）。主导波长。
 
-Diode Part: String. Diode Part.
+二极管部分。字符串。二极管部分。
 
-Measurement: DMXImport GDTFMeasurement Structure. Measurement.
-
+测量。DMXImport GDTFMeasurement结构。测量。

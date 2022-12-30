@@ -1,6 +1,6 @@
 # LiteralenumETransitionCurve
 
-Literal enum ETransitionCurve
+字面上的枚举 ETstritionCurve
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETransitionCurve
 
 ## Inputs
 
-Enum: ETransitionCurve Enum.  
+枚举。ETransitionCurve Enum.  
 
 ## Outputs
 
-Return Value: ETransitionCurve Enum.
-
+返回值。ETransitionCurve Enum。

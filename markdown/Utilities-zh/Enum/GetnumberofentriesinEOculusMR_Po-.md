@@ -1,6 +1,6 @@
 # GetnumberofentriesinEOculusMR_Po-
 
-Returns EOculusMR_PostProcessEffects_MAX value
+返回 EOculusMR_PostProcessEffects_MAX 值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EOculusMR_PostProcessEffects_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

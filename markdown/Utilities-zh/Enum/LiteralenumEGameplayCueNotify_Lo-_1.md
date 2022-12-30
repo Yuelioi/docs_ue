@@ -1,6 +1,6 @@
 # LiteralenumEGameplayCueNotify_Lo-_1
 
-Literal enum EGameplayCueNotify_LocallyControlledSource
+枚举EGameplayCueNotify_LocallyControlledSource。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayCueNotify_LocallyControlledSource
 
 ## Inputs
 
-Enum: EGameplayCueNotify_LocallyControlledSource Enum.  
+枚举。EGameplayCueNotify_LocallyControlledSource枚举。 
 
 ## Outputs
 
-Return Value: EGameplayCueNotify_LocallyControlledSource Enum.
-
+返回值。EGameplayCueNotify_LocallyControlledSource Enum.

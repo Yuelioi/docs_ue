@@ -1,8 +1,8 @@
 # ShowPlatformSpecificLeaderboardS-
 
-Displays the built-in leaderboard GUI (iOS and Android only; this function may be renamed or moved in a future release)
+显示内置的排行榜GUI（仅适用于iOS和Android；该功能在未来的版本中可能会被重新命名或移动。）
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Category Name: String.  
+类别名称。字符串。 
 
 ## Outputs
 
-Out: Exec.
-
+输出。Exec.

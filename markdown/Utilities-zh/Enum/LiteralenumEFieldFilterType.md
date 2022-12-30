@@ -1,6 +1,6 @@
 # LiteralenumEFieldFilterType
 
-Literal enum EFieldFilterType
+字面意义上的EF FieldFilterType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFieldFilterType
 
 ## Inputs
 
-Enum: EFieldFilterType Enum.  
+枚举。EFieldFilterType Enum.  
 
 ## Outputs
 
-Return Value: EFieldFilterType Enum.
-
+返回值。EFieldFilterType Enum.

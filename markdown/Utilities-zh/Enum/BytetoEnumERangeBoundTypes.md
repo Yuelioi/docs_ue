@@ -8,9 +8,8 @@ Byte to Enum ERangeBoundTypes
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERangeBoundTypes Enum.
-
+返回值。ERangeBoundTypes Enum。

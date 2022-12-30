@@ -1,6 +1,6 @@
 # LiteralenumEEnvelopeFollowerPeak-
 
-Literal enum EEnvelopeFollowerPeakMode
+字面意义上的EEnvelopeFollowerPeakMode枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EEnvelopeFollowerPeakMode
 
 ## Inputs
 
-Enum: EEnvelopeFollowerPeakMode Enum.  
+枚举。EEnvelopeFollowerPeakMode枚举。 
 
 ## Outputs
 
-Return Value: EEnvelopeFollowerPeakMode Enum.
-
+返回值。EEnvelopeFollowerPeakMode Enum。

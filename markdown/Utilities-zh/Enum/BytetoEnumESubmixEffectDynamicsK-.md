@@ -8,9 +8,8 @@ Byte to Enum ESubmixEffectDynamicsKeySource
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESubmixEffectDynamicsKeySource Enum.
-
+返回值。ESubmixEffectDynamicsKeySource Enum。

@@ -1,6 +1,6 @@
 # LiteralenumEInterpToBehaviourTyp-
 
-Literal enum EInterpToBehaviourType
+枚举EInterpToBehaviourType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EInterpToBehaviourType
 
 ## Inputs
 
-Enum: EInterpToBehaviourType Enum.  
+枚举。EInterpToBehaviourType Enum.  
 
 ## Outputs
 
-Return Value: EInterpToBehaviourType Enum.
-
+返回值。EInterpToBehaviourType Enum.

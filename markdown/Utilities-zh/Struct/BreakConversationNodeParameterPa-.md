@@ -1,6 +1,6 @@
 # BreakConversationNodeParameterPa-
 
-Adds a node that breaks a 'ConversationNodeParameterPair' into its member fields
+添加一个节点，将'ConversationNodeParameterPair'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ConversationNodeParameterPair' into its member fields
 
 ## Inputs
 
-Conversation Node Parameter Pair: Conversation Node Parameter Pair Structure (by ref).  
+Conversation Node Parameter Pair（对话节点参数对）。对话节点参数对结构（通过引用）。 
 
 ## Outputs
 
-Name: String. Name.
+名称。字符串。Name: 名字。
 
-Value: String. Value.
-
+值。字符串。Value.

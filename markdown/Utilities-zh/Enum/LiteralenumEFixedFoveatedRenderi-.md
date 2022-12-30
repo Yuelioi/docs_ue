@@ -1,6 +1,6 @@
 # LiteralenumEFixedFoveatedRenderi-
 
-Literal enum EFixedFoveatedRenderingLevel
+字面上的枚举：EFixedFoveatedRenderingLevel
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFixedFoveatedRenderingLevel
 
 ## Inputs
 
-Enum: EFixedFoveatedRenderingLevel Enum.  
+枚举。EFixedFoveatedRenderingLevel Enum.  
 
 ## Outputs
 
-Return Value: EFixedFoveatedRenderingLevel Enum.
-
+返回值。EFixedFoveatedRenderingLevel Enum.

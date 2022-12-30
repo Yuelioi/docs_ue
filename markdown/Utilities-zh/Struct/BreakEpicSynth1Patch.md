@@ -1,6 +1,6 @@
 # BreakEpicSynth1Patch
 
-Adds a node that breaks a 'EpicSynth1Patch' into its member fields
+添加一个节点，将'EpicSynth1Patch'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'EpicSynth1Patch' into its member fields
 
 ## Inputs
 
-Epic Synth 1Patch: Epic Synth 1Patch Structure (by ref).  
+Epic Synth 1Patch。Epic Synth 1Patch的结构（通过参考）。 
 
 ## Outputs
 
-Patch Source: ESynth1PatchSource Enum. Patch Source:. A modular synth patch source (e.g. LFO1/LFO2/Modulation Envelope).
+补丁源。ESynth1PatchSource Enum. 补丁源：。一个模块化的合成器补丁源（例如LFO1/LFO2/调制包络）。
 
-Patch Cables: Array of Synth 1Patch Cable Structures. Patch Cables:. Patch cables to patch destinations from the patch source..
-
+贴片电缆。Synth 1Patch Cable结构的阵列。Patch Cables:. 从跳线源到跳线目的地的跳线。

@@ -1,6 +1,6 @@
 # LiteralenumERichCurveExtrapolati-
 
-Literal enum ERichCurveExtrapolation
+枚举ERichCurveExtrapolation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERichCurveExtrapolation
 
 ## Inputs
 
-Enum: ERichCurveExtrapolation Enum.  
+枚举。ERichCurveExtrapolation Enum.  
 
 ## Outputs
 
-Return Value: ERichCurveExtrapolation Enum.
-
+返回值。ERichCurveExtrapolation Enum.

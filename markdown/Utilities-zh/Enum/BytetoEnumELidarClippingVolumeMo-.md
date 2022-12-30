@@ -1,6 +1,6 @@
 # BytetoEnumELidarClippingVolumeMo-
 
-Byte to Enum ELidarClippingVolumeMode
+字节到枚举 ELidarClippingVolumeMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ELidarClippingVolumeMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELidarClippingVolumeMode Enum.
-
+返回值。ELidarClippingVolumeMode Enum。

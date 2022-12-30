@@ -1,6 +1,6 @@
 # BytetoEnumESynthStereoDelayMode
 
-Byte to Enum ESynthStereoDelayMode
+字节到枚举 ESynthStereoDelayMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESynthStereoDelayMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESynthStereoDelayMode Enum.
-
+返回值。ESynthStereoDelayMode Enum。

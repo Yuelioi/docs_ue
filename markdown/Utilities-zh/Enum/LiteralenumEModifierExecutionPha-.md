@@ -1,6 +1,6 @@
 # LiteralenumEModifierExecutionPha-
 
-Literal enum EModifierExecutionPhase
+枚举EModifierExecutionPhase
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EModifierExecutionPhase
 
 ## Inputs
 
-Enum: EModifierExecutionPhase Enum.  
+枚举。EModifierExecutionPhase枚举。 
 
 ## Outputs
 
-Return Value: EModifierExecutionPhase Enum.
-
+返回值。EModifierExecutionPhase Enum。

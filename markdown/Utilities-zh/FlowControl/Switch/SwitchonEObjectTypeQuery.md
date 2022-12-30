@@ -1,6 +1,6 @@
 # SwitchonEObjectTypeQuery
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EObjectTypeQuery Enum.  
+选择。EObjectTypeQuery Enum.  
 
 ## Outputs
 
-World Static: Exec.
+世界 静态。Exec.
 
-World Dynamic: Exec.
+世界动态: Exec: Exec.
 
-Pawn: Exec.
+卒子。Exec.
 
-Physics Body: Exec.
+物理体：执行。
 
-Vehicle: Exec.
+车辆：执行。执行
 
-Destructible: Exec.
-
+可毁坏。执行。

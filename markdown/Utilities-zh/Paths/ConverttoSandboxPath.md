@@ -1,8 +1,8 @@
 # ConverttoSandboxPath
 
-Converts a normal path to a sandbox path (in Saved/Sandboxes).
+将普通路径转换为沙盒路径（在Saved/Sandboxes）。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Path: String.
+在路径中。字符串。
 
-In Sandbox Name: String. The name of the sandbox..  
+在沙盒名称中。字符串。沙盒的名称。 
 
 ## Outputs
 
-Return Value: String.
-
+返回值。字符串。

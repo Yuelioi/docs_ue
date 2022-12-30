@@ -1,6 +1,6 @@
 # BytetoEnumEQuartzDelegateType
 
-Byte to Enum EQuartzDelegateType
+字节到枚举 EQuartzDelegateType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EQuartzDelegateType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EQuartzDelegateType Enum.
-
+返回值。EQuartzDelegateType Enum。

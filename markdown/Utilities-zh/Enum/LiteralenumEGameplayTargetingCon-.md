@@ -1,6 +1,6 @@
 # LiteralenumEGameplayTargetingCon-
 
-Literal enum EGameplayTargetingConfirmation
+字面意义上的枚举：EGameplayTargetingConfirmation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayTargetingConfirmation
 
 ## Inputs
 
-Enum: EGameplayTargetingConfirmation Enum.  
+Enum: EGameplayTargetingConfirmation枚举。 
 
 ## Outputs
 
-Return Value: EGameplayTargetingConfirmation Enum.
-
+返回值。EGameplayTargetingConfirmation Enum.

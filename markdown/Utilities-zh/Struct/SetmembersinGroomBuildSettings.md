@@ -17,4 +17,3 @@ Struct Ref: Groom Build Settings Structure (by ref).
 Out: Exec.
 
 Struct Out: Groom Build Settings Structure (by ref). Reference to the input struct.
-

@@ -1,6 +1,6 @@
 # BytetoEnumEGender
 
-Byte to Enum EGender
+字节到枚举EGender
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGender
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGender Enum.
-
+返回值。EGender Enum。

@@ -1,6 +1,6 @@
 # LiteralenumEARLineTraceChannels
 
-Literal enum EARLineTraceChannels
+枚举 EARLineTraceChannels
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARLineTraceChannels
 
 ## Inputs
 
-Enum: EARLineTraceChannels Enum.  
+枚举。EARLineTraceChannels Enum.  
 
 ## Outputs
 
-Return Value: EARLineTraceChannels Enum.
-
+返回值。EARLineTraceChannels Enum.

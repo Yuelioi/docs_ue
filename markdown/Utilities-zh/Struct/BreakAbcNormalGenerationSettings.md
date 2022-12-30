@@ -1,24 +1,23 @@
 # BreakAbcNormalGenerationSettings
 
-Adds a node that breaks a 'AbcNormalGenerationSettings' into its member fields
+添加一个节点，将'AbcNormalGenerationSettings'分解成其成员字段。
 
 ## 图示
 
 ![]($-20221218-14303470.png)
 
-## Inputs
+## 输入
 
-Abc Normal Generation Settings: Abc Normal Generation Settings Structure (by ref).  
+Abc正常生成设置。Abc正常生成设置结构（通过参考）。 
 
-## Outputs
+## 输出
 
-Force One Smoothing Group Per Object: Boolean. Force One Smoothing Group Per Object:. Whether or not to force smooth normals for each individual object rather than calculating smoothing groups.
+每个对象强制一个平滑组。布尔值。每个对象强制一个平滑组：。是否为每个单独的对象强制平滑法线，而不是计算平滑组。
 
-Hard Edge Angle Threshold: Float (single-precision). Hard Edge Angle Threshold:. Threshold used to determine whether an angle between two normals should be considered hard, closer to 0 means more smooth vs 1.
+硬边角度阈值。浮点（单精度）。硬边角度阈值：。用于确定两个法线之间的角度是否应该被认为是硬的，越接近0意味着越平滑，而不是1。
 
-Recompute Normals: Boolean. Recompute Normals:. Determines whether or not the normals should be forced to be recomputed.
+重新计算法线。布尔值。重新计算法线：。确定是否应该强制重新计算法线。
 
-Ignore Degenerate Triangles: Boolean. Ignore Degenerate Triangles:. Determines whether or not the degenerate triangles should be ignored when calculating tangents/normals.
+忽略退化的三角形。布尔值。忽略退化的三角形：。决定在计算切线/法线时，是否应该忽略退化三角形。
 
-Skip Computing Tangents: Boolean. Skip Computing Tangents:. Determines whether tangents are computed for GeometryCache. Skipping them can improve streaming performance but may cause visual artifacts where they are required.
-
+跳过计算切线。布尔值。跳过计算切线：。决定是否计算GeometryCache的切线。跳过切线可以提高流媒体性能，但在需要切线的地方可能会导致视觉伪影。

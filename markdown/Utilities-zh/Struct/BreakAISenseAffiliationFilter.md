@@ -1,6 +1,6 @@
 # BreakAISenseAffiliationFilter
 
-Adds a node that breaks a 'AISenseAffiliationFilter' into its member fields
+添加一个节点，将'AISenseAffiliationFilter'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'AISenseAffiliationFilter' into its member fields
 
 ## Inputs
 
-AISense Affiliation Filter: AISense Affiliation Filter Structure (by ref).  
+AISense Affiliation Filter。AISense关联过滤器结构（通过引用）。 
 
 ## Outputs
 
-Detect Enemies: Boolean. Detect Enemies.
+Detect Enemies: Boolean. Detect Enemies: 检测敌人。
 
-Detect Neutrals: Boolean. Detect Neutrals.
+检测中立者。Boolean（布尔）。检测中立者。
 
-Detect Friendlies: Boolean. Detect Friendlies.
-
+检测友军 布尔型。检测友军。

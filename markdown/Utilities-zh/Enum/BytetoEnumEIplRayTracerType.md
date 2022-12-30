@@ -1,6 +1,6 @@
 # BytetoEnumEIplRayTracerType
 
-Byte to Enum EIplRayTracerType
+字节到枚举 EIplRayTracerType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EIplRayTracerType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EIplRayTracerType Enum.
-
+返回值。EIplRayTracerType Enum。

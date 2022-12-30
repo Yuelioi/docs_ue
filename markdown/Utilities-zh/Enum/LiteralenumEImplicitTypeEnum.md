@@ -1,6 +1,6 @@
 # LiteralenumEImplicitTypeEnum
 
-Literal enum EImplicitTypeEnum
+EImplicitTypeEnum的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EImplicitTypeEnum
 
 ## Inputs
 
-Enum: EImplicitTypeEnum Enum.  
+枚举。EImplicitTypeEnum枚举。 
 
 ## Outputs
 
-Return Value: EImplicitTypeEnum Enum.
-
+返回值。EImplicitTypeEnum枚举。

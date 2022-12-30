@@ -1,6 +1,6 @@
 # SwitchonEDataSourceTypeEnum
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDataSourceTypeEnum Enum.  
+选择。EDataSourceTypeEnum枚举。 
 
 ## Outputs
 
-Collision Data: Exec.
+碰撞数据。Exec.
 
-Breaking Data: Exec.
+断裂数据。Exec.
 
-Trailing Data: Exec.
-
+尾随数据。执行。

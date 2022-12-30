@@ -1,6 +1,6 @@
 # GetnumberofentriesinEConstantQFF-
 
-Returns EConstantQFFTSizeEnum_MAX value
+返回EConstantQFFTSizeEnum_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EConstantQFFTSizeEnum_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

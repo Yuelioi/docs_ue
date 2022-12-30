@@ -1,6 +1,6 @@
 # SwitchonEMPMatchOutcome
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,29 +8,28 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMPMatchOutcome Enum.  
+选择。EMPMatchOutcome Enum.  
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Quit: Exec.
+退出。Exec.
 
-Won: Exec.
+赢了：Exec.
 
-Lost: Exec.
+失败。执行董事
 
-Tied: Exec.
+并列。执行.
 
-Time Expired: Exec.
+时间过期。执行.
 
-First: Exec.
+首先。第一：执行。
 
-Second: Exec.
+第二次：执行。
 
-Third: Exec.
+第三次：执行。
 
-Fourth: Exec.
-
+第四：执行。

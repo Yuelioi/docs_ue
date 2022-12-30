@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-_4
 
-Adds a node that breaks a 'DisplayClusterConfigurationICVFX_Size' into its member fields
+添加一个节点，将'DisplayClusterConfigurationICVFX_Size'分解到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DisplayClusterConfigurationICVFX_Size' into its membe
 
 ## Inputs
 
-Display Cluster Configuration ICVFX Size: Display Cluster Configuration ICVFX Size Structure (by ref).  
+显示群集配置ICVFX大小。显示集群配置ICVFX尺寸结构（通过引用）。 
 
 ## Outputs
 
-Width: Integer. Width:. Viewport width in pixels.
+宽度：整数。宽度：。视口宽度，单位是像素。
 
-Height: Integer. Height:. Viewport height in pixels.
-
+高度：整数。高度:. 视口高度，以像素为单位。

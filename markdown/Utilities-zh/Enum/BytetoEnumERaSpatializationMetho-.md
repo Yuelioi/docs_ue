@@ -1,6 +1,6 @@
 # BytetoEnumERaSpatializationMetho-
 
-Byte to Enum ERaSpatializationMethod
+字节到枚举ERaSpatializationMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERaSpatializationMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERaSpatializationMethod Enum.
-
+返回值。ERaSpatializationMethod Enum。

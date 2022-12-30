@@ -1,6 +1,6 @@
 # BreakDMXRequest
 
-Adds a node that breaks a 'DMXRequest' into its member fields
+添加一个节点，将'DMXRequest'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DMXRequest' into its member fields
 
 ## Inputs
 
-DMXRequest: DMXRequest Structure (by ref).  
+DMXRequest。DMXRequest结构（通过引用）。 
 
 ## Outputs
 
-DMXLibrary: DMXLibrary Class Reference. DMXLibrary.
+DMXLibrary。DMXLibrary类参考。DMXLibrary.
 
-Value: Byte. Value.
-
+值。字节。值。

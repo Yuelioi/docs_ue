@@ -1,8 +1,8 @@
 # ScreenShotDir
 
-Returns the directory the engine uses to output screenshot files.
+返回引擎用于输出屏幕截图文件的目录。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. screenshot directory.
-
+返回值。字符串。屏幕截图目录。

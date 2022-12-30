@@ -1,6 +1,6 @@
 # LiteralenumESynthStereoDelayMode
 
-Literal enum ESynthStereoDelayMode
+字面意义上的枚举：ESynthStereoDelayMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESynthStereoDelayMode
 
 ## Inputs
 
-Enum: ESynthStereoDelayMode Enum.  
+枚举。ESynthStereoDelayMode枚举。 
 
 ## Outputs
 
-Return Value: ESynthStereoDelayMode Enum.
-
+返回值。ESynthStereoDelayMode Enum。

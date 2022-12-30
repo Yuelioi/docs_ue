@@ -1,6 +1,6 @@
 # BreakFocalLengthInfo
 
-Adds a node that breaks a 'FocalLengthInfo' into its member fields
+添加一个节点，将'FocalLengthInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'FocalLengthInfo' into its member fields
 
 ## Inputs
 
-Focal Length Info: Focal Length Info Structure (by ref).  
+焦点长度信息。焦距信息结构（通过引用）。 
 
 ## Outputs
 
-Fx Fy: Vector 2D Structure. Fx Fy:. Value expected to be normalized (unitless).
-
+Fx Fy: 矢量2D结构。Fx Fy:. 预期归一化的值（无单位）。

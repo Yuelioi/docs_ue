@@ -1,6 +1,6 @@
 # LiteralenumETakeRecorderState
 
-Literal enum ETakeRecorderState
+字面意义上的ETakeRecorderState枚举
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: ETakeRecorderState Enum.
 
 ## Outputs
 
-Return Value: ETakeRecorderState Enum.
-
+返回值。ETakeRecorderState Enum。

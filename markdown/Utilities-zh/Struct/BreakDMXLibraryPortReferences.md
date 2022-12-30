@@ -1,6 +1,6 @@
 # BreakDMXLibraryPortReferences
 
-Adds a node that breaks a 'DMXLibraryPortReferences' into its member fields
+添加一个节点，将'DMXLibraryPortReferences'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DMXLibraryPortReferences' into its member fields
 
 ## Inputs
 
-DMXLibrary Port References: DMXLibrary Port References Structure (by ref).  
+DMXLibrary端口引用。DMXLibrary端口引用结构（通过引用）。 
 
 ## Outputs
 
-Input Ports: Array of DMXInput Port Reference Structures. Input Port References:. Map of input port references of a Library.
+输入端口。DMXInput Port Reference结构的数组。输入端口参考：。一个库的输入端口引用的地图。
 
-Output Ports: Array of DMXOutput Port Reference Structures. Output Port References:. Output ports of the Library of a Library.
-
+输出端口。DMX输出端口参考结构的数组。输出端口参考：。一个库的库的输出端口。

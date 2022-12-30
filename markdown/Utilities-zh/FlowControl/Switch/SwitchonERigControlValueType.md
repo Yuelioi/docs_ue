@@ -1,6 +1,6 @@
 # SwitchonERigControlValueType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERigControlValueType Enum.  
+选择。ERigControlValueType枚举。 
 
 ## Outputs
 
-Initial: Exec.
+初始。执行
 
-Current: Exec.
+当前：执行。执行。
 
-Minimum: Exec.
+最小值。执行
 
-Maximum: Exec.
-
+最多。执行

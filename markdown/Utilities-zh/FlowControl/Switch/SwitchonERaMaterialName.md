@@ -1,6 +1,6 @@
 # SwitchonERaMaterialName
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,57 +8,56 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERaMaterialName Enum.  
+选择。ERaMaterialName枚举。 
 
 ## Outputs
 
-Transparent: Exec.
+透明的。Exec.
 
 Acoustic Ceiling Tiles: Exec.
 
-Brick Bare: Exec.
+裸砖 Exec.
 
-Brick Painted: Exec.
+砖块涂漆: Exec.
 
-Concrete Block Coarse: Exec.
+混凝土砌块 粗的: 混凝土砌块: Exec.
 
-Concrete Block Painted: Exec.
+混凝土砌块涂漆: Exec.
 
-Curtain Heavy: Exec.
+重型窗帘: Exec.
 
-Fiber Glass Insulation: Exec.
+玻璃纤维保温层 Exec.
 
-Glass Thin: Exec.
+薄玻璃 防爆玻璃: 防爆玻璃
 
-Glass Thick: Exec.
+厚玻璃 优秀
 
-Grass: Exec.
+小草 Exec.
 
-Linoleum on Concrete: Exec.
+混凝土上的油毡: Exec.
 
-Marble: Exec.
+大理石: 优秀
 
-Metal: Exec.
+金属。优秀
 
-Parquet on Concrete: Exec.
+混凝土上的镶木地板: Exec.
 
-Plaster Rough: Exec.
+粗糙的石膏。优秀
 
-Plaster Smooth: Exec.
+石膏光滑：执行 执行
 
-Plywood Panel: Exec.
+胶合板: 优等品
 
-Polished Concrete or Tile: Exec.
+抛光的混凝土或瓷砖。优等品
 
-Sheetrock: Exec.
+石膏板: 优秀
 
-Water or Ice Surface: Exec.
+水面或冰面。优等生
 
-Wood Ceiling: Exec.
+木质天花板: 优秀
 
-Wood Panel: Exec.
+木制面板: Exec.
 
-Uniform: Exec.
-
+统一的。执行.

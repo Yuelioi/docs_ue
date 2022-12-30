@@ -1,6 +1,6 @@
 # BreakDetectedFaceFeature2D
 
-Adds a node that breaks a 'DetectedFaceFeature2D' into its member fields
+添加一个节点，将'DetectedFaceFeature2D'分解为其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DetectedFaceFeature2D' into its member fields
 
 ## Inputs
 
-Detected Face Feature 2D: Detected Face Feature 2D Structure (by ref).  
+Detected Face Feature 2D: 检测到的人脸特征2D结构（通过引用）。 
 
 ## Outputs
 
-Feature Type: EDetectedFaceFeatureType Enum. Feature Type:. The type of region that was detected.
+特征类型。EDetectedFaceFeatureType枚举。特征类型：。被检测到的区域的类型。
 
-Bounding Box: Box 2D Structure. Bounding Box:. The bounding box of the detected feature in the image.
+Bounding Box（包围盒）。箱体二维结构。边界框：。检测到的特征在图像中的边界盒。
 
-Confidence: Float (single-precision). Confidence:. How confident the ML was in determining this feature and its type.
-
+Confidence（信心）。Float（单精度）。信度：。ML在确定该特征及其类型时的信心程度。

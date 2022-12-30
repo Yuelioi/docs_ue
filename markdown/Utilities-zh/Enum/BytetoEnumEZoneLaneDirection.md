@@ -1,6 +1,6 @@
 # BytetoEnumEZoneLaneDirection
 
-Byte to Enum EZoneLaneDirection
+字节到枚举 EZoneLaneDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EZoneLaneDirection
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EZoneLaneDirection Enum.
-
+返回值。EZoneLaneDirection Enum。

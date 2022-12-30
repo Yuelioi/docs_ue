@@ -1,6 +1,6 @@
 # LiteralenumEFilterResult
 
-Literal enum EFilterResult
+字面意义上的EFilterResult枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFilterResult
 
 ## Inputs
 
-Enum: EFilterResult Enum.  
+枚举。EFilterResult Enum.  
 
 ## Outputs
 
-Return Value: EFilterResult Enum.
-
+返回值。EFilterResult Enum。

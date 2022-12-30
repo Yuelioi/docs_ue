@@ -1,6 +1,6 @@
 # GetnumberofentriesinEDNADataLaye-
 
-Returns EDNADataLayer_MAX value
+返回EDNADataLayer_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EDNADataLayer_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

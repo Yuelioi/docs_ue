@@ -1,20 +1,19 @@
 # BreakFontRenderInfo
 
-Adds a node that breaks a 'FontRenderInfo' into its member fields
+添加一个节点，将'FontRenderInfo'分解成其成员字段。
 
 ## 图示
 
 ![]($-20221218-14361116.png)
 
-## Inputs
+## 输入
 
-Font Render Info: Font Render Info Structure (by ref).  
+字体渲染信息。Font Render Info结构(通过引用)。 
 
 ## Outputs
 
-Clip Text: Boolean. Clip Text:. Whether to clip text.
+剪辑文本。布尔值。Clip Text:. 是否剪辑文本。
 
-Enable Shadow: Boolean. Enable Shadow:. Whether to turn on shadowing.
+启用阴影：布尔值。启用阴影：。是否开启阴影。
 
-Glow Info: Depth Field Glow Info Structure. Glow Info:. Depth field glow parameters (only usable if font was imported with a depth field).
-
+Glow Info（辉光信息）。深度场辉光信息结构。Glow Info:（辉光信息）。深度场辉光参数（只有在字体导入时有深度场时才可用）。

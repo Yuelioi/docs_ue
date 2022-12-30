@@ -1,6 +1,6 @@
 # BytetoEnumEPoseDriverSource
 
-Byte to Enum EPoseDriverSource
+字节到枚举 EPoseDriverSource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EPoseDriverSource
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EPoseDriverSource Enum.
-
+返回值。EPoseDriverSource Enum.

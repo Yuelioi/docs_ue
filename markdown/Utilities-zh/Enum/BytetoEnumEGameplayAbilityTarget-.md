@@ -1,6 +1,6 @@
 # BytetoEnumEGameplayAbilityTarget-
 
-Byte to Enum EGameplayAbilityTargetingLocationType
+字节到枚举 EGameplayAbilityTargetingLocationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGameplayAbilityTargetingLocationType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGameplayAbilityTargetingLocationType Enum.
-
+返回值。EGameplayAbilityTargetingLocationType Enum。

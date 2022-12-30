@@ -1,6 +1,6 @@
 # LiteralenumEBuildHierarchyMethod
 
-Literal enum EBuildHierarchyMethod
+字面意义上的枚举：EBuildHierarchyMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EBuildHierarchyMethod
 
 ## Inputs
 
-Enum: EBuildHierarchyMethod Enum.  
+枚举。EBuildHierarchyMethod Enum.  
 
 ## Outputs
 
-Return Value: EBuildHierarchyMethod Enum.
-
+返回值。EBuildHierarchyMethod Enum。

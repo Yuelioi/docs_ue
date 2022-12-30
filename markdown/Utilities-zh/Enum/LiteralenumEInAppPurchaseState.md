@@ -1,6 +1,6 @@
 # LiteralenumEInAppPurchaseState
 
-Literal enum EInAppPurchaseState
+字面意义上的EInAppPurchaseState枚举
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: EInAppPurchaseState Enum.
 
 ## Outputs
 
-Return Value: EInAppPurchaseState Enum.
-
+返回值。EInAppPurchaseState Enum.

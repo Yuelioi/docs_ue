@@ -1,6 +1,6 @@
 # LiteralenumEConstraintInterpType
 
-Literal enum EConstraintInterpType
+枚举 EConstraintInterpType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EConstraintInterpType
 
 ## Inputs
 
-Enum: EConstraintInterpType Enum.  
+枚举。EConstraintInterpType Enum.  
 
 ## Outputs
 
-Return Value: EConstraintInterpType Enum.
-
+返回值。EConstraintInterpType Enum。

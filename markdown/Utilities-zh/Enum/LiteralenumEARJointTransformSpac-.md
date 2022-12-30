@@ -1,6 +1,6 @@
 # LiteralenumEARJointTransformSpac-
 
-Literal enum EARJointTransformSpace
+枚举 EARJointTransformSpace
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARJointTransformSpace
 
 ## Inputs
 
-Enum: EARJointTransformSpace Enum.  
+枚举。EARJointTransformSpace Enum.  
 
 ## Outputs
 
-Return Value: EARJointTransformSpace Enum.
-
+返回值。EARJointTransformSpace枚举。

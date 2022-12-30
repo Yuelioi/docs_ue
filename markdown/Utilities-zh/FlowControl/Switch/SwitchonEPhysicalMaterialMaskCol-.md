@@ -1,6 +1,6 @@
 # SwitchonEPhysicalMaterialMaskCol-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,25 +8,24 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EPhysicalMaterialMaskColor Enum.  
+选择。EPhysicalMaterialMaskColor Enum.  
 
 ## Outputs
 
-Red: Exec.
+红色。Exec.
 
-Green: Exec.
+绿色：执行。Exec.
 
-Blue: Exec.
+蓝色：执行 执行
 
-Cyan: Exec.
+青色：执行
 
-Magenta: Exec.
+品红 执行
 
-Yellow: Exec.
+黄色 执行
 
-White: Exec.
+白色 执行
 
-Black: Exec.
-
+黑色：执行。执行

@@ -1,6 +1,6 @@
 # LocalRotator
 
-Local temporary Rotator variable
+本地临时旋转器变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Rotator variable
 
 ## Outputs
 
-Variable: Rotator.
-
+变量。旋转器。

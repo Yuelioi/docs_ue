@@ -1,6 +1,6 @@
 # SwitchonEMotionExtractor_MathOpe-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMotionExtractor_MathOperation Enum.  
+选择。EMotionExtractor_MathOperation Enum.  
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Addition: Exec.
+增加。执行。
 
-Subtraction: Exec.
+减法：执行。执行.
 
-Division: Exec.
+除法。执行
 
-Multiplication: Exec.
-
+乘法。执行

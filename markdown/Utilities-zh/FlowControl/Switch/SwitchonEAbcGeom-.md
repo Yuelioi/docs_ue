@@ -1,6 +1,6 @@
 # SwitchonEAbcGeom-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAbcGeometryCacheMotionVectorsImport Enum.  
+选择。EAbcGeometryCacheMotionVectorsImport Enum。 
 
 ## Outputs
 
-No Motion Vectors: Exec.
+没有运动矢量。执行。
 
-Import Abc Velocities As Motion Vectors: Exec.
+将Abc Velocities导入为运动矢量。执行。
 
-Calculate Motion Vectors During Import: Exec.
-
+在导入过程中计算运动矢量。执行。

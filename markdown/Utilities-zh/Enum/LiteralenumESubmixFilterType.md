@@ -1,6 +1,6 @@
 # LiteralenumESubmixFilterType
 
-Literal enum ESubmixFilterType
+字面意义上的枚举：ESubmixFilterType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESubmixFilterType
 
 ## Inputs
 
-Enum: ESubmixFilterType Enum.  
+枚举。ESubmixFilterType枚举。 
 
 ## Outputs
 
-Return Value: ESubmixFilterType Enum.
-
+返回值。ESubmixFilterType Enum。

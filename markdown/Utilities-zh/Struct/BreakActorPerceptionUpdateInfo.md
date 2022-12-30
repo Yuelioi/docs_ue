@@ -1,6 +1,6 @@
 # BreakActorPerceptionUpdateInfo
 
-Adds a node that breaks a 'ActorPerceptionUpdateInfo' into its member fields
+添加一个节点，将'ActorPerceptionUpdateInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ActorPerceptionUpdateInfo' into its member fields
 
 ## Inputs
 
-Actor Perception Update Info: Sensed Actor's Update Data Structure (by ref).  
+Actor Perception Update Info。被感知的演员的更新数据结构（通过引用）。 
 
 ## Outputs
 
-Target Id: Integer. Target Id:. Id of to the stimulus source.
+目标标识。整数。目标Id：。到刺激源的Id。
 
-Target: Actor Weak object. Target:. Actor associated to the stimulus (can be null).
+目标。行为者弱的对象。目标:。与刺激相关的演员（可以是空的）。
 
-Stimulus: AIStimulus Structure. Stimulus:. Updated stimulus.
-
+刺激。AIStimulus结构。刺激：。更新的刺激物。

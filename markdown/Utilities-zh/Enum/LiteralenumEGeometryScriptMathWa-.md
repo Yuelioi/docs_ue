@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptMathWa-
 
-Literal enum EGeometryScriptMathWarpType
+字面意义上的枚举 EGeometryScriptMathWarpType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptMathWarpType
 
 ## Inputs
 
-Enum: EGeometryScriptMathWarpType Enum.  
+枚举。EGeometryScriptMathWarpType 枚举。 
 
 ## Outputs
 
-Return Value: EGeometryScriptMathWarpType Enum.
-
+返回值。EGeometryScriptMathWarpType 枚举。

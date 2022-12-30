@@ -1,6 +1,6 @@
 # LessEqual
 
-Less Equal
+不太平等
 
 ## 图示
 
@@ -8,11 +8,10 @@ Less Equal
 
 ## Inputs
 
-A: Wildcard.
+A: 通配符。
 
-B: Wildcard.  
+B：通配符。 
 
 ## Outputs
 
-Return Value: Boolean. Returns true if A is less than or equal to B (A <= B).
-
+返回值。布尔值。如果A小于或等于B（A <= B），返回真。

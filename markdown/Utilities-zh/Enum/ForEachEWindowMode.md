@@ -8,15 +8,14 @@ ForEach EWindowMode
 
 ## Inputs
 
-In: Exec.
+在。Exec.
 
-Skip Hidden: Boolean. Controls whether or not the loop will skip over hidden enumeration values..  
+跳过隐藏。布尔值。控制循环是否会跳过隐藏的枚举值。 
 
 ## Outputs
 
-Loop Body: Exec.
+循环主体：Exec.
 
-Enum Value: EWindowMode Enum.
+枚举值。EWindowMode枚举。
 
-Completed: Exec.
-
+已完成。Exec.Enum值：EWindowMode枚举。

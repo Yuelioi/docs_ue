@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGroomOverri-
 
-Returns EGroomOverrideType_MAX value
+返回EGroomOverrideType_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGroomOverrideType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # BreakEquirectProps
 
-Adds a node that breaks a 'EquirectProps' into its member fields
+添加一个节点，将'EquirectProps'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'EquirectProps' into its member fields
 
 ## Inputs
 
-Equirect Props: Equirect Props Structure (by ref).  
+Equirect Props。Equirect Props结构（通过引用）。 
 
 ## Outputs
 
-Left UVRect: Box 2D Structure. Left UVRect:. Left source texture UVRect, specifying portion of input texture corresponding to left eye..
+Left UVRect: 盒子2D结构。Left UVRect:。左侧源纹理UVRect，指定输入纹理中对应于左眼的部分。
 
-Right UVRect: Box 2D Structure. Right UVRect:. Right source texture UVRect, specifying portion of input texture corresponding to right eye..
+Right UVRect：盒状2D结构。Right UVRect:.右UVRect。右侧源纹理UVRect，指定输入纹理中与右眼对应的部分。
 
-Left Scale: Vector 2D Structure. Left Scale:. Left eye's texture coordinate scale after mapping to 2D..
+Left Scale（左比例）。Vector 2D结构。Left Scale（左比例）：。左眼的纹理坐标映射到2D后的比例。
 
-Right Scale: Vector 2D Structure. Right Scale:. Right eye's texture coordinate scale after mapping to 2D..
+Right Scale（右尺度）：向量2D结构。矢量2D结构。Right Scale:. 右眼的纹理坐标在映射到2D后的比例。
 
-Left Bias: Vector 2D Structure. Left Bias:. Left eye's texture coordinate bias after mapping to 2D..
+Left Bias: 矢量二维结构。Left Bias:（左偏差）。左眼的纹理坐标在映射到2D后的偏差。
 
-Right Bias: Vector 2D Structure. Right Bias:. Right eye's texture coordinate bias after mapping to 2D..
-
+Right Bias: 矢量2D结构。Right Bias:（右偏置）。右眼的纹理坐标在映射到2D后的偏差。

@@ -1,6 +1,6 @@
 # LiteralenumEMediaAudioCaptureDev-
 
-Literal enum EMediaAudioCaptureDeviceFilter
+枚举EMediaAudioCaptureDeviceFilter
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMediaAudioCaptureDeviceFilter
 
 ## Inputs
 
-Enum: EMediaAudioCaptureDeviceFilter Enum.  
+枚举。EMediaAudioCaptureDeviceFilter枚举。 
 
 ## Outputs
 
-Return Value: EMediaAudioCaptureDeviceFilter Enum.
-
+返回值。EMediaAudioCaptureDeviceFilter Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEUpdateClockSource
 
-Byte to Enum EUpdateClockSource
+字节到枚举 EUpdateClockSource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EUpdateClockSource
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EUpdateClockSource Enum.
-
+返回值。EUpdateClockSource Enum。

@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptRemove-
 
-Literal enum EGeometryScriptRemoveHiddenTrianglesMethod
+字面意义上的枚举 EGeometryScriptRemoveHiddenTrianglesMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptRemoveHiddenTrianglesMethod
 
 ## Inputs
 
-Enum: EGeometryScriptRemoveHiddenTrianglesMethod Enum.  
+枚举。EGeometryScriptRemoveHiddenTrianglesMethod Enum.  
 
 ## Outputs
 
-Return Value: EGeometryScriptRemoveHiddenTrianglesMethod Enum.
-
+返回值。EGeometryScriptRemoveHiddenTrianglesMethod Enum.

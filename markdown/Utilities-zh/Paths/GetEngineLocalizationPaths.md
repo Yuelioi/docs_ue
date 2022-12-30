@@ -1,8 +1,8 @@
 # GetEngineLocalizationPaths
 
-Returns a list of engine-specific localization paths
+返回一个特定引擎的本地化路径列表
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: Array of Strings. Returns a list of engine-specific localization paths.
-
+返回值。字符串的数组。返回特定于引擎的本地化路径的列表。

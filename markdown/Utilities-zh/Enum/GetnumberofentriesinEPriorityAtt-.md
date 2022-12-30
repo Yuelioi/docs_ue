@@ -1,6 +1,6 @@
 # GetnumberofentriesinEPriorityAtt-
 
-Returns EPriorityAttenuationMethod_MAX value
+返回EPriorityAttenuationMethod_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EPriorityAttenuationMethod_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # LiteralenumEColorCorrectRegionTe-
 
-Literal enum EColorCorrectRegionTemperatureType
+枚举EC ColorCorrectRegionTemperatureType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EColorCorrectRegionTemperatureType
 
 ## Inputs
 
-Enum: EColorCorrectRegionTemperatureType Enum.  
+枚举。EColorCorrectRegionTemperatureType Enum.  
 
 ## Outputs
 
-Return Value: EColorCorrectRegionTemperatureType Enum.
-
+返回值。EC ColorCorrectRegionTemperatureType Enum。

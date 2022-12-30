@@ -1,6 +1,6 @@
 # SwitchonEXRDeviceConnectionResul-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EXRDeviceConnectionResult Enum.  
+选择。EXRDeviceConnectionResult Enum。 
 
 ## Outputs
 
-No Tracking System: Exec.
+没有跟踪系统。Exec.
 
-Feature Not Supported: Exec.
+不支持的功能。Exec.
 
-No Valid Viewport: Exec.
+没有有效的视口。Exec.
 
-Misc Failure: Exec.
+Miscure Failure: 执行。
 
-Success: Exec.
-
+成功。执行。

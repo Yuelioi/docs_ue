@@ -8,9 +8,8 @@ Byte to Enum EMaterialSearchLocation
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMaterialSearchLocation Enum.
-
+返回值。EMaterialSearchLocation Enum。

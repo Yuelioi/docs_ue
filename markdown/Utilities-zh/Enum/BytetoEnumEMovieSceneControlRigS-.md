@@ -1,6 +1,6 @@
 # BytetoEnumEMovieSceneControlRigS-
 
-Byte to Enum EMovieSceneControlRigSpaceType
+字节到枚举 EMovieSceneControlRigSpaceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMovieSceneControlRigSpaceType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMovieSceneControlRigSpaceType Enum.
-
+返回值。EMovieSceneControlRigSpaceType Enum。

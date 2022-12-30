@@ -1,6 +1,6 @@
 # BreakAudioVolumeSubmixOverrideSe-
 
-Adds a node that breaks a 'AudioVolumeSubmixOverrideSettings' into its member fields
+添加一个节点，将'AudioVolumeSubmixOverrideSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'AudioVolumeSubmixOverrideSettings' into its member fi
 
 ## Inputs
 
-Audio Volume Submix Override Settings: Audio Volume Submix Override Settings Structure (by ref).  
+Audio Volume Submix Override Settings（音频音量子混音覆盖设置）。Audio Volume Submix Override Settings结构（通过参考）。 
 
 ## Outputs
 
-Submix: Sound Submix Object Reference. Submix:. The submix to override the effect chain of.
+Submix: 声音子混音对象参考。Submix:。要覆盖效果链的子混音。
 
-Submix Effect Chain: Array of Sound Effect Submix Preset Object References. Submix Effect Chain:. The submix effect chain to override.
+Submix Effect Chain（子混音效果链）。声音效果子混音预置对象参考数组。Submix Effect Chain:.子混音效果链。要覆盖的子混音效果链。
 
-Crossfade Time: Float (single-precision). Crossfade Time:. The amount of time to crossfade to the override for the submix chain.
-
+交叉淡化时间。浮点数（单精度）。交叉淡化时间：。交叉渐变到覆盖子混音链的时间量。

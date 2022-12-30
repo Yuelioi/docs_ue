@@ -1,6 +1,6 @@
 # BreakDMXInputPortConfig
 
-Adds a node that breaks a 'DMXInputPortConfig' into its member fields
+添加一个节点，将'DMXInputPortConfig'分解成其成员字段
 
 ## 图示
 
@@ -8,27 +8,26 @@ Adds a node that breaks a 'DMXInputPortConfig' into its member fields
 
 ## Inputs
 
-DMXInput Port Config: DMXInput Port Config Structure (by ref).  
+DMXInput Port Config: DMX输入端口配置结构（通过引用）。 
 
 ## Outputs
 
-Port Name: String. Port Name:. The name displayed wherever the port can be displayed.
+端口名称。字符串。端口名称：。在可以显示端口的地方显示的名称。
 
-Protocol Name: Name. Protocol Name:. DMX Protocol.
+协议名称。名称。协议名称：。DMX协议。
 
-Communication Type: EDMXCommunicationType Enum. Communication Type:. The type of communication used with this port.
+通信类型。EDMXCommunicationType枚举。通信类型:。该端口使用的通信类型。
 
-Network Interface Card IP Address: String. Device Address:. The Network Interface Card's IP Adress, over which DMX is received.
+网络接口卡IP地址。字符串。设备地址：。网络接口卡的IP地址，通过它接收DMX。
 
-Local Universe Start: Integer. Local Universe Start:. Local Start Universe.
+本地宇宙的开始。整数。本地宇宙开始：。本地开始的宇宙。
 
-Amount Of Universes: Integer. Num Universes:. Number of Universes.
+宇宙的数量。整数。Num Universes:. 宇宙的数量。
 
-Extern Universe Start: Integer. Extern Universe Start:. The start address this being transposed to.. E.g. if LocalUniverseStart is 1 and this is 100, Local Universe 1 is sent/received as Universe 100..
+外部宇宙的开始。整数。外部宇宙的起点：. 这个起始地址被换位到...。例如，如果LocalUniverseStart是1，而这个地址是100，那么Local Universe 1就被作为Universe 100发送/接收。
 
-Priority Strategy: EDMXPortPriorityStrategy Enum. Priority Strategy:. How to deal with the priority value.
+优先级策略。EDMXPortPriorityStrategy 枚举。优先级策略：。如何处理优先权值。
 
-Priority: Integer. Priority:. Priority value, can act as a filter or a threshold.
+优先权。整数。优先权:. 优先级值，可以作为一个过滤器或一个阈值。
 
-Port Guid: Guid Structure. Port Guid:. Unique identifier, shared with the port instance.. Note: This needs be BlueprintReadWrite to be accessible to property type customization, but is hidden by customization..
-
+端口指南。指南结构。端口指南:。唯一的标识符，与端口实例共享。注意：这需要BlueprintReadWrite才能被属性类型定制所访问，但被定制所隐藏。

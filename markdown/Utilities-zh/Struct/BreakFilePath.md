@@ -1,6 +1,6 @@
 # BreakFilePath
 
-Adds a node that breaks a 'FilePath' into its member fields
+添加一个节点，将'文件路径'分解成其成员字段
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that breaks a 'FilePath' into its member fields
 
 ## Outputs
 
-File Path: String. File Path:. The path to the file..
-
+文件路径。字符串。文件路径：。文件的路径。

@@ -1,6 +1,6 @@
 # LiteralenumEGroomStrandsSize
 
-Literal enum EGroomStrandsSize
+字面意义上的枚举：EGroomStrandsSize
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGroomStrandsSize
 
 ## Inputs
 
-Enum: EGroomStrandsSize Enum.  
+枚举。EGroomStrandsSize Enum.  
 
 ## Outputs
 
-Return Value: EGroomStrandsSize Enum.
-
+返回值。EGroomStrandsSize Enum.

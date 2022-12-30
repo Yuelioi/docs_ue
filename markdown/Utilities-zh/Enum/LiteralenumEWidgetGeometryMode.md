@@ -1,6 +1,6 @@
 # LiteralenumEWidgetGeometryMode
 
-Literal enum EWidgetGeometryMode
+枚举 EWidgetGeometryMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWidgetGeometryMode
 
 ## Inputs
 
-Enum: EWidgetGeometryMode Enum.  
+枚举。EWidgetGeometryMode Enum.  
 
 ## Outputs
 
-Return Value: EWidgetGeometryMode Enum.
-
+返回值。EWidgetGeometryMode Enum.

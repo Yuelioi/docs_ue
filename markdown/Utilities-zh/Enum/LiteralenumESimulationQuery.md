@@ -1,6 +1,6 @@
 # LiteralenumESimulationQuery
 
-Literal enum ESimulationQuery
+字面意义上的ESimulationQuery枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESimulationQuery
 
 ## Inputs
 
-Enum: ESimulationQuery Enum.  
+枚举。ESimulationQuery Enum.  
 
 ## Outputs
 
-Return Value: ESimulationQuery Enum.
-
+返回值。ESimulationQuery Enum。

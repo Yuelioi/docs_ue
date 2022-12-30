@@ -1,6 +1,6 @@
 # BreakButtonStyle
 
-Adds a node that breaks a 'ButtonStyle' into its member fields
+添加一个节点，将'ButtonStyle'分解到其成员字段中
 
 ## 图示
 
@@ -8,31 +8,30 @@ Adds a node that breaks a 'ButtonStyle' into its member fields
 
 ## Inputs
 
-Button Style: Button Style Structure (by ref).  
+按钮样式。按钮样式结构（通过引用）。 
 
 ## Outputs
 
-Normal: Slate Brush Structure. Normal:. Button appearance when the button is not hovered or pressed.
+Normal: 石板刷结构。Normal:。当按钮未被悬停或按下时的按钮外观。
 
-Hovered: Slate Brush Structure. Hovered:. Button appearance when hovered.
+悬停的。石板刷结构。悬停的:. 悬停时的按钮外观。
 
-Pressed: Slate Brush Structure. Pressed:. Button appearance when pressed.
+按下的。石板刷结构。Pressed:. 按压时的按钮外观。
 
-Disabled: Slate Brush Structure. Disabled:. Button appearance when disabled, by default this is set to an invalid resource when that is the case default disabled drawing is used..
+禁用。石板刷结构。Disabled:. 禁用时的按钮外观，默认情况下，这被设置为无效的资源，如果是这样的话，就使用默认的禁用画法。
 
-Normal Foreground: Slate Color Structure. Normal Foreground:. Foreground Color when the button is not hovered or pressed.
+Normal Foreground（正常前景）。石板颜色结构。Normal Foreground:.正常前景。按钮未被悬停或按下时的前景色。
 
-Hovered Foreground: Slate Color Structure. Hovered Foreground:. Foreground Color when hovered.
+Hovered Foreground: 石板色结构。悬停的前景:. 悬停时的前景颜色。
 
-Pressed Foreground: Slate Color Structure. Pressed Foreground:. Foreground Color when pressed.
+按下的前景。石板色的结构。Pressed Foreground:. 按压时的前景颜色。
 
-Disabled Foreground: Slate Color Structure. Disabled Foreground:. Foreground Color when disabled.
+Disabled Foreground: 石板色结构。Disabled Foreground:（禁用的前景）。禁用时的前景颜色。
 
-Normal Padding: Margin Structure. Normal Padding:. Padding that accounts for the border in the button's background image.. When this is applied, the content of the button should appear flush. with the button's border. Use this padding when the button is not pressed..
+Normal Padding: 边距结构。Normal Padding:.正常填充。考虑到按钮背景图片中的边框的填充。当应用这个功能时，按钮的内容应该与按钮的边框平齐。当按钮未被按下时，使用此填充。
 
-Pressed Padding: Margin Structure. Pressed Padding:. Same as NormalPadding but used when the button is pressed. Allows for moving the content to match. any "movement" in the button's border image..
+被按下的padding。边距结构。Pressed Padding:. 与NormalPadding相同，但在按钮被按下时使用。允许移动内容以配合。按钮边框图像的任何 "移动"。
 
-Pressed Sound: Slate Sound Structure. Pressed Slate Sound:. The sound the button should play when pressed.
+按下的声音。石板的声音结构。按下的石板声音：。按钮被按下时应播放的声音。
 
-Hovered Sound: Slate Sound Structure. Hovered Slate Sound:. The sound the button should play when initially hovered over.
-
+悬停的声音。石板的声音结构。悬停的石板声：。当按钮最初悬停在上面时应该播放的声音。

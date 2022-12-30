@@ -1,6 +1,6 @@
 # LiteralenumEAzureSpatialAnchorsR-
 
-Literal enum EAzureSpatialAnchorsResult
+枚举 EAzureSpatialAnchorsResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAzureSpatialAnchorsResult
 
 ## Inputs
 
-Enum: EAzureSpatialAnchorsResult Enum.  
+枚举。EAzureSpatialAnchorsResult枚举。 
 
 ## Outputs
 
-Return Value: EAzureSpatialAnchorsResult Enum.
-
+返回值。EAzureSpatialAnchorsResult Enum.

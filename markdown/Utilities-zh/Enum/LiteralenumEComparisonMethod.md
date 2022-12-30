@@ -1,6 +1,6 @@
 # LiteralenumEComparisonMethod
 
-Literal enum EComparisonMethod
+EComparisonMethod的文字枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EComparisonMethod
 
 ## Inputs
 
-Enum: EComparisonMethod Enum.  
+枚举。EComparisonMethod Enum.  
 
 ## Outputs
 
-Return Value: EComparisonMethod Enum.
-
+返回值。EComparisonMethod Enum。

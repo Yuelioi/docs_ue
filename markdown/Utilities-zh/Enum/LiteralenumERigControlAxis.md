@@ -1,6 +1,6 @@
 # LiteralenumERigControlAxis
 
-Literal enum ERigControlAxis
+枚举ERigControlAxis的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERigControlAxis
 
 ## Inputs
 
-Enum: ERigControlAxis Enum.  
+枚举。ERigControlAxis Enum.  
 
 ## Outputs
 
-Return Value: ERigControlAxis Enum.
-
+返回值。ERigControlAxis Enum。

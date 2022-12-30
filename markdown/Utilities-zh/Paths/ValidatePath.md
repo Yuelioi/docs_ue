@@ -1,8 +1,8 @@
 # ValidatePath
 
-Validates that the parts that make up the path contain no invalid characters as dictated by the operating system. Note that this is a different set of restrictions to those imposed by FPackageName
+验证构成路径的部分不包含操作系统规定的无效字符。请注意，这是与FPpackageName不同的一套限制。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Path: String. path to validate.  
+在Path中。字符串。要验证的路径。 
 
 ## Outputs
 
-Did Succeed: Boolean. Whether the path could be validated.
+Did Succeed（成功）。布尔值。路径是否能被验证。
 
-Out Reason: Text. If validation fails, this is filled with the failure reason.
-
+输出原因。文本。如果验证失败，则填写失败原因。

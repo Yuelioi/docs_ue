@@ -1,6 +1,6 @@
 # BytetoEnumETextShapingMethod
 
-Byte to Enum ETextShapingMethod
+字节到枚举 ETextShapingMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETextShapingMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETextShapingMethod Enum.
-
+返回值。ETextShapingMethod Enum。

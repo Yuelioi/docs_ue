@@ -1,6 +1,6 @@
 # LiteralenumEXRTrackedDeviceType
 
-Literal enum EXRTrackedDeviceType
+枚举EXRTrackedDeviceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EXRTrackedDeviceType
 
 ## Inputs
 
-Enum: EXRTrackedDeviceType Enum.  
+枚举。EXRTrackedDeviceType枚举。 
 
 ## Outputs
 
-Return Value: EXRTrackedDeviceType Enum.
-
+返回值。EXRTrackedDeviceType枚举。

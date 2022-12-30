@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAlembicImpo-
 
-Returns EAlembicImportType_MAX value
+返回EAlembicImportType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAlembicImportType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

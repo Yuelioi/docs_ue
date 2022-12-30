@@ -1,6 +1,6 @@
 # BytetoEnumESwapAudioOutputDevice-
 
-Byte to Enum ESwapAudioOutputDeviceResultState
+字节到枚举 ESwapAudioOutputDeviceResultState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESwapAudioOutputDeviceResultState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESwapAudioOutputDeviceResultState Enum.
-
+返回值。ESwapAudioOutputDeviceResultState Enum。

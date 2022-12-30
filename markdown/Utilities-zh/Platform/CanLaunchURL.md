@@ -1,8 +1,8 @@
 # CanLaunchURL
 
-Can Launch URL
+可以启动URL
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-URL: String.  
+URL。字符串。 
 
 ## Outputs
 
-Out: Exec.
+输出。执行。
 
-Return Value: Boolean. Can Launch URL.
-
+返回值。布尔值。可以启动URL。

@@ -1,6 +1,6 @@
 # LiteralenumEQuartzTimeSignatureQ-
 
-Literal enum EQuartzTimeSignatureQuantization
+枚举EQuartzTimeSignatureQuantization
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EQuartzTimeSignatureQuantization
 
 ## Inputs
 
-Enum: EQuartzTimeSignatureQuantization Enum.  
+枚举。EQuartzTimeSignatureQuantization Enum.  
 
 ## Outputs
 
-Return Value: EQuartzTimeSignatureQuantization Enum.
-
+返回值。EQuartzTimeSignatureQuantization Enum。

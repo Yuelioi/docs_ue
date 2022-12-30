@@ -17,4 +17,3 @@ Struct Ref: Found MIDIDevice Structure (by ref).
 Out: Exec.
 
 Struct Out: Found MIDIDevice Structure (by ref). Reference to the input struct.
-

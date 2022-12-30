@@ -1,6 +1,6 @@
 # BytetoEnumEMIDCreationFlags
 
-Byte to Enum EMIDCreationFlags
+字节到枚举EMIDCreationFlags
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMIDCreationFlags
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMIDCreationFlags Enum.
-
+返回值。EMIDCreationFlags Enum.

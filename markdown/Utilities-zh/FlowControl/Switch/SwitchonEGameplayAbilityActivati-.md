@@ -1,6 +1,6 @@
 # SwitchonEGameplayAbilityActivati-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGameplayAbilityActivationMode Enum.  
+选择。EGameplayAbilityActivationMode枚举。 
 
 ## Outputs
 
-Authority: Exec.
+权限。Exec.
 
-Non Authority: Exec.
+非授权。Exec.
 
-Predicting: Exec.
+Predicting（预测）。执行.
 
-Confirmed: Exec.
+证实的。执行.
 
-Rejected: Exec.
-
+拒绝的。Exec.

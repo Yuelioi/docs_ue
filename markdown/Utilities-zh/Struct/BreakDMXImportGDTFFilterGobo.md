@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFFilterGobo
 
-Adds a node that breaks a 'DMXImportGDTFFilterGobo' into its member fields
+添加一个节点，将'DMXImportGDTFFilterGobo'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DMXImportGDTFFilterGobo' into its member fields
 
 ## Inputs
 
-DMXImport GDTFFilter Gobo: DMXImport GDTFFilter Gobo Structure (by ref).  
+DMXImport GDTFFilter Gobo。DMXImport GDTFFilter Gobo 结构（通过引用）。 
 
 ## Outputs
 
-Name: Name. Name.
+名称。名称。名称： 名称。
 
-Model: Name. Model.
+模型。名称。模型。
 
-Position: Matrix Structure. Position.
-
+位置。矩阵结构。职务：职务。

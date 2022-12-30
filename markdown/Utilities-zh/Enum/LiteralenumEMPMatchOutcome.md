@@ -1,6 +1,6 @@
 # LiteralenumEMPMatchOutcome
 
-Literal enum EMPMatchOutcome
+字面意义上的枚举EMPMatchOutcome
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMPMatchOutcome
 
 ## Inputs
 
-Enum: EMPMatchOutcome Enum.  
+枚举。EMPMatchOutcome Enum.  
 
 ## Outputs
 
-Return Value: EMPMatchOutcome Enum.
-
+返回值。EMPMatchOutcome Enum.

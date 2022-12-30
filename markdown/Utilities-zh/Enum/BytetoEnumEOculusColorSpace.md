@@ -1,6 +1,6 @@
 # BytetoEnumEOculusColorSpace
 
-Byte to Enum EOculusColorSpace
+字节到枚举 EOculusColorSpace
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EOculusColorSpace
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EOculusColorSpace Enum.
-
+返回值。EOculusColorSpace Enum。

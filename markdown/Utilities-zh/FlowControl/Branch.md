@@ -1,6 +1,6 @@
 # Branch
 
-Branch Statement. If Condition is true, execution goes to True, otherwise it goes to False
+分支语句。如果条件为真，则执行到真，否则执行到假。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Branch Statement. If Condition is true, execution goes to True, otherwise it goe
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Condition: Boolean.  
+条件。布尔型。 
 
 ## Outputs
 
-True: Exec.
+真：执行。
 
-False: Exec.
-
+False（假）。执行。

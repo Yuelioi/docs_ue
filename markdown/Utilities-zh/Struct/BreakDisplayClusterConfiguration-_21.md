@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-_21
 
-Adds a node that breaks a 'DisplayClusterConfigurationViewport_Remap' into its member fields
+添加一个节点，将'DisplayClusterConfigurationViewport_Remap'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DisplayClusterConfigurationViewport_Remap' into its m
 
 ## Inputs
 
-Display Cluster Configuration Viewport Remap: Display Cluster Configuration Viewport Remap Structure (by ref).  
+显示群集配置视口重映射。显示群集配置视口重映射结构（通过参考）。 
 
 ## Outputs
 
-Enable Output Remapping: Boolean. Enable:. Enables or disables viweport output remapping.
+启用输出重映射。布尔值。启用：。启用或禁用viweport输出重映射。
 
-Base Remap: Display Cluster Configuration Viewport Remap Data Structure. Base Remap:. The base remap to apply to the entire viewport, used to apply flipping and rotation to the viewport.
-
+基础重映射。显示群组配置视口重映射数据结构。基本重映射：。应用于整个视口的基本重映射，用于对视口进行翻转和旋转。

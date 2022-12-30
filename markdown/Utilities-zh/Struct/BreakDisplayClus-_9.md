@@ -1,26 +1,25 @@
 # BreakDisplayClus-_9
 
-Adds a node that breaks a 'DisplayClusterConfigurationICVFX_ChromakeyMarkers' into its member fields
+添加一个节点，将'DisplayClusterConfigurationICVFX_ChromakeyMarkers'分解到其成员字段中。
 
 ## 图示
 
 ![]($-20221218-14342229.png)
 
-## Inputs
+## 输入
 
-Display Cluster Configuration ICVFX Chromakey Markers: Display Cluster Configuration ICVFX Chromakey Markers Structure (by ref).  
+显示集群配置ICVFX Chromakey Markers。Display Cluster Configuration ICVFX Chromakey Markers Structure (by ref).  
 
-## Outputs
+## 输出
 
-Enable Chromakey Markers: Boolean. Enable:. True to display Chromakey Markers within the inner frustum..
+启用Chromakey标记。布尔值。启用：。为 "真"，以显示内壳中的Chromakey标记。
 
-Marker Color: Linear Color Structure. Marker Color:. Marker Color.
+Marker Color: 线性色彩结构。Marker Color:. Marker Color: 标记的颜色。
 
-Marker Tile RGBA: Texture 2D Object Reference. Marker Tile RGBA:. Texture to use as the chromakey marker tile..
+标记瓦的RGBA。纹理2D对象参考。Marker Tile RGBA:. 用来作为色块标记瓦的纹理。
 
-Marker Scale: Float (single-precision). Marker Size Scale:. Scale value for the size of each chromakey marker tile..
+标识器刻度。Float（单精度）。标记尺寸比例：。每个色眼标记瓦片的大小比例值。
 
-Marker Tile Distance: Float (single-precision). Marker Tile Distance:. Distance value between each chromakey marker tile..
+标记瓦片距离。Float（单精度）。标记瓦片距离：。每个色眼标记瓦片之间的距离值。
 
-Marker Tile Offset: Vector 2D Structure. Marker Tile Offset:. Offset value for the chromakey marker tiles, normalized to the tile distance. Adjust placement of the chromakey markers within the composition of the camera framing. Whole numbers will offset chromakey markers by a cyclical amount and have no visual change..
-
+Marker Tile Offset（标记瓦片偏移）。矢量二维结构。Marker Tile Offset：. 色眼标记瓦片的偏移值，以瓦片距离为标准。调整色眼标记在摄像机构图中的位置。整数将以周期性的数量偏移色键标记，没有视觉变化。

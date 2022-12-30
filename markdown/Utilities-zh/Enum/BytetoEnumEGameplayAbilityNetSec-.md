@@ -1,6 +1,6 @@
 # BytetoEnumEGameplayAbilityNetSec-
 
-Byte to Enum EGameplayAbilityNetSecurityPolicy
+字节到枚举 EGameplayAbilityNetSecurityPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGameplayAbilityNetSecurityPolicy
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGameplayAbilityNetSecurityPolicy Enum.
-
+返回值。EGameplayAbilityNetSecurityPolicy Enum。

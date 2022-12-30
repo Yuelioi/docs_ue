@@ -1,6 +1,6 @@
 # LiteralenumESendLevelControlMeth-
 
-Literal enum ESendLevelControlMethod
+ESendLevelControlMethod的文字枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESendLevelControlMethod
 
 ## Inputs
 
-Enum: ESendLevelControlMethod Enum.  
+枚举。ESendLevelControlMethod Enum.  
 
 ## Outputs
 
-Return Value: ESendLevelControlMethod Enum.
-
+返回值。ESendLevelControlMethod Enum.

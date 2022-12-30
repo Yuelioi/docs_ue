@@ -1,6 +1,6 @@
 # LiteralenumEGooglePADErrorCode
 
-Literal enum EGooglePADErrorCode
+枚举 EGooglePADErrorCode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGooglePADErrorCode
 
 ## Inputs
 
-Enum: EGooglePADErrorCode Enum.  
+枚举。EGooglePADErrorCode 枚举。 
 
 ## Outputs
 
-Return Value: EGooglePADErrorCode Enum.
-
+返回值。EGooglePADErrorCode Enum.

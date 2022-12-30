@@ -1,6 +1,6 @@
 # BytetoEnumESlateSizeRule
 
-Byte to Enum ESlateSizeRule
+字节到枚举 ESlateSizeRule
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESlateSizeRule
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESlateSizeRule Enum.
-
+返回值。ESlateSizeRule Enum。

@@ -1,6 +1,6 @@
 # LiteralenumECSVImportType
 
-Literal enum ECSVImportType
+ECSVImportType的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECSVImportType
 
 ## Inputs
 
-Enum: ECSVImportType Enum.  
+枚举。ECSVImportType枚举。 
 
 ## Outputs
 
-Return Value: ECSVImportType Enum.
-
+返回值。ECSVImportType Enum。

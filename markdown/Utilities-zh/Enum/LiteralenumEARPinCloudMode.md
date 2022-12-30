@@ -1,6 +1,6 @@
 # LiteralenumEARPinCloudMode
 
-Literal enum EARPinCloudMode
+枚举EARPinCloudMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARPinCloudMode
 
 ## Inputs
 
-Enum: EARPinCloudMode Enum.  
+枚举。EARPinCloudMode Enum.  
 
 ## Outputs
 
-Return Value: EARPinCloudMode Enum.
-
+返回值。EARPinCloudMode Enum.

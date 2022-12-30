@@ -1,6 +1,6 @@
 # BreakDisplayClus-_2
 
-Adds a node that breaks a 'DisplayClusterConfigurationICVFX_CameraAdvancedRenderSettings' into its member fields
+添加一个打破'DisplayClusterConfigurationICVFX_CameraAdvancedRenderSettings'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'DisplayClusterConfigurationICVFX_CameraAdvancedRender
 
 ## Inputs
 
-Display Cluster Configuration ICVFX Camera Advanced Render Settings: Display Cluster Configuration ICVFX Camera Advanced Render Settings Structure (by ref).  
+显示集群配置ICVFX摄像机高级渲染设置。Display Cluster Configuration ICVFX Camera Advanced Render Settings（显示集群配置ICVFX摄像机高级渲染设置）结构（通过参考）。 
 
 ## Outputs
 
-Render Target Ratio: Float (single-precision). Render Target Ratio:. Performance: Render to scale RTT, resolved with shader to viewport (Custom value).
+渲染目标比率。浮点（单精度）。渲染目标比率：。性能。渲染比例RTT，用shader到视口解决（自定义值）。
 
-GPUIndex: Integer. GPUIndex:. Performance, Multi-GPU: Asign GPU for viewport rendering. The Value '-1' used to default gpu mapping (EYE_LEFT and EYE_RIGHT GPU).
+GPUIndex。整数。GPUIndex:. 性能，多GPU。指定用于视口渲染的GPU。值'-1'用于默认GPU映射（EYE_LEFT和EYE_RIGHT GPU）。
 
-Stereo GPUIndex: Integer. Stereo GPUIndex:. Performance, Multi-GPU: Customize GPU for stereo mode second view (EYE_RIGHT GPU).
+Stereo GPUIndex: 整数。Stereo GPUIndex:. 性能，多GPU。为立体模式第二视图定制GPU（EYE_RIGHT GPU）。
 
-Stereo Mode: EDisplayClusterConfigurationViewport_StereoMode Enum. Stereo Mode:. Performance: force monoscopic render, resolved to stereo viewport.
-
+立体模式。EDisplayClusterConfigurationViewport_StereoMode枚举。立体模式：。性能：强制单镜面渲染，解析为立体视口。

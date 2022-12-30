@@ -1,6 +1,6 @@
 # LiteralenumESynthSlateColorStyle
 
-Literal enum ESynthSlateColorStyle
+枚举ESynthSlateColorStyle
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESynthSlateColorStyle
 
 ## Inputs
 
-Enum: ESynthSlateColorStyle Enum.  
+枚举。ESynthSlateColorStyle Enum.  
 
 ## Outputs
 
-Return Value: ESynthSlateColorStyle Enum.
-
+返回值。ESynthSlateColorStyle Enum.

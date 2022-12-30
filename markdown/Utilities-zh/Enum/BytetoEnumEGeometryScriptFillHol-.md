@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptFillHol-
 
-Byte to Enum EGeometryScriptFillHolesMethod
+字节到枚举 EGeometryScriptFillHolesMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptFillHolesMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptFillHolesMethod Enum.
-
+返回值。EGeometryScriptFillHolesMethod Enum.

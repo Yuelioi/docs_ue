@@ -1,6 +1,6 @@
 # SwitchonESourceE-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESourceEffectDynamicsProcessorType Enum.  
+选择。ESourceEffectDynamicsProcessorType枚举。 
 
 ## Outputs
 
-Compressor: Exec.
+压缩器。Exec.
 
-Limiter: Exec.
+限制器 Exec.
 
-Expander: Exec.
+扩展器。Exec.
 
-Gate: Exec.
+Gate（门）：Exec.
 
-Upwards Compressor: Exec.
-
+Upward Compressor（向上压缩器）。Exec.

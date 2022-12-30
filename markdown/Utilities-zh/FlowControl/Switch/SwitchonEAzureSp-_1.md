@@ -1,6 +1,6 @@
 # SwitchonEAzureSp-_1
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAzureSpatialAnchorsLocateStrategy Enum.  
+选择。EAzureSpatialAnchorsLocateStrategy 枚举。 
 
 ## Outputs
 
-Any Strategy: Exec.
+任何策略。Exec.
 
-Visual Information: Exec.
+视觉信息。Exec.
 
-Relationship: Exec.
-
+关系。执行.

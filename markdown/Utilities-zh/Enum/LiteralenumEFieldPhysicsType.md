@@ -1,6 +1,6 @@
 # LiteralenumEFieldPhysicsType
 
-Literal enum EFieldPhysicsType
+字面意义上的枚举 EFieldPhysicsType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFieldPhysicsType
 
 ## Inputs
 
-Enum: EFieldPhysicsType Enum.  
+枚举。EFieldPhysicsType Enum.  
 
 ## Outputs
 
-Return Value: EFieldPhysicsType Enum.
-
+返回值。EFieldPhysicsType Enum。

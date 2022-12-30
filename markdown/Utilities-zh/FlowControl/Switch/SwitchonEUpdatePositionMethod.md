@@ -1,6 +1,6 @@
 # SwitchonEUpdatePositionMethod
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EUpdatePositionMethod Enum.  
+选择。EUpdatePositionMethod Enum.  
 
 ## Outputs
 
-Play: Exec.
+播放：Exec.
 
-Jump: Exec.
+跳跃：执行。Exec.
 
-Scrub: Exec.
-
+擦洗：执行。Exec.

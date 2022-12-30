@@ -1,6 +1,6 @@
 # BytetoEnumEStereoChannelMode
 
-Byte to Enum EStereoChannelMode
+字节到枚举 EStereoChannelMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EStereoChannelMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EStereoChannelMode Enum.
-
+返回值。EStereoChannelMode Enum。

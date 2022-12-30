@@ -1,6 +1,6 @@
 # GetnumberofentriesinEQuartzComma-_1
 
-Returns EQuartzCommandQuantization_MAX value
+返回EQuartzCommandQuantization_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EQuartzCommandQuantization_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

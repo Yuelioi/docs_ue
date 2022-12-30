@@ -1,6 +1,6 @@
 # LiteralenumEMotionWarpRotationTy-
 
-Literal enum EMotionWarpRotationType
+枚举EMotionWarpRotationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMotionWarpRotationType
 
 ## Inputs
 
-Enum: EMotionWarpRotationType Enum.  
+枚举。EMotionWarpRotationType枚举。 
 
 ## Outputs
 
-Return Value: EMotionWarpRotationType Enum.
-
+返回值。EMotionWarpRotationType枚举。

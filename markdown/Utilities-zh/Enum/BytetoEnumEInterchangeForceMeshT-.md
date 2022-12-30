@@ -1,6 +1,6 @@
 # BytetoEnumEInterchangeForceMeshT-
 
-Byte to Enum EInterchangeForceMeshType
+字节到枚举 EInterchangeForceMeshType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EInterchangeForceMeshType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EInterchangeForceMeshType Enum.
-
+返回值。EInterchangeForceMeshType Enum。

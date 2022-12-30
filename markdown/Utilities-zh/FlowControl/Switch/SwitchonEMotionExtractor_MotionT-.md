@@ -1,6 +1,6 @@
 # SwitchonEMotionExtractor_MotionT-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMotionExtractor_MotionType Enum.  
+选择。EMotionExtractor_MotionType枚举。 
 
 ## Outputs
 
-Translation: Exec.
+翻译。Exec.
 
-Rotation: Exec.
+Rotation（旋转）。旋转: Exec.
 
-Scale: Exec.
+缩放。执行。
 
-Translation Speed: Exec.
+翻译速度：执行。
 
-Rotation Speed: Exec.
-
+旋转速度：执行。

@@ -1,6 +1,6 @@
 # BytetoEnumEXRDeviceConnectionRes-
 
-Byte to Enum EXRDeviceConnectionResult
+字节到枚举 EXRDeviceConnectionResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EXRDeviceConnectionResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EXRDeviceConnectionResult Enum.
-
+返回值。EXRDeviceConnectionResult Enum。

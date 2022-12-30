@@ -31,4 +31,3 @@ Notify Filter LOD: Integer. Notify Filter LOD:. LOD to start filtering this noti
 Trigger On Dedicated Server: Boolean. Trigger on Dedicated Server:. If disabled this notify will be skipped on dedicated servers.
 
 Trigger On Follower: Boolean. Trigger on Follower:. If enabled this notify will trigger when the animation is a follower in a sync group (by default only the sync group leaders notifies trigger.
-

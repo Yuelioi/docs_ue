@@ -1,6 +1,6 @@
 # GetnumberofentriesinEXRTrackedDe-
 
-Returns EXRTrackedDeviceType_MAX value
+返回EXRTrackedDeviceType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EXRTrackedDeviceType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

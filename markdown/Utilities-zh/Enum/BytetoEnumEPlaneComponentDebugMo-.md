@@ -1,6 +1,6 @@
 # BytetoEnumEPlaneComponentDebugMo-
 
-Byte to Enum EPlaneComponentDebugMode
+字节到枚举 EPlaneComponentDebugMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EPlaneComponentDebugMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EPlaneComponentDebugMode Enum.
-
+返回值。EPlaneComponentDebugMode枚举。

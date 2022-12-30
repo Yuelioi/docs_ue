@@ -1,6 +1,6 @@
 # LiteralenumEChaosTrailingSortMet-
 
-Literal enum EChaosTrailingSortMethod
+枚举EChaosTrailingSortMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EChaosTrailingSortMethod
 
 ## Inputs
 
-Enum: EChaosTrailingSortMethod Enum.  
+枚举。EChaosTrailingSortMethod Enum.  
 
 ## Outputs
 
-Return Value: EChaosTrailingSortMethod Enum.
-
+返回值。EChaosTrailingSortMethod Enum。

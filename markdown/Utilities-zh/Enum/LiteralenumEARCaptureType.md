@@ -1,6 +1,6 @@
 # LiteralenumEARCaptureType
 
-Literal enum EARCaptureType
+枚举EARCaptureType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARCaptureType
 
 ## Inputs
 
-Enum: EARCaptureType Enum.  
+枚举。EARCaptureType Enum.  
 
 ## Outputs
 
-Return Value: EARCaptureType Enum.
-
+返回值。EARCaptureType Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEListItemAlignment
 
-Byte to Enum EListItemAlignment
+字节到枚举 EListItemAlignment
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EListItemAlignment
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EListItemAlignment Enum.
-
+返回值。EListItemAlignment Enum。

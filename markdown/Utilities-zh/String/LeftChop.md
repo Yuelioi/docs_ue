@@ -1,8 +1,8 @@
 # LeftChop
 
-Returns the left most characters from the string chopping the given number of characters from the end
+返回字符串中最左边的字符，并从结尾处砍掉给定数量的字符。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source String: String.
+源字符串。字符串。
 
-Count: Integer.  
+数值。整数。 
 
 ## Outputs
 
-Return Value: String. Returns the left most characters from the string chopping the given number of characters from the end.
-
+返回值。字符串。返回字符串中最左边的字符，并从尾部砍掉给定数量的字符。

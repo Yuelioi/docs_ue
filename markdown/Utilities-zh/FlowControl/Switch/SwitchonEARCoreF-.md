@@ -1,6 +1,6 @@
 # SwitchonEARCoreF-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARCoreFaceComponentTransformMixing Enum.  
+选择。EARCoreFaceComponentTransformMixing枚举。 
 
 ## Outputs
 
-Component Only: Exec.
+仅限组件。Exec.
 
 Component Location Tracked Rotation: Exec.
 
-Tracking Only: Exec.
-
+仅限跟踪。Exec.

@@ -1,6 +1,6 @@
 # LiteralenumEGameplayTagEventType
 
-Literal enum EGameplayTagEventType
+字面意义上的枚举：EGameplayTagEventType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayTagEventType
 
 ## Inputs
 
-Enum: EGameplayTagEventType Enum.  
+枚举。EGameplayTagEventType枚举。 
 
 ## Outputs
 
-Return Value: EGameplayTagEventType Enum.
-
+返回值。EGameplayTagEventType Enum。

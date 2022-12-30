@@ -1,6 +1,6 @@
 # GetnumberofentriesinEPoseCompone-
 
-Returns EPoseComponentDebugMode_MAX value
+返回EPoseComponentDebugMode_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EPoseComponentDebugMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

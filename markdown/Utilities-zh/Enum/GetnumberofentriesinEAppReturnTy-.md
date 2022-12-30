@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAppReturnTy-
 
-Returns EAppReturnType_MAX value
+返回 EAppReturnType_MAX 值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAppReturnType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

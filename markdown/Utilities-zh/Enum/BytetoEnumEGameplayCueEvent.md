@@ -1,6 +1,6 @@
 # BytetoEnumEGameplayCueEvent
 
-Byte to Enum EGameplayCueEvent
+字节到枚举 EGameplayCueEvent
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGameplayCueEvent
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGameplayCueEvent Enum.
-
+返回值。EGameplayCueEvent Enum。

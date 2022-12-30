@@ -1,6 +1,6 @@
 # SwitchonEMovieRenderPipelineStat-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMovieRenderPipelineState Enum.  
+选择。EMovieRenderPipelineState Enum.  
 
 ## Outputs
 
-Uninitialized: Exec.
+未初始化。Exec.
 
-Producing Frames: Exec.
+生产帧。执行。
 
-Finalize: Exec.
+最终确定。执行.
 
-Export: Exec.
+出口。执行.
 
-Finished: Exec.
-
+完成。执行.

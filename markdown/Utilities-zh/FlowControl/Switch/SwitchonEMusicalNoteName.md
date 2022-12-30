@@ -1,6 +1,6 @@
 # SwitchonEMusicalNoteName
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,13 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMusicalNoteName Enum.  
+选择。EMusicalNoteName枚举。 
 
 ## Outputs
 
-C: Exec.
+C：执行。
 
 Db: Exec.
 
@@ -24,17 +24,16 @@ Eb: Exec.
 
 E: Exec.
 
-F: Exec.
+F: 执行
 
-Gb: Exec.
+Gb：执行。Exec.
 
-G: Exec.
+G: 执行。
 
-Ab: Exec.
+执 行 Exec.
 
-A: Exec.
+A: 执行
 
 Bb: Exec.
 
-B: Exec.
-
+B: 执行。

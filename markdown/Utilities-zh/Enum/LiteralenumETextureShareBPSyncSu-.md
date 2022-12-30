@@ -8,9 +8,8 @@ Literal enum ETextureShareBPSyncSurface
 
 ## Inputs
 
-Enum: ETextureShareBPSyncSurface Enum.  
+枚举。ETextureShareBPSyncSurface Enum.  
 
 ## Outputs
 
-Return Value: ETextureShareBPSyncSurface Enum.
-
+返回值。ETextureShareBPSyncSurface Enum。

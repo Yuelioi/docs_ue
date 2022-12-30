@@ -4,7 +4,7 @@
 
 
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -12,9 +12,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source String: String. The string to check *.  
+源字符串。字符串。要检查的字符串 *.  
 
 ## Outputs
 
-Return Value: Boolean. true if the string only contains numeric characters.
-
+返回值。布尔值。如果字符串只包含数字字符，则为true。

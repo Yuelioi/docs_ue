@@ -1,6 +1,6 @@
 # LiteralenumELidarPointCloudColor-
 
-Literal enum ELidarPointCloudColorationMode
+枚举ELidarPointCloudColorationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELidarPointCloudColorationMode
 
 ## Inputs
 
-Enum: ELidarPointCloudColorationMode Enum.  
+枚举。ELidarPointCloudColorationMode枚举。 
 
 ## Outputs
 
-Return Value: ELidarPointCloudColorationMode Enum.
-
+返回值。ELidarPointCloudColorationMode Enum。

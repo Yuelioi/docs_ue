@@ -1,6 +1,6 @@
 # LiteralenumETrackedDeviceType
 
-Literal enum ETrackedDeviceType
+字面意义上的ETrackedDeviceType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETrackedDeviceType
 
 ## Inputs
 
-Enum: ETrackedDeviceType Enum.  
+枚举。ETrackedDeviceType Enum.  
 
 ## Outputs
 
-Return Value: ETrackedDeviceType Enum.
-
+返回值。ETrackedDeviceType Enum。

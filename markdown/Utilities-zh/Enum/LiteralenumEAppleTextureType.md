@@ -1,6 +1,6 @@
 # LiteralenumEAppleTextureType
 
-Literal enum EAppleTextureType
+枚举 EAppleTextureType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAppleTextureType
 
 ## Inputs
 
-Enum: EAppleTextureType Enum.  
+枚举。EAppleTextureType Enum.  
 
 ## Outputs
 
-Return Value: EAppleTextureType Enum.
-
+返回值。EAppleTextureType Enum。

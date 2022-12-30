@@ -1,8 +1,8 @@
 # TrimTrailing
 
-Removes trailing whitespace characters
+删除尾部的空白字符
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source String: String.  
+源字符串。字符串。 
 
 ## Outputs
 
-Return Value: String. Removes trailing whitespace characters.
-
+返回值。字符串。删除尾部的空白字符。

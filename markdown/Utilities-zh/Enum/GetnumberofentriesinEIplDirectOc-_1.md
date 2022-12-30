@@ -1,6 +1,6 @@
 # GetnumberofentriesinEIplDirectOc-_1
 
-Returns EIplDirectOcclusionMode_MAX value
+返回EIplDirectOcclusionMode_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EIplDirectOcclusionMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

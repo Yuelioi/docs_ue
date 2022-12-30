@@ -1,6 +1,6 @@
 # LiteralenumEChaosRemovalSortMeth-
 
-Literal enum EChaosRemovalSortMethod
+枚举EChaosRemovalSortMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EChaosRemovalSortMethod
 
 ## Inputs
 
-Enum: EChaosRemovalSortMethod Enum.  
+枚举。EChaosRemovalSortMethod Enum.  
 
 ## Outputs
 
-Return Value: EChaosRemovalSortMethod Enum.
-
+返回值。EChaosRemovalSortMethod Enum.

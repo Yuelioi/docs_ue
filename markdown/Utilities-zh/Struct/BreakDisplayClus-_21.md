@@ -1,6 +1,6 @@
 # BreakDisplayClus-_21
 
-Adds a node that breaks a 'DisplayClusterConfigurationViewport_ColorGradingSettings' into its member fields
+添加一个节点，将'DisplayClusterConfigurationViewport_ColorGradingSettings'分解到其成员字段中
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'DisplayClusterConfigurationViewport_ColorGradingSetti
 
 ## Inputs
 
-Display Cluster Configuration Viewport Color Grading Settings: Display Cluster Configuration Viewport Color Grading Settings Structure (by ref).  
+显示群组配置视口颜色分级设置。显示群组配置视口颜色分级设置结构（按参考）。 
 
 ## Outputs
 
-Saturation: Vector 4 Structure. Saturation:. Saturation.
+饱和度。Vector 4 结构。饱和度：。饱和度。
 
-Contrast: Vector 4 Structure. Contrast:. Contrast.
+对比度。向量4结构。对比度:. 对比度。
 
-Gamma: Vector 4 Structure. Gamma:. Gamma.
+Gamma: 矢量4结构。伽马:. 伽马。
 
-Gain: Vector 4 Structure. Gain:. Gain.
+增益。Vector 4 Structure. 增益:。增益。
 
-Offset: Vector 4 Structure. Offset:. Offset.
-
+Offset: Vector 4 Structure. Offset:.偏移 偏移。

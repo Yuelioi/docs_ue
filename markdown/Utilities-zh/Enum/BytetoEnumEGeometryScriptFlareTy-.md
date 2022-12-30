@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptFlareTy-
 
-Byte to Enum EGeometryScriptFlareType
+字节到枚举 EGeometryScriptFlareType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptFlareType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptFlareType Enum.
-
+返回值。EGeometryScriptFlareType Enum.

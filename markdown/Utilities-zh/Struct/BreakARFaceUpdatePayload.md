@@ -1,6 +1,6 @@
 # BreakARFaceUpdatePayload
 
-Adds a node that breaks a 'ARFaceUpdatePayload' into its member fields
+添加一个节点，将'ARFaceUpdatePayload'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'ARFaceUpdatePayload' into its member fields
 
 ## Inputs
 
-ARFace Update Payload: ARFace Update Payload Structure (by ref).  
+ARFace Update Payload。ARFace Update Payload结构（通过引用）。 
 
 ## Outputs
 
-Session Payload: ARSession Payload Structure. Session Payload.
+Session Payload: ARSession Payload结构。Session Payload.
 
-Left Eye Position: Vector. Left Eye Position.
+左眼位置。向量。左眼的位置。
 
-Right Eye Position: Vector. Right Eye Position.
+右眼位置。向量。右眼的位置。
 
-Look At Target: Vector. Look at Target.
-
+盯着目标。向量。盯着目标。

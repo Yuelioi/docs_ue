@@ -1,6 +1,6 @@
 # BytetoEnumEVirtualKeyboardType
 
-Byte to Enum EVirtualKeyboardType
+字节到枚举EVirtualKeyboardType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EVirtualKeyboardType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EVirtualKeyboardType Enum.
-
+返回值。EVirtualKeyboardType Enum。

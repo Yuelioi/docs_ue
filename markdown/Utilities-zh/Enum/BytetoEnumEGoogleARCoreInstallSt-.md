@@ -1,6 +1,6 @@
 # BytetoEnumEGoogleARCoreInstallSt-
 
-Byte to Enum EGoogleARCoreInstallStatus
+字节到枚举 EGoogleARCoreInstallStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGoogleARCoreInstallStatus
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreInstallStatus Enum.
-
+返回值。EGoogleARCoreInstallStatus Enum。

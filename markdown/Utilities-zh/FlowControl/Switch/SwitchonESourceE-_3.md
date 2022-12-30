@@ -1,6 +1,6 @@
 # SwitchonESourceE-_3
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESourceEffectMotionFilterModSource Enum.  
+选择。ESourceEffectMotionFilterModSource Enum.  
 
 ## Outputs
 
-Distance From Listener: Exec.
+与听众的距离。执行。
 
-Speed Relative To Listener: Exec.
+相对于听众的速度。执行。
 
-Speed Of Source Emitter: Exec.
+源发射器的速度。执行。
 
-Speed Of Listener: Exec.
+听众的速度。执行。
 
-Speed Of Angle Delta: Exec.
-
+角度三角的速度。执行。

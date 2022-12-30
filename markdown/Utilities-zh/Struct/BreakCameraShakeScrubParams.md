@@ -1,6 +1,6 @@
 # BreakCameraShakeScrubParams
 
-Adds a node that breaks a 'CameraShakeScrubParams' into its member fields
+添加一个节点，将'CameraShakeScrubParams'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'CameraShakeScrubParams' into its member fields
 
 ## Inputs
 
-Camera Shake Scrub Params: Camera Shake Scrub Params Structure (by ref).  
+Camera Shake Scrub Params。Camera Shake Scrub Params结构（通过引用）。 
 
 ## Outputs
 
-Absolute Time: Float (single-precision). Absolute Time:. The time to scrub to.
+绝对时间。Float（单精度）。绝对时间：。要刷新的时间。
 
-Shake Scale: Float (single-precision). Shake Scale:. The base scale for this shake.
+Shake Scale。Float（单精度）。摇动比例：。这个摇动的基本刻度。
 
-Dynamic Scale: Float (single-precision). Dynamic Scale:. The dynamic scale being passed down from the camera manger for the next update.
+动态刻度。Float（单精度）。动态刻度：。从相机管理器传递下来的动态刻度，用于下次更新。
 
-Blending Weight: Float (single-precision). Blending Weight:. The auto-computed blend in/out scale, when blending is handled by externally (see UCameraShakeBase::GetShakeInfo).
+Blending Weight（混合权重）。Float（单精度）。Blending Weight（混合权重）：。自动计算的混入/混出比例，当混入由外部处理时（见UCameraShakeBase::GetShakeInfo）。
 
-POV: Minimal View Info Structure. POV:. The current view that this camera shake should modify.
-
+POV。最小的视图信息结构。POV:. 这个相机抖动应该修改的当前视图。

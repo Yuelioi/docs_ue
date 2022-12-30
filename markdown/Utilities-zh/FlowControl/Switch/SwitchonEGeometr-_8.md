@@ -1,6 +1,6 @@
 # SwitchonEGeometr-_8
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGeometryScriptSearchOutcomePins Enum.  
+选择。EGeometryScriptSearchOutcomePins枚举。 
 
 ## Outputs
 
-Found: Exec.
+找到。Exec.
 
-Not Found: Exec.
-
+未找到。执行。

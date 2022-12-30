@@ -1,6 +1,6 @@
 # SwitchonEComparisonMethod
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EComparisonMethod Enum.  
+选择。EComparisonMethod Enum.  
 
 ## Outputs
 
-Equal To: Exec.
+等于。执行。
 
-Not Equal To: Exec.
+不等于。执行。
 
-Greater Than Or Equal To: Exec.
+大于或等于: 执行。
 
-Less Than Or Equal To: Exec.
+小于或等于: 执行
 
-Greater Than: Exec.
+大于等于 执行
 
-Less Than: Exec.
-
+小于: 执行

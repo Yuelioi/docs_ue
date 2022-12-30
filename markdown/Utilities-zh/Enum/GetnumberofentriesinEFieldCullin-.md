@@ -1,6 +1,6 @@
 # GetnumberofentriesinEFieldCullin-
 
-Returns EFieldCullingOperationType_MAX value
+返回EFieldCullingOperationType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EFieldCullingOperationType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

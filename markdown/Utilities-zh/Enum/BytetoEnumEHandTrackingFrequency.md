@@ -1,6 +1,6 @@
 # BytetoEnumEHandTrackingFrequency
 
-Byte to Enum EHandTrackingFrequency
+字节到枚举 EHandTrackingFrequency
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EHandTrackingFrequency
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EHandTrackingFrequency Enum.
-
+返回值。EHandTrackingFrequency Enum。

@@ -1,8 +1,8 @@
 # LaunchDir
 
-Returns the directory the application was launched from (useful for commandline utilities)
+返回应用程序启动的目录（对命令行实用程序很有用）。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. Returns the directory the application was launched from (useful for commandline utilities).
-
+返回值。字符串。返回应用程序启动的目录（对命令行实用程序有用）。

@@ -1,6 +1,6 @@
 # BreakDisplayClus-
 
-Adds a node that breaks a 'DisplayClusterConfigurationClusterItemReferenceList' into its member fields
+添加一个打破'DisplayClusterConfigurationClusterItemReferenceList'的节点到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'DisplayClusterConfigurationClusterItemReferenceList' 
 
 ## Inputs
 
-Display Cluster Configuration Cluster Item Reference List: Display Cluster Configuration Cluster Item Reference List Structure (by ref).  
+显示群集配置群集项目参考列表。显示群集配置群集项目参考列表结构（按参考）。 
 
 ## Outputs
 
-Item Names: Array of Strings. Item Names.
-
+项目名称。字符串的数组。项目名称。

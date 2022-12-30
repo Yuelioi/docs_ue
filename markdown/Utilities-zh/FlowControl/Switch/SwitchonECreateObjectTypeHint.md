@@ -1,6 +1,6 @@
 # SwitchonECreateObjectTypeHint
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ECreateObjectTypeHint Enum.  
+选择。ECreateObjectTypeHint枚举。 
 
 ## Outputs
 
-Undefined: Exec.
+未定义。Exec.
 
-Static Mesh: Exec.
+静态网格。Exec.
 
-Volume: Exec.
+体积。Exec.
 
-Dynamic Mesh Actor: Exec.
-
+Dynamic Mesh Actor: 执行。

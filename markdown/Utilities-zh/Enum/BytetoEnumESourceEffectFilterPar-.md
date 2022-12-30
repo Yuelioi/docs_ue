@@ -1,6 +1,6 @@
 # BytetoEnumESourceEffectFilterPar-
 
-Byte to Enum ESourceEffectFilterParam
+字节到枚举 ESourceEffectFilterParam
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESourceEffectFilterParam
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESourceEffectFilterParam Enum.
-
+返回值。ESourceEffectFilterParam Enum。

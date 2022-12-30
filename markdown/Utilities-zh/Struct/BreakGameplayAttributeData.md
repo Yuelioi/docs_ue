@@ -1,6 +1,6 @@
 # BreakGameplayAttributeData
 
-Adds a node that breaks a 'GameplayAttributeData' into its member fields
+Add a node that breaks 'GameplayAttributeData' into its member fields
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'GameplayAttributeData' into its member fields
 
 ## Inputs
 
-Gameplay Attribute Data: Gameplay Attribute Data Structure (by ref).  
+Gameplay Attribute Data. gameplayAttributeData structure (by reference). 
 
 ## Outputs
 
-Base Value: Float (single-precision). Base Value.
+Baseline value. float (single precision). Baseline value.
 
-Current Value: Float (single-precision). Current Value.
-
+Float (single-precision). Current value.

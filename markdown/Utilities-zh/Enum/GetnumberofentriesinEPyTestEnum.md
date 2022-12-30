@@ -1,6 +1,6 @@
 # GetnumberofentriesinEPyTestEnum
 
-Returns EPyTestEnum_MAX value
+返回EPyTestEnum_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EPyTestEnum_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

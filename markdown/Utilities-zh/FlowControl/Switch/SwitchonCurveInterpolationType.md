@@ -1,6 +1,6 @@
 # SwitchonCurveInterpolationType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: CurveInterpolationType Enum.  
+选择。CurveInterpolationType Enum.  
 
 ## Outputs
 
 Auto: Exec.
 
-Linear: Exec.
+Linear：线性。Exec.
 
-Constant: Exec.
-
+常数: Exec.

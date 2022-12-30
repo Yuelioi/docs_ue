@@ -1,6 +1,6 @@
 # LiteralenumEMappingQueryResult
 
-Literal enum EMappingQueryResult
+字面意义上的枚举EMappingQueryResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMappingQueryResult
 
 ## Inputs
 
-Enum: EMappingQueryResult Enum.  
+枚举。EMappingQueryResult Enum.  
 
 ## Outputs
 
-Return Value: EMappingQueryResult Enum.
-
+返回值。EMappingQueryResult Enum.

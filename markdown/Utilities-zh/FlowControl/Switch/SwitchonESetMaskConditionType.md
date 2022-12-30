@@ -1,6 +1,6 @@
 # SwitchonESetMaskConditionType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESetMaskConditionType Enum.  
+选择。ESetMaskConditionType枚举。 
 
 ## Outputs
 
-Set Always: Exec.
+始终设置。Exec.
 
-Merge Interior: Exec.
+合并内部。Exec.
 
-Merge Exterior: Exec.
-
+合并外部。始终：执行

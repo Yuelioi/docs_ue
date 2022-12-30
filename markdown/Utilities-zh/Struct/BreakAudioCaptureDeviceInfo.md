@@ -1,6 +1,6 @@
 # BreakAudioCaptureDeviceInfo
 
-Adds a node that breaks a 'AudioCaptureDeviceInfo' into its member fields
+添加一个节点，将'AudioCaptureDeviceInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'AudioCaptureDeviceInfo' into its member fields
 
 ## Inputs
 
-Audio Capture Device Info: Audio Capture Device Info Structure (by ref).  
+音频采集设备信息。音频采集设备信息结构（通过引用）。 
 
 ## Outputs
 
-Device Name: Name. Device Name:. The name of the audio capture device.
+设备名称。名称。设备名称：。音频采集设备的名称。
 
-Num Input Channels: Integer. Num Input Channels:. The number of input channels.
+Num Input Channels: 整数。Num Input Channels:。输入通道的数量。
 
-Sample Rate: Integer. Sample Rate:. The sample rate of the audio capture device.
-
+采样率。整数。采样率：。音频采集设备的采样率。

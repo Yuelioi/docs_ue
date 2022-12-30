@@ -1,6 +1,6 @@
 # BytetoEnumEOculusMR_ClippingRefe-
 
-Byte to Enum EOculusMR_ClippingReference
+字节到枚举 EOculusMR_ClippingReference
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EOculusMR_ClippingReference
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EOculusMR_ClippingReference Enum.
-
+返回值。EOculusMR_ClippingReference Enum。

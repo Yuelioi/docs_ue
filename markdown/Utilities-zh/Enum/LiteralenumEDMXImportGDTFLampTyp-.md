@@ -1,6 +1,6 @@
 # LiteralenumEDMXImportGDTFLampTyp-
 
-Literal enum EDMXImportGDTFLampType
+枚举EDMXImportGDTFLampType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDMXImportGDTFLampType
 
 ## Inputs
 
-Enum: EDMXImportGDTFLampType Enum.  
+枚举。EDMXImportGDTFLampType Enum.  
 
 ## Outputs
 
-Return Value: EDMXImportGDTFLampType Enum.
-
+返回值。EDMXImportGDTFLampType Enum.

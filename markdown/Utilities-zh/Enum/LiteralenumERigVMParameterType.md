@@ -1,6 +1,6 @@
 # LiteralenumERigVMParameterType
 
-Literal enum ERigVMParameterType
+枚举ERigVMParameterType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERigVMParameterType
 
 ## Inputs
 
-Enum: ERigVMParameterType Enum.  
+枚举。ERigVMParameterType Enum.  
 
 ## Outputs
 
-Return Value: ERigVMParameterType Enum.
-
+返回值。ERigVMParameterType Enum。

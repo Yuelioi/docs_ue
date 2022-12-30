@@ -1,8 +1,8 @@
 # FileExists
 
-Returns true if this file was found, false otherwise
+如果找到该文件，返回true，否则返回false。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Path: String.  
+在路径中。字符串。 
 
 ## Outputs
 
-Return Value: Boolean. Returns true if this file was found, false otherwise.
-
+返回值。布尔值。如果找到此文件则返回true，否则返回false。

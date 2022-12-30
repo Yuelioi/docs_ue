@@ -1,6 +1,6 @@
 # LiteralenumEPathFollowingAction
 
-Literal enum EPathFollowingAction
+枚举 EPathFollowingAction
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EPathFollowingAction
 
 ## Inputs
 
-Enum: EPathFollowingAction Enum.  
+枚举。EPathFollowingAction Enum.  
 
 ## Outputs
 
-Return Value: EPathFollowingAction Enum.
-
+返回值。EPathFollowingAction Enum.

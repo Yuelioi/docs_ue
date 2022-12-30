@@ -1,6 +1,6 @@
 # SwitchonEGameplayTagEventType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGameplayTagEventType Enum.  
+选择。EGameplayTagEventType枚举。 
 
 ## Outputs
 
-New Or Removed: Exec.
+新增或删除。执行。
 
-Any Count Change: Exec.
-
+任何计数变化。执行。

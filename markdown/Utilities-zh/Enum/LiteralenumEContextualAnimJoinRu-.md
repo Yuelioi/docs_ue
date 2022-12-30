@@ -1,6 +1,6 @@
 # LiteralenumEContextualAnimJoinRu-
 
-Literal enum EContextualAnimJoinRule
+枚举 EContextualAnimJoinRule
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EContextualAnimJoinRule
 
 ## Inputs
 
-Enum: EContextualAnimJoinRule Enum.  
+枚举。EContextualAnimJoinRule Enum.  
 
 ## Outputs
 
-Return Value: EContextualAnimJoinRule Enum.
-
+返回值。EContextualAnimJoinRule Enum.

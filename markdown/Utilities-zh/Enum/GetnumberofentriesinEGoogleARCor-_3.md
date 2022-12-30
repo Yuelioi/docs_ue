@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGoogleARCor-_3
 
-Returns EGoogleARCoreCameraFPS_MAX value
+返回 EGoogleARCoreCameraFPS_MAX 值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGoogleARCoreCameraFPS_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

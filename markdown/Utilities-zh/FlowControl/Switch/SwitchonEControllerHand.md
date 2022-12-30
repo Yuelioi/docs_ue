@@ -1,6 +1,6 @@
 # SwitchonEControllerHand
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,45 +8,44 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EControllerHand Enum.  
+选择。EControllerHand Enum。 
 
 ## Outputs
 
-Left: Exec.
+左：Exec。
 
-Right: Exec.
+右边。执行。
 
-Any Hand: Exec.
+任何手。Exec.
 
-Pad: Exec.
+垫子。Exec.
 
-External Camera: Exec.
+外置摄像头。执行。
 
-Gun: Exec.
+枪声 执行。
 
-HMD: Exec.
+HMD：执行。
 
-Special 1: Exec.
+特技1：执行。
 
-Special 2: Exec.
+特殊2：执行。
 
-Special 3: Exec.
+特技3：执行。
 
-Special 4: Exec.
+特殊4：执行。
 
-Special 5: Exec.
+特别5：执行。
 
-Special 6: Exec.
+特殊6：执行。
 
-Special 7: Exec.
+特殊7：执行。
 
-Special 8: Exec.
+特别8：执行。
 
-Special 9: Exec.
+特别9：执行。
 
-Special 10: Exec.
+特殊10：执行。
 
-Special 11: Exec.
-
+特殊11：执行。

@@ -1,6 +1,6 @@
 # SwitchonEDMXCellFormat
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,43 +8,42 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDMXCellFormat Enum.  
+选择。EDMXCellFormat枚举。 
 
 ## Outputs
 
-R: Exec.
+R：执行。
 
-G: Exec.
+G: 执行。
 
 B: Exec.
 
-RG: Exec.
+RG: 执行。
 
-RB: Exec.
+RB: 执行。
 
 GB: Exec.
 
-GR: Exec.
+GR：执行。
 
-BR: Exec.
+BR: 执行
 
-BG: Exec.
+BG: 执行。
 
-RGB: Exec.
+RGB：执行。
 
-BRG: Exec.
+BRG：执行。
 
-GRB: Exec.
+GRB：执行。
 
-GBR: Exec.
+GBR: 执行。
 
 RGBA: Exec.
 
-GBRA: Exec.
+GBRA: 执行。
 
-BRGA: Exec.
+BRGA: 执行
 
-GRBA: Exec.
-
+GRBA: 执行

@@ -1,6 +1,6 @@
 # LocalArrayofInteger64s
 
-Local temporary Array of Integer64s variable
+本地临时的Integer64s变量阵列
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Array of Integer64s variable
 
 ## Outputs
 
-Variable: Array of Integer64s.
-
+变量。Integer64s数组。

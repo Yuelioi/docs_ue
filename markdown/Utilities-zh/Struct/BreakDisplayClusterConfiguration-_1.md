@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-_1
 
-Adds a node that breaks a 'DisplayClusterConfigurationFailoverSettings' into its member fields
+添加一个节点，将'DisplayClusterConfigurationFailoverSettings'分解到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'DisplayClusterConfigurationFailoverSettings' into its
 
 ## Inputs
 
-Display Cluster Configuration Failover Settings: Display Cluster Configuration Failover Settings Structure (by ref).  
+显示群集配置故障转移设置。显示集群配置故障转移设置结构（通过参考）。 
 
 ## Outputs
 
-Failover Policy: EDisplayClusterConfigurationFailoverPolicy Enum. Failover Policy:. Failover policy.
-
+故障转移策略。EDisplayClusterConfigurationFailoverPolicy枚举。故障转移策略：。故障转移策略。

@@ -1,6 +1,6 @@
 # SwitchonEVariantManagerTestEnum
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EVariantManagerTestEnum Enum.  
+选择。EVariantManagerTestEnum枚举。 
 
 ## Outputs
 
-First Option: Exec.
+第一选项。执行。
 
-Second Option: Exec.
+第二选项。执行。
 
-Third Option: Exec.
-
+第三选项。执行。

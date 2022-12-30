@@ -8,9 +8,8 @@ Byte to Enum EGoogleARCoreAugmentedFaceMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreAugmentedFaceMode Enum.
-
+返回值。EGoogleARCoreAugmentedFaceMode Enum。

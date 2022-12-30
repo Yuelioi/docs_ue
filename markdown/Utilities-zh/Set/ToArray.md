@@ -2,7 +2,7 @@
 
 ## Outputs an Array containing copies of the entries of a Set.
 
-Target is Blueprint Set Library
+目标是蓝图集库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Blueprint Set Library
 
 ## Inputs
 
-In: Exec.
+在。Exec.
 
-A: Set of Wildcards. Set.  
+A：通配符集。设置。 
 
 ## Outputs
 
-Out: Exec.
+出：执行。执行。
 
-Result: Array of Wildcards. Array.
-
+结果。通配符的阵列。阵列。

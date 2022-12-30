@@ -1,6 +1,6 @@
 # LiteralenumEFbxSceneVertexColorI-
 
-Literal enum EFbxSceneVertexColorImportOption
+字面上的枚举：EFbxSceneVertexColorImportOption
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFbxSceneVertexColorImportOption
 
 ## Inputs
 
-Enum: EFbxSceneVertexColorImportOption Enum.  
+枚举。EFbxSceneVertexColorImportOption Enum.  
 
 ## Outputs
 
-Return Value: EFbxSceneVertexColorImportOption Enum.
-
+返回值。EFbxSceneVertexColorImportOption Enum.

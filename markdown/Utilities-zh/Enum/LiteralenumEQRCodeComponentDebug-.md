@@ -1,6 +1,6 @@
 # LiteralenumEQRCodeComponentDebug-
 
-Literal enum EQRCodeComponentDebugMode
+枚举 EQRCodeComponentDebugMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EQRCodeComponentDebugMode
 
 ## Inputs
 
-Enum: EQRCodeComponentDebugMode Enum.  
+枚举。EQRCodeComponentDebugMode枚举。 
 
 ## Outputs
 
-Return Value: EQRCodeComponentDebugMode Enum.
-
+返回值。EQRCodeComponentDebugMode Enum。

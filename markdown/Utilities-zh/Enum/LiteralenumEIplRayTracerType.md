@@ -1,6 +1,6 @@
 # LiteralenumEIplRayTracerType
 
-Literal enum EIplRayTracerType
+枚举 EIplRayTracerType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EIplRayTracerType
 
 ## Inputs
 
-Enum: EIplRayTracerType Enum.  
+枚举。EIplRayTracerType Enum.  
 
 ## Outputs
 
-Return Value: EIplRayTracerType Enum.
-
+返回值。EIplRayTracerType Enum.

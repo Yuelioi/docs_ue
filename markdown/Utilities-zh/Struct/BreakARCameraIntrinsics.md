@@ -1,6 +1,6 @@
 # BreakARCameraIntrinsics
 
-Adds a node that breaks a 'ARCameraIntrinsics' into its member fields
+添加一个节点，将'ARCameraIntrinsics'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ARCameraIntrinsics' into its member fields
 
 ## Inputs
 
-ARCamera Intrinsics: ARCamera Intrinsics Structure (by ref).  
+ARCamera Intrinsics。ARCamera Intrinsics结构（通过引用）。 
 
 ## Outputs
 
-Image Resolution: Int Point Structure. Image Resolution:. Camera image resolution in pixels.
+图像分辨率。Int Point结构。Image Resolution:.图像分辨率。相机图像分辨率，单位为像素。
 
-Focal Length: Vector 2D Structure. Focal Length:. Camera focal length in pixels.
+Focal Length（焦距）。矢量2D结构。Focal Length:.焦距。照相机的焦距，以像素为单位。
 
-Principal Point: Vector 2D Structure. Principal Point:. Camera principal point in pixels.
-
+主点。矢量二维结构。主点：。相机的主点，单位为像素。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGeometryScr-_7
 
-Returns EGeometryScriptLODType_MAX value
+返回 EGeometryScriptLODType_MAX 值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGeometryScriptLODType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

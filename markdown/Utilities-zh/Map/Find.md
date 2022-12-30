@@ -1,8 +1,8 @@
 # Find
 
-Finds the value associated with the provided Key
+查找与所提供的键相关的值
 
-Target is Blueprint Map Library
+目标是蓝图地图库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Blueprint Map Library
 
 ## Inputs
 
-Target Map: Map of Wildcards to Wildcards. The map to perform the lookup on.
+目标地图。通配符到通配符的地图。要执行查找的地图。
 
-Key: Wildcard (by ref). The key that will be used to look the value up.  
+键。通配符（通过引用）。将被用于查找值的键。 
 
 ## Outputs
 
-Value: Wildcard. The value associated with the key, default constructed if key was not found.
+值。通配符。与该键相关的值，如果没有找到键，则默认构建。
 
-Return Value: Boolean. True if an item was found (False indicates nothing in the map uses the provided key).
-
+返回值。布尔值。如果找到一个项目，则为真（假表示地图中没有任何东西使用所提供的键）。

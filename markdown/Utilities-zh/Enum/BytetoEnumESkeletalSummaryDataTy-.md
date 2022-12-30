@@ -8,9 +8,8 @@ Byte to Enum ESkeletalSummaryDataType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESkeletalSummaryDataType Enum.
-
+返回值。ESkeletalSummaryDataType Enum。

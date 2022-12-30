@@ -1,6 +1,6 @@
 # LiteralenumEControllerType
 
-Literal enum EControllerType
+EControllerType 枚举的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EControllerType
 
 ## Inputs
 
-Enum: EControllerType Enum.  
+枚举。EControllerType 枚举。 
 
 ## Outputs
 
-Return Value: EControllerType Enum.
-
+返回值。EControllerType Enum。

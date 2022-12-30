@@ -1,6 +1,6 @@
 # LiteralenumEWaterBrushBlendType
 
-Literal enum EWaterBrushBlendType
+枚举 EWaterBrushBlendType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWaterBrushBlendType
 
 ## Inputs
 
-Enum: EWaterBrushBlendType Enum.  
+枚举。EWaterBrushBlendType Enum.  
 
 ## Outputs
 
-Return Value: EWaterBrushBlendType Enum.
-
+返回值。EWaterBrushBlendType枚举。

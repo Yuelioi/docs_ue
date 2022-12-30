@@ -1,6 +1,6 @@
 # BytetoEnumELoudnessCurveTypeEnum
 
-Byte to Enum ELoudnessCurveTypeEnum
+字节到枚举 ELoudnessCurveTypeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ELoudnessCurveTypeEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELoudnessCurveTypeEnum Enum.
-
+返回值。ELoudnessCurveTypeEnum枚举。

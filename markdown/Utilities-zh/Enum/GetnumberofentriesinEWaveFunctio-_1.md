@@ -1,6 +1,6 @@
 # GetnumberofentriesinEWaveFunctio-_1
 
-Returns EWaveFunctionType_MAX value
+返回 EWaveFunctionType_MAX 值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EWaveFunctionType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

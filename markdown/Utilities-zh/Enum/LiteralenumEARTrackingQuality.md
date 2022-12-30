@@ -1,6 +1,6 @@
 # LiteralenumEARTrackingQuality
 
-Literal enum EARTrackingQuality
+枚举EARTrackingQuality
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARTrackingQuality
 
 ## Inputs
 
-Enum: EARTrackingQuality Enum.  
+枚举。EARTrackingQuality Enum.  
 
 ## Outputs
 
-Return Value: EARTrackingQuality Enum.
-
+返回值。EARTrackingQuality Enum。

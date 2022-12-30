@@ -1,6 +1,6 @@
 # BytetoEnumEObjectStateTypeEnum
 
-Byte to Enum EObjectStateTypeEnum
+字节到枚举 EObjectStateTypeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EObjectStateTypeEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EObjectStateTypeEnum Enum.
-
+返回值。EObjectStateTypeEnum 枚举。

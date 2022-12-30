@@ -1,6 +1,6 @@
 # BytetoEnumEPyTestEnum
 
-Byte to Enum EPyTestEnum
+字节到枚举 EPyTestEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EPyTestEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EPyTestEnum Enum.
-
+返回值。EPyTestEnum Enum。

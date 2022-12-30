@@ -1,6 +1,6 @@
 # LiteralenumEGranularSynthSeekTyp-
 
-Literal enum EGranularSynthSeekType
+字面意义上的枚举：EGranularSynthSeekType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGranularSynthSeekType
 
 ## Inputs
 
-Enum: EGranularSynthSeekType Enum.  
+枚举。EGranularSynthSeekType枚举。 
 
 ## Outputs
 
-Return Value: EGranularSynthSeekType Enum.
-
+返回值。EGranularSynthSeekType Enum。

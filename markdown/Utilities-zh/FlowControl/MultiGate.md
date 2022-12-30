@@ -1,6 +1,6 @@
 # MultiGate
 
-Executes a series of pins in order
+按顺序执行一系列的针脚
 
 ## 图示
 
@@ -8,19 +8,18 @@ Executes a series of pins in order
 
 ## Inputs
 
-In: Exec.
+在。Exec.
 
-Reset: Exec.
+复位。Exec.
 
-Is Random: Boolean.
+是随机的。布尔型。
 
-Loop: Boolean.
+循环。布尔值。
 
-Start Index: Integer.  
+开始索引。整数。 
 
 ## Outputs
 
-Out 0: Exec.
+输出0：执行。
 
-Out 1: Exec.
-
+输出1：执行。

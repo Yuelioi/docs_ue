@@ -1,6 +1,6 @@
 # SwitchonEListItemAlignment
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EListItemAlignment Enum.  
+选择。EListItemAlignment Enum.  
 
 ## Outputs
 
-Evenly (Padding): Exec.
+均匀地（Padding）。执行。
 
-Evenly (Size): Exec.
+均匀（大小）。执行。
 
-Evenly (Wide): Exec.
+均匀（宽度）。匀速（宽）: Exec.
 
-Left Aligned: Exec.
+向左对齐。匀速（大）: 匀速（小）: 匀速（大）: 匀速（小
 
-Right Aligned: Exec.
+右边对齐：执行。对齐
 
-Center Aligned: Exec.
+中间对齐。执行：执行
 
-Fill: Exec.
-
+填充：Exec.

@@ -1,6 +1,6 @@
 # LiteralenumEOculusMR_PostProcess-
 
-Literal enum EOculusMR_PostProcessEffects
+EOculusMR_PostProcessEffects字面枚举。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EOculusMR_PostProcessEffects
 
 ## Inputs
 
-Enum: EOculusMR_PostProcessEffects Enum.  
+枚举。EOculusMR_PostProcessEffects Enum.  
 
 ## Outputs
 
-Return Value: EOculusMR_PostProcessEffects Enum.
-
+返回值。EOculusMR_PostProcessEffects Enum.

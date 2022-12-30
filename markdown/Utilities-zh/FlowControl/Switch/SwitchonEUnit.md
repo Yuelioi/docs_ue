@@ -1,6 +1,6 @@
 # SwitchonEUnit
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,9 +8,9 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EUnit Enum.  
+选择。EUnit枚举。 
 
 ## Outputs
 
@@ -18,101 +18,100 @@ Micrometers: Exec.
 
 Millimeters: Exec.
 
-Centimeters: Exec.
+Centimeters: 执行
 
-Meters: Exec.
+米 Exec.
 
-Kilometers: Exec.
+千米 执行
 
-Inches: Exec.
+英寸。执行
 
-Feet: Exec.
+英尺: Exec.
 
 Yards: Exec.
 
-Miles: Exec.
+英里 执行.
 
-Lightyears: Exec.
+光年。Exec.
 
-Degrees: Exec.
+度数。执行。
 
-Radians: Exec.
+弧度 Exec.
 
-Centimeters Per Second: Exec.
+每秒厘米数: 执行.
 
-Meters Per Second: Exec.
+米/秒: Exec.
 
-Kilometers Per Hour: Exec.
+每小时公里数 Exec.
 
-Miles Per Hour: Exec.
+英里/小时 Exec.
 
-Celsius: Exec.
+摄氏度: Exec.
 
-Farenheit: Exec.
+华氏温度: Exec.
 
-Kelvin: Exec.
+开尔文: Exec.
 
-Micrograms: Exec.
+微克: Exec.
 
 Milligrams: Exec.
 
 Grams: Exec.
 
-Kilograms: Exec.
+千克 Exec.
 
-Metric Tons: Exec.
+公吨 Exec.
 
-Ounces: Exec.
+盎司 盎司: Exec.
 
-Pounds: Exec.
+英镑 执行
 
-Stones: Exec.
+石头 Exec.
 
-Newtons: Exec.
+Newtons: 执行。
 
-Pounds Force: Exec.
+磅力。执行。
 
-Kilograms Force: Exec.
+千克 力。Exec.
 
-Hertz: Exec.
+赫兹。执行
 
-Kilohertz: Exec.
+千赫兹。Exec.
 
 Megahertz: Exec.
 
 Gigahertz: Exec.
 
-Revolutions Per Minute: Exec.
+每分钟转数。Exec.
 
 Bytes: Exec.
 
-Kilobytes: Exec.
+千字节。执行
 
 Megabytes: Exec.
 
-Gigabytes: Exec.
+千字节 Exec.
 
-Terabytes: Exec.
+太字节。Exec.
 
-Lumens: Exec.
+流明 Exec.
 
 Milliseconds: Exec.
 
-Seconds: Exec.
+秒数 Exec.
 
-Minutes: Exec.
+分钟。Exec.
 
-Hours: Exec.
+小时 执行
 
-Days: Exec.
+天数 执行.
 
-Months: Exec.
+月数: 执行.
 
-Years: Exec.
+年。执行.
 
-Multiplier: Exec.
+乘数。执行.
 
-Percentage: Exec.
+百分比。执行.
 
-Unspecified: Exec.
-
+未指定的。Exec.

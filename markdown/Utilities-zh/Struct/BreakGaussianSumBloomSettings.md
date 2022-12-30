@@ -1,44 +1,43 @@
 # BreakGaussianSumBloomSettings
 
-Adds a node that breaks a 'GaussianSumBloomSettings' into its member fields
+添加一个节点，将'高斯和布洛姆设置'分解成其成员字段。
 
 ## 图示
 
 ![]($-20221218-14364371.png)
 
-## Inputs
+## 输入
 
-Gaussian Sum Bloom Settings: Gaussian Sum Bloom Settings Structure (by ref).  
+高斯和布隆设置。高斯和布隆设置结构（通过参考）。 
 
-## Outputs
+## 输出
 
-Intensity: Float (single-precision). Intensity:. Multiplier for all bloom contributions >=0: off, 1(default), >1 brighter.
+强度。Float (single-precision). 强度：。所有绽放贡献的乘数，>=0：关闭，1（默认），>1更亮。
 
-Threshold: Float (single-precision). Threshold:. minimum brightness the bloom starts having effect. -1:all pixels affect bloom equally (physically correct, faster as a threshold pass is omitted), 0:all pixels affect bloom brights more, 1(default), >1 brighter.
+阈值。Float（单精度）。阈值：绽放开始产生效果的最小亮度。-1:所有像素平等地影响绽放（物理上是正确的，省略了阈值通道，速度更快），0:所有像素对绽放亮度的影响更大，1（默认），>1更亮。
 
-Size Scale: Float (single-precision). Size Scale:. Scale for all bloom sizes.
+大小比例。Float（单精度）。大小比例：。所有绽放尺寸的比例。
 
-# 1 Size: Float (single-precision). Filter 1Size:. Diameter size for the Bloom1 in percent of the screen width. (is done in 1/2 resolution, larger values cost more performance, good for high frequency details). >=0: can be clamped because of shader limitations.
+# 1 尺寸。Float（单精度）。过滤器1尺寸：。Bloom1的直径大小，占屏幕宽度的百分比。(以1/2的分辨率进行，较大的值会花费更多的性能，对高频细节有好处)。>=0：由于着色器的限制，可以被夹紧。
 
-# 2 Size: Float (single-precision). Filter 2Size:. Diameter size for Bloom2 in percent of the screen width. (is done in 1/4 resolution, larger values cost more performance). >=0: can be clamped because of shader limitations.
+# 2 大小。Float（单精度）。过滤器2尺寸：。Bloom2的直径大小，占屏幕宽度的百分比。(以1/4的分辨率进行，较大的值会花费更多的性能)。>=0：由于着色器的限制，可以被夹紧。
 
-# 3 Size: Float (single-precision). Filter 3Size:. Diameter size for Bloom3 in percent of the screen width. (is done in 1/8 resolution, larger values cost more performance). >=0: can be clamped because of shader limitations.
+# 3 大小。浮点数（单精度）。过滤器3尺寸：。Bloom3的直径大小，占屏幕宽度的百分比。(以1/8的分辨率进行，较大的值会花费更多的性能)。>=0：由于着色器的限制，可以被夹紧。
 
-# 4 Size: Float (single-precision). Filter 4Size:. Diameter size for Bloom4 in percent of the screen width. (is done in 1/16 resolution, larger values cost more performance, best for wide contributions). >=0: can be clamped because of shader limitations.
+# 4 大小。浮点数（单精度）。过滤器4尺寸：。Bloom4的直径大小，占屏幕宽度的百分比。(以1/16的分辨率进行，较大的值会花费更多的性能，最适合于宽的贡献)。>=0：由于着色器的限制，可以被夹紧。
 
-# 5 Size: Float (single-precision). Filter 5Size:. Diameter size for Bloom5 in percent of the screen width. (is done in 1/32 resolution, larger values cost more performance, best for wide contributions). >=0: can be clamped because of shader limitations.
+# 5 大小。Float（单精度）。过滤器5尺寸：。Bloom5的直径大小，占屏幕宽度的百分比。(以1/32的分辨率进行，较大的值会耗费更多的性能，最好是用于宽幅贡献)。>=0：由于着色器的限制，可以被夹紧。
 
-# 6 Size: Float (single-precision). Filter 6Size:. Diameter size for Bloom6 in percent of the screen width. (is done in 1/64 resolution, larger values cost more performance, best for wide contributions). >=0: can be clamped because of shader limitations.
+# 6 大小。Float（单精度）。过滤器6尺寸：。Bloom6的直径大小，占屏幕宽度的百分比。(以1/64的分辨率进行，较大的值会花费更多的性能，最适合于宽的贡献)。>=0：由于着色器的限制，可以被夹紧。
 
-# 1 Tint: Linear Color Structure. Filter 1Tint:. Bloom1 tint color.
+# 1 Tint。线性色彩结构。滤波器1Tint:。Bloom1色调的颜色。
 
-# 2 Tint: Linear Color Structure. Filter 2Tint:. Bloom2 tint color.
+# 2 Tint: 线性色彩结构。滤波器2Tint:. Bloom2色调颜色。
 
-# 3 Tint: Linear Color Structure. Filter 3Tint:. Bloom3 tint color.
+# 3 Tint: 线性色彩结构。滤波器3Tint:. Bloom3色调颜色。
 
-# 4 Tint: Linear Color Structure. Filter 4Tint:. Bloom4 tint color.
+# 4 Tint: 线性色彩结构。滤波器4Tint:. Bloom4色调的颜色。
 
-# 5 Tint: Linear Color Structure. Filter 5Tint:. Bloom5 tint color.
+# 5 Tint: 线性色彩结构。滤波器5Tint:. Bloom5色调的颜色。
 
-# 6 Tint: Linear Color Structure. Filter 6Tint:. Bloom6 tint color.
-
+# 6 Tint: 线性色彩结构。滤波器6Tint:。布鲁姆6色调的颜色。

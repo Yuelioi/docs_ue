@@ -1,6 +1,6 @@
 # GetnumberofentriesinEInputAction-_1
 
-Returns EInputActionValueType_MAX value
+返回EInputActionValueType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EInputActionValueType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

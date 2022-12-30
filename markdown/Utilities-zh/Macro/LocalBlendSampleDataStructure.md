@@ -1,6 +1,6 @@
 # LocalBlendSampleDataStructure
 
-Local temporary Blend Sample Data Structure variable
+本地临时混合数据结构样本变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Blend Sample Data Structure variable
 
 ## Outputs
 
-Variable: Blend Sample Data Structure.
-
+变量。混合样本数据结构。

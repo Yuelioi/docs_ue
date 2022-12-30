@@ -1,6 +1,6 @@
 # BytetoEnumEVPWidgetDisplayType
 
-Byte to Enum EVPWidgetDisplayType
+字节到枚举 EVPWidgetDisplayType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EVPWidgetDisplayType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EVPWidgetDisplayType Enum.
-
+返回值。EVPWidgetDisplayType Enum。

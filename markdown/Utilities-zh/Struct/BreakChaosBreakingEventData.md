@@ -1,6 +1,6 @@
 # BreakChaosBreakingEventData
 
-Adds a node that breaks a 'ChaosBreakingEventData' into its member fields
+添加一个打破'ChaosBreakingEventData'的节点到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ChaosBreakingEventData' into its member fields
 
 ## Inputs
 
-Chaos Breaking Event Data: Chaos Breaking Event Data Structure (by ref).  
+混沌破坏事件数据。混沌破坏事件数据结构（通过引用）。 
 
 ## Outputs
 
-Location: Vector. Location:. Location of the breaking event (centroid).
+位置。矢量。位置：。破坏事件的位置（中心点）。
 
-Velocity: Vector. Velocity:. The velocity of the breaking event.
+速度。矢量。速度：。破裂事件的速度。
 
-Mass: Float (single-precision). Mass:. The mass of the breaking event.
-
+质量。Float（单精度）。质量：。破坏事件的质量。

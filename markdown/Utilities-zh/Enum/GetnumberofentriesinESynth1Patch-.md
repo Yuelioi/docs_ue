@@ -1,6 +1,6 @@
 # GetnumberofentriesinESynth1Patch-
 
-Returns ESynth1PatchDestination_MAX value
+返回ESynth1PatchDestination_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESynth1PatchDestination_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

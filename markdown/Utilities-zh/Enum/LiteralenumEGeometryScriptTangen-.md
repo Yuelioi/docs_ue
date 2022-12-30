@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptTangen-
 
-Literal enum EGeometryScriptTangentTypes
+字面上的枚举 EGeometryScriptTangentTypes
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptTangentTypes
 
 ## Inputs
 
-Enum: EGeometryScriptTangentTypes Enum.  
+枚举。EGeometryScriptTangentTypes Enum.  
 
 ## Outputs
 
-Return Value: EGeometryScriptTangentTypes Enum.
-
+返回值: EGeometryScriptTangentTypes Enum.

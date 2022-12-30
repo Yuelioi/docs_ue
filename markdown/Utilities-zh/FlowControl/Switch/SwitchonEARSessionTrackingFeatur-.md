@@ -1,6 +1,6 @@
 # SwitchonEARSessionTrackingFeatur-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARSessionTrackingFeature Enum.  
+选择。EARSessionTrackingFeature Enum.  
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Pose Detection 2D: Exec.
+姿势检测2D: Exec.
 
-Person Segmentation: Exec.
+人物分割: 执行。执行。
 
-Person Segmentation With Depth: Exec.
+深度人物分割: 执行 执行.
 
-Scene Depth: Exec.
+场景深度检测: 场景深度: Exec.
 
-Smoothed Scene Depth: Exec.
-
+平滑化场景深度: 执行。

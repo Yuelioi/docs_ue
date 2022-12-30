@@ -1,6 +1,6 @@
 # Getnumberofentri-_20
 
-Returns EGeometryScriptPrimitivePolygroupMode_MAX value
+返回 EGeometryScriptPrimitivePolygroupMode_MAX 的值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGeometryScriptPrimitivePolygroupMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

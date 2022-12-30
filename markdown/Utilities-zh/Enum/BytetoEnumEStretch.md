@@ -1,6 +1,6 @@
 # BytetoEnumEStretch
 
-Byte to Enum EStretch
+字节到枚举 EStretch
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EStretch
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EStretch Enum.
-
+返回值。EStretch Enum。

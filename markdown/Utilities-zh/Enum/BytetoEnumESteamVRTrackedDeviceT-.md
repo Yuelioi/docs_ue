@@ -8,9 +8,8 @@ Byte to Enum ESteamVRTrackedDeviceType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESteamVRTrackedDeviceType Enum.
-
+返回值。ESteamVRTrackedDeviceType Enum。

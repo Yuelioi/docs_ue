@@ -1,8 +1,8 @@
 # GetCleanFilename
 
-Returns the filename (with extension), minus any path information.
+返回文件名（带扩展名），减去任何路径信息。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Path: String.  
+在路径中。字符串。 
 
 ## Outputs
 
-Return Value: String. Returns the filename (with extension), minus any path information..
-
+返回值。字符串。返回文件名（带扩展名），减去任何路径信息。

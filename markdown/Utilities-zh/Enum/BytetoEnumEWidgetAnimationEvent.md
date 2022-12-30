@@ -1,6 +1,6 @@
 # BytetoEnumEWidgetAnimationEvent
 
-Byte to Enum EWidgetAnimationEvent
+字节到枚举 EWidgetAnimationEvent
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EWidgetAnimationEvent
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWidgetAnimationEvent Enum.
-
+返回值。EWidgetAnimationEvent Enum.

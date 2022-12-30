@@ -1,6 +1,6 @@
 # LiteralenumEProgressBarFillStyle
 
-Literal enum EProgressBarFillStyle
+枚举 EProgressBarFillStyle
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EProgressBarFillStyle
 
 ## Inputs
 
-Enum: EProgressBarFillStyle Enum.  
+枚举。EProgressBarFillStyle Enum.  
 
 ## Outputs
 
-Return Value: EProgressBarFillStyle Enum.
-
+返回值。EProgressBarFillStyle Enum。

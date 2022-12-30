@@ -8,9 +8,8 @@ Literal enum EZoneShapePolygonRoutingType
 
 ## Inputs
 
-Enum: EZoneShapePolygonRoutingType Enum.  
+枚举。EZoneShapePolygonRoutingType Enum.  
 
 ## Outputs
 
-Return Value: EZoneShapePolygonRoutingType Enum.
-
+返回值。EZoneShapePolygonRoutingType Enum。

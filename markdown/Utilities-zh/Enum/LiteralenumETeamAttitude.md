@@ -1,6 +1,6 @@
 # LiteralenumETeamAttitude
 
-Literal enum ETeamAttitude
+字面意思是ETeamAttitude枚举。
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: ETeamAttitude Enum.
 
 ## Outputs
 
-Return Value: ETeamAttitude Enum.
-
+返回值。ETeamAttitude Enum。

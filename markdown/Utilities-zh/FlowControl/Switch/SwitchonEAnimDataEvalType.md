@@ -1,6 +1,6 @@
 # SwitchonEAnimDataEvalType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAnimDataEvalType Enum.  
+选择。EAnimDataEvalType枚举。 
 
 ## Outputs
 
-Source: Exec.
+来源。Exec.
 
-Raw: Exec.
+原始数据：Exec.Net
 
-Compressed: Exec.
-
+压缩的。Exec.

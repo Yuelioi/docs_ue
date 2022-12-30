@@ -1,6 +1,6 @@
 # BytetoEnumEGroomInterpolationTyp-
 
-Byte to Enum EGroomInterpolationType
+字节到枚举EGroomInterpolationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGroomInterpolationType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGroomInterpolationType Enum.
-
+返回值。EGroomInterpolationType Enum。

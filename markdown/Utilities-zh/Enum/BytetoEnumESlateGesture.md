@@ -8,9 +8,8 @@ Byte to Enum ESlateGesture
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESlateGesture Enum.
-
+返回值。ESlateGesture Enum。

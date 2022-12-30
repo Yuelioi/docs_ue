@@ -1,8 +1,8 @@
 # MakeLiteralString
 
-Creates a literal string
+创建一个字面字符串
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Value: String. value to set the string to.  
+值。字符串。将字符串设置为的值。 
 
 ## Outputs
 
-Return Value: String. The literal string.
-
+返回值。字符串。字面上的字符串。

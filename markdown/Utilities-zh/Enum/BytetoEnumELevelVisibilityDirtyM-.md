@@ -1,6 +1,6 @@
 # BytetoEnumELevelVisibilityDirtyM-
 
-Byte to Enum ELevelVisibilityDirtyMode
+字节到枚举 ELevelVisibilityDirtyMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ELevelVisibilityDirtyMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELevelVisibilityDirtyMode Enum.
-
+返回值。ELevelVisibilityDirtyMode Enum。

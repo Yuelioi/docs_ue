@@ -1,6 +1,6 @@
 # BytetoEnumETrajectorySampleDomai-
 
-Byte to Enum ETrajectorySampleDomain
+字节到枚举 ETrajectorySampleDomain
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETrajectorySampleDomain
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETrajectorySampleDomain Enum.
-
+返回值。ETrajectorySampleDomain Enum。

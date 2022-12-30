@@ -1,6 +1,6 @@
 # BytetoEnumETraceTypeQuery
 
-Byte to Enum ETraceTypeQuery
+字节到枚举ETraceTypeQuery
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETraceTypeQuery
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETraceTypeQuery Enum.
-
+返回值。ETraceTypeQuery Enum。

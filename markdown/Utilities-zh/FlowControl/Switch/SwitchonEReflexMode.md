@@ -1,6 +1,6 @@
 # SwitchonEReflexMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EReflexMode Enum.  
+选择。EReflexMode枚举。 
 
 ## Outputs
 
-Disabled: Exec.
+禁用。Exec.
 
-Enabled: Exec.
+启用。Exec.
 
-Enabled + Boost: Exec.
-
+Enabled + Boost: 执行。

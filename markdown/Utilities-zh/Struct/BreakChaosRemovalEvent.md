@@ -1,6 +1,6 @@
 # BreakChaosRemovalEvent
 
-Adds a node that breaks a 'ChaosRemovalEvent' into its member fields
+在其成员字段中添加一个打破'ChaosRemovalEvent'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ChaosRemovalEvent' into its member fields
 
 ## Inputs
 
-Chaos Removal Event: Chaos Removal Event Structure (by ref).  
+混沌移除事件。混沌清除事件结构（通过引用）。 
 
 ## Outputs
 
-Component: Primitive Component Object Reference. Component.
+组件。原始的组件对象参考。组件。
 
-Location: Vector. Location.
+位置。矢量。位置：位置。
 
-Mass: Float (single-precision). Mass.
-
+质量。Float（单精度）。质量。

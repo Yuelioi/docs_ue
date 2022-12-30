@@ -1,6 +1,6 @@
 # BreakChaosTrailingEventData
 
-Adds a node that breaks a 'ChaosTrailingEventData' into its member fields
+添加一个节点，将'ChaosTrailingEventData'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'ChaosTrailingEventData' into its member fields
 
 ## Inputs
 
-Chaos Trailing Event Data: Chaos Trailing Event Data Structure (by ref).  
+Chaos Trailing Event Data（混沌追踪事件数据）。混沌追踪事件数据结构（通过引用）。 
 
 ## Outputs
 
-Location: Vector. Location:. Current trail location..
+位置。向量。位置：。当前的跟踪位置。
 
-Velocity: Vector. Velocity:. The velocity of the trail..
+速度。向量。速度:。小路的速度。
 
-Angular Velocity: Vector. Angular Velocity:. The angular velocity of the trail..
+角速度。矢量。角速度：。轨迹的角速度。
 
-Mass: Float (single-precision). Mass:. The mass of the trail..
+质量。Float（单精度）。质量：。轨迹的质量。
 
-Particle Index: Integer. Particle Index:. The particle index of the trail..
-
+粒子指数。整数。粒子指数：。轨迹的粒子指数。

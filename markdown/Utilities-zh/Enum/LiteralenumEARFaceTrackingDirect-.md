@@ -1,6 +1,6 @@
 # LiteralenumEARFaceTrackingDirect-
 
-Literal enum EARFaceTrackingDirection
+枚举EARFaceTrackingDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARFaceTrackingDirection
 
 ## Inputs
 
-Enum: EARFaceTrackingDirection Enum.  
+枚举。EARFaceTrackingDirection Enum.  
 
 ## Outputs
 
-Return Value: EARFaceTrackingDirection Enum.
-
+返回值。EARFaceTrackingDirection Enum。

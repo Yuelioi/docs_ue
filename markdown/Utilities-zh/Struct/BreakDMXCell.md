@@ -1,6 +1,6 @@
 # BreakDMXCell
 
-Adds a node that breaks a 'DMXCell' into its member fields
+添加一个节点，将 "DMXCell "分解为其成员字段。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DMXCell' into its member fields
 
 ## Inputs
 
-DMXCell: DMXCell Structure (by ref).  
+DMXCell: DMXCell结构（通过引用）。 
 
 ## Outputs
 
-Cell ID: Integer. Cell ID:. The cell index in a 1D Array (row order), starting from 0.
+Cell ID: 整数。单元ID：。1D数组中的单元索引（行序），从0开始。
 
-Coordinate: Int Point Structure. Coordinate:. The cell coordinate in a 2D Array, starting from (0, 0).
-
+Coordinate（坐标）。Int点结构。Coordinate:.坐标。二维数组中的单元坐标，从（0，0）开始。

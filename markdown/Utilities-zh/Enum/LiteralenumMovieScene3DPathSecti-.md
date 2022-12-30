@@ -1,6 +1,6 @@
 # LiteralenumMovieScene3DPathSecti-
 
-Literal enum MovieScene3DPathSection_Axis
+字面意义上的枚举MovieScene3DPathSection_Axis
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum MovieScene3DPathSection_Axis
 
 ## Inputs
 
-Enum: MovieScene3DPathSection_Axis Enum.  
+枚举。MovieScene3DPathSection_Axis枚举。 
 
 ## Outputs
 
-Return Value: MovieScene3DPathSection_Axis Enum.
-
+返回值。MovieScene3DPathSection_Axis Enum。

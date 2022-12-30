@@ -1,6 +1,6 @@
 # LiteralenumEMediaPlayerTrack
 
-Literal enum EMediaPlayerTrack
+字面意义上的枚举EMediaPlayerTrack
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMediaPlayerTrack
 
 ## Inputs
 
-Enum: EMediaPlayerTrack Enum.  
+枚举。EMediaPlayerTrack Enum.  
 
 ## Outputs
 
-Return Value: EMediaPlayerTrack Enum.
-
+返回值。EMediaPlayerTrack Enum。

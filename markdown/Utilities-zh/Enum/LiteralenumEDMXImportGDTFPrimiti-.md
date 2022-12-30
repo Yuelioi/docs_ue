@@ -1,6 +1,6 @@
 # LiteralenumEDMXImportGDTFPrimiti-
 
-Literal enum EDMXImportGDTFPrimitiveType
+枚举 EDMXImportGDTFPrimitiveType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDMXImportGDTFPrimitiveType
 
 ## Inputs
 
-Enum: EDMXImportGDTFPrimitiveType Enum.  
+枚举。EDMXImportGDTFPrimitiveType Enum.  
 
 ## Outputs
 
-Return Value: EDMXImportGDTFPrimitiveType Enum.
-
+返回值。EDMXImportGDTFPrimitiveType Enum.

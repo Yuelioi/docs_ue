@@ -1,6 +1,6 @@
 # BreakAdvanceConversationRequest
 
-Adds a node that breaks a 'AdvanceConversationRequest' into its member fields
+添加一个节点，将'AdvanceConversationRequest'分解为其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'AdvanceConversationRequest' into its member fields
 
 ## Inputs
 
-Advance Conversation Request: Advance Conversation Request Structure (by ref).  
+预先对话请求。提前对话请求结构（通过引用）。 
 
 ## Outputs
 
-Choice: Conversation Choice Reference Structure. Choice.
+选择。Conversation Choice 参考结构。Choice: 选择。
 
-User Parameters: Array of Conversation Node Parameter Pair Structures. User Parameters:. @TODO: CONVERSATION: Not currently supported, TODO..
-
+用户参数。对话节点参数对结构的数组。用户参数：. @TODO: CONVERSATION: 目前不支持，TODO.

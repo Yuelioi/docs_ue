@@ -1,6 +1,6 @@
 # LiteralenumEWidgetClipping
 
-Literal enum EWidgetClipping
+枚举 EWidgetClipping
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWidgetClipping
 
 ## Inputs
 
-Enum: EWidgetClipping Enum.  
+枚举。EWidgetClipping Enum.  
 
 ## Outputs
 
-Return Value: EWidgetClipping Enum.
-
+返回值。EWidgetClipping Enum.

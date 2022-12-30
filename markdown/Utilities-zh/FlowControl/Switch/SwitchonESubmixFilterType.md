@@ -1,6 +1,6 @@
 # SwitchonESubmixFilterType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESubmixFilterType Enum.  
+选择。ESubmixFilterType枚举。 
 
 ## Outputs
 
-Low Pass: Exec.
+低通。Exec.
 
-High Pass: Exec.
+高通 Exec.
 
-Band Pass: Exec.
+带通。执行
 
-Band Stop: Exec.
-
+带状停止：执行。

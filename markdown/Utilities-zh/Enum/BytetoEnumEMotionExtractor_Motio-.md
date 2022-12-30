@@ -1,6 +1,6 @@
 # BytetoEnumEMotionExtractor_Motio-
 
-Byte to Enum EMotionExtractor_MotionType
+字节到枚举 EMotionExtractor_MotionType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMotionExtractor_MotionType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMotionExtractor_MotionType Enum.
-
+返回值。EMotionExtractor_MotionType Enum。

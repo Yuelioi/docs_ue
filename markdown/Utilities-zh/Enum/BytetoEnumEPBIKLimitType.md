@@ -1,6 +1,6 @@
 # BytetoEnumEPBIKLimitType
 
-Byte to Enum EPBIKLimitType
+字节到枚举 EPBIKLimitType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EPBIKLimitType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EPBIKLimitType Enum.
-
+返回值。EPBIKLimitType Enum。

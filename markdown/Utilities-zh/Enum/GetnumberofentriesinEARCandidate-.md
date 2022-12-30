@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARCandidate-
 
-Returns EARCandidateImageOrientation_MAX value
+返回EARCandidateImageOrientation_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARCandidateImageOrientation_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

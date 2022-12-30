@@ -1,6 +1,6 @@
 # BytetoEnumEIKRigGoalPreviewMode
 
-Byte to Enum EIKRigGoalPreviewMode
+字节到枚举 EIKRigGoalPreviewMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EIKRigGoalPreviewMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EIKRigGoalPreviewMode Enum.
-
+返回值。EIKRigGoalPreviewMode Enum.

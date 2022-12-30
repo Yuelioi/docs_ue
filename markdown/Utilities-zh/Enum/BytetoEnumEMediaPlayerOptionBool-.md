@@ -1,6 +1,6 @@
 # BytetoEnumEMediaPlayerOptionBool-
 
-Byte to Enum EMediaPlayerOptionBooleanOverride
+字节到枚举 EMediaPlayerOptionBooleanOverride
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMediaPlayerOptionBooleanOverride
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMediaPlayerOptionBooleanOverride Enum.
-
+返回值。EMediaPlayerOptionBooleanOverride Enum。

@@ -1,6 +1,6 @@
 # LocalArrayofFloat_double_precisi-
 
-Local temporary Array of Float (double-precision)s variable
+本地临时数组的浮点数（双精度）变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Array of Float (double-precision)s variable
 
 ## Outputs
 
-Variable: Array of Float (double-precision)s.
-
+变量。Float (double-precision)s数组。

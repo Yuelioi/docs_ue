@@ -1,6 +1,6 @@
 # SwitchonEMaterialSearchLocation
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMaterialSearchLocation Enum.  
+选择。EMaterialSearchLocation Enum.  
 
 ## Outputs
 
-Local: Exec.
+本地。Exec.
 
-Under Parent: Exec.
+父级下。Exec.
 
-Under Root: Exec.
+在根部下。执行。
 
-All Assets: Exec.
+所有资产。Exec.
 
-Do Not Search: Exec.
-
+不要搜索。Exec.

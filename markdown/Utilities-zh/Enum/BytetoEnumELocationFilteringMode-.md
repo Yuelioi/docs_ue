@@ -1,6 +1,6 @@
 # BytetoEnumELocationFilteringMode-
 
-Byte to Enum ELocationFilteringModeEnum
+字节到枚举 ELocationFilteringModeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ELocationFilteringModeEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELocationFilteringModeEnum Enum.
-
+返回值。ELocationFilteringModeEnum枚举。

@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFWheel
 
-Adds a node that breaks a 'DMXImportGDTFWheel' into its member fields
+添加一个节点，将'DMXImportGDTFWheel'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DMXImportGDTFWheel' into its member fields
 
 ## Inputs
 
-DMXImport GDTFWheel: DMXImport GDTFWheel Structure (by ref).  
+DMXImport GDTFWheel。DMXImport GDTFWheel 结构（通过引用）。 
 
 ## Outputs
 
-Name: Name. Name.
+名称。名称。名称：名称。
 
-Slots: Array of DMXImport GDTFWheel Slot Structures. Slots.
-
+插槽。DMXImport GDTFWheel槽位结构的数组。槽位。

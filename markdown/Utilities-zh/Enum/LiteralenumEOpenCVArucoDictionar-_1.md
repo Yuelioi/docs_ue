@@ -1,6 +1,6 @@
 # LiteralenumEOpenCVArucoDictionar-_1
 
-Literal enum EOpenCVArucoDictionarySize
+枚举EOpenCVArucoDictionarySize
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EOpenCVArucoDictionarySize
 
 ## Inputs
 
-Enum: EOpenCVArucoDictionarySize Enum.  
+枚举。EOpenCVArucoDictionarySize Enum.  
 
 ## Outputs
 
-Return Value: EOpenCVArucoDictionarySize Enum.
-
+返回值。EOpenCVArucoDictionarySize Enum.

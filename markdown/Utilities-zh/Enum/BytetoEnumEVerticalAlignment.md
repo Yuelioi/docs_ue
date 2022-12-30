@@ -1,6 +1,6 @@
 # BytetoEnumEVerticalAlignment
 
-Byte to Enum EVerticalAlignment
+字节到枚举EVerticalAlignment
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EVerticalAlignment
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EVerticalAlignment Enum.
-
+返回值。EVerticalAlignment Enum。

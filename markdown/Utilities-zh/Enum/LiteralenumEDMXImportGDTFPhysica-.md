@@ -1,6 +1,6 @@
 # LiteralenumEDMXImportGDTFPhysica-
 
-Literal enum EDMXImportGDTFPhysicalUnit
+字面意义上的枚举 EDMXImportGDTFPhysicalUnit
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDMXImportGDTFPhysicalUnit
 
 ## Inputs
 
-Enum: EDMXImportGDTFPhysicalUnit Enum.  
+枚举。EDMXImportGDTFPhysicalUnit Enum.  
 
 ## Outputs
 
-Return Value: EDMXImportGDTFPhysicalUnit Enum.
-
+返回值。EDMXImportGDTFPhysicalUnit Enum.

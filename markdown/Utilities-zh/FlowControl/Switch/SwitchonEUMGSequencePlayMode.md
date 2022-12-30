@@ -1,6 +1,6 @@
 # SwitchonEUMGSequencePlayMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EUMGSequencePlayMode Enum.  
+选择。EUMGSequencePlayMode枚举。 
 
 ## Outputs
 
-Forward: Exec.
+前进。Exec.
 
-Reverse: Exec.
+逆向：逆向。执行。
 
-Ping Pong: Exec.
-
+Ping Pong（乒乓）。Exec.

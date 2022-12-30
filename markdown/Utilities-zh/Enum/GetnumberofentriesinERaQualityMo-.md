@@ -1,6 +1,6 @@
 # GetnumberofentriesinERaQualityMo-
 
-Returns ERaQualityMode_MAX value
+返回ERaQualityMode_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ERaQualityMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

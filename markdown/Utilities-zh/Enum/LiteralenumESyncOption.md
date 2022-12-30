@@ -1,6 +1,6 @@
 # LiteralenumESyncOption
 
-Literal enum ESyncOption
+字面意义上的ESyncOption枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESyncOption
 
 ## Inputs
 
-Enum: ESyncOption Enum.  
+枚举。ESyncOption Enum.  
 
 ## Outputs
 
-Return Value: ESyncOption Enum.
-
+返回值。ESyncOption Enum.

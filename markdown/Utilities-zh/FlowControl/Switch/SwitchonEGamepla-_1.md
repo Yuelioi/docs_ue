@@ -1,6 +1,6 @@
 # SwitchonEGamepla-_1
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGameplayAbilityNetExecutionPolicy Enum.  
+选择。EGameplayAbilityNetExecutionPolicy Enum.  
 
 ## Outputs
 
-Local Predicted: Exec.
+本地预测。Exec.
 
-Local Only: Exec.
+仅限本地。Exec.
 
-Server Initiated: Exec.
+服务器启动的。执行。
 
-Server Only: Exec.
-
+仅限服务器。执行

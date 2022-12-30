@@ -1,6 +1,6 @@
 # LiteralenumEMIDIEventType
 
-Literal enum EMIDIEventType
+枚举EMIDIEventType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMIDIEventType
 
 ## Inputs
 
-Enum: EMIDIEventType Enum.  
+枚举。EMIDIEventType枚举。 
 
 ## Outputs
 
-Return Value: EMIDIEventType Enum.
-
+返回值。EMIDIEventType Enum。

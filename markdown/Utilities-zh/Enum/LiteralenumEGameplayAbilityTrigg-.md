@@ -1,6 +1,6 @@
 # LiteralenumEGameplayAbilityTrigg-
 
-Literal enum EGameplayAbilityTriggerSource
+字面意义上的枚举：EGameplayAbilityTriggerSource
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: EGameplayAbilityTriggerSource Enum.
 
 ## Outputs
 
-Return Value: EGameplayAbilityTriggerSource Enum.
-
+返回值。EGameplayAbilityTriggerSource Enum。

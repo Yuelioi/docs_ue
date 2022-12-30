@@ -1,6 +1,6 @@
 # LiteralenumEGoogleARCoreAugmente-_1
 
-Literal enum EGoogleARCoreAugmentedFaceRegion
+枚举 EGoogleARCoreAugmentedFaceRegion
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGoogleARCoreAugmentedFaceRegion
 
 ## Inputs
 
-Enum: EGoogleARCoreAugmentedFaceRegion Enum.  
+枚举。EGoogleARCoreAugmentedFaceRegion Enum。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreAugmentedFaceRegion Enum.
-
+返回值。EGoogleARCoreAugmentedFaceRegion Enum。

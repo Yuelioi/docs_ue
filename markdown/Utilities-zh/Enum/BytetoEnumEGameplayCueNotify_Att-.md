@@ -1,6 +1,6 @@
 # BytetoEnumEGameplayCueNotify_Att-
 
-Byte to Enum EGameplayCueNotify_AttachPolicy
+字节到枚举 EGameplayCueNotify_AttachPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGameplayCueNotify_AttachPolicy
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGameplayCueNotify_AttachPolicy Enum.
-
+返回值。EGameplayCueNotify_AttachPolicy Enum。

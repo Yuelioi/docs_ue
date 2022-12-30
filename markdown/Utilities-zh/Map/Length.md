@@ -1,8 +1,8 @@
 # Length
 
-Determines the number of entries in a provided Map
+确定所提供的地图中的条目数量
 
-Target is Blueprint Map Library
+目标是蓝图地图库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Blueprint Map Library
 
 ## Inputs
 
-Target Map: Map of Wildcards to Wildcards. The map in question.  
+目标地图。通配符到通配符的地图。有关的地图。 
 
 ## Outputs
 
-Return Value: Integer. The number of entries in the map.
-
+返回值。整数。地图中的条目数。

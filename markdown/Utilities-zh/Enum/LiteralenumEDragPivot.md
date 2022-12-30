@@ -1,6 +1,6 @@
 # LiteralenumEDragPivot
 
-Literal enum EDragPivot
+字面意义上的枚举 EDragPivot
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDragPivot
 
 ## Inputs
 
-Enum: EDragPivot Enum.  
+枚举。EDragPivot Enum.  
 
 ## Outputs
 
-Return Value: EDragPivot Enum.
-
+返回值。EDragPivot Enum。

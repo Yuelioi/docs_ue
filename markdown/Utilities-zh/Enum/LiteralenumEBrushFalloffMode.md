@@ -1,6 +1,6 @@
 # LiteralenumEBrushFalloffMode
 
-Literal enum EBrushFalloffMode
+枚举EBrushFalloffMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EBrushFalloffMode
 
 ## Inputs
 
-Enum: EBrushFalloffMode Enum.  
+枚举。EBrushFalloffMode枚举。 
 
 ## Outputs
 
-Return Value: EBrushFalloffMode Enum.
-
+返回值。EBrushFalloffMode Enum。

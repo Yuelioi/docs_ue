@@ -1,6 +1,6 @@
 # LiteralenumEBoneModificationMode
 
-Literal enum EBoneModificationMode
+字面意义上的EBoneModificationMode枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EBoneModificationMode
 
 ## Inputs
 
-Enum: EBoneModificationMode Enum.  
+枚举。EBoneModificationMode枚举。 
 
 ## Outputs
 
-Return Value: EBoneModificationMode Enum.
-
+返回值。EBoneModificationMode Enum。

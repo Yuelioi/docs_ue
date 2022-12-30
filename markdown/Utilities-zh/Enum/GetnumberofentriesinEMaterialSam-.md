@@ -1,6 +1,6 @@
 # GetnumberofentriesinEMaterialSam-
 
-Returns EMaterialSamplerType_MAX value
+返回EMaterialSamplerType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EMaterialSamplerType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

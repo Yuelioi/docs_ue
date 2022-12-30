@@ -1,6 +1,6 @@
 # LiteralenumEInitialVelocityTypeE-
 
-Literal enum EInitialVelocityTypeEnum
+EInitialVelocityTypeEnum的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EInitialVelocityTypeEnum
 
 ## Inputs
 
-Enum: EInitialVelocityTypeEnum Enum.  
+枚举。EInitialVelocityTypeEnum枚举。 
 
 ## Outputs
 
-Return Value: EInitialVelocityTypeEnum Enum.
-
+返回值。EInitialVelocityTypeEnum枚举。

@@ -1,6 +1,6 @@
 # BytetoEnumETargetUsageFlags
 
-Byte to Enum ETargetUsageFlags
+字节到枚举 ETargetUsageFlags
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETargetUsageFlags
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETargetUsageFlags Enum.
-
+返回值。ETargetUsageFlags Enum。

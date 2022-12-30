@@ -1,6 +1,6 @@
 # Getnumberofentri-_25
 
-Returns EGooglePADCellularDataConfirmStatus_MAX value
+返回EGooglePADCellularDataConfirmStatus_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGooglePADCellularDataConfirmStatus_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

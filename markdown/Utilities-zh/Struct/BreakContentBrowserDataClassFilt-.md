@@ -1,6 +1,6 @@
 # BreakContentBrowserDataClassFilt-
 
-Adds a node that breaks a 'ContentBrowserDataClassFilter' into its member fields
+添加一个节点，将'ContentBrowserDataClassFilter'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'ContentBrowserDataClassFilter' into its member fields
 
 ## Inputs
 
-Content Browser Data Class Filter: Content Browser Data Class Filter Structure (by ref).  
+内容浏览器数据类过滤器。内容浏览器数据类过滤器结构（通过引用）。 
 
 ## Outputs
 
-Class Names To Include: Array of Names. Class Names to Include:. Array of class names that should be included in this query.
+包含的类名。名称的数组。要包括的类名：。应该包括在这个查询中的类名称的数组。
 
-Class Names To Exclude: Array of Names. Class Names to Exclude:. Array of class names that should be excluded from this query.
+要排除的类名称。名称的数组。排除的类名：。应该从这个查询中排除的类名称的数组。
 
-Recursive Class Names To Include: Boolean. Recursive Class Names to Include:. Whether we should include inclusive sub-classes in this query.
+包含的递归类名。布尔值。包含的递归类名：。我们是否应该在这个查询中包括包容的子类。
 
-Recursive Class Names To Exclude: Boolean. Recursive Class Names to Exclude:. Whether we should include exclusive sub-classes in this query.
-
+递归类名要排除。布尔值。递归类名称排除：。我们是否应该在这个查询中包括排他性的子类。

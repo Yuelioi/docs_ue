@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAzureSpatia-_1
 
-Returns EAzureSpatialAnchorsLogVerbosity_MAX value
+返回EAzureSpatialAnchorsLogVerbosity_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAzureSpatialAnchorsLogVerbosity_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

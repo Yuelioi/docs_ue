@@ -1,6 +1,6 @@
 # LiteralenumEMotionExtractor_Moti-
 
-Literal enum EMotionExtractor_MotionType
+枚举EMotionExtractor_MotionType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMotionExtractor_MotionType
 
 ## Inputs
 
-Enum: EMotionExtractor_MotionType Enum.  
+枚举。EMotionExtractor_MotionType枚举。 
 
 ## Outputs
 
-Return Value: EMotionExtractor_MotionType Enum.
-
+返回值。EMotionExtractor_MotionType Enum。

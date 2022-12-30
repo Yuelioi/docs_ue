@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptIndexT-
 
-Literal enum EGeometryScriptIndexType
+枚举 EGeometryScriptIndexType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptIndexType
 
 ## Inputs
 
-Enum: EGeometryScriptIndexType Enum.  
+枚举。EGeometryScriptIndexType 枚举。 
 
 ## Outputs
 
-Return Value: EGeometryScriptIndexType Enum.
-
+返回值。EGeometryScriptIndexType 枚举。

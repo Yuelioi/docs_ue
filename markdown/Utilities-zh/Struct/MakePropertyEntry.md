@@ -21,4 +21,3 @@ Constant Value: Float (single-precision). Constant Value:. Defines the value rep
 ## Outputs
 
 Property Entry: Property Entry Structure.
-

@@ -1,6 +1,6 @@
 # SwitchonEXRSystemFlags
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EXRSystemFlags Enum.  
+选择。EXRSystemFlags Enum.  
 
 ## Outputs
 
-Is AR: Exec.
+是AR：Exec.
 
-Is Tablet: Exec.
+是平板电脑。执行。
 
-Is Head Mounted: Exec.
+是否头部安装。是否支持头戴式？
 
-Supports Hand Tracking: Exec.
-
+支持手部追踪。执行。

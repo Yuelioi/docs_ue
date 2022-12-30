@@ -1,6 +1,6 @@
 # LiteralenumEMovieSceneEvaluation-
 
-Literal enum EMovieSceneEvaluationType
+EMovieSceneEvaluationType字面枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMovieSceneEvaluationType
 
 ## Inputs
 
-Enum: EMovieSceneEvaluationType Enum.  
+枚举。EMovieSceneEvaluationType Enum.  
 
 ## Outputs
 
-Return Value: EMovieSceneEvaluationType Enum.
-
+返回值。EMovieSceneEvaluationType Enum。

@@ -1,6 +1,6 @@
 # BreakEnvQueryResult
 
-Adds a node that breaks a 'EnvQueryResult' into its member fields
+添加一个节点，将'EnvQueryResult'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'EnvQueryResult' into its member fields
 
 ## Inputs
 
-Env Query Result: Env Query Result Structure (by ref).  
+环境查询结果。环境查询结果结构（通过引用）。 
 
 ## Outputs
 
-Item Type: Env Query Item Type Class Reference. Item Type:. type of generated items.
+项目类型。环境查询项目类型类参考。项目类型：.生成项目的类型。
 
-Option Index: Integer. Option Index:. index of query option, that generated items.
+选项索引。整数。选项索引：查询选项的索引，产生的项目。
 
-Query ID: Integer. Query ID:. instance ID.
-
+Query ID: 整数。Query ID:.实例ID。

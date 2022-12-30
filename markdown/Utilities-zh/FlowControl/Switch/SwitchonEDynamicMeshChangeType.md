@@ -1,6 +1,6 @@
 # SwitchonEDynamicMeshChangeType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDynamicMeshChangeType Enum.  
+选择。EDynamicMeshChangeType枚举。 
 
 ## Outputs
 
-General Edit: Exec.
+一般编辑：Exec.
 
 Mesh Change: Exec.
 
-Mesh Replacement Change: Exec.
+Mesh Replacement Change（网格替换变更）。Exec.
 
-Mesh Vertex Change: Exec.
+网格顶点变更。Exec.
 
-Deformation Edit: Exec.
+变形编辑: Exec.
 
-Attribute Edit: Exec.
-
+属性编辑：执行。

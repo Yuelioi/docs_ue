@@ -1,6 +1,6 @@
 # SwitchonERigVMPinDirection
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERigVMPinDirection Enum.  
+选择。ERigVMPinDirection Enum.  
 
 ## Outputs
 
-Input: Exec.
+输入。Exec.
 
-Output: Exec.
+输出。Exec.
 
 IO: Exec.
 
-Visible: Exec.
+可见的。Exec.
 
-Hidden: Exec.
+隐藏的。Exec.
 
-Invalid: Exec.
-
+无效。Exec.

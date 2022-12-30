@@ -1,6 +1,6 @@
 # LiteralenumEGameplayAbilityInsta-
 
-Literal enum EGameplayAbilityInstancingPolicy
+字面意义上的枚举：EGameplayAbilityInstancingPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayAbilityInstancingPolicy
 
 ## Inputs
 
-Enum: EGameplayAbilityInstancingPolicy Enum.  
+Enum: EGameplayAbilityInstancingPolicy枚举。 
 
 ## Outputs
 
-Return Value: EGameplayAbilityInstancingPolicy Enum.
-
+返回值。EGameplayAbilityInstancingPolicy Enum。

@@ -1,6 +1,6 @@
 # SwitchonEConversationTaskResultT-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,25 +8,24 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EConversationTaskResultType Enum.  
+选择。EConversationTaskResultType枚举。 
 
 ## Outputs
 
-Invalid: Exec.
+无效。执行。
 
-Abort Conversation: Exec.
+中止对话。执行。
 
-Advance Conversation: Exec.
+推进对话。执行。
 
-Advance Conversation With Choice: Exec.
+提前选择对话。Exec.
 
-Pause Conversation And Send Client Choices: Exec.
+暂停对话并发送客户选择。执行.
 
-Return To Last Client Choice: Exec.
+返回到最后一个客户的选择。执行.
 
-Return To Current Client Choice: Exec.
+返回到当前客户的选择。执行。
 
-Return To Conversation Start: Exec.
-
+返回到对话的开始。执行。

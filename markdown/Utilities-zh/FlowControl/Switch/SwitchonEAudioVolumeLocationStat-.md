@@ -1,6 +1,6 @@
 # SwitchonEAudioVolumeLocationStat-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAudioVolumeLocationState Enum.  
+选择。EAudioVolumeLocationState Enum.  
 
 ## Outputs
 
-Inside The Volume: Exec.
+卷内。Exec.
 
-Outside The Volume: Exec.
-
+音量之外 Exec.

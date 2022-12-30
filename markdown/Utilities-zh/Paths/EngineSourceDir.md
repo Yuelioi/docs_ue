@@ -1,8 +1,8 @@
 # EngineSourceDir
 
-Returns the directory where engine source code files are kept
+返回保存引擎源代码文件的目录
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. Returns the directory where engine source code files are kept.
-
+返回值。字符串。返回保存引擎源代码文件的目录。

@@ -1,6 +1,6 @@
 # SwitchonEQuartzCommandType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EQuartzCommandType Enum.  
+选择。EQuartzCommandType Enum.  
 
 ## Outputs
 
-Play Sound: Exec.
+播放声音。执行。
 
-Queue Sound to Play: Exec.
+排队播放的声音：Exec.
 
-Re-trigger Sound: Exec.
+重新触发声音。Exec.
 
-Tick Rate Change: Exec.
+Tick Rate Change: 执行。
 
-Transport Reset: Exec.
+传输复位。执行。
 
-Start Other Clock: Exec.
-
+启动其他时钟。Exec.

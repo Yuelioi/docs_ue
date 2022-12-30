@@ -1,6 +1,6 @@
 # BreakARPoseUpdatePayload
 
-Adds a node that breaks a 'ARPoseUpdatePayload' into its member fields
+添加一个节点，将'ARPoseUpdatePayload'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ARPoseUpdatePayload' into its member fields
 
 ## Inputs
 
-ARPose Update Payload: ARPose Update Payload Structure (by ref).  
+ARPose Update Payload。ARPose Update Payload结构（通过引用）。 
 
 ## Outputs
 
-World Transform: Transform. World Transform.
+世界变换。变换。World Transform: 世界变换。
 
-Joint Transforms: Array of Transforms. Joint Transforms.
-
+Joint Transforms（联合变换）。Array of Transforms（变换阵列）。Joint Transforms（联合变换）。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARJointTran-
 
-Returns EARJointTransformSpace_MAX value
+返回EARJointTransformSpace_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARJointTransformSpace_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

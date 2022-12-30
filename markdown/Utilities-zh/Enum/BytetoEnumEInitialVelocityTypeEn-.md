@@ -1,6 +1,6 @@
 # BytetoEnumEInitialVelocityTypeEn-
 
-Byte to Enum EInitialVelocityTypeEnum
+字节到枚举 EInitialVelocityTypeEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EInitialVelocityTypeEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EInitialVelocityTypeEnum Enum.
-
+返回值。EInitialVelocityTypeEnum枚举。

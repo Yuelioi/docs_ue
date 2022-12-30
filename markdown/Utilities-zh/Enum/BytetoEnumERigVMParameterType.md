@@ -8,9 +8,8 @@ Byte to Enum ERigVMParameterType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERigVMParameterType Enum.
-
+返回值。ERigVMParameterType Enum。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinESynthLFOMod-
 
-Returns ESynthLFOMode_MAX value
+返回ESynthLFOMode_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESynthLFOMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

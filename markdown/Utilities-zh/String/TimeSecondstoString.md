@@ -1,8 +1,8 @@
 # TimeSecondstoString
 
-Convert a number of seconds into minutes:seconds.milliseconds format string (including leading zeroes)
+将一个秒数转换成分钟:秒.毫秒的格式字符串（包括前导零）。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-In Seconds: Float (single-precision).  
+以秒为单位。Float（单精度）。 
 
 ## Outputs
 
-Return Value: String. A new string built from the seconds parameter.
-
+返回值。字符串。一个由秒数参数建立的新字符串。

@@ -1,6 +1,6 @@
 # LiteralenumEAudioDeviceChangedSt-
 
-Literal enum EAudioDeviceChangedState
+枚举 EAudioDeviceChangedState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAudioDeviceChangedState
 
 ## Inputs
 
-Enum: EAudioDeviceChangedState Enum.  
+枚举。EAudioDeviceChangedState Enum.  
 
 ## Outputs
 
-Return Value: EAudioDeviceChangedState Enum.
-
+返回值。EAudioDeviceChangedState Enum.

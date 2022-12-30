@@ -1,6 +1,6 @@
 # LiteralenumEStereoChannelMode
 
-Literal enum EStereoChannelMode
+字面意义上的枚举EStereoChannelMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EStereoChannelMode
 
 ## Inputs
 
-Enum: EStereoChannelMode Enum.  
+枚举。EStereoChannelMode枚举。 
 
 ## Outputs
 
-Return Value: EStereoChannelMode Enum.
-
+返回值。EStereoChannelMode Enum。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGroomBindin-_1
 
-Returns EGroomBindingType_MAX value
+返回EGroomBindingType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGroomBindingType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

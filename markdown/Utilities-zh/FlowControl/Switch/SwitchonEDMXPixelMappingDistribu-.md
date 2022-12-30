@@ -1,6 +1,6 @@
 # SwitchonEDMXPixelMappingDistribu-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,41 +8,40 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDMXPixelMappingDistribution Enum.  
+选择。EDMXPixelMappingDistribution Enum.  
 
 ## Outputs
 
-Top Left To Right: Exec.
+从左上到右下。Exec.
 
 Top Left To Bottom: Exec.
 
-Top Left To Clockwise: Exec.
+左上角至顺时针方向 执行。
 
-Top Left To Anti Clockwise: Exec.
+左上角至逆时针：执行。执行。
 
-Top Right To Left: Exec.
+右上至左：执行。
 
-Bottom Left To Top: Exec.
+下左至上：执行。
 
-Top Right To Anti Clockwise: Exec.
+右上角至逆时针：执行。执行。
 
-Bottom Left To Clockwise: Exec.
+左下角至顺时针：执行。执行。
 
-Bottom Left To Right: Exec.
+左下角至右上角。执行。
 
-Top Right To Bottom: Exec.
+右上角至底部。执行。
 
-Bottom Left Anti Clockwise: Exec.
+左下角逆时针。执行。
 
-Top Right To Clockwise: Exec.
+右上至顺时针：执行。执行。
 
-Bottom Right To Left: Exec.
+右下至左：执行。
 
-Bottom Right To Top: Exec.
+右下角至顶部：执行。
 
-Bottom Right To Clockwise: Exec.
+右下角到顺时针方向：执行 执行。
 
-Bottom Right To Anti Clockwise: Exec.
-
+右下角到逆时针：执行。执行

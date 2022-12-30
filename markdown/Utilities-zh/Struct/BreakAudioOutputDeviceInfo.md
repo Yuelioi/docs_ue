@@ -1,6 +1,6 @@
 # BreakAudioOutputDeviceInfo
 
-Adds a node that breaks a 'AudioOutputDeviceInfo' into its member fields
+添加一个节点，将'AudioOutputDeviceInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that breaks a 'AudioOutputDeviceInfo' into its member fields
 
 ## Inputs
 
-Audio Output Device Info: Audio Output Device Info Structure (by ref).  
+音频输出设备信息。音频输出设备信息结构（通过引用）。 
 
 ## Outputs
 
-Name: String. Name:. The name of the audio device.
+名称。字符串。名称：。音频设备的名称。
 
-Device Id: String. Device Id:. ID of the device..
+Device Id: 字符串。设备ID:. 设备的ID。
 
-Num Channels: Integer. Num Channels:. The number of channels supported by the audio device.
+Num Channels: 整数。Num Channels:. 音频设备支持的通道数。
 
-Sample Rate: Integer. Sample Rate:. The sample rate of the audio device.
+采样率。整数。采样率：。音频设备的采样率。
 
-Format: EAudioMixerStreamDataFormatType Enum. Format:. The data format of the audio stream.
+格式。EAudioMixerStreamDataFormatType枚举。格式:. 音频流的数据格式。
 
-Output Channel Array: Array of EAudioMixerChannelType Enums. Output Channel Array:. The output channel array of the audio device.
+Output Channel Array: EAudioMixerChannelType枚举的数组。输出通道数组:. 音频设备的输出通道数组。
 
-Is System Default: Boolean. Is System Default:. Whether or not this device is the system default.
+是系统默认的。布尔值。是系统默认值：。这个设备是否是系统默认的。
 
-Is Current Device: Boolean. Is Current Device:. Whether or not this device is the device currently in use.
-
+是当前设备。布尔值。是当前设备：。该设备是否是当前使用的设备。

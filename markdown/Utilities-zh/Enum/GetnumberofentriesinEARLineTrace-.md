@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARLineTrace-
 
-Returns EARLineTraceChannels_MAX value
+返回EARLineTraceChannels_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARLineTraceChannels_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -8,9 +8,8 @@ Literal enum ETemperatureSeverityType
 
 ## Inputs
 
-Enum: ETemperatureSeverityType Enum.  
+枚举。ETemperatureSeverityType Enum.  
 
 ## Outputs
 
-Return Value: ETemperatureSeverityType Enum.
-
+返回值。ETemperatureSeverityType Enum。

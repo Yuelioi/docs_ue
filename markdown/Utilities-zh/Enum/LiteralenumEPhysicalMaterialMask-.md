@@ -1,6 +1,6 @@
 # LiteralenumEPhysicalMaterialMask-
 
-Literal enum EPhysicalMaterialMaskColor
+枚举EPhysicalMaterialMaskColor
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EPhysicalMaterialMaskColor
 
 ## Inputs
 
-Enum: EPhysicalMaterialMaskColor Enum.  
+枚举。EPhysicalMaterialMaskColor Enum.  
 
 ## Outputs
 
-Return Value: EPhysicalMaterialMaskColor Enum.
-
+返回值。EPhysicalMaterialMaskColor Enum.

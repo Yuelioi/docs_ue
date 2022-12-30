@@ -1,6 +1,6 @@
 # LiteralenumEDatasmithAreaLightAc-
 
-Literal enum EDatasmithAreaLightActorShape
+字面上的枚举：EDatasmithAreaLightActorShape
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDatasmithAreaLightActorShape
 
 ## Inputs
 
-Enum: EDatasmithAreaLightActorShape Enum.  
+枚举。EDatasmithAreaLightActorShape Enum.  
 
 ## Outputs
 
-Return Value: EDatasmithAreaLightActorShape Enum.
-
+返回值。EDatasmithAreaLightActorShape Enum。

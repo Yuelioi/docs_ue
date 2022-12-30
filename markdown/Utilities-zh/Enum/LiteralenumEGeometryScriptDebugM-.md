@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptDebugM-
 
-Literal enum EGeometryScriptDebugMessageType
+枚举 EGeometryScriptDebugMessageType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptDebugMessageType
 
 ## Inputs
 
-Enum: EGeometryScriptDebugMessageType Enum.  
+枚举。EGeometryScriptDebugMessageType Enum.  
 
 ## Outputs
 
-Return Value: EGeometryScriptDebugMessageType Enum.
-
+返回值。EGeometryScriptDebugMessageType Enum.

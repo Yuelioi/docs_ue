@@ -1,6 +1,6 @@
 # SwitchonEFBXScen-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EFBXSceneOptionsCreateHierarchyType Enum.  
+选择。EFBXSceneOptionsCreateHierarchyType Enum.  
 
 ## Outputs
 
 Create Level Actors: Exec.
 
-Create One Actor With Components: Exec.
+用组件创建一个演员。Exec.
 
-Create One Blueprint Asset: Exec.
-
+创建一个蓝图资产：执行。

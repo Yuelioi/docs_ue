@@ -1,6 +1,6 @@
 # BytetoEnumEImportanceWeight
 
-Byte to Enum EImportanceWeight
+字节到枚举 EImportanceWeight
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EImportanceWeight
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EImportanceWeight Enum.
-
+返回值。EImportanceWeight Enum。

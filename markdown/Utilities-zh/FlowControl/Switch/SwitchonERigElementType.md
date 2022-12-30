@@ -1,6 +1,6 @@
 # SwitchonERigElementType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERigElementType Enum.  
+选择。ERigElementType枚举。 
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Bone: Exec.
+Bone:执行。
 
 Null: Exec.
 
-Control: Exec.
+控制。执行
 
-Curve: Exec.
+曲线。执行
 
-Reference: Exec.
+参照。Exec.
 
-All: Exec.
-
+全部：Exec.

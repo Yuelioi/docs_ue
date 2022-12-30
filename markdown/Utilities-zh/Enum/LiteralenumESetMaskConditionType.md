@@ -1,6 +1,6 @@
 # LiteralenumESetMaskConditionType
 
-Literal enum ESetMaskConditionType
+字面意义上的枚举：ESetMaskConditionType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESetMaskConditionType
 
 ## Inputs
 
-Enum: ESetMaskConditionType Enum.  
+枚举。ESetMaskConditionType Enum.  
 
 ## Outputs
 
-Return Value: ESetMaskConditionType Enum.
-
+返回值。ESetMaskConditionType Enum。

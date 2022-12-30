@@ -1,6 +1,6 @@
 # SwitchonEVProdPanelIDs
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EVProdPanelIDs Enum.  
+选择。EVProdPanelIDs Enum.  
 
 ## Outputs
 
-Main: Exec.
+主：Exec.
 
-Left: Exec.
+左：执行。
 
-Right: Exec.
+右边 Exec.
 
-Context: Exec.
+上下文。执行
 
-Timeline: Exec.
+时间线。执行。
 
-Measure: Exec.
+措施: 执行
 
-Gaffer: Exec.
-
+盖尔。执行

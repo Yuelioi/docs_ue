@@ -1,8 +1,8 @@
 # SetProjectFilePath
 
-Sets the path to the project file.
+设置项目文件的路径。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-New Game Project File Path: String. The project file path to set..  
+新游戏项目文件路径。字符串。要设置的项目文件路径。 
 
 ## Outputs
 
-Out: Exec.
-
+输出。执行。

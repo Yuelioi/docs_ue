@@ -1,6 +1,6 @@
 # SwitchonEGoogleA-_1
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGoogleARCoreCameraDepthSensorUsage Enum.  
+选择。EGoogleARCoreCameraDepthSensorUsage枚举。 
 
 ## Outputs
 
-Depth Sensor Any: Exec.
+深度传感器 任何。Exec.
 
-Depth Sensor Require And Use: Exec.
+Depth Sensor Require and Use: Exec.
 
 Depth Sensor Do Not Use: Exec.
-

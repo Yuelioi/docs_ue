@@ -1,6 +1,6 @@
 # BytetoEnumEGroomOverrideType
 
-Byte to Enum EGroomOverrideType
+字节到枚举EGroomOverrideType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGroomOverrideType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGroomOverrideType Enum.
-
+返回值。EGroomOverrideType Enum。

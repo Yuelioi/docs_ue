@@ -1,6 +1,6 @@
 # SwitchonERaSpatializationMethod
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERaSpatializationMethod Enum.  
+选择。ERaSpatializationMethod Enum.  
 
 ## Outputs
 
-Stereo Panning: Exec.
+立体声平移。Exec.
 
-HRTF: Exec.
-
+HRTF: 执行。

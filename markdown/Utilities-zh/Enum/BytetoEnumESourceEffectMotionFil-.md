@@ -1,6 +1,6 @@
 # BytetoEnumESourceEffectMotionFil-
 
-Byte to Enum ESourceEffectMotionFilterCircuit
+字节到枚举 ESourceEffectMotionFilterCircuit
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESourceEffectMotionFilterCircuit
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESourceEffectMotionFilterCircuit Enum.
-
+返回值。ESourceEffectMotionFilterCircuit Enum。

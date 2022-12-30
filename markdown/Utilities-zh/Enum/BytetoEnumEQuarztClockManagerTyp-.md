@@ -1,6 +1,6 @@
 # BytetoEnumEQuarztClockManagerTyp-
 
-Byte to Enum EQuarztClockManagerType
+字节到枚举 EQuarztClockManagerType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EQuarztClockManagerType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EQuarztClockManagerType Enum.
-
+返回值。EQuarztClockManagerType Enum。

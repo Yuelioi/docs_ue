@@ -1,6 +1,6 @@
 # SwitchonERigControlType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,9 +8,9 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERigControlType Enum.  
+选择。ERigControlType Enum.  
 
 ## Outputs
 
@@ -18,15 +18,14 @@ Bool: Exec.
 
 Float: Exec.
 
-Integer: Exec.
+整数。Exec.
 
-Vector 2D: Exec.
+矢量2D: Exec.
 
-Position: Exec.
+位置 Exec.
 
-Scale: Exec.
+规模 Exec.
 
-Rotator: Exec.
+旋转器。Exec.
 
-Euler Transform: Exec.
-
+欧拉变换: 执行。

@@ -1,6 +1,6 @@
 # SwitchonEUpdateClockSource
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EUpdateClockSource Enum.  
+选择。EUpdateClockSource Enum.  
 
 ## Outputs
 
-Tick: Exec.
+勾选。Exec.
 
 Platform: Exec.
 
-Audio: Exec.
+音频。Exec.
 
-Relative Timecode: Exec.
+相对时间码。Exec.
 
-Timecode: Exec.
+时间码: Exec.
 
-Play Every Frame: Exec.
+播放每一帧。Exec.
 
-Custom: Exec.
-
+自定义。Exec.

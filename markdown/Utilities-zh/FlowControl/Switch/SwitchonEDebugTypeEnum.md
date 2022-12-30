@@ -1,6 +1,6 @@
 # SwitchonEDebugTypeEnum
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDebugTypeEnum Enum.  
+选择。EDebugTypeEnum枚举。 
 
 ## Outputs
 
-No Debug: Exec.
+无调试。Exec.
 
-Color By Solver: Exec.
+Color By Solver: 执行。
 
-Color By Particle Index: Exec.
-
+按粒子指数着色。执行。

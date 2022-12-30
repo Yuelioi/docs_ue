@@ -1,6 +1,6 @@
 # GetnumberofentriesinETextWrappin-
 
-Returns ETextWrappingPolicy_MAX value
+返回ETextWrappingPolicy_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ETextWrappingPolicy_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

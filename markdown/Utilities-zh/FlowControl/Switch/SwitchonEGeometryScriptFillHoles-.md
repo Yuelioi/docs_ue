@@ -1,6 +1,6 @@
 # SwitchonEGeometryScriptFillHoles-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGeometryScriptFillHolesMethod Enum.  
+选择。EGeometryScriptFillHolesMethod Enum.  
 
 ## Outputs
 
-Automatic: Exec.
+自动。Exec.
 
 Minimal Fill: Exec.
 
-Polygon Triangulation: Exec.
+多边形三角测量。Exec.
 
-Triangle Fan: Exec.
+三角形扇形: Exec.
 
-Planar Projection: Exec.
-
+平面投影: 执行

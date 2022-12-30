@@ -1,6 +1,6 @@
 # DoOnceMultiInput
 
-K2Node Do Once Multi Input
+K2Node做一次多输入
 
 ## 图示
 
@@ -8,13 +8,12 @@ K2Node Do Once Multi Input
 
 ## Inputs
 
-A In: Exec.
+A 在。执行。
 
-Reset In: Exec.  
+Reset In: 执行。 
 
 ## Outputs
 
-A Out: Exec.
+A 输出。Exec.
 
 Reset Out: Exec.
-

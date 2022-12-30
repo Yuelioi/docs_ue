@@ -1,6 +1,6 @@
 # SwitchonEObjectStateTypeEnum
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EObjectStateTypeEnum Enum.  
+选择。EObjectStateTypeEnum枚举。 
 
 ## Outputs
 
-Sleeping: Exec.
+睡眠。Exec.
 
-Kinematic: Exec.
+Kinematic: 执行。
 
-Static: Exec.
+静态: 执行。
 
-Dynamic: Exec.
+动态的。执行.
 
-User Defined: Exec.
-
+用户定义的。执行。

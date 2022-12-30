@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGooglePADEr-
 
-Returns EGooglePADErrorCode_MAX value
+返回EGooglePADErrorCode_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGooglePADErrorCode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

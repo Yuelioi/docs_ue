@@ -1,6 +1,6 @@
 # BytetoEnumEGooglePADDownloadStat-
 
-Byte to Enum EGooglePADDownloadStatus
+字节到枚举 EGooglePADDownloadStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGooglePADDownloadStatus
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGooglePADDownloadStatus Enum.
-
+返回值。EGooglePADDownloadStatus Enum。

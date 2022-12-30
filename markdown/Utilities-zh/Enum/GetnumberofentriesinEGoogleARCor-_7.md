@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGoogleARCor-_7
 
-Returns EGoogleARCoreInstallRequestResult_MAX value
+返回 EGoogleARCoreInstallRequestResult_MAX 值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGoogleARCoreInstallRequestResult_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

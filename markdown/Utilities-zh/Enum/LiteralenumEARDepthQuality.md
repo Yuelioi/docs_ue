@@ -1,6 +1,6 @@
 # LiteralenumEARDepthQuality
 
-Literal enum EARDepthQuality
+字面意义上的EARDepthQuality枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARDepthQuality
 
 ## Inputs
 
-Enum: EARDepthQuality Enum.  
+枚举。EARDepthQuality Enum.  
 
 ## Outputs
 
-Return Value: EARDepthQuality Enum.
-
+返回值。EARDepthQuality Enum。

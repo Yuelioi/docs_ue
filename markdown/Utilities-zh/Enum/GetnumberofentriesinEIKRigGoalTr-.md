@@ -1,6 +1,6 @@
 # GetnumberofentriesinEIKRigGoalTr-
 
-Returns EIKRigGoalTransformSource_MAX value
+返回EIKRigGoalTransformSource_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EIKRigGoalTransformSource_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

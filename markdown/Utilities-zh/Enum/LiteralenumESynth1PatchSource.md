@@ -1,6 +1,6 @@
 # LiteralenumESynth1PatchSource
 
-Literal enum ESynth1PatchSource
+字面意义上的枚举：ESynth1PatchSource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESynth1PatchSource
 
 ## Inputs
 
-Enum: ESynth1PatchSource Enum.  
+枚举。ESynth1PatchSource Enum.  
 
 ## Outputs
 
-Return Value: ESynth1PatchSource Enum.
-
+返回值。ESynth1PatchSource Enum.

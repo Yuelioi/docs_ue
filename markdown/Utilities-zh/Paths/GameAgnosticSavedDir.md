@@ -1,8 +1,8 @@
 # GameAgnosticSavedDir
 
-Returns the saved directory that is not game specific. This is usually the same as. EngineSavedDir().
+返回不针对游戏的保存目录。这通常等同于。EngineSavedDir()。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. saved directory.
-
+返回值。字符串。保存的目录。

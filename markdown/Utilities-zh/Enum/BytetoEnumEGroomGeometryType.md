@@ -1,6 +1,6 @@
 # BytetoEnumEGroomGeometryType
 
-Byte to Enum EGroomGeometryType
+字节到枚举EGroomGeometryType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGroomGeometryType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGroomGeometryType Enum.
-
+返回值。EGroomGeometryType Enum。

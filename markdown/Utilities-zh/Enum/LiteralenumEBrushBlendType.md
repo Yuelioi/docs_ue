@@ -1,6 +1,6 @@
 # LiteralenumEBrushBlendType
 
-Literal enum EBrushBlendType
+枚举EBrushBlendType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EBrushBlendType
 
 ## Inputs
 
-Enum: EBrushBlendType Enum.  
+枚举。EBrushBlendType Enum.  
 
 ## Outputs
 
-Return Value: EBrushBlendType Enum.
-
+返回值。EBrushBlendType Enum。

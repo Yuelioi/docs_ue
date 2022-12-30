@@ -1,6 +1,6 @@
 # SwitchonEARGeoTrackingStateReaso-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,27 +8,26 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARGeoTrackingStateReason Enum.  
+选择。EARGeoTrackingStateReason 枚举。 
 
 ## Outputs
 
-None: Exec.
+无。执行。
 
-Not Available At Location: Exec.
+地点不可用。执行。
 
-Need Location Permissions: Exec.
+需要位置权限。Exec.
 
-Device Pointed Too Low: Exec.
+设备指向太低: 执行.
 
-World Tracking Unstable: Exec.
+世界跟踪不稳定: 执行。
 
-Waiting For Location: Exec.
+正在等待定位。执行。
 
-Geo Data Not Loaded: Exec.
+地理数据未加载。执行。
 
 Visual Localization Failed: Exec.
 
-Waiting For Availability Check: Exec.
-
+等待可用性检查。执行。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGranularSyn-_1
 
-Returns EGranularSynthSeekType_MAX value
+返回EGranularSynthSeekType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGranularSynthSeekType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

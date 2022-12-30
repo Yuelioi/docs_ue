@@ -1,6 +1,6 @@
 # BytetoEnumEUpdateCompletionStatu-
 
-Byte to Enum EUpdateCompletionStatus
+字节到枚举 EUpdateCompletionStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EUpdateCompletionStatus
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EUpdateCompletionStatus Enum.
-
+返回值。EUpdateCompletionStatus枚举。

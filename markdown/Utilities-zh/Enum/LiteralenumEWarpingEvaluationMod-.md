@@ -1,6 +1,6 @@
 # LiteralenumEWarpingEvaluationMod-
 
-Literal enum EWarpingEvaluationMode
+枚举 EWarpingEvaluationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWarpingEvaluationMode
 
 ## Inputs
 
-Enum: EWarpingEvaluationMode Enum.  
+枚举。EWarpingEvaluationMode Enum.  
 
 ## Outputs
 
-Return Value: EWarpingEvaluationMode Enum.
-
+返回值。EWarpingEvaluationMode Enum。

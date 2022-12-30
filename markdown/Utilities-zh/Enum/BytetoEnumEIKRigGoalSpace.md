@@ -1,6 +1,6 @@
 # BytetoEnumEIKRigGoalSpace
 
-Byte to Enum EIKRigGoalSpace
+字节到枚举 EIKRigGoalSpace
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EIKRigGoalSpace
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EIKRigGoalSpace Enum.
-
+返回值。EIKRigGoalSpace Enum。

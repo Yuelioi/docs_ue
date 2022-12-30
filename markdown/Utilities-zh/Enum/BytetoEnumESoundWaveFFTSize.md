@@ -1,6 +1,6 @@
 # BytetoEnumESoundWaveFFTSize
 
-Byte to Enum ESoundWaveFFTSize
+字节到枚举 ESoundWaveFFTSize
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESoundWaveFFTSize
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESoundWaveFFTSize Enum.
-
+返回值。ESoundWaveFFTSize Enum。

@@ -1,6 +1,6 @@
 # SwitchonEOculusMR_ClippingRefere-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EOculusMR_ClippingReference Enum.  
+选择。EOculusMR_ClippingReference枚举。 
 
 ## Outputs
 
-Tracking Reference: Exec.
+追踪参考。Exec.
 
 Head: Exec.
-

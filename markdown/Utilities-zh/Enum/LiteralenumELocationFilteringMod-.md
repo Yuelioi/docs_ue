@@ -1,6 +1,6 @@
 # LiteralenumELocationFilteringMod-
 
-Literal enum ELocationFilteringModeEnum
+字面意义上的ELocationFilteringModeEnum枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELocationFilteringModeEnum
 
 ## Inputs
 
-Enum: ELocationFilteringModeEnum Enum.  
+枚举。ELocationFilteringModeEnum枚举。 
 
 ## Outputs
 
-Return Value: ELocationFilteringModeEnum Enum.
-
+返回值。ELocationFilteringModeEnum枚举。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinECreateObjec-
 
-Returns ECreateObjectTypeHint_MAX value
+返回ECreateObjectTypeHint_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ECreateObjectTypeHint_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

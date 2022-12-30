@@ -1,6 +1,6 @@
 # SwitchonEButtonClickMethod
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EButtonClickMethod Enum.  
+选择。EButtonClickMethod Enum.  
 
 ## Outputs
 
-Down And Up: Exec.
+向下和向上：Exec.Ltd.
 
-Mouse Down: Exec.
+鼠标向下：Exec.
 
-Mouse Up: Exec.
+鼠标向上：Exec.
 
-Precise Click: Exec.
-
+精确点击。执行。

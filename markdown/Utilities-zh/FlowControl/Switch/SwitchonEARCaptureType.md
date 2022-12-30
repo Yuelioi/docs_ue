@@ -1,6 +1,6 @@
 # SwitchonEARCaptureType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARCaptureType Enum.  
+选择。EARCaptureType枚举。 
 
 ## Outputs
 
-Camera: Exec.
+相机。Exec.
 
 QRCode: Exec.
 
-Spatial Mapping: Exec.
+Spatial Mapping: 执行。
 
-Scene Understanding: Exec.
+场景理解: 执行。
 
-Hand Mesh: Exec.
-
+手部网格。执行。

@@ -1,6 +1,6 @@
 # LiteralenumEObjectTypeQuery
 
-Literal enum EObjectTypeQuery
+字面意义上的EObjectTypeQuery枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EObjectTypeQuery
 
 ## Inputs
 
-Enum: EObjectTypeQuery Enum.  
+枚举。EObjectTypeQuery 枚举。 
 
 ## Outputs
 
-Return Value: EObjectTypeQuery Enum.
-
+返回值。EObjectTypeQuery Enum.

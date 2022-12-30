@@ -1,6 +1,6 @@
 # BytetoEnumEReplaceAssetPolicy
 
-Byte to Enum EReplaceAssetPolicy
+字节到枚举EReplaceAssetPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EReplaceAssetPolicy
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EReplaceAssetPolicy Enum.
-
+返回值。EReplaceAssetPolicy Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEScrollDirection
 
-Byte to Enum EScrollDirection
+字节到枚举EScrollDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EScrollDirection
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EScrollDirection Enum.
-
+返回值。EScrollDirection Enum。

@@ -1,8 +1,8 @@
 # Mid
 
-Returns the substring from Start position for Count characters.
+返回从Start位置开始的计数字符的子串。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source String: String.
+源字符串。字符串。
 
-Start: Integer.
+开始。整数。
 
-Count: Integer.  
+计数。整数。 
 
 ## Outputs
 
-Return Value: String. Returns the substring from Start position for Count characters..
-
+返回值。字符串。返回从Start位置到Count字符的子串。

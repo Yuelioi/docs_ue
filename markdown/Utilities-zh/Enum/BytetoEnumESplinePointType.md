@@ -8,9 +8,8 @@ Byte to Enum ESplinePointType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESplinePointType Enum.
-
+返回值。ESplinePointType Enum。

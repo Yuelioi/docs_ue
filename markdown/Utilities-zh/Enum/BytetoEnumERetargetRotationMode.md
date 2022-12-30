@@ -1,6 +1,6 @@
 # BytetoEnumERetargetRotationMode
 
-Byte to Enum ERetargetRotationMode
+字节到枚举ERetargetRotationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERetargetRotationMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERetargetRotationMode Enum.
-
+返回值。ERetargetRotationMode Enum。

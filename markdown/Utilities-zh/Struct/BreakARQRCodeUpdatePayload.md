@@ -1,6 +1,6 @@
 # BreakARQRCodeUpdatePayload
 
-Adds a node that breaks a 'ARQRCodeUpdatePayload' into its member fields
+添加一个节点，将'ARQRCodeUpdatePayload'分解到其成员字段中
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'ARQRCodeUpdatePayload' into its member fields
 
 ## Inputs
 
-ARQRCode Update Payload: ARQRCode Update Payload Structure (by ref).  
+ARQRCode Update Payload。ARQRCode Update Payload结构（通过引用）。 
 
 ## Outputs
 
-Session Payload: ARSession Payload Structure. Session Payload.
+Session Payload: ARSession Payload结构。Session Payload: ARQRCode Update Payload Structure (by ref).
 
-World Transform: Transform. World Transform.
+世界转换。变换。World Transform: 世界转换。
 
-Extents: Vector. Extents.
+Extents: 矢量。Extents.
 
-QRCode: String. QRCode.
-
+QRCode: 字符串。QRCode.

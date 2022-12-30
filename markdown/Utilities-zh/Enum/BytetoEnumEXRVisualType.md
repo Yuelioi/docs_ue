@@ -1,6 +1,6 @@
 # BytetoEnumEXRVisualType
 
-Byte to Enum EXRVisualType
+字节到枚举EXRVisualType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EXRVisualType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EXRVisualType Enum.
-
+返回值。EXRVisualType Enum。

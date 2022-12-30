@@ -1,6 +1,6 @@
 # BreakCreateProxyMeshActorOptions
 
-Adds a node that breaks a 'CreateProxyMeshActorOptions' into its member fields
+添加一个节点，将'CreateProxyMeshActorOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'CreateProxyMeshActorOptions' into its member fields
 
 ## Inputs
 
-Create Proxy Mesh Actor Options: Create Proxy Mesh Actor Options Structure (by ref).  
+Create Proxy Mesh Actor Options（创建代理网格演员选项）。创建代理网格演员选项结构（通过引用）。 
 
 ## Outputs
 
-Spawn Merged Actor: Boolean. Spawn Merged Actor:. Spawn the new merged actors.
+Spawn Merged Actor（产生合并的角色）。布尔值。Spawn Merged Actor:。生成新的合并后的演员。
 
-Base Package Name: String. Base Package Name:. The package path you want to save to. ie: /Game/MyFolder.
+基础包名称。字符串。基础包名称：。你想保存的包的路径。即：/Game/MyFolder。
 
-Mesh Proxy Settings: Mesh Proxy Settings Structure. Mesh Proxy Settings.
+网格代理设置。网格代理设置结构。网格代理设置。
 
-Destroy Source Actors: Boolean. Destroy Source Actors:. Destroy the provided Actors after the operation..
+Destroy Source Actors（销毁源角色）。布尔值。Destroy Source Actors：。在操作后销毁所提供的角色。
 
-New Actor Label: String. New Actor Label:. Name of the new spawned Actor to replace the provided Actors..
+New Actor Label（新演员标签）。字符串。新演员标签：。生成的新演员的名称，以取代提供的演员。
 
-Rename Components From Source: Boolean. Rename Components from Source:. Rename StaticMeshComponents based on source Actor's name..
-
+Rename Components From Source: 布尔值。从源头重命名组件：。根据源角色的名称重命名静态网格组件。

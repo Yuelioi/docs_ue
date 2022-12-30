@@ -1,6 +1,6 @@
 # BreakChaosRemovalEventData
 
-Adds a node that breaks a 'ChaosRemovalEventData' into its member fields
+添加一个节点，将'ChaosRemovalEventData'分解到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ChaosRemovalEventData' into its member fields
 
 ## Inputs
 
-Chaos Removal Event Data: Chaos Removal Event Data Structure (by ref).  
+Chaos Removal Event Data。混沌清除事件数据结构（通过引用）。 
 
 ## Outputs
 
-Location: Vector. Location:. Current removal location..
+位置。向量。位置：。当前的移除位置。
 
-Mass: Float (single-precision). Mass:. The mass of the removal..
+质量。Float（单精度）。质量:. 移除物的质量。
 
-Particle Index: Integer. Particle Index:. The particle index of the removal..
-
+颗粒指数。整数。粒子指数：。清除物的颗粒指数。

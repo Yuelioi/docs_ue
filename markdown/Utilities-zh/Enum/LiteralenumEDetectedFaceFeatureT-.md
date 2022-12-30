@@ -1,6 +1,6 @@
 # LiteralenumEDetectedFaceFeatureT-
 
-Literal enum EDetectedFaceFeatureType
+字面意义上的枚举：EDetectedFaceFeatureType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDetectedFaceFeatureType
 
 ## Inputs
 
-Enum: EDetectedFaceFeatureType Enum.  
+枚举。EDetectedFaceFeatureType Enum.  
 
 ## Outputs
 
-Return Value: EDetectedFaceFeatureType Enum.
-
+返回值。EDetectedFaceFeatureType Enum。

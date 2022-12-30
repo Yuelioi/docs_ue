@@ -1,6 +1,6 @@
 # SwitchonEBuildHierarchyMethod
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EBuildHierarchyMethod Enum.  
+选择。EBuildHierarchyMethod Enum.  
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Simplified: Exec.
+简化。执行。
 
-Unfiltered: Exec.
-
+未经过滤的。Exec.

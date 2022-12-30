@@ -1,6 +1,6 @@
 # BytetoEnumESourceEffectFilterCir-
 
-Byte to Enum ESourceEffectFilterCircuit
+字节到枚举 ESourceEffectFilterCircuit
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESourceEffectFilterCircuit
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESourceEffectFilterCircuit Enum.
-
+返回值。ESourceEffectFilterCircuit Enum。

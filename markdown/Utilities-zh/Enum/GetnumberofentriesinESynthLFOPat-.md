@@ -1,6 +1,6 @@
 # GetnumberofentriesinESynthLFOPat-
 
-Returns ESynthLFOPatchType_MAX value
+返回ESynthLFOPatchType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESynthLFOPatchType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

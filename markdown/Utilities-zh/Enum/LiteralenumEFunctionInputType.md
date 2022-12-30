@@ -1,6 +1,6 @@
 # LiteralenumEFunctionInputType
 
-Literal enum EFunctionInputType
+字面意义上的EFunctionInputType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFunctionInputType
 
 ## Inputs
 
-Enum: EFunctionInputType Enum.  
+枚举。EFunctionInputType Enum.  
 
 ## Outputs
 
-Return Value: EFunctionInputType Enum.
-
+返回值。EFunctionInputType Enum。

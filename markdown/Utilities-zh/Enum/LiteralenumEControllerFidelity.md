@@ -1,6 +1,6 @@
 # LiteralenumEControllerFidelity
 
-Literal enum EControllerFidelity
+EControllerFidelity枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EControllerFidelity
 
 ## Inputs
 
-Enum: EControllerFidelity Enum.  
+枚举。EControllerFidelity Enum.  
 
 ## Outputs
 
-Return Value: EControllerFidelity Enum.
-
+返回值。EControllerFidelity Enum。

@@ -1,6 +1,6 @@
 # LiteralenumELocationZToSpawnEnum
 
-Literal enum ELocationZToSpawnEnum
+文字枚举 ELocationZToSpawnEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELocationZToSpawnEnum
 
 ## Inputs
 
-Enum: ELocationZToSpawnEnum Enum.  
+枚举。ELocationZToSpawnEnum枚举。 
 
 ## Outputs
 
-Return Value: ELocationZToSpawnEnum Enum.
-
+返回值。ELocationZToSpawnEnum枚举。

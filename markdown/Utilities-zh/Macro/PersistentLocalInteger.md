@@ -1,6 +1,6 @@
 # PersistentLocalInteger
 
-Local temporary Integer variable, which is serialized in save games
+本地临时整数变量，在拯救游戏中被序列化
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Integer variable, which is serialized in save games
 
 ## Outputs
 
-Variable: Integer.
-
+变量。整数。

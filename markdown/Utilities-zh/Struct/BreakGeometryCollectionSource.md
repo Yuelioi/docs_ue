@@ -1,20 +1,19 @@
 # BreakGeometryCollectionSource
 
-Adds a node that breaks a 'GeometryCollectionSource' into its member fields
+添加一个节点，将 "GeometryCollectionSource "分解成其成员字段。
 
 ## 图示
 
 ![]($-20221218-14364642.png)
 
-## Inputs
+## 输入
 
-Geometry Collection Source: Geometry Collection Source Structure (by ref).  
+Geometry Collection Source: Geometry Collection Source结构（通过引用）。 
 
 ## Outputs
 
-Source Geometry Object: Soft Object Path Structure. Source Geometry Object.
+源几何体对象。软对象路径结构。源几何体对象。
 
-Local Transform: Transform. Local Transform.
+本地变换。变换。Local Transform（局部变换）。
 
-Source Material: Array of Material Interface Object References. Source Material.
-
+源材料。材料界面对象引用数组。Source Material（源材料）。

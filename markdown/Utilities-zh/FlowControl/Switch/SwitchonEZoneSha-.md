@@ -1,6 +1,6 @@
 # SwitchonEZoneSha-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EZoneShapeLaneConnectionRestrictions Enum.  
+选择。EZoneShapeLaneConnectionRestrictions枚举。 
 
 ## Outputs
 
-No Left Turn: Exec.
+没有左转。执行。
 
-No Right Turn: Exec.
+禁止右转。执行。
 
-One Lane Per Destination: Exec.
+每个目的地只有一条车道。执行。
 
-Merge Lanes To One Destination Lane: Exec.
-
+合并车道到一个目的地车道。Exec.

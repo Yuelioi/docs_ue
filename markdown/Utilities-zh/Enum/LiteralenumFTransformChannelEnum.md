@@ -1,6 +1,6 @@
 # LiteralenumFTransformChannelEnum
 
-Literal enum FTransformChannelEnum
+字面意义上的枚举：FT TransformChannelEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum FTransformChannelEnum
 
 ## Inputs
 
-Enum: FTransformChannelEnum Enum.  
+枚举。FTransformChannelEnum枚举。 
 
 ## Outputs
 
-Return Value: FTransformChannelEnum Enum.
-
+返回值。FTransformChannelEnum Enum.

@@ -1,6 +1,6 @@
 # BreakEditableTextStyle
 
-Adds a node that breaks a 'EditableTextStyle' into its member fields
+添加一个节点，将'EditableTextStyle'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'EditableTextStyle' into its member fields
 
 ## Inputs
 
-Editable Text Style: Editable Text Style Structure (by ref).  
+可编辑的文本样式。可编辑文本样式结构（通过引用）。 
 
 ## Outputs
 
-Font: Slate Font Info Structure. Font:. Font family and size to be used when displaying this text..
+字体。石板字体信息结构。字体：。显示此文本时要使用的字体家族和大小。
 
-Color And Opacity: Slate Color Structure. Color and Opacity:. The color and opacity of this text.
+Color And Opacity: Slate Color Structure. 颜色和不透明度：。此文本的颜色和不透明度。
 
-Background Image Selected: Slate Brush Structure. Background Image Selected:. Background image for the selected text.
+选定的背景图像。石板刷结构。选定的背景图像：。所选文本的背景图像。
 
-Background Image Composing: Slate Brush Structure. Background Image Composing:. Background image for the selected text.
+背景图像组成。石板刷结构。背景图像合成：. 所选文本的背景图像。
 
-Caret Image: Slate Brush Structure. Caret Image:. Image brush used for the caret.
-
+符号图像。石板刷结构。关健字图像：。用于照管的图像刷子。

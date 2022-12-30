@@ -1,6 +1,6 @@
 # GetnumberofentriesinMovieScene3D-
 
-Returns MovieScene3DPathSection_Axis_MAX value
+返回MovieScene3DPathSection_Axis_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns MovieScene3DPathSection_Axis_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -8,9 +8,8 @@ Byte to Enum ESubmixEffectDynamicsPeakMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESubmixEffectDynamicsPeakMode Enum.
-
+返回值。ESubmixEffectDynamicsPeakMode Enum。

@@ -1,6 +1,6 @@
 # LiteralenumETargetUsageFlags
 
-Literal enum ETargetUsageFlags
+字面意义上的枚举 ETargetUsageFlags
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETargetUsageFlags
 
 ## Inputs
 
-Enum: ETargetUsageFlags Enum.  
+枚举。ETargetUsageFlags Enum.  
 
 ## Outputs
 
-Return Value: ETargetUsageFlags Enum.
-
+返回值。ETargetUsageFlags Enum.

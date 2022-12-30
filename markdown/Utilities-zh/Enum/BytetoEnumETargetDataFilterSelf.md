@@ -1,6 +1,6 @@
 # BytetoEnumETargetDataFilterSelf
 
-Byte to Enum ETargetDataFilterSelf
+字节到枚举 ETargetDataFilterSelf
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETargetDataFilterSelf
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETargetDataFilterSelf Enum.
-
+返回值。ETargetDataFilterSelf Enum。

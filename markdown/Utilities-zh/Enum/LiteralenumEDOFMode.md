@@ -1,6 +1,6 @@
 # LiteralenumEDOFMode
 
-Literal enum EDOFMode
+字面意义上的EDOFMode枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDOFMode
 
 ## Inputs
 
-Enum: EDOFMode Enum.  
+枚举。EDOFMode Enum.  
 
 ## Outputs
 
-Return Value: EDOFMode Enum.
-
+返回值。EDOFMode Enum。

@@ -1,6 +1,6 @@
 # BreakControlRigComponentMappedCu-
 
-Adds a node that breaks a 'ControlRigComponentMappedCurve' into its member fields
+添加一个节点，将'ControlRigComponentMappedCurve'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ControlRigComponentMappedCurve' into its member field
 
 ## Inputs
 
-Control Rig Component Mapped Curve: Mapped Curve Structure (by ref).  
+控制钻机组件映射的曲线。映射的曲线结构（通过引用）。 
 
 ## Outputs
 
-Source: Name. Source.
+来源。名称。来源：名称。
 
-Target: Name. Target.
-
+目标。名称。目标。

@@ -1,6 +1,6 @@
 # LiteralenumEARSessionType
 
-Literal enum EARSessionType
+字面意义上的EARSessionType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARSessionType
 
 ## Inputs
 
-Enum: EARSessionType Enum.  
+枚举。EARSessionType Enum.  
 
 ## Outputs
 
-Return Value: EARSessionType Enum.
-
+返回值。EARSessionType Enum.

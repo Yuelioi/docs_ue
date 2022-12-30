@@ -1,6 +1,6 @@
 # SwitchonEGameplayTargetingConfir-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGameplayTargetingConfirmation Enum.  
+选择。EGameplayTargetingConfirmation枚举。 
 
 ## Outputs
 
-Instant: Exec.
+即时：Exec.
 
 User Confirmed: Exec.
 
-Custom: Exec.
+自定义。Exec.
 
-Custom Multi: Exec.
-
+自定多人：执行。

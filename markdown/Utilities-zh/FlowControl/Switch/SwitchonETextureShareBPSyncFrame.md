@@ -1,6 +1,6 @@
 # SwitchonETextureShareBPSyncFrame
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETextureShareBPSyncFrame Enum.  
+选择。ETextureShareBPSyncFrame枚举。 
 
 ## Outputs
 
-Default: Exec.
+默认值。执行。
 
-None: Exec.
+无。执行。
 
-Frame Sync: Exec.
-
+帧同步。执行。

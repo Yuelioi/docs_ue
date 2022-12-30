@@ -8,9 +8,8 @@ Byte to Enum ESourceEffectDynamicsPeakMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESourceEffectDynamicsPeakMode Enum.
-
+返回值。ESourceEffectDynamicsPeakMode Enum。

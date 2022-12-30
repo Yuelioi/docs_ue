@@ -1,8 +1,8 @@
 # DelayUntilNextTick
 
-Perform a latent action with a delay of one tick. Calling again while it is counting down will be ignored.
+执行一个潜伏的动作，延迟一个tick。在其倒计时时再次调用将被忽略。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.  
+在。执行。 
 
 ## Outputs
 
-Completed: Exec.
-
+已完成。执行中

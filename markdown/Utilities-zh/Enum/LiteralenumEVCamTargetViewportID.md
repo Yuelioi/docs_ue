@@ -1,6 +1,6 @@
 # LiteralenumEVCamTargetViewportID
 
-Literal enum EVCamTargetViewportID
+枚举 EVCamTargetViewportID
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EVCamTargetViewportID
 
 ## Inputs
 
-Enum: EVCamTargetViewportID Enum.  
+枚举。EVCamTargetViewportID Enum.  
 
 ## Outputs
 
-Return Value: EVCamTargetViewportID Enum.
-
+返回值。EVCamTargetViewportID Enum.

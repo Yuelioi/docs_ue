@@ -1,6 +1,6 @@
 # SwitchonEGooglePADStorageMethod
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGooglePADStorageMethod Enum.  
+选择。EGooglePADStorageMethod Enum。 
 
 ## Outputs
 
-Asset Pack STORAGE FILES: Exec.
+资产包存储文件：执行。
 
-Asset Pack STORAGE APK: Exec.
+资产包存储APK: Exec.
 
 Asset Pack STORAGE UNKNOWN: Exec.
 
-Asset Pack STORAGE NOT INSTALLED: Exec.
-
+资产包存储未安装。Exec.

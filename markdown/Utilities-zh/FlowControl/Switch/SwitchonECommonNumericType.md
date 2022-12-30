@@ -1,6 +1,6 @@
 # SwitchonECommonNumericType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ECommonNumericType Enum.  
+选择。ECommonNumericType枚举。 
 
 ## Outputs
 
-Number: Exec.
+数值。Exec.
 
-Percentage: Exec.
+百分比。Exec.
 
-Seconds: Exec.
+Seconds（秒）。执行率
 
-Distance: Exec.
-
+距离。执行率

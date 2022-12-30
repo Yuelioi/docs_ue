@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGameFeature-
 
-Returns EGameFeatureTargetState_MAX value
+返回EGameFeatureTargetState_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGameFeatureTargetState_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

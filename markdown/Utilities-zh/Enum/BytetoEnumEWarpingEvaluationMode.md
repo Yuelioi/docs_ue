@@ -1,6 +1,6 @@
 # BytetoEnumEWarpingEvaluationMode
 
-Byte to Enum EWarpingEvaluationMode
+字节到枚举 EWarpingEvaluationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EWarpingEvaluationMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWarpingEvaluationMode Enum.
-
+返回值。EWarpingEvaluationMode Enum。

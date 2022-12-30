@@ -1,6 +1,6 @@
 # LiteralenumESynthModEnvBiasPatch
 
-Literal enum ESynthModEnvBiasPatch
+字面意义上的枚举ESynthModEnvBiasPatch
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESynthModEnvBiasPatch
 
 ## Inputs
 
-Enum: ESynthModEnvBiasPatch Enum.  
+枚举。ESynthModEnvBiasPatch枚举。 
 
 ## Outputs
 
-Return Value: ESynthModEnvBiasPatch Enum.
-
+返回值。ESynthModEnvBiasPatch Enum.

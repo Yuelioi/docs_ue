@@ -1,6 +1,6 @@
 # BytetoEnumEGoogleARCoreInstallRe-
 
-Byte to Enum EGoogleARCoreInstallRequestResult
+字节到枚举 EGoogleARCoreInstallRequestResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGoogleARCoreInstallRequestResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreInstallRequestResult Enum.
-
+返回值。EGoogleARCoreInstallRequestResult Enum。

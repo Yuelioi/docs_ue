@@ -1,6 +1,6 @@
 # BreakChaosCollisionEventRequestS-
 
-Adds a node that breaks a 'ChaosCollisionEventRequestSettings' into its member fields
+添加一个打破'ChaosCollisionEventRequestSettings'的节点到其成员字段中
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'ChaosCollisionEventRequestSettings' into its member f
 
 ## Inputs
 
-Chaos Collision Event Request Settings: Chaos Collision Event Request Settings Structure (by ref).  
+Chaos Collision Event Request Settings。混沌碰撞事件请求设置结构（通过引用）。 
 
 ## Outputs
 
-Max Number Results: Integer. Max Number Results:. The maximum number of results to return..
+Max Number Results: 整数。最大结果数：。要返回的最大结果数。
 
-Min Mass: Float (single-precision). Min Mass:. The minimum mass threshold for the results (compared with min of particle 1 mass and particle 2 mass)..
+最小质量。Float（单精度）。最小质量：。结果的最小质量阈值（与颗粒1质量和颗粒2质量的最小值相比）。
 
-Min Speed: Float (single-precision). Min Speed:. The min speed threshold for the results (compared with min of particle 1 speed and particle 2 speed)..
+最小速度。浮点（单精度）。最小速度：。结果的最小速度阈值（与粒子1的速度和粒子2的速度的最小值相比较）。
 
-Min Impulse: Float (single-precision). Min Impulse:. The minimum impulse threshold for the results..
+最小冲力：浮动（单精度）。最小冲力：。结果的最小脉冲阈值。
 
-Max Distance: Float (single-precision). Max Distance:. The maximum distance threshold for the results..
+最大距离。Float（单精度）。最大距离：。结果的最大距离阈值。
 
-Sort Method: EChaosCollisionSortMethod Enum. Sort Method:. The method used to sort the collision events..
-
+排序方法。EChaosCollisionSortMethod Enum。排序方法：。用来对碰撞事件进行排序的方法。

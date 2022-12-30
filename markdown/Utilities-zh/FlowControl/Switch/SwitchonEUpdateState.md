@@ -1,6 +1,6 @@
 # SwitchonEUpdateState
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,25 +8,24 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EUpdateState Enum.  
+选择。EUpdateState Enum.  
 
 ## Outputs
 
-Update Idle: Exec.
+更新 闲置。Exec.
 
-Update Pending: Exec.
+更新待定。执行中。
 
-Checking For Patch: Exec.
+Checking For Patch: 执行。
 
-Detecting Platform Environment: Exec.
+检测平台环境。Exec.
 
-Checking For Hotfix: Exec.
+检查热修复。执行。
 
-Waiting On Initial Load: Exec.
+等待初始加载。执行。
 
-Initial Load Complete: Exec.
+初始加载完成。执行。
 
-Update Complete: Exec.
-
+更新完成。执行。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinETakeRecorde-
 
-Returns ETakeRecorderActorRecordType_MAX value
+返回ETakeRecorderActorRecordType_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ETakeRecorderActorRecordType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

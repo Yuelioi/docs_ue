@@ -1,6 +1,6 @@
 # LiteralenumETextJustify
 
-Literal enum ETextJustify
+字面意义的枚举 ETextJustify
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETextJustify
 
 ## Inputs
 
-Enum: ETextJustify Enum.  
+枚举。ETextJustify Enum.  
 
 ## Outputs
 
-Return Value: ETextJustify Enum.
-
+返回值。ETextJustify Enum.

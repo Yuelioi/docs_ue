@@ -1,6 +1,6 @@
 # LiteralenumESequenceEvalReinit
 
-Literal enum ESequenceEvalReinit
+字面意义上的枚举 ESequenceEvalReinit
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESequenceEvalReinit
 
 ## Inputs
 
-Enum: ESequenceEvalReinit Enum.  
+枚举。ESequenceEvalReinit枚举。 
 
 ## Outputs
 
-Return Value: ESequenceEvalReinit Enum.
-
+返回值。ESequenceEvalReinit Enum。

@@ -1,6 +1,6 @@
 # SwitchonEDisplayClusterNodeRole
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDisplayClusterNodeRole Enum.  
+选择。EDisplayClusterNodeRole Enum.  
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Primary: Exec.
+Primary（主要）：Exec.
 
-Secondary: Exec.
+二级：执行。
 
-Backup: Exec.
-
+备份：Exec: Exec.

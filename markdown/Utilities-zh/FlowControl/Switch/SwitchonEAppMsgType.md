@@ -1,6 +1,6 @@
 # SwitchonEAppMsgType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,25 +8,24 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAppMsgType Enum.  
+选择。EAppMsgType枚举。 
 
 ## Outputs
 
-Ok: Exec.
+OK：执行。
 
-Yes No: Exec.
+Yes No: 执行。
 
-Ok Cancel: Exec.
+OK 取消。Exec.
 
-Yes No Cancel: Exec.
+是 否 取消。执行。
 
-Cancel Retry Continue: Exec.
+取消重试 继续。继续：执行。
 
-Yes No Yes All No All: Exec.
+是 否 是 全部 否 全部。执行：是
 
-Yes No Yes All No All Cancel: Exec.
+是 否 是 全部 否 全部 取消。取消：执行。
 
-Yes No Yes All: Exec.
-
+是 否 是 所有。取消：执行。

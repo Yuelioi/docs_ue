@@ -1,6 +1,6 @@
 # SwitchonEARDepthQuality
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARDepthQuality Enum.  
+选择。EARDepthQuality Enum.  
 
 ## Outputs
 
-Unkown: Exec.
+不知道。执行。
 
-Low: Exec.
+低：执行。
 
-High: Exec.
-
+高：执行。

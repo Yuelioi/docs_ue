@@ -1,6 +1,6 @@
 # BytetoEnumEPropertyAccessChangeN-
 
-Byte to Enum EPropertyAccessChangeNotifyMode
+字节到枚举 EPropertyAccessChangeNotifyMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EPropertyAccessChangeNotifyMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EPropertyAccessChangeNotifyMode Enum.
-
+返回值。EPropertyAccessChangeNotifyMode Enum。

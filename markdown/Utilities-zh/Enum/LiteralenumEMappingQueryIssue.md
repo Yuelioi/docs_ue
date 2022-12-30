@@ -1,6 +1,6 @@
 # LiteralenumEMappingQueryIssue
 
-Literal enum EMappingQueryIssue
+字面意义上的枚举EMappingQueryIssue
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMappingQueryIssue
 
 ## Inputs
 
-Enum: EMappingQueryIssue Enum.  
+枚举。EMappingQueryIssue Enum.  
 
 ## Outputs
 
-Return Value: EMappingQueryIssue Enum.
-
+返回值。EMappingQueryIssue Enum.

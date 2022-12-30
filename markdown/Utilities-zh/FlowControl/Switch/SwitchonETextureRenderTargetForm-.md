@@ -1,6 +1,6 @@
 # SwitchonETextureRenderTargetForm-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,13 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETextureRenderTargetFormat Enum.  
+选择。ETextureRenderTargetFormat枚举。 
 
 ## Outputs
 
-RTF R8: Exec.
+RTF R8：执行。
 
 RTF RG8: Exec.
 
@@ -22,17 +22,16 @@ RTF RGBA8: Exec.
 
 RTF RGBA8 SRGB: Exec.
 
-RTF R16f: Exec.
+RTF R16f: 执行。
 
-RTF RG16f: Exec.
+RTF RG16f: 执行。
 
 RTF RGBA16f: Exec.
 
-RTF R32f: Exec.
+RTF R32f: 执行。
 
-RTF RG32f: Exec.
+R32f.RG32f.RG32f.RTF 执行。
 
 RTF RGBA32f: Exec.
 
 RTF RGB10A2: Exec.
-

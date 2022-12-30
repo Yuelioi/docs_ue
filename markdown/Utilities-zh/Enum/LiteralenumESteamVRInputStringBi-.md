@@ -1,6 +1,6 @@
 # LiteralenumESteamVRInputStringBi-
 
-Literal enum ESteamVRInputStringBits
+字面意义上的枚举ESteamVRInputStringBits
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESteamVRInputStringBits
 
 ## Inputs
 
-Enum: ESteamVRInputStringBits Enum.  
+枚举。ESteamVRInputStringBits枚举。 
 
 ## Outputs
 
-Return Value: ESteamVRInputStringBits Enum.
-
+返回值。ESteamVRInputStringBits Enum。

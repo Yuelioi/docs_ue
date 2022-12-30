@@ -1,6 +1,6 @@
 # LiteralenumERichCurveInterpMode
 
-Literal enum ERichCurveInterpMode
+字面上的枚举ERichCurveInterpMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERichCurveInterpMode
 
 ## Inputs
 
-Enum: ERichCurveInterpMode Enum.  
+枚举。ERichCurveInterpMode枚举。 
 
 ## Outputs
 
-Return Value: ERichCurveInterpMode Enum.
-
+返回值。ERichCurveInterpMode Enum.

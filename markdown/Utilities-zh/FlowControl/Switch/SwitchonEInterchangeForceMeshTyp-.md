@@ -1,6 +1,6 @@
 # SwitchonEInterchangeForceMeshTyp-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EInterchangeForceMeshType Enum.  
+选择。EInterchangeForceMeshType枚举。 
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Static Mesh: Exec.
+静态网格。Exec.
 
-Skeletal Mesh: Exec.
-
+骨架网状结构。执行。

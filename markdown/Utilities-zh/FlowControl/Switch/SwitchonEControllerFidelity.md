@@ -1,6 +1,6 @@
 # SwitchonEControllerFidelity
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EControllerFidelity Enum.  
+选择。EControllerFidelity Enum.  
 
 ## Outputs
 
-Controller Fidelity Estimated: Exec.
+控制器保真度估计。Exec.
 
 Controller Fidelity Full: Exec.
 
-Controller Fidelity Partial: Exec.
-
+控制器保真度部分。Exec.

@@ -1,6 +1,6 @@
 # SwitchonEFollicleMaskChannel
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EFollicleMaskChannel Enum.  
+选择。EFollicleMaskChannel Enum.  
 
 ## Outputs
 
-R: Exec.
+R：执行。
 
-G: Exec.
+G：执行。
 
-B: Exec.
+B：执行。
 
-A: Exec.
-
+A: 执行。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinESubmixFilte-
 
-Returns ESubmixFilterAlgorithm_MAX value
+返回ESubmixFilterAlgorithm_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESubmixFilterAlgorithm_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

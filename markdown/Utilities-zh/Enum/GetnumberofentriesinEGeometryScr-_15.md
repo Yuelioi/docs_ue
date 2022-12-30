@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGeometryScr-_15
 
-Returns EGeometryScriptUVIslandSource_MAX value
+返回 EGeometryScriptUVIslandSource_MAX 的值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGeometryScriptUVIslandSource_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

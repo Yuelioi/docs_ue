@@ -1,6 +1,6 @@
 # BreakARSkeletonDefinition
 
-Adds a node that breaks a 'ARSkeletonDefinition' into its member fields
+添加一个节点，该节点将'ARSkeletonDefinition'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ARSkeletonDefinition' into its member fields
 
 ## Inputs
 
-ARSkeleton Definition: ARSkeleton Definition Structure (by ref).  
+ARSkeleton定义。ARSkeleton定义结构（通过引用）。 
 
 ## Outputs
 
-Num Joints: Integer. Num Joints:. How many joints this skeleton has.
+Num Joints: 整数。Num Joints:. 这个骨架有多少个关节。
 
-Joint Names: Array of Names. Joint Names:. The name of each joint in this skeleton.
+关节名称。名称的数组。关节名称：。这个骨架中每个关节的名称。
 
-Parent Indices: Array of Integers. Parent Indices:. The parent index of each joint in this skeleton.
-
+父系索引。整数的数组。父关节索引：。此骨架中每个关节的父索引。

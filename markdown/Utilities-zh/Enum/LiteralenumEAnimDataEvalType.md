@@ -1,6 +1,6 @@
 # LiteralenumEAnimDataEvalType
 
-Literal enum EAnimDataEvalType
+枚举 EAnimDataEvalType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAnimDataEvalType
 
 ## Inputs
 
-Enum: EAnimDataEvalType Enum.  
+枚举。EAnimDataEvalType Enum.  
 
 ## Outputs
 
-Return Value: EAnimDataEvalType Enum.
-
+返回值。EAnimDataEvalType Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEQualitySettings
 
-Byte to Enum EQualitySettings
+字节到枚举EQualitySettings
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EQualitySettings
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EQualitySettings Enum.
-
+返回值。EQualitySettings Enum。

@@ -1,6 +1,6 @@
 # BreakDisplayClus-_15
 
-Adds a node that breaks a 'DisplayClusterConfigurationICVFX_VisibilityList' into its member fields
+添加一个打破'DisplayClusterConfigurationICVFX_VisibilityList'的节点到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DisplayClusterConfigurationICVFX_VisibilityList' into
 
 ## Inputs
 
-Display Cluster Configuration ICVFX Visibility List: Display Cluster Configuration ICVFX Visibility List Structure (by ref).  
+显示群集配置ICVFX可见性列表。显示集群配置ICVFX可见性列表结构（按参考）。 
 
 ## Outputs
 
-Layers: Array of Actor Layer Structures. Actor Layers:. {LayersTooltip}.
+层。演员层结构的数组。演员层：。{LayersTooltip}.
 
-Actors: Array of Actor Soft Object References. Actors:. {ActorsTooltip}.
+Actors（演员）。演员软对象引用数组。Actors:. {ActorsTooltip}.
 
-Root Actor Component Names: Array of Strings. Root Actor Component Names:. Reference to RootActor components by names.
-
+根部演员组件名称。字符串数组。Root Actor Component Names:. 通过名称引用根演员组件。

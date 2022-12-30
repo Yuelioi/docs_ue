@@ -1,6 +1,6 @@
 # LiteralenumELidarPointCloudSprit-_1
 
-Literal enum ELidarPointCloudSpriteShape
+枚举 ELidarPointCloudSpriteShape
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELidarPointCloudSpriteShape
 
 ## Inputs
 
-Enum: ELidarPointCloudSpriteShape Enum.  
+枚举。ELidarPointCloudSpriteShape Enum.  
 
 ## Outputs
 
-Return Value: ELidarPointCloudSpriteShape Enum.
-
+返回值。ELidarPointCloudSpriteShape Enum。

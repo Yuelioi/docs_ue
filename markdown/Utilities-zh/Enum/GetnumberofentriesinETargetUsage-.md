@@ -1,6 +1,6 @@
 # GetnumberofentriesinETargetUsage-
 
-Returns ETargetUsageFlags_MAX value
+返回ETargetUsageFlags_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ETargetUsageFlags_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

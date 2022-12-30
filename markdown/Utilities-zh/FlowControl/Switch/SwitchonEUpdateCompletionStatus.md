@@ -1,6 +1,6 @@
 # SwitchonEUpdateCompletionStatus
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,27 +8,26 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EUpdateCompletionStatus Enum.  
+选择。EUpdateCompletionStatus枚举。 
 
 ## Outputs
 
-Update Unknown: Exec.
+更新未知。Exec.
 
-Update Success: Exec.
+更新成功。执行。
 
-Update Success No Change: Exec.
+更新成功 无变化。执行。
 
-Update Success Needs Reload: Exec.
+更新成功 需要重新加载。执行。
 
-Update Success Needs Relaunch: Exec.
+更新成功 需要重新启动。执行。
 
-Update Success Needs Patch: Exec.
+更新成功需要补丁。执行。
 
-Update Failure Patch Check: Exec.
+更新失败 补丁检查。执行。
 
-Update Failure Hotfix Check: Exec.
+更新失败 热修复检查。执行。
 
-Update Failure Not Logged In: Exec.
-
+更新失败 未登录。执行。

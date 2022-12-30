@@ -1,6 +1,6 @@
 # BytetoEnumEStreamingSourcePriori-
 
-Byte to Enum EStreamingSourcePriority
+字节到枚举 EStreamingSourcePriority
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EStreamingSourcePriority
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EStreamingSourcePriority Enum.
-
+返回值。EStreamingSourcePriority Enum.

@@ -1,6 +1,6 @@
 # LiteralenumEFFTSize
 
-Literal enum EFFTSize
+字面意义上的EFFTSize枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFFTSize
 
 ## Inputs
 
-Enum: EFFTSize Enum.  
+枚举。EFFTSize Enum.  
 
 ## Outputs
 
-Return Value: EFFTSize Enum.
-
+返回值。EFFTSize Enum.

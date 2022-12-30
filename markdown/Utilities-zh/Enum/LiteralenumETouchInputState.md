@@ -1,6 +1,6 @@
 # LiteralenumETouchInputState
 
-Literal enum ETouchInputState
+字面意义上的ETouchInputState枚举
 
 ## 图示
 
@@ -12,5 +12,4 @@ Enum: ETouchInputState Enum.
 
 ## Outputs
 
-Return Value: ETouchInputState Enum.
-
+返回值。ETouchInputState Enum.

@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGoogleARCor-_10
 
-Returns EGoogleARCoreTrackingState_MAX value
+返回 EGoogleARCoreTrackingState_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGoogleARCoreTrackingState_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # LiteralenumEGoogleARCoreInstallR-
 
-Literal enum EGoogleARCoreInstallRequestResult
+枚举 EGoogleARCoreInstallRequestResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGoogleARCoreInstallRequestResult
 
 ## Inputs
 
-Enum: EGoogleARCoreInstallRequestResult Enum.  
+枚举。EGoogleARCoreInstallRequestResult Enum。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreInstallRequestResult Enum.
-
+返回值。EGoogleARCoreInstallRequestResult Enum。

@@ -1,6 +1,6 @@
 # SwitchonEConstantQFFTSizeEnum
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,27 +8,26 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EConstantQFFTSizeEnum Enum.  
+选择。EConstantQFFTSizeEnum枚举。 
 
 ## Outputs
 
-Min: Exec.
+最小值。Exec.
 
 XXSmall: Exec.
 
-XSmall: Exec.
+XSmall: 执行。
 
 Small: Exec.
 
-Medium: Exec.
+中号 大号：Exec.
 
-Large: Exec.
+大号 大号：Exec.
 
-XLarge: Exec.
+XLarge: 大号：Exec.
 
-XXLarge: Exec.
+XXLarge: 大号：Exec.
 
-Max: Exec.
-
+最大号：Exec.

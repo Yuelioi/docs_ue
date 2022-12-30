@@ -1,6 +1,6 @@
 # SwitchonETravelFailure
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,33 +8,32 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETravelFailure Enum.  
+选择。ETravelFailure 枚举。 
 
 ## Outputs
 
-No Level: Exec.
+没有级别。Exec.
 
-Load Map Failure: Exec.
+加载地图失败。Exec.
 
-Invalid URL: Exec.
+无效的URL。Exec.
 
-Package Missing: Exec.
+包裹缺失。Exec.
 
-Package Version: Exec.
+包的版本。Exec.
 
-No Download: Exec.
+没有下载。终止
 
-Travel Failure: Exec.
+旅行失败。执行。
 
-Cheat Commands: Exec.
+欺骗命令。执行。
 
-Pending Net Game Create Failure: Exec.
+待定网游创建失败。执行。
 
-Cloud Save Failure: Exec.
+云保存失败。执行。
 
-Server Travel Failure: Exec.
+服务器旅行失败。Exec.
 
-Client Travel Failure: Exec.
-
+客户端旅行失败。Exec.

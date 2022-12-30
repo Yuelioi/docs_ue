@@ -1,6 +1,6 @@
 # LiteralenumEAREye
 
-Literal enum EAREye
+字面意义上的EAREye枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAREye
 
 ## Inputs
 
-Enum: EAREye Enum.  
+枚举。EAREye Enum.  
 
 ## Outputs
 
-Return Value: EAREye Enum.
-
+返回值。EAREye Enum.

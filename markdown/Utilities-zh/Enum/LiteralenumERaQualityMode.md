@@ -1,6 +1,6 @@
 # LiteralenumERaQualityMode
 
-Literal enum ERaQualityMode
+字面意义上的ERaQualityMode枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERaQualityMode
 
 ## Inputs
 
-Enum: ERaQualityMode Enum.  
+枚举。ERaQualityMode枚举。 
 
 ## Outputs
 
-Return Value: ERaQualityMode Enum.
-
+返回值。ERaQualityMode Enum。

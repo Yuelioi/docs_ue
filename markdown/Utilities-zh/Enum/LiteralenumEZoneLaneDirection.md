@@ -1,6 +1,6 @@
 # LiteralenumEZoneLaneDirection
 
-Literal enum EZoneLaneDirection
+字面意义上的EZoneLaneDirection枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EZoneLaneDirection
 
 ## Inputs
 
-Enum: EZoneLaneDirection Enum.  
+枚举。EZoneLaneDirection Enum.  
 
 ## Outputs
 
-Return Value: EZoneLaneDirection Enum.
-
+返回值。EZoneLaneDirection Enum。

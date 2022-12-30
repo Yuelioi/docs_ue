@@ -1,6 +1,6 @@
 # BreakCurvePayload
 
-Adds a node that breaks a 'CurvePayload' into its member fields
+添加一个节点，将'CurvePayload'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'CurvePayload' into its member fields
 
 ## Inputs
 
-Curve Payload: Curve Payload Structure (by ref).  
+曲线有效载荷。曲线载荷结构（通过引用）。 
 
 ## Outputs
 
-Identifier: Animation Curve Identifier Structure. Identifier:. Identifier of the curve.
-
+Identifier（标识符）。Animation Curve Identifier（动画曲线标识符）结构。Identifier:.标识符。曲线的标识符。

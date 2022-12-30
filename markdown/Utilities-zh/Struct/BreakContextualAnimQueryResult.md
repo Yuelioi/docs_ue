@@ -1,6 +1,6 @@
 # BreakContextualAnimQueryResult
 
-Adds a node that breaks a 'ContextualAnimQueryResult' into its member fields
+添加一个节点，将'ContextualAnimQueryResult'分解为其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'ContextualAnimQueryResult' into its member fields
 
 ## Inputs
 
-Contextual Anim Query Result: Contextual Anim Query Result Structure (by ref).  
+上下文动画查询结果。语境动画查询结果结构（通过引用）。 
 
 ## Outputs
 
-Animation: Anim Montage Weak object. Animation.
+动画。Anim Montage Weak object. Animation.
 
 Entry Transform: Transform. Entry Transform.
 
-Sync Transform: Transform. Sync Transform.
+Sync Transform: 变换。Sync Transform（同步变换）。
 
-Anim Start Time: Float (single-precision). Anim Start Time.
+动画开始时间: Float (single-precision). 动画开始时间.
 
-Data Index: Integer. Data Index.
-
+数据索引。整数。数据索引.

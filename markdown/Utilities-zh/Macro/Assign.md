@@ -1,6 +1,6 @@
 # Assign
 
-Assigns Value to Variable
+为变量赋值
 
 ## 图示
 
@@ -8,13 +8,12 @@ Assigns Value to Variable
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Variable: Wildcard.
+变量。通配符。
 
-Value: Wildcard.  
+值。通配符。 
 
 ## Outputs
 
-Out: Exec.
-
+输出。执行：执行。

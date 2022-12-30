@@ -1,6 +1,6 @@
 # LiteralenumEFunctionalTestLogHan-
 
-Literal enum EFunctionalTestLogHandling
+字面意义上的枚举 EFunctionalTestLogHandling
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFunctionalTestLogHandling
 
 ## Inputs
 
-Enum: EFunctionalTestLogHandling Enum.  
+枚举。EFunctionalTestLogHandling Enum.  
 
 ## Outputs
 
-Return Value: EFunctionalTestLogHandling Enum.
-
+返回值。EFunctionalTestLogHandling Enum.

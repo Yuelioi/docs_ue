@@ -1,6 +1,6 @@
 # LiteralenumESoundModulationLFOSh-
 
-Literal enum ESoundModulationLFOShape
+字面意义上的枚举：ESoundModulationLFOShape
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESoundModulationLFOShape
 
 ## Inputs
 
-Enum: ESoundModulationLFOShape Enum.  
+枚举。ESoundModulationLFOShape Enum.  
 
 ## Outputs
 
-Return Value: ESoundModulationLFOShape Enum.
-
+返回值。ESoundModulationLFOShape Enum。

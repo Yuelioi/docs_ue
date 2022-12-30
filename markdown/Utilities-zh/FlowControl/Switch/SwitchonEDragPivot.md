@@ -1,6 +1,6 @@
 # SwitchonEDragPivot
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,29 +8,28 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDragPivot Enum.  
+选择。EDragPivot Enum.  
 
 ## Outputs
 
-Mouse Down: Exec.
+鼠标向下：Exec.Pivot
 
-Top Left: Exec.
+左上角：执行。
 
-Top Center: Exec.
+顶部中心 执行。
 
-Top Right: Exec.
+右上角：执行。执行
 
-Center Left: Exec.
+左中：执行
 
-Center Center: Exec.
+中部中间。中间：执行
 
-Center Right: Exec.
+中间偏右。执行委员会
 
-Bottom Left: Exec.
+左下：执行
 
-Bottom Center: Exec.
+底部中间。执行
 
-Bottom Right: Exec.
-
+右下角：执行 执行者

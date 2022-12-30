@@ -1,6 +1,6 @@
 # GetnumberofentriesinETickMode
 
-Returns ETickMode_MAX value
+返回ETickMode_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ETickMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

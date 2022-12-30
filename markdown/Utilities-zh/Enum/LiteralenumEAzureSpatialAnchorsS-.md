@@ -1,6 +1,6 @@
 # LiteralenumEAzureSpatialAnchorsS-
 
-Literal enum EAzureSpatialAnchorsSessionUserFeedback
+枚举 EAzureSpatialAnchorsSessionUserFeedback
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAzureSpatialAnchorsSessionUserFeedback
 
 ## Inputs
 
-Enum: EAzureSpatialAnchorsSessionUserFeedback Enum.  
+枚举。EAzureSpatialAnchorsSessionUserFeedback Enum.  
 
 ## Outputs
 
-Return Value: EAzureSpatialAnchorsSessionUserFeedback Enum.
-
+返回值。EAzureSpatialAnchorsSessionUserFeedback Enum.

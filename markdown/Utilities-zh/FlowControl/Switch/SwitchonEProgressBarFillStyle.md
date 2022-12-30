@@ -1,6 +1,6 @@
 # SwitchonEProgressBarFillStyle
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EProgressBarFillStyle Enum.  
+选择。EProgressBarFillStyle Enum.  
 
 ## Outputs
 
-Mask: Exec.
+掩码：Exec.
 
-Scale: Exec.
-
+规模: 规模 Exec.

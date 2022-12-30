@@ -1,6 +1,6 @@
 # BreakDistortionHandlerPicker
 
-Adds a node that breaks a 'DistortionHandlerPicker' into its member fields
+添加一个节点，将'DistortionHandlerPicker'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DistortionHandlerPicker' into its member fields
 
 ## Inputs
 
-Distortion Handler Picker: Distortion Handler Picker Structure (by ref).  
+Distortion Handler Picker。Distortion Handler Picker结构（通过引用）。 
 
 ## Outputs
 
-Target Camera Component: Cine Camera Component Object Reference. Target Camera Component:. CineCameraComponent with which the desired distortion handler is associated.
+Target Camera Component: 摄像机组件对象参考。Target Camera Component:（目标摄像机组件）。CineCameraComponent，所需的变形处理程序与之相关。
 
-Distortion Producer ID: Guid Structure. Distortion Producer ID:. UObject that produces the distortion state for the desired distortion handler.
+Distortion Producer ID（失真制作者ID）。指导结构。Distortion Producer ID:。为所需的失真处理程序产生失真状态的UObject。
 
-Handler Display Name: String. Handler Display Name:. Display name of the desired distortion handler.
-
+Handler Display Name（处理程序显示名称）。字符串。Handler Display Name：。所需失真处理程序的显示名称。

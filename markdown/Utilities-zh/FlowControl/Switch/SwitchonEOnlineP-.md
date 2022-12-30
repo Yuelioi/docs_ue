@@ -1,6 +1,6 @@
 # SwitchonEOnlineP-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EOnlineProxyStoreOfferDiscountType Enum.  
+选择。EOnlineProxyStoreOfferDiscountType枚举。 
 
 ## Outputs
 
-Not on Sale: Exec.
+不在销售中。Exec.
 
-Percentage: Exec.
+百分比。Exec.
 
-Discount Amount: Exec.
+折扣金额。折扣金额: 折扣金额
 
-Pay Amount: Exec.
-
+支付金额。折扣金额: 折扣金额

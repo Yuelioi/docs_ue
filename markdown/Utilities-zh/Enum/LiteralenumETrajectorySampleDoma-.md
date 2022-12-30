@@ -1,6 +1,6 @@
 # LiteralenumETrajectorySampleDoma-
 
-Literal enum ETrajectorySampleDomain
+字面上的枚举：ETrajectorySampleDomain
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETrajectorySampleDomain
 
 ## Inputs
 
-Enum: ETrajectorySampleDomain Enum.  
+枚举。ETrajectorySampleDomain Enum.  
 
 ## Outputs
 
-Return Value: ETrajectorySampleDomain Enum.
-
+返回值。ETrajectorySampleDomain Enum。

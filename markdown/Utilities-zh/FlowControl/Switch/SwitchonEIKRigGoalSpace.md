@@ -1,6 +1,6 @@
 # SwitchonEIKRigGoalSpace
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EIKRigGoalSpace Enum.  
+选择。EIKRigGoalSpace枚举。 
 
 ## Outputs
 
-Component Space: Exec.
+组件空间。Exec.
 
-Additive: Exec.
+添加性。Exec.
 
-World Space: Exec.
-
+世界空间。Exec.

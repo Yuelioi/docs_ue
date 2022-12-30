@@ -1,6 +1,6 @@
 # BytetoEnumETriggerEvent
 
-Byte to Enum ETriggerEvent
+字节到枚举 ETriggerEvent
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETriggerEvent
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETriggerEvent Enum.
-
+返回值。ETriggerEvent Enum.

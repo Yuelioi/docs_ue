@@ -1,6 +1,6 @@
 # LiteralenumEAudioComponentPlaySt-
 
-Literal enum EAudioComponentPlayState
+枚举 EAudioComponentPlayState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAudioComponentPlayState
 
 ## Inputs
 
-Enum: EAudioComponentPlayState Enum.  
+枚举。EAudioComponentPlayState Enum.  
 
 ## Outputs
 
-Return Value: EAudioComponentPlayState Enum.
-
+返回值。EAudioComponentPlayState Enum.

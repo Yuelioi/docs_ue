@@ -1,6 +1,6 @@
 # BytetoEnumESocialChannelType
 
-Byte to Enum ESocialChannelType
+字节到枚举ESocialChannelType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESocialChannelType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESocialChannelType Enum.
-
+返回值。ESocialChannelType Enum。

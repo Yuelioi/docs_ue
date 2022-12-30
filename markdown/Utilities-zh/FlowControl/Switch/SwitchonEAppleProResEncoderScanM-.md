@@ -1,6 +1,6 @@
 # SwitchonEAppleProResEncoderScanM-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAppleProResEncoderScanMode Enum.  
+选择。EAppleProResEncoderScanMode Enum.  
 
 ## Outputs
 
-Progressive: Exec.
+渐进式。Exec.
 
-Interlaced; First (Top) Image Line Belongs To First Temporal Field: Exec.
+Interlaced; 第一条（顶部）图像线属于第一个时域。Exec.
 
-Interlaced; Second (Bottom) Image Line Belongs To First Temporal Field: Exec.
-
+隔行扫描；第二条（底部）图像线属于第一时空场。Exec.

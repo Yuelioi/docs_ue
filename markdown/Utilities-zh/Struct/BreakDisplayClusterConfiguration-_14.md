@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-_14
 
-Adds a node that breaks a 'DisplayClusterConfigurationPrimaryNode' into its member fields
+添加一个节点，将'DisplayClusterConfigurationPrimaryNode'分解到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DisplayClusterConfigurationPrimaryNode' into its memb
 
 ## Inputs
 
-Display Cluster Configuration Primary Node: Display Cluster Configuration Primary Node Structure (by ref).  
+显示群集配置主节点。Display Cluster Configuration Primary Node结构（通过参考）。 
 
 ## Outputs
 
-Id: String. Id.
+Id。字符串。Id.
 
-Primary Node Ports: Display Cluster Configuration Primary Node Ports Structure. Ports.
-
+Primary Node Ports: 显示群集配置主节点端口结构。端口。

@@ -1,6 +1,6 @@
 # LiteralenumELocationAccuracy
 
-Literal enum ELocationAccuracy
+字面意义上的ELocationAccuracy枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELocationAccuracy
 
 ## Inputs
 
-Enum: ELocationAccuracy Enum.  
+枚举。ELocationAccuracy Enum.  
 
 ## Outputs
 
-Return Value: ELocationAccuracy Enum.
-
+返回值。ELocationAccuracy Enum.

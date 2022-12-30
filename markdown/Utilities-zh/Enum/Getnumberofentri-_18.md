@@ -1,6 +1,6 @@
 # Getnumberofentri-_18
 
-Returns EGeometryScriptMorphologicalOpType_MAX value
+返回 EGeometryScriptMorphologicalOpType_MAX 值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGeometryScriptMorphologicalOpType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

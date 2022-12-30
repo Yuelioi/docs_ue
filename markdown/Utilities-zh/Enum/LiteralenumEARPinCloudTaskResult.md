@@ -1,6 +1,6 @@
 # LiteralenumEARPinCloudTaskResult
 
-Literal enum EARPinCloudTaskResult
+EARPinCloudTaskResult的字面意义枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARPinCloudTaskResult
 
 ## Inputs
 
-Enum: EARPinCloudTaskResult Enum.  
+枚举。EARPinCloudTaskResult Enum.  
 
 ## Outputs
 
-Return Value: EARPinCloudTaskResult Enum.
-
+返回值。EARPinCloudTaskResult Enum。

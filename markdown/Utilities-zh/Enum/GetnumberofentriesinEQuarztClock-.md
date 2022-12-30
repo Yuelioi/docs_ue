@@ -1,6 +1,6 @@
 # GetnumberofentriesinEQuarztClock-
 
-Returns EQuarztClockManagerType_MAX value
+返回EQuarztClockManagerType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EQuarztClockManagerType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

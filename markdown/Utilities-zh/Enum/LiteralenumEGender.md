@@ -1,6 +1,6 @@
 # LiteralenumEGender
 
-Literal enum EGender
+字面意义上的EGender枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGender
 
 ## Inputs
 
-Enum: EGender Enum.  
+枚举。EGender Enum.  
 
 ## Outputs
 
-Return Value: EGender Enum.
-
+返回值。EGender Enum。

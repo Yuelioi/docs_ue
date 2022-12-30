@@ -8,9 +8,8 @@ Byte to Enum EMusicalNoteName
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMusicalNoteName Enum.
-
+返回值。EMusicalNoteName Enum。

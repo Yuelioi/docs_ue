@@ -1,6 +1,6 @@
 # SwitchonEMappingQueryIssue
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMappingQueryIssue Enum.  
+选择。EMappingQueryIssue Enum.  
 
 ## Outputs
 
-No Issue: Exec.
+无问题。Exec.
 
-Reserved By Action: Exec.
+通过行动保留。Exec.
 
-Hides Existing Mapping: Exec.
+隐藏现有的映射。隐去现有映射: Exec.
 
-Hidden By Existing Mapping: Exec.
+通过现有的映射隐藏。被现有贴图隐藏: Exec.
 
-Collision With Mapping In Same Context: Exec.
+与同一背景下的映射发生冲突。Exec.
 
-Forces Type Promotion: Exec.
+迫使类型升级。军队类型
 
-Forces Type Demotion: Exec.
-
+部队类型降级。晋升: 军队类型

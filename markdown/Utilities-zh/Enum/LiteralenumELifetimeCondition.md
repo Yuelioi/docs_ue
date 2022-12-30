@@ -1,6 +1,6 @@
 # LiteralenumELifetimeCondition
 
-Literal enum ELifetimeCondition
+字面意义上的ELifetimeCondition枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELifetimeCondition
 
 ## Inputs
 
-Enum: ELifetimeCondition Enum.  
+枚举。ELifetimeCondition Enum.  
 
 ## Outputs
 
-Return Value: ELifetimeCondition Enum.
-
+返回值。ELifetimeCondition Enum。

@@ -1,6 +1,6 @@
 # LiteralenumEUserInterfaceActionT-
 
-Literal enum EUserInterfaceActionType
+字面意义上的枚举 EUserInterfaceActionType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EUserInterfaceActionType
 
 ## Inputs
 
-Enum: EUserInterfaceActionType Enum.  
+枚举。EUserInterfaceActionType Enum.  
 
 ## Outputs
 
-Return Value: EUserInterfaceActionType Enum.
-
+返回值。EUserInterfaceActionType Enum。

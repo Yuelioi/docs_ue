@@ -1,6 +1,6 @@
 # EnumtoString
 
-Returns user friendly name of enumerator
+返回用户友好的枚举器的名称
 
 ## 图示
 
@@ -8,9 +8,8 @@ Returns user friendly name of enumerator
 
 ## Inputs
 
-Enumerator: Byte.  
+枚举器。字节。 
 
 ## Outputs
 
-Return Value: String.
-
+返回值。字符串。

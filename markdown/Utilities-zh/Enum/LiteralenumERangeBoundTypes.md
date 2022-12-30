@@ -1,6 +1,6 @@
 # LiteralenumERangeBoundTypes
 
-Literal enum ERangeBoundTypes
+字面意义上的ERangeBoundTypes枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERangeBoundTypes
 
 ## Inputs
 
-Enum: ERangeBoundTypes Enum.  
+枚举。ERangeBoundTypes Enum.  
 
 ## Outputs
 
-Return Value: ERangeBoundTypes Enum.
-
+返回值。ERangeBoundTypes Enum。

@@ -1,6 +1,6 @@
 # LiteralenumECreateObjectTypeHint
 
-Literal enum ECreateObjectTypeHint
+枚举ECreateObjectTypeHint的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECreateObjectTypeHint
 
 ## Inputs
 
-Enum: ECreateObjectTypeHint Enum.  
+枚举。ECreateObjectTypeHint Enum.  
 
 ## Outputs
 
-Return Value: ECreateObjectTypeHint Enum.
-
+返回值。ECreateObjectTypeHint Enum。

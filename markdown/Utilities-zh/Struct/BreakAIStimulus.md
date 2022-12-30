@@ -1,6 +1,6 @@
 # BreakAIStimulus
 
-Adds a node that breaks a 'AIStimulus' into its member fields
+添加一个节点，将一个'AIStimulus'分解成其成员字段
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'AIStimulus' into its member fields
 
 ## Inputs
 
-AIStimulus: AIStimulus Structure (by ref).  
+AIStimulus。AIStimulus结构（通过引用）。 
 
 ## Outputs
 
-Age: Float (single-precision). Age.
+Age: Float (single-precision). Age: 年龄。
 
-Expiration Age: Float (single-precision). Expiration Age.
+过期年龄。Float (single-precision). 过期年龄。
 
-Strength: Float (single-precision). Strength.
+强度。Float (single-precision). 强度。
 
-Stimulus Location: Vector. Stimulus Location.
+刺激位置。矢量。Stimulus Location: 刺激位置。
 
-Receiver Location: Vector. Receiver Location.
+接收者位置。向量。接收者位置。
 
-Tag: Name. Tag.
+标签。名称。标签。
 
-Successfully Sensed: Boolean. Successfully Sensed.
-
+成功感应到的。布尔值。成功感应到的。

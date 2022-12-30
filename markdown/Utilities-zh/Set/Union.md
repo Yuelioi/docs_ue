@@ -1,8 +1,8 @@
 # Union
 
-Assigns Result to the union of two sets, A and B. That is, Result will contain. all elements that are in Set A and in addition all elements in Set B. Note that. a Set is a collection of unique elements, so duplicates will be eliminated.
+将结果分配给两个集合A和B的联合体。也就是说，结果将包含集合A中的所有元素和集合B中的所有元素。注意，集合是唯一元素的集合，所以重复的元素将被消除。
 
-Target is Blueprint Set Library
+目标是蓝图集合库
 
 ## 图示
 
@@ -10,15 +10,14 @@ Target is Blueprint Set Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-A: Set of Wildcards. One set to union.
+A: 通配符集。一个集合要联合。
 
-B: Set of Wildcards. Another set to union.  
+B：一组通配符。另一组要联合。 
 
 ## Outputs
 
-Out: Exec.
+淘汰。执行：执行。
 
-Result: Set of Wildcards. Set to store results in.
-
+结果。一组通配符。将结果储存在一组。

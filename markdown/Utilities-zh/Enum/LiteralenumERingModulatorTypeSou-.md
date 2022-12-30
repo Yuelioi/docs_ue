@@ -1,6 +1,6 @@
 # LiteralenumERingModulatorTypeSou-
 
-Literal enum ERingModulatorTypeSourceEffect
+字面意思是ERingModulatorTypeSourceEffect的枚举。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERingModulatorTypeSourceEffect
 
 ## Inputs
 
-Enum: ERingModulatorTypeSourceEffect Enum.  
+枚举。ERingModulatorTypeSourceEffect Enum.  
 
 ## Outputs
 
-Return Value: ERingModulatorTypeSourceEffect Enum.
-
+返回值。ERingModulatorTypeSourceEffect Enum.

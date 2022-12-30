@@ -8,9 +8,8 @@ Byte to Enum EGroomStrandsSize
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGroomStrandsSize Enum.
-
+返回值。EGroomStrandsSize Enum.

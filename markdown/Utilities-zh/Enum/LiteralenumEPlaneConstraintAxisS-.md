@@ -1,6 +1,6 @@
 # LiteralenumEPlaneConstraintAxisS-
 
-Literal enum EPlaneConstraintAxisSetting
+枚举 EPlaneConstraintAxisSetting
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EPlaneConstraintAxisSetting
 
 ## Inputs
 
-Enum: EPlaneConstraintAxisSetting Enum.  
+枚举。EPlaneConstraintAxisSetting Enum.  
 
 ## Outputs
 
-Return Value: EPlaneConstraintAxisSetting Enum.
-
+返回值。EPlaneConstraintAxisSetting Enum.

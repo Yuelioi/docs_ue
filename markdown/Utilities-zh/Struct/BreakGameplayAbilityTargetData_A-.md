@@ -1,6 +1,6 @@
 # BreakGameplayAbilityTargetData_A-
 
-Adds a node that breaks a 'GameplayAbilityTargetData_ActorArray' into its member fields
+添加一个节点，将'GameplayAbilityTargetData_ActorArray'分解到其成员字段。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'GameplayAbilityTargetData_ActorArray' into its member
 
 ## Inputs
 
-Gameplay Ability Target Data Actor Array: Gameplay Ability Target Data Actor Array Structure (by ref).  
+Gameplay Ability Targeting Data Actor Array。Gameplay Ability Targeting Data Actor Array结构（通过引用）。
 
 ## Outputs
 
-Source Location: Gameplay Ability Targeting Location Info Structure. Source Location:. We could be selecting this group of actors from any type of location, so use a generic location type.
-
+源位置。游戏能力定位位置信息结构。源位置。我们可以从任何类型的地点选择这组演员，所以使用了一个通用的地点类型。

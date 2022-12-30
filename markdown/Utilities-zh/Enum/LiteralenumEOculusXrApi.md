@@ -1,6 +1,6 @@
 # LiteralenumEOculusXrApi
 
-Literal enum EOculusXrApi
+枚举 EOculusXrApi
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EOculusXrApi
 
 ## Inputs
 
-Enum: EOculusXrApi Enum.  
+枚举。EOculusXrApi Enum.  
 
 ## Outputs
 
-Return Value: EOculusXrApi Enum.
-
+返回值。EOculusXrApi Enum。

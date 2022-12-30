@@ -1,6 +1,6 @@
 # BytetoEnumEInAppPurchaseStatus
 
-Byte to Enum EInAppPurchaseStatus
+字节到枚举 EInAppPurchaseStatus
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EInAppPurchaseStatus
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EInAppPurchaseStatus Enum.
-
+返回值。EInAppPurchaseStatus Enum.

@@ -1,6 +1,6 @@
 # BreakAnchorData
 
-Adds a node that breaks a 'AnchorData' into its member fields
+添加一个节点，将'AnchorData'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'AnchorData' into its member fields
 
 ## Inputs
 
-Anchor Data: Anchor Data Structure (by ref).  
+锚点数据。锚点数据结构（通过引用）。 
 
 ## Outputs
 
-Offsets: Margin Structure. Offsets:. Offset..
+偏移量。Margin结构。Offsets:. Offset.
 
-Anchors: Anchors Structure. Anchors:. Anchors..
+锚点。锚点结构。Anchors:. 锚点.
 
-Alignment: Vector 2D Structure. Alignment:. Alignment is the pivot point of the widget. Starting in the upper left at (0,0),. ending in the lower right at (1,1). Moving the alignment point allows you to move. the origin of the widget..
-
+Alignment: 矢量2D结构。Alignment:.对齐方式。Alignment是小部件的支点。从左上角的（0,0）开始，在右下角的（1,1）结束。移动对齐点允许你移动小部件的原点。

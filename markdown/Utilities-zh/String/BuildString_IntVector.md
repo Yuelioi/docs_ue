@@ -1,8 +1,8 @@
 # BuildString_IntVector
 
-Converts an IntVector->string, creating a new string in the form AppendTo+Prefix+InIntVector+Suffix
+转换IntVector->string，以AppendTo+Prefix+InIntVector+Suffix的形式创建一个新字符串。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,15 +10,14 @@ Target is Kismet String Library
 
 ## Inputs
 
-Append To: String. An existing string to use as the start of the conversion string.
+附加到。字符串。一个现有的字符串，作为转换字符串的开始。
 
-Prefix: String. A string to use as a prefix, after the AppendTo string.
+前缀。字符串。作为前缀的字符串，在AppendTo字符串之后使用。
 
-In Int Vector: Int Vector Structure. The intVector value to convert. Uses the standard FVector::ToString conversion.
+In Int Vector: Int Vector结构。要转换的intVector值。使用标准的FVector::ToString转换。
 
-Suffix: String. A suffix to append to the end of the conversion string.  
+后缀。字符串。后缀，附加在转换字符串的末尾。 
 
 ## Outputs
 
-Return Value: String. A new string built from the passed parameters.
-
+返回值。字符串。由传递的参数建立的新字符串。

@@ -1,6 +1,6 @@
 # BytetoEnumEGameplayAbilityReplic-
 
-Byte to Enum EGameplayAbilityReplicationPolicy
+字节到枚举 EGameplayAbilityReplicationPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGameplayAbilityReplicationPolicy
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGameplayAbilityReplicationPolicy Enum.
-
+返回值。EGameplayAbilityReplicationPolicy Enum。

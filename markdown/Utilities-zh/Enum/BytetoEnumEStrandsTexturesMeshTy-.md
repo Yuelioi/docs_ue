@@ -1,6 +1,6 @@
 # BytetoEnumEStrandsTexturesMeshTy-
 
-Byte to Enum EStrandsTexturesMeshType
+字节到枚举 EStrandsTexturesMeshType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EStrandsTexturesMeshType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EStrandsTexturesMeshType Enum.
-
+返回值。EStrandsTexturesMeshType Enum。

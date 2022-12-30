@@ -1,26 +1,25 @@
 # BreakDisplayClusterClusterEventJ-
 
-Adds a node that breaks a 'DisplayClusterClusterEventJson' into its member fields
+添加一个节点，将 "DisplayClusterClusterEventJson "分解成其成员字段。
 
 ## 图示
 
 ![]($-20221218-14342494.png)
 
-## Inputs
+## 输入
 
-Display Cluster Cluster Event Json: Display Cluster Cluster Event Json Structure (by ref).  
+显示群集事件Json。Display Cluster Cluster Event Json Structure (by ref).  
 
 ## Outputs
 
-Name: String. Name:. Event name (used for discarding outdated events).
+名称。字符串。名称：。事件名称（用于丢弃过时的事件）。
 
-Type: String. Type:. Event type (used for discarding outdated events).
+类型。字符串。类型:. 事件类型（用于丢弃过时的事件）。
 
-Category: String. Category:. Event category (used for discarding outdated events).
+类别。字符串。类别:. 事件类别（用于丢弃过时的事件）。
 
-Parameters: Map of Strings to Strings. Parameters:. Event parameters.
+参数。字符串到字符串的映射。参数:. 事件参数。
 
-Is Sytem Event. ' True' Is Reserved For N Display Internals.: Boolean. Is System Event:. Is nDisplay internal event (should never be true for end users).
+是系统事件。'True'是保留给N个显示内部的。Boolean. 是系统事件：。是nDisplay内部事件（对终端用户来说不应该是真的）。
 
-Should Discard On Repeat: Boolean. Should Discard on Repeat:. Should older events with the same Name/Type/Category (for JSON) or ID (for binary) be discarded if a new one received.
-
+Should Discard On Repeat（重复时应丢弃）：布尔值。Should Discard on Repeat:.重复时应丢弃：。如果收到新的事件，具有相同名称/类型/类别（对于JSON）或ID（对于二进制）的旧事件应被丢弃。

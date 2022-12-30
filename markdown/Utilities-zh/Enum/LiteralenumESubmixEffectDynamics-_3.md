@@ -1,6 +1,6 @@
 # LiteralenumESubmixEffectDynamics-_3
 
-Literal enum ESubmixEffectDynamicsProcessorType
+枚举ESubmixEffectDynamicsProcessorType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESubmixEffectDynamicsProcessorType
 
 ## Inputs
 
-Enum: ESubmixEffectDynamicsProcessorType Enum.  
+枚举。ESubmixEffectDynamicsProcessorType Enum.  
 
 ## Outputs
 
-Return Value: ESubmixEffectDynamicsProcessorType Enum.
-
+返回值。ESubmixEffectDynamicsProcessorType Enum。

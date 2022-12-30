@@ -1,6 +1,6 @@
 # SwitchonEGeometryScriptFlareType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGeometryScriptFlareType Enum.  
+选择。EGeometryScriptFlareType枚举。 
 
 ## Outputs
 
-Sin Mode: Exec.
+Sin模式。Exec.
 
 Sin Squared Mode: Exec.
 
-Triangle Mode: Exec.
-
+三角形模式。执行。

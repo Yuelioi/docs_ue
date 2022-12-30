@@ -1,6 +1,6 @@
 # BytetoEnumETouchIndex
 
-Byte to Enum ETouchIndex
+字节到枚举ETouchIndex
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETouchIndex
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETouchIndex Enum.
-
+返回值。ETouchIndex Enum。

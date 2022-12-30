@@ -1,6 +1,6 @@
 # LiteralenumEAudioDeviceChangedRo-
 
-Literal enum EAudioDeviceChangedRole
+枚举 EAudioDeviceChangedRole
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAudioDeviceChangedRole
 
 ## Inputs
 
-Enum: EAudioDeviceChangedRole Enum.  
+枚举。EAudioDeviceChangedRole Enum.  
 
 ## Outputs
 
-Return Value: EAudioDeviceChangedRole Enum.
-
+返回值。EAudioDeviceChangedRole Enum.

@@ -1,6 +1,6 @@
 # LiteralenumETickMode
 
-Literal enum ETickMode
+字面意义上的ETickMode枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETickMode
 
 ## Inputs
 
-Enum: ETickMode Enum.  
+枚举。ETickMode Enum.  
 
 ## Outputs
 
-Return Value: ETickMode Enum.
-
+返回值。ETickMode Enum。

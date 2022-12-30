@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARGeoTracki-
 
-Returns EARGeoTrackingAccuracy_MAX value
+返回EARGeoTrackingAccuracy_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARGeoTrackingAccuracy_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

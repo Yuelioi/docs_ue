@@ -1,6 +1,6 @@
 # LiteralenumEAlembicSamplingType
 
-Literal enum EAlembicSamplingType
+枚举 EAlembicSamplingType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAlembicSamplingType
 
 ## Inputs
 
-Enum: EAlembicSamplingType Enum.  
+枚举。EAlembicSamplingType Enum.  
 
 ## Outputs
 
-Return Value: EAlembicSamplingType Enum.
-
+返回值。EAlembicSamplingType Enum。

@@ -1,6 +1,6 @@
 # LiteralenumETextShapingMethod
 
-Literal enum ETextShapingMethod
+字面意义上的ETextShapingMethod枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETextShapingMethod
 
 ## Inputs
 
-Enum: ETextShapingMethod Enum.  
+枚举。ETextShapingMethod Enum.  
 
 ## Outputs
 
-Return Value: ETextShapingMethod Enum.
-
+返回值。ETextShapingMethod Enum。

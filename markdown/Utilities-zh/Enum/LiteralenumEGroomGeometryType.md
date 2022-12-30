@@ -1,6 +1,6 @@
 # LiteralenumEGroomGeometryType
 
-Literal enum EGroomGeometryType
+字面上的枚举：EGroomGeometryType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGroomGeometryType
 
 ## Inputs
 
-Enum: EGroomGeometryType Enum.  
+枚举。EGroomGeometryType枚举。 
 
 ## Outputs
 
-Return Value: EGroomGeometryType Enum.
-
+返回值。EGroomGeometryType Enum。

@@ -1,6 +1,6 @@
 # BreakControlRigControlPose
 
-Adds a node that breaks a 'ControlRigControlPose' into its member fields
+添加一个节点，将'ControlRigControlPose'分解到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'ControlRigControlPose' into its member fields
 
 ## Inputs
 
-Control Rig Control Pose: Control Rig Control Pose Structure (by ref).  
+控制钻机控制姿态。控制钻机控制姿势结构（通过引用）。 
 
 ## Outputs
 
-Copy Of Controls: Array of Rig Control Copy Structures. Copy Of Controls.
-
+Copy Of Controls: 钻机控制复制结构的数组。Copy Of Controls（控制的复制）：控制钻机控制姿势结构。

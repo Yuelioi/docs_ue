@@ -1,6 +1,6 @@
 # SwitchonEInputActionValueType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EInputActionValueType Enum.  
+选择。EInputActionValueType枚举。 
 
 ## Outputs
 
-Digital (Bool): Exec.
+数字（Bool）。Exec.
 
-Axis 1D (Float): Exec.
+Axis 1D (Float): 执行。
 
 Axis 2D (Vector 2D): Exec.
 
-Axis 3D (Vector): Exec.
-
+Axis 3D (Vector): 执行。

@@ -1,6 +1,6 @@
 # LiteralenumEMediaSoundComponentF-
 
-Literal enum EMediaSoundComponentFFTSize
+枚举EMediaSoundComponentFFTSize
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMediaSoundComponentFFTSize
 
 ## Inputs
 
-Enum: EMediaSoundComponentFFTSize Enum.  
+枚举。EMediaSoundComponentFFTSize枚举。 
 
 ## Outputs
 
-Return Value: EMediaSoundComponentFFTSize Enum.
-
+返回值。EMediaSoundComponentFFTSize Enum。

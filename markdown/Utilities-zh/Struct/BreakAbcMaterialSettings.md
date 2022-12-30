@@ -1,18 +1,17 @@
 # BreakAbcMaterialSettings
 
-Adds a node that breaks a 'AbcMaterialSettings' into its member fields
+添加一个节点，将'AbcMaterialSettings'分解成其成员字段。
 
 ## 图示
 
 ![]($-20221218-14303378.png)
 
-## Inputs
+## 输入
 
-Abc Material Settings: Abc Material Settings Structure (by ref).  
+Abc材料设置。Abc材料设置结构（通过参考）。 
 
-## Outputs
+## 输出
 
-Create Materials: Boolean. Create Materials:. Whether or not to create materials according to found Face Set names (will not work without face sets).
+创建材料。Boolean. 创建材料：。是否根据找到的面片组名称创建材料（没有面片组将无法工作）。
 
-Find Materials: Boolean. Find Materials:. Whether or not to try and find materials according to found Face Set names (will not work without face sets).
-
+查找材料。Boolean（布尔）。查找材料：。是否尝试根据找到的面孔组名称寻找材料（没有面孔组将无法工作）。

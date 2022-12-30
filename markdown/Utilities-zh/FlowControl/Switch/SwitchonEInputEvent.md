@@ -1,6 +1,6 @@
 # SwitchonEInputEvent
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EInputEvent Enum.  
+选择。EInputEvent Enum.  
 
 ## Outputs
 
-IE Pressed: Exec.
+IE按下的。Exec.
 
-IE Released: Exec.
+IE释放: 执行。
 
-IE Repeat: Exec.
+IE 重复：执行。
 
-IE Double Click: Exec.
+IE 双击。Exec.
 
-IE Axis: Exec.
-
+IE轴：执行。

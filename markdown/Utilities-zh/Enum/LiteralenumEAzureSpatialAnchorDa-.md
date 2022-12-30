@@ -1,6 +1,6 @@
 # LiteralenumEAzureSpatialAnchorDa-
 
-Literal enum EAzureSpatialAnchorDataCategory
+枚举 EAzureSpatialAnchorDataCategory
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAzureSpatialAnchorDataCategory
 
 ## Inputs
 
-Enum: EAzureSpatialAnchorDataCategory Enum.  
+枚举。EAzureSpatialAnchorDataCategory Enum.  
 
 ## Outputs
 
-Return Value: EAzureSpatialAnchorDataCategory Enum.
-
+返回值。EAzureSpatialAnchorDataCategory Enum.

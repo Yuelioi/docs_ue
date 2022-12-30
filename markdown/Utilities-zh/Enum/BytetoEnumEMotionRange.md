@@ -1,6 +1,6 @@
 # BytetoEnumEMotionRange
 
-Byte to Enum EMotionRange
+字节到枚举EMotionRange
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMotionRange
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMotionRange Enum.
-
+返回值。EMotionRange Enum。

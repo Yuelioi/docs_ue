@@ -1,6 +1,6 @@
 # LiteralenumEUsdUpAxis
 
-Literal enum EUsdUpAxis
+字面上的枚举：EUsdUpAxis
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EUsdUpAxis
 
 ## Inputs
 
-Enum: EUsdUpAxis Enum.  
+枚举。EUsdUpAxis Enum.  
 
 ## Outputs
 
-Return Value: EUsdUpAxis Enum.
-
+返回值。EUsdUpAxis Enum.

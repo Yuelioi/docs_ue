@@ -1,6 +1,6 @@
 # BreakAudioVolumeSubmixSendSettin-
 
-Adds a node that breaks a 'AudioVolumeSubmixSendSettings' into its member fields
+添加一个节点，将'AudioVolumeSubmixSendSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'AudioVolumeSubmixSendSettings' into its member fields
 
 ## Inputs
 
-Audio Volume Submix Send Settings: Audio Volume Submix Send Settings Structure (by ref).  
+Audio Volume Submix Send Settings（音频音量子混音发送设置）。Audio Volume Submix Send Settings结构（通过引用）。 
 
 ## Outputs
 
-Listener Location State: EAudioVolumeLocationState Enum. Listener Location State:. The state the listener needs to be in, relative to the audio volume, for this submix send list to be used for a given sound.
+听众位置状态。EAudioVolumeLocationState枚举。听众位置状态：。聆听者需要处于的状态，相对于音频音量来说，这个子混音发送列表可以用于给定的声音。
 
-Submix Sends: Array of Sound Submix Send Info Structures. Submix Sends:. Submix send array for sounds that are outside the audio volume when the listener is inside the volume.
-
+Submix Sends: 声音子混音发送信息结构的数组。Submix Sends:. 当听众在音量内时，在音频音量外的声音的子混音发送阵列。

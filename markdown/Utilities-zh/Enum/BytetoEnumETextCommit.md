@@ -1,6 +1,6 @@
 # BytetoEnumETextCommit
 
-Byte to Enum ETextCommit
+字节到枚举 ETextCommit
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETextCommit
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETextCommit Enum.
-
+返回值。ETextCommit Enum。

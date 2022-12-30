@@ -1,6 +1,6 @@
 # SwitchonEDMXImportGDTFLampType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDMXImportGDTFLampType Enum.  
+选择。EDMXImportGDTFLampType枚举。 
 
 ## Outputs
 
-Discharge: Exec.
+放电。Exec.
 
-Tungsten: Exec.
+钨合金: Exec.
 
-Halogen: Exec.
+卤素灯: 卤素灯: Exec.
 
 LED: Exec.
-

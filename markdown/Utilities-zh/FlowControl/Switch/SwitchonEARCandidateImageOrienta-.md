@@ -1,6 +1,6 @@
 # SwitchonEARCandidateImageOrienta-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARCandidateImageOrientation Enum.  
+选择。EARCandidateImageOrientation Enum.  
 
 ## Outputs
 
-Landscape: Exec.
+景观。Exec.
 
-Portrait: Exec.
-
+Portrait: 纵向 Exec.

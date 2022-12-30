@@ -1,6 +1,6 @@
 # LiteralenumERaDistanceRolloffMod-
 
-Literal enum ERaDistanceRolloffModel
+字面意思是ERaDistanceRolloffModel枚举。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERaDistanceRolloffModel
 
 ## Inputs
 
-Enum: ERaDistanceRolloffModel Enum.  
+枚举。ERaDistanceRolloffModel Enum.  
 
 ## Outputs
 
-Return Value: ERaDistanceRolloffModel Enum.
-
+返回值。ERaDistanceRolloffModel Enum。

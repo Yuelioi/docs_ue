@@ -1,6 +1,6 @@
 # BytetoEnumERoundingMode
 
-Byte to Enum ERoundingMode
+字节到枚举ERoundingMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERoundingMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERoundingMode Enum.
-
+返回值。ERoundingMode Enum。

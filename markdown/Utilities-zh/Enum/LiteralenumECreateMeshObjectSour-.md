@@ -1,6 +1,6 @@
 # LiteralenumECreateMeshObjectSour-
 
-Literal enum ECreateMeshObjectSourceMeshType
+枚举 ECreateMeshObjectSourceMeshType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECreateMeshObjectSourceMeshType
 
 ## Inputs
 
-Enum: ECreateMeshObjectSourceMeshType Enum.  
+枚举。ECreateMeshObjectSourceMeshType Enum.  
 
 ## Outputs
 
-Return Value: ECreateMeshObjectSourceMeshType Enum.
-
+返回值。ECreateMeshObjectSourceMeshType Enum.

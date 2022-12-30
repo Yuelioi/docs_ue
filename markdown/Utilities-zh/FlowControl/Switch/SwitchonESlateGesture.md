@@ -1,6 +1,6 @@
 # SwitchonESlateGesture
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESlateGesture Enum.  
+选择。ESlateGesture Enum.  
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Scroll: Exec.
+滚动。Exec.
 
-Magnify: Exec.
+放大。执行.
 
-Swipe: Exec.
+轻扫。执行
 
-Rotate: Exec.
+转动。执行
 
-Long Press: Exec.
-
+长按。执行

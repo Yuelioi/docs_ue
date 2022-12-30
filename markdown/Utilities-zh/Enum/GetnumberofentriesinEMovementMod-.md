@@ -1,6 +1,6 @@
 # GetnumberofentriesinEMovementMod-
 
-Returns EMovementMode_MAX value
+返回EMovementMode_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EMovementMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

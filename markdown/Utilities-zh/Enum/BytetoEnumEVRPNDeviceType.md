@@ -1,6 +1,6 @@
 # BytetoEnumEVRPNDeviceType
 
-Byte to Enum EVRPNDeviceType
+字节到枚举EVRPNDeviceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EVRPNDeviceType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EVRPNDeviceType Enum.
-
+返回值。EVRPNDeviceType Enum。

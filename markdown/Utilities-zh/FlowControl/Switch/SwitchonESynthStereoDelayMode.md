@@ -1,6 +1,6 @@
 # SwitchonESynthStereoDelayMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESynthStereoDelayMode Enum.  
+选择。ESynthStereoDelayMode枚举。 
 
 ## Outputs
 
-Normal: Exec.
+正常。Exec.
 
 Cross: Exec.
 
-Ping Pong: Exec.
-
+Ping Pong: 执行。

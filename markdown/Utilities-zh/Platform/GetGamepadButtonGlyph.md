@@ -1,8 +1,8 @@
 # GetGamepadButtonGlyph
 
-Returns glyph assigned to a gamepad button (or a null ptr if not assigned) (iOS and tvOS only)
+返回分配给游戏手柄按钮的字形（如果没有分配，则返回空ptr）（仅适用于iOS和tvOS）。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-Button Key: String.
+按钮键。字符串。
 
-Controller Index: Integer.  
+控制器索引。整数。 
 
 ## Outputs
 
-Return Value: Texture 2D Object Reference. Returns glyph assigned to a gamepad button (or a null ptr if not assigned) (iOS and tvOS only).
-
+返回值。纹理2D对象参考。返回分配给游戏手柄按钮的字形（如果没有分配，则返回空ptr）（仅限iOS和tvOS）。

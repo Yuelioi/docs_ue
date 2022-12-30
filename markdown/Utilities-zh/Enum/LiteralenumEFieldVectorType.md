@@ -1,6 +1,6 @@
 # LiteralenumEFieldVectorType
 
-Literal enum EFieldVectorType
+字面意义上的EFieldVectorType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFieldVectorType
 
 ## Inputs
 
-Enum: EFieldVectorType Enum.  
+枚举。EFieldVectorType Enum.  
 
 ## Outputs
 
-Return Value: EFieldVectorType Enum.
-
+返回值。EFieldVectorType Enum。

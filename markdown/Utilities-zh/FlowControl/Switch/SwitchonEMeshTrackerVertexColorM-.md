@@ -1,6 +1,6 @@
 # SwitchonEMeshTrackerVertexColorM-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,9 +8,9 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMeshTrackerVertexColorMode Enum.  
+选择。EMeshTrackerVertexColorMode枚举。 
 
 ## Outputs
 
@@ -18,5 +18,4 @@ No Vertex Color: Exec.
 
 Vertex Confidence: Exec.
 
-Blocks Colored: Exec.
-
+块的颜色。Exec.

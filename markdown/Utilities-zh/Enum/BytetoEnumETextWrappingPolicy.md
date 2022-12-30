@@ -1,6 +1,6 @@
 # BytetoEnumETextWrappingPolicy
 
-Byte to Enum ETextWrappingPolicy
+字节到枚举 ETextWrappingPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETextWrappingPolicy
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETextWrappingPolicy Enum.
-
+返回值。ETextWrappingPolicy Enum。

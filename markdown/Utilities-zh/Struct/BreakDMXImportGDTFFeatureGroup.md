@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFFeatureGroup
 
-Adds a node that breaks a 'DMXImportGDTFFeatureGroup' into its member fields
+添加一个节点，将'DMXImportGDTFFeatureGroup'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DMXImportGDTFFeatureGroup' into its member fields
 
 ## Inputs
 
-DMXImport GDTFFeature Group: DMXImport GDTFFeature Group Structure (by ref).  
+DMXImport GDTFFeature Group。DMXImport GDTFFeature Group 结构（通过引用）。 
 
 ## Outputs
 
-Name: Name. Name.
+名称。名称。名称：名称。
 
-Pretty: String. Pretty.
+漂亮。字符串。漂亮。
 
-Features: Array of DMXImport GDTFFeature Structures. Features.
-
+特征。DMXImport GDTFFeature结构的阵列。特征: DMXImport GDTFFeature结构的数组。

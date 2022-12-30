@@ -1,6 +1,6 @@
 # LiteralenumEFbxExportCompatibili-
 
-Literal enum EFbxExportCompatibility
+字面意义上的枚举 EFbxExportCompatibility
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFbxExportCompatibility
 
 ## Inputs
 
-Enum: EFbxExportCompatibility Enum.  
+枚举。EFbxExportCompatibility Enum.  
 
 ## Outputs
 
-Return Value: EFbxExportCompatibility Enum.
-
+返回值。EFbxExportCompatibility Enum.

@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptDebugMe-
 
-Byte to Enum EGeometryScriptDebugMessageType
+字节到枚举 EGeometryScriptDebugMessageType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptDebugMessageType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptDebugMessageType Enum.
-
+返回值: EGeometryScriptDebugMessageType Enum.

@@ -1,6 +1,6 @@
 # BreakActorPerceptionBlueprintInf-
 
-Adds a node that breaks a 'ActorPerceptionBlueprintInfo' into its member fields
+添加一个节点，将'ActorPerceptionBlueprintInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ActorPerceptionBlueprintInfo' into its member fields
 
 ## Inputs
 
-Actor Perception Blueprint Info: Sensed Actor's Data Structure (by ref).  
+演员感知蓝图信息。被感知的演员的数据结构（通过引用）。 
 
 ## Outputs
 
-Target: Actor Object Reference. Target.
+目标。演员对象参考。目标。
 
-Last Sensed Stimuli: Array of AIStimulus Structures. Last Sensed Stimuli.
+最后感觉到的刺激：AIStimulus结构的阵列。最后感觉到的刺激。
 
-Is Hostile: Boolean. Is Hostile.
-
+Is Hostile: 布尔值。是敌对的。

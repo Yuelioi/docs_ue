@@ -1,6 +1,6 @@
 # BreakFindFloorResult
 
-Adds a node that breaks a 'FindFloorResult' into its member fields
+添加一个节点，将'FindFloorResult'分解为其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'FindFloorResult' into its member fields
 
 ## Inputs
 
-Find Floor Result: Find Floor Result Structure (by ref).  
+查找楼层结果。查找楼层结果结构（通过引用）。 
 
 ## Outputs
 
-Blocking Hit: Boolean. Blocking Hit:. True if there was a blocking hit in the floor test that was NOT in initial penetration.. The HitResult can give more info about other circumstances..
+Blocking Hit：布尔值。阻断命中：。如果在地板测试中，有一个不在初始穿透中的阻挡命中，则为真。HitResult可以提供更多关于其他情况的信息。
 
-Walkable Floor: Boolean. Walkable Floor:. True if the hit found a valid walkable floor..
+可行走的地板：布尔值。可行走的地板：。如果击中的是一个有效的可行走楼层，则为真。
 
-Line Trace: Boolean. Line Trace:. True if the hit found a valid walkable floor using a line trace (rather than a sweep test, which happens when the sweep test fails to yield a walkable surface)..
+线路追踪。布尔值。线路追踪：. 如果命中后发现有效的可行走地板，则为 "真"（而非扫荡测试，当扫荡测试无法产生可行走的表面时，就会发生这种情况）。
 
-Floor Dist: Float (single-precision). Floor Dist:. The distance to the floor, computed from the swept capsule trace..
+楼层距离。浮点数（单精度）。地板距离：。到地板的距离，由扫过的胶囊轨迹计算得出。
 
-Line Dist: Float (single-precision). Line Dist:. The distance to the floor, computed from the trace. Only valid if bLineTrace is true..
+线路距离。Float（单精度）。线段距离：。与地面的距离，由轨迹计算得出。只有在bLineTrace为真时才有效。
 
-Hit Result: Hit Result Structure. Hit Result:. Hit result of the test that found a floor. Includes more specific data about the point of impact and surface normal at that point..
-
+命中结果。命中结果结构。命中结果：。找到地板的测试的命中结果。包括关于撞击点和该点的表面法线的更具体数据。

@@ -1,6 +1,6 @@
 # BreakComponentSync
 
-Adds a node that breaks a 'ComponentSync' into its member fields
+添加一个节点，将'ComponentSync'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ComponentSync' into its member fields
 
 ## Inputs
 
-Component Sync: Component Sync Structure (by ref).  
+组件同步。组件同步结构（通过引用）。 
 
 ## Outputs
 
-Name: Name. Name.
+名称。名称。Name: 名称。
 
-Sync Option: ESyncOption Enum. Sync Option.
-
+Sync Option（同步选项）。ESyncOption枚举。Sync Option: 同步选项。

@@ -1,6 +1,6 @@
 # SwitchonERangeBoundTypes
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERangeBoundTypes Enum.  
+选择。ERangeBoundTypes Enum.  
 
 ## Outputs
 
-Exclusive: Exec.
+排他性。Exec.
 
-Inclusive: Exec.
+包容性。Exec.
 
-Open: Exec.
-
+开放式。独家: 独家

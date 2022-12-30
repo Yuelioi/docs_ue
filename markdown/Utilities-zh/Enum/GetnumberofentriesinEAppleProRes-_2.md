@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAppleProRes-_2
 
-Returns EAppleProResEncoderScanMode_MAX value
+返回 EAppleProResEncoderScanMode_MAX 值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAppleProResEncoderScanMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

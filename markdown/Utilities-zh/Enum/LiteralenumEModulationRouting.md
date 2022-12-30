@@ -1,6 +1,6 @@
 # LiteralenumEModulationRouting
 
-Literal enum EModulationRouting
+字面意义上的枚举EModulationRouting
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EModulationRouting
 
 ## Inputs
 
-Enum: EModulationRouting Enum.  
+枚举。EModulationRouting Enum.  
 
 ## Outputs
 
-Return Value: EModulationRouting Enum.
-
+返回值。EModulationRouting Enum。

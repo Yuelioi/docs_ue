@@ -1,6 +1,6 @@
 # LiteralenumEFBXSceneNormalGenera-
 
-Literal enum EFBXSceneNormalGenerationMethod
+枚举EFBXSceneNormalGenerationMethod。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFBXSceneNormalGenerationMethod
 
 ## Inputs
 
-Enum: EFBXSceneNormalGenerationMethod Enum.  
+枚举。EFBXSceneNormalGenerationMethod Enum.  
 
 ## Outputs
 
-Return Value: EFBXSceneNormalGenerationMethod Enum.
-
+返回值。EFBXSceneNormalGenerationMethod Enum.

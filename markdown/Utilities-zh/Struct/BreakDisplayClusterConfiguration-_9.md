@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-_9
 
-Adds a node that breaks a 'DisplayClusterConfigurationOCIOConfiguration' into its member fields
+添加一个节点，将'DisplayClusterConfigurationOCIOConfiguration'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DisplayClusterConfigurationOCIOConfiguration' into it
 
 ## Inputs
 
-Display Cluster Configuration OCIOConfiguration: Display Cluster Configuration OCIOConfiguration Structure (by ref).  
+Display Cluster Configuration OCIOConfiguration。Display Cluster Configuration OCIOConfiguration结构（通过参考）。 
 
 ## Outputs
 
-Enable Viewport OCIO: Boolean. Is Enabled:. Enable the application of an OpenColorIO configuration to all viewports..
+启用视口OCIO：布尔值。是启用的：。启用一个OpenColorIO配置应用于所有视口。
 
-OCIO Configuration: Open Color IODisplay Configuration Structure. OCIOConfiguration:. OpenColorIO Configuration.
-
+OCIO配置。Open Color IODisplay 配置结构。OCIOConfiguration:. OpenColorIO Configuration.

@@ -1,6 +1,6 @@
 # SwitchonEFieldPhysicsType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,33 +8,32 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EFieldPhysicsType Enum.  
+选择。EFieldPhysicsType Enum.  
 
 ## Outputs
 
-Dynamic State: Exec.
+动态状态。Exec.
 
 Linear Force: Exec.
 
 External Strain: Exec.
 
-Kill Particle: Exec.
+杀害粒子。执行。
 
-Linear Velocity: Exec.
+线性速度。执行。
 
-Angular Velocity: Exec.
+角度速度: 执行。
 
-Angular Torque: Exec.
+角度扭力: 执行.
 
-Internal Strain: Exec.
+内部应变: Exec.
 
-Disabled Threshold: Exec.
+禁用阈值: Exec.
 
 Sleeping Threshold: Exec.
 
-Collision Group: Exec.
+碰撞组。Exec.
 
-Activate Disabled: Exec.
-
+激活禁用。Exec.

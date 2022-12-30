@@ -1,6 +1,6 @@
 # BytetoEnumEHandTrackingSupport
 
-Byte to Enum EHandTrackingSupport
+字节到枚举 EHandTrackingSupport
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EHandTrackingSupport
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EHandTrackingSupport Enum.
-
+返回值。EHandTrackingSupport Enum。

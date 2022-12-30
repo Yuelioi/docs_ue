@@ -1,6 +1,6 @@
 # SwitchonETemperatureSeverityType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETemperatureSeverityType Enum.  
+选择。ETemperatureSeverityType Enum。 
 
 ## Outputs
 
-Unknown: Exec.
+未知。Exec.
 
-Good: Exec.
+好的。Exec.
 
-Bad: Exec.
+坏的。执行：执行。
 
-Serious: Exec.
+严重：执行。
 
-Critical: Exec.
+危急：执行。
 
-Num Severities: Exec.
-
+数个严重程度: Exec.

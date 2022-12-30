@@ -1,6 +1,6 @@
 # GetnumberofentriesinEDataValidat-
 
-Returns EDataValidationResult_MAX value
+返回EDataValidationResult_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EDataValidationResult_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

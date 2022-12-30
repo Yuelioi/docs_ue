@@ -1,6 +1,6 @@
 # LiteralenumEFBXImportContentType
 
-Literal enum EFBXImportContentType
+字面意思是EFBXImportContentType。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFBXImportContentType
 
 ## Inputs
 
-Enum: EFBXImportContentType Enum.  
+枚举。EFBXImportContentType Enum.  
 
 ## Outputs
 
-Return Value: EFBXImportContentType Enum.
-
+返回值。EFBXImportContentType Enum.

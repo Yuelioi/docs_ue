@@ -1,6 +1,6 @@
 # BytetoEnumESynthSlateSizeType
 
-Byte to Enum ESynthSlateSizeType
+字节到枚举 ESynthSlateSizeType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESynthSlateSizeType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESynthSlateSizeType Enum.
-
+返回值。ESynthSlateSizeType Enum。

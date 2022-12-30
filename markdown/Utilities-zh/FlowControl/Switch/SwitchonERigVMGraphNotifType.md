@@ -1,6 +1,6 @@
 # SwitchonERigVMGraphNotifType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,89 +8,88 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERigVMGraphNotifType Enum.  
+选择。ERigVMGraphNotifType枚举。 
 
 ## Outputs
 
-Graph Changed: Exec.
+图形改变了：Exec.GraphNotifType Enum。
 
-Node Added: Exec.
+节点添加：Exec.Node
 
-Node Removed: Exec.
+节点已删除。移除：Exec.Node。
 
-Node Selected: Exec.
+选定的节点。已选择的节点: Exec.
 
-Node Deselected: Exec.
+取消选择的节点。执行。
 
-Node Selection Changed: Exec.
+节点选择改变: 执行.
 
-Node Position Changed: Exec.
+节点位置改变: 执行.
 
-Node Size Changed: Exec.
+节点大小改变: 执行.
 
-Node Color Changed: Exec.
+节点颜色改变: Exec.
 
-Pin Added: Exec.
+增加了针脚: Exec.
 
-Pin Removed: Exec.
+移除的针脚。移除: 执行.
 
-Pin Renamed: Exec.
+重新命名的针脚。执掌：执掌。
 
-Pin Expansion Changed: Exec.
+扩充的针脚 变更为：Exec.
 
-Pin Watched Changed: Exec.
+监视的针脚改变了: 执行.
 
-Pin Array Size Changed: Exec.
+改变了针脚阵列的大小: 执行.
 
-Pin Default Value Changed: Exec.
+引脚默认值改变: Exec.
 
-Pin Direction Changed: Exec.
+针脚方向改变: 执行.
 
-Pin Type Changed: Exec.
+引脚类型改变: Exec.
 
-Pin Index Changed: Exec.
+引脚索引改变: Exec.
 
-Link Added: Exec.
+添加了链接: Exec.
 
-Link Removed: Exec.
+删除了链接。执行.
 
-Comment Text Changed: Exec.
+Comment Text（注释文本） 已更改: Exec.
 
-Reroute Compactness Changed: Exec.
+Reroute Compactness 变更: Exec.
 
-Variable Added: Exec.
+添加了变量: Exec.
 
-Variable Removed: Exec.
+变量 已删除。执行。
 
-Variable Renamed: Exec.
+变量重新命名。新增: Exec.
 
-Parameter Added: Exec.
+添加的参数：Exec.
 
-Parameter Removed: Exec.
+删除的参数。移除: Exec.
 
-Parameter Renamed: Exec.
+重新命名的参数。Exec.
 
-Interaction Bracket Opened: Exec.
+交互括号已打开。执行。
 
-Interaction Bracket Closed: Exec.
+交互括号关闭。执行。
 
-Interaction Bracket Canceled: Exec.
+交互式包围圈取消了。执行。
 
-Pin Bound Variable Changed: Exec.
+改变针脚绑定的变量: Exec.
 
-Node Renamed: Exec.
+节点重命名。执行：执行。
 
-Node Reference Changed: Exec.
+更改了节点参考：Exec.
 
-Node Category Changed: Exec.
+改变了节点类别: Exec.
 
-Node Keywords Changed: Exec.
+节点关键词 已更改: Exec.Node Description
 
-Node Description Changed: Exec.
+节点描述 Changed: Exec.
 
-Variable Remapping Changed: Exec.
+变量重映射 更改: Exec.
 
-Invalid: Exec.
-
+无效的。更改了: Exec.

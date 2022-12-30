@@ -1,6 +1,6 @@
 # BytetoEnumFCPXMLExportDataSource
 
-Byte to Enum FCPXMLExportDataSource
+字节到枚举 FCPXMLExportDataSource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum FCPXMLExportDataSource
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: FCPXMLExportDataSource Enum.
-
+返回值。FCPXMLExportDataSource Enum。

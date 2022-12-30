@@ -1,6 +1,6 @@
 # SwitchonEMaterialUsage
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,13 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMaterialUsage Enum.  
+选择。EMaterialUsage枚举。 
 
 ## Outputs
 
-MATUSAGE Skeletal Mesh: Exec.
+MATUSAGE骨骼网格。Exec.
 
 MATUSAGE Particle Sprites: Exec.
 
@@ -30,7 +30,7 @@ MATUSAGE Spline Mesh: Exec.
 
 MATUSAGE Instanced Static Meshes: Exec.
 
-MATUSAGE Geometry Collections: Exec.
+MATUSAGE几何体集合。Exec.
 
 MATUSAGE Clothing: Exec.
 
@@ -46,9 +46,8 @@ MATUSAGE Water: Exec.
 
 MATUSAGE Hair Strands: Exec.
 
-MATUSAGE Lidar Point Cloud: Exec.
+MATUSAGE 激光雷达点云: 执行。
 
-MATUSAGE Virtual Heightfield Mesh: Exec.
+MATUSAGE 虚拟高度场网格。Exec.
 
 MATUSAGE Nanite: Exec.
-

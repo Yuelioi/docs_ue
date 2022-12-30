@@ -1,6 +1,6 @@
 # BytetoEnumEInputActionValueType
 
-Byte to Enum EInputActionValueType
+字节到枚举 EInputActionValueType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EInputActionValueType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EInputActionValueType Enum.
-
+返回值。EInputActionValueType Enum。

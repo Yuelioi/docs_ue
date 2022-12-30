@@ -1,6 +1,6 @@
 # BytetoEnumEModulationRouting
 
-Byte to Enum EModulationRouting
+字节到枚举EModulationRouting
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EModulationRouting
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EModulationRouting Enum.
-
+返回值。EModulationRouting Enum。

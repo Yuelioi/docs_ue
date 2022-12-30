@@ -1,8 +1,8 @@
 # ToUpper
 
-Returns a string converted to Upper case
+返回一个转换为大写的字符串
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source String: String. The string to convert.  
+源字符串。字符串。要转换的字符串。 
 
 ## Outputs
 
-Return Value: String. The string in upper case.
-
+返回值。字符串。大写的字符串。

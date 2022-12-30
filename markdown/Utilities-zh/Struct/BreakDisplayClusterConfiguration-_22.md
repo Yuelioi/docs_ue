@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-_22
 
-Adds a node that breaks a 'DisplayClusterConfigurationViewport_RemapData' into its member fields
+添加一个节点，将'DisplayClusterConfigurationViewport_RemapData'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'DisplayClusterConfigurationViewport_RemapData' into i
 
 ## Inputs
 
-Display Cluster Configuration Viewport Remap Data: Display Cluster Configuration Viewport Remap Data Structure (by ref).  
+显示群集配置视口重映射数据。显示群组配置视口重映射数据结构（通过引用）。 
 
 ## Outputs
 
-Viewport Region: Display Cluster Configuration Rectangle Structure. Viewport Region:. The subregion of the viewport to remap; (0,0) x (W, H) will remap the entire viewport.
+视口区域。Display Cluster Configuration Rectangle结构。视口区域：。要重新映射的视口的子区域；(0,0) x (W, H)将重新映射整个视口。
 
-Output Region: Display Cluster Configuration Rectangle Structure. Output Region:. The region in screen space to output the remapped region to.
+输出区域。Display Cluster Configuration Rectangle结构。输出区域：。屏幕空间中要输出重新映射区域的区域。
 
-Angle: Float (single-precision). Angle:. The angle in degrees to rotate the remapped region by; rotation is performed around the center of the output region.
+角度。Float（单精度）。角度：。将重新映射的区域旋转的角度（度）；围绕输出区域的中心进行旋转。
 
-Flip H: Boolean. Flip H:. Flips the remapped region horizontally.
+Flip H：布尔值。翻转H:. 水平地翻转重新映射的区域。
 
-Flip V: Boolean. Flip V:. Flips the remapped region vertically.
-
+Flip V：布尔值。翻转V:。垂直翻转重新映射的区域。

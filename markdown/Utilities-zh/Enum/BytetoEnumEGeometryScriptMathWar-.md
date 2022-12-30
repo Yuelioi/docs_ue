@@ -1,6 +1,6 @@
 # BytetoEnumEGeometryScriptMathWar-
 
-Byte to Enum EGeometryScriptMathWarpType
+字节到枚举 EGeometryScriptMathWarpType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGeometryScriptMathWarpType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGeometryScriptMathWarpType Enum.
-
+返回值。EGeometryScriptMathWarpType 枚举。

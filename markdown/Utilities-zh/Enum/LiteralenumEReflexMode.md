@@ -1,6 +1,6 @@
 # LiteralenumEReflexMode
 
-Literal enum EReflexMode
+字面意义上的EReflexMode枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EReflexMode
 
 ## Inputs
 
-Enum: EReflexMode Enum.  
+枚举。EReflexMode枚举。 
 
 ## Outputs
 
-Return Value: EReflexMode Enum.
-
+返回值。EReflexMode Enum。

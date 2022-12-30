@@ -1,6 +1,6 @@
 # BytetoEnumETextureRenderTargetFo-
 
-Byte to Enum ETextureRenderTargetFormat
+字节到枚举 ETextureRenderTargetFormat
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETextureRenderTargetFormat
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETextureRenderTargetFormat Enum.
-
+返回值。ETextureRenderTargetFormat Enum。

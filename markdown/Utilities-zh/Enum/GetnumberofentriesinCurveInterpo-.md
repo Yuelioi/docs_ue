@@ -1,6 +1,6 @@
 # GetnumberofentriesinCurveInterpo-
 
-Returns CurveInterpolationType_MAX value
+返回CurveInterpolationType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns CurveInterpolationType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

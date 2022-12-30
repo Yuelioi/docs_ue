@@ -1,6 +1,6 @@
 # BytetoEnumERichTextInlineIconDis-
 
-Byte to Enum ERichTextInlineIconDisplayMode
+字节到枚举 ERichTextInlineIconDisplayMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERichTextInlineIconDisplayMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERichTextInlineIconDisplayMode Enum.
-
+返回值。ERichTextInlineIconDisplayMode枚举。

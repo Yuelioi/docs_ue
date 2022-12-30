@@ -1,6 +1,6 @@
 # LiteralenumETouchSwipeDirection
 
-Literal enum ETouchSwipeDirection
+字面意义上的枚举ETouchSwipeDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETouchSwipeDirection
 
 ## Inputs
 
-Enum: ETouchSwipeDirection Enum.  
+枚举。ETouchSwipeDirection Enum.  
 
 ## Outputs
 
-Return Value: ETouchSwipeDirection Enum.
-
+返回值。ETouchSwipeDirection Enum.

@@ -1,6 +1,6 @@
 # LiteralenumEFieldResolutionType
 
-Literal enum EFieldResolutionType
+字面意义上的EFieldResolutionType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFieldResolutionType
 
 ## Inputs
 
-Enum: EFieldResolutionType Enum.  
+枚举。EFieldResolutionType Enum.  
 
 ## Outputs
 
-Return Value: EFieldResolutionType Enum.
-
+返回值。EFieldResolutionType Enum.

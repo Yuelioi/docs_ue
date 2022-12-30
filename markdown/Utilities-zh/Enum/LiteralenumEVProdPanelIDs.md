@@ -1,6 +1,6 @@
 # LiteralenumEVProdPanelIDs
 
-Literal enum EVProdPanelIDs
+文字枚举EVProdPanelIDs
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EVProdPanelIDs
 
 ## Inputs
 
-Enum: EVProdPanelIDs Enum.  
+枚举。EVProdPanelIDs Enum.  
 
 ## Outputs
 
-Return Value: EVProdPanelIDs Enum.
-
+返回值。EVProdPanelIDs Enum.

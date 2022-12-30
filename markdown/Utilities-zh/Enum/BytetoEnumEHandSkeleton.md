@@ -1,6 +1,6 @@
 # BytetoEnumEHandSkeleton
 
-Byte to Enum EHandSkeleton
+字节到枚举EHandSkeleton
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EHandSkeleton
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EHandSkeleton Enum.
-
+返回值。EHandSkeleton Enum。

@@ -1,6 +1,6 @@
 # LiteralenumEXRSystemFlags
 
-Literal enum EXRSystemFlags
+枚举EXRSystemFlags
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EXRSystemFlags
 
 ## Inputs
 
-Enum: EXRSystemFlags Enum.  
+枚举。EXRSystemFlags Enum.  
 
 ## Outputs
 
-Return Value: EXRSystemFlags Enum.
-
+返回值。EXRSystemFlags Enum。

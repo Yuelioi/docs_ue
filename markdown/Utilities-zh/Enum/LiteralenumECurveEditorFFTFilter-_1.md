@@ -1,6 +1,6 @@
 # LiteralenumECurveEditorFFTFilter-_1
 
-Literal enum ECurveEditorFFTFilterType
+ECurveEditorFFTFilterType的字面意义。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECurveEditorFFTFilterType
 
 ## Inputs
 
-Enum: ECurveEditorFFTFilterType Enum.  
+枚举。ECurveEditorFFTFilterType Enum.  
 
 ## Outputs
 
-Return Value: ECurveEditorFFTFilterType Enum.
-
+返回值。ECurveEditorFFTFilterType Enum.

@@ -1,6 +1,6 @@
 # LiteralenumETakeRecorderActorRec-
 
-Literal enum ETakeRecorderActorRecordType
+字面意义上的枚举 ETakeRecorderActorRecordType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETakeRecorderActorRecordType
 
 ## Inputs
 
-Enum: ETakeRecorderActorRecordType Enum.  
+枚举。ETakeRecorderActorRecordType Enum.  
 
 ## Outputs
 
-Return Value: ETakeRecorderActorRecordType Enum.
-
+返回值。ETakeRecorderActorRecordType Enum。

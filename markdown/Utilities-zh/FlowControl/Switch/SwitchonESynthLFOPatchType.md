@@ -1,6 +1,6 @@
 # SwitchonESynthLFOPatchType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,9 +8,9 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESynthLFOPatchType Enum.  
+选择。ESynthLFOPatchType Enum.  
 
 ## Outputs
 
@@ -24,11 +24,10 @@ Patch To Filter Freq: Exec.
 
 Patch To Filter Q: Exec.
 
-Patch To Osc Pulse Width: Exec.
+Patch To Osc Pulse Width（滤波脉冲宽度）：Exec.
 
-Patch To Osc Pan: Exec.
+Patch To Osc Pan: 执行。
 
-Patch LFO1To LFO2Frequency: Exec.
+Patch LFO1 to LFO2F频率: 执行。
 
-Patch LFO1To LFO2Gain: Exec.
-
+Patch LFO1To LFO2Gain: 执行。

@@ -1,6 +1,6 @@
 # BytetoEnumEReflexMode
 
-Byte to Enum EReflexMode
+字节到枚举EReflexMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EReflexMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EReflexMode Enum.
-
+返回值。EReflexMode Enum。

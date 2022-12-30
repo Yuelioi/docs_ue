@@ -1,6 +1,6 @@
 # BytetoEnumELerpInterpolationMode
 
-Byte to Enum ELerpInterpolationMode
+字节到枚举 ELerpInterpolationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ELerpInterpolationMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELerpInterpolationMode Enum.
-
+返回值。ELerpInterpolationMode Enum。

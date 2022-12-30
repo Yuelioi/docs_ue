@@ -1,6 +1,6 @@
 # LiteralenumESubmixFilterAlgorith-
 
-Literal enum ESubmixFilterAlgorithm
+字面意义上的枚举ESubmixFilterAlgorithm
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESubmixFilterAlgorithm
 
 ## Inputs
 
-Enum: ESubmixFilterAlgorithm Enum.  
+枚举。ESubmixFilterAlgorithm Enum.  
 
 ## Outputs
 
-Return Value: ESubmixFilterAlgorithm Enum.
-
+返回值。ESubmixFilterAlgorithm Enum。

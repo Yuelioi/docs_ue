@@ -1,6 +1,6 @@
 # BreakBrushEffectDisplacement
 
-Adds a node that breaks a 'BrushEffectDisplacement' into its member fields
+添加一个节点，将'刷子效果位移'分解到其成员字段中
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'BrushEffectDisplacement' into its member fields
 
 ## Inputs
 
-Brush Effect Displacement: Brush Effect Displacement Structure (by ref).  
+刷子效果位移。刷子效果的位移结构（通过引用）。 
 
 ## Outputs
 
-Displacement Height: Float (single-precision). Displacement Height.
+位移高度。Float（单精度）。Displacement Height（置换高度）：置换高度。
 
-Displacement Tiling: Float (single-precision). Displacement Tiling.
+置换结构：置换结构。Float（单精度）。位移平铺。
 
-Texture: Texture 2D Object Reference. Texture.
+纹理。纹理2D对象参考。Texture（纹理）：纹理2D对象参考。
 
-Midpoint: Float (single-precision). Midpoint.
+中点。浮点（单精度）。中点：中点。
 
-Channel: Linear Color Structure. Channel.
+通道。线性颜色结构。通道。
 
-Weightmap Influence: Float (single-precision). Weightmap Influence.
-
+权重图的影响。Float（单精度）。Weightmap Influence.

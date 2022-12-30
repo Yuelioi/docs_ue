@@ -1,6 +1,6 @@
 # LiteralenumERigControlType
 
-Literal enum ERigControlType
+字面意义上的ERigControlType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERigControlType
 
 ## Inputs
 
-Enum: ERigControlType Enum.  
+枚举。ERigControlType 枚举。 
 
 ## Outputs
 
-Return Value: ERigControlType Enum.
-
+返回值。ERigControlType Enum。

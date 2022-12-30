@@ -1,6 +1,6 @@
 # LiteralenumEGoogleARCoreCameraFa-
 
-Literal enum EGoogleARCoreCameraFacing
+枚举 EGoogleARCoreCameraFacing
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGoogleARCoreCameraFacing
 
 ## Inputs
 
-Enum: EGoogleARCoreCameraFacing Enum.  
+枚举。EGoogleARCoreCameraFacing Enum。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreCameraFacing Enum.
-
+返回值。EGoogleARCoreCameraFacing Enum。

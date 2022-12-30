@@ -1,6 +1,6 @@
 # LiteralenumECollisionEnabled
 
-Literal enum ECollisionEnabled
+字面意义上的ECollisionEnabled枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECollisionEnabled
 
 ## Inputs
 
-Enum: ECollisionEnabled Enum.  
+枚举。ECollisionEnabled枚举。 
 
 ## Outputs
 
-Return Value: ECollisionEnabled Enum.
-
+返回值。ECollisionEnabled Enum.

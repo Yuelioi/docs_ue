@@ -1,6 +1,6 @@
 # BreakGameplayAbilityTargetData_L-
 
-Adds a node that breaks a 'GameplayAbilityTargetData_LocationInfo' into its member fields
+Add a node that breaks 'GameplayAbilityTargetData_LocationInfo' into its member fields
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'GameplayAbilityTargetData_LocationInfo' into its memb
 
 ## Inputs
 
-Gameplay Ability Target Data Location Info: Gameplay Ability Target Data Location Info Structure (by ref).  
+Gameplay Ability Targeting Data Location Info. gameplay Ability Targeting Data Location Info Structure (by reference). 
 
 ## Outputs
 
-Source Location: Gameplay Ability Targeting Location Info Structure. Source Location:. Generic location data for source.
+Source Location. gameplay Ability Targeting Location Info Structure. source Location: (source location). Generic location data for the source.
 
-Target Location: Gameplay Ability Targeting Location Info Structure. Target Location:. Generic location data for target.
-
+Target Location. gameplay Ability Targeting Location Info Structure. target Location:. Generic location data for the target.

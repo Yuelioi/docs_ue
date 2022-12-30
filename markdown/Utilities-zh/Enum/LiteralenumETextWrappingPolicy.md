@@ -1,6 +1,6 @@
 # LiteralenumETextWrappingPolicy
 
-Literal enum ETextWrappingPolicy
+字面意义上的ETextWrappingPolicy枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETextWrappingPolicy
 
 ## Inputs
 
-Enum: ETextWrappingPolicy Enum.  
+枚举。ETextWrappingPolicy Enum.  
 
 ## Outputs
 
-Return Value: ETextWrappingPolicy Enum.
-
+返回值。ETextWrappingPolicy Enum。

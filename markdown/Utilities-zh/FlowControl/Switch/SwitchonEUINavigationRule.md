@@ -1,6 +1,6 @@
 # SwitchonEUINavigationRule
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EUINavigationRule Enum.  
+选择。EUINavigationRule Enum.  
 
 ## Outputs
 
-Escape: Exec.
+逃逸。Exec.
 
 Explicit: Exec.
 
-Wrap: Exec.
+Wrap: 执行：Exec.
 
-Stop: Exec.
+停止：执行。
 
-Custom: Exec.
+自定义。Exec.
 
-Custom Boundary: Exec.
+自定义边界: Exec.
 
-Invalid: Exec.
-
+无效的。执行：执行

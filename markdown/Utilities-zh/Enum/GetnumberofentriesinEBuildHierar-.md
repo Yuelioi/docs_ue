@@ -1,6 +1,6 @@
 # GetnumberofentriesinEBuildHierar-
 
-Returns EBuildHierarchyMethod_MAX value
+返回EBuildHierarchyMethod_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EBuildHierarchyMethod_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

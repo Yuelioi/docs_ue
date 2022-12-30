@@ -1,6 +1,6 @@
 # SwitchonELidarPointCloudScalingM-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ELidarPointCloudScalingMethod Enum.  
+选择。ELidarPointCloudScalingMethod枚举。 
 
 ## Outputs
 
-Per Node: Exec.
+每个节点。Exec.
 
-Per Node Adaptive: Exec.
+Per Node Adaptive（每节点自适应）。执行。
 
-Per Point: Exec.
+每点：执行 执行.
 
-Fixed Screen Size: Exec.
-
+固定屏幕尺寸: Exec.

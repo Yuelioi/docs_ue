@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptSweptH-
 
-Literal enum EGeometryScriptSweptHullAxis
+字面上的枚举 EGeometryScriptSweptHullAxis
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptSweptHullAxis
 
 ## Inputs
 
-Enum: EGeometryScriptSweptHullAxis Enum.  
+枚举。EGeometryScriptSweptHullAxis Enum.  
 
 ## Outputs
 
-Return Value: EGeometryScriptSweptHullAxis Enum.
-
+返回值: EGeometryScriptSweptHullAxis Enum.

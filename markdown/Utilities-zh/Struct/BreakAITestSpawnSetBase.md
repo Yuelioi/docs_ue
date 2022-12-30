@@ -1,20 +1,19 @@
 # BreakAITestSpawnSetBase
 
-Adds a node that breaks a 'AITestSpawnSetBase' into its member fields
+添加一个打破'AITestSpawnSetBase'的节点到其成员字段中。
 
 ## 图示
 
 ![]($-20221218-14305127.png)
 
-## Inputs
+## 输入
 
-AITest Spawn Set Base: AITest Spawn Set Base Structure (by ref).  
+AITest Spawn Set Base: AITest Spawn Set Base结构（通过参考）。 
 
-## Outputs
+## 输出
 
-Name: Name. Name:. give the set a name to help identify it if need be.
+名称。名称。Name:.给这个集合一个名字，以帮助在需要时识别它。
 
-Enabled: Boolean. Enabled.
+Enabled（启用）。布尔值。Enabled（已启用）。
 
-Fallback Spawn Location: Actor Object Reference. Fallback Spawn Location:. location used for spawning if spawn info doesn't define one.
-
+后退产卵位置。演员对象参考。Fallback Spawn Location: 后备产卵位置，如果产卵信息没有定义一个产卵位置，则用于产卵。

@@ -1,6 +1,6 @@
 # SwitchonEMaterialSamplerType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,17 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMaterialSamplerType Enum.  
+选择。EMaterialSamplerType枚举。 
 
 ## Outputs
 
-Color: Exec.
+颜色：Exec.
 
 Grayscale: Exec.
 
-Alpha: Exec.
+阿尔法 Exec.
 
 Normal: Exec.
 
@@ -26,25 +26,24 @@ Masks: Exec.
 
 Distance Field Font: Exec.
 
-Linear Color: Exec.
+线性颜色: Exec.
 
 Linear Grayscale: Exec.
 
-Data: Exec.
+数据 Exec.
 
-External: Exec.
+外部数据 执行
 
-Virtual Color: Exec.
+虚拟颜色: Exec.
 
-Virtual Grayscale: Exec.
+虚拟灰度: 虚拟灰度: Exec.
 
-Virtual Alpha: Exec.
+虚拟阿尔法 虚拟Alpha: Exec.
 
-Virtual Normal: Exec.
+虚拟正态 执行
 
-Virtual Mask: Exec.
+虚拟遮罩：执行。
 
-Virtual Linear Color: Exec.
+虚拟线性颜色：执行。
 
-Virtual Linear Grayscale: Exec.
-
+虚拟线性灰度: Exec.

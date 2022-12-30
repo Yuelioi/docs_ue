@@ -1,6 +1,6 @@
 # LiteralenumETranslationUnit
 
-Literal enum ETranslationUnit
+字面意义上的ET翻译单位枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETranslationUnit
 
 ## Inputs
 
-Enum: ETranslationUnit Enum.  
+枚举。ETranslationUnit Enum.  
 
 ## Outputs
 
-Return Value: ETranslationUnit Enum.
-
+返回值。ETranslationUnit Enum。

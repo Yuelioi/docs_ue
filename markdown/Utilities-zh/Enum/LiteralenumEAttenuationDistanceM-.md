@@ -1,6 +1,6 @@
 # LiteralenumEAttenuationDistanceM-
 
-Literal enum EAttenuationDistanceModel
+字面意义上的EAttenuationDistanceModel枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAttenuationDistanceModel
 
 ## Inputs
 
-Enum: EAttenuationDistanceModel Enum.  
+枚举。EAttenuationDistanceModel Enum.  
 
 ## Outputs
 
-Return Value: EAttenuationDistanceModel Enum.
-
+返回值。EAttenuationDistanceModel Enum.

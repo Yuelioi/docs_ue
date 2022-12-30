@@ -1,6 +1,6 @@
 # LiteralenumELidarPointCloudAsync-
 
-Literal enum ELidarPointCloudAsyncMode
+枚举ELidarPointCloudAsyncMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELidarPointCloudAsyncMode
 
 ## Inputs
 
-Enum: ELidarPointCloudAsyncMode Enum.  
+枚举。ELidarPointCloudAsyncMode枚举。 
 
 ## Outputs
 
-Return Value: ELidarPointCloudAsyncMode Enum.
-
+返回值。ELidarPointCloudAsyncMode Enum。

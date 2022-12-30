@@ -1,6 +1,6 @@
 # LiteralenumECloudARPinCloudState
 
-Literal enum ECloudARPinCloudState
+ECloudARPinCloudState枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ECloudARPinCloudState
 
 ## Inputs
 
-Enum: ECloudARPinCloudState Enum.  
+枚举。ECloudARPinCloudState Enum.  
 
 ## Outputs
 
-Return Value: ECloudARPinCloudState Enum.
-
+返回值。ECloudARPinCloudState Enum。

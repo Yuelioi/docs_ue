@@ -1,6 +1,6 @@
 # BreakContextualAnimData
 
-Adds a node that breaks a 'ContextualAnimData' into its member fields
+添加一个节点，将'ContextualAnimData'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'ContextualAnimData' into its member fields
 
 ## Inputs
 
-Contextual Anim Data: Contextual Anim Data Structure (by ref).  
+上下文动画数据。语境动画数据结构（通过引用）。 
 
 ## Outputs
 
-Animation: Anim Montage Object Reference. Animation.
+动画。Anim Montage Object Reference. Animation.
 
 Anim Max Start Time: Float (single-precision). Anim Max Start Time.
 
-Require Flying Mode: Boolean. Require Flying Mode.
+要求飞行模式: 布尔值。要求飞行模式。
 
-Mesh To Scene: Transform. Mesh to Scene.
-
+Mesh To Scene: 变换。Mesh to Scene（网格到场景）。

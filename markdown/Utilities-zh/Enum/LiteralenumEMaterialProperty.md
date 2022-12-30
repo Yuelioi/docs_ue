@@ -1,6 +1,6 @@
 # LiteralenumEMaterialProperty
 
-Literal enum EMaterialProperty
+EMaterialProperty枚举的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMaterialProperty
 
 ## Inputs
 
-Enum: EMaterialProperty Enum.  
+枚举。EMaterialProperty Enum.  
 
 ## Outputs
 
-Return Value: EMaterialProperty Enum.
-
+返回值。EMaterialProperty Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEHorizontalAlignment
 
-Byte to Enum EHorizontalAlignment
+字节到枚举EHorizontalAlignment
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EHorizontalAlignment
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EHorizontalAlignment Enum.
-
+返回值。EHorizontalAlignment Enum.

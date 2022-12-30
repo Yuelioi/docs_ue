@@ -1,6 +1,6 @@
 # LiteralenumERichCurveTangentMode
 
-Literal enum ERichCurveTangentMode
+枚举ERichCurveTangentMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERichCurveTangentMode
 
 ## Inputs
 
-Enum: ERichCurveTangentMode Enum.  
+枚举。ERichCurveTangentMode Enum.  
 
 ## Outputs
 
-Return Value: ERichCurveTangentMode Enum.
-
+返回值。ERichCurveTangentMode Enum.

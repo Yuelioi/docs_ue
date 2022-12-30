@@ -1,6 +1,6 @@
 # LiteralenumEBTNodeResult
 
-Literal enum EBTNodeResult
+枚举 EBTNodeResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EBTNodeResult
 
 ## Inputs
 
-Enum: EBTNodeResult Enum.  
+枚举。EBTNodeResult Enum.  
 
 ## Outputs
 
-Return Value: EBTNodeResult Enum.
-
+返回值。EBTNodeResult Enum.

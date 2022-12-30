@@ -1,6 +1,6 @@
 # LiteralenumERigSpaceType
 
-Literal enum ERigSpaceType
+字面意义上的ERigSpaceType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERigSpaceType
 
 ## Inputs
 
-Enum: ERigSpaceType Enum.  
+枚举。ERigSpaceType 枚举。 
 
 ## Outputs
 
-Return Value: ERigSpaceType Enum.
-
+返回值。ERigSpaceType枚举。

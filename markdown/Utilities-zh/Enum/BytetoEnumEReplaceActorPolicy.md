@@ -1,6 +1,6 @@
 # BytetoEnumEReplaceActorPolicy
 
-Byte to Enum EReplaceActorPolicy
+字节到枚举 EReplaceActorPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EReplaceActorPolicy
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EReplaceActorPolicy Enum.
-
+返回值。EReplaceActorPolicy Enum。

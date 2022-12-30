@@ -1,6 +1,6 @@
 # LiteralenumEMenuPlacement
 
-Literal enum EMenuPlacement
+字面意义上的EMenuPlacement枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMenuPlacement
 
 ## Inputs
 
-Enum: EMenuPlacement Enum.  
+枚举。EMenuPlacement枚举。 
 
 ## Outputs
 
-Return Value: EMenuPlacement Enum.
-
+返回值。EMenuPlacement Enum。

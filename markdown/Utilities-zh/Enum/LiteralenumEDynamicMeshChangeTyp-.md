@@ -12,5 +12,4 @@ Enum: EDynamicMeshChangeType Enum.
 
 ## Outputs
 
-Return Value: EDynamicMeshChangeType Enum.
-
+返回值。EDynamicMeshChangeType Enum。

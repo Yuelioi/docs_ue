@@ -1,6 +1,6 @@
 # SwitchonELidarPointCloudAsyncMod-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ELidarPointCloudAsyncMode Enum.  
+选择。ELidarPointCloudAsyncMode枚举。 
 
 ## Outputs
 
-Success: Exec.
+成功。执行。
 
-Failure: Exec.
+失败。执行。
 
-Progress: Exec.
-
+进步。执行。

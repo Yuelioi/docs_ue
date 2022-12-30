@@ -1,6 +1,6 @@
 # SwitchonEARAltitudeSource
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARAltitudeSource Enum.  
+选择。EARAltitudeSource Enum.  
 
 ## Outputs
 
-Precise: Exec.
+精确。精确：Exec.
 
-Coarse: Exec.
+粗略的 执行。
 
-User Defined: Exec.
+用户定义的。Exec.
 
-Unknown: Exec.
-
+未知 Exec.

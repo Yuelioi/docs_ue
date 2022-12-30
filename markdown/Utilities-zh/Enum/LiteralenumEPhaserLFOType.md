@@ -1,6 +1,6 @@
 # LiteralenumEPhaserLFOType
 
-Literal enum EPhaserLFOType
+字面意义上的枚举：EPhaserLFOType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EPhaserLFOType
 
 ## Inputs
 
-Enum: EPhaserLFOType Enum.  
+枚举。EPhaserLFOType Enum.  
 
 ## Outputs
 
-Return Value: EPhaserLFOType Enum.
-
+返回值。EPhaserLFOType Enum.

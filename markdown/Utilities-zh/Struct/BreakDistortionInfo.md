@@ -1,6 +1,6 @@
 # BreakDistortionInfo
 
-Adds a node that breaks a 'DistortionInfo' into its member fields
+添加一个节点，将'DistortionInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'DistortionInfo' into its member fields
 
 ## Inputs
 
-Distortion Info: Distortion Info Structure (by ref).  
+失真信息。畸变信息结构（通过引用）。 
 
 ## Outputs
 
-Parameters: Array of Float (single-precision)s. Parameters:. Generic array of floating-point lens distortion parameters.
-
+参数。Float（单精度）的数组。参数：. 通用的浮点镜头失真参数数组。

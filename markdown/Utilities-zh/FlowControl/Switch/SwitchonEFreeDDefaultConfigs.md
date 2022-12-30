@@ -1,6 +1,6 @@
 # SwitchonEFreeDDefaultConfigs
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EFreeDDefaultConfigs Enum.  
+选择。EFreeDDefaultConfigs Enum.  
 
 ## Outputs
 
 Generic: Exec.
 
-Panasonic: Exec.
+松下电器 Exec.
 
-Sony: Exec.
+Sony: Exec: Exec.
 
 St Ype: Exec.
 
 Mosys: Exec.
 
-Ncam: Exec.
-
+Ncam: 执行

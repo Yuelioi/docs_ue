@@ -1,6 +1,6 @@
 # LiteralenumEBoundaryType
 
-Literal enum EBoundaryType
+字面意义上的EB边界类型枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EBoundaryType
 
 ## Inputs
 
-Enum: EBoundaryType Enum.  
+枚举。EBoundaryType Enum。 
 
 ## Outputs
 
-Return Value: EBoundaryType Enum.
-
+返回值。EBoundaryType Enum。

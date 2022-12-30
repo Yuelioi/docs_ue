@@ -1,6 +1,6 @@
 # BytetoEnumEVisibilityBasedAnimTi-
 
-Byte to Enum EVisibilityBasedAnimTickOption
+字节到枚举EVisibilityBasedAnimTickOption
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EVisibilityBasedAnimTickOption
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EVisibilityBasedAnimTickOption Enum.
-
+返回值。EVisibilityBasedAnimTickOption Enum。

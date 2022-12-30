@@ -1,6 +1,6 @@
 # Equal
 
-Equal
+平等
 
 ## 图示
 
@@ -8,11 +8,10 @@ Equal
 
 ## Inputs
 
-A: Wildcard.
+A: 通配符。
 
-B: Wildcard.  
+B：通配符。 
 
 ## Outputs
 
-Return Value: Boolean. Returns true if the values are equal (A == B).
-
+返回值。布尔值。如果数值相等（A == B）则返回真。

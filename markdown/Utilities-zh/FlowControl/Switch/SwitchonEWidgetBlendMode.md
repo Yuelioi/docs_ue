@@ -1,6 +1,6 @@
 # SwitchonEWidgetBlendMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EWidgetBlendMode Enum.  
+选择。EWidgetBlendMode Enum.  
 
 ## Outputs
 
-Opaque: Exec.
+不透明的。Exec.
 
-Masked: Exec.
+Masked: 屏蔽的。Exec.
 
-Transparent: Exec.
-
+透明的 Exec.

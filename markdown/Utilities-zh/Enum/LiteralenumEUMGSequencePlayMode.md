@@ -1,6 +1,6 @@
 # LiteralenumEUMGSequencePlayMode
 
-Literal enum EUMGSequencePlayMode
+枚举 EUMGSequencePlayMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EUMGSequencePlayMode
 
 ## Inputs
 
-Enum: EUMGSequencePlayMode Enum.  
+枚举。EUMGSequencePlayMode Enum.  
 
 ## Outputs
 
-Return Value: EUMGSequencePlayMode Enum.
-
+返回值。EUMGSequencePlayMode Enum。

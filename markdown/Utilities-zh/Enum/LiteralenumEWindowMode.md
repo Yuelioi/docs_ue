@@ -1,6 +1,6 @@
 # LiteralenumEWindowMode
 
-Literal enum EWindowMode
+EWindowMode枚举的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWindowMode
 
 ## Inputs
 
-Enum: EWindowMode Enum.  
+枚举。EWindowMode Enum.  
 
 ## Outputs
 
-Return Value: EWindowMode Enum.
-
+返回值。EWindowMode Enum.

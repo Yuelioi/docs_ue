@@ -1,6 +1,6 @@
 # GetnumberofentriesinEToolMenuStr-
 
-Returns EToolMenuStringCommandType_MAX value
+返回EToolMenuStringCommandType_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EToolMenuStringCommandType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

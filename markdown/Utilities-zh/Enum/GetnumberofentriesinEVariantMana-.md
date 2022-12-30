@@ -1,6 +1,6 @@
 # GetnumberofentriesinEVariantMana-
 
-Returns EVariantManagerTestEnum_MAX value
+返回EVariantManagerTestEnum_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EVariantManagerTestEnum_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -21,4 +21,3 @@ Child Element Inclusion Method: ETypedElementChildInclusionMethod Enum. Child El
 ## Outputs
 
 Typed Element Selection Options: Typed Element Selection Options Structure.
-

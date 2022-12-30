@@ -1,6 +1,6 @@
 # LiteralenumEEyeTrackerStatus
 
-Literal enum EEyeTrackerStatus
+字面意义上的EEyeTrackerStatus枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EEyeTrackerStatus
 
 ## Inputs
 
-Enum: EEyeTrackerStatus Enum.  
+Enum: EEyeTrackerStatus枚举。 
 
 ## Outputs
 
-Return Value: EEyeTrackerStatus Enum.
-
+返回值。EEyeTrackerStatus Enum。

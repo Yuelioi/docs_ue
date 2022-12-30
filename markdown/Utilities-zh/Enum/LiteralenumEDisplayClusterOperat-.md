@@ -1,6 +1,6 @@
 # LiteralenumEDisplayClusterOperat-
 
-Literal enum EDisplayClusterOperationMode
+字面意义上的枚举 EDClusterOperationMode显示集群操作模式
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDisplayClusterOperationMode
 
 ## Inputs
 
-Enum: EDisplayClusterOperationMode Enum.  
+枚举。EDisplayClusterOperationMode枚举。 
 
 ## Outputs
 
-Return Value: EDisplayClusterOperationMode Enum.
-
+返回值。EDisplayClusterOperationMode Enum.

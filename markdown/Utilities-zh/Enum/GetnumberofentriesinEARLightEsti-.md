@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARLightEsti-
 
-Returns EARLightEstimationMode_MAX value
+返回EARLightEstimationMode_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARLightEstimationMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

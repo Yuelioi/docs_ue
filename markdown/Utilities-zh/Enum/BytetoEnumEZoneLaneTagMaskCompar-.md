@@ -1,6 +1,6 @@
 # BytetoEnumEZoneLaneTagMaskCompar-
 
-Byte to Enum EZoneLaneTagMaskComparison
+字节到枚举 EZoneLaneTagMaskComparison
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EZoneLaneTagMaskComparison
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EZoneLaneTagMaskComparison Enum.
-
+返回值。EZoneLaneTagMaskComparison Enum。

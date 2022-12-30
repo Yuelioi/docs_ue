@@ -1,6 +1,6 @@
 # LiteralenumEColorCorrectRegionsT-
 
-Literal enum EColorCorrectRegionsType
+字面意义上的枚举：EC ColorCorrectRegionsType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EColorCorrectRegionsType
 
 ## Inputs
 
-Enum: EColorCorrectRegionsType Enum.  
+枚举。EC ColorCorrectRegionsType Enum.  
 
 ## Outputs
 
-Return Value: EColorCorrectRegionsType Enum.
-
+返回值。EC ColorCorrectRegionsType Enum。

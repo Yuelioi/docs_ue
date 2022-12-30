@@ -1,6 +1,6 @@
 # LocalString
 
-Local temporary String variable
+本地临时字符串变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary String variable
 
 ## Outputs
 
-Variable: String.
-
+变量。字符串。

@@ -1,6 +1,6 @@
 # LiteralenumERotationUnit
 
-Literal enum ERotationUnit
+字面意义上的ERotationUnit枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERotationUnit
 
 ## Inputs
 
-Enum: ERotationUnit Enum.  
+枚举。ERotationUnit枚举。 
 
 ## Outputs
 
-Return Value: ERotationUnit Enum.
-
+返回值。ERotationUnit Enum。

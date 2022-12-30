@@ -1,6 +1,6 @@
 # LiteralenumEDynamicBoxType
 
-Literal enum EDynamicBoxType
+字面意义上的EDynamicBoxType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDynamicBoxType
 
 ## Inputs
 
-Enum: EDynamicBoxType Enum.  
+枚举。EDynamicBoxType枚举。 
 
 ## Outputs
 
-Return Value: EDynamicBoxType Enum.
-
+返回值。EDynamicBoxType Enum。

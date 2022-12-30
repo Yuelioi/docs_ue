@@ -1,6 +1,6 @@
 # LiteralenumEFieldIntegerType
 
-Literal enum EFieldIntegerType
+字面意义上的EFieldIntegerType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFieldIntegerType
 
 ## Inputs
 
-Enum: EFieldIntegerType Enum.  
+枚举。EFieldIntegerType Enum.  
 
 ## Outputs
 
-Return Value: EFieldIntegerType Enum.
-
+返回值。EFieldIntegerType Enum.

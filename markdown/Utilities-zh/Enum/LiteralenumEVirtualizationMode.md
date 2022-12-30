@@ -1,6 +1,6 @@
 # LiteralenumEVirtualizationMode
 
-Literal enum EVirtualizationMode
+字面意义上的EVirtualizationMode枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EVirtualizationMode
 
 ## Inputs
 
-Enum: EVirtualizationMode Enum.  
+枚举。EVirtualizationMode枚举。 
 
 ## Outputs
 
-Return Value: EVirtualizationMode Enum.
-
+返回值。EVirtualizationMode Enum。

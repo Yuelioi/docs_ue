@@ -1,6 +1,6 @@
 # BytetoEnumEOculusHandType
 
-Byte to Enum EOculusHandType
+字节到枚举 EOculusHandType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EOculusHandType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EOculusHandType Enum.
-
+返回值。EOculusHandType Enum。

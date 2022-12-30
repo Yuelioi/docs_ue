@@ -1,6 +1,6 @@
 # LiteralenumETakeRecorderMode
 
-Literal enum ETakeRecorderMode
+字面意义上的ETakeRecorderMode枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETakeRecorderMode
 
 ## Inputs
 
-Enum: ETakeRecorderMode Enum.  
+枚举。ETakeRecorderMode枚举。 
 
 ## Outputs
 
-Return Value: ETakeRecorderMode Enum.
-
+返回值。ETakeRecorderMode Enum。

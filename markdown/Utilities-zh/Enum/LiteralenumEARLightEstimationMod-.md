@@ -1,6 +1,6 @@
 # LiteralenumEARLightEstimationMod-
 
-Literal enum EARLightEstimationMode
+EARLightEstimationMode的文字枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARLightEstimationMode
 
 ## Inputs
 
-Enum: EARLightEstimationMode Enum.  
+枚举。EARLightEstimationMode Enum.  
 
 ## Outputs
 
-Return Value: EARLightEstimationMode Enum.
-
+返回值。EARLightEstimationMode Enum.

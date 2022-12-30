@@ -1,6 +1,6 @@
 # BreakDetectedFaceFeatureRegion
 
-Adds a node that breaks a 'DetectedFaceFeatureRegion' into its member fields
+添加一个节点，将'DetectedFaceFeatureRegion'分解为其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DetectedFaceFeatureRegion' into its member fields
 
 ## Inputs
 
-Detected Face Feature Region: Detected Face Feature Region Structure (by ref).  
+检测到的脸部特征区域。检测到的人脸特征区域结构（通过引用）。 
 
 ## Outputs
 
-Feature Type: EDetectedFaceFeatureType Enum. Feature Type:. The type of region that was detected.
+特征类型。EDetectedFaceFeatureType枚举。特征类型：。被检测到的区域的类型。
 
-Points: Array of Vector 2D Structures. Points:. The set of points that encompass the detected feature area.
+点。矢量二维结构的阵列。点：。包含检测到的特征区域的点的集合。
 
-Confidence: Float (single-precision). Confidence:. How confident the ML was in determining this feature and its type.
-
+信度。Float（单精度）。信度：。ML在确定该特征及其类型时的信心程度。

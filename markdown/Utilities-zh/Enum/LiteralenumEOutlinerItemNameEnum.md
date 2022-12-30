@@ -1,6 +1,6 @@
 # LiteralenumEOutlinerItemNameEnum
 
-Literal enum EOutlinerItemNameEnum
+枚举EOutlinerItemNameEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EOutlinerItemNameEnum
 
 ## Inputs
 
-Enum: EOutlinerItemNameEnum Enum.  
+枚举。EOutlinerItemNameEnum枚举。 
 
 ## Outputs
 
-Return Value: EOutlinerItemNameEnum Enum.
-
+返回值。EOutlinerItemNameEnum枚举。

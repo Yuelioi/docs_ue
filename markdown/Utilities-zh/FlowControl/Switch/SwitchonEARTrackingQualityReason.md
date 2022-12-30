@@ -1,6 +1,6 @@
 # SwitchonEARTrackingQualityReason
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARTrackingQualityReason Enum.  
+选择。EARTrackingQualityReason 枚举。 
 
 ## Outputs
 
-None: Exec.
+无。执行。
 
-Initializing: Exec.
+初始化。执行。
 
-Relocalizing: Exec.
+重新定位。执行。
 
-Excessive Motion: Exec.
+过度运动。执行。
 
-Insufficient Features: Exec.
+不充分的特征。异常。
 
-Insufficient Light: Exec.
+光线不足: 执行。
 
-Bad State: Exec.
-
+坏的状态。执行.

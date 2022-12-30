@@ -1,6 +1,6 @@
 # SwitchonEAttenuationDistanceMode-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAttenuationDistanceModel Enum.  
+选择。EAttenuationDistanceModel Enum.  
 
 ## Outputs
 
-Linear: Exec.
+线性。Exec.
 
 Logarithmic: Exec.
 
-Inverse: Exec.
+逆向。执行。
 
-Log Reverse: Exec.
+对数反转。Exec.
 
-Natural Sound: Exec.
+自然声。Exec.
 
-Custom: Exec.
-
+自定义。执行.

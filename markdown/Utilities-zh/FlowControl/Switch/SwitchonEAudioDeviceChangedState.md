@@ -1,6 +1,6 @@
 # SwitchonEAudioDeviceChangedState
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAudioDeviceChangedState Enum.  
+选择。EAudioDeviceChangedState枚举。 
 
 ## Outputs
 
-Invalid: Exec.
+无效。Exec.
 
-Active: Exec.
+活跃的。Exec.
 
-Disabled: Exec.
+已禁用。执行
 
-Not Present: Exec.
+不存在。Exec.
 
-Unplugged: Exec.
-
+拔掉插头。Exec.

@@ -1,6 +1,6 @@
 # LiteralenumEStereoDelaySourceEff-
 
-Literal enum EStereoDelaySourceEffect
+枚举EStereoDelaySourceEffect
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EStereoDelaySourceEffect
 
 ## Inputs
 
-Enum: EStereoDelaySourceEffect Enum.  
+枚举。EStereoDelaySourceEffect Enum.  
 
 ## Outputs
 
-Return Value: EStereoDelaySourceEffect Enum.
-
+返回值。EStereoDelaySourceEffect Enum。

@@ -1,6 +1,6 @@
 # LiteralenumEGameplayAbilityRepli-
 
-Literal enum EGameplayAbilityReplicationPolicy
+字面意义上的枚举：EGameplayAbilityReplicationPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayAbilityReplicationPolicy
 
 ## Inputs
 
-Enum: EGameplayAbilityReplicationPolicy Enum.  
+Enum: EGameplayAbilityReplicationPolicy枚举。 
 
 ## Outputs
 
-Return Value: EGameplayAbilityReplicationPolicy Enum.
-
+返回值。EGameplayAbilityReplicationPolicy Enum。

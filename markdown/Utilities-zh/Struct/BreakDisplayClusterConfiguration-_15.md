@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-_15
 
-Adds a node that breaks a 'DisplayClusterConfigurationProjection' into its member fields
+添加一个节点，将'DisplayClusterConfigurationProjection'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DisplayClusterConfigurationProjection' into its membe
 
 ## Inputs
 
-Display Cluster Configuration Projection: Display Cluster Configuration Projection Structure (by ref).  
+显示群集配置投影。显示集群配置投影结构（通过引用）。 
 
 ## Outputs
 
-Type: String. Type:. Polymorphic entity type.
+类型。字符串。类型:。多态的实体类型。
 
-Parameters: Map of Strings to Strings. Parameters:. Generic parameters map.
-
+参数。字符串到字符串的映射。参数:。通用参数映射。

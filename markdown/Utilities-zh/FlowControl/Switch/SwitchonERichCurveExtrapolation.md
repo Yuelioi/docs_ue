@@ -1,6 +1,6 @@
 # SwitchonERichCurveExtrapolation
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,21 +8,20 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERichCurveExtrapolation Enum.  
+选择。ERichCurveExtrapolation Enum.  
 
 ## Outputs
 
-Cycle: Exec.
+循环。Exec.
 
 Cycle with Offset: Exec.
 
-Oscillate: Exec.
+振荡。执行
 
-Linear: Exec.
+线性 执行
 
-Constant: Exec.
+恒定：执行。
 
-None: Exec.
-
+没有。Exec.

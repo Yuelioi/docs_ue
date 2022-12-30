@@ -1,6 +1,6 @@
 # BytetoEnumEHandKeypoint
 
-Byte to Enum EHandKeypoint
+字节到枚举 EHandKeypoint
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EHandKeypoint
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EHandKeypoint Enum.
-
+返回值。EHandKeypoint Enum.

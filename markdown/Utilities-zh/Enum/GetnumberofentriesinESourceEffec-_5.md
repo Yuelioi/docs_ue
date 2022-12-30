@@ -1,6 +1,6 @@
 # GetnumberofentriesinESourceEffec-_5
 
-Returns ESourceEffectMotionFilterTopology_MAX value
+返回ESourceEffectMotionFilterTopology_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ESourceEffectMotionFilterTopology_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

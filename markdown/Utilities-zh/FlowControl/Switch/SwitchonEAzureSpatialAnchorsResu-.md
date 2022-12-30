@@ -1,6 +1,6 @@
 # SwitchonEAzureSpatialAnchorsResu-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,51 +8,50 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAzureSpatialAnchorsResult Enum.  
+选择。EAzureSpatialAnchorsResult枚举。 
 
 ## Outputs
 
-Success: Exec.
+成功。执行。
 
-Not Started: Exec.
+未开始。执行。
 
-Started: Exec.
+已开始。执行。
 
-Fail Already Started: Exec.
+失败 已经开始。执行。
 
-Fail No ARPin: Exec.
+失败 No ARPin: Exec.
 
-Fail Bad Local Anchor ID: Exec.
+失败 本地锚点ID错误。执行。
 
-Fail Bad Cloud Anchor Identifier: Exec.
+失败 糟糕的云端锚点标识符。执行。
 
-Fail Anchor Id Already Used: Exec.
+失败 锚点标识已被使用。失败 锚点标识已被使用: Exec.
 
-Fail Anchor Does Not Exist: Exec.
+失败 锚点不存在。失败
 
-Fail Anchor Already Tracked: Exec.
+失败的锚点已被追踪。执行。
 
-Fail No Anchor: Exec.
+失败 没有锚点。执行。
 
-Fail No Cloud Anchor: Exec.
+失败 没有云锚。Exec.
 
-Fail No Local Anchor: Exec.
+失败 没有本地锚点。执行。
 
-Fail No Session: Exec.
+失败 没有会话。执行。
 
-Fail No Watcher: Exec.
+失败 没有观察者。执行。
 
-Fail Not Enough Data: Exec.
+失败 没有足够的数据。执行。
 
-Fail Bad Lifetime: Exec.
+失败 寿命太长。执行。
 
-Fail See Error String: Exec.
+失败 参见错误字符串。执行。
 
-Not Located: Exec.
+未定位。Exec.
 
-Canceled: Exec.
+取消了。Exec.
 
-Fail Unknown: Exec.
-
+失败未知。执行。

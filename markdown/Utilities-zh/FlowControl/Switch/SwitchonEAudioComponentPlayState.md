@@ -1,6 +1,6 @@
 # SwitchonEAudioComponentPlayState
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EAudioComponentPlayState Enum.  
+选择。EAudioComponentPlayState Enum.  
 
 ## Outputs
 
-Playing: Exec.
+正在播放。Exec.
 
-Stopped: Exec.
+已停止。Exec.
 
-Paused: Exec.
+暂停 Exec.
 
-Fading In: Exec.
+渐入佳境。执行.
 
-Fading Out: Exec.
-
+渐渐消失。执行。

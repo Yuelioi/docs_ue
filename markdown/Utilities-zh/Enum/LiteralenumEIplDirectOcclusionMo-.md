@@ -1,6 +1,6 @@
 # LiteralenumEIplDirectOcclusionMo-
 
-Literal enum EIplDirectOcclusionMode
+枚举 EIplDirectOcclusionMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EIplDirectOcclusionMode
 
 ## Inputs
 
-Enum: EIplDirectOcclusionMode Enum.  
+枚举。EIplDirectOcclusionMode枚举。 
 
 ## Outputs
 
-Return Value: EIplDirectOcclusionMode Enum.
-
+返回值。EIplDirectOcclusionMode Enum.

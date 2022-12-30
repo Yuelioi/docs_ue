@@ -1,6 +1,6 @@
 # BytetoEnumETextGender
 
-Byte to Enum ETextGender
+字节到枚举 ETextGender
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETextGender
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETextGender Enum.
-
+返回值。ETextGender Enum。

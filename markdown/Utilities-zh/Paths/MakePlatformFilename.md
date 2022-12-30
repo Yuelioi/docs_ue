@@ -1,8 +1,8 @@
 # MakePlatformFilename
 
-Takes an "Unreal" pathname and converts it to a platform filename.
+获取一个 "Unreal "路径名并将其转换为一个平台文件名。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Path: String.  
+在路径中。字符串。 
 
 ## Outputs
 
-Out Path: String.
-
+输出路径。字符串。

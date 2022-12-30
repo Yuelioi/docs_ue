@@ -1,6 +1,6 @@
 # LiteralenumESourceEffectDynamics-
 
-Literal enum ESourceEffectDynamicsPeakMode
+枚举ESourceEffectDynamicsPeakMode的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESourceEffectDynamicsPeakMode
 
 ## Inputs
 
-Enum: ESourceEffectDynamicsPeakMode Enum.  
+枚举。ESourceEffectDynamicsPeakMode Enum.  
 
 ## Outputs
 
-Return Value: ESourceEffectDynamicsPeakMode Enum.
-
+返回值。ESourceEffectDynamicsPeakMode Enum.

@@ -1,6 +1,6 @@
 # BytetoEnumEVariantManagerTestEnu-
 
-Byte to Enum EVariantManagerTestEnum
+字节到枚举 EVariantManagerTestEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EVariantManagerTestEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EVariantManagerTestEnum Enum.
-
+返回值。EVariantManagerTestEnum枚举。

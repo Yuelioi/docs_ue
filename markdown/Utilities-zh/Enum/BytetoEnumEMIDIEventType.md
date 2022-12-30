@@ -1,6 +1,6 @@
 # BytetoEnumEMIDIEventType
 
-Byte to Enum EMIDIEventType
+字节到枚举EMIDIEventType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMIDIEventType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMIDIEventType Enum.
-
+返回值。EMIDIEventType Enum。

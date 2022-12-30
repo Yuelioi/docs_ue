@@ -1,6 +1,6 @@
 # Getnumberofentri-_3
 
-Returns EAnimNodeReferenceConversionResult_MAX value
+返回EAnimNodeReferenceConversionResult_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAnimNodeReferenceConversionResult_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

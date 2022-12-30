@@ -1,6 +1,6 @@
 # LiteralenumETextureShareBPSyncFr-
 
-Literal enum ETextureShareBPSyncFrame
+枚举 ETextureShareBPSyrame
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ETextureShareBPSyncFrame
 
 ## Inputs
 
-Enum: ETextureShareBPSyncFrame Enum.  
+枚举。ETextureShareBPSyrame Enum.  
 
 ## Outputs
 
-Return Value: ETextureShareBPSyncFrame Enum.
-
+返回值。ETextureShareBPSyncFrame Enum.

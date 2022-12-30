@@ -1,6 +1,6 @@
 # BreakAssetRenameData
 
-Adds a node that breaks a 'AssetRenameData' into its member fields
+添加一个节点，将'AssetRenameData'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'AssetRenameData' into its member fields
 
 ## Inputs
 
-Asset Rename Data: Asset Rename Data Structure (by ref).  
+资产重命名数据。资产重命名数据结构（通过引用）。 
 
 ## Outputs
 
-Asset: Object Weak object. Asset:. Object being renamed.
+Asset: Object 弱化对象。资产：。被重命名的对象。
 
-New Package Path: String. New Package Path:. New path to package without package name, ie /Game/SubDirectory.
+新包路径。字符串。New Package Path:.新包路径。包的新路径，没有包的名称，即/Game/SubDirectory。
 
-New Name: String. New Name:. New package and asset name, new object path will be PackagePath/NewName.NewName.
-
+新名称。字符串。新名称:. 新的包和资产名称，新的对象路径将是PackagePath/NewName.NewName。

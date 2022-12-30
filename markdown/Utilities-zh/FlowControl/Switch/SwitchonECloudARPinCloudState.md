@@ -1,6 +1,6 @@
 # SwitchonECloudARPinCloudState
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,33 +8,32 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ECloudARPinCloudState Enum.  
+选择。ECloudARPinCloudState Enum.  
 
 ## Outputs
 
-Not Hosted: Exec.
+未被托管。执行中。
 
-In Progress: Exec.
+正在进行中。执行。
 
-Success: Exec.
+成功。执行。
 
-Error Internal Error: Exec.
+错误 内部错误。执行。
 
-Error Not Authorized: Exec.
+错误 未获授权。执行。
 
-Error Localization Failure: Exec.
+错误 本地化失败。Exec.
 
-Error Service Unavailable: Exec.
+错误 服务不可用。执行。
 
-Error Resource Exhausted: Exec.
+错误 资源已用尽。错误
 
-Error Hosting Dataset Processing Failed: Exec.
+错误 托管数据集处理失败。执行。
 
-Error Resolving Cloud IDNot Found: Exec.
+Error Resolving Cloud IDNot Found: 执行.
 
-Error SDKVersion Too Old: Exec.
+Error SDKVersion Too Old: 执行.
 
-Error SDKVersion Too New: Exec.
-
+Error SDKVersion Too New: 执行.

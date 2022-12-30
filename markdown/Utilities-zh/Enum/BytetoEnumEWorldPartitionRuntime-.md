@@ -1,6 +1,6 @@
 # BytetoEnumEWorldPartitionRuntime-
 
-Byte to Enum EWorldPartitionRuntimeCellState
+字节到枚举 EWorldPartitionRuntimeCellState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EWorldPartitionRuntimeCellState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWorldPartitionRuntimeCellState Enum.
-
+返回值。EWorldPartitionRuntimeCellState Enum.

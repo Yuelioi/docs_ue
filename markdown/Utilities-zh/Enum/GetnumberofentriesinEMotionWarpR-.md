@@ -1,6 +1,6 @@
 # GetnumberofentriesinEMotionWarpR-
 
-Returns EMotionWarpRotationType_MAX value
+返回EMotionWarpRotationType_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EMotionWarpRotationType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

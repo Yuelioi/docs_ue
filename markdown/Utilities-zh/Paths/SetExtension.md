@@ -1,8 +1,8 @@
 # SetExtension
 
-Sets the extension of the given filename (like ChangeExtension, but also applies the extension if the file doesn't have one)
+设置给定文件名的扩展名（与ChangeExtension类似，但如果文件没有扩展名，也会应用扩展名）。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Blueprint Paths Library
 
 ## Inputs
 
-In Path: String.
+在路径中。字符串。
 
-In New Extension: String.  
+在新扩展名中。字符串。 
 
 ## Outputs
 
-Return Value: String. Sets the extension of the given filename (like ChangeExtension, but also applies the extension if the file doesn't have one).
-
+返回值。字符串。设置给定文件名的扩展名（与ChangeExtension类似，但如果文件没有扩展名也会应用扩展名）。

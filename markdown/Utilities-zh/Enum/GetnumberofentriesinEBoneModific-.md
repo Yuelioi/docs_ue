@@ -1,6 +1,6 @@
 # GetnumberofentriesinEBoneModific-
 
-Returns EBoneModificationMode_MAX value
+返回EBoneModificationMode_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EBoneModificationMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

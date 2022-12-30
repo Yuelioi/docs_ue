@@ -1,6 +1,6 @@
 # SwitchonEGameplayAbilityInputBin-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,27 +8,26 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGameplayAbilityInputBinds Enum.  
+选择。EGameplayAbilityInputBinds枚举。 
 
 ## Outputs
 
-Ability 1 (LMB): Exec.
+能力1（LMB）：执行。
 
-Ability 2 (RMB): Exec.
+能力2 (RMB)：执行。
 
-Ability 3 (Q): Exec.
+能力3 (Q)：执行。
 
-Ability 4 (E): Exec.
+能力4 (E)：执行。
 
-Ability 5 (R): Exec.
+能力5 (R)：执行。
 
-Ability 6 (Shift): Exec.
+能力6 (Shift): 执行。
 
-Ability 7 (Space): Exec.
+能力7（空格）。执行。
 
-Ability 8 (B): Exec.
+能力8 (B): 执行。
 
-Ability 9 (T): Exec.
-
+能力9 (T): 执行。

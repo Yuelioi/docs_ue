@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFColorSpace
 
-Adds a node that breaks a 'DMXImportGDTFColorSpace' into its member fields
+添加一个节点，将'DMXImportGDTFColorSpace'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'DMXImportGDTFColorSpace' into its member fields
 
 ## Inputs
 
-DMXImport GDTFColor Space: DMXImport GDTFColor Space Structure (by ref).  
+DMXImport GDTFColor Space。DMXImport GDTFColor Space结构（通过引用）。 
 
 ## Outputs
 
-Mode: EDMXImportGDTFMode Enum. Mode.
+模式。EDMXImportGDTFMode枚举。模式。
 
-Description: String. Description.
+描述。字符串。描述。
 
-Red: DMXColor CIE Structure. Red.
+红色。DMXColor CIE结构。红色: DMX颜色CIE结构。
 
-Green: DMXColor CIE Structure. Green.
+绿色。DMXColor CIE结构。绿色: 绿色。
 
-Blue: DMXColor CIE Structure. Blue.
+蓝色。DMXColor CIE Structure. 蓝色。
 
-White Point: DMXColor CIE Structure. White Point.
-
+白点。DMXColor CIE结构。白点：白点。

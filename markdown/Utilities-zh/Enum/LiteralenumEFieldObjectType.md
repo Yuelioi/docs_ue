@@ -1,6 +1,6 @@
 # LiteralenumEFieldObjectType
 
-Literal enum EFieldObjectType
+字面意义上的EFieldObjectType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFieldObjectType
 
 ## Inputs
 
-Enum: EFieldObjectType Enum.  
+枚举。EFieldObjectType Enum.  
 
 ## Outputs
 
-Return Value: EFieldObjectType Enum.
-
+返回值。EFieldObjectType Enum.

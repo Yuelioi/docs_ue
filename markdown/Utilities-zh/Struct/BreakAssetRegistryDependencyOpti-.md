@@ -1,6 +1,6 @@
 # BreakAssetRegistryDependencyOpti-
 
-Adds a node that breaks a 'AssetRegistryDependencyOptions' into its member fields
+添加一个节点，将'AssetRegistryDependencyOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'AssetRegistryDependencyOptions' into its member field
 
 ## Inputs
 
-Asset Registry Dependency Options: Asset Registry Dependency Options Structure (by ref).  
+资产注册表依赖性选项。资产注册表依赖性选项结构（通过引用）。 
 
 ## Outputs
 
-Include Soft Package References: Boolean. Include Soft Package References:. Dependencies which don't need to be loaded for the object to be used (i.e. soft object paths).
+包括软包引用。布尔值。包括软包引用：。使用对象时不需要加载的依赖项（即软对象路径）。
 
-Include Hard Package References: Boolean. Include Hard Package References:. Dependencies which are required for correct usage of the source asset, and must be loaded at the same time.
+包括硬包引用。布尔值。包括硬包引用：。正确使用源资产所需的依赖，并且必须同时加载。
 
-Include Searchable Names: Boolean. Include Searchable Names:. References to specific SearchableNames inside a package.
+包括可搜索名称。布尔型。包括可搜索的名称：。对包内特定SearchableNames的引用。
 
-Include Soft Management References: Boolean. Include Soft Management References:. Indirect management references, these are set through recursion for Primary Assets that manage packages or other primary assets.
+包括软管理引用。布尔型。包括软管理引用：。间接的管理引用，这些是通过递归为管理包或其他主要资产的主要资产而设置的。
 
-Include Hard Management References: Boolean. Include Hard Management References:. Reference that says one object directly manages another object, set when Primary Assets manage things explicitly.
-
+包括硬管理引用。布尔值。包括硬管理引用：。表示一个对象直接管理另一个对象的引用，在主资产明确管理事物时设置。

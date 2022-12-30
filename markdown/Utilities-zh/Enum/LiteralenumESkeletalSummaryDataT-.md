@@ -1,6 +1,6 @@
 # LiteralenumESkeletalSummaryDataT-
 
-Literal enum ESkeletalSummaryDataType
+字面意义上的枚举ESkeletalSummaryDataType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESkeletalSummaryDataType
 
 ## Inputs
 
-Enum: ESkeletalSummaryDataType Enum.  
+枚举。ESkeletalSummaryDataType枚举。 
 
 ## Outputs
 
-Return Value: ESkeletalSummaryDataType Enum.
-
+返回值。ESkeletalSummaryDataType Enum。

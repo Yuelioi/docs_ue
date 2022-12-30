@@ -1,6 +1,6 @@
 # MakePredictProjectilePathResult
 
-Adds a node that create a 'PredictProjectilePathResult' from its members
+添加一个节点，从其成员中创建一个'PredictProjectilePathResult'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PredictProjectilePathResult' from its members
 
 ## Outputs
 
-Predict Projectile Path Result: Predict Projectile Path Result Structure.
-
+预测射弹路径结果。预测射弹路径结果的结构。

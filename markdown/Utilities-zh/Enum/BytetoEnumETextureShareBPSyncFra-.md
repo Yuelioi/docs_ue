@@ -1,6 +1,6 @@
 # BytetoEnumETextureShareBPSyncFra-
 
-Byte to Enum ETextureShareBPSyncFrame
+字节到枚举 ETextureShareBPSyrame
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETextureShareBPSyncFrame
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETextureShareBPSyncFrame Enum.
-
+返回值。ETextureShareBPSyncFrame Enum。

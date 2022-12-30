@@ -1,8 +1,8 @@
 # ToString_InputActionValue
 
-Converts a FInputActionValue to a string
+将一个FInputActionValue转换为一个字符串
 
-Target is Enhanced Input Library
+目标是增强型输入库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Enhanced Input Library
 
 ## Inputs
 
-Action Value: Input Action Value Structure.  
+动作值。输入动作值结构。 
 
 ## Outputs
 
-Return Value: String. Converts a FInputActionValue to a string.
-
+返回值。字符串。将一个FInputActionValue转换为一个字符串。

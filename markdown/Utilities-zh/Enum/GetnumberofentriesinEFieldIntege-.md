@@ -1,6 +1,6 @@
 # GetnumberofentriesinEFieldIntege-
 
-Returns EFieldIntegerType_MAX value
+返回EFieldIntegerType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EFieldIntegerType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

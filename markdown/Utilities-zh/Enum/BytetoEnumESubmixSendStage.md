@@ -1,6 +1,6 @@
 # BytetoEnumESubmixSendStage
 
-Byte to Enum ESubmixSendStage
+字节到枚举 ESubmixSendStage
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESubmixSendStage
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESubmixSendStage Enum.
-
+返回值。ESubmixSendStage Enum。

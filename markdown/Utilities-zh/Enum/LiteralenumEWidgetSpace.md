@@ -1,6 +1,6 @@
 # LiteralenumEWidgetSpace
 
-Literal enum EWidgetSpace
+字面意义的枚举：EWidgetSpace
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWidgetSpace
 
 ## Inputs
 
-Enum: EWidgetSpace Enum.  
+枚举。EWidgetSpace Enum.  
 
 ## Outputs
 
-Return Value: EWidgetSpace Enum.
-
+返回值。EWidgetSpace Enum。

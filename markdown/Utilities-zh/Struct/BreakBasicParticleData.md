@@ -1,6 +1,6 @@
 # BreakBasicParticleData
 
-Adds a node that breaks a 'BasicParticleData' into its member fields
+添加一个节点，将'BasicParticleData'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'BasicParticleData' into its member fields
 
 ## Inputs
 
-Basic Particle Data: Basic Particle Data Structure (by ref).  
+基本粒子数据。基本粒子数据结构（通过引用）。 
 
 ## Outputs
 
-Position: Vector. Position.
+位置。矢量。Position: 位置。
 
-Size: Float (single-precision). Size.
+大小。Float（单精度）。size: 大小。
 
-Velocity: Vector. Velocity.
-
+速度。矢量。Velocity: 速度。

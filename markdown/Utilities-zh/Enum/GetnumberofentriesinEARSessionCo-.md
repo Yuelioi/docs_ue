@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARSessionCo-
 
-Returns EARSessionConfigFlags_MAX value
+返回EARSessionConfigFlags_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARSessionConfigFlags_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

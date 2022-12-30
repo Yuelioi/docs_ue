@@ -1,6 +1,6 @@
 # BytetoEnumEInterchangeMaterialNo-
 
-Byte to Enum EInterchangeMaterialNodeParameterName
+字节到枚举 EInterchangeMaterialNodeParameterName
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EInterchangeMaterialNodeParameterName
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EInterchangeMaterialNodeParameterName Enum.
-
+返回值。EInterchangeMaterialNodeParameterName枚举。

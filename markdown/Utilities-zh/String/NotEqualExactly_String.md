@@ -1,8 +1,8 @@
 # NotEqualExactly_String
 
-Test if the input string are not equal (A != B)
+测试输入的字符串是否相等（A != B）。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet String Library
 
 ## Inputs
 
-A: String. The string to compare against.
+A：字符串。要对比的字符串。
 
-B: String. The string to compare.  
+B：字符串。要比较的字符串。 
 
 ## Outputs
 
-Return Value: Boolean. Returns true if the input strings are not equal, false if they are equal.
-
+返回值。布尔值。如果输入的字符串不相等，返回真，如果相等，返回假。

@@ -1,6 +1,6 @@
 # BreakControlRigShapeDefinition
 
-Adds a node that breaks a 'ControlRigShapeDefinition' into its member fields
+添加一个节点，将'ControlRigShapeDefinition'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ControlRigShapeDefinition' into its member fields
 
 ## Inputs
 
-Control Rig Shape Definition: Shape Structure (by ref).  
+控制钻机的形状定义。形状结构（通过引用）。 
 
 ## Outputs
 
-Shape Name: Name. Shape Name.
+形状名称。名称。Shape Name: 形状名称。
 
-Static Mesh: Static Mesh Soft Object Reference. Static Mesh.
+静态网格。Static Mesh Soft Object Reference. 静态网格：静态网格。
 
-Transform: Transform. Transform.
-
+变形。Transform: 变换。变形。

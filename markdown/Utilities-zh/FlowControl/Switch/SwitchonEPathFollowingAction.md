@@ -1,6 +1,6 @@
 # SwitchonEPathFollowingAction
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EPathFollowingAction Enum.  
+选择。EPathFollowingAction Enum.  
 
 ## Outputs
 
-Error: Exec.
+错误。Exec.
 
-No Move: Exec.
+不移动：Exec.
 
-Direct Move: Exec.
+直接移动：执行。
 
-Partial Path: Exec.
+部分路径。执行。
 
-Path To Goal: Exec.
-
+通往目标的路径: Exec.

@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFWheelSlot
 
-Adds a node that breaks a 'DMXImportGDTFWheelSlot' into its member fields
+添加一个节点，将'DMXImportGDTFWheelSlot'分解到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DMXImportGDTFWheelSlot' into its member fields
 
 ## Inputs
 
-DMXImport GDTFWheel Slot: DMXImport GDTFWheel Slot Structure (by ref).  
+DMXImport GDTFWheel Slot。DMXImport GDTFWheel Slot 结构（通过引用）。 
 
 ## Outputs
 
-Name: Name. Name.
+名称。名称。名称： 名称。
 
-Color: DMXColor CIE Structure. Color.
+颜色：DMXColor CIE结构。颜色: DMXColor CIE结构。
 
-Filter: DMXImport GDTFFilter Structure. Filter.
-
+滤波器。DMXImport GDTFFilter结构。滤波器。

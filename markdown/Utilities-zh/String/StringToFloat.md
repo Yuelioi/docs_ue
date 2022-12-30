@@ -1,8 +1,8 @@
 # StringToFloat
 
-Converts a string to a double value
+将一个字符串转换为一个双倍值
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-In String: String.  
+在字符串中。字符串。 
 
 ## Outputs
 
-Return Value: Float (double-precision). Converts a string to a double value.
-
+返回值。Float（双精度）。将一个字符串转换为一个双倍值。

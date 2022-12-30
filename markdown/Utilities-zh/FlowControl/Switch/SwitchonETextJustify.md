@@ -1,6 +1,6 @@
 # SwitchonETextJustify
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETextJustify Enum.  
+选择。ETextJustify Enum.  
 
 ## Outputs
 
-Left: Exec.
+左边：Exec.
 
-Center: Exec.
+中间：Exec: 执笔
 
-Right: Exec.
-
+右边 执笔：执笔

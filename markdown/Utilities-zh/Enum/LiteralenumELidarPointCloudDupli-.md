@@ -1,6 +1,6 @@
 # LiteralenumELidarPointCloudDupli-
 
-Literal enum ELidarPointCloudDuplicateHandling
+ELidarPointCloudDuplicateHandling的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELidarPointCloudDuplicateHandling
 
 ## Inputs
 
-Enum: ELidarPointCloudDuplicateHandling Enum.  
+枚举。ELidarPointCloudDuplicateHandling枚举。 
 
 ## Outputs
 
-Return Value: ELidarPointCloudDuplicateHandling Enum.
-
+返回值。ELidarPointCloudDuplicateHandling Enum.

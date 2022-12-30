@@ -1,6 +1,6 @@
 # SwitchonEARGeoTrackingAccuracy
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EARGeoTrackingAccuracy Enum.  
+选择。EARGeoTrackingAccuracy Enum.  
 
 ## Outputs
 
-Undetermined: Exec.
+未确定的。Exec.
 
-Low: Exec.
+低：执行。
 
-Medium: Exec.
+中等。执行。
 
-High: Exec.
-
+高：执行。

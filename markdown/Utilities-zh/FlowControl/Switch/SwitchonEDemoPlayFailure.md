@@ -1,6 +1,6 @@
 # SwitchonEDemoPlayFailure
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,27 +8,26 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDemoPlayFailure Enum.  
+选择。EDemoPlayFailure 枚举。 
 
 ## Outputs
 
-Generic: Exec.
+通用。Exec.
 
-Demo Not Found: Exec.
+未找到演示。Exec.
 
-Corrupt: Exec.
+损坏。Exec.
 
-Invalid Version: Exec.
+无效版本。Exec.
 
-Init Base: Exec.
+初始化基础: 执行中。
 
-Game Specific Header: Exec.
+游戏专用头。Exec.
 
 Replay Streamer Internal: Exec.
 
-Load Map: Exec.
+加载地图。Exec.
 
-Serialization: Exec.
-
+序列化。Exec.

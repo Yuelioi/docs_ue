@@ -1,6 +1,6 @@
 # BreakActorForWorldTransforms
 
-Adds a node that breaks a 'ActorForWorldTransforms' into its member fields
+添加一个节点，将'世界变换的演员'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ActorForWorldTransforms' into its member fields
 
 ## Inputs
 
-Actor for World Transforms: Actor For World Transforms Structure (by ref).  
+Actor for World Transforms。Actor For World Transforms结构（通过引用）。 
 
 ## Outputs
 
-Actor: Actor Weak object. Actor.
+演员。Actor Weak对象。Actor.
 
-Component: Scene Component Weak object. Component.
+组件。Scene Component（场景组件） 弱小的对象。组件。
 
-Socket Name: Name. Socket Name.
-
+插座名称。名称。插座名称。

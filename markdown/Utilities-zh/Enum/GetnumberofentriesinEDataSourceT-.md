@@ -1,6 +1,6 @@
 # GetnumberofentriesinEDataSourceT-
 
-Returns EDataSourceTypeEnum_MAX value
+返回EDataSourceTypeEnum_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EDataSourceTypeEnum_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

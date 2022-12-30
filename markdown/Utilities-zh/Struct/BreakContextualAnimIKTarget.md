@@ -1,6 +1,6 @@
 # BreakContextualAnimIKTarget
 
-Adds a node that breaks a 'ContextualAnimIKTarget' into its member fields
+添加一个节点，将'ContextualAnimIKTarget'分解到其成员字段中。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ContextualAnimIKTarget' into its member fields
 
 ## Inputs
 
-Contextual Anim IKTarget: Contextual Anim IKTarget Structure (by ref).  
+Contextual Anim IKTarget: Contextual Anim IKTarget结构（通过引用）。 
 
 ## Outputs
 
-Goal Name: Name. Goal Name.
+目标名称。名称。目标名称.
 
-Alpha: Float (single-precision). Alpha.
+Alpha: Float（单精度）。阿尔法。
 
-Transform: Transform. Transform.
-
+变换。变换。Transform: 变换。

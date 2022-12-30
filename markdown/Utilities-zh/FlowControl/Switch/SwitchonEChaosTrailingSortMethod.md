@@ -1,6 +1,6 @@
 # SwitchonEChaosTrailingSortMethod
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EChaosTrailingSortMethod Enum.  
+选择。EChaosTrailingSortMethod Enum.  
 
 ## Outputs
 
-Sort None: Exec.
+排序 无。Exec.
 
-Sort By Highest Mass: Exec.
+Sort By Highest Mass: 执行。
 
-Sort By Highest Speed: Exec.
+按最高速度排序：Exec.
 
-Sort By Nearest First: Exec.
-
+按最接近的第一位排序。按最接近的第一时间排序：Exec.

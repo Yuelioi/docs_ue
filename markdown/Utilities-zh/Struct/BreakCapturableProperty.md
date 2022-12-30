@@ -1,6 +1,6 @@
 # BreakCapturableProperty
 
-Adds a node that breaks a 'CapturableProperty' into its member fields
+添加一个节点，将'CapturableProperty'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'CapturableProperty' into its member fields
 
 ## Inputs
 
-Capturable Property: Capturable Property Structure (by ref).  
+可捕捉的属性。可捕捉的属性结构（通过引用）。 
 
 ## Outputs
 
-Display Name: String. Display Name.
-
+显示名称。字符串。显示名称。

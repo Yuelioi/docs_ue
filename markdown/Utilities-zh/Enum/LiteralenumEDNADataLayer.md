@@ -1,6 +1,6 @@
 # LiteralenumEDNADataLayer
 
-Literal enum EDNADataLayer
+枚举EDNADataLayer
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDNADataLayer
 
 ## Inputs
 
-Enum: EDNADataLayer Enum.  
+枚举。EDNADataLayer Enum.  
 
 ## Outputs
 
-Return Value: EDNADataLayer Enum.
-
+返回值。EDNADataLayer Enum。

@@ -1,6 +1,6 @@
 # BreakARSessionStatus
 
-Adds a node that breaks a 'ARSessionStatus' into its member fields
+添加一个节点，将'ARSessionStatus'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ARSessionStatus' into its member fields
 
 ## Inputs
 
-ARSession Status: ARSession Status Structure (by ref).  
+ARSession状态。ARSession状态结构（通过引用）。 
 
 ## Outputs
 
-Additional Info: String. Additional Info:. Optional information about the current status of the system..
+附加信息。字符串。附加信息：。关于系统当前状态的可选信息。
 
-Status: EARSessionStatus Enum. Status:. The current status of the AR subsystem..
-
+状态。EARSessionStatus枚举。状态:. AR子系统的当前状态。

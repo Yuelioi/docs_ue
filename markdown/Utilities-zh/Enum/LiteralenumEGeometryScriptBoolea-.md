@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptBoolea-
 
-Literal enum EGeometryScriptBooleanOperation
+字面上的枚举 EGeometryScriptBooleanOperation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptBooleanOperation
 
 ## Inputs
 
-Enum: EGeometryScriptBooleanOperation Enum.  
+枚举。EGeometryScriptBooleanOperation Enum.  
 
 ## Outputs
 
-Return Value: EGeometryScriptBooleanOperation Enum.
-
+返回值。EGeometryScriptBooleanOperation Enum.

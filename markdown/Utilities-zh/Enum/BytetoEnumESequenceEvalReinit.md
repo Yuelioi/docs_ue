@@ -1,6 +1,6 @@
 # BytetoEnumESequenceEvalReinit
 
-Byte to Enum ESequenceEvalReinit
+字节到枚举 ESequenceEvalReinit
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESequenceEvalReinit
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESequenceEvalReinit Enum.
-
+返回值。ESequenceEvalReinit Enum。

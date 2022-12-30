@@ -1,6 +1,6 @@
 # BreakColorGradingSettings
 
-Adds a node that breaks a 'ColorGradingSettings' into its member fields
+添加一个节点，将'ColorGradingSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'ColorGradingSettings' into its member fields
 
 ## Inputs
 
-Color Grading Settings: Color Grading Settings Structure (by ref).  
+颜色分级设置。颜色分级设置结构（通过参考）。 
 
 ## Outputs
 
-Global: Color Grade Per Range Settings Structure. Global.
+全局：颜色分级每范围设置结构。全局。
 
-Shadows: Color Grade Per Range Settings Structure. Shadows.
+阴影。Color Grade Per Range Settings Structure. 阴影。
 
-Midtones: Color Grade Per Range Settings Structure. Midtones.
+中调。每个范围的颜色等级设置结构。中调。
 
-Highlights: Color Grade Per Range Settings Structure. Highlights.
+高光。每个范围的颜色等级设置结构。高光。
 
-Shadows Max: Float (single-precision). Shadows Max.
+阴影最大值：浮点数（单精度）。Shadows Max（阴影最大值）。
 
-Highlights Min: Float (single-precision). Highlights Min.
+高光最小值。Float（单精度）。高光最小值。
 
-Highlights Max: Float (single-precision). Highlights Max.
-
+高光最大值：浮点（单精度）。亮点最大值。

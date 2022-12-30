@@ -1,6 +1,6 @@
 # BytetoEnumEPhaserLFOType
 
-Byte to Enum EPhaserLFOType
+字节到枚举 EPhaserLFOType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EPhaserLFOType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EPhaserLFOType Enum.
-
+返回值。EPhaserLFOType Enum。

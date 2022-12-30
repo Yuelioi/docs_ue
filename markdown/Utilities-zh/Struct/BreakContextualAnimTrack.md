@@ -1,6 +1,6 @@
 # BreakContextualAnimTrack
 
-Adds a node that breaks a 'ContextualAnimTrack' into its member fields
+添加一个节点，将'ContextualAnimTrack'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ContextualAnimTrack' into its member fields
 
 ## Inputs
 
-Contextual Anim Track: Contextual Anim Track Structure (by ref).  
+Contextual Anim Track: 语境动画轨道结构（通过引用）。 
 
 ## Outputs
 
-Settings: Contextual Anim Track Settings Structure. Settings.
+设置。Contextual Anim Track: 上下文动画轨道的设置结构。设置.
 
-Anim Data: Contextual Anim Data Structure. Anim Data.
-
+动画数据: Contextual Anim Data Structure. 动画数据.

@@ -1,6 +1,6 @@
 # SwitchonELensDataCategory
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ELensDataCategory Enum.  
+选择。ELensDataCategory Enum.  
 
 ## Outputs
 
-Focus: Exec.
+焦点。Exec.
 
 Iris: Exec.
 
-Zoom: Exec.
+缩放: Exec.
 
-Distortion: Exec.
+失真 执行
 
-Image Center: Exec.
+图像中心 Exec.
 
 STMap: Exec.
 
-Nodal Offset: Exec.
-
+节点偏移。Exec.

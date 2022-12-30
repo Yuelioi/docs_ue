@@ -1,6 +1,6 @@
 # GetnumberofentriesinEHandKeypoin-
 
-Returns EHandKeypoint_MAX value
+返回EHandKeypoint_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EHandKeypoint_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

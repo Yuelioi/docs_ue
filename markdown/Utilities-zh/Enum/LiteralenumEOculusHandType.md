@@ -1,6 +1,6 @@
 # LiteralenumEOculusHandType
 
-Literal enum EOculusHandType
+枚举 EOculusHandType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EOculusHandType
 
 ## Inputs
 
-Enum: EOculusHandType Enum.  
+枚举。EOculusHandType Enum.  
 
 ## Outputs
 
-Return Value: EOculusHandType Enum.
-
+返回值。EOculusHandType Enum。

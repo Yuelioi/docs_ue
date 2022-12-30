@@ -1,6 +1,6 @@
 # GetnumberofentriesinEMediaCaptur-_1
 
-Returns EMediaCaptureState_MAX value
+返回EMediaCaptureState_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EMediaCaptureState_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # BreakFocalLengthPointInfo
 
-Adds a node that breaks a 'FocalLengthPointInfo' into its member fields
+添加一个节点，将'FocalLengthPointInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'FocalLengthPointInfo' into its member fields
 
 ## Inputs
 
-Focal Length Point Info: Focal Length Point Info Structure (by ref).  
+Focal Length Point Info（焦距点信息）。焦距点信息结构（通过引用）。 
 
 ## Outputs
 
-Focal Length Info: Focal Length Info Structure. Focal Length Info:. Focal Length parameter.
+Focal Length Info（焦距信息）。Focal Length Info结构。Focal Length Info:. 焦距参数。
 
-Focus: Float (single-precision). Focus:. Point Focus Value.
+焦点。Float（单精度）。Focus:. 点聚焦值。
 
-Zoom: Float (single-precision). Zoom:. Point Zoom Value.
-
+缩放。Float（单精度）。缩放:. 点的缩放值。

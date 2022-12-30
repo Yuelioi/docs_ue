@@ -1,6 +1,6 @@
 # LiteralenumEDataLayerRuntimeStat-
 
-Literal enum EDataLayerRuntimeState
+枚举EDataLayerRuntimeState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDataLayerRuntimeState
 
 ## Inputs
 
-Enum: EDataLayerRuntimeState Enum.  
+枚举。EDataLayerRuntimeState Enum.  
 
 ## Outputs
 
-Return Value: EDataLayerRuntimeState Enum.
-
+返回值。EDataLayerRuntimeState Enum。

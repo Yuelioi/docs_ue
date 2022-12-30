@@ -1,6 +1,6 @@
 # GetnumberofentriesinEXRSystemFla-
 
-Returns EXRSystemFlags_MAX value
+返回EXRSystemFlags_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EXRSystemFlags_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

@@ -1,6 +1,6 @@
 # LiteralenumEReverbSendMethod
 
-Literal enum EReverbSendMethod
+枚举EReverbSendMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EReverbSendMethod
 
 ## Inputs
 
-Enum: EReverbSendMethod Enum.  
+枚举。EReverbSendMethod Enum.  
 
 ## Outputs
 
-Return Value: EReverbSendMethod Enum.
-
+返回值。EReverbSendMethod Enum。

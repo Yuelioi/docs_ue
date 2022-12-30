@@ -1,6 +1,6 @@
 # BytetoEnumEOculusMR_CameraDevice-
 
-Byte to Enum EOculusMR_CameraDeviceEnum
+字节到枚举 EOculusMR_CameraDeviceEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EOculusMR_CameraDeviceEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EOculusMR_CameraDeviceEnum Enum.
-
+返回值。EOculusMR_CameraDeviceEnum Enum。

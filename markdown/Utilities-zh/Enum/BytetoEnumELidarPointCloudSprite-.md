@@ -1,6 +1,6 @@
 # BytetoEnumELidarPointCloudSprite-
 
-Byte to Enum ELidarPointCloudSpriteOrientation
+字节到枚举 ELidarPointCloudSpriteOrientation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ELidarPointCloudSpriteOrientation
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELidarPointCloudSpriteOrientation Enum.
-
+返回值。ELidarPointCloudSpriteOrientation Enum。

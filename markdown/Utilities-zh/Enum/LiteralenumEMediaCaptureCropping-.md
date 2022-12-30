@@ -1,6 +1,6 @@
 # LiteralenumEMediaCaptureCropping-
 
-Literal enum EMediaCaptureCroppingType
+枚举EMediaCaptureCroppingType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMediaCaptureCroppingType
 
 ## Inputs
 
-Enum: EMediaCaptureCroppingType Enum.  
+枚举。EMediaCaptureCroppingType枚举。 
 
 ## Outputs
 
-Return Value: EMediaCaptureCroppingType Enum.
-
+返回值。EMediaCaptureCroppingType Enum。

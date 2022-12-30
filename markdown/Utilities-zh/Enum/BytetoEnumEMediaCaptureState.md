@@ -1,6 +1,6 @@
 # BytetoEnumEMediaCaptureState
 
-Byte to Enum EMediaCaptureState
+字节到枚举EMediaCaptureState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMediaCaptureState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMediaCaptureState Enum.
-
+返回值。EMediaCaptureState Enum。

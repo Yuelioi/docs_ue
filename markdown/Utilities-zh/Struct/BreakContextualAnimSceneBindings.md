@@ -1,6 +1,6 @@
 # BreakContextualAnimSceneBindings
 
-Adds a node that breaks a 'ContextualAnimSceneBindings' into its member fields
+添加一个打破'ContextualAnimSceneBindings'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ContextualAnimSceneBindings' into its member fields
 
 ## Inputs
 
-Contextual Anim Scene Bindings: Contextual Anim Scene Bindings Structure (by ref).  
+Contextual Anim Scene Bindings（上下文动画场景绑定）。Contextual Anim Scene Bindings结构（通过引用）。 
 
 ## Outputs
 
-Role To Actor Map: Map of Names to Actor Object References. Role to Actor Map:. Map with actors to bind to each role in the scene.
+Role To Actor Map: 名称到演员对象引用的地图。Role to Actor Map:（角色到演员地图）。与演员的地图，以绑定到场景中的每个角色。
 
-Anim Data Index: Integer. Anim Data Index:. Desired AnimDataIndex. If INDEX_NONE the Manager will attempt to find the best AnimData to use.
+动画数据索引。整数。动画数据索引:. 希望的AnimDataIndex。如果INDEX_NONE，管理器将试图找到最佳的AnimData来使用。
 
-Anim Start Time: Float (single-precision). Anim Start Time:. Desired start time. Only relevant if AnimDataIndex != INDEX_NONE.
-
+动画开始时间: Float (single-precision). 动画开始时间:. 希望的开始时间。只有在AnimDataIndex != INDEX_NONE时才相关。

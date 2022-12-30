@@ -1,6 +1,6 @@
 # BreakDisplayClusterConfiguration-
 
-Adds a node that breaks a 'DisplayClusterConfigurationClusterSync' into its member fields
+添加一个打破'DisplayClusterConfigurationClusterSync'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'DisplayClusterConfigurationClusterSync' into its memb
 
 ## Inputs
 
-Display Cluster Configuration Cluster Sync: Display Cluster Configuration Cluster Sync Structure (by ref).  
+显示群集配置群集同步。显示群集配置群集同步结构（通过参考）。 
 
 ## Outputs
 
-Render Sync Policy: Display Cluster Configuration Render Sync Policy Structure. Render Sync Policy.
+Render Sync Policy: 显示 Cluster Configuration Render Sync Policy 结构。Render Sync Policy.
 
-Input Sync Policy: Display Cluster Configuration Input Sync Policy Structure. Input Sync Policy.
-
+输入同步策略。显示群集配置的输入同步策略结构。输入同步策略。

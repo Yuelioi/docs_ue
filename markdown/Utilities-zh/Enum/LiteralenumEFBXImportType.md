@@ -1,6 +1,6 @@
 # LiteralenumEFBXImportType
 
-Literal enum EFBXImportType
+字面意义上的EFBXImportType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFBXImportType
 
 ## Inputs
 
-Enum: EFBXImportType Enum.  
+枚举。EFBXImportType Enum.  
 
 ## Outputs
 
-Return Value: EFBXImportType Enum.
-
+返回值。EFBXImportType Enum.

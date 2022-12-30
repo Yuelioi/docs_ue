@@ -19,4 +19,3 @@ Frame Delta: Float (single-precision). Frame Delta:. The total amount of time, i
 Frame Number: Integer. Frame Number:. The index of this frame from the start of the capture, including dropped frames.
 
 Num Dropped Frames: Integer. Num Dropped Frames:. The number of frames we dropped in-between this frame, and the last one we captured.
-

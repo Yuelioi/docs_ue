@@ -1,6 +1,6 @@
 # SwitchonFControlRigChannelEnum
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,39 +8,38 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: FControlRigChannelEnum Enum.  
+选择。FControlRigChannelEnum枚举。 
 
 ## Outputs
 
 Bool: Exec.
 
-Enum: Exec.
+枚举。Exec.
 
-Integer: Exec.
+整数。Exec.
 
 Float: Exec.
 
-Vector 2DX: Exec.
+矢量2DX: Exec.
 
-Vector 2DY: Exec.
+矢量2DY: 执行。
 
-Position X: Exec.
+位置X: 执行。
 
-Position Y: Exec.
+位置Y 执行。
 
-Position Z: Exec.
+位置Z：执行。
 
-Rotator X: Exec.
+旋转器 X: 执行。
 
-Rotator Y: Exec.
+旋转器Y：执行。
 
-Rotator Z: Exec.
+旋转器Z：执行。
 
-Scale X: Exec.
+刻度 X: 执行。
 
-Scale Y: Exec.
+比例尺Y：执行。
 
-Scale Z: Exec.
-
+比例尺Z：执行。

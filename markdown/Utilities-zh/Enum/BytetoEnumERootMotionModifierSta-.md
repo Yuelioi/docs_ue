@@ -8,9 +8,8 @@ Byte to Enum ERootMotionModifierState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERootMotionModifierState Enum.
-
+返回值。ERootMotionModifierState Enum。

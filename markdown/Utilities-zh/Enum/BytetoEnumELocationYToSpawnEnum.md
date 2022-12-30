@@ -1,6 +1,6 @@
 # BytetoEnumELocationYToSpawnEnum
 
-Byte to Enum ELocationYToSpawnEnum
+字节到枚举 ELocationYToSpawnEnum
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ELocationYToSpawnEnum
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELocationYToSpawnEnum Enum.
-
+返回值。ELocationYToSpawnEnum枚举。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinERaMaterialN-
 
-Returns ERaMaterialName_MAX value
+返回ERaMaterialName_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ERaMaterialName_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

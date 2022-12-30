@@ -1,6 +1,6 @@
 # BytetoEnumEMultiBlockType
 
-Byte to Enum EMultiBlockType
+字节到枚举EMultiBlockType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMultiBlockType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMultiBlockType Enum.
-
+返回值。EMultiBlockType Enum。

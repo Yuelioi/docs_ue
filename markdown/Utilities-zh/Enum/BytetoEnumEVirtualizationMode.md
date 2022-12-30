@@ -1,6 +1,6 @@
 # BytetoEnumEVirtualizationMode
 
-Byte to Enum EVirtualizationMode
+字节到枚举EVirtualizationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EVirtualizationMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EVirtualizationMode Enum.
-
+返回值。EVirtualizationMode Enum。

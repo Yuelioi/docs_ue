@@ -1,6 +1,6 @@
 # LiteralenumEFBXAnimationLengthIm-
 
-Literal enum EFBXAnimationLengthImportType
+字面意思是EFBXAnimationLengthImportType。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFBXAnimationLengthImportType
 
 ## Inputs
 
-Enum: EFBXAnimationLengthImportType Enum.  
+枚举。EFBXAnimationLengthImportType Enum.  
 
 ## Outputs
 
-Return Value: EFBXAnimationLengthImportType Enum.
-
+返回值。EFBXAnimationLengthImportType Enum.

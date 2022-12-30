@@ -1,6 +1,6 @@
 # BreakCompositionGraphCapturePass-
 
-Adds a node that breaks a 'CompositionGraphCapturePasses' into its member fields
+添加一个节点，将'CompositionGraphCapturePasses'分解到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'CompositionGraphCapturePasses' into its member fields
 
 ## Inputs
 
-Composition Graph Capture Passes: Composition Graph Capture Passes Structure (by ref).  
+组成图捕获通行证。组成图捕捉通行证结构（通过引用）。 
 
 ## Outputs
 
-Value: Array of Strings. Value:. List of passes to record by name..
-
+值。字符串的数组。值：。按名称记录的通行证的列表。

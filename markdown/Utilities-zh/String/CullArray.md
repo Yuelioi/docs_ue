@@ -1,8 +1,8 @@
 # CullArray
 
-Takes an array of strings and removes any zero length entries.
+获取一个字符串数组并删除任何零长度的条目。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source String: String.  
+源字符串。字符串。 
 
 ## Outputs
 
-In Array: Array of Strings. The array to cull.
+在数组中。字符串的数组。要剔除的数组。
 
-Return Value: Integer. The number of elements left in InArray.
-
+返回值。整数。InArray中剩余的元素数。

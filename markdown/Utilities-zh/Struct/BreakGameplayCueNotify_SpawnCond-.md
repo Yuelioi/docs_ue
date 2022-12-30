@@ -1,6 +1,6 @@
 # BreakGameplayCueNotify_SpawnCond-
 
-Adds a node that breaks a 'GameplayCueNotify_SpawnCondition' into its member fields
+添加一个打破'GameplayCueNotify_SpawnCondition'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'GameplayCueNotify_SpawnCondition' into its member fie
 
 ## Inputs
 
-Gameplay Cue Notify Spawn Condition: Gameplay Cue Notify Spawn Condition Structure (by ref).  
+Gameplay Cue Notify Spawn Condition。Gameplay Cue Notify Spawn Condition 结构（通过引用）。 
 
 ## Outputs
 
-Locally Controlled Source: EGameplayCueNotify_LocallyControlledSource Enum. Locally Controlled Source:. Source actor to use when determining if it is locally controlled..
+本地控制的来源。EGameplayCueNotify_LocallyControlledSource枚举。本地控制的来源：。在确定是否为本地控制时使用的源行动者。
 
-Locally Controlled Policy: EGameplayCueNotify_LocallyControlledPolicy Enum. Locally Controlled Policy:. Locally controlled policy used to determine if the gameplay cue effects should spawn..
+本地控制的政策。EGameplayCueNotify_LocallyControlledPolicy枚举。本地控制的政策：。用于确定游戏提示效果是否应该产生的本地控制策略。
 
-Chance To Play: Float (single-precision). Chance to Play:. Random chance to play the effects. (1.0 = always play, 0.0 = never play).
+游戏机会。Float（单精度）。播放机会：。播放效果的随机机会。(1.0=总是播放，0.0=从不播放）。
 
-Allowed Surface Types: Array of EPhysicalSurface Enums. Allowed Surface Types:. The gameplay cue effects will only spawn if the surface type is in this list.. An empty list means everything is allowed..
+允许的表面类型。EPhysicalSurface枚举的数组。允许的表面类型：。只有当表面类型在这个列表中时，游戏的提示效果才会产生。一个空的列表意味着一切都被允许。
 
-Rejected Surface Types: Array of EPhysicalSurface Enums. Rejected Surface Types:. The gameplay cue effects will only spawn if the surface type is NOT in this list.. An empty list means nothing will be rejected..
-
+拒绝的表面类型。EPhysicalSurface枚举的数组。拒绝的表面类型：。只有当表面类型不在这个列表中时，游戏的提示效果才会产生。一个空的列表意味着没有东西会被拒绝。

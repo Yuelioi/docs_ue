@@ -1,6 +1,6 @@
 # BytetoEnumENaturalSoundFalloffMo-
 
-Byte to Enum ENaturalSoundFalloffMode
+字节到枚举 ENaturalSoundFalloffMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ENaturalSoundFalloffMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ENaturalSoundFalloffMode Enum.
-
+返回值。ENaturalSoundFalloffMode Enum。

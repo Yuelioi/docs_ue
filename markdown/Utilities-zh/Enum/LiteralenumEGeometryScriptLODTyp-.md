@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptLODTyp-
 
-Literal enum EGeometryScriptLODType
+枚举 EGeometryScriptLODType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptLODType
 
 ## Inputs
 
-Enum: EGeometryScriptLODType Enum.  
+枚举。EGeometryScriptLODType 枚举。 
 
 ## Outputs
 
-Return Value: EGeometryScriptLODType Enum.
-
+返回值。EGeometryScriptLODType枚举。

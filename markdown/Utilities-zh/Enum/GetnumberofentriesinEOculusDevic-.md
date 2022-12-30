@@ -1,6 +1,6 @@
 # GetnumberofentriesinEOculusDevic-
 
-Returns EOculusDeviceType_MAX value
+返回EOculusDeviceType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EOculusDeviceType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

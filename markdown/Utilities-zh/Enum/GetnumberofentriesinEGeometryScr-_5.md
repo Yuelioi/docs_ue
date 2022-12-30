@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGeometryScr-_5
 
-Returns EGeometryScriptGridSizingMethod_MAX value
+返回 EGeometryScriptGridSizingMethod_MAX 值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGeometryScriptGridSizingMethod_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

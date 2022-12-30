@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFGeometryRefere-
 
-Adds a node that breaks a 'DMXImportGDTFGeometryReference' into its member fields
+添加一个打破'DMXImportGDTFGeometryReference'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'DMXImportGDTFGeometryReference' into its member field
 
 ## Inputs
 
-DMXImport GDTFGeometry Reference: DMXImport GDTFGeometry Reference Structure (by ref).  
+DMXImport GDTFGeometry Reference。DMXImport GDTFGeometry 参考结构（通过 ref）。 
 
 ## Outputs
 
-Breaks: Array of DMXImport GDTFBreak Structures. Breaks.
+断点。DMXImport GDTFBreak结构的数组。断点。
 
-Name: Name. Name.
+名称。名称。名称: 名称。
 
-Model: Name. Model.
+模型。名字。模型。
 
-Position: Matrix Structure. Position.
-
+位置。矩阵结构。职务：职务。

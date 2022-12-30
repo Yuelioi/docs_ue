@@ -1,8 +1,8 @@
 # GetKeysfromStringTable
 
-Returns an array of all keys within the given string table
+返回给定字符串表内所有键的数组。
 
-Target is Kismet String Table Library
+目标是Kismet字符串表库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Table Library
 
 ## Inputs
 
-Table Id: Name.  
+表的标识。名称。 
 
 ## Outputs
 
-Return Value: Array of Strings. Returns an array of all keys within the given string table.
-
+返回值。字符串的数组。返回给定字符串表内所有键的数组。

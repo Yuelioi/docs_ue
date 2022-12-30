@@ -1,6 +1,6 @@
 # LiteralenumEOverlapFilterOption
 
-Literal enum EOverlapFilterOption
+枚举EOverlapFilterOption
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EOverlapFilterOption
 
 ## Inputs
 
-Enum: EOverlapFilterOption Enum.  
+枚举。EOverlapFilterOption Enum.  
 
 ## Outputs
 
-Return Value: EOverlapFilterOption Enum.
-
+返回值。EOverlapFilterOption Enum.

@@ -1,6 +1,6 @@
 # SwitchonEBrushFalloffMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,13 +8,12 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EBrushFalloffMode Enum.  
+选择。EBrushFalloffMode Enum.  
 
 ## Outputs
 
-Angle: Exec.
+角度。Exec.
 
-Width: Exec.
-
+宽度: Exec.Ltd.

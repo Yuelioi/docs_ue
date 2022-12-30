@@ -1,6 +1,6 @@
 # LocalFloat_double_precision
 
-Local temporary Float (double-precision) variable
+本地临时的Float（双精度）变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Float (double-precision) variable
 
 ## Outputs
 
-Variable: Float (double-precision).
-
+变量。Float (double-precision).

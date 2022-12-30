@@ -1,6 +1,6 @@
 # BreakCSVImportSettings
 
-Adds a node that breaks a 'CSVImportSettings' into its member fields
+添加一个节点，将'CSVImportSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'CSVImportSettings' into its member fields
 
 ## Inputs
 
-CSVImport Settings: CSVImport Settings Structure (by ref).  
+CSVImport设置。CSVImport设置结构（通过引用）。 
 
 ## Outputs
 
-Import Row Struct: Script Struct Object Reference. Import Row Struct.
+导入行结构。脚本结构对象参考。Import Row Struct.
 
-Import Type: ECSVImportType Enum. Import Type.
+导入类型。ECSVImportType枚举。导入类型。
 
-Import Curve Interp Mode: ERichCurveInterpMode Enum. Import Curve Interp Mode.
-
+Import Curve Interp Mode: ERichCurveInterpMode Enum. 导入曲线interp模式。

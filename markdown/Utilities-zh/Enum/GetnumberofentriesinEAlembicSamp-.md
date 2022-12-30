@@ -1,6 +1,6 @@
 # GetnumberofentriesinEAlembicSamp-
 
-Returns EAlembicSamplingType_MAX value
+返回EAlembicSamplingType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EAlembicSamplingType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

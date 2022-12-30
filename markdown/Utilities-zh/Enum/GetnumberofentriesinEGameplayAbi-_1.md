@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGameplayAbi-_1
 
-Returns EGameplayAbilityInputBinds_MAX value
+返回EGameplayAbilityInputBinds_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGameplayAbilityInputBinds_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

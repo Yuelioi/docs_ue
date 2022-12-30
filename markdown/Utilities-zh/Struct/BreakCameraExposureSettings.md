@@ -1,6 +1,6 @@
 # BreakCameraExposureSettings
 
-Adds a node that breaks a 'CameraExposureSettings' into its member fields
+添加一个节点，将'CameraExposureSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,35 +8,34 @@ Adds a node that breaks a 'CameraExposureSettings' into its member fields
 
 ## Inputs
 
-Camera Exposure Settings: Camera Exposure Settings Structure (by ref).  
+Camera Exposure Settings（相机曝光设置）。相机曝光设置结构（通过引用）。 
 
 ## Outputs
 
-Method: EAutoExposureMethod Enum. Method:. Luminance computation method.
+方法。EAutoExposureMethod Enum。方法：。亮度计算方法。
 
-Low Percent: Float (single-precision). Low Percent:. The eye adaptation will adapt to a value extracted from the luminance histogram of the scene color.. The value is defined as having x percent below this brightness. Higher values give bright spots on the screen more priority. but can lead to less stable results. Lower values give the medium and darker values more priority but might cause burn out of. bright spots.. >0, <100, good values are in the range 70 .. 80.
+低百分比。Float（单精度）。Low Percent:.低百分比。眼睛适应将适应从场景颜色的亮度直方图中提取的一个值。该值被定义为有低于该亮度的x%。较高的值给屏幕上的亮点更多的优先权，但会导致不太稳定的结果。较低的值给中等和较暗的值更多的优先权，但可能会导致亮斑的烧毁。>0，<100，好的值是在70 ... 80的范围内。
 
-High Percent: Float (single-precision). High Percent:. The eye adaptation will adapt to a value extracted from the luminance histogram of the scene color.. The value is defined as having x percent below this brightness. Higher values give bright spots on the screen more priority. but can lead to less stable results. Lower values give the medium and darker values more priority but might cause burn out of. bright spots.. >0, <100, good values are in the range 80 .. 95.
+高百分比。Float（单精度）。高百分比：。眼睛适应将适应于从场景颜色的亮度直方图中提取的值。该值被定义为有低于该亮度的x%。较高的值给屏幕上的亮点更多的优先权，但会导致不太稳定的结果。较低的值给中等和较暗的值更多的优先权，但可能会导致亮斑的烧毁。>0，<100，好的值是在80 ... 95的范围内。
 
-Min Brightness: Float (single-precision). Min Brightness:. A good value should be positive near 0. This is the minimum brightness the auto exposure can adapt to.. It should be tweaked in a dark lighting situation (too small: image appears too bright, too large: image appears too dark).. Note: Tweaking emissive materials and lights or tweaking auto exposure can look the same. Tweaking auto exposure has global. effect and defined the HDR range - you don't want to change that late in the project development.. Eye Adaptation is disabled if MinBrightness = MaxBrightness.
+最小亮度。浮点数（单精度）。最小亮度：。一个好的值应该是接近0的正值，这是自动曝光能够适应的最小亮度。它应该在黑暗的照明情况下进行调整（太小：图像显得太亮，太大：图像显得太暗）。注意：调整发光材料和灯光或调整自动曝光看起来是一样的。调整自动曝光有全局效果，并定义了HDR范围 - 你不想在项目开发的后期改变。如果MinBrightness = MaxBrightness，眼睛适应功能将被禁用。
 
-Max Brightness: Float (single-precision). Max Brightness:. A good value should be positive (2 is a good value). This is the maximum brightness the auto exposure can adapt to.. It should be tweaked in a bright lighting situation (too small: image appears too bright, too large: image appears too dark).. Note: Tweaking emissive materials and lights or tweaking auto exposure can look the same. Tweaking auto exposure has global. effect and defined the HDR range - you don't want to change that late in the project development.. Eye Adaptation is disabled if MinBrightness = MaxBrightness.
+最大亮度。Float（单精度）。最大亮度：。一个好的值应该是正数（2是一个好的值）。这是自动曝光所能适应的最大亮度。它应该在明亮的照明情况下进行调整（太小：图像显得太亮，太大：图像显得太暗）。注意：调整发光材料和灯光或调整自动曝光看起来是一样的。调整自动曝光有全局效果，并定义了HDR范围 - 你不想在项目开发的后期改变。如果MinBrightness = MaxBrightness，眼睛适应被禁用。
 
-Speed Up: Float (single-precision). Speed Up:. In F-stops per second, should be >0.
+Speed Up: Float (single-precision). 加速：。以每秒F-光圈为单位，应该是>0。
 
-Speed Down: Float (single-precision). Speed Down:. In F-stops per second, should be >0.
+速度下降：浮动（单精度）。降速：。以每秒F-光圈为单位，应该是>0。
 
-Exposure Bias: Float (single-precision). Bias:. Logarithmic adjustment for the exposure. Only used if a tonemapper is specified.. 0: no adjustment, -1:2x darker, -2:4x darker, 1:2x brighter, 2:4x brighter, ....
+曝光偏差：浮点数（单精度）。Bias:。曝光的对数调整。只在指定色调贴图的情况下使用。0：不调整，-1：2倍暗，-2：4倍暗，1：2倍亮，2：4倍亮，....
 
-Exposure Bias Curve: Curve Float Object Reference. Bias Curve:. Exposure compensation based on the scene EV100.. Used to calibrate the final exposure differently depending on the average scene luminance.. 0: no adjustment, -1:2x darker, -2:4x darker, 1:2x brighter, 2:4x brighter, ....
+曝光偏置曲线。曲线浮点对象参考。偏置曲线：。基于场景EV100的曝光补偿。用于根据场景的平均亮度，以不同的方式校准最终曝光。0：不调整，-1：2倍暗，-2：4倍暗，1：2倍亮，2：4倍亮，....
 
-Exposure Metering Mask: Texture Object Reference. Meter Mask:. Exposure metering mask. Bright spots on the mask will have high influence on auto-exposure metering. and dark spots will have low influence..
+曝光测光罩：纹理对象参考。测光罩：。曝光测光遮罩。遮罩上的亮点将对自动曝光测光产生高影响。而暗点将有低影响。
 
-Histogram Log Min: Float (single-precision). Histogram Log Min:. temporary exposed until we found good values, -8: 1/256, -10: 1/1024.
+Histogram Log Min: Float（单精度）。暂时曝光，直到我们找到好的数值，-8：1/256，-10：1/1024。
 
-Histogram Log Max: Float (single-precision). Histogram Log Max:. temporary exposed until we found good values 4: 16, 8: 256.
+直方图日志最大值：浮点数（单精度）。Histogram Log Max:.临时曝光，直到我们找到好的值，4：16，8：256。
 
-Calibration Constant: Float (single-precision). Calibration Constant:. Calibration constant for 18% albedo..
+校准常数。Float (single-precision). 校准常数:. 18%反照率的校准常数。
 
-Apply Physical Camera Exposure: Boolean. Apply Physical Camera Exposure:. Enables physical camera exposure using ShutterSpeed/ISO/Aperture..
-
+Apply Physical Camera Exposure（应用物理相机曝光）：布尔值。Apply Physical Camera Exposure:.应用物理相机曝光。使用快门速度/ISO/光圈启用物理相机曝光。

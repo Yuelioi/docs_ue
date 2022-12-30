@@ -1,6 +1,6 @@
 # LocalVector
 
-Local temporary Vector variable
+本地临时向量变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Vector variable
 
 ## Outputs
 
-Variable: Vector.
-
+变量。向量。

@@ -1,6 +1,6 @@
 # LiteralenumESynthFilterType
 
-Literal enum ESynthFilterType
+字面意义上的ESynthFilterType枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESynthFilterType
 
 ## Inputs
 
-Enum: ESynthFilterType Enum.  
+枚举。ESynthFilterType枚举。 
 
 ## Outputs
 
-Return Value: ESynthFilterType Enum.
-
+返回值。ESynthFilterType Enum。

@@ -1,6 +1,6 @@
 # LiteralenumEDMXImportGDTFBeamTyp-
 
-Literal enum EDMXImportGDTFBeamType
+枚举 EDMXImportGDTFBeamType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDMXImportGDTFBeamType
 
 ## Inputs
 
-Enum: EDMXImportGDTFBeamType Enum.  
+枚举。EDMXImportGDTFBeamType Enum.  
 
 ## Outputs
 
-Return Value: EDMXImportGDTFBeamType Enum.
-
+返回值。EDMXImportGDTFBeamType Enum.

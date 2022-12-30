@@ -1,6 +1,6 @@
 # BytetoEnumEGooglePADStorageMetho-
 
-Byte to Enum EGooglePADStorageMethod
+字节到枚举 EGooglePADStorageMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGooglePADStorageMethod
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGooglePADStorageMethod Enum.
-
+返回值。EGooglePADStorageMethod Enum。

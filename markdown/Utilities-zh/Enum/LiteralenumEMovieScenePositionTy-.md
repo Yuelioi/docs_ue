@@ -1,6 +1,6 @@
 # LiteralenumEMovieScenePositionTy-
 
-Literal enum EMovieScenePositionType
+枚举EMovieScenePositionType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMovieScenePositionType
 
 ## Inputs
 
-Enum: EMovieScenePositionType Enum.  
+枚举。EMovieScenePositionType Enum.  
 
 ## Outputs
 
-Return Value: EMovieScenePositionType Enum.
-
+返回值。EMovieScenePositionType枚举。

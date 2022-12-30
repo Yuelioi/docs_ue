@@ -1,6 +1,6 @@
 # LocalInteger
 
-Local temporary Integer variable
+本地临时整数变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Integer variable
 
 ## Outputs
 
-Variable: Integer.
-
+变量。整数。

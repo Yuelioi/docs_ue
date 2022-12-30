@@ -1,6 +1,6 @@
 # SwitchonECollisionTraceFlag
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ECollisionTraceFlag Enum.  
+选择。ECollisionTraceFlag Enum.  
 
 ## Outputs
 
-Project Default: Exec.
+项目默认。Exec.
 
-Simple and Complex: Exec.
+简单和复杂：Exec.
 
-Use Simple Collision as Complex: Exec.
+将简单碰撞作为复杂碰撞使用：Exec.
 
-Use Complex Collision as Simple: Exec.
-
+将复杂碰撞作为简单碰撞使用。执行。

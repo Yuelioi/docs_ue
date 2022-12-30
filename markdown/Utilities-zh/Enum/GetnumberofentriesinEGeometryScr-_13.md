@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGeometryScr-_13
 
-Returns EGeometryScriptTangentTypes_MAX value
+返回 EGeometryScriptTangentTypes_MAX 值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGeometryScriptTangentTypes_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

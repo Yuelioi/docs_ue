@@ -1,8 +1,8 @@
 # Delay
 
-Perform a latent action with a delay (specified in seconds). Calling again while it is counting down will be ignored.
+执行一个有延迟的潜伏动作（以秒为单位指定）。在其倒计时时再次调用将被忽略。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Duration: Float (single-precision). length of delay (in seconds)..  
+持续时间。Float (single-precision).延迟的长度（单位：秒）。 
 
 ## Outputs
 
-Completed: Exec.
-
+已完成。Exec.

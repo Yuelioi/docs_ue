@@ -13,4 +13,3 @@ Enum: ESynthSlateSizeType Enum.
 ## Outputs
 
 Return Value: ESynthSlateSizeType Enum.
-

@@ -1,6 +1,6 @@
 # BreakDisplayClus-_26
 
-Adds a node that breaks a 'DisplayClusterConfigurationViewport_PerViewportColorGrading' into its member fields
+添加一个打破'DisplayClusterConfigurationViewport_PerViewportColorGrading'的节点到其成员字段中
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'DisplayClusterConfigurationViewport_PerViewportColorG
 
 ## Inputs
 
-Display Cluster Configuration Viewport Per Viewport Color Grading: Display Cluster Configuration Viewport Per Viewport Color Grading Structure (by ref).  
+Display Cluster Configuration Viewport Per Viewport Color Grading（显示集群配置视口每视口颜色分级）。Display Cluster Configuration Viewport Per Viewport Color Grading 结构（通过参考）。 
 
 ## Outputs
 
-Enable Per- Viewport Color Grading: Boolean. Is Enabled:. Enable the color grading settings for the viewport(s) specified and add them to nDisplay's color grading stack. This will not affect the inner frustum..
+Enable Per- Viewport Color Grading: 布尔值。是启用的：。启用指定视口的调色设置，并将其添加到 nDisplay 的调色栈中。这不会影响到内部地壳。
 
-Include Entire Cluster Color Grading: Boolean. Is Entire Cluster Enabled:. Optionally include the Entire Cluster Color Grading settings specified above in nDisplay's color grading stack for these viewports..
+包括整个群组的调色。Boolean（布尔）。Is Entire Cluster Enabled（启用整个群集）：. 可选择将上面指定的整个群组调色设置包含在这些视口的 nDisplay 调色栈中。
 
-Color Grading: Display Cluster Configuration Viewport Color Grading Rendering Settings Structure. Color Grading Settings:. Color Grading.
+Color Grading（色彩分级）。Display Cluster Configuration Viewport Color Grading Rendering Settings Structure. 颜色分级设置：. Color Grading.
 
-Apply Color Grading To Viewports: Array of Strings. Apply Post Process to Objects:. Specify the viewports to apply these color grading settings..
-
+将颜色分级应用于视口。Array of Strings. 将后期处理应用于对象：. 指定要应用这些调色设置的视口。

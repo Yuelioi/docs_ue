@@ -1,6 +1,6 @@
 # BreakDirectoryPath
 
-Adds a node that breaks a 'DirectoryPath' into its member fields
+添加一个节点，将'DirectoryPath'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'DirectoryPath' into its member fields
 
 ## Inputs
 
-Directory Path: Directory Path Structure (by ref).  
+目录路径。目录路径结构（通过引用）。 
 
 ## Outputs
 
-Path: String. Path:. The path to the directory..
-
+路径。字符串。路径：。目录的路径。

@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptFlareT-
 
-Literal enum EGeometryScriptFlareType
+枚举 EGeometryScriptFlareType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptFlareType
 
 ## Inputs
 
-Enum: EGeometryScriptFlareType Enum.  
+枚举。EGeometryScriptFlareType枚举。 
 
 ## Outputs
 
-Return Value: EGeometryScriptFlareType Enum.
-
+返回值。EGeometryScriptFlareType Enum.

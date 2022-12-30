@@ -1,6 +1,6 @@
 # LiteralenumEOculusMR_Composition-
 
-Literal enum EOculusMR_CompositionMethod
+枚举 EOculusMR_CompositionMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EOculusMR_CompositionMethod
 
 ## Inputs
 
-Enum: EOculusMR_CompositionMethod Enum.  
+枚举。EOculusMR_CompositionMethod Enum.  
 
 ## Outputs
 
-Return Value: EOculusMR_CompositionMethod Enum.
-
+返回值。EOculusMR_CompositionMethod Enum.

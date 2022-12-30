@@ -1,6 +1,6 @@
 # BreakEyeTrackerGazeData
 
-Adds a node that breaks a 'EyeTrackerGazeData' into its member fields
+添加一个节点，将'EyeTrackerGazeData'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'EyeTrackerGazeData' into its member fields
 
 ## Inputs
 
-Eye Tracker Gaze Data: Eye Tracker Gaze Data Structure (by ref).  
+眼球追踪器凝视数据。眼睛跟踪器凝视数据结构（通过引用）。 
 
 ## Outputs
 
-Gaze Origin: Vector. Gaze Origin:. Origin of the unified gaze ray..
+凝视原点。向量。Gaze Origin:. 统一凝视射线的起源。
 
-Gaze Direction: Vector. Gaze Direction:. Forward direction of the unified gaze ray..
+凝视方向。Vector. 凝视方向：。统一凝视光线的前进方向。
 
-Fixation Point: Vector. Fixation Point:. Location that the eyes converge. This is the 3d point where the tracked viewer is looking..
+固定点。向量。固定点：。眼睛汇聚的位置。这是被追踪的观看者正在看的3D点。
 
-Confidence Value: Float (single-precision). Confidence Value:. Value [0..1] that represents confidence in the gaze ray data above. Stable, reliably tracked eyes will be at or near 1. Fast-moving or unreliably tracked eyes will be at or near 0..
-
+信心值。浮点数（单精度）。信心值：。代表对上述注视射线数据的信心的值[0...1]。稳定的、可靠追踪的眼睛会在1或接近1。快速移动或不可靠追踪的眼睛将处于或接近0。

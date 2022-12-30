@@ -1,6 +1,6 @@
 # LiteralenumEButtonPressMethod
 
-Literal enum EButtonPressMethod
+字面意义上的枚举：EButtonPressMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EButtonPressMethod
 
 ## Inputs
 
-Enum: EButtonPressMethod Enum.  
+枚举。EButtonPressMethod Enum.  
 
 ## Outputs
 
-Return Value: EButtonPressMethod Enum.
-
+返回值。EButtonPressMethod Enum.

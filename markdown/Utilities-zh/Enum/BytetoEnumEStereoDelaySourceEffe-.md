@@ -1,6 +1,6 @@
 # BytetoEnumEStereoDelaySourceEffe-
 
-Byte to Enum EStereoDelaySourceEffect
+字节到枚举 EStereoDelaySourceEffect
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EStereoDelaySourceEffect
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EStereoDelaySourceEffect Enum.
-
+返回值。EStereoDelaySourceEffect Enum。

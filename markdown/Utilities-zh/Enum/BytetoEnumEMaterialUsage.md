@@ -8,9 +8,8 @@ Byte to Enum EMaterialUsage
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMaterialUsage Enum.
-
+返回值。EMaterialUsage Enum。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinEDMXImportGD-_1
 
-Returns EDMXImportGDTFDMXInvert_MAX value
+返回EDMXImportGDTFDMXInvert_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EDMXImportGDTFDMXInvert_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

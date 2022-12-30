@@ -1,6 +1,6 @@
 # BytetoEnumEUpdateState
 
-Byte to Enum EUpdateState
+字节到枚举 EUpdateState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EUpdateState
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EUpdateState Enum.
-
+返回值。EUpdateState Enum。

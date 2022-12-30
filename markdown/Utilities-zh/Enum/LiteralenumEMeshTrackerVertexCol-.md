@@ -1,6 +1,6 @@
 # LiteralenumEMeshTrackerVertexCol-
 
-Literal enum EMeshTrackerVertexColorMode
+枚举EMeshTrackerVertexColorMode的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMeshTrackerVertexColorMode
 
 ## Inputs
 
-Enum: EMeshTrackerVertexColorMode Enum.  
+枚举。EMeshTrackerVertexColorMode枚举。 
 
 ## Outputs
 
-Return Value: EMeshTrackerVertexColorMode Enum.
-
+返回值。EMeshTrackerVertexColorMode枚举。

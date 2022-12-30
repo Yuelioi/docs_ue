@@ -1,6 +1,6 @@
 # LiteralenumEARSpatialMeshUsageFl-
 
-Literal enum EARSpatialMeshUsageFlags
+枚举EARSpatialMeshUsageFlags
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARSpatialMeshUsageFlags
 
 ## Inputs
 
-Enum: EARSpatialMeshUsageFlags Enum.  
+枚举。EARSpatialMeshUsageFlags Enum.  
 
 ## Outputs
 
-Return Value: EARSpatialMeshUsageFlags Enum.
-
+返回值。EARSpatialMeshUsageFlags Enum.

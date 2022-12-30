@@ -1,6 +1,6 @@
 # LiteralenumEAnimInterpolationTyp-
 
-Literal enum EAnimInterpolationType
+字面意义上的枚举：EAnimInterpolationType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAnimInterpolationType
 
 ## Inputs
 
-Enum: EAnimInterpolationType Enum.  
+枚举。EAnimInterpolationType Enum.  
 
 ## Outputs
 
-Return Value: EAnimInterpolationType Enum.
-
+返回值。EAnimInterpolationType Enum。

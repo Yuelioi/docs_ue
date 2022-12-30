@@ -1,6 +1,6 @@
 # BytetoEnumEMovementMode
 
-Byte to Enum EMovementMode
+字节到枚举EMovementMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMovementMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMovementMode Enum.
-
+返回值。EMovementMode Enum.

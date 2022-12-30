@@ -1,6 +1,6 @@
 # LiteralenumEMovieSceneBlendType
 
-Literal enum EMovieSceneBlendType
+枚举EMovieSceneBlendType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMovieSceneBlendType
 
 ## Inputs
 
-Enum: EMovieSceneBlendType Enum.  
+枚举。EMovieSceneBlendType Enum.  
 
 ## Outputs
 
-Return Value: EMovieSceneBlendType Enum.
-
+返回值。EMovieSceneBlendType枚举。

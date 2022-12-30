@@ -1,6 +1,6 @@
 # GetnumberofentriesinEDMXImportGD-_8
 
-Returns EDMXImportGDTFSnap_MAX value
+返回EDMXImportGDTFSnap_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EDMXImportGDTFSnap_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

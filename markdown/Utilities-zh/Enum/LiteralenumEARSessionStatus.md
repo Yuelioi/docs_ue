@@ -1,6 +1,6 @@
 # LiteralenumEARSessionStatus
 
-Literal enum EARSessionStatus
+字面意义上的EARSessionStatus枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARSessionStatus
 
 ## Inputs
 
-Enum: EARSessionStatus Enum.  
+枚举。EARSessionStatus Enum.  
 
 ## Outputs
 
-Return Value: EARSessionStatus Enum.
-
+返回值。EARSessionStatus Enum.

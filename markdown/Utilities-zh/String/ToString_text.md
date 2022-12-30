@@ -1,8 +1,8 @@
 # ToString_text
 
-Converts localizable text to the string
+将可本地化的文本转换为字符串
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet Text Library
 
 ## Inputs
 
-In Text: Text (by ref).  
+在文本中。文本（通过引用）。 
 
 ## Outputs
 
-Return Value: String. Converts localizable text to the string.
-
+返回值。字符串。将可本地化的文本转换为字符串。

@@ -1,6 +1,6 @@
 # LiteralenumEConfidenceBehavior
 
-Literal enum EConfidenceBehavior
+枚举EConfidenceBehavior
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EConfidenceBehavior
 
 ## Inputs
 
-Enum: EConfidenceBehavior Enum.  
+枚举。EConfidenceBehavior Enum.  
 
 ## Outputs
 
-Return Value: EConfidenceBehavior Enum.
-
+返回值。EConfidenceBehavior Enum。

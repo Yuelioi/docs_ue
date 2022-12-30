@@ -1,6 +1,6 @@
 # LiteralenumEARFaceBlendShape
 
-Literal enum EARFaceBlendShape
+枚举EARFaceBlendShape
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARFaceBlendShape
 
 ## Inputs
 
-Enum: EARFaceBlendShape Enum.  
+枚举。EARFaceBlendShape Enum.  
 
 ## Outputs
 
-Return Value: EARFaceBlendShape Enum.
-
+返回值。EARFaceBlendShape Enum.

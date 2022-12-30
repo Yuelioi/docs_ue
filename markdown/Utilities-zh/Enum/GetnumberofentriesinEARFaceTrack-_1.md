@@ -1,6 +1,6 @@
 # GetnumberofentriesinEARFaceTrack-_1
 
-Returns EARFaceTrackingFileWriterType_MAX value
+返回EARFaceTrackingFileWriterType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EARFaceTrackingFileWriterType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

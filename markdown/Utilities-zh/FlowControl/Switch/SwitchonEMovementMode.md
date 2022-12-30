@@ -1,6 +1,6 @@
 # SwitchonEMovementMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,23 +8,22 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMovementMode Enum.  
+选择。EMovementMode Enum.  
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Walking: Exec.
+步行。Exec.
 
-Navmesh Walking: Exec.
+Navmesh行走。执行.
 
-Falling: Exec.
+摔倒。执行。
 
-Swimming: Exec.
+游泳。执行。
 
-Flying: Exec.
+飞行 执行。
 
-Custom: Exec.
-
+自定义。执行。

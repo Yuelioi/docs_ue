@@ -1,6 +1,6 @@
 # SwitchonETransformCurveChannel
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETransformCurveChannel Enum.  
+选择。ETTransformCurveChannel Enum.  
 
 ## Outputs
 
-Position: Exec.
+位置。Exec.
 
-Rotation: Exec.
+Rotation(旋转) Exec.
 
-Scale: Exec.
+缩放：执行 Exec.
 
-Invalid: Exec.
-
+无效。执行.

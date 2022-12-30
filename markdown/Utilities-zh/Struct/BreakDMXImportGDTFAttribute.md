@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFAttribute
 
-Adds a node that breaks a 'DMXImportGDTFAttribute' into its member fields
+添加一个节点，将'DMXImportGDTFAttribute'分解到其成员字段中。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'DMXImportGDTFAttribute' into its member fields
 
 ## Inputs
 
-DMXImport GDTFAttribute: DMXImport GDTFAttribute Structure (by ref).  
+DMXImport GDTFAttribute。DMXImport GDTFAttribute 结构（通过引用）。 
 
 ## Outputs
 
-Name: Name. Name.
+名称。名称。名称：名称。
 
-Pretty: String. Pretty.
+漂亮。字符串。漂亮。
 
-Activation Group: DMXImport GDTFActivation Group Structure. Activation Group.
+激活组。DMXImport GDTFAActivation Group Structure. 激活组。
 
-Feature: DMXImport GDTFFeature Structure. Feature.
+特征。DMXImport GDTFFeature结构。特征。
 
-Main Attribute: String. Main Attribute.
+主要属性。字符串。主要属性。
 
-Physical Unit: EDMXImportGDTFPhysicalUnit Enum. Physical Unit.
+物理单元。EDMXImportGDTFPhysicalUnit枚举。物理单元。
 
-Color: DMXColor CIE Structure. Color.
-
+颜色：DMXColor CIE结构。颜色: DMXColor CIE结构。

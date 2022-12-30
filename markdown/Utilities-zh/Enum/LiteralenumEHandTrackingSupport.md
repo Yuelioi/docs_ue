@@ -1,6 +1,6 @@
 # LiteralenumEHandTrackingSupport
 
-Literal enum EHandTrackingSupport
+字面意义上的EHandTrackingSupport枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EHandTrackingSupport
 
 ## Inputs
 
-Enum: EHandTrackingSupport Enum.  
+枚举。EHandTrackingSupport Enum.  
 
 ## Outputs
 
-Return Value: EHandTrackingSupport Enum.
-
+返回值。EHandTrackingSupport Enum。

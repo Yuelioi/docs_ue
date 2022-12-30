@@ -1,6 +1,6 @@
 # BreakDMXOutputPortDestinationAdd-
 
-Adds a node that breaks a 'DMXOutputPortDestinationAddress' into its member fields
+添加一个节点，将'DMXOutputPortDestinationAddress'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'DMXOutputPortDestinationAddress' into its member fiel
 
 ## Inputs
 
-DMXOutput Port Destination Address: DMXOutput Port Destination Address Structure (by ref).  
+DMXOutput Port Destination Address。DMXOutput Port Destination Address 结构（通过引用）。 
 
 ## Outputs
 
-Destination IP Address: String. Destination Address String:. The IP address outbound DMX is sent to.
-
+目的地IP地址。字符串。目的地地址字符串：。向外发送DMX的IP地址。

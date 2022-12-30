@@ -1,6 +1,6 @@
 # LiteralenumEFieldScalarType
 
-Literal enum EFieldScalarType
+字面意义上的枚举 EFieldScalarType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFieldScalarType
 
 ## Inputs
 
-Enum: EFieldScalarType Enum.  
+枚举。EFieldScalarType Enum.  
 
 ## Outputs
 
-Return Value: EFieldScalarType Enum.
-
+返回值。EFieldScalarType Enum.

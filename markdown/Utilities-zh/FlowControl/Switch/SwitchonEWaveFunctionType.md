@@ -1,6 +1,6 @@
 # SwitchonEWaveFunctionType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EWaveFunctionType Enum.  
+选择。EWaveFunctionType Enum.  
 
 ## Outputs
 
-Cosine: Exec.
+余弦。Exec.
 
-Gaussian: Exec.
+高斯函数: Exec.
 
-Falloff: Exec.
+衰减: 衰减 Exec.
 
-Decay: Exec.
-
+衰变。Exec.

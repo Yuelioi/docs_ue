@@ -1,6 +1,6 @@
 # BytetoEnumETrackedDeviceType
 
-Byte to Enum ETrackedDeviceType
+字节到枚举ETrackedDeviceType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETrackedDeviceType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETrackedDeviceType Enum.
-
+返回值。ETrackedDeviceType Enum。

@@ -1,6 +1,6 @@
 # SwitchonEContentBrowserPathType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EContentBrowserPathType Enum.  
+选择。EContentBrowserPathType枚举。 
 
 ## Outputs
 
-None: Exec.
+无。执行。
 
-Internal: Exec.
+内部。Exec.
 
-Virtual: Exec.
-
+虚拟：执行。

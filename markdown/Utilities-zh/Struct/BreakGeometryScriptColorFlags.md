@@ -1,22 +1,21 @@
 # BreakGeometryScriptColorFlags
 
-Adds a node that breaks a 'GeometryScriptColorFlags' into its member fields
+添加一个节点，将'GeometryScriptColorFlags'分解成其成员字段。
 
 ## 图示
 
 ![]($-20221218-14365080.png)
 
-## Inputs
+## 输入
 
-Geometry Script Color Flags: Geometry Script Color Flags Structure (by ref).  
+Geometry Script Color Flags: Geometry Script Color Flags结构(通过引用)。 
 
-## Outputs
+## 输出
 
-Red: Boolean. Red.
+红色：布尔值。红：红色。
 
-Green: Boolean. Green.
+绿色。布尔值。绿色。
 
-Blue: Boolean. Blue.
+蓝色。布尔值。蓝色。
 
-Alpha: Boolean. Alpha.
-
+阿尔法。布尔值。阿尔法。

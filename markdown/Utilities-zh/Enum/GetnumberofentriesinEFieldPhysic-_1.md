@@ -1,6 +1,6 @@
 # GetnumberofentriesinEFieldPhysic-_1
 
-Returns EFieldPhysicsType_MAX value
+返回EFieldPhysicsType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EFieldPhysicsType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

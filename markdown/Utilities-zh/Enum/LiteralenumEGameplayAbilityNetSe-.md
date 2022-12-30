@@ -1,6 +1,6 @@
 # LiteralenumEGameplayAbilityNetSe-
 
-Literal enum EGameplayAbilityNetSecurityPolicy
+字面意义上的枚举：EGameplayAbilityNetSecurityPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayAbilityNetSecurityPolicy
 
 ## Inputs
 
-Enum: EGameplayAbilityNetSecurityPolicy Enum.  
+枚举。EGameplayAbilityNetSecurityPolicy Enum。 
 
 ## Outputs
 
-Return Value: EGameplayAbilityNetSecurityPolicy Enum.
-
+返回值。EGameplayAbilityNetSecurityPolicy Enum。

@@ -8,9 +8,8 @@ Byte to Enum ELidarPointCloudAsyncMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELidarPointCloudAsyncMode Enum.
-
+返回值。ELidarPointCloudAsyncMode枚举。

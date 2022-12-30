@@ -1,6 +1,6 @@
 # LiteralenumEListItemAlignment
 
-Literal enum EListItemAlignment
+枚举EListItemAlignment
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EListItemAlignment
 
 ## Inputs
 
-Enum: EListItemAlignment Enum.  
+枚举。EListItemAlignment Enum.  
 
 ## Outputs
 
-Return Value: EListItemAlignment Enum.
-
+返回值。EListItemAlignment Enum.

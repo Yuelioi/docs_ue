@@ -1,6 +1,6 @@
 # LiteralenumEConversationRequirem-
 
-Literal enum EConversationRequirementResult
+枚举EConversationRequirementResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EConversationRequirementResult
 
 ## Inputs
 
-Enum: EConversationRequirementResult Enum.  
+枚举。EConversationRequirementResult Enum.  
 
 ## Outputs
 
-Return Value: EConversationRequirementResult Enum.
-
+返回值。EConversationRequirementResult Enum。

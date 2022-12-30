@@ -1,8 +1,8 @@
 # GetSubstring
 
-Returns a substring from the string starting at the specified position
+返回一个从指定位置开始的字符串的子串
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source String: String. The string to get the substring from.
+源字符串。字符串。要获取子串的字符串。
 
-Start Index: Integer. The location in SourceString to use as the start of the substring.
+开始索引。整数。在SourceString中作为子串开始的位置。
 
-Length: Integer. The length of the requested substring.  
+长度。整数。请求的子串的长度。 
 
 ## Outputs
 
-Return Value: String. The requested substring.
-
+返回值。字符串。请求的子串。

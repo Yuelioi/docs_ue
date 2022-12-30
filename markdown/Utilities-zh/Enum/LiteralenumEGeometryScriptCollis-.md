@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptCollis-
 
-Literal enum EGeometryScriptCollisionGenerationMethod
+字面上的枚举 EGeometryScriptCollisionGenerationMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptCollisionGenerationMethod
 
 ## Inputs
 
-Enum: EGeometryScriptCollisionGenerationMethod Enum.  
+枚举。EGeometryScriptCollisionGenerationMethod Enum.  
 
 ## Outputs
 
-Return Value: EGeometryScriptCollisionGenerationMethod Enum.
-
+返回值。EGeometryScriptCollisionGenerationMethod Enum.

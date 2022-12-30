@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptPrimit-
 
-Literal enum EGeometryScriptPrimitiveOriginMode
+字面意义上的枚举 EGeometryScriptPrimitiveOriginMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptPrimitiveOriginMode
 
 ## Inputs
 
-Enum: EGeometryScriptPrimitiveOriginMode Enum.  
+枚举。EGeometryScriptPrimitiveOriginMode枚举.  
 
 ## Outputs
 
-Return Value: EGeometryScriptPrimitiveOriginMode Enum.
-
+返回值。EGeometryScriptPrimitiveOriginMode Enum.

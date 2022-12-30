@@ -8,9 +8,8 @@ Byte to Enum EWaveFunctionType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EWaveFunctionType Enum.
-
+返回值。EWaveFunctionType Enum。

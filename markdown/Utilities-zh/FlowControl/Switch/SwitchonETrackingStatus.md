@@ -1,6 +1,6 @@
 # SwitchonETrackingStatus
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ETrackingStatus Enum.  
+选择。ETTrackingStatus枚举。 
 
 ## Outputs
 
-Not Tracked: Exec.
+未被跟踪。Exec.
 
-Inertial Only: Exec.
+仅限惯性。执行。
 
-Tracked: Exec.
-
+已跟踪。执行。

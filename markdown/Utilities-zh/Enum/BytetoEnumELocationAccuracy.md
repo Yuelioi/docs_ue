@@ -1,6 +1,6 @@
 # BytetoEnumELocationAccuracy
 
-Byte to Enum ELocationAccuracy
+字节到枚举 ELocationAccuracy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ELocationAccuracy
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ELocationAccuracy Enum.
-
+返回值。ELocationAccuracy Enum。

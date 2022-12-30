@@ -1,6 +1,6 @@
 # SwitchonEMoviePipelineShutterTim-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EMoviePipelineShutterTiming Enum.  
+选择。EMoviePipelineShutterTiming枚举。 
 
 ## Outputs
 
-Frame Open: Exec.
+帧打开。Exec.
 
-Frame Center: Exec.
+帧中心 Exec.
 
-Frame Close: Exec.
-
+画面关闭。执行

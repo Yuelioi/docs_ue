@@ -4,7 +4,7 @@
 
 
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -12,11 +12,10 @@ Target is Kismet String Library
 
 ## Inputs
 
-Source String: String. The string to pad *.
+源字符串。字符串。要填充的字符串 *.
 
-Ch Count: Integer. Amount of padding required *.  
+Ch Count: 整数。需要填充的数量 *.  
 
 ## Outputs
 
-Return Value: String. The padded string.
-
+返回值。字符串。被填充的字符串。

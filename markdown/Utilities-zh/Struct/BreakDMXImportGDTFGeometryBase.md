@@ -1,6 +1,6 @@
 # BreakDMXImportGDTFGeometryBase
 
-Adds a node that breaks a 'DMXImportGDTFGeometryBase' into its member fields
+添加一个节点，将'DMXImportGDTFGeometryBase'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'DMXImportGDTFGeometryBase' into its member fields
 
 ## Inputs
 
-DMXImport GDTFGeometry Base: DMXImport GDTFGeometry Base Structure (by ref).  
+DMXImport GDTFGeometry Base。DMXImport GDTFGeometry Base 结构（通过引用）。 
 
 ## Outputs
 
-Name: Name. Name.
+名称。名称。名称： 名称。
 
-Model: Name. Model.
+模型。名称。模型。
 
-Position: Matrix Structure. Position.
-
+位置。矩阵结构。职务：职务。

@@ -1,6 +1,6 @@
 # LiteralenumELerpInterpolationMod-
 
-Literal enum ELerpInterpolationMode
+枚举 ELerpInterpolationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELerpInterpolationMode
 
 ## Inputs
 
-Enum: ELerpInterpolationMode Enum.  
+枚举。ELerpInterpolationMode枚举。 
 
 ## Outputs
 
-Return Value: ELerpInterpolationMode Enum.
-
+返回值。ELerpInterpolationMode Enum。

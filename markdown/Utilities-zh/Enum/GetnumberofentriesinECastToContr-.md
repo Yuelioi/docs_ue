@@ -1,6 +1,6 @@
 # GetnumberofentriesinECastToContr-
 
-Returns ECastToControlRigBlueprintCases_MAX value
+返回ECastToControlRigBlueprintCases_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ECastToControlRigBlueprintCases_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

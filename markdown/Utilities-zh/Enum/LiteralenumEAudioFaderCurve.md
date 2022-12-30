@@ -1,6 +1,6 @@
 # LiteralenumEAudioFaderCurve
 
-Literal enum EAudioFaderCurve
+枚举 EAudioFaderCurve
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAudioFaderCurve
 
 ## Inputs
 
-Enum: EAudioFaderCurve Enum.  
+枚举。EAudioFaderCurve Enum.  
 
 ## Outputs
 
-Return Value: EAudioFaderCurve Enum.
-
+返回值。EAudioFaderCurve Enum.

@@ -1,6 +1,6 @@
 # LiteralenumEGoogleARCoreTracking-_1
 
-Literal enum EGoogleARCoreTrackingState
+枚举 EGoogleARCoreTrackingState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGoogleARCoreTrackingState
 
 ## Inputs
 
-Enum: EGoogleARCoreTrackingState Enum.  
+枚举。EGoogleARCoreTrackingState Enum.  
 
 ## Outputs
 
-Return Value: EGoogleARCoreTrackingState Enum.
-
+返回值。EGoogleARCoreTrackingState Enum。

@@ -1,6 +1,6 @@
 # LiteralenumEVPCameraRigSpawnLine-
 
-Literal enum EVPCameraRigSpawnLinearApproximationMode
+枚举EVPCameraRigSpawnLinearApproximationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EVPCameraRigSpawnLinearApproximationMode
 
 ## Inputs
 
-Enum: EVPCameraRigSpawnLinearApproximationMode Enum.  
+枚举。EVPCameraRigSpawnLinearApproximationMode枚举。 
 
 ## Outputs
 
-Return Value: EVPCameraRigSpawnLinearApproximationMode Enum.
-
+返回值。EVPCameraRigSpawnLinearApproximationMode Enum.

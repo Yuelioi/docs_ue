@@ -1,6 +1,6 @@
 # SwitchonEDatasmithAreaLightActor-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EDatasmithAreaLightActorShape Enum.  
+选择。EDatasmithAreaLightActorShape Enum.  
 
 ## Outputs
 
-Rectangle: Exec.
+矩形。Exec.
 
 Disc: Exec.
 
-Sphere: Exec.
+球体 Exec.
 
-Cylinder: Exec.
+圆筒 Exec.
 
-None: Exec.
-
+没有。Exec.

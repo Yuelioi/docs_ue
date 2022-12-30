@@ -1,6 +1,6 @@
 # BytetoEnumERigVMPinDirection
 
-Byte to Enum ERigVMPinDirection
+字节到枚举ERigVMPinDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERigVMPinDirection
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERigVMPinDirection Enum.
-
+返回值。ERigVMPinDirection Enum。

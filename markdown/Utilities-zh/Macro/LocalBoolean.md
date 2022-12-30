@@ -1,6 +1,6 @@
 # LocalBoolean
 
-Local temporary Boolean variable
+本地临时布尔变量
 
 ## 图示
 
@@ -10,5 +10,4 @@ Local temporary Boolean variable
 
 ## Outputs
 
-Variable: Boolean.
-
+变量。布尔型。

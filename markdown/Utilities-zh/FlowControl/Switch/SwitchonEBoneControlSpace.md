@@ -1,6 +1,6 @@
 # SwitchonEBoneControlSpace
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EBoneControlSpace Enum.  
+选择。EBoneControlSpace Enum.  
 
 ## Outputs
 
-World Space: Exec.
+世界空间。执行。
 
-Component Space: Exec.
+组件空间。执行。
 
-Parent Bone Space: Exec.
+父骨空间。Exec.
 
-Bone Space: Exec.
-
+骨骼空间。Exec.

@@ -1,6 +1,6 @@
 # LiteralenumEWidgetTimingPolicy
 
-Literal enum EWidgetTimingPolicy
+枚举 EWidgetTimingPolicy
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EWidgetTimingPolicy
 
 ## Inputs
 
-Enum: EWidgetTimingPolicy Enum.  
+枚举。EWidgetTimingPolicy Enum.  
 
 ## Outputs
 
-Return Value: EWidgetTimingPolicy Enum.
-
+返回值。EWidgetTimingPolicy Enum.

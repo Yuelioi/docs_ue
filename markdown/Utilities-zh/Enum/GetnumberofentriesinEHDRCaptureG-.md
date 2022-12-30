@@ -1,6 +1,6 @@
 # GetnumberofentriesinEHDRCaptureG-
 
-Returns EHDRCaptureGamut_MAX value
+返回EHDRCaptureGamut_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EHDRCaptureGamut_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

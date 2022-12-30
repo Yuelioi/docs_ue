@@ -1,6 +1,6 @@
 # LiteralenumESourceEffectMotionFi-_3
 
-Literal enum ESourceEffectMotionFilterTopology
+枚举 ESourceEffectMotionFilterTopology
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESourceEffectMotionFilterTopology
 
 ## Inputs
 
-Enum: ESourceEffectMotionFilterTopology Enum.  
+枚举。ESourceEffectMotionFilterTopology枚举。 
 
 ## Outputs
 
-Return Value: ESourceEffectMotionFilterTopology Enum.
-
+返回值。ESourceEffectMotionFilterTopology Enum。

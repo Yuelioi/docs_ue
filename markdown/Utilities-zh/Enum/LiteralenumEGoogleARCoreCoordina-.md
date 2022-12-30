@@ -1,6 +1,6 @@
 # LiteralenumEGoogleARCoreCoordina-
 
-Literal enum EGoogleARCoreCoordinates2DType
+枚举 EGoogleARCoreCoordinates2DType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGoogleARCoreCoordinates2DType
 
 ## Inputs
 
-Enum: EGoogleARCoreCoordinates2DType Enum.  
+枚举。EGoogleARCoreCoordinates2DType Enum.  
 
 ## Outputs
 
-Return Value: EGoogleARCoreCoordinates2DType Enum.
-
+返回值。EGoogleARCoreCoordinates2DType Enum。

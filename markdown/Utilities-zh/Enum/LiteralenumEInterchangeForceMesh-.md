@@ -1,6 +1,6 @@
 # LiteralenumEInterchangeForceMesh-
 
-Literal enum EInterchangeForceMeshType
+枚举 EInterchangeForceMeshType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EInterchangeForceMeshType
 
 ## Inputs
 
-Enum: EInterchangeForceMeshType Enum.  
+枚举。EInterchangeForceMeshType 枚举。 
 
 ## Outputs
 
-Return Value: EInterchangeForceMeshType Enum.
-
+返回值。EInterchangeForceMeshType Enum。

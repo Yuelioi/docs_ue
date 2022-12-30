@@ -1,6 +1,6 @@
 # SwitchonELidarPointCloudColorati-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ELidarPointCloudColorationMode Enum.  
+选择。ELidarPointCloudColorationMode枚举。 
 
 ## Outputs
 
-None: Exec.
+无。执行。
 
-Data: Exec.
+数据。Exec.
 
-Elevation: Exec.
+提升。Exec.
 
-Position: Exec.
+位置: 职务: 职务
 
-Classification: Exec.
-
+分类: 行政人员

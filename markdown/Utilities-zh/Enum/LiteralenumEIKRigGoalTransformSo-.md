@@ -1,6 +1,6 @@
 # LiteralenumEIKRigGoalTransformSo-
 
-Literal enum EIKRigGoalTransformSource
+EIKRigGoalTransformSource的枚举。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EIKRigGoalTransformSource
 
 ## Inputs
 
-Enum: EIKRigGoalTransformSource Enum.  
+枚举。EIKRigGoalTransformSource Enum.  
 
 ## Outputs
 
-Return Value: EIKRigGoalTransformSource Enum.
-
+返回值。EIKRigGoalTransformSource Enum.

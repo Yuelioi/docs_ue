@@ -1,6 +1,6 @@
 # BreakAppleImageUtilsImageConvers-
 
-Adds a node that breaks a 'AppleImageUtilsImageConversionResult' into its member fields
+添加一个节点，将'AppleImageUtilsImageConversionResult'分解为其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'AppleImageUtilsImageConversionResult' into its member
 
 ## Inputs
 
-Apple Image Utils Image Conversion Result: Apple Image Utils Image Conversion Result Structure (by ref).  
+Apple Image Utils Image Conversion Result。Apple Image Utils Image Conversion Result结构（通过引用）。 
 
 ## Outputs
 
-Error: String. Error.
+错误。字符串。错误：字符串。
 
-Image Data: Array of Bytes. Image Data.
-
+图像数据。字节数组。Image Data: 图像数据。

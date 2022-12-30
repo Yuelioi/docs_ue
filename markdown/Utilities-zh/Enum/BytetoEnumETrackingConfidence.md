@@ -1,6 +1,6 @@
 # BytetoEnumETrackingConfidence
 
-Byte to Enum ETrackingConfidence
+字节到枚举 ETTrackingConfidence
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETrackingConfidence
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETrackingConfidence Enum.
-
+返回值。ETrackingConfidence Enum。

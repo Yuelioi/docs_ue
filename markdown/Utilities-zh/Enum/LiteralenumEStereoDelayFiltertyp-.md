@@ -1,6 +1,6 @@
 # LiteralenumEStereoDelayFiltertyp-
 
-Literal enum EStereoDelayFiltertype
+字面意义上的枚举：EStereoDelayFiltertype
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EStereoDelayFiltertype
 
 ## Inputs
 
-Enum: EStereoDelayFiltertype Enum.  
+枚举。EStereoDelayFiltertype Enum。 
 
 ## Outputs
 
-Return Value: EStereoDelayFiltertype Enum.
-
+返回值。EStereoDelayFiltertype Enum。

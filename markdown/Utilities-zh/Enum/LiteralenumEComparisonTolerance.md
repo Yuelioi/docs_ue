@@ -1,6 +1,6 @@
 # LiteralenumEComparisonTolerance
 
-Literal enum EComparisonTolerance
+枚举 EComparisonTolerance
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EComparisonTolerance
 
 ## Inputs
 
-Enum: EComparisonTolerance Enum.  
+枚举。EComparisonTolerance Enum.  
 
 ## Outputs
 
-Return Value: EComparisonTolerance Enum.
-
+返回值。EComparisonTolerance Enum。

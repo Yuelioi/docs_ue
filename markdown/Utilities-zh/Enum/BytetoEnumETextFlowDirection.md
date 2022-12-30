@@ -1,6 +1,6 @@
 # BytetoEnumETextFlowDirection
 
-Byte to Enum ETextFlowDirection
+字节到枚举ETextFlowDirection
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETextFlowDirection
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETextFlowDirection Enum.
-
+返回值。ETextFlowDirection Enum。

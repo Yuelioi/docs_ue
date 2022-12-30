@@ -1,6 +1,6 @@
 # BreakGameplayCueNotify_LoopingEf-
 
-Adds a node that breaks a 'GameplayCueNotify_LoopingEffects' into its member fields
+添加一个打破'GameplayCueNotify_LoopingEffects'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'GameplayCueNotify_LoopingEffects' into its member fie
 
 ## Inputs
 
-Gameplay Cue Notify Looping Effects: Gameplay Cue Notify Looping Effects Structure (by ref).  
+Gameplay Cue Notify Looping Effects。Gameplay Cue Notify Looping Effects 结构（通过引用）。 
 
 ## Outputs
 
-Looping Particles: Array of Gameplay Cue Notify Particle Info Structures. Looping Particles:. Particle systems to be spawned on gameplay cue loop start..
+循环粒子。Gameplay Cue Notify Particle Info Structures的数组。Looping Particles: 循环粒子：。在游戏线索循环开始时产生的粒子系统。
 
-Looping Sounds: Array of Gameplay Cue Notify Sound Info Structures. Looping Sounds:. Sound to be played on gameplay cue loop start..
+循环声音。Array of Gameplay Cue Notify Sound Info Structures. 循环声音：。在游戏线索循环开始时播放的声音。
 
-Looping Camera Shake: Gameplay Cue Notify Camera Shake Info Structure. Looping Camera Shake:. Camera shake to be played on gameplay cue loop start..
+Looping Camera Shake: Gameplay Cue Notify Camera Shake信息结构。Looping Camera Shake:（循环的摄像机摇动）。在游戏线索循环开始时播放的相机抖动。
 
-Looping Camera Anim: Gameplay Cue Notify Camera Anim Info Structure. Looping Camera Anim:. Camera animation to be played on gameplay cue loop start..
+Looping Camera Anim: Gameplay Cue Notify Camera Anim Info Structure. Looping Camera Anim:.循环相机动画。循环播放的摄像机动画：在游戏线索循环开始时播放。
 
-Looping Camera Lens Effect: Gameplay Cue Notify Camera Lens Effect Info Structure. Looping Camera Lens Effect:. Camera lens effect to be played on gameplay cue loop start..
+Looping Camera Lens Effect: Gameplay Cue Notify Camera Lens Effect Info Structure. Looping Camera Lens Effect:.循环的相机镜头效果。在游戏线索循环开始时播放的相机镜头效果。
 
-Looping Force Feedback: Gameplay Cue Notify Force Feedback Info Structure. Looping Force Feedback:. Force feedback to be played on gameplay cue loop start..
-
+Looping Force Feedback（循环力反馈）。Gameplay Cue Notify Force Feedback信息结构。循环的力反馈：。在游戏线索循环开始时播放的力反馈。

@@ -1,6 +1,6 @@
 # LiteralenumESwapAudioOutputDevic-
 
-Literal enum ESwapAudioOutputDeviceResultState
+字面枚举 ESwapAudioOutputDeviceResultState
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ESwapAudioOutputDeviceResultState
 
 ## Inputs
 
-Enum: ESwapAudioOutputDeviceResultState Enum.  
+枚举。ESwapAudioOutputDeviceResultState枚举。 
 
 ## Outputs
 
-Return Value: ESwapAudioOutputDeviceResultState Enum.
-
+返回值。ESwapAudioOutputDeviceResultState Enum.

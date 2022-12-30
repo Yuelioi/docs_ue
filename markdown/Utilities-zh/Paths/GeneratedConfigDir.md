@@ -1,8 +1,8 @@
 # GeneratedConfigDir
 
-Returns the directory the engine saves generated config files.
+返回引擎保存生成的配置文件的目录。
 
-Target is Blueprint Paths Library
+目标是蓝图路径库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Blueprint Paths Library
 
 ## Outputs
 
-Return Value: String. config directory.
-
+返回值。字符串。配置目录。

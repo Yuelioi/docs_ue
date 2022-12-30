@@ -1,6 +1,6 @@
 # LiteralenumEInterchangeMaterialN-
 
-Literal enum EInterchangeMaterialNodeParameterName
+枚举EInterchangeMaterialNodeParameterName
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EInterchangeMaterialNodeParameterName
 
 ## Inputs
 
-Enum: EInterchangeMaterialNodeParameterName Enum.  
+枚举。EInterchangeMaterialNodeParameterName枚举。 
 
 ## Outputs
 
-Return Value: EInterchangeMaterialNodeParameterName Enum.
-
+返回值。EInterchangeMaterialNodeParameterName枚举：EInterchangeMaterialNodeParameterName枚举。

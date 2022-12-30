@@ -1,18 +1,17 @@
 # BreakDisplayClus-_8
 
-Adds a node that breaks a 'DisplayClusterConfigurationICVFX_CameraSoftEdge' into its member fields
+添加一个节点，将'DisplayClusterConfigurationICVFX_CameraSoftEdge'分解到其成员字段中。
 
 ## 图示
 
 ![]($-20221218-14342141.png)
 
-## Inputs
+## 输入
 
 Display Cluster Configuration ICVFX Camera Soft Edge: Display Cluster Configuration ICVFX Camera Soft Edge Structure (by ref).  
 
-## Outputs
+## 输出
 
-Top And Bottom: Float (single-precision). Vertical:. Adjust blur amount to the top and bottom edges of the inner frustum..
+顶部和底部。Float (single-precision). 垂直：。调整内壳的顶部和底部边缘的模糊量。
 
-Sides: Float (single-precision). Horizontal:. Adjust blur amount to the left and right side edges of the inner frustum..
-
+侧面。Float（单精度）。水平：。调整内围的左右边缘的模糊程度。

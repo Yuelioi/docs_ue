@@ -1,8 +1,8 @@
 # GetPlatformUserDir
 
-Get the current user dir from the OS
+从操作系统获取当前用户目录
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Kismet System Library
 
 ## Outputs
 
-Return Value: String. Get the current user dir from the OS.
-
+返回值。字符串。从操作系统中获取当前的用户目录。

@@ -1,6 +1,6 @@
 # GetnumberofentriesinEMeterPeakTy-
 
-Returns EMeterPeakType_MAX value
+返回EMeterPeakType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EMeterPeakType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

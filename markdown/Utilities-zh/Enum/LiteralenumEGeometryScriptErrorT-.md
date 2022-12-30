@@ -1,6 +1,6 @@
 # LiteralenumEGeometryScriptErrorT-
 
-Literal enum EGeometryScriptErrorType
+字面上的枚举 EGeometryScriptErrorType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGeometryScriptErrorType
 
 ## Inputs
 
-Enum: EGeometryScriptErrorType Enum.  
+枚举。EGeometryScriptErrorType 枚举。 
 
 ## Outputs
 
-Return Value: EGeometryScriptErrorType Enum.
-
+返回值。EGeometryScriptErrorType Enum.

@@ -1,6 +1,6 @@
 # BytetoEnumEZoneShapeLaneConnecti-
 
-Byte to Enum EZoneShapeLaneConnectionRestrictions
+字节到枚举 EZoneShapeLaneConnectionRestrictions
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EZoneShapeLaneConnectionRestrictions
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EZoneShapeLaneConnectionRestrictions Enum.
-
+返回值。EZoneShapeLaneConnectionRestrictions Enum。

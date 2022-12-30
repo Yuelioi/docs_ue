@@ -1,6 +1,6 @@
 # BreakBodyInstance
 
-Adds a node that breaks a 'BodyInstance' into its member fields
+添加一个节点，将'BodyInstance'分解成其成员字段
 
 ## 图示
 
@@ -8,57 +8,56 @@ Adds a node that breaks a 'BodyInstance' into its member fields
 
 ## Inputs
 
-Body Instance: Body Instance Structure (by ref).  
+身体实例。身体实例结构（通过引用）。 
 
 ## Outputs
 
-Sleep Family: ESleepFamily Enum. Sleep Family:. The set of values used in considering when put this body to sleep..
+睡眠家族。ESleepFamily枚举。睡眠家族：。用于考虑何时让这个身体进入睡眠状态的一组值。
 
-Use CCD: Boolean. Use CCD:. If true Continuous Collision Detection (CCD) will be used for this component.
+Use CCD: 布尔值。使用CCD：。如果为真，连续碰撞检测（CCD）将被用于该组件。
 
-Ignore Analytic Collisions: Boolean. Ignore Analytic Collisions:. If true ignore analytic collisions and treat objects as a general implicit surface.
+忽略分析性碰撞。布尔值。忽略分析性碰撞：。如果为真，则忽略分析性碰撞，将物体视为一般的隐性表面。
 
-Simulation Generates Hit Events: Boolean. Notify Rigid Body Collision:. Should 'Hit' events fire when this object collides during physics simulation..
+模拟产生撞击事件。布尔值。通知刚体碰撞：。当这个物体在物理模拟过程中发生碰撞时，"碰撞 "事件是否应该发生。
 
-Smooth Edge Collisions: Boolean. Smooth Edge Collisions:. Remove unnecessary edge collisions to allow smooth sliding over surfaces composed of multiple actors/components.. This is fairly expensive and should only be enabled on hero objects..
+平滑边缘碰撞。布尔值。平滑边缘碰撞：。删除不必要的边缘碰撞，以允许在由多个角色/组件组成的表面上平滑滑动。这个功能相当昂贵，应该只在英雄物体上启用。
 
-Position Solver Iteration Count: Byte. Position Solver Iteration Count:. [PhysX Only] This physics body's solver iteration count for position. Increasing this will be more CPU intensive, but better stabilized..
+Position Solver Iteration Count（位置求解器迭代次数）。字节。位置解算器迭代次数：。[PhysX Only] 该物理体的位置求解器迭代次数。增加这个数值会更耗费CPU，但稳定性更好。
 
-Velocity Solver Iteration Count: Byte. Velocity Solver Iteration Count:. [PhysX Only] This physics body's solver iteration count for velocity. Increasing this will be more CPU intensive, but better stabilized..
+速度求解器迭代次数。字节。速度求解器迭代次数：。[PhysX Only] 该物理体的速度求解器迭代次数。增加这个数值会更加消耗CPU，但稳定性更好。
 
-Max Depenetration Velocity: Float (single-precision). Max Depenetration Velocity:. [PhysX Only] The maximum velocity used to depenetrate this object.
+最大穿透速度。浮点数（单精度）。最大穿透速度：。[仅适用于PhysX]用于破坏该物体的最大速度。
 
-Mass (Kg): Float (single-precision). Mass in Kg Override:. Mass of the body in KG. By default we compute this based on physical material and mass scale.. @see bOverrideMass to set this directly.
+质量（公斤）。浮点（单精度）。质量（公斤） 覆盖：。身体的质量，单位是KG。默认情况下，我们根据物理材料和质量比例来计算。参见bOverrideMass来直接设置这个。
 
-Linear Damping: Float (single-precision). Linear Damping:. 'Drag' force added to reduce linear movement.
+线性阻尼。Float（单精度）。线性阻尼：。为减少线性运动而增加的 "拖曳 "力。
 
-Angular Damping: Float (single-precision). Angular Damping:. 'Drag' force added to reduce angular movement.
+角度阻尼。浮点（单精度）。角度阻尼：。增加 "拖曳 "力以减少角度运动。
 
-Center Of Mass Offset: Vector. COMNudge:. User specified offset for the center of mass of this object, from the calculated location.
+质量中心偏移。矢量。COMNudge:。用户为这个物体的质心指定的偏移，从计算的位置。
 
-Mass Scale: Float (single-precision). Mass Scale:. Per-instance scaling of mass.
+质量刻度。浮点数（单精度）。质量比例：。每个实例的质量比例。
 
-Inertia Tensor Scale: Vector. Inertia Tensor Scale:. Per-instance scaling of inertia (bigger number means it'll be harder to rotate).
+惯性张量比例。矢量。惯性张量表：。每一实例的惯性比例（更大的数字意味着它将更难旋转）。
 
-Walkable Slope Override: Walkable Slope Override Structure. Walkable Slope Override:. Custom walkable slope override setting for this instance.. @see GetWalkableSlopeOverride(), SetWalkableSlopeOverride().
+Walkable Slope Override: Walkable Slope Override结构。可行走坡度覆盖：。这个实例的自定义可行走坡度覆盖设置。@see GetWalkableSlopeOverride(), SetWalkableSlopeOverride().
 
-Phys Material Override: Physical Material Object Reference. Phys Material Override:. Allows you to override the PhysicalMaterial to use for simple collision on this body..
+物理材料覆盖。物理材料对象参考。物理材料覆盖：。允许你覆盖物理材料，以便在这个身体上使用简单的碰撞。
 
-Max Angular Velocity: Float (single-precision). Max Angular Velocity:. The maximum angular velocity for this instance [degrees/s].
+最大角速度。浮点（单精度）。最大角速度：。这个实例的最大角速度[度/秒]。
 
-Custom Sleep Threshold Multiplier: Float (single-precision). Custom Sleep Threshold Multiplier:. If the SleepFamily is set to custom, multiply the natural sleep threshold by this amount. A higher number will cause the body to sleep sooner..
+自定义睡眠阈值乘数。Float（单精度）。Custom Sleep Threshold Multiplier:.自定义睡眠阈值乘数。如果SleepFamily设置为自定义，则将自然睡眠阈值乘以这个数量。一个较高的数字会使身体更早地睡眠。
 
-Stabilization Threshold Multiplier: Float (single-precision). Stabilization Threshold Multiplier:. Stabilization factor for this body if Physics stabilization is enabled. A higher number will cause more aggressive stabilization at the risk of loss of momentum at low speeds. A value of 0 will disable stabilization for this body..
+稳定阈值乘数。浮点数（单精度）。稳定阈值乘数：。如果启用了物理学稳定功能，这个机构的稳定系数。一个较高的数字将导致更积极的稳定化，在低速时有失去动力的风险。数值为0将禁用该体的稳定功能。
 
-Simulate Physics: Boolean. Simulate Physics:. If true, this body will use simulation. If false, will be 'fixed' (ie kinematic) and move where it is told.. For a Skeletal Mesh Component, simulating requires a physics asset setup and assigned on the SkeletalMesh asset.. For a Static Mesh Component, simulating requires simple collision to be setup on the StaticMesh asset..
+模拟物理学。布尔值。模拟物理：。如果为真，该机体将使用模拟。如果是假的，将是 "固定 "的（即运动学的），并在它被告知的地方移动。对于骨骼网格组件，模拟需要设置物理资产并分配给骨骼网格资产。对于静态网格组件，模拟需要在StaticMesh资产上设置简单的碰撞。
 
-Enable Gravity: Boolean. Enable Gravity:. If object should have the force of gravity applied.
+Enable Gravity（启用重力）。布尔值。启用重力：。如果物体应该有重力的作用。
 
-Auto Weld: Boolean. Auto Weld:. If true and is attached to a parent, the two bodies will be joined into a single rigid body. Physical settings like collision profile and body settings are determined by the root.
+自动焊接。布尔值。自动焊接：。如果为真，并且连接到一个父体，两个体将被连接成一个单一的刚体。碰撞轮廓和体的设置等物理设置由根部决定。
 
-Start Awake: Boolean. Start Awake:. If object should start awake, or if it should initially be sleeping.
+开始唤醒：布尔值。开始唤醒：。如果物体应该开始苏醒，或者它最初应该是睡眠状态。
 
-Generate Wake Events: Boolean. Generate Wake Events:. Should 'wake/sleep' events fire when this object is woken up or put to sleep by the physics simulation..
+生成唤醒事件。布尔值。生成唤醒事件：。当这个物体被物理模拟唤醒或进入睡眠状态时，"唤醒/睡眠 "事件是否应该启动。
 
-Update Mass When Scale Changes: Boolean. Update Mass when Scale Changes:. If true, it will update mass when scale change *.
-
+当比例变化时更新质量。布尔值。Scale Changes时更新质量：。如果为真，它将在比例变化时更新质量 *。

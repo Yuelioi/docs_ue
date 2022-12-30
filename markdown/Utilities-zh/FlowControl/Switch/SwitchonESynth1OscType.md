@@ -1,6 +1,6 @@
 # SwitchonESynth1OscType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESynth1OscType Enum.  
+选择。ESynth1OscType枚举。 
 
 ## Outputs
 
-Sine: Exec.
+正弦。Exec.
 
-Saw: Exec.
+锯齿：Exec.
 
-Triangle: Exec.
+三角形 Exec.
 
-Square: Exec.
+正方形 执行
 
-Noise: Exec.
-
+噪声 Exec.

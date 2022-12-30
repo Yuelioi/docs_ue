@@ -1,6 +1,6 @@
 # BytetoEnumERotationUnit
 
-Byte to Enum ERotationUnit
+字节到枚举ERotationUnit
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERotationUnit
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERotationUnit Enum.
-
+返回值。ERotationUnit Enum。

@@ -1,6 +1,6 @@
 # SwitchonEGoogleP-
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,17 +8,16 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: EGooglePADCellularDataConfirmStatus Enum.  
+选择。EGooglePADCellularDataConfirmStatus枚举。 
 
 ## Outputs
 
-Asset Pack CONFIRM UNKNOWN: Exec.
+资产包 CONFIRM UNKNOWN: 执行。
 
-Asset Pack CONFIRM PENDING: Exec.
+资产包 CONFIRM PENDING: Exec.
 
-Asset Pack CONFIRM USER APPROVED: Exec.
+资产包 CONFIRM USER APPROVED: Exec.
 
-Asset Pack CONFIRM USER CANCELED: Exec.
-
+资产包 CONFIRM USER CANCELED: Exec.

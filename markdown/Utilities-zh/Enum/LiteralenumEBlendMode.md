@@ -1,6 +1,6 @@
 # LiteralenumEBlendMode
 
-Literal enum EBlendMode
+字面意义上的EBlendMode枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EBlendMode
 
 ## Inputs
 
-Enum: EBlendMode Enum.  
+枚举。EBlendMode Enum.  
 
 ## Outputs
 
-Return Value: EBlendMode Enum.
-
+返回值。EBlendMode Enum.

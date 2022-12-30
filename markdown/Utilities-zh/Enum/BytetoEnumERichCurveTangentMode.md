@@ -1,6 +1,6 @@
 # BytetoEnumERichCurveTangentMode
 
-Byte to Enum ERichCurveTangentMode
+字节到枚举ERichCurveTangentMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERichCurveTangentMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERichCurveTangentMode Enum.
-
+返回值。ERichCurveTangentMode Enum。

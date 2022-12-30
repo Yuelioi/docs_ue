@@ -1,6 +1,6 @@
 # BreakAssetData
 
-Adds a node that breaks a 'AssetData' into its member fields
+添加一个节点，将 "资产数据 "分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'AssetData' into its member fields
 
 ## Inputs
 
-Asset Data: Asset Data Structure (by ref).  
+资产数据。资产数据结构（通过引用）。 
 
 ## Outputs
 
-Object Path: Name. Object Path:. The object path for the asset in the form PackageName.AssetName. Only top level objects in a package can have AssetData.
+对象路径。名称。对象路径：。资产的对象路径，形式为PackageName.AssetName。一个包中只有顶层的对象可以有AssetData。
 
-Package Name: Name. Package Name:. The name of the package in which the asset is found, this is the full long package name such as /Game/Path/Package.
+包名称。名称。包名称：。找到资产的包的名称，这是全长的包名，如/Game/Path/Package。
 
-Package Path: Name. Package Path:. The path to the package in which the asset is found, this is /Game/Path with the Package stripped off.
+包的路径。名称。包路径：。找到资产的包的路径，这是/Game/Path，去掉了Package。
 
-Asset Name: Name. Asset Name:. The name of the asset without the package.
+资产名称。名称。资产名称：。不含包的资产名称。
 
-Asset Class: Name. Asset Class:. The name of the asset's class.
-
+资产类别。名称。资产类别：。资产类别的名称。

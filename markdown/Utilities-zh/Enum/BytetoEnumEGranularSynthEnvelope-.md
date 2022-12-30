@@ -1,6 +1,6 @@
 # BytetoEnumEGranularSynthEnvelope-
 
-Byte to Enum EGranularSynthEnvelopeType
+字节到枚举 EGranularSynthEnvelopeType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EGranularSynthEnvelopeType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EGranularSynthEnvelopeType Enum.
-
+返回值。EGranularSynthEnvelopeType Enum。

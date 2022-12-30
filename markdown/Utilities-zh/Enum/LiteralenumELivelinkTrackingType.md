@@ -1,6 +1,6 @@
 # LiteralenumELivelinkTrackingType
 
-Literal enum ELivelinkTrackingType
+枚举ELivelinkTrackingType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELivelinkTrackingType
 
 ## Inputs
 
-Enum: ELivelinkTrackingType Enum.  
+枚举。ELivelinkTrackingType Enum.  
 
 ## Outputs
 
-Return Value: ELivelinkTrackingType Enum.
-
+返回值。ELivelinkTrackingType Enum。

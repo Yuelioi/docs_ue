@@ -1,8 +1,8 @@
 # StringtoRotator
 
-Convert String Back To Rotator. IsValid indicates whether or not the string could be successfully converted.
+将字符串转换回旋转器。IsValid表示字符串是否可以成功转换。
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet String Library
 
 ## Inputs
 
-In String: String.  
+在字符串中。字符串。 
 
 ## Outputs
 
-Out Converted Rotator: Rotator.
+Out 转换后的Rotator。旋转器。
 
-Out Is Valid: Boolean.
-
+Out Is Valid: 布尔值。

@@ -1,6 +1,6 @@
 # BytetoEnumEOculusFinger
 
-Byte to Enum EOculusFinger
+字节到枚举 EOculusFinger
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EOculusFinger
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EOculusFinger Enum.
-
+返回值。EOculusFinger Enum。

@@ -1,6 +1,6 @@
 # BytetoEnumEHitResultGizmoFilterM-
 
-Byte to Enum EHitResultGizmoFilterMode
+字节到枚举 EHitResultGizmoFilterMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EHitResultGizmoFilterMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EHitResultGizmoFilterMode Enum.
-
+返回值。EHitResultGizmoFilterMode枚举。

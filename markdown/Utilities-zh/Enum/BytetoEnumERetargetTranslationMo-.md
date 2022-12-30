@@ -1,6 +1,6 @@
 # BytetoEnumERetargetTranslationMo-
 
-Byte to Enum ERetargetTranslationMode
+字节到枚举ERetargetTranslationMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ERetargetTranslationMode
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ERetargetTranslationMode Enum.
-
+返回值。ERetargetTranslationMode Enum。

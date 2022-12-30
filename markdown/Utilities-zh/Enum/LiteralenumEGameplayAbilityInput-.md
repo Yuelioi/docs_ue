@@ -1,6 +1,6 @@
 # LiteralenumEGameplayAbilityInput-
 
-Literal enum EGameplayAbilityInputBinds
+字面意义上的枚举：EGameplayAbilityInputBinds
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGameplayAbilityInputBinds
 
 ## Inputs
 
-Enum: EGameplayAbilityInputBinds Enum.  
+枚举。EGameplayAbilityInputBinds枚举。 
 
 ## Outputs
 
-Return Value: EGameplayAbilityInputBinds Enum.
-
+返回值。EGameplayAbilityInputBinds Enum。

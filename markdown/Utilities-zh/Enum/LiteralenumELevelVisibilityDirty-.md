@@ -1,6 +1,6 @@
 # LiteralenumELevelVisibilityDirty-
 
-Literal enum ELevelVisibilityDirtyMode
+枚举ELevelVisibilityDirtyMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ELevelVisibilityDirtyMode
 
 ## Inputs
 
-Enum: ELevelVisibilityDirtyMode Enum.  
+枚举。ELevelVisibilityDirtyMode枚举。 
 
 ## Outputs
 
-Return Value: ELevelVisibilityDirtyMode Enum.
-
+返回值。ELevelVisibilityDirtyMode Enum。

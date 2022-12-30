@@ -1,6 +1,6 @@
 # NotEqual_Enum
 
-Returns true if A is NOT equal to B (A != B)
+如果A不等于B（A != B），则返回true。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Returns true if A is NOT equal to B (A != B)
 
 ## Inputs
 
-A: Wildcard.
+A：通配符。
 
-B: Wildcard.  
+B：通配符。 
 
 ## Outputs
 
-Return Value: Boolean.
-
+返回值。布尔值。

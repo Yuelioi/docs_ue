@@ -1,6 +1,6 @@
 # LiteralenumEARPlaneDetectionMode
 
-Literal enum EARPlaneDetectionMode
+枚举EARPlaneDetectionMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARPlaneDetectionMode
 
 ## Inputs
 
-Enum: EARPlaneDetectionMode Enum.  
+枚举。EARPlaneDetectionMode Enum.  
 
 ## Outputs
 
-Return Value: EARPlaneDetectionMode Enum.
-
+返回值。EARPlaneDetectionMode Enum.

@@ -8,9 +8,8 @@ Byte to Enum EMappingQueryResult
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMappingQueryResult Enum.
-
+返回值。EMappingQueryResult Enum。

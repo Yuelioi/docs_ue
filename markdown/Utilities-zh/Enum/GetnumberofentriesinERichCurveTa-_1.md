@@ -1,6 +1,6 @@
 # GetnumberofentriesinERichCurveTa-_1
 
-Returns ERichCurveTangentWeightMode_MAX value
+返回ERichCurveTangentWeightMode_MAX值。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns ERichCurveTangentWeightMode_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

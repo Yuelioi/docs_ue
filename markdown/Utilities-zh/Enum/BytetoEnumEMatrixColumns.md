@@ -1,6 +1,6 @@
 # BytetoEnumEMatrixColumns
 
-Byte to Enum EMatrixColumns
+字节到枚举EMatrixColumns
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EMatrixColumns
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EMatrixColumns Enum.
-
+返回值。EMatrixColumns Enum。

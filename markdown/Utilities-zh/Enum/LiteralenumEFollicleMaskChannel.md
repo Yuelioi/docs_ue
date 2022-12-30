@@ -1,6 +1,6 @@
 # LiteralenumEFollicleMaskChannel
 
-Literal enum EFollicleMaskChannel
+字面意义上的枚举 EFollicleMaskChannel
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EFollicleMaskChannel
 
 ## Inputs
 
-Enum: EFollicleMaskChannel Enum.  
+枚举。EFollicleMaskChannel 枚举。 
 
 ## Outputs
 
-Return Value: EFollicleMaskChannel Enum.
-
+返回值。EFollicleMaskChannel Enum.

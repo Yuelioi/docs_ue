@@ -1,6 +1,6 @@
 # BytetoEnumESlateBrushDrawType
 
-Byte to Enum ESlateBrushDrawType
+字节到枚举 ESlateBrushDrawType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESlateBrushDrawType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESlateBrushDrawType Enum.
-
+返回值。ESlateBrushDrawType Enum。

@@ -1,6 +1,6 @@
 # LiteralenumEIplDirectOcclusionMe-
 
-Literal enum EIplDirectOcclusionMethod
+枚举 EIplDirectOcclusionMethod
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EIplDirectOcclusionMethod
 
 ## Inputs
 
-Enum: EIplDirectOcclusionMethod Enum.  
+枚举。EIplDirectOcclusionMethod Enum.  
 
 ## Outputs
 
-Return Value: EIplDirectOcclusionMethod Enum.
-
+返回值。EIplDirectOcclusionMethod Enum.

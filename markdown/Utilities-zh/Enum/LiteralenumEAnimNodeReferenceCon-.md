@@ -1,6 +1,6 @@
 # LiteralenumEAnimNodeReferenceCon-
 
-Literal enum EAnimNodeReferenceConversionResult
+枚举 EAnimNodeReferenceConversionResult
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EAnimNodeReferenceConversionResult
 
 ## Inputs
 
-Enum: EAnimNodeReferenceConversionResult Enum.  
+枚举。EAnimNodeReferenceConversionResult Enum.  
 
 ## Outputs
 
-Return Value: EAnimNodeReferenceConversionResult Enum.
-
+返回值。EAnimNodeReferenceConversionResult Enum。

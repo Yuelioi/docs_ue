@@ -1,6 +1,6 @@
 # LiteralenumERichCurveTangentWeig-
 
-Literal enum ERichCurveTangentWeightMode
+枚举ERichCurveTangentWeightMode的字面意义
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERichCurveTangentWeightMode
 
 ## Inputs
 
-Enum: ERichCurveTangentWeightMode Enum.  
+枚举。ERichCurveTangentWeightMode Enum.  
 
 ## Outputs
 
-Return Value: ERichCurveTangentWeightMode Enum.
-
+返回值。ERichCurveTangentWeightMode Enum.

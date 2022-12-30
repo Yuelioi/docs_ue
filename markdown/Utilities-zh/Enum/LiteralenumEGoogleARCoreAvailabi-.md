@@ -1,6 +1,6 @@
 # LiteralenumEGoogleARCoreAvailabi-
 
-Literal enum EGoogleARCoreAvailability
+枚举 EGoogleARCoreAvailability
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EGoogleARCoreAvailability
 
 ## Inputs
 
-Enum: EGoogleARCoreAvailability Enum.  
+枚举。EGoogleARCoreAvailability Enum。 
 
 ## Outputs
 
-Return Value: EGoogleARCoreAvailability Enum.
-
+返回值。EGoogleARCoreAvailability Enum。

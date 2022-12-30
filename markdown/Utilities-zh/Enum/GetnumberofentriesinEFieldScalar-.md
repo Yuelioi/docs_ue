@@ -1,6 +1,6 @@
 # GetnumberofentriesinEFieldScalar-
 
-Returns EFieldScalarType_MAX value
+返回EFieldScalarType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EFieldScalarType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

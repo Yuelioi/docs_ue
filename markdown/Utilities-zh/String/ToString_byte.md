@@ -1,8 +1,8 @@
 # ToString_byte
 
-Converts a byte value to a string
+将一个字节值转换为一个字符串
 
-Target is Kismet String Library
+目标是Kismet字符串库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet String Library
 
 ## Inputs
 
-In Byte: Byte.  
+在Byte: 字节。 
 
 ## Outputs
 
-Return Value: String. Converts a byte value to a string.
-
+返回值。字符串。将一个字节值转换为一个字符串。

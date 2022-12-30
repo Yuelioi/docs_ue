@@ -1,6 +1,6 @@
 # LiteralenumEARPlaneOrientation
 
-Literal enum EARPlaneOrientation
+枚举EARPlaneOrientation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARPlaneOrientation
 
 ## Inputs
 
-Enum: EARPlaneOrientation Enum.  
+枚举。EARPlaneOrientation Enum.  
 
 ## Outputs
 
-Return Value: EARPlaneOrientation Enum.
-
+返回值。EARPlaneOrientation Enum。

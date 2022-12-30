@@ -1,6 +1,6 @@
 # LiteralenumEMaterialSearchLocati-
 
-Literal enum EMaterialSearchLocation
+字面意义上的枚举EMaterialSearchLocation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EMaterialSearchLocation
 
 ## Inputs
 
-Enum: EMaterialSearchLocation Enum.  
+枚举。EMaterialSearchLocation Enum.  
 
 ## Outputs
 
-Return Value: EMaterialSearchLocation Enum.
-
+返回值。EMaterialSearchLocation Enum.

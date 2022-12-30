@@ -1,6 +1,6 @@
 # GetnumberofentriesinEGoogleARCor-_5
 
-Returns EGoogleARCoreCoordinates2DType_MAX value
+返回EGoogleARCoreCoordinates2DType_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EGoogleARCoreCoordinates2DType_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

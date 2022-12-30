@@ -1,6 +1,6 @@
 # GetnumberofentriesinEMediaVideoC-
 
-Returns EMediaVideoCaptureDeviceFilter_MAX value
+返回EMediaVideoCaptureDeviceFilter_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EMediaVideoCaptureDeviceFilter_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

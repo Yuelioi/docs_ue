@@ -1,6 +1,6 @@
 # GetnumberofentriesinEStereoDelay-
 
-Returns EStereoDelayFiltertype_MAX value
+返回EStereoDelayFiltertype_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EStereoDelayFiltertype_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

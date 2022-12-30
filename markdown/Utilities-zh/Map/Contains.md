@@ -1,8 +1,8 @@
 # Contains
 
-Checks whether key is in a provided Map
+检查键是否在提供的地图中
 
-Target is Blueprint Map Library
+目标是蓝图地图库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Blueprint Map Library
 
 ## Inputs
 
-Target Map: Map of Wildcards to Wildcards. The map to perform the lookup on.
+目标地图。通配符到通配符的地图。要执行查询的地图。
 
-Key: Wildcard (by ref). The key that will be used to lookup.  
+键。通配符（通过引用）。将被用于查找的键。 
 
 ## Outputs
 
-Return Value: Boolean. True if an item was found (False indicates nothing in the map uses the provided key).
-
+返回值。布尔值。如果找到一个项目，则为真（假表示地图中没有任何东西使用提供的键）。

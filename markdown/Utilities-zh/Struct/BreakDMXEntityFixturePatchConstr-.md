@@ -1,6 +1,6 @@
 # BreakDMXEntityFixturePatchConstr-
 
-Adds a node that breaks a 'DMXEntityFixturePatchConstructionParams' into its member fields
+添加一个节点，将'DMXEntityFixturePatchConstructionParams'分解成其成员字段。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'DMXEntityFixturePatchConstructionParams' into its mem
 
 ## Inputs
 
-DMXEntity Fixture Patch Construction Params: DMXEntity Fixture Patch Construction Params Structure (by ref).  
+DMXEntity Fixture Patch Construction Params。DMXEntity Fixture Patch Construction Params 结构（通过引用）。 
 
 ## Outputs
 
-Fixture Type: DMX Fixture Type Ref Structure. Fixture Type Ref:. Property to point to the template parent fixture for details panel purposes.
+夹具类型。DMX灯具类型参考结构。夹具类型参考：。指向模板父灯具的属性，用于细节面板。
 
-Active Mode: Integer. Active Mode:. The Index of the Mode in the Fixture Type the Patch uses.
+活动模式。整数。活动模式：。补丁使用的灯具类型中的模式的索引。
 
-Universe: Integer. Universe ID:. The local universe of the patch.
+宇宙。整数。宇宙ID:. 补丁的本地宇宙。
 
-Starting Address: Integer. Starting Address:. Starting channel for when auto-assign address is false.
-
+起始地址。整数。起始地址:. 自动分配地址为假时的起始通道。

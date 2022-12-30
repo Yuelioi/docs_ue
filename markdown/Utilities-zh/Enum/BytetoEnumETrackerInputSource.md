@@ -1,6 +1,6 @@
 # BytetoEnumETrackerInputSource
 
-Byte to Enum ETrackerInputSource
+字节到枚举 ETrackerInputSource
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ETrackerInputSource
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETrackerInputSource Enum.
-
+返回值。ETrackerInputSource Enum。

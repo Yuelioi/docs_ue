@@ -1,6 +1,6 @@
 # LiteralenumEOculusColorSpace
 
-Literal enum EOculusColorSpace
+EOculusColorSpace的字面枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EOculusColorSpace
 
 ## Inputs
 
-Enum: EOculusColorSpace Enum.  
+枚举。EOculusColorSpace Enum.  
 
 ## Outputs
 
-Return Value: EOculusColorSpace Enum.
-
+返回值。EOculusColorSpace Enum。

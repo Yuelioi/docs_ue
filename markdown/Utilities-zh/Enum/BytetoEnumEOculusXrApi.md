@@ -1,6 +1,6 @@
 # BytetoEnumEOculusXrApi
 
-Byte to Enum EOculusXrApi
+字节到枚举 EOculusXrApi
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EOculusXrApi
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EOculusXrApi Enum.
-
+返回值。EOculusXrApi Enum。

@@ -8,9 +8,8 @@ Byte to Enum ETextureShareBPSyncSurface
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ETextureShareBPSyncSurface Enum.
-
+返回值。ETextureShareBPSyncSurface Enum。

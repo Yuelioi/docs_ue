@@ -1,6 +1,6 @@
 # GetnumberofentriesinEArucoDictio-
 
-Returns EArucoDictionary_MAX value
+返回EArucoDictionary_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EArucoDictionary_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

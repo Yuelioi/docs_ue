@@ -1,6 +1,6 @@
 # BytetoEnumEToolMenuStringCommand-
 
-Byte to Enum EToolMenuStringCommandType
+字节到枚举 EToolMenuStringCommandType
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum EToolMenuStringCommandType
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: EToolMenuStringCommandType Enum.
-
+返回值。EToolMenuStringCommandType Enum。

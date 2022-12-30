@@ -1,6 +1,6 @@
 # BytetoEnumESynthKnobSize
 
-Byte to Enum ESynthKnobSize
+字节到枚举 ESynthKnobSize
 
 ## 图示
 
@@ -8,9 +8,8 @@ Byte to Enum ESynthKnobSize
 
 ## Inputs
 
-Byte: Byte.  
+字节。字节。 
 
 ## Outputs
 
-Return Value: ESynthKnobSize Enum.
-
+返回值。ESynthKnobSize Enum。

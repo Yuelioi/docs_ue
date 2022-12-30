@@ -1,6 +1,6 @@
 # LiteralenumERichTextInlineIconDi-
 
-Literal enum ERichTextInlineIconDisplayMode
+字面意义上的枚举ERichTextInlineIconDisplayMode
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum ERichTextInlineIconDisplayMode
 
 ## Inputs
 
-Enum: ERichTextInlineIconDisplayMode Enum.  
+枚举。ERichTextInlineIconDisplayMode枚举。 
 
 ## Outputs
 
-Return Value: ERichTextInlineIconDisplayMode Enum.
-
+返回值。ERichTextInlineIconDisplayMode枚举。

@@ -1,6 +1,6 @@
 # SwitchonERetargetTranslationMode
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,15 +8,14 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ERetargetTranslationMode Enum.  
+选择。ERetargetTranslationMode Enum.  
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Globally Scaled: Exec.
+Globally Scaled: 执行。
 
-Absolute: Exec.
-
+绝对：执行。

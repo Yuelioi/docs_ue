@@ -1,6 +1,6 @@
 # LiteralenumEDMXPixelMappingDistr-
 
-Literal enum EDMXPixelMappingDistribution
+枚举 EDMXPixelMappingDistribution
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDMXPixelMappingDistribution
 
 ## Inputs
 
-Enum: EDMXPixelMappingDistribution Enum.  
+枚举。EDMXPixelMappingDistribution 枚举。 
 
 ## Outputs
 
-Return Value: EDMXPixelMappingDistribution Enum.
-
+返回值。EDMXPixelMappingDistribution Enum.

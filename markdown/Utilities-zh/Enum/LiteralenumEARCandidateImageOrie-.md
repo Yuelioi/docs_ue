@@ -1,6 +1,6 @@
 # LiteralenumEARCandidateImageOrie-
 
-Literal enum EARCandidateImageOrientation
+枚举EARCandidateImageOrientation
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EARCandidateImageOrientation
 
 ## Inputs
 
-Enum: EARCandidateImageOrientation Enum.  
+枚举。EARCandidateImageOrientation Enum.  
 
 ## Outputs
 
-Return Value: EARCandidateImageOrientation Enum.
-
+返回值。EARCandidateImageOrientation Enum。

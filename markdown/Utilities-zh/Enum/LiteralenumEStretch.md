@@ -1,6 +1,6 @@
 # LiteralenumEStretch
 
-Literal enum EStretch
+字面意义上的EStretch枚举
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EStretch
 
 ## Inputs
 
-Enum: EStretch Enum.  
+枚举。EStretch Enum.  
 
 ## Outputs
 
-Return Value: EStretch Enum.
-
+返回值。EStretch Enum。

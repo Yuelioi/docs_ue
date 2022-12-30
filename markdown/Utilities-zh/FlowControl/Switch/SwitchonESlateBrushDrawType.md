@@ -1,6 +1,6 @@
 # SwitchonESlateBrushDrawType
 
-Selects an output that matches the input value
+选择一个与输入值相匹配的输出
 
 ## 图示
 
@@ -8,19 +8,18 @@ Selects an output that matches the input value
 
 ## Inputs
 
-In: Exec.
+在。执行：执行。
 
-Selection: ESlateBrushDrawType Enum.  
+选择。ESlateBrushDrawType枚举。 
 
 ## Outputs
 
-None: Exec.
+无。Exec.
 
-Box: Exec.
+箱子。Exec.
 
-Border: Exec.
+边框: Exec: 执行。
 
-Image: Exec.
+形象 Exec.
 
 Rounded Box: Exec.
-

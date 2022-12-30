@@ -1,6 +1,6 @@
 # GetnumberofentriesinEHand
 
-Returns EHand_MAX value
+返回EHand_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EHand_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

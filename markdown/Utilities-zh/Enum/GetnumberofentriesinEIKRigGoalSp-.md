@@ -1,6 +1,6 @@
 # GetnumberofentriesinEIKRigGoalSp-
 
-Returns EIKRigGoalSpace_MAX value
+返回EIKRigGoalSpace_MAX值
 
 ## 图示
 
@@ -10,5 +10,4 @@ Returns EIKRigGoalSpace_MAX value
 
 ## Outputs
 
-Return Value: Integer.
-
+返回值。整数。

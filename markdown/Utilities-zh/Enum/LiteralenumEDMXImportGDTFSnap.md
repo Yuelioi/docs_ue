@@ -1,6 +1,6 @@
 # LiteralenumEDMXImportGDTFSnap
 
-Literal enum EDMXImportGDTFSnap
+字面意义上的枚举 EDMXImportGDTFSnap
 
 ## 图示
 
@@ -8,9 +8,8 @@ Literal enum EDMXImportGDTFSnap
 
 ## Inputs
 
-Enum: EDMXImportGDTFSnap Enum.  
+枚举。EDMXImportGDTFSnap Enum.  
 
 ## Outputs
 
-Return Value: EDMXImportGDTFSnap Enum.
-
+返回值。EDMXImportGDTFSnap Enum.
