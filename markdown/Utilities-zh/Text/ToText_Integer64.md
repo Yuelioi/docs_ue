@@ -1,8 +1,8 @@
 # ToText_Integer64
 
-Converts a passed in integer to text based on formatting options
+根据格式化选项将传入的整数转换为文本
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,17 +10,16 @@ Target is Kismet Text Library
 
 ## Inputs
 
-Value: Integer64.
+值。整数64。
 
-Always Sign: Boolean.
+总是签名：布尔值。
 
-Use Grouping: Boolean.
+使用分组。布尔型。
 
-Minimum Integral Digits: Integer.
+最小整数位。整数。
 
-Maximum Integral Digits: Integer.  
+最大整数位。整数。  
 
 ## Outputs
 
-Return Value: Text. Converts a passed in integer to text based on formatting options.
-
+返回值。文本。根据格式化选项将传入的整数转换为文本。

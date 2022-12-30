@@ -1,6 +1,6 @@
 # BreakVirtualCameraScreenshot
 
-Adds a node that breaks a 'VirtualCameraScreenshot' into its member fields
+添加一个节点，将'VirtualCameraScreenshot'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'VirtualCameraScreenshot' into its member fields
 
 ## Inputs
 
-Virtual Camera Screenshot: Virtual Camera Screenshot Structure (by ref).  
+虚拟相机屏幕截图。虚拟相机屏幕截图结构（按参考）。  
 
 ## Outputs
 
-Waypoint: Virtual Camera Waypoint Structure. Waypoint:. The name and location of the screenshot.
+航点。虚拟相机航点结构。Waypoint:。截图的名称和位置。
 
-Camera Settings: Virtual Camera Settings Structure. Camera Settings:. The associated camera data from when the screenshot was taken.
-
+相机设置。虚拟相机设置结构。相机设置：。拍摄截图时的相关相机数据。

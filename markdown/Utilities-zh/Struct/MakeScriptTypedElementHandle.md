@@ -1,6 +1,6 @@
 # MakeScriptTypedElementHandle
 
-Adds a node that create a 'ScriptTypedElementHandle' from its members
+添加一个节点，从其成员中创建一个'ScriptTypedElementHandle'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ScriptTypedElementHandle' from its members
 
 ## Outputs
 
-Script Typed Element Handle: Script Typed Element Handle Structure.
-
+脚本类型的元素句柄。脚本类型的元素句柄结构。

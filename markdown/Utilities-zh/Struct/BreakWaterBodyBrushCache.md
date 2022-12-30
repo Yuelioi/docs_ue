@@ -1,6 +1,6 @@
 # BreakWaterBodyBrushCache
 
-Adds a node that breaks a 'WaterBodyBrushCache' into its member fields
+添加一个节点，将'WaterBodyBrushCache'分解到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'WaterBodyBrushCache' into its member fields
 
 ## Inputs
 
-Water Body Brush Cache: Water Body Brush Cache Structure (by ref).  
+水体刷缓存。水体刷子缓存结构（按参考）。  
 
 ## Outputs
 
-Cache Render Target: Texture Render Target 2D Object Reference. Cache Render Target.
+Cache Render Target: Texture Render Target 2D Object Reference.Cache Render Target。
 
-Cache Is Valid: Boolean. Cache Is Valid.
-
+缓存是有效的。布尔值。缓存是有效的。

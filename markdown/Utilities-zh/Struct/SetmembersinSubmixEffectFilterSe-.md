@@ -1,6 +1,6 @@
 # SetmembersinSubmixEffectFilterSe-
 
-Adds a node that modifies a 'SubmixEffectFilterSettings'
+添加一个节点，修改 "SubmixEffectFilterSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SubmixEffectFilterSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Submix Effect Filter Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Submix Effect Filter Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Submix Effect Filter Settings Structure (by ref)。对输入结构的引用。

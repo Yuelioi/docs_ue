@@ -1,6 +1,6 @@
 # BreakMovieSceneMarkedFrame
 
-Adds a node that breaks a 'MovieSceneMarkedFrame' into its member fields
+添加一个节点，将 "MovieSceneMarkedFrame "分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'MovieSceneMarkedFrame' into its member fields
 
 ## Inputs
 
-Movie Scene Marked Frame: Movie Scene Marked Frame Structure (by ref).  
+电影场景标记的框架。电影场景标记帧结构（由参考）。  
 
 ## Outputs
 
-Frame Number: Frame Number Structure. Frame Number.
+框架编号。框架编号结构。框架编号。
 
-Label: String. Label.
+标签：字符串。标签。
 
-Is Determinism Fence?: Boolean. Is Determinism Fence:. When checked, treat this mark as a fence for evaluation purposes. Fences cannot be crossed in a single evaluation, and force the evaluation to be split into 2 separate parts..
-
+决定论是栅栏吗？布尔。Is Determinism Fence:.当被选中时，为评估目的，将此标记视为栅栏。栅栏在一次评估中不能被越过，并迫使评估被分成两个独立的部分。

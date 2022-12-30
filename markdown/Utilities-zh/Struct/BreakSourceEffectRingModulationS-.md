@@ -1,6 +1,6 @@
 # BreakSourceEffectRingModulationS-
 
-Adds a node that breaks a 'SourceEffectRingModulationSettings' into its member fields
+添加一个节点，将'SourceEffectRingModulationSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'SourceEffectRingModulationSettings' into its member f
 
 ## Inputs
 
-Source Effect Ring Modulation Settings: Source Effect Ring Modulation Settings Structure (by ref).  
+源效应环形调制设置。源效果环形调制设置结构（按参考）。  
 
 ## Outputs
 
-Modulator Type: ERingModulatorTypeSourceEffect Enum. Modulator Type:. Ring modulation modulator oscillator type.
+调制器类型。ERingModulatorTypeSourceEffect枚举。调制器类型：。环形调制调制器的振荡器类型。
 
-Frequency: Float (single-precision). Frequency:. Ring modulation frequency.
+频率。Float (single-precision).频率：。环形调制频率。
 
-Depth: Float (single-precision). Depth:. Ring modulation depth.
+深度。Float（单精度）。深度：。环形调制深度。
 
-Dry Level: Float (single-precision). Dry Level:. Gain for the dry signal (no ring mod).
+干燥程度。浮点（单精度）。干电平：。干信号的增益（无环形修改）。
 
-Wet Level: Float (single-precision). Wet Level:. Gain for the wet signal (with ring mod).
+湿水平。浮点（单精度）。湿润电平：。湿信号的增益（带环形调制）。
 
-Audio Bus Modulator: Audio Bus Object Reference. Audio Bus Modulator:. Audio bus to use to modulate the effect.
-
+音频总线调制器。音频总线对象参考。音频总线调制器：。用来调制效果的音频总线。

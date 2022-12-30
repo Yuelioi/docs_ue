@@ -1,6 +1,6 @@
 # SetmembersinGameplayAbilityTarge-_1
 
-Adds a node that modifies a 'GameplayAbilityTargetData_ActorArray'
+添加一个节点，修改 "GameplayAbilityTargetData_ActorArray"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GameplayAbilityTargetData_ActorArray'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Gameplay Ability Target Data Actor Array Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Gameplay Ability Target Data Actor Array Structure (by ref). Reference to the input struct.
-
+结构出来。Gameplay Ability Target Data Actor Array Structure（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeTwoVectors
 
-Adds a node that create a 'TwoVectors' from its members
+添加一个节点，从其成员中创建一个 "TwoVectors"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'TwoVectors' from its members
 
 ## Inputs
 
-V 1: Vector. V 1.
+V 1: 向量。V 1.
 
-V 2: Vector. V 2.  
+V 2: 向量。V 2.
 
 ## Outputs
 
-Two Vectors: Two Vectors Structure.
-
+两个矢量。两个矢量的结构。

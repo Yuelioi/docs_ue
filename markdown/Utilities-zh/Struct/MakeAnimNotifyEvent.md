@@ -1,6 +1,6 @@
 # MakeAnimNotifyEvent
 
-Adds a node that create a 'AnimNotifyEvent' from its members
+添加一个节点，从其成员中创建一个'AnimNotifyEvent'。
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that create a 'AnimNotifyEvent' from its members
 
 ## Inputs
 
-Trigger Weight Threshold: Float (single-precision). Trigger Weight Threshold.
+触发权重阈值。Float（单精度）。触发权重阈值。
 
-Notify: Anim Notify Object Reference. Notify.
+通知。Anim Notify Object Reference.通知。
 
-Notify State Class: Anim Notify State Object Reference. Notify State Class.
+通知状态类。Anim Notify State Object Reference.通知状态类。
 
-Montage Tick Type: EMontageNotifyTickType Enum. Montage Tick Type.
+蒙太奇Tick类型。EMontageNotifyTickType枚举。Montage Tick Type.
 
-Notify Trigger Chance: Float (single-precision). Notify Trigger Chance:. Defines the chance of of this notify triggering, 0 = No Chance, 1 = Always triggers.
+通知触发的机会。Float（单精度）。Notify Trigger Chance:.定义该通知触发的机会，0=没有机会，1=总是触发。
 
-Notify Filter Type: ENotifyFilterType Enum. Notify Filter Type:. Defines a method for filtering notifies (stopping them triggering) e.g. by looking at the meshes current LOD.
+通知过滤器类型。ENotifyFilterType枚举。通知过滤类型：。定义了一种过滤通知的方法（阻止它们触发），例如，通过查看网格的当前LOD。
 
-Notify Filter LOD: Integer. Notify Filter LOD:. LOD to start filtering this notify from..
+Notify Filter LOD: 整数。Notify Filter LOD:.从LOD开始过滤这个通知。
 
-Trigger On Dedicated Server: Boolean. Trigger on Dedicated Server:. If disabled this notify will be skipped on dedicated servers.
+在专用服务器上触发。布尔型。专用服务器上的触发器：。如果禁用，该通知将在专用服务器上被跳过。
 
-Trigger On Follower: Boolean. Trigger on Follower:. If enabled this notify will trigger when the animation is a follower in a sync group (by default only the sync group leaders notifies trigger.  
+触发追随者：布尔值。在追随者身上触发：。如果启用，当动画是同步组中的追随者时，该通知将被触发（默认情况下，只有同步组的领导通知被触发。  
 
 ## Outputs
 
-Anim Notify Event: Anim Notify Event Structure.
-
+Anim Notify Event:Anim Notify Event 结构.

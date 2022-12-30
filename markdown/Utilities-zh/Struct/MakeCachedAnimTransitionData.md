@@ -1,6 +1,6 @@
 # MakeCachedAnimTransitionData
 
-Adds a node that create a 'CachedAnimTransitionData' from its members
+添加一个节点，从其成员中创建一个 "CachedAnimTransitionData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CachedAnimTransitionData' from its members
 
 ## Outputs
 
-Cached Anim Transition Data: Cached Anim Transition Data Structure.
-
+缓存的动画过渡数据:缓存的动画过渡数据结构.

@@ -1,6 +1,6 @@
 # BreakSoundControlModulationInput
 
-Adds a node that breaks a 'SoundControlModulationInput' into its member fields
+添加一个节点，将'SoundControlModulationInput'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'SoundControlModulationInput' into its member fields
 
 ## Inputs
 
-Sound Control Modulation Input: Sound Control Modulation Input Structure (by ref).  
+声音控制调制输入。声控调制输入结构（按参考）。  
 
 ## Outputs
 
-Sample- and- Hold: Boolean. Sample and Hold:. Get the modulated input value on parent patch initialization and hold that value for its lifetime.
+采样和保持：布尔型。采样和保持：。在父补丁初始化时获得调制的输入值，并在其生命周期内保持该值。
 
-Bus: Sound Control Bus Object Reference. Bus:. The input bus.
-
+总线：声音控制总线对象参考。总线：。输入总线。

@@ -1,6 +1,6 @@
 # SetmembersinMRMeshConfiguration
 
-Adds a node that modifies a 'MRMeshConfiguration'
+添加一个修改 "MRMeshConfiguration "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MRMeshConfiguration'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: MRMesh Configuration Structure (by ref).  
+Struct Ref: MRMesh配置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: MRMesh Configuration Structure (by ref). Reference to the input struct.
-
+Struct Out:MRMesh配置结构（通过引用）。对输入结构的引用。

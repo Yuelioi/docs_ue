@@ -1,6 +1,6 @@
 # BreakLevelSequenceData
 
-Adds a node that breaks a 'LevelSequenceData' into its member fields
+添加一个节点，将'LevelSequenceData'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'LevelSequenceData' into its member fields
 
 ## Inputs
 
-Level Sequence Data: Level Sequence Data Structure (by ref).  
+水平序列数据。水平序列数据结构（参考）。  
 
 ## Outputs
 
-Asset Path: String. Asset Path.
+资产路径。字符串。资产路径。
 
-Display Name: String. Display Name.
+显示名称。字符串。显示名称。
 
-Last Edited: Date Time Structure. Last Edited.
-
+最后编辑。日期时间结构。最后一次编辑。

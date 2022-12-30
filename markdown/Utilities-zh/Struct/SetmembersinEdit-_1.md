@@ -1,6 +1,6 @@
 # SetmembersinEdit-_1
 
-Adds a node that modifies a 'EditorScriptingCreateProxyMeshActorOptions_Deprecated'
+添加一个修改'EditorScriptingCreateProxyMeshActorOptions_Deprecated'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'EditorScriptingCreateProxyMeshActorOptions_Deprecat
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Editor Scripting Create Proxy Mesh Actor Options Deprecated Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Editor Scripting Create Proxy Mesh Actor Options Deprecated Structure (by ref). Reference to the input struct.
-
+结构出来了。Editor Scripting Create Proxy Mesh Actor Options Deprecated结构（通过ref）。对输入结构的引用。

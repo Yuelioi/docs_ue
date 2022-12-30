@@ -1,6 +1,6 @@
 # MakeSourceEffectFoldbackDistorti-
 
-Adds a node that create a 'SourceEffectFoldbackDistortionSettings' from its members
+添加一个节点，从其成员中创建一个 "SourceEffectFoldbackDistortionSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'SourceEffectFoldbackDistortionSettings' from its memb
 
 ## Inputs
 
-Input Gain Db: Float (single-precision). Input Gain Db:. The amount of gain to add to input to allow forcing the triggering of the threshold.
+输入增益Db。Float (single-precision).输入增益Db:。要加到输入的增益量，以允许强制触发阈值。
 
-Threshold Db: Float (single-precision). Threshold Db:. If the audio amplitude is higher than this, it will fold back.
+阈值Db。Float (single-precision).阈值Db:。如果音频振幅高于这个，就会折返。
 
-Output Gain Db: Float (single-precision). Output Gain Db:. The amount of gain to apply to the output.  
+输出增益Db。Float（单精度）。输出增益Db:。应用于输出的增益量。  
 
 ## Outputs
 
-Source Effect Foldback Distortion Settings: Source Effect Foldback Distortion Settings Structure.
-
+源效果折返失真设置。源效果折返失真设置结构。

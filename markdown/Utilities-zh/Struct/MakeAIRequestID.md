@@ -1,6 +1,6 @@
 # MakeAIRequestID
 
-Adds a node that create a 'AIRequestID' from its members
+添加一个节点，从其成员中创建一个 "AIRequestID"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AIRequestID' from its members
 
 ## Outputs
 
-AIRequest ID: AIRequest ID Structure.
-
+AIRequest ID：AIRequest ID结构。

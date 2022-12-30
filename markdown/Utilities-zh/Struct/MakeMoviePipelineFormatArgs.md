@@ -1,6 +1,6 @@
 # MakeMoviePipelineFormatArgs
 
-Adds a node that create a 'MoviePipelineFormatArgs' from its members
+添加一个节点，从其成员中创建一个 "MoviePipelineFormatArgs"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'MoviePipelineFormatArgs' from its members
 
 ## Inputs
 
-Filename Arguments: Map of Strings to Strings. Filename Arguments:. A set of Key/Value pairs for output filename format strings (without {}) and their values..
+文件名参数。字符串到字符串的映射。文件名参数：。一组用于输出文件名格式字符串（不含{}）的键/值对及其值。
 
-File Metadata: Map of Strings to Strings. File Metadata:. A set of Key/Value pairs for file metadata for file formats that support metadata..
+文件元数据。字符串到字符串的地图。文件元数据：.一组用于支持元数据的文件格式的文件元数据的键/值对。
 
-In Job: Movie Pipeline Executor Job Object Reference. In Job:. Which job is this for? Some settings are specific to the level sequence being rendered..  
+在工作中。电影管道执行者工作对象参考。在工作中：。这是为哪个工作准备的？有些设置是特定于正在渲染的水平序列的。  
 
 ## Outputs
 
-Movie Pipeline Format Args: Movie Pipeline Format Args Structure.
-
+电影管道格式参数。电影管道格式 Args 结构。

@@ -1,6 +1,6 @@
 # MakeActorLayer
 
-Adds a node that create a 'ActorLayer' from its members
+添加一个节点，从其成员中创建一个 "演员层"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'ActorLayer' from its members
 
 ## Inputs
 
-Name: Name. Name:. The name of this layer.  
+姓名。姓名：。名称：。本层的名称。  
 
 ## Outputs
 
-Actor Layer: Actor Layer Structure.
-
+行为者层。演员层结构。

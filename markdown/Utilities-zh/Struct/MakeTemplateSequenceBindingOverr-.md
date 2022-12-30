@@ -1,6 +1,6 @@
 # MakeTemplateSequenceBindingOverr-
 
-Adds a node that create a 'TemplateSequenceBindingOverrideData' from its members
+添加一个节点，从其成员中创建一个'TemplateSequenceBindingOverrideData'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'TemplateSequenceBindingOverrideData' from its members
 
 ## Outputs
 
-Template Sequence Binding Override Data: Template Sequence Binding Override Data Structure.
-
+模板序列绑定覆盖数据。Template Sequence Binding Override Data 结构。

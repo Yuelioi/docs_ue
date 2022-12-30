@@ -1,6 +1,6 @@
 # MakeIsActorValidParams
 
-Adds a node that create a 'IsActorValidParams' from its members
+添加一个节点，从其成员中创建一个 "IsActorValidParams"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'IsActorValidParams' from its members
 
 ## Inputs
 
-Snapshot Actor: Actor Object Reference. Snapshot Actor:. The actor saved in the snapshot.
+快照演员。Actor Object Reference.Snapshot Actor:.保存在快照中的演员。
 
-Level Actor: Actor Object Reference. Level Actor:. The actor equivalent to LevelActor: it exists in the world.  
+级演员。Actor Object Reference.Level Actor:。相当于LevelActor:的演员，它存在于世界中。  
 
 ## Outputs
 
-Is Actor Valid Params: Is Actor Valid Params Structure.
-
+演员是否有效的参数。演员是否有效 Params 结构。

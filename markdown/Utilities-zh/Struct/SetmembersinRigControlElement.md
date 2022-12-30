@@ -1,6 +1,6 @@
 # SetmembersinRigControlElement
 
-Adds a node that modifies a 'RigControlElement'
+添加一个修改 "RigControlElement "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RigControlElement'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Rig Control Element Structure (by ref).  
+Struct Ref: 钻机控制元素结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Rig Control Element Structure (by ref). Reference to the input struct.
-
+结构出来。钻机控制元素结构（通过引用）。对输入结构的引用。

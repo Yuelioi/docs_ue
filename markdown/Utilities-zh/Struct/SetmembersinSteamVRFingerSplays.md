@@ -1,6 +1,6 @@
 # SetmembersinSteamVRFingerSplays
 
-Adds a node that modifies a 'SteamVRFingerSplays'
+添加一个节点，修改 "SteamVRFingerSplays"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SteamVRFingerSplays'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Steam VRFinger Splays Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Steam VRFinger Splays Structure (by ref). Reference to the input struct.
-
+结构了。Steam VRFinger Splays结构（通过ref）。对输入结构的引用。

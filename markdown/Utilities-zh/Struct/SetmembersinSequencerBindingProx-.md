@@ -1,6 +1,6 @@
 # SetmembersinSequencerBindingProx-
 
-Adds a node that modifies a 'SequencerBindingProxy'
+添加一个修改 "SequencerBindingProxy "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SequencerBindingProxy'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Sequencer Binding Proxy Structure (by ref).  
+Struct Ref: Sequencer Binding Proxy Structure（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sequencer Binding Proxy Structure (by ref). Reference to the input struct.
-
+结构出来。Sequencer Binding Proxy Structure（通过ref）。对输入结构的引用。

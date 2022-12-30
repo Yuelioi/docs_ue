@@ -1,6 +1,6 @@
 # SetmembersinHairStrandsParameter-
 
-Adds a node that modifies a 'HairStrandsParameters'
+添加一个修改 "HairStrandsParameters "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'HairStrandsParameters'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Hair Strands Parameters Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Hair Strands Parameters Structure (by ref). Reference to the input struct.
-
+Struct Out: Hair Strands Parameters Structure (by ref).对输入结构的引用。

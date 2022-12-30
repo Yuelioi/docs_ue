@@ -1,6 +1,6 @@
 # MakePolygonGroupID
 
-Adds a node that create a 'PolygonGroupID' from its members
+添加一个节点，从其成员中创建一个 "PolygonGroupID"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PolygonGroupID' from its members
 
 ## Outputs
 
-Polygon Group ID: Polygon Group ID Structure.
-
+多边形组ID。多边形组ID结构。

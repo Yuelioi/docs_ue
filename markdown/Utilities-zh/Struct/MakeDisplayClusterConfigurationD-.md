@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationD-
 
-Adds a node that create a 'DisplayClusterConfigurationDiagnostics' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationDiagnostics"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DisplayClusterConfigurationDiagnostics' from its memb
 
 ## Outputs
 
-Display Cluster Configuration Diagnostics: Display Cluster Configuration Diagnostics Structure.
-
+显示群集配置诊断程序。显示群集配置诊断程序结构。

@@ -1,8 +1,8 @@
 # FindTextinLocalizationTable
 
-Attempts to find existing Text using the representation found in the loc tables for the specified namespace and key.
+试图使用在loc表中找到的表示方法，为指定的命名空间和键查找现有的文本。
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet Text Library
 
 ## Inputs
 
-Namespace: String.
+名称空间。字符串。
 
-Key: String.  
+键：字符串。  
 
 ## Outputs
 
-Out Text: Text.
+出来的文字。文本。
 
-Return Value: Boolean. Attempts to find existing Text using the representation found in the loc tables for the specified namespace and key..
-
+返回值。布尔值。试图使用在loc表中找到的表征，为指定的命名空间和键查找现有的文本。

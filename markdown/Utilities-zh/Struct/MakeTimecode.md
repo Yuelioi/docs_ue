@@ -1,6 +1,6 @@
 # MakeTimecode
 
-Adds a node that create a 'Timecode' from its members
+添加一个节点，从其成员中创建一个 "时间码"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'Timecode' from its members
 
 ## Inputs
 
-Hours: Integer. Hours.
+小时。整数。小时。
 
-Minutes: Integer. Minutes.
+分钟。整数。分钟。
 
-Seconds: Integer. Seconds.
+秒数。整数。秒数。
 
-Frames: Integer. Frames.
+帧数。整数。帧数。
 
-Drop Frame Format: Boolean. Drop Frame Format:. If true, this Timecode represents a Drop Frame timecode used to account for fractional frame rates in NTSC play rates..  
+丢弃框架格式。布尔值。降帧格式：。如果为真，该时间码代表一个降帧时间码，用于解释NTSC播放率中的小数帧率。  
 
 ## Outputs
 
-Timecode: Timecode Structure.
-
+时间码。时间码结构。

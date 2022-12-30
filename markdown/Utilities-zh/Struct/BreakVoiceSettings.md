@@ -1,6 +1,6 @@
 # BreakVoiceSettings
 
-Adds a node that breaks a 'VoiceSettings' into its member fields
+添加一个节点，将'VoiceSettings'分解成其成员字段。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'VoiceSettings' into its member fields
 
 ## Inputs
 
-Voice Settings: Voice Settings Structure (by ref).  
+语音设置。语音设置结构（按参考）。  
 
 ## Outputs
 
-Component To Attach To: Scene Component Object Reference. Component to Attach To:. Optionally attach the voice source to a Scene Component to give the appearance. that the voice is coming from that scene component.. If this is not set, the voice will not be spatialized..
+要连接的组件。场景组件对象参考。要附加的组件：。可选择将语音源附加到一个场景组件上，以便让人觉得语音来自该场景组件。如果没有设置，语音将不会被空间化。
 
-Attenuation Settings: Sound Attenuation Object Reference. Attenuation Settings:. Optional attenuation settings to attach to this player's voice.. This should only be used when ComponentToAttachTo is set..
+衰减设置。声音衰减对象参考。衰减设置：。可选的衰减设置，附加在这个播放器的声音上。这只应在设置了ComponentToAttachTo时使用。
 
-Source Effect Chain: Sound Effect Source Preset Chain Object Reference. Source Effect Chain:. Optional audio effects to apply to this player's voice..
-
+源效果链。声效源预设链对象参考。源效果链：。可选的音频效果，应用于这个播放器的声音。

@@ -1,6 +1,6 @@
 # SetmembersinDatasmithAssetImport-
 
-Adds a node that modifies a 'DatasmithAssetImportOptions'
+添加一个修改 "DatasmithAssetImportOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DatasmithAssetImportOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Datasmith Asset Import Options Structure (by ref).  
+结构参考：Datasmith资产导入选项结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Datasmith Asset Import Options Structure (by ref). Reference to the input struct.
-
+结构出来。Datasmith资产导入选项结构（通过参考）。对输入结构的引用。

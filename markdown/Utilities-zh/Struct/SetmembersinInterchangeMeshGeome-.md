@@ -1,6 +1,6 @@
 # SetmembersinInterchangeMeshGeome-
 
-Adds a node that modifies a 'InterchangeMeshGeometry'
+添加一个修改 "InterchangeMeshGeometry "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InterchangeMeshGeometry'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Interchange Mesh Geometry Structure (by ref).  
+Struct Ref: 交互式网格几何结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Interchange Mesh Geometry Structure (by ref). Reference to the input struct.
-
+Struct Out: Interchange Mesh Geometry Structure（通过ref）。对输入结构的引用。

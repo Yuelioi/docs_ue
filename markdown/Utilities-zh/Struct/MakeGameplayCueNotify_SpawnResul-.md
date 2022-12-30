@@ -1,6 +1,6 @@
 # MakeGameplayCueNotify_SpawnResul-
 
-Adds a node that create a 'GameplayCueNotify_SpawnResult' from its members
+添加一个节点，从其成员中创建一个 "GameplayCueNotify_SpawnResult"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayCueNotify_SpawnResult' from its members
 
 ## Outputs
 
-Gameplay Cue Notify Spawn Result: Gameplay Cue Notify Spawn Result Structure.
-
+游戏提示通知产卵结果。Gameplay Cue Notify Spawn Result 结构。

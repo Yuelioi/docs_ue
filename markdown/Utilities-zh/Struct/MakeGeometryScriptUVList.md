@@ -1,6 +1,6 @@
 # MakeGeometryScriptUVList
 
-Adds a node that create a 'GeometryScriptUVList' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptUVList"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GeometryScriptUVList' from its members
 
 ## Outputs
 
-Geometry Script UVList: UV List Structure.
-
+Geometry Script UVList:UV列表结构。

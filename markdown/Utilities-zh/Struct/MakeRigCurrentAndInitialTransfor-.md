@@ -1,6 +1,6 @@
 # MakeRigCurrentAndInitialTransfor-
 
-Adds a node that create a 'RigCurrentAndInitialTransform' from its members
+添加一个节点，从其成员中创建一个 "RigCurrentAndInitialTransform"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigCurrentAndInitialTransform' from its members
 
 ## Outputs
 
-Rig Current and Initial Transform: Rig Current And Initial Transform Structure.
-
+钻机电流和初始变换。钻机电流和初始变换结构。

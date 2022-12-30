@@ -1,6 +1,6 @@
 # MakeGameplayEffectRemovalInfo
 
-Adds a node that create a 'GameplayEffectRemovalInfo' from its members
+添加一个节点，从其成员中创建一个 "GameplayEffectRemovalInfo"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'GameplayEffectRemovalInfo' from its members
 
 ## Inputs
 
-Premature Removal: Boolean. Premature Removal:. True when the gameplay effect's duration has not expired, meaning the gameplay effect is being forcefully removed..
+过早删除。布尔型。过早移除：。当游戏效果的持续时间还没有结束时为真，意味着游戏效果被强行移除。
 
-Stack Count: Integer. Stack Count:. Number of Stacks this gameplay effect had before it was removed..
+堆栈计数。整数。堆栈计数：。这个游戏效果在被移除之前的堆栈数量。
 
-Effect Context: Gameplay Effect Context Handle Structure. Effect Context:. Actor this gameplay effect was targeting..  
+效果语境。游戏性效果语境处理结构。效果语境：。演员这个游戏效果是针对...
 
 ## Outputs
 
-Gameplay Effect Removal Info: Gameplay Effect Removal Info Structure.
-
+游戏效果移除信息。游戏效果移除信息结构。

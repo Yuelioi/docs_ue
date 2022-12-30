@@ -1,6 +1,6 @@
 # SetmembersinImageWriteOptions
 
-Adds a node that modifies a 'ImageWriteOptions'
+添加一个修改 "ImageWriteOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ImageWriteOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Image Write Options Structure (by ref).  
+结构参考：图像写入选项结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Image Write Options Structure (by ref). Reference to the input struct.
-
+Struct Out: Image Write Options Structure (by ref).对输入结构的引用。

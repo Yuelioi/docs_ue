@@ -1,6 +1,6 @@
 # MakePaperTerrainMaterialRule
 
-Adds a node that create a 'PaperTerrainMaterialRule' from its members
+添加一个节点，从其成员中创建一个 "PaperTerrainMaterialRule"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PaperTerrainMaterialRule' from its members
 
 ## Outputs
 
-Paper Terrain Material Rule: Paper Terrain Material Rule Structure.
-
+纸质地形材料规则。纸质地形材料规则结构。

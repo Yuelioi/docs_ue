@@ -1,6 +1,6 @@
 # SetmembersinWaterBodyBrushCache
 
-Adds a node that modifies a 'WaterBodyBrushCache'
+添加一个修改 "WaterBodyBrushCache "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'WaterBodyBrushCache'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Water Body Brush Cache Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Water Body Brush Cache Structure (by ref). Reference to the input struct.
-
+结构出来。水体刷缓存结构（通过引用）。对输入结构的引用。

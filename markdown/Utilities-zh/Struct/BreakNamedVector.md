@@ -1,6 +1,6 @@
 # BreakNamedVector
 
-Adds a node that breaks a 'NamedVector' into its member fields
+添加一个节点，将 "NamedVector "分解为其成员字段。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'NamedVector' into its member fields
 
 ## Inputs
 
-Named Vector: Named Vector Structure (by ref).  
+命名的向量。命名向量结构（通过参考）。  
 
 ## Outputs
 
-Value: Vector. Value.
+价值。向量。价值。
 
-Name: Name. Name.
-
+姓名：姓名名称。

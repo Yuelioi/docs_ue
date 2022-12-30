@@ -1,6 +1,6 @@
 # MakeGameplayAbilityTargetData_Lo-
 
-Adds a node that create a 'GameplayAbilityTargetData_LocationInfo' from its members
+添加一个节点，从其成员中创建一个 "GameplayAbilityTargetData_LocationInfo"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'GameplayAbilityTargetData_LocationInfo' from its memb
 
 ## Inputs
 
-Source Location: Gameplay Ability Targeting Location Info Structure. Source Location:. Generic location data for source.
+源头位置。游戏性的能力 瞄准位置信息结构。源地点：。来源的通用位置数据。
 
-Target Location: Gameplay Ability Targeting Location Info Structure. Target Location:. Generic location data for target.  
+目标位置。游戏性的能力 瞄准位置信息结构。目标位置：。目标的通用位置数据。  
 
 ## Outputs
 
-Gameplay Ability Target Data Location Info: Gameplay Ability Target Data Location Info Structure.
-
+游戏能力的目标数据位置信息。游戏能力目标数据位置信息结构。

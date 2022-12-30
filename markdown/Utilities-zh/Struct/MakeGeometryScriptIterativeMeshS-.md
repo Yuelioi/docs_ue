@@ -1,6 +1,6 @@
 # MakeGeometryScriptIterativeMeshS-
 
-Adds a node that create a 'GeometryScriptIterativeMeshSmoothingOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptIterativeMeshSmoothingOptions'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'GeometryScriptIterativeMeshSmoothingOptions' from its
 
 ## Inputs
 
-Num Iterations: Integer. Num Iterations.
+Num Iterations:整数。Num Iterations.
 
-Alpha: Float (single-precision). Alpha.  
+阿尔法。Float（单精度）。阿尔法。  
 
 ## Outputs
 
-Geometry Script Iterative Mesh Smoothing Options: Geometry Script Iterative Mesh Smoothing Options Structure.
-
+Geometry Script Iterative Mesh Smoothing Options:Geometry Script Iterative Mesh Smoothing Options结构。

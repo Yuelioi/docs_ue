@@ -1,6 +1,6 @@
 # BreakTextBlockStyle
 
-Adds a node that breaks a 'TextBlockStyle' into its member fields
+添加一个节点，将'TextBlockStyle'分解成其成员字段
 
 ## 图示
 
@@ -8,27 +8,26 @@ Adds a node that breaks a 'TextBlockStyle' into its member fields
 
 ## Inputs
 
-Text Block Style: Text Block Style Structure (by ref).  
+文本块样式。文本块样式结构（按参考）。  
 
 ## Outputs
 
-Font: Slate Font Info Structure. Font:. Font family and size to be used when displaying this text..
+字体。Slate字体信息结构。字体:.显示此文本时要使用的字体家族和大小。
 
-Color: Slate Color Structure. Color and Opacity:. The color and opacity of this text.
+颜色：板岩色结构。颜色和不透明度：。这个文本的颜色和不透明度。
 
-Shadow Offset: Vector 2D Structure. Shadow Offset:. How much should the shadow be offset? An offset of 0 implies no shadow..
+阴影偏移。矢量2D结构。阴影偏移：。阴影应该被偏移多少？偏移量为0意味着没有阴影。
 
-Shadow Color And Opacity: Linear Color Structure. Shadow Color and Opacity:. The color and opacity of the shadow.
+阴影的颜色和不透明度。线性色彩结构。阴影的颜色和不透明度：。阴影的颜色和不透明度。
 
-Highlight Color: Slate Color Structure. Highlight Color:. The color of highlighted text.
+高光色：板岩色结构。高光色：。高亮文本的颜色。
 
-Highlight Shape: Slate Brush Structure. Highlight Shape:. The shape of highlighted text.
+突出的形状。石板刷结构.高亮形状：。高亮文本的形状。
 
-Strike Brush: Slate Brush Structure. Strike Brush:. The brush used to draw an strike through the text (if any).
+罢工刷。石板刷结构。罢工笔刷：。用来在文本中画出罢工的画笔（如果有的话）。
 
-Underline Brush: Slate Brush Structure. Underline Brush:. The brush used to draw an underline under the text (if any).
+下划线画笔。石板刷的结构。下划线笔刷：。用于在文本下画下划线的画笔（如果有的话）。
 
-Transform Policy: ETextTransformPolicy Enum. Transform Policy:. The Text Transform Policy (defaults to None).
+转换政策。ETextTransformPolicy Enum.变换策略：。文本转换策略（默认为无）。
 
-Overflow Policy: ETextOverflowPolicy Enum. Overflow Policy:. Determines what happens to text that is clipped and doesn't fit within the clip rect of a text widget.
-
+溢出政策。ETextOverflowPolicy Enum.溢出政策：。决定如何处理被剪切的、不适合在文本部件的剪切矩形内的文本。

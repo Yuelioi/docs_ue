@@ -1,6 +1,6 @@
 # MakeRadialBoxSettings
 
-Adds a node that create a 'RadialBoxSettings' from its members
+添加一个节点，从其成员中创建一个 "RadialBoxSettings"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RadialBoxSettings' from its members
 
 ## Outputs
 
-Radial Box Settings: Radial Box Settings Structure.
-
+径向箱体设置。径向箱体设置结构。

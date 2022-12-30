@@ -1,6 +1,6 @@
 # MakeGeometryScriptRepackUVsOptio-
 
-Adds a node that create a 'GeometryScriptRepackUVsOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptRepackUVsOptions"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'GeometryScriptRepackUVsOptions' from its members
 
 ## Inputs
 
-Target Image Width: Integer. Target Image Width.
+目标图像宽度：整数。目标图像宽度。
 
-Optimize Island Rotation: Boolean. Optimize Island Rotation.  
+优化岛的旋转。布尔型。优化岛的旋转。  
 
 ## Outputs
 
-Geometry Script Repack UVs Options: Geometry Script Repack UVs Options Structure.
-
+Geometry Script Repack UVs Options:Geometry Script Repack UVs Options结构。

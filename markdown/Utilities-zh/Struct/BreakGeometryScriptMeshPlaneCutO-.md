@@ -1,6 +1,6 @@
 # BreakGeometryScriptMeshPlaneCutO-
 
-Adds a node that breaks a 'GeometryScriptMeshPlaneCutOptions' into its member fields
+添加一个节点，将'GeometryScriptMeshPlaneCutOptions'分解到其成员字段中
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'GeometryScriptMeshPlaneCutOptions' into its member fi
 
 ## Inputs
 
-Geometry Script Mesh Plane Cut Options: Geometry Script Mesh Plane Cut Options Structure (by ref).  
+Geometry Script Mesh Plane Cut Options:Geometry Script Mesh Plane Cut Options结构（按参考）。  
 
 ## Outputs
 
-Fill Holes: Boolean. Fill Holes.
+填充孔。布尔型。填充孔。
 
-Fill Spans: Boolean. Fill Spans.
+填充跨度：布尔值。填充跨度。
 
-Flip Cut Side: Boolean. Flip Cut Side.
+翻转切面。布尔型。翻转切割面。
 
-UVWorld Dimension: Float (single-precision). UVWorld Dimension.
-
+UVWorld尺寸。Float（单精度）。UVWorld维度。

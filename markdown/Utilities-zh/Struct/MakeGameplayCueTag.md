@@ -1,6 +1,6 @@
 # MakeGameplayCueTag
 
-Adds a node that create a 'GameplayCueTag' from its members
+添加一个节点，从其成员中创建一个 "GameplayCueTag"。
 
 ## 图示
 
@@ -8,7 +8,6 @@ Adds a node that create a 'GameplayCueTag' from its members
 
 ## Inputs
 
-Gameplay Cue Tag: Gameplay Tag Structure. Gameplay Cue Tag.  
+游戏性提示标签。Gameplay Tag结构。游戏提示标签。  
 
 ## Outputs
-

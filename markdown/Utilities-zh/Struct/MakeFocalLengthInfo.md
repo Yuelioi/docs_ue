@@ -1,6 +1,6 @@
 # MakeFocalLengthInfo
 
-Adds a node that create a 'FocalLengthInfo' from its members
+添加一个节点，从其成员中创建一个 "FocalLengthInfo"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'FocalLengthInfo' from its members
 
 ## Inputs
 
-Fx Fy: Vector 2D Structure. Fx Fy:. Value expected to be normalized (unitless).  
+Fx Fy:矢量二维结构。Fx Fy:.预期被规范化的值（无单位）。  
 
 ## Outputs
 
-Focal Length Info: Focal Length Info Structure.
-
+焦距信息。焦距信息结构。

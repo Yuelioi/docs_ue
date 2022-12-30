@@ -1,6 +1,6 @@
 # MakeMoviePipelineRenderPassOutpu-
 
-Adds a node that create a 'MoviePipelineRenderPassOutputData' from its members
+添加一个节点，从其成员中创建一个 "MoviePipelineRenderPassOutputData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'MoviePipelineRenderPassOutputData' from its members
 
 ## Outputs
 
-Movie Pipeline Render Pass Output Data: Movie Pipeline Render Pass Output Data Structure.
-
+电影管道渲染通道的输出数据。电影管道渲染通道的输出数据结构。

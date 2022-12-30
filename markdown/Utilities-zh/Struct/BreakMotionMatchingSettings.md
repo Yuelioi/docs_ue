@@ -1,6 +1,6 @@
 # BreakMotionMatchingSettings
 
-Adds a node that breaks a 'MotionMatchingSettings' into its member fields
+添加一个节点，将'MotionMatchingSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'MotionMatchingSettings' into its member fields
 
 ## Inputs
 
-Motion Matching Settings: Motion Matching Settings Structure (by ref).  
+运动匹配设置。运动匹配设置结构（按参考）。  
 
 ## Outputs
 
-Blend Time: Float (single-precision). Blend Time:. Time in seconds to blend out to the new pose. Uses inertial blending and requires an Inertialization node after this node..
+混合时间。Float（单精度）。融合时间：。混合到新姿势的时间，单位是秒。使用惯性混合，需要在这个节点之后有一个惯性化节点。
 
-Pose Jump Threshold Time: Float (single-precision). Pose Jump Threshold Time:. Don't jump to poses that are less than this many seconds away.
+姿势跳跃阈值时间。Float（单精度）。姿势跳跃阈值时间：。不要跳到少于这个秒数的姿势。
 
-Search Throttle Time: Float (single-precision). Search Throttle Time:. Minimum amount of time to wait between pose search queries.
+搜索节气门时间。Float（单精度）。搜索节流时间：。姿势搜索查询之间的最小等待时间。
 
-Min Percent Improvement: Float (single-precision). Min Percent Improvement:. How much better the search result must be compared to the current pose in order to jump to it. Note: This feature won't work quite as advertised until search data rescaling is implemented.
+最小改进百分比。浮点（单精度）。最小改进百分比：。与当前姿势相比，搜索结果必须好多少才能跳到它。注意：在实现搜索数据的重新缩放之前，这个功能不会像广告中说的那样工作。
 
-Sequence End Exlusion Time: Float (single-precision). Sequence End Exlusion Time:. Pose indices SequenceEndExclusionTime or less away from the end of the database sequence will be ignored by the: This ensures the search doesn't get stuck at the end of a sequence..
-
+序列结束时的放行时间。Float (single-precision).序列结束排泄时间：。姿势指数SequenceEndExclusionTime或离数据库序列的末端更近的指数将被忽略。这可以确保搜索不会卡在序列的末端。

@@ -1,6 +1,6 @@
 # BreakMovieSceneCaptureSettings
 
-Adds a node that breaks a 'MovieSceneCaptureSettings' into its member fields
+添加一个节点，将'MovieSceneCaptureSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,49 +8,48 @@ Adds a node that breaks a 'MovieSceneCaptureSettings' into its member fields
 
 ## Inputs
 
-Movie Scene Capture Settings: Movie Scene Capture Settings Structure (by ref).  
+电影场景捕捉设置。电影场景捕捉设置结构（按参考）。  
 
 ## Outputs
 
-Output Directory: Directory Path Structure. Output Directory:. The directory to output the captured file(s) in.
+输出目录。目录路径结构。输出目录：。输出捕获文件的目录。
 
-Game Mode Override: Game Mode Base Class Reference. Game Mode Override:. Optional game mode to override the map's default game mode with. This can be useful if the game's normal mode displays UI elements or loading screens that you don't want captured..
+游戏模式重写。游戏模式基类参考。游戏模式重写：。可选的游戏模式，用于覆盖地图的默认游戏模式。如果游戏的正常模式显示的UI元素或加载屏幕是你不想捕获的，这可能很有用。
 
-Filename Format: String. Output Format:. The format to use for the resulting filename. Extension will be added automatically. Any tokens of the form {token} will be replaced with the corresponding value:. {fps} - The captured framerate. {frame} - The current frame number (only relevant for image sequences). {width} - The width of the captured frames. {height} - The height of the captured frames. {world} - The name of the current world. {quality} - The image compression quality setting. {material} - The material/render pass. {shot} - The name of the level sequence asset shot being played. {sequence} - The name of the level sequence asset (ie. master) being played. {camera} - The name of the current camera. {date} - The date in the format of {year}.{month}.{day}. {year} - The current year. {month} - The current month. {day} - The current day. {time} - The current time in the format of hours.minutes.seconds.
+文件名格式。字符串。输出格式：。输出的文件名要使用的格式。扩展名将被自动添加。任何{token}形式的标记将被替换成相应的值：。{fps} - 捕获的帧速率。{frame} - 当前的帧数（只与图像序列有关）。{width} - 捕获的帧的宽度。{height} - 捕获的帧的高度。{world} - 当前世界的名称。{quality} - 图像压缩质量设置。{material} - 材质/渲染通道。{shot} - 正在播放的关卡序列资产镜头的名称。{sequence} - 正在播放的关卡序列资产的名称（例如：主线）。{camera} - 正在播放的关卡序列资产的名称（即母版）。- 当前摄像机的名称。{date} - 日期，格式为{年}.{月}.{日}。{year}--当前的年份。{月}--当前的月份。{day}--当前的一天。{time} - 当前的时间，格式为小时.分钟.秒。
 
-Overwrite Existing: Boolean. Overwrite Existing:. Whether to overwrite existing files or not.
+覆盖现有的。布尔型。覆盖现有的：。是否覆盖现有文件。
 
-Use Relative Frame Numbers: Boolean. Use Relative Frame Numbers:. True if frame numbers in the output files should be relative to zero, rather than the actual frame numbers in the originating animation content..
+使用相对的帧数。布尔型。使用相对帧数：。如果输出文件中的帧数应该是相对于零的，而不是原始动画内容中的实际帧数，则为真。
 
-Handle Frames: Integer. Handle Frames:. Number of frame handles to include for each shot.
+处理框架。整数。处理帧数：。每个镜头要包括的帧柄的数量。
 
-Movie Extension: String. Movie Extension:. Filename extension for movies referenced in the XMLs/EDLs.
+电影扩展。字符串。电影扩展名：。在XMLs/EDLs中引用的电影的文件名扩展。
 
-Zero Pad Frame Numbers: Byte. Zero Pad Frame Numbers:. How much to zero-pad frame numbers on filenames.
+零垫子帧数。字节。零填充帧数：。对文件名的帧数进行零填充的程度。
 
-Frame Rate: Frame Rate Structure. Frame Rate:. The sequence's frame rate at which to capture if "Use Custom Frame Rate" is not enabled.
+帧率。帧率结构。帧率：。如果不启用 "使用自定义帧率"，则以该序列的帧率进行拍摄。
 
-Use Custom Frame Rate: Boolean. Use Custom Frame Rate:. Specify using the custom frame rate as opposed to the sequence's display rate.
+使用自定义帧率。布尔值。使用自定义帧率：。指定使用自定义帧率，而不是序列的显示速率。
 
-Custom Frame Rate: Frame Rate Structure. Custom Frame Rate:. The custom frame rate at which to capture if "Use Custom Frame Rate" is enabled.
+自定义帧率。帧率结构。自定义帧率：。如果启用 "使用自定义帧率"，则以自定义的帧率进行拍摄。
 
-Resolution: Capture Resolution Structure. Resolution:. The resolution at which to capture.
+决议。捕获分辨率结构。分辨率：。捕获的分辨率。
 
-Enable Texture Streaming: Boolean. Enable Texture Streaming:. Whether to texture streaming should be enabled while capturing. Turning off texture streaming may cause much more memory to be used, but also reduces the chance of blurry textures in your captured video..
+启用纹理流。布尔值。Enable Texture Streaming（启用纹理流）：。捕获时是否应启用纹理流。关闭纹理流可能会导致使用更多的内存，但也会减少捕获的视频中出现模糊纹理的机会。
 
-Cinematic Engine Scalability: Boolean. Cinematic Engine Scalability:. Whether to enable cinematic engine scalability settings.
+电影引擎的可扩展性。Boolean.Cinematic Engine Scalability：。是否启用电影引擎可扩展性设置。
 
-Cinematic Mode: Boolean. Cinematic Mode:. Whether to enable cinematic mode whilst capturing.
+电影模式。Boolean.电影模式：。捕获时是否启用电影模式。
 
-Allow Movement: Boolean. Allow Movement:. Whether to allow player movement whilst capturing.
+允许移动。布尔型。允许移动：。捕获时是否允许玩家移动。
 
-Allow Turning: Boolean. Allow Turning:. Whether to allow player rotation whilst capturing.
+允许转弯。布尔型。允许转身：。是否允许玩家在抓捕时旋转。
 
-Show Player: Boolean. Show Player:. Whether to show the local player whilst capturing.
+显示播放器。布尔型。显示播放器：。捕获时是否显示本地播放器。
 
-Show HUD: Boolean. Show HUD:. Whether to show the in-game HUD whilst capturing.
+显示HUD。Boolean.显示HUD：。捕获时是否显示游戏中的HUD。
 
-Use Path Tracer: Boolean. Use Path Tracer:. Whether to use the path tracer (if supported) to render the scene.
+使用路径跟踪器。Boolean.Use Path Tracer:（使用路径跟踪器）。是否使用路径跟踪器（如果支持）来渲染场景。
 
-Path Tracer Sample Per Pixel: Integer. Path Tracer Sample Per Pixel:. Number of sampler per pixel to be used when rendering the scene with the path tracer (if supported).
-
+路径跟踪器每像素采样。整数。Path Tracer Sample Per Pixel：.使用路径追踪器渲染场景时，每个像素的采样器数量（如果支持）。

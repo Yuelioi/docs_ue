@@ -1,6 +1,6 @@
 # SetmembersinCachedAnimStateData
 
-Adds a node that modifies a 'CachedAnimStateData'
+添加一个修改 "CachedAnimStateData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CachedAnimStateData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Cached Anim State Data Structure (by ref).  
+Struct Ref: 缓存的Anim状态数据结构（通过ref）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Cached Anim State Data Structure (by ref). Reference to the input struct.
-
+结构出来。缓存的动画状态数据结构（通过引用）。对输入结构的引用。

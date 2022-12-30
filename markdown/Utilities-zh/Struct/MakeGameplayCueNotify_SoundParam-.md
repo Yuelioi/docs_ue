@@ -1,6 +1,6 @@
 # MakeGameplayCueNotify_SoundParam-
 
-Adds a node that create a 'GameplayCueNotify_SoundParameterInterfaceInfo' from its members
+添加一个节点，从其成员中创建一个 "GameplayCueNotify_SoundParameterInterfaceInfo"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayCueNotify_SoundParameterInterfaceInfo' from i
 
 ## Outputs
 
-Gameplay Cue Notify Sound Parameter Interface Info: Gameplay Cue Notify Sound Parameter Interface Info Structure.
-
+Gameplay Cue Notify Sound Parameter Interface Info:Gameplay Cue Notify Sound Parameter Interface Info结构。

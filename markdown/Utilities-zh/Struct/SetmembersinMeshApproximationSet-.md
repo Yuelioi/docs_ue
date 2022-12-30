@@ -1,6 +1,6 @@
 # SetmembersinMeshApproximationSet-
 
-Adds a node that modifies a 'MeshApproximationSettings'
+添加一个修改 "MeshApproximationSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MeshApproximationSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Mesh Approximation Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Mesh Approximation Settings Structure (by ref). Reference to the input struct.
-
+结构出来。网格逼近设置结构（通过ref）。对输入结构的引用。

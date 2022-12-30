@@ -1,6 +1,6 @@
 # MakeControlRigRigHierarchyToGrap-
 
-Adds a node that create a 'ControlRigRigHierarchyToGraphDragAndDropContext' from its members
+添加一个节点，从其成员中创建一个 "ControlRigRigHierarchyToGraphDragAndDropContext"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ControlRigRigHierarchyToGraphDragAndDropContext' from
 
 ## Outputs
 
-Control Rig Rig Hierarchy to Graph Drag and Drop Context: Control Rig Rig Hierarchy To Graph Drag And Drop Context Structure.
-
+控制钻机的层次结构到图形拖放的上下文。控制钻机的层次结构到图形拖放的上下文结构。

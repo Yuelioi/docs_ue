@@ -1,6 +1,6 @@
 # BreakGoogleARCoreServicesConfig
 
-Adds a node that breaks a 'GoogleARCoreServicesConfig' into its member fields
+添加一个节点，将'GoogleARCoreServicesConfig'分解为其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'GoogleARCoreServicesConfig' into its member fields
 
 ## Inputs
 
-Google ARCore Services Config: Google ARCore Services Config Structure (by ref).  
+谷歌ARCore服务配置。谷歌ARCore服务配置结构（按参考）。  
 
 ## Outputs
 
-ARPin Cloud Mode: EARPinCloudMode Enum. ARPin Cloud Mode:. Whether enabling ARPin hosting/resolving in GoogleARCoreServices..
-
+ARPin云模式。EARPinCloudMode Enum.ARPin云模式：。是否在GoogleARCoreServices中启用ARPin托管/解析。

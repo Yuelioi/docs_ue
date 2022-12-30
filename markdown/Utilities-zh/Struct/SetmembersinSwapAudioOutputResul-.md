@@ -1,6 +1,6 @@
 # SetmembersinSwapAudioOutputResul-
 
-Adds a node that modifies a 'SwapAudioOutputResult'
+添加一个修改 "SwapAudioOutputResult "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SwapAudioOutputResult'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Swap Audio Output Result Structure (by ref).  
+Struct Ref: 交换音频输出结果结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Swap Audio Output Result Structure (by ref). Reference to the input struct.
-
+Struct Out:交换音频输出结果结构（通过参考）。对输入结构的引用。

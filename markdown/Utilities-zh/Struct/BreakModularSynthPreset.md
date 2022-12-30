@@ -1,6 +1,6 @@
 # BreakModularSynthPreset
 
-Adds a node that breaks a 'ModularSynthPreset' into its member fields
+添加一个节点，将'ModularSynthPreset'分解成其成员字段
 
 ## 图示
 
@@ -8,125 +8,124 @@ Adds a node that breaks a 'ModularSynthPreset' into its member fields
 
 ## Inputs
 
-Modular Synth Preset: Modular Synth Preset Structure (by ref).  
+模块化合成器预设。模块化合成器预设结构（按参考）。  
 
 ## Outputs
 
-Enable Polyphony: Boolean. Enable Polyphony:. Whether or not to allow multiple synth voices..
+启用复音：布尔值。启用复音：。是否允许多个合成器声音。
 
-Osc 1Type: ESynth1OscType Enum. Osc 1Type:. What type of oscillator to use for oscillator 1.
+Osc 1Type。ESynth1OscType枚举。Osc 1Type:.振荡器1使用什么类型的振荡器。
 
-Osc 1Gain: Float (single-precision). Osc 1Gain:. The linear gain of oscillator 1 [0.0, 1.0].
+Osc 1Gain:Float (single-precision).Osc 1Gain:.振荡器1的线性增益[0.0, 1.0]。
 
-Osc 1Octave: Float (single-precision). Osc 1Octave:. The octave of oscillator 1. [-8.0, 8.0].
+Osc 1Octave。Float（单精度）。Osc 1Octave:.振荡器1的八度音[-8.0, 8.0]。
 
-Osc 1Semitones: Float (single-precision). Osc 1Semitones:. The semi-tones of oscillator 1. [-12.0, 12.0].
+Osc 1Semitones:Float（单精度）。Osc 1Semitones:.振荡器1的半音[-12.0, 12.0]。
 
-Osc 1Cents: Float (single-precision). Osc 1Cents:. The cents (hundreds of a semitone) of oscillator 1. [-100.0, 100.0].
+Osc 1Cents。Float（单精度）。Osc 1Cents:.振荡器1的分值（半音的几百分之一）。
 
-Osc 1Pulse Width: Float (single-precision). Osc 1Pulse Width:. The pulsewidth of oscillator 1 (when using a square wave type oscillator). [0.0, 1.0].
+Osc 1Pulse Width: Float (single-precision).Osc 1Pulse Width（振荡器1脉冲宽度）：。振荡器1的脉冲宽度（当使用方波型振荡器时）。[0.0, 1.0].
 
-Osc 2Type: ESynth1OscType Enum. Osc 2Type:. What type of oscillator to use for oscillator 2.
+Osc 2Type。ESynth1OscType枚举。Osc 2Type:.震荡器2使用什么类型的震荡器。
 
-Osc 2Gain: Float (single-precision). Osc 2Gain:. The linear gain of oscillator 2 [0.0, 1.0].
+Osc 2Gain:Float (single-precision).Osc 2Gain:.振荡器2的线性增益[0.0, 1.0]。
 
-Osc 2Octave: Float (single-precision). Osc 2Octave:. The octave of oscillator 2. [-8.0, 8.0].
+Osc 2Octave。Float（单精度）。Osc 2Octave:.振荡器2的八度音。[-8.0, 8.0].
 
-Osc 2Semitones: Float (single-precision). Osc 2Semitones:. The semi-tones of oscillator 2. [-12.0, 12.0].
+Osc 2Semitones:Float（单精度）。Osc 2Semitones:.震荡器2的半音。[-12.0, 12.0].
 
-Osc 2Cents: Float (single-precision). Osc 2Cents:. The cents (hundreds of a semitone) of oscillator 2. [-100.0, 100.0].
+Osc 2Cents。Float（单精度）。Osc 2Cents:.振荡器2的分值（半音的几百分之一）。[-100.0, 100.0].
 
-Osc 2Pulse Width: Float (single-precision). Osc 2Pulse Width:. The pulsewidth of oscillator 2 (when using a square wave type oscillator). [0.0, 1.0].
+Osc 2Pulse Width: Float（单精度）。Osc 2Pulse Width（振荡器2脉冲宽度）：。振荡器2的脉冲宽度（当使用方波型振荡器时）。[0.0, 1.0].
 
-Portamento: Float (single-precision). Portamento:. The amount of portamento to use, which is the amount of pitch sliding from current note to next [0.0, 1.0].
+Portamento。Float（单精度）。Portamento:.要使用的移调量，即从当前音符到下一个音符的滑动量[0.0, 1.0]。
 
-Enable Unison: Boolean. Enable Unison:. Enables forcing the oscillators to have no stereo spread..
+启用联合声。布尔型。启用单声道：。启用强制振荡器没有立体声传播...
 
-Enable Oscillator Sync: Boolean. Enable Oscillator Sync:. Whether or not oscillator sync is enabled. Oscillator sync forces oscillator 2's phase to align with oscillator 1's phase..
+启用振荡器同步。布尔值。Enable Oscillator Sync:（启用振荡器同步）。是否启用了振荡器同步。振荡器同步迫使振荡器2的相位与振荡器1的相位一致。
 
-Spread: Float (single-precision). Spread:. The amount of stereo spread to use between oscillator 1 and oscillator 2 [0.0, 1.0].
+传播。Float（单精度）。展开：。在振荡器1和振荡器2之间使用的立体声扩展量[0.0, 1.0]。
 
-Pan: Float (single-precision). Pan:. The stereo pan to use. 0.0 is center. -1.0 is left, 1.0 is right..
+潘。Float（单精度）。平移：。要使用的立体声平移。0.0是中央。-1.0是左边，1.0是右边。
 
-LFO1Frequency: Float (single-precision). LFO1Frequency:. The frequency to use for LFO 1 (in hz) [0.0, 50.0].
+LFO1Frequency:Float（单精度）。LFO1Frequency:.用于LFO1的频率（单位：hz）[0.0, 50.0]。
 
-LFO1Gain: Float (single-precision). LFO1Gain:. The linear gain to use for LFO 1 [0.0, 1.0].
+LFO1Gain。Float（单精度）。LFO1Gain:.用于LFO1的线性增益[0.0, 1.0]。
 
-LFO1Type: ESynthLFOType Enum. LFO1Type:. The type of LFO to use for LFO 1.
+LFO1Type。ESynthLFOType枚举。LFO1Type:.用于LFO1的LFO的类型。
 
-LFO1Mode: ESynthLFOMode Enum. LFO1Mode:. The mode to use for LFO 1.
+LFO1Mode:ESynthLFOMode Enum.LFO1Mode:.用于LFO1的模式。
 
-LFO1Patch Type: ESynthLFOPatchType Enum. LFO1Patch Type:. The built-in patch type to use for LFO 1 (you can route this to any patchable parameter using the Patches parameter).
+LFO1Patch类型。ESynthLFOPatchType枚举。LFO1Patch类型：。用于LFO1的内置补丁类型（你可以使用补丁参数将其路由到任何可补丁的参数）。
 
-LFO2Frequency: Float (single-precision). LFO2Frequency:. The frequency to use for LFO 2 (in hz) [0.0, 50.0].
+LFO2F频率。Float（单精度）。LFO2F频率：。用于LFO2的频率（单位：hz）[0.0, 50.0]。
 
-LFO2Gain: Float (single-precision). LFO2Gain:. The linear gain to use for LFO 2 [0.0, 1.0].
+LFO2Gain。Float（单精度）。LFO2Gain:。用于LFO2的线性增益[0.0, 1.0]。
 
-LFO2Type: ESynthLFOType Enum. LFO2Type:. The type of LFO to use for LFO 2.
+LFO2类型。ESynthLFOType枚举。LFO2类型：。用于LFO2的LFO的类型。
 
-LFO2Mode: ESynthLFOMode Enum. LFO2Mode:. The mode to use for LFO 2.
+LFO2Mode:ESynthLFOMode Enum.LFO2Mode:.用于LFO2的模式。
 
-LFO2Patch Type: ESynthLFOPatchType Enum. LFO2Patch Type:. The built-in patch type to use for LFO 2 (you can route this to any patchable parameter using the Patches parameter).
+LFO2Patch类型。ESynthLFOPatchType枚举。LFO2Patch类型：。用于LFO2的内置补丁类型（你可以使用补丁参数将其路由到任何可补丁的参数）。
 
-Gain Db: Float (single-precision). Gain Db:. The overall gain to use for the synthesizer in dB [-90.0, 20.0].
+增益Db。Float (single-precision).增益Db:。用于合成器的整体增益，单位是dB[-90.0, 20.0]。
 
-Attack Time: Float (single-precision). Attack Time:. The amplitude envelope attack time (in ms) [0.0, 10000].
+攻击时间。Float（单精度）。攻击时间：。振幅包络攻击时间（ms）[0.0, 10000]。
 
-Decay Time: Float (single-precision). Decay Time:. The amplitude envelope decay time (in ms)[0.0, 10000].
+衰减时间。Float（单精度）。衰减时间：。振幅包络衰减时间（ms）[0.0, 10000]。
 
-Sustain Gain: Float (single-precision). Sustain Gain:. The amplitude envelope sustain amount (linear gain) [0.0, 1.0].
+持续增益。浮点（单精度）。持续增益：。振幅包络持续量（线性增益）[0.0, 1.0]。
 
-Release Time: Float (single-precision). Release Time:. The amplitude envelope release time (in ms) [0.0, 10000].
+释放时间。Float（单精度）。释放时间：。振幅包络释放时间（ms）[0.0, 10000]。
 
-Mod Env Patch Type: ESynthModEnvPatch Enum. Mod Env Patch Type:. The built-in patch type for the envelope modulator.
+Mod Env补丁类型。ESynthModEnvPatch Enum.Mod Env Patch Type:.包络调制器的内置补丁类型。
 
-Mod Env Bias Patch Type: ESynthModEnvBiasPatch Enum. Mod Env Bias Patch Type:. The built-in patch type for the envelope modulator bias output. Bias is when the envelope output is offset by the sustain gain..
+Mod Env Bias Patch类型。ESynthModEnvBiasPatch Enum.Mod Env Bias Patch Type:.包络调制器偏置输出的内置补丁类型。偏置是指包络输出被延时增益所抵消。
 
-Invert Modulation Envelope: Boolean. Invert Modulation Envelope:. Whether or not to invert the modulation envelope.
+反转调制包络。布尔型。反转调制包络：。是否要反转调制包络。
 
-Invert Modulation Envelope Bias: Boolean. Invert Modulation Envelope Bias:. Whether or not to invert the modulation envelope bias output.
+反转调制包络偏置：布尔值。反转调制包络偏置：。是否对调制包络偏置输出进行反转。
 
-Modulation Envelope Depth: Float (single-precision). Modulation Envelope Depth:. The "depth" (i.e. how much) modulation envelope to use. This scales the modulation envelope output. [0.0, 1.0].
+调制包络深度。Float（单精度）。调制包络深度：。使用的 "深度"（即多少）调制包络。这将缩放调制包络的输出。[0.0, 1.0].
 
-Modulation Envelope Attack Time: Float (single-precision). Modulation Envelope Attack Time:. The modulation envelope attack time (in ms) [0.0, 10000].
+调制包络攻击时间。浮点（单精度）。调制包络攻击时间：。调制包络攻击时间（ms）[0.0, 10000]。
 
-Modulation Envelope Decay Time: Float (single-precision). Modulation Envelope Decay Time:. The modulation envelope decay time (in ms) [0.0, 10000].
+调制包络衰减时间。浮点（单精度）。调制包络衰减时间：。调制包络衰减时间（ms）[0.0, 10000]。
 
-Modulation Envelope Sustain Gain: Float (single-precision). Modulation Envelope Sustain Gain:. The modulation envelope sustain gain (linear gain) [0.0, 1.0].
+调制包络持续增益。浮点（单精度）。调制包络持续增益：。调制包络持续增益（线性增益）[0.0, 1.0]。
 
-Modulation Envelope Release Time: Float (single-precision). Modulation Envelope Release Time:. The modulation envelope release time (in ms) [0.0, 10000].
+调制包络释放时间。Float（单精度）。调制包络释放时间：。调制包络释放时间（以ms为单位）[0.0, 10000]。
 
-Legato: Boolean. Legato:. Whether or not to use legato mode..
+Legato: Boolean.Legato:.是否使用连音模式...
 
-Retrigger: Boolean. Retrigger:. Whether or not to use retrigger mode..
+重新触发。Boolean.Retrigger:.是否使用再触发模式。
 
-Filter Frequency: Float (single-precision). Filter Frequency:. The output filter cutoff frequency (hz) [0.0, 20000.0].
+滤波频率。Float (single-precision).滤波器频率：。输出滤波器的截止频率（HZ）[0.0, 20000.0]。
 
-Filter Q: Float (single-precision). Filter Q:. The output filter resonance (Q) [0.5, 10].
+滤波器Q：浮点数（单精度）。滤波器Q：。输出滤波器的谐振（Q）[0.5, 10]。
 
-Filter Type: ESynthFilterType Enum. Filter Type:. The output filter type (lowpass, highpass, bandpass, bandstop).
+过滤器类型。ESynthFilterType枚举。滤波器类型：。输出滤波器类型（低通、高通、带通、带阻）。
 
-Filter Algorithm: ESynthFilterAlgorithm Enum. Filter Algorithm:. The output filter circuit/algorithm type (one-pole ladder, ladder, state-variable).
+过滤算法。ESynthFilterAlgorithm Enum.滤波器算法：。输出滤波器电路/算法类型（单极梯形、梯形、状态变量）。
 
-Stereo Delay Enabled: Boolean. Stereo Delay Enabled:. Whether or not stereo delay is enabled on the synth.
+启用立体声延时。布尔型。Stereo Delay Enabled：.在合成器上是否启用了立体声延迟。
 
-Stereo Delay Mode: ESynthStereoDelayMode Enum. Stereo Delay Mode:. The stereo delay mode of the synth.
+立体声延时模式。ESynthStereoDelayMode枚举。立体声延时模式：。合成器的立体声延时模式。
 
-Stereo Delay Time: Float (single-precision). Stereo Delay Time:. The stereo delay time (in ms) [0.0, 2000.0].
+立体声延迟时间。Float（单精度）。立体声延迟时间：。立体声延迟时间（以ms为单位）[0.0, 2000.0]。
 
-Stereo Delay Feedback: Float (single-precision). Stereo Delay Feedback:. The amount of feedback in the stereo delay line [0.0, 1.0].
+立体声延时反馈。浮点（单精度）。立体声延时反馈：。立体声延时线的反馈量[0.0, 1.0]。
 
-Stereo Delay Wetlevel: Float (single-precision). Stereo Delay Wetlevel:. The output wet level to use for the stereo delay time [0.0, 1.0].
+立体声延时湿电平。Float（单精度）。立体声延时湿电平：。用于立体声延迟时间的输出湿电平[0.0, 1.0]。
 
-Stereo Delay Ratio: Float (single-precision). Stereo Delay Ratio:. The ratio between left and right stereo delay lines (wider value is more separation) [0.0, 1.0].
+立体声延时率。Float（单精度）。立体声延迟率：。左右立体声延迟线之间的比率（更宽的值是更多的分离）[0.0, 1.0]。
 
-Chorus Enabled: Boolean. Chorus Enabled:. Whether or not the chorus effect is enabled.
+启用的合唱。布尔型。Chorus Enabled:（启用合唱）。合唱效果是否被启用。
 
-Chorus Depth: Float (single-precision). Chorus Depth:. The depth of the chorus effect [0.0, 1.0].
+合唱深度。Float（单精度）。合唱深度：。合唱效果的深度[0.0, 1.0]。
 
-Chorus Feedback: Float (single-precision). Chorus Feedback:. The amount of feedback in the chorus effect [0.0, 1.0].
+合唱反馈。Float（单精度）。合唱反馈：。合唱效果中的反馈量[0.0, 1.0]。
 
-Chorus Frequency: Float (single-precision). Chorus Frequency:. The chorus LFO frequency [0.0, 20.0].
+合唱频率。浮点（单精度）。合唱频率：。合唱的LFO频率[0.0, 20.0]。
 
-Patches: Array of Epic Synth 1Patch Structures. Patches:. The modular synth patch cords to use for the synth. Allows routing the LFO1/LFO2 and Modulation Envelope to any patchable destination..
-
+补丁。Array of Epic Synth 1Patch Structures.补丁：。为合成器使用的模块化合成器补丁线。允许将LFO1/LFO2和Modulation Envelope路由到任何可修补的目的地。

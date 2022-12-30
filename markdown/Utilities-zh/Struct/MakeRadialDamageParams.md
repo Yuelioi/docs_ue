@@ -1,6 +1,6 @@
 # MakeRadialDamageParams
 
-Adds a node that create a 'RadialDamageParams' from its members
+添加一个节点，从其成员中创建一个 "RadialDamageParams"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'RadialDamageParams' from its members
 
 ## Inputs
 
-Base Damage: Float (single-precision). Base Damage:. Max damage done.
+基本损害。浮点（单精度）。基本伤害：。造成的最大伤害。
 
-Minimum Damage: Float (single-precision). Minimum Damage:. Damage will not fall below this if within range.
+最小伤害。浮点（单精度）。最小伤害：。如果在范围内，伤害不会低于此值。
 
-Inner Radius: Float (single-precision). Inner Radius:. Within InnerRadius, do max damage.
+内半径。Float（单精度）。Inner Radius:。在InnerRadius内，造成最大伤害。
 
-Outer Radius: Float (single-precision). Outer Radius:. Outside OuterRadius, do no damage.
+外半径。Float（单精度）。外半径：。在OuterRadius之外，不做任何伤害。
 
-Damage Falloff: Float (single-precision). Damage Falloff:. Describes amount of exponential damage falloff.  
+损伤衰减。浮点（单精度）。伤害衰减：。描述指数型伤害衰减的数量。  
 
 ## Outputs
 
-Radial Damage Params: Radial Damage Params Structure.
-
+径向损伤参数。径向损伤参数结构。

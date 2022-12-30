@@ -1,6 +1,6 @@
 # BreakMultiUserClientInfo
 
-Adds a node that breaks a 'MultiUserClientInfo' into its member fields
+添加一个节点，将'MultiUserClientInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'MultiUserClientInfo' into its member fields
 
 ## Inputs
 
-Multi User Client Info: Multi User Client Info Structure (by ref).  
+多用户客户信息。多用户客户端信息结构（按参考）。  
 
 ## Outputs
 
-Client Endpoint Id: Guid Structure. Client Endpoint Id:. Holds the display name of the user that owns this instance..
+客户端点标识。指导结构。客户端标识：。保存拥有此实例的用户的显示名称。
 
-Display Name: String. Display Name:. Holds the display name of the user that owns this instance..
+显示名称。字符串。显示名称:.保存拥有该实例的用户的显示名称。
 
-Avatar Color: Linear Color Structure. Avatar Color:. Holds the color of the user avatar in a session..
+阿凡达色彩：线性色彩结构。头像颜色：。在一个会话中保存用户头像的颜色。
 
-Tags: Array of Names. Tags:. Holds an array of tags that can be used for grouping and categorizing..
-
+标签。阵列的名称。标签:.保存一个标签数组，可用于分组和归类。

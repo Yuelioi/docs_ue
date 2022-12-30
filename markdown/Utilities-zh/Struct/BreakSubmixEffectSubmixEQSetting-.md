@@ -1,6 +1,6 @@
 # BreakSubmixEffectSubmixEQSetting-
 
-Adds a node that breaks a 'SubmixEffectSubmixEQSettings' into its member fields
+添加一个节点，将'SubmixEffectSubmixEQSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'SubmixEffectSubmixEQSettings' into its member fields
 
 ## Inputs
 
-Submix Effect Submix EQSettings: Submix Effect Submix EQSettings Structure (by ref).  
+Submix Effect Submix EQSettings:Submix Effect Submix EQSettings结构（按参考）。  
 
 ## Outputs
 
-EQBands: Array of Submix Effect EQBand Structures. EQBands:. The EQ bands to use..
-
+EQBands:子混音效果EQBand结构的阵列。EQBands:.要使用的EQ带。

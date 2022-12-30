@@ -1,6 +1,6 @@
 # MakeAnimCurveBase
 
-Adds a node that create a 'AnimCurveBase' from its members
+添加一个节点，从其成员中创建一个 "AnimCurveBase"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AnimCurveBase' from its members
 
 ## Outputs
 
-Anim Curve Base: Anim Curve Base Structure.
-
+Anim Curve Base:Anim Curve Base 结构.

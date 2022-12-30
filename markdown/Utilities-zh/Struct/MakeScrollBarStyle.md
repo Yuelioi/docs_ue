@@ -1,6 +1,6 @@
 # MakeScrollBarStyle
 
-Adds a node that create a 'ScrollBarStyle' from its members
+添加一个节点，从其成员中创建一个 "ScrollBarStyle"。
 
 ## 图示
 
@@ -8,27 +8,26 @@ Adds a node that create a 'ScrollBarStyle' from its members
 
 ## Inputs
 
-Horizontal Background Image: Slate Brush Structure. Horizontal Background Image:. Background image to use when the scrollbar is oriented horizontally.
+水平背景图像。石板刷结构。水平背景图像：。当滚动条水平方向时使用的背景图像。
 
-Vertical Background Image: Slate Brush Structure. Vertical Background Image:. Background image to use when the scrollbar is oriented vertically.
+垂直背景图像。石板刷结构。垂直背景图像：。当滚动条垂直方向时使用的背景图像。
 
-Vertical Top Slot Image: Slate Brush Structure. Vertical Top Slot Image:. The image to use to represent the track above the thumb when the scrollbar is oriented vertically.
+垂直顶槽图像。石板刷结构。垂直顶槽图像：。当滚动条垂直方向时，用来表示拇指上方的轨道的图像。
 
-Horizontal Top Slot Image: Slate Brush Structure. Horizontal Top Slot Image:. The image to use to represent the track above the thumb when the scrollbar is oriented horizontally.
+横向的顶槽图像。石板刷结构。水平顶槽图像：。当滚动条水平方向时，用来表示拇指上方的轨道的图像。
 
-Vertical Bottom Slot Image: Slate Brush Structure. Vertical Bottom Slot Image:. The image to use to represent the track below the thumb when the scrollbar is oriented vertically.
+垂直底槽图像。石板刷结构。垂直底槽图像：。当滚动条垂直方向时，用来表示拇指下面的轨道的图像。
 
-Horizontal Bottom Slot Image: Slate Brush Structure. Horizontal Bottom Slot Image:. The image to use to represent the track below the thumb when the scrollbar is oriented horizontally.
+水平底槽图像。石板刷结构。水平底槽图像：。当滚动条水平方向时，用来表示拇指下面的轨迹的图像。
 
-Normal Thumb Image: Slate Brush Structure. Normal Thumb Image:. Image to use when the scrollbar thumb is in its normal state.
+正常的拇指图像。石板刷结构。正常拇指图像：。当滚动条的拇指处于正常状态时使用的图像。
 
-Hovered Thumb Image: Slate Brush Structure. Hovered Thumb Image:. Image to use when the scrollbar thumb is in its hovered state.
+悬停的拇指图像。石板刷结构。悬停的拇指图像：。当滚动条的拇指处于悬停状态时使用的图像。
 
-Dragged Thumb Image: Slate Brush Structure. Dragged Thumb Image:. Image to use when the scrollbar thumb is in its dragged state.
+拖动的拇指图像。石板刷结构。拖动的拇指图像：。当滚动条的拇指处于拖动状态时使用的图像。
 
-Thickness: Float (single-precision). Thickness.  
+厚度。Float（单精度）。厚度。  
 
 ## Outputs
 
-Scroll Bar Style: Scroll Bar Style Structure.
-
+滚动条风格。滚动条风格结构。

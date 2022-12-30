@@ -1,6 +1,6 @@
 # MakeScrollBoxStyle
 
-Adds a node that create a 'ScrollBoxStyle' from its members
+添加一个节点，从其成员中创建一个 "ScrollBoxStyle"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'ScrollBoxStyle' from its members
 
 ## Inputs
 
-Bar Thickness: Float (single-precision). Bar Thickness.
+棒材厚度。Float（单精度）。条形厚度。
 
-Top Shadow Brush: Slate Brush Structure. Top Shadow Brush:. Brush used to draw the top shadow of a scrollbox.
+顶部的阴影刷。石板刷的结构。顶部阴影画笔：。用于绘制卷轴箱顶部阴影的画笔。
 
-Bottom Shadow Brush: Slate Brush Structure. Bottom Shadow Brush:. Brush used to draw the bottom shadow of a scrollbox.
+底部阴影刷。石板刷的结构。底部阴影画笔：。用于绘制卷轴箱的底部阴影的画笔。
 
-Left Shadow Brush: Slate Brush Structure. Left Shadow Brush:. Brush used to draw the left shadow of a scrollbox.
+左边的阴影画笔。石板画笔结构。左影刷：。用于绘制滚动框的左影的画笔。
 
-Right Shadow Brush: Slate Brush Structure. Right Shadow Brush:. Brush used to draw the right shadow of a scrollbox.  
+右边的阴影刷。石板画笔结构。右影画笔：。用于绘制滚动框的右影的画笔。  
 
 ## Outputs
 
-Scroll Box Style: Scroll Box Style Structure.
-
+卷轴箱风格。卷轴箱式结构。

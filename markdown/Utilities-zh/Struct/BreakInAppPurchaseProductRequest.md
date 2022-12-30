@@ -1,6 +1,6 @@
 # BreakInAppPurchaseProductRequest
 
-Adds a node that breaks a 'InAppPurchaseProductRequest' into its member fields
+添加一个节点，将 "InAppPurchaseProductRequest "分解成其成员字段。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'InAppPurchaseProductRequest' into its member fields
 
 ## Inputs
 
-In App Purchase Product Request: In App Purchase Product Request Structure (by ref).  
+在应用程序中购买产品的请求。应用内购买产品请求结构（按参考）。  
 
 ## Outputs
 
-Product Identifier: String. Product Identifier:. The unique product identifier that matches the one from your targeted store..
+产品标识符。字符串。产品标识符：。与你的目标商店中的唯一产品标识符相匹配。
 
-Is Consumable: Boolean. Is Consumable:. Flag to determine whether this is a consumable purchase, or not..
-
+是可消耗的。布尔型。是消耗品：。标志，以确定这是否是一个消耗品的购买，或不是。

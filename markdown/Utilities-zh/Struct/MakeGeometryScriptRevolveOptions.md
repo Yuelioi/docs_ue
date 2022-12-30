@@ -1,6 +1,6 @@
 # MakeGeometryScriptRevolveOptions
 
-Adds a node that create a 'GeometryScriptRevolveOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptRevolveOptions'。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that create a 'GeometryScriptRevolveOptions' from its members
 
 ## Inputs
 
-Revolve Degrees: Float (single-precision). Revolve Degrees.
+旋转度数。Float（单精度）。旋转度数。
 
-Degree Offset: Float (single-precision). Degree Offset.
+度数偏移。Float（单精度）。程度偏移。
 
-Reverse Direction: Boolean. Reverse Direction.
+反转方向。布尔型。反转方向。
 
-Hard Normals: Boolean. Hard Normals.
+硬规范。布尔型。硬法线。
 
-Hard Normal Angle: Float (single-precision). Hard Normal Angle.
+硬法线角度。Float（单精度）。硬法线角度。
 
-Profile At Midpoint: Boolean. Profile at Midpoint.
+中点轮廓：布尔值。在中点的轮廓。
 
-Fill Partial Revolve Endcaps: Boolean. Fill Partial Revolve Endcaps.  
+填充部分旋转端盖。布尔型。填充部分旋转端盖。  
 
 ## Outputs
 
-Geometry Script Revolve Options: Geometry Script Revolve Options Structure.
-
+Geometry Script Revolve Options:Geometry Script Revolve Options（几何脚本旋转选项）结构。

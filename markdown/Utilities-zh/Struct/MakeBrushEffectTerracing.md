@@ -1,6 +1,6 @@
 # MakeBrushEffectTerracing
 
-Adds a node that create a 'BrushEffectTerracing' from its members
+添加一个节点，从其成员中创建一个 "刷子效果梯度"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'BrushEffectTerracing' from its members
 
 ## Inputs
 
-Terrace Alpha: Float (single-precision). Terrace Alpha.
+Terrace Alpha。Float (single-precision).梯田Alpha。
 
-Terrace Spacing: Float (single-precision). Terrace Spacing.
+台阶间距。Float（单精度）。梯田间距。
 
-Terrace Smoothness: Float (single-precision). Terrace Smoothness.
+露台平滑度。Float（单精度）。梯田平滑度。
 
-Mask Length: Float (single-precision). Mask Length.
+掩码长度。浮点数（单精度）。掩码长度。
 
-Mask Start Offset: Float (single-precision). Mask Start Offset.  
+掩码起始偏移。Float (single-precision).掩码开始偏移。  
 
 ## Outputs
 
-Brush Effect Terracing: Brush Effect Terracing Structure.
-
+刷子效果的梯田。刷子效果的梯田结构。

@@ -1,6 +1,6 @@
 # MakeWaterFalloffSettings
 
-Adds a node that create a 'WaterFalloffSettings' from its members
+添加一个节点，从其成员中创建一个 "WaterFalloffSettings"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'WaterFalloffSettings' from its members
 
 ## Inputs
 
-Falloff Mode: EWaterBrushFalloffMode Enum. Falloff Mode.
+衰减模式: EWaterBrushFalloffMode枚举。褪色模式。
 
-Falloff Angle: Float (single-precision). Falloff Angle.
+滑移角度。Float（单精度）。漂移角度。
 
-Falloff Width: Float (single-precision). Falloff Width.
+漂移宽度：浮点数（单精度）。漂移宽度。
 
-Edge Offset: Float (single-precision). Edge Offset.
+边缘偏移。浮点数（单精度）。边缘偏移。
 
-ZOffset: Float (single-precision). ZOffset.  
+ZOffset。Float（单精度）。ZOffset.  
 
 ## Outputs
 
-Water Falloff Settings: Water Falloff Settings Structure.
-
+水落石出的设置。水的落差设置结构。

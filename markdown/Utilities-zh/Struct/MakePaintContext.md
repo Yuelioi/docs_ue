@@ -1,6 +1,6 @@
 # MakePaintContext
 
-Adds a node that create a 'PaintContext' from its members
+添加一个节点，从其成员中创建一个 "PaintContext"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PaintContext' from its members
 
 ## Outputs
 
-Paint Context: Paint Context Structure.
-
+油漆上下文。油漆上下文结构。

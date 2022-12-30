@@ -1,6 +1,6 @@
 # BreakVPBookmarkViewportData
 
-Adds a node that breaks a 'VPBookmarkViewportData' into its member fields
+添加一个节点，将 "VPBookmarkViewportData "分解成其成员字段。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'VPBookmarkViewportData' into its member fields
 
 ## Inputs
 
-VPBookmark Viewport Data: VPBookmark Viewport Data Structure (by ref).  
+VPBookmark视口数据。VPBookmark视口数据结构（通过参考）。  
 
 ## Outputs
 
-Jump To Offset Location: Vector. Jump to Offset Location.
+跳到偏移位置。向量。跳转到偏移位置。
 
-Look Rotation: Rotator. Look Rotation.
+看旋转。旋转器。看旋转。
 
-Ortho Zoom: Float (single-precision). Ortho Zoom.
+正向缩放。Float（单精度）。正射放大。
 
-Flatten Rotation: Boolean. Flatten Rotation.
-
+扁平化旋转：布尔值。扁平化的旋转。

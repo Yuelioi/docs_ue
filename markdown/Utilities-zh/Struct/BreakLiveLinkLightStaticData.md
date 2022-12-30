@@ -1,6 +1,6 @@
 # BreakLiveLinkLightStaticData
 
-Adds a node that breaks a 'LiveLinkLightStaticData' into its member fields
+添加一个节点，将 "LiveLinkLightStaticData "分解成其成员字段。
 
 ## 图示
 
@@ -8,33 +8,32 @@ Adds a node that breaks a 'LiveLinkLightStaticData' into its member fields
 
 ## Inputs
 
-Live Link Light Static Data: Live Link Light Static Data Structure (by ref).  
+Live Link Light静态数据。Live Link Light静态数据结构（按参考）。  
 
 ## Outputs
 
-Is Temperature Supported: Boolean. Is Temperature Supported:. Whether Temperature can be used in the frame data.
+是否支持温度。布尔型。是否支持温度：。帧数据中是否可以使用温度。
 
-Is Intensity Supported: Boolean. Is Intensity Supported:. Whether Intensity can be used in the frame data.
+是否支持强度。布尔型。是否支持强度：。强度是否可以在帧数据中使用。
 
-Is Light Color Supported: Boolean. Is Light Color Supported:. Whether LightColor can be used in the frame data.
+是否支持光色。布尔型。是否支持光色：。帧数据中是否可以使用LightColor。
 
-Is Inner Cone Angle Supported: Boolean. Is Inner Cone Angle Supported:. Whether InnerConeAngle can be used in the frame data. Only used for spot lights.
+是否支持内锥角。布尔型。是否支持内锥角：。InnerConeAngle是否可以在帧数据中使用。仅用于聚光灯。
 
-Is Outer Cone Angle Supported: Boolean. Is Outer Cone Angle Supported:. Whether OuterConeAngle can be used in the frame data. Only used for spot lights.
+是否支持外锥体角度。布尔型。是否支持外锥角：。OuterConeAngle是否可以在帧数据中使用。仅用于聚光灯。
 
-Is Attenuation Radius Supported: Boolean. Is Attenuation Radius Supported:. Whether AttenuationRadius can be used in the frame data. Only used for spot lights.
+是否支持Attenuation Radius。布尔型。是否支持衰减半径：。衰减半径（AttenuationRadius）是否可以在帧数据中使用。仅用于聚光灯。
 
-Is Source Lenght Supported: Boolean. Is Source Lenght Supported:. Whether SourceLength can be used in the frame data. Only used for spot lights.
+是否支持源长度。布尔型。是否支持Source Lenght：。SourceLength是否可以在帧数据中使用。仅用于聚光灯。
 
-Is Source Radius Supported: Boolean. Is Source Radius Supported:. Whether SourceRadius can be used in the frame data. Only used for spot lights.
+是否支持源半径。布尔型。是否支持源半径：。SourceRadius是否可以在帧数据中使用。只用于聚光灯。
 
-Is Soft Source Radius Supported: Boolean. Is Soft Source Radius Supported:. Whether SoftSourceRadius can be used in the frame data. Only used for spot lights.
+是否支持软源半径。布尔值。是否支持软源半径：。帧数据中是否可以使用SoftSourceRadius。仅用于聚光灯。
 
-Is Location Supported: Boolean. Is Location Supported:. Whether location in frame data should be used.
+位置是否支持。布尔型。是否支持位置：。是否应使用框架数据中的位置。
 
-Is Rotation Supported: Boolean. Is Rotation Supported:. Whether rotation in frame data should be used.
+是否支持旋转。布尔型。是否支持旋转：。是否应使用帧数据中的旋转。
 
-Is Scale Supported: Boolean. Is Scale Supported:. Whether scale in frame data should be used.
+是否支持刻度。布尔型。是否支持比例：。是否应使用框架数据中的比例。
 
-Property Names: Array of Names. Property Names:. Names for each curve values that will be sent for each frame.
-
+属性名称。名称的阵列。属性名称：。将为每一帧发送的每个曲线值的名称。

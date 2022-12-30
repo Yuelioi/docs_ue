@@ -1,6 +1,6 @@
 # BreakVPBookmarkCreationContext
 
-Adds a node that breaks a 'VPBookmarkCreationContext' into its member fields
+添加一个节点，将'VPBookmarkCreationContext'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'VPBookmarkCreationContext' into its member fields
 
 ## Inputs
 
-VPBookmark Creation Context: VPBookmark Creation Context Structure (by ref).  
+VPBookmark创建上下文。VPBookmark创建上下文结构（通过参考）。  
 
 ## Outputs
 
-Concert Creator: String. Concert Creator:. Username of the Concert client who is creating this bookmark..
+音乐会的创造者。弦乐。Concert Creator:.创建此书签的Concert客户端的用户名...
 
-Category Name: Name. Category Name:. Category of the Bookmark.
+类别名称。名称。类别名称:.书签的类别。
 
-Display Name: String. Display Name:. Name of the Bookmark.
-
+显示名称。字符串。显示名称：。书签的名称。

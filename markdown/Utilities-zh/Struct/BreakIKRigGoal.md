@@ -1,6 +1,6 @@
 # BreakIKRigGoal
 
-Adds a node that breaks a 'IKRigGoal' into its member fields
+添加一个打破'IKRigGoal'的节点到其成员字段中
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that breaks a 'IKRigGoal' into its member fields
 
 ## Inputs
 
-IKRig Goal: IKRig Goal Structure (by ref).  
+IKRig目标：IKRig目标结构（由裁判）。  
 
 ## Outputs
 
-Name: Name. Name:. Name of the IK Goal. Must correspond to the name of a Goal in the target IKRig asset..
+姓名。姓名：。名称：。IK目标的名称。必须与目标IKRig资产中的目标名称相对应。
 
-Transform Source: EIKRigGoalTransformSource Enum. Transform Source:. Set the source of the transform data for the Goal.. "Manual Input" uses the values provided by the blueprint node pin.. "Bone" uses the transform of the bone provided by OptionalSourceBone.. "Actor Component" uses the transform supplied by any Actor Components that implements the IIKGoalCreatorInterface.
+变换源。EIKRigGoalTransformSource Enum.变换源:.设置目标的变换数据的来源。"手动输入 "使用蓝图节点针提供的值。"Bone"（骨骼）使用OptionalSourceBone提供的骨骼的变换。"演员组件 "使用实现IIKGoalCreatorInterface的任何演员组件所提供的变换。
 
-Position: Vector. Position:. Position of the IK goal in Component Space of target actor component..
+位置。矢量。位置：。IK目标在目标角色组件空间中的位置。
 
-Rotation: Rotator. Rotation:. Rotation of the IK goal in Component Space of target actor component..
+旋转。旋转器。旋转：。目标演员组件在组件空间中的IK目标的旋转。
 
-Position Alpha: Float (single-precision). Position Alpha:. Range 0-1, default is 1.0. Smoothly blends the Goal position from the input pose (0.0) to the Goal position (1.0)..
+位置Alpha。Float（单精度）。位置Alpha:。范围为0-1，默认为1.0。将目标位置从输入姿势（0.0）平滑地混合到目标位置（1.0）。
 
-Rotation Alpha: Float (single-precision). Rotation Alpha:. Range 0-1, default is 1.0. Smoothly blends the Goal rotation from the input pose (0.0) to the Goal rotation (1.0)..
+旋转Alpha。Float（单精度）。旋转Alpha:。范围为0-1，默认为1.0。将目标旋转从输入姿势（0.0）平滑地混合到目标旋转（1.0）。
 
-Position Space: EIKRigGoalSpace Enum. Position Space:. The space that the goal position is in.. "Additive" treats the goal transform as an additive offset relative to the Bone at the effector.. "Component" treats the goal transform as being in the space of the Skeletal Mesh Actor Component.. "World" treats the goal transform as being in the space of the World..
+位置空间。EIKRigGoalSpace Enum.位置空间：。目标位置所处的空间。"Additive"（加法）将目标变换视为相对于效应器处的Bone的加法偏移。"Component"（组件）将目标变换视为在骨骼网格演员组件的空间中。"世界 "将目标变换视为在世界的空间中。
 
-Rotation Space: EIKRigGoalSpace Enum. Rotation Space:. The space that the goal rotation is in.. "Additive" treats the goal transform as an additive offset relative to the Bone at the effector.. "Component" treats the goal transform as being in the space of the Skeletal Mesh Actor Component.. "World" treats the goal transform as being in the space of the World..
-
+旋转空间。EIKRigGoalSpace Enum.旋转空间：。目标旋转所处的空间。"Additive"（加法）将目标变换视为相对于效应器的骨骼的加法偏移。"组件 "将目标变换视为在骨骼网格演员组件的空间中。"世界 "将目标变换视为在世界的空间中。

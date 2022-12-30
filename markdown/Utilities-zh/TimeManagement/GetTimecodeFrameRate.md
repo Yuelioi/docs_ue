@@ -1,8 +1,8 @@
 # GetTimecodeFrameRate
 
-Gets the current timecode frame rate.
+获取当前时间码的帧率。
 
-Target is Time Management Blueprint Library
+目标是时间管理蓝图库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Time Management Blueprint Library
 
 ## Outputs
 
-Return Value: Frame Rate Structure. Gets the current timecode frame rate..
-
+返回值。帧速率结构。获取当前时间码的帧速率。

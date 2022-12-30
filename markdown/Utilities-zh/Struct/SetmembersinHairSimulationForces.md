@@ -1,6 +1,6 @@
 # SetmembersinHairSimulationForces
 
-Adds a node that modifies a 'HairSimulationForces'
+添加一个修改 "HairSimulationForces "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'HairSimulationForces'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Hair Simulation Forces Structure (by ref).  
+结构参考：头发模拟力结构（由参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Hair Simulation Forces Structure (by ref). Reference to the input struct.
-
+Struct Out: Hair Simulation Forces Structure (by ref).对输入结构的引用。

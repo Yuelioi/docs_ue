@@ -1,6 +1,6 @@
 # BreakGeometryScriptMeshBevelOpti-
 
-Adds a node that breaks a 'GeometryScriptMeshBevelOptions' into its member fields
+添加一个节点，将'GeometryScriptMeshBevelOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'GeometryScriptMeshBevelOptions' into its member field
 
 ## Inputs
 
-Geometry Script Mesh Bevel Options: Geometry Script Mesh Bevel Options Structure (by ref).  
+Geometry Script Mesh Bevel Options:Geometry Script Mesh Bevel Options结构（按参考）。  
 
 ## Outputs
 
-Bevel Distance: Float (single-precision). Bevel Distance.
+坡口距离。Float（单精度）。坡口距离。
 
-Infer Material ID: Boolean. Infer Material ID.
+推断材料ID：布尔值。推断材料ID。
 
-Set Material ID: Integer. Set Material ID.
+设置材料ID：整数。设置材料ID。
 
-Apply Filter Box: Boolean. Apply Filter Box:. If true the set of beveled polygroup edges is limited to those that. are fully or partially contained within the (transformed) FilterBox.
+应用过滤框。Boolean.应用滤镜盒：。如果为真，则斜面聚组边缘的集合仅限于那些完全或部分包含在（转换后的）FilterBox中的边缘。
 
-Filter Box: Box Structure. Filter Box:. Bounding Box used for edge filtering.
+过滤盒。箱体结构。滤波盒：。用于边缘过滤的包围盒。
 
-Filter Box Transform: Transform. Filter Box Transform:. Transform applied to the FilterBox.
+滤镜盒 变形。变形。滤镜盒变换：。应用于FilterBox的变换。
 
-Fully Contained: Boolean. Fully Contained:. If true, then only polygroup edges that are fully contained within the filter box will be beveled,. otherwise the edge will be beveled if any vertex is within the filter box..
-
+完全包含。布尔型。完全包含：。如果为真，那么只有完全包含在过滤盒内的多组边缘将被倒角，。否则，如果任何顶点在过滤盒内，边缘将被倒角。

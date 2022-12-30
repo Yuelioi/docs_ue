@@ -1,6 +1,6 @@
 # MakeDisplayClust-_10
 
-Adds a node that create a 'DisplayClusterConfigurationICVFX_LightcardRenderSettings' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationICVFX_LightcardRenderSettings"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'DisplayClusterConfigurationICVFX_LightcardRenderSetti
 
 ## Inputs
 
-Replace Viewport: Boolean. Replace Viewport:. override the texture of the target viewport from this lightcard RTT.
+替换视口。布尔值。替换视口：.覆盖此光卡RTT的目标视口的纹理。
 
-Replace: Display Cluster Configuration Post Render Override Structure. Replace:. Override viewport render from source texture.
+替换。显示集群配置后渲染覆盖结构。取代:.覆盖来自源纹理的视口渲染。
 
-Generate Mips: Display Cluster Configuration Post Render Generate Mips Structure. Generate Mips.
+生成Mips。显示集群配置 渲染后生成Mips结构。生成Mips。
 
-Advanced Render Settings: Display Cluster Configuration ICVFX Overlay Advanced Render Settings Structure. Advanced Render Settings:. Advanced render settings.  
+高级渲染设置。显示集群配置 ICVFX叠加高级渲染设置结构。高级渲染设置：.高级渲染设置。  
 
 ## Outputs
 
-Display Cluster Configuration ICVFX Lightcard Render Settings: Display Cluster Configuration ICVFX Lightcard Render Settings Structure.
-
+显示集群配置ICVFX光卡的渲染设置。Display Cluster Configuration ICVFX Lightcard Render Settings Structure.

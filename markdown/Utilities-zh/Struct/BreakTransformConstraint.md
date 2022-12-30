@@ -1,6 +1,6 @@
 # BreakTransformConstraint
 
-Adds a node that breaks a 'TransformConstraint' into its member fields
+添加一个打破'TransformConstraint'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'TransformConstraint' into its member fields
 
 ## Inputs
 
-Transform Constraint: Transform Constraint Structure (by ref).  
+转化约束。变换约束结构（通过参考）。  
 
 ## Outputs
 
-Operator: Constraint Description Structure. Operator:. @note thought of separating this out per each but we'll have an issue with applying transform in what order. but something to think about if that seems better.
+操作员。约束描述结构。操作员：。@注意：我们想把每个人都分开，但我们会有一个问题，即以什么顺序应用转换。但如果这看起来更好，可以考虑一下。
 
-Source Node: Name. Source Node.
+源节点。名称。源节点。
 
-Target Node: Name. Target Node.
+目标节点。名称。目标节点。
 
-Weight: Float (single-precision). Weight.
+重量。Float（单精度）。重量。
 
-Maintain Offset: Boolean. Maintain Offset:. When the constraint is first applied, maintain the offset from the target node.
-
+保持偏移。Boolean.保持偏移量：。当约束第一次应用时，保持与目标节点的偏移。

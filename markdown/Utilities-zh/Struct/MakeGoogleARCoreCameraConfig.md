@@ -1,6 +1,6 @@
 # MakeGoogleARCoreCameraConfig
 
-Adds a node that create a 'GoogleARCoreCameraConfig' from its members
+添加一个节点，从其成员中创建一个 "GoogleARCoreCameraConfig"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GoogleARCoreCameraConfig' from its members
 
 ## Outputs
 
-Google ARCore Camera Config: Google ARCore Camera Config Structure.
-
+谷歌ARCore相机配置。谷歌ARCore相机配置结构。

@@ -1,6 +1,6 @@
 # BreakLiveLinkMetaData
 
-Adds a node that breaks a 'LiveLinkMetaData' into its member fields
+添加一个节点，将 "LiveLinkMetaData "分解成其成员字段。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'LiveLinkMetaData' into its member fields
 
 ## Inputs
 
-Live Link Meta Data: Live Link Meta Data Structure (by ref).  
+现场链接元数据。现场链接元数据结构（按参考）。  
 
 ## Outputs
 
-String Meta Data: Map of Names to Strings. String Meta Data.
+字符串元数据。名称到字符串的映射。字符串元数据。
 
-Scene Time: Qualified Frame Time Structure. Scene Time.
-
+场景时间。合格的框架时间结构。场景时间。

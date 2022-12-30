@@ -1,6 +1,6 @@
 # MakeCommonInputActionHandlerData
 
-Adds a node that create a 'CommonInputActionHandlerData' from its members
+添加一个节点，从其成员中创建一个 "CommonInputActionHandlerData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CommonInputActionHandlerData' from its members
 
 ## Outputs
 
-Common Input Action Handler Data: Common Input Action Handler Data Structure.
-
+常见的输入动作处理程序数据。通用输入动作处理程序数据结构。

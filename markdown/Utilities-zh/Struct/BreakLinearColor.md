@@ -1,6 +1,6 @@
 # BreakLinearColor
 
-Adds a node that breaks a 'LinearColor' into its member fields
+添加一个节点，将'LinearColor'分解为其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'LinearColor' into its member fields
 
 ## Inputs
 
-Linear Color: Linear Color Structure (by ref).  
+线性色彩：线性色彩结构（通过参考）。  
 
 ## Outputs
 
-R: Float (single-precision). R.
+R：浮点数（单精度）。R.
 
-G: Float (single-precision). G.
+G：浮点数（单精度）。G.
 
-B: Float (single-precision). B.
+B：浮点数（单精度）。B.
 
-A: Float (single-precision). A.
-
+A: 浮点数(单精度)。A.

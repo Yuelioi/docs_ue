@@ -1,6 +1,6 @@
 # BreakGeometryScriptMeshWriteLOD
 
-Adds a node that breaks a 'GeometryScriptMeshWriteLOD' into its member fields
+在其成员字段中添加一个打破'GeometryScriptMeshWriteLOD'的节点
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'GeometryScriptMeshWriteLOD' into its member fields
 
 ## Inputs
 
-Geometry Script Mesh Write LOD: Geometry Script Mesh Write LOD Structure (by ref).  
+Geometry Script Mesh Write LOD: 几何图形脚本的网格写入LOD结构（通过参考）。  
 
 ## Outputs
 
-Write Hi Res Source: Boolean. Write Hi Res Source.
+写入高清晰度源。Boolean.写入高清晰度源。
 
-LODIndex: Integer. LODIndex.
-
+LODIndex。整数。LODIndex.

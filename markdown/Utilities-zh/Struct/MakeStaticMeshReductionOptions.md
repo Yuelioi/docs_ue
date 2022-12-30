@@ -1,6 +1,6 @@
 # MakeStaticMeshReductionOptions
 
-Adds a node that create a 'StaticMeshReductionOptions' from its members
+添加一个节点，从其成员中创建一个 "静态网格缩减选项"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'StaticMeshReductionOptions' from its members
 
 ## Inputs
 
-Auto Compute LODScreen Size: Boolean. Auto Compute LODScreen Size:. If true, the screen sizes at which LODs swap are computed automatically. @note that this is displayed as 'Auto Compute LOD Distances' in the UI.
+自动计算LODScreen大小。布尔值。Auto Compute LODScreen Size（自动计算LOD屏幕尺寸）：。如果为真，自动计算LODs交换的屏幕尺寸。注意，这在用户界面中会显示为 "自动计算LOD距离"。
 
-Reduction Settings: Array of Static Mesh Reduction Settings Structures. Reduction Settings:. Array of reduction settings to apply to each new LOD mesh..  
+缩减设置。静态网格缩减设置结构的阵列。缩减设置：。应用于每个新LOD网格的缩减设置数组。
 
 ## Outputs
 
-Static Mesh Reduction Options: Static Mesh Reduction Options Structure.
-
+静态网格缩减选项。静态网格缩减选项结构。

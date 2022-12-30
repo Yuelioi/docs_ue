@@ -1,6 +1,6 @@
 # SetmembersinTransformFilter
 
-Adds a node that modifies a 'TransformFilter'
+添加一个修改 "TransformFilter "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TransformFilter'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Transform Filter Structure (by ref).  
+Struct Ref: 变换过滤器结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Transform Filter Structure (by ref). Reference to the input struct.
-
+结构出来。变换过滤器结构（通过引用）。对输入结构的引用。

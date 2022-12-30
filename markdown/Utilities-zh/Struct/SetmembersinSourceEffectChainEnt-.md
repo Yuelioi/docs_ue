@@ -1,6 +1,6 @@
 # SetmembersinSourceEffectChainEnt-
 
-Adds a node that modifies a 'SourceEffectChainEntry'
+添加一个修改 "SourceEffectChainEntry "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SourceEffectChainEntry'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Source Effect Chain Entry Structure (by ref).  
+结构参考：源效应链条目结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Source Effect Chain Entry Structure (by ref). Reference to the input struct.
-
+结构出来。源效果链入口结构（通过引用）。对输入结构的引用。

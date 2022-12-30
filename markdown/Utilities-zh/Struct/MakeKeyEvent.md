@@ -1,6 +1,6 @@
 # MakeKeyEvent
 
-Adds a node that create a 'KeyEvent' from its members
+添加一个节点，从其成员中创建一个 "KeyEvent"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'KeyEvent' from its members
 
 ## Outputs
 
-Key Event: Key Event Structure.
-
+关键事件。关键事件结构。

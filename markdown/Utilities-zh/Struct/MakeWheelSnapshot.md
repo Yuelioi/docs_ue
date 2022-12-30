@@ -1,6 +1,6 @@
 # MakeWheelSnapshot
 
-Adds a node that create a 'WheelSnapshot' from its members
+添加一个节点，从其成员中创建一个 "WheelSnapshot"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'WheelSnapshot' from its members
 
 ## Outputs
 
-Wheel Snapshot: Wheel Snapshot Structure.
-
+车轮快照。车轮快照结构。

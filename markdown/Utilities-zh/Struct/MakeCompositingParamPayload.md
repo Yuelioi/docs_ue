@@ -1,6 +1,6 @@
 # MakeCompositingParamPayload
 
-Adds a node that create a 'CompositingParamPayload' from its members
+添加一个节点，从其成员中创建一个 "CompositingParamPayload"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CompositingParamPayload' from its members
 
 ## Outputs
 
-Compositing Param Payload: Compositing Param Payload Structure.
-
+合成参数的有效载荷。Compositing Param Payload Structure.

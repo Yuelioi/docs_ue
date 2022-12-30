@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationV-_1
 
-Adds a node that create a 'DisplayClusterConfigurationViewport_Overscan' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationViewport_Overscan"。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that create a 'DisplayClusterConfigurationViewport_Overscan' from it
 
 ## Inputs
 
-Enable: Boolean. Enabled:. Enable/disable Viewport Overscan and specify units as percent or pixel values..
+启用。布尔值。启用：。启用/禁用视口过扫描，指定单位为百分比或像素值。
 
-Mode: EDisplayClusterConfigurationViewportOverscanMode Enum. Mode:. Enable/disable Viewport Overscan and specify units as percent or pixel values..
+模式。EDisplayClusterConfigurationViewportOverscanMode枚举。模式:.启用/禁用视口过扫描并指定单位为百分比或像素值。
 
-Left: Float (single-precision). Left:. Left.
+左边：浮点数（单精度）。左：。左边。
 
-Right: Float (single-precision). Right:. Right.
+对。Float（单精度）。右图：。右边：。
 
-Top: Float (single-precision). Top:. Top.
+Top: Float (single-precision).Top:.顶部。
 
-Bottom: Float (single-precision). Bottom:. Bottom.
+底部。Float（单精度）。底部：。底部。
 
-Adapt Resolution: Boolean. Oversize:. Set to True to render at the overscan resolution, set to false to render at the resolution in the configuration and scale for overscan..  
+适应分辨率。布尔型。Oversize:.设置为 "True "可按过扫描分辨率渲染，设置为 "False "可按配置中的分辨率渲染，并对过扫描进行缩放。
 
 ## Outputs
 
-Display Cluster Configuration Viewport Overscan: Display Cluster Configuration Viewport Overscan Structure.
-
+显示群集配置视口过扫描。显示群组配置视口过扫描结构。

@@ -1,6 +1,6 @@
 # BreakSubmixEffectOculusAmbisonic-
 
-Adds a node that breaks a 'SubmixEffectOculusAmbisonicSpatializerSettings' into its member fields
+添加一个打破'SubmixEffectOculusAmbisonicSpatializerSettings'的节点到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'SubmixEffectOculusAmbisonicSpatializerSettings' into 
 
 ## Inputs
 
-Submix Effect Oculus Ambisonic Spatializer Settings: Submix Effect Oculus Ambisonic Spatializer Settings Structure (by ref).  
+Submix Effect Oculus Ambisonic Spatializer设置。Submix Effect Oculus Ambisonic Spatializer设置结构（按参考）。  
 
 ## Outputs
 
-Ambisonic Mode: EOculusAudioAmbisonicsMode Enum. Ambisonic Mode:. Ambisonic spatialization mode.
-
+Ambisonic模式。EOculusAudioAmbisonicsMode Enum.Ambisonic Mode:.Ambisonic空间化模式。

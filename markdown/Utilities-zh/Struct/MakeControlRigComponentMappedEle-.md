@@ -1,6 +1,6 @@
 # MakeControlRigComponentMappedEle-
 
-Adds a node that create a 'ControlRigComponentMappedElement' from its members
+添加一个节点，从其成员中创建一个 "ControlRigComponentMappedElement"。
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that create a 'ControlRigComponentMappedElement' from its members
 
 ## Inputs
 
-Component Reference: Component Reference Structure. Component Reference:. The component to map to the Control Rig.
+元素参考。组件参考结构。组件参考：。要映射到控制装置的组件。
 
-Transform Index: Integer. Transform Index:. An optional index that can be used with components. with multiple transforms (for example the InstancedStaticMechComponent).
+转化指数。整数。变换索引：。一个可选的索引，可以与组件一起使用。有多个变换（例如，InstancedStaticMechComponent）。
 
-Transform Name: Name. Transform Name:. An optional name that can be used with components. that have sockets (for example the SkeletalMeshComponent).
+改造名称。名称。变形名称：。一个可选择的名称，可与组件一起使用。有插座的（例如SkeletalMeshComponent）。
 
-Element Type: ERigElementType Enum. Element Type:. The type of element this is mapped to.
+元素类型。ERigElementType枚举。元素类型：。这个元素的类型被映射到。
 
-Element Name: Name. Element Name:. The name of the element to map to.
+元素名称。名称。元素名称：。要映射到的元素的名称。
 
-Direction: EControlRigComponentMapDirection Enum. Direction:. The direction (input / output) to be used for mapping an element.
+方向。EControlRigComponentMapDirection Enum.方向：。用于映射元素的方向（输入/输出）。
 
-Offset: Transform. Offset:. The offset transform to apply.
+偏移。变换。偏移：。要应用的偏移变换。
 
-Weight: Float (single-precision). Weight:. defines how much the mapped element should be driven.
+重量。Float（单精度）。Weight:.定义了映射的元素应该被驱动的程度。
 
-Space: EControlRigComponentSpace Enum. Space:. space in which the mapping happens.  
+空间。EControlRigComponentSpace枚举。空间：.发生映射的空间。  
 
 ## Outputs
 
-Control Rig Component Mapped Element: Mapped Element Structure.
-
+控制钻机组件映射的元素。映射的元素结构。

@@ -1,6 +1,6 @@
 # SetmembersinFloatInterval
 
-Adds a node that modifies a 'FloatInterval'
+添加一个修改 "FloatInterval "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'FloatInterval'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Float Interval Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Float Interval Structure (by ref). Reference to the input struct.
-
+结构出来。Float Interval Structure（通过ref）。对输入结构的引用。

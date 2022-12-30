@@ -1,6 +1,6 @@
 # MakeAbcConversionSettings
 
-Adds a node that create a 'AbcConversionSettings' from its members
+添加一个节点，从其成员中创建一个'AbcConversionSettings'。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'AbcConversionSettings' from its members
 
 ## Inputs
 
-Preset: EAbcConversionPreset Enum. Preset:. Currently preset that should be applied.
+预设。EAbcConversionPreset Enum.预设：。目前应该应用的预设。
 
-Flip U: Boolean. Flip U:. Flag whether or not to flip the U channel in the Texture Coordinates.
+翻转U：布尔值。翻转U：。标记是否翻转纹理坐标中的U通道。
 
-Flip V: Boolean. Flip V:. Flag whether or not to flip the V channel in the Texture Coordinates.
+翻转V：布尔值。翻转V：。标记是否翻转纹理坐标中的V通道。
 
-Scale: Vector. Scale:. Scale value that should be applied.
+规模。矢量。规模：。应该应用的刻度值。
 
-Rotation: Vector. Rotation:. Rotation in Euler angles that should be applied.  
+旋转。矢量。旋转：。应该应用的欧拉角的旋转。  
 
 ## Outputs
 
-Abc Conversion Settings: Abc Conversion Settings Structure.
-
+Abc转换设置。Abc转换设置结构。

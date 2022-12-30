@@ -1,6 +1,6 @@
 # MakeInt32RangeBound
 
-Adds a node that create a 'Int32RangeBound' from its members
+添加一个节点，从其成员中创建一个'Int32RangeBound'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'Int32RangeBound' from its members
 
 ## Inputs
 
-Type: ERangeBoundTypes Enum. Type:. Holds the type of the bound..
+类型。ERangeBoundTypes Enum。类型:.保存绑定的类型。
 
-Value: Integer. Value:. Holds the bound's value..  
+值。整数。值:.保存边界的值。
 
 ## Outputs
 
-Int 32Range Bound: Int 32Range Bound Structure.
-
+Int 32Range Bound:Int 32Range Bound结构。

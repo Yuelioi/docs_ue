@@ -1,6 +1,6 @@
 # MakeStateTreeStateStatus
 
-Adds a node that create a 'StateTreeStateStatus' from its members
+添加一个节点，从其成员中创建一个 "StateTreeStateStatus"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'StateTreeStateStatus' from its members
 
 ## Outputs
 
-State Tree State Status: State Tree State Status Structure.
-
+状态树状态。状态树状态结构。

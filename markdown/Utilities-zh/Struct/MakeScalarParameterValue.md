@@ -1,6 +1,6 @@
 # MakeScalarParameterValue
 
-Adds a node that create a 'ScalarParameterValue' from its members
+添加一个节点，从其成员中创建一个 "ScalarParameterValue"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ScalarParameterValue' from its members
 
 ## Inputs
 
-Parameter Info: Material Parameter Info Structure. Parameter Info.
+参数信息：材料参数信息结构。参数信息。
 
-Parameter Value: Float (single-precision). Parameter Value.  
+参数值。Float (single-precision).参数值。  
 
 ## Outputs
 
-Scalar Parameter Value: Scalar Parameter Value Structure.
-
+标量参数值。标量参数值结构。

@@ -1,6 +1,6 @@
 # MakeInterpCurvePointQuat
 
-Adds a node that create a 'InterpCurvePointQuat' from its members
+添加一个节点，从其成员中创建一个 "InterpCurvePointQuat"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'InterpCurvePointQuat' from its members
 
 ## Inputs
 
-In Val: Float (single-precision). In Val:. Float input value that corresponds to this key (eg. time)..
+在Val中：Float（单精度）。In Val:.与此键对应的浮动输入值（例如：时间）。
 
-Out Val: Quat Structure. Out Val:. Quaternion output value of when input is equal to InVal..
+Out Val: Quat Structure.Out Val:.当输入等于InVal.时，四元数的输出值。
 
-Arrive Tangent: Quat Structure. Arrive Tangent:. Tangent of curve arriving at this point..
+抵达唐山。Quat结构。到达正切：。曲线到达此点的正切。
 
-Leave Tangent: Quat Structure. Leave Tangent:. Tangent of curve leaving this point..
+离开唐山。Quat结构。离开切线：。离开此点的曲线的切线。
 
-Interp Mode: EInterpCurveMode Enum. Interp Mode:. Interpolation mode between this point and the next one..  
+Interp模式。EInterpCurveMode Enum.Interp Mode:.这个点和下一个点之间的插值模式。  
 
 ## Outputs
 
-Interp Curve Point Quat: Interp Curve Point Quat Structure.
-
+Interp 曲线点 Quat:Interp Curve Point Quat结构。

@@ -1,6 +1,6 @@
 # MakeCheckBoxStyle
 
-Adds a node that create a 'CheckBoxStyle' from its members
+添加一个节点，从其成员中创建一个 "CheckBoxStyle"。
 
 ## 图示
 
@@ -8,57 +8,56 @@ Adds a node that create a 'CheckBoxStyle' from its members
 
 ## Inputs
 
-Check Box Type: ESlateCheckBoxType Enum. Check Box Type:. The visual type of the checkbox.
+检查框类型。ESlateCheckBoxType枚举。复选框类型：。复选框的视觉类型。
 
-Unchecked Image: Slate Brush Structure. Unchecked Image:. CheckBox appearance when the CheckBox is unchecked (normal).
+未被选中的图像。石板刷结构。未勾选的图像：。当复选框未被选中时的复选框外观（正常）。
 
-Unchecked Hovered Image: Slate Brush Structure. Unchecked Hovered Image:. CheckBox appearance when the CheckBox is unchecked and hovered.
+未被选中的悬停图像。石板刷结构。未勾选的悬停图像：。当复选框未被选中并悬停时，复选框的外观。
 
-Unchecked Pressed Image: Slate Brush Structure. Unchecked Pressed Image:. CheckBox appearance when the CheckBox is unchecked and hovered.
+未经检查的压制图像。石板刷结构。未勾选的按下的图像：。当复选框未被选中时，复选框的外观被悬停。
 
-Checked Image: Slate Brush Structure. Checked Image:. CheckBox appearance when the CheckBox is checked.
+检查的图像。石板刷结构。勾选的图像：。复选框被选中时的复选框外观。
 
-Checked Hovered Image: Slate Brush Structure. Checked Hovered Image:. CheckBox appearance when checked and hovered.
+被检查的悬停图像。石板刷结构。被选中的悬停图像：。勾选和悬停时的复选框外观。
 
-Checked Pressed Image: Slate Brush Structure. Checked Pressed Image:. CheckBox appearance when checked and pressed.
+格纹压制的图像。石板刷结构。勾选按压的图像：。勾选和按下时的复选框外观。
 
-Undetermined Image: Slate Brush Structure. Undetermined Image:. CheckBox appearance when the CheckBox is undetermined.
+未确定的图像。石板刷结构。未确定的图像：。CheckBox未确定时的CheckBox外观。
 
-Undetermined Hovered Image: Slate Brush Structure. Undetermined Hovered Image:. CheckBox appearance when CheckBox is undetermined and hovered.
+未确定的悬停图像。石板刷结构。未确定的悬停图像：。CheckBox的外观，当CheckBox是未确定的和悬停的。
 
-Undetermined Pressed Image: Slate Brush Structure. Undetermined Pressed Image:. CheckBox appearance when CheckBox is undetermined and pressed.
+未确定的压制图像。石板刷结构。未确定的压制图像：。CheckBox的外观，当CheckBox未确定并按下时。
 
-Padding: Margin Structure. Padding:. Padding.
+填充。保证金结构。Padding:.填充。
 
-Background Image: Slate Brush Structure. Background Image:. Background appearance.
+背景图片。石板刷结构。背景图片:.背景外观.
 
-Background Hovered Image: Slate Brush Structure. Background Hovered Image:. Background appearance when hovered.
+背景悬停的图像。石板刷结构。悬停的背景图像：。悬停时的背景外观。
 
-Background Pressed Image: Slate Brush Structure. Background Pressed Image:. Background appearance when pressed.
+背景压制的图像。石板刷结构.背景压制的图像: 。按压时的背景外观。
 
-Foreground Color: Slate Color Structure. Foreground Color:. The normal unchecked foreground color.
+前景色：板岩色结构。前景色：。正常的未被选中的前景颜色。
 
-Hovered Foreground: Slate Color Structure. Hovered Foreground:. Foreground Color when hovered.
+悬停的前景。石板色的结构。悬停的前景：。悬停时的前景颜色。
 
-Pressed Foreground: Slate Color Structure. Pressed Foreground:. Foreground Color when pressed.
+压制的前景。板岩颜色结构。按压的前景：。按压时的前景颜色。
 
-Checked Foreground: Slate Color Structure. Checked Foreground:. Foreground Color when checked.
+核对的前景。石板色的结构。勾选后的前景：。检查时的前景颜色。
 
-Checked Hovered Foreground: Slate Color Structure. Checked Hovered Foreground:. Foreground Color when checked and pressed.
+检查悬停的前景。石板色的结构。勾选悬停的前景：。检查并按下时的前景颜色。
 
-Checked Pressed Foreground: Slate Color Structure. Checked Pressed Foreground:. Foreground Color when checked and pressed.
+格纹压制的前景。石板色结构.Checked Pressed Foreground:.检查和按下时的前景颜色。
 
-Undetermined Foreground: Slate Color Structure. Undetermined Foreground:. Foreground Color when the check state is indeterminate.
+未确定的前景。板岩颜色结构。未确定的前景：。检查状态不确定时的前景颜色。
 
-Border Background Color: Slate Color Structure. Border Background Color:. BorderBackgroundColor refers to the actual color and opacity of the supplied border image on toggle buttons.
+边框背景颜色: 石板色结构.边框背景色：。BorderBackgroundColor指的是在切换按钮上提供的边界图像的实际颜色和不透明度。
 
-Checked Sound: Slate Sound Structure. Checked Slate Sound:. The sound the check box should play when checked.
+检查过的声音。石板的声音结构。被选中的石板声音：。选中复选框时应播放的声音。
 
-Unchecked Sound: Slate Sound Structure. Unchecked Slate Sound:. The sound the check box should play when unchecked.
+未经检查的声音。石板的声音结构。未勾选的石板声音：。复选框在未被选中时应播放的声音。
 
-Hovered Sound: Slate Sound Structure. Hovered Slate Sound:. The sound the check box should play when initially hovered over.  
+悬浮的声音。石板的声音结构。悬停的石板声音：。复选框在最初被悬停时应播放的声音。  
 
 ## Outputs
 
-Check Box Style: Check Box Style Structure.
-
+复选框样式。复选框风格结构。

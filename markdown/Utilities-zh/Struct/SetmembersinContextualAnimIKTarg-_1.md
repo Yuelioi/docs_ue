@@ -1,6 +1,6 @@
 # SetmembersinContextualAnimIKTarg-_1
 
-Adds a node that modifies a 'ContextualAnimIKTargetBoneParams'
+添加一个修改 "ContextualAnimIKTargetBoneParams "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ContextualAnimIKTargetBoneParams'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Contextual Anim IKTarget Bone Params Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Contextual Anim IKTarget Bone Params Structure (by ref). Reference to the input struct.
-
+结构出来。Contextual Anim IKTarget Bone Params结构（通过ref）。对输入结构的引用。

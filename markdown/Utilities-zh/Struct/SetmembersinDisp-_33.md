@@ -1,6 +1,6 @@
 # SetmembersinDisp-_33
 
-Adds a node that modifies a 'DisplayClusterConfigurationViewport_ColorGradingWhiteBalanceSettings'
+添加一个节点，修改 "DisplayClusterConfigurationViewport_ColorGradingWhiteBalanceSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DisplayClusterConfigurationViewport_ColorGradingWhi
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Display Cluster Configuration Viewport Color Grading White Balance Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Display Cluster Configuration Viewport Color Grading White Balance Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Display Cluster Configuration Viewport Color Grading White Balance Settings Structure（通过参考）。对输入结构的引用。

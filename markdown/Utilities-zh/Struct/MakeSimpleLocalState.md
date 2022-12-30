@@ -1,6 +1,6 @@
 # MakeSimpleLocalState
 
-Adds a node that create a 'SimpleLocalState' from its members
+添加一个节点，从其成员中创建一个 "SimpleLocalState"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SimpleLocalState' from its members
 
 ## Outputs
 
-Simple Local State: Simple Local State Structure.
-
+简单的本地状态。简单的本地状态结构。

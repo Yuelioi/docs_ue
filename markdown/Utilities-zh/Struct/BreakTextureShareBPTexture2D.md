@@ -1,6 +1,6 @@
 # BreakTextureShareBPTexture2D
 
-Adds a node that breaks a 'TextureShareBPTexture2D' into its member fields
+添加一个节点，将'TextureShareBPTexture2D'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'TextureShareBPTexture2D' into its member fields
 
 ## Inputs
 
-Texture Share BPTexture 2D: Texture Share BPTexture 2D Structure (by ref).  
+纹理共享BPTexture 2D：纹理共享BPTexture 2D结构（通过参考）。  
 
 ## Outputs
 
-Id: String. Id:. Texture unique name.
+同上。字符串。Id:.纹理的唯一名称。
 
-RTT: Texture Render Target 2D Object Reference. RTT:. Texture source or target (optional).
+RTT: 纹理渲染目标2D对象参考。RTT:.纹理源或目标（可选）。
 
-Texture: Texture 2D Object Reference. Texture:. Texture source (optional).
-
+纹理。纹理2D对象参考。纹理：。纹理来源（可选）。

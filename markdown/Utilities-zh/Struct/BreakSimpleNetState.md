@@ -1,6 +1,6 @@
 # BreakSimpleNetState
 
-Adds a node that breaks a 'SimpleNetState' into its member fields
+添加一个节点，将'SimpleNetState'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'SimpleNetState' into its member fields
 
 ## Inputs
 
-Simple Net State: Simple Net State Structure (by ref).  
+简单的网状状态。简单网状结构（由参考）。  
 
 ## Outputs
 
-Button Pressed Counter: Integer. Button Pressed Counter.
+按下按钮的计数器。整数。按下按钮的计数器。
 
-Counter: Integer. Counter:. Frame we last applied a kick impulse.
-
+计数器。整数。计数器：。我们最后一次应用踢球冲动的帧。

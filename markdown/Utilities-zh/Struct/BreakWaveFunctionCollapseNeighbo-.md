@@ -1,6 +1,6 @@
 # BreakWaveFunctionCollapseNeighbo-
 
-Adds a node that breaks a 'WaveFunctionCollapseNeighbor' into its member fields
+添加一个节点，将'WaveFunctionCollapseNeighbor'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'WaveFunctionCollapseNeighbor' into its member fields
 
 ## Inputs
 
-Wave Function Collapse Neighbor: Wave Function Collapse Neighbor Structure (by ref).  
+波函数崩溃邻接。波函数塌陷邻接结构（由参考文献）。  
 
 ## Outputs
 
-Adjacency: EWaveFunctionCollapseAdjacency Enum. Adjacency.
+相邻关系。EWaveFunctionCollapseAdjacency Enum.邻接性。
 
-Step: Integer. Step.
+步骤：整数。步骤。
 
-Neighbor Object: Soft Object Path Structure. Neighbor Object.
-
+邻居对象。软对象路径结构。邻居对象。

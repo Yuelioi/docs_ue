@@ -1,6 +1,6 @@
 # SetmembersinGeometryScriptUnique-
 
-Adds a node that modifies a 'GeometryScriptUniqueAssetNameOptions'
+添加一个节点，修改 "GeometryScriptUniqueAssetNameOptions"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryScriptUniqueAssetNameOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Geometry Script Unique Asset Name Options Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Geometry Script Unique Asset Name Options Structure (by ref). Reference to the input struct.
-
+结构出来。Geometry Script Unique Asset Name Options Structure（通过参考）。对输入结构的引用。

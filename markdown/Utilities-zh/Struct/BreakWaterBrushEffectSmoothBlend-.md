@@ -1,6 +1,6 @@
 # BreakWaterBrushEffectSmoothBlend-
 
-Adds a node that breaks a 'WaterBrushEffectSmoothBlending' into its member fields
+添加一个打破'WaterBrushEffectSmoothBlending'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'WaterBrushEffectSmoothBlending' into its member field
 
 ## Inputs
 
-Water Brush Effect Smooth Blending: Water Brush Effect Smooth Blending Structure (by ref).  
+水刷效果的平滑混合。水刷效果平滑混合结构（按参考）。  
 
 ## Outputs
 
-Inner Smooth Distance: Float (single-precision). Inner Smooth Distance.
+内部平滑距离。Float（单精度）。内部平滑距离。
 
-Outer Smooth Distance: Float (single-precision). Outer Smooth Distance.
-
+外部平滑距离。Float（单精度）。外层平滑距离。

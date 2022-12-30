@@ -1,6 +1,6 @@
 # MakeAnalogInputEvent
 
-Adds a node that create a 'AnalogInputEvent' from its members
+添加一个节点，从其成员中创建一个 "AnalogInputEvent"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AnalogInputEvent' from its members
 
 ## Outputs
 
-Analog Input Event: Analog Input Event Structure.
-
+模拟输入事件。模拟输入事件结构。

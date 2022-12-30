@@ -1,6 +1,6 @@
 # MakeHairMaterialConstraints
 
-Adds a node that create a 'HairMaterialConstraints' from its members
+添加一个节点，从其成员中创建一个 "HairMaterialConstraints"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'HairMaterialConstraints' from its members
 
 ## Outputs
 
-Hair Material Constraints: Hair Material Constraints Structure.
-
+头发材料约束。头发材料约束结构。

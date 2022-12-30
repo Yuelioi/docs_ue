@@ -1,6 +1,6 @@
 # SetmembersinDetectedFaceFeature2-
 
-Adds a node that modifies a 'DetectedFaceFeature2D'
+添加一个节点，修改 "DetectedFaceFeature2D"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DetectedFaceFeature2D'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Detected Face Feature 2D Structure (by ref).  
+Struct Ref: 检测到的人脸特征二维结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Detected Face Feature 2D Structure (by ref). Reference to the input struct.
-
+结构出来。检测到的人脸特征二维结构（通过参考）。对输入结构的引用。

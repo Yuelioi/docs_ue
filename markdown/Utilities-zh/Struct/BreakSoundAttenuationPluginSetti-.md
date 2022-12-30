@@ -1,6 +1,6 @@
 # BreakSoundAttenuationPluginSetti-
 
-Adds a node that breaks a 'SoundAttenuationPluginSettings' into its member fields
+添加一个节点，将'SoundAttenuationPluginSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'SoundAttenuationPluginSettings' into its member field
 
 ## Inputs
 
-Sound Attenuation Plugin Settings: Sound Attenuation Plugin Settings Structure (by ref).  
+声音衰减插件的设置。声音衰减插件设置结构（按参考）。  
 
 ## Outputs
 
-Spatialization Plugin Settings: Array of Spatialization Plugin Source Settings Base Object References. Spatialization Plugin Settings Array:. Settings to use with spatialization audio plugin. These are defined by the plugin creator. Not all audio plugins utilize this feature. This is an array so multiple plugins can have settings..
+空间化插件设置。空间化插件源设置数组 基本对象参考。空间化插件设置数组：。与空间化音频插件一起使用的设置。这些是由插件创建者定义的。不是所有的音频插件都利用这个功能。这是一个数组，所以多个插件可以有设置.
 
-Occlusion Plugin Settings: Array of Occlusion Plugin Source Settings Base Object References. Occlusion Plugin Settings Array:. Settings to use with occlusion audio plugin. These are defined by the plugin creator. Not all audio plugins utilize this feature. This is an array so multiple plugins can have settings..
+遮蔽插件设置。遮挡插件源设置数组 基本对象参考。Occlusion Plugin Settings Array:.与闭塞音频插件一起使用的设置。这些是由插件创建者定义的。不是所有的音频插件都使用这个功能。这是一个数组，所以多个插件可以有设置。
 
-Reverb Plugin Settings: Array of Reverb Plugin Source Settings Base Object References. Reverb Plugin Settings Array:. Settings to use with reverb audio plugin. These are defined by the plugin creator. Not all audio plugins utilize this feature. This is an array so multiple plugins can have settings..
+混响插件设置。混响插件源设置数组 基本对象参考。混响插件设置数组：。用于混响音频插件的设置。这些是由插件创建者定义的。不是所有的音频插件都利用这个功能。这是一个数组，所以多个插件可以有设置。
 
-Source Data Override Plugin Settings: Array of Source Data Override Plugin Source Settings Base Object References. Source Data Override Plugin Settings Array:. Settings to use with source data override audio plugin. These are defined by the plugin creator. Not all audio plugins utilize this feature. This is an array so multiple plugins can have settings..
-
+源数据覆盖插件设置。源数据覆盖插件源设置的数组 基本对象参考。源数据覆盖插件设置数组：.与源数据覆盖音频插件一起使用的设置。这些是由插件创建者定义的。不是所有的音频插件都利用这个功能。这是一个数组，所以多个插件可以有设置.

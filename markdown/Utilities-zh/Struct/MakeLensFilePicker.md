@@ -1,6 +1,6 @@
 # MakeLensFilePicker
 
-Adds a node that create a 'LensFilePicker' from its members
+添加一个节点，从其成员中创建一个 "LensFilePicker"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'LensFilePicker' from its members
 
 ## Inputs
 
-Use Default Lens File: Boolean. Use Default Lens File:. If true, default LensFile will be used, if one is set.
+使用默认镜头文件：布尔值。使用默认镜头文件：。如果为真，将使用默认的LensFile，如果有设置的话。
 
-Lens File: Lens File Object Reference. Lens File:. LensFile asset to use if DefaultLensFile is not desired.  
+镜头文件：镜头文件对象参考。镜头文件:。如果不需要DefaultLensFile，则使用LensFile资产。  
 
 ## Outputs
 
-Lens File Picker: Lens File Picker Structure.
-
+Lens File Picker：Lens File Picker结构。

@@ -1,6 +1,6 @@
 # MakeHairGroupInfoWithVisibility
 
-Adds a node that create a 'HairGroupInfoWithVisibility' from its members
+添加一个节点，从其成员中创建一个'HairGroupInfoWithVisibility'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'HairGroupInfoWithVisibility' from its members
 
 ## Outputs
 
-Hair Group Info with Visibility: Hair Group Info With Visibility Structure.
-
+头发组信息与可见度: 头发组信息与可见度结构。

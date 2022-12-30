@@ -1,6 +1,6 @@
 # SetmembersinMotionWarpingTarget
 
-Adds a node that modifies a 'MotionWarpingTarget'
+添加一个修改 "MotionWarpingTarget "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MotionWarpingTarget'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Motion Warping Target Structure (by ref).  
+Struct Ref: 运动扭曲的目标结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Motion Warping Target Structure (by ref). Reference to the input struct.
-
+结构出来。运动扭曲目标结构（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # SetmembersinAnimNode_SteamVRInpu-
 
-Adds a node that modifies a 'AnimNode_SteamVRInputAnimPose'
+添加一个节点，修改'AnimNode_SteamVRInputAnimPose'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AnimNode_SteamVRInputAnimPose'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Anim Node Steam VRInput Anim Pose Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Anim Node Steam VRInput Anim Pose Structure (by ref). Reference to the input struct.
-
+结构出来:Anim Node Steam VRInput Anim Pose Structure (by ref).对输入结构的引用。

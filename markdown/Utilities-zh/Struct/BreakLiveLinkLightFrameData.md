@@ -1,6 +1,6 @@
 # BreakLiveLinkLightFrameData
 
-Adds a node that breaks a 'LiveLinkLightFrameData' into its member fields
+添加一个节点，将 "LiveLinkLightFrameData "分解成其成员字段。
 
 ## 图示
 
@@ -8,31 +8,30 @@ Adds a node that breaks a 'LiveLinkLightFrameData' into its member fields
 
 ## Inputs
 
-Live Link Light Frame Data: Live Link Light Frame Data Structure (by ref).  
+实时链接光帧数据。实时链接光帧数据结构（由参考）。  
 
 ## Outputs
 
-Temperature: Float (single-precision). Temperature:. Color temperature in Kelvin of the blackbody illuminant.
+温度。Float（单精度）。温度：。黑体光源的色温，单位是开尔文。
 
-Intensity: Float (single-precision). Intensity:. Total energy that the light emits in lux..
+强度。浮点数（单精度）。强度：。光发射的总能量，单位是勒克斯。
 
-Light Color: Color Structure. Light Color:. Filter color of the light..
+灯光颜色：颜色结构。光的颜色:。光的滤色.
 
-Inner Cone Angle: Float (single-precision). Inner Cone Angle:. Inner cone angle in degrees for a Spotlight..
+内锥角。浮点（单精度）。内锥角：。聚光灯下的内锥角，单位是度。
 
-Outer Cone Angle: Float (single-precision). Outer Cone Angle:. Outer cone angle in degrees for a Spotlight..
+外锥体角度。浮点（单精度）。外锥角：。聚光灯下的外锥角，单位是度。
 
-Attenuation Radius: Float (single-precision). Attenuation Radius:. Light visible influence. Works for Pointlight and Spotlight..
+衰减半径。Float（单精度）。衰减半径：。光的可见影响。适用于Pointlight和Spotlight...
 
-Source Radius: Float (single-precision). Source Radius:. Radius of light source shape. Works for Pointlight and Spotlight..
+源半径。Float（单精度）。光源半径：。光源形状的半径。适用于Pointlight和Spotlight...
 
-Soft Source Radius: Float (single-precision). Soft Source Radius:. Soft radius of light source shape. Works for Pointlight and Spotlight..
+软源半径。Float（单精度）。软源半径：。光源形状的柔和半径。适用于Pointlight和Spotlight...
 
-Source Length: Float (single-precision). Source Length:. Length of light source shape. Works for Pointlight and Spotlight..
+源长度。浮点数（单精度）。Source Length:（光源长度）。光源形状的长度。适用于Pointlight和Spotlight...
 
-Transform: Transform. Transform:. Transform of the frame.
+转变。转变。变换:。框架的变换。
 
-Meta Data: Live Link Meta Data Structure. Meta Data:. Frame's metadata..
+元数据。现场链接元数据结构。元数据：。框架的元数据.
 
-Property Values: Array of Float (single-precision)s. Property Values:. Values of the properties defined in the static structure. Use FLiveLinkBaseStaticData.FindPropertyValue to evaluate..
-
+属性值。Float (single-precision)s阵列。属性值：。在静态结构中定义的属性值。使用FLiveLinkBaseStaticData.FindPropertyValue来评估。

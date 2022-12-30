@@ -1,6 +1,6 @@
 # MakeMotionWarpingTarget
 
-Adds a node that create a 'MotionWarpingTarget' from its members
+添加一个节点，从其成员中创建一个 "MotionWarpingTarget"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'MotionWarpingTarget' from its members
 
 ## Inputs
 
-Transform: Transform. Transform:. When the warp target is created from a component this stores the transform of the component at the time of creation, otherwise its the transform supplied by the user.
+转变。转变。变换：。当翘曲目标由一个组件创建时，它存储了创建时该组件的变换，否则它是由用户提供的变换。
 
-Component: Scene Component Weak object. Component:. Optional component used to calculate the final target transform.
+组件。场景组件 弱化对象。组件：。用于计算最终目标变换的可选组件。
 
-Bone Name: Name. Bone Name:. Optional bone name in the component used to calculate the final target transform.
+骨骼名称。名称。骨骼名称：。用于计算最终目标变换的组件中的可选骨骼名称。
 
-Follow Component: Boolean. Follow Component:. Whether the target transform calculated from a component and an optional bone should be updated during the warp.  
+跟随组件。Boolean.跟随组件：。由组件和可选骨骼计算出的目标变换是否应该在扭曲过程中被更新。  
 
 ## Outputs
 
-Motion Warping Target: Motion Warping Target Structure.
-
+运动扭曲的目标。运动翘曲目标结构。

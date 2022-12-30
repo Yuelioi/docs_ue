@@ -1,6 +1,6 @@
 # BreakGeometryScriptMorphologyOpt-
 
-Adds a node that breaks a 'GeometryScriptMorphologyOptions' into its member fields
+添加一个节点，将'GeometryScriptMorphologyOptions'分解到其成员字段中。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'GeometryScriptMorphologyOptions' into its member fiel
 
 ## Inputs
 
-Geometry Script Morphology Options: Geometry Script Morphology Options Structure (by ref).  
+Geometry Script Morphology Options:Geometry Script Morphology Options结构（按参考）。  
 
 ## Outputs
 
-SDFGrid Parameters: Geometry Script 3DGrid Parameters Structure. SDFGrid Parameters.
+SDFGrid参数。Geometry Script 3DGrid Parameters 结构。SDFGrid参数。
 
-Use Separate Mesh Grid: Boolean. Use Separate Mesh Grid.
+使用独立的网格。Boolean.使用单独的网格。
 
-Mesh Grid Parameters: Geometry Script 3DGrid Parameters Structure. Mesh Grid Parameters.
+网格参数。Geometry Script 3DGrid Parameters结构。网格参数。
 
-Operation: EGeometryScriptMorphologicalOpType Enum. Operation.
+操作。EGeometryScriptMorphologicalOpType枚举。操作。
 
-Distance: Float (single-precision). Distance.
-
+距离。Float（单精度）。距离。

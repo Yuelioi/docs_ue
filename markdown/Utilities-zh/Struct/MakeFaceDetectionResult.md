@@ -1,6 +1,6 @@
 # MakeFaceDetectionResult
 
-Adds a node that create a 'FaceDetectionResult' from its members
+添加一个节点，从其成员中创建一个 "FaceDetectionResult"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'FaceDetectionResult' from its members
 
 ## Outputs
 
-Face Detection Result: Face Detection Result Structure.
-
+人脸检测结果。面部检测结果结构。

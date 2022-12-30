@@ -1,6 +1,6 @@
 # BreakSmartObjectRequestFilter
 
-Adds a node that breaks a 'SmartObjectRequestFilter' into its member fields
+添加一个节点，将'SmartObjectRequestFilter'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'SmartObjectRequestFilter' into its member fields
 
 ## Inputs
 
-Smart Object Request Filter: Smart Object Request Filter Structure (by ref).  
+智能对象请求过滤器。智能对象请求过滤器结构（通过参考）。  
 
 ## Outputs
 
-User Tags: Gameplay Tag Container Structure. User Tags.
+用户标签。游戏性标签容器结构。用户标签。
 
-Activity Requirements: Gameplay Tag Query Structure. Activity Requirements.
+活动要求。游戏性标签查询结构。活动要求。
 
-Behavior Definition Class: Smart Object Behavior Definition Class Reference. Behavior Definition Class.
-
+行为定义类。智能对象行为定义类参考。行为定义类。

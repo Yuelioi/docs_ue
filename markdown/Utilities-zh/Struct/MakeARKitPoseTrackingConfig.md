@@ -1,6 +1,6 @@
 # MakeARKitPoseTrackingConfig
 
-Adds a node that create a 'ARKitPoseTrackingConfig' from its members
+添加一个节点，从其成员中创建一个 "ARKitPoseTrackingConfig"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ARKitPoseTrackingConfig' from its members
 
 ## Outputs
 
-ARKit Pose Tracking Config: ARKit Pose Tracking Config Structure.
-
+ARKit 姿势跟踪配置。ARKit Pose Tracking Config 结构。

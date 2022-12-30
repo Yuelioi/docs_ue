@@ -1,6 +1,6 @@
 # MakeFrameNumberRange
 
-Adds a node that create a 'FrameNumberRange' from its members
+添加一个节点，从其成员中创建一个 "FrameNumberRange"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'FrameNumberRange' from its members
 
 ## Inputs
 
-Lower Bound: Frame Number Range Bound Structure. Lower Bound.
+下边界。帧数 范围 边界结构。下限。
 
-Upper Bound: Frame Number Range Bound Structure. Upper Bound.  
+上边界。帧数范围边界结构。上界。  
 
 ## Outputs
 
-Frame Number Range: Frame Number Range Structure.
-
+帧号范围。帧号范围结构。

@@ -1,6 +1,6 @@
 # SetmembersinDepthFieldGlowInfo
 
-Adds a node that modifies a 'DepthFieldGlowInfo'
+添加一个修改 "DepthFieldGlowInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DepthFieldGlowInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Depth Field Glow Info Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Depth Field Glow Info Structure (by ref). Reference to the input struct.
-
+结构出来。深度场辉光信息结构（通过引用）。对输入结构的引用。

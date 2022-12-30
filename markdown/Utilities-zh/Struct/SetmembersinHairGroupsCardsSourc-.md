@@ -1,6 +1,6 @@
 # SetmembersinHairGroupsCardsSourc-
 
-Adds a node that modifies a 'HairGroupsCardsSourceDescription'
+添加一个节点，修改 "HairGroupsCardsSourceDescription"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'HairGroupsCardsSourceDescription'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Hair Groups Cards Source Description Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Hair Groups Cards Source Description Structure (by ref). Reference to the input struct.
-
+Struct Out: Hair Groups Cards Source Description Structure (by ref).对输入结构的引用。

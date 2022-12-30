@@ -1,6 +1,6 @@
 # MakeDatasmithTessellationOptions
 
-Adds a node that create a 'DatasmithTessellationOptions' from its members
+添加一个节点，从其成员中创建一个 "DatasmithTessellationOptions"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'DatasmithTessellationOptions' from its members
 
 ## Inputs
 
-Chord Tolerance: Float (single-precision). Chord Tolerance:. Maximum distance between any generated triangle and the original surface. Smaller values make more triangles..
+弦乐公差。Float（单精度）。弦的公差：。任何生成的三角形与原始表面之间的最大距离。较小的值会产生更多的三角形。
 
-Max Edge Length: Float (single-precision). Max Edge Length:. Maximum length of any edge in the generated triangles. Smaller values make more triangles..
+最大边缘长度。Float（单精度）。最大边缘长度：。生成的三角形中任何边缘的最大长度。较小的值会产生更多的三角形。
 
-Normal Tolerance: Float (single-precision). Normal Tolerance:. Maximum angle between adjacent triangles. Smaller values make more triangles..
+正常公差。Float (single-precision).法线公差：。相邻三角形之间的最大角度。较小的值使更多的三角形.
 
-Stitching Technique: EDatasmithCADStitchingTechnique Enum. Stitching Technique:. Stitching technique applied on model before tessellation. Sewing could impact number of objects..  
+缝合技术。EDatasmithCADStitchingTechnique Enum.缝合技术：。镶嵌前应用于模型的缝合技术。缝合可能会影响物体的数量。  
 
 ## Outputs
 
-Datasmith Tessellation Options: Datasmith Tessellation Options Structure.
-
+Datasmith Tessellation选项。Datasmith Tessellation Options结构。

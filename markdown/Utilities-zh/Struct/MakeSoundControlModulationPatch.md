@@ -1,6 +1,6 @@
 # MakeSoundControlModulationPatch
 
-Adds a node that create a 'SoundControlModulationPatch' from its members
+添加一个节点，从其成员中创建一个 "SoundControlModulationPatch"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'SoundControlModulationPatch' from its members
 
 ## Inputs
 
-Bypass: Boolean. Bypass:. Whether or not patch is bypassed (patch is still active, but always returns output parameter default value when modulated).
+旁路。布尔型。旁路：。补丁是否被旁路（补丁仍然有效，但调制时总是返回输出参数的默认值）。
 
 ## Inputs: Array of Sound Control Modulation Input Structures. ## Inputs:. Modulation inputs.  
 
 ## Outputs
 
-Sound Control Modulation Patch: Sound Control Modulation Patch Structure.
-
+Sound Control Modulation Patch:Sound Control Modulation Patch结构。

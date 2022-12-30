@@ -1,6 +1,6 @@
 # BreakInputActionKeyMapping
 
-Adds a node that breaks a 'InputActionKeyMapping' into its member fields
+添加一个节点，将'InputActionKeyMapping'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'InputActionKeyMapping' into its member fields
 
 ## Inputs
 
-Input Action Key Mapping: Input Action Key Mapping Structure (by ref).  
+输入动作键映射。输入动作键映射结构（按参考）。  
 
 ## Outputs
 
-Action Name: Name. Action Name:. Friendly name of action, e.g "jump".
+行动名称。名称。行动名称：。动作的友好名称，如 "跳跃"。
 
-Shift: Boolean. Shift:. true if one of the Shift keys must be down when the KeyEvent is received to be acknowledged.
+移位。布尔值。Shift:.如果在收到KeyEvent时必须有一个Shift键处于下降状态才能被确认，则为true。
 
-Ctrl: Boolean. Ctrl:. true if one of the Ctrl keys must be down when the KeyEvent is received to be acknowledged.
+键盘上的 "Ctrl"。Boolean（布尔）。Ctrl:.如果在收到KeyEvent时必须有一个Ctrl键处于下降状态才能被确认，则为true。
 
-Alt: Boolean. Alt:. true if one of the Alt keys must be down when the KeyEvent is received to be acknowledged.
+Alt:Boolean（布尔）。Alt:.如果在接收到KeyEvent时必须有一个Alt键处于下降状态才能被确认，则为true。
 
-Cmd: Boolean. Cmd:. true if one of the Cmd keys must be down when the KeyEvent is received to be acknowledged.
+Cmd:布尔值。Cmd:.如果在收到KeyEvent时，其中一个Cmd键必须处于下降状态才能被确认，则为true。
 
-Key: Key Structure. Key:. Key to bind it to..
-
+钥匙。钥匙结构。钥匙：。钥匙，将其绑定到.

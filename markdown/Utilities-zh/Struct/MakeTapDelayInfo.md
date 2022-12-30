@@ -1,6 +1,6 @@
 # MakeTapDelayInfo
 
-Adds a node that create a 'TapDelayInfo' from its members
+添加一个节点，从其成员中创建一个 "TapDelayInfo"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'TapDelayInfo' from its members
 
 ## Inputs
 
-Tap Line Mode: ETapLineMode Enum. Tap Line Mode:. Whether the tap line should send directly to a channel, pan, or not produce sound at all..
+分接线模式。ETapLineMode枚举。Tap Line Mode：.分接线是否应直接传送到一个通道，平移，或根本不产生声音。
 
-Delay Length: Float (single-precision). Delay Length:. Amount of time before this echo is heard in milliseconds..
+延迟长度。Float (single-precision).Delay Length:（延迟长度）。在听到这个回声之前的时间量，单位是毫秒。
 
-Gain: Float (single-precision). Gain:. How loud this echo should be, in decibels..
+增益。Float（单精度）。增益：。这个回声应该有多大，以分贝为单位。
 
-Output Channel: Integer. Output Channel:. When the Tap Line Mode is set to Send To Channel, designates index of channel from which the echo should play..
+输出通道。整数。输出通道：。当 "分接线模式 "设置为 "发送到通道 "时，指定回声应该从哪个通道播放的索引。
 
-Pan In Degrees: Float (single-precision). Pan in Degrees:. When the Tap Line Mode is set to Panning, designates the angle at which the echo should be panned.. On Surround systems, 0 is directly in front of the listener, -90 is left, 90 is right, and 180/-180 is directly behind the listener.. On Stereo systems, <-90 is fully in the left ear, and >90 is fully in the right ear.  
+以度数计算的平移。Float（单精度）。平移在度数：。当分接线模式被设置为平移时，指定回声应被平移的角度。在环绕声系统中，0是在听众的正前方，-90是左边，90是右边，180/-180是在听众的正后方。在立体声系统中，<-90是完全在左耳，而>90是完全在右耳。  
 
 ## Outputs
 
-Tap Delay Info: Tap Delay Info Structure.
-
+Tap Delay Info:Tap Delay Info结构。

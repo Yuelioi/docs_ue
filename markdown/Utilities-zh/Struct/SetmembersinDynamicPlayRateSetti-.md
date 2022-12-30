@@ -1,6 +1,6 @@
 # SetmembersinDynamicPlayRateSetti-
 
-Adds a node that modifies a 'DynamicPlayRateSettings'
+添加一个节点，修改 "DynamicPlayRateSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DynamicPlayRateSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Dynamic Play Rate Settings Structure (by ref).  
+结构参考：动态播放率设置结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Dynamic Play Rate Settings Structure (by ref). Reference to the input struct.
-
+结构出来。动态播放率设置结构（通过参考）。对输入结构的引用。

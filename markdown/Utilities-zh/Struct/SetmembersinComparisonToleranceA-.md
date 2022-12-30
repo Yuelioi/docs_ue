@@ -1,6 +1,6 @@
 # SetmembersinComparisonToleranceA-
 
-Adds a node that modifies a 'ComparisonToleranceAmount'
+添加一个修改 "ComparisonToleranceAmount "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ComparisonToleranceAmount'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Comparison Tolerance Amount Structure (by ref).  
+结构参考：比较宽容量结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Comparison Tolerance Amount Structure (by ref). Reference to the input struct.
-
+结构出来。比较宽容量结构（通过参考）。对输入结构的引用。

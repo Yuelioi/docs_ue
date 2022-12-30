@@ -1,6 +1,6 @@
 # MakeRichTextIconData
 
-Adds a node that create a 'RichTextIconData' from its members
+添加一个节点，从其成员中创建一个 "RichTextIconData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RichTextIconData' from its members
 
 ## Outputs
 
-Rich Text Icon Data: Rich Text Icon Data Structure.
-
+富文本图标数据。富文本图标数据结构。

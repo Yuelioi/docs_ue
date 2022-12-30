@@ -1,6 +1,6 @@
 # MakeWaterBodyWeightmapSettings
 
-Adds a node that create a 'WaterBodyWeightmapSettings' from its members
+添加一个节点，从其成员中创建一个 "WaterBodyWeightmapSettings"。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that create a 'WaterBodyWeightmapSettings' from its members
 
 ## Inputs
 
-Falloff Width: Float (single-precision). Falloff Width.
+漂移宽度：浮点数（单精度）。漂移宽度。
 
-Edge Offset: Float (single-precision). Edge Offset.
+边缘偏移。浮点数（单精度）。边缘偏移。
 
-Modulation Texture: Texture 2D Object Reference. Modulation Texture.
+调制纹理。纹理2D对象参考。调制纹理。
 
-Texture Tiling: Float (single-precision). Texture Tiling.
+纹理拼接。Float（单精度）。纹理平铺。
 
-Texture Influence: Float (single-precision). Texture Influence.
+纹理影响。Float（单精度）。纹理影响。
 
-Midpoint: Float (single-precision). Midpoint.
+中点。Float (single-precision).中点。
 
-Final Opacity: Float (single-precision). Final Opacity.  
+最终不透明度。Float（单精度）。最终不透明度。  
 
 ## Outputs
 
-Water Body Weightmap Settings: Water Body Weightmap Settings Structure.
-
+水体重量图设置。水体重量图设置结构。

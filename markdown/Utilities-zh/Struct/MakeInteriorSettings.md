@@ -1,6 +1,6 @@
 # MakeInteriorSettings
 
-Adds a node that create a 'InteriorSettings' from its members
+添加一个节点，从其成员中创建一个 "InteriorSettings"。
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that create a 'InteriorSettings' from its members
 
 ## Inputs
 
-Exterior Volume: Float (single-precision). Exterior Volume:. The desired volume of sounds outside the volume when the player is inside the volume.
+外部体积。Float（单精度）。外部音量：。当播放器在音量内时，音量外的声音所需的音量。
 
-Exterior Time: Float (single-precision). Exterior Time:. The time over which to interpolate from the current volume to the desired volume of sounds outside the volume when the player enters the volume.
+外部时间。Float（单精度）。外部时间：。当播放器进入音量时，从当前音量插值到音量外所需音量的时间。
 
-Exterior LPF: Float (single-precision). Exterior LPF:. The desired LPF frequency cutoff in hertz of sounds outside the volume when the player is inside the volume.
+外部LPF：浮点（单精度）。Exterior LPF：。当演奏者在音量内时，所需的LPF频率截止，单位为赫兹，即音量外的声音。
 
-Exterior LPFTime: Float (single-precision). Exterior LPFTime:. The time over which to interpolate from the current LPF to the desired LPF of sounds outside the volume when the player enters the volume.
+外部LPFTime。Float（单精度）。Exterior LPFTime:。当播放器进入音量时，从当前的LPF插值到音量以外的声音的期望LPF的时间。
 
-Interior Volume: Float (single-precision). Interior Volume:. The desired volume of sounds inside the volume when the player is outside the volume.
+内部体积。Float（单精度）。内部音量：。当播放器在音量之外时，希望在音量内的声音的音量。
 
-Interior Time: Float (single-precision). Interior Time:. The time over which to interpolate from the current volume to the desired volume of sounds inside the volume when the player exits the volume.
+内部时间。Float（单精度）。内部时间：。当播放器退出音量时，从当前音量到音量内所需音量的插值时间。
 
-Interior LPF: Float (single-precision). Interior LPF:. The desired LPF frequency cutoff in hertz of sounds inside the volume when the player is outside the volume.
+内部LPF：浮点数（单精度）。内部LPF：。当播放器在音量之外时，音量内的声音所需的LPF频率截止点，单位是赫兹。
 
-Interior LPFTime: Float (single-precision). Interior LPFTime:. The time over which to interpolate from the current LPF to the desired LPF of sounds inside the volume when the player exits the volume.  
+内部LPFTime。Float (single-precision).内部LPFT时间：。当播放器退出音量时，从当前LPF插值到音量内所需声音的LPF的时间。  
 
 ## Outputs
 
-Interior Settings: Interior Settings Structure.
-
+内部设置。内部设置结构。

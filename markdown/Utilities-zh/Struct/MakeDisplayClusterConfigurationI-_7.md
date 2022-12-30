@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationI-_7
 
-Adds a node that create a 'DisplayClusterConfigurationInfo' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationInfo"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'DisplayClusterConfigurationInfo' from its members
 
 ## Inputs
 
-Description: String. Description.  
+描述。字符串。描述。  
 
 ## Outputs
 
-Display Cluster Configuration Info: Display Cluster Configuration Info Structure.
-
+显示群集配置信息。显示群集配置信息结构。

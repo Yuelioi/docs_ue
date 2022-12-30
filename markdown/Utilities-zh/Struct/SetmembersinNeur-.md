@@ -1,6 +1,6 @@
 # SetmembersinNeur-
 
-Adds a node that modifies a 'NeuralNetworkInferenceQAOperatorTestAsset'
+添加一个修改 "NeuralNetworkInferenceQAOperatorTestAsset "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'NeuralNetworkInferenceQAOperatorTestAsset'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Neural Network Inference QAOperator Test Asset Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Neural Network Inference QAOperator Test Asset Structure (by ref). Reference to the input struct.
-
+结构出来。Neural Network Inference QAOperator Test Asset Structure（通过参考）。对输入结构的引用。

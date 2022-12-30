@@ -1,6 +1,6 @@
 # SetmembersinFractureEffect
 
-Adds a node that modifies a 'FractureEffect'
+添加一个修改 "FractureEffect "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'FractureEffect'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Fracture Effect Structure (by ref).  
+Struct Ref: 断裂效应结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Fracture Effect Structure (by ref). Reference to the input struct.
-
+结构出来。断裂效应结构（通过引用）。对输入结构的引用。

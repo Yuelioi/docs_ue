@@ -1,6 +1,6 @@
 # MakeEditableTextBoxStyle
 
-Adds a node that create a 'EditableTextBoxStyle' from its members
+添加一个节点，从其成员中创建一个'EditableTextBoxStyle'。
 
 ## 图示
 
@@ -8,33 +8,32 @@ Adds a node that create a 'EditableTextBoxStyle' from its members
 
 ## Inputs
 
-Background Image Normal: Slate Brush Structure. Background Image Normal:. Border background image when the box is not hovered or focused.
+背景图片正常: 石板刷结构。背景图像正常:。当方框未被悬停或聚焦时的边框背景图像。
 
-Background Image Hovered: Slate Brush Structure. Background Image Hovered:. Border background image when the box is hovered.
+悬停的背景图像。石板刷结构。悬停的背景图像：。当方框被悬停时的边界背景图像。
 
-Background Image Focused: Slate Brush Structure. Background Image Focused:. Border background image when the box is focused.
+背景图像聚焦。石板刷结构。聚焦的背景图像：。框内聚焦时的边框背景图像。
 
-Background Image Read Only: Slate Brush Structure. Background Image Read Only:. Border background image when the box is read-only.
+背景图像只读。石板刷结构。背景图像只读：。框内只读时的边框背景图像。
 
-Padding: Margin Structure. Padding:. Padding.
+填充。保证金结构。Padding:.填充。
 
-Font: Slate Font Info Structure. Font:. Font family and size to be used when displaying this text..
+字体。Slate字体信息结构。字体:.显示此文本时要使用的字体家族和大小。
 
-Foreground Color: Slate Color Structure. Foreground Color:. The foreground color of text..
+前景色：板岩色结构。前景色：。文本的前景色...
 
-Background Color: Slate Color Structure. Background Color:. The background color applied to the active background image.
+背景颜色: 板岩颜色结构.背景色：。应用于活动背景图像的背景色。
 
-Read Only Foreground Color: Slate Color Structure. Read Only Foreground Color:. The read-only foreground color of text in read-only mode..
+只读前景色：石板色结构。只读前景色：。在只读模式下，文本的只读前景颜色。
 
-Focused Foreground Color: Slate Color Structure. Focused Foreground Color:. The foreground color of text when the edit box has keyboard focus..
+焦点前景色：石板色结构。焦点前景色：。当编辑框有键盘焦点时，文本的前景颜色。
 
-HScroll Bar Padding: Margin Structure. HScroll Bar Padding:. Padding around the horizontal scrollbar.
+HScroll Bar Padding。保证金结构。HScroll Bar Padding:.围绕水平滚动条的填充。
 
-VScroll Bar Padding: Margin Structure. VScroll Bar Padding:. Padding around the vertical scrollbar.
+VScroll Bar Padding。保证金结构。VScroll Bar Padding:.围绕垂直滚动条的填充。
 
-Scroll Bar Style: Scroll Bar Style Structure. Scroll Bar Style:. Style used for the scrollbars.  
+滚动条风格。滚动条样式结构。滚动条样式：。用于滚动条的样式。  
 
 ## Outputs
 
-Editable Text Box Style: Editable Text Box Style Structure.
-
+可编辑的文本框风格。可编辑的文本框风格结构。

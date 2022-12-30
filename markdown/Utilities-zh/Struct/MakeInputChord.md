@@ -1,6 +1,6 @@
 # MakeInputChord
 
-Adds a node that create a 'InputChord' from its members
+添加一个节点，从其成员中创建一个 "输入和弦"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'InputChord' from its members
 
 ## Inputs
 
-Key: Key Structure. Key:. The Key is the core of the chord..
+钥匙。钥匙结构。调：.调是和弦的核心。
 
-Shift: Boolean. Shift:. Whether the shift key is part of the chord..
+移位。Boolean.移位：。移位键是否是和弦的一部分。
 
-Ctrl: Boolean. Ctrl:. Whether the control key is part of the chord..
+键盘上的 "Ctrl"。布尔型。Ctrl:.控制键是否是和弦的一部分。
 
-Alt: Boolean. Alt:. Whether the alt key is part of the chord..
+Alt:布尔型。Alt:.Alt键是否是和弦的一部分。
 
-Cmd: Boolean. Cmd:. Whether the command key is part of the chord..  
+Cmd:Boolean.Cmd:.命令键是否是和弦的一部分。
 
 ## Outputs
 
-Input Chord: Input Chord Structure.
-
+输入和弦。输入和弦结构。

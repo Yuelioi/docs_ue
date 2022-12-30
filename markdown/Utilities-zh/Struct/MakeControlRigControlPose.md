@@ -1,6 +1,6 @@
 # MakeControlRigControlPose
 
-Adds a node that create a 'ControlRigControlPose' from its members
+添加一个节点，从其成员中创建一个 "ControlRigControlPose"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'ControlRigControlPose' from its members
 
 ## Inputs
 
-Copy Of Controls: Array of Rig Control Copy Structures. Copy Of Controls.  
+控件的复制。钻机控制复制结构的阵列。控制的复制。  
 
 ## Outputs
 
-Control Rig Control Pose: Control Rig Control Pose Structure.
-
+控制钻机的控制姿势。控制钻机控制姿势结构。

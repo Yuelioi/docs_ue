@@ -1,6 +1,6 @@
 # BreakOverlayItem
 
-Adds a node that breaks a 'OverlayItem' into its member fields
+添加一个节点，将'OverlayItem'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'OverlayItem' into its member fields
 
 ## Inputs
 
-Overlay Item: Overlay Item Structure (by ref).  
+叠加项目。叠加项目结构（按参考）。  
 
 ## Outputs
 
-Start Time: Timespan Structure. Start Time:. When the overlay should be displayed.
+开始时间：时间范围结构。开始时间：。覆盖物应何时显示。
 
-End Time: Timespan Structure. End Time:. When the overlay should be cleared.
+结束时间：时间跨度结构。结束时间：。覆盖物应何时被清除。
 
-Text: String. Text:. Text that appears onscreen when the overlay is shown.
+文本。字符串。文本：。显示叠加时出现在屏幕上的文本。
 
-Position: Vector 2D Structure. Position:. The position of the text on screen (Between 0.0 and 1.0).
-
+位置。矢量二维结构。位置：。文本在屏幕上的位置（在0.0和1.0之间）。

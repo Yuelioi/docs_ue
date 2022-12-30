@@ -1,6 +1,6 @@
 # MakeLevelSequenceSnapshotSetting-
 
-Adds a node that create a 'LevelSequenceSnapshotSettings' from its members
+添加一个节点，从其成员中创建一个 "LevelSequenceSnapshotSettings"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'LevelSequenceSnapshotSettings' from its members
 
 ## Outputs
 
-Level Sequence Snapshot Settings: Level Sequence Snapshot Settings Structure.
-
+水平序列快照设置。水平序列快照设置结构。

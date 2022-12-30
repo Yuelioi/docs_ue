@@ -1,6 +1,6 @@
 # BreakVREDCppVariantSet
 
-Adds a node that breaks a 'VREDCppVariantSet' into its member fields
+添加一个节点，将'VREDCppVariantSet'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'VREDCppVariantSet' into its member fields
 
 ## Inputs
 
-VREDCpp Variant Set: VREDCpp Variant Set Structure (by ref).  
+VREDCpp变体集。VREDCpp变体集结构（通过参考）。  
 
 ## Outputs
 
-Target Variant Names: Array of Strings. Target Variant Names.
+目标变体名称。字符串的数组。目标变量名称。
 
-Chosen Options: Array of Strings. Chosen Options.
+选择的选项。字符串的阵列。选择的选项。
 
-Variant Set Group Name: String. Variant Set Group Name.
+变体集组名称。字符串。Variant Set Group Name.
 
-Anim Clips: Array of Strings. Anim Clips.
+动画剪辑:数组字符串.Anim Clips.
 
-Sequential Animation: Boolean. Sequential Animation.
-
+序列动画。Boolean.Sequential Animation.

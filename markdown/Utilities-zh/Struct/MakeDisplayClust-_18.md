@@ -1,6 +1,6 @@
 # MakeDisplayClust-_18
 
-Adds a node that create a 'DisplayClusterConfigurationViewport_ColorGradingSettings' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationViewport_ColorGradingSettings"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'DisplayClusterConfigurationViewport_ColorGradingSetti
 
 ## Inputs
 
-Saturation: Vector 4 Structure. Saturation:. Saturation.
+饱和度。矢量4结构。饱和度：。饱和度。
 
-Contrast: Vector 4 Structure. Contrast:. Contrast.
+对比。矢量4结构。对比度：。对比度。
 
-Gamma: Vector 4 Structure. Gamma:. Gamma.
+伽马。矢量4结构。伽马：。伽马：。
 
-Gain: Vector 4 Structure. Gain:. Gain.
+获得。矢量4结构。增益：。增益。
 
-Offset: Vector 4 Structure. Offset:. Offset.  
+偏移。矢量4结构。偏移：。偏移。  
 
 ## Outputs
 
-Display Cluster Configuration Viewport Color Grading Settings: Display Cluster Configuration Viewport Color Grading Settings Structure.
-
+显示群组配置视口颜色分级设置。显示集群配置 视口颜色分级设置结构。

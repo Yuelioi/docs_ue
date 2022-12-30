@@ -1,6 +1,6 @@
 # BreakSourceEffectChorusSettings
 
-Adds a node that breaks a 'SourceEffectChorusSettings' into its member fields
+添加一个节点，将'SourceEffectChorusSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'SourceEffectChorusSettings' into its member fields
 
 ## Inputs
 
-Source Effect Chorus Settings: Source Effect Chorus Settings Structure (by ref).  
+源效果合唱设置。源效果合唱设置结构（按参考）。  
 
 ## Outputs
 
-Depth: Sound Modulation Destination Settings Structure. Depth Modulation:. The depth of the chorus effect.
+深度。声音调制 目的地设置结构。深度调制：。合唱效果的深度。
 
-Frequency: Sound Modulation Destination Settings Structure. Frequency Modulation:. The frequency of the chorus effect.
+频率。声音调制 目的地设置结构。频率调制：。合唱效果的频率。
 
-Feedback: Sound Modulation Destination Settings Structure. Feedback Modulation:. The feedback of the chorus effect.
+反馈。声音调制目的地设置结构。反馈调制：。合唱效果的反馈。
 
-Wet Level: Sound Modulation Destination Settings Structure. Wet Modulation:. The wet level of the chorus effect.
+湿水平。声音调制目的地设置结构。湿调制：。合唱效果的湿电平。
 
-Dry Level: Sound Modulation Destination Settings Structure. Dry Modulation:. The dry level of the chorus effect.
+干水平。声音调制目的地设置结构。干调制：。合唱效果的干电平。
 
-Spread: Sound Modulation Destination Settings Structure. Spread Modulation:. The spread of the effect (larger means greater difference between left and right delay lines).
-
+传播。声音调制目的地设置结构。扩散调制：。效果的扩散（越大意味着左右延迟线之间的差异越大）。

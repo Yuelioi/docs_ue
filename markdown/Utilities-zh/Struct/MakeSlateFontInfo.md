@@ -1,6 +1,6 @@
 # MakeSlateFontInfo
 
-Adds a node that create a 'SlateFontInfo' from its members
+添加一个节点，从其成员中创建一个 "SlateFontInfo"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'SlateFontInfo' from its members
 
 ## Inputs
 
-Font Family: Object Reference. Font Object:. The font object (valid when used from UMG or a Slate widget style asset).
+字体家族。对象参考。字体对象：。字体对象（从UMG或Slate widget样式资产中使用时有效）。
 
-Font Material: Object Reference. Font Material:. The material to use when rendering this font.
+字体材料。对象参考。字体材料：。渲染该字体时要使用的材料。
 
-Outline Settings: Font Outline Settings Structure. Outline Settings:. Settings for applying an outline to a font.
+大纲设置。字体轮廓设置结构。轮廓设置：。为字体应用轮廓的设置。
 
-Typeface: Name. Typeface Font Name:. The name of the font to use from the default typeface (None will use the first entry).
+字体。名称。字体字体名称：。要从默认字体中使用的字体名称（无将使用第一个条目）。
 
-Size: Integer. Size:. The font size is a measure in point values. The conversion of points to Slate Units is done at 96 dpi. So if. you're using a tool like Photoshop to prototype layouts and UI mock ups, be sure to change the default dpi. measurements from 72 dpi to 96 dpi..
+大小。整数。大小：。字体大小是以点值衡量的。点到石板单位的转换是在96dpi下进行的。因此，如果您使用Photoshop等工具来制作布局原型和UI模拟图，请务必将默认的dpi.测量值从72dpi改为96dpi。
 
-Letter Spacing: Integer. Letter Spacing:. The uniform spacing (or tracking) between all characters in the text..  
+字母间距。整数。字母间距：.文本中所有字符之间的统一间距（或跟踪）。  
 
 ## Outputs
 
-Slate Font Info: Slate Font Info Structure.
-
+板岩字体信息。板岩字体信息结构。

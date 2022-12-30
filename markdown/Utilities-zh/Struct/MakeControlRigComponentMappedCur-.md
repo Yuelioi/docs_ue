@@ -1,6 +1,6 @@
 # MakeControlRigComponentMappedCur-
 
-Adds a node that create a 'ControlRigComponentMappedCurve' from its members
+添加一个节点，从其成员中创建一个 "ControlRigComponentMappedCurve"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ControlRigComponentMappedCurve' from its members
 
 ## Inputs
 
-Source: Name. Source.
+来源。名字。来源：《中国新闻周刊》。
 
-Target: Name. Target.  
+目标：名称。目标。  
 
 ## Outputs
 
-Control Rig Component Mapped Curve: Mapped Curve Structure.
-
+控制钻机组件的映射曲线。绘制的曲线结构。

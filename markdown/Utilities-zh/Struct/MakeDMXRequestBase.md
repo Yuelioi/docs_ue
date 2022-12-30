@@ -1,6 +1,6 @@
 # MakeDMXRequestBase
 
-Adds a node that create a 'DMXRequestBase' from its members
+添加一个节点，从其成员中创建一个'DMXRequestBase'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'DMXRequestBase' from its members
 
 ## Inputs
 
-Value: Byte. Value.  
+值: 字节。价值。  
 
 ## Outputs
 
-DMXRequest Base: DMXRequest Base Structure.
-
+DMXRequest Base。DMXRequest Base结构。

@@ -1,6 +1,6 @@
 # BreakTypedElementDeletionOptions
 
-Adds a node that breaks a 'TypedElementDeletionOptions' into its member fields
+添加一个节点，将'TypedElementDeletionOptions'分解到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'TypedElementDeletionOptions' into its member fields
 
 ## Inputs
 
-Typed Element Deletion Options: Typed Element Deletion Options Structure (by ref).  
+类型化的元素删除选项。类型化的元素删除选项结构（按参考）。  
 
 ## Outputs
 
-Verify Deletion Can Happen: Boolean. Verify Deletion Can Happen.
+验证删除是否可以发生。布尔型。验证删除是否发生。
 
-Warn About References: Boolean. Warn About References.
+关于引用的警告。布尔型。关于引用的警告。
 
-Warn About Soft References: Boolean. Warn About Soft References.
-
+关于软引用的警告。布尔型。警告软文引用。

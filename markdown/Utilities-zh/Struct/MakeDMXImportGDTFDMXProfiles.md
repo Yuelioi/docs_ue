@@ -1,6 +1,6 @@
 # MakeDMXImportGDTFDMXProfiles
 
-Adds a node that create a 'DMXImportGDTFDMXProfiles' from its members
+添加一个节点，从其成员中创建一个'DMXImportGDTFDMXProfiles'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXImportGDTFDMXProfiles' from its members
 
 ## Outputs
 
-DMXImport GDTFDMXProfiles: DMXImport GDTFDMXProfiles Structure.
-
+DMXImport GDTFDMXProfiles:DMXImport GDTFDMXProfiles结构。

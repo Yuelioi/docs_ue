@@ -1,6 +1,6 @@
 # BreakSwapAudioOutputResult
 
-Adds a node that breaks a 'SwapAudioOutputResult' into its member fields
+添加一个节点，将'SwapAudioOutputResult'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'SwapAudioOutputResult' into its member fields
 
 ## Inputs
 
-Swap Audio Output Result: Swap Audio Output Result Structure (by ref).  
+交换音频输出结果。交换音频输出结果结构（通过参考）。  
 
 ## Outputs
 
-Current Device Id: String. Current Device Id:. ID of the currently set device. This is the device at the time of the call, NOT the resulting deviceId.
+当前设备ID。字符串。当前设备标识：。当前设置的设备的ID。这是在调用时的设备，而不是结果的设备ID。
 
-Requested Device Id: String. Requested Device Id:. ID of the requested device..
+要求的设备ID。字符串。请求的设备ID：。被请求设备的ID。
 
-Result: ESwapAudioOutputDeviceResultState Enum. Result:. Result of the call.
-
+结果。ESwapAudioOutputDeviceResultState枚举。结果：。调用的结果。

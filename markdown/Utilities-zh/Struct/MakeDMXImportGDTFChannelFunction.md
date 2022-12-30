@@ -1,6 +1,6 @@
 # MakeDMXImportGDTFChannelFunction
 
-Adds a node that create a 'DMXImportGDTFChannelFunction' from its members
+添加一个节点，从其成员中创建一个'DMXImportGDTFChannelFunction'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXImportGDTFChannelFunction' from its members
 
 ## Outputs
 
-DMXImport GDTFChannel Function: DMXImport GDTFChannel Function Structure.
-
+DMXImport GDTFChannel函数。DMXImport GDTFChannel 功能结构。

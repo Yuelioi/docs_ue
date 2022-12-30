@@ -1,6 +1,6 @@
 # SetmembersinEdit-_5
 
-Adds a node that modifies a 'EditorScriptingMeshReductionSettings_Deprecated'
+添加一个修改 "EditorScriptingMeshReductionSettings_Deprecated "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'EditorScriptingMeshReductionSettings_Deprecated'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Editor Scripting Mesh Reduction Settings Deprecated Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Editor Scripting Mesh Reduction Settings Deprecated Structure (by ref). Reference to the input struct.
-
+Struct Out:编辑器脚本网格缩减设置 已废弃的结构（通过ref）。对输入结构的引用。

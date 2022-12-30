@@ -1,6 +1,6 @@
 # MakeCaptureLostEvent
 
-Adds a node that create a 'CaptureLostEvent' from its members
+添加一个节点，从其成员中创建一个 "CaptureLostEvent"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CaptureLostEvent' from its members
 
 ## Outputs
 
-Capture Lost Event: Capture Lost Event Structure.
-
+捕获丢失的事件。捕获丢失的事件结构。

@@ -1,6 +1,6 @@
 # MakePendingDelayedSpawn
 
-Adds a node that create a 'PendingDelayedSpawn' from its members
+添加一个节点，从其成员中创建一个'PendingDelayedSpawn'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PendingDelayedSpawn' from its members
 
 ## Outputs
 
-Pending Delayed Spawn: Pending Delayed Spawn Structure.
-
+待定的延迟产卵。待定 延迟产卵的结构。

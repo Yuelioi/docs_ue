@@ -1,6 +1,6 @@
 # MakeSlateBrushOutlineSettings
 
-Adds a node that create a 'SlateBrushOutlineSettings' from its members
+添加一个节点，从其成员中创建一个 "SlateBrushOutlineSettings"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'SlateBrushOutlineSettings' from its members
 
 ## Inputs
 
-Corner Radii: Vector 4 Structure. Corner Radii:. Radius in Slate Units applied to the outline at each corner. X = Top Left, Y = Top Right, Z = Bottom Right, W = Bottom Left.
+角部半径。矢量4结构。角部半径：。以石板为单位的半径，应用于每个角的轮廓。X=左上角，Y=右上角，Z=右下角，W=左下角。
 
-Outline: Slate Color Structure. Color:. Tinting applied to the border outline..
+纲要。板岩颜色结构。颜色:.应用于边界轮廓的色调.
 
-Width: Float (single-precision). Width:. Line width in Slate Units applied to the border outline..
+宽度：浮点数（单精度）。宽度：。以Slate为单位的线宽，应用于边界轮廓。
 
-Rounding Type: ESlateBrushRoundingType Enum. Rounding Type:. The Rounding Type *.
+圆角类型。ESlateBrushRoundingType枚举。圆角类型：.圆角类型*。
 
-Use Brush Transparency: Boolean. Use Brush Transparency:. True if we should use the owning brush's transparency as our own *.  
+使用刷子的透明度。Boolean.使用画笔透明度：。如果我们应该使用拥有的画笔的透明度作为我们自己的透明度，则为真 *。  
 
 ## Outputs
 
-Slate Brush Outline Settings: Slate Brush Outline Settings Structure.
-
+石板刷的轮廓设置。石板画笔轮廓设置结构。

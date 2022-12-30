@@ -1,6 +1,6 @@
 # MakeDisplayClusterClusterEventBi-
 
-Adds a node that create a 'DisplayClusterClusterEventBinary' from its members
+添加一个节点，从其成员中创建一个'DisplayClusterClusterEventBinary'。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'DisplayClusterClusterEventBinary' from its members
 
 ## Inputs
 
-Event Id: Integer. Event Id:. Event ID (used for discarding outdated events).
+事件标识。整数。Event Id:.事件ID（用于丢弃过时的事件）。
 
-Event Data: Array of Bytes. Event Data:. Binary event data.
+事件数据。字节数组。事件数据：。二进制事件数据。
 
-Is Sytem Event. ' True' Is Reserved For N Display Internals.: Boolean. Is System Event:. Is nDisplay internal event (should never be true for end users).
+是系统事件。'True'是保留给N个显示内部的。Boolean.是系统事件：。是nDisplay内部事件（对终端用户来说不应该是真的）。
 
-Should Discard On Repeat: Boolean. Should Discard on Repeat:. Should older events with the same Name/Type/Category (for JSON) or ID (for binary) be discarded if a new one received.  
+重复时应丢弃：布尔值。重复时应丢弃：。如果收到新的事件，具有相同名称/类型/类别（对于JSON）或ID（对于二进制）的旧事件应被丢弃。  
 
 ## Outputs
 
-Display Cluster Cluster Event Binary: Display Cluster Cluster Event Binary Structure.
-
+显示群集事件的二进制。显示集群集群事件二进制结构。

@@ -1,6 +1,6 @@
 # SetmembersinAnalogInputEvent
 
-Adds a node that modifies a 'AnalogInputEvent'
+添加一个修改 "AnalogInputEvent "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AnalogInputEvent'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Analog Input Event Structure (by ref).  
+Struct Ref: 模拟输入事件结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Analog Input Event Structure (by ref). Reference to the input struct.
-
+Struct Out:模拟输入事件结构（通过参考）。对输入结构的引用。

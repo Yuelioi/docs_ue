@@ -1,6 +1,6 @@
 # SetmembersinBrushEffectTerracing
 
-Adds a node that modifies a 'BrushEffectTerracing'
+添加一个节点，修改 "刷子效果跟踪"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'BrushEffectTerracing'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Brush Effect Terracing Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Brush Effect Terracing Structure (by ref). Reference to the input struct.
-
+结构出来。刷子效应梯形结构（通过引用）。对输入结构的引用。

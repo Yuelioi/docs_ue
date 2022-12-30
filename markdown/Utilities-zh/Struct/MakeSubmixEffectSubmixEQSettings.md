@@ -1,6 +1,6 @@
 # MakeSubmixEffectSubmixEQSettings
 
-Adds a node that create a 'SubmixEffectSubmixEQSettings' from its members
+添加一个节点，从其成员中创建一个 "SubmixEffectSubmixEQSettings"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'SubmixEffectSubmixEQSettings' from its members
 
 ## Inputs
 
-EQBands: Array of Submix Effect EQBand Structures. EQBands:. The EQ bands to use..  
+EQBands:子混音效果EQBand结构的阵列。EQBands:.要使用的EQ带。
 
 ## Outputs
 
-Submix Effect Submix EQSettings: Submix Effect Submix EQSettings Structure.
-
+Submix Effect Submix EQSettings:Submix Effect Submix EQSettings结构。

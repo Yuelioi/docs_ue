@@ -1,6 +1,6 @@
 # MakeForceFeedbackAttenuationSett-
 
-Adds a node that create a 'ForceFeedbackAttenuationSettings' from its members
+添加一个节点，从其成员中创建一个 "ForceFeedbackAttenuationSettings"。
 
 ## 图示
 
@@ -8,27 +8,26 @@ Adds a node that create a 'ForceFeedbackAttenuationSettings' from its members
 
 ## Inputs
 
-Attenuation Function: EAttenuationDistanceModel Enum. Distance Algorithm:. The type of attenuation as a function of distance to use..
+衰减功能。EAttenuationDistanceModel枚举。距离算法：。衰减的类型作为距离的函数来使用。
 
-Attenuation Shape: EAttenuationShape Enum. Attenuation Shape:. The shape of the non-custom attenuation method..
+衰减形状。EAttenuationShape Enum.衰减形状：。非自定义衰减方法的形状。
 
-Attenuation at Max (D B): Float (single-precision). D BAttenuation at Max:. The attenuation volume at the falloff distance in decibels (Only for 'Natural Sound' Distance Algorithm)..
+最大处的衰减（D B）。Float（单精度）。D BAttenuation at Max: 。在衰减距离上的衰减量，单位是分贝（仅适用于 "自然声 "距离算法）。
 
-Falloff Mode: ENaturalSoundFalloffMode Enum. Falloff Mode:. Whether to continue attenuating, go silent, or hold last volume value when beyond falloff bounds and. 'Attenuation At Max (dB)' is set to a value greater than -60dB.. (Only for 'Natural Sound' Distance Algorithm). */.
+衰减模式。ENaturalSoundFalloffMode Enum.衰减模式：。当超出衰减范围时，是继续衰减，还是保持最后的音量值，并且'Attenuation At Max (dB)'被设置为大于-60dB...（仅适用于'自然声'距离算法）。*/.
 
-Attenuation Shape Extents: Vector. Attenuation Shape Extents:. The dimensions to use for the attenuation shape. Interpretation of the values differ per shape.. Sphere - X is Sphere Radius. Y and Z are unused. Capsule - X is Capsule Half Height, Y is Capsule Radius, Z is unused. Box - X, Y, and Z are the Box's dimensions. Cone - X is Cone Radius, Y is Cone Angle, Z is Cone Falloff Angle.
+衰减形状的范围。矢量。衰减形状的外延：。衰减形状使用的尺寸。每个形状的值的解释不同。Sphere - X是球体半径。Y和Z未使用。胶囊 - X是胶囊半高，Y是胶囊半径，Z是未使用的。盒子 - X, Y, 和 Z 是盒子的尺寸。锥体 - X是锥体半径，Y是锥体角度，Z是锥体脱落角度。
 
-Cone Offset: Float (single-precision). Cone Offset:. The distance back from the sound's origin to begin the cone when using the cone attenuation shape..
+锥体偏移。Float（单精度）。锥体偏移：。当使用锥体衰减形状时，从声音的原点向后开始锥体的距离。
 
-Falloff Distance: Float (single-precision). Falloff Distance:. The distance over which volume attenuation occurs..
+漂移距离。Float（单精度）。衰减距离：。发生体积衰减的距离。
 
-Cone Sphere Radius: Float (single-precision). Cone Sphere Radius:. An optional attenuation radius (sphere) that extends from the cone origin..
+锥体球体半径。Float（单精度）。Cone Sphere Radius:.一个可选的衰减半径（球体），从圆锥体的原点延伸出来。
 
-Cone Sphere Falloff Distance: Float (single-precision). Cone Sphere Falloff Distance:. The distance over which volume attenuation occurs for the optional sphere shape..
+锥体球体漂移距离。Float（单精度）。Cone Sphere Falloff Distance：.对于可选的球体形状，发生体积衰减的距离。
 
-Custom Attenuation Curve: Runtime Float Curve Structure. Custom Attenuation Curve:. The custom volume attenuation curve to use..  
+自定义衰减曲线。运行时浮动曲线结构。自定义衰减曲线：。要使用的自定义音量衰减曲线。
 
 ## Outputs
 
-Force Feedback Attenuation Settings: Force Feedback Attenuation Settings Structure.
-
+力反馈衰减设置。力反馈衰减设置结构。

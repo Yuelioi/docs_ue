@@ -1,6 +1,6 @@
 # MakeGameplayEffectCustomExecutio-
 
-Adds a node that create a 'GameplayEffectCustomExecutionOutput' from its members
+添加一个节点，从其成员中创建一个 "GameplayEffectCustomExecutionOutput"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayEffectCustomExecutionOutput' from its members
 
 ## Outputs
 
-Gameplay Effect Custom Execution Output: Gameplay Effect Custom Execution Output Structure.
-
+Gameplay Effect自定义执行输出。Gameplay Effect Custom Execution Output Structure.

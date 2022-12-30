@@ -1,6 +1,6 @@
 # MakeSubmixEffectTapDelaySettings
 
-Adds a node that create a 'SubmixEffectTapDelaySettings' from its members
+添加一个节点，从其成员中创建一个 "SubmixEffectTapDelaySettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'SubmixEffectTapDelaySettings' from its members
 
 ## Inputs
 
-Maximum Delay Length: Float (single-precision). Maximum Delay Length:. Maximum possible length for a delay, in milliseconds. Changing this at runtime will reset the effect..
+最大延时长度。Float (single-precision).最大延时长度：。延迟的最大可能长度，单位是毫秒。在运行时改变这个将重置效果。
 
-Interpolation Time: Float (single-precision). Interpolation Time:. Number of milliseconds over which a tap will reach it's set length and gain. Smaller values are more responsive, while larger values will make pitching less dramatic..
+插值时间。Float (single-precision).插值时间：。分接点达到它的设定长度和增益的毫秒数。较小的值反应更快，而较大的值会使投球的戏剧性降低。
 
-Taps: Array of Tap Delay Info Structures. Taps:. Each tap's metadata.  
+抽头。分接点延迟信息结构的阵列。Taps:.每个分接点的元数据。  
 
 ## Outputs
 
-Submix Effect Tap Delay Settings: Submix Effect Tap Delay Settings Structure.
-
+Submix Effect Tap Delay Settings:Submix Effect Tap Delay Settings结构。

@@ -1,6 +1,6 @@
 # MakeDataRegistryCachePolicy
 
-Adds a node that create a 'DataRegistryCachePolicy' from its members
+添加一个节点，从其成员中创建一个 "DataRegistryCachePolicy"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'DataRegistryCachePolicy' from its members
 
 ## Inputs
 
-Cache Is Always Volatile: Boolean. Cache Is Always Volatile:. If this is true, the cache is always considered volatile when returning EDataRegistryCacheResult.
+缓存总是不稳定：布尔值。Cache Is Always Volatile:.如果为真，在返回EDataRegistryCacheResult时，缓存总是被认为是不稳定的。
 
-Use Curve Table Cache Version: Boolean. Use Curve Table Cache Version:. If this is true, the cache version is synchronized with the global CurveTable cache version.
+使用曲线表缓存版本。布尔值。使用曲线表缓存版本：。如果为真，缓存版本与全局CurveTable缓存版本同步。
 
-Min Number Kept: Integer. Min Number Kept:. Will not release items if fewer then this number loaded, 0 means infinite.
+最少保留的数量。整数。最小保存数量：。如果少于这个数字，将不会释放项目，0表示无限。
 
-Max Number Kept: Integer. Max Number Kept:. Maximum number of items to keep loaded, 0 means infinite.
+保留的最大数量。整数。最大保存数量：。保持加载的项目的最大数量，0表示无限。
 
-Force Keep Seconds: Float (single-precision). Force Keep Seconds:. Any item accessed within this amount of seconds is never unloaded.
+强制保持秒数。Float (single-precision).强制保持秒数：。任何在这个秒数内访问的项目都不会被卸载。
 
-Force Release Seconds: Float (single-precision). Force Release Seconds:. Any item not accessed within this amount of seconds is always unloaded.  
+力量释放秒数。Float（单精度）。力量释放秒数：。任何在此秒数内未被访问的项目总是被卸载。  
 
 ## Outputs
 
-Data Registry Cache Policy: Data Registry Cache Policy Structure.
-
+数据注册处缓存政策。数据注册处缓存策略结构。

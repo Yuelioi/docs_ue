@@ -1,6 +1,6 @@
 # MakeARSessionStatus
 
-Adds a node that create a 'ARSessionStatus' from its members
+添加一个节点，从其成员中创建一个'ARSessionStatus'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ARSessionStatus' from its members
 
 ## Outputs
 
-ARSession Status: ARSession Status Structure.
-
+ARSession状态。ARSession状态结构。

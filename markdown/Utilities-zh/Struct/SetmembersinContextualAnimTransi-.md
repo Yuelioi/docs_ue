@@ -1,6 +1,6 @@
 # SetmembersinContextualAnimTransi-
 
-Adds a node that modifies a 'ContextualAnimTransitionContainer'
+添加一个修改 "ContextualAnimTransitionContainer "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ContextualAnimTransitionContainer'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Contextual Anim Transition Container Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Contextual Anim Transition Container Structure (by ref). Reference to the input struct.
-
+结构出来。语境中的动画转换容器结构（通过引用）。对输入结构的引用。

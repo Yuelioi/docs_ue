@@ -1,6 +1,6 @@
 # SetmembersinMovieSceneEventParam-
 
-Adds a node that modifies a 'MovieSceneEventParameters'
+添加一个节点，修改 "MovieSceneEventParameters"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MovieSceneEventParameters'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Movie Scene Event Parameters Structure (by ref).  
+Struct Ref: 电影场景事件参数结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Movie Scene Event Parameters Structure (by ref). Reference to the input struct.
-
+结构出来。电影场景事件参数结构（通过引用）。对输入结构的引用。

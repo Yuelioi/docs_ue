@@ -1,6 +1,6 @@
 # MakeViewportActionKeyInput
 
-Adds a node that create a 'ViewportActionKeyInput' from its members
+添加一个节点，从其成员中创建一个 "ViewportActionKeyInput"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ViewportActionKeyInput' from its members
 
 ## Outputs
 
-Viewport Action Key Input: Viewport Action Key Input Structure.
-
+视口动作键输入。视口动作键输入结构。

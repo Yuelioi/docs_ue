@@ -1,6 +1,6 @@
 # SetmembersinControlRigSnapperSel-
 
-Adds a node that modifies a 'ControlRigSnapperSelection'
+添加一个修改 "ControlRigSnapperSelection "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ControlRigSnapperSelection'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Control Rig Snapper Selection Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Control Rig Snapper Selection Structure (by ref). Reference to the input struct.
-
+结构出来。控制钻机鲷鱼选择结构（通过参考）。对输入结构的引用。

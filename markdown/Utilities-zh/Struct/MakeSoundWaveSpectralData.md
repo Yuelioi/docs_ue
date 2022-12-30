@@ -1,6 +1,6 @@
 # MakeSoundWaveSpectralData
 
-Adds a node that create a 'SoundWaveSpectralData' from its members
+添加一个节点，从其成员中创建一个 "SoundWaveSpectralData"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'SoundWaveSpectralData' from its members
 
 ## Inputs
 
-Frequency Hz: Float (single-precision). Frequency Hz:. The frequency (in Hz) of the spectrum value.
+频率Hz。浮点数（单精度）。频率Hz：。频谱值的频率（单位：Hz）。
 
-Magnitude: Float (single-precision). Magnitude:. The magnitude of the spectrum at this frequency.
+幅度。Float（单精度）。幅度：。该频率下频谱的幅值。
 
-Normalized Magnitude: Float (single-precision). Normalized Magnitude:. The normalized magnitude of the spectrum at this frequency.  
+归一化幅值。Float（单精度）。归一化幅值：。该频率下频谱的归一化幅值。  
 
 ## Outputs
 
-Sound Wave Spectral Data: Sound Wave Spectral Data Structure.
-
+声波频谱数据。声波频谱数据结构。

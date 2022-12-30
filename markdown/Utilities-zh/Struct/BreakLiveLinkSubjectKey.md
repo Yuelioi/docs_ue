@@ -1,6 +1,6 @@
 # BreakLiveLinkSubjectKey
 
-Adds a node that breaks a 'LiveLinkSubjectKey' into its member fields
+添加一个节点，将 "LiveLinkSubjectKey "分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'LiveLinkSubjectKey' into its member fields
 
 ## Inputs
 
-Live Link Subject Key: Live Link Subject Key Structure (by ref).  
+活体链接主题键。Live Link Subject Key Structure (by ref).  
 
 ## Outputs
 
-Source: Guid Structure. Source:. The guid for this subjects source.
+来源：《指南》。指导结构。源：。此主题来源的指南。
 
-Subject Name: Live Link Subject Name Structure. Subject Name:. The Name of this subject.
-
+主题名称。实时链接 主题名称结构。主题名称：。该主题的名称。

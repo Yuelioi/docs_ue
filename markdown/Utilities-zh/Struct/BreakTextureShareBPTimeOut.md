@@ -1,6 +1,6 @@
 # BreakTextureShareBPTimeOut
 
-Adds a node that breaks a 'TextureShareBPTimeOut' into its member fields
+添加一个节点，将'TextureShareBPTimeOut'分解成其成员字段
 
 ## 图示
 
@@ -8,16 +8,16 @@ Adds a node that breaks a 'TextureShareBPTimeOut' into its member fields
 
 ## Inputs
 
-Texture Share BPTime Out: Texture Share BPTime Out Structure (by ref).  
+纹理共享BPTime Out。纹理共享BPTime Out结构（通过参考）。  
 
 ## Outputs
 
-Connection Sync: Float (single-precision). Connection Sync:. Wait for processes shares connection (ETextureShareBPSyncConnect::Sync) [Seconds, zero for infinite].
+连接同步。Float (single-precision).连接同步：。等待进程共享连接（ETextureShareBPSyncConnect::Sync）[秒，零表示无限]。
 
-Frame Sync: Float (single-precision). Frame Sync:. Wait for frame index sync (ETextureShareBPSyncFrame::Sync) [Seconds, zero for infinite].
+帧同步。Float (single-precision).帧同步：。等待帧索引同步（ETextureShareBPSyncFrame::Sync）[Seconds, zero for infinite]。
 
-Texture Pairing Sync: Float (single-precision). Texture Pairing Sync:. Wait for remote process texture registering (ETextureShareBPSyncSurface::SyncPairingRead) [Seconds, zero for infinite].
+纹理配对同步。Float (single-precision).Texture Pairing Sync:.等待远程进程纹理注册（ETextureShareBPSyncSurface::SyncPairingRead）[Seconds, zero for infinite]。
 
-Texture Resource Sync: Float (single-precision). Texture Resource Sync:. Wait for remote resource(GPU) handle ready (ETextureShareBPSyncFrame::Sync) [Seconds, zero for infinite].
+纹理资源同步。Float (single-precision).纹理资源同步：。等待远程资源（GPU）句柄准备就绪（ETextureShareBPSyncFrame::Sync）[Seconds, zero for infinite]。
 
-Texture Sync: Float (single-precision). Texture Sync:. Wait before Read op texture until remote process finished texture write op [Seconds, zero for infinite].
+纹理同步。Float (single-precision).Texture Sync:.Read op texture前的等待，直到远程进程完成纹理写入操作[Seconds, zero for infinite]。

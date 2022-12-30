@@ -1,6 +1,6 @@
 # SetmembersinDMXFixtureCellAttrib-
 
-Adds a node that modifies a 'DMXFixtureCellAttribute'
+添加一个修改 "DMXFixtureCellAttribute "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXFixtureCellAttribute'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: DMXFixture Cell Attribute Structure (by ref).  
+结构参考：DMXFixture单元属性结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMXFixture Cell Attribute Structure (by ref). Reference to the input struct.
-
+结构输出。DMXFixture单元属性结构（通过参考）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeClientConversationMessage
 
-Adds a node that create a 'ClientConversationMessage' from its members
+添加一个节点，从其成员中创建一个 "客户端对话信息"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'ClientConversationMessage' from its members
 
 ## Inputs
 
-Speaker ID: Gameplay Tag Structure. Speaker ID.
+演讲者身份。游戏性标签结构。演讲者ID：Speaker ID。
 
-Participant Display Name: Text. Participant Display Name.
+参与者显示名称。文本。参与者显示名称。
 
-Text: Text. Text.
+文本。文本。文本。
 
-Metadata Parameters: Array of Conversation Node Parameter Pair Structures. Metadata Parameters:. Additional metadata for this message (e.g. Emotion: "Angry"/"Happy").  
+元数据参数。对话节点参数对结构的数组。元数据参数：。这个消息的额外元数据（例如，情绪："愤怒"/"快乐"）。  
 
 ## Outputs
 
-Client Conversation Message: Client Conversation Message Structure.
-
+客户端对话信息：客户端对话信息结构。

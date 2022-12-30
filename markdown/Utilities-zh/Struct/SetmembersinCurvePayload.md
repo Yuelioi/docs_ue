@@ -1,6 +1,6 @@
 # SetmembersinCurvePayload
 
-Adds a node that modifies a 'CurvePayload'
+添加一个修改'CurvePayload'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CurvePayload'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Curve Payload Structure (by ref).  
+Struct Ref: 曲线有效载荷结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Curve Payload Structure (by ref). Reference to the input struct.
-
+结构出来。曲线有效载荷结构（通过引用）。对输入结构的引用。

@@ -1,8 +1,8 @@
 # IsValidFrameRate
 
-Verifies that this is a valid framerate with a non-zero denominator.
+验证这是一个有效的帧速率，分母不为零。
 
-Target is Time Management Blueprint Library
+目标是时间管理蓝图库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Time Management Blueprint Library
 
 ## Inputs
 
-In Frame Rate: Frame Rate Structure (by ref).  
+在帧率。帧率结构（按参考）。  
 
 ## Outputs
 
-Return Value: Boolean. Verifies that this is a valid framerate with a non-zero denominator..
-
+返回值。布尔值。验证这是一个有效的帧速率，分母不为零。

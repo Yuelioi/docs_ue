@@ -1,6 +1,6 @@
 # MakeZoneShapePoint
 
-Adds a node that create a 'ZoneShapePoint' from its members
+添加一个节点，从其成员中创建一个 "ZoneShapePoint"。
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that create a 'ZoneShapePoint' from its members
 
 ## Inputs
 
-Position: Vector. Position:. Position of the point.
+位置。矢量。位置：。该点的位置。
 
-Tangent Length: Float (single-precision). Tangent Length:. Length of the Bezier point tangents, or cached half-width of the lane profile..
+切线长度。Float（单精度）。切线长度：。贝塞尔点切线的长度，或缓存的车道轮廓的半宽。
 
-Inner Turn Radius: Float (single-precision). Inner Turn Radius:. Inner turn radius associated with this point. Used when polygon shape routing is set to 'Arcs'..
+内转半径。Float（单精度）。内部转弯半径：。与此点相关的内转半径。当多边形形状的路由被设置为 "弧形 "时使用。
 
-Rotation: Rotator. Rotation:. Rotation of the point. Forward direction of the rotation matches the tangents.. For Lane Profile points, the forward directions points into the shape so that we can match the incoming lanes rotation..
+旋转。旋转器。旋转：。点的旋转。旋转的前进方向与切线相匹配。对于车道轮廓点，前进方向指向形状，这样我们就可以匹配传入车道的旋转。
 
-Type: FZoneShapePointType Enum. Type:. Type of the control point.
+类型。FZoneShapePointType枚举。类型：。控制点的类型。
 
-Lane Profile: Byte. Lane Profile:. Index to external array referring to Lane Profile, or FZoneShapePoint::InheritLaneProfile if we should use Shape's lane profile.. This is a little awkward indirection, but keeps the point memory usage in check..
+车道简介。字节。Lane Profile:.指向外部数组的索引，指的是车道轮廓，如果我们应该使用Shape的车道轮廓，则是FZoneShapePoint::InheritLaneProfile。这是一个有点尴尬的间接性，但可以控制点的内存使用。
 
-Reverse Lane Profile: Boolean. Reverse Lane Profile:. True of lane profile should be reversed..
+反向车道轮廓。Boolean.Reverse Lane Profile（反转车道轮廓）：。车道轮廓应被反转的真值。
 
-Lane Connection Restrictions: Bitmask Integer. Lane Connection Restrictions:. Lane connection restrictions.  
+车道连接限制。Bitmask Integer.Lane Connection Restrictions:.车道连接限制。  
 
 ## Outputs
 
-Zone Shape Point: Zone Shape Point Structure.
-
+区域形状点。区域形状点结构。

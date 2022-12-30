@@ -1,6 +1,6 @@
 # BreakXRMotionControllerData
 
-Adds a node that breaks a 'XRMotionControllerData' into its member fields
+添加一个节点，将'XRMotionControllerData'分解成其成员字段
 
 ## 图示
 
@@ -8,35 +8,34 @@ Adds a node that breaks a 'XRMotionControllerData' into its member fields
 
 ## Inputs
 
-XRMotion Controller Data: XRMotion Controller Data Structure (by ref).  
+XRMotion控制器的数据。XRMotion控制器数据结构（通过参考）。  
 
 ## Outputs
 
-Valid: Boolean. Valid.
+有效。布尔型。有效。
 
-Device Name: Name. Device Name.
+设备名称。名称。设备名称。
 
-Application Instance ID: Guid Structure. Application Instance ID.
+应用程序实例ID：指导结构。应用实例ID。
 
-Device Visual Type: EXRVisualType Enum. Device Visual Type.
+设备视觉类型。EXRVisualType枚举。设备视觉类型。
 
-Hand Index: EControllerHand Enum. Hand Index.
+手的索引。EControllerHand Enum.手指数。
 
-Tracking Status: ETrackingStatus Enum. Tracking Status.
+追踪状态。ETTrackingStatus枚举。追踪状态。
 
-Grip Position: Vector. Grip Position.
+握持位置。向量。握持位置。
 
-Grip Rotation: Quat Structure. Grip Rotation.
+握力旋转：Quat结构。握力旋转。
 
-Aim Position: Vector. Aim Position:. for hand controllers, provides a more steady vector based on the elbow.
+瞄准位置。矢量。瞄准位置：.对于手控器，提供一个基于肘部的更稳定的矢量。
 
-Aim Rotation: Quat Structure. Aim Rotation.
+目标旋转。Quat结构。瞄准旋转。
 
-Hand Key Positions: Array of Vectors. Hand Key Positions:. The indices of this array are the values of EHandKeypoint (Palm, Wrist, ThumbMetacarpal, etc)..
+手键位置。阵列矢量。手键位置：。这个数组的索引是EHandKeypoint的值（Palm, Wrist, ThumbMetacarpal, etc.）。
 
-Hand Key Rotations: Array of Quat Structures. Hand Key Rotations:. The indices of this array are the values of EHandKeypoint (Palm, Wrist, ThumbMetacarpal, etc)..
+手键旋转。Quat结构的阵列。手键旋转：。这个数组的索引是EHandKeypoint的值（Palm, Wrist, ThumbMetacarpal, etc.）。
 
-Hand Key Radii: Array of Float (single-precision)s. Hand Key Radii:. The indices of this array are the values of EHandKeypoint (Palm, Wrist, ThumbMetacarpal, etc)..
+手键半径。Float（单精度）的数组。手键半径：。这个数组的索引是EHandKeypoint（手掌、手腕、拇指掌骨等）的值。
 
-Is Grasped: Boolean. Is Grasped.
-
+是抓取的。布尔型。是否被抓取。

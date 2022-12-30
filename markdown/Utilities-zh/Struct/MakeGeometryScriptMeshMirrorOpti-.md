@@ -1,6 +1,6 @@
 # MakeGeometryScriptMeshMirrorOpti-
 
-Adds a node that create a 'GeometryScriptMeshMirrorOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptMeshMirrorOptions"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'GeometryScriptMeshMirrorOptions' from its members
 
 ## Inputs
 
-Apply Plane Cut: Boolean. Apply Plane Cut.
+应用平面切割。布尔型。应用平面切割。
 
-Flip Cut Side: Boolean. Flip Cut Side.
+翻转切面。布尔型。翻转切割面。
 
-Weld Along Plane: Boolean. Weld Along Plane.  
+沿着平面焊接。布尔型。沿着平面焊接。  
 
 ## Outputs
 
-Geometry Script Mesh Mirror Options: Geometry Script Mesh Mirror Options Structure.
-
+Geometry Script Mesh Mirror Options:Geometry Script Mesh Mirror Options结构。

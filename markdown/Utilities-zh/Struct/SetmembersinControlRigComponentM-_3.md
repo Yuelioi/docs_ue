@@ -1,6 +1,6 @@
 # SetmembersinControlRigComponentM-_3
 
-Adds a node that modifies a 'ControlRigComponentMappedElement'
+添加一个修改 "ControlRigComponentMappedElement "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ControlRigComponentMappedElement'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Mapped Element Structure (by ref).  
+结构参考：映射的元素结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Mapped Element Structure (by ref). Reference to the input struct.
-
+结构出来。映射的元素结构（通过引用）。对输入结构的引用。

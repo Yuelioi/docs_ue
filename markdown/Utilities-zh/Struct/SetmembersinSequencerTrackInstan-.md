@@ -1,6 +1,6 @@
 # SetmembersinSequencerTrackInstan-
 
-Adds a node that modifies a 'SequencerTrackInstanceInput'
+添加一个修改 "SequencerTrackInstanceInput "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SequencerTrackInstanceInput'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Sequencer Track Instance Input Structure (by ref).  
+Struct Ref: Sequencer Track Instance Input Structure（通过Ref）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sequencer Track Instance Input Structure (by ref). Reference to the input struct.
-
+Struct Out:Sequencer Track Instance Input Structure（通过ref）。对输入结构的引用。

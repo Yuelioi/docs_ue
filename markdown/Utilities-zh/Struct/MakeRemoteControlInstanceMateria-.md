@@ -1,6 +1,6 @@
 # MakeRemoteControlInstanceMateria-
 
-Adds a node that create a 'RemoteControlInstanceMaterial' from its members
+添加一个节点，从其成员中创建一个 "RemoteControlInstanceMaterial"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RemoteControlInstanceMaterial' from its members
 
 ## Outputs
 
-Remote Control Instance Material: Remote Control Instance Material Structure.
-
+遥控实例材料。遥控实例材料结构。

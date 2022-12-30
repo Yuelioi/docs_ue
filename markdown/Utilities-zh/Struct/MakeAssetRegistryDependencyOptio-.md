@@ -1,6 +1,6 @@
 # MakeAssetRegistryDependencyOptio-
 
-Adds a node that create a 'AssetRegistryDependencyOptions' from its members
+添加一个节点，从其成员中创建一个'AssetRegistryDependencyOptions'。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'AssetRegistryDependencyOptions' from its members
 
 ## Inputs
 
-Include Soft Package References: Boolean. Include Soft Package References:. Dependencies which don't need to be loaded for the object to be used (i.e. soft object paths).
+包括软包引用。布尔型。包括软包引用：。使用对象时不需要加载的依赖项（即软对象路径）。
 
-Include Hard Package References: Boolean. Include Hard Package References:. Dependencies which are required for correct usage of the source asset, and must be loaded at the same time.
+包括硬包参考。布尔型。包括硬包参考：。正确使用源资产所需的依赖，并且必须同时加载。
 
-Include Searchable Names: Boolean. Include Searchable Names:. References to specific SearchableNames inside a package.
+包括可搜索的名称。布尔型。包括可搜索的名称：。对包内特定SearchableNames的引用。
 
-Include Soft Management References: Boolean. Include Soft Management References:. Indirect management references, these are set through recursion for Primary Assets that manage packages or other primary assets.
+包括软管理引用。布尔型。包括软管理引用：。间接管理引用，这些是通过递归为管理包或其他主要资产的主要资产而设置的。
 
-Include Hard Management References: Boolean. Include Hard Management References:. Reference that says one object directly manages another object, set when Primary Assets manage things explicitly.  
+包括硬管理引用。布尔型。包括硬管理引用：。表示一个对象直接管理另一个对象的引用，在初级资产明确管理事物时设置。  
 
 ## Outputs
 
-Asset Registry Dependency Options: Asset Registry Dependency Options Structure.
-
+资产注册处的依赖性选项。资产注册处的依赖性选项结构。

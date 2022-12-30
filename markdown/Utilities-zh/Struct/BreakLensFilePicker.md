@@ -1,6 +1,6 @@
 # BreakLensFilePicker
 
-Adds a node that breaks a 'LensFilePicker' into its member fields
+添加一个节点，将'LensFilePicker'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'LensFilePicker' into its member fields
 
 ## Inputs
 
-Lens File Picker: Lens File Picker Structure (by ref).  
+镜头式文件选取器。镜头文件选取器结构（通过参考）。  
 
 ## Outputs
 
-Use Default Lens File: Boolean. Use Default Lens File:. If true, default LensFile will be used, if one is set.
+使用默认镜头文件：布尔值。使用默认镜头文件：。如果为真，将使用默认的LensFile，如果有设置的话。
 
-Lens File: Lens File Object Reference. Lens File:. LensFile asset to use if DefaultLensFile is not desired.
-
+镜头文件：镜头文件对象参考。镜头文件:。如果不需要DefaultLensFile，则使用LensFile资产。

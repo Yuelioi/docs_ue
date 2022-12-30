@@ -1,8 +1,8 @@
 # QualifiedFrameTimetoSeconds
 
-Converts an QualifiedFrameTime to seconds.
+将一个QualifiedFrameTime转换为秒。
 
-Target is Time Management Blueprint Library
+目标是时间管理蓝图库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Time Management Blueprint Library
 
 ## Inputs
 
-In Frame Time: Qualified Frame Time Structure (by ref).  
+在框架时间内。合格的框架时间结构（按参考）。  
 
 ## Outputs
 
-Return Value: Float (single-precision). Converts an QualifiedFrameTime to seconds..
-
+返回值。Float（单精度）。将一个QualifiedFrameTime转换为秒。

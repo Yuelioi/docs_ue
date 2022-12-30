@@ -1,6 +1,6 @@
 # MakeConversationNodeHandle
 
-Adds a node that create a 'ConversationNodeHandle' from its members
+添加一个节点，从其成员中创建一个'ConversationNodeHandle'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ConversationNodeHandle' from its members
 
 ## Outputs
 
-Conversation Node Handle: Conversation Node Handle Structure.
-
+对话节点句柄。对话节点手柄的结构。

@@ -1,6 +1,6 @@
 # SetmembersinRawAnimSequenceTrack
 
-Adds a node that modifies a 'RawAnimSequenceTrack'
+添加一个修改 "RawAnimSequenceTrack "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RawAnimSequenceTrack'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Raw Anim Sequence Track Structure (by ref).  
+Struct Ref: 原始动画序列轨道结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Raw Anim Sequence Track Structure (by ref). Reference to the input struct.
-
+结构出来。原始动画序列轨迹结构（通过参考）。对输入结构的引用。

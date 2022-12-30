@@ -1,6 +1,6 @@
 # SetmembersinHairCardsGeometrySet-
 
-Adds a node that modifies a 'HairCardsGeometrySettings'
+添加一个节点，修改 "HairCardsGeometrySettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'HairCardsGeometrySettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Hair Cards Geometry Settings Structure (by ref).  
+结构参考：发卡几何设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Hair Cards Geometry Settings Structure (by ref). Reference to the input struct.
-
+Struct Out: Hair Cards Geometry Settings Structure (by ref).对输入结构的引用。

@@ -1,6 +1,6 @@
 # SetmembersinGerstnerWave
 
-Adds a node that modifies a 'GerstnerWave'
+添加一个修改 "GerstnerWave "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GerstnerWave'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Gerstner Wave Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Gerstner Wave Structure (by ref). Reference to the input struct.
-
+结构出来。Gerstner Wave Structure（通过ref）。对输入结构的引用。

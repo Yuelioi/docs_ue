@@ -1,6 +1,6 @@
 # MakeLiveLinkSubjectProperty
 
-Adds a node that create a 'LiveLinkSubjectProperty' from its members
+添加一个节点，从其成员中创建一个 "LiveLinkSubjectProperty"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'LiveLinkSubjectProperty' from its members
 
 ## Inputs
 
-Subject Name: Name. Subject Name.
+主题名称。姓名。主题名称。
 
-Enabled: Boolean. Enabled.  
+已启用。布尔型。已启用。  
 
 ## Outputs
 
-Live Link Subject Property: Live Link Subject Property Structure.
-
+现场链接标的物。现场链接 标的物的结构。

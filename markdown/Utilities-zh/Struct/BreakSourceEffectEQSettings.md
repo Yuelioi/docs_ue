@@ -1,6 +1,6 @@
 # BreakSourceEffectEQSettings
 
-Adds a node that breaks a 'SourceEffectEQSettings' into its member fields
+添加一个节点，将'SourceEffectEQSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'SourceEffectEQSettings' into its member fields
 
 ## Inputs
 
-Source Effect EQSettings: Source Effect EQSettings Structure (by ref).  
+源效果EQSettings。源效果EQSettings结构（通过参考）。  
 
 ## Outputs
 
-EQBands: Array of Source Effect EQBand Structures. EQBands:. The EQ bands to use.
-
+EQBands。阵列的源效应EQBand结构。EQBands:。要使用的EQ带。

@@ -1,6 +1,6 @@
 # BreakSourceEffectBitCrusherBaseS-
 
-Adds a node that breaks a 'SourceEffectBitCrusherBaseSettings' into its member fields
+添加一个节点，将'SourceEffectBitCrusherBaseSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'SourceEffectBitCrusherBaseSettings' into its member f
 
 ## Inputs
 
-Source Effect Bit Crusher Base Settings: Source Effect Bit Crusher Base Settings Structure (by ref).  
+源效位粉碎机基础设置。源效应位粉碎机基础设置结构（按参考）。  
 
 ## Outputs
 
-Sample Rate: Float (single-precision). Sample Rate:. The reduced frequency to use for the audio stream..
+采样率。Float（单精度）。采样率：。用于音频流的降低频率。
 
-Bit Depth: Float (single-precision). Bit Depth:. The reduced bit depth to use for the audio stream.
-
+位深度。Float (single-precision).Bit Depth:.用于音频流的缩小的比特深度。

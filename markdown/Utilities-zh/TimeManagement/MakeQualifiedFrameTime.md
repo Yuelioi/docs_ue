@@ -1,8 +1,8 @@
 # MakeQualifiedFrameTime
 
-Creates a FQualifiedFrameTime out of a frame number, frame rate, and optional 0-1 clamped subframe.
+从帧号、帧率和可选的0-1个钳制子帧中创建一个FQualifiedFrameTime。
 
-Target is Kismet Math Library
+目标是Kismet数学图书馆
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet Math Library
 
 ## Inputs
 
-Frame: Frame Number Structure.
+框架。框架编号结构。
 
-Frame Rate: Frame Rate Structure.
+帧率。帧率结构。
 
-Sub Frame: Float (single-precision).  
+子帧。Float（单精度）。  
 
 ## Outputs
 
-Return Value: Qualified Frame Time Structure. Creates a FQualifiedFrameTime out of a frame number, frame rate, and optional 0-1 clamped subframe..
-
+返回值。合格的帧时间结构。从帧号、帧速率和可选的0-1个钳制子帧中创建一个FQualifiedFrameTime。

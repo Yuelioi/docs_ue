@@ -1,6 +1,6 @@
 # MakeSceneViewExtensionIsActiveFu-
 
-Adds a node that create a 'SceneViewExtensionIsActiveFunctor' from its members
+添加一个节点，从其成员中创建一个 "SceneViewExtensionIsActiveFunctor"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SceneViewExtensionIsActiveFunctor' from its members
 
 ## Outputs
 
-Scene View Extension Is Active Functor: Scene View Extension Is Active Functor Structure.
-
+场景视图扩展是主动向量。Scene View Extension Is Active Functor结构。

@@ -1,6 +1,6 @@
 # BreakPythonLogOutputEntry
 
-Adds a node that breaks a 'PythonLogOutputEntry' into its member fields
+添加一个节点，将'PythonLogOutputEntry'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'PythonLogOutputEntry' into its member fields
 
 ## Inputs
 
-Python Log Output Entry: Python Log Output Entry Structure (by ref).  
+Python日志输出条目。Python日志输出条目结构（按参考）。  
 
 ## Outputs
 
-Type: EPythonLogOutputType Enum. Type:. The type of the log output..
+类型。EPythonLogOutputType枚举。类型:.日志输出的类型。
 
-Output: String. Output:. The log output string..
-
+输出。字符串。输出：。日志输出字符串。

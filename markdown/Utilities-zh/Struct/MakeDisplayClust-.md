@@ -1,6 +1,6 @@
 # MakeDisplayClust-
 
-Adds a node that create a 'DisplayClusterConfigurationClusterItemReferenceList' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationClusterItemReferenceList"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DisplayClusterConfigurationClusterItemReferenceList' 
 
 ## Outputs
 
-Display Cluster Configuration Cluster Item Reference List: Display Cluster Configuration Cluster Item Reference List Structure.
-
+显示群集配置群集项目参考列表。显示群集配置群集项目参考列表结构。

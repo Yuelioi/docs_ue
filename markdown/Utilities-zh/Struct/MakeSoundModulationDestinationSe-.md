@@ -1,6 +1,6 @@
 # MakeSoundModulationDestinationSe-
 
-Adds a node that create a 'SoundModulationDestinationSettings' from its members
+添加一个节点，从其成员中创建一个 "SoundModulationDestinationSettings"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'SoundModulationDestinationSettings' from its members
 
 ## Inputs
 
-Value: Float (single-precision). Value:. Base value of parameter.
+值。Float (single-precision).值：。参数的基础值。
 
-Modulator: Sound Modulator Base Object Reference. Modulator:. Modulation source, which provides value to mix with base value..  
+调制器。声音调制器基础对象参考。调制器:.调制源，它提供了与基础值混合的数值。
 
 ## Outputs
 
-Sound Modulation Destination Settings: Sound Modulation Destination Settings Structure.
-
+声音调制目的地设置。声音调制目的地设置结构。

@@ -1,6 +1,6 @@
 # MakeScriptTypedElementListProxy
 
-Adds a node that create a 'ScriptTypedElementListProxy' from its members
+添加一个节点，从其成员中创建一个'ScriptTypedElementListProxy'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ScriptTypedElementListProxy' from its members
 
 ## Outputs
 
-Script Typed Element List Proxy: Typed Element List Structure.
-
+脚本类型化元素列表代理。类型化元素列表结构。

@@ -1,6 +1,6 @@
 # BreakMPCDIGeometryImportData
 
-Adds a node that breaks a 'MPCDIGeometryImportData' into its member fields
+添加一个节点，将'MPCDIGeometryImportData'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'MPCDIGeometryImportData' into its member fields
 
 ## Inputs
 
-MPCDIGeometry Import Data: MPCDIGeometry Import Data Structure (by ref).  
+MPCDIGeometry导入数据。MPCDIGeometry导入数据结构（按参考）。  
 
 ## Outputs
 
-Width: Integer. Width.
+宽度：整数。宽度。
 
-Height: Integer. Height.
+高度：整数。高度。
 
-Vertices: Array of Vectors. Vertices.
-
+顶点。矢量的阵列。垂直点。

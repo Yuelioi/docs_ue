@@ -1,6 +1,6 @@
 # MakeVREDCppVariantCamera
 
-Adds a node that create a 'VREDCppVariantCamera' from its members
+添加一个节点，从其成员中创建一个 "VREDCppVariantCamera"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'VREDCppVariantCamera' from its members
 
 ## Inputs
 
-Options: Array of VREDCpp Variant Camera Option Structures. Options.  
+选项。VREDCpp变量相机选项结构的数组。选项。  
 
 ## Outputs
 
-VREDCpp Variant Camera: VREDCpp Variant Camera Structure.
-
+VREDCpp变体相机。VREDCpp变体相机结构。

@@ -1,6 +1,6 @@
 # MakeDatasmithAssetImportOptions
 
-Adds a node that create a 'DatasmithAssetImportOptions' from its members
+添加一个节点，从其成员中创建一个 "DatasmithAssetImportOptions"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DatasmithAssetImportOptions' from its members
 
 ## Outputs
 
-Datasmith Asset Import Options: Datasmith Asset Import Options Structure.
-
+Datasmith资产导入选项。Datasmith资产导入选项结构。

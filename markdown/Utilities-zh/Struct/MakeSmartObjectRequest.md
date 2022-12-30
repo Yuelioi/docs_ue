@@ -1,6 +1,6 @@
 # MakeSmartObjectRequest
 
-Adds a node that create a 'SmartObjectRequest' from its members
+添加一个节点，从其成员中创建一个 "SmartObjectRequest"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'SmartObjectRequest' from its members
 
 ## Inputs
 
-Query Box: Box Structure. Query Box:. Box defining the search range.
+查询框。箱子结构。查询框：。定义搜索范围的方框。
 
-Filter: Smart Object Request Filter Structure. Filter:. Struct used to filter out some results (all results allowed by default).  
+过滤器。智能对象请求过滤器结构。过滤器：。用于过滤掉一些结果的结构（默认允许所有结果）。  
 
 ## Outputs
 
-Smart Object Request: Smart Object Request Structure.
-
+智能对象请求：智能对象请求结构。

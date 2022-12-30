@@ -1,6 +1,6 @@
 # MakeFrameNumberRangeBound
 
-Adds a node that create a 'FrameNumberRangeBound' from its members
+添加一个节点，从其成员中创建一个 "FrameNumberRangeBound"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'FrameNumberRangeBound' from its members
 
 ## Inputs
 
-Type: ERangeBoundTypes Enum. Type.
+类型。ERangeBoundTypes Enum.类型。
 
-Value: Frame Number Structure. Value.  
+价值。帧号结构。值。  
 
 ## Outputs
 
-Frame Number Range Bound: Frame Number Range Bound Structure.
-
+帧号范围约束。帧号范围边界结构。

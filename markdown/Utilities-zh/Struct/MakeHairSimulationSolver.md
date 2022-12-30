@@ -1,6 +1,6 @@
 # MakeHairSimulationSolver
 
-Adds a node that create a 'HairSimulationSolver' from its members
+添加一个节点，从其成员中创建一个 "HairSimulationSolver"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'HairSimulationSolver' from its members
 
 ## Inputs
 
-Enable Simulation: Boolean. Enable Simulation:. Enable the simulation of the groom groups/LODs if both this boolean and the one in the groom asset are true.  
+启用模拟。布尔型。启用模拟：。如果这个布尔值和新郎资产中的布尔值都为真，则启用新郎组/LODs的模拟。  
 
 ## Outputs
 
-Hair Simulation Solver: Hair Simulation Solver Structure.
-
+头发模拟求解器：头发模拟求解器结构。

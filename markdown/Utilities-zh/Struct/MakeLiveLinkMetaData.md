@@ -1,6 +1,6 @@
 # MakeLiveLinkMetaData
 
-Adds a node that create a 'LiveLinkMetaData' from its members
+添加一个节点，从其成员中创建一个 "LiveLinkMetaData"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'LiveLinkMetaData' from its members
 
 ## Inputs
 
-String Meta Data: Map of Names to Strings. String Meta Data.
+字符串元数据。名称到字符串的映射。字符串元数据。
 
-Scene Time: Qualified Frame Time Structure. Scene Time.  
+场景时间。合格的框架时间结构。场景时间。  
 
 ## Outputs
 
-Live Link Meta Data: Live Link Meta Data Structure.
-
+现场链接元数据。现场链接元数据结构。

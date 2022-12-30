@@ -1,6 +1,6 @@
 # SetmembersinDMXInputPortConfig
 
-Adds a node that modifies a 'DMXInputPortConfig'
+添加一个节点，修改 "DMXInputPortConfig"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXInputPortConfig'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: DMXInput Port Config Structure (by ref).  
+结构参考：DMXInput端口配置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMXInput Port Config Structure (by ref). Reference to the input struct.
-
+结构输出。DMXInput端口配置结构（通过参考）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeAzureSpatialAnchorsSessionCo-
 
-Adds a node that create a 'AzureSpatialAnchorsSessionConfiguration' from its members
+添加一个节点，从其成员中创建一个 "AzureSpatialAnchorsSessionConfiguration"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'AzureSpatialAnchorsSessionConfiguration' from its mem
 
 ## Inputs
 
-Access Token: String. Access Token.
+Access Token: 字符串。访问令牌。
 
-Account Id: String. Account Id.
+帐户ID。字符串。帐户ID。
 
-Account Key: String. Account Key.
+帐户密钥。字符串。帐户密钥。
 
-Account Domain: String. Account Domain.
+帐户域。字符串。帐户域。
 
-Authentication Token: String. Authentication Token.  
+认证令牌。字符串。认证令牌。  
 
 ## Outputs
 
-Azure Spatial Anchors Session Configuration: Azure Spatial Anchors Session Configuration Structure.
-
+Azure Spatial Anchors会话配置。Azure Spatial Anchors会话配置结构。

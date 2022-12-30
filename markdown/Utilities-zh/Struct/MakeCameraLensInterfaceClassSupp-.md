@@ -1,6 +1,6 @@
 # MakeCameraLensInterfaceClassSupp-
 
-Adds a node that create a 'CameraLensInterfaceClassSupport' from its members
+添加一个节点，从其成员中创建一个 "CameraLensInterfaceClassSupport"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CameraLensInterfaceClassSupport' from its members
 
 ## Outputs
 
-Camera Lens Interface Class Support: Camera Lens Interface Class Support Structure.
-
+相机镜头接口类支持。相机镜头接口类支持结构。

@@ -1,6 +1,6 @@
 # MakeMockPhysicsInputCmd
 
-Adds a node that create a 'MockPhysicsInputCmd' from its members
+添加一个节点，从其成员中创建一个 "MockPhysicsInputCmd"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'MockPhysicsInputCmd' from its members
 
 ## Inputs
 
-Movement Input: Vector. Movement Input.
+运动输入。矢量。运动输入。
 
-Jumped Pressed: Boolean. Jumped Pressed.
+跳跃的按下。布尔型。跳跃的按下。
 
-Charge Pressed: Boolean. Charge Pressed.  
+充电的时候。布尔型。冲锋陷阵。  
 
 ## Outputs
 
-Mock Physics Input Cmd: Mock Physics Input Cmd Structure.
-
+模拟物理学输入指令。模拟物理学输入指令的结构。

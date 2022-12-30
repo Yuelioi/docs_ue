@@ -1,6 +1,6 @@
 # MakeSimSpaceSettings
 
-Adds a node that create a 'SimSpaceSettings' from its members
+添加一个节点，从其成员中创建一个 "SimSpaceSettings"。
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that create a 'SimSpaceSettings' from its members
 
 ## Inputs
 
-Master Alpha: Float (single-precision). Master Alpha:. Global multipler on the effects of simulation space movement. Must be in range [0, 1]. If MasterAlpha = 0.0, the system is disabled and the simulation will. be fully local (i.e., world-space actor movement and rotation does not affect the simulation). When MasterAlpha = 1.0 the simulation effectively acts as a. world-space sim, but with the ability to apply limits using the other parameters..
+主阿尔法。Float (single-precision).主Alpha:。关于模拟空间移动效果的全局多普勒。必须在[0, 1]范围内。如果MasterAlpha = 0.0，系统被禁用，模拟将完全是局部的（即世界空间的演员运动和旋转不会影响模拟）。当MasterAlpha=1.0时，模拟将有效地作为一个世界空间的模拟，但能够使用其他参数进行限制。
 
-Velocity Scale Z: Float (single-precision). Velocity Scale Z:. Multiplier on the Z-component of velocity and acceleration that is passed to the simulation. Usually from 0.0 to 1.0 to. reduce the effects of jumping and crouching on the simulation, but it can be higher than 1.0 if you need to exaggerate this motion for some reason..
+速度刻度Z：浮点数（单精度）。速度标度Z：。传递给模拟的速度和加速度的Z分量的乘数。通常从0.0到1.0，以减少跳跃和蹲下对模拟的影响，但是如果你因为某种原因需要夸大这种运动，它可以高于1.0。
 
-Max Linear Velocity: Float (single-precision). Max Linear Velocity:. A clamp on the effective world-space velocity that is passed to the simulation. Units are cm/s. The default value effectively means "unlimited". It is not usually required to. change this but you would reduce this to limit the effects of drag on the bodies in the simulation (if you have bodies that have LinearDrag set to non-zero in the physics asset).. Expected values in this case would be somewhat less than the usual velocities of your object which is commonly a few hundred for a character..
+最大线性速度。Float (single-precision).最大线性速度：。对传递给模拟的有效世界空间速度的钳制。单位是cm/s。默认值实际上意味着 "无限"。通常不需要改变这个值，但是你可以减少这个值来限制模拟中的物体的阻力影响（如果你的物体在物理资产中的LinearDrag设置为非零）。在这种情况下，预期的数值会比你的物体的通常速度要小一些，对于一个角色来说，通常是几百的速度。
 
-Max Angular Velocity: Float (single-precision). Max Angular Velocity:. A clamp on the effective world-space angular velocity that is passed to the simulation. Units are radian/s, so a value of about 6.0 is one rotation per second.. The default value effectively means "unlimited". You would reduce this (and MaxAngularAcceleration) to limit how much bodies "fly out" when the actor spins on the spot.. This is especially useful if you have characters than can rotate very quickly and you would probably want values around or less than 10 in this case..
+最大角速度。Float（单精度）。最大角速度：。对传递给模拟的有效世界空间角速度的一个钳制。单位是弧度/秒，所以大约6.0的值是每秒一个旋转。默认值实际上意味着 "无限"。你可以减少这个值（和MaxAngularAcceleration）来限制演员在原地旋转时身体 "飞出去 "的程度。如果你的角色可以快速旋转，这一点就特别有用，在这种情况下，你可能希望数值在10左右或小于10。
 
-Max Linear Acceleration: Float (single-precision). Max Linear Acceleration:. A clamp on the effective world-space acceleration that is passed to the simulation. Units are cm/s/s. The default value effectively means "unlimited".. This property is used to stop the bodies of the simulation flying out when suddenly changing linear speed. It is useful when you have characters than can. changes from stationary to running very quickly such as in an FPS. A common value for a character might be in the few hundreds..
+最大线性加速度。Float (single-precision).最大线性加速度：。对传递给模拟的有效世界空间加速度的钳制。单位是cm/s/s。默认值实际上意味着 "无限"。这个属性用来阻止模拟的身体在突然改变线性速度时飞出去。当你的角色可以从静止状态迅速转变为运行状态时，例如在FPS中，这个属性很有用。一个角色的常用值可能是几百个。
 
-Max Angular Acceleration: Float (single-precision). Max Angular Acceleration:. A clamp on the effective world-space angular accleration that is passed to the simulation. Units are radian/s/s. The default value effectively means "unlimited".. This has a similar effect to MaxAngularVelocity, except that it is related to the flying out of bodies when the rotation speed suddenly changes. Typical limist for. a character might be around 100..
+最大角加速度。Float（单精度）。最大角加速度：。对传递给模拟的有效世界空间角加速度的钳制。单位是弧度/秒。默认值实际上意味着 "无限"。这与最大角速度（MaxAngularVelocity）有类似的效果，只是它与旋转速度突然改变时身体的飞出有关。一个角色的典型极限可能是100左右。
 
-External Linear Drag V: Vector. External Linear Drag V:. Additional linear drag applied to every body in addition to linear drag specified on them in the physics asset.. When combined with ExternalLinearVelocity, this can be used to add a temporary wind-blown effect without having to tune linear drag on. all the bodies in the physics asset. The result is that each body has a force equal to -ExternalLinearDragV * ExternalLinearVelocity applied to it, in. additional to all other forces. The vector is in simulation local space..
+外部线性阻力V：向量。外部线性拖拽V:。除了在物理资产中指定的线性拖动之外，应用于每个体的额外线性拖动。当与ExternalLinearVelocity结合时，这可以用来添加一个临时的风吹效果，而不需要在物理资产中的所有体上调整线性阻力。其结果是，每个体都有一个等于-ExternalLinearDragV * ExternalLinearVelocity的力施加在它身上，此外还有其他所有的力。该矢量是在模拟本地空间中。
 
-External Linear Velocity: Vector. External Linear Velocity:. Additional velocity that is added to the component velocity so the simulation acts as if the actor is moving at speed, even when stationary.. Vector is in world space. Units are cm/s. Could be used for a wind effects etc. Typical values are similar to the velocity of the object or effect,. and usually around or less than 1000 for characters/wind..
+外部线性速度。矢量。外部线性速度：。额外的速度，被添加到分量速度中，所以模拟的行为就像演员在高速运动，即使是静止的时候。矢量是在世界空间。单位是cm/s。可用于风效应等。典型的值与物体或效果的速度相似，对于角色/风来说，通常在1000左右或小于1000。
 
-External Angular Velocity: Vector. External Angular Velocity:. Additional angular velocity that is added to the component angular velocity. This can be used to make the simulation act as if the actor is rotating. even when it is not. E.g., to apply physics to a character on a podium as the camera rotates around it, to emulate the podium itself rotating.. Vector is in world space. Units are rad/s..  
+外部角速度。矢量。外部角速度：。额外的角速度，被添加到组件的角速度中。这可以用来使模拟表现得像演员在旋转，即使它没有旋转。例如，当摄像机围绕讲台旋转时，对讲台上的角色应用物理学，以模拟讲台本身的旋转。矢量是在世界空间。单位是rad/s。  
 
 ## Outputs
 
-Sim Space Settings: Sim Space Settings Structure.
-
+模拟空间设置。模拟空间设置结构。

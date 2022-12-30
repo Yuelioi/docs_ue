@@ -1,6 +1,6 @@
 # MakeRigControlCopy
 
-Adds a node that create a 'RigControlCopy' from its members
+添加一个节点，从其成员中创建一个 "RigControlCopy"。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that create a 'RigControlCopy' from its members
 
 ## Inputs
 
-Name: Name. Name.
+姓名：姓名名称。
 
-Control Type: ERigControlType Enum. Control Type.
+控制类型。ERigControlType枚举。控制类型。
 
-Parent Key: Rig Element Key Structure. Parent Key.
+父键：Rig元素键结构。家长键。
 
-Offset Transform: Transform. Offset Transform.
+偏移变换。变换。偏移变换。
 
-Parent Transform: Transform. Parent Transform.
+父母的转变。转变。父级转换。
 
-Local Transform: Transform. Local Transform.
+当地转型。转化。当地转型。
 
-Global Transform: Transform. Global Transform.  
+全球转型。转变。全球转型。  
 
 ## Outputs
 
-Rig Control Copy: Rig Control Copy Structure.
-
+钻机控制副本。钻机控制副本的结构。

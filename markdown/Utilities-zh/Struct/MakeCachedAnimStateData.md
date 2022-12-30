@@ -1,6 +1,6 @@
 # MakeCachedAnimStateData
 
-Adds a node that create a 'CachedAnimStateData' from its members
+添加一个节点，从其成员中创建一个 "CachedAnimStateData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CachedAnimStateData' from its members
 
 ## Outputs
 
-Cached Anim State Data: Cached Anim State Data Structure.
-
+缓存的动画状态数据。缓存的动画状态数据结构.

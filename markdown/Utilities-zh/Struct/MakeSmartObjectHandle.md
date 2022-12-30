@@ -1,6 +1,6 @@
 # MakeSmartObjectHandle
 
-Adds a node that create a 'SmartObjectHandle' from its members
+添加一个节点，从其成员中创建一个 "SmartObjectHandle"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SmartObjectHandle' from its members
 
 ## Outputs
 
-Smart Object Handle: Smart Object Handle Structure.
-
+智能对象句柄。智能对象手柄结构。

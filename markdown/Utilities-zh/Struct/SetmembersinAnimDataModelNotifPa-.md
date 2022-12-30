@@ -1,6 +1,6 @@
 # SetmembersinAnimDataModelNotifPa-
 
-Adds a node that modifies a 'AnimDataModelNotifPayload'
+添加一个节点，修改 "AnimDataModelNotifPayload"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AnimDataModelNotifPayload'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Anim Data Model Notif Payload Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Anim Data Model Notif Payload Structure (by ref). Reference to the input struct.
-
+Struct Out:Anim Data Model Notif Payload Structure（通过参考）。对输入结构的引用。

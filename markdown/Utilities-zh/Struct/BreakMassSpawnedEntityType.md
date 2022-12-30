@@ -1,6 +1,6 @@
 # BreakMassSpawnedEntityType
 
-Adds a node that breaks a 'MassSpawnedEntityType' into its member fields
+添加一个打破'MassSpawnedEntityType'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'MassSpawnedEntityType' into its member fields
 
 ## Inputs
 
-Mass Spawned Entity Type: Mass Spawned Entity Type Structure (by ref).  
+大量产卵的实体类型。大规模繁殖的实体类型结构（通过参考）。  
 
 ## Outputs
 
-Entity Config: Mass Entity Config Asset Soft Object Reference. Entity Config:. Asset that describes the entity.
+实体配置。大众实体配置资产软对象参考。实体配置：。描述实体的资产。
 
-Proportion: Float (single-precision). Proportion:. Proportion of the count that should be this agent type, (the proportions will be normalized with other sibling agent types).
-
+比例。Float（单精度）。比例：。应该是这个代理类型的计数比例，（比例将与其他同级代理类型进行归一化）。

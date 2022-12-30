@@ -1,6 +1,6 @@
 # SetmembersinGeometryScriptTriang-_1
 
-Adds a node that modifies a 'GeometryScriptTriangleList'
+添加一个修改 "GeometryScriptTriangleList "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryScriptTriangleList'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Triangle List Structure (by ref).  
+结构参考：三角形列表结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Triangle List Structure (by ref). Reference to the input struct.
-
+结构出来。三角形列表结构（通过引用）。对输入结构的引用。

@@ -1,8 +1,8 @@
 # PauseTimerbyHandle
 
-Pauses a set timer at its current elapsed time.
+在当前经过的时间内暂停一个设定的计时器。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Handle: Timer Handle Structure. The handle of the timer to pause..  
+手柄。计时器手柄结构。定时器的手柄要暂停...
 
 ## Outputs
 
-Out: Exec.
-
+出：执行。

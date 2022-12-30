@@ -1,6 +1,6 @@
 # MakeModelingToolsAxisFilter
 
-Adds a node that create a 'ModelingToolsAxisFilter' from its members
+添加一个节点，从其成员中创建一个'ModelingToolsAxisFilter'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ModelingToolsAxisFilter' from its members
 
 ## Outputs
 
-Modeling Tools Axis Filter: Modeling Tools Axis Filter Structure.
-
+建模工具轴过滤器。建模工具 轴向过滤器的结构。

@@ -1,6 +1,6 @@
 # SetmembersinChaosPhysicsCollisio-
 
-Adds a node that modifies a 'ChaosPhysicsCollisionInfo'
+添加一个修改 "ChaosPhysicsCollisionInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ChaosPhysicsCollisionInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Chaos Physics Collision Info Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Chaos Physics Collision Info Structure (by ref). Reference to the input struct.
-
+结构出来。混沌物理学碰撞信息结构（通过ref）。对输入结构的引用。

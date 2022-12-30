@@ -1,6 +1,6 @@
 # BreakVertexInstanceID
 
-Adds a node that breaks a 'VertexInstanceID' into its member fields
+添加一个节点，将'VertexInstanceID'分解到其成员字段中。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'VertexInstanceID' into its member fields
 
 ## Inputs
 
-Vertex Instance ID: Vertex Instance ID Structure (by ref).  
+顶点实例ID：顶点实例ID结构（通过参考）。  
 
 ## Outputs
 
-IDValue: Integer. IDValue:. The actual mesh element index this ID represents. Read-only..
-
+ID值。整数。IDValue:.这个ID代表的实际网格元素索引。只读。

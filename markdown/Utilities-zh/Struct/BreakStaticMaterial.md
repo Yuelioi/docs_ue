@@ -1,6 +1,6 @@
 # BreakStaticMaterial
 
-Adds a node that breaks a 'StaticMaterial' into its member fields
+添加一个节点，将 "静态材料 "分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'StaticMaterial' into its member fields
 
 ## Inputs
 
-Static Material: Static Material Structure (by ref).  
+静态材料。静态材料结构（按参考）。  
 
 ## Outputs
 
-Material Interface: Material Interface Object Reference. Material Interface.
+材料界面。材料界面对象参考。材料界面。
 
-Material Slot Name: Name. Material Slot Name:. This name should be use by the gameplay to avoid error if the skeletal mesh Materials array topology change.
+材料槽的名称。名称。材料槽名称：。这个名称应该被游戏使用，以避免在骨架网格材料阵列拓扑结构改变时出现错误。
 
-UVChannel Data: Mesh UVChannel Info Structure. UVChannel Data:. Data used for texture streaming relative to each UV channels..
-
+UVChannel数据。网状UVChannel信息结构。UVChannel数据：。用于相对于每个UV通道的纹理流的数据。

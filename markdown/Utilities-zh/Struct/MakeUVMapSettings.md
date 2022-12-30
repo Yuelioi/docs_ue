@@ -1,6 +1,6 @@
 # MakeUVMapSettings
 
-Adds a node that create a 'UVMapSettings' from its members
+添加一个节点，从其成员中创建一个 "UVMapSettings"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'UVMapSettings' from its members
 
 ## Inputs
 
-Size: Vector. Size:. Length, width, height of the UV mapping gizmo.
+尺寸。矢量。尺寸：。UV贴图小工具的长、宽、高。
 
-UVTile: Vector 2D Structure. UVTile:. Tiling of the UV mapping.
+UVTile。矢量2D结构。UVTile:。UV贴图的平铺。
 
-Position: Vector. Position:. Position of the UV mapping gizmo.
+位置。矢量。Position:（位置）。UV贴图小工具的位置。
 
-Rotation: Rotator. Rotation:. Rotation of the UV mapping gizmo (angles in degrees).
+旋转。旋转器。旋转：。UV贴图小工具的旋转（角度，单位：度）。
 
-Scale: Vector. Scale:. Scale of the UV mapping gizmo.  
+规模。矢量。规模：。UV贴图小工具的比例。  
 
 ## Outputs
 
-UVMap Settings: UVMap Settings Structure.
-
+UVMap设置。UVMap设置结构。

@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationP-_2
 
-Adds a node that create a 'DisplayClusterConfigurationPostprocess' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationPostprocess"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DisplayClusterConfigurationPostprocess' from its memb
 
 ## Outputs
 
-Display Cluster Configuration Postprocess: Display Cluster Configuration Postprocess Structure.
-
+显示群集配置后进程。显示群集配置后进程结构。

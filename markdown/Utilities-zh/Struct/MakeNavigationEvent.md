@@ -1,6 +1,6 @@
 # MakeNavigationEvent
 
-Adds a node that create a 'NavigationEvent' from its members
+添加一个节点，从其成员中创建一个'NavigationEvent'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'NavigationEvent' from its members
 
 ## Outputs
 
-Navigation Event: Navigation Event Structure.
-
+导航事件。导航事件结构。

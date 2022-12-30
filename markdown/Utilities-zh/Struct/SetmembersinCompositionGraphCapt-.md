@@ -1,6 +1,6 @@
 # SetmembersinCompositionGraphCapt-
 
-Adds a node that modifies a 'CompositionGraphCapturePasses'
+添加一个修改 "CompositionGraphCapturePasses "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CompositionGraphCapturePasses'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Composition Graph Capture Passes Structure (by ref).  
+Struct Ref: Composition Graph Capture Passes Structure（通过Ref）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Composition Graph Capture Passes Structure (by ref). Reference to the input struct.
-
+结构出来。组成图捕获传递的结构（通过引用）。对输入结构的引用。

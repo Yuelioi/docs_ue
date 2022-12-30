@@ -1,6 +1,6 @@
 # MakeUE4RetargettingRefs
 
-Adds a node that create a 'UE4RetargettingRefs' from its members
+添加一个节点，从其成员中创建一个 "UE4RetargettingRefs"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'UE4RetargettingRefs' from its members
 
 ## Outputs
 
-UE4Retargetting Refs: UE4Retargetting Refs Structure.
-
+UE4Retargetting Refs:UE4Retargetting Refs结构。

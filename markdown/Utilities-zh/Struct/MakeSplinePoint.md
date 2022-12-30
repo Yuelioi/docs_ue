@@ -1,6 +1,6 @@
 # MakeSplinePoint
 
-Adds a node that create a 'SplinePoint' from its members
+添加一个节点，从其成员中创建一个 "SplinePoint"。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that create a 'SplinePoint' from its members
 
 ## Inputs
 
-Input Key: Float (single-precision). Input Key.
+输入键。Float (single-precision).输入键。
 
-Position: Vector. Position.
+位置。矢量。位置。
 
-Arrive Tangent: Vector. Arrive Tangent.
+到达切线。向量。到达切线。
 
-Leave Tangent: Vector. Leave Tangent.
+离开切线。向量。离开切线。
 
-Rotation: Rotator. Rotation.
+旋转： 旋转器。轮换。
 
-Scale: Vector. Scale.
+规模：向量。规模。
 
-Type: ESplinePointType Enum. Type.  
+类型。ESplinePointType枚举。类型。  
 
 ## Outputs
 
-Spline Point: Spline Point Structure.
-
+花键点。花键点结构。

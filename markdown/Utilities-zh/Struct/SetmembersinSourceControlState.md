@@ -1,6 +1,6 @@
 # SetmembersinSourceControlState
 
-Adds a node that modifies a 'SourceControlState'
+添加一个修改 "SourceControlState "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SourceControlState'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Source Control State Structure (by ref).  
+结构参考：源控制状态结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Source Control State Structure (by ref). Reference to the input struct.
-
+结构出来。源控制状态结构（通过引用）。对输入结构的引用。

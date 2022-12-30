@@ -1,6 +1,6 @@
 # SetmembersinMovieSceneCaptureSet-
 
-Adds a node that modifies a 'MovieSceneCaptureSettings'
+添加一个节点，修改 "MovieSceneCaptureSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MovieSceneCaptureSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Movie Scene Capture Settings Structure (by ref).  
+结构参考：电影场景捕捉设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Movie Scene Capture Settings Structure (by ref). Reference to the input struct.
-
+结构出来。电影场景捕捉设置结构（通过引用）。对输入结构的引用。

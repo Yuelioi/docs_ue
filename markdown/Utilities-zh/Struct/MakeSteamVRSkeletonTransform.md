@@ -1,6 +1,6 @@
 # MakeSteamVRSkeletonTransform
 
-Adds a node that create a 'SteamVRSkeletonTransform' from its members
+添加一个节点，从其成员中创建一个 "SteamVRSkeletonTransform"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SteamVRSkeletonTransform' from its members
 
 ## Outputs
 
-Steam VRSkeleton Transform: Steam VRSkeleton Transform Structure.
-
+蒸汽VRS骨架转换。Steam VRSkeleton Transform Structure.

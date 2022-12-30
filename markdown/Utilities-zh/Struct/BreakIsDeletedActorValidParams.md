@@ -1,6 +1,6 @@
 # BreakIsDeletedActorValidParams
 
-Adds a node that breaks a 'IsDeletedActorValidParams' into its member fields
+添加一个节点，将'IsDeletedActorValidParams'分解到其成员字段中。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'IsDeletedActorValidParams' into its member fields
 
 ## Inputs
 
-Is Deleted Actor Valid Params: Is Deleted Actor Valid Params Structure (by ref).  
+Is Deleted Actor Valid Params:Is Deleted Actor Valid Params结构（通过参考）。  
 
 ## Outputs
 
-Saved Actor Path: Soft Object Path Structure. Saved Actor Path:. Holds path info for an actor that was deleted since the snapshot was taken.. Contains the path to the original actor before it was deleted..
-
+保存的演员路径。软对象路径结构。Saved Actor Path:.保存快照拍摄后被删除的演员的路径信息。包含原始行为体被删除前的路径。

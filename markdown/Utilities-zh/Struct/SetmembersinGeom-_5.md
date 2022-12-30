@@ -1,6 +1,6 @@
 # SetmembersinGeom-_5
 
-Adds a node that modifies a 'GeometryScriptMeasureMeshDistanceOptions'
+添加一个修改 "GeometryScriptMeasureMeshDistanceOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryScriptMeasureMeshDistanceOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Geometry Script Measure Mesh Distance Options Structure (by ref).  
+Struct Ref: Geometry Script Measure Mesh Distance Options 结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Geometry Script Measure Mesh Distance Options Structure (by ref). Reference to the input struct.
-
+结构出来。Geometry Script Measure Mesh Distance Options结构（通过ref）。对输入结构的引用。

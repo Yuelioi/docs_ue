@@ -1,6 +1,6 @@
 # MakeHairGroupsLOD
 
-Adds a node that create a 'HairGroupsLOD' from its members
+添加一个节点，从其成员中创建一个 "HairGroupsLOD"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'HairGroupsLOD' from its members
 
 ## Outputs
 
-Hair Groups LOD: Hair Groups LOD Structure.
-
+Hair Groups LOD: 头发组LOD结构。

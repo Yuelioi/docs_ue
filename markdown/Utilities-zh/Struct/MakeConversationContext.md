@@ -1,6 +1,6 @@
 # MakeConversationContext
 
-Adds a node that create a 'ConversationContext' from its members
+添加一个节点，从其成员中创建一个'ConversationContext'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ConversationContext' from its members
 
 ## Outputs
 
-Conversation Context: Conversation Context Structure.
-
+对话背景。对话语境结构。

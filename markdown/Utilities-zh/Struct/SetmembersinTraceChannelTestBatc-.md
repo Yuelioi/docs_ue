@@ -1,6 +1,6 @@
 # SetmembersinTraceChannelTestBatc-
 
-Adds a node that modifies a 'TraceChannelTestBatchOptions'
+添加一个修改 "TraceChannelTestBatchOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TraceChannelTestBatchOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Trace Channel Test Batch Options Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Trace Channel Test Batch Options Structure (by ref). Reference to the input struct.
-
+结构出来。Trace Channel Test Batch Options Structure (by ref)。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeGroomHairGroupPreview
 
-Adds a node that create a 'GroomHairGroupPreview' from its members
+添加一个节点，从其成员中创建一个 "GroomHairGroupPreview"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'GroomHairGroupPreview' from its members
 
 ## Inputs
 
-Group Name: Name. Group Name.
+集团名称。名称。集团名称。
 
-Group ID: Integer. Group ID.
+集团ID。整数。集团ID。
 
-Curve Count: Integer. Curve Count.
+曲线计数。整数。曲线计数。
 
-Guide Count: Integer. Guide Count.
+指南计数。整数。指南计数。
 
-Has Precomputed Weights: Boolean. Has Precomputed Weights.
+有预先计算的权重。布尔型。拥有预先计算的权重。
 
-Interpolation Settings: Hair Groups Interpolation Structure. Interpolation Settings.  
+插值设置。头发组插值结构。插值设置。  
 
 ## Outputs
 
-Groom Hair Group Preview: Groom Hair Group Preview Structure.
-
+新郎发型组预览。新郎发型组预览结构。

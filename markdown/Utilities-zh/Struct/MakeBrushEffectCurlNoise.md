@@ -1,6 +1,6 @@
 # MakeBrushEffectCurlNoise
 
-Adds a node that create a 'BrushEffectCurlNoise' from its members
+添加一个节点，从其成员中创建一个 "刷子效果卷曲噪音"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'BrushEffectCurlNoise' from its members
 
 ## Inputs
 
-Curl 1Amount: Float (single-precision). Curl 1Amount.
+Curl 1Amount。Float（单精度）。Curl 1Amount.
 
-Curl 2Amount: Float (single-precision). Curl 2Amount.
+Curl 2Amount。Float（单精度）。Curl 2Amount.
 
-Curl 1Tiling: Float (single-precision). Curl 1Tiling.
+Curl 1Tiling:Float（单精度）。Curl 1Tiling.
 
-Curl 2Tiling: Float (single-precision). Curl 2Tiling.  
+Curl 2Tiling:Float（单精度）。Curl 2Tiling.  
 
 ## Outputs
 
-Brush Effect Curl Noise: Brush Effect Curl Noise Structure.
-
+刷子效果的卷曲噪音。刷子效果的卷曲噪音结构。

@@ -1,6 +1,6 @@
 # MakeDatasmithRuntimeImportOption-
 
-Adds a node that create a 'DatasmithRuntimeImportOptions' from its members
+添加一个节点，从其成员中创建一个 "DatasmithRuntimeImportOptions"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'DatasmithRuntimeImportOptions' from its members
 
 ## Inputs
 
-Tessellation Options: Datasmith Tessellation Options Structure. Tessellation Options:. Tessellation options for CAD import.
+镶嵌选项。Datasmith Tessellation Options结构。镶嵌选项：。用于CAD导入的细分化选项。
 
-Build Hierarchy: EBuildHierarchyMethod Enum. Build Hierarchy:. Indicates whether a hierarchy of actors should be built or not.. In the case a hierarchy is built, it can be simplified to minimize the number of actors created. By default, a simplified hierarchy is built.
+构建层次结构。EBuildHierarchyMethod Enum.构建层次结构：。表示是否应该建立一个角色的层次结构。在建立层次结构的情况下，可以对其进行简化以尽量减少创建的角色数量。默认情况下，会建立一个简化的层次结构。
 
-Build Collisions: ECollisionEnabled Enum. Build Collisions:. Indicates the type of collision for components. Set to ECollisionEnabled::QueryOnly (spatial queries, no physics) by default.
+建立碰撞。ECollisionEnabled Enum.构建碰撞：。指明组件的碰撞类型。默认设置为ECollisionEnabled::QueryOnly（空间查询，无物理学）。
 
-Collision Type: ECollisionTraceFlag Enum. Collision Type:. Indicates the type of collision for static meshes. Set to ECollisionTraceFlag::CTF_UseComplexAsSimple by default.
+碰撞类型。ECollisionTraceFlag 枚举。碰撞类型：。表示静态网格的碰撞类型。默认设置为ECollisionTraceFlag::CTF_UseComplexAsSimple。
 
-Import Meta Data: Boolean. Import Meta Data:. Indicates whether meta-data should be imported or not. Meta-data are imported by default.  
+导入元数据。Boolean.导入元数据：。表示是否应该导入元数据。默认情况下，元数据被导入。  
 
 ## Outputs
 
-Datasmith Runtime Import Options: Datasmith Runtime Import Options Structure.
-
+Datasmith运行时导入选项。Datasmith运行时导入选项的结构。

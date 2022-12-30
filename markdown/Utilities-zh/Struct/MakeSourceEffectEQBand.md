@@ -1,6 +1,6 @@
 # MakeSourceEffectEQBand
 
-Adds a node that create a 'SourceEffectEQBand' from its members
+添加一个节点，从其成员中创建一个 "SourceEffectEQBand"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'SourceEffectEQBand' from its members
 
 ## Inputs
 
-Frequency: Float (single-precision). Frequency:. The cutoff frequency of the band.
+频率。Float (single-precision).频率：。乐队的截止频率。
 
-Bandwidth: Float (single-precision). Bandwidth:. The bandwidth (in octaves) of the band.
+Bandwidth: Float (single-precision).带宽：。乐队的带宽（以八度为单位）。
 
-Gain Db: Float (single-precision). Gain Db:. The gain in decibels to apply to the eq band.
+增益Db。Float (single-precision).Gain Db:.应用于均衡带的增益（分贝）。
 
-Enabled: Boolean. Enabled:. Whether or not the band is enabled. Allows changing bands on the fly..  
+已启用。布尔型。启用：。乐队是否被启用。允许在飞行中改变频段。
 
 ## Outputs
 
-Source Effect EQBand: Source Effect EQBand Structure.
-
+源效果EQBand：源效果EQBand结构。

@@ -1,6 +1,6 @@
 # MakeTraceQueryTestResultsInner
 
-Adds a node that create a 'TraceQueryTestResultsInner' from its members
+添加一个节点，从其成员中创建一个 "TraceQueryTestResultsInner"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'TraceQueryTestResultsInner' from its members
 
 ## Inputs
 
-Line Results: Trace Query Test Results Inner Most Structure. Line Results:. The results associated with the line trace.
+行结果。追踪查询测试结果最内部结构。行结果：。与行跟踪相关的结果。
 
-Sphere Results: Trace Query Test Results Inner Most Structure. Sphere Results:. The results associated with the sphere.
+球体结果。追踪查询测试结果最里面的结构。球体结果：。与球体相关的结果。
 
-Capsule Results: Trace Query Test Results Inner Most Structure. Capsule Results:. The results associated with the capsule.
+胶囊结果。追踪查询测试结果最内部结构。胶囊结果：。与胶囊相关的结果。
 
-Box Results: Trace Query Test Results Inner Most Structure. Box Results:. The results associated with the box.  
+箱体结果。追踪查询测试结果最内部结构。箱子结果：。与盒子相关的结果。  
 
 ## Outputs
 
-Trace Query Test Results Inner: Trace Query Test Results Inner Structure.
-
+跟踪查询测试结果内部。追踪查询测试结果内部结构。

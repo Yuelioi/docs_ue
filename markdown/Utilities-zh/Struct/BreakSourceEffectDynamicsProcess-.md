@@ -1,6 +1,6 @@
 # BreakSourceEffectDynamicsProcess-
 
-Adds a node that breaks a 'SourceEffectDynamicsProcessorSettings' into its member fields
+添加一个节点，将'SourceEffectDynamicsProcessorSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,31 +8,30 @@ Adds a node that breaks a 'SourceEffectDynamicsProcessorSettings' into its membe
 
 ## Inputs
 
-Source Effect Dynamics Processor Settings: Source Effect Dynamics Processor Settings Structure (by ref).  
+源效果动态处理器设置。源效果动态处理器设置结构（按参考）。  
 
 ## Outputs
 
-Dynamics Processor Type: ESourceEffectDynamicsProcessorType Enum. Dynamics Processor Type.
+动态处理器类型。ESourceEffectDynamicsProcessorType枚举。动态处理器类型。
 
-Peak Mode: ESourceEffectDynamicsPeakMode Enum. Peak Mode.
+峰值模式。ESourceEffectDynamicsPeakMode枚举。峰值模式。
 
-Look Ahead Msec: Float (single-precision). Look Ahead Msec.
+前瞻性Msec。Float (single-precision).领先时间Msec.Look Ahead
 
-Attack Time Msec: Float (single-precision). Attack Time Msec.
+攻击时间Msec:Float（单精度）。攻击时间Msec.
 
-Release Time Msec: Float (single-precision). Release Time Msec.
+释放时间Msec:Float（单精度）。释放时间Msec.
 
-Threshold Db: Float (single-precision). Threshold Db.
+阈值Db。Float（单精度）。阈值Db.
 
-Ratio: Float (single-precision). Ratio.
+比率。Float（单精度）。比率。
 
-Knee Bandwidth Db: Float (single-precision). Knee Bandwidth Db.
+膝部带宽Db。Float（单精度）。膝部带宽Db.
 
-Input Gain Db: Float (single-precision). Input Gain Db.
+输入增益Db。Float (single-precision).输入增益 Db.
 
-Output Gain Db: Float (single-precision). Output Gain Db.
+输出增益Db。Float (single-precision).输出增益 Db.
 
-Stereo Linked: Boolean. Stereo Linked.
+立体声链接。布尔型。立体声链接。
 
-Analog Mode: Boolean. Analog Mode.
-
+模拟模式。布尔型。模拟模式。

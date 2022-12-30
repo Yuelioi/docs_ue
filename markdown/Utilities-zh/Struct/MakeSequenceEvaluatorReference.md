@@ -1,6 +1,6 @@
 # MakeSequenceEvaluatorReference
 
-Adds a node that create a 'SequenceEvaluatorReference' from its members
+添加一个节点，从其成员中创建一个'SequenceEvaluatorReference'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SequenceEvaluatorReference' from its members
 
 ## Outputs
 
-Sequence Evaluator Reference: Sequence Evaluator Reference Structure.
-
+序列评估器参考。序列评估器参考结构。

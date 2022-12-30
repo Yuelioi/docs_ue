@@ -1,6 +1,6 @@
 # SetmembersinGeometryScriptSimpli-
 
-Adds a node that modifies a 'GeometryScriptSimplifyMeshOptions'
+添加一个修改 "GeometryScriptSimplifyMeshOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryScriptSimplifyMeshOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Geometry Script Simplify Mesh Options Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Geometry Script Simplify Mesh Options Structure (by ref). Reference to the input struct.
-
+结构出来。Geometry Script Simplify Mesh Options结构（通过ref）。对输入结构的引用。

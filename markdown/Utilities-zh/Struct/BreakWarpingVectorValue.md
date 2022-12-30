@@ -1,6 +1,6 @@
 # BreakWarpingVectorValue
 
-Adds a node that breaks a 'WarpingVectorValue' into its member fields
+添加一个节点，将 "WarpingVectorValue "分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'WarpingVectorValue' into its member fields
 
 ## Inputs
 
-Warping Vector Value: Warping Vector Value Structure (by ref).  
+翘曲向量值。翘曲向量值结构（通过参考）。  
 
 ## Outputs
 
-Mode: EWarpingVectorMode Enum. Mode:. Space of the corresponding Vector value.
+模式。EWarpingVectorMode Enum.模式：。相应矢量值的空间。
 
-Value: Vector. Value:. Specifies a vector relative to the space defined by Mode.
-
+价值。矢量。值：。指定一个相对于Mode定义的空间的向量。

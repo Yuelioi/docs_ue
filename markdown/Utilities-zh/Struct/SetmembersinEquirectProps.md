@@ -1,6 +1,6 @@
 # SetmembersinEquirectProps
 
-Adds a node that modifies a 'EquirectProps'
+添加一个修改 "EquirectProps "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'EquirectProps'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Equirect Props Structure (by ref).  
+结构参考：Equirect Props结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Equirect Props Structure (by ref). Reference to the input struct.
-
+结构出来。Equirect Props Structure（通过ref）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # BreakRBFParams
 
-Adds a node that breaks a 'RBFParams' into its member fields
+添加一个节点，将'RBFParams'分解成其成员字段
 
 ## 图示
 
@@ -8,29 +8,28 @@ Adds a node that breaks a 'RBFParams' into its member fields
 
 ## Inputs
 
-RBFParams: RBFParams Structure (by ref).  
+RBFParams。RBFParams结构（通过参考）。  
 
 ## Outputs
 
-Solver Type: ERBFSolverType Enum. Solver Type:. Specifies the type of solver to use. The additive solver requires normalization, for the. most part, whereas the Interpolative solver is not as reliant on it. The interpolative. solver also has smoother blending, whereas the additive solver requires more targets but. has a more precise control over the influence of each target..
+解算器类型。ERBFSolverType枚举。解算器类型：。指定要使用的求解器的类型。大部分情况下，加法求解器需要归一化，而插值求解器则不那么依赖它。内插法求解器也有更平滑的混合，而加法求解器需要更多目标，但对每个目标的影响有更精确的控制。
 
-Radius: Float (single-precision). Radius:. Default radius for each target..
+半径。Float（单精度）。半径：。每个目标的默认半径。
 
-Automatic Radius: Boolean. Automatic Radius:. Automatically pick the radius based on the average distance between targets.
+自动半径。布尔型。自动半径：。根据目标之间的平均距离自动选择半径。
 
-Function: ERBFFunctionType Enum. Function.
+功能。ERBFFunctionType枚举。功能。
 
-Distance Method: ERBFDistanceMethod Enum. Distance Method.
+距离方法。ERBFDistanceMethod Enum.距离方法。
 
-Twist Axis: EBoneAxis Enum. Twist Axis:. Axis to use when DistanceMethod is SwingAngle.
+扭转轴: EBoneAxis Enum.Twist Axis:。当DistanceMethod为SwingAngle时使用的轴。
 
-Weight Threshold: Float (single-precision). Weight Threshold:. Weight below which we shouldn't bother returning a contribution from a target.
+重量阈值。Float（单精度）。权重阈值：。权重，低于这个权重，我们不应该费力地从目标中返回贡献。
 
-Normalize Method: ERBFNormalizeMethod Enum. Normalize Method:. Method to use for normalizing the weight.
+正常化方法。ERBFNormalizeMethod Enum.正常化方法：。用于规范化权重的方法。
 
-Median Reference: Vector. Median Reference:. Rotation or position of median (used for normalization).
+中位数参考。矢量。中位数参考：。中位数的旋转或位置（用于归一化）。
 
-Median Min: Float (single-precision). Median Min:. Minimum distance used for median.
+中位数最小。Float（单精度）。中位数最小值：。用于中位数的最小距离。
 
-Median Max: Float (single-precision). Median Max:. Maximum distance used for median.
-
+中位数最大值：浮点数（单精度）。中位数最大值：。用于中位数的最大距离。

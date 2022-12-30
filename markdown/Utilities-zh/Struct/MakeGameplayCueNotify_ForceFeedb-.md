@@ -1,6 +1,6 @@
 # MakeGameplayCueNotify_ForceFeedb-
 
-Adds a node that create a 'GameplayCueNotify_ForceFeedbackInfo' from its members
+添加一个节点，从其成员中创建一个 "GameplayCueNotify_ForceFeedbackInfo"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayCueNotify_ForceFeedbackInfo' from its members
 
 ## Outputs
 
-Gameplay Cue Notify Force Feedback Info: Gameplay Cue Notify Force Feedback Info Structure.
-
+游戏提示通知力反馈信息。Gameplay Cue Notify Force Feedback Info结构。

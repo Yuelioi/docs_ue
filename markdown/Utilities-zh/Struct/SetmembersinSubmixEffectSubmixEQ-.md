@@ -1,6 +1,6 @@
 # SetmembersinSubmixEffectSubmixEQ-
 
-Adds a node that modifies a 'SubmixEffectSubmixEQSettings'
+添加一个节点，修改 "SubmixEffectSubmixEQSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SubmixEffectSubmixEQSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Submix Effect Submix EQSettings Structure (by ref).  
+Struct Ref: Submix Effect Submix EQSettings 结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Submix Effect Submix EQSettings Structure (by ref). Reference to the input struct.
-
+Struct Out:Submix Effect Submix EQSettings结构（通过参考）。对输入结构的引用。

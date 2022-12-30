@@ -1,6 +1,6 @@
 # MakeMediaCaptureOptions
 
-Adds a node that create a 'MediaCaptureOptions' from its members
+添加一个节点，从其成员中创建一个 "MediaCaptureOptions"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'MediaCaptureOptions' from its members
 
 ## Inputs
 
-Crop: EMediaCaptureCroppingType Enum. Crop:. Crop the captured SceneViewport or TextureRenderTarget2D to the desired size..
+Crop: EMediaCaptureCroppingType Enum.Crop:.将捕获的SceneViewport或TextureRenderTarget2D裁剪成需要的大小。
 
-Custom Capture Point: Int Point Structure. Custom Capture Point:. Crop the captured SceneViewport or TextureRenderTarget2D to the desired size.. @note Only valid when Crop is set to Custom..
+自定义捕获点：Int点结构。自定义捕捉点：.将捕获的SceneViewport或TextureRenderTarget2D裁剪成所需的大小。注：只有在Crop被设置为Custom时才有效。
 
-Resize Source Buffer: Boolean. Resize Source Buffer:. When the capture start, resize the source buffer to the desired size.. @note Only valid when a size is specified by the MediaOutput.. @note For viewport, the window size will not change. Only the viewport will be resized.. @note For RenderTarget, the asset will be modified and resized to the desired size..
+调整源缓冲区的大小。Boolean.调整源缓冲区的大小：。当捕获开始时，将源缓冲区的大小调整为所需的大小。@注意 只有当MediaOutput指定了一个尺寸时才有效。@注意 对于视口，窗口的大小不会改变。只有视口会被调整大小。@注 对于RenderTarget，资产将被修改并调整到所需的大小。
 
-Skip Frame When Running Expensive Tasks: Boolean. Skip Frame when Running Expensive Tasks:. When the application enters responsive mode, skip the frame capture.. The application can enter responsive mode on mouse down, viewport resize, .... That is to ensure responsiveness in low FPS situations..
+运行昂贵的任务时跳过框架。布尔值。运行昂贵的任务时跳过帧：。当应用程序进入响应模式时，跳过帧捕获。应用程序可以在鼠标下降、视口大小调整时进入响应模式，....这是为了确保在低FPS情况下的响应能力。
 
-Convert To Desired Pixel Format: Boolean. Convert to Desired Pixel Format:. Allows to enable/disable pixel format conversion for the cases where render target is not of the desired pixel format..
+转换为所需的像素格式。Boolean.转换为期望的像素格式：。允许在渲染目标不是所需像素格式的情况下，启用/禁用像素格式转换。
 
-Force Alpha To One On Conversion: Boolean. Force Alpha to One on Conversion:. In some cases when we want to stream irregular render targets containing limited number. of channels (for example RG16f), we would like to force Alpha to 1..  
+转换时强制Alpha为1。Boolean.转换时强制Alpha为一：。在某些情况下，当我们要对包含有限通道数的不规则渲染目标进行流式处理时（例如RG16f），我们希望将Alpha强制为1。
 
 ## Outputs
 
-Media Capture Options: Media Capture Options Structure.
-
+媒体采集选项。媒体捕获选项结构。

@@ -1,6 +1,6 @@
 # MakeSkelMeshMergeMeshUVTransform-
 
-Adds a node that create a 'SkelMeshMergeMeshUVTransforms' from its members
+添加一个节点，从其成员中创建一个'SkelMeshMergeMeshUVTransforms'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'SkelMeshMergeMeshUVTransforms' from its members
 
 ## Inputs
 
-UVTransforms: Array of Transforms. UVTransforms:. A list of how UVs should be transformed on a given mesh, where index represents a specific UV channel..  
+UVTransforms。变换的数组。UVTransforms:.给定网格上的UV应该如何变换的列表，其中索引代表一个特定的UV通道。  
 
 ## Outputs
 
-Skel Mesh Merge Mesh UVTransforms: Skel Mesh Merge Mesh UVTransforms Structure.
-
+Skel Mesh Merge Mesh UVTransforms。Skel Mesh Merge Mesh UVTransforms 结构。

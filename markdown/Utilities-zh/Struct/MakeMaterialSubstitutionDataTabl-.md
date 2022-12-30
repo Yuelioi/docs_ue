@@ -1,6 +1,6 @@
 # MakeMaterialSubstitutionDataTabl-
 
-Adds a node that create a 'MaterialSubstitutionDataTable' from its members
+添加一个节点，从其成员中创建一个 "MaterialSubstitutionDataTable"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'MaterialSubstitutionDataTable' from its members
 
 ## Outputs
 
-Material Substitution Data Table: Material Substitution Data Table Structure.
-
+材料替代数据表。材料替代数据表的结构。

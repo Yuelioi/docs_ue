@@ -1,6 +1,6 @@
 # BreakGeometryScriptSweptHullOpti-
 
-Adds a node that breaks a 'GeometryScriptSweptHullOptions' into its member fields
+添加一个节点，将'GeometryScriptSweptHullOptions'分解到其成员字段中
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'GeometryScriptSweptHullOptions' into its member field
 
 ## Inputs
 
-Geometry Script Swept Hull Options: Geometry Script Swept Hull Options Structure (by ref).  
+Geometry Script Swept Hull Options:Geometry Script Swept Hull Options结构（由参考文献）。  
 
 ## Outputs
 
-Prefilter Vertices: Boolean. Prefilter Vertices.
+预滤器顶点。布尔型。预滤器顶点。
 
-Prefilter Grid Resolution: Integer. Prefilter Grid Resolution.
+预滤器网格分辨率。整数。预滤器的网格分辨率。
 
-Min Thickness: Float (single-precision). Min Thickness.
+最小厚度。Float（单精度）。最小厚度。
 
-Simplify: Boolean. Simplify.
+简化。布尔型。简化。
 
-Min Edge Length: Float (single-precision). Min Edge Length.
+最小边缘长度。Float（单精度）。最小边缘长度。
 
-Simplify Tolerance: Float (single-precision). Simplify Tolerance.
-
+简化公差。Float（单精度）。简化公差。

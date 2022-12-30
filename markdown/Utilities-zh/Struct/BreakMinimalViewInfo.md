@@ -1,6 +1,6 @@
 # BreakMinimalViewInfo
 
-Adds a node that breaks a 'MinimalViewInfo' into its member fields
+添加一个节点，将'MinimalViewInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,33 +8,32 @@ Adds a node that breaks a 'MinimalViewInfo' into its member fields
 
 ## Inputs
 
-Minimal View Info: Minimal View Info Structure (by ref).  
+最低限度的视图信息。最低限度的视图信息结构（按参考）。  
 
 ## Outputs
 
-Location: Vector. Location:. Location.
+地点：向量。向量。位置：。位置：。
 
-Rotation: Rotator. Rotation:. Rotation.
+旋转： 旋转器。轮换：。轮换。
 
-FOV: Float (single-precision). FOV:. The horizontal field of view (in degrees) in perspective mode (ignored in orthographic mode)..
+FOV。Float（单精度）。FOV:。在透视模式下的水平视场（单位：度）（在正视模式下忽略）。
 
-Ortho Width: Float (single-precision). Ortho Width:. The desired width (in world units) of the orthographic view (ignored in Perspective mode).
+Ortho Width: Float (single-precision).正射宽度：。正射影像的理想宽度（以世界为单位）（在透视模式下忽略）。
 
-Ortho Near Clip Plane: Float (single-precision). Ortho Near Clip Plane:. The near plane distance of the orthographic view (in world units).
+近夹平面正射。Float（单精度）。Ortho Near Clip Plane：.正视图的近平面距离（以世界为单位）。
 
-Ortho Far Clip Plane: Float (single-precision). Ortho Far Clip Plane:. The far plane distance of the orthographic view (in world units).
+Ortho Far Clip Plane。浮点（单精度）。Ortho Far Clip Plane：。正视图的远平面距离（以世界为单位）。
 
-Aspect Ratio: Float (single-precision). Aspect Ratio:. Aspect Ratio (Width/Height).
+纵横比。Float（单精度）。纵横比：。纵横比（宽/高）。
 
-Constrain Aspect Ratio: Boolean. Constrain Aspect Ratio:. If bConstrainAspectRatio is true, black bars will be added if the destination view has a different aspect ratio than this camera requested..
+约束长宽比。Boolean.Constrain Aspect Ratio:.限制高宽比。如果bConstrainAspectRatio为真，如果目标视图的长宽比与本相机要求的不同，将添加黑条。
 
-Use Field Of View For LOD: Boolean. Use Field Of View for LOD:. If true, account for the field of view angle when computing which level of detail to use for meshes..
+对LOD使用视场：布尔值。为LOD使用视场：。如果为真，在计算网格的细节等级时，考虑视场角。
 
-Projection Mode: ECameraProjectionMode Enum. Projection Mode:. The type of camera.
+投影模式。ECameraProjectionMode枚举。投影模式：。摄像机的类型。
 
-Post Process Blend Weight: Float (single-precision). Post Process Blend Weight:. Indicates if PostProcessSettings should be applied..
+后期处理的混合重量。Float（单精度）。后期处理混合权重：。表示是否应该应用PostProcessSettings。
 
-Post Process Settings: Post Process Settings Structure. Post Process Settings:. Post-process settings to use if PostProcessBlendWeight is non-zero..
+后期流程设置。后期处理设置结构。后期处理设置：。如果PostProcessBlendWeight为非零，则使用的后处理设置。
 
-Off Center Projection Offset: Vector 2D Structure. Off Center Projection Offset:. Off-axis / off-center projection offset as proportion of screen dimensions.
-
+偏离中心的投影偏移。矢量2D结构。偏离中心投影偏移：。离轴/偏心投影偏移量与屏幕尺寸的比例。

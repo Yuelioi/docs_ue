@@ -1,6 +1,6 @@
 # MakeAudioTextBoxStyle
 
-Adds a node that create a 'AudioTextBoxStyle' from its members
+添加一个节点，从其成员中创建一个 "AudioTextBoxStyle"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'AudioTextBoxStyle' from its members
 
 ## Inputs
 
-Background Image: Slate Brush Structure. Background Image:. Image for the label border.
+背景图片。石板刷结构。背景图片:。用于标签边框的图像。
 
-Background Color: Slate Color Structure. Background Color:. Color used to draw the label background.  
+背景颜色: 板岩颜色结构.背景色：。用于绘制标签背景的颜色。  
 
 ## Outputs
 
-Audio Text Box Style: Audio Text Box Style Structure.
-
+音频文本框风格。音频文本框风格结构。

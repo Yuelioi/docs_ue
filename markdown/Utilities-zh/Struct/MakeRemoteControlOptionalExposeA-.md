@@ -1,6 +1,6 @@
 # MakeRemoteControlOptionalExposeA-
 
-Adds a node that create a 'RemoteControlOptionalExposeArgs' from its members
+添加一个节点，从其成员中创建一个'RemoteControlOptionalExposeArgs'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'RemoteControlOptionalExposeArgs' from its members
 
 ## Inputs
 
-Display Name: String. Display Name:. The display name of the exposed entity in the panel..
+显示名称。字符串。显示名称：。暴露在面板中的实体的显示名称。
 
-Group Name: String. Group Name:. The name of the group to expose the entity in.. If it does not exist, a group with that name will be created..  
+集团名称。字符串。组名：。要公开实体的组的名称。如果它不存在，将创建一个具有该名称的组。  
 
 ## Outputs
 
-Remote Control Optional Expose Args: Remote Control Optional Expose Args Structure.
-
+遥控可选暴露参数。可选的远程控制暴露参数结构。

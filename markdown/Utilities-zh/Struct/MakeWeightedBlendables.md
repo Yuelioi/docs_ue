@@ -1,6 +1,6 @@
 # MakeWeightedBlendables
 
-Adds a node that create a 'WeightedBlendables' from its members
+添加一个节点，从其成员中创建一个 "WeightedBlendables"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'WeightedBlendables' from its members
 
 ## Inputs
 
-Array: Array of Weighted Blendable Structures. Array.  
+阵列。加权混合结构的阵列。阵列。  
 
 ## Outputs
 
-Weighted Blendables: Weighted Blendables Structure.
-
+加权混杂物。加权混杂物结构。

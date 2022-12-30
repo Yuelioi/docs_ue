@@ -1,6 +1,6 @@
 # BreakGeometryScriptSpatialQueryO-
 
-Adds a node that breaks a 'GeometryScriptSpatialQueryOptions' into its member fields
+添加一个节点，将'GeometryScriptSpatialQueryOptions'分解为其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'GeometryScriptSpatialQueryOptions' into its member fi
 
 ## Inputs
 
-Geometry Script Spatial Query Options: BVH Query Options Structure (by ref).  
+Geometry Script Spatial Query Options:BVH查询选项结构（按参考）。  
 
 ## Outputs
 
-Max Distance: Float (single-precision). Max Distance.
+最大距离。Float（单精度）。最大距离。
 
-Allow Unsafe Modified Queries: Boolean. Allow Unsafe Modified Queries.
+允许不安全的修改查询。布尔值。允许不安全的修改查询。
 
-Winding Iso Threshold: Float (single-precision). Winding Iso Threshold.
-
+绕组等效阈值。Float（单精度）。绕组等效阈值。

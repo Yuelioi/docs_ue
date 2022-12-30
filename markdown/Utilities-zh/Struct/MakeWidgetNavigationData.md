@@ -1,6 +1,6 @@
 # MakeWidgetNavigationData
 
-Adds a node that create a 'WidgetNavigationData' from its members
+添加一个节点，从其成员中创建一个 "WidgetNavigationData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'WidgetNavigationData' from its members
 
 ## Outputs
 
-Widget Navigation Data: Widget Navigation Data Structure.
-
+小工具导航数据。小工具导航数据结构。

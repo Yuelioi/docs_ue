@@ -1,6 +1,6 @@
 # SetmembersinDataRegistryType
 
-Adds a node that modifies a 'DataRegistryType'
+添加一个修改 "DataRegistryType "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DataRegistryType'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Data Registry Type Structure (by ref).  
+结构参考：数据注册表类型结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Data Registry Type Structure (by ref). Reference to the input struct.
-
+结构出来。数据注册表类型结构（通过引用）。对输入结构的引用。

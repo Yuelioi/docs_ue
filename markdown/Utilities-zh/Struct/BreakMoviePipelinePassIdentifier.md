@@ -1,6 +1,6 @@
 # BreakMoviePipelinePassIdentifier
 
-Adds a node that breaks a 'MoviePipelinePassIdentifier' into its member fields
+添加一个节点，将'MoviePipelinePassIdentifier'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'MoviePipelinePassIdentifier' into its member fields
 
 ## Inputs
 
-Movie Pipeline Pass Identifier: Movie Pipeline Pass Identifier Structure (by ref).  
+电影管道通行证标识符。电影管道通行证标识符结构（按参考）。  
 
 ## Outputs
 
-Name: String. Name.
-
+名称: 字符串。名称。

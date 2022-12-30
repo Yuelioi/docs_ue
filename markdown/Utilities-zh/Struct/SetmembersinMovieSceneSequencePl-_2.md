@@ -1,6 +1,6 @@
 # SetmembersinMovieSceneSequencePl-_2
 
-Adds a node that modifies a 'MovieSceneSequencePlaybackSettings'
+添加一个修改 "MovieSceneSequencePlaybackSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MovieSceneSequencePlaybackSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Movie Scene Sequence Playback Settings Structure (by ref).  
+结构参考：电影场景序列播放设置结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Movie Scene Sequence Playback Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Movie Scene Sequence Playback Settings Structure（通过参考）。对输入结构的引用。

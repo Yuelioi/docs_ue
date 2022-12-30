@@ -1,6 +1,6 @@
 # MakeInheritedTagContainer
 
-Adds a node that create a 'InheritedTagContainer' from its members
+添加一个节点，从其成员中创建一个 "InheritedTagContainer"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'InheritedTagContainer' from its members
 
 ## Outputs
 
-Inherited Tag Container: Inherited Tag Container Structure.
-
+继承的标签容器。继承的标签容器结构。

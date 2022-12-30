@@ -1,6 +1,6 @@
 # MakeConstraintInstanceAccessor
 
-Adds a node that create a 'ConstraintInstanceAccessor' from its members
+添加一个节点，从其成员中创建一个 "ConstraintInstanceAccessor"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ConstraintInstanceAccessor' from its members
 
 ## Outputs
 
-Constraint Instance Accessor: Constraint Instance Accessor Structure.
-
+约束实例访问器。约束实例访问器结构。

@@ -1,6 +1,6 @@
 # MakeSoundSubmixSpectralAnalysisB-
 
-Adds a node that create a 'SoundSubmixSpectralAnalysisBandSettings' from its members
+添加一个节点，从其成员中创建一个 "SoundSubmixSpectralAnalysisBandSettings"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'SoundSubmixSpectralAnalysisBandSettings' from its mem
 
 ## Inputs
 
-Band Frequency: Float (single-precision). Band Frequency:. The frequency band for the magnitude to analyze.
+乐队频率。Float（单精度）。频带频率：。要分析的幅值的频带。
 
-Attack Time Msec: Integer. Attack Time Msec:. The attack time for the FFT band interpolation for delegate callback.
+攻击时间Msec:整数。攻击时间Msec:。委托回调的FFT波段插值的攻击时间。
 
-Release Time Msec: Integer. Release Time Msec:. The release time for the FFT band interpolation for delegate callback.
+释放时间Msec:整数。释放时间Msec:。委托回调的FFT波段插值的释放时间。
 
-QFactor: Float (single-precision). QFactor:. The ratio of the bandwidth divided by the center frequency. Only used when the spectral analysis type is set to Constant Q..  
+QFactor。Float（单精度）。QFactor:。带宽除以中心频率的比率。只在频谱分析类型被设置为恒定Q值时使用。
 
 ## Outputs
 
-Sound Submix Spectral Analysis Band Settings: Sound Submix Spectral Analysis Band Settings Structure.
-
+Sound Submix Spectral Analysis Band Settings:声音子混音频谱分析带设置结构。

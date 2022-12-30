@@ -1,6 +1,6 @@
 # SetmembersinGeometryScriptTriang-_2
 
-Adds a node that modifies a 'GeometryScriptTrianglePoint'
+添加一个节点，修改 "GeometryScriptTrianglePoint"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryScriptTrianglePoint'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Geometry Script Triangle Point Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Geometry Script Triangle Point Structure (by ref). Reference to the input struct.
-
+结构出来。Geometry Script Triangle Point Structure（通过ref）。对输入结构的引用。

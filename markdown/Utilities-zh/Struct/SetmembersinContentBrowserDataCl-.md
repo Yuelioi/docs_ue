@@ -1,6 +1,6 @@
 # SetmembersinContentBrowserDataCl-
 
-Adds a node that modifies a 'ContentBrowserDataClassFilter'
+添加一个修改 "ContentBrowserDataClassFilter "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ContentBrowserDataClassFilter'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Content Browser Data Class Filter Structure (by ref).  
+结构参考：内容浏览器数据类过滤结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Content Browser Data Class Filter Structure (by ref). Reference to the input struct.
-
+结构出来。内容浏览器数据类过滤结构（通过引用）。对输入结构的引用。

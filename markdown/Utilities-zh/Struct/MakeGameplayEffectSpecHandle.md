@@ -1,6 +1,6 @@
 # MakeGameplayEffectSpecHandle
 
-Adds a node that create a 'GameplayEffectSpecHandle' from its members
+添加一个节点，从其成员中创建一个 "GameplayEffectSpecHandle"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayEffectSpecHandle' from its members
 
 ## Outputs
 
-Gameplay Effect Spec Handle: Gameplay Effect Spec Handle Structure.
-
+游戏效果规格处理。Gameplay Effect Spec Handle结构。

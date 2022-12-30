@@ -1,6 +1,6 @@
 # MakeAITestSpawnSet
 
-Adds a node that create a 'AITestSpawnSet' from its members
+添加一个节点，从其成员中创建一个 "AITestSpawnSet"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'AITestSpawnSet' from its members
 
 ## Inputs
 
-Spawn Info Container: Array of AITest Spawn Info Structures. Spawn Info Container:. what to spawn.
+产卵信息容器。AITest产卵信息结构的数组。Spawn Info Container：.要生成的东西。
 
-Name: Name. Name:. give the set a name to help identify it if need be.
+姓名。命名。如果需要的话，给这套设备起个名字以帮助识别它。
 
-Enabled: Boolean. Enabled.
+已启用。布尔型。已启用。
 
-Fallback Spawn Location: Actor Object Reference. Fallback Spawn Location:. location used for spawning if spawn info doesn't define one.  
+后退产卵地点。Actor Object Reference.Fallback Spawn Location:.如果产卵信息没有定义产卵位置，则用于产卵的位置。  
 
 ## Outputs
 
-AITest Spawn Set: AITest Spawn Set Structure.
-
+AITest Spawn Set。AITest Spawn Set结构。

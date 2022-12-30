@@ -1,6 +1,6 @@
 # MakeSynth1PatchCable
 
-Adds a node that create a 'Synth1PatchCable' from its members
+添加一个节点，从其成员中创建一个 "Synth1PatchCable"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'Synth1PatchCable' from its members
 
 ## Inputs
 
-Depth: Float (single-precision). Depth:. The patch depth (how much the modulator modulates the destination).
+深度。Float（单精度）。深度：。补丁深度（调制器对目标的调制程度）。
 
-Destination: ESynth1PatchDestination Enum. Destination:. The patch destination type.  
+目的地。ESynth1PatchDestination 枚举。目的地：。补丁的目的地类型。  
 
 ## Outputs
 
-Synth 1Patch Cable: Synth 1Patch Cable Structure.
-
+合成器1Patch电缆。Synth 1Patch电缆的结构。

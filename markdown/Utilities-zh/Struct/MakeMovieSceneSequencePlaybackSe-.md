@@ -1,6 +1,6 @@
 # MakeMovieSceneSequencePlaybackSe-
 
-Adds a node that create a 'MovieSceneSequencePlaybackSettings' from its members
+添加一个节点，从其成员中创建一个 "MovieSceneSequencePlaybackSettings"。
 
 ## 图示
 
@@ -8,31 +8,30 @@ Adds a node that create a 'MovieSceneSequencePlaybackSettings' from its members
 
 ## Inputs
 
-Auto Play: Boolean. Auto Play:. Auto-play the sequence when created.
+自动播放：布尔值。自动播放：。创建时自动播放序列。
 
-Loop: Movie Scene Sequence Loop Count Structure. Loop Count:. Number of times to loop playback. -1 for infinite, else the number of times to loop before stopping.
+循环。电影场景序列的循环计数结构。循环次数：。循环播放的次数。-1为无限，否则为停止前的循环次数。
 
-Play Rate: Float (single-precision). Play Rate:. The rate at which to playback the animation.
+播放率。Float（单精度）。播放率：。播放动画的速率。
 
-Start Offset: Float (single-precision). Start Time:. Start playback at the specified offset from the start of the sequence's playback range.
+开始偏移。Float (single-precision).开始时间：。从序列播放范围的起始点的指定偏移处开始播放。
 
-Random Start Time: Boolean. Random Start Time:. Start playback at a random time.
+随机开始时间：布尔值。随机开始时间：。在一个随机的时间开始播放。
 
-Restore State: Boolean. Restore State:. Flag used to specify whether actor states should be restored on stop.
+复原状态。布尔值。恢复状态：。用于指定行为者的状态是否应在停止时恢复的标志。
 
-Disable Movement Input: Boolean. Disable Movement Input:. Disable Input from player during play.
+禁用运动输入。布尔型。禁用运动输入：。在游戏过程中禁止玩家的输入。
 
-Disable Look At Input: Boolean. Disable Look at Input:. Disable LookAt Input from player during play.
+禁用查看输入。Boolean.禁用查看输入：。在游戏过程中禁用玩家的LookAt输入。
 
-Hide Player: Boolean. Hide Player:. Hide Player Pawn during play.
+隐藏播放器。布尔型。隐藏玩家：。在游戏过程中隐藏玩家棋子。
 
-Hide Hud: Boolean. Hide Hud:. Hide HUD during play.
+隐藏哈德。Boolean.隐藏Hud：。在游戏中隐藏HUD。
 
-Disable Camera Cuts: Boolean. Disable Camera Cuts:. Disable camera cuts.
+禁用相机剪接。布尔型。Disable Camera Cuts:（禁用摄像机剪辑）。禁用摄像机剪切。
 
-Pause At End: Boolean. Pause at End:. Pause the sequence when playback reaches the end rather than stopping it.  
+结束时暂停。布尔型。Pause at End:（结束时暂停）。当播放到结束时暂停序列，而不是停止它。  
 
 ## Outputs
 
-Movie Scene Sequence Playback Settings: Movie Scene Sequence Playback Settings Structure.
-
+电影场景序列播放设置。电影场景序列播放设置结构。

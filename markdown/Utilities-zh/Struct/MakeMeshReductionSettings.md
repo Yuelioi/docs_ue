@@ -1,6 +1,6 @@
 # MakeMeshReductionSettings
 
-Adds a node that create a 'MeshReductionSettings' from its members
+添加一个节点，从其成员中创建一个 "MeshReductionSettings"。
 
 ## 图示
 
@@ -8,43 +8,42 @@ Adds a node that create a 'MeshReductionSettings' from its members
 
 ## Inputs
 
-Percent Triangles: Float (single-precision). Percent Triangles:. Percentage of triangles to keep. 1.0 = no reduction, 0.0 = no triangles..
+三角形百分比。Float (single-precision).Triangles百分比：。要保留的三角形的百分比。1.0 = 不减少，0.0 = 没有三角形。
 
-Percent Vertices: Float (single-precision). Percent Vertices:. Percentage of vertices to keep. 1.0 = no reduction, 0.0 = no vertices..
+顶点百分比。Float (single-precision).Percent Vertices:（顶点百分比）。保留顶点的百分比。1.0 = 不减少，0.0 = 没有顶点。
 
-Max Deviation: Float (single-precision). Max Deviation:. The maximum distance in object space by which the reduced mesh may deviate from the original mesh..
+最大偏差。Float（单精度）。最大偏差：。缩小后的网格在物体空间中可能偏离原始网格的最大距离。
 
-Pixel Error: Float (single-precision). Pixel Error:. The amount of error in pixels allowed for this LOD..
+像素误差。Float (single-precision).像素误差：。该LOD允许的像素误差量。
 
-Welding Threshold: Float (single-precision). Welding Threshold:. Threshold in object space at which vertices are welded together..
+焊接阈值。浮点（单精度）。焊接阈值：。对象空间中顶点被焊接在一起的阈值。
 
-Hard Angle Threshold: Float (single-precision). Hard Angle Threshold:. Angle at which a hard edge is introduced between faces..
+硬角阈值。Float（单精度）。硬角阈值：。在面孔之间引入硬边缘的角度。
 
-Base LODModel: Integer. Base LODModel.
+基础LODModel。整数。Base LODModel.
 
-Silhouette Importance: EMeshFeatureImportance Enum. Silhouette Importance:. Higher values minimize change to border edges..
+剪影的重要性。EMeshFeatureImportance Enum.Silhouette Importance:.较高的值可以最大限度地减少对边界的改变。
 
-Texture Importance: EMeshFeatureImportance Enum. Texture Importance:. Higher values reduce texture stretching..
+纹理的重要性。EMeshFeatureImportance Enum.纹理重要性：。更高的值可以减少纹理的拉伸。
 
-Shading Importance: EMeshFeatureImportance Enum. Shading Importance:. Higher values try to preserve normals better..
+阴影的重要性。EMeshFeatureImportance Enum.Shading Importance:.更高的值可以更好地保留法线。
 
-Recalculate Normals: Boolean. Recalculate Normals.
+重新计算法线。布尔值。重新计算法线。
 
-Generate Unique Lightmap UVs: Boolean. Generate Unique Lightmap UVs.
+生成独特的光照图UV。布尔值。Generate Unique Lightmap UVs.
 
-Keep Symmetry: Boolean. Keep Symmetry.
+保持对称性。布尔型。保持对称性。
 
-Visibility Aided: Boolean. Visibility Aided.
+可见性辅助。Boolean.可见度辅助。
 
-Cull Occluded: Boolean. Cull Occluded.
+Cull Occluded:Boolean.Cull Occluded.
 
-Termination Criterion: EStaticMeshReductionTerimationCriterion Enum. Termination Criterion:. The method to use when optimizing static mesh LODs.
+终止标准。EStaticMeshReductionTerimationCriterion Enum.终止判据：。优化静态网格LOD时使用的方法。
 
-Visibility Aggressiveness: EMeshFeatureImportance Enum. Visibility Aggressiveness:. Higher values generates fewer samples.
+Visibility Aggressiveness:EMeshFeatureImportance Enum.Visibility Aggressiveness:.较高的值会产生较少的样本。
 
-Vertex Color Importance: EMeshFeatureImportance Enum. Vertex Color Importance:. Higher values minimize change to vertex color data..  
+顶点颜色的重要性。EMeshFeatureImportance Enum.顶点颜色的重要性：。更高的值使顶点颜色数据的变化最小。  
 
 ## Outputs
 
-Mesh Reduction Settings: Mesh Reduction Settings Structure.
-
+网格缩减设置。网格缩减设置结构。

@@ -1,8 +1,8 @@
 # ToText_boolean
 
-Converts a boolean value to formatted text, either 'true' or 'false'
+将一个布尔值转换为格式化的文本，要么是 "真 "要么是 "假
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet Text Library
 
 ## Inputs
 
-In Bool: Boolean.  
+在Bool。布尔型。  
 
 ## Outputs
 
-Return Value: Text. Converts a boolean value to formatted text, either 'true' or 'false'.
-
+返回值。文本。将一个布尔值转换为格式化的文本，要么是'真'，要么是'假'。

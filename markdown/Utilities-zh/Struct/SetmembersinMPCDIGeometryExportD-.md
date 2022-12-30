@@ -1,6 +1,6 @@
 # SetmembersinMPCDIGeometryExportD-
 
-Adds a node that modifies a 'MPCDIGeometryExportData'
+添加一个修改 "MPCDIGeometryExportData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MPCDIGeometryExportData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: MPCDIGeometry Export Data Structure (by ref).  
+结构参考：MPCDIGeometry导出数据结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: MPCDIGeometry Export Data Structure (by ref). Reference to the input struct.
-
+结构输出。MPCDIGeometry导出数据结构（通过ref）。对输入结构的引用。

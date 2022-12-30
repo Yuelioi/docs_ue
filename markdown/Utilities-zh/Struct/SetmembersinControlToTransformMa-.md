@@ -1,6 +1,6 @@
 # SetmembersinControlToTransformMa-
 
-Adds a node that modifies a 'ControlToTransformMappings'
+添加一个修改 "ControlToTransformMappings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ControlToTransformMappings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Control To Transform Mappings Structure (by ref).  
+Struct Ref: Control To Transform Mappings结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Control To Transform Mappings Structure (by ref). Reference to the input struct.
-
+结构出来。控制到转换映射结构（通过ref）。对输入结构的引用。

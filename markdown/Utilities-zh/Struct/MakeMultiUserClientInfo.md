@@ -1,6 +1,6 @@
 # MakeMultiUserClientInfo
 
-Adds a node that create a 'MultiUserClientInfo' from its members
+添加一个节点，从其成员中创建一个'MultiUserClientInfo'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'MultiUserClientInfo' from its members
 
 ## Outputs
 
-Multi User Client Info: Multi User Client Info Structure.
-
+多用户客户端信息：多用户客户端信息结构。

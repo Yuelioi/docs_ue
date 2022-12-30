@@ -1,6 +1,6 @@
 # SetmembersinAITestSpawnSetBase
 
-Adds a node that modifies a 'AITestSpawnSetBase'
+添加一个修改'AITestSpawnSetBase'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AITestSpawnSetBase'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: AITest Spawn Set Base Structure (by ref).  
+Struct Ref: AITest Spawn Set 基础结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: AITest Spawn Set Base Structure (by ref). Reference to the input struct.
-
+结构出来了。AITest Spawn Set 基本结构（通过 ref）。对输入结构的引用。

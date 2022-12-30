@@ -1,6 +1,6 @@
 # BreakGeometryScriptMeshBooleanOp-
 
-Adds a node that breaks a 'GeometryScriptMeshBooleanOptions' into its member fields
+添加一个节点，将'GeometryScriptMeshBooleanOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'GeometryScriptMeshBooleanOptions' into its member fie
 
 ## Inputs
 
-Geometry Script Mesh Boolean Options: Geometry Script Mesh Boolean Options Structure (by ref).  
+Geometry Script Mesh Boolean Options:Geometry Script Mesh Boolean Options结构（按参考）。  
 
 ## Outputs
 
-Fill Holes: Boolean. Fill Holes.
+填充孔。布尔型。填充孔。
 
-Simplify Output: Boolean. Simplify Output.
+简化输出。布尔型。简化输出。
 
-Simplify Planar Tolerance: Float (single-precision). Simplify Planar Tolerance.
-
+简化平面公差。Float（单精度）。简化平面公差。

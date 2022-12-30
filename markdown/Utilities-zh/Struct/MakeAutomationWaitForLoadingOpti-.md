@@ -1,6 +1,6 @@
 # MakeAutomationWaitForLoadingOpti-
 
-Adds a node that create a 'AutomationWaitForLoadingOptions' from its members
+添加一个节点，从其成员中创建一个'AutomationWaitForLoadingOptions'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'AutomationWaitForLoadingOptions' from its members
 
 ## Inputs
 
-Wait For Replication To Settle: Boolean. Wait for Replication to Settle.  
+等待复制完成。Boolean.等待复制完成。  
 
 ## Outputs
 
-Automation Wait for Loading Options: Automation Wait For Loading Options Structure.
-
+自动化等待加载选项。自动化等待加载选项的结构。

@@ -1,6 +1,6 @@
 # SetmembersinDatasmithImportBaseO-
 
-Adds a node that modifies a 'DatasmithImportBaseOptions'
+添加一个修改 "DatasmithImportBaseOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DatasmithImportBaseOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Datasmith Import Base Options Structure (by ref).  
+结构参考：Datasmith导入基础选项结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Datasmith Import Base Options Structure (by ref). Reference to the input struct.
-
+结构出来。Datasmith导入基础选项结构（通过引用）。对输入结构的引用。

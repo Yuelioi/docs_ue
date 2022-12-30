@@ -1,6 +1,6 @@
 # SetmembersinStreamingSourceShape
 
-Adds a node that modifies a 'StreamingSourceShape'
+添加一个修改 "StreamingSourceShape "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'StreamingSourceShape'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Streaming Source Shape Structure (by ref).  
+Struct Ref: 流动源形状结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Streaming Source Shape Structure (by ref). Reference to the input struct.
-
+结构出来。流动源形状结构（通过引用）。对输入结构的引用。

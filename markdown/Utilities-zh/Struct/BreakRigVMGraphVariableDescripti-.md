@@ -1,6 +1,6 @@
 # BreakRigVMGraphVariableDescripti-
 
-Adds a node that breaks a 'RigVMGraphVariableDescription' into its member fields
+添加一个节点，将 "RigVMGraphVariableDescription "分解到其成员字段中。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'RigVMGraphVariableDescription' into its member fields
 
 ## Inputs
 
-Rig VMGraph Variable Description: Rig VMGraph Variable Description Structure (by ref).  
+Rig VMGraph变量描述。Rig VMGraph变量描述结构（通过参考）。  
 
 ## Outputs
 
-Name: Name. Name:. The name of the variable.
+姓名。姓名：。名称：。该变量的名称。
 
-CPPType: String. CPPType:. The C++ data type of the variable.
+CPPT类型。字符串。CPPType:。该变量的C++数据类型。
 
-CPPType Object: Object Reference. CPPType Object:. The Struct of the C++ data type of the variable (or nullptr).
+CPPT类型对象。对象参考。CPPType Object:。变量的C++数据类型的结构（或nullptr）。
 
-Default Value: String. Default Value:. The default value of the variable.
-
+默认值。字符串。默认值：。该变量的默认值。

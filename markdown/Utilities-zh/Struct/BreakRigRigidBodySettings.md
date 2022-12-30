@@ -1,6 +1,6 @@
 # BreakRigRigidBodySettings
 
-Adds a node that breaks a 'RigRigidBodySettings' into its member fields
+添加一个节点，将'RigRigidBodySettings'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'RigRigidBodySettings' into its member fields
 
 ## Inputs
 
-Rig Rigid Body Settings: Rig Rigid Body Settings Structure (by ref).  
+刚性体设置。刚性刚体设置结构（按参考）。  
 
 ## Outputs
 
-Mass: Float (single-precision). Mass.
-
+质量。Float（单精度）。质量。

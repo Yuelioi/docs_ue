@@ -1,6 +1,6 @@
 # SetmembersinRemoteControlTestStr-
 
-Adds a node that modifies a 'RemoteControlTestStruct'
+添加一个修改 "RemoteControlTestStruct "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RemoteControlTestStruct'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Remote Control Test Struct Structure (by ref).  
+结构参考：远程控制测试结构结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Remote Control Test Struct Structure (by ref). Reference to the input struct.
-
+结构出来。遥控测试结构结构（通过参考）。对输入结构的引用。

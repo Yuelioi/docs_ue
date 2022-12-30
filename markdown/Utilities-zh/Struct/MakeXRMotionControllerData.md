@@ -1,6 +1,6 @@
 # MakeXRMotionControllerData
 
-Adds a node that create a 'XRMotionControllerData' from its members
+添加一个节点，从其成员中创建一个 "XRMotionControllerData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'XRMotionControllerData' from its members
 
 ## Outputs
 
-XRMotion Controller Data: XRMotion Controller Data Structure.
-
+XRMotion控制器的数据。XRMotion控制器的数据结构。

@@ -1,6 +1,6 @@
 # SetmembersinType-
 
-Adds a node that modifies a 'TypedElementSelectionNormalizationOptions'
+添加一个修改 "TypedElementSelectionNormalizationOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TypedElementSelectionNormalizationOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Typed Element Selection Normalization Options Structure (by ref).  
+Struct Ref: Typeed Element Selection Normalization Options结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Typed Element Selection Normalization Options Structure (by ref). Reference to the input struct.
-
+结构出来。类型化元素选择规范化选项结构（通过ref）。对输入结构的引用。

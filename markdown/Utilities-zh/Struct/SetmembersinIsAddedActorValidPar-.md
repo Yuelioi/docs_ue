@@ -1,6 +1,6 @@
 # SetmembersinIsAddedActorValidPar-
 
-Adds a node that modifies a 'IsAddedActorValidParams'
+添加一个节点，修改'IsAddedActorValidParams'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'IsAddedActorValidParams'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Is Added Actor Valid Params Structure (by ref).  
+结构参考：被添加的演员有效参数结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Is Added Actor Valid Params Structure (by ref). Reference to the input struct.
-
+Struct Out: Is Added Actor Valid Params Structure (by ref).对输入结构的引用。

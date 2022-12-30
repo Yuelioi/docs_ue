@@ -1,6 +1,6 @@
 # MakeGameplayTargetDataFilter
 
-Adds a node that create a 'GameplayTargetDataFilter' from its members
+添加一个节点，从其成员中创建一个 "GameplayTargetDataFilter"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'GameplayTargetDataFilter' from its members
 
 ## Inputs
 
-Required Actor Class: Actor Class Reference. Required Actor Class:. Subclass actors must be to pass the filter..
+所需的演员类。演员类参考。必要的演员类：。子类演员必须要通过过滤器。
 
-Self Filter: ETargetDataFilterSelf Enum. Self Filter:. Filter based on whether or not this actor is "self.".
+自我过滤。ETargetDataFilterSelf Enum.自身过滤：。根据该行为体是否为 "自我 "进行过滤。
 
-Reverse Filter: Boolean. Reverse Filter:. Reverses the meaning of the filter, so it will exclude all actors that pass..  
+反向过滤。布尔型。反向过滤：。反转过滤器的含义，所以它将排除所有通过的演员。
 
 ## Outputs
 
-Gameplay Target Data Filter: Gameplay Target Data Filter Structure.
-
+游戏目标数据过滤器。Gameplay Target Data Filter结构。

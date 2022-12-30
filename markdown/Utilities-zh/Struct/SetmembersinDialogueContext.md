@@ -1,6 +1,6 @@
 # SetmembersinDialogueContext
 
-Adds a node that modifies a 'DialogueContext'
+添加一个修改'DialogueContext'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DialogueContext'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Dialogue Context Structure (by ref).  
+Struct Ref: 对话背景结构（按参考文献）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Dialogue Context Structure (by ref). Reference to the input struct.
-
+结构出来。对话语境结构（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # SetmembersinInputActionSpeechMap-
 
-Adds a node that modifies a 'InputActionSpeechMapping'
+添加一个修改 "InputActionSpeechMapping "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InputActionSpeechMapping'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Input Action Speech Mapping Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Input Action Speech Mapping Structure (by ref). Reference to the input struct.
-
+Struct Out: Input Action Speech Mapping Structure (by ref).对输入结构的引用。

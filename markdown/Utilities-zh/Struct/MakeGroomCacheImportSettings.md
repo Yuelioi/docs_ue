@@ -1,6 +1,6 @@
 # MakeGroomCacheImportSettings
 
-Adds a node that create a 'GroomCacheImportSettings' from its members
+添加一个节点，从其成员中创建一个 "GroomCacheImportSettings"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'GroomCacheImportSettings' from its members
 
 ## Inputs
 
-Import Groom Cache: Boolean. Import Groom Cache:. Import the animated groom that was detected in this file.
+导入Groom Cache。布尔值。导入新郎缓存：。导入该文件中检测到的动画新郎。
 
-Frame Start: Integer. Frame Start:. Starting index to start sampling the animation from.
+帧开始。整数。帧开始：。开始采样动画的起始索引。
 
-Frame End: Integer. Frame End:. Ending index to stop sampling the animation at.
+框架结束。整数。帧结束：。停止采样动画的结束指数。
 
-Skip Empty Frames At Start Of Groom Animation: Boolean. Skip Empty Frames:. Skip empty (pre-roll) frames and start importing at the frame which actually contains data.
+跳过新郎动画开始时的空帧。Boolean.跳过空帧：。跳过空帧（预卷），从实际包含数据的帧开始导入。
 
-Import Groom Asset: Boolean. Import Groom Asset:. Import or re-import the groom asset from this file.
+导入新郎资产：布尔值。导入新郎资产：。从这个文件导入或重新导入新郎资产。
 
-Groom Asset: Soft Object Path Structure. Groom Asset:. The groom asset the groom cache will be built from (must be compatible).  
+Groom Asset: Soft Object Path Structure.新郎资产：。新郎缓存的新郎资产将被建立在（必须是兼容的）。  
 
 ## Outputs
 
-Groom Cache Import Settings: Groom Cache Import Settings Structure.
-
+Groom Cache导入设置。新郎缓存导入设置结构。

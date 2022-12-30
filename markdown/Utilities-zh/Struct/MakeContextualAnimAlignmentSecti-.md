@@ -1,6 +1,6 @@
 # MakeContextualAnimAlignmentSecti-
 
-Adds a node that create a 'ContextualAnimAlignmentSectionData' from its members
+添加一个节点，从其成员中创建一个 "ContextualAnimAlignmentSectionData"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ContextualAnimAlignmentSectionData' from its members
 
 ## Inputs
 
-Section Name: Name. Section Name.
+科室名称：名称。部门名称。
 
-Scene Pivots: Array of Transforms. Scene Pivots.  
+场景支点。变形阵列。场景支点。  
 
 ## Outputs
 
-Contextual Anim Alignment Section Data: Contextual Anim Alignment Section Data Structure.
-
+上下文动画对齐部分的数据。语境动画对齐部分数据结构.

@@ -1,6 +1,6 @@
 # SetmembersinDMXImportGDTFMeasure-_1
 
-Adds a node that modifies a 'DMXImportGDTFMeasurementPoint'
+添加一个修改'DMXImportGDTFMeasurementPoint'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXImportGDTFMeasurementPoint'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: DMXImport GDTFMeasurement Point Structure (by ref).  
+结构参考：DMXImport GDTFMeasurement Point结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMXImport GDTFMeasurement Point Structure (by ref). Reference to the input struct.
-
+结构输出。DMXImport GDTFMeasurement Point Structure（通过ref）。对输入结构的引用。

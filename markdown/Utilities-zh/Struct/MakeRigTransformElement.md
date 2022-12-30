@@ -1,6 +1,6 @@
 # MakeRigTransformElement
 
-Adds a node that create a 'RigTransformElement' from its members
+添加一个节点，从其成员中创建一个 "RigTransformElement"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigTransformElement' from its members
 
 ## Outputs
 
-Rig Transform Element: Rig Transform Element Structure.
-
+钻机转换元件。钻机转换元件结构。

@@ -1,6 +1,6 @@
 # MakeCameraShakeStopParams
 
-Adds a node that create a 'CameraShakeStopParams' from its members
+添加一个节点，从其成员中创建一个 "CameraShakeStopParams"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'CameraShakeStopParams' from its members
 
 ## Inputs
 
-Immediately: Boolean. Immediately.  
+马上。布尔型。立即执行。  
 
 ## Outputs
 
-Camera Shake Stop Params: Camera Shake Stop Params Structure.
-
+相机防抖参数。相机防抖参数结构。

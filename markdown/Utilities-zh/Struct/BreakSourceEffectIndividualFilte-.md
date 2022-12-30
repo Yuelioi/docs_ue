@@ -1,6 +1,6 @@
 # BreakSourceEffectIndividualFilte-
 
-Adds a node that breaks a 'SourceEffectIndividualFilterSettings' into its member fields
+添加一个节点，将'SourceEffectIndividualFilterSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'SourceEffectIndividualFilterSettings' into its member
 
 ## Inputs
 
-Source Effect Individual Filter Settings: Source Effect Individual Filter Settings Structure (by ref).  
+源效果个别滤镜设置。源效果个别滤镜设置结构（按参考）。  
 
 ## Outputs
 
-Filter Circuit: ESourceEffectMotionFilterCircuit Enum. Filter Circuit:. The type of filter circuit to use..
+滤波器电路。ESourceEffectMotionFilterCircuit Enum.滤波电路：。要使用的滤波电路的类型。
 
-Filter Type: ESourceEffectMotionFilterType Enum. Filter Type:. The type of filter to use..
+过滤器类型。ESourceEffectMotionFilterType枚举。过滤器类型：。要使用的过滤器的类型。
 
-Cutoff Frequency: Float (single-precision). Cutoff Frequency:. The filter cutoff frequency.
+截断频率。浮点数（单精度）。切断频率：。滤波器的截止频率。
 
-Filter Q: Float (single-precision). Filter Q:. The filter resonance..
-
+滤波器Q：浮点数（单精度）。滤波器Q：。滤波器的谐振。

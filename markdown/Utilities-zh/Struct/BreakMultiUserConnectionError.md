@@ -1,6 +1,6 @@
 # BreakMultiUserConnectionError
 
-Adds a node that breaks a 'MultiUserConnectionError' into its member fields
+在其成员字段中添加一个打破'MultiUserConnectionError'的节点
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'MultiUserConnectionError' into its member fields
 
 ## Inputs
 
-Multi User Connection Error: Multi User Connection Error Structure (by ref).  
+多用户连接错误。多用户连接错误结构（按参考）。  
 
 ## Outputs
 
-Error Message: Text. Error Message.
-
+错误信息：文本。错误信息。

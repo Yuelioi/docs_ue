@@ -1,6 +1,6 @@
 # BreakRigControlElement
 
-Adds a node that breaks a 'RigControlElement' into its member fields
+添加一个节点，将'RigControlElement'分解成其成员字段
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that breaks a 'RigControlElement' into its member fields
 
 ## Inputs
 
-Rig Control Element: Rig Control Element Structure (by ref).  
+钻机控制元件。钻机控制元件结构（按参考）。  
 
 ## Outputs
 
-Settings: Rig Control Settings Structure. Settings.
+设置。钻机控制设置结构。设置。
 
-Offset: Rig Current And Initial Transform Structure. Offset.
+偏移。钻机当前和初始变换结构。偏移。
 
-Shape: Rig Current And Initial Transform Structure. Shape.
+形状。钻机电流和初始变换结构。形状。
 
-Parent: Rig Current And Initial Transform Structure. Parent.
+父母。钻机当前和初始转换结构。母体。
 
-Pose: Rig Current And Initial Transform Structure. Pose.
+姿势。钻机电流和初始变换结构。姿势。
 
-Key: Rig Element Key Structure. Key.
+钥匙。钻机元素关键结构。钥匙。
 
-Index: Integer. Index.
+索引。整数。指数。
 
-Sub Index: Integer. Sub Index.
+副索引。整数。副索引。
 
-Selected: Boolean. Selected.
-
+选定。布尔型。选定。

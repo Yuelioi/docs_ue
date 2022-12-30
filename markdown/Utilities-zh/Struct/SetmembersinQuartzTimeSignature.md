@@ -1,6 +1,6 @@
 # SetmembersinQuartzTimeSignature
 
-Adds a node that modifies a 'QuartzTimeSignature'
+添加一个修改 "QuartzTimeSignature "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'QuartzTimeSignature'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Quartz Time Signature Structure (by ref).  
+结构参考。石英时间特征结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Quartz Time Signature Structure (by ref). Reference to the input struct.
-
+结构出来。石英时间特征结构（通过引用）。对输入结构的引用。

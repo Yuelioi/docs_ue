@@ -1,6 +1,6 @@
 # BreakRegisteredDeviceInfo
 
-Adds a node that breaks a 'RegisteredDeviceInfo' into its member fields
+添加一个节点，将'RegisteredDeviceInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'RegisteredDeviceInfo' into its member fields
 
 ## Inputs
 
-Registered Device Info: Registered Device Info Structure (by ref).  
+注册设备信息。注册设备信息结构（通过参考）。  
 
 ## Outputs
 
-Handle: Integer. Handle.
+Handle: 整数。处理。
 
-Vendor ID: Integer. Vendor ID:. Integer representation of the vendor ID (e.g. 0xC262 = 49762).
+供应商ID。整数。供应商ID：。供应商ID的整数表示（例如：0xC262 = 49762）。
 
-Product ID: Integer. Product ID:. Integer representation of the product ID (e.g. 0xC262 = 49762).
+产品ID。整数。产品ID：。产品ID的整数表示（例如：0xC262 = 49762）。
 
-Device Name: String. Device Name:. Driver supplied device name.
-
+设备名称。字符串。设备名称：。驱动程序提供的设备名称。

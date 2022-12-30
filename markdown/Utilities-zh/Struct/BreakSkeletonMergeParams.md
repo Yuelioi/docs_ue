@@ -1,6 +1,6 @@
 # BreakSkeletonMergeParams
 
-Adds a node that breaks a 'SkeletonMergeParams' into its member fields
+添加一个节点，将'SkeletonMergeParams'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'SkeletonMergeParams' into its member fields
 
 ## Inputs
 
-Skeleton Merge Params: Skeleton Merge Params Structure (by ref).  
+骨架式合并参数。骨架合并参数结构（按参考）。  
 
 ## Outputs
 
-Skeletons To Merge: Array of Skeleton Object References. Skeletons to Merge:. The list of skeletons to merge..
+要合并的骨架。骨架对象参考数组。要合并的骨架：.要合并的骨架的列表。
 
-Merge Sockets: Boolean. Merge Sockets:. Whether or not to include Sockets when merging the Skeletons.
+合并套接字。布尔值。合并套接字：。在合并骨架时，是否包括Socket。
 
-Merge Virtual Bones: Boolean. Merge Virtual Bones:. Whether or not to include Virtual Bones when merging the Skeletons.
+合并虚拟骨架。Boolean.合并虚拟骨骼：。在合并骨架时，是否包括虚拟骨架。
 
-Merge Curve Names: Boolean. Merge Curve Names:. Whether or not to include (Animation) Curve names when merging the Skeletons.
+合并曲线名称。布尔型。合并曲线名称：。合并骨架时是否包含（动画）曲线名称。
 
-Merge Blend Profiles: Boolean. Merge Blend Profiles:. Whether or not to include Blend Profiles when merging the Skeletons.
+合并混合配置文件。Boolean.合并混合轮廓：。在合并骨架时是否包括混合轮廓。
 
-Merge Anim Slot Groups: Boolean. Merge Anim Slot Groups:. Whether or not to include Animation Slot Group (names) when merging the Skeletons.
-
+合并动画槽组。Boolean.合并动画槽组：.合并骨架时是否包括动画槽组（名称）。

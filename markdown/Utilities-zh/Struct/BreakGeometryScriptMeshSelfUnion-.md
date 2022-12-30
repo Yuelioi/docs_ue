@@ -1,6 +1,6 @@
 # BreakGeometryScriptMeshSelfUnion-
 
-Adds a node that breaks a 'GeometryScriptMeshSelfUnionOptions' into its member fields
+添加一个节点，将'GeometryScriptMeshSelfUnionOptions'分解到其成员字段中
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'GeometryScriptMeshSelfUnionOptions' into its member f
 
 ## Inputs
 
-Geometry Script Mesh Self Union Options: Geometry Script Mesh Self Union Options Structure (by ref).  
+Geometry Script Mesh Self Union Options:Geometry Script Mesh Self Union Options结构（按参考）。  
 
 ## Outputs
 
-Fill Holes: Boolean. Fill Holes.
+填充孔。布尔型。填充孔。
 
-Trim Flaps: Boolean. Trim Flaps.
+修剪襟翼。Boolean.修剪襟翼。
 
-Simplify Output: Boolean. Simplify Output.
+简化输出。布尔型。简化输出。
 
-Simplify Planar Tolerance: Float (single-precision). Simplify Planar Tolerance.
+简化平面公差。Float（单精度）。简化平面公差。
 
-Winding Threshold: Float (single-precision). Winding Threshold.
-
+绕组阈值。Float（单精度）。绕组阈值。

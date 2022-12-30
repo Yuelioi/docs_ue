@@ -1,6 +1,6 @@
 # BreakSourceEffectWaveShaperSetti-
 
-Adds a node that breaks a 'SourceEffectWaveShaperSettings' into its member fields
+添加一个节点，将'SourceEffectWaveShaperSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'SourceEffectWaveShaperSettings' into its member field
 
 ## Inputs
 
-Source Effect Wave Shaper Settings: Source Effect Wave Shaper Settings Structure (by ref).  
+源效应波整形器设置。源效应波整形器设置结构（按参考）。  
 
 ## Outputs
 
-Amount: Float (single-precision). Amount:. The amount of wave shaping. 0.0 = no wave shaping..
+数量。Float（单精度）。数量：。波形整形的数量。0.0=没有波浪整形。
 
-Output Gain Db: Float (single-precision). Output Gain Db:. The amount of wave shaping. 0.0 = no wave shaping..
-
+输出增益Db。Float (single-precision).输出增益Db:。波形整形的数量。0.0=无波段整形。

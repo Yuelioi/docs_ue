@@ -1,6 +1,6 @@
 # MakeValidateAssetsResults
 
-Adds a node that create a 'ValidateAssetsResults' from its members
+添加一个节点，从其成员中创建一个 "ValidateAssetsResults"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ValidateAssetsResults' from its members
 
 ## Outputs
 
-Validate Assets Results: Validate Assets Results Structure.
-
+验证资产结果。验证资产结果的结构。

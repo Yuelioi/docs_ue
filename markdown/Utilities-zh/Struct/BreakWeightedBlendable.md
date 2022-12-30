@@ -1,6 +1,6 @@
 # BreakWeightedBlendable
 
-Adds a node that breaks a 'WeightedBlendable' into its member fields
+添加一个节点，将 "WeightedBlendable "分解成其成员字段。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'WeightedBlendable' into its member fields
 
 ## Inputs
 
-Weighted Blendable: Weighted Blendable Structure (by ref).  
+加权可混合的。加权可混合结构（按参考）。  
 
 ## Outputs
 
-Weight: Float (single-precision). Weight:. 0:no effect .. 1:full effect.
+重量。Float（单精度）。权重:.0:无影响 ... 1:完全影响。
 
-Object: Object Reference. Object:. should be of the IBlendableInterface* type but UProperties cannot express that.
-
+对象。对象参考。Object:.应该是IBlendableInterface*类型的，但是UProperties不能表达这个。

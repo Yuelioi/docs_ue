@@ -1,6 +1,6 @@
 # BreakSkeletalMeshMergeParams
 
-Adds a node that breaks a 'SkeletalMeshMergeParams' into its member fields
+添加一个节点，将'SkeletalMeshMergeParams'分解成其成员字段
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'SkeletalMeshMergeParams' into its member fields
 
 ## Inputs
 
-Skeletal Mesh Merge Params: Skeletal Mesh Merge Params Structure (by ref).  
+骨架网合并参数。骨架网合并参数结构（通过参考）。  
 
 ## Outputs
 
-Mesh Section Mappings: Array of Skel Mesh Merge Section Mapping Structures. Mesh Section Mappings:. An optional array to map sections from the source meshes to merged section entries.
+网格断面映射。Skel网格合并段映射结构数组。Mesh Section Mappings:.一个可选的数组，用于将源网格的截面映射到合并后的截面条目。
 
-UVTransforms Per Mesh: Array of Skel Mesh Merge Mesh UVTransforms Structures. UVTransforms Per Mesh:. An optional array to transform the UVs in each mesh.
+每个网格的UVTransforms。Skel Mesh Merge Mesh UVTransforms结构的阵列。UVTransforms Per Mesh:.一个可选的数组，用于转换每个网格中的UV。
 
-Meshes To Merge: Array of Skeletal Mesh Object References. Meshes to Merge:. The list of skeletal meshes to merge..
+要合并的网格。骨架网格对象引用数组。要合并的网格：.要合并的骨架网格的列表。
 
-Strip Top LODS: Integer. Strip Top LODS:. The number of high LODs to remove from input meshes.
+Top LODS: 整数。Strip Top LODS：。要从输入网格中移除的高LOD数量。
 
-Needs Cpu Access: Boolean. Needs Cpu Access:. Whether or not the resulting mesh needs to be accessed by the CPU for any reason (e.g. for spawning particle effects)..
+需要Cpu访问。Boolean.Needs Cpu Access：.产生的网格是否需要由CPU访问（例如：生成粒子效果）。
 
-Skeleton Before: Boolean. Skeleton Before:. Update skeleton before merge. Otherwise, update after.. Skeleton must also be provided..
+骨架在前。Boolean.骨架之前：。在合并前更新骨架。否则，在合并后更新。骨架也必须提供。
 
-Skeleton: Skeleton Object Reference. Skeleton:. Skeleton that will be used for the merged mesh.. Leave empty if the generated skeleton is OK..
-
+骨架。骨架对象参考。Skeleton:.合并后的网格将使用的骨架。如果生成的骨架没有问题，则留空。

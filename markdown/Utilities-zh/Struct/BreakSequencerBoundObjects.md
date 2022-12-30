@@ -1,6 +1,6 @@
 # BreakSequencerBoundObjects
 
-Adds a node that breaks a 'SequencerBoundObjects' into its member fields
+添加一个节点，将'SequencerBoundObjects'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'SequencerBoundObjects' into its member fields
 
 ## Inputs
 
-Sequencer Bound Objects: Sequencer Bound Objects Structure (by ref).  
+序列器绑定的对象。序列器绑定对象的结构（通过参考）。  
 
 ## Outputs
 
-Binding Proxy: Sequencer Binding Proxy Structure. Binding Proxy.
+绑定代理。定序器绑定代理结构。绑定代理。
 
-Bound Objects: Array of Object References. Bound Objects.
-
+绑定的对象。对象引用数组。绑定的对象。

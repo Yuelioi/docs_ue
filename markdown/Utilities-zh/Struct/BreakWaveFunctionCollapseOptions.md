@@ -1,6 +1,6 @@
 # BreakWaveFunctionCollapseOptions
 
-Adds a node that breaks a 'WaveFunctionCollapseOptions' into its member fields
+添加一个节点，将'WaveFunctionCollapseOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'WaveFunctionCollapseOptions' into its member fields
 
 ## Inputs
 
-Wave Function Collapse Options: Wave Function Collapse Options Structure (by ref).  
+波函数折叠选项。波函数折叠选项结构（按参考）。  
 
 ## Outputs
 
-Options: Array of Wave Function Collapse Option Structures. Options.
-
+选项。波函数折叠选项结构的阵列。选项。

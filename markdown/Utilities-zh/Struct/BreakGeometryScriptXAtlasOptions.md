@@ -1,6 +1,6 @@
 # BreakGeometryScriptXAtlasOptions
 
-Adds a node that breaks a 'GeometryScriptXAtlasOptions' into its member fields
+添加一个节点，将'GeometryScriptXAtlasOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'GeometryScriptXAtlasOptions' into its member fields
 
 ## Inputs
 
-Geometry Script XAtlas Options: Geometry Script XAtlas Options Structure (by ref).  
+Geometry Script XAtlas Options:Geometry Script XAtlas Options结构（按参考）。  
 
 ## Outputs
 
-Max Iterations: Integer. Max Iterations.
-
+最大迭代次数。整数。最大迭代次数。

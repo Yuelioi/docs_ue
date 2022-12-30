@@ -1,6 +1,6 @@
 # MakeDisplayClust-_1
 
-Adds a node that create a 'DisplayClusterConfigurationFramePostProcess_OutputRemap' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationFramePostProcess_OutputRemap"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'DisplayClusterConfigurationFramePostProcess_OutputRem
 
 ## Inputs
 
-Enable Output Remapping: Boolean. Enable:. Enables or disables output remapping.
+启用输出重映射。布尔值。启用：。启用或禁用输出重映射。
 
-Data Source: EDisplayClusterConfigurationFramePostProcess_OutputRemapSource Enum. Data Source:. Selects either the Static Mesh or External File setting as the source for output remapping.
+数据源。EDisplayClusterConfigurationFramePostProcess_OutputRemapSource枚举。数据源：。选择静态网格或外部文件设置作为输出重映射的源。
 
-External File: String. External File:. The external .obj file to use for output remapping when the Data Source is set to File.  
+外部文件：字符串。External File:（外部文件）。当数据源设置为文件时，用于输出重映射的外部.obj文件。  
 
 ## Outputs
 
-Display Cluster Configuration Frame Post Process Output Remap: Display Cluster Configuration Frame Post Process Output Remap Structure.
-
+显示群集配置框架后进程输出重映射。显示群集配置框架后处理输出重合结构。

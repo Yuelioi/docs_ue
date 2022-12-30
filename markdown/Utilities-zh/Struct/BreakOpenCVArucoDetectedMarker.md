@@ -1,6 +1,6 @@
 # BreakOpenCVArucoDetectedMarker
 
-Adds a node that breaks a 'OpenCVArucoDetectedMarker' into its member fields
+添加一个节点，将'OpenCVArucoDetectedMarker'分解到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'OpenCVArucoDetectedMarker' into its member fields
 
 ## Inputs
 
-Open CVAruco Detected Marker: Open CVAruco Detected Marker Structure (by ref).  
+打开CVAruco检测到的标志物。开放式CVAruco检测到的标志物结构（由参考）。  
 
 ## Outputs
 
-Id: Integer. Id.
+同上。整数。同上。
 
-Corners: Array of Vector 2D Structures. Corners.
+角落。矢量二维结构的阵列。角落。
 
-Pose: Transform. Pose.
-
+姿势：转变。姿势。

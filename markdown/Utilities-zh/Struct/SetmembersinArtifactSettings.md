@@ -1,6 +1,6 @@
 # SetmembersinArtifactSettings
 
-Adds a node that modifies a 'ArtifactSettings'
+添加一个节点，修改 "ArtifactSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ArtifactSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Artifact Settings Structure (by ref).  
+Struct Ref: 艺术品设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Artifact Settings Structure (by ref). Reference to the input struct.
-
+结构出来。工件设置结构（通过引用）。对输入结构的引用。

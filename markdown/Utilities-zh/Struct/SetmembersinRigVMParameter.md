@@ -1,6 +1,6 @@
 # SetmembersinRigVMParameter
 
-Adds a node that modifies a 'RigVMParameter'
+添加一个修改 "RigVMParameter "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RigVMParameter'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Rig VMParameter Structure (by ref).  
+Struct Ref: Rig VMParameter结构（通过ref）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Rig VMParameter Structure (by ref). Reference to the input struct.
-
+结构出来。Rig VMParameter结构（通过ref）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeAdvanceConversationRequest
 
-Adds a node that create a 'AdvanceConversationRequest' from its members
+添加一个节点，从其成员中创建一个 "AdvanceConversationRequest"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'AdvanceConversationRequest' from its members
 
 ## Inputs
 
-Choice: Conversation Choice Reference Structure. Choice.
+选择。对话选择参考结构。选择。
 
-User Parameters: Array of Conversation Node Parameter Pair Structures. User Parameters:. @TODO: CONVERSATION: Not currently supported, TODO..  
+用户参数。对话节点参数对结构的数组。用户参数：.@TODO: CONVERSATION: 目前不支持，TODO.  
 
 ## Outputs
 
-Advance Conversation Request: Advance Conversation Request Structure.
-
+预先对话请求。预先对话请求结构。

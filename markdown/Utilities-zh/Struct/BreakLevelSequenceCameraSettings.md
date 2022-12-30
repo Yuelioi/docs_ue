@@ -1,6 +1,6 @@
 # BreakLevelSequenceCameraSettings
 
-Adds a node that breaks a 'LevelSequenceCameraSettings' into its member fields
+添加一个节点，将'LevelSequenceCameraSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'LevelSequenceCameraSettings' into its member fields
 
 ## Inputs
 
-Level Sequence Camera Settings: Level Sequence Camera Settings Structure (by ref).  
+水平序列相机设置。水平序列相机设置结构（按参考）。  
 
 ## Outputs
 
-Override Aspect Ratio Axis Constraint: Boolean. Override Aspect Ratio Axis Constraint.
+覆盖纵横比轴约束。Boolean.覆盖纵横比轴约束。
 
-Aspect Ratio Axis Constraint: EAspectRatioAxisConstraint Enum. Aspect Ratio Axis Constraint.
-
+纵横比轴约束。EAspectRatioAxisConstraint Enum.纵横比轴约束。

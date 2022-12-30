@@ -1,6 +1,6 @@
 # MakeCommonInputKeyBrushConfigura-
 
-Adds a node that create a 'CommonInputKeyBrushConfiguration' from its members
+添加一个节点，从其成员中创建一个 "CommonInputKeyBrushConfiguration"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CommonInputKeyBrushConfiguration' from its members
 
 ## Outputs
 
-Common Input Key Brush Configuration: Common Input Key Brush Configuration Structure.
-
+常见的输入键刷配置。常见的输入键刷配置结构。

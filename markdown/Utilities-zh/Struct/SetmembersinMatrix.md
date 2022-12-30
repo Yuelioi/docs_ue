@@ -1,6 +1,6 @@
 # SetmembersinMatrix
 
-Adds a node that modifies a 'Matrix'
+添加一个修改 "矩阵 "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'Matrix'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Matrix Structure (by ref).  
+结构参考：矩阵结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Matrix Structure (by ref). Reference to the input struct.
-
+结构出来。矩阵结构（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeToolMenuEntry
 
-Adds a node that create a 'ToolMenuEntry' from its members
+添加一个节点，从其成员中创建一个 "ToolMenuEntry"。
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that create a 'ToolMenuEntry' from its members
 
 ## Inputs
 
-Name: Name. Name.
+姓名：姓名名字。
 
-Owner: Tool Menu Owner Structure. Owner.
+所有者：工具菜单所有者结构。业主。
 
-Type: EMultiBlockType Enum. Type.
+类型。EMultiBlockType枚举。类型。
 
-User Interface Action Type: EUserInterfaceActionType Enum. User Interface Action Type.
+用户界面动作类型。EUserInterfaceActionType枚举。用户界面动作类型。
 
-Tutorial Highlight Name: Name. Tutorial Highlight Name.
+教程重点介绍 名字。名称。教程亮点名称。
 
-Insert Position: Tool Menu Insert Structure. Insert Position.
+插入位置：工具菜单插入结构。插入位置。
 
-Should Close Window After Menu Selection: Boolean. Should Close Window After Menu Selection.
+选择菜单后应关闭窗口。布尔值。选择菜单后应关闭窗口。
 
-Script Object: Tool Menu Entry Script Object Reference. Script Object.
+脚本对象。工具菜单条目 脚本对象参考.脚本对象。
 
-Style Name Override: Name. Style Name Override.  
+风格名称覆盖。名称。风格名称覆盖。  
 
 ## Outputs
 
-Tool Menu Entry: Tool Menu Entry Structure.
-
+工具菜单条目。工具菜单条目结构。

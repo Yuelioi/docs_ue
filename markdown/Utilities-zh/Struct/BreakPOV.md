@@ -1,6 +1,6 @@
 # BreakPOV
 
-Adds a node that breaks a 'POV' into its member fields
+添加一个节点，将 "POV "分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'POV' into its member fields
 
 ## Inputs
 
-POV: POV Structure (by ref).  
+POV。POV结构（由裁判）。  
 
 ## Outputs
 
-Location: Vector. Location:. Location.
+地点：向量。向量。位置：。位置：。
 
-Rotation: Rotator. Rotation:. Rotation.
+旋转： 旋转器。轮换：。轮换。
 
-FOV: Float (single-precision). FOV:. FOV angle.
-
+FOV。Float（单精度）。FOV:。FOV角度。

@@ -1,6 +1,6 @@
 # SetmembersinARSharedWorldReplica-
 
-Adds a node that modifies a 'ARSharedWorldReplicationState'
+添加一个修改'ARSharedWorldReplicationState'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ARSharedWorldReplicationState'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: ARShared World Replication State Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: ARShared World Replication State Structure (by ref). Reference to the input struct.
-
+结构出来。ARShared World Replication State Structure（通过ref）。对输入结构的引用。

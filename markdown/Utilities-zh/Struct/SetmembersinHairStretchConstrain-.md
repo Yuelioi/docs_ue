@@ -1,6 +1,6 @@
 # SetmembersinHairStretchConstrain-
 
-Adds a node that modifies a 'HairStretchConstraint'
+添加一个修改 "HairStretchConstraint "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'HairStretchConstraint'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Hair Stretch Constraint Structure (by ref).  
+Struct Ref: 头发拉伸约束结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Hair Stretch Constraint Structure (by ref). Reference to the input struct.
-
+Struct Out: Hair Stretch Constraint Structure（通过引用）。对输入结构的引用。

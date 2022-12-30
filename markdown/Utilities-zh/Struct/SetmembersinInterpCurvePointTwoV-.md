@@ -1,6 +1,6 @@
 # SetmembersinInterpCurvePointTwoV-
 
-Adds a node that modifies a 'InterpCurvePointTwoVectors'
+添加一个修改 "InterpCurvePointTwoVectors "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InterpCurvePointTwoVectors'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Interp Curve Point Two Vectors Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Interp Curve Point Two Vectors Structure (by ref). Reference to the input struct.
-
+Struct Out: Interp Curve Point Two Vectors结构（通过ref）。对输入结构的引用。

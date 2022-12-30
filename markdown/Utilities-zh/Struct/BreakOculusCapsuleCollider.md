@@ -1,6 +1,6 @@
 # BreakOculusCapsuleCollider
 
-Adds a node that breaks a 'OculusCapsuleCollider' into its member fields
+添加一个节点，将'OculusCapsuleCollider'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'OculusCapsuleCollider' into its member fields
 
 ## Inputs
 
-Oculus Capsule Collider: Oculus Capsule Collider Structure (by ref).  
+奥库鲁斯胶囊对撞机。奥库鲁斯胶囊对撞机的结构（由参考）。  
 
 ## Outputs
 
-Capsule: Capsule Collision Object Reference. Capsule.
+胶囊。Capsule Collision Object Reference.胶囊。
 
-Bone Id: EBone Enum. Bone Id.
-
+骨头标识。EBone Enum.Bone Id.

@@ -1,6 +1,6 @@
 # MakeAzureSpatialAnchorsLocateCri-
 
-Adds a node that create a 'AzureSpatialAnchorsLocateCriteria' from its members
+添加一个节点，从其成员中创建一个 "AzureSpatialAnchorsLocateCriteria"。
 
 ## 图示
 
@@ -8,27 +8,26 @@ Adds a node that create a 'AzureSpatialAnchorsLocateCriteria' from its members
 
 ## Inputs
 
-Bypass Cache: Boolean. Bypass Cache:. If true the device local cache of anchors is ignored..
+绕过缓存。布尔型。绕过缓存：。如果为真，设备本地缓存的锚点被忽略。
 
-Identifiers: Array of Strings. Identifiers:. List of specific anchor identifiers to locate..
+标识符。字符串的阵列。Identifiers:.具体的锚点标识符列表，用于定位。
 
-Near Anchor: Azure Cloud Spatial Anchor Object Reference. Near Anchor:. Specify (optionally) an anchor around which to locate anchors..
+近锚。Azure Cloud Spatial Anchor Object Reference.近锚：.指定（可选）一个锚点，围绕它来定位锚点。
 
-Near Anchor Distance: Float (single-precision). Near Anchor Distance:. Specify the distance at which to locate anchors near the NearAnchor, in cm..
+近锚点距离。Float（单精度）。近锚点距离：。指定在NearAnchor附近定位锚点的距离，单位是厘米。
 
-Near Anchor Max Result Count: Integer. Near Anchor Max Result Count:. Specify the maximum number of anchors around the NearAnchor to locate..
+近锚点最大结果数。整数。Near Anchor Max Result Count:.指定NearAnchor周围的最大锚点数量来定位。
 
-Search Near Device: Boolean. Search Near Device:. Specify whether to search near the device location..
+搜索附近的设备。布尔型。搜索附近的设备：.指定是否在设备位置附近搜索...
 
-Near Device Distance: Float (single-precision). Near Device Distance:. Specify the distance at which to locate anchors near the device, in cm..
+近设备距离。Float (single-precision).近设备距离：。指定在设备附近定位锚的距离，单位是厘米。
 
-Near Device Max Result Count: Integer. Near Device Max Result Count:. Specify the maximum number of anchors around the device to locate..
+近设备最大结果数。整数。近设备最大结果数：。指定设备周围的最大锚点数量来定位。
 
-Requested Categories: EAzureSpatialAnchorDataCategory Enum. Requested Categories:. Specify what data to retrieve..
+要求的类别。EAzureSpatialAnchorDataCategory枚举。要求的类别：.指定要检索的数据。
 
-Strategy: EAzureSpatialAnchorsLocateStrategy Enum. Strategy:. Specify the method by which anchors will be located..  
+战略。EAzureSpatialAnchorsLocateStrategy Enum.策略：。指定定位锚点的方法。  
 
 ## Outputs
 
-Azure Spatial Anchors Locate Criteria: Azure Spatial Anchors Locate Criteria Structure.
-
+蔚蓝空间锚点定位标准。Azure Spatial Anchors定位标准结构。

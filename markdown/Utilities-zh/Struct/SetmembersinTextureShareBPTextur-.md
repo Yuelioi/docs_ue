@@ -1,6 +1,6 @@
 # SetmembersinTextureShareBPTextur-
 
-Adds a node that modifies a 'TextureShareBPTexture2D'
+添加一个节点，修改 "TextureShareBPTexture2D"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TextureShareBPTexture2D'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Texture Share BPTexture 2D Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Texture Share BPTexture 2D Structure (by ref). Reference to the input struct.
-
+结构出来。纹理共享BPTexture 2D结构（通过ref）。对输入结构的引用。

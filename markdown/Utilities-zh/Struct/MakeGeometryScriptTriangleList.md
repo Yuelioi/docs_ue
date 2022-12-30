@@ -1,6 +1,6 @@
 # MakeGeometryScriptTriangleList
 
-Adds a node that create a 'GeometryScriptTriangleList' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptTriangleList'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GeometryScriptTriangleList' from its members
 
 ## Outputs
 
-Geometry Script Triangle List: Triangle List Structure.
-
+几何学脚本三角形列表。三角形列表结构。

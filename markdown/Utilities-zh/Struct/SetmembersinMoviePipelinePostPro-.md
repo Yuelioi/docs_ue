@@ -1,6 +1,6 @@
 # SetmembersinMoviePipelinePostPro-
 
-Adds a node that modifies a 'MoviePipelinePostProcessPass'
+添加一个节点，修改 "MoviePipelinePostProcessPass"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MoviePipelinePostProcessPass'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Movie Pipeline Post Process Pass Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Movie Pipeline Post Process Pass Structure (by ref). Reference to the input struct.
-
+结构出来。电影管道后处理通道结构（通过引用）。对输入结构的引用。

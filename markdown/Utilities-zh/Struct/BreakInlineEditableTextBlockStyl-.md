@@ -1,6 +1,6 @@
 # BreakInlineEditableTextBlockStyl-
 
-Adds a node that breaks a 'InlineEditableTextBlockStyle' into its member fields
+添加一个打破'InlineEditableTextBlockStyle'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'InlineEditableTextBlockStyle' into its member fields
 
 ## Inputs
 
-Inline Editable Text Block Style: Inline Editable Text Block Style Structure (by ref).  
+内联可编辑文本块样式。内联可编辑文本块样式结构（按参考）。  
 
 ## Outputs
 
-Editable Text Box Style: Editable Text Box Style Structure. Editable Text Box Style:. The style of the editable text box, which dictates the font, color, and shadow options..
+可编辑的文本框风格。可编辑的文本框样式结构。可编辑文本框风格：。可编辑文本框的风格，它决定了字体、颜色和阴影选项。
 
-Text Style: Text Block Style Structure. Text Style:. The style of the text block, which dictates the font, color, and shadow options. Style overrides all other properties!.
-
+文本样式。文本块样式结构。文本样式：。文本块的样式，它决定了字体、颜色和阴影选项。样式优先于所有其他属性！。

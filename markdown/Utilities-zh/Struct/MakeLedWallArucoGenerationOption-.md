@@ -1,6 +1,6 @@
 # MakeLedWallArucoGenerationOption-
 
-Adds a node that create a 'LedWallArucoGenerationOptions' from its members
+添加一个节点，从其成员中创建一个 "LedWallArucoGenerationOptions"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'LedWallArucoGenerationOptions' from its members
 
 ## Inputs
 
-Texture Width: Integer. Texture Width:. Width of the texture that will contain the Aruco markers.
+纹理宽度：整数。Texture Width（纹理宽度）：。将包含Aruco标记的纹理的宽度。
 
-Texture Height: Integer. Texture Height:. Height of the texture that will contain the Aruco markers.
+纹理高度：整数。纹理高度：。将包含Aruco标记的纹理的高度。
 
-Aruco Dictionary: EArucoDictionary Enum. Aruco Dictionary:. Aruco dictionary to use when generating the markers.
+Aruco字典。EArucoDictionary Enum.Aruco Dictionary:.生成标记时使用的Aruco字典。
 
-Marker Id: Integer. Marker Id:. Starting marker Id. Arucos will be generated with consecutive Marker Ids, starting from this one.
+标记Id。整数。标记Id:。开始的标记ID。Arucos将以连续的Marker Ids产生，从这个开始。
 
-Place Modulus: Integer. Place Modulus:. Used to avoid using up the symbols in the dictionary as quickly.. Will place the next marker id when [(row + column) mod PlaceModulus] is zero..  
+地方模数：整数。位置模数：。用来避免快速用完字典中的符号。当[（行+列）mod PlaceModulus]为零时，将放置下一个标记id。
 
 ## Outputs
 
-Led Wall Aruco Generation Options: Led Wall Aruco Generation Options Structure.
-
+Led Wall Aruco Generation Options:Led Wall Aruco Generation Options结构。

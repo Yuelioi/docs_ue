@@ -1,6 +1,6 @@
 # MakeReverbSettings
 
-Adds a node that create a 'ReverbSettings' from its members
+添加一个节点，从其成员中创建一个 "混响设置"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'ReverbSettings' from its members
 
 ## Inputs
 
-Apply Reverb: Boolean. Apply Reverb:. Whether to apply the reverb settings below..
+应用混响。布尔型。应用混响：。是否应用下面的混响设置。
 
-Reverb Effect: Reverb Effect Object Reference. Reverb Effect:. The reverb asset to employ..
+混响效果。混响效果的对象参考。混响效果：。采用的混响资产。
 
-Reverb Plugin Effect: Sound Effect Submix Preset Object Reference. Reverb Plugin Effect:. This is used to apply plugin-specific settings when a Reverb Plugin is being used..
+混响插件效果。声音效果 Submix 预置对象参考。混响插件效果：。当使用混响插件时，它被用来应用插件的特定设置。
 
-Volume: Float (single-precision). Volume:. Volume level of the reverb affect..
+体积。浮点（单精度）。音量：。影响混响的音量水平。
 
-Fade Time: Float (single-precision). Fade Time:. Time to fade from the current reverb settings into this setting, in seconds..  
+褪色时间。Float（单精度）。渐变时间：。从当前混响设置淡出到这个设置的时间，单位是秒。
 
 ## Outputs
 
-Reverb Settings: Reverb Settings Structure.
-
+混响设置。混响设置结构。

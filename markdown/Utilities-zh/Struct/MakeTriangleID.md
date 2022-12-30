@@ -1,6 +1,6 @@
 # MakeTriangleID
 
-Adds a node that create a 'TriangleID' from its members
+添加一个节点，从其成员中创建一个 "三角形ID"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'TriangleID' from its members
 
 ## Outputs
 
-Triangle ID: Triangle ID Structure.
-
+三角形ID：三角形ID结构。

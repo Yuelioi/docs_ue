@@ -1,6 +1,6 @@
 # BreakGeometryScriptFillHolesOpti-
 
-Adds a node that breaks a 'GeometryScriptFillHolesOptions' into its member fields
+添加一个节点，将'GeometryScriptFillHolesOptions'分解到其成员字段中
 
 ## 图示
 
@@ -8,8 +8,8 @@ Adds a node that breaks a 'GeometryScriptFillHolesOptions' into its member field
 
 ## Inputs
 
-Geometry Script Fill Holes Options: Geometry Script Fill Holes Options Structure (by ref).  
+Geometry Script Fill Holes Options:Geometry Script Fill Holes Options结构（按参考）。  
 
 ## Outputs
 
-Fill Method: EGeometryScriptFillHolesMethod Enum. Fill Method.
+填充方法。EGeometryScriptFillHolesMethod Enum.填充方法。

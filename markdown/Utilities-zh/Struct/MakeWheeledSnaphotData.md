@@ -1,6 +1,6 @@
 # MakeWheeledSnaphotData
 
-Adds a node that create a 'WheeledSnaphotData' from its members
+添加一个节点，从其成员中创建一个 "WheeledSnaphotData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'WheeledSnaphotData' from its members
 
 ## Outputs
 
-Wheeled Snaphot Data: Wheeled Snaphot Data Structure.
-
+轮式抢拍数据。轮式快照的数据结构。

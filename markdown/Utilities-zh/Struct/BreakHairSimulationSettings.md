@@ -1,6 +1,6 @@
 # BreakHairSimulationSettings
 
-Adds a node that breaks a 'HairSimulationSettings' into its member fields
+添加一个节点，将'HairSimulationSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'HairSimulationSettings' into its member fields
 
 ## Inputs
 
-Hair Simulation Settings: Hair Simulation Settings Structure (by ref).  
+头发模拟设置。头发模拟设置结构（按参考）。  
 
 ## Outputs
 
-Override Settings: Boolean. Override Settings:. Boolean to control if we are going to override the groom asset physics settings.
+覆盖设置。Boolean.覆盖设置：。布尔值，用于控制我们是否要覆盖新郎资产的物理设置。
 
-Simulation Setup: Hair Simulation Setup Structure. Simulation Setup:. Solver Settings for the hair physics.
+仿真设置。头发 仿真设置结构。仿真设置：。头发物理学的解算器设置。
 
-Solver Settings: Hair Simulation Solver Structure. Solver Settings:. Solver Settings for the hair physics.
+解算器设置。头发模拟求解器结构。解算器设置：。头发物理学的解算器设置。
 
-External Forces: Hair Simulation Forces Structure. External Forces:. External Forces for the hair physics.
+外部力量。头发模拟的力量结构。外力：。头发物理学的外力。
 
-Material Constraints: Hair Simulation Constraints Structure. Material Constraints:. Material Constraints for the hair physics.
-
+材料约束。头发模拟约束结构。材料约束：。用于头发物理学的材料约束。

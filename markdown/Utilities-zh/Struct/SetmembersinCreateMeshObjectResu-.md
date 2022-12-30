@@ -1,6 +1,6 @@
 # SetmembersinCreateMeshObjectResu-
 
-Adds a node that modifies a 'CreateMeshObjectResult'
+添加一个修改 "CreateMeshObjectResult "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CreateMeshObjectResult'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Create Mesh Object Result Structure (by ref).  
+Struct Ref: 创建网格对象结果结构（通过ref）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Create Mesh Object Result Structure (by ref). Reference to the input struct.
-
+结构出来。创建网格对象结果结构（通过引用）。对输入结构的引用。

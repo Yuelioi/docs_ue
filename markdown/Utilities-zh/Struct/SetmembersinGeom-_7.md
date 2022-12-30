@@ -1,6 +1,6 @@
 # SetmembersinGeom-_7
 
-Adds a node that modifies a 'GeometryScriptRemoveSmallComponentOptions'
+添加一个节点，修改 "GeometryScriptRemoveSmallComponentOptions"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryScriptRemoveSmallComponentOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Geometry Script Remove Small Component Options Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Geometry Script Remove Small Component Options Structure (by ref). Reference to the input struct.
-
+结构出来。Geometry Script Remove Small Component Options Structure（通过引用）。对输入结构的引用。

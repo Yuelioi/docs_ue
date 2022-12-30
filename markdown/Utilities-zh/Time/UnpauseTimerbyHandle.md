@@ -1,8 +1,8 @@
 # UnpauseTimerbyHandle
 
-Resumes a paused timer from its current elapsed time.
+从当前经过的时间恢复一个暂停的计时器。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Handle: Timer Handle Structure. The handle of the timer to unpause..  
+手柄。计时器手柄结构。定时器的手柄，以解除暂停。
 
 ## Outputs
 
-Out: Exec.
-
+出：执行。

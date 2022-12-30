@@ -1,6 +1,6 @@
 # SetmembersinGeom-
 
-Adds a node that modifies a 'GeometryScriptCopyMeshFromComponentOptions'
+添加一个节点，修改 "GeometryScriptCopyMeshFromComponentOptions"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryScriptCopyMeshFromComponentOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Geometry Script Copy Mesh From Component Options Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Geometry Script Copy Mesh From Component Options Structure (by ref). Reference to the input struct.
-
+结构出来。Geometry Script Copy Mesh From Component Options Structure（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # SetmembersinSimpleParametricMoti-
 
-Adds a node that modifies a 'SimpleParametricMotion'
+添加一个修改 "SimpleParametricMotion "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SimpleParametricMotion'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Simple Parametric Motion Structure (by ref).  
+Struct Ref: 简单的参数化运动结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Simple Parametric Motion Structure (by ref). Reference to the input struct.
-
+结构出来。简单参数化运动结构（通过引用）。对输入结构的引用。

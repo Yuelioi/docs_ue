@@ -1,6 +1,6 @@
 # MakeLoudnessResults
 
-Adds a node that create a 'LoudnessResults' from its members
+添加一个节点，从其成员中创建一个'LoudnessResults'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'LoudnessResults' from its members
 
 ## Outputs
 
-Loudness Results: Loudness Results Structure.
-
+响度结果。响度结果结构。

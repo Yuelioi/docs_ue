@@ -1,6 +1,6 @@
 # MakeGeometryScriptMorphologyOpti-
 
-Adds a node that create a 'GeometryScriptMorphologyOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptMorphologyOptions"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'GeometryScriptMorphologyOptions' from its members
 
 ## Inputs
 
-SDFGrid Parameters: Geometry Script 3DGrid Parameters Structure. SDFGrid Parameters.
+SDFGrid参数。Geometry Script 3DGrid Parameters 结构。SDFGrid参数。
 
-Use Separate Mesh Grid: Boolean. Use Separate Mesh Grid.
+使用独立的网格。Boolean.使用单独的网格。
 
-Mesh Grid Parameters: Geometry Script 3DGrid Parameters Structure. Mesh Grid Parameters.
+网格参数。Geometry Script 3DGrid Parameters结构。网格参数。
 
-Operation: EGeometryScriptMorphologicalOpType Enum. Operation.
+操作。EGeometryScriptMorphologicalOpType枚举。操作。
 
-Distance: Float (single-precision). Distance.  
+距离。Float（单精度）。距离。  
 
 ## Outputs
 
-Geometry Script Morphology Options: Geometry Script Morphology Options Structure.
-
+Geometry Script Morphology Options:Geometry Script Morphology Options结构。

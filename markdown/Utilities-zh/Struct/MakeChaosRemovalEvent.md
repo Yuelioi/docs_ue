@@ -1,6 +1,6 @@
 # MakeChaosRemovalEvent
 
-Adds a node that create a 'ChaosRemovalEvent' from its members
+添加一个节点，从其成员中创建一个 "ChaosRemovalEvent"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ChaosRemovalEvent' from its members
 
 ## Outputs
 
-Chaos Removal Event: Chaos Removal Event Structure.
-
+混沌清除事件。混乱消除事件的结构。

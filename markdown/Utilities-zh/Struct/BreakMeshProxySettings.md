@@ -1,6 +1,6 @@
 # BreakMeshProxySettings
 
-Adds a node that breaks a 'MeshProxySettings' into its member fields
+添加一个节点，将'MeshProxySettings'分解到其成员字段中。
 
 ## 图示
 
@@ -8,57 +8,56 @@ Adds a node that breaks a 'MeshProxySettings' into its member fields
 
 ## Inputs
 
-Mesh Proxy Settings: Mesh Proxy Settings Structure (by ref).  
+网格代理设置。网格代理设置结构（按参考）。  
 
 ## Outputs
 
-Screen Size: Integer. Screen Size:. Screen size of the resulting proxy mesh in pixels.
+屏幕尺寸。整数。屏幕尺寸：。产生的代理网格的屏幕尺寸，单位是像素。
 
-Override Spatial Sampling Distance: Float (single-precision). Voxel Size:. Override when converting multiple meshes for proxy LOD merging. Warning, large geometry with small sampling has very high memory costs.
+覆盖空间采样距离。浮点（单精度）。Voxel Size:.在转换多个网格进行代理LOD合并时覆盖。警告，大几何体的小采样有非常高的内存成本。
 
-Material Settings: Material Proxy Settings Structure. Material Settings:. Material simplification.
+材料设置。材料代理设置结构。材料设置：。材料简化。
 
-Merge Distance: Float (single-precision). Merge Distance:. Distance at which meshes should be merged together, this can close gaps like doors and windows in distant geometry.
+合并距离。Float (single-precision).合并距离：。网格应该被合并在一起的距离，这可以弥补远处几何体中的门和窗等缝隙。
 
-Unresolved Geometry Color: Color Structure. Unresolved Geometry Color:. Base color assigned to LOD geometry that can't be associated with the source geometry: e.g. doors and windows that have been closed by the Merge Distance.
+未解决的几何学色彩：色彩结构。未解决的几何体颜色：。分配给无法与源几何体关联的LOD几何体的基色：例如，被合并距离关闭的门和窗。
 
-Transfer Distance Override: Float (single-precision). Max Ray Cast Dist:. Override search distance used when discovering texture values for simplified geometry. Useful when non-zero Merge Distance setting generates new geometry in concave corners..
+传输距离覆盖。Float（单精度）。Max Ray Cast Dist:.覆盖搜索距离，用于发现简化几何体的纹理值。当非零的合并距离设置在凹角处产生新的几何体时很有用。
 
-Hard Edge Angle: Float (single-precision). Hard Angle Threshold:. Angle at which a hard edge is introduced between faces.
+硬边角度。Float（单精度）。硬角阈值：。在面之间引入硬边的角度。
 
-Lightmap Resolution: Integer. Light Map Resolution:. Lightmap resolution.
+光图分辨率。整数。光照图分辨率：。光照图的分辨率。
 
-Normal Calculation Method: EProxyNormalComputationMethod Enum. Normal Calculation Method:. Controls the method used to calculate the normal for the simplified geometry.
+正常计算方法。EProxyNormalComputationMethod Enum.法线计算方法：。控制用于计算简化几何体的法线的方法。
 
-Landscape Culling Precision: ELandscapeCullingPrecision Enum. Landscape Culling Precision:. Level of detail of the landscape that should be used for the culling.
+景观剔除精度。ELandscapeCullingPrecision Enum.景观剔除精度：。应该用于剔除的景观的详细程度。
 
-Calculate Correct LODModel: Boolean. Calculate Correct LODModel:. Determines whether or not the correct LOD models should be calculated given the source meshes and transition size.
+计算正确的LOD模型。Boolean.Calculate Correct LODModel（计算正确的LOD模型）：。确定是否应该根据源网格和过渡尺寸计算正确的LOD模型。
 
-Override Voxel Size: Boolean. Override Voxel Size:. If true, Spatial Sampling Distance will not be automatically computed based on geometry and you must set it directly.
+覆盖Voxel大小。布尔值。覆盖体素尺寸：。如果为真，空间采样距离将不会根据几何形状自动计算，你必须直接设置它。
 
-Override Transfer Distance: Boolean. Override Transfer Distance:. Enable an override for material transfer distance.
+覆盖传输距离。布尔型。覆盖传输距离：。启用材料传输距离的覆盖。
 
-Use Hard Angle Threshold: Boolean. Use Hard Angle Threshold:. Enable the use of hard angle based vertex splitting.
+使用硬角度阈值。布尔值。使用硬角阈值：。启用基于硬角的顶点分割的使用。
 
-Compute Lightmap Resolution: Boolean. Compute Light Map Resolution:. If ticked will compute the lightmap resolution by summing the dimensions for each mesh included for merging.
+计算光图分辨率。Boolean.计算光照图的分辨率：。如果打勾，将通过计算每个网格的尺寸之和来计算光照图的分辨率，以便合并。
 
-Recalculate Normals: Boolean. Recalculate Normals:. Whether Simplygon should recalculate normals, otherwise the normals channel will be sampled from the original mesh.
+重新计算法线。布尔值。Recalculate Normals:（重新计算法线）。Simplygon是否应该重新计算法线，否则法线通道将从原始网格取样。
 
-Use Landscape Culling: Boolean. Use Landscape Culling:. Whether or not to use available landscape geometry to cull away invisible triangles.
+使用景观剪裁。Boolean.使用景观剔除：。是否使用可用的横向几何图形来剔除不可见的三角形。
 
-Allow Distance Field: Boolean. Allow Distance Field:. Whether to allow distance field to be computed for this mesh. Disable this to save memory if the merged mesh will only be rendered in the distance..
+允许距离字段。布尔型。Allow Distance Field:（允许距离场）。是否允许计算这个网格的距离场。如果合并后的网格只在距离范围内渲染，请禁用此选项以节省内存。
 
-Reuse Mesh Lightmap UVs: Boolean. Reuse Mesh Lightmap UVs:. Whether to attempt to re-use the source mesh's lightmap UVs when baking the material or always generate a new set..
+重复使用网格光照图的UV。布尔值。Reuse Mesh Lightmap UVs:（重复使用网格光标UV）。在烘焙材质时，是否尝试重新使用源网格的光照图UV，或者总是生成一组新的UV。
 
-Group Identical Meshes For Baking: Boolean. Group Identical Meshes for Baking:. Bake identical meshes (or mesh instances) only once. Can lead to discrepancies with the source mesh visual, especially for materials that are using world position or per instance data. However, this will result in better quality baked textures & greatly reduce baking time..
+组相同的网格进行烘烤。布尔。Group Identical Meshes for Baking:分组相同的网格进行烘焙。相同的网格（或网格实例）只烘烤一次。可能会导致与源网格视觉的差异，特别是对于使用世界位置或每个实例数据的材质。然而，这将导致更好的烘烤纹理质量，并大大减少烘烤时间。
 
-Create Collision: Boolean. Create Collision:. Whether to generate collision for the merged mesh.
+创建碰撞。Boolean.创建碰撞：。是否为合并后的网格生成碰撞。
 
-Allow Vertex Colors: Boolean. Allow Vertex Colors:. Whether to allow vertex colors saved in the merged mesh.
+允许顶点颜色。布尔型。允许顶点颜色：。是否允许在合并后的网格中保存顶点颜色。
 
-Generate Lightmap UVs: Boolean. Generate Lightmap UVs:. Whether to generate lightmap uvs for the merged mesh.
+生成光绘UV。布尔值。Generate Lightmap UVs:.是否为合并后的网格生成光照图UV。
 
-Generate Nanite Enabled Mesh: Boolean. Generate Nanite Enabled Mesh:. Whether to generate a nanite-enabled mesh.
+生成支持纳米技术的网格。布尔型。生成纳米网状结构：。是否生成支持纳米的网格。
 
-Nanite Proxy Triangle Percent: Float (single-precision). Nanite Proxy Triangle Percent:. Percentage of triangles to reduce down to for generating a coarse proxy mesh from the Nanite mesh.
-
+Nanite Proxy Triangle Percent。Float (single-precision).Nanite Proxy Triangle Percent:.从Nanite网格生成粗略的代理网格时要减少的三角形百分比。

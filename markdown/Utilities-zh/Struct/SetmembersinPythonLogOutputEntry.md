@@ -1,6 +1,6 @@
 # SetmembersinPythonLogOutputEntry
 
-Adds a node that modifies a 'PythonLogOutputEntry'
+添加一个修改 "PythonLogOutputEntry "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'PythonLogOutputEntry'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Python Log Output Entry Structure (by ref).  
+Struct Ref: Python日志输出条目结构 (通过ref)。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Python Log Output Entry Structure (by ref). Reference to the input struct.
-
+Struct Out:Python日志输出条目结构（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # BreakHairAdvancedRenderingSettin-
 
-Adds a node that breaks a 'HairAdvancedRenderingSettings' into its member fields
+添加一个节点，将'HairAdvancedRenderingSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'HairAdvancedRenderingSettings' into its member fields
 
 ## Inputs
 
-Hair Advanced Rendering Settings: Hair Advanced Rendering Settings Structure (by ref).  
+头发高级渲染设置。头发高级渲染设置结构（按参考）。  
 
 ## Outputs
 
-Use Stable Rasterization: Boolean. Use Stable Rasterization:. Insure the hair does not alias. When enable, group of hairs might appear thicker. Isolated hair should remain thin..
+使用稳定的栅格化。布尔值。使用稳定的光栅化：。确保毛发不发生异化。启用后，一组毛发可能会显得更粗。孤立的毛发应保持稀疏。
 
-Scatter Scene Lighting: Boolean. Scatter Scene Lighting:. Light hair with the scene color. This is used for vellus/short hair to bring light from the surrounding surface, like skin..
-
+散射场景照明。Boolean.Scatter Scene Lighting:.散射场景照明。用场景颜色照亮头发。这用于黄褐色/短发，从周围表面带来光线，如皮肤。

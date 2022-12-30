@@ -1,6 +1,6 @@
 # MakeQuaternionSpringState
 
-Adds a node that create a 'QuaternionSpringState' from its members
+添加一个节点，从其成员中创建一个 "四元弹簧状态"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'QuaternionSpringState' from its members
 
 ## Outputs
 
-Quaternion Spring State: Quaternion Spring State Structure.
-
+四元组弹簧状态。四元组弹簧状态结构。

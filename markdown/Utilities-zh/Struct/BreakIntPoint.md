@@ -1,6 +1,6 @@
 # BreakIntPoint
 
-Adds a node that breaks a 'IntPoint' into its member fields
+添加一个节点，将'IntPoint'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'IntPoint' into its member fields
 
 ## Inputs
 
-Int Point: Int Point Structure (by ref).  
+Int Point: Int Point结构（通过引用）。  
 
 ## Outputs
 
-X: Integer. X.
+X：整数。X.
 
-Y: Integer. Y.
-
+Y：整数。Y.

@@ -1,8 +1,8 @@
 # Equal_CaseInsensitive_text
 
-Returns true if A and B are linguistically equal (A == B), ignoring case.
+如果A和B在语言上相等（A == B），则返回真，忽略大小写。
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet Text Library
 
 ## Inputs
 
-A: Text (by ref).
+答：文本（由裁判）。
 
-B: Text (by ref).  
+B：文本（由裁判）。  
 
 ## Outputs
 
-Return Value: Boolean. Returns true if A and B are linguistically equal (A == B), ignoring case..
-
+返回值。布尔值。如果A和B在语言上相等（A == B），则返回真，忽略案例。

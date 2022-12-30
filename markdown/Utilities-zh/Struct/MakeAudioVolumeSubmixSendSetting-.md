@@ -1,6 +1,6 @@
 # MakeAudioVolumeSubmixSendSetting-
 
-Adds a node that create a 'AudioVolumeSubmixSendSettings' from its members
+添加一个节点，从其成员中创建一个 "AudioVolumeSubmixSendSettings"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'AudioVolumeSubmixSendSettings' from its members
 
 ## Inputs
 
-Listener Location State: EAudioVolumeLocationState Enum. Listener Location State:. The state the listener needs to be in, relative to the audio volume, for this submix send list to be used for a given sound.
+听众位置状态。EAudioVolumeLocationState Enum.听众位置状态：。聆听者需要处于的状态，相对于音频音量来说，这个子混音发送列表要用于给定的声音。
 
-Submix Sends: Array of Sound Submix Send Info Structures. Submix Sends:. Submix send array for sounds that are outside the audio volume when the listener is inside the volume.  
+Submix Sends:声音子混音发送信息结构阵列。Submix Sends:.当听众在音量内时，在音频音量外的声音的子混音发送阵列。  
 
 ## Outputs
 
-Audio Volume Submix Send Settings: Audio Volume Submix Send Settings Structure.
-
+音频音量子混音发送设置。音频量子混音发送设置结构。

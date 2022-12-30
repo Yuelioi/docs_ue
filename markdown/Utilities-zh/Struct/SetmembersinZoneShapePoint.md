@@ -1,6 +1,6 @@
 # SetmembersinZoneShapePoint
 
-Adds a node that modifies a 'ZoneShapePoint'
+添加一个修改 "ZoneShapePoint "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ZoneShapePoint'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Zone Shape Point Structure (by ref).  
+结构参考：区域形状点结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Zone Shape Point Structure (by ref). Reference to the input struct.
-
+结构出来。Zone Shape Point Structure（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeOculusCapsuleCollider
 
-Adds a node that create a 'OculusCapsuleCollider' from its members
+添加一个节点，从其成员中创建一个 "OculusCapsuleCollider"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'OculusCapsuleCollider' from its members
 
 ## Outputs
 
-Oculus Capsule Collider: Oculus Capsule Collider Structure.
-
+奥克卢斯胶囊对撞机。Oculus Capsule Collider结构。

@@ -1,6 +1,6 @@
 # SetmembersinClientConversationMe-_1
 
-Adds a node that modifies a 'ClientConversationMessagePayload'
+添加一个修改 "ClientConversationMessagePayload "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ClientConversationMessagePayload'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Client Conversation Message Payload Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Client Conversation Message Payload Structure (by ref). Reference to the input struct.
-
+Struct Out:客户端对话消息有效载荷结构（通过引用）。对输入结构的引用。

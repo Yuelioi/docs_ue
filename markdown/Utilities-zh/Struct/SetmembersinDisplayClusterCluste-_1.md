@@ -1,6 +1,6 @@
 # SetmembersinDisplayClusterCluste-_1
 
-Adds a node that modifies a 'DisplayClusterClusterEventBinary'
+添加一个修改 "DisplayClusterClusterEventBinary "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DisplayClusterClusterEventBinary'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Display Cluster Cluster Event Binary Structure (by ref).  
+Struct Ref: 显示群集事件二元结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Display Cluster Cluster Event Binary Structure (by ref). Reference to the input struct.
-
+结构出来。显示群集事件二进制结构（通过参考）。对输入结构的引用。

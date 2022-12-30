@@ -1,6 +1,6 @@
 # SetmembersinSequencerScriptingRa-
 
-Adds a node that modifies a 'SequencerScriptingRange'
+添加一个修改 "SequencerScriptingRange "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SequencerScriptingRange'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Sequencer Scripting Range Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sequencer Scripting Range Structure (by ref). Reference to the input struct.
-
+结构出来。序列器脚本范围结构（通过ref）。对输入结构的引用。

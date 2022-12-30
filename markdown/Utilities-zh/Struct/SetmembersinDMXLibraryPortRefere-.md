@@ -1,6 +1,6 @@
 # SetmembersinDMXLibraryPortRefere-
 
-Adds a node that modifies a 'DMXLibraryPortReferences'
+添加一个修改'DMXLibraryPortReferences'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXLibraryPortReferences'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: DMXLibrary Port References Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMXLibrary Port References Structure (by ref). Reference to the input struct.
-
+结构输出。DMXLibrary端口参考结构（通过参考）。对输入结构的引用。

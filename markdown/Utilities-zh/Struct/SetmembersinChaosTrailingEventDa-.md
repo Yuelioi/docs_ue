@@ -1,6 +1,6 @@
 # SetmembersinChaosTrailingEventDa-
 
-Adds a node that modifies a 'ChaosTrailingEventData'
+添加一个修改 "ChaosTrailingEventData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ChaosTrailingEventData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Chaos Trailing Event Data Structure (by ref).  
+Struct Ref: Chaos Trailing Event Data Structure（通过Ref）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Chaos Trailing Event Data Structure (by ref). Reference to the input struct.
-
+结构出来。Chaos Trailing Event Data Structure（通过ref）。对输入结构的引用。

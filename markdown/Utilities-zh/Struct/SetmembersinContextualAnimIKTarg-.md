@@ -1,6 +1,6 @@
 # SetmembersinContextualAnimIKTarg-
 
-Adds a node that modifies a 'ContextualAnimIKTarget'
+添加一个修改 "ContextualAnimIKTarget "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ContextualAnimIKTarget'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Contextual Anim IKTarget Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Contextual Anim IKTarget Structure (by ref). Reference to the input struct.
-
+结构出来。语境中的Anim IKTarget结构（通过ref）。对输入结构的引用。

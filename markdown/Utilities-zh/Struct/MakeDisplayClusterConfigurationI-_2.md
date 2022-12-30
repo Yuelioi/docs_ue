@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationI-_2
 
-Adds a node that create a 'DisplayClusterConfigurationICVFX_CameraSoftEdge' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationICVFX_CameraSoftEdge"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'DisplayClusterConfigurationICVFX_CameraSoftEdge' from
 
 ## Inputs
 
-Top And Bottom: Float (single-precision). Vertical:. Adjust blur amount to the top and bottom edges of the inner frustum..
+顶部和底部。浮点数（单精度）。垂直：。调整内围的顶部和底部边缘的模糊量。
 
-Sides: Float (single-precision). Horizontal:. Adjust blur amount to the left and right side edges of the inner frustum..  
+侧面。Float（单精度）。水平：。调整内围的左右边缘的模糊量。
 
 ## Outputs
 
-Display Cluster Configuration ICVFX Camera Soft Edge: Display Cluster Configuration ICVFX Camera Soft Edge Structure.
-
+显示集群配置ICVFX摄像机软边：显示集群配置ICVFX摄像机软边结构。

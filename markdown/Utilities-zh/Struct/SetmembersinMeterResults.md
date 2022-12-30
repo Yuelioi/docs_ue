@@ -1,6 +1,6 @@
 # SetmembersinMeterResults
 
-Adds a node that modifies a 'MeterResults'
+添加一个修改 "MeterResults "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MeterResults'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Meter Results Structure (by ref).  
+结构参考：仪表结果结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Meter Results Structure (by ref). Reference to the input struct.
-
+结构出来。测量结果结构（通过引用）。对输入结构的引用。

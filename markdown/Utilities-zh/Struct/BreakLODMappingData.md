@@ -1,6 +1,6 @@
 # BreakLODMappingData
 
-Adds a node that breaks a 'LODMappingData' into its member fields
+添加一个节点，将'LODMappingData'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'LODMappingData' into its member fields
 
 ## Inputs
 
-LODMapping Data: LODMapping Data Structure (by ref).  
+LODMapping数据。LODMapping数据结构（通过参考）。  
 
 ## Outputs
 
-Mapping: Array of Integers. Mapping.
-
+映射。整数阵列。映射。

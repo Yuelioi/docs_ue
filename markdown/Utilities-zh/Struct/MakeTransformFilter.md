@@ -1,6 +1,6 @@
 # MakeTransformFilter
 
-Adds a node that create a 'TransformFilter' from its members
+添加一个节点，从其成员中创建一个 "TransformFilter"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'TransformFilter' from its members
 
 ## Inputs
 
-Translation Filter: Filter Option Per Axis Structure. Translation Filter.
+翻译过滤器：每轴结构的过滤器选项。翻译过滤器。
 
-Rotation Filter: Filter Option Per Axis Structure. Rotation Filter.
+旋转过滤器：每轴结构的过滤器选项。旋转式过滤器。
 
-Scale Filter: Filter Option Per Axis Structure. Scale Filter.  
+比例过滤：每轴结构的过滤选项。刻度过滤器。  
 
 ## Outputs
 
-Transform Filter: Transform Filter Structure.
-
+变形滤波器：变形滤波器结构。

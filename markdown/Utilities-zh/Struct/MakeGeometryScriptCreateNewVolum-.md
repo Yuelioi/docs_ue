@@ -1,6 +1,6 @@
 # MakeGeometryScriptCreateNewVolum-
 
-Adds a node that create a 'GeometryScriptCreateNewVolumeFromMeshOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptCreateNewVolumeFromMeshOptions"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'GeometryScriptCreateNewVolumeFromMeshOptions' from it
 
 ## Inputs
 
-Volume Type: Volume Class Reference. Volume Type.
+卷宗类型。卷类参考。音量类型。
 
-Auto Simplify: Boolean. Auto Simplify.
+自动简化。布尔型。Auto Simplify（自动简化）。
 
-Max Triangles: Integer. Max Triangles.  
+最大三角形。整数。Max Triangles.  
 
 ## Outputs
 
-Geometry Script Create New Volume from Mesh Options: Geometry Script Create New Volume From Mesh Options Structure.
-
+Geometry Script Create New Volume from Mesh Options:Geometry Script Create New Volume From Mesh Options Structure.

@@ -1,6 +1,6 @@
 # BreakTextureCropOrigin
 
-Adds a node that breaks a 'TextureCropOrigin' into its member fields
+添加一个节点，将'TextureCropOrigin'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'TextureCropOrigin' into its member fields
 
 ## Inputs
 
-Texture Crop Origin: Texture Crop Origin Structure (by ref).  
+纹理作物起源。纹理作物起源结构（按参考）。  
 
 ## Outputs
 
-X: Integer. X:. Replace texture origin X location, in pixels.
+X: 整数。X:.替换纹理原点的X位置，单位为像素。
 
-Y: Integer. Y:. Replace texture origin Y position, in pixels.
-
+Y：整数。Y:.替换纹理原点的Y位置，单位为像素。

@@ -1,6 +1,6 @@
 # SetmembersinNavigationLink
 
-Adds a node that modifies a 'NavigationLink'
+添加一个修改 "NavigationLink "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'NavigationLink'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Navigation Link Structure (by ref).  
+结构参考：导航链接结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Navigation Link Structure (by ref). Reference to the input struct.
-
+结构出来。导航链接结构（通过引用）。对输入结构的引用。

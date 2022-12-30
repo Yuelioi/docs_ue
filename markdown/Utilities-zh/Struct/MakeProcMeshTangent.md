@@ -1,6 +1,6 @@
 # MakeProcMeshTangent
 
-Adds a node that create a 'ProcMeshTangent' from its members
+添加一个节点，从其成员中创建一个 "ProcMeshTangent"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ProcMeshTangent' from its members
 
 ## Inputs
 
-Tangent X: Vector. Tangent X:. Direction of X tangent for this vertex.
+切线X：向量。切线X：。此顶点的X切线方向。
 
-Flip Tangent Y: Boolean. Flip Tangent Y:. Bool that indicates whether we should flip the Y tangent when we compute it using cross product.  
+翻转切线Y：布尔值。Flip Tangent Y:.Bool，表示我们在使用交叉乘积计算Y切线时，是否应该翻转它。  
 
 ## Outputs
 
-Proc Mesh Tangent: Proc Mesh Tangent Structure.
-
+Proc网状切线。Proc Mesh Tangent结构。

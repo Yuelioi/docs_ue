@@ -1,6 +1,6 @@
 # MakeFollicleMaskOptions
 
-Adds a node that create a 'FollicleMaskOptions' from its members
+添加一个节点，从其成员中创建一个 "FollicleMaskOptions"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'FollicleMaskOptions' from its members
 
 ## Inputs
 
-Groom: Groom Asset Object Reference. Groom:. Groom asset.
+新郎：新郎资产对象参考。新郎：。新郎的资产。
 
-Channel: EFollicleMaskChannel Enum. Channel:. Texture channel in which the groom's roots mask will be writtent to..  
+通道。EFollicleMaskChannel Enum.Channel:.纹理通道，新郎的根部面具将被写入其中。
 
 ## Outputs
 
-Follicle Mask Options: Follicle Mask Options Structure.
-
+卵泡面膜选项。卵泡面膜选项结构。

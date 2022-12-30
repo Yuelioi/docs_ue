@@ -1,6 +1,6 @@
 # SetmembersinCoarseLocalizationSe-
 
-Adds a node that modifies a 'CoarseLocalizationSettings'
+添加一个修改 "CoarseLocalizationSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CoarseLocalizationSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Coarse Localization Settings Structure (by ref).  
+Struct Ref: Coarse Localization Settings Structure（粗略定位设置结构）（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Coarse Localization Settings Structure (by ref). Reference to the input struct.
-
+结构出来。粗略的本地化设置结构（通过引用）。对输入结构的引用。

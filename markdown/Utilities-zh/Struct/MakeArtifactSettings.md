@@ -1,6 +1,6 @@
 # MakeArtifactSettings
 
-Adds a node that create a 'ArtifactSettings' from its members
+添加一个节点，从其成员中创建一个 "ArtifactSettings"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ArtifactSettings' from its members
 
 ## Outputs
 
-Artifact Settings: Artifact Settings Structure.
-
+艺术品设置。艺术品设置结构。

@@ -1,6 +1,6 @@
 # SetmembersinGoogleARCoreAugmente-
 
-Adds a node that modifies a 'GoogleARCoreAugmentedImageDatabaseEntry'
+添加一个节点，修改 "GoogleARCoreAugmentedImageDatabaseEntry"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GoogleARCoreAugmentedImageDatabaseEntry'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Google ARCore Augmented Image Database Entry Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Google ARCore Augmented Image Database Entry Structure (by ref). Reference to the input struct.
-
+结构出来了。Google ARCore增强型图像数据库条目结构（通过ref）。对输入结构的引用。

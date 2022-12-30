@@ -1,6 +1,6 @@
 # BreakValidateAssetsResults
 
-Adds a node that breaks a 'ValidateAssetsResults' into its member fields
+添加一个节点，将'ValidateAssetsResults'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'ValidateAssetsResults' into its member fields
 
 ## Inputs
 
-Validate Assets Results: Validate Assets Results Structure (by ref).  
+验证资产结果。验证资产结果的结构（按参考）。  
 
 ## Outputs
 
-Num Checked: Integer. Num Checked:. Amount of tested assets.
+被检查的数量。整数。Num Checked:.被检查的资产的数量。
 
-Num Valid: Integer. Num Valid:. Amount of assets without errors or warnings.
+Num 有效。整数。Num Valid:.没有错误或警告的资产数量。
 
-Num Invalid: Integer. Num Invalid:. Amount of assets with errors.
+Num 无效。整数。Num Invalid:.有错误的资产数量。
 
-Num Skipped: Integer. Num Skipped:. Amount of assets skipped.
+Num Skipped:整数。Num Skipped:.跳过的资产数量。
 
-Num Warnings: Integer. Num Warnings:. Amount of assets with warnings.
+Num Warnings:整数。Num Warnings:.有警告的资产的数量。
 
-Num Unable To Validate: Integer. Num Unable to Validate:. Amount of assets that could not be validated.
-
+Num Unable To Validate: 整数。Num Unable to Validate:.无法验证的资产的数量。

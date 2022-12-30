@@ -1,6 +1,6 @@
 # MakeColorGradePerRangeSettings
 
-Adds a node that create a 'ColorGradePerRangeSettings' from its members
+添加一个节点，从其成员中创建一个 "ColorGradePerRangeSettings"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'ColorGradePerRangeSettings' from its members
 
 ## Inputs
 
-Saturation: Vector 4 Structure. Saturation.
+饱和度。矢量4结构。饱和度。
 
-Contrast: Vector 4 Structure. Contrast.
+对比。矢量4结构。对比度。
 
-Gamma: Vector 4 Structure. Gamma.
+伽马。矢量4结构。伽马。
 
-Gain: Vector 4 Structure. Gain.
+收益。矢量4结构。增益。
 
-Offset: Vector 4 Structure. Offset.  
+偏移。矢量4结构。偏移。  
 
 ## Outputs
 
-Color Grade Per Range Settings: Color Grade Per Range Settings Structure.
-
+每个范围的颜色等级设置。每个范围的颜色等级设置结构。

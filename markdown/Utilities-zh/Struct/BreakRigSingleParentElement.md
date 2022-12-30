@@ -1,6 +1,6 @@
 # BreakRigSingleParentElement
 
-Adds a node that breaks a 'RigSingleParentElement' into its member fields
+添加一个打破'RigSingleParentElement'的节点到其成员字段中
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'RigSingleParentElement' into its member fields
 
 ## Inputs
 
-Rig Single Parent Element: Rig Single Parent Element Structure (by ref).  
+钻机单亲元素。钻机单亲元素结构（按参考）。  
 
 ## Outputs
 
-Pose: Rig Current And Initial Transform Structure. Pose.
+姿势。钻机电流和初始变换结构。姿势。
 
-Key: Rig Element Key Structure. Key.
+钥匙。钻机元素关键结构。钥匙。
 
-Index: Integer. Index.
+索引。整数。指数。
 
-Sub Index: Integer. Sub Index.
+副索引。整数。副索引。
 
-Selected: Boolean. Selected.
-
+选定。布尔型。选定。

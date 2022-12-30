@@ -1,6 +1,6 @@
 # SetmembersinWaterBodyHeightmapSe-
 
-Adds a node that modifies a 'WaterBodyHeightmapSettings'
+添加一个节点，修改 "WaterBodyHeightmapSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'WaterBodyHeightmapSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Water Body Heightmap Settings Structure (by ref).  
+结构参考：水体高度图设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Water Body Heightmap Settings Structure (by ref). Reference to the input struct.
-
+结构出来。水体高度图设置结构（通过参考）。对输入结构的引用。

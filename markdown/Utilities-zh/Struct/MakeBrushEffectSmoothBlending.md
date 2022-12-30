@@ -1,6 +1,6 @@
 # MakeBrushEffectSmoothBlending
 
-Adds a node that create a 'BrushEffectSmoothBlending' from its members
+添加一个节点，从其成员中创建一个'BrushEffectSmoothBlending'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'BrushEffectSmoothBlending' from its members
 
 ## Inputs
 
-Inner Smooth Distance: Float (single-precision). Inner Smooth Distance.
+内部平滑距离。Float（单精度）。内部平滑距离。
 
-Outer Smooth Distance: Float (single-precision). Outer Smooth Distance.  
+外部平滑距离。Float（单精度）。外层平滑距离。  
 
 ## Outputs
 
-Brush Effect Smooth Blending: Brush Effect Smooth Blending Structure.
-
+刷子效果的平滑混合。刷子效果的平滑混合结构。

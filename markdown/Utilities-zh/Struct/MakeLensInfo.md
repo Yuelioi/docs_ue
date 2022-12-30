@@ -1,6 +1,6 @@
 # MakeLensInfo
 
-Adds a node that create a 'LensInfo' from its members
+添加一个节点，从其成员中创建一个 "LensInfo"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'LensInfo' from its members
 
 ## Inputs
 
-Lens Model Name: String. Lens Model Name:. Model name of the lens.
+镜头模型名称。字符串。镜头型号名称：。镜头的型号名称。
 
-Lens Serial Number: String. Lens Serial Number:. Serial number of the lens.
+镜头序列号。字符串。镜头序列号：。镜头的序列号。
 
-Lens Model: Lens Model Class Reference. Lens Model:. Model of the lens (spherical, anamorphic, etc...).
+镜头模型。镜头模型类参考。镜头模型：。镜头的模型（球形、非球形等...）。
 
-Sensor Dimensions: Vector 2D Structure. Sensor Dimensions:. Width and height of the calibrated camera's sensor, in millimeters.
+传感器尺寸。矢量2D结构。传感器尺寸：。校准后的相机传感器的宽度和高度，单位为毫米。
 
-Image Dimensions: Int Point Structure. Image Dimensions:. Camera image size, in pixels.  
+图像尺寸。Int点结构。图像尺寸：。相机图像尺寸，单位是像素。  
 
 ## Outputs
 
-Lens Info: Lens Info Structure.
-
+镜头信息：镜头信息结构。

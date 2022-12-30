@@ -1,6 +1,6 @@
 # SetmembersinSimSpaceSettings
 
-Adds a node that modifies a 'SimSpaceSettings'
+添加一个修改 "SimSpaceSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SimSpaceSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Sim Space Settings Structure (by ref).  
+结构参考：模拟空间设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sim Space Settings Structure (by ref). Reference to the input struct.
-
+结构出来。模拟空间设置结构（通过引用）。对输入结构的引用。

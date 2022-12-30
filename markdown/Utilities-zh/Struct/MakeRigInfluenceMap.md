@@ -1,6 +1,6 @@
 # MakeRigInfluenceMap
 
-Adds a node that create a 'RigInfluenceMap' from its members
+添加一个节点，从其成员中创建一个 "RigInfluenceMap"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigInfluenceMap' from its members
 
 ## Outputs
 
-Rig Influence Map: Rig Influence Map Structure.
-
+钻机影响图。钻机影响图的结构。

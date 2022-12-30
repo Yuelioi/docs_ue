@@ -1,6 +1,6 @@
 # MakeSubtitleCue
 
-Adds a node that create a 'SubtitleCue' from its members
+添加一个节点，从其成员中创建一个 "SubtitleCue"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SubtitleCue' from its members
 
 ## Outputs
 
-Subtitle Cue: Subtitle Cue Structure.
-
+Subtitle Cue: 字幕提示结构。

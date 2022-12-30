@@ -1,6 +1,6 @@
 # MakeDMXImportGDTFActivationGroup
 
-Adds a node that create a 'DMXImportGDTFActivationGroup' from its members
+添加一个节点，从其成员中创建一个'DMXImportGDTFActivationGroup'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXImportGDTFActivationGroup' from its members
 
 ## Outputs
 
-DMXImport GDTFActivation Group: DMXImport GDTFActivation Group Structure.
-
+DMXImport GDTFActivation Group:DMXImport GDTFActivation Group结构。

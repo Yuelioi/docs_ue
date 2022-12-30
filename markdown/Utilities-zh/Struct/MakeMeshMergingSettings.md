@@ -1,6 +1,6 @@
 # MakeMeshMergingSettings
 
-Adds a node that create a 'MeshMergingSettings' from its members
+添加一个节点，从其成员中创建一个 "MeshMergingSettings"。
 
 ## 图示
 
@@ -8,41 +8,40 @@ Adds a node that create a 'MeshMergingSettings' from its members
 
 ## Inputs
 
-Target Lightmap Resolution: Integer. Target Light Map Resolution:. The lightmap resolution used both for generating lightmap UV coordinates, and also set on the generated static mesh.
+目标光图分辨率。整数。目标光照图分辨率：。用于生成光照图UV坐标的光照图分辨率，也可以设置在生成的静态网格上。
 
-Material Settings: Material Proxy Settings Structure. Material Settings:. Material simplification.
+材料设置。材料代理设置结构。材料设置：。材料简化。
 
-Specific LOD: Integer. Specific LOD:. A given LOD level to export from the source meshes.
+具体的LOD：整数。Specific LOD：。从源网格中导出的特定LOD级别。
 
-LODSelection Type: EMeshLODSelectionType Enum. LODSelection Type:. Which selection mode should be used when generating the merged static mesh.
+LODSelection类型。EMeshLODSelectionType枚举。LODSelection Type:.生成合并后的静态网格时应该使用哪种选择模式。
 
-Generate Lightmap UV: Boolean. Generate Light Map UV:. Whether to generate lightmap UVs for a merged mesh.
+生成光照图UV：布尔值。Generate Light Map UV：。是否为合并后的网格生成光照图UV。
 
-Computed Lightmap Resolution: Boolean. Computed Light Map Resolution:. Whether or not the lightmap resolution should be computed by summing the lightmap resolutions for the input Mesh Components.
+计算的光图分辨率。布尔值。计算光照图分辨率：。是否要通过对输入的Mesh组件的光照图分辨率进行加总来计算光照图分辨率。
 
-Pivot Point At Zero: Boolean. Pivot Point at Zero:. Whether merged mesh should have pivot at world origin, or at first merged component otherwise.
+枢轴点在零点：布尔型。支点在零点：。合并后的网格是否应该以世界原点为支点，否则以第一个合并的组件为支点。
 
-Merge Physics Data: Boolean. Merge Physics Data:. Whether to merge physics data (collision primitives).
+合并物理数据。布尔型。合并物理数据：。是否合并物理数据（碰撞基元）。
 
-Merge Materials: Boolean. Merge Materials:. Whether to merge source materials into one flat material, ONLY available when merging a single LOD level, see LODSelectionType.
+合并材料。Boolean.Merge Materials（合并材质）：。是否将源材质合并为一个平面材质，仅在合并单个LOD层时可用，参见LODSelectionType。
 
-Create Merged Material: Boolean. Create Merged Material:. Create a flat material from all source materials, along with a new set of UVs. This material won't be applied to any section by default..
+创建合并的材料。Boolean.创建合并的材质：。从所有的源材质创建一个平面材质，以及一组新的UV。这个材质默认不会应用到任何部分。
 
-Bake Vertex Data To Mesh: Boolean. Bake Vertex Data to Mesh:. Whether or not vertex data such as vertex colours should be baked into the resulting mesh.
+烘焙顶点数据到网格。布尔值。烘焙顶点数据到网格：。是否要将顶点数据（如顶点颜色）烘烤到网格中。
 
-Use Vertex Data For Baking Material: Boolean. Use Vertex Data for Baking Material:. Whether or not vertex data such as vertex colours should be used when baking out materials.
+对烘烤材料使用顶点数据。Boolean.为烘焙材质使用顶点数据：。烘烤材质时是否应使用顶点数据，如顶点颜色。
 
-Use Texture Binning: Boolean. Use Texture Binning:. Whether or not to calculate varying output texture sizes according to their importance in the final atlas texture.
+使用纹理分选。布尔值。Use Texture Binning（使用纹理分级）：。是否根据纹理在最终图集纹理中的重要性来计算不同的输出纹理大小。
 
-Use Landscape Culling: Boolean. Use Landscape Culling:. Whether or not to use available landscape geometry to cull away invisible triangles.
+使用景观剪裁。Boolean.使用景观剔除：。是否使用可用的横向几何图形来剔除不可见的三角形。
 
-Include Imposters: Boolean. Include Imposters:. Whether or not to include any imposter LODs that are part of the source static meshes.
+包括冒名顶替者。布尔型。Include Imposters:（包括冒牌货）。是否包含属于源静态网格的任何冒牌LOD。
 
-Generate Nanite Enabled Mesh: Boolean. Generate Nanite Enabled Mesh:. Whether to generate a nanite-enabled mesh.
+生成支持纳米技术的网格。布尔型。生成纳米网状结构：。是否生成支持纳米技术的网格。
 
-Nanite Fallback Triangle Percent: Float (single-precision). Nanite Fallback Triangle Percent:. Percentage of triangles to reduce down to for generating a coarse fallback mesh from the Nanite mesh.  
+Nanite Fallback Triangle百分比。Float (single-precision).Nanite Fallback Triangle Percent:.从Nanite网格生成粗略的回退网格时要减少的三角形百分比。  
 
 ## Outputs
 
-Mesh Merging Settings: Mesh Merging Settings Structure.
-
+网格合并设置。网格合并设置结构。

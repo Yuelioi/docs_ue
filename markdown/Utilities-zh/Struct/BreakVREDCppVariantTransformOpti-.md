@@ -1,6 +1,6 @@
 # BreakVREDCppVariantTransformOpti-
 
-Adds a node that breaks a 'VREDCppVariantTransformOption' into its member fields
+添加一个节点，将'VREDCppVariantTransformOption'分解到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'VREDCppVariantTransformOption' into its member fields
 
 ## Inputs
 
-VREDCpp Variant Transform Option: VREDCpp Variant Transform Option Structure (by ref).  
+VREDCpp变体转换选项。VREDCpp变体转换选项结构（通过参考）。  
 
 ## Outputs
 
-Name: String. Name.
+名称: 字符串。名称。
 
-Transform: Transform. Transform.
-
+转变。转变。转变。

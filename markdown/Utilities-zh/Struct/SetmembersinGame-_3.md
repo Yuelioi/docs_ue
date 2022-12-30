@@ -1,6 +1,6 @@
 # SetmembersinGame-_3
 
-Adds a node that modifies a 'GameplayEffectExecutionScopedModifierInfo'
+添加一个修改 "GameplayEffectExecutionScopedModifierInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GameplayEffectExecutionScopedModifierInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Gameplay Effect Execution Scoped Modifier Info Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Gameplay Effect Execution Scoped Modifier Info Structure (by ref). Reference to the input struct.
-
+结构出来。Gameplay Effect Execution Scoped Modifier Info Structure（通过引用）。对输入结构的引用。

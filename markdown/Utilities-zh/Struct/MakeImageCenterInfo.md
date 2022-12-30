@@ -1,6 +1,6 @@
 # MakeImageCenterInfo
 
-Adds a node that create a 'ImageCenterInfo' from its members
+添加一个节点，从其成员中创建一个 "ImageCenterInfo"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'ImageCenterInfo' from its members
 
 ## Inputs
 
-Image Center: Vector 2D Structure. Principal Point:. Value expected to be normalized [0,1].  
+图像中心。矢量二维结构。主点：。预期归一化的值[0,1]。  
 
 ## Outputs
 
-Image Center Info: Image Center Info Structure.
-
+图像中心信息：图像中心信息结构。

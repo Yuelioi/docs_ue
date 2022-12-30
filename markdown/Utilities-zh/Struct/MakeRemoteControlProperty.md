@@ -1,6 +1,6 @@
 # MakeRemoteControlProperty
 
-Adds a node that create a 'RemoteControlProperty' from its members
+添加一个节点，从其成员中创建一个 "RemoteControlProperty"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RemoteControlProperty' from its members
 
 ## Outputs
 
-Remote Control Property: Remote Control Property Structure.
-
+远程控制属性。远程控制属性的结构。

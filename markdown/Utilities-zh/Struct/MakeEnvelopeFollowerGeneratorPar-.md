@@ -1,6 +1,6 @@
 # MakeEnvelopeFollowerGeneratorPar-
 
-Adds a node that create a 'EnvelopeFollowerGeneratorParams' from its members
+添加一个节点，从其成员中创建一个'EnvelopeFollowerGeneratorParams'。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'EnvelopeFollowerGeneratorParams' from its members
 
 ## Inputs
 
-Bypass: Boolean. Bypass:. If true, bypasses generator from being modulated by parameters, patches, or mixed (remains active and computed)..
+旁路。布尔型。旁路：。如果为真，则绕过发生器，不受参数、补丁或混合的调制（保持活动和计算）。
 
-Invert: Boolean. Invert:. If true, inverts output.
+反转。布尔型。反转：。如果为真，则反转输出。
 
-Audio Bus: Audio Bus Object Reference. Audio Bus:. AudioBus to follow amplitude of and generate modulation control signal from..
+音频总线: 音频总线对象参考.音频总线:.AudioBus跟随振幅并产生调制控制信号。
 
-Gain: Float (single-precision). Gain:. Gain to apply to amplitude signal..
+增益。Float（单精度）。增益：。应用于振幅信号的增益。
 
-Attack Time: Float (single-precision). Attack Time:. Attack time of envelope response (in sec).
+攻击时间。Float（单精度）。攻击时间：。包络响应的攻击时间（秒）。
 
-Release Time: Float (single-precision). Release Time:. Release time of envelope response (in sec).  
+释放时间。Float（单精度）。释放时间：。包络响应的释放时间（单位：秒）。  
 
 ## Outputs
 
-Envelope Follower Generator Params: Envelope Follower Generator Params Structure.
-
+Envelope Follower Generator Params:Envelope Follower Generator Params结构。

@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationP-
 
-Adds a node that create a 'DisplayClusterConfigurationPolymorphicEntity' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationPolymorphicEntity"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DisplayClusterConfigurationPolymorphicEntity' from it
 
 ## Outputs
 
-Display Cluster Configuration Polymorphic Entity: Display Cluster Configuration Polymorphic Entity Structure.
-
+显示群集配置多态实体。显示集群配置多态性实体结构。

@@ -1,6 +1,6 @@
 # MakeNavigationLinkBase
 
-Adds a node that create a 'NavigationLinkBase' from its members
+添加一个节点，从其成员中创建一个'NavigationLinkBase'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'NavigationLinkBase' from its members
 
 ## Inputs
 
-Direction: ENavLinkDirection Enum. Direction:. WITH_EDITORONLY_DATA.  
+方向。ENavLinkDirection Enum.方向:。with_editoronly_data.  
 
 ## Outputs
 
-Navigation Link Base: Navigation Link Base Structure.
-
+导航链接基地。导航链接基础结构。

@@ -1,6 +1,6 @@
 # MakeDMXCell
 
-Adds a node that create a 'DMXCell' from its members
+添加一个节点，从其成员中创建一个 "DMXCell"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'DMXCell' from its members
 
 ## Inputs
 
-Cell ID: Integer. Cell ID:. The cell index in a 1D Array (row order), starting from 0.
+单元ID：整数。单元ID：。一维数组中的单元格索引（行序），从0开始。
 
-Coordinate: Int Point Structure. Coordinate:. The cell coordinate in a 2D Array, starting from (0, 0).  
+坐标。Int点结构。Coordinate:.二维阵列中的单元坐标，从（0，0）开始。  
 
 ## Outputs
 
-DMXCell: DMXCell Structure.
-
+DMXCell: DMXCell结构。

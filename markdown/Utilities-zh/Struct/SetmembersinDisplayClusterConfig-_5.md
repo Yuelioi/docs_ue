@@ -1,6 +1,6 @@
 # SetmembersinDisplayClusterConfig-_5
 
-Adds a node that modifies a 'DisplayClusterConfigurationPostprocess'
+添加一个修改 "DisplayClusterConfigurationPostprocess "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DisplayClusterConfigurationPostprocess'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Display Cluster Configuration Postprocess Structure (by ref).  
+Struct Ref: 显示群集配置后处理结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Display Cluster Configuration Postprocess Structure (by ref). Reference to the input struct.
-
+结构出来。显示集群配置后处理结构（通过参考）。对输入结构的引用。

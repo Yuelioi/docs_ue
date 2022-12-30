@@ -1,8 +1,8 @@
 # ToText_byte
 
-Converts a byte value to formatted text
+将一个字节值转换为格式化的文本
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet Text Library
 
 ## Inputs
 
-Value: Byte.  
+值: 字节。  
 
 ## Outputs
 
-Return Value: Text. Converts a byte value to formatted text.
-
+返回值。文本。将一个字节值转换为格式化的文本。

@@ -1,6 +1,6 @@
 # SetmembersinComposurePostMoveSet-
 
-Adds a node that modifies a 'ComposurePostMoveSettings'
+添加一个节点，修改 "ComposurePostMoveSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ComposurePostMoveSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Composure Post Move Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Composure Post Move Settings Structure (by ref). Reference to the input struct.
-
+结构出来。组合式移动后设置结构（通过引用）。对输入结构的引用。

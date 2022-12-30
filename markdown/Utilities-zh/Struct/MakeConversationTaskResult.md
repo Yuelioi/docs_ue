@@ -1,6 +1,6 @@
 # MakeConversationTaskResult
 
-Adds a node that create a 'ConversationTaskResult' from its members
+添加一个节点，从其成员中创建一个'ConversationTaskResult'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ConversationTaskResult' from its members
 
 ## Outputs
 
-Conversation Task Result: Conversation Task Result Structure.
-
+对话任务的结果。对话任务结果结构。

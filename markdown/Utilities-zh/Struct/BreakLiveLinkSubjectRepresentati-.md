@@ -1,6 +1,6 @@
 # BreakLiveLinkSubjectRepresentati-
 
-Adds a node that breaks a 'LiveLinkSubjectRepresentation' into its member fields
+添加一个节点，将 "LiveLinkSubjectRepresentation "分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'LiveLinkSubjectRepresentation' into its member fields
 
 ## Inputs
 
-Live Link Subject Representation: Live Link Subject Representation Structure (by ref).  
+活生生的链接主体表征。Live Link科目表征结构（按参考）。  
 
 ## Outputs
 
-Subject: Live Link Subject Name Structure. Subject.
+主题。现场链接 主题名称结构。主题。
 
-Role: Live Link Role Class Reference. Role.
-
+角色。活链接 角色类参考。角色。

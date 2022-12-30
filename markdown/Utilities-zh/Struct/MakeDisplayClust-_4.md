@@ -1,6 +1,6 @@
 # MakeDisplayClust-_4
 
-Adds a node that create a 'DisplayClusterConfigurationICVFX_CameraMotionBlur' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationICVFX_CameraMotionBlur"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'DisplayClusterConfigurationICVFX_CameraMotionBlur' fr
 
 ## Inputs
 
-Motion Blur Mode: EDisplayClusterConfigurationCameraMotionBlurMode Enum. Motion Blur Mode:. Specify the motion blur mode for the inner frustum, correcting for the motion of the camera. Blur due to camera motion will be incorrectly doubled in the physically exposed image if there is already camera blur applied to the inner frustum..
+运动模糊模式。EDisplayClusterConfigurationCameraMotionBlurMode枚举。运动模糊模式：。指定内壳的运动模糊模式，纠正摄像机的运动。如果已经有相机模糊应用于内壳，则相机运动导致的模糊将在物理曝光的图像中被错误地加倍。
 
-Translation Scale: Float (single-precision). Translation Scale:. Translation Scale.
+翻译比例。Float（单精度）。译码表：。译码表：。
 
-Motion Blur Settings Override: Display Cluster Configuration ICVFX Camera Motion Blur Override PPS Structure. Motion Blur PPS:. Motion Blur Settings Override.  
+运动模糊设置覆盖。显示集群配置 ICVFX摄像机运动模糊覆盖PPS结构。运动模糊PPS：。运动模糊设置覆盖。  
 
 ## Outputs
 
-Display Cluster Configuration ICVFX Camera Motion Blur: Display Cluster Configuration ICVFX Camera Motion Blur Structure.
-
+Display Cluster Configuration ICVFX Camera Motion Blur: 显示集群配置 ICVFX Camera Motion Blur 结构。

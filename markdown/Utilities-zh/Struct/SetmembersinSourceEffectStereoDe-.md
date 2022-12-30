@@ -1,6 +1,6 @@
 # SetmembersinSourceEffectStereoDe-
 
-Adds a node that modifies a 'SourceEffectStereoDelaySettings'
+添加一个节点，修改 "SourceEffectStereoDelaySettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SourceEffectStereoDelaySettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Source Effect Stereo Delay Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Source Effect Stereo Delay Settings Structure (by ref). Reference to the input struct.
-
+结构输出。Source Effect Stereo Delay Settings Structure（通过参考）。对输入结构的引用。

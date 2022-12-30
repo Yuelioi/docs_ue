@@ -1,6 +1,6 @@
 # MakeVREDCppVariantTransform
 
-Adds a node that create a 'VREDCppVariantTransform' from its members
+添加一个节点，从其成员中创建一个 "VREDCppVariantTransform"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'VREDCppVariantTransform' from its members
 
 ## Inputs
 
-Target Nodes: Array of Strings. Target Nodes.
+目标节点。字符串的数组。目标节点。
 
-Options: Array of VREDCpp Variant Transform Option Structures. Options.  
+选项。VREDCpp变体转换选项结构的数组。选项。  
 
 ## Outputs
 
-VREDCpp Variant Transform: VREDCpp Variant Transform Structure.
-
+VREDCpp变体变换。VREDCpp变体变换结构。

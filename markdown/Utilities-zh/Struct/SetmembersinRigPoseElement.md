@@ -1,6 +1,6 @@
 # SetmembersinRigPoseElement
 
-Adds a node that modifies a 'RigPoseElement'
+添加一个修改'RigPoseElement'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RigPoseElement'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Rig Pose Element Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Rig Pose Element Structure (by ref). Reference to the input struct.
-
+结构出来。钻机姿势元素结构（通过引用）。对输入结构的引用。

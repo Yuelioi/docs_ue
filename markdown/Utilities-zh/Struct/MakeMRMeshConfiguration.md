@@ -1,6 +1,6 @@
 # MakeMRMeshConfiguration
 
-Adds a node that create a 'MRMeshConfiguration' from its members
+添加一个节点，从其成员中创建一个'MRMeshConfiguration'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'MRMeshConfiguration' from its members
 
 ## Outputs
 
-MRMesh Configuration: MRMesh Configuration Structure.
-
+MRMesh配置。MRMesh配置结构。

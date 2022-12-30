@@ -1,6 +1,6 @@
 # MakeGaussianSumBloomSettings
 
-Adds a node that create a 'GaussianSumBloomSettings' from its members
+添加一个节点，从其成员中创建一个 "GaussianSumBloomSettings"。
 
 ## 图示
 
@@ -8,11 +8,11 @@ Adds a node that create a 'GaussianSumBloomSettings' from its members
 
 ## Inputs
 
-Intensity: Float (single-precision). Intensity:. Multiplier for all bloom contributions >=0: off, 1(default), >1 brighter.
+强度。浮点数（单精度）。强度：。所有开花贡献的乘数，>=0：关闭，1（默认），>1更亮。
 
-Threshold: Float (single-precision). Threshold:. minimum brightness the bloom starts having effect. -1:all pixels affect bloom equally (physically correct, faster as a threshold pass is omitted), 0:all pixels affect bloom brights more, 1(default), >1 brighter.
+阈值。Float（单精度）。阈值：绽放开始产生影响的最小亮度。-1:所有像素平等地影响绽放（物理上正确，由于省略了阈值通道，所以速度更快），0:所有像素影响绽放的亮度更高，1（默认），>1更亮。
 
-Size Scale: Float (single-precision). Size Scale:. Scale for all bloom sizes.
+大小比例。Float（单精度）。大小比例：。所有开花尺寸的比例。
 
 # 1 Size: Float (single-precision). Filter 1Size:. Diameter size for the Bloom1 in percent of the screen width. (is done in 1/2 resolution, larger values cost more performance, good for high frequency details). >=0: can be clamped because of shader limitations.
 
@@ -40,5 +40,4 @@ Size Scale: Float (single-precision). Size Scale:. Scale for all bloom sizes.
 
 ## Outputs
 
-Gaussian Sum Bloom Settings: Gaussian Sum Bloom Settings Structure.
-
+高斯和布隆设置。高斯和布隆设置结构。

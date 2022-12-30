@@ -1,6 +1,6 @@
 # MakeSubobjectData
 
-Adds a node that create a 'SubobjectData' from its members
+添加一个节点，从其成员中创建一个 "SubobjectData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SubobjectData' from its members
 
 ## Outputs
 
-Subobject Data: Subobject Data Structure.
-
+子对象数据。子对象数据结构。

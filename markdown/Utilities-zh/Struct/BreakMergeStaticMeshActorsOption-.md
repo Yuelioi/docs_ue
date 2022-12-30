@@ -1,6 +1,6 @@
 # BreakMergeStaticMeshActorsOption-
 
-Adds a node that breaks a 'MergeStaticMeshActorsOptions' into its member fields
+添加一个打破'MergeStaticMeshActorsOptions'的节点到其成员字段中
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'MergeStaticMeshActorsOptions' into its member fields
 
 ## Inputs
 
-Merge Static Mesh Actors Options: Merge Static Mesh Actors Options Structure (by ref).  
+合并静态网格行为者选项。合并静态网格演员选项结构（按参考）。  
 
 ## Outputs
 
-Spawn Merged Actor: Boolean. Spawn Merged Actor:. Spawn the new merged actors.
+生成合并的演员。Boolean.生成合并的演员：。生成新的合并后的演员。
 
-Base Package Name: String. Base Package Name:. The package path you want to save to. ie: /Game/MyFolder.
+基础包名称。字符串。基本包名称：。你想保存到的软件包路径。即：/Game/MyFolder。
 
-Mesh Merging Settings: Mesh Merging Settings Structure. Mesh Merging Settings.
+网格合并设置。网格合并设置结构。网格合并设置。
 
-Destroy Source Actors: Boolean. Destroy Source Actors:. Destroy the provided Actors after the operation..
+销毁源演员。Boolean.Destroy Source Actors：.在操作后销毁所提供的演员。
 
-New Actor Label: String. New Actor Label:. Name of the new spawned Actor to replace the provided Actors..
+新的演员标签。字符串。新演员标签：.新产生的演员的名字，以取代提供的演员。
 
-Rename Components From Source: Boolean. Rename Components from Source:. Rename StaticMeshComponents based on source Actor's name..
-
+从源头重命名组件。布尔型。从源头重命名组件：。根据源Actor的名字重命名StaticMeshComponents。

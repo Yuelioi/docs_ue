@@ -1,6 +1,6 @@
 # MakeEngineShowFlagsSetting
 
-Adds a node that create a 'EngineShowFlagsSetting' from its members
+添加一个节点，从其成员中创建一个 "EngineShowFlagsSetting"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'EngineShowFlagsSetting' from its members
 
 ## Inputs
 
-Show Flag Name: String. Show Flag Name.
+显示旗帜名称。字符串。显示旗帜名称。
 
-Enabled: Boolean. Enabled.  
+已启用。布尔型。已启用。  
 
 ## Outputs
 
-Engine Show Flags Setting: Engine Show Flags Setting Structure.
-
+引擎显示标志设置。引擎显示标志设置结构。

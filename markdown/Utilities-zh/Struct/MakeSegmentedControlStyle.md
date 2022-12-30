@@ -1,6 +1,6 @@
 # MakeSegmentedControlStyle
 
-Adds a node that create a 'SegmentedControlStyle' from its members
+添加一个节点，从其成员中创建一个 "SegmentedControlStyle"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'SegmentedControlStyle' from its members
 
 ## Inputs
 
-Control Style: Check Box Style Structure. Control Style:. The style to use for our Center Control.
+控件风格。复选框式结构。控件风格：。我们的中心控件要使用的样式。
 
-First Control Style: Check Box Style Structure. First Control Style:. The style to use for our Left Control.
+第一个控件样式。复选框样式结构。第一个控件样式：。我们的左边控件使用的样式。
 
-Last Control Style: Check Box Style Structure. Last Control Style:. The style to use for our Left Control.
+最后一个控制风格。复选框样式结构。最后一个控件样式：。我们的左边控件要使用的样式。
 
-Background Brush: Slate Brush Structure. Background Brush:. Background of the segmented control.
+背景画笔。板岩画笔结构。背景画笔：。分段控制的背景。
 
-Uniform Padding: Margin Structure. Uniform Padding:. Padding between each control.  
+统一的填充。保证金结构。统一填充：。每个控件之间的填充。  
 
 ## Outputs
 
-Segmented Control Style: Segmented Control Style Structure.
-
+分段式控制风格。分段式控制风格结构。

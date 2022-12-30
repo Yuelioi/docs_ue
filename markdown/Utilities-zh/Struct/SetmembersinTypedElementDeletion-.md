@@ -1,6 +1,6 @@
 # SetmembersinTypedElementDeletion-
 
-Adds a node that modifies a 'TypedElementDeletionOptions'
+添加一个修改 "TypedElementDeletionOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TypedElementDeletionOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Typed Element Deletion Options Structure (by ref).  
+结构参考：类型化的元素删除选项结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Typed Element Deletion Options Structure (by ref). Reference to the input struct.
-
+结构出来。类型化的元素删除选项结构（通过引用）。对输入结构的引用。

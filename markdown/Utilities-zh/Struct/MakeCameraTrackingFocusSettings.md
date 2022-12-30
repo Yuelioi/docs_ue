@@ -1,6 +1,6 @@
 # MakeCameraTrackingFocusSettings
 
-Adds a node that create a 'CameraTrackingFocusSettings' from its members
+添加一个节点，从其成员中创建一个 "CameraTrackingFocusSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'CameraTrackingFocusSettings' from its members
 
 ## Inputs
 
-Actor To Track: Actor Soft Object Reference. Actor to Track:. Focus distance will be tied to this actor's location..
+Actor To Track:Actor Soft Object Reference.追踪的演员：。焦点距离将与该演员的位置相联系。
 
-Relative Offset: Vector. Relative Offset:. Offset from actor position to track. Relative to actor if tracking an actor, relative to world otherwise..
+相对偏移。矢量。Relative Offset：。从演员位置开始追踪的偏移量。如果追踪演员，则相对于演员，否则相对于世界。
 
-Draw Debug Tracking Focus Point: Boolean. Draw Debug Tracking Focus Point:. True to draw a debug representation of the tracked position..  
+Draw Debug Tracking Focus Point: Boolean.Draw Debug Tracking Focus Point:.为真，可画出被跟踪位置的调试表示。  
 
 ## Outputs
 
-Camera Tracking Focus Settings: Camera Tracking Focus Settings Structure.
-
+摄像机跟踪对焦设置。摄像机跟踪对焦设置结构。

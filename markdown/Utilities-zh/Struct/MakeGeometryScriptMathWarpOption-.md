@@ -1,6 +1,6 @@
 # MakeGeometryScriptMathWarpOption-
 
-Adds a node that create a 'GeometryScriptMathWarpOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptMathWarpOptions'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'GeometryScriptMathWarpOptions' from its members
 
 ## Inputs
 
-Magnitude: Float (single-precision). Magnitude.
+幅度。Float（单精度）。幅值。
 
-Frequency: Float (single-precision). Frequency.
+频率。Float (single-precision).频率。
 
-Frequency Shift: Float (single-precision). Frequency Shift.  
+频移。Float (single-precision).频移。  
 
 ## Outputs
 
-Geometry Script Math Warp Options: Geometry Script Math Warp Options Structure.
-
+Geometry Script Math Warp Options:Geometry Script Math Warp Options结构。

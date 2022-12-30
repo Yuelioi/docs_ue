@@ -1,6 +1,6 @@
 # BreakGeometryScriptRepackUVsOpti-
 
-Adds a node that breaks a 'GeometryScriptRepackUVsOptions' into its member fields
+添加一个节点，将'GeometryScriptRepackUVsOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'GeometryScriptRepackUVsOptions' into its member field
 
 ## Inputs
 
-Geometry Script Repack UVs Options: Geometry Script Repack UVs Options Structure (by ref).  
+Geometry Script Repack UVs Options:Geometry Script Repack UVs Options结构（按参考）。  
 
 ## Outputs
 
-Target Image Width: Integer. Target Image Width.
+目标图像宽度：整数。目标图像宽度。
 
-Optimize Island Rotation: Boolean. Optimize Island Rotation.
-
+优化岛的旋转。布尔型。优化岛的旋转。

@@ -1,6 +1,6 @@
 # MakeCapturedPixelsID
 
-Adds a node that create a 'CapturedPixelsID' from its members
+添加一个节点，从其成员中创建一个 "CapturedPixelsID"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'CapturedPixelsID' from its members
 
 ## Inputs
 
-Identifiers: Map of Names to Names. Identifiers:. Map of identifiers to their values for this ID..  
+识别器。名称到名称的地图。识别符:.该ID的标识符到其值的映射。
 
 ## Outputs
 
-Captured Pixels ID: Captured Pixels ID Structure.
-
+捕获的像素ID。捕获的像素ID结构。

@@ -1,6 +1,6 @@
 # BreakVREDCppVariantMaterialOptio-
 
-Adds a node that breaks a 'VREDCppVariantMaterialOption' into its member fields
+添加一个节点，将'VREDCppVariantMaterialOption'分解到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'VREDCppVariantMaterialOption' into its member fields
 
 ## Inputs
 
-VREDCpp Variant Material Option: VREDCpp Variant Material Option Structure (by ref).  
+VREDCpp变体材料选项。VREDCpp变体材料选项结构（按参考）。  
 
 ## Outputs
 
-Name: String. Name.
-
+名称: 字符串。名称。

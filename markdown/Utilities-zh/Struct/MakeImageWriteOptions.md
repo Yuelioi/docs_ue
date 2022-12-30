@@ -1,6 +1,6 @@
 # MakeImageWriteOptions
 
-Adds a node that create a 'ImageWriteOptions' from its members
+添加一个节点，从其成员中创建一个 "ImageWriteOptions"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'ImageWriteOptions' from its members
 
 ## Inputs
 
-Format: EDesiredImageFormat Enum. Format:. The desired output image format to write to disk.
+格式。EDesiredImageFormat枚举。格式：。希望写到磁盘的输出图像格式。
 
-On Complete: Delegate. On Complete:. A callback to invoke when the image has been written, or there was an error.
+关于完整。代表。完成时：。一个回调，当图像被写入或出现错误时调用。
 
-Compression Quality: Integer. Compression Quality:. An image format specific compression setting. Either 0 (Default) or 1 (Uncompressed) for EXRs, or a value between 0 and 100..
+压缩质量。整数。压缩质量：。一个针对图像格式的压缩设置。对于EXR，要么是0（默认），要么是1（未压缩），或者是0到100之间的值。
 
-Overwrite File: Boolean. Overwrite File:. Whether to overwrite the image if it already exists.
+覆盖文件：布尔值。覆盖文件：。如果图像已经存在，是否要覆盖它。
 
-Async: Boolean. Async:. Whether to perform the writing asynchronously, or to block the game thread until it is complete.  
+异步。布尔型。Async:.是异步执行写入，还是阻塞游戏线程直到完成。  
 
 ## Outputs
 
-Image Write Options: Image Write Options Structure.
-
+图像写入选项。图像写入选项结构。

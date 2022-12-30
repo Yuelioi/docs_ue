@@ -1,6 +1,6 @@
 # MakeHairGroupsRendering
 
-Adds a node that create a 'HairGroupsRendering' from its members
+添加一个节点，从其成员中创建一个 "HairGroupsRendering"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'HairGroupsRendering' from its members
 
 ## Outputs
 
-Hair Groups Rendering: Hair Groups Rendering Structure.
-
+Hair Groups Rendering:Hair Groups Rendering Structure.

@@ -1,6 +1,6 @@
 # BreakImageCenterPointInfo
 
-Adds a node that breaks a 'ImageCenterPointInfo' into its member fields
+添加一个节点，将'ImageCenterPointInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ImageCenterPointInfo' into its member fields
 
 ## Inputs
 
-Image Center Point Info: Image Center Point Info Structure (by ref).  
+图像中心点信息：图像中心点信息结构（通过参考）。  
 
 ## Outputs
 
-Image Center Info: Image Center Info Structure. Image Center Info:. Image Center parameter.
+图片中心信息：图片中心信息结构。图像中心信息：。图片中心参数。
 
-Focus: Float (single-precision). Focus:. Point Focus Value.
+焦点。Float（单精度）。焦点：。点聚焦值。
 
-Zoom: Float (single-precision). Zoom:. Point Zoom Value.
-
+缩放。Float（单精度）。缩放:.点的缩放值。

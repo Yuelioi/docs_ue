@@ -1,6 +1,6 @@
 # MakeGeometryScriptTwistWarpOptio-
 
-Adds a node that create a 'GeometryScriptTwistWarpOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptTwistWarpOptions'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'GeometryScriptTwistWarpOptions' from its members
 
 ## Inputs
 
-Symmetric Extents: Boolean. Symmetric Extents:. Symmetric extents are [-BendExtent,BendExtent], if disabled, then [-LowerExtent,BendExtent] is used.
+对称的外延。布尔型。对称外延：。对称外延是[-BendExtent,BendExtent]，如果禁用，则使用[-LowerExtent,BendExtent]。
 
-Lower Extent: Float (single-precision). Lower Extent:. Lower extent used when bSymmetricExtents = false.
+下限范围。浮点数（单精度）。Lower Extent:.当bSymmetricExtents = false时使用的下限范围。
 
-Bidirectional: Boolean. Bidirectional:. If true, the Twist is "centered" at the Origin, ie the regions on either side of the extents are rigidly transformed. If false, the Twist begins at the start of the Lower Extents, and the "lower" region is not affected..  
+双向的。布尔型。双向性：。如果是true，扭曲是以原点为中心的，即外延两侧的区域都是刚性转换的。如果是假的，扭曲从下层外延的起点开始，"下层 "区域不受影响。  
 
 ## Outputs
 
-Geometry Script Twist Warp Options: Geometry Script Twist Warp Options Structure.
-
+Geometry Script Twist Warp Options:Geometry Script Twist Warp Options结构。

@@ -1,6 +1,6 @@
 # MakeInputActionSpeechMapping
 
-Adds a node that create a 'InputActionSpeechMapping' from its members
+添加一个节点，从其成员中创建一个 "InputActionSpeechMapping"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'InputActionSpeechMapping' from its members
 
 ## Outputs
 
-Input Action Speech Mapping: Input Action Speech Mapping Structure.
-
+输入动作的语音映射。输入动作 语音映射结构。

@@ -1,6 +1,6 @@
 # BreakLensSettings
 
-Adds a node that breaks a 'LensSettings' into its member fields
+添加一个节点，将 "LensSettings "分解成其成员字段。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'LensSettings' into its member fields
 
 ## Inputs
 
-Lens Settings: Lens Settings Structure (by ref).  
+镜头设置。镜头设置结构（按参考）。  
 
 ## Outputs
 
-Bloom: Lens Bloom Settings Structure. Bloom.
+绽放。镜头 布隆设置结构。绽放。
 
-Imperfections: Lens Imperfection Settings Structure. Imperfections.
+瑕疵。镜头缺陷设置结构。瑕疵。
 
-Chromatic Aberration: Float (single-precision). Chromatic Aberration:. in percent, Scene chromatic aberration / color fringe (camera imperfection) to simulate an artifact that happens in real-world lens, mostly visible in the image corners..
-
+色差。浮点（单精度）。色差：.以百分比计算，场景色差/色差（相机缺陷）模拟发生在真实世界的镜头中的人工制品，大部分在图像角落可见。

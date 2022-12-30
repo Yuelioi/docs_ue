@@ -1,6 +1,6 @@
 # BreakPoseSearchChannelDynamicWei-
 
-Adds a node that breaks a 'PoseSearchChannelDynamicWeightParams' into its member fields
+添加一个节点，将'PoseSearchChannelDynamicWeightParams'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'PoseSearchChannelDynamicWeightParams' into its member
 
 ## Inputs
 
-Pose Search Channel Dynamic Weight Params: Pose Search Channel Dynamic Weight Params Structure (by ref).  
+姿势搜索通道动态权重参数。姿势搜索通道动态权重参数结构（按参考）。  
 
 ## Outputs
 
-Channel Weight Scale: Float (single-precision). Channel Weight Scale:. Multiplier for the contribution of this score component. Final weight will be normalized with other channels after scaling..
+通道重量刻度。Float（单精度）。通道权重表：。这个分数组成部分的贡献的乘数。最终的权重将在缩放后与其他通道进行标准化。
 
-History Weight Scale: Float (single-precision). History Weight Scale:. Multiplier for history score contribution. Normalized with prediction weight after scaling..
+历史重量表。Float（单精度）。历史权重表：。历史分数贡献的乘数。缩放后与预测权重成正比。
 
-Prediction Weight Scale: Float (single-precision). Prediction Weight Scale:. Multiplier for prediction score contribution. Normalized with history weight after scaling..
-
+预测重量表。Float（单精度）。预测权重表：。预测分数贡献的乘数。缩放后与历史权重归一。

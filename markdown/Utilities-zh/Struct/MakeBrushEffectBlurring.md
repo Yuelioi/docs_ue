@@ -1,6 +1,6 @@
 # MakeBrushEffectBlurring
 
-Adds a node that create a 'BrushEffectBlurring' from its members
+添加一个节点，从其成员中创建一个'BrushEffectBlurring'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'BrushEffectBlurring' from its members
 
 ## Inputs
 
-Blur Shape: Boolean. Blur Shape.
+模糊的形状。Boolean.模糊的形状。
 
-Radius: Integer. Radius.  
+半径：整数。半径。  
 
 ## Outputs
 
-Brush Effect Blurring: Brush Effect Blurring Structure.
-
+刷子效果的模糊化。刷子效果模糊结构。

@@ -1,6 +1,6 @@
 # MakeSourceEffectEQSettings
 
-Adds a node that create a 'SourceEffectEQSettings' from its members
+添加一个节点，从其成员中创建一个 "SourceEffectEQSettings"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'SourceEffectEQSettings' from its members
 
 ## Inputs
 
-EQBands: Array of Source Effect EQBand Structures. EQBands:. The EQ bands to use.  
+EQBands。阵列的源效应EQBand结构。EQBands:。要使用的EQ带。  
 
 ## Outputs
 
-Source Effect EQSettings: Source Effect EQSettings Structure.
-
+源效果EQSettings。源效果EQSettings结构。

@@ -1,6 +1,6 @@
 # SetmembersinHairSimulationSettin-
 
-Adds a node that modifies a 'HairSimulationSettings'
+添加一个修改 "HairSimulationSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'HairSimulationSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Hair Simulation Settings Structure (by ref).  
+Struct Ref: 头发模拟设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Hair Simulation Settings Structure (by ref). Reference to the input struct.
-
+Struct Out: Hair Simulation Settings Structure (by ref).对输入结构的引用。

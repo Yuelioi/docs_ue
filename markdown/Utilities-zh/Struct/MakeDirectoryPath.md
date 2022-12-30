@@ -1,6 +1,6 @@
 # MakeDirectoryPath
 
-Adds a node that create a 'DirectoryPath' from its members
+添加一个节点，从其成员中创建一个'DirectoryPath'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'DirectoryPath' from its members
 
 ## Inputs
 
-Path: String. Path:. The path to the directory..  
+路径。字符串。路径：。目录的路径。
 
 ## Outputs
 
-Directory Path: Directory Path Structure.
-
+目录路径。目录路径结构。

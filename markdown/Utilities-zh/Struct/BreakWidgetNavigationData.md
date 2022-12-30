@@ -1,6 +1,6 @@
 # BreakWidgetNavigationData
 
-Adds a node that breaks a 'WidgetNavigationData' into its member fields
+添加一个节点，将'WidgetNavigationData'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'WidgetNavigationData' into its member fields
 
 ## Inputs
 
-Widget Navigation Data: Widget Navigation Data Structure (by ref).  
+小工具导航数据。小工具导航数据结构（由参考）。  
 
 ## Outputs
 
-Rule: EUINavigationRule Enum. Rule.
+规则。EUINavigationRule Enum.规则。
 
-Widget To Focus: Name. Widget to Focus:. This either the widget to focus, OR the name of the function to call..
-
+小工具要关注。名称。要关注的小部件：。这要么是要关注的Widget，要么是要调用的函数名称。

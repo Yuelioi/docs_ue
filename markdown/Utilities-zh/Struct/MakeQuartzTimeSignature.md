@@ -1,6 +1,6 @@
 # MakeQuartzTimeSignature
 
-Adds a node that create a 'QuartzTimeSignature' from its members
+添加一个节点，从其成员中创建一个 "QuartzTimeSignature"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'QuartzTimeSignature' from its members
 
 ## Inputs
 
-Num Beats: Integer. Num Beats:. numerator.
+Num Beats:整数。Num Beats:.分子。
 
-Beat Type: EQuartzTimeSignatureQuantization Enum. Beat Type:. denominator.
+节拍类型。EQuartzTimeSignatureQuantization枚举。节拍类型：。分母。
 
-Optional Pulse Override: Array of Quartz Pulse Override Step Structures. Optional Pulse Override:. beat override.  
+可选的脉冲覆盖。数组的石英脉冲覆盖步骤结构。可选的脉冲覆盖：。节拍覆盖。  
 
 ## Outputs
 
-Quartz Time Signature: Quartz Time Signature Structure.
-
+石英时间特征。石英时间特征结构。

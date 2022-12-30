@@ -1,6 +1,6 @@
 # MakeSpinBoxStyle
 
-Adds a node that create a 'SpinBoxStyle' from its members
+添加一个节点，从其成员中创建一个 "SpinBoxStyle"。
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that create a 'SpinBoxStyle' from its members
 
 ## Inputs
 
-Background Brush: Slate Brush Structure. Background Brush:. Brush used to draw the background of the spinbox.
+背景画笔。板岩画笔结构。背景画笔：。用于绘制旋转盒的背景的画笔。
 
-Active Background Brush: Slate Brush Structure. Active Background Brush.
+活跃的背景画笔。石板刷结构。活跃的背景画笔。
 
-Hovered Background Brush: Slate Brush Structure. Hovered Background Brush:. Brush used to draw the background of the spinbox when it's hovered over.
+悬停的背景画笔。石板刷结构。悬停的背景画笔：。当旋涡被悬停时，用于绘制旋涡的背景的画笔。
 
-Active Fill Brush: Slate Brush Structure. Active Fill Brush:. Brush used to fill the spinbox when it's active.
+主动填充画笔。石板刷结构。活动填充画笔：。用于填充旋转箱的画笔，当它处于活动状态时。
 
-Hovered Fill Brush: Slate Brush Structure. Hovered Fill Brush:. Brush used to fill the spinbox when it's hovered and not active.
+悬停的填充画笔。石板画笔结构。悬停的填充画笔：。用于填充旋转盒的画笔，当它被悬停而不活动时。
 
-Inactive Fill Brush: Slate Brush Structure. Inactive Fill Brush:. Brush used to fill the spinbox when it's inactive.
+无效的填充刷。石板刷结构。不活动的填充画笔：。用于填充旋转盒的笔刷，当它处于非活动状态时。
 
-Arrows Image: Slate Brush Structure. Arrows Image:. Image used to draw the spinbox arrows.
+箭头图像。石板刷结构。箭头图像：。用于绘制旋转箱箭头的图像。
 
-Text Padding: Margin Structure. Text Padding:. Padding to add around the spinbox and its text.
+文本填充。边距结构。Text Padding:（文本填充）。在旋钮箱及其文本周围添加的填充物。
 
-Inset Padding: Margin Structure. Inset Padding:. Padding between the background brush and the fill brush.  
+嵌入填充。边缘结构。Inset Padding:。背景画笔和填充画笔之间的填充。  
 
 ## Outputs
 
-Spin Box Style: Spin Box Style Structure.
-
+旋转箱式。旋转箱式结构。

@@ -1,6 +1,6 @@
 # BreakGeometryScriptUVTriangle
 
-Adds a node that breaks a 'GeometryScriptUVTriangle' into its member fields
+添加一个打破'GeometryScriptUVTriangle'的节点到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'GeometryScriptUVTriangle' into its member fields
 
 ## Inputs
 
-Geometry Script UVTriangle: Geometry Script UVTriangle Structure (by ref).  
+Geometry Script UVTriangle:Geometry Script UVTriangle结构（通过参考）。  
 
 ## Outputs
 
-UV0: Vector 2D Structure. UV0.
+UV0：矢量2D结构。UV0.
 
-UV1: Vector 2D Structure. UV1.
+UV1。矢量二维结构。UV1.
 
-UV2: Vector 2D Structure. UV2.
-
+UV2。矢量二维结构。UV2.

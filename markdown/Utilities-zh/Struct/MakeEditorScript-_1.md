@@ -1,6 +1,6 @@
 # MakeEditorScript-_1
 
-Adds a node that create a 'EditorScriptingJoinStaticMeshActorsOptions_Deprecated' from its members
+添加一个节点，从其成员中创建一个'EditorScriptingJoinStaticMeshActorsOptions_Deprecated'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'EditorScriptingJoinStaticMeshActorsOptions_Deprecated
 
 ## Inputs
 
-Destroy Source Actors: Boolean. Destroy Source Actors:. Destroy the provided Actors after the operation..
+销毁源演员。Boolean.Destroy Source Actors：.在操作后销毁所提供的演员。
 
-New Actor Label: String. New Actor Label:. Name of the new spawned Actor to replace the provided Actors..
+新的演员标签。字符串。新演员标签：.新产生的演员的名字，以取代提供的演员。
 
-Rename Components From Source: Boolean. Rename Components from Source:. Rename StaticMeshComponents based on source Actor's name..  
+从源头重命名组件。布尔值。从源头重命名组件：。根据源Actor的名字重命名StaticMeshComponents。
 
 ## Outputs
 
-Editor Scripting Join Static Mesh Actors Options Deprecated: Editor Scripting Join Static Mesh Actors Options Deprecated Structure.
-
+编辑器脚本加入静态网格演员选项已失效。Editor Scripting Join Static Mesh Actors Options Deprecated结构。

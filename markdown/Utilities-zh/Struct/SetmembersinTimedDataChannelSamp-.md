@@ -1,6 +1,6 @@
 # SetmembersinTimedDataChannelSamp-
 
-Adds a node that modifies a 'TimedDataChannelSampleTime'
+添加一个节点，修改 "TimedDataChannelSampleTime"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TimedDataChannelSampleTime'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Timed Data Channel Sample Time Structure (by ref).  
+结构参考：定时数据通道采样时间结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Timed Data Channel Sample Time Structure (by ref). Reference to the input struct.
-
+结构输出。定时数据通道采样时间结构（通过参考）。对输入结构的参考。

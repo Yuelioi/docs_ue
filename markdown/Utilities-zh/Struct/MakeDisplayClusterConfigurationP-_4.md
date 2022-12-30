@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationP-_4
 
-Adds a node that create a 'DisplayClusterConfigurationPrimaryNodePorts' from its members
+添加一个节点，从其成员中创建一个'DisplayClusterConfigurationPrimaryNodePorts'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DisplayClusterConfigurationPrimaryNodePorts' from its
 
 ## Outputs
 
-Display Cluster Configuration Primary Node Ports: Display Cluster Configuration Primary Node Ports Structure.
-
+显示群集配置主节点端口。显示群集配置主节点端口结构。

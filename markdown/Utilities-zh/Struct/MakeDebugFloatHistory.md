@@ -1,6 +1,6 @@
 # MakeDebugFloatHistory
 
-Adds a node that create a 'DebugFloatHistory' from its members
+添加一个节点，从其成员中创建一个 "DebugFloatHistory"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'DebugFloatHistory' from its members
 
 ## Inputs
 
-Max Samples: Integer. Max Samples:. Max Samples to record..
+最大样本数。整数。最大样本：。记录的最大样本数。
 
-Min Value: Float (single-precision). Min Value:. Min value to record..
+最小值。Float (single-precision).最小值：。记录的最小值。
 
-Max Value: Float (single-precision). Max Value:. Max value to record..
+最大值。Float (single-precision).最大值：。要记录的最大值。
 
-Auto Adjust Min Max: Boolean. Auto Adjust Min Max:. Auto adjust Min/Max as new values are recorded?.  
+自动调整最小最大值：布尔值。自动调整最小最大值：。在记录新数值时自动调整最小/最大值？  
 
 ## Outputs
 
-Debug Float History: Debug Float History Structure.
-
+调试浮动历史。Debug Float History结构。

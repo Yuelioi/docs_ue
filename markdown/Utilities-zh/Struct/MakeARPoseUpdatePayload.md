@@ -1,6 +1,6 @@
 # MakeARPoseUpdatePayload
 
-Adds a node that create a 'ARPoseUpdatePayload' from its members
+添加一个节点，从其成员中创建一个'ARPoseUpdatePayload'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ARPoseUpdatePayload' from its members
 
 ## Inputs
 
-World Transform: Transform. World Transform.
+世界转型。转变。世界转型。
 
-Joint Transforms: Array of Transforms. Joint Transforms.  
+联合变换。变换的阵列。联合变换。  
 
 ## Outputs
 
-ARPose Update Payload: ARPose Update Payload Structure.
-
+ARPose Update Payload:ARPose Update Payload结构。

@@ -1,6 +1,6 @@
 # MakeSmartObjectSlotIndex
 
-Adds a node that create a 'SmartObjectSlotIndex' from its members
+添加一个节点，从其成员中创建一个 "SmartObjectSlotIndex"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SmartObjectSlotIndex' from its members
 
 ## Outputs
 
-Smart Object Slot Index: Smart Object Slot Index Structure.
-
+智能对象槽位索引：智能对象槽位索引结构。

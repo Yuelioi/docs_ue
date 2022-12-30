@@ -1,6 +1,6 @@
 # SetmembersinAutomationWaitForLoa-
 
-Adds a node that modifies a 'AutomationWaitForLoadingOptions'
+添加一个修改 "AutomationWaitForLoadingOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AutomationWaitForLoadingOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Automation Wait For Loading Options Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Automation Wait For Loading Options Structure (by ref). Reference to the input struct.
-
+结构出来。Automation Wait For Loading Options Structure（通过引用）。对输入结构的引用。

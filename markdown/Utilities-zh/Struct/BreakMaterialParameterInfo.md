@@ -1,6 +1,6 @@
 # BreakMaterialParameterInfo
 
-Adds a node that breaks a 'MaterialParameterInfo' into its member fields
+添加一个节点，将'MaterialParameterInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'MaterialParameterInfo' into its member fields
 
 ## Inputs
 
-Material Parameter Info: Material Parameter Info Structure (by ref).  
+材料参数信息。材料参数信息结构（通过参考）。  
 
 ## Outputs
 
-Name: Name. Name.
+姓名：姓名名称。
 
-Association: EMaterialParameterAssociation Enum. Association:. Whether this is a global parameter, or part of a layer or blend.
+协会。EMaterialParameterAssociation Enum.关联：。这是一个全局参数，还是一个图层或混合的一部分。
 
-Index: Integer. Index:. Layer or blend index this parameter is part of. INDEX_NONE for global parameters..
-
+索引。整数。索引：。该参数所属的图层或混合指数。全局参数为INDEX_NONE。

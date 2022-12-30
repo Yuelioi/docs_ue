@@ -1,6 +1,6 @@
 # BreakTraceChannelTestBatchOption-
 
-Adds a node that breaks a 'TraceChannelTestBatchOptions' into its member fields
+添加一个节点，将'TraceChannelTestBatchOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'TraceChannelTestBatchOptions' into its member fields
 
 ## Inputs
 
-Trace Channel Test Batch Options: Trace Channel Test Batch Options Structure (by ref).  
+追踪通道测试批处理选项。追踪通道测试批处理选项结构（按参考）。  
 
 ## Outputs
 
-Line Trace: Boolean. Line Trace:. Whether to do line traces.
+线路跟踪。布尔型。线条追踪：。是否进行行追踪。
 
-Sphere Trace: Boolean. Sphere Trace:. Whether to do sphere traces.
+球体追踪。Boolean.球体追踪：。是否进行球体追踪。
 
-Capsule Trace: Boolean. Capsule Trace:. Whether to do capsule traces.
+胶囊追踪。布尔型。胶囊追踪：。是否进行胶囊追踪。
 
-Box Trace: Boolean. Box Trace:. Whether to do box traces.
+箱体跟踪。布尔型。箱体追踪：。是否进行箱体追踪。
 
-Channel Trace: Boolean. Channel Trace:. Whether to do channel traces.
+通道追踪。布尔型。通道追踪：。是否进行通道追踪。
 
-Objects Trace: Boolean. Objects Trace:. Whether to do object traces.
+对象 追踪。布尔型。对象追踪：。是否进行对象追踪。
 
-Profile Trace: Boolean. Profile Trace:. Whether to do profile traces.
-
+简介跟踪。布尔值。轮廓跟踪：。是否进行轮廓追踪。

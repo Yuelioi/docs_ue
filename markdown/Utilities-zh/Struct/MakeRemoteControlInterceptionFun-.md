@@ -1,6 +1,6 @@
 # MakeRemoteControlInterceptionFun-
 
-Adds a node that create a 'RemoteControlInterceptionFunctionParamStruct' from its members
+添加一个节点，从其成员中创建一个'RemoteControlInterceptionFunctionParamStruct'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RemoteControlInterceptionFunctionParamStruct' from it
 
 ## Outputs
 
-Remote Control Interception Function Param Struct: Remote Control Interception Function Param Struct Structure.
-
+遥控拦截功能Param结构。遥控拦截功能Param Struct结构。

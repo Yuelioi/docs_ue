@@ -1,6 +1,6 @@
 # MakeComboButtonStyle
 
-Adds a node that create a 'ComboButtonStyle' from its members
+添加一个节点，从其成员中创建一个 "ComboButtonStyle"。
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that create a 'ComboButtonStyle' from its members
 
 ## Inputs
 
-Button Style: Button Style Structure. Button Style:. The style to use for our SButton..
+纽扣风格。钮扣式结构。按钮风格：。我们的SB按钮要使用的样式。
 
-Down Arrow Image: Slate Brush Structure. Down Arrow Image:. Image to use for the down arrow..
+向下箭头图像。石板刷结构。向下箭头图像：。用作向下箭头的图像。
 
-Shadow Offset: Vector 2D Structure. Shadow Offset:. How much should the shadow be offset for the down arrow?. An offset of 0 implies no shadow..
+阴影偏移。矢量2D结构。阴影偏移：。下箭头的阴影应该偏移多少？偏移量为0意味着没有阴影。
 
-Shadow Color And Opacity: Linear Color Structure. Shadow Color and Opacity:. The color and opacity of the shadow for the down arrow.. Only active if ShadowOffset is not (0,0)..
+阴影的颜色和不透明度。线性色彩结构。阴影的颜色和不透明度:.下箭头阴影的颜色和不透明度。只有在ShadowOffset不是(0,0)时才有效。
 
-Menu Border Brush: Slate Brush Structure. Menu Border Brush:. Brush to use to add a "menu border" around the drop-down content..
+菜单边框画笔。石板刷结构。菜单边框画笔：.用来在下拉内容周围添加 "菜单边框 "的画笔...
 
-Menu Border Padding: Margin Structure. Menu Border Padding:. Padding to use to add a "menu border" around the drop-down content..
+菜单边框填充。保证金结构。菜单边框填充：。用来在下拉内容周围添加 "菜单边框 "的填充物。
 
-Content Padding: Margin Structure. Content Padding:: Button Content Padding.
+内容填充。保证金结构。内容填充：。按钮的内容填充。
 
-Down Arrow Padding: Margin Structure. Down Arrow Padding:: Dropdown arrow padding (if a dropdown arrow exists).
+下箭头填充。边缘结构。向下箭头填充：。下拉箭头填充（如果存在下拉箭头）。
 
-Down Arrow Align: EVerticalAlignment Enum. Down Arrow Align:: Dropdown arrow vertical alignment.  
+Down Arrow Align: EVerticalAlignment Enum.下箭头对齐：。下拉箭头的垂直对齐。  
 
 ## Outputs
 
-Combo Button Style: Combo Button Style Structure.
-
+组合按钮风格。组合按钮风格结构。

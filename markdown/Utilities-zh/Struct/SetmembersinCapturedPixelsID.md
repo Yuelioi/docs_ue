@@ -1,6 +1,6 @@
 # SetmembersinCapturedPixelsID
 
-Adds a node that modifies a 'CapturedPixelsID'
+添加一个节点，修改 "CapturedPixelsID"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CapturedPixelsID'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Captured Pixels ID Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Captured Pixels ID Structure (by ref). Reference to the input struct.
-
+结构输出。捕获的像素ID结构（通过ref）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # SetmembersinSmartObjectRequest
 
-Adds a node that modifies a 'SmartObjectRequest'
+添加一个修改 "SmartObjectRequest "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SmartObjectRequest'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Smart Object Request Structure (by ref).  
+结构参考：智能对象请求结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Smart Object Request Structure (by ref). Reference to the input struct.
-
+结构出来。智能对象请求结构（通过引用）。对输入结构的引用。

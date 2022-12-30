@@ -1,6 +1,6 @@
 # MakeCompositionGraphCapturePasse-
 
-Adds a node that create a 'CompositionGraphCapturePasses' from its members
+添加一个节点，从其成员中创建一个 "CompositionGraphCapturePasses"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'CompositionGraphCapturePasses' from its members
 
 ## Inputs
 
-Value: Array of Strings. Value:. List of passes to record by name..  
+值。字符串的数组。值:.按名称记录的通行证列表。
 
 ## Outputs
 
-Composition Graph Capture Passes: Composition Graph Capture Passes Structure.
-
+组成图捕获通行证。组成图捕捉通道的结构。

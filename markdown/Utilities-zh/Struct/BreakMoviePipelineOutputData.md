@@ -1,6 +1,6 @@
 # BreakMoviePipelineOutputData
 
-Adds a node that breaks a 'MoviePipelineOutputData' into its member fields
+添加一个节点，将'MoviePipelineOutputData'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'MoviePipelineOutputData' into its member fields
 
 ## Inputs
 
-Movie Pipeline Output Data: Movie Pipeline Output Data Structure (by ref).  
+电影管道输出数据。电影管道输出数据结构（通过参考）。  
 
 ## Outputs
 
-Pipeline: Movie Pipeline Object Reference. Pipeline:. The UMoviePipeline instance that generated this data. This is only provided as an id (in the event you were the one who created. the UMoviePipeline instance. DO NOT CALL FUNCTIONS ON THIS (unless you know what you're doing): Provided here for backwards compatibility..
+管线。电影管道对象参考。Pipeline:。产生此数据的UMoviePipeline实例。这只是作为一个ID（如果你是创建者的话），UMoviePipeline实例。不要在此调用函数（除非你知道你在做什么）。这里提供的是向后兼容。
 
-Job: Movie Pipeline Executor Job Object Reference. Job:. Job the data is for. Job may still be in progress (if a shot callback) so be careful about modifying properties on it.
+工作。电影管道执行者工作对象参考。工作：。数据的工作。工作可能仍在进行中（如果是拍摄回调），所以要小心修改它的属性。
 
-Success: Boolean. Success:. Did the job succeed, or was it canceled early due to an error (such as failure to write file to disk)?.
+成功。布尔值。成功：。作业是否成功，或因错误（如未能将文件写入磁盘）而提前取消？
 
-Shot Data: Array of Movie Pipeline Shot Output Data Structures. Shot Data:. The file data for each shot that was rendered. If no files were written this will be empty. If this is from the per-shot work. finished callback it will only have one entry (for the just finished shot). Will not include shots that did not get rendered. due to the pipeline encountering an error..
-
+镜头数据。电影管道镜头输出数据结构的阵列。镜头数据：。被渲染的每个镜头的文件数据。如果没有文件被写入，这将是空的。如果这是来自于每个镜头的工作，完成的回调将只有一个条目（对于刚刚完成的镜头）。将不包括没有被渲染的镜头，因为管道遇到了错误。

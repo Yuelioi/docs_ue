@@ -1,6 +1,6 @@
 # SetmembersinToolMenuEntryScriptD-_1
 
-Adds a node that modifies a 'ToolMenuEntryScriptDataAdvanced'
+添加一个节点，修改 "ToolMenuEntryScriptDataAdvanced"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ToolMenuEntryScriptDataAdvanced'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Tool Menu Entry Script Data Advanced Structure (by ref).  
+结构参考：工具菜单输入脚本数据高级结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Tool Menu Entry Script Data Advanced Structure (by ref). Reference to the input struct.
-
+结构出来。工具菜单输入脚本数据高级结构（通过参考）。对输入结构的引用。

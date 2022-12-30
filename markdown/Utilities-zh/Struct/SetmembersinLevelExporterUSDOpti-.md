@@ -1,6 +1,6 @@
 # SetmembersinLevelExporterUSDOpti-
 
-Adds a node that modifies a 'LevelExporterUSDOptionsInner'
+添加一个修改'LevelExporterUSDOptionsInner'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'LevelExporterUSDOptionsInner'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Level Exporter USDOptions Inner Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Level Exporter USDOptions Inner Structure (by ref). Reference to the input struct.
-
+结构出来。Level Exporter USDOptions 内部结构（通过 ref）。对输入结构的引用。

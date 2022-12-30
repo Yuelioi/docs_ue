@@ -1,6 +1,6 @@
 # SetmembersinLiveLinkBasicBluepri-
 
-Adds a node that modifies a 'LiveLinkBasicBlueprintData'
+添加一个修改 "LiveLinkBasicBlueprintData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'LiveLinkBasicBlueprintData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Live Link Basic Blueprint Data Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Live Link Basic Blueprint Data Structure (by ref). Reference to the input struct.
-
+结构出来。Live Link 基本蓝图数据结构（通过引用）。对输入结构的引用。

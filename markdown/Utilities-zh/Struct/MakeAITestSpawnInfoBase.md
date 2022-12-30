@@ -1,6 +1,6 @@
 # MakeAITestSpawnInfoBase
 
-Adds a node that create a 'AITestSpawnInfoBase' from its members
+添加一个节点，从其成员中创建一个 "AITestSpawnInfoBase"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'AITestSpawnInfoBase' from its members
 
 ## Inputs
 
-Spawn Location: Actor Object Reference. Spawn Location:. Where should AI be spawned.
+产卵地点。Actor Object Reference.产卵位置：。AI应该在哪里产卵。
 
-Number To Spawn: Integer. Number to Spawn.
+Number To Spawn: 整数。产出的数量。
 
-Spawn Delay: Float (single-precision). Spawn Delay:. delay between consecutive spawn attempts.
+产卵延迟。浮点数（单精度）。Spawn Delay：.连续产卵尝试之间的延迟。
 
-Pre Spawn Delay: Float (single-precision). Pre Spawn Delay:. delay before attempting first spawn.  
+生成前的延迟。浮点数（单精度）。Pre Spawn Delay: 尝试第一次产卵前的延迟。  
 
 ## Outputs
 
-AITest Spawn Info Base: AITest Spawn Info Base Structure.
-
+AITest产卵信息库。AITest Spawn Info Base结构。

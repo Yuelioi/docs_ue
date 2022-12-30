@@ -1,6 +1,6 @@
 # BreakRigControlLimitEnabled
 
-Adds a node that breaks a 'RigControlLimitEnabled' into its member fields
+在其成员字段中添加一个打破'RigControlLimitEnabled'的节点
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'RigControlLimitEnabled' into its member fields
 
 ## Inputs
 
-Rig Control Limit Enabled: Rig Control Limit Enabled Structure (by ref).  
+钻机控制限制已启用。钻机控制限制已启用的结构（按参考）。  
 
 ## Outputs
 
-Minimum: Boolean. Minimum.
+最小值。布尔型。最小值。
 
-Maximum: Boolean. Maximum.
-
+最大。布尔型。最大。

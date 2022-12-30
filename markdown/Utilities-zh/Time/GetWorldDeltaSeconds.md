@@ -1,8 +1,8 @@
 # GetWorldDeltaSeconds
 
-Returns the frame delta time in seconds, adjusted by time dilation.
+返回以秒为单位的框架delta时间，通过时间扩张调整。
 
-Target is Gameplay Statics
+目标是游戏性的统计学
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Gameplay Statics
 
 ## Outputs
 
-Return Value: Float (single-precision). Returns the frame delta time in seconds, adjusted by time dilation..
-
+返回值。Float（单精度）。返回以秒为单位的框架delta时间，通过时间扩张调整。

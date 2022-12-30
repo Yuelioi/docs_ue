@@ -1,6 +1,6 @@
 # MakeSourceEffectFilterSettings
 
-Adds a node that create a 'SourceEffectFilterSettings' from its members
+添加一个节点，从其成员中创建一个 "SourceEffectFilterSettings"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'SourceEffectFilterSettings' from its members
 
 ## Inputs
 
-Filter Circuit: ESourceEffectFilterCircuit Enum. Filter Circuit:. The type of filter circuit to use..
+滤波器电路。ESourceEffectFilterCircuit Enum.滤波电路：。要使用的滤波电路类型。
 
-Filter Type: ESourceEffectFilterType Enum. Filter Type:. The type of filter to use..
+过滤器类型。ESourceEffectFilterType枚举。过滤器类型：。要使用的过滤器的类型。
 
-Cutoff Frequency: Float (single-precision). Cutoff Frequency:. The filter cutoff frequency.
+截断频率。浮点数（单精度）。切断频率：。滤波器的截止频率。
 
-Filter Q: Float (single-precision). Filter Q:. The filter resonance..
+滤波器Q：浮点数（单精度）。滤波器Q：。滤波器的谐振。
 
-Audio Bus Modulation: Array of Source Effect Filter Audio Bus Modulation Settings Structures. Audio Bus Modulation:. Audio bus settings to use to modulate the filter frequency cutoff (auto-wah) with arbitrary audio from an audio bus.  
+音频总线调制。阵列的源效果过滤器音频总线调制设置结构。音频总线调制：。用于用音频总线的任意音频调制滤波器频率截止点（自动华）的音频总线设置。  
 
 ## Outputs
 
-Source Effect Filter Settings: Source Effect Filter Settings Structure.
-
+源效果滤镜设置。源效果滤镜设置结构。

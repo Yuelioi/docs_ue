@@ -1,8 +1,8 @@
 # ClearandInvalidateTimerbyHandle
 
-Clears a set timer.
+清除一个设定的定时器。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Handle: Timer Handle Structure (by ref). The handle of the timer to clear..  
+手柄。计时器手柄结构（通过参考）。定时器的句柄，以清除...
 
 ## Outputs
 
-Out: Exec.
-
+出：执行。

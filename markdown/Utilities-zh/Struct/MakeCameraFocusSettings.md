@@ -1,6 +1,6 @@
 # MakeCameraFocusSettings
 
-Adds a node that create a 'CameraFocusSettings' from its members
+添加一个节点，从其成员中创建一个 "CameraFocusSettings"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'CameraFocusSettings' from its members
 
 ## Inputs
 
-Focus Method: ECameraFocusMethod Enum. Focus Method:. Which method to use to handle camera focus.
+对焦方法。ECameraFocusMethod Enum.对焦方法：。使用哪种方法来处理相机聚焦。
 
-Manual Focus Distance: Float (single-precision). Manual Focus Distance:. Manually-controlled focus distance (manual focus mode only).
+手动对焦距离。浮动（单精度）。手动对焦距离：。手动控制的对焦距离（仅限手动对焦模式）。
 
-Tracking Focus Settings: Camera Tracking Focus Settings Structure. Tracking Focus Settings:. Settings to control tracking focus (tracking focus mode only).
+追踪对焦设置。相机跟踪对焦设置结构。追踪对焦设置：。控制跟踪对焦的设置（仅限跟踪对焦模式）。
 
-Smooth Focus Changes: Boolean. Smooth Focus Changes:. True to use interpolation to smooth out changes in focus distance, false for focus distance changes to be instantaneous..
+平滑的焦点变化。布尔型。平滑焦点变化：。真，使用插值来平滑焦点距离的变化；假，焦点距离的变化是瞬间的。
 
-Focus Smoothing Interp Speed: Float (single-precision). Focus Smoothing Interp Speed:. Controls interpolation speed when smoothing focus distance changes. Ignored if bSmoothFocusChanges is false..
+焦点平滑Interp速度。浮点（单精度）。Focus Smoothing Interp Speed:.控制平滑焦点距离变化时的插值速度。如果bSmoothFocusChanges为false，则忽略。
 
-Focus Offset: Float (single-precision). Focus Offset:. Additional focus depth offset, used for manually tweaking if your chosen focus method needs adjustment.  
+焦点偏移。Float（单精度）。焦点偏移：。额外的聚焦深度偏移，如果你选择的聚焦方法需要调整，用于手动调整。  
 
 ## Outputs
 
-Camera Focus Settings: Camera Focus Settings Structure.
-
+相机对焦设置。相机聚焦设置结构。

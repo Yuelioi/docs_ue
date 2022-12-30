@@ -1,6 +1,6 @@
 # SetmembersinColorGradePerRangeSe-
 
-Adds a node that modifies a 'ColorGradePerRangeSettings'
+添加一个修改 "ColorGradePerRangeSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ColorGradePerRangeSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Color Grade Per Range Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Color Grade Per Range Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Color Grade Per Range Settings Structure（通过参考）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeGameplayModifierEvaluatedDat-
 
-Adds a node that create a 'GameplayModifierEvaluatedData' from its members
+添加一个节点，从其成员中创建一个 "GameplayModifierEvaluatedData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayModifierEvaluatedData' from its members
 
 ## Outputs
 
-Gameplay Modifier Evaluated Data: Gameplay Modifier Evaluated Data Structure.
-
+游戏性修改器的评估数据。Gameplay Modifier评估数据结构。

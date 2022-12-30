@@ -1,6 +1,6 @@
 # SetmembersinControlRigSequencerB-
 
-Adds a node that modifies a 'ControlRigSequencerBindingProxy'
+添加一个修改 "ControlRigSequencerBindingProxy "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ControlRigSequencerBindingProxy'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Control Rig Sequencer Binding Proxy Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Control Rig Sequencer Binding Proxy Structure (by ref). Reference to the input struct.
-
+结构出来。Control Rig Sequencer Binding Proxy Structure（通过引用）。对输入结构的引用。

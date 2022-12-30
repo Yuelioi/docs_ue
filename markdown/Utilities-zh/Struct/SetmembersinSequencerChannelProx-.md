@@ -1,6 +1,6 @@
 # SetmembersinSequencerChannelProx-
 
-Adds a node that modifies a 'SequencerChannelProxy'
+添加一个修改 "SequencerChannelProxy "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SequencerChannelProxy'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Sequencer Channel Proxy Structure (by ref).  
+Struct Ref: Sequencer Channel Proxy Structure（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sequencer Channel Proxy Structure (by ref). Reference to the input struct.
-
+结构输出。Sequencer Channel Proxy Structure（通过ref）。对输入结构的引用。

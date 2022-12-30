@@ -1,6 +1,6 @@
 # MakeGameplayCueNotify_CameraLens-
 
-Adds a node that create a 'GameplayCueNotify_CameraLensEffectInfo' from its members
+添加一个节点，从其成员中创建一个 "GameplayCueNotify_CameraLensEffectInfo"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayCueNotify_CameraLensEffectInfo' from its memb
 
 ## Outputs
 
-Gameplay Cue Notify Camera Lens Effect Info: Gameplay Cue Notify Camera Lens Effect Info Structure.
-
+Gameplay Cue Notify Camera Lens Effect Info:Gameplay Cue Notify Camera Lens Effect Info结构。

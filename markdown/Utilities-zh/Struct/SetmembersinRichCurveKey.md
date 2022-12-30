@@ -1,6 +1,6 @@
 # SetmembersinRichCurveKey
 
-Adds a node that modifies a 'RichCurveKey'
+添加一个修改 "RichCurveKey "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RichCurveKey'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Rich Curve Key Structure (by ref).  
+结构参考：丰富的曲线关键结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Rich Curve Key Structure (by ref). Reference to the input struct.
-
+结构出来。富有曲线的关键结构（通过引用）。对输入结构的引用。

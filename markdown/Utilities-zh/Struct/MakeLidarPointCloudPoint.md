@@ -1,6 +1,6 @@
 # MakeLidarPointCloudPoint
 
-Adds a node that create a 'LidarPointCloudPoint' from its members
+添加一个节点，从其成员中创建一个 "LidarPointCloudPoint"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'LidarPointCloudPoint' from its members
 
 ## Inputs
 
-Location: Vector 3f. Location.
+位置。矢量3f。位置。
 
-Color: Color Structure. Color.
+颜色：颜色结构。颜色。
 
-Normal: Lidar Point Cloud Normal Structure. Normal.
+正常。激光雷达点云正常结构。正常。
 
-Visible: Boolean. Visible.  
+可见。布尔型。可见性。  
 
 ## Outputs
 
-Lidar Point Cloud Point: Lidar Point Cloud Point Structure.
-
+Lidar Point Cloud Point:Lidar Point Cloud Point Structure.

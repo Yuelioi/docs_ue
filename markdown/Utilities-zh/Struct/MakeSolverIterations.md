@@ -1,6 +1,6 @@
 # MakeSolverIterations
 
-Adds a node that create a 'SolverIterations' from its members
+添加一个节点，从其成员中创建一个 "SolverIterations"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'SolverIterations' from its members
 
 ## Inputs
 
-Solver Iterations: Integer. Solver Iterations:. The recommended number of solver iterations. Increase this if collision and joints are fighting, or joint chains are stretching..
+解算器迭代。整数。解算器迭代次数：。推荐的求解器迭代次数。如果碰撞和关节在打架，或者关节链在拉伸，请增加这个次数。
 
-Joint Iterations: Integer. Joint Iterations:. The recommended number of joint sub-iterations. Increasing this can help with chains of long-thin bodies..
+联合迭代。整数。联合迭代：。推荐的联合子迭代次数。增加这个数字可以帮助处理细长体的链。
 
-Collision Iterations: Integer. Collision Iterations:. The recommended number of collision sub-iterations. Increasing this can help with collision jitter..
+碰撞迭代。整数。碰撞迭代：。推荐的碰撞子迭代次数。增加这个数字可以帮助解决碰撞抖动问题。
 
-Solver Push Out Iterations: Integer. Solver Push Out Iterations:. Increase this if bodies remain penetrating.
+求解器推出迭代。整数。解算器推出迭代次数：。如果尸体仍然是穿透性的，则增加这个数值。
 
-Joint Push Out Iterations: Integer. Joint Push Out Iterations:. The recommended number of joint sub-push-out iterations..
+联合推演迭代。整数。联合推出迭代：。推荐的联合分推送迭代次数。
 
-Collision Push Out Iterations: Integer. Collision Push Out Iterations:. The recommended number of joint sub-push-out iterations. Increasing this can help with collision penetration problems..  
+碰撞推出的迭代。整数。碰撞推出迭代：。推荐的联合次推送迭代次数。增加这个数字可以帮助解决碰撞穿透问题。  
 
 ## Outputs
-

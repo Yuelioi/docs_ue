@@ -1,6 +1,6 @@
 # SetmembersinPositionHistory
 
-Adds a node that modifies a 'PositionHistory'
+添加一个修改 "PositionHistory "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'PositionHistory'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Position History Structure (by ref).  
+结构参考：职位历史结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Position History Structure (by ref). Reference to the input struct.
-
+结构出来。位置历史结构（通过引用）。对输入结构的引用。

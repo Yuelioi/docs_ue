@@ -1,6 +1,6 @@
 # BreakLiveLinkBaseStaticData
 
-Adds a node that breaks a 'LiveLinkBaseStaticData' into its member fields
+添加一个节点，将'LiveLinkBaseStaticData'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'LiveLinkBaseStaticData' into its member fields
 
 ## Inputs
 
-Live Link Base Static Data: Live Link Base Static Data Structure (by ref).  
+实时链接基础静态数据。Live Link Base静态数据结构（按参考）。  
 
 ## Outputs
 
-Property Names: Array of Names. Property Names:. Names for each curve values that will be sent for each frame.
-
+属性名称。名称的阵列。属性名称：。将为每一帧发送的每个曲线值的名称。

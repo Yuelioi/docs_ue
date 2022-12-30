@@ -1,6 +1,6 @@
 # MakeGameplayCueNotify_BurstEffec-
 
-Adds a node that create a 'GameplayCueNotify_BurstEffects' from its members
+添加一个节点，从其成员中创建一个 "GameplayCueNotify_BurstEffects"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayCueNotify_BurstEffects' from its members
 
 ## Outputs
 
-Gameplay Cue Notify Burst Effects: Gameplay Cue Notify Burst Effects Structure.
-
+Gameplay Cue Notify Burst Effects:Gameplay Cue Notify Burst Effects结构。

@@ -1,6 +1,6 @@
 # SetmembersinGame-
 
-Adds a node that modifies a 'GameplayAbilityTargetData_SingleTargetHit'
+添加一个节点，修改 "GameplayAbilityTargetData_SingleTargetHit"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GameplayAbilityTargetData_SingleTargetHit'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Gameplay Ability Target Data Single Target Hit Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Gameplay Ability Target Data Single Target Hit Structure (by ref). Reference to the input struct.
-
+结构了。Gameplay Ability Target Data 单一目标命中结构（通过引用）。对输入结构的引用。

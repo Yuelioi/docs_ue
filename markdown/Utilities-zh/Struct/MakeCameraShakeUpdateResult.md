@@ -1,6 +1,6 @@
 # MakeCameraShakeUpdateResult
 
-Adds a node that create a 'CameraShakeUpdateResult' from its members
+添加一个节点，从其成员中创建一个 "CameraShakeUpdateResult"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CameraShakeUpdateResult' from its members
 
 ## Outputs
 
-Camera Shake Update Result: Camera Shake Update Result Structure.
-
+相机抖动更新结果。相机抖动更新结果结构。

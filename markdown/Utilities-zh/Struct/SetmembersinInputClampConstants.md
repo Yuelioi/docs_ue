@@ -1,6 +1,6 @@
 # SetmembersinInputClampConstants
 
-Adds a node that modifies a 'InputClampConstants'
+添加一个修改 "InputClampConstants "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InputClampConstants'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Input Clamp Constants Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Input Clamp Constants Structure (by ref). Reference to the input struct.
-
+Struct Out: Input Clamp Constants Structure (by ref).对输入结构的引用。

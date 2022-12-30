@@ -1,6 +1,6 @@
 # MakeMetaSoundAssetDirectory
 
-Adds a node that create a 'MetaSoundAssetDirectory' from its members
+添加一个节点，从其成员中创建一个 "MetaSoundAssetDirectory"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'MetaSoundAssetDirectory' from its members
 
 ## Inputs
 
-Directory: Directory Path Structure. Directory.  
+目录。目录路径结构。目录。  
 
 ## Outputs
 
-Meta Sound Asset Directory: Meta Sound Asset Directory Structure.
-
+元声音资产目录。元声音资产目录结构。

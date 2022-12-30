@@ -1,6 +1,6 @@
 # SetmembersinLidarPointCloudTrace-
 
-Adds a node that modifies a 'LidarPointCloudTraceHit'
+添加一个节点，修改 "LidarPointCloudTraceHit"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'LidarPointCloudTraceHit'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Lidar Point Cloud Trace Hit Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Lidar Point Cloud Trace Hit Structure (by ref). Reference to the input struct.
-
+结构出来。Lidar Point Cloud Trace Hit Structure（通过ref）。对输入结构的引用。

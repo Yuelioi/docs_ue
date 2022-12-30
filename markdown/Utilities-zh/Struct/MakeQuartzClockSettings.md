@@ -1,6 +1,6 @@
 # MakeQuartzClockSettings
 
-Adds a node that create a 'QuartzClockSettings' from its members
+添加一个节点，从其成员中创建一个 "QuartzClockSettings"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'QuartzClockSettings' from its members
 
 ## Inputs
 
-Time Signature: Quartz Time Signature Structure. Time Signature:. Time Signature (defaults to 4/4).
+时间特征。石英时间特征结构。时间特征：。时间特征（默认为4/4）。
 
-Ignore Level Change: Boolean. Ignore Level Change:. should the clock start Ticking.  
+忽略水平变化。布尔值。忽略电平变化：.应该是时钟开始滴答。  
 
 ## Outputs
 
-Quartz Clock Settings: Quartz Clock Settings Structure.
-
+石英钟设置。石英钟设置结构。

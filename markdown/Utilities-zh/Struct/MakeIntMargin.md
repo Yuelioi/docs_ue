@@ -1,6 +1,6 @@
 # MakeIntMargin
 
-Adds a node that create a 'IntMargin' from its members
+添加一个节点，从其成员中创建一个 "IntMargin"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'IntMargin' from its members
 
 ## Inputs
 
-Left: Integer. Left:. Holds the margin to the left..
+左：整数。Left:.保存在左边的空白。
 
-Top: Integer. Top:. Holds the margin to the top..
+顶部：整数。顶部:.保存到顶部的边距。
 
-Right: Integer. Right:. Holds the margin to the right..
+右：整数。右边:。保存在右边的空白。
 
-Bottom: Integer. Bottom:. Holds the margin to the bottom..  
+底部。整数。底部：。保留到底部的空白。
 
 ## Outputs
 
-Int Margin: Int Margin Structure.
-
+国际保证金。Int Margin结构。

@@ -1,6 +1,6 @@
 # MakeFilterOptionPerAxis
 
-Adds a node that create a 'FilterOptionPerAxis' from its members
+添加一个节点，从其成员中创建一个 "FilterOptionPerAxis"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'FilterOptionPerAxis' from its members
 
 ## Inputs
 
-X: Boolean. X.
+X：布尔值。X.
 
-Y: Boolean. Y.
+Y：布尔值。Y.
 
-Z: Boolean. Z.  
+Z：布尔值。Z.
 
 ## Outputs
 
-Filter Option Per Axis: Filter Option Per Axis Structure.
-
+每轴过滤选项：每轴过滤选项结构。

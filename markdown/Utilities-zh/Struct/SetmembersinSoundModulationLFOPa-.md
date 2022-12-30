@@ -1,6 +1,6 @@
 # SetmembersinSoundModulationLFOPa-
 
-Adds a node that modifies a 'SoundModulationLFOParams'
+添加一个修改'SoundModulationLFOParams'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SoundModulationLFOParams'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Sound Modulation LFOParams Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sound Modulation LFOParams Structure (by ref). Reference to the input struct.
-
+结构出来。Sound Modulation LFOParams结构（通过ref）。对输入结构的引用。

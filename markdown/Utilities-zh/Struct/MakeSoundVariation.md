@@ -1,6 +1,6 @@
 # MakeSoundVariation
 
-Adds a node that create a 'SoundVariation' from its members
+添加一个节点，从其成员中创建一个 "SoundVariation"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'SoundVariation' from its members
 
 ## Inputs
 
-Sound Wave: Sound Wave Object Reference. Sound Wave:. The sound wave asset to use for this variation.
+声波。声波对象参考。声波：。这个变体要使用的声波资产。
 
-Probability Weight: Float (single-precision). Probability Weight:. The probability weight to use for this variation.
+概率权重。Float（单精度）。概率权重：。用于该变体的概率权重。
 
-Volume Range: Vector 2D Structure. Volume Range:. The volume range to use for this variation.
+体积范围。矢量2D结构。体积范围：。这个变化要使用的体积范围。
 
-Pitch Range: Vector 2D Structure. Pitch Range:. The pitch range to use for this variation.  
+俯仰范围。矢量2D结构。俯仰范围：。这个变化要使用的音高范围。  
 
 ## Outputs
 
-Sound Variation: Sound Variation Structure.
-
+声音变异。声音变化的结构。

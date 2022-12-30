@@ -1,6 +1,6 @@
 # BreakSlateChildSize
 
-Adds a node that breaks a 'SlateChildSize' into its member fields
+添加一个节点，将'SlateChildSize'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'SlateChildSize' into its member fields
 
 ## Inputs
 
-Slate Child Size: Slate Child Size Structure (by ref).  
+石板的儿童尺寸。石板的儿童尺寸结构（按参考）。  
 
 ## Outputs
 
-Value: Float (single-precision). Value:. The parameter of the size rule..
+值。Float (single-precision).值：。大小规则的参数...
 
-Size Rule: ESlateSizeRule Enum. Size Rule:. The sizing rule of the content..
-
+尺寸规则。ESlateSizeRule Enum.尺寸规则：。内容的尺寸规则。

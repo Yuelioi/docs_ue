@@ -1,6 +1,6 @@
 # BreakReparentSubobjectParams
 
-Adds a node that breaks a 'ReparentSubobjectParams' into its member fields
+添加一个节点，将'ReparentSubobjectParams'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ReparentSubobjectParams' into its member fields
 
 ## Inputs
 
-Reparent Subobject Params: Reparent Subobject Params Structure (by ref).  
+上级子对象参数。上级子对象参数结构（通过引用）。  
 
 ## Outputs
 
-New Parent Handle: Subobject Data Handle Structure. New Parent Handle:. The handle of the subobject to reparent to..
+新的父处理程序。子对象数据处理结构。新父对象句柄：。子对象的句柄，以重新parent到。
 
-Blueprint Context: Blueprint Object Reference. Blueprint Context:. Pointer to the blueprint context that this subobject is in. If this is null, it is assumed that. this subobject is being added to an instance..
+蓝图语境。蓝图对象参考。Blueprint Context:.指向该子对象所在的蓝图上下文的指针。如果该指针为空，则假定该子对象被添加到一个实例中。
 
-Actor Preview Context: Actor Object Reference. Actor Preview Context:. The preview actor context to be used if in a blueprint context.. This must have a value if BlueprintContext is needed..
-
+行为者预览语境。演员对象参考。Actor Preview Context:.如果在蓝图上下文中，要使用的预览演员上下文。如果需要BlueprintContext的话，这个必须有一个值。

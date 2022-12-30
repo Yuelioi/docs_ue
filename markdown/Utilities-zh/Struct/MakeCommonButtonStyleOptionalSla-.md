@@ -1,6 +1,6 @@
 # MakeCommonButtonStyleOptionalSla-
 
-Adds a node that create a 'CommonButtonStyleOptionalSlateSound' from its members
+添加一个节点，从其成员中创建一个'CommonButtonStyleOptionalSlateSound'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'CommonButtonStyleOptionalSlateSound' from its members
 
 ## Inputs
 
-Has Sound: Boolean. Has Sound.
+有声音。布尔型。拥有声音。
 
-Sound: Slate Sound Structure. Sound.  
+声音。石板的声音结构。声音。  
 
 ## Outputs
 
-Common Button Style Optional Slate Sound: Common Button Style Optional Slate Sound Structure.
-
+常见的按钮式可选的石板声。常见的按钮风格可选板岩的声音结构。

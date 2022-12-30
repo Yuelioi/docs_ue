@@ -1,6 +1,6 @@
 # SetmembersinARObjectUpdatePayloa-
 
-Adds a node that modifies a 'ARObjectUpdatePayload'
+添加一个节点，修改'ARObjectUpdatePayload'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ARObjectUpdatePayload'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: ARObject Update Payload Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: ARObject Update Payload Structure (by ref). Reference to the input struct.
-
+结构出来。ARObject Update Payload Structure（通过ref）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # SetmembersinAudioSliderStyle
 
-Adds a node that modifies a 'AudioSliderStyle'
+添加一个节点，修改 "AudioSliderStyle"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AudioSliderStyle'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Audio Slider Style Structure (by ref).  
+Struct Ref: 音频滑块风格结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Audio Slider Style Structure (by ref). Reference to the input struct.
-
+结构出来。音频滑块样式结构（通过引用）。对输入结构的引用。

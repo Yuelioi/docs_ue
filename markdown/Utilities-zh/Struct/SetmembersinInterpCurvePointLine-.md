@@ -1,6 +1,6 @@
 # SetmembersinInterpCurvePointLine-
 
-Adds a node that modifies a 'InterpCurvePointLinearColor'
+添加一个节点，修改 "InterpCurvePointLinearColor"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InterpCurvePointLinearColor'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Interp Curve Point Linear Color Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Interp Curve Point Linear Color Structure (by ref). Reference to the input struct.
-
+Struct Out: Interp Curve Point Linear Color Structure (by ref).对输入结构的引用。

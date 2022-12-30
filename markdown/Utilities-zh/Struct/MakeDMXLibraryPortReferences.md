@@ -1,6 +1,6 @@
 # MakeDMXLibraryPortReferences
 
-Adds a node that create a 'DMXLibraryPortReferences' from its members
+添加一个节点，从其成员中创建一个'DMXLibraryPortReferences'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXLibraryPortReferences' from its members
 
 ## Outputs
 
-DMXLibrary Port References: DMXLibrary Port References Structure.
-
+DMXLibrary端口参考。DMXLibrary端口参考结构。

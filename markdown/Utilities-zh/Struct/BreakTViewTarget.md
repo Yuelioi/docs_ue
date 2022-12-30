@@ -1,6 +1,6 @@
 # BreakTViewTarget
 
-Adds a node that breaks a 'TViewTarget' into its member fields
+添加一个节点，将'TViewTarget'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'TViewTarget' into its member fields
 
 ## Inputs
 
-TView Target: TView Target Structure (by ref).  
+TView目标。TView目标结构（通过参考）。  
 
 ## Outputs
 
-Target: Actor Object Reference. Target:. Target Actor used to compute POV.
+目标。演员对象参考。目标：。用来计算POV的目标演员。
 
-POV: Minimal View Info Structure. POV:. Computed point of view.
+POV。最小的视图信息结构。POV:。计算的观点。
 
-Player State: Player State Object Reference. Player State:. PlayerState (used to follow same player through pawn transitions, etc., when spectating).
-
+球员状态。玩家状态对象参考。玩家状态：。棋手状态（用于在观战时跟随同一棋手进行兵种转换等）。

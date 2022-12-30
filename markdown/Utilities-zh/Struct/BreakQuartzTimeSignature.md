@@ -1,6 +1,6 @@
 # BreakQuartzTimeSignature
 
-Adds a node that breaks a 'QuartzTimeSignature' into its member fields
+添加一个节点，将 "QuartzTimeSignature "分解到其成员字段中。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'QuartzTimeSignature' into its member fields
 
 ## Inputs
 
-Quartz Time Signature: Quartz Time Signature Structure (by ref).  
+石英时间特征。石英时间特征结构（按参考）。  
 
 ## Outputs
 
-Num Beats: Integer. Num Beats:. numerator.
+Num Beats:整数。Num Beats:.分子。
 
-Beat Type: EQuartzTimeSignatureQuantization Enum. Beat Type:. denominator.
+节拍类型。EQuartzTimeSignatureQuantization枚举。节拍类型：。分母。
 
-Optional Pulse Override: Array of Quartz Pulse Override Step Structures. Optional Pulse Override:. beat override.
-
+可选的脉冲覆盖。数组的石英脉冲覆盖步骤结构。可选的脉冲覆盖：。节拍覆盖。

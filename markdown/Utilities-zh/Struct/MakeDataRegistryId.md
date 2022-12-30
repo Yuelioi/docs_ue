@@ -1,6 +1,6 @@
 # MakeDataRegistryId
 
-Adds a node that create a 'DataRegistryId' from its members
+添加一个节点，从其成员中创建一个 "DataRegistryId"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'DataRegistryId' from its members
 
 ## Inputs
 
-Registry Type: Data Registry Type Structure. Registry Type:. The type of this item, used to look up the correct registry.
+注册表类型。数据登记类型结构。注册表类型：。这个项目的类型，用于查找正确的注册表。
 
-Item Name: Name. Item Name:. The name of this object, may be a leaf gameplay tag or a raw name depending on the type.  
+项目名称。名称。项目名称：。这个对象的名称，可以是叶子游戏的标签，也可以是原始名称，取决于类型。  
 
 ## Outputs
 
-Data Registry Id: Data Registry Id Structure.
-
+数据注册处标识。数据注册处Id结构。

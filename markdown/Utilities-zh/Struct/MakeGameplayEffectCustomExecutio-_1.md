@@ -1,6 +1,6 @@
 # MakeGameplayEffectCustomExecutio-_1
 
-Adds a node that create a 'GameplayEffectCustomExecutionParameters' from its members
+添加一个节点，从其成员中创建一个 "GameplayEffectCustomExecutionParameters"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayEffectCustomExecutionParameters' from its mem
 
 ## Outputs
 
-Gameplay Effect Custom Execution Parameters: Gameplay Effect Custom Execution Parameters Structure.
-
+Gameplay Effect自定义执行参数。游戏效果自定义执行参数结构。

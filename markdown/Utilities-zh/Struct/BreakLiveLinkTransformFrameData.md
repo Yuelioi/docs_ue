@@ -1,6 +1,6 @@
 # BreakLiveLinkTransformFrameData
 
-Adds a node that breaks a 'LiveLinkTransformFrameData' into its member fields
+添加一个节点，将'LiveLinkTransformFrameData'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'LiveLinkTransformFrameData' into its member fields
 
 ## Inputs
 
-Live Link Transform Frame Data: Live Link Transform Frame Data Structure (by ref).  
+Live Link Transform Frame Data:实时链接转换帧数据结构（由参考）。  
 
 ## Outputs
 
-Transform: Transform. Transform:. Transform of the frame.
+转变。转变。变换:。框架的变换。
 
-Meta Data: Live Link Meta Data Structure. Meta Data:. Frame's metadata..
+元数据。现场链接元数据结构。元数据：。框架的元数据.
 
-Property Values: Array of Float (single-precision)s. Property Values:. Values of the properties defined in the static structure. Use FLiveLinkBaseStaticData.FindPropertyValue to evaluate..
-
+属性值。Float (single-precision)s阵列。属性值：。在静态结构中定义的属性值。使用FLiveLinkBaseStaticData.FindPropertyValue来评估。

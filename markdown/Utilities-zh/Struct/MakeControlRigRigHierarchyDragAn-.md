@@ -1,6 +1,6 @@
 # MakeControlRigRigHierarchyDragAn-
 
-Adds a node that create a 'ControlRigRigHierarchyDragAndDropContext' from its members
+添加一个节点，从其成员中创建一个 "ControlRigRigHierarchyDragAndDropContext"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ControlRigRigHierarchyDragAndDropContext' from its me
 
 ## Outputs
 
-Control Rig Rig Hierarchy Drag and Drop Context: Control Rig Rig Hierarchy Drag And Drop Context Structure.
-
+控制钻机钻机层次结构拖放上下文。控制钻机层次结构 拖放上下文结构。

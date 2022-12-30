@@ -1,6 +1,6 @@
 # MakeDMXFixtureMatrix
 
-Adds a node that create a 'DMXFixtureMatrix' from its members
+添加一个节点，从其成员中创建一个 "DMXFixtureMatrix"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'DMXFixtureMatrix' from its members
 
 ## Inputs
 
-Cell Attributes: Array of DMXFixture Cell Attribute Structures. Cell Attributes.
+单元属性。DMXFixture单元属性结构的阵列。单元属性。
 
-First Cell Channel: Integer. First Cell Channel.
+第一个单元格通道。整数。第一个单元格通道。
 
-X Cells: Integer. XCells.
+X单元格。整数。XCells.
 
-Y Cells: Integer. YCells.
+Y单元格。整数。YCells.
 
-Pixel Mapping Distribution: EDMXPixelMappingDistribution Enum. Pixel Mapping Distribution.  
+像素映射分布。EDMXPixelMappingDistribution 枚举。像素贴图分布。  
 
 ## Outputs
 
-DMXFixture Matrix: DMXFixture Matrix Structure.
-
+DMXFixture矩阵。DMX灯具矩阵结构。

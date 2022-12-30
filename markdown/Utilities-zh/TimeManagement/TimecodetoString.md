@@ -1,8 +1,8 @@
 # TimecodetoString
 
-Converts an Timecode to a string (hh:mm:ss:ff). If bForceSignDisplay then the number sign will always be prepended instead of just when expressing a negative time.
+将时间码转换为字符串（hh:mm:ss:ff）。如果bForceSignDisplay，那么数字符号将总是被预置，而不仅仅是在表达负数时间时。
 
-Target is Time Management Blueprint Library
+目标是时间管理蓝图库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Time Management Blueprint Library
 
 ## Inputs
 
-In Timecode: Timecode Structure (by ref).
+在时间码中。时间码结构（由参考）。
 
-Force Sign Display: Boolean.  
+强制标志显示。布尔值。  
 
 ## Outputs
 
-Return Value: String. Converts an Timecode to a string (hh:mm:ss:ff). If bForceSignDisplay then the number sign will always be prepended instead of just when expressing a negative time..
-
+返回值。字符串。将时间码转换为字符串（hh:mm:ss:ff）。如果bForceSignDisplay，那么数字符号将始终被添加，而不仅仅是在表达负的时间时。

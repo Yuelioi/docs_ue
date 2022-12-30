@@ -1,6 +1,6 @@
 # BreakIsActorValidParams
 
-Adds a node that breaks a 'IsActorValidParams' into its member fields
+添加一个节点，将'IsActorValidParams'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'IsActorValidParams' into its member fields
 
 ## Inputs
 
-Is Actor Valid Params: Is Actor Valid Params Structure (by ref).  
+演员是否有效参数。Is Actor Valid Params结构（通过参考）。  
 
 ## Outputs
 
-Snapshot Actor: Actor Object Reference. Snapshot Actor:. The actor saved in the snapshot.
+快照演员。Actor Object Reference.Snapshot Actor:.保存在快照中的演员。
 
-Level Actor: Actor Object Reference. Level Actor:. The actor equivalent to LevelActor: it exists in the world.
-
+级演员。Actor Object Reference.Level Actor:。相当于LevelActor:的演员，它存在于世界中。

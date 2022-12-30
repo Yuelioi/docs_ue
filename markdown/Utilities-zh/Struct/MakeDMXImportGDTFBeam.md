@@ -1,6 +1,6 @@
 # MakeDMXImportGDTFBeam
 
-Adds a node that create a 'DMXImportGDTFBeam' from its members
+添加一个节点，从其成员中创建一个'DMXImportGDTFBeam'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXImportGDTFBeam' from its members
 
 ## Outputs
 
-DMXImport GDTFBeam: DMXImport GDTFBeam Structure.
-
+DMXImport GDTFBeam: DMXImport GDTFBeam结构。

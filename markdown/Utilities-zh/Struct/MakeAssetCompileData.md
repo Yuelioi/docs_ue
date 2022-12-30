@@ -1,6 +1,6 @@
 # MakeAssetCompileData
 
-Adds a node that create a 'AssetCompileData' from its members
+添加一个节点，从其成员中创建一个'AssetCompileData'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'AssetCompileData' from its members
 
 ## Inputs
 
-Asset: Object Weak object. Asset:. Object being compiled.  
+资产: 物体 虚弱的物体。资产：。正在编译的对象。  
 
 ## Outputs
 
-Asset Compile Data: Asset Compile Data Structure.
-
+资产汇编数据。资产编译数据结构。

@@ -1,6 +1,6 @@
 # MakePaperSpriteSocket
 
-Adds a node that create a 'PaperSpriteSocket' from its members
+添加一个节点，从其成员中创建一个 "PaperSpriteSocket"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PaperSpriteSocket' from its members
 
 ## Outputs
 
-Paper Sprite Socket: Paper Sprite Socket Structure.
-
+纸精灵插座：纸精灵插座结构。

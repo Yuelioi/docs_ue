@@ -1,6 +1,6 @@
 # BreakSynth1PatchCable
 
-Adds a node that breaks a 'Synth1PatchCable' into its member fields
+添加一个节点，将'Synth1PatchCable'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'Synth1PatchCable' into its member fields
 
 ## Inputs
 
-Synth 1Patch Cable: Synth 1Patch Cable Structure (by ref).  
+Synth 1Patch电缆。Synth 1Patch电缆的结构（由参考）。  
 
 ## Outputs
 
-Depth: Float (single-precision). Depth:. The patch depth (how much the modulator modulates the destination).
+深度。Float（单精度）。深度：。补丁深度（调制器对目标的调制程度）。
 
-Destination: ESynth1PatchDestination Enum. Destination:. The patch destination type.
-
+目的地。ESynth1PatchDestination 枚举。目的地：。补丁的目的地类型。

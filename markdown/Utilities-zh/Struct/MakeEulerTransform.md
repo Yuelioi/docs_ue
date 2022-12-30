@@ -1,6 +1,6 @@
 # MakeEulerTransform
 
-Adds a node that create a 'EulerTransform' from its members
+添加一个节点，从其成员中创建一个 "欧拉变换"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'EulerTransform' from its members
 
 ## Inputs
 
-Location: Vector. Location:. The translation of this transform.
+地点：向量。向量。位置：。这个变换的翻译。
 
-Rotation: Rotator. Rotation:. The rotation of this transform.
+旋转。旋转器。旋转：。这个变换的旋转。
 
-Scale: Vector. Scale:. The scale of this transform.  
+规模。矢量。规模：。这个变换的比例。  
 
 ## Outputs
 
-Euler Transform: Euler Transform Structure.
-
+欧拉变换：欧拉变换结构。

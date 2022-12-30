@@ -1,6 +1,6 @@
 # MakeSimpleParametricMotion
 
-Adds a node that create a 'SimpleParametricMotion' from its members
+添加一个节点，从其成员中创建一个 "SimpleParametricMotion"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'SimpleParametricMotion' from its members
 
 ## Inputs
 
-Parametric Delta: Vector. Parametric Delta.
+参数化的三角洲。矢量。参数化的三角洲。
 
-Min Time: Float (single-precision). Min Time.
+最小时间。浮点数（单精度）。最小时间。
 
-Max Time: Float (single-precision). Max Time.  
+最大时间。Float（单精度）。最大时间。  
 
 ## Outputs
 
-Simple Parametric Motion: Simple Parametric Motion Structure.
-
+简单的参数化运动。简单参数运动结构。

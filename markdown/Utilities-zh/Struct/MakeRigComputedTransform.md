@@ -1,6 +1,6 @@
 # MakeRigComputedTransform
 
-Adds a node that create a 'RigComputedTransform' from its members
+添加一个节点，从其成员中创建一个 "RigComputedTransform"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigComputedTransform' from its members
 
 ## Outputs
 
-Rig Computed Transform: Rig Computed Transform Structure.
-
+钻机计算变换。钻机计算变换结构。

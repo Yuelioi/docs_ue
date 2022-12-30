@@ -1,6 +1,6 @@
 # MakeAnimPose
 
-Adds a node that create a 'AnimPose' from its members
+添加一个节点，从其成员中创建一个 "AnimPose"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AnimPose' from its members
 
 ## Outputs
 
-Anim Pose: Anim Pose Structure.
-
+Anim Pose: Anim Pose结构.

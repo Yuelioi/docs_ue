@@ -1,6 +1,6 @@
 # MakeDetectedFeature2D
 
-Adds a node that create a 'DetectedFeature2D' from its members
+添加一个节点，从其成员中创建一个 "DetectedFeature2D"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DetectedFeature2D' from its members
 
 ## Outputs
 
-Detected Feature 2D: Detected Feature 2D Structure.
-
+检测到的特征2D：检测到的特征2D结构。

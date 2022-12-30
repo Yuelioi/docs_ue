@@ -1,6 +1,6 @@
 # SetmembersinNamedCompMaterialPar-
 
-Adds a node that modifies a 'NamedCompMaterialParam'
+添加一个修改 "NamedCompMaterialParam "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'NamedCompMaterialParam'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Named Comp Material Param Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Named Comp Material Param Structure (by ref). Reference to the input struct.
-
+结构出来。命名的Comp Material Param结构（通过引用）。对输入结构的引用。

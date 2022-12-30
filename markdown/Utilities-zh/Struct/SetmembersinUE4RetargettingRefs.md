@@ -1,6 +1,6 @@
 # SetmembersinUE4RetargettingRefs
 
-Adds a node that modifies a 'UE4RetargettingRefs'
+添加一个节点，修改 "UE4RetargettingRefs"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'UE4RetargettingRefs'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: UE4Retargetting Refs Structure (by ref).  
+Struct Ref: UE4Retargetting Refs 结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: UE4Retargetting Refs Structure (by ref). Reference to the input struct.
-
+结构出来。UE4Retargetting Refs结构（通过ref）。对输入结构的引用。

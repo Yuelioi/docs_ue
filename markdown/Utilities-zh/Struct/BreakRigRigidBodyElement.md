@@ -1,6 +1,6 @@
 # BreakRigRigidBodyElement
 
-Adds a node that breaks a 'RigRigidBodyElement' into its member fields
+添加一个节点，将'RigRigidBodyElement'分解到其成员字段中
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'RigRigidBodyElement' into its member fields
 
 ## Inputs
 
-Rig Rigid Body Element: Rig Rigid Body Element Structure (by ref).  
+刚性刚体元素。刚性刚体元素结构（按参考文献）。  
 
 ## Outputs
 
-Settings: Rig Rigid Body Settings Structure. Settings.
+设置。Rig 刚性体设置结构。设置。
 
-Pose: Rig Current And Initial Transform Structure. Pose.
+姿势。钻机电流和初始变换结构。姿势。
 
-Key: Rig Element Key Structure. Key.
+钥匙。钻机元素关键结构。钥匙。
 
-Index: Integer. Index.
+索引。整数。指数。
 
-Sub Index: Integer. Sub Index.
+副索引。整数。副索引。
 
-Selected: Boolean. Selected.
-
+选定。布尔型。选定。

@@ -1,6 +1,6 @@
 # SetmembersinCompositingMaterial
 
-Adds a node that modifies a 'CompositingMaterial'
+添加一个修改 "合成材料 "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CompositingMaterial'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Compositing Material Structure (by ref).  
+Struct Ref: 合成材料结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Compositing Material Structure (by ref). Reference to the input struct.
-
+结构出来。合成材料结构（通过引用）。对输入结构的引用。

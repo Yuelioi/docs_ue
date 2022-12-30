@@ -1,6 +1,6 @@
 # BreakLandmassFalloffSettings
 
-Adds a node that breaks a 'LandmassFalloffSettings' into its member fields
+添加一个节点，将'LandmassFalloffSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'LandmassFalloffSettings' into its member fields
 
 ## Inputs
 
-Landmass Falloff Settings: Landmass Falloff Settings Structure (by ref).  
+Landmass Falloff设置。Landmass Falloff设置结构（按参考）。  
 
 ## Outputs
 
-Falloff Mode: EBrushFalloffMode Enum. Falloff Mode.
+褪色模式：EBrushFalloffMode枚举。褪色模式。
 
-Falloff Angle: Float (single-precision). Falloff Angle.
+滑移角度。Float（单精度）。漂移角度。
 
-Falloff Width: Float (single-precision). Falloff Width.
+漂移宽度：浮点数（单精度）。衰减宽度。
 
-Edge Offset: Float (single-precision). Edge Offset.
+边缘偏移。浮点数（单精度）。边缘偏移。
 
-ZOffset: Float (single-precision). ZOffset.
-
+ZOffset。Float（单精度）。ZOffset.

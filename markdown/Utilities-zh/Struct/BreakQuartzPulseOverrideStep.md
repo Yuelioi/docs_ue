@@ -1,6 +1,6 @@
 # BreakQuartzPulseOverrideStep
 
-Adds a node that breaks a 'QuartzPulseOverrideStep' into its member fields
+添加一个打破'QuartzPulseOverrideStep'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'QuartzPulseOverrideStep' into its member fields
 
 ## Inputs
 
-Quartz Pulse Override Step: Quartz Pulse Override Step Structure (by ref).  
+石英脉冲超控步骤：石英脉冲超控步骤结构（由参考）。  
 
 ## Outputs
 
-Number Of Pulses: Integer. Number Of Pulses:. The number of pulses for this beat duration.
+脉冲数：整数。脉冲数：。该节拍持续时间的脉冲数。
 
-Pulse Duration: EQuartzCommandQuantization Enum. Pulse Duration:. This Beat duration.
-
+脉冲持续时间。EQuartzCommandQuantization枚举。脉冲持续时间：。这个节拍持续时间。

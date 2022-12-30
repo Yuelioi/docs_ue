@@ -1,6 +1,6 @@
 # MakeGeometryScriptMeshExtrudeOpt-
 
-Adds a node that create a 'GeometryScriptMeshExtrudeOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptMeshExtrudeOptions'。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'GeometryScriptMeshExtrudeOptions' from its members
 
 ## Inputs
 
-Extrude Distance: Float (single-precision). Extrude Distance.
+挤出的距离。Float（单精度）。挤出距离。
 
-Extrude Direction: Vector. Extrude Direction.
+挤出的方向。矢量。挤出方向。
 
-UVScale: Float (single-precision). UVScale.
+UVScale。Float（单精度）。UVScale。
 
-Solids To Shells: Boolean. Solids to Shells.  
+固体到外壳。布尔型。固体到外壳。  
 
 ## Outputs
 
-Geometry Script Mesh Extrude Options: Geometry Script Mesh Extrude Options Structure.
-
+Geometry Script Mesh Extrude Options:Geometry Script Mesh Extrude Options结构。

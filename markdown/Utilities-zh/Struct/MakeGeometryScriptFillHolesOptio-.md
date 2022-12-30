@@ -1,6 +1,6 @@
 # MakeGeometryScriptFillHolesOptio-
 
-Adds a node that create a 'GeometryScriptFillHolesOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptFillHolesOptions"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'GeometryScriptFillHolesOptions' from its members
 
 ## Inputs
 
-Fill Method: EGeometryScriptFillHolesMethod Enum. Fill Method.  
+填充方法。EGeometryScriptFillHolesMethod Enum.填充方法。  
 
 ## Outputs
 
-Geometry Script Fill Holes Options: Geometry Script Fill Holes Options Structure.
-
+Geometry Script Fill Holes Options:Geometry Script Fill Holes Options（几何脚本填充孔）结构。

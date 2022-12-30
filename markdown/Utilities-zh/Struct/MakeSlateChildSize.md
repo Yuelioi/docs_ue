@@ -1,6 +1,6 @@
 # MakeSlateChildSize
 
-Adds a node that create a 'SlateChildSize' from its members
+添加一个节点，从其成员中创建一个 "SlateChildSize"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'SlateChildSize' from its members
 
 ## Inputs
 
-Value: Float (single-precision). Value:. The parameter of the size rule..
+值。Float (single-precision).值：。大小规则的参数...
 
-Size Rule: ESlateSizeRule Enum. Size Rule:. The sizing rule of the content..  
+尺寸规则。ESlateSizeRule Enum.尺寸规则：。内容的尺寸规则。  
 
 ## Outputs
 
-Slate Child Size: Slate Child Size Structure.
-
+石板的儿童尺寸。石板色 儿童尺寸结构。

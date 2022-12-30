@@ -1,6 +1,6 @@
 # MakeRigCurveElement
 
-Adds a node that create a 'RigCurveElement' from its members
+添加一个节点，从其成员中创建一个 "RigCurveElement"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigCurveElement' from its members
 
 ## Outputs
 
-Rig Curve Element: Rig Curve Element Structure.
-
+钻机曲线元素。钻机曲线元件结构。

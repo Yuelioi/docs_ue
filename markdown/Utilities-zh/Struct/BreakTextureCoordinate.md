@@ -1,6 +1,6 @@
 # BreakTextureCoordinate
 
-Adds a node that breaks a 'TextureCoordinate' into its member fields
+添加一个节点，将 "TextureCoordinate "分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'TextureCoordinate' into its member fields
 
 ## Inputs
 
-Texture Coordinate: Texture Coordinate Structure (by ref).  
+纹理坐标。纹理坐标结构（通过参考）。  
 
 ## Outputs
 
-U: Float (single-precision). U.
+U:Float（单精度）。U.
 
-V: Float (single-precision). V.
-
+V：浮点数（单精度）。V.

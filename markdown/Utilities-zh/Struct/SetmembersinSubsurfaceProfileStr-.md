@@ -1,6 +1,6 @@
 # SetmembersinSubsurfaceProfileStr-
 
-Adds a node that modifies a 'SubsurfaceProfileStruct'
+添加一个修改 "SubsurfaceProfileStruct "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SubsurfaceProfileStruct'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Subsurface Profile Struct Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Subsurface Profile Struct Structure (by ref). Reference to the input struct.
-
+结构出来。Subsurface Profile Struct 结构（通过ref）。对输入结构的引用。

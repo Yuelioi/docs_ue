@@ -1,6 +1,6 @@
 # BreakPoseSearchChannelWeightPara-
 
-Adds a node that breaks a 'PoseSearchChannelWeightParams' into its member fields
+添加一个节点，将'PoseSearchChannelWeightParams'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'PoseSearchChannelWeightParams' into its member fields
 
 ## Inputs
 
-Pose Search Channel Weight Params: Pose Search Channel Weight Params Structure (by ref).  
+姿势搜索通道权重参数。姿势搜索通道权重参数结构（由参考）。  
 
 ## Outputs
 
-Channel Weight: Float (single-precision). Channel Weight:. Contribution of this score component. Normalized with other channels..
+通道重量。Float（单精度）。通道权重：。这个分数成分的贡献。与其他渠道进行归一化处理。
 
-History Params: Pose Search Channel Horizon Params Structure. History Params:. History horizon params (for sample offsets <= 0).
+历史参数。姿势搜索通道地平线参数结构。历史参数：。历史地平线参数（对于样本偏移量<=0）。
 
-Prediction Params: Pose Search Channel Horizon Params Structure. Prediction Params:. Prediction horizon params (for sample offsets > 0).
-
+预测参数。姿势搜索通道地平线参数结构。预测参数：。预测地平线参数（对于样本偏移量>0）。

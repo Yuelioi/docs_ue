@@ -1,6 +1,6 @@
 # MakeCachedFloatCurve
 
-Adds a node that create a 'CachedFloatCurve' from its members
+添加一个节点，从其成员中创建一个 "CachedFloatCurve"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'CachedFloatCurve' from its members
 
 ## Inputs
 
-Curve Name: Name. Curve Name.  
+曲线名称：名称。曲线名称。  
 
 ## Outputs
 
-Cached Float Curve: Cached Float Curve Structure.
-
+缓存的浮动曲线。缓存的浮动曲线结构。

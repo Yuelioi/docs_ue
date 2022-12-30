@@ -1,6 +1,6 @@
 # SetmembersinComposureUVMapSettin-
 
-Adds a node that modifies a 'ComposureUVMapSettings'
+添加一个修改 "ComposureUVMapSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ComposureUVMapSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Composure UVMap Settings Structure (by ref).  
+Struct Ref: Composure UVMap设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Composure UVMap Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Composure UVMap设置结构（通过引用）。对输入结构的引用。

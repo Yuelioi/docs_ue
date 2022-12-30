@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationI-_8
 
-Adds a node that create a 'DisplayClusterConfigurationInputSyncPolicy' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationInputSyncPolicy"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DisplayClusterConfigurationInputSyncPolicy' from its 
 
 ## Outputs
 
-Display Cluster Configuration Input Sync Policy: Display Cluster Configuration Input Sync Policy Structure.
-
+显示群集配置输入同步策略。显示群集配置输入同步策略结构。

@@ -1,6 +1,6 @@
 # MakeSlateColor
 
-Adds a node that create a 'SlateColor' from its members
+添加一个节点，从其成员中创建一个 "SlateColor"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'SlateColor' from its members
 
 ## Inputs
 
-Specified Color: Linear Color Structure. Specified Color:. The current specified color; only meaningful when ColorToUse == UseColor_Specified..
+指定的颜色：线性颜色结构。指定的颜色：。当前指定的颜色；只有当ColorToUse == UseColor_Specified时才有意义。
 
-Color Use Rule: ESlateColorStylingMode Enum. Color Use Rule:. The rule for which color to pick..  
+颜色使用规则。ESlateColorStylingMode枚举。颜色使用规则：。选择哪种颜色的规则。
 
 ## Outputs
 
-Slate Color: Slate Color Structure.
-
+板岩颜色：板岩颜色结构。

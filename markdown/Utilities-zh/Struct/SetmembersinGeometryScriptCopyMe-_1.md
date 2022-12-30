@@ -1,6 +1,6 @@
 # SetmembersinGeometryScriptCopyMe-_1
 
-Adds a node that modifies a 'GeometryScriptCopyMeshToAssetOptions'
+添加一个节点，修改 "GeometryScriptCopyMeshToAssetOptions"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryScriptCopyMeshToAssetOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Geometry Script Copy Mesh To Asset Options Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Geometry Script Copy Mesh To Asset Options Structure (by ref). Reference to the input struct.
-
+结构出来。Geometry Script Copy Mesh To Asset Options Structure（通过引用）。对输入结构的引用。

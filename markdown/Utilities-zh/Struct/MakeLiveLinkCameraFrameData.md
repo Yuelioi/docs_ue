@@ -1,6 +1,6 @@
 # MakeLiveLinkCameraFrameData
 
-Adds a node that create a 'LiveLinkCameraFrameData' from its members
+添加一个节点，从其成员中创建一个 "LiveLinkCameraFrameData"。
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that create a 'LiveLinkCameraFrameData' from its members
 
 ## Inputs
 
-Field Of View: Float (single-precision). Field Of View:. Field of View of the camera in degrees.
+视野。浮点数（单精度）。Field Of View:（视野）。摄像机的视场，单位是度。
 
-Aspect Ratio: Float (single-precision). Aspect Ratio:. Aspect Ratio of the camera (Width / Heigth).
+纵横比。Float（单精度）。纵横比：。摄像机的纵横比（宽度/高度）。
 
-Focal Length: Float (single-precision). Focal Length:. Focal length of the camera.
+焦距。浮点数（单精度）。Focal Length:.焦距。相机的焦距。
 
-Aperture: Float (single-precision). Aperture:. Aperture of the camera in terms of f-stop.
+光圈。Float（单精度）。光圈：。相机的光圈，以f档为单位。
 
-Focus Distance: Float (single-precision). Focus Distance:. Focus distance of the camera in cm. Works only in manual focus method.
+焦点距离。浮点（单精度）。对焦距离：。相机的对焦距离，单位是厘米。只在手动对焦方式下工作。
 
-Projection Mode: ELiveLinkCameraProjectionMode Enum. Projection Mode:. ProjectionMode of the camera (Perspective, Orthographic, etc...).
+投影模式。ELiveLinkCameraProjectionMode枚举。投影模式：。相机的投影模式（透视、正射等）。
 
-Transform: Transform. Transform:. Transform of the frame.
+转变。转变。变换:。框架的变换。
 
-Meta Data: Live Link Meta Data Structure. Meta Data:. Frame's metadata..
+元数据。现场链接元数据结构。元数据：。框架的元数据.
 
-Property Values: Array of Float (single-precision)s. Property Values:. Values of the properties defined in the static structure. Use FLiveLinkBaseStaticData.FindPropertyValue to evaluate..  
+属性值。Float (single-precision)s阵列。属性值：。在静态结构中定义的属性值。使用FLiveLinkBaseStaticData.FindPropertyValue来评估。
 
 ## Outputs
 
-Live Link Camera Frame Data: Live Link Camera Frame Data Structure.
-
+Live Link相机帧数据：Live Link相机帧数据结构。

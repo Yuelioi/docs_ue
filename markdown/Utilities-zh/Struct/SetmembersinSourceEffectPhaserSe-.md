@@ -1,6 +1,6 @@
 # SetmembersinSourceEffectPhaserSe-
 
-Adds a node that modifies a 'SourceEffectPhaserSettings'
+添加一个节点，修改 "SourceEffectPhaserSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SourceEffectPhaserSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Source Effect Phaser Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Source Effect Phaser Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Source Effect Phaser Settings Structure（通过引用）。对输入结构的引用。

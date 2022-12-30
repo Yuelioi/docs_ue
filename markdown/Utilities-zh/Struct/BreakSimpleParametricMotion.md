@@ -1,6 +1,6 @@
 # BreakSimpleParametricMotion
 
-Adds a node that breaks a 'SimpleParametricMotion' into its member fields
+添加一个节点，将'SimpleParametricMotion'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'SimpleParametricMotion' into its member fields
 
 ## Inputs
 
-Simple Parametric Motion: Simple Parametric Motion Structure (by ref).  
+简单参数化运动。简单参数运动结构（由参考）。  
 
 ## Outputs
 
-Parametric Delta: Vector. Parametric Delta.
+参数化的三角洲。矢量。参数化的三角洲。
 
-Min Time: Float (single-precision). Min Time.
+最小时间。Float（单精度）。最小时间。
 
-Max Time: Float (single-precision). Max Time.
-
+最大时间。Float（单精度）。最大时间。

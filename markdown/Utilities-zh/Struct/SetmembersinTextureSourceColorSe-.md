@@ -1,6 +1,6 @@
 # SetmembersinTextureSourceColorSe-
 
-Adds a node that modifies a 'TextureSourceColorSettings'
+添加一个节点，修改 "TextureSourceColorSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TextureSourceColorSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Texture Source Color Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Texture Source Color Settings Structure (by ref). Reference to the input struct.
-
+结构出来。纹理源颜色设置结构（通过引用）。对输入结构的引用。

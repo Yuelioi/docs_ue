@@ -1,6 +1,6 @@
 # MakeHairCardsTextureSettings
 
-Adds a node that create a 'HairCardsTextureSettings' from its members
+添加一个节点，从其成员中创建一个 "HairCardsTextureSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'HairCardsTextureSettings' from its members
 
 ## Inputs
 
-Atlas Max Resolution: Integer. Atlas Max Resolution:. Max atlas resolution.
+阿特拉斯最大分辨率。整数。Atlas最大分辨率：。图集的最大分辨率。
 
-Pixel Per Centimeters: Integer. Pixel Per Centimeters:. Pixel resolution per centimeters.
+每厘米的像素。整数。Pixel Per Centimeters：。每厘米的像素分辨率。
 
-Length Texture Count: Integer. Length Texture Count:. Number of unique clump textures.  
+长度 纹理计数。整数。长度纹理数：。独特的团块纹理的数量。  
 
 ## Outputs
 
-Hair Cards Texture Settings: Hair Cards Texture Settings Structure.
-
+头发卡的纹理设置。头发卡纹理设置结构。

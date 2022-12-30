@@ -1,6 +1,6 @@
 # BreakGeometryScriptPerlinNoiseOp-
 
-Adds a node that breaks a 'GeometryScriptPerlinNoiseOptions' into its member fields
+添加一个节点，将'GeometryScriptPerlinNoiseOptions'分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'GeometryScriptPerlinNoiseOptions' into its member fie
 
 ## Inputs
 
-Geometry Script Perlin Noise Options: Geometry Script Perlin Noise Options Structure (by ref).  
+Geometry Script Perlin Noise Options:Geometry Script Perlin Noise Options结构（按参考）。  
 
 ## Outputs
 
-Base Layer: Geometry Script Perlin Noise Layer Options Structure. Base Layer.
+基础层。Geometry Script Perlin Noise Layer Options Structure.基础层。
 
-Apply Along Normal: Boolean. Apply Along Normal.
-
+沿着法线应用：布尔值。沿着法线应用。

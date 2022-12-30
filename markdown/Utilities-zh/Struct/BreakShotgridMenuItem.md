@@ -1,6 +1,6 @@
 # BreakShotgridMenuItem
 
-Adds a node that breaks a 'ShotgridMenuItem' into its member fields
+添加一个节点，将 "ShotgridMenuItem "分解为其成员字段。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'ShotgridMenuItem' into its member fields
 
 ## Inputs
 
-Shotgrid Menu Item: Shotgrid Menu Item Structure (by ref).  
+Shotgrid菜单项目：Shotgrid菜单项目结构（按参考）。  
 
 ## Outputs
 
-Name: String. Name:. Command name for internal use.
+名称。字符串。名称：。供内部使用的命令名称。
 
-Title: String. Title:. Text to display in the menu.
+标题。字符串.标题:。在菜单中显示的文本。
 
-Description: String. Description:. Description text for the tooltip.
+描述。字符串。描述：。工具提示的描述文本。
 
-Type: String. Type:. Menu item type to help interpret the command.
-
+类型。字符串。类型:。菜单项的类型，帮助解释命令。

@@ -1,6 +1,6 @@
 # MakeCustomMeshTriangle
 
-Adds a node that create a 'CustomMeshTriangle' from its members
+添加一个节点，从其成员中创建一个 "CustomMeshTriangle"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'CustomMeshTriangle' from its members
 
 ## Inputs
 
-Vertex 0: Vector. Vertex 0.
+顶点0：向量。顶点0。
 
-Vertex 1: Vector. Vertex 1.
+顶点1：向量。顶点1。
 
-Vertex 2: Vector. Vertex 2.  
+顶点2：向量。顶点2。
 
 ## Outputs
 
-Custom Mesh Triangle: Custom Mesh Triangle Structure.
-
+定制网状三角形。定制网状三角形结构。

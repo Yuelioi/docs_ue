@@ -1,6 +1,6 @@
 # SetmembersinDMXNormalizedAttribu-
 
-Adds a node that modifies a 'DMXNormalizedAttributeValueMap'
+添加一个节点，修改 "DMXNormalizedAttributeValueMap"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXNormalizedAttributeValueMap'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: DMXNormalized Attribute Value Map Structure (by ref).  
+Struct Ref: DMXNormalized Attribute Value Map结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMXNormalized Attribute Value Map Structure (by ref). Reference to the input struct.
-
+结构出来。DMXNormalized Attribute Value Map结构（通过参考）。对输入结构的引用。

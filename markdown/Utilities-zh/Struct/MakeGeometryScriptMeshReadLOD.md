@@ -1,6 +1,6 @@
 # MakeGeometryScriptMeshReadLOD
 
-Adds a node that create a 'GeometryScriptMeshReadLOD' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptMeshReadLOD"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'GeometryScriptMeshReadLOD' from its members
 
 ## Inputs
 
-LODType: EGeometryScriptLODType Enum. LODType.
+LODType。EGeometryScriptLODType枚举。LOD类型。
 
-LODIndex: Integer. LODIndex.  
+LODIndex。整数。LODIndex.  
 
 ## Outputs
 
-Geometry Script Mesh Read LOD: Geometry Script Mesh Read LOD Structure.
-
+Geometry Script Mesh Read LOD: 几何脚本网格读取LOD结构。

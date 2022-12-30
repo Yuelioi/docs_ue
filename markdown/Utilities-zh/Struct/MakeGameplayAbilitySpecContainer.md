@@ -1,6 +1,6 @@
 # MakeGameplayAbilitySpecContainer
 
-Adds a node that create a 'GameplayAbilitySpecContainer' from its members
+添加一个节点，从其成员中创建一个 "GameplayAbilitySpecContainer"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayAbilitySpecContainer' from its members
 
 ## Outputs
 
-Gameplay Ability Spec Container: Gameplay Ability Spec Container Structure.
-
+游戏能力规格的容器。游戏能力规格容器的结构。

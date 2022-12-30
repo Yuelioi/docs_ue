@@ -1,6 +1,6 @@
 # MakeUserActivity
 
-Adds a node that create a 'UserActivity' from its members
+添加一个节点，从其成员中创建一个 "UserActivity"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'UserActivity' from its members
 
 ## Inputs
 
-Action Name: String. Action Name:. Describes the user's activity.  
+行动名称。字符串。行动名称：。描述了用户的活动。  
 
 ## Outputs
 
-User Activity: User Activity Structure.
-
+用户活动。用户活动结构。

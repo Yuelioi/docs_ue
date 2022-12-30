@@ -1,6 +1,6 @@
 # SetmembersinMoviePipelineFormatA-
 
-Adds a node that modifies a 'MoviePipelineFormatArgs'
+添加一个节点，修改 "MoviePipelineFormatArgs"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MoviePipelineFormatArgs'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Movie Pipeline Format Args Structure (by ref).  
+Struct Ref: Movie Pipeline Format Args 结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Movie Pipeline Format Args Structure (by ref). Reference to the input struct.
-
+结构出来。电影管道格式 Args 结构（通过 ref）。对输入结构的引用。

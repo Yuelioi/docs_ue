@@ -1,6 +1,6 @@
 # BreakMoviePipelineFilenameResolv-
 
-Adds a node that breaks a 'MoviePipelineFilenameResolveParams' into its member fields
+添加一个节点，将'MoviePipelineFilenameResolveParams'分解成其成员字段
 
 ## 图示
 
@@ -8,37 +8,36 @@ Adds a node that breaks a 'MoviePipelineFilenameResolveParams' into its member f
 
 ## Inputs
 
-Movie Pipeline Filename Resolve Params: Movie Pipeline Filename Resolve Params Structure (by ref).  
+电影管道文件名解析参数。电影管道文件名解析参数结构（按参考）。  
 
 ## Outputs
 
-Frame Number: Integer. Frame Number:. Frame Number for the Master (matching what you see in the Sequencer timeline. ie: If the Sequence PlaybackRange starts on 50, this value would be 50 on the first frame..
+帧数：整数。帧号：。主程序的帧号（与你在序列器时间线中看到的一致，即：如果序列播放范围从50开始，这个值将是第一帧的50。
 
-Frame Number Shot: Integer. Frame Number Shot:. Frame Number for the Shot (matching what you would see in Sequencer at the sub-sequence level..
+帧数拍摄。整数。帧数 Shot:.镜头的帧号（与你在Sequencer中看到的子序列级别相匹配）。
 
-Frame Number Rel: Integer. Frame Number Rel:. Frame Number for the Master (relative to 0, not what you would see in the Sequencer timeline. ie: If sequence PlaybackRange starts on 50, this value would be 0 on the first frame..
+帧号相对。整数。帧数Rel:。主程序的帧号（相对于0，而不是你在序列器时间线中看到的，即：如果序列PlaybackRange从50开始，这个值将是第一帧的0。
 
-Frame Number Shot Rel: Integer. Frame Number Shot Rel:. Frame Number for the Shot (relative to 0, not what you would see in the Sequencer timeline..
+帧数 摄制关系。整数。帧数 Shot Rel:.镜头的帧号（相对于0，而不是你在序列器时间线中看到的。
 
-Camera Name Override: String. Camera Name Override:. Name used by the {camera_name} format tag. If specified, this will override the camera name (which is normally pulled from the ShotOverride object)..
+摄像机名称重写。摄像机名称重写：.相机名称重写：。由{camera_name}格式标签使用的名称。如果指定，这将覆盖相机名称（通常从ShotOverride对象中提取）。
 
-Shot Name Override: String. Shot Name Override:. Name used by the {shot_name} format tag. If specified, this will override the shot name (which is normally pulled from the ShotOverride object).
+拍摄名称重写。弦乐。Shot Name Override:.由{shot_name}格式标签使用的名称。如果指定，这将覆盖镜头名称（通常从ShotOverride对象中提取）。
 
-Zero Pad Frame Number Count: Integer. Zero Pad Frame Number Count:. When converitng frame numbers to strings, how many digits should we pad them up to? ie: 5 => 0005 with a count of 4..
+零垫子帧数计数。整数。零垫子帧数：.当把帧数转换成字符串时，我们应该把它们垫高到多少位？ 即：5 => 0005，计数为4。
 
-Force Relative Frame Numbers: Boolean. Force Relative Frame Numbers:. If true, force format strings (like {frame_number}) to resolve using the relative version. Used when slow-mo is detected as frame numbers would overlap..
+强制相对帧数。布尔型。强制相对帧数：。如果为真，强制格式字符串（如{frame_number}）使用相对版本进行解析。在检测到慢动作时使用，因为帧数会重叠。
 
-File Name Format Overrides: Map of Strings to Strings. File Name Format Overrides:. A map between "{format}" tokens and their values. These are applied after the auto-generated ones from the system,. which allows the caller to override things like {.ext} depending or {render_pass} which have dummy names by default..
+文件名格式重写。字符串到字符串的映射。文件名格式重写：。一个"{format}"标记和它们的值之间的映射。这允许调用者覆盖诸如{.ext}取决于或{render_pass}的东西，这些东西在默认情况下有假名称。
 
-File Metadata: Map of Strings to Strings. File Metadata:. A key/value pair that maps metadata names to their values. Output is only supported in exr formats at the moment..
+文件元数据。字符串到字符串的地图。文件元数据：。一个键/值对，将元数据名称映射到其值。目前只支持exr格式的输出。
 
-Initialization Time: Date Time Structure. Initialization Time:. The initialization time for this job. Used to resolve time-based format arguments..
+初始化时间。日期时间结构。初始化时间：。这个工作的初始化时间。用于解决基于时间的格式参数。
 
-Initialization Version: Integer. Initialization Version:. The version for this job. Used to resolve version format arguments..
+初始化版本。整数。初始化版本：。这个工作的版本。用于解决版本格式参数...
 
-Job: Movie Pipeline Executor Job Object Reference. Job:: This is the job all of the settings should be pulled from..
+工作。电影管道执行者工作对象参考。工作：:这是所有的设置都应该被提取的工作。
 
-Shot Override: Movie Pipeline Executor Shot Object Reference. Shot Override:: If specified, settings will be pulled from this shot (if overriden by the shot). If null, always use the master configuration in the job..
+镜头覆盖。电影管道执行者拍摄对象参考。Shot Override:（镜头覆盖）。如果指定，设置将从这个镜头中提取（如果被镜头覆盖）。如果为空，则始终使用工作中的主配置。
 
-Additional Frame Number Offset: Integer. Additional Frame Number Offset:. Additional offset added onto the offset provided by the Output Settings in the Job. Required for some internal things (FCPXML)..
-
+额外的帧号偏移。整数。额外的帧数偏移：。额外的偏移量添加到作业中的输出设置所提供的偏移量上。对某些内部事物（FCPXML）是必需的。

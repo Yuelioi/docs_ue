@@ -1,6 +1,6 @@
 # MakeUsdMaterialBakingOptions
 
-Adds a node that create a 'UsdMaterialBakingOptions' from its members
+添加一个节点，从其成员中创建一个'UsdMaterialBakingOptions'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'UsdMaterialBakingOptions' from its members
 
 ## Inputs
 
-Properties: Array of Property Entry Structures. Properties:. Properties which are supposed to be baked out for the material.
+属性。属性条目结构的数组。Properties:（属性）。材料应该被烘烤出来的属性。
 
-Default Texture Size: Int Point Structure. Default Texture Size:. Size of the baked texture for all properties that don't have a CustomSize set.
+默认的纹理尺寸。Int点结构。Default Texture Size:（默认纹理尺寸）。所有没有设置CustomSize的属性的烘烤纹理的尺寸。
 
-Textures Dir: Directory Path Structure. Textures Dir:. Where baked textures are placed. Intentionally not a config as it's heavily dependent on where the stage is.  
+Textures Dir：目录路径结构。Textures Dir:。放置烘培纹理的地方。故意不是一个配置，因为它在很大程度上取决于舞台的位置。  
 
 ## Outputs
 
-Usd Material Baking Options: Usd Material Baking Options Structure.
-
+Usd Material Baking Options:Usd材料烘烤选项结构。

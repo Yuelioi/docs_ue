@@ -1,6 +1,6 @@
 # BreakLoudnessResults
 
-Adds a node that breaks a 'LoudnessResults' into its member fields
+添加一个节点，将'LoudnessResults'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'LoudnessResults' into its member fields
 
 ## Inputs
 
-Loudness Results: Loudness Results Structure (by ref).  
+响度结果。响度结果结构（按参考）。  
 
 ## Outputs
 
-Loudness: Float (single-precision). Loudness:. The raw loudness value in dB.
+响度。Float（单精度）。响度：。原始响度值，单位是dB。
 
-Normalized Loudness: Float (single-precision). Normalized Loudness:. The normalized loudness.
+归一化的响度。Float（单精度）。归一化响度：。归一化响度。
 
-Perceptual Energy: Float (single-precision). Perceptual Energy:. The normalized loudness.
+感知能量。Float (single-precision).感知能量：。归一化的响度。
 
-Time Seconds: Float (single-precision). Time Seconds:. The time in seconds since analysis began.
-
+时间秒数。Float（单精度）。时间秒数：。分析开始后的时间，单位是秒。

@@ -1,6 +1,6 @@
 # SetmembersinAssetRegistryDepende-
 
-Adds a node that modifies a 'AssetRegistryDependencyOptions'
+添加一个修改 "AssetRegistryDependencyOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AssetRegistryDependencyOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Asset Registry Dependency Options Structure (by ref).  
+结构参考：资产登记处的依赖性选项结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Asset Registry Dependency Options Structure (by ref). Reference to the input struct.
-
+结构出来。资产注册表依赖性选项结构（通过引用）。对输入结构的引用。

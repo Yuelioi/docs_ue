@@ -1,6 +1,6 @@
 # MakeTextureParameterValue
 
-Adds a node that create a 'TextureParameterValue' from its members
+添加一个节点，从其成员中创建一个'TextureParameterValue'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'TextureParameterValue' from its members
 
 ## Inputs
 
-Parameter Info: Material Parameter Info Structure. Parameter Info.
+参数信息：材料参数信息结构。参数信息。
 
-Parameter Value: Texture Object Reference. Parameter Value.  
+参数值。纹理对象参考。参数值。  
 
 ## Outputs
 
-Texture Parameter Value: Texture Parameter Value Structure.
-
+纹理参数值。纹理参数值结构。

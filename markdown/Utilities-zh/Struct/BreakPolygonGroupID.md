@@ -1,6 +1,6 @@
 # BreakPolygonGroupID
 
-Adds a node that breaks a 'PolygonGroupID' into its member fields
+添加一个节点，将'PolygonGroupID'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'PolygonGroupID' into its member fields
 
 ## Inputs
 
-Polygon Group ID: Polygon Group ID Structure (by ref).  
+多边形组ID。多边形组ID结构（通过参考）。  
 
 ## Outputs
 
-IDValue: Integer. IDValue:. The actual mesh element index this ID represents. Read-only..
-
+ID值。整数。IDValue:.这个ID代表的实际网格元素索引。只读。

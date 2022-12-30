@@ -1,6 +1,6 @@
 # SetmembersinBrushEffectSmoothBle-
 
-Adds a node that modifies a 'BrushEffectSmoothBlending'
+添加一个节点，修改'BrushEffectSmoothBlending'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'BrushEffectSmoothBlending'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Brush Effect Smooth Blending Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Brush Effect Smooth Blending Structure (by ref). Reference to the input struct.
-
+结构出来。Brush Effect Smooth Blending Structure（通过引用）。对输入结构的引用。

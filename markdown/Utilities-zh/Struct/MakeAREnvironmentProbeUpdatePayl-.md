@@ -1,6 +1,6 @@
 # MakeAREnvironmentProbeUpdatePayl-
 
-Adds a node that create a 'AREnvironmentProbeUpdatePayload' from its members
+添加一个节点，从其成员中创建一个 "AREnvironmentProbeUpdatePayload"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'AREnvironmentProbeUpdatePayload' from its members
 
 ## Inputs
 
-World Transform: Transform. World Transform.  
+世界转型。转变。世界转型。  
 
 ## Outputs
 
-AREnvironment Probe Update Payload: AREnvironment Probe Update Payload Structure.
-
+AREnvironment Probe Update Payload。AREnvironment Probe Update Payload结构。

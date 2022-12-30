@@ -1,6 +1,6 @@
 # SetmembersinNavAgentProperties
 
-Adds a node that modifies a 'NavAgentProperties'
+添加一个修改 "NavAgentProperties "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'NavAgentProperties'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Nav Agent Properties Structure (by ref).  
+结构参考：导航员属性结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Nav Agent Properties Structure (by ref). Reference to the input struct.
-
+结构出来。导航代理属性结构（通过引用）。对输入结构的引用。

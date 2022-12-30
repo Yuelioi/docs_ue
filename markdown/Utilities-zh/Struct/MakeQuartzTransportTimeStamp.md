@@ -1,6 +1,6 @@
 # MakeQuartzTransportTimeStamp
 
-Adds a node that create a 'QuartzTransportTimeStamp' from its members
+添加一个节点，从其成员中创建一个 "QuartzTransportTimeStamp"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'QuartzTransportTimeStamp' from its members
 
 ## Outputs
 
-Quartz Transport Time Stamp: Quartz Transport Time Stamp Structure.
-
+石英运输时间戳。石英运输时间戳结构。

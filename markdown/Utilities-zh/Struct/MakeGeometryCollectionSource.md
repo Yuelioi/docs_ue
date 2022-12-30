@@ -1,6 +1,6 @@
 # MakeGeometryCollectionSource
 
-Adds a node that create a 'GeometryCollectionSource' from its members
+添加一个节点，从其成员中创建一个 "GeometryCollectionSource"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'GeometryCollectionSource' from its members
 
 ## Inputs
 
-Source Geometry Object: Soft Object Path Structure. Source Geometry Object.
+源几何对象。软对象路径结构。源几何对象。
 
-Local Transform: Transform. Local Transform.
+当地转型。转化。当地转型。
 
-Source Material: Array of Material Interface Object References. Source Material.  
+源材料。材料界面对象引用数组。源材料。  
 
 ## Outputs
 
-Geometry Collection Source: Geometry Collection Source Structure.
-
+几何学集合源。几何学收藏品来源结构。

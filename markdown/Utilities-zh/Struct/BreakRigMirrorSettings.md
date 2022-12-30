@@ -1,6 +1,6 @@
 # BreakRigMirrorSettings
 
-Adds a node that breaks a 'RigMirrorSettings' into its member fields
+添加一个节点，将'RigMirrorSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'RigMirrorSettings' into its member fields
 
 ## Inputs
 
-Rig Mirror Settings: Rig Mirror Settings Structure (by ref).  
+钻机镜像设置。钻机镜像设置结构（按参考）。  
 
 ## Outputs
 
-Mirror Axis: EAxis Enum. Mirror Axis:. the axis to mirror against.
+镜像轴：EAxis Enum。镜像轴：。要镜像的轴。
 
-Axis To Flip: EAxis Enum. Axis to Flip:. the axis to flip for rotations.
+要翻转的轴。EAxis Enum.Axis to Flip：.旋转时要翻转的轴。
 
-Search: String. Search String:. the string to search for.
+搜索。字符串。搜索字符串：.要搜索的字符串。
 
-Replace: String. Replace String:. the string to replace the search occurrences with.
-
+替换。字符串。替换字符串：.要替换搜索出现的字符串。

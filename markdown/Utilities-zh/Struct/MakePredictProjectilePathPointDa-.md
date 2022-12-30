@@ -1,6 +1,6 @@
 # MakePredictProjectilePathPointDa-
 
-Adds a node that create a 'PredictProjectilePathPointData' from its members
+添加一个节点，从其成员中创建一个 "PredictProjectilePathPointData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PredictProjectilePathPointData' from its members
 
 ## Outputs
 
-Predict Projectile Path Point Data: Predict Projectile Path Point Data Structure.
-
+预测射弹路径点数据。预测弹道点的数据结构。

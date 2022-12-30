@@ -1,6 +1,6 @@
 # MakeVertexOffsetUsage
 
-Adds a node that create a 'VertexOffsetUsage' from its members
+添加一个节点，从其成员中创建一个 "顶点偏移使用"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'VertexOffsetUsage' from its members
 
 ## Outputs
 
-Vertex Offset Usage: Vertex Offset Usage Structure.
-
+顶点偏移用法。顶点偏移用法结构。

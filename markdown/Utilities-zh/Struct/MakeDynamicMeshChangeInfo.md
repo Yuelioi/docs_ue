@@ -1,6 +1,6 @@
 # MakeDynamicMeshChangeInfo
 
-Adds a node that create a 'DynamicMeshChangeInfo' from its members
+添加一个节点，从其成员中创建一个 "DynamicMeshChangeInfo"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DynamicMeshChangeInfo' from its members
 
 ## Outputs
 
-Dynamic Mesh Change Info: Dynamic Mesh Change Info Structure.
-
+动态网格变化信息。动态网格变化信息结构。

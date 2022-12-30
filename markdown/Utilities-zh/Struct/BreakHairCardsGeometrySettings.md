@@ -1,6 +1,6 @@
 # BreakHairCardsGeometrySettings
 
-Adds a node that breaks a 'HairCardsGeometrySettings' into its member fields
+添加一个节点，将'HairCardsGeometrySettings'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'HairCardsGeometrySettings' into its member fields
 
 ## Inputs
 
-Hair Cards Geometry Settings: Hair Cards Geometry Settings Structure (by ref).  
+发卡的几何设置。发卡几何设置结构（由参考）。  
 
 ## Outputs
 
-Generation Type: EHairCardsGenerationType Enum. Generation Type:. Define how cards should be generated. Cards count: define a targeted number of cards. Use guides: use simulation guide as cards..
+生成类型。EHairCardsGenerationType枚举。生成类型：。定义卡片的生成方式。卡片数量：定义卡片的目标数量。使用指南：使用模拟指南作为卡片。
 
-Cards Count: Integer. Cards Count:. Define how many cards should be generated. The generated number can be lower, as some cards can be discarded by other options..
+卡片数量。整数。卡片数：。定义应该生成多少张牌。生成的数量可以更少，因为有些牌可以被其他选项丢弃。
 
-Cluster Type: EHairCardsClusterType Enum. Cluster Type:. Quality of clustering when group hair to belong to a similar cards. This does not change the number cards, but only how cards are shaped (size/shape).
+集群类型。EHairCardsClusterType枚举。集群类型：。聚类的质量，当组发属于一个类似的卡。这并不改变卡片的数量，而只是改变卡片的形状（大小/形状）。
 
-Min Segment Length: Float (single-precision). Min Segment Length:. Minimum size of a card segment.
-
+最小片段长度。Float (single-precision).最小网段长度：。一个卡段的最小尺寸。

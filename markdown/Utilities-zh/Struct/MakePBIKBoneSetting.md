@@ -1,6 +1,6 @@
 # MakePBIKBoneSetting
 
-Adds a node that create a 'PBIKBoneSetting' from its members
+添加一个节点，从其成员中创建一个 "PBIKBoneSetting"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PBIKBoneSetting' from its members
 
 ## Outputs
 
-PBIKBone Setting: PBIKBone Setting Structure.
-
+PBIKBone设置。PBIKBone设置结构。

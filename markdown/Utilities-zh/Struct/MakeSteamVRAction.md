@@ -1,6 +1,6 @@
 # MakeSteamVRAction
 
-Adds a node that create a 'SteamVRAction' from its members
+添加一个节点，从其成员中创建一个 "SteamVRAction"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SteamVRAction' from its members
 
 ## Outputs
 
-Steam VRAction: Steam VRAction Structure.
-
+蒸汽VRAction。蒸汽VRAction结构。

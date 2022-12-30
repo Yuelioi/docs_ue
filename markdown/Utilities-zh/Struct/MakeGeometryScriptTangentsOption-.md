@@ -1,6 +1,6 @@
 # MakeGeometryScriptTangentsOption-
 
-Adds a node that create a 'GeometryScriptTangentsOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptTangentsOptions"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'GeometryScriptTangentsOptions' from its members
 
 ## Inputs
 
-Type: EGeometryScriptTangentTypes Enum. Type.
+类型。EGeometryScriptTangentTypes Enum.类型。
 
-UVLayer: Integer. UVLayer.  
+UVLayer: 整数。紫外线层。  
 
 ## Outputs
 
-Geometry Script Tangents Options: Geometry Script Tangents Options Structure.
-
+Geometry Script Tangents Options:Geometry Script Tangents Options（几何脚本切线选项）结构。

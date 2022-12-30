@@ -1,6 +1,6 @@
 # BreakSourceEffectMotionFilterSet-
 
-Adds a node that breaks a 'SourceEffectMotionFilterSettings' into its member fields
+添加一个节点，将 "SourceEffectMotionFilterSettings "分解到其成员字段中。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'SourceEffectMotionFilterSettings' into its member fie
 
 ## Inputs
 
-Source Effect Motion Filter Settings: Source Effect Motion Filter Settings Structure (by ref).  
+源效果运动滤镜设置。源效果运动滤镜设置结构（按参考）。  
 
 ## Outputs
 
-Motion Filter Topology: ESourceEffectMotionFilterTopology Enum. Motion Filter Topology:. In Serial Mode, Filter A will process then Filter B will process; in Parallel mode, Filter A and Filter B will process the dry input seprately, then be mixed together afterward..
+运动过滤器拓扑结构。ESourceEffectMotionFilterTopology Enum.运动滤波器拓扑结构：。在串行模式下，滤波器A先处理，再由滤波器B处理；在并行模式下，滤波器A和滤波器B将分别处理干输入，然后再混合在一起。
 
-Motion Filter Mix: Float (single-precision). Motion Filter Mix:. Filter Mix controls the amount of each filter in the signal where -1.0f outputs Only Filter A, 0.0f is an equal balance between Filter A and B, and 1.0f outputs only Filter B. How this blend works depends on the Topology..
+运动滤波器混合。Float（单精度）。运动滤波混合：。滤波器混合控制信号中每个滤波器的数量，其中-1.0f只输出滤波器A，0.0f是滤波器A和B之间的平衡，而1.0f只输出滤波器B，这种混合方式取决于Topology.
 
-Filter ASettings: Source Effect Individual Filter Settings Structure. Filter ASettings:. Initial settings for Filter A.
+滤波器ASettings。源效果个别滤镜设置结构。滤波器ASettings:。滤波器A的初始设置。
 
-Filter BSettings: Source Effect Individual Filter Settings Structure. Filter BSettings:. Initial settings for Filter B.
+滤波器BSettings。源效果个别滤镜设置结构。滤波器BSettings:。滤波器B的初始设置。
 
-Modulation Mappings: Map of ESourceEffectMotionFilterModDestination Enums to Source Effect Motion Filter Modulation Settings Structures. Modulation Mappings:. Modulation Mappings.
+调制映射。ESourceEffectMotionFilterModDestination枚举与源效果运动滤波器调制设置结构的映射。调制映射：。调制映射。
 
-Dry Volume Db: Float (single-precision). Dry Volume Db:. Dry volume pass-through in dB..
-
+干体积Db。Float（单精度）。Dry Volume Db:.干 volume pass-through，单位是dB。

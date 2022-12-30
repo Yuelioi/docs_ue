@@ -1,6 +1,6 @@
 # BreakGeometryScriptDisplaceFromT-
 
-Adds a node that breaks a 'GeometryScriptDisplaceFromTextureOptions' into its member fields
+添加一个打破'GeometryScriptDisplaceFromTextureOptions'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'GeometryScriptDisplaceFromTextureOptions' into its me
 
 ## Inputs
 
-Geometry Script Displace from Texture Options: Geometry Script Displace From Texture Options Structure (by ref).  
+Geometry Script Displace from Texture Options:Geometry Script Displace From Texture Options结构（由参考文献）。  
 
 ## Outputs
 
-Magnitude: Float (single-precision). Magnitude.
+幅度。Float（单精度）。幅值。
 
-UVScale: Vector 2D Structure. UVScale.
+UVScale: 矢量2D结构。UVScale。
 
-UVOffset: Vector 2D Structure. UVOffset.
+UVOffset。矢量2D结构。UVOffset。
 
-Center: Float (single-precision). Center.
+中心。Float（单精度）。中心。
 
-Image Channel: Integer. Image Channel.
-
+图像通道。整数。图像通道。

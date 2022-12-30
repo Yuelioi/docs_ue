@@ -1,6 +1,6 @@
 # SetmembersinGeometryScriptSimple-
 
-Adds a node that modifies a 'GeometryScriptSimpleMeshBuffers'
+添加一个修改 "GeometryScriptSimpleMeshBuffers "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryScriptSimpleMeshBuffers'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Geometry Script Simple Mesh Buffers Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Geometry Script Simple Mesh Buffers Structure (by ref). Reference to the input struct.
-
+结构出来。Geometry Script Simple Mesh Buffers结构（通过ref）。对输入结构的引用。

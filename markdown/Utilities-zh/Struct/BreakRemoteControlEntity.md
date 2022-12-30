@@ -1,6 +1,6 @@
 # BreakRemoteControlEntity
 
-Adds a node that breaks a 'RemoteControlEntity' into its member fields
+添加一个节点，将'RemoteControlEntity'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'RemoteControlEntity' into its member fields
 
 ## Inputs
 
-Remote Control Entity: Remote Control Entity Structure (by ref).  
+远程控制实体。远程控制实体结构（按参考）。  
 
 ## Outputs
 
-Owner: Remote Control Preset Weak object. Owner:. The preset that owns this entity..
+业主。遥控预设的弱点对象。所有者：。拥有这个实体的预设...
 
-Label: Name. Label:. This exposed entity's alias..
+标签。名称。标签:.这个暴露的实体的别名。
 
-Id: Guid Structure. Id:. Unique identifier for this entity.
-
+同上。指导结构。Id:.该实体的唯一标识符。

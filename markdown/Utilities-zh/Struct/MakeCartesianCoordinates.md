@@ -1,6 +1,6 @@
 # MakeCartesianCoordinates
 
-Adds a node that create a 'CartesianCoordinates' from its members
+添加一个节点，从其成员中创建一个 "笛卡尔坐标"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CartesianCoordinates' from its members
 
 ## Outputs
 
-Cartesian Coordinates: Cartesian Coordinates Structure.
-
+笛卡尔坐标。笛卡尔坐标结构。

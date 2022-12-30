@@ -1,6 +1,6 @@
 # MakeAISenseAffiliationFilter
 
-Adds a node that create a 'AISenseAffiliationFilter' from its members
+添加一个节点，从其成员中创建一个 "AISenseAffiliationFilter"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AISenseAffiliationFilter' from its members
 
 ## Outputs
 
-AISense Affiliation Filter: AISense Affiliation Filter Structure.
-
+AISense关联过滤器。AISense关联过滤器的结构。

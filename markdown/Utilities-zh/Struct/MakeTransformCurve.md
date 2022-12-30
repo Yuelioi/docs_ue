@@ -1,6 +1,6 @@
 # MakeTransformCurve
 
-Adds a node that create a 'TransformCurve' from its members
+添加一个节点，从其成员中创建一个 "变形曲线"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'TransformCurve' from its members
 
 ## Outputs
 
-Transform Curve: Transform Curve Structure.
-
+变形曲线。变换曲线结构。

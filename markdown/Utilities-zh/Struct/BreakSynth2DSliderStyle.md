@@ -1,6 +1,6 @@
 # BreakSynth2DSliderStyle
 
-Adds a node that breaks a 'Synth2DSliderStyle' into its member fields
+添加一个节点，将'Synth2DSliderStyle'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'Synth2DSliderStyle' into its member fields
 
 ## Inputs
 
-Synth 2DSlider Style: Synth 2DSlider Style Structure (by ref).  
+Synth 2DSlider风格。Synth 2DSlider 风格结构（按参考）。  
 
 ## Outputs
 
-Normal Thumb Image: Slate Brush Structure. Normal Thumb Image:. Image to use for the 2D handle.
+正常的拇指图像。石板刷结构。普通拇指图像：。用于2D手柄的图像。
 
-Disabled Thumb Image: Slate Brush Structure. Disabled Thumb Image:. Image to use for the 2D handle.
+残缺的拇指图像。石板刷结构。失效的拇指图像：。用于2D手柄的图像。
 
-Normal Bar Image: Slate Brush Structure. Normal Bar Image.
+普通条形图像。石板刷结构。正常条形图。
 
-Disabled Bar Image: Slate Brush Structure. Disabled Bar Image.
+残缺的酒吧形象。石板刷结构。残缺的酒吧形象。
 
-Background Image: Slate Brush Structure. Background Image.
+背景图片。石板刷结构。背景图片.
 
-Bar Thickness: Float (single-precision). Bar Thickness.
-
+棒材厚度。Float（单精度）。条形厚度。

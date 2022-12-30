@@ -1,6 +1,6 @@
 # MakeDynamicsBandSettings
 
-Adds a node that create a 'DynamicsBandSettings' from its members
+添加一个节点，从其成员中创建一个 "DynamicsBandSettings"。
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that create a 'DynamicsBandSettings' from its members
 
 ## Inputs
 
-Crossover Top Frequency: Float (single-precision). Crossover Top Frequency:. Frequency of the crossover between this band and the next. The last band will have this property ignored.
+分频器最高频率。Float (single-precision).分频器最高频率：。这个频段和下一个频段之间的交叉频率。最后一个频段的这个属性将被忽略。
 
-Attack Time Msec: Float (single-precision). Attack Time Msec:. The amount of time to ramp into any dynamics processing effect in milliseconds..
+攻击时间Msec:Float (single-precision).攻击时间Msec:。进入任何动态处理效果的时间量，以毫秒为单位。
 
-Release Time Msec: Float (single-precision). Release Time Msec:. The amount of time to release the dynamics processing effect in milliseconds.
+释放时间Msec:Float (single-precision).释放时间Msec:。释放动态处理效果的时间，单位是毫秒。
 
-Threshold Db: Float (single-precision). Threshold Db:. The threshold at which to perform a dynamics processing operation.
+阈值Db。Float (single-precision).阈值Db:。执行动态处理操作的阈值。
 
-Ratio: Float (single-precision). Ratio:. The dynamics processor ratio -- has different meaning depending on the processor type..
+比率。Float（单精度）。比率：。动态处理器比率 -- 根据处理器的类型有不同的含义。
 
-Knee Bandwidth Db: Float (single-precision). Knee Bandwidth Db:. The knee bandwidth of the compressor to use in dB.
+膝部带宽Db。Float（单精度）。膝部带宽Db:。压缩机的膝部带宽，单位是dB。
 
-Input Gain Db: Float (single-precision). Input Gain Db:. The input gain of the dynamics processor in dB.
+输入增益Db。Float (single-precision).输入增益Db：。动态处理器的输入增益，单位是dB。
 
-Output Gain Db: Float (single-precision). Output Gain Db:. The output gain of the dynamics processor in dB.  
+输出增益Db。Float（单精度）。输出增益Db:。动态处理器的输出增益，单位是dB。  
 
 ## Outputs
 
-Dynamics Band Settings: Dynamics Band Settings Structure.
-
+动感地带的设置。动态乐队设置结构。

@@ -1,6 +1,6 @@
 # MakeDMXEntityFixtureTypeConstruc-
 
-Adds a node that create a 'DMXEntityFixtureTypeConstructionParams' from its members
+添加一个节点，从其成员中创建一个 "DMXEntityFixtureTypeConstructionParams"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'DMXEntityFixtureTypeConstructionParams' from its memb
 
 ## Inputs
 
-Parent DMXLibrary: DMXLibrary Object Reference. Parent DMXLibrary:. The DMX Library in which the Fixture Type will be constructed.
+父 DMXLibrary。DMXLibrary对象参考。父DMX库：.将构建灯具类型的DMX库。
 
-DMXCategory: DMXFixture Category Structure. DMXCategory:. The Category of the Fixture, useful for Filtering.
+DMXCategory。DMXFixture类别结构。DMXCategory:.灯具的类别，对过滤有用。
 
-Modes: Array of DMXFixture Mode Structures. Modes:. The Modes of the Fixture Type.  
+模式。DMXFixture模式结构的阵列。模式：.灯具类型的模式。  
 
 ## Outputs
 
-DMXEntity Fixture Type Construction Params: DMXEntity Fixture Type Construction Params Structure.
-
+DMXEntity Fixture Type Construction Params。DMXEntity Fixture Type Construction Params结构。

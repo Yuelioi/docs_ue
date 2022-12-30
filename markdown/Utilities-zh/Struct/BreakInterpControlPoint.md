@@ -1,6 +1,6 @@
 # BreakInterpControlPoint
 
-Adds a node that breaks a 'InterpControlPoint' into its member fields
+添加一个节点，将'InterpControlPoint'分解到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'InterpControlPoint' into its member fields
 
 ## Inputs
 
-Interp Control Point: Interp Control Point Structure (by ref).  
+Interp控制点：Interp控制点结构（通过参考）。  
 
 ## Outputs
 
-Position Control Point: Vector. Position Control Point:. The position of the point.
+位置控制点。向量。位置控制点：。该点的位置。
 
-Position Is Relative: Boolean. Position Is Relative:. Is the location relative to the root components initial location.
-
+位置是相对的。Boolean.位置是相对的：。是相对于根组件初始位置的位置。

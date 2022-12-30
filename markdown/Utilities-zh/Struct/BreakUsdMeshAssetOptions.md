@@ -1,6 +1,6 @@
 # BreakUsdMeshAssetOptions
 
-Adds a node that breaks a 'UsdMeshAssetOptions' into its member fields
+添加一个节点，将'UsdMeshAssetOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'UsdMeshAssetOptions' into its member fields
 
 ## Inputs
 
-Usd Mesh Asset Options: Usd Mesh Asset Options Structure (by ref).  
+Usd Mesh资产期权。Usd网状资产期权结构（按参考）。  
 
 ## Outputs
 
-Use Payload: Boolean. Use Payload:. If true, the mesh data is exported to yet another "payload" file, and referenced via a payload composition arc.
+使用有效载荷。Boolean.使用有效载荷：。如果为真，网格数据会被导出到另一个 "有效载荷 "文件中，并通过有效载荷组成弧进行引用。
 
-Payload Format: String. Payload Format:. USD format to use for exported payload files.
+有效载荷格式。字符串。有效载荷格式：。用于导出的有效载荷文件的美元格式。
 
-Bake Materials: Boolean. Bake Materials:. Whether to bake the mesh's assigned material and export these as separate UsdPreviewSurface assets.
+烘烤材料。Boolean.Bake Materials:（烘焙材质）。是否对网格的指定材质进行烘焙，并将其作为单独的UsdPreviewSurface资产导出。
 
-Remove Unreal Materials: Boolean. Remove Unreal Materials:. Whether to remove the 'unrealMaterial' attribute after binding the corresponding baked material.
+移除虚幻材料。布尔值。移除虚幻材质：。在绑定了相应的烘焙材质后，是否要移除'unrealMaterial'属性。
 
-Material Baking Options: Usd Material Baking Options Structure. Material Baking Options.
+材料烘烤期权。Usd材料烘烤选项结构。材料烘烤选项。
 
-Lowest Mesh LOD: Integer. Lowest Mesh LOD:. Lowest of the LOD indices to export static and skeletal meshes with (use 0 for full detail).
+最低网格LOD：整数。Lowest Mesh LOD：。输出静态网格和骨骼网格的最低LOD指数（使用0表示完全细节）。
 
-Highest Mesh LOD: Integer. Highest Mesh LOD:. Highest of the LOD indices to export static and skeletal meshes with.
-
+最高网格LOD：整数。最高网格LOD：。输出静态和骨架网格的最高LOD指数。

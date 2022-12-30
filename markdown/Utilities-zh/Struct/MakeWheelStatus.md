@@ -1,6 +1,6 @@
 # MakeWheelStatus
 
-Adds a node that create a 'WheelStatus' from its members
+添加一个节点，从其成员中创建一个 "WheelStatus"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'WheelStatus' from its members
 
 ## Outputs
 
-Wheel Status: Wheel Status Structure.
-
+车轮状态。车轮状态结构。

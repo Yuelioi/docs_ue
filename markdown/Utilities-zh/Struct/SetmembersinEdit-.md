@@ -1,6 +1,6 @@
 # SetmembersinEdit-
 
-Adds a node that modifies a 'EditorDialogLibraryObjectDetailsViewOptions'
+添加一个节点，修改'EditorDialogLibraryObjectDetailsViewOptions'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'EditorDialogLibraryObjectDetailsViewOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Editor Dialog Library Object Details View Options Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Editor Dialog Library Object Details View Options Structure (by ref). Reference to the input struct.
-
+结构出来。Editor Dialog Library Object Details View Options Structure（通过引用）。对输入结构的引用。

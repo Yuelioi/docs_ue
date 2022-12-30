@@ -1,6 +1,6 @@
 # SetmembersinImportAssetParameter-
 
-Adds a node that modifies a 'ImportAssetParameters'
+添加一个修改 "ImportAssetParameters "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ImportAssetParameters'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Import Asset Parameters Structure (by ref).  
+结构参考：导入资产参数结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Import Asset Parameters Structure (by ref). Reference to the input struct.
-
+Struct Out: Import Asset Parameters Structure (by ref).对输入结构的引用。

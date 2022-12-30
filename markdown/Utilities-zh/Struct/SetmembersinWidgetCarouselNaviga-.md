@@ -1,6 +1,6 @@
 # SetmembersinWidgetCarouselNaviga-
 
-Adds a node that modifies a 'WidgetCarouselNavigationBarStyle'
+添加一个节点，修改 "WidgetCarouselNavigationBarStyle"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'WidgetCarouselNavigationBarStyle'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Widget Carousel Navigation Bar Style Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Widget Carousel Navigation Bar Style Structure (by ref). Reference to the input struct.
-
+结构出来。小工具旋转木马导航栏样式结构（通过引用）。对输入结构的引用。

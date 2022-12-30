@@ -1,6 +1,6 @@
 # SetmembersinRigLocalAndGlobalTra-
 
-Adds a node that modifies a 'RigLocalAndGlobalTransform'
+添加一个修改 "RigLocalAndGlobalTransform "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RigLocalAndGlobalTransform'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Rig Local And Global Transform Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Rig Local And Global Transform Structure (by ref). Reference to the input struct.
-
+结构出来。Rig Local And Global Transform Structure（通过Ref）。对输入结构的引用。

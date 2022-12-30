@@ -1,6 +1,6 @@
 # MakeLevelSequencePlayerSnapshot
 
-Adds a node that create a 'LevelSequencePlayerSnapshot' from its members
+添加一个节点，从其成员中创建一个 "LevelSequencePlayerSnapshot"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'LevelSequencePlayerSnapshot' from its members
 
 ## Outputs
 
-Level Sequence Player Snapshot: Level Sequence Player Snapshot Structure.
-
+水平序列播放器快照。水平序列播放器快照结构。

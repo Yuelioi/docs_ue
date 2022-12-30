@@ -1,6 +1,6 @@
 # SetmembersinDMXImportGDTFLogical-
 
-Adds a node that modifies a 'DMXImportGDTFLogicalChannel'
+添加一个修改'DMXImportGDTFLogicalChannel'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXImportGDTFLogicalChannel'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: DMXImport GDTFLogical Channel Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMXImport GDTFLogical Channel Structure (by ref). Reference to the input struct.
-
+结构输出。DMXImport GDTFLogical通道结构（通过ref）。对输入结构的引用。

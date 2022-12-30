@@ -1,6 +1,6 @@
 # MakeRigElementKeyCollection
 
-Adds a node that create a 'RigElementKeyCollection' from its members
+添加一个节点，从其成员中创建一个 "RigElementKeyCollection"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'RigElementKeyCollection' from its members
 
 ## Inputs
 
-Keys: Array of Rig Element Key Structures. Keys.  
+键。钻机元素钥匙结构的阵列。钥匙。  
 
 ## Outputs
 
-Rig Element Key Collection: Rig Element Key Collection Structure.
-
+钻机元素密钥集合。钻机元素钥匙集合结构。

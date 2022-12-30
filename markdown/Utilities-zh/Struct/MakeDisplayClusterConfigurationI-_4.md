@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationI-_4
 
-Adds a node that create a 'DisplayClusterConfigurationICVFX_Size' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationICVFX_Size"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'DisplayClusterConfigurationICVFX_Size' from its membe
 
 ## Inputs
 
-Width: Integer. Width:. Viewport width in pixels.
+宽度：整数。宽度：。视口宽度，单位是像素。
 
-Height: Integer. Height:. Viewport height in pixels.  
+高度：整数。高度：。视口高度，单位是像素。  
 
 ## Outputs
 
-Display Cluster Configuration ICVFX Size: Display Cluster Configuration ICVFX Size Structure.
-
+显示群集配置ICVFX大小。显示群组配置ICVFX大小的结构。

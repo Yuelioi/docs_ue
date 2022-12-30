@@ -1,6 +1,6 @@
 # MakeInputScaleBiasClampState
 
-Adds a node that create a 'InputScaleBiasClampState' from its members
+添加一个节点，从其成员中创建一个 "InputScaleBiasClampState"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'InputScaleBiasClampState' from its members
 
 ## Outputs
 
-Input Scale Bias Clamp State: Input Scale Bias Clamp State Structure.
-
+输入比例偏置钳制状态。输入标度偏置钳位状态结构。

@@ -1,6 +1,6 @@
 # SetmembersinDMXImportGDTFChannel-_1
 
-Adds a node that modifies a 'DMXImportGDTFChannelSet'
+添加一个修改'DMXImportGDTFChannelSet'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXImportGDTFChannelSet'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: DMXImport GDTFChannel Set Structure (by ref).  
+Struct Ref: DMXImport GDTFchannel Set Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMXImport GDTFChannel Set Structure (by ref). Reference to the input struct.
-
+结构输出。DMXImport GDTFchannel Set结构（通过ref）。对输入结构的引用。

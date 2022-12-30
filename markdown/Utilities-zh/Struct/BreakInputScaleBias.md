@@ -1,6 +1,6 @@
 # BreakInputScaleBias
 
-Adds a node that breaks a 'InputScaleBias' into its member fields
+添加一个节点，将'InputScaleBias'分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'InputScaleBias' into its member fields
 
 ## Inputs
 
-Input Scale Bias: Input Scale Bias Structure (by ref).  
+输入标度偏差：输入标度偏差结构（通过参考）。  
 
 ## Outputs
 
-Scale: Float (single-precision). Scale.
+规模。Float（单精度）。规模。
 
-Bias: Float (single-precision). Bias.
-
+Bias: Float (single-precision).偏压。

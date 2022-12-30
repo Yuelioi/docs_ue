@@ -1,6 +1,6 @@
 # MakeContextualAnimIKTarget
 
-Adds a node that create a 'ContextualAnimIKTarget' from its members
+添加一个节点，从其成员中创建一个 "ContextualAnimIKTarget"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'ContextualAnimIKTarget' from its members
 
 ## Inputs
 
-Goal Name: Name. Goal Name.
+目标名称：名称。目标名称。
 
-Alpha: Float (single-precision). Alpha.
+阿尔法。Float（单精度）。阿尔法。
 
-Transform: Transform. Transform.  
+转变。转变。转变。  
 
 ## Outputs
 
-Contextual Anim IKTarget: Contextual Anim IKTarget Structure.
-
+语境动画 IKTarget:语境动画 IKTarget 结构.

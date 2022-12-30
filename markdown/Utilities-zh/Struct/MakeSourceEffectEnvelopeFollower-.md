@@ -1,6 +1,6 @@
 # MakeSourceEffectEnvelopeFollower-
 
-Adds a node that create a 'SourceEffectEnvelopeFollowerSettings' from its members
+添加一个节点，从其成员中创建一个'SourceEffectEnvelopeFollowerSettings'。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'SourceEffectEnvelopeFollowerSettings' from its member
 
 ## Inputs
 
-Attack Time: Float (single-precision). Attack Time:. The attack time of the envelope follower in milliseconds.
+攻击时间。Float（单精度）。攻击时间：。包络器的攻击时间，单位是毫秒。
 
-Release Time: Float (single-precision). Release Time:. The release time of the envelope follower in milliseconds.
+释放时间。Float（单精度）。释放时间：。包络器的释放时间，单位是毫秒。
 
-Peak Mode: EEnvelopeFollowerPeakMode Enum. Peak Mode:. The peak mode of the envelope follower.
+峰值模式。EEnvelopeFollowerPeakMode枚举。峰值模式：。包络器的峰值模式。
 
-Is Analog Mode: Boolean. Is Analog Mode:. Whether or not the envelope follower is in analog mode.  
+是模拟模式。布尔值。是模拟模式：。包络器是否处于模拟模式。  
 
 ## Outputs
 
-Source Effect Envelope Follower Settings: Source Effect Envelope Follower Settings Structure.
-
+源效果包络器设置。源效果包络器设置结构。

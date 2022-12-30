@@ -1,6 +1,6 @@
 # MakeAnimationBudgetAllocatorPara-
 
-Adds a node that create a 'AnimationBudgetAllocatorParameters' from its members
+添加一个节点，从其成员中创建一个 "AnimationBudgetAllocatorParameters"。
 
 ## 图示
 
@@ -8,47 +8,46 @@ Adds a node that create a 'AnimationBudgetAllocatorParameters' from its members
 
 ## Inputs
 
-Budget In Ms: Float (single-precision). Budget in Ms:. Values > 0.1.. The time in milliseconds that we allocate for skeletal mesh work to be performed.. When overbudget various other parameters come into play, such as AlwaysTickFalloffAggression and InterpolationFalloffAggression..
+预算 在Ms:Float（单精度）。预算在Ms中：。值 > 0.1.我们分配给骨架网格工作的时间，以毫秒为单位。当超过预算时，其他各种参数就会发挥作用，例如AlwaysTickFalloffAggression和InterpolationFalloffAggression。
 
-Min Quality: Float (single-precision). Min Quality:. Values [0.0, 1.0].. The minimum quality metric allowed. Quality is determined simply by NumComponentsTickingThisFrame / NumComponentsThatWeNeedToTick.. If this is anything other than 0.0 then we can potentially go over our time budget..
+最小质量。Float（单精度）。最小质量：。值[0.0, 1.0]。允许的最小质量指标。质量由NumComponentsTickingThisFrame/NumComponentsThatWeNeedToTick决定。如果这个值不是0.0，那么我们就有可能超过我们的时间预算。
 
-Max Tick Rate: Integer. Max Tick Rate:. Values >= 1.. The maximum tick rate we allow. If this is set then we can potentially go over budget, but keep quality of individual meshes to a reasonable level..
+最大滴答率。整数。Max Tick Rate:.数值>=1.。我们允许的最大滴答率。如果设置了这个值，那么我们就有可能超出预算，但是要把单个网格的质量保持在一个合理的水平。
 
-Work Unit Smoothing Speed: Float (single-precision). Work Unit Smoothing Speed:. Values > 0.1.. The speed at which the average work unit converges on the measured amount..
+工作单位平滑速度。Float（单精度）。工作单位平滑速度：。值>0.1.。平均工作单位收敛在测量量上的速度。
 
-Always Tick Falloff Aggression: Float (single-precision). Always Tick Falloff Aggression:. Range [0.1, 0.9].. Controls the rate at which 'always ticked' components falloff under load.. Higher values mean that we reduce the number of always ticking components by a larger amount when the allocated time budget is exceeded..
+Always Tick Falloff Aggression:Float (single-precision).Always Tick Falloff Aggression:.范围[0.1, 0.9].控制负载下 "总是打勾 "组件的衰减速度。更高的值意味着当超过分配的时间预算时，我们会以更大的量来减少总是打勾的组件的数量。
 
-Interpolation Falloff Aggression: Float (single-precision). Interpolation Falloff Aggression:. Range [0.1, 0.9].. Controls the rate at which interpolated components falloff under load.. Higher values mean that we reduce the number of interpolated components by a larger amount when the allocated time budget is exceeded.. Components are only interpolated when the time budget is exceeded..
+插值失调增强。Float (single-precision).内插失误率：。范围 [0.1, 0.9].控制负载下插值组件的衰减速度。较高的值意味着当超过分配的时间预算时，我们会以较大的数量减少插值组件的数量。只有在超过时间预算时，才会对组件进行插值。
 
-Interpolation Max Rate: Integer. Interpolation Max Rate:. Values > 1.. Controls the rate at which ticks happen when interpolating..
+内插最大速率。整数。插值最大速率：。值>1...控制插值时发生嘀嗒声的速率。
 
-Max Interpolated Components: Integer. Max Interpolated Components:. Range >= 0.. Max number of components to interpolate before we start throttling..
+最大插值成分。整数。最大插值成分：。范围 >= 0... 在我们开始节流之前，插值的最大组件数。
 
-Interpolation Tick Multiplier: Float (single-precision). Interpolation Tick Multiplier:. Range [0.1, 0.9].. Controls the expected value an amortized interpolated tick will take compared to a 'normal' tick..
+内插勾股乘数。Float (single-precision).Interpolation Tick Multiplier:.范围[0.1, 0.9].控制与 "正常 "刻度相比，摊销的插值刻度的预期值。
 
-Initial Estimated Work Unit Time Ms: Float (single-precision). Initial Estimated Work Unit Time Ms:. Values > 0.0.. Controls the time in milliseconds we expect, on average, for a skeletal mesh component to execute.. The value only applies for the first tick of a component, after which we use the real time the tick takes..
+初始估计工作单位时间女士。Float（单精度）。初始估计工作单位时间Ms:。值>0.0...控制我们平均期望一个骨架网格组件执行的时间，单位是毫秒。这个值只适用于组件的第一次勾选，之后我们使用勾选的实际时间。
 
-Max Ticked Offsreen Components: Integer. Max Ticked Offsreen Components:. Values >= 1. The maximum number of offscreen components we tick (most significant first).
+最大勾选的离屏组件。整数。Max Ticked Offsreen Components:.值>=1。我们勾选的最大离屏组件数（最重要的在前）。
 
-State Change Throttle In Frames: Integer. State Change Throttle in Frames:. Range [1, 128]. Prevents throttle values from changing too often due to system and load noise..
+以帧为单位的状态变化节流。整数。以帧为单位的状态变化节流：。范围 [1, 128].防止节流值因系统和负载噪音而变化太频繁。
 
-Budget Factor Before Reduced Work: Float (single-precision). Budget Factor Before Reduced Work:. Range > 1\. Reduced work will be delayed until budget pressure goes over this amount..
+减工前的预算系数。Float (single-precision).减少工作前的预算系数：。范围 > 1/。减少的工作将被推迟，直到预算压力超过这个数额。
 
-Budget Factor Before Reduced Work Epsilon: Float (single-precision). Budget Factor Before Reduced Work Epsilon:. Range > 0.0.. Increased work will be delayed until budget pressure goes under BudgetFactorBeforeReducedWork minus this amount..
+减工前预算系数Epsilon: Float（单精度）。减工前预算系数Epsilon:.范围>0.0。增加的工作将被推迟，直到预算压力低于BudgetFactorBeforeReducedWork减去这个数额。
 
-Budget Pressure Smoothing Speed: Float (single-precision). Budget Pressure Smoothing Speed:. Range > 0.0.. How much to smooth the budget pressure value used to throttle reduced work..
+预算压力平滑速度。Float（单精度）。预算压力平滑速度：。范围>0.0。平滑预算压力值的程度，用于节流减少工作。
 
-Reduced Work Throttle Min In Frames: Integer. Reduced Work Throttle Min in Frames:. Range [1, 255].. Prevents reduced work from changing too often due to system and load noise. Min value used when over budget pressure (i.e. aggressive reduction)..
+减少的工作节流最小帧数。整数。减少的工作节流最小帧数：。范围 [1, 255].防止由于系统和负载噪音而使减少的工作变化过于频繁。超出预算压力时使用的最小值（即积极的减少）。
 
-Reduced Work Throttle Max In Frames: Integer. Reduced Work Throttle Max in Frames:. Range [1, 255].. Prevents reduced work from changing too often due to system and load noise. Max value used when under budget pressure..
+减工节气门最大帧数。整数。减少的工作节气门最大帧数：。范围 [1, 255].防止因系统和负载噪音而使减少的工作变化太频繁。在预算压力下使用的最大值。
 
-Budget Factor Before Aggressive Reduced Work: Float (single-precision). Budget Factor Before Aggressive Reduced Work:. Range > 1.. Reduced work will be applied more rapidly when budget pressure goes over this amount..
+积极减少工作前的预算系数。Float（单精度）。积极减少工作前的预算系数：。范围 > 1.当预算压力超过这一数额时，减少工作将被更快地应用。
 
-Reduced Work Throttle Max Per Frame: Integer. Reduced Work Throttle Max Per Frame:. Range [1, 255].. Controls the max number of components that are switched to/from reduced work per tick..
+每帧减少的工作节气门最大值。整数。每帧减少的工作节流的最大值：。范围 [1, 255].控制每一帧被切换到/从减少工作的组件的最大数量。
 
-Budget Pressure Before Emergency Reduced Work: Float (single-precision). Budget Pressure Before Emergency Reduced Work:. Range > 0.0.. Controls the budget pressure where emergency reduced work (applied to all components except those that are bAlwaysTick)..  
+紧急减工前的预算压力。Float（单精度）。紧急减工前的预算压力：。范围 > 0.0...控制紧急减少工作时的预算压力（适用于所有组件，除了那些bAlwaysTick）。
 
 ## Outputs
 
-Animation Budget Allocator Parameters: Animation Budget Allocator Parameters Structure.
-
+动画预算分配器参数。动画预算分配器参数结构。

@@ -1,6 +1,6 @@
 # MakeAnimExecutionContext
 
-Adds a node that create a 'AnimExecutionContext' from its members
+添加一个节点，从其成员中创建一个 "AnimExecutionContext"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AnimExecutionContext' from its members
 
 ## Outputs
 
-Anim Execution Context: Anim Execution Context Structure.
-
+动画执行语境:Anim Execution Context Structure.

@@ -1,6 +1,6 @@
 # SetmembersinMediaCaptureDevice
 
-Adds a node that modifies a 'MediaCaptureDevice'
+添加一个修改 "MediaCaptureDevice "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MediaCaptureDevice'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Media Capture Device Structure (by ref).  
+Struct Ref: 媒体采集设备结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Media Capture Device Structure (by ref). Reference to the input struct.
-
+结构出来。媒体捕获设备结构（通过引用）。对输入结构的引用。

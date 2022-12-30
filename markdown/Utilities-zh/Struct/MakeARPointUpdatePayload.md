@@ -1,6 +1,6 @@
 # MakeARPointUpdatePayload
 
-Adds a node that create a 'ARPointUpdatePayload' from its members
+添加一个节点，从其成员中创建一个'ARPointUpdatePayload'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ARPointUpdatePayload' from its members
 
 ## Outputs
 
-ARPoint Update Payload: ARPoint Update Payload Structure.
-
+ARPoint Update Payload:ARPoint Update Payload结构。

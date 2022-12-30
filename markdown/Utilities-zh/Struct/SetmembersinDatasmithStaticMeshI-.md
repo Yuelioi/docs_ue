@@ -1,6 +1,6 @@
 # SetmembersinDatasmithStaticMeshI-
 
-Adds a node that modifies a 'DatasmithStaticMeshImportOptions'
+添加一个修改 "DatasmithStaticMeshImportOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DatasmithStaticMeshImportOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Datasmith Static Mesh Import Options Structure (by ref).  
+结构参考：Datasmith静态网格导入选项结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Datasmith Static Mesh Import Options Structure (by ref). Reference to the input struct.
-
+结构出来。Datasmith静态网格导入选项结构（by ref）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # SetmembersinWorldPartitionStream-
 
-Adds a node that modifies a 'WorldPartitionStreamingQuerySource'
+添加一个修改 "WorldPartitionStreamingQuerySource "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'WorldPartitionStreamingQuerySource'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: World Partition Streaming Query Source Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: World Partition Streaming Query Source Structure (by ref). Reference to the input struct.
-
+结构出来。世界分区流查询源结构（通过ref）。对输入结构的引用。

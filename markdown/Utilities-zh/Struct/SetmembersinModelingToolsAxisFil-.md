@@ -1,6 +1,6 @@
 # SetmembersinModelingToolsAxisFil-
 
-Adds a node that modifies a 'ModelingToolsAxisFilter'
+添加一个节点，修改 "ModelingToolsAxisFilter"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ModelingToolsAxisFilter'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Modeling Tools Axis Filter Structure (by ref).  
+结构参考：建模工具轴过滤器结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Modeling Tools Axis Filter Structure (by ref). Reference to the input struct.
-
+结构出来。建模工具轴过滤器结构（通过参考）。对输入结构的引用。

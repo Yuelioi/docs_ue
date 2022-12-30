@@ -1,6 +1,6 @@
 # MakeVREDCppVariantSet
 
-Adds a node that create a 'VREDCppVariantSet' from its members
+添加一个节点，从其成员中创建一个'VREDCppVariantSet'。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'VREDCppVariantSet' from its members
 
 ## Inputs
 
-Target Variant Names: Array of Strings. Target Variant Names.
+目标变体名称。字符串的数组。目标变量名称。
 
-Chosen Options: Array of Strings. Chosen Options.
+选择的选项。字符串的阵列。选择的选项。
 
-Variant Set Group Name: String. Variant Set Group Name.
+变体集组名称。字符串。Variant Set Group Name.
 
-Anim Clips: Array of Strings. Anim Clips.
+动画剪辑:数组字符串.Anim Clips.
 
-Sequential Animation: Boolean. Sequential Animation.  
+序列动画。Boolean.Sequential Animation.  
 
 ## Outputs
 
-VREDCpp Variant Set: VREDCpp Variant Set Structure.
-
+VREDCpp变量集：VREDCpp变量集结构。

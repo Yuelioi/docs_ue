@@ -1,6 +1,6 @@
 # BreakGeometryScriptPerlinNoiseLa-
 
-Adds a node that breaks a 'GeometryScriptPerlinNoiseLayerOptions' into its member fields
+添加一个节点，将'GeometryScriptPerlinNoiseLayerOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'GeometryScriptPerlinNoiseLayerOptions' into its membe
 
 ## Inputs
 
-Geometry Script Perlin Noise Layer Options: Geometry Script Perlin Noise Layer Options Structure (by ref).  
+Geometry Script Perlin Noise Layer Options:Geometry Script Perlin Noise Layer Options结构（按参考）。  
 
 ## Outputs
 
-Magnitude: Float (single-precision). Magnitude.
+幅度。Float（单精度）。幅值。
 
-Frequency: Float (single-precision). Frequency.
+频率。Float (single-precision).频率。
 
-Frequency Shift: Vector. Frequency Shift.
+频移。矢量。频移。
 
-Random Seed: Integer. Random Seed.
-
+随机种子：整数。随机种子。

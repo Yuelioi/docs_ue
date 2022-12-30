@@ -1,6 +1,6 @@
 # MakeRigControlModifiedContext
 
-Adds a node that create a 'RigControlModifiedContext' from its members
+添加一个节点，从其成员中创建一个 "RigControlModifiedContext"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigControlModifiedContext' from its members
 
 ## Outputs
 
-Rig Control Modified Context: Rig Control Modified Context Structure.
-
+钻机控制修改后的上下文。钻机控制修改后的上下文结构。

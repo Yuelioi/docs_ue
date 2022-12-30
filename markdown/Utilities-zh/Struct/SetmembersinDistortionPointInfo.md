@@ -1,6 +1,6 @@
 # SetmembersinDistortionPointInfo
 
-Adds a node that modifies a 'DistortionPointInfo'
+添加一个修改 "DistortionPointInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DistortionPointInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Distortion Point Info Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Distortion Point Info Structure (by ref). Reference to the input struct.
-
+结构出来。失真点信息结构（通过引用）。对输入结构的引用。

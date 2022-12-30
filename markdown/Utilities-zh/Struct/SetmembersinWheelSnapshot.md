@@ -1,6 +1,6 @@
 # SetmembersinWheelSnapshot
 
-Adds a node that modifies a 'WheelSnapshot'
+添加一个修改 "WheelSnapshot "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'WheelSnapshot'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Wheel Snapshot Structure (by ref).  
+结构参考：车轮快照结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Wheel Snapshot Structure (by ref). Reference to the input struct.
-
+结构出来。轮子快照结构（通过引用）。对输入结构的引用。

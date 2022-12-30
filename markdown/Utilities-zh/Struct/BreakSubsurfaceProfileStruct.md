@@ -1,6 +1,6 @@
 # BreakSubsurfaceProfileStruct
 
-Adds a node that breaks a 'SubsurfaceProfileStruct' into its member fields
+添加一个节点，将 "SubsurfaceProfileStruct "分解成其成员字段。
 
 ## 图示
 
@@ -8,43 +8,42 @@ Adds a node that breaks a 'SubsurfaceProfileStruct' into its member fields
 
 ## Inputs
 
-Subsurface Profile Struct: Subsurface Profile Struct Structure (by ref).  
+次表层剖面结构。次表层剖面图结构（按参考）。  
 
 ## Outputs
 
-Surface Albedo: Linear Color Structure. Surface Albedo:. It should match The base color of the corresponding material as much as possible..
+表面反照率。线性色彩结构。表面反照率：。它应该尽可能地与相应材料的基色相匹配。
 
-Mean Free Path Color: Linear Color Structure. Mean Free Path Color:. Controls how far light goes into the subsurface in the Red, Green and Blue channel. It is scaled by Mean Free path distance..
+平均自由路径颜色：线性颜色结构。平均自由路径颜色：。控制光线在红、绿、蓝通道中进入次表面的距离。它是由平均自由路径距离缩放的。
 
-Mean Free Path Distance: Float (single-precision). Mean Free Path Distance:. Subsurface mean free path distance in world/unreal units (cm).
+平均自由路径距离。Float (single-precision).平均自由路径距离：。次表层平均自由路径距离，以世界/非真实单位（cm）表示。
 
-World Unit Scale: Float (single-precision). World Unit Scale:. Control the scale of world/unreal units (cm).
+世界单位规模。Float（单精度）。世界单位比例：。控制世界/非真实单位的比例（厘米）。
 
-Enable Burley: Boolean. Enable Burley:. Effective only when Burley subsurface scattering is enabled in cmd..
+启用伯力：布尔值。启用Burley：。仅在cmd.中启用Burley次表面散射时有效。
 
-Tint: Linear Color Structure. Tint:. Specifies the how much of the diffuse light gets into the material,. can be seen as a per-channel mix factor between the original image,. and the SSS-filtered image. It introduces Non-PBR looks..
+色调。线性色彩结构。Tint:（色调）。指定有多少漫射光进入材料，可以看作是原始图像和SSS过滤后的图像之间的每个通道的混合系数。它引入了非PBR外观。
 
-Scatter Radius: Float (single-precision). Scatter Radius:. in world/unreal units (cm).
+散点半径。Float（单精度）。Scatter Radius:.以世界/非真实单位（cm）。
 
-Subsurface Color: Linear Color Structure. Subsurface Color:. Specifies the how much of the diffuse light gets into the material,. can be seen as a per-channel mix factor between the original image,. and the SSS-filtered image (called "strength" in SeparableSSS, default there: 0.48, 0.41, 0.28).
+次表层颜色：线性颜色结构。Subsurface Color：.指定多少漫射光进入材料，可以看作是原始图像和SSS过滤后的图像之间的每个通道的混合系数（在SeparableSSS中称为 "强度"，默认为：0.48，0.41，0.28）。
 
-Falloff Color: Linear Color Structure. Falloff Color:. defines the per-channel falloff of the gradients. produced by the subsurface scattering events, can be used to fine tune the color of the gradients. (called "falloff" in SeparableSSS, default there: 1, 0.37, 0.3).
+衰减色：线性颜色结构。Falloff Color: 定义梯度的每通道衰减，由次表面散射事件产生，可以用来微调梯度的颜色。(在SeparableSSS中称为 "falloff"，默认为：1、0.37、0.3）。
 
-Boundary Color Bleed: Linear Color Structure. Boundary Color Bleed.
+边界颜色漂移。线性色彩结构。边界颜色漂白。
 
-Extinction Scale: Float (single-precision). Extinction Scale.
+灭绝规模。Float（单精度）。灭绝规模。
 
-Normal Scale: Float (single-precision). Normal Scale.
+正常刻度。Float（单精度）。正常规模。
 
-Scattering Distribution: Float (single-precision). Scattering Distribution.
+散射分布。Float (single-precision).散射分布。
 
-IOR: Float (single-precision). IOR.
+IOR。Float（单精度）。IOR.
 
-Roughness 0: Float (single-precision). Roughness 0.
+粗糙度0：浮点数（单精度）。粗糙度0。
 
-Roughness 1: Float (single-precision). Roughness 1.
+粗糙度1：浮点数（单精度）。粗糙度1。
 
-Lobe Mix: Float (single-precision). Lobe Mix.
+扇形混合。Float（单精度）。扇形混合。
 
-Transmission Tint Color: Linear Color Structure. Transmission Tint Color:. Transmission tint control. It is multiplied on the transmission results. Works only when Burley is enabled..
-
+传输色调颜色：线性颜色结构。传输色调的颜色：。传输色调控制。它是在传输结果上的乘法。只在启用Burley时起作用...

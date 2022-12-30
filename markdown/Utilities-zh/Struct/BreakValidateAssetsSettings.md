@@ -1,6 +1,6 @@
 # BreakValidateAssetsSettings
 
-Adds a node that breaks a 'ValidateAssetsSettings' into its member fields
+添加一个节点，将'ValidateAssetsSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ValidateAssetsSettings' into its member fields
 
 ## Inputs
 
-Validate Assets Settings: Validate Assets Settings Structure (by ref).  
+验证资产设置。验证资产设置结构（通过参考）。  
 
 ## Outputs
 
-Skip Excluded Directories: Boolean. Skip Excluded Directories:. If true, will not validate files in excluded directories.
+跳过排除的目录。Boolean.跳过排除的目录：。如果为真，将不验证排除目录中的文件。
 
-Show If No Failures: Boolean. Show if No Failures:. If true, will add notifications for files with no validation and display even if everything passes.
+显示如果没有失败。布尔型。如果没有失败就显示：。如果为真，将为没有验证的文件添加通知，即使一切都通过，也会显示。
 
-Validation Usecase: EDataValidationUsecase Enum. Validation Usecase:. The usecase requiring datavalidation.
-
+验证用例。EDataValidationUsecase Enum.验证用例：。需要进行数据验证的用例。

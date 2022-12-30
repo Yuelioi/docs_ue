@@ -1,6 +1,6 @@
 # BreakGeometryScriptPNTessellateO-
 
-Adds a node that breaks a 'GeometryScriptPNTessellateOptions' into its member fields
+添加一个节点，将'GeometryScriptPNTessellateOptions'分解到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'GeometryScriptPNTessellateOptions' into its member fi
 
 ## Inputs
 
-Geometry Script PNTessellate Options: PN Tessellate Options Structure (by ref).  
+Geometry Script PNTessellate Options:PN Tessellate选项结构（参考）。  
 
 ## Outputs
 
-Recompute Normals: Boolean. Recompute Normals.
-
+重新计算法线。布尔值。重新计算法线。

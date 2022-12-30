@@ -1,6 +1,6 @@
 # BreakSourceControlState
 
-Adds a node that breaks a 'SourceControlState' into its member fields
+添加一个节点，将'SourceControlState'分解到其成员字段中。
 
 ## 图示
 
@@ -8,45 +8,44 @@ Adds a node that breaks a 'SourceControlState' into its member fields
 
 ## Inputs
 
-Source Control State: Source Control State Structure (by ref).  
+源控制状态。源控制状态结构（按参考）。  
 
 ## Outputs
 
-Filename: String. Filename:. Get the local filename that this state represents.
+文件名：字符串。Filename:.文件名。获取该状态所代表的本地文件名。
 
-Is Valid: Boolean. Is Valid:. Indicates whether this source control state has valid information (true) or not (false).
+是否有效。布尔型。是有效的：。表示该源控制状态是否有有效信息（真）或没有（假）。
 
-Is Unknown: Boolean. Is Unknown:. Determine if we know anything about the source control state of this file.
+是未知数：布尔值。是未知的：。确定我们是否知道这个文件的源码控制状态的任何信息。
 
-Can Check In: Boolean. Can Check In:. Determine if this file can be checked in..
+可以签到。布尔型。可以签入：。确定该文件是否可以被签入。
 
-Can Check Out: Boolean. Can Check Out:. Determine if this file can be checked out.
+可以结账。布尔型。可以签出：。确定该文件是否可以签出。
 
-Is Checked Out: Boolean. Is Checked Out:. Determine if this file is checked out.
+是否签出。布尔型。是否已签出：。确定该文件是否被签出。
 
-Is Current: Boolean. Is Current:. Determine if this file is up-to-date with the version in source control.
+Is Current: 布尔型。是当前的：。判断此文件是否是源码控制中的最新版本。
 
-Is Source Controlled: Boolean. Is Source Controlled:. Determine if this file is under source control.
+是源头控制的。布尔型。是否受源码控制：。判断该文件是否在源码控制之下。
 
-Is Added: Boolean. Is Added:. Determine if this file is marked for add. @note if already checked in then not considered mid add.
+是否添加：布尔值。是否已添加：。判断此文件是否被标记为添加。注意，如果已经签入，则不考虑添加中。
 
-Is Deleted: Boolean. Is Deleted:. Determine if this file is marked for delete.
+是否删除。布尔型。Is Deleted:.确定该文件是否被标记为删除。
 
-Is Ignored: Boolean. Is Ignored:. Determine if this file is ignored by source control.
+是否被忽略。Boolean.是否被忽略：。确定该文件是否被源码控制所忽略。
 
-Can Edit: Boolean. Can Edit:. Determine if source control allows this file to be edited.
+Can Edit: 布尔型。可以编辑：。确定源码控制是否允许编辑此文件。
 
-Can Delete: Boolean. Can Delete:. Determine if source control allows this file to be deleted..
+可以删除。布尔型。可以删除：。判断源码控制是否允许删除此文件。
 
-Is Modified: Boolean. Is Modified:. Determine if this file is modified compared to the version in source control..
+是否修改过。布尔值。Is Modified:.判断该文件与源码控制中的版本相比是否有修改。
 
-Can Add: Boolean. Can Add:. Determine if this file can be added to source control (i.e. is part of the directory. structure currently under source control).
+可以添加。布尔型。可以添加：。确定该文件是否可以被添加到源码控制中（即是当前源码控制下的目录.结构的一部分）。
 
-Is Conflicted: Boolean. Is Conflicted:. Determine if this file is in a conflicted state.
+是冲突的。Boolean.Is Conflicted:.判断该文件是否处于冲突状态。
 
-Can Revert: Boolean. Can Revert:. Determine if this file can be reverted, i.e. discard changes and the file will no longer be checked-out..
+可以逆转。布尔型。可以恢复：。确定该文件是否可以恢复，即放弃修改，该文件将不再被检出。
 
-Is Checked Out Other: Boolean. Is Checked Out Other:. Determine if this file is checked out by someone else.
+是否签出其他。布尔型。是否被他人签出：。确定该文件是否被其他人签出。
 
-Checked Out Other: String. Checked Out Other:. Get name of other user who this file already checked out or "" if no other user has it checked out.
-
+Checked Out Other:字符串。Checked Out Other:.获取已经签出此文件的其他用户的名字，如果没有其他用户签出此文件，则获取""。

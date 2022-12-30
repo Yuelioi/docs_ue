@@ -1,6 +1,6 @@
 # BreakToolMenuInsert
 
-Adds a node that breaks a 'ToolMenuInsert' into its member fields
+添加一个打破'ToolMenuInsert'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ToolMenuInsert' into its member fields
 
 ## Inputs
 
-Tool Menu Insert: Tool Menu Insert Structure (by ref).  
+工具菜单插入：工具菜单插入结构（按参考）。  
 
 ## Outputs
 
-Name: Name. Name:. Where to insert.
+姓名。姓名：。名称：。在哪里插入。
 
-Position: EToolMenuInsertType Enum. Position:. How to insert.
-
+位置。EToolMenuInsertType枚举。位置：。如何插入。

@@ -1,6 +1,6 @@
 # MakeAbcCompressionSettings
 
-Adds a node that create a 'AbcCompressionSettings' from its members
+添加一个节点，从其成员中创建一个'AbcCompressionSettings'。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'AbcCompressionSettings' from its members
 
 ## Inputs
 
-Merge Meshes: Boolean. Merge Meshes:. Whether or not the individual meshes should be merged for compression purposes.
+合并网格。Boolean.Merge Meshes（合并网格）：。为了压缩目的，是否应该合并各个网格。
 
-Bake Matrix Animation: Boolean. Bake Matrix Animation:. Whether or not Matrix-only animation should be baked out as vertex animation (or skipped?).
+烘烤矩阵动画。Boolean.Bake Matrix Animation（烘焙矩阵动画）：。是否应将纯矩阵动画作为顶点动画烘焙出来（或跳过？）
 
-Base Calculation Type: EBaseCalculationType Enum. Base Calculation Type:. Determines how the final number of bases that are stored as morph targets are calculated.
+基础计算类型。EBaseCalculationType枚举。基数计算类型：。决定如何计算作为变形目标储存的最终碱基数量。
 
-Percentage Of Total Bases: Float (single-precision). Percentage Of Total Bases:. Will generate given percentage of the given bases as morph targets.
+总基数的百分比。浮点数（单精度）。总基数的百分比：.将生成给定百分比的基地作为变形目标。
 
-Max Number Of Bases: Integer. Max Number Of Bases:. Will generate given fixed number of bases as morph targets.
+最大基数。整数。最大基数：。将生成固定数量的碱基作为变形目标。
 
-Minimum Number Of Vertex Influence Percentage: Float (single-precision). Minimum Number Of Vertex Influence Percentage:. Minimum percentage of influenced vertices required for a morph target to be valid.  
+影响顶点的最小数量百分比。Float (single-precision).顶点影响的最小数量百分比：。影响顶点的最小百分比，要求变形目标有效。  
 
 ## Outputs
 
-Abc Compression Settings: Abc Compression Settings Structure.
-
+Abc压缩设置。Abc压缩设置结构。

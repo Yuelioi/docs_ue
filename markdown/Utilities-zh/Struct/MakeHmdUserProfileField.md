@@ -1,6 +1,6 @@
 # MakeHmdUserProfileField
 
-Adds a node that create a 'HmdUserProfileField' from its members
+添加一个节点，从其成员中创建一个 "HmdUserProfileField"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'HmdUserProfileField' from its members
 
 ## Inputs
 
-Field Name: String. Field Name.
+字段名。字符串。字段名。
 
-Field Value: String. Field Value.  
+字段值。字符串。字段值。  
 
 ## Outputs
 
-Hmd User Profile Field: HMD User Profile Data Field Structure.
-
+Hmd用户资料字段。HMD用户资料数据字段结构。

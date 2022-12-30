@@ -1,6 +1,6 @@
 # MakeGameplayAbilitySpec
 
-Adds a node that create a 'GameplayAbilitySpec' from its members
+添加一个节点，从其成员中创建一个 "GameplayAbilitySpec"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayAbilitySpec' from its members
 
 ## Outputs
 
-Gameplay Ability Spec: Gameplay Ability Spec Structure.
-
+游戏能力规格。游戏能力规格结构。

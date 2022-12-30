@@ -1,6 +1,6 @@
 # MakeGeometryScriptPlanarSimplify-
 
-Adds a node that create a 'GeometryScriptPlanarSimplifyOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptPlanarSimplifyOptions'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'GeometryScriptPlanarSimplifyOptions' from its members
 
 ## Inputs
 
-Angle Threshold: Float (single-precision). Angle Threshold.  
+角度阈值。Float（单精度）。角度阈值。  
 
 ## Outputs
 
-Geometry Script Planar Simplify Options: Geometry Script Planar Simplify Options Structure.
-
+Geometry Script Planar Simplify Options:Geometry Script Planar Simplify Options结构。

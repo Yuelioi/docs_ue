@@ -1,6 +1,6 @@
 # MakeFontParameterValue
 
-Adds a node that create a 'FontParameterValue' from its members
+添加一个节点，从其成员中创建一个'FontParameterValue'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'FontParameterValue' from its members
 
 ## Inputs
 
-Parameter Info: Material Parameter Info Structure. Parameter Info.
+参数信息：材料参数信息结构。参数信息。
 
-Font Value: Font Object Reference. Font Value.
+字体值。字体对象参考。字体值。
 
-Font Page: Integer. Font Page.  
+字体页。整数。字体页。  
 
 ## Outputs
 
-Font Parameter Value: Font Parameter Value Structure.
-
+字体参数值。字体参数值结构。

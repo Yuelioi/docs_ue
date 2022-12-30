@@ -1,6 +1,6 @@
 # MakePoseSearchFeatureVectorBuild-
 
-Adds a node that create a 'PoseSearchFeatureVectorBuilder' from its members
+添加一个节点，从其成员中创建一个 "PoseSearchFeatureVectorBuilder"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PoseSearchFeatureVectorBuilder' from its members
 
 ## Outputs
 
-Pose Search Feature Vector Builder: Pose Search Feature Vector Builder Structure.
-
+姿势搜索特征向量生成器。姿势搜索特征向量生成器结构。

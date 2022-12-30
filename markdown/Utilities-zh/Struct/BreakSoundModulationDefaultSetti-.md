@@ -1,6 +1,6 @@
 # BreakSoundModulationDefaultSetti-
 
-Adds a node that breaks a 'SoundModulationDefaultSettings' into its member fields
+添加一个节点，将'SoundModulationDefaultSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'SoundModulationDefaultSettings' into its member field
 
 ## Inputs
 
-Sound Modulation Default Settings: Sound Modulation Default Settings Structure (by ref).  
+声音调制的默认设置。声音调制的默认设置结构（按参考）。  
 
 ## Outputs
 
-Volume: Sound Modulation Destination Settings Structure. Volume Modulation Destination:. Volume modulation.
+音量。声音调制目的地设置结构。音量调制目的地：。音量调制。
 
-Pitch: Sound Modulation Destination Settings Structure. Pitch Modulation Destination:. Pitch modulation.
+沥青。声音调制目的地设置结构。Pitch Modulation Destination：.Pitch modulation.
 
-Highpass: Sound Modulation Destination Settings Structure. Highpass Modulation Destination:. Highpass modulation.
+高通。声音调制目的地设置结构。高通调制目的地：。高通调制。
 
-Lowpass: Sound Modulation Destination Settings Structure. Lowpass Modulation Destination:. Lowpass modulation.
-
+低通。声音调制目的地设置结构。低通调制目的地：。低通调制。

@@ -1,6 +1,6 @@
 # MakeGeometryScriptVectorList
 
-Adds a node that create a 'GeometryScriptVectorList' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptVectorList"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GeometryScriptVectorList' from its members
 
 ## Outputs
 
-Geometry Script Vector List: Vector List Structure.
-
+Geometry Script Vector List:矢量列表结构。

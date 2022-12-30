@@ -1,6 +1,6 @@
 # SetmembersinRegisteredDeviceInfo
 
-Adds a node that modifies a 'RegisteredDeviceInfo'
+添加一个修改 "RegisteredDeviceInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RegisteredDeviceInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Registered Device Info Structure (by ref).  
+结构参考：注册的设备信息结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Registered Device Info Structure (by ref). Reference to the input struct.
-
+结构输出。注册的设备信息结构（通过引用）。对输入结构的引用。

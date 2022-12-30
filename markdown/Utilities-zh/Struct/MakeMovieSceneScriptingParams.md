@@ -1,6 +1,6 @@
 # MakeMovieSceneScriptingParams
 
-Adds a node that create a 'MovieSceneScriptingParams' from its members
+添加一个节点，从其成员中创建一个 "MovieSceneScriptingParams"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'MovieSceneScriptingParams' from its members
 
 ## Outputs
 
-Movie Scene Scripting Params: Movie Scene Scripting Params Structure.
-
+电影场景脚本参数。电影场景脚本参数结构。

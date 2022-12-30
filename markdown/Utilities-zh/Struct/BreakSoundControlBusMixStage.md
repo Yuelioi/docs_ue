@@ -1,6 +1,6 @@
 # BreakSoundControlBusMixStage
 
-Adds a node that breaks a 'SoundControlBusMixStage' into its member fields
+添加一个节点，将 "SoundControlBusMixStage "分解成其成员字段。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'SoundControlBusMixStage' into its member fields
 
 ## Inputs
 
-Sound Control Bus Mix Stage: Sound Control Bus Mix Stage Structure (by ref).  
+声音控制总线混合阶段。声音控制总线混合阶段的结构（按参考）。  
 
 ## Outputs
 
-Bus: Sound Control Bus Object Reference. Bus:. Bus controlled by stage..
+总线：声音控制总线对象参考。总线:.总线控制的阶段...
 
-Value: Sound Modulation Mix Value Structure. Value:. Value mix is set to..
-
+价值。声音调制混合值结构。价值：.价值混合被设定为。

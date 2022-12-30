@@ -1,6 +1,6 @@
 # SetmembersinDMXImportGDTFDMXMode
 
-Adds a node that modifies a 'DMXImportGDTFDMXMode'
+添加一个修改'DMXImportGDTFDMXMode'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXImportGDTFDMXMode'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: DMXImport GDTFDMXMode Structure (by ref).  
+结构参考：DMXImport GDTFDMXMode结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMXImport GDTFDMXMode Structure (by ref). Reference to the input struct.
-
+结构输出。DMXImport GDTFDMXMode结构（通过ref）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeNamedFilmbackPreset
 
-Adds a node that create a 'NamedFilmbackPreset' from its members
+添加一个节点，从其成员中创建一个 "NamedFilmbackPreset"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'NamedFilmbackPreset' from its members
 
 ## Inputs
 
-Name: String. Name:. Name for the preset..
+名称。字符串。名称:.预设的名称。
 
-Filmback Settings: Camera Filmback Settings Structure. Filmback Settings.  
+Filmback设置。相机回放设置结构。Filmback设置。  
 
 ## Outputs
 
-Named Filmback Preset: Named Filmback Preset Structure.
-
+命名的Filmback预设。命名的Filmback预设结构。

@@ -1,6 +1,6 @@
 # BreakLensDistortionCameraModel
 
-Adds a node that breaks a 'LensDistortionCameraModel' into its member fields
+添加一个节点，将 "LensDistortionCameraModel "分解成其成员字段。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'LensDistortionCameraModel' into its member fields
 
 ## Inputs
 
-Lens Distortion Camera Model: Lens Distortion Camera Model Structure (by ref).  
+镜头失真相机模型。镜头失真相机模型结构（按参考）。  
 
 ## Outputs
 
-K1: Float (single-precision). K1:. Radial parameter #1..
+K1：浮点（单精度）。K1:.径向参数#1.
 
-K2: Float (single-precision). K2:. Radial parameter #2..
+K2:浮点数（单精度）。K2:.径向参数#2.
 
-K3: Float (single-precision). K3:. Radial parameter #3..
+K3: 浮点数（单精度）。K3:.径向参数#3.
 
-P1: Float (single-precision). P1:. Tangential parameter #1..
+P1：浮点数（单精度）。P1:.切向参数#1.
 
-P2: Float (single-precision). P2:. Tangential parameter #2..
+P2:浮点数（单精度）。P2:.切向参数#2.
 
-F: Vector 2D Structure. F:. Camera matrix's Fx and Fy..
+F: 矢量二维结构。F:.相机矩阵的Fx和Fy。
 
-C: Vector 2D Structure. C:. Camera matrix's Cx and Cy..
-
+C：向量二维结构。C:.相机矩阵的Cx和Cy.

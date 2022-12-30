@@ -1,6 +1,6 @@
 # BreakSplinePoint
 
-Adds a node that breaks a 'SplinePoint' into its member fields
+添加一个节点，将 "SplinePoint "分解为其成员字段。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'SplinePoint' into its member fields
 
 ## Inputs
 
-Spline Point: Spline Point Structure (by ref).  
+花键点。花键点结构（通过参考）。  
 
 ## Outputs
 
-Input Key: Float (single-precision). Input Key.
+输入键。Float (single-precision).输入键。
 
-Position: Vector. Position.
+位置。矢量。位置。
 
-Arrive Tangent: Vector. Arrive Tangent.
+到达切线。向量。到达切线。
 
-Leave Tangent: Vector. Leave Tangent.
+离开切线。向量。离开切线。
 
-Rotation: Rotator. Rotation.
+旋转： 旋转器。轮换。
 
-Scale: Vector. Scale.
+规模：向量。规模。
 
-Type: ESplinePointType Enum. Type.
-
+类型。ESplinePointType枚举。类型。

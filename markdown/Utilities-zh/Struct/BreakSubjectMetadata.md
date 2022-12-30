@@ -1,6 +1,6 @@
 # BreakSubjectMetadata
 
-Adds a node that breaks a 'SubjectMetadata' into its member fields
+添加一个节点，将 "SubjectMetadata "分解为其成员字段。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'SubjectMetadata' into its member fields
 
 ## Inputs
 
-Subject Metadata: Subject Metadata Structure (by ref).  
+主题元数据。主题元数据结构（按参考）。  
 
 ## Outputs
 
-String Metadata: Map of Names to Strings. String Metadata.
+字符串元数据。名称到字符串的映射。字符串元数据。
 
-Scene Timecode: Timecode Structure. Scene Timecode.
+场景时间码。时间码结构。场景时间码。
 
-Scene Framerate: Frame Rate Structure. Scene Framerate.
-
+场景帧率：帧率结构。场景帧速率。

@@ -1,8 +1,8 @@
 # ToText_object
 
-Converts a UObject value to culture invariant text by calling the object's GetName method
+通过调用对象的GetName方法，将一个UObject值转换为文化不变的文本
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet Text Library
 
 ## Inputs
 
-In Obj: Object Reference.  
+在Obj: 对象参考。  
 
 ## Outputs
 
-Return Value: Text. Converts a UObject value to culture invariant text by calling the object's GetName method.
-
+返回值。文本。通过调用对象的GetName方法，将一个UObject值转换为文化不变的文本。

@@ -1,6 +1,6 @@
 # MakeGeometryScriptRemoveHiddenTr-
 
-Adds a node that create a 'GeometryScriptRemoveHiddenTrianglesOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptRemoveHiddenTrianglesOptions'。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that create a 'GeometryScriptRemoveHiddenTrianglesOptions' from its 
 
 ## Inputs
 
-Method: EGeometryScriptRemoveHiddenTrianglesMethod Enum. Method.
+方法。EGeometryScriptRemoveHiddenTrianglesMethod Enum.方法。
 
-Samples Per Triangle: Integer. Samples Per Triangle:. add triangle samples per triangle (in addition to TriangleSamplingMethod).
+每个三角形的样本。整数。Samples Per Triangle:.增加每个三角形的样本（除了TriangleSamplingMethod）。
 
-Shrink Selection: Integer. Shrink Selection:. once triangles to remove are identified, do iterations of boundary erosion, ie contract selection by boundary vertex one-rings.
+收缩选择。整数。Shrink Selection:.一旦确定要删除的三角形，就进行边界侵蚀的迭代，即通过边界顶点一环进行收缩选择。
 
-Winding Iso Value: Float (single-precision). Winding Iso Value:. use this as winding isovalue for WindingNumber mode.
+绕组Iso值。Float（单精度）。绕组等值：。在WindingNumber模式下，将此作为绕组等值。
 
-Rays Per Sample: Integer. Rays Per Sample:. random rays to add beyond +/- major axes, for raycast sampling.
+每个样品的射线。整数。Rays Per Sample:.随机添加到+/-主轴以外的射线，用于射线广播采样。
 
-Normal Offset: Float (single-precision). Normal Offset:. Nudge sample points out by this amount to try to counteract numerical issues.
+正常偏移。Float（单精度）。正常偏移：。将样本点向外推移这一数额，以试图抵消数字上的问题。
 
-Compact Result: Boolean. Compact Result.  
+紧凑的结果。布尔型。紧凑的结果。  
 
 ## Outputs
 
-Geometry Script Remove Hidden Triangles Options: Geometry Script Remove Hidden Triangles Options Structure.
-
+Geometry Script Remove Hidden Triangles Options:Geometry Script Remove Hidden Triangles Options结构。

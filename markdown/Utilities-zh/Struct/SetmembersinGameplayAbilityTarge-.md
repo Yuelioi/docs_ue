@@ -1,6 +1,6 @@
 # SetmembersinGameplayAbilityTarge-
 
-Adds a node that modifies a 'GameplayAbilityTargetDataHandle'
+添加一个节点，修改 "GameplayAbilityTargetDataHandle"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GameplayAbilityTargetDataHandle'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Gameplay Ability Target Data Handle Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Gameplay Ability Target Data Handle Structure (by ref). Reference to the input struct.
-
+结构出来。Gameplay Ability Target Data Handle Structure（通过引用）。对输入结构的引用。

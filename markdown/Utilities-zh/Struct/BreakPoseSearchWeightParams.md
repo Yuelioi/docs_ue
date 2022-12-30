@@ -1,6 +1,6 @@
 # BreakPoseSearchWeightParams
 
-Adds a node that breaks a 'PoseSearchWeightParams' into its member fields
+添加一个节点，将'PoseSearchWeightParams'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'PoseSearchWeightParams' into its member fields
 
 ## Inputs
 
-Pose Search Weight Params: Pose Search Weight Params Structure (by ref).  
+姿势搜索权重参数。姿势搜索权重参数结构（按参考）。  
 
 ## Outputs
 
-Pose Weight: Pose Search Channel Weight Params Structure. Pose Weight.
+姿势权重。Pose Search Channel Weight Params Structure.姿势权重。
 
-Trajectory Weight: Pose Search Channel Weight Params Structure. Trajectory Weight.
-
+轨迹权重。姿势搜索通道权重参数结构。轨迹权重。

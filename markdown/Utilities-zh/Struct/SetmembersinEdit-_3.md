@@ -1,6 +1,6 @@
 # SetmembersinEdit-_3
 
-Adds a node that modifies a 'EditorScriptingMergeStaticMeshActorsOptions_Deprecated'
+添加一个节点，修改'EditorScriptingMergeStaticMeshActorsOptions_Deprecated'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'EditorScriptingMergeStaticMeshActorsOptions_Depreca
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Editor Scripting Merge Static Mesh Actors Options Deprecated Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Editor Scripting Merge Static Mesh Actors Options Deprecated Structure (by ref). Reference to the input struct.
-
+Struct Out:编辑器脚本 合并静态网格演员选项 废弃的结构（通过ref）。对输入结构的引用。

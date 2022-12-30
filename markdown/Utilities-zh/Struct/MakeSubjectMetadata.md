@@ -1,6 +1,6 @@
 # MakeSubjectMetadata
 
-Adds a node that create a 'SubjectMetadata' from its members
+添加一个节点，从其成员中创建一个 "SubjectMetadata"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'SubjectMetadata' from its members
 
 ## Inputs
 
-String Metadata: Map of Names to Strings. String Metadata.
+字符串元数据。名称到字符串的映射。字符串元数据。
 
-Scene Timecode: Timecode Structure. Scene Timecode.
+场景时间码。时间码结构。场景时间码。
 
-Scene Framerate: Frame Rate Structure. Scene Framerate.  
+场景帧率：帧率结构。场景帧速率。  
 
 ## Outputs
 
-Subject Metadata: Subject Metadata Structure.
-
+主题元数据。主题元数据结构。

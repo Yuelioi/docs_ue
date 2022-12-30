@@ -1,6 +1,6 @@
 # BreakGeometryScriptUniqueAssetNa-
 
-Adds a node that breaks a 'GeometryScriptUniqueAssetNameOptions' into its member fields
+添加一个节点，将'GeometryScriptUniqueAssetNameOptions'分解到其成员字段中。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'GeometryScriptUniqueAssetNameOptions' into its member
 
 ## Inputs
 
-Geometry Script Unique Asset Name Options: Geometry Script Unique Asset Name Options Structure (by ref).  
+Geometry Script Unique Asset Name Options:几何脚本唯一资产名称选项结构（按参考）。  
 
 ## Outputs
 
-Unique IDDigits: Integer. Unique IDDigits.
-
+唯一的IDDigits。整数。独特的IDDigits。

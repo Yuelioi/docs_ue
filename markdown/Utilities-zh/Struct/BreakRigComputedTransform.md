@@ -1,6 +1,6 @@
 # BreakRigComputedTransform
 
-Adds a node that breaks a 'RigComputedTransform' into its member fields
+添加一个打破'RigComputedTransform'的节点到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'RigComputedTransform' into its member fields
 
 ## Inputs
 
-Rig Computed Transform: Rig Computed Transform Structure (by ref).  
+钻机计算变换。钻机计算变换结构（按参考）。  
 
 ## Outputs
 
-Transform: Transform. Transform.
-
+转变。转变。转变。

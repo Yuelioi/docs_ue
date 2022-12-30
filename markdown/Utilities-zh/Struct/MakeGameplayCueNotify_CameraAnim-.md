@@ -1,6 +1,6 @@
 # MakeGameplayCueNotify_CameraAnim-
 
-Adds a node that create a 'GameplayCueNotify_CameraAnimInfo' from its members
+添加一个节点，从其成员中创建一个 "GameplayCueNotify_CameraAnimInfo"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayCueNotify_CameraAnimInfo' from its members
 
 ## Outputs
 
-Gameplay Cue Notify Camera Anim Info: Gameplay Cue Notify Camera Anim Info Structure.
-
+Gameplay Cue Notify Camera Anim Info:Gameplay Cue Notify Camera Anim Info 结构.

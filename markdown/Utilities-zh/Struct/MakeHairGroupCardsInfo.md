@@ -1,6 +1,6 @@
 # MakeHairGroupCardsInfo
 
-Adds a node that create a 'HairGroupCardsInfo' from its members
+添加一个节点，从其成员中创建一个'HairGroupCardsInfo'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'HairGroupCardsInfo' from its members
 
 ## Outputs
 
-Hair Group Cards Info: Hair Group Cards Info Structure.
-
+头发组卡信息：头发组卡信息结构。

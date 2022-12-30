@@ -1,6 +1,6 @@
 # BreakWidgetCarouselNavigationBar-
 
-Adds a node that breaks a 'WidgetCarouselNavigationBarStyle' into its member fields
+添加一个节点，将'WidgetCarouselNavigationBarStyle'分解到其成员字段中。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'WidgetCarouselNavigationBarStyle' into its member fie
 
 ## Inputs
 
-Widget Carousel Navigation Bar Style: Widget Carousel Navigation Bar Style Structure (by ref).  
+小工具旋转木马导航栏风格。小工具旋转木马导航栏风格结构（按参考）。  
 
 ## Outputs
 
-Highlight Brush: Slate Brush Structure. Highlight Brush.
+高光笔刷。石板刷的结构。高光笔。
 
-Left Button Style: Button Style Structure. Left Button Style.
+左边的按钮样式。按钮风格结构。左边的按钮样式。
 
-Center Button Style: Button Style Structure. Center Button Style.
+中心按钮样式。按钮样式结构。中心按钮样式。
 
-Right Button Style: Button Style Structure. Right Button Style.
-
+右边的按钮样式。按钮风格结构。右边的按钮样式。

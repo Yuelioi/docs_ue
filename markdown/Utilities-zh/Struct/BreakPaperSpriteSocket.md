@@ -1,6 +1,6 @@
 # BreakPaperSpriteSocket
 
-Adds a node that breaks a 'PaperSpriteSocket' into its member fields
+添加一个节点，将'PaperSpriteSocket'分解到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'PaperSpriteSocket' into its member fields
 
 ## Inputs
 
-Paper Sprite Socket: Paper Sprite Socket Structure (by ref).  
+纸质精灵插座。纸精灵插座的结构（由参考）。  
 
 ## Outputs
 
-Local Transform: Transform. Local Transform:. Transform in pivot space ( not texture space).
+当地转型。转化。本地变换：。在枢轴空间（而不是纹理空间）中的变换。
 
-Socket Name: Name. Socket Name:. Name of the socket.
-
+插座名称。名称。套接字名称：。插座的名称。

@@ -1,6 +1,6 @@
 # MakeSmartObjectRequestResult
 
-Adds a node that create a 'SmartObjectRequestResult' from its members
+添加一个节点，从其成员中创建一个 "SmartObjectRequestResult"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SmartObjectRequestResult' from its members
 
 ## Outputs
 
-Smart Object Request Result: Smart Object Request Result Structure.
-
+智能对象请求结果。智能对象请求结果结构。

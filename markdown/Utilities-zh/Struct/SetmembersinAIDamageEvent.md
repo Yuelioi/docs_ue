@@ -1,6 +1,6 @@
 # SetmembersinAIDamageEvent
 
-Adds a node that modifies a 'AIDamageEvent'
+添加一个修改'AIDamageEvent'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AIDamageEvent'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: AIDamage Event Structure (by ref).  
+结构参考：AIDamage事件结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: AIDamage Event Structure (by ref). Reference to the input struct.
-
+结构出来。AIDamage事件结构（通过引用）。对输入结构的引用。

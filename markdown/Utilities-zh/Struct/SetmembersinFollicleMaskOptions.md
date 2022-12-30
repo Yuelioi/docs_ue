@@ -1,6 +1,6 @@
 # SetmembersinFollicleMaskOptions
 
-Adds a node that modifies a 'FollicleMaskOptions'
+添加一个修改 "FollicleMaskOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'FollicleMaskOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Follicle Mask Options Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Follicle Mask Options Structure (by ref). Reference to the input struct.
-
+结构出来。卵泡面膜选项结构（通过参考）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # SetmembersinInterpCurveVector2D
 
-Adds a node that modifies a 'InterpCurveVector2D'
+添加一个节点，修改'InterpCurveVector2D'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InterpCurveVector2D'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Interp Curve Vector 2D Structure (by ref).  
+Struct Ref: Interp Curve Vector 2D结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Interp Curve Vector 2D Structure (by ref). Reference to the input struct.
-
+Struct Out: Interp Curve Vector 2D Structure (by ref).对输入结构的引用。

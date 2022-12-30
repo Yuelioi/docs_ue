@@ -1,6 +1,6 @@
 # MakeControlRigForWorldTransforms
 
-Adds a node that create a 'ControlRigForWorldTransforms' from its members
+添加一个节点，从其成员中创建一个 "ControlRigForWorldTransforms"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ControlRigForWorldTransforms' from its members
 
 ## Inputs
 
-Control Rig: Control Rig Weak object. Control Rig.
+控制钻机。控制钻机的弱点。控制钻机。
 
-Control Names: Array of Names. Control Names.  
+控制名称。名称的阵列。控制名称。  
 
 ## Outputs
 
-Control Rig for World Transforms: Control Rig For World Transforms Structure.
-
+世界变迁的控制装置。世界变迁的控制装置结构。

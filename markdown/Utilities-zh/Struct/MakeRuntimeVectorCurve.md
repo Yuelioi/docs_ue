@@ -1,6 +1,6 @@
 # MakeRuntimeVectorCurve
 
-Adds a node that create a 'RuntimeVectorCurve' from its members
+添加一个节点，从其成员中创建一个 "RuntimeVectorCurve"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RuntimeVectorCurve' from its members
 
 ## Outputs
 
-Runtime Vector Curve: Runtime Vector Curve Structure.
-
+运行时向量曲线。运行时矢量曲线结构。

@@ -1,6 +1,6 @@
 # MakeGameplayAbilityTargetingLoca-
 
-Adds a node that create a 'GameplayAbilityTargetingLocationInfo' from its members
+添加一个节点，从其成员中创建一个 "GameplayAbilityTargetingLocationInfo"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'GameplayAbilityTargetingLocationInfo' from its member
 
 ## Inputs
 
-Location Type: EGameplayAbilityTargetingLocationType Enum. Location Type:. Type of location used - will determine what data is transmitted over the network and what fields are used when calculating position..
+位置类型。EGameplayAbilityTargetingLocationType枚举。位置类型：。使用的位置类型 - 将决定哪些数据通过网络传输，以及在计算位置时使用哪些字段。
 
-Literal Transform: Transform. Literal Transform:. A literal world transform can be used, if one has been calculated outside of the actor using the ability..
+字面意义上的转化。转化。字面转换：。如果在演员之外使用能力计算了一个字面世界的变换，就可以使用。
 
-Source Actor: Actor Object Reference. Source Actor:. A source actor is needed for Actor-based targeting, but not for Socket-based targeting..
+源演员。Actor Object Reference.源演员：。基于演员的定位需要一个源演员，但基于插座的定位则不需要。
 
-Source Component: Mesh Component Object Reference. Source Component:. Socket-based targeting requires a skeletal mesh component to check for the named socket..
+源组件。网格组件对象参考。源组件：.基于套接字的定位需要一个骨架网状结构组件来检查命名的套接字。
 
-Source Ability: Gameplay Ability Object Reference. Source Ability:. Ability that will be using the targeting data.
+源能力。游戏性能力对象参考。源能力：。将使用目标数据的能力。
 
-Source Socket Name: Name. Source Socket Name:. If SourceComponent is valid, this is the name of the socket transform that will be used. If no Socket is provided, SourceComponent's transform will be used..  
+源插座名称。名称。源套接字名称：。如果SourceComponent是有效的，这就是将被使用的Socket变换的名称。如果没有提供Socket，将使用SourceComponent的转换。  
 
 ## Outputs
 
-Gameplay Ability Targeting Location Info: Gameplay Ability Targeting Location Info Structure.
-
+游戏能力瞄准位置信息。游戏性能力瞄准位置信息结构。

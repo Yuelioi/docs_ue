@@ -1,6 +1,6 @@
 # MakeVertexID
 
-Adds a node that create a 'VertexID' from its members
+添加一个节点，从其成员中创建一个 "顶点ID"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'VertexID' from its members
 
 ## Outputs
 
-Vertex ID: Vertex ID Structure.
-
+顶点ID：顶点ID结构。

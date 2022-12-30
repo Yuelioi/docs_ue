@@ -1,6 +1,6 @@
 # SetmembersinConditionalGameplayE-
 
-Adds a node that modifies a 'ConditionalGameplayEffect'
+添加一个修改 "ConditionalGameplayEffect "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ConditionalGameplayEffect'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Conditional Gameplay Effect Structure (by ref).  
+结构参考：有条件的游戏效果结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Conditional Gameplay Effect Structure (by ref). Reference to the input struct.
-
+结构了。条件性游戏效果结构（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeSubmixEffectOculusAmbisonicS-
 
-Adds a node that create a 'SubmixEffectOculusAmbisonicSpatializerSettings' from its members
+添加一个节点，从其成员中创建一个 "SubmixEffectOculusAmbisonicSpatializerSettings"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'SubmixEffectOculusAmbisonicSpatializerSettings' from 
 
 ## Inputs
 
-Ambisonic Mode: EOculusAudioAmbisonicsMode Enum. Ambisonic Mode:. Ambisonic spatialization mode.  
+Ambisonic模式。EOculusAudioAmbisonicsMode Enum.Ambisonic Mode:.Ambisonic空间化模式。  
 
 ## Outputs
 
-Submix Effect Oculus Ambisonic Spatializer Settings: Submix Effect Oculus Ambisonic Spatializer Settings Structure.
-
+Submix Effect Oculus Ambisonic Spatializer设置。Submix Effect Oculus Ambisonic Spatializer设置结构。

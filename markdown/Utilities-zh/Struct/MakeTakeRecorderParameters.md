@@ -1,6 +1,6 @@
 # MakeTakeRecorderParameters
 
-Adds a node that create a 'TakeRecorderParameters' from its members
+添加一个节点，从其成员中创建一个 "TakeRecorderParameters"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'TakeRecorderParameters' from its members
 
 ## Inputs
 
-User: Take Recorder User Parameters Structure. User.
+用户：采取录音机用户参数结构。用户。
 
-Project: Take Recorder Project Parameters Structure. Project.
+项目。采取录音机项目参数结构。项目。
 
-Take Recorder Mode: ETakeRecorderMode Enum. Take Recorder Mode.  
+拍摄记录器模式。ETakeRecorderMode枚举。录音机模式。  
 
 ## Outputs
 
-Take Recorder Parameters: Take Recorder Parameters Structure.
-
+拍摄记录仪参数。录音机参数结构。

@@ -1,6 +1,6 @@
 # MakeSkelMeshMergeSectionMapping
 
-Adds a node that create a 'SkelMeshMergeSectionMapping' from its members
+添加一个节点，从其成员中创建一个'SkelMeshMergeSectionMapping'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'SkelMeshMergeSectionMapping' from its members
 
 ## Inputs
 
-Section IDs: Array of Integers. Section IDs:. indices to final section entries of the merged skel mesh.  
+章节ID。整数的数组。断面ID：...合并后skel网格的最终断面条目的索引。  
 
 ## Outputs
 
-Skel Mesh Merge Section Mapping: Skel Mesh Merge Section Mapping Structure.
-
+Skel Mesh Merge Section Mapping。Skel Mesh Merge Section Mapping结构。

@@ -1,6 +1,6 @@
 # MakeGeometryScriptSetSimpleColli-
 
-Adds a node that create a 'GeometryScriptSetSimpleCollisionOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptSetSimpleCollisionOptions'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'GeometryScriptSetSimpleCollisionOptions' from its mem
 
 ## Inputs
 
-Emit Transaction: Boolean. Emit Transaction.  
+排放交易。布尔型。Emit Transaction（提交交易）。  
 
 ## Outputs
 
-Geometry Script Set Simple Collision Options: Geometry Script Set Simple Collision Options Structure.
-
+Geometry Script Set Simple Collision Options:Geometry Script Set Simple Collision Options结构。

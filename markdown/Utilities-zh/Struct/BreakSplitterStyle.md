@@ -1,6 +1,6 @@
 # BreakSplitterStyle
 
-Adds a node that breaks a 'SplitterStyle' into its member fields
+添加一个节点，将'SplitterStyle'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'SplitterStyle' into its member fields
 
 ## Inputs
 
-Splitter Style: Splitter Style Structure (by ref).  
+分割器风格。分割器样式结构（按参考）。  
 
 ## Outputs
 
-Handle Normal Brush: Slate Brush Structure. Handle Normal Brush:. Brush used to draw the handle in its normal state.
+手柄普通刷。石板刷的结构。手柄普通画笔：。用于绘制正常状态下的手柄的画笔。
 
-Handle Highlight Brush: Slate Brush Structure. Handle Highlight Brush:. Brush used to draw the handle in its highlight state.
-
+手柄高光刷。石板刷的结构。手柄高光笔刷：。用于在高亮状态下绘制手柄的画笔。

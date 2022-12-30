@@ -1,6 +1,6 @@
 # BreakVertexLayout
 
-Adds a node that breaks a 'VertexLayout' into its member fields
+添加一个节点，将 "顶点布局 "分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'VertexLayout' into its member fields
 
 ## Inputs
 
-Vertex Layout: Vertex Layout Structure (by ref).  
+顶点布局。顶点布局结构（按参考）。  
 
 ## Outputs
 
-Position: Integer. Position.
+位置。整数。位置。
 
-Texture Coordinate: Integer. Texture Coordinate.
+纹理坐标。整数。纹理坐标。
 
-Normal: Integer. Normal.
-
+正常：整数。正常。

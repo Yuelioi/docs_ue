@@ -1,6 +1,6 @@
 # SetmembersinSunPositionData
 
-Adds a node that modifies a 'SunPositionData'
+添加一个修改 "SunPositionData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SunPositionData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Sun Position Data Structure (by ref).  
+Struct Ref: 太阳位置数据结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sun Position Data Structure (by ref). Reference to the input struct.
-
+结构出来。太阳位置数据结构（通过引用）。对输入结构的引用。

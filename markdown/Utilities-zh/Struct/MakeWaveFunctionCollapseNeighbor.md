@@ -1,6 +1,6 @@
 # MakeWaveFunctionCollapseNeighbor
 
-Adds a node that create a 'WaveFunctionCollapseNeighbor' from its members
+添加一个节点，从其成员中创建一个 "WaveFunctionCollapseNeighbor"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'WaveFunctionCollapseNeighbor' from its members
 
 ## Inputs
 
-Adjacency: EWaveFunctionCollapseAdjacency Enum. Adjacency.
+相邻关系。EWaveFunctionCollapseAdjacency Enum.邻接性。
 
-Step: Integer. Step.
+步骤：整数。步骤。
 
-Neighbor Object: Soft Object Path Structure. Neighbor Object.  
+邻居对象。软对象路径结构。邻居对象。  
 
 ## Outputs
 
-Wave Function Collapse Neighbor: Wave Function Collapse Neighbor Structure.
-
+波函数崩溃邻接。波函数塌陷 邻居的结构。

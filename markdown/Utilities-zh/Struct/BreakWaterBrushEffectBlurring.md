@@ -1,6 +1,6 @@
 # BreakWaterBrushEffectBlurring
 
-Adds a node that breaks a 'WaterBrushEffectBlurring' into its member fields
+添加一个打破'WaterBrushEffectBlurring'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'WaterBrushEffectBlurring' into its member fields
 
 ## Inputs
 
-Water Brush Effect Blurring: Water Brush Effect Blurring Structure (by ref).  
+水刷效果的模糊化。水刷效果的模糊结构（由参考）。  
 
 ## Outputs
 
-Blur Shape: Boolean. Blur Shape.
+模糊的形状。Boolean.模糊的形状。
 
-Radius: Integer. Radius.
-
+半径：整数。半径。

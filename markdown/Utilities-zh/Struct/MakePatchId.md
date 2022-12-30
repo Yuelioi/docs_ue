@@ -1,6 +1,6 @@
 # MakePatchId
 
-Adds a node that create a 'PatchId' from its members
+添加一个节点，从其成员中创建一个'PatchId'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PatchId' from its members
 
 ## Outputs
 
-Patch Id: Patch Id Structure.
-
+补丁标识。补丁Id结构。

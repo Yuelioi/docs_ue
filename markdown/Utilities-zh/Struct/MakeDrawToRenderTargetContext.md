@@ -1,6 +1,6 @@
 # MakeDrawToRenderTargetContext
 
-Adds a node that create a 'DrawToRenderTargetContext' from its members
+添加一个节点，从其成员中创建一个 "DrawToRenderTargetContext"。
 
 ## 图示
 
@@ -10,4 +10,4 @@ Adds a node that create a 'DrawToRenderTargetContext' from its members
 
 ## Outputs
 
-Draw to Render Target Context: Draw To Render Target Context Structure.
+绘制到渲染目标上下文。Draw To Render Target Context Structure.

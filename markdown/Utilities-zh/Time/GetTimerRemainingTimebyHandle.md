@@ -1,8 +1,8 @@
 # GetTimerRemainingTimebyHandle
 
-Returns time until the timer will next execute its handle.
+返回到定时器下次执行其句柄的时间。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet System Library
 
 ## Inputs
 
-Handle: Timer Handle Structure. The handle of the timer to time remaining of..  
+手柄。计时器手柄的结构。计时器的手柄是用来计算剩余时间的。
 
 ## Outputs
 
-Return Value: Float (single-precision). How long is remaining in the current iteration of the timer..
-
+返回值。Float（单精度）。定时器的当前迭代还剩多长时间。

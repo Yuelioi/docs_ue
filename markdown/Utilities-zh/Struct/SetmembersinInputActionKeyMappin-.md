@@ -1,6 +1,6 @@
 # SetmembersinInputActionKeyMappin-
 
-Adds a node that modifies a 'InputActionKeyMapping'
+添加一个修改'InputActionKeyMapping'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InputActionKeyMapping'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Input Action Key Mapping Structure (by ref).  
+结构参考：输入动作键映射结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Input Action Key Mapping Structure (by ref). Reference to the input struct.
-
+Struct Out: Input Action Key Mapping Structure (by ref).对输入结构的引用。

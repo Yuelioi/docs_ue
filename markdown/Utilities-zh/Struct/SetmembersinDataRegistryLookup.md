@@ -1,6 +1,6 @@
 # SetmembersinDataRegistryLookup
 
-Adds a node that modifies a 'DataRegistryLookup'
+添加一个修改 "DataRegistryLookup "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DataRegistryLookup'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Data Registry Lookup Structure (by ref).  
+Struct Ref: 数据注册查询结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Data Registry Lookup Structure (by ref). Reference to the input struct.
-
+结构出来。数据注册查询结构（通过ref）。对输入结构的引用。

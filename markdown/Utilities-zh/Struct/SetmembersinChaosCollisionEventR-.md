@@ -1,6 +1,6 @@
 # SetmembersinChaosCollisionEventR-
 
-Adds a node that modifies a 'ChaosCollisionEventRequestSettings'
+添加一个修改 "ChaosCollisionEventRequestSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ChaosCollisionEventRequestSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Chaos Collision Event Request Settings Structure (by ref).  
+结构参考：混沌碰撞事件请求设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Chaos Collision Event Request Settings Structure (by ref). Reference to the input struct.
-
+结构出来。混沌碰撞事件请求设置结构（通过参考）。对输入结构的引用。

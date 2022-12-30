@@ -1,6 +1,6 @@
 # BreakSequencerTrackInstanceInput
 
-Adds a node that breaks a 'SequencerTrackInstanceInput' into its member fields
+添加一个节点，将'SequencerTrackInstanceInput'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'SequencerTrackInstanceInput' into its member fields
 
 ## Inputs
 
-Sequencer Track Instance Input: Sequencer Track Instance Input Structure (by ref).  
+定序器轨道实例输入。定序器音轨实例输入结构（通过参考）。  
 
 ## Outputs
 
-Section: Sequencer Section Object Reference. Section.
-
+节。定序器部分的对象参考。节。

@@ -1,6 +1,6 @@
 # BreakNamedCurveValue
 
-Adds a node that breaks a 'NamedCurveValue' into its member fields
+添加一个节点，将 "NamedCurveValue "分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'NamedCurveValue' into its member fields
 
 ## Inputs
 
-Named Curve Value: Named Curve Value Structure (by ref).  
+命名的曲线值。命名的曲线值结构（通过参考）。  
 
 ## Outputs
 
-Name: Name. Name:. The name of the curve.
+姓名。姓名：。名称：。曲线的名称。
 
-Value: Float (single-precision). Value:. The value of the curve.
-
+值。Float (single-precision).值：。曲线的值。

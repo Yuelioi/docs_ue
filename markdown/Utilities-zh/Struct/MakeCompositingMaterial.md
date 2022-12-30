@@ -1,6 +1,6 @@
 # MakeCompositingMaterial
 
-Adds a node that create a 'CompositingMaterial' from its members
+添加一个节点，从其成员中创建一个 "合成材料"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'CompositingMaterial' from its members
 
 ## Inputs
 
-Material: Material Interface Object Reference. Material.
+材料。材料界面对象参考。材料。
 
-Input Elements: Map of Names to Names. Param Pass Mappings:. Maps material texture param names to prior passes/elements. Overrides the element's param mapping list above..  
+输入元素。名称与名称的映射。Param Pass Mappings：。将材质纹理参数名称映射到之前的通证/元素。覆盖上述元素的参数映射列表。
 
 ## Outputs
 
-Compositing Material: Compositing Material Structure.
-
+合成材料。合成材料结构。

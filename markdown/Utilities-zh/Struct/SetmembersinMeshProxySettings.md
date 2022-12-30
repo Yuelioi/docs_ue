@@ -1,6 +1,6 @@
 # SetmembersinMeshProxySettings
 
-Adds a node that modifies a 'MeshProxySettings'
+添加一个修改 "MeshProxySettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MeshProxySettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Mesh Proxy Settings Structure (by ref).  
+Struct Ref: 网格代理设置结构（通过引用）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Mesh Proxy Settings Structure (by ref). Reference to the input struct.
-
+结构出来。网格代理设置结构（通过引用）。对输入结构的引用。

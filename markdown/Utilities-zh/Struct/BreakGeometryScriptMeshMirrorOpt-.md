@@ -1,6 +1,6 @@
 # BreakGeometryScriptMeshMirrorOpt-
 
-Adds a node that breaks a 'GeometryScriptMeshMirrorOptions' into its member fields
+添加一个节点，将'GeometryScriptMeshMirrorOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'GeometryScriptMeshMirrorOptions' into its member fiel
 
 ## Inputs
 
-Geometry Script Mesh Mirror Options: Geometry Script Mesh Mirror Options Structure (by ref).  
+Geometry Script Mesh Mirror Options:Geometry Script Mesh Mirror Options结构（按参考）。  
 
 ## Outputs
 
-Apply Plane Cut: Boolean. Apply Plane Cut.
+应用平面切割。布尔型。应用平面切割。
 
-Flip Cut Side: Boolean. Flip Cut Side.
+翻转切面。布尔型。翻转切割面。
 
-Weld Along Plane: Boolean. Weld Along Plane.
-
+沿着平面焊接。布尔型。沿着平面焊接。

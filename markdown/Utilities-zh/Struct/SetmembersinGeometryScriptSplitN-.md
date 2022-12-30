@@ -1,6 +1,6 @@
 # SetmembersinGeometryScriptSplitN-
 
-Adds a node that modifies a 'GeometryScriptSplitNormalsOptions'
+添加一个修改 "GeometryScriptSplitNormalsOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryScriptSplitNormalsOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Geometry Script Split Normals Options Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Geometry Script Split Normals Options Structure (by ref). Reference to the input struct.
-
+结构出来。Geometry Script Split Normals Options Structure（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeSlateSound
 
-Adds a node that create a 'SlateSound' from its members
+添加一个节点，从其成员中创建一个 "SlateSound"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'SlateSound' from its members
 
 ## Inputs
 
-Sound: Object Reference. Resource Object:. Pointer to the USoundBase. Holding onto it as a UObject because USoundBase is not available in Slate core.. Edited via FSlateSoundStructCustomization to ensure you can only set USoundBase assets on it..  
+声音。对象参考。资源对象：。指向USoundBase的指针。因为USoundBase在Slate核心中是不可用的，所以把它作为一个UObject来保存。通过FSlateSoundStructCustomization编辑，以确保你只能在它上面设置USoundBase资产。  
 
 ## Outputs
 
-Slate Sound: Slate Sound Structure.
-
+石板的声音。板岩的声音结构。

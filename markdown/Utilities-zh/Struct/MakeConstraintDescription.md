@@ -1,6 +1,6 @@
 # MakeConstraintDescription
 
-Adds a node that create a 'ConstraintDescription' from its members
+添加一个节点，从其成员中创建一个 "约束描述"。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that create a 'ConstraintDescription' from its members
 
 ## Inputs
 
-Translation: Boolean. Translation.
+翻译。布尔型。翻译。
 
-Rotation: Boolean. Rotation.
+旋转。布尔型。旋转。
 
-Scale: Boolean. Scale.
+规模：布尔型。规模。
 
-Parent: Boolean. Parent:. this does composed transform - where as individual will accumulate per component.
+母体：布尔值。
 
-Translation Axes: Filter Option Per Axis Structure. Translation Axes.
+翻译轴。每个轴结构的过滤选项。翻译轴。
 
-Rotation Axes: Filter Option Per Axis Structure. Rotation Axes.
+旋转轴。每轴结构的过滤选项。旋转轴。
 
-Scale Axes: Filter Option Per Axis Structure. Scale Axes.  
+比例轴。每轴结构的过滤选项。规模轴。  
 
 ## Outputs
 
-Constraint Description: Constraint Description Structure.
-
+约束描述。约束描述结构。

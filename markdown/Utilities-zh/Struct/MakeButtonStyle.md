@@ -1,6 +1,6 @@
 # MakeButtonStyle
 
-Adds a node that create a 'ButtonStyle' from its members
+添加一个节点，从其成员中创建一个 "ButtonStyle"。
 
 ## 图示
 
@@ -8,31 +8,30 @@ Adds a node that create a 'ButtonStyle' from its members
 
 ## Inputs
 
-Normal: Slate Brush Structure. Normal:. Button appearance when the button is not hovered or pressed.
+正常：石板刷结构。正常:.当按钮未被悬停或按下时的按钮外观。
 
-Hovered: Slate Brush Structure. Hovered:. Button appearance when hovered.
+悬停的。石板刷结构。悬停：。悬停时的按钮外观。
 
-Pressed: Slate Brush Structure. Pressed:. Button appearance when pressed.
+压制的。石板刷结构。压制的：。按压时的按钮外观。
 
-Disabled: Slate Brush Structure. Disabled:. Button appearance when disabled, by default this is set to an invalid resource when that is the case default disabled drawing is used..
+残废。石板刷结构。Disabled:.禁用时的按钮外观，默认情况下，这被设置为无效的资源，当这种情况下，使用默认的禁用绘图。
 
-Normal Foreground: Slate Color Structure. Normal Foreground:. Foreground Color when the button is not hovered or pressed.
+正常的前景。板岩颜色结构。正常前景：。按钮未被悬停或按下时的前景颜色。
 
-Hovered Foreground: Slate Color Structure. Hovered Foreground:. Foreground Color when hovered.
+悬停的前景。石板色的结构。悬停的前景：。悬停时的前景颜色。
 
-Pressed Foreground: Slate Color Structure. Pressed Foreground:. Foreground Color when pressed.
+压制的前景。板岩颜色结构。按压的前景：。按压时的前景颜色。
 
-Disabled Foreground: Slate Color Structure. Disabled Foreground:. Foreground Color when disabled.
+残疾的前景。石板色结构。Disabled Foreground:（禁用的前景）。禁用时的前景色。
 
-Normal Padding: Margin Structure. Normal Padding:. Padding that accounts for the border in the button's background image.. When this is applied, the content of the button should appear flush. with the button's border. Use this padding when the button is not pressed..
+正常填充。边缘结构。Normal Padding:.考虑到按钮背景图片中的边框的填充。当应用这个功能时，按钮的内容应该与按钮的边框平齐。当按钮未被按下时，使用此填充。
 
-Pressed Padding: Margin Structure. Pressed Padding:. Same as NormalPadding but used when the button is pressed. Allows for moving the content to match. any "movement" in the button's border image..
+压制的填充物。边缘结构。Pressed Padding:.与NormalPadding相同，但在按钮被按下时使用。允许移动内容以匹配。任何 "移动 "在按钮的边框图像。
 
-Pressed Sound: Slate Sound Structure. Pressed Slate Sound:. The sound the button should play when pressed.
+压制的声音。板岩的声音结构。按下的石板声：。按钮被按下时应该播放的声音。
 
-Hovered Sound: Slate Sound Structure. Hovered Slate Sound:. The sound the button should play when initially hovered over.  
+悬停的声音。石板的声音结构。悬停的石板声：。按钮在最初被悬停时应播放的声音。  
 
 ## Outputs
 
-Button Style: Button Style Structure.
-
+纽扣风格。纽扣式结构。

@@ -1,6 +1,6 @@
 # BreakSunPositionData
 
-Adds a node that breaks a 'SunPositionData' into its member fields
+添加一个节点，将'SunPositionData'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'SunPositionData' into its member fields
 
 ## Inputs
 
-Sun Position Data: Sun Position Data Structure (by ref).  
+太阳位置数据。太阳位置数据结构（由参考）。  
 
 ## Outputs
 
-Elevation: Float (single-precision). Elevation:. Sun Elevation.
+海拔。Float（单精度）。海拔：。太阳高度。
 
-Corrected Elevation: Float (single-precision). Corrected Elevation:. Sun Elevation, corrected for atmospheric diffraction.
+更正后的海拔高度。Float (single-precision).更正后的高程：。太阳高度，根据大气衍射进行校正。
 
-Azimuth: Float (single-precision). Azimuth:. Sun azimuth.
+Azimuth: Float（单精度）。方位：。太阳方位角。
 
-Sunrise Time: Timespan Structure. Sunrise Time:. Sunrise time.
+日出时间：时间跨度结构。日出时间：。日出时间。
 
-Sunset Time: Timespan Structure. Sunset Time:. Sunset time.
+日落时间：时间跨度结构。日落时间：。日落时间。
 
-Solar Noon: Timespan Structure. Solar Noon:. Solar noon.
-
+太阳正午：时间跨度结构。太阳正午：。太阳正午。

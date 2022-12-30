@@ -1,6 +1,6 @@
 # BreakLensImperfectionSettings
 
-Adds a node that breaks a 'LensImperfectionSettings' into its member fields
+添加一个节点，将'LensImperfectionSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'LensImperfectionSettings' into its member fields
 
 ## Inputs
 
-Lens Imperfection Settings: Lens Imperfection Settings Structure (by ref).  
+镜头缺陷设置。镜头缺陷设置结构（按参考）。  
 
 ## Outputs
 
-Dirt Mask Texture: Texture Object Reference. Dirt Mask:. Texture that defines the dirt on the camera lens where the light of very bright objects is scattered..
+泥土面具纹理。纹理对象参考。Dirt Mask:.定义相机镜头上的污垢的纹理，在那里非常明亮的物体的光线被散射。
 
-Dirt Mask Intensity: Float (single-precision). Dirt Mask Intensity:. BloomDirtMask intensity.
+泥土面具强度。Float (single-precision).Dirt Mask Intensity:.BloomDirtMask强度。
 
-Dirt Mask Tint: Linear Color Structure. Dirt Mask Tint:. BloomDirtMask tint color.
-
+泥土面具的色调。线性色彩结构。Dirt Mask Tint:。BloomDirtMask色调的颜色。

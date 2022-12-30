@@ -1,6 +1,6 @@
 # MakeMovieSceneSequencePlayToPara-
 
-Adds a node that create a 'MovieSceneSequencePlayToParams' from its members
+添加一个节点，从其成员中创建一个 "MovieSceneSequencePlayToParams"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'MovieSceneSequencePlayToParams' from its members
 
 ## Inputs
 
-Exclusive: Boolean. Exclusive:. Should the PlayTo time be considered exclusive? Defaults to true as end frames in Sequencer are exclusive by default..  
+独家。布尔型。独占:。PlayTo时间是否应该被认为是独占的？默认为 "true"，因为在Sequencer中，结束帧默认为独占。  
 
 ## Outputs
 
-Movie Scene Sequence Play to Params: Movie Scene Sequence Play To Params Structure.
-
+电影场景序列播放到参数。电影场景序列播放到参数的结构。

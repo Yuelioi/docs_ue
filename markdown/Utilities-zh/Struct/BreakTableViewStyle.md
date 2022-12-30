@@ -1,6 +1,6 @@
 # BreakTableViewStyle
 
-Adds a node that breaks a 'TableViewStyle' into its member fields
+添加一个节点，将'TableViewStyle'分解到其成员字段中。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'TableViewStyle' into its member fields
 
 ## Inputs
 
-Table View Style: Table View Style Structure (by ref).  
+表视图样式。表视图样式结构（按参考）。  
 
 ## Outputs
 
-Background Brush: Slate Brush Structure. Background Brush:. Brush used when a selected row is active.
-
+背景画笔。板岩画笔结构。背景画笔：。当选定的行被激活时使用的画笔。

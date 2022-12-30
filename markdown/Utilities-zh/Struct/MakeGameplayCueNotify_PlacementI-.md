@@ -1,6 +1,6 @@
 # MakeGameplayCueNotify_PlacementI-
 
-Adds a node that create a 'GameplayCueNotify_PlacementInfo' from its members
+添加一个节点，从其成员中创建一个 "GameplayCueNotify_PlacementInfo"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayCueNotify_PlacementInfo' from its members
 
 ## Outputs
 
-Gameplay Cue Notify Placement Info: Gameplay Cue Notify Placement Info Structure.
-
+游戏提示通知的位置信息。Gameplay Cue Notify Placement Info结构。

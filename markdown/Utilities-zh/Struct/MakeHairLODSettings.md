@@ -1,6 +1,6 @@
 # MakeHairLODSettings
 
-Adds a node that create a 'HairLODSettings' from its members
+添加一个节点，从其成员中创建一个 "HairLODSettings"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'HairLODSettings' from its members
 
 ## Outputs
 
-Hair LODSettings: Hair LODSettings Structure.
-
+头发LODSettings。头发LODSettings结构。

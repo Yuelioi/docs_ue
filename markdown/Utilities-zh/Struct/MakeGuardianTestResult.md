@@ -1,6 +1,6 @@
 # MakeGuardianTestResult
 
-Adds a node that create a 'GuardianTestResult' from its members
+添加一个节点，从其成员中创建一个 "GuardianTestResult"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GuardianTestResult' from its members
 
 ## Outputs
 
-Guardian Test Result: Guardian Test Result Structure.
-
+监护人测试结果。监护人测试结果结构。

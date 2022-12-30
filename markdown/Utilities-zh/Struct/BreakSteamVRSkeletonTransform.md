@@ -1,6 +1,6 @@
 # BreakSteamVRSkeletonTransform
 
-Adds a node that breaks a 'SteamVRSkeletonTransform' into its member fields
+添加一个节点，将 "SteamVRSkeletonTransform "分解到其成员字段中
 
 ## 图示
 
@@ -8,69 +8,68 @@ Adds a node that breaks a 'SteamVRSkeletonTransform' into its member fields
 
 ## Inputs
 
-Steam VRSkeleton Transform: Steam VRSkeleton Transform Structure (by ref).  
+蒸汽VRS骨架转换。Steam VRSkeleton Transform结构（参考）。  
 
 ## Outputs
 
-Root: Transform. Root.
+根基：转变。根部。
 
-Wrist: Transform. Wrist.
+手腕。转变。腕部。
 
-Thumb 0: Transform. Thumb 0.
+拇指0：转化。拇指0。
 
-Thumb 1: Transform. Thumb 1.
+拇指1：转化。拇指1。
 
-Thumb 2: Transform. Thumb 2.
+拇指2：转化。拇指2。
 
-Thumb 3: Transform. Thumb 3.
+拇指3：转化。拇指3。
 
-Index 0: Transform. Index 0.
+指数0：转化。指数0。
 
-Index 1: Transform. Index 1.
+指数1：转变。索引1。
 
-Index 2: Transform. Index 2.
+指数2：转变。指数2。
 
-Index 3: Transform. Index 3.
+指数3：转变。指数3.
 
-Index 4: Transform. Index 4.
+索引4：转变。指数4.
 
-Middle 0: Transform. Middle 0.
+中间0：转化。中间0。
 
-Middle 1: Transform. Middle 1.
+中间1：转化。中间1。
 
-Middle 2: Transform. Middle 2.
+中间2：转化。中间的2。
 
-Middle 3: Transform. Middle 3.
+中间3：转化。中间3。
 
-Middle 4: Transform. Middle 4.
+中间4：转化。中间的4。
 
-Ring 0: Transform. Ring 0.
+0号环形物：转化。0环。
 
-Ring 1: Transform. Ring 1.
+第一环：转变。环1。
 
-Ring 2: Transform. Ring 2.
+第二环：转化。2号圈。
 
-Ring 3: Transform. Ring 3.
+第三环：转化。戒指3。
 
-Ring 4: Transform. Ring 4.
+第四环：转化。第4环。
 
-Pinky 0: Transform. Pinky 0.
+Pinky 0: 转变。小拇指0。
 
-Pinky 1: Transform. Pinky 1.
+Pinky 1: 转变。小拇指1。
 
-Pinky 2: Transform. Pinky 2.
+Pinky 2: 转变。小指头2。
 
-Pinky 3: Transform. Pinky 3.
+Pinky 3: 转变。小指3。
 
-Pinky 4: Transform. Pinky 4.
+Pinky 4: 转变。小指头4。
 
-Aux Thumb: Transform. Aux Thumb.
+辅助拇指。转变。辅助拇指。
 
-Aux Index: Transform. Aux Index.
+对索引：转化。辅助索引。
 
-Aux Middle: Transform. Aux Middle.
+Aux Middle:转变。辅助中层。
 
-Aux Ring: Transform. Aux Ring.
+辅助环：转化。辅助环。
 
-Aux Pinky: Transform. Aux Pinky.
-
+Aux Pinky: 转变。Aux Pinky。

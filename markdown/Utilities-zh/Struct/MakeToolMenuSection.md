@@ -1,6 +1,6 @@
 # MakeToolMenuSection
 
-Adds a node that create a 'ToolMenuSection' from its members
+添加一个节点，从其成员中创建一个 "ToolMenuSection"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'ToolMenuSection' from its members
 
 ## Inputs
 
-Name: Name. Name.
+姓名：姓名名称。
 
-Owner: Tool Menu Owner Structure. Owner.
+所有者：工具菜单所有者结构。业主。
 
-Blocks: Array of Tool Menu Entry Structures. Blocks.
+块。工具菜单入口结构的阵列。块。
 
-Insert Position: Tool Menu Insert Structure. Insert Position.
+插入位置：工具菜单插入结构。插入位置。
 
-Context: Tool Menu Context Structure. Context.
+上下文。工具菜单的上下文结构。上下文。
 
-Tool Menu Section Dynamic: Tool Menu Section Dynamic Object Reference. Tool Menu Section Dynamic.  
+工具菜单的动态部分。工具菜单部分的动态对象参考。工具菜单的动态部分。  
 
 ## Outputs
 
-Tool Menu Section: Tool Menu Section Structure.
-
+工具菜单部分。工具菜单部分的结构。

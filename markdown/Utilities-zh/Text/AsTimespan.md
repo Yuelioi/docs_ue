@@ -1,8 +1,8 @@
 # AsTimespan
 
-Converts a passed in time span to a text, formatted as a time span
+将传入的时间跨度转换为文本，格式化为时间跨度
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet Text Library
 
 ## Inputs
 
-In Timespan: Timespan Structure (by ref).  
+在Timespan。时间跨度结构（按参考）。  
 
 ## Outputs
 
-Return Value: Text. Converts a passed in time span to a text, formatted as a time span.
-
+返回值。文本。将传入的时间跨度转换为文本，格式化为时间跨度。

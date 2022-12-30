@@ -1,6 +1,6 @@
 # MakeSoundModulationMixValue
 
-Adds a node that create a 'SoundModulationMixValue' from its members
+添加一个节点，从其成员中创建一个 "SoundModulationMixValue"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'SoundModulationMixValue' from its members
 
 ## Inputs
 
-Value: Float (single-precision). Target Value:. Target value of the modulator..
+值。Float (single-precision).目标值：。调制器的目标值。
 
-Attack Time (Sec): Float (single-precision). Attack Time:. Time it takes (in sec) to interpolate from the parameter's default value to the mix value..
+攻击时间（秒）。Float（单精度）。攻击时间：。从参数的默认值插值到混合值所需的时间（秒）。
 
-Release Time (Sec): Float (single-precision). Release Time:. Time it takes (in sec) to interpolate from the current mix value to the parameter's default value..  
+释放时间（秒）。Float（单精度）。释放时间：。从当前的混合值插值到参数的默认值所需的时间（秒）。
 
 ## Outputs
 
-Sound Modulation Mix Value: Sound Modulation Mix Value Structure.
-
+声音调制混合值。声音调制混合值的结构。

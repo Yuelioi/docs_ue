@@ -1,6 +1,6 @@
 # BreakProgressBarStyle
 
-Adds a node that breaks a 'ProgressBarStyle' into its member fields
+添加一个节点，将'ProgressBarStyle'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'ProgressBarStyle' into its member fields
 
 ## Inputs
 
-Progress Bar Style: Progress Bar Style Structure (by ref).  
+进度条风格。进度条样式结构（按参考）。  
 
 ## Outputs
 
-Background Image: Slate Brush Structure. Background Image:. Background image to use for the progress bar.
+背景图片。石板刷结构。背景图片:。用于进度条的背景图片。
 
-Fill Image: Slate Brush Structure. Fill Image:. Foreground image to use for the progress bar.
+填充图像。石板刷结构。填充图像：。用于进度条的前景图像。
 
-Marquee Image: Slate Brush Structure. Marquee Image:. Image to use for marquee mode.
+Marquee Image:石板刷结构。侯赛因图像：。用于marquee模式的图像。
 
-Enable Fill Animation: Boolean. Enable Fill Animation:. Enables a simple animation on the fill image to give the appearance that progress has not stalled. Disable this if you have a custom material which animates itself.. This requires a pattern in your material or texture to give the appearance of movement. A solid color will show no movement..
-
+启用填充动画。布尔值。启用填充动画：。在填充图像上启用一个简单的动画，使进度看起来没有停顿。如果你有一个自定义的材料，它自己会产生动画，请禁用此功能。这需要你的材质或纹理中有一个图案，以呈现出运动的外观。纯色将显示没有运动。

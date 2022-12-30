@@ -1,6 +1,6 @@
 # SetmembersinVirtualCameraSetting-_1
 
-Adds a node that modifies a 'VirtualCameraSettingsPreset'
+添加一个节点，修改 "VirtualCameraSettingsPreset"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'VirtualCameraSettingsPreset'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Virtual Camera Settings Preset Structure (by ref).  
+Struct Ref: 虚拟相机设置预设结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Virtual Camera Settings Preset Structure (by ref). Reference to the input struct.
-
+结构出来。虚拟相机设置预置结构（通过引用）。对输入结构的引用。

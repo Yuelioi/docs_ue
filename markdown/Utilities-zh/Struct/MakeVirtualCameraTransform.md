@@ -1,6 +1,6 @@
 # MakeVirtualCameraTransform
 
-Adds a node that create a 'VirtualCameraTransform' from its members
+添加一个节点，从其成员中创建一个 "VirtualCameraTransform"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'VirtualCameraTransform' from its members
 
 ## Inputs
 
-Transform: Transform. Transform.  
+转变。转变。转变。  
 
 ## Outputs
 
-Virtual Camera Transform: Virtual Camera Transform Structure.
-
+虚拟相机转换。虚拟摄像机变换结构。

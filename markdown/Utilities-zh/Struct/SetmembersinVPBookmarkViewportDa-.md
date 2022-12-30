@@ -1,6 +1,6 @@
 # SetmembersinVPBookmarkViewportDa-
 
-Adds a node that modifies a 'VPBookmarkViewportData'
+添加一个节点，修改 "VPBookmarkViewportData"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'VPBookmarkViewportData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: VPBookmark Viewport Data Structure (by ref).  
+结构参考：VPBookmark视口数据结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: VPBookmark Viewport Data Structure (by ref). Reference to the input struct.
-
+结构出来。VPBookmark视口数据结构（通过ref）。对输入结构的引用。

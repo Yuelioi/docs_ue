@@ -1,6 +1,6 @@
 # MakeDisplayClust-_17
 
-Adds a node that create a 'DisplayClusterConfigurationViewport_ColorGradingRenderingSettings' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationViewport_ColorGradingRenderingSettings"。
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that create a 'DisplayClusterConfigurationViewport_ColorGradingRende
 
 ## Inputs
 
-Exposure Compensation: Float (single-precision). Auto Exposure Bias:. Exposure compensation.
+曝光补偿。浮点（单精度）。自动曝光偏置：。曝光补偿。
 
-White Balance: Display Cluster Configuration Viewport Color Grading White Balance Settings Structure. White Balance:. White balance.
+白平衡。Display Cluster Configuration Viewport Color Grading 白平衡设置结构。白平衡：。白平衡。
 
-Global: Display Cluster Configuration Viewport Color Grading Settings Structure. Global:. Global color grading.
+全局。显示集群配置视口颜色分级设置结构。全局：。全局调色。
 
-Shadows: Display Cluster Configuration Viewport Color Grading Settings Structure. Shadows:. Shadows color grading.
+阴影。显示集群配置视口颜色分级设置结构。Shadows:.阴影调色。
 
-Shadows Max: Float (single-precision). Color Correction Shadows Max.
+阴影最大值：浮点数（单精度）。颜色校正阴影最大值。
 
-Midtones: Display Cluster Configuration Viewport Color Grading Settings Structure. Midtones:. Midtones color grading.
+中调。显示集群配置 视口颜色分级设置结构。Midtones:。Midtones调色。
 
-Highlights: Display Cluster Configuration Viewport Color Grading Settings Structure. Highlights:. Highlights color grading.
+亮点。显示集群配置 视口颜色分级设置 结构.亮点：。亮点调色。
 
-Highlights Min: Float (single-precision). Color Correction Highlights Min.
+突出显示 最小。Float（单精度）。色彩校正亮点最小值。
 
-Misc: Display Cluster Configuration Viewport Color Grading Misc Settings Structure. Misc:. Highlights color grading misc settings.  
+其他事项。显示集群配置 视口颜色分级 杂项设置结构。Misc:.突出调色的杂项设置。  
 
 ## Outputs
 
-Display Cluster Configuration Viewport Color Grading Rendering Settings: Display Cluster Configuration Viewport Color Grading Rendering Settings Structure.
-
+Display Cluster Configuration Viewport Color Grading Rendering Settings:显示集群配置视口颜色分级渲染设置结构。

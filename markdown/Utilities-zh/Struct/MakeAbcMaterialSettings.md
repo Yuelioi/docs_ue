@@ -1,6 +1,6 @@
 # MakeAbcMaterialSettings
 
-Adds a node that create a 'AbcMaterialSettings' from its members
+添加一个节点，从其成员中创建一个'AbcMaterialSettings'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'AbcMaterialSettings' from its members
 
 ## Inputs
 
-Create Materials: Boolean. Create Materials:. Whether or not to create materials according to found Face Set names (will not work without face sets).
+创建材料。Boolean.创建材料：。是否根据找到的面孔集名称创建材料（没有面孔集将无法工作）。
 
-Find Materials: Boolean. Find Materials:. Whether or not to try and find materials according to found Face Set names (will not work without face sets).  
+查找材料。布尔型。查找材料：。是否尝试根据找到的面片组名称来寻找材料（没有面片组将无法工作）。  
 
 ## Outputs
 
-Abc Material Settings: Abc Material Settings Structure.
-
+Abc材料设置。Abc材料设置结构。

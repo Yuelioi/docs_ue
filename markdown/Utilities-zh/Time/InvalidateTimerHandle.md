@@ -1,8 +1,8 @@
 # InvalidateTimerHandle
 
-Invalidate the supplied TimerHandle and return it.
+使提供的TimerHandle无效并返回。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Handle: Timer Handle Structure (by ref). The handle of the timer to invalidate..  
+手柄。计时器句柄结构（通过引用）。要废止的定时器的句柄。
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Return Value: Timer Handle Structure. Return the invalidated timer handle for convenience..
-
+返回值。计时器句柄结构。为方便起见，返回失效的定时器手柄。

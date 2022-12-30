@@ -1,6 +1,6 @@
 # BreakPoseSearchChannelHorizonPar-
 
-Adds a node that breaks a 'PoseSearchChannelHorizonParams' into its member fields
+添加一个节点，将'PoseSearchChannelHorizonParams'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'PoseSearchChannelHorizonParams' into its member field
 
 ## Inputs
 
-Pose Search Channel Horizon Params: Pose Search Channel Horizon Params Structure (by ref).  
+姿势搜索通道地平线参数。姿势搜索通道地平线参数结构（按参考）。  
 
 ## Outputs
 
-Weight: Float (single-precision). Weight:. Total score contribution of all samples within this horizon, normalized with other horizons.
+重量。Float（单精度）。权重：。该水平线内所有样本的总得分贡献，与其他水平线归一。
 
-Interpolate: Boolean. Interpolate:. Whether to interpolate samples within this horizon.
+插值。布尔型。插值：。是否在此范围内对样本进行插值。
 
-Initial Value: Float (single-precision). Initial Value:. Horizon sample weights will be interpolated from InitialValue to 1.0 - InitialValue and then normalized.
+初始值。Float (single-precision).初始值：。地平线样本权重将从InitialValue内插到1.0-InitialValue，然后归一化。
 
-Interpolation Method: EAlphaBlendOption Enum. Interpolation Method:. Curve type for horizon interpolation.
-
+插值方法。EAlphaBlendOption Enum.插值方法：。用于水平线插值的曲线类型。

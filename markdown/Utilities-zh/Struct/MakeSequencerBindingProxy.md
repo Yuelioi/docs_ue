@@ -1,6 +1,6 @@
 # MakeSequencerBindingProxy
 
-Adds a node that create a 'SequencerBindingProxy' from its members
+添加一个节点，从其成员中创建一个'SequencerBindingProxy'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SequencerBindingProxy' from its members
 
 ## Outputs
 
-Sequencer Binding Proxy: Sequencer Binding Proxy Structure.
-
+定序器绑定代理。定序器绑定代理结构。

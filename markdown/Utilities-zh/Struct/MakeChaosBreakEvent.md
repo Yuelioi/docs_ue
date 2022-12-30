@@ -1,6 +1,6 @@
 # MakeChaosBreakEvent
 
-Adds a node that create a 'ChaosBreakEvent' from its members
+添加一个节点，从其成员中创建一个 "ChaosBreakEvent"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ChaosBreakEvent' from its members
 
 ## Outputs
 
-Chaos Break Event: Chaos Break Event Structure.
-
+Chaos Break事件。Chaos Break事件的结构。

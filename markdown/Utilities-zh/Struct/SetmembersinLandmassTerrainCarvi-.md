@@ -1,6 +1,6 @@
 # SetmembersinLandmassTerrainCarvi-
 
-Adds a node that modifies a 'LandmassTerrainCarvingSettings'
+添加一个修改 "LandmassTerrainCarvingSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'LandmassTerrainCarvingSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Landmass Terrain Carving Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Landmass Terrain Carving Settings Structure (by ref). Reference to the input struct.
-
+结构了。Landmass Terrain Carving Settings Structure（通过ref）。对输入结构的引用。

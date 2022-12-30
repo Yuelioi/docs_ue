@@ -1,6 +1,6 @@
 # BreakSteamVRInputOriginInfo
 
-Adds a node that breaks a 'SteamVRInputOriginInfo' into its member fields
+添加一个节点，将'SteamVRInputOriginInfo'分解到其成员字段中。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'SteamVRInputOriginInfo' into its member fields
 
 ## Inputs
 
-Steam VRInput Origin Info: Steam VRInput Origin Info Structure (by ref).  
+Steam VRInput起源信息。Steam VRInput起源信息结构（按参考）。  
 
 ## Outputs
 
-Tracked Device Index: Integer. Tracked Device Index:. The tracked device index for the device or k_unTrackedDeviceInvalid (0xFFFFFFFF).
+追踪的设备索引。整数。被追踪设备索引：.设备的被追踪设备索引或k_unTrackedDeviceInvalid (0xFFFFFFFF)。
 
-Render Model Component Name: String. Render Model Component Name:. The name of the component of the tracked device's render model that represents this input source, or an empty string if there is no associated render model component..
+渲染模型组件名称。字符串。Render Model Component Name：.被跟踪设备的渲染模型中代表该输入源的组件名称，如果没有相关的渲染模型组件，则为空字符串。
 
-Tracked Device Model: String. Tracked Device Model:. The tracked device's model info.
-
+追踪的设备模型。字符串。被追踪设备模型：。被追踪设备的型号信息。

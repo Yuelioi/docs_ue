@@ -1,6 +1,6 @@
 # SetmembersinInputRange
 
-Adds a node that modifies a 'InputRange'
+添加一个修改'InputRange'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InputRange'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Input Range Structure (by ref).  
+结构参考：输入范围结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Input Range Structure (by ref). Reference to the input struct.
-
+Struct Out: 输入范围结构（通过ref）。对输入结构的引用。

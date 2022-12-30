@@ -1,6 +1,6 @@
 # BreakSkelMeshMergeMeshUVTransfor-
 
-Adds a node that breaks a 'SkelMeshMergeMeshUVTransforms' into its member fields
+添加一个打破'SkelMeshMergeMeshUVTransforms'的节点到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'SkelMeshMergeMeshUVTransforms' into its member fields
 
 ## Inputs
 
-Skel Mesh Merge Mesh UVTransforms: Skel Mesh Merge Mesh UVTransforms Structure (by ref).  
+Skel Mesh Merge Mesh UVTransforms。Skel Mesh Merge Mesh UVTransforms结构（通过参考）。  
 
 ## Outputs
 
-UVTransforms: Array of Transforms. UVTransforms:. A list of how UVs should be transformed on a given mesh, where index represents a specific UV channel..
-
+UVTransforms。变换的数组。UVTransforms:.给定网格上的UV应该如何变换的列表，其中索引代表一个特定的UV通道。

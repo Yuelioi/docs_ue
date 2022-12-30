@@ -1,6 +1,6 @@
 # MakeToolDynamicUIAction
 
-Adds a node that create a 'ToolDynamicUIAction' from its members
+添加一个节点，从其成员中创建一个 "ToolDynamicUIAction"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'ToolDynamicUIAction' from its members
 
 ## Inputs
 
-Execute Action: Delegate. Execute Action.
+执行行动。授权。执行行动。
 
-Can Execute Action: Delegate. Can Execute Action.
+可以执行行动。代表。能否执行行动。
 
-Get Action Check State: Delegate. Get Action Check State.
+获取行动检查状态。代表。获取行动检查状态。
 
-Is Action Visible Delegate: Delegate. Is Action Visible Delegate.  
+行动是否可见 代表。代表。Is Action Visible Delegate.  
 
 ## Outputs
 
-Tool Dynamic UIAction: Tool Dynamic UIAction Structure.
-
+工具动态UIAction。工具动态UIAction结构。

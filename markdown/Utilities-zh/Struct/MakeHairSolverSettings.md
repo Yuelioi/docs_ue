@@ -1,6 +1,6 @@
 # MakeHairSolverSettings
 
-Adds a node that create a 'HairSolverSettings' from its members
+添加一个节点，从其成员中创建一个 "HairSolverSettings"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'HairSolverSettings' from its members
 
 ## Outputs
 
-Hair Solver Settings: Hair Solver Settings Structure.
-
+头发解决器设置。头发解算器设置结构。

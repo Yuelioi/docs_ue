@@ -1,6 +1,6 @@
 # MakeGameplayAbilityTargetDataHan-
 
-Adds a node that create a 'GameplayAbilityTargetDataHandle' from its members
+添加一个节点，从其成员中创建一个 "GameplayAbilityTargetDataHandle"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayAbilityTargetDataHandle' from its members
 
 ## Outputs
 
-Gameplay Ability Target Data Handle: Gameplay Ability Target Data Handle Structure.
-
+Gameplay Ability Target Data Handle。Gameplay Ability Target Data Handle结构。

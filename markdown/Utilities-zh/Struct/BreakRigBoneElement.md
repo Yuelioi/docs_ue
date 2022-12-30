@@ -1,6 +1,6 @@
 # BreakRigBoneElement
 
-Adds a node that breaks a 'RigBoneElement' into its member fields
+添加一个节点，将'RigBoneElement'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'RigBoneElement' into its member fields
 
 ## Inputs
 
-Rig Bone Element: Rig Bone Element Structure (by ref).  
+钻机骨元素。钻机骨元素结构（按参考）。  
 
 ## Outputs
 
-Bone Type: ERigBoneType Enum. Bone Type.
+骨骼类型。ERigBoneType枚举。骨骼类型。
 
-Pose: Rig Current And Initial Transform Structure. Pose.
+姿势。钻机电流和初始变换结构。姿势。
 
-Key: Rig Element Key Structure. Key.
+钥匙。钻机元素关键结构。钥匙。
 
-Index: Integer. Index.
+索引。整数。指数。
 
-Sub Index: Integer. Sub Index.
+副索引。整数。副索引。
 
-Selected: Boolean. Selected.
-
+选定。布尔型。选定。

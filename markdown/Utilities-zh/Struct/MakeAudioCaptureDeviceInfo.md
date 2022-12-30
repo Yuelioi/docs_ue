@@ -1,6 +1,6 @@
 # MakeAudioCaptureDeviceInfo
 
-Adds a node that create a 'AudioCaptureDeviceInfo' from its members
+添加一个节点，从其成员中创建一个 "AudioCaptureDeviceInfo"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AudioCaptureDeviceInfo' from its members
 
 ## Outputs
 
-Audio Capture Device Info: Audio Capture Device Info Structure.
-
+音频采集设备信息。音频采集设备信息结构。

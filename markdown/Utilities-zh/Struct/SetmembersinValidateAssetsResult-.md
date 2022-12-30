@@ -1,6 +1,6 @@
 # SetmembersinValidateAssetsResult-
 
-Adds a node that modifies a 'ValidateAssetsResults'
+添加一个修改 "ValidateAssetsResults "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ValidateAssetsResults'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Validate Assets Results Structure (by ref).  
+结构参考：验证资产结果结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Validate Assets Results Structure (by ref). Reference to the input struct.
-
+结构出来。验证资产结果结构（通过引用）。对输入结构的引用。

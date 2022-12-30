@@ -1,6 +1,6 @@
 # MakeCollisionProfileName
 
-Adds a node that create a 'CollisionProfileName' from its members
+添加一个节点，从其成员中创建一个 "CollisionProfileName"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CollisionProfileName' from its members
 
 ## Outputs
 
-Collision Profile Name: Collision Profile Name Structure.
-
+碰撞资料名称。碰撞配置文件名称结构。

@@ -1,6 +1,6 @@
 # MakeContextualAnimQueryContext
 
-Adds a node that create a 'ContextualAnimQueryContext' from its members
+添加一个节点，从其成员中创建一个'ContextualAnimQueryContext'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ContextualAnimQueryContext' from its members
 
 ## Inputs
 
-Actor: Actor Weak object. Actor.
+演员。演员 弱势的对象。行为者。
 
-Transform: Transform. Transform.  
+转变。转变。转变。  
 
 ## Outputs
 
-Contextual Anim Query Context: Contextual Anim Query Context Structure.
-
+语境动画查询语境:语境动画查询 语境结构.

@@ -1,6 +1,6 @@
 # SetmembersinHairInterpolationSet-
 
-Adds a node that modifies a 'HairInterpolationSettings'
+添加一个节点，修改'HairInterpolationSettings'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'HairInterpolationSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Hair Interpolation Settings Structure (by ref).  
+结构参考：头发插值设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Hair Interpolation Settings Structure (by ref). Reference to the input struct.
-
+Struct Out: Hair Interpolation Settings Structure (by ref).对输入结构的引用。

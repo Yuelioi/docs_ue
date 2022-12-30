@@ -1,6 +1,6 @@
 # SetmembersinScalarParameterValue
 
-Adds a node that modifies a 'ScalarParameterValue'
+添加一个修改 "ScalarParameterValue "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ScalarParameterValue'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Scalar Parameter Value Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Scalar Parameter Value Structure (by ref). Reference to the input struct.
-
+结构出来。Scalar Parameter Value Structure（通过ref）。对输入结构的引用。

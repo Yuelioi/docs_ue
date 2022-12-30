@@ -1,6 +1,6 @@
 # SetmembersinSour-
 
-Adds a node that modifies a 'SourceEffectFilterAudioBusModulationSettings'
+添加一个节点，修改 "SourceEffectFilterAudioBusModulationSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SourceEffectFilterAudioBusModulationSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Source Effect Filter Audio Bus Modulation Settings Structure (by ref).  
+Struct Ref: Source Effect Filter Audio Bus Modulation Settings Structure（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Source Effect Filter Audio Bus Modulation Settings Structure (by ref). Reference to the input struct.
-
+结构输出。Source Effect Filter Audio Bus Modulation Settings Structure（通过参考）。对输入结构的参考。

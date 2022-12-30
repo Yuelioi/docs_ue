@@ -1,6 +1,6 @@
 # MakeDatasmithStaticMeshImportOpt-
 
-Adds a node that create a 'DatasmithStaticMeshImportOptions' from its members
+添加一个节点，从其成员中创建一个'DatasmithStaticMeshImportOptions'。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'DatasmithStaticMeshImportOptions' from its members
 
 ## Inputs
 
-Min Lightmap Resolution: EDatasmithImportLightmapMin Enum. Min Lightmap Resolution:. Minimum resolution for auto-generated lightmap UVs.
+最小光图分辨率。EDatasmithImportLightmapMin Enum.最小光照图分辨率：。自动生成的光照图UV的最小分辨率。
 
-Max Lightmap Resolution: EDatasmithImportLightmapMax Enum. Max Lightmap Resolution:. Maximum resolution for auto-generated lightmap UVs.
+最大光图分辨率。EDatasmithImportLightmapMax枚举。最大光照图分辨率：。自动生成的光照图UV的最大分辨率。
 
-Generate Lightmap UVs: Boolean. Generate Lightmap UVs.
+生成光绘UV。布尔值。生成光照图UV。
 
-Remove Degenerates: Boolean. Remove Degenerates.  
+删除退化者。布尔型。移除退行者。  
 
 ## Outputs
 
-Datasmith Static Mesh Import Options: Datasmith Static Mesh Import Options Structure.
-
+Datasmith静态网格导入选项。Datasmith静态网格导入选项的结构。

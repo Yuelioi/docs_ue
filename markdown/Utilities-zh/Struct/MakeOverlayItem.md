@@ -1,6 +1,6 @@
 # MakeOverlayItem
 
-Adds a node that create a 'OverlayItem' from its members
+添加一个节点，从其成员中创建一个 "叠加项"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'OverlayItem' from its members
 
 ## Inputs
 
-Start Time: Timespan Structure. Start Time:. When the overlay should be displayed.
+开始时间：时间范围结构。开始时间：。覆盖物应何时显示。
 
-End Time: Timespan Structure. End Time:. When the overlay should be cleared.
+结束时间：时间跨度结构。结束时间：。覆盖物应何时被清除。
 
-Text: String. Text:. Text that appears onscreen when the overlay is shown.
+文本。字符串。文本：。显示叠加时出现在屏幕上的文本。
 
-Position: Vector 2D Structure. Position:. The position of the text on screen (Between 0.0 and 1.0).  
+位置。矢量二维结构。位置：。文本在屏幕上的位置（在0.0和1.0之间）。  
 
 ## Outputs
 
-Overlay Item: Overlay Item Structure.
-
+叠加项目。叠加项目结构。

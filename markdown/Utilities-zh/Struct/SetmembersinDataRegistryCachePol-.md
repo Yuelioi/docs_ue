@@ -1,6 +1,6 @@
 # SetmembersinDataRegistryCachePol-
 
-Adds a node that modifies a 'DataRegistryCachePolicy'
+添加一个修改 "DataRegistryCachePolicy "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DataRegistryCachePolicy'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Data Registry Cache Policy Structure (by ref).  
+结构参考：数据注册中心缓存策略结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Data Registry Cache Policy Structure (by ref). Reference to the input struct.
-
+结构出来。数据注册中心缓存策略结构（通过引用）。对输入结构的引用。

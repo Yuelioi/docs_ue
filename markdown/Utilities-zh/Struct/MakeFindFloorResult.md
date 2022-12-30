@@ -1,6 +1,6 @@
 # MakeFindFloorResult
 
-Adds a node that create a 'FindFloorResult' from its members
+添加一个节点，从其成员中创建一个'FindFloorResult'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'FindFloorResult' from its members
 
 ## Outputs
 
-Find Floor Result: Find Floor Result Structure.
-
+查找楼层结果。查找楼层结果结构。

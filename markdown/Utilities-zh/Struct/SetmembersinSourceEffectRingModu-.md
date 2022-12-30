@@ -1,6 +1,6 @@
 # SetmembersinSourceEffectRingModu-
 
-Adds a node that modifies a 'SourceEffectRingModulationSettings'
+添加一个节点，修改 "SourceEffectRingModulationSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SourceEffectRingModulationSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Source Effect Ring Modulation Settings Structure (by ref).  
+Struct Ref: Source Effect Ring Modulation Settings Structure (通过参考)。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Source Effect Ring Modulation Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Source Effect Ring Modulation Settings Structure（通过参考）。对输入结构的引用。

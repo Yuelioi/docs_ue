@@ -1,6 +1,6 @@
 # MakeCurveParameterPair
 
-Adds a node that create a 'CurveParameterPair' from its members
+添加一个节点，从其成员中创建一个 "曲线参数对"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CurveParameterPair' from its members
 
 ## Outputs
 
-Curve Parameter Pair: Curve Parameter Pair Structure.
-
+曲线参数对。曲线参数对的结构。

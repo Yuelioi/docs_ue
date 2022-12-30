@@ -1,6 +1,6 @@
 # BreakLevelExporterUSDOptionsInne-
 
-Adds a node that breaks a 'LevelExporterUSDOptionsInner' into its member fields
+添加一个节点，将'LevelExporterUSDOptionsInner'分解成其成员字段
 
 ## 图示
 
@@ -8,29 +8,28 @@ Adds a node that breaks a 'LevelExporterUSDOptionsInner' into its member fields
 
 ## Inputs
 
-Level Exporter USDOptions Inner: Level Exporter USDOptions Inner Structure (by ref).  
+Level Exporter USDOptions Inner:水平出口USDOptions内部结构（参考）。  
 
 ## Outputs
 
-Selection Only: Boolean. Selection Only:. Whether to export only the selected actors, and assets used by them.
+只选择。布尔型。仅选择：。是否只输出选定的演员，以及他们使用的资产。
 
-Export Actor Folders: Boolean. Export Actor Folders:. Whether to use UE actor folders as empty prims.
+导出演员文件夹。布尔型。Export Actor Folders:（导出演员文件夹）。是否使用UE演员文件夹作为空底片。
 
-Ignore Sequencer Animations: Boolean. Ignore Sequencer Animations:. If true, and if we have a level sequence animating the level during export, it will revert any actor or component to its unanimated state before writing to USD.
+忽略序列器动画。Boolean.Ignore Sequencer Animations:.忽略序列动画。如果为真，并且在导出过程中，如果我们有一个关卡序列在做动画，那么在写入USD之前，它将把任何角色或组件恢复到其无动画的状态。
 
-Export Foliage On Actors Layer: Boolean. Export Foliage on Actors Layer:. By default foliage instances will be exported to the same layer as the component they were placed on in the editor.. Enable this to instead export the foliage instances to the same layer as the foliage actor they belong to.. This is useful if those foliage instances were placed with the "Place In Current Level" option..
+在演员层上导出树叶。Boolean.在演员层上导出叶子：。默认情况下，叶子实例将被导出到与它们在编辑器中放置的组件相同的层。启用这个选项可以将叶子实例导出到与它们所属的叶子演员相同的层。如果这些树叶实例是用 "放置在当前层 "选项放置的，这就很有用。
 
-Asset Folder: Directory Path Structure. Asset Folder:. Where to place all the generated asset files.
+资产文件夹。目录路径结构。资产文件夹：。将所有生成的资产文件放在哪里。
 
-Asset Options: Usd Mesh Asset Options Structure. Asset Options:. Options to use for all exported assets when appropriate (e.g. static and skeletal meshes, materials, etc.).
+资产期权。Usd Mesh资产期权结构。资产选项：。适当时用于所有导出资产的选项（例如静态和骨架网格、材料等）。
 
-Lowest Landscape LOD: Integer. Lowest Landscape LOD:. Lowest of the LOD indices to export landscapes with (use 0 for full resolution).
+最低景观LOD：整数。最低景观LOD：。输出景观的最低LOD指数（使用0表示全分辨率）。
 
-Highest Landscape LOD: Integer. Highest Landscape LOD:. Highest of the LOD indices to export landscapes with. Each value above 0 halves resolution.. The max value depends on the number of components and sections per component of each landscape, and may be clamped..
+最高景观LOD：整数。最高景观LOD：。输出景观时的最高LOD指数。每一个高于0的值都会使分辨率减半。最大值取决于每个景观的组件数量和每个组件的部分，并且可以被夹紧。
 
-Landscape Bake Resolution: Int Point Structure. Landscape Bake Resolution:. Resolution to use when baking landscape materials into textures.
+景观烘烤分辨率。Int点结构。Landscape Bake Resolution（景观烘焙分辨率）：。将景观材质烘焙成纹理时使用的分辨率。
 
-Export Sublayers: Boolean. Export Sublayers:. If true, will export sub-levels as separate layers (referenced as sublayers). If false, will collapse all sub-levels in a single exported root layer.
+输出子层。布尔型。导出子层：。如果为真，将导出子层作为单独的图层（引用为子层）。如果是假的，将把所有子层折叠在一个单一的导出的根层中。
 
-Levels To Ignore: Set of Strings. Levels to Ignore:. Names of levels that should be ignored when collecting actors to export (e.g. "Persistent Level", "Level1", "MySubLevel", etc.).
-
+忽略的级别。弦乐组。忽略的级别：。在收集要输出的角色时应该忽略的级别名称（例如，"持久级别"、"Level1"、"MySubLevel "等）。

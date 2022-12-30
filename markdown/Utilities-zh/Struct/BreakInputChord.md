@@ -1,6 +1,6 @@
 # BreakInputChord
 
-Adds a node that breaks a 'InputChord' into its member fields
+添加一个节点，将 "输入和弦 "分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'InputChord' into its member fields
 
 ## Inputs
 
-Input Chord: Input Chord Structure (by ref).  
+输入和弦。输入和弦结构（通过参考）。  
 
 ## Outputs
 
-Key: Key Structure. Key:. The Key is the core of the chord..
+钥匙。钥匙结构。调：.调是和弦的核心。
 
-Shift: Boolean. Shift:. Whether the shift key is part of the chord..
+移位。Boolean.移位：。移位键是否是和弦的一部分。
 
-Ctrl: Boolean. Ctrl:. Whether the control key is part of the chord..
+键盘上的 "Ctrl"。布尔型。Ctrl:.控制键是否是和弦的一部分。
 
-Alt: Boolean. Alt:. Whether the alt key is part of the chord..
+Alt:布尔型。Alt:.Alt键是否是和弦的一部分。
 
-Cmd: Boolean. Cmd:. Whether the command key is part of the chord..
-
+Cmd:Boolean.Cmd:.命令键是否是和弦的一部分。

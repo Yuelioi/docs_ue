@@ -1,6 +1,6 @@
 # MakeCommonInputTypeInfo
 
-Adds a node that create a 'CommonInputTypeInfo' from its members
+添加一个节点，从其成员中创建一个 "CommonInputTypeInfo"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CommonInputTypeInfo' from its members
 
 ## Outputs
 
-Common Input Type Info: Common Input Type Info Structure.
-
+常见的输入类型信息。常见的输入类型信息结构。

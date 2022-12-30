@@ -1,6 +1,6 @@
 # MakeVOscillator
 
-Adds a node that create a 'VOscillator' from its members
+添加一个节点，从其成员中创建一个 "VOscillator"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'VOscillator' from its members
 
 ## Inputs
 
-X: FOscillator Structure. X:. Oscillation in the X axis..
+X: FOscillator结构。X:.在X轴上的振荡...
 
-Y: FOscillator Structure. Y:. Oscillation in the Y axis..
+Y：FO振荡器结构。Y:.在Y轴上的振荡...
 
-Z: FOscillator Structure. Z:. Oscillation in the Z axis..  
+Z：FO振荡器结构。Z:.在Z轴上的振荡...  
 
 ## Outputs
 
-VOscillator: VOscillator Structure.
-
+VOscillator:VOscillator结构。

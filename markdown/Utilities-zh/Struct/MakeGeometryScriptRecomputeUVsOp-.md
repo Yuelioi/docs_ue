@@ -1,6 +1,6 @@
 # MakeGeometryScriptRecomputeUVsOp-
 
-Adds a node that create a 'GeometryScriptRecomputeUVsOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptRecomputeUVsOptions"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'GeometryScriptRecomputeUVsOptions' from its members
 
 ## Inputs
 
-Method: EGeometryScriptUVFlattenMethod Enum. Method.
+方法。EGeometryScriptUVFlattenMethod Enum.方法。
 
-Island Source: EGeometryScriptUVIslandSource Enum. Island Source.
+岛源。EGeometryScriptUVIslandSource枚举。岛源。
 
-Exp Map Options: Geometry Script Exp Map UVOptions Structure. Exp Map Options.
+Exp Map选项。Geometry Script Exp Map UVOptions结构。Exp Map Options.
 
-Group Layer: Geometry Script Group Layer Structure. Group Layer.
+组图层。Geometry Script Group Layer Structure.组图层。
 
-Auto Align Islands With Axes: Boolean. Auto Align Islands with Axes.  
+自动将岛屿与轴对齐。布尔值。自动将岛屿与轴对齐。  
 
 ## Outputs
 
-Geometry Script Recompute UVs Options: Geometry Script Recompute UVs Options Structure.
-
+Geometry Script Re-pute UVs Options:Geometry Script Re-pute UVs Options（几何脚本重新计算UV）结构。

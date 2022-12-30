@@ -1,6 +1,6 @@
 # MakeGeometryScriptMeshPlaneCutOp-
 
-Adds a node that create a 'GeometryScriptMeshPlaneCutOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptMeshPlaneCutOptions'。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'GeometryScriptMeshPlaneCutOptions' from its members
 
 ## Inputs
 
-Fill Holes: Boolean. Fill Holes.
+填充孔。布尔型。填充孔。
 
-Fill Spans: Boolean. Fill Spans.
+填充跨度：布尔值。填充跨度。
 
-Flip Cut Side: Boolean. Flip Cut Side.
+翻转切面。布尔型。翻转切割面。
 
-UVWorld Dimension: Float (single-precision). UVWorld Dimension.  
+UVWorld尺寸。Float（单精度）。UVWorld维度。  
 
 ## Outputs
 
-Geometry Script Mesh Plane Cut Options: Geometry Script Mesh Plane Cut Options Structure.
-
+Geometry Script Mesh Plane Cut Options:Geometry Script Mesh Plane Cut Options结构。

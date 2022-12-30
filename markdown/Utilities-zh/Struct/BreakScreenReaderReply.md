@@ -1,6 +1,6 @@
 # BreakScreenReaderReply
 
-Adds a node that breaks a 'ScreenReaderReply' into its member fields
+添加一个节点，将 "ScreenReaderReply "分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'ScreenReaderReply' into its member fields
 
 ## Inputs
 
-Screen Reader Reply: Screen Reader Reply Structure (by ref).  
+读屏器回复。读屏器回复结构（按参考）。  
 
 ## Outputs
 
-Handled: Boolean. Handled.
-
+处理的。布尔值。处理过的。

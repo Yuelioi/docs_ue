@@ -1,6 +1,6 @@
 # MakeDMXImportGDTFFilterBeam
 
-Adds a node that create a 'DMXImportGDTFFilterBeam' from its members
+添加一个节点，从其成员中创建一个 "DMXImportGDTFFilterBeam"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXImportGDTFFilterBeam' from its members
 
 ## Outputs
 
-DMXImport GDTFFilter Beam: DMXImport GDTFFilter Beam Structure.
-
+DMXImport GDTFFilter Beam: DMXImport GDTFFilter Beam结构。

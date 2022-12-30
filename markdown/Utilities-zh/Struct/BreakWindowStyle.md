@@ -1,6 +1,6 @@
 # BreakWindowStyle
 
-Adds a node that breaks a 'WindowStyle' into its member fields
+添加一个节点，将'WindowStyle'分解到其成员字段中。
 
 ## 图示
 
@@ -8,41 +8,40 @@ Adds a node that breaks a 'WindowStyle' into its member fields
 
 ## Inputs
 
-Window Style: Window Style Structure (by ref).  
+窗口风格。窗口风格结构（按参考）。  
 
 ## Outputs
 
-Minimize Button Style: Button Style Structure. Minimize Button Style:. Style used to draw the window minimize button.
+最小化按钮样式。按钮样式的结构。Minimize Button Style:（最小化按钮样式）。用于绘制窗口最小化按钮的样式。
 
-Maximize Button Style: Button Style Structure. Maximize Button Style:. Style used to draw the window maximize button.
+最大化按钮风格。按钮样式的结构。最大化按钮样式：。用于绘制窗口最大化按钮的样式。
 
-Restore Button Style: Button Style Structure. Restore Button Style:. Style used to draw the window restore button.
+恢复按钮样式。按钮样式的结构。还原按钮样式：。用于绘制窗口还原按钮的样式。
 
-Close Button Style: Button Style Structure. Close Button Style:. Style used to draw the window close button.
+关闭按钮样式。按钮风格结构。关闭按钮样式：。用于绘制窗口关闭按钮的样式。
 
-Title Text Style: Text Block Style Structure. Title Text Style:. Style used to draw the window title text.
+标题文本样式。文本块样式结构。标题文本样式：。用于绘制窗口标题文本的样式。
 
-Active Title Brush: Slate Brush Structure. Active Title Brush:. Brush used to draw the window title area when the window is active.
+活跃的标题刷。石板刷结构。活动标题笔刷：。当窗口处于活动状态时用于绘制窗口标题区域的画笔。
 
-Inactive Title Brush: Slate Brush Structure. Inactive Title Brush:. Brush used to draw the window title area when the window is inactive.
+无效的标题刷。石板刷结构。不活动的标题笔刷：。用于在窗口不活动时绘制窗口标题区域的画笔。
 
-Flash Title Brush: Slate Brush Structure. Flash Title Brush:. Brush used to draw the window title area when the window is flashing.
+Flash标题刷。石板刷结构。闪光标题笔刷：。用于在窗口闪烁时绘制窗口标题区域的画笔。
 
-Background Color: Slate Color Structure. Background Color:. Color used to draw the window background.
+背景颜色: 板岩颜色结构.背景色：。用于绘制窗口背景的颜色。
 
-Outline Brush: Slate Brush Structure. Outline Brush:. Brush used to draw the window outline.
+轮廓画笔。石板画笔结构。轮廓画笔：。用于绘制窗口轮廓的画笔。
 
-Outline Color: Slate Color Structure. Outline Color:. Color used to draw the window outline.
+轮廓色：板岩色结构。轮廓颜色：。用于绘制窗口轮廓的颜色。
 
-Border Brush: Slate Brush Structure. Border Brush:. Brush used to draw the window border.
+边框刷。石板刷的结构。边框画笔：。用来绘制窗口边框的画笔。
 
-Border Color: Slate Color Structure. Border Color:. Color used to draw the window border.
+边框颜色：石板色结构。边框颜色：。用于绘制窗口边框的颜色。
 
-Background Brush: Slate Brush Structure. Background Brush:. Brush used to draw the window background.
+背景画笔。石板刷结构。背景画笔：。用来绘制窗口背景的画笔。
 
-Child Background Brush: Slate Brush Structure. Child Background Brush:. Brush used to draw the background of child windows.
+儿童背景画笔。石板刷结构。子母背景画笔：。用于绘制子窗口的背景的画笔。
 
-Window Corner Radius: Integer. Window Corner Radius:. Window corner rounding. If this value is <= 0 no rounding will occur. Used for regular, non-maximized windows only (not tool-tips or decorators.).
+窗口转角半径。整数。窗口转角半径：。窗口转角舍入。如果此值<=0，则不会发生圆角。只用于常规的、非最大化的窗口（不是工具提示或装饰器。）
 
-Border Padding: Margin Structure. Border Padding:. Window corner rounding. If this value is <= 0 no rounding will occur. Used for regular, non-maximized windows only (not tool-tips or decorators.).
-
+边框填充。边距结构。边框填充：。窗口的圆角。如果此值<=0，则不会发生圆角。只用于常规的、非最大化的窗口（不是工具提示或装饰器。）

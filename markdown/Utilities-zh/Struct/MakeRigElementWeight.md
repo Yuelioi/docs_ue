@@ -1,6 +1,6 @@
 # MakeRigElementWeight
 
-Adds a node that create a 'RigElementWeight' from its members
+添加一个节点，从其成员中创建一个 "RigElementWeight"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'RigElementWeight' from its members
 
 ## Inputs
 
-Location: Float (single-precision). Location.
+位置。Float（单精度）。位置。
 
-Rotation: Float (single-precision). Rotation.
+旋转。Float（单精度）。旋转。
 
-Scale: Float (single-precision). Scale.  
+规模。Float（单精度）。规模。  
 
 ## Outputs
 
-Rig Element Weight: Rig Element Weight Structure.
-
+钻机元件的重量。钻机元件重量结构。

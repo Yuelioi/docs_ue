@@ -1,6 +1,6 @@
 # BreakTraceQueryTestResultsInnerM-
 
-Adds a node that breaks a 'TraceQueryTestResultsInnerMost' into its member fields
+添加一个节点，将'TraceQueryTestResultsInnerMost'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'TraceQueryTestResultsInnerMost' into its member field
 
 ## Inputs
 
-Trace Query Test Results Inner Most: Trace Query Test Results Inner Most Structure (by ref).  
+Trace Query Test Results Inner Most:追踪查询测试结果最内层结构（按参考）。  
 
 ## Outputs
 
-Single Hit: Hit Result Structure. Single Hit:. Result from doing a single sweep.
+单一命中：命中结果结构。单次命中：。做一次扫射的结果。
 
-Single Names: Trace Query Test Names Structure. Single Names:. Names found from doing a single sweep.
+单一名称。追踪查询测试名称结构。单一名称：。从做一次扫描中发现的名称。
 
-Single Result: Boolean. Single Result:. The true/false value returned from the single sweep.
+单一结果。布尔型。单一结果：。从单次扫描返回的真/假值。
 
-Multi Hits: Array of Hit Result Structures. Multi Hits:. Result from doing a multi sweep.
+多次点击。命中结果结构的数组。多次点击：。做多次扫射的结果。
 
-Multi Names: Array of Trace Query Test Names Structures. Multi Names:. Names found from doing a multi sweep.
+多名称。追踪查询测试名称的数组结构。多重名称：。从做多重扫瞄中发现的名称。
 
-Multi Result: Boolean. Multi Result:. The true/false value returned from the multi sweep.
-
+多重结果。布尔型。多重结果：。多重扫瞄返回的真/假值。

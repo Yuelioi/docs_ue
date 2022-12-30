@@ -1,6 +1,6 @@
 # BreakSteamVRAction
 
-Adds a node that breaks a 'SteamVRAction' into its member fields
+添加一个节点，将'SteamVRAction'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'SteamVRAction' into its member fields
 
 ## Inputs
 
-Steam VRAction: Steam VRAction Structure (by ref).  
+蒸汽VRAction。蒸汽VRAction结构（由参考文献）。  
 
 ## Outputs
 
-Name: Name. Name:. The SteamVR name of the action (e.g. Teleport, OpenConsole).
+姓名。姓名：。名称：。该动作的SteamVR名称（例如：Teleport、OpenConsole）。
 
-Path: String. Path:. The path defined for the action (e.g. main/in/{ActionName}).
-
+路径。字符串。路径：。为该动作定义的路径（例如main/in/{ActionName}）。

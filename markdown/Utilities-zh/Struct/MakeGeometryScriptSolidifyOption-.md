@@ -1,6 +1,6 @@
 # MakeGeometryScriptSolidifyOption-
 
-Adds a node that create a 'GeometryScriptSolidifyOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptSolidifyOptions"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'GeometryScriptSolidifyOptions' from its members
 
 ## Inputs
 
-Grid Parameters: Geometry Script 3DGrid Parameters Structure. Grid Parameters.
+网格参数。Geometry Script 3DGrid Parameters 结构。网格参数。
 
-Winding Threshold: Float (single-precision). Winding Threshold.
+绕组阈值。Float（单精度）。绕组阈值。
 
-Solid At Boundaries: Boolean. Solid at Boundaries.
+边界处的固体。布尔型。边界处的固体。
 
-Extend Bounds: Float (single-precision). Extend Bounds.
+扩展边界。Float（单精度）。延伸界线。
 
-Surface Search Steps: Integer. Surface Search Steps.  
+表面搜索步骤。整数。表面搜索步骤。  
 
 ## Outputs
 
-Geometry Script Solidify Options: Geometry Script Solidify Options Structure.
-
+Geometry Script Solidify Options:Geometry Script Solidify Options结构。

@@ -1,6 +1,6 @@
 # SetmembersinInputAlphaBoolBlend
 
-Adds a node that modifies a 'InputAlphaBoolBlend'
+添加一个修改 "InputAlphaBoolBlend "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InputAlphaBoolBlend'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Input Alpha Bool Blend Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Input Alpha Bool Blend Structure (by ref). Reference to the input struct.
-
+Struct Out: Input Alpha Bool Blend Structure (by ref).对输入结构的引用。

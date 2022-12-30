@@ -1,6 +1,6 @@
 # SetmembersinARPlaneUpdatePayload
 
-Adds a node that modifies a 'ARPlaneUpdatePayload'
+添加一个修改'ARPlaneUpdatePayload'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ARPlaneUpdatePayload'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: ARPlane Update Payload Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: ARPlane Update Payload Structure (by ref). Reference to the input struct.
-
+结构出来。ARPlane Update Payload Structure（通过引用）。对输入结构的引用。

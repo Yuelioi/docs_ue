@@ -1,6 +1,6 @@
 # BreakInt32RangeBound
 
-Adds a node that breaks a 'Int32RangeBound' into its member fields
+添加一个打破'Int32RangeBound'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'Int32RangeBound' into its member fields
 
 ## Inputs
 
-Int 32Range Bound: Int 32Range Bound Structure (by ref).  
+Int 32Range Bound:Int 32Range Bound结构（通过引用）。  
 
 ## Outputs
 
-Type: ERangeBoundTypes Enum. Type:. Holds the type of the bound..
+类型。ERangeBoundTypes Enum。类型:.保存绑定的类型。
 
-Value: Integer. Value:. Holds the bound's value..
-
+值。整数。值:.保存边界的值。

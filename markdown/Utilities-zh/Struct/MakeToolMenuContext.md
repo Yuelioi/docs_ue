@@ -1,6 +1,6 @@
 # MakeToolMenuContext
 
-Adds a node that create a 'ToolMenuContext' from its members
+添加一个节点，从其成员中创建一个'ToolMenuContext'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ToolMenuContext' from its members
 
 ## Outputs
 
-Tool Menu Context: Tool Menu Context Structure.
-
+工具菜单的上下文：工具菜单的上下文结构。

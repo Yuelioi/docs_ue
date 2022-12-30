@@ -1,6 +1,6 @@
 # MakeSubmixEffectReverbSettings
 
-Adds a node that create a 'SubmixEffectReverbSettings' from its members
+添加一个节点，从其成员中创建一个 "SubmixEffectReverbSettings"。
 
 ## 图示
 
@@ -8,39 +8,38 @@ Adds a node that create a 'SubmixEffectReverbSettings' from its members
 
 ## Inputs
 
-Bypass Early Reflections: Boolean. Bypass Early Reflections:. Bypasses early reflections.
+绕过早期反射。布尔型。绕过早期反射：。绕过早期反射。
 
-Reflections Delay: Float (single-precision). Reflections Delay:. Reflections Delay - 0.0 < 0.007 < 0.3 Seconds - the time between the listener receiving the direct path sound and the first reflection.
+反映延时。Float（单精度）。反射延迟：。反射延迟 - 0.0 < 0.007 < 0.3 Seconds - 听众收到直接路径声音和第一次反射之间的时间。
 
-Gain HF: Float (single-precision). Gain HF:. Reverb Gain High Frequency - 0.0 < 0.89 < 1.0 - attenuates the high frequency reflected sound.
+增益HF：浮点数（单精度）。增益高频：。混响增益高频 - 0.0 < 0.89 < 1.0 - 衰减高频反射声。
 
-Reflections Gain: Float (single-precision). Reflections Gain:. Reflections Gain - 0.0 < 0.05 < 3.16 - controls the amount of initial reflections.
+反射增益。Float (single-precision).反射增益：。反射增益 - 0.0 < 0.05 < 3.16 - 控制初始反射的数量。
 
-Bypass Late Reflections: Boolean. Bypass Late Reflections:. Bypasses late reflections..
+绕过晚期反射。布尔型。绕过后期反射：。绕过晚期反射。
 
-Late Delay: Float (single-precision). Late Delay:. Late Reverb Delay - 0.0 < 0.011 < 0.1 Seconds - time difference between late reverb and first reflections.
+晚期延迟。Float (single-precision).晚期延时：。晚期混响延迟 - 0.0 < 0.011 < 0.1 Seconds - 晚期混响和第一次反射之间的时间差。
 
-Decay Time: Float (single-precision). Decay Time:. Decay Time - 0.1 < 1.49 < 20.0 Seconds - larger is more reverb.
+衰减时间。Float（单精度）。衰减时间：。衰减时间 - 0.1 < 1.49 < 20.0 Seconds - 大的是更多的混响。
 
-Density: Float (single-precision). Density:. Density - 0.0 < 0.85 < 1.0 - Coloration of the late reverb - lower value is more grainy.
+密度。Float (single-precision).密度：。密度 - 0.0 < 0.85 < 1.0 - 晚期混响的颜色 - 低值更有颗粒感。
 
-Diffusion: Float (single-precision). Diffusion:. Diffusion - 0.0 < 0.85 < 1.0 - Echo density in the reverberation decay - lower is more grainy.
+扩散。Float (single-precision).扩散：。Diffusion - 0.0 < 0.85 < 1.0 - 混响衰减中的回声密度 - 较低的回声更有颗粒感。
 
-Air Absorption Gain HF: Float (single-precision). Air Absorption Gain HF:. Air Absorption - 0.0 < 0.994 < 1.0 - lower value means more absorption.
+空气吸收增益HF：浮点数（单精度）。空气吸收增益HF：。空气吸收 - 0.0 < 0.994 < 1.0 - 低值意味着更多的吸收。
 
-Decay HFRatio: Float (single-precision). Decay HFRatio:. Decay High Frequency Ratio - 0.1 < 0.83 < 2.0 - how much the quicker or slower the high frequencies decay relative to the lower frequencies..
+衰减HFRatio。Float (single-precision).衰减HFRatio:.衰减高频率 - 0.1 < 0.83 < 2.0 - 相对于低频，高频衰减的速度越快或越慢。
 
-Late Gain: Float (single-precision). Late Gain:. Late Reverb Gain - 0.0 < 1.26 < 10.0 - gain of the late reverb.
+晚期增益。Float（单精度）。晚期增益：。晚期混响增益 - 0.0 < 1.26 < 10.0 - 晚期混响的增益。
 
-Gain: Float (single-precision). Gain:. Reverb Gain - 0.0 < 0.32 < 1.0 - overall reverb gain - master volume control.
+增益。Float（单精度）。增益：。混响增益 - 0.0 < 0.32 < 1.0 - 整体混响增益 - 主音量控制。
 
-Wet Level: Float (single-precision). Wet Level:. Overall wet level of the reverb effect.
+湿水平。浮点（单精度）。湿润电平：。混响效果的总体湿电平。
 
-Dry Level: Float (single-precision). Dry Level:. Overall dry level of the reverb effect.
+干燥程度。浮点（单精度）。干式电平：。混响效果的总体干电平。
 
-Bypass: Boolean. Bypass:. Bypasses reverb.  
+旁路。布尔型。旁路：。绕过混响。  
 
 ## Outputs
 
-Submix Effect Reverb Settings: Submix Effect Reverb Settings Structure.
-
+子混音效果混响设置。子混音效果混响设置结构。

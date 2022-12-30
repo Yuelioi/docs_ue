@@ -1,6 +1,6 @@
 # MakeHairGroupsInterpolation
 
-Adds a node that create a 'HairGroupsInterpolation' from its members
+添加一个节点，从其成员中创建一个 "HairGroupsInterpolation"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'HairGroupsInterpolation' from its members
 
 ## Outputs
 
-Hair Groups Interpolation: Hair Groups Interpolation Structure.
-
+毛发组插值。毛发组插值结构。

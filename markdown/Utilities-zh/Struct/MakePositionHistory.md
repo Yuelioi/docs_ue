@@ -1,6 +1,6 @@
 # MakePositionHistory
 
-Adds a node that create a 'PositionHistory' from its members
+添加一个节点，从其成员中创建一个 "PositionHistory"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PositionHistory' from its members
 
 ## Outputs
 
-Position History: Position History Structure.
-
+职位历史。职位历史结构。

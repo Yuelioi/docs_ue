@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationP-_1
 
-Adds a node that create a 'DisplayClusterConfigurationPostRender_Override' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationPostRender_Override"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'DisplayClusterConfigurationPostRender_Override' from 
 
 ## Inputs
 
-Enable Viewport Texture Replacement: Boolean. Allow Replace:. Disable default render, and resolve SourceTexture to viewport.
+启用视口纹理替换。布尔值。允许替换：。禁用默认渲染，并将SourceTexture解析为视口。
 
-Source Texture: Texture 2D Object Reference. Source Texture:. Texture to use in place of the inner frustum..
+源纹理。纹理2D对象参考。源纹理：。用来代替内壳的纹理。
 
-Use Texture Crop: Boolean. Should Use Texture Region:. Set to True to crop the texture for the inner frustum as specified below..
+使用纹理裁剪：布尔值。Should Use Texture Region:（应使用纹理区域）。设置为 "True"，以按下面的规定裁剪内部地壳的纹理。
 
-Texture Crop: Display Cluster Replace Texture Crop Rectangle Structure. Texture Region:. Texture Crop.  
+纹理裁剪。Display Cluster Replace Texture Crop Rectangle Structure.纹理区域：。纹理裁剪。  
 
 ## Outputs
 
-Display Cluster Configuration Post Render Override: Display Cluster Configuration Post Render Override Structure.
-
+显示群集配置后渲染覆盖。显示群组配置后渲染覆盖结构。

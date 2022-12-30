@@ -1,6 +1,6 @@
 # MakeCachedRigElement
 
-Adds a node that create a 'CachedRigElement' from its members
+添加一个节点，从其成员中创建一个 "CachedRigElement"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CachedRigElement' from its members
 
 ## Outputs
 
-Cached Rig Element: Cached Rig Element Structure.
-
+缓存的钻机元素。缓存的钻机元素结构。

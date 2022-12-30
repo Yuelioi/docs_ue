@@ -1,6 +1,6 @@
 # BreakTableRowStyle
 
-Adds a node that breaks a 'TableRowStyle' into its member fields
+添加一个节点，将'TableRowStyle'分解成其成员字段
 
 ## 图示
 
@@ -8,45 +8,44 @@ Adds a node that breaks a 'TableRowStyle' into its member fields
 
 ## Inputs
 
-Table Row Style: Table Row Style Structure (by ref).  
+表行风格。表行风格结构（按参考）。  
 
 ## Outputs
 
-Selector Focused Brush: Slate Brush Structure. Selector Focused Brush:. Brush used as a selector when a row is focused.
+选择器聚焦刷。石板画笔结构。选择器聚焦画笔：。当一行被聚焦时作为选择器使用的画笔。
 
-Active Hovered Brush: Slate Brush Structure. Active Hovered Brush:. Brush used when a selected row is active and hovered.
+主动悬停的画笔。石板画笔结构。活动悬停画笔：。当选定的行处于活动状态并被悬停时使用的画笔。
 
-Active Brush: Slate Brush Structure. Active Brush:. Brush used when a selected row is active.
+活跃的刷子。石板刷的结构。活动画笔：。当选定的行处于活动状态时使用的画笔。
 
-Inactive Hovered Brush: Slate Brush Structure. Inactive Hovered Brush:. Brush used when a selected row is inactive and hovered.
+不活跃的悬停画笔。石板刷结构。不活动的悬停画笔：。当一个选定的行不活动并悬停时使用的画笔。
 
-Inactive Brush: Slate Brush Structure. Inactive Brush:. Brush used when a selected row is inactive.
+不活跃的刷子。石板刷结构。不活动画笔：。当一个选定的行不活动时使用的画笔。
 
-Use Parent Row Brush: Boolean. Use Parent Row Brush:. If using parent row brushes.
+使用父行刷。布尔值。使用父行刷子：。如果使用父级行刷。
 
-Parent Row Background Brush: Slate Brush Structure. Parent Row Background Brush:. Brush used for the top parent row.
+父行背景画笔。石板刷结构。父行背景画笔：。用于顶层父行的画笔。
 
-Parent Row Background Hovered Brush: Slate Brush Structure. Parent Row Background Hovered Brush:. Brush used for the top parent row and row is hovered.
+父行背景悬停画笔。石板刷结构。父行背景悬停画笔：。用于顶部父行和行被悬停的画笔。
 
-Even Row Background Hovered Brush: Slate Brush Structure. Even Row Background Hovered Brush:. Brush used when an even row is hovered.
+偶数行背景悬停画笔。石板刷结构。偶数行背景悬停画笔：。当偶数行被悬停时使用的画笔。
 
-Even Row Background Brush: Slate Brush Structure. Even Row Background Brush:. Brush used when an even row is in its normal state.
+偶数行背景画笔。石板刷结构。偶数行背景画笔：。当偶数行处于正常状态时使用的刷子。
 
-Odd Row Background Hovered Brush: Slate Brush Structure. Odd Row Background Hovered Brush:. Brush used when an odd row is hovered.
+奇数行背景悬停画笔。石板刷结构。奇数行背景悬停画笔：。当一个奇数行被悬停时使用的画笔。
 
-Odd Row Background Brush: Slate Brush Structure. Odd Row Background Brush:. Brush to used when an odd row is in its normal state.
+奇数行背景画笔。石板刷结构。奇数行背景画笔：。当奇数行处于正常状态时使用的画笔。
 
-Text Color: Slate Color Structure. Text Color:. Text color used for all rows.
+文字颜色：板岩色结构。文本颜色：。用于所有行的文本颜色。
 
-Selected Text Color: Slate Color Structure. Selected Text Color:. Text color used for the selected row.
+选定的文本颜色：板岩颜色结构。选定的文本颜色：。用于选定行的文本颜色。
 
-Drop Indicator Above: Slate Brush Structure. Drop Indicator Above:. Brush used to provide feedback that a user can drop above the hovered row..
+上面的落差指示器。石板刷结构。上面的下降指示器：。用于提供反馈的画笔，用户可以在悬停的行上面下降。
 
-Drop Indicator Onto: Slate Brush Structure. Drop Indicator Onto:. Brush used to provide feedback that a user can drop onto the hovered row..
+跌落指示器上。石板刷结构。Drop Indicator Onto:.用于提供反馈的画笔，用户可以将其放到悬停的行上。
 
-Drop Indicator Below: Slate Brush Structure. Drop Indicator Below:. Brush used to provide feedback that a user can drop below the hovered row..
+下面的下降指示器。石板刷结构。下面的下降指示器：。用于提供反馈的画笔，用户可以下降到悬停的行下面。
 
-Active Highlighted Brush: Slate Brush Structure. Active Highlighted Brush:. Brush used when a highlighted row is active.
+活跃的高光刷。石板刷的结构。活动高亮笔刷：。当高亮行处于活动状态时使用的画笔。
 
-Inactive Highlighted Brush: Slate Brush Structure. Inactive Highlighted Brush:. Brush used when a highlighted row is inactive and hovered.
-
+不活跃的高光笔。石板刷结构.不活动的高亮笔刷：。当高亮行不活动并被悬停时使用的画笔。

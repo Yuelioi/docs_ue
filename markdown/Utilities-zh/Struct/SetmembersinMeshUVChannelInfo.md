@@ -1,6 +1,6 @@
 # SetmembersinMeshUVChannelInfo
 
-Adds a node that modifies a 'MeshUVChannelInfo'
+添加一个修改 "MeshUVChannelInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MeshUVChannelInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Mesh UVChannel Info Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Mesh UVChannel Info Structure (by ref). Reference to the input struct.
-
+结构出来。Mesh UVChannel信息结构（通过ref）。对输入结构的引用。

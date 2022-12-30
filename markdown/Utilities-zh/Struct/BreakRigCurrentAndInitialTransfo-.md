@@ -1,6 +1,6 @@
 # BreakRigCurrentAndInitialTransfo-
 
-Adds a node that breaks a 'RigCurrentAndInitialTransform' into its member fields
+添加一个打破'RigCurrentAndInitialTransform'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'RigCurrentAndInitialTransform' into its member fields
 
 ## Inputs
 
-Rig Current and Initial Transform: Rig Current And Initial Transform Structure (by ref).  
+钻机电流和初始变换。钻机电流和初始变换结构（由参考）。  
 
 ## Outputs
 
-Current: Rig Local And Global Transform Structure. Current.
+当前。钻机的本地和全球转换结构。当前。
 
-Initial: Rig Local And Global Transform Structure. Initial.
-
+初始。Rig Local and Global Transform Structure.初始化。

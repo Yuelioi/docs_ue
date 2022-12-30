@@ -1,6 +1,6 @@
 # BreakRigControlCopy
 
-Adds a node that breaks a 'RigControlCopy' into its member fields
+添加一个打破'RigControlCopy'的节点到其成员字段中
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'RigControlCopy' into its member fields
 
 ## Inputs
 
-Rig Control Copy: Rig Control Copy Structure (by ref).  
+钻机控制副本。钻机控制副本结构（按参考）。  
 
 ## Outputs
 
-Name: Name. Name.
+姓名：姓名名称。
 
-Control Type: ERigControlType Enum. Control Type.
+控制类型。ERigControlType枚举。控制类型。
 
-Parent Key: Rig Element Key Structure. Parent Key.
+父键：Rig元素键结构。家长键。
 
-Offset Transform: Transform. Offset Transform.
+偏移变换。变换。偏移变换。
 
-Parent Transform: Transform. Parent Transform.
+父母的转变。转变。父级转换。
 
-Local Transform: Transform. Local Transform.
+当地转型。转化。当地转型。
 
-Global Transform: Transform. Global Transform.
-
+全球转型。转变。全球转型。

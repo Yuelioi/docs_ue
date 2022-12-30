@@ -1,6 +1,6 @@
 # BreakSubmixEffectMultibandCompre-
 
-Adds a node that breaks a 'SubmixEffectMultibandCompressorSettings' into its member fields
+添加一个节点，将'SubmixEffectMultibandCompressorSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,33 +8,32 @@ Adds a node that breaks a 'SubmixEffectMultibandCompressorSettings' into its mem
 
 ## Inputs
 
-Submix Effect Multiband Compressor Settings: Submix Effect Multiband Compressor Settings Structure (by ref).  
+Submix Effect Multiband Compressor设置。Submix Effect Multiband Compressor Settings 结构（按参考）。  
 
 ## Outputs
 
-Type: ESubmixEffectDynamicsProcessorType Enum. Dynamics Processor Type:. Controls how each band will react to audio above its threshold.
+类型。ESubmixEffectDynamicsProcessorType枚举。动态处理器类型：。控制每个频段对高于其阈值的音频的反应。
 
-Peak Mode: ESubmixEffectDynamicsPeakMode Enum. Peak Mode:. Controls how quickly the bands will react to a signal above its threshold.
+峰值模式。ESubmixEffectDynamicsPeakMode枚举。峰值模式：。控制波段对高于其阈值的信号的反应速度。
 
-Link Mode: ESubmixEffectDynamicsChannelLinkMode Enum. Link Mode:. Whether to compress all channels equally, and how to evaluate the overall level.
+链接模式。ESubmixEffectDynamicsChannelLinkMode枚举。链接模式：。是否对所有通道进行同样的压缩，以及如何评估整体水平。
 
-Look Ahead (Ms): Float (single-precision). Look Ahead Msec:. The amount of time to look ahead of the current audio. Allows for transients to be included in dynamics processing..
+向前看（Ms）。Float (single-precision).超前看Msec:。领先于当前音频的时间量。允许在动态处理中包括瞬态现象。
 
-Analog Mode: Boolean. Analog Mode:. Toggles treating the attack and release envelopes as analog-style vs digital-style. Analog will respond a bit more naturally/slower..
+模拟模式。Boolean.模拟模式：。切换处理攻击和释放包络的模拟模式和数字模式。模拟的反应会更自然/更慢。
 
-Four Pole: Boolean. Four Pole:. Turning off FourPole mode will use cheaper, shallower 2-pole crossovers.
+四极。布尔型。四极：。关闭四极模式将使用更便宜、更浅的两极分频器。
 
-Bypass: Boolean. Bypass:. Whether or not to bypass effect.
+旁路。布尔型。旁路：。是否绕过效果。
 
-Key Source: ESubmixEffectDynamicsKeySource Enum. Key Source.
+关键源。ESubmixEffectDynamicsKeySource枚举。键值来源。
 
-External Audio Bus: Audio Bus Object Reference. External Audio Bus:. If set, uses output of provided submix as modulator of input signal for dynamics processor (Uses input signal as default modulator).
+外部音频总线: 音频总线对象参考.外部音频总线：。如果设置了，则使用所提供的子混音的输出作为动态处理器的输入信号的调制器（使用输入信号作为默认调制器）。
 
-External Submix: Sound Submix Object Reference. External Submix:. If set, uses output of provided submix as modulator of input signal for dynamics processor (Uses input signal as default modulator).
+外部子混音。Sound Submix Object Reference.External Submix:（外部混音）。如果设置，使用所提供的子混音的输出作为动态处理器的输入信号的调制器（使用输入信号作为默认调制器）。
 
-External Input Gain (D B): Float (single-precision). Key Gain Db:. Gain to apply to key signal if external input is supplied.
+外部输入增益（D B）。Float（单精度）。按键增益Db：。如果提供外部输入，应用于按键信号的增益。
 
-Key Audition: Boolean. Key Audition:. Audition the key modulation signal, bypassing enveloping and processing the input signal..
+关键的试听。Boolean.按键试听：。试听按键调制信号，绕过包络和处理输入信号。
 
-Bands: Array of Dynamics Band Settings Structures. Bands:. Each band is a full dynamics processor, affecting at a unique frequency range.
-
+频段。阵列的动力 乐队设置结构。频段：。每个频段都是一个完整的动态处理器，在一个独特的频率范围内影响。

@@ -1,6 +1,6 @@
 # MakeEditorScriptingMeshReduction-_1
 
-Adds a node that create a 'EditorScriptingMeshReductionSettings_Deprecated' from its members
+添加一个节点，从其成员中创建一个'EditorScriptingMeshReductionSettings_Deprecated'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'EditorScriptingMeshReductionSettings_Deprecated' from
 
 ## Inputs
 
-Percent Triangles: Float (single-precision). Percent Triangles:. Percentage of triangles to keep. Ranges from 0.0 to 1.0: 1.0 = no reduction, 0.0 = no triangles..
+三角形百分比。Float (single-precision).Triangles百分比：。要保留的三角形的百分比。范围从0.0到1.0：1.0=不减少，0.0=没有三角形。
 
-Screen Size: Float (single-precision). Screen Size:. ScreenSize to display this LOD. Ranges from 0.0 to 1.0..  
+屏幕尺寸。Float（单精度）。屏幕尺寸：。显示该LOD的屏幕尺寸。范围从0.0到1.0。
 
 ## Outputs
 
-Editor Scripting Mesh Reduction Settings Deprecated: Editor Scripting Mesh Reduction Settings Deprecated Structure.
-
+编辑器脚本中的网格缩减设置已失效。编辑器脚本中的网格缩减设置已被弃用的结构。

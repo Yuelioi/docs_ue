@@ -1,6 +1,6 @@
 # BreakScriptingCommandInfo
 
-Adds a node that breaks a 'ScriptingCommandInfo' into its member fields
+添加一个节点，将'ScriptingCommandInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'ScriptingCommandInfo' into its member fields
 
 ## Inputs
 
-Scripting Command Info: Scripting Command Info Structure (by ref).  
+脚本命令信息。脚本命令信息结构（按参考）。  
 
 ## Outputs
 
-Context Name: Name. Context Name:. The editor context this command is bound to.
+语境名称。名称。上下文名称：。该命令所绑定的编辑器上下文。
 
-Set: Name. Set:. The command set this command belongs to. This is to avoid conflicts and could refer to the owner of the command.
+设置。名称。集：。该命令所属的命令集。这是为了避免冲突，可以指命令的所有者。
 
-Name: Name. Name:. The command name. Must be unique in its set..
+姓名。姓名：。名称：。命令的名称。在其集合中必须是唯一的。
 
-Label: Text. Label:. The command label or what name will be displayed for it.
+标签。文本。标签：。命令的标签或将显示的名称。
 
-Description: Text. Description:. The description of the command.
+描述。文本。描述：。命令的描述。
 
-Input Chord: Input Chord Structure. Input Chord:. The input chord to bound to the command.
-
+输入和弦。输入和弦结构。输入和弦：。绑定到命令的输入和弦。

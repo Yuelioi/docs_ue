@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationI-_3
 
-Adds a node that create a 'DisplayClusterConfigurationICVFX_CustomSize' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationICVFX_CustomSize"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'DisplayClusterConfigurationICVFX_CustomSize' from its
 
 ## Inputs
 
-Use Custom Size: Boolean. Use Custom Size:. Use custom size.
+使用自定义尺寸。布尔值。使用自定义尺寸：。使用自定义尺寸。
 
-Custom Width: Integer. Custom Width:. Used when enabled "bUseCustomSize".
+自定义宽度：整数。自定义宽度：。在启用 "bUseCustomSize "时使用。
 
-Custom Height: Integer. Custom Height:. Used when enabled "bUseCustomSize".  
+自定义高度：整数。自定义高度：。在启用 "bUseCustomSize "时使用。  
 
 ## Outputs
 
-Display Cluster Configuration ICVFX Custom Size: Display Cluster Configuration ICVFX Custom Size Structure.
-
+显示群组配置ICVFX自定义大小。显示集群配置ICVFX自定义尺寸结构。

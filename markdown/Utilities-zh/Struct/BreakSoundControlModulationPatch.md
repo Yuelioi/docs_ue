@@ -1,6 +1,6 @@
 # BreakSoundControlModulationPatch
 
-Adds a node that breaks a 'SoundControlModulationPatch' into its member fields
+添加一个节点，将'SoundControlModulationPatch'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'SoundControlModulationPatch' into its member fields
 
 ## Inputs
 
-Sound Control Modulation Patch: Sound Control Modulation Patch Structure (by ref).  
+声控调制补丁。声控调制补丁的结构（由参考）。  
 
 ## Outputs
 
-Bypass: Boolean. Bypass:. Whether or not patch is bypassed (patch is still active, but always returns output parameter default value when modulated).
+旁路。布尔型。旁路：。补丁是否被旁路（补丁仍然有效，但调制时总是返回输出参数的默认值）。
 
-Parameter: Sound Modulation Parameter Object Reference. Output Parameter.
+参数。声音调制参数对象参考。输出参数。
 
 ## Inputs: Array of Sound Control Modulation Input Structures. ## Inputs:. Modulation inputs.
-

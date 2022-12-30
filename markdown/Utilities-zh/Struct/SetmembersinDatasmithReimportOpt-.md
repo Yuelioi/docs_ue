@@ -1,6 +1,6 @@
 # SetmembersinDatasmithReimportOpt-
 
-Adds a node that modifies a 'DatasmithReimportOptions'
+添加一个修改 "DatasmithReimportOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DatasmithReimportOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Datasmith Reimport Options Structure (by ref).  
+结构参考：Datasmith Reimport选项结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Datasmith Reimport Options Structure (by ref). Reference to the input struct.
-
+结构出来。Datasmith Reimport选项结构（通过ref）。对输入结构的引用。

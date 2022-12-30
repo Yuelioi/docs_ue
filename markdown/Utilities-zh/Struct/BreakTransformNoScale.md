@@ -1,6 +1,6 @@
 # BreakTransformNoScale
 
-Adds a node that breaks a 'TransformNoScale' into its member fields
+添加一个节点，将 "TransformNoScale "分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'TransformNoScale' into its member fields
 
 ## Inputs
 
-Transform No Scale: Transform No Scale Structure (by ref).  
+转化无尺度。转化无尺度结构（按参考）。  
 
 ## Outputs
 
-Location: Vector. Location:. The translation of this transform.
+地点：向量。向量。位置：。这个变换的翻译。
 
-Rotation: Quat Structure. Rotation:. The rotation of this transform.
-
+轮换。Quat结构。旋转：。这个变换的旋转。

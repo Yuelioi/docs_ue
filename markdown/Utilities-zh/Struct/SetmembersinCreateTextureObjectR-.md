@@ -1,6 +1,6 @@
 # SetmembersinCreateTextureObjectR-
 
-Adds a node that modifies a 'CreateTextureObjectResult'
+添加一个修改 "CreateTextureObjectResult "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CreateTextureObjectResult'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Create Texture Object Result Structure (by ref).  
+Struct Ref: 创建纹理对象结果结构（通过引用）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Create Texture Object Result Structure (by ref). Reference to the input struct.
-
+结构出来。创建纹理对象结果结构（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeTransformNoScale
 
-Adds a node that create a 'TransformNoScale' from its members
+添加一个节点，从其成员中创建一个'TransformNoScale'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'TransformNoScale' from its members
 
 ## Inputs
 
-Location: Vector. Location:. The translation of this transform.
+地点：向量。向量。位置：。这个变换的翻译。
 
-Rotation: Quat Structure. Rotation:. The rotation of this transform.  
+轮换。Quat结构。旋转：。这个变换的旋转。  
 
 ## Outputs
 
-Transform No Scale: Transform No Scale Structure.
-
+转化无尺度。转化无尺度结构。

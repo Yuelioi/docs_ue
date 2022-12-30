@@ -1,6 +1,6 @@
 # BreakVirtualCameraSettingsPreset
 
-Adds a node that breaks a 'VirtualCameraSettingsPreset' into its member fields
+添加一个节点，将'VirtualCameraSettingsPreset'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'VirtualCameraSettingsPreset' into its member fields
 
 ## Inputs
 
-Virtual Camera Settings Preset: Virtual Camera Settings Preset Structure (by ref).  
+虚拟相机设置预设。虚拟相机设置预设结构（按参考）。  
 
 ## Outputs
 
-Is Camera Settings Saved: Boolean. Is Camera Settings Saved:. Checks which settings are saved for the preset.
+是否保存了相机设置。布尔值。是否保存了相机设置：。检查预设的哪些设置被保存。
 
-Is Stabilization Settings Saved: Boolean. Is Stabilization Settings Saved.
+是否保存了稳定化设置。布尔值。是否保存了稳定化设置。
 
-Is Axis Locking Settings Saved: Boolean. Is Axis Locking Settings Saved.
+是否保存了轴锁定设置。布尔值。是否保存了轴的锁定设置。
 
-Is Motion Scale Settings Saved: Boolean. Is Motion Scale Settings Saved.
+是否保存了运动比例设置。布尔值。是否保存了运动比例设置。
 
-Is Favorited: Boolean. Is Favorited:. Checks if saettings is set as favorite.
+是否被喜爱。Boolean.是最喜欢的：。检查saettings是否被设置为收藏夹。
 
-Date Created: Date Time Structure. Date Created.
-
+创建日期。日期时间结构。创建日期。

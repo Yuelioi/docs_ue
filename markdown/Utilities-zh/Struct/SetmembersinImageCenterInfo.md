@@ -1,6 +1,6 @@
 # SetmembersinImageCenterInfo
 
-Adds a node that modifies a 'ImageCenterInfo'
+添加一个修改 "ImageCenterInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ImageCenterInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Image Center Info Structure (by ref).  
+结构参考：图像中心信息结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Image Center Info Structure (by ref). Reference to the input struct.
-
+Struct Out: Image Center Info Structure (by ref).对输入结构的引用。

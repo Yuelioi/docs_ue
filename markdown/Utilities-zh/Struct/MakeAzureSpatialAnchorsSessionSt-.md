@@ -1,6 +1,6 @@
 # MakeAzureSpatialAnchorsSessionSt-
 
-Adds a node that create a 'AzureSpatialAnchorsSessionStatus' from its members
+添加一个节点，从其成员中创建一个 "AzureSpatialAnchorsSessionStatus"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AzureSpatialAnchorsSessionStatus' from its members
 
 ## Outputs
 
-Azure Spatial Anchors Session Status: Azure Spatial Anchors Session Status Structure.
-
+Azure Spatial Anchors会话状态。Azure Spatial Anchors会话状态结构。

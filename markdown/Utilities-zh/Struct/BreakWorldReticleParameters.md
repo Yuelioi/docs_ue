@@ -1,6 +1,6 @@
 # BreakWorldReticleParameters
 
-Adds a node that breaks a 'WorldReticleParameters' into its member fields
+添加一个节点，将 "WorldReticleParameters "分解成其成员字段。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'WorldReticleParameters' into its member fields
 
 ## Inputs
 
-World Reticle Parameters: World Reticle Parameters Structure (by ref).  
+世界视网膜参数。世界视网膜参数结构（按参考）。  
 
 ## Outputs
 
-AOEScale: Vector. AOEScale.
-
+AOEScale: 向量。AOEScale。

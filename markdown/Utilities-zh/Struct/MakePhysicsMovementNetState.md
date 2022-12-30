@@ -1,6 +1,6 @@
 # MakePhysicsMovementNetState
 
-Adds a node that create a 'PhysicsMovementNetState' from its members
+添加一个节点，从其成员中创建一个 "PhysicsMovementNetState"。
 
 ## 图示
 
@@ -8,37 +8,36 @@ Adds a node that create a 'PhysicsMovementNetState' from its members
 
 ## Inputs
 
-Force Multiplier: Float (single-precision). Force Multiplier:. Actually used by AsyncTick to scale force applied.
+力量乘数。Float（单精度）。力倍增器：。实际上是由AsyncTick用于缩放应用的力。
 
-Jump Strength: Float (single-precision). Jump Strength.
+跳跃强度。Float（单精度）。跳跃强度。
 
-Auto Face Target Yaw Strength: Float (single-precision). Auto Face Target Yaw Strength.
+自动面对目标偏航强度。浮点（单精度）。自动脸部目标偏航强度。
 
-Auto Face Target Yaw Damp: Float (single-precision). Auto Face Target Yaw Damp.
+自动面对目标偏航阻尼。浮点（单精度）。Auto Face Target Yaw Damp.
 
-Enable Auto Face Target Yaw: Boolean. Enable Auto Face Target Yaw:. If enabled, input cmd should specify target yaw..
+启用自动脸部目标偏航。布尔值。启用自动脸部目标偏航：。如果启用，输入cmd应指定目标偏航。
 
-Enable Keep Upright: Boolean. Enable Keep Upright:. If enabled, object will attempt to keep its up vector aligned with world up..
+启用保持直立。布尔型。启用保持直立：。如果启用，物体将试图使其向上的矢量与世界向上的矢量保持一致。
 
-Auto Brake Strength: Float (single-precision). Auto Brake Strength:. Strength of auto brake force applied when no input force and on ground..
+自动刹车强度。Float（单精度）。自动刹车强度：.当没有输入力时，在地面上应用的自动刹车力的强度。
 
-Rand Value: Integer. Rand Value:. Arbitrary data that doesn't affect sim but could still trigger rollback.
+Rand值。整数。Rand Value:.不影响模拟的任意数据，但仍可能触发回滚。
 
-Jump Cooldown MS: Integer. Jump Cooldown MS.
+跳跃冷却时间 MS: 整数。跳跃冷却时间MS。
 
-Jump Count: Integer. Jump Count:. Number of frames jump has been pressed.
+跳跃次数。整数。跳跃次数：。已按下跳转的帧数。
 
-Check Sum: Integer. Check Sum.
+检查总和。整数。检查总和。
 
-Recovery Frame: Integer. Recovery Frame:. Frame we started "in air recovery" on.
+恢复框架。整数。恢复框架：。我们开始 "空中恢复 "的帧。
 
-Jump Start Frame: Integer. Jump Start Frame:. Frame we started jumping on.
+跳跃式启动框架。整数。跳跃起始帧：。我们开始跳转的帧。
 
-In Air Frame: Integer. In Air Frame:. Frame we started being in the air.
+在空气框架中。整数。在空中框架：。我们开始在空中的帧。
 
-Kick Frame: Integer. Kick Frame:. Frame we last applied a kick impulse.  
+踢球框。整数。踢框：。我们最后一次应用踢球冲动的帧。  
 
 ## Outputs
 
-Physics Movement Net State: Physics Movement Net State Structure.
-
+物理学运动网的状态。物理运动网的状态结构。

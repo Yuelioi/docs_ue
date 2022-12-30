@@ -1,6 +1,6 @@
 # MakeQuartzPulseOverrideStep
 
-Adds a node that create a 'QuartzPulseOverrideStep' from its members
+添加一个节点，从其成员中创建一个 "QuartzPulseOverrideStep"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'QuartzPulseOverrideStep' from its members
 
 ## Inputs
 
-Number Of Pulses: Integer. Number Of Pulses:. The number of pulses for this beat duration.
+脉冲数：整数。脉冲数：。该节拍持续时间的脉冲数。
 
-Pulse Duration: EQuartzCommandQuantization Enum. Pulse Duration:. This Beat duration.  
+脉冲持续时间。EQuartzCommandQuantization枚举。脉冲持续时间：。这个节拍持续时间。  
 
 ## Outputs
 
-Quartz Pulse Override Step: Quartz Pulse Override Step Structure.
-
+石英脉冲超控步骤：石英脉冲超控步骤结构。

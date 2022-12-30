@@ -1,6 +1,6 @@
 # SetmembersinAttributePayload
 
-Adds a node that modifies a 'AttributePayload'
+添加一个修改 "AttributePayload "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AttributePayload'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Attribute Payload Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Attribute Payload Structure (by ref). Reference to the input struct.
-
+结构出来。Attribute Payload Structure（通过引用）。对输入结构的引用。

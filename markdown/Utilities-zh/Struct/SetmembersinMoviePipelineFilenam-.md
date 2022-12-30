@@ -1,6 +1,6 @@
 # SetmembersinMoviePipelineFilenam-
 
-Adds a node that modifies a 'MoviePipelineFilenameResolveParams'
+添加一个节点，修改 "MoviePipelineFilenameResolveParams"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MoviePipelineFilenameResolveParams'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Movie Pipeline Filename Resolve Params Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Movie Pipeline Filename Resolve Params Structure (by ref). Reference to the input struct.
-
+结构出来。电影管道文件名解析参数结构（通过参考）。对输入结构的引用。

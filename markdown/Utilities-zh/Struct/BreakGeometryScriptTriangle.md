@@ -1,6 +1,6 @@
 # BreakGeometryScriptTriangle
 
-Adds a node that breaks a 'GeometryScriptTriangle' into its member fields
+添加一个打破'GeometryScriptTriangle'的节点到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'GeometryScriptTriangle' into its member fields
 
 ## Inputs
 
-Geometry Script Triangle: Geometry Script Triangle Structure (by ref).  
+几何学剧本《三角形》。几何脚本三角形结构（由参考文献）。  
 
 ## Outputs
 
-Vector 0: Vector. Vector 0.
+向量0：向量。矢量0。
 
-Vector 1: Vector. Vector 1.
+向量1：向量。矢量1。
 
-Vector 2: Vector. Vector 2.
-
+向量2：向量。矢量2。

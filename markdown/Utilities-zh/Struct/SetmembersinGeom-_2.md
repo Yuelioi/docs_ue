@@ -1,6 +1,6 @@
 # SetmembersinGeom-_2
 
-Adds a node that modifies a 'GeometryScriptCreateNewVolumeFromMeshOptions'
+添加一个节点，修改 "GeometryScriptCreateNewVolumeFromMeshOptions"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryScriptCreateNewVolumeFromMeshOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Geometry Script Create New Volume From Mesh Options Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Geometry Script Create New Volume From Mesh Options Structure (by ref). Reference to the input struct.
-
+结构出来。Geometry Script Create New Volume From Mesh Options Structure (by ref).对输入结构的引用。

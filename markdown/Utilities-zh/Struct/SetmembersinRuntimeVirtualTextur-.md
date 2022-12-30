@@ -1,6 +1,6 @@
 # SetmembersinRuntimeVirtualTextur-
 
-Adds a node that modifies a 'RuntimeVirtualTextureParameterValue'
+添加一个节点，修改 "RuntimeVirtualTextureParameterValue"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RuntimeVirtualTextureParameterValue'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Runtime Virtual Texture Parameter Value Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Runtime Virtual Texture Parameter Value Structure (by ref). Reference to the input struct.
-
+Struct Out:Runtime Virtual Texture Parameter Value Structure（通过ref）。对输入结构的引用。

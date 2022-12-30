@@ -1,6 +1,6 @@
 # MakeDistortionData
 
-Adds a node that create a 'DistortionData' from its members
+添加一个节点，从其成员中创建一个 "DistortionData"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'DistortionData' from its members
 
 ## Inputs
 
-Distorted UVs: Array of Vector 2D Structures. Distorted UVs.
+扭曲的UV。矢量二维结构的阵列。扭曲的UVs。
 
-Overscan Factor: Float (single-precision). Overscan Factor:. Estimated overscan factor based on distortion to have distorted cg covering full size.  
+过扫描系数。Float (single-precision).过扫描系数：。根据变形估计的过扫描系数，使变形的CG覆盖全尺寸。  
 
 ## Outputs
 
-Distortion Data: Distortion Data Structure.
-
+失真数据。畸变数据结构。

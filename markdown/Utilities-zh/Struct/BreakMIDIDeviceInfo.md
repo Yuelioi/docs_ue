@@ -1,6 +1,6 @@
 # BreakMIDIDeviceInfo
 
-Adds a node that breaks a 'MIDIDeviceInfo' into its member fields
+添加一个节点，将'MIDIDeviceInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'MIDIDeviceInfo' into its member fields
 
 ## Inputs
 
-MIDIDevice Info: MIDIDevice Info Structure (by ref).  
+MIDIDevice Info:MIDIDevice Info结构（通过参考）。  
 
 ## Outputs
 
-Device ID: Integer. Device ID:. The unique ID of this MIDI device.
+设备ID：整数。设备ID:。这个MIDI设备的唯一ID。
 
-Device Name: String. Device Name:. The name of this device. This name comes from the MIDI hardware, any might not be unique.
+设备名称。字符串。设备名称：。这个设备的名称。这个名字来自于MIDI硬件，任何可能不是唯一的。
 
-Is Already In Use: Boolean. Is Already in Use:. Whether the device is already in use. You might not want to create a controller for devices that are busy. Someone else could be using it..
+是否已在使用：布尔值。已经在使用中：。设备是否已经在使用中。你可能不想为正在使用的设备创建一个控制器。别人可能正在使用它。
 
-Is Default Device: Boolean. Is Default Device:. True if this is the default MIDI device for input on this system.
-
+是默认设备。布尔值。是默认设备：。如果这是本系统的默认输入MIDI设备，则为真。

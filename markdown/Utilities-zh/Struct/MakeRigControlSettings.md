@@ -1,6 +1,6 @@
 # MakeRigControlSettings
 
-Adds a node that create a 'RigControlSettings' from its members
+添加一个节点，从其成员中创建一个 "RigControlSettings"。
 
 ## 图示
 
@@ -8,33 +8,32 @@ Adds a node that create a 'RigControlSettings' from its members
 
 ## Inputs
 
-Control Type: ERigControlType Enum. Control Type.
+控制类型。ERigControlType枚举。控制类型。
 
-Display Name: Name. Display Name.
+显示名称。名字。显示名称。
 
-Primary Axis: ERigControlAxis Enum. Primary Axis:. the primary axis to use for float controls.
+主轴：ERigControlAxis枚举。主轴：.用于浮动控制的主轴。
 
-Animatable: Boolean. Animatable:. If the control is animatable in sequencer.
+可动画化。Boolean.Animatable:.如果该控件在序列器中是可动画的。
 
-Limit Enabled: Array of Rig Control Limit Enabled Structures. Limit Enabled:. True if the control has limits..
+启用的极限。Rig Control Limit Enabled结构的阵列。Limit Enabled:.如果控制有限制，则为真。
 
-Draw Limits: Boolean. Draw Limits:. True if the limits should be drawn in debug.. For this to be enabled you need to have at least one min and max limit turned on..
+绘制限制。Boolean.绘制极限值：。如果要在调试时画出限制，则为真。要启用这个功能，你需要至少有一个最小和最大的限制打开。
 
-Minimum Value: Rig Control Value Structure. Minimum Value:. The minimum limit of the control's value.
+最小值。钻机控制值结构。最小值：。控制的最小极限值。
 
-Maximum Value: Rig Control Value Structure. Maximum Value:. The maximum limit of the control's value.
+最大值。钻机控制值结构。最大值：。控件值的最大极限。
 
-Shape Enabled: Boolean. Shape Enabled:. Set to true if the shape is enabled in 3d.
+形状已启用。Boolean.Shape Enabled：.如果形状在3D中被启用，则设置为真。
 
-Shape Visible: Boolean. Shape Visible:. Set to true if the shape is currently visible in 3d.
+形状的可见性。Boolean.Shape Visible:.如果该形状目前在3D中是可见的，则设置为true。
 
-Shape Name: Name. Shape Name:. This is optional UI setting - this doesn't mean this is always used, but it is optional for manipulation layer to use this.
+形状名称。名称.形状名称：。这是可选的UI设置--这并不意味着总是使用这个，但操纵层使用这个是可选的。
 
-Shape Color: Linear Color Structure. Shape Color.
+形状颜色：线性颜色结构。形状的颜色。
 
-Is Transient Control: Boolean. Is Transient Control:. If the control is transient and only visible in the control rig editor.  
+是瞬态控制。布尔型。是瞬时控制：。如果该控件是瞬时的，并且只在控制装置编辑器中可见。  
 
 ## Outputs
 
-Rig Control Settings: Rig Control Settings Structure.
-
+钻机控制设置。钻机控制设置结构。

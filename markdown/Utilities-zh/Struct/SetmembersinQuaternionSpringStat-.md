@@ -1,6 +1,6 @@
 # SetmembersinQuaternionSpringStat-
 
-Adds a node that modifies a 'QuaternionSpringState'
+添加一个节点，修改 "四元弹簧状态"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'QuaternionSpringState'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Quaternion Spring State Structure (by ref).  
+结构参考。四元组弹簧状态结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Quaternion Spring State Structure (by ref). Reference to the input struct.
-
+结构出来。四元组弹簧状态结构（通过引用）。对输入结构的引用。

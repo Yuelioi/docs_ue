@@ -1,6 +1,6 @@
 # SetmembersinRigVMByteCodeStatist-
 
-Adds a node that modifies a 'RigVMByteCodeStatistics'
+添加一个修改'RigVMByteCodeStatistics'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RigVMByteCodeStatistics'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Rig VMByte Code Statistics Structure (by ref).  
+结构参考：Rig VMByte代码统计结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Rig VMByte Code Statistics Structure (by ref). Reference to the input struct.
-
+结构出来。Rig VMByte代码统计结构（通过ref）。对输入结构的引用。

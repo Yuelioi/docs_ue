@@ -1,6 +1,6 @@
 # MakeMovementProperties
 
-Adds a node that create a 'MovementProperties' from its members
+添加一个节点，从其成员中创建一个'MovementProperties'。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'MovementProperties' from its members
 
 ## Inputs
 
-Can Crouch: Boolean. Can Crouch:. If true, this Pawn is capable of crouching..
+可以蹲下。布尔型。可以蹲下：。如果为真，这个卒子能够蹲下。
 
-Can Jump: Boolean. Can Jump:. If true, this Pawn is capable of jumping..
+能跳。布尔型。能跳：。如果为真，这个卒子就能跳起来。
 
-Can Walk: Boolean. Can Walk:. If true, this Pawn is capable of walking or moving on the ground..
+可以行走。Boolean.可以行走：。如果为真，这个棋子能够在地上行走或移动。
 
-Can Swim: Boolean. Can Swim:. If true, this Pawn is capable of swimming or moving through fluid volumes..
+会游泳：布尔值。可以游泳：。如果为真，该棋子能够游泳或在液体体积中移动。
 
-Can Fly: Boolean. Can Fly:. If true, this Pawn is capable of flying..  
+会飞：布尔值。能飞：。如果为真，这个棋子能够飞行。
 
 ## Outputs
 
-Movement Properties: Movement Properties Structure.
-
+运动属性。运动属性结构。

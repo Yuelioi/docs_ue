@@ -1,6 +1,6 @@
 # BreakHairGeometrySettings
 
-Adds a node that breaks a 'HairGeometrySettings' into its member fields
+添加一个节点，将'HairGeometrySettings'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'HairGeometrySettings' into its member fields
 
 ## Inputs
 
-Hair Geometry Settings: Hair Geometry Settings Structure (by ref).  
+头发的几何设置。头发的几何设置结构（按参考）。  
 
 ## Outputs
 
-Hair Width: Float (single-precision). Hair Width:. Hair width (in centimeters).
+头发宽度： Float（单精度）。头发宽度：。头发宽度（以厘米为单位）。
 
-Hair Root Scale: Float (single-precision). Hair Root Scale:. Scale the hair width at the root.
+发根刻度。浮动（单精度）。发根刻度：。头发在根部的宽度比例。
 
-Hair Tip Scale: Float (single-precision). Hair Tip Scale:. Scale the hair with at the tip.
-
+发尖刻度。浮点（单精度）。发梢刻度：。头发在顶端的比例。

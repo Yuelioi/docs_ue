@@ -1,8 +1,8 @@
 # TextIsEmpty
 
-Returns true if text is empty.
+如果文本是空的，返回true。
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet Text Library
 
 ## Inputs
 
-In Text: Text (by ref).  
+在文本中。文本（由参考文献）。  
 
 ## Outputs
 
-Return Value: Boolean. Returns true if text is empty..
-
+返回值。布尔值。如果文本是空的，返回真。

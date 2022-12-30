@@ -1,6 +1,6 @@
 # BreakMediaPlayerTrackOptions
 
-Adds a node that breaks a 'MediaPlayerTrackOptions' into its member fields
+添加一个节点，将'MediaPlayerTrackOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'MediaPlayerTrackOptions' into its member fields
 
 ## Inputs
 
-Media Player Track Options: Media Player Track Options Structure (by ref).  
+媒体播放器音轨选项。媒体播放器音轨选项结构（按参考）。  
 
 ## Outputs
 
-Audio: Integer. Audio.
+音频：整数。音频。
 
-Caption: Integer. Caption.
+标题。整数。说明：标题。
 
-Metadata: Integer. Metadata.
+元数据：整数。元数据。
 
-Script: Integer. Script.
+脚本。整数。脚本。
 
-Subtitle: Integer. Subtitle.
+副标题。整数。副标题。
 
-Text: Integer. Text.
+文本：整数。文本。
 
-Video: Integer. Video.
-
+视频：整数。视频。

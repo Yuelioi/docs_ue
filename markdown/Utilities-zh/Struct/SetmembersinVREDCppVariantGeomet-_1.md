@@ -1,6 +1,6 @@
 # SetmembersinVREDCppVariantGeomet-_1
 
-Adds a node that modifies a 'VREDCppVariantGeometryOption'
+添加一个修改 "VREDCppVariantGeometryOption "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'VREDCppVariantGeometryOption'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: VREDCpp Variant Geometry Option Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: VREDCpp Variant Geometry Option Structure (by ref). Reference to the input struct.
-
+结构出来。VREDCpp变体几何选项结构（通过参考）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeGeometryScriptIndexList
 
-Adds a node that create a 'GeometryScriptIndexList' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptIndexList"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'GeometryScriptIndexList' from its members
 
 ## Inputs
 
-Index Type: EGeometryScriptIndexType Enum. Index Type.  
+索引类型。EGeometryScriptIndexType枚举。指数类型。  
 
 ## Outputs
 
-Geometry Script Index List: Index List Structure.
-
+几何学脚本索引列表。索引列表结构。

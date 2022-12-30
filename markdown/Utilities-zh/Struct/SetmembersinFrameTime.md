@@ -1,6 +1,6 @@
 # SetmembersinFrameTime
 
-Adds a node that modifies a 'FrameTime'
+添加一个修改 "FrameTime "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'FrameTime'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Frame Time Structure (by ref).  
+结构参考：框架时间结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Frame Time Structure (by ref). Reference to the input struct.
-
+结构出来。框架时间结构（通过引用）。对输入结构的引用。

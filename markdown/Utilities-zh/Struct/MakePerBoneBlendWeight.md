@@ -1,6 +1,6 @@
 # MakePerBoneBlendWeight
 
-Adds a node that create a 'PerBoneBlendWeight' from its members
+添加一个节点，从其成员中创建一个 "PerBoneBlendWeight"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PerBoneBlendWeight' from its members
 
 ## Outputs
 
-Per Bone Blend Weight: Per Bone Blend Weight Structure.
-
+每种骨质混合物的重量。每种骨质混合物的重量结构。

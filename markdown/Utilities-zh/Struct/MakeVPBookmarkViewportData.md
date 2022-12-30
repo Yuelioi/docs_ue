@@ -1,6 +1,6 @@
 # MakeVPBookmarkViewportData
 
-Adds a node that create a 'VPBookmarkViewportData' from its members
+添加一个节点，从其成员中创建一个 "VPBookmarkViewportData"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'VPBookmarkViewportData' from its members
 
 ## Inputs
 
-Jump To Offset Location: Vector. Jump to Offset Location.
+跳到偏移位置。向量。跳转到偏移位置。
 
-Look Rotation: Rotator. Look Rotation.
+看旋转。旋转器。看旋转。
 
-Ortho Zoom: Float (single-precision). Ortho Zoom.  
+正向缩放。Float（单精度）。正射放大。  
 
 ## Outputs
 
-VPBookmark Viewport Data: VPBookmark Viewport Data Structure.
-
+VPBookmark视口数据。VPBookmark视口数据结构。

@@ -1,6 +1,6 @@
 # SetmembersinAbcNormalGenerationS-
 
-Adds a node that modifies a 'AbcNormalGenerationSettings'
+添加一个修改 "AbcNormalGenerationSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AbcNormalGenerationSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Abc Normal Generation Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Abc Normal Generation Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Abc正常生成设置结构（通过参考）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeScreenReaderAnnouncement
 
-Adds a node that create a 'ScreenReaderAnnouncement' from its members
+添加一个节点，从其成员中创建一个 "ScreenReaderAnnouncement"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ScreenReaderAnnouncement' from its members
 
 ## Inputs
 
-Announcement String: String. Announcement String:. A localized string that represents the message to be spoken to a end user.
+公告 字符串。字符串.公告字符串：。一个本地化的字符串，代表要对终端用户说的信息。
 
-Announcement Info: Screen Reader Announcement Info Structure. Announcement Info:. The announcement info associated with the announcement which controls how the announcement behaves when a user requests this announcement to be spoken to an end user.  
+公告信息。读屏器公告信息结构。公告信息：。与公告相关的公告信息，它控制着当用户要求将此公告讲给终端用户时，该公告的行为方式。  
 
 ## Outputs
 
-Screen Reader Announcement: Screen Reader Announcement Structure.
-
+读屏器公告。读屏器公告结构。

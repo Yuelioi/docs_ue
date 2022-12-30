@@ -1,6 +1,6 @@
 # BreakLandmassBrushEffectsList
 
-Adds a node that breaks a 'LandmassBrushEffectsList' into its member fields
+添加一个节点，将'LandmassBrushEffectsList'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'LandmassBrushEffectsList' into its member fields
 
 ## Inputs
 
-Landmass Brush Effects List: Landmass Brush Effects List Structure (by ref).  
+Landmass刷子的效果列表。Landmass刷子效果列表结构（按参考）。  
 
 ## Outputs
 
-Blurring: Brush Effect Blurring Structure. Blurring.
+模糊化。刷子效果模糊结构。模糊化。
 
-Curl Noise: Brush Effect Curl Noise Structure. Curl Noise.
+卷曲噪音。刷子效应 卷曲噪音结构。卷曲噪音。
 
-Displacement: Brush Effect Displacement Structure. Displacement.
+置换。刷子效应 排除结构。流离失所。
 
-Smooth Blending: Brush Effect Smooth Blending Structure. Smooth Blending.
+平滑的混合。刷子效果 平滑的混合结构。平滑的混合。
 
-Terracing: Brush Effect Terracing Structure. Terracing.
-
+梯田。刷子效果的梯田结构。梯田。

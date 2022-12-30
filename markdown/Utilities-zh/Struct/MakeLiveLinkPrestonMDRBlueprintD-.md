@@ -1,6 +1,6 @@
 # MakeLiveLinkPrestonMDRBlueprintD-
 
-Adds a node that create a 'LiveLinkPrestonMDRBlueprintData' from its members
+添加一个节点，从其成员中创建一个 "LiveLinkPrestonMDRBlueprintData"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'LiveLinkPrestonMDRBlueprintData' from its members
 
 ## Inputs
 
-Static Data: Live Link Preston MDRStatic Data Structure. Static Data:. Static data that should not change every frame.
+静态数据。实时链接普雷斯顿MDR静态数据结构。静态数据：。静态数据，不应该每一帧都改变。
 
-Frame Data: Live Link Preston MDRFrame Data Structure. Frame Data:. Dynamic data that can change every frame.  
+帧数据。实时链接普雷斯顿MDRFrame数据结构。帧数据：。动态数据，每一帧都可以改变。  
 
 ## Outputs
 
-Live Link Preston MDRBlueprint Data: Live Link Preston MDRBlueprint Data Structure.
-
+现场链接普雷斯顿MDRBlueprint数据。Live Link Preston MDRBlueprint数据结构。

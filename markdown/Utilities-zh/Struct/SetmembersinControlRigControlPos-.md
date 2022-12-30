@@ -1,6 +1,6 @@
 # SetmembersinControlRigControlPos-
 
-Adds a node that modifies a 'ControlRigControlPose'
+添加一个修改 "ControlRigControlPose "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ControlRigControlPose'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Control Rig Control Pose Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Control Rig Control Pose Structure (by ref). Reference to the input struct.
-
+结构出来。控制装置控制姿势结构（通过参考）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeIntVector
 
-Adds a node that create a 'IntVector' from its members
+添加一个节点，从其成员中创建一个 "IntVector"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'IntVector' from its members
 
 ## Inputs
 
-X: Integer. X.
+X：整数。X.
 
-Y: Integer. Y.
+Y：整数。Y.
 
-Z: Integer. Z.  
+Z：整数。Z.
 
 ## Outputs
 
-Int Vector: Int Vector Structure.
-
+Int Vector: Int Vector 结构。

@@ -1,6 +1,6 @@
 # BreakInt32Interval
 
-Adds a node that breaks a 'Int32Interval' into its member fields
+添加一个节点，该节点将'Int32Interval'分解为其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'Int32Interval' into its member fields
 
 ## Inputs
 
-Int 32Interval: Int 32Interval Structure (by ref).  
+Int 32Interval:Int 32Interval 结构（通过引用）。  
 
 ## Outputs
 
-Min: Integer. Min:. Values must be >= Min.
+最小。整数。Min:.值必须>=最小值。
 
-Max: Integer. Max:. Values must be <= Max.
-
+最大：整数。Max:.数值必须<=最大。

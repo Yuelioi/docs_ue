@@ -1,6 +1,6 @@
 # SetmembersinSlateBrushOutlineSet-
 
-Adds a node that modifies a 'SlateBrushOutlineSettings'
+添加一个节点，修改 "SlateBrushOutlineSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SlateBrushOutlineSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Slate Brush Outline Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Slate Brush Outline Settings Structure (by ref). Reference to the input struct.
-
+结构出来。石板刷轮廓设置结构（通过引用）。对输入结构的引用。

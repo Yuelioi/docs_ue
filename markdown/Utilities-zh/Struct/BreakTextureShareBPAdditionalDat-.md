@@ -1,6 +1,6 @@
 # BreakTextureShareBPAdditionalDat-
 
-Adds a node that breaks a 'TextureShareBPAdditionalData' into its member fields
+添加一个节点，将'TextureShareBPAAdditionalData'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'TextureShareBPAdditionalData' into its member fields
 
 ## Inputs
 
-Texture Share BPAdditional Data: Texture Share BPAdditional Data Structure (by ref).  
+纹理共享BPA附加数据。纹理共享BPA附加数据结构（通过参考）。  
 
 ## Outputs
 
-Frame Number: Integer. Frame Number.
+帧号：整数。帧数。
 
-Prj Matrix: Matrix Structure. Prj Matrix.
+Prj矩阵。矩阵结构。Prj 矩阵。
 
-View Location: Vector. View Location.
+查看位置。向量。查看位置。
 
-View Rotation: Rotator. View Rotation.
+查看旋转。旋转器。视图旋转。
 
-View Scale: Vector. View Scale.
-
+查看比例：向量。查看规模。

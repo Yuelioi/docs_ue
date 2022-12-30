@@ -1,6 +1,6 @@
 # MakeARTraceResult
 
-Adds a node that create a 'ARTraceResult' from its members
+添加一个节点，从其成员中创建一个 "ARTraceResult"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ARTraceResult' from its members
 
 ## Outputs
 
-ARTrace Result: ARTrace Result Structure.
-
+ARTrace的结果。ARTrace的结果结构。

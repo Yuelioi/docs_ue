@@ -1,6 +1,6 @@
 # MakeSoundModulationParameterSett-
 
-Adds a node that create a 'SoundModulationParameterSettings' from its members
+添加一个节点，从其成员中创建一个'SoundModulationParameterSettings'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SoundModulationParameterSettings' from its members
 
 ## Outputs
 
-Sound Modulation Parameter Settings: Sound Modulation Parameter Settings Structure.
-
+声音调制参数设置。声音调制参数设置结构。

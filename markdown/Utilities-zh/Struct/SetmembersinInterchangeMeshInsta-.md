@@ -1,6 +1,6 @@
 # SetmembersinInterchangeMeshInsta-
 
-Adds a node that modifies a 'InterchangeMeshInstance'
+添加一个修改'InterchangeMeshInstance'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InterchangeMeshInstance'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Interchange Mesh Instance Structure (by ref).  
+Struct Ref: 互换网格实例结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Interchange Mesh Instance Structure (by ref). Reference to the input struct.
-
+Struct Out: Interchange Mesh Instance Structure（通过ref）。对输入结构的引用。

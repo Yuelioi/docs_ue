@@ -1,6 +1,6 @@
 # MakeCaptureResolution
 
-Adds a node that create a 'CaptureResolution' from its members
+添加一个节点，从其成员中创建一个'CaptureResolution'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'CaptureResolution' from its members
 
 ## Inputs
 
-Res X: Integer. Res X.
+Res X:整数。Res X.
 
-Res Y: Integer. Res Y.  
+Res Y: 整数。Res Y.
 
 ## Outputs
 
-Capture Resolution: Capture Resolution Structure.
-
+捕获分辨率。捕获分辨率结构。

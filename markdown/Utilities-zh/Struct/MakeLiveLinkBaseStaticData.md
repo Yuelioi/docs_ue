@@ -1,6 +1,6 @@
 # MakeLiveLinkBaseStaticData
 
-Adds a node that create a 'LiveLinkBaseStaticData' from its members
+添加一个节点，从其成员中创建一个 "LiveLinkBaseStaticData"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'LiveLinkBaseStaticData' from its members
 
 ## Inputs
 
-Property Names: Array of Names. Property Names:. Names for each curve values that will be sent for each frame.  
+属性名称。名称的阵列。属性名称：。将为每一帧发送的每个曲线值的名称。  
 
 ## Outputs
 
-Live Link Base Static Data: Live Link Base Static Data Structure.
-
+Live Link Base静态数据。活链接基础静态数据结构。

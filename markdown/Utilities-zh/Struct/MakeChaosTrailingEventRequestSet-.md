@@ -1,6 +1,6 @@
 # MakeChaosTrailingEventRequestSet-
 
-Adds a node that create a 'ChaosTrailingEventRequestSettings' from its members
+添加一个节点，从其成员中创建一个 "ChaosTrailingEventRequestSettings"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'ChaosTrailingEventRequestSettings' from its members
 
 ## Inputs
 
-Max Number Of Results: Integer. Max Number Of Results:. The maximum number of results to return..
+结果的最大数量。整数。最大结果数：。要返回的最大结果数。
 
-Min Mass: Float (single-precision). Min Mass:. The minimum mass treshold for the results..
+最小质量。Float（单精度）。最小质量：。结果的最小质量阀值。
 
-Min Speed: Float (single-precision). Min Speed:. The minimum speed threshold for the results..
+最小速度。Float (single-precision).最小速度：。结果的最小速度阈值。
 
-Min Angular Speed: Float (single-precision). Min Angular Speed:. The minimum angular speed threshold for the results..
+最小角速度。Float（单精度）。最小角速度：。结果的最小角速度阈值。
 
-Max Distance: Float (single-precision). Max Distance:. The maximum distance threshold for the results (if location is set on destruction event listener)..
+最大距离。Float（单精度）。最大距离：。结果的最大距离阈值（如果在破坏事件监听器上设置了位置）。
 
-Sort Method: EChaosTrailingSortMethod Enum. Sort Method:. The method used to sort the breaking events..  
+排序方法。EChaosTrailingSortMethod Enum.排序方法：。用于对突发事件进行排序的方法...  
 
 ## Outputs
 
-Chaos Trailing Event Request Settings: Chaos Trailing Event Request Settings Structure.
-
+混沌追踪事件请求设置。混沌追踪事件请求设置结构。

@@ -1,6 +1,6 @@
 # MakeFractureEffect
 
-Adds a node that create a 'FractureEffect' from its members
+添加一个节点，从其成员中创建一个 "FractureEffect"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'FractureEffect' from its members
 
 ## Inputs
 
-Particle System: Particle System Object Reference. Particle System:. Particle system effect to play at fracture location..
+粒子系统。粒子系统对象参考。粒子系统:.粒子系统在断裂位置发挥的效果。
 
-Sound: Sound Base Object Reference. Sound:. Sound cue to play at fracture location..  
+声音。声音基础对象参考。声音:.在断裂位置播放的声音提示。  
 
 ## Outputs
 
-Fracture Effect: Fracture Effect Structure.
-
+断裂效应。断裂效应结构。

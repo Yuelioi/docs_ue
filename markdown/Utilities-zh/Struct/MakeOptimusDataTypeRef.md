@@ -1,6 +1,6 @@
 # MakeOptimusDataTypeRef
 
-Adds a node that create a 'OptimusDataTypeRef' from its members
+添加一个节点，从其成员中创建一个'OptimusDataTypeRef'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'OptimusDataTypeRef' from its members
 
 ## Outputs
 
-Optimus Data Type Ref: Optimus Data Type Ref Structure.
-
+Optimus数据类型参考：Optimus数据类型参考结构。

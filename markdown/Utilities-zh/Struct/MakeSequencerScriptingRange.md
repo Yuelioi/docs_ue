@@ -1,6 +1,6 @@
 # MakeSequencerScriptingRange
 
-Adds a node that create a 'SequencerScriptingRange' from its members
+添加一个节点，从其成员中创建一个 "SequencerScriptingRange"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'SequencerScriptingRange' from its members
 
 ## Inputs
 
-Has Start: Boolean. Has Start.
+有启动。布尔型。已开始。
 
-Has End: Boolean. Has End.
+有结束。布尔型。已结束。
 
-Inclusive Start: Integer. Inclusive Start.
+包容性的开始。整数。包容性开始。
 
-Exclusive End: Integer. Exclusive End.  
+排他性结束。整数。排他性结束。  
 
 ## Outputs
 
-Sequencer Scripting Range: Sequencer Scripting Range Structure.
-
+序列器脚本范围。序列器脚本范围的结构。

@@ -1,6 +1,6 @@
 # MakeDMXImportGDTFGeneralAxis
 
-Adds a node that create a 'DMXImportGDTFGeneralAxis' from its members
+添加一个节点，从其成员中创建一个'DMXImportGDTFGeneralAxis'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXImportGDTFGeneralAxis' from its members
 
 ## Outputs
 
-DMXImport GDTFGeneral Axis: DMXImport GDTFGeneral Axis Structure.
-
+DMXImport GDTFGeneral Axis: DMXImport GDTFGeneral Axis结构。

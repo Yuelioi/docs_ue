@@ -1,6 +1,6 @@
 # MakePhysicsInputCmd
 
-Adds a node that create a 'PhysicsInputCmd' from its members
+添加一个节点，从其成员中创建一个 "PhysicsInputCmd"。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that create a 'PhysicsInputCmd' from its members
 
 ## Inputs
 
-Force: Vector. Force:. Simple world vector force to be applied.
+力量。矢量。力：。要应用的简单世界矢量力。
 
-Torque: Vector. Torque.
+扭矩。矢量。扭矩。
 
-Acceleration: Vector. Acceleration.
+加速。矢量。加速度。
 
-Angular Acceleration: Vector. Angular Acceleration.
+角加速度。矢量。角度加速度。
 
-Target Yaw: Float (single-precision). Target Yaw:. Target yaw of character (Degrees). Torque will be applied to rotate character towards target..
+目标偏航。浮点（单精度）。目标偏航：。角色的目标偏航（度数）。扭矩将被应用来使角色向目标方向旋转。
 
-Jumped Pressed: Boolean. Jumped Pressed.
+跳跃的按下。布尔型。跳跃的按下。
 
-Brakes Pressed: Boolean. Brakes Pressed.  
+刹车被按下。布尔型。制动器已按下。  
 
 ## Outputs
 
-Physics Input Cmd: Physics Input Cmd Structure.
-
+物理学输入指令。物理学输入指令的结构。

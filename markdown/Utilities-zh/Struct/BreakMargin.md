@@ -1,6 +1,6 @@
 # BreakMargin
 
-Adds a node that breaks a 'Margin' into its member fields
+添加一个节点，将 "边际 "分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'Margin' into its member fields
 
 ## Inputs
 
-Margin: Margin Structure (by ref).  
+保证金。保证金结构（按参考）。  
 
 ## Outputs
 
-Left: Float (single-precision). Left:. Holds the margin to the left..
+左边：浮点数（单精度）。Left:.保持左边的空白。
 
-Top: Float (single-precision). Top:. Holds the margin to the top..
+Top: Float (single-precision).顶部：。保存到顶部的边距。
 
-Right: Float (single-precision). Right:. Holds the margin to the right..
+对。Float（单精度）。右边：。保持向右的边距。
 
-Bottom: Float (single-precision). Bottom:. Holds the margin to the bottom..
-
+底部。Float（单精度）。底部：。保存到底部的空白。

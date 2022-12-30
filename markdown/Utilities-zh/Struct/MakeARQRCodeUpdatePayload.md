@@ -1,6 +1,6 @@
 # MakeARQRCodeUpdatePayload
 
-Adds a node that create a 'ARQRCodeUpdatePayload' from its members
+添加一个节点，从其成员中创建一个'ARQRCodeUpdatePayload'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'ARQRCodeUpdatePayload' from its members
 
 ## Inputs
 
-World Transform: Transform. World Transform.
+世界转型。转变。世界转型。
 
-Extents: Vector. Extents.
+延伸。矢量。Extents.
 
-QRCode: String. QRCode.  
+QRCode: 字符串。QRC代码。  
 
 ## Outputs
 
-ARQRCode Update Payload: ARQRCode Update Payload Structure.
-
+ARQRCode Update Payload:ARQRCode Update Payload结构。

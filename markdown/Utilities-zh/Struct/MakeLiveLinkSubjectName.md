@@ -1,6 +1,6 @@
 # MakeLiveLinkSubjectName
 
-Adds a node that create a 'LiveLinkSubjectName' from its members
+添加一个节点，从其成员中创建一个 "LiveLinkSubjectName"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'LiveLinkSubjectName' from its members
 
 ## Inputs
 
-Name: Name. Name:. Name of the subject.  
+姓名。姓名：。姓名：。主题的名称。  
 
 ## Outputs
 
-Live Link Subject Name: Live Link Subject Name Structure.
-
+活体链接主题名称。Live Link 主题名称的结构。

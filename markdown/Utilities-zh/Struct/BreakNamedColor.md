@@ -1,6 +1,6 @@
 # BreakNamedColor
 
-Adds a node that breaks a 'NamedColor' into its member fields
+添加一个节点，将'NamedColor'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'NamedColor' into its member fields
 
 ## Inputs
 
-Named Color: Named Color Structure (by ref).  
+命名的颜色：命名的颜色结构（通过参考）。  
 
 ## Outputs
 
-Value: Color Structure. Value.
+价值。颜色结构。价值。
 
-Name: Name. Name.
-
+姓名：姓名名称。

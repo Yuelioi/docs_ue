@@ -1,8 +1,8 @@
 # SetTimerforNextTickbyEvent
 
-Set a timer to execute a delegate next tick.
+设置一个定时器，在下一次打勾时执行一个委托。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet System Library
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Event: Delegate.  
+事件：代表。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Return Value: Timer Handle Structure. The timer handle to pass to other timer functions to manipulate this timer..
-
+返回值。定时器手柄结构。定时器句柄，传递给其他定时器函数来操作这个定时器。

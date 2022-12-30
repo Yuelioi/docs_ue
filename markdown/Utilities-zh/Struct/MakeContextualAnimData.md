@@ -1,6 +1,6 @@
 # MakeContextualAnimData
 
-Adds a node that create a 'ContextualAnimData' from its members
+添加一个节点，从其成员中创建一个'ContextualAnimData'。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'ContextualAnimData' from its members
 
 ## Inputs
 
-Animation: Anim Montage Object Reference. Animation.
+动画。Anim Montage Object Reference.Animation.
 
-Anim Max Start Time: Float (single-precision). Anim Max Start Time.
+Anim 最大启动时间。Float (single-precision).动画最大开始时间.
 
-Require Flying Mode: Boolean. Require Flying Mode.
+要求飞行模式。布尔型。要求飞行模式。
 
-Mesh To Scene: Transform. Mesh to Scene.  
+网格到场景。转换。网格到场景。  
 
 ## Outputs
 
-Contextual Anim Data: Contextual Anim Data Structure.
-
+情景动画数据。上下文的Anim数据结构。

@@ -1,6 +1,6 @@
 # MakeRigNullElement
 
-Adds a node that create a 'RigNullElement' from its members
+添加一个节点，从其成员中创建一个 "RigNullElement"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigNullElement' from its members
 
 ## Outputs
 
-Rig Null Element: Rig Null Element Structure.
-
+钻机空心元件。钻机空洞元素结构。

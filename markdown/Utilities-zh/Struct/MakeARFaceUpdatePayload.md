@@ -1,6 +1,6 @@
 # MakeARFaceUpdatePayload
 
-Adds a node that create a 'ARFaceUpdatePayload' from its members
+添加一个节点，从其成员中创建一个'ARFaceUpdatePayload'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'ARFaceUpdatePayload' from its members
 
 ## Inputs
 
-Left Eye Position: Vector. Left Eye Position.
+左眼位置。向量。左眼的位置。
 
-Right Eye Position: Vector. Right Eye Position.
+右眼位置。向量。右眼的位置。
 
-Look At Target: Vector. Look at Target.  
+看准目标。向量。看准目标。  
 
 ## Outputs
 
-ARFace Update Payload: ARFace Update Payload Structure.
-
+ARFace Update Payload:ARFace Update Payload结构。

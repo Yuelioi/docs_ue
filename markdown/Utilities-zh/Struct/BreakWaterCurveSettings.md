@@ -1,6 +1,6 @@
 # BreakWaterCurveSettings
 
-Adds a node that breaks a 'WaterCurveSettings' into its member fields
+添加一个节点，将'WaterCurveSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'WaterCurveSettings' into its member fields
 
 ## Inputs
 
-Water Curve Settings: Water Curve Settings Structure (by ref).  
+水的曲线设置。水曲线设置结构（按参考）。  
 
 ## Outputs
 
-Use Curve Channel: Boolean. Use Curve Channel.
+使用曲线通道。布尔值。使用曲线通道。
 
-Elevation Curve Asset: Curve Float Object Reference. Elevation Curve Asset.
+海拔曲线资产：曲线浮动对象参考。高程曲线资产。
 
-Channel Edge Offset: Float (single-precision). Channel Edge Offset.
+通道边缘偏移。Float（单精度）。通道边缘偏移。
 
-Channel Depth: Float (single-precision). Channel Depth.
+通道深度。Float（单精度）。通道深度。
 
-Curve Ramp Width: Float (single-precision). Curve Ramp Width.
-
+曲线斜率宽度：浮点数（单精度）。曲线斜率宽度。

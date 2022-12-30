@@ -1,6 +1,6 @@
 # MakeMaterialParameterInfo
 
-Adds a node that create a 'MaterialParameterInfo' from its members
+添加一个节点，从其成员中创建一个'MaterialParameterInfo'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'MaterialParameterInfo' from its members
 
 ## Inputs
 
-Name: Name. Name.
+姓名：姓名名称。
 
-Association: EMaterialParameterAssociation Enum. Association:. Whether this is a global parameter, or part of a layer or blend.
+协会。EMaterialParameterAssociation Enum.关联：。这是一个全局参数，还是一个图层或混合的一部分。
 
-Index: Integer. Index:. Layer or blend index this parameter is part of. INDEX_NONE for global parameters..  
+索引。整数。索引：。该参数所属的图层或混合指数。全局参数为INDEX_NONE。  
 
 ## Outputs
 
-Material Parameter Info: Material Parameter Info Structure.
-
+材料参数信息。材料参数信息结构。

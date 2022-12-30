@@ -1,6 +1,6 @@
 # MakeHairGroupsCardsSourceDescrip-
 
-Adds a node that create a 'HairGroupsCardsSourceDescription' from its members
+添加一个节点，从其成员中创建一个 "HairGroupsCardsSourceDescription"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'HairGroupsCardsSourceDescription' from its members
 
 ## Outputs
 
-Hair Groups Cards Source Description: Hair Groups Cards Source Description Structure.
-
+头发组卡源描述。头发组卡源描述结构。

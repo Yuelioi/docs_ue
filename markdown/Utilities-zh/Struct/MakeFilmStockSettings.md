@@ -1,6 +1,6 @@
 # MakeFilmStockSettings
 
-Adds a node that create a 'FilmStockSettings' from its members
+添加一个节点，从其成员中创建一个 "FilmStockSettings"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'FilmStockSettings' from its members
 
 ## Inputs
 
-Slope: Float (single-precision). Slope.
+斜率。Float（单精度）。斜率。
 
-Toe: Float (single-precision). Toe.
+趾。Float（单精度）。脚趾。
 
-Shoulder: Float (single-precision). Shoulder.
+肩部。Float（单精度）。肩部。
 
-Black Clip: Float (single-precision). Black Clip.
+黑夹子。浮动（单精度）。黑色夹子。
 
-White Clip: Float (single-precision). White Clip.  
+白夹。Float（单精度）。白色夹子。  
 
 ## Outputs
 
-Film Stock Settings: Film Stock Settings Structure.
-
+胶片库设置。胶片库设置结构。

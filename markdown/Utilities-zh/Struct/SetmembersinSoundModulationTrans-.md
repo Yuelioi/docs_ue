@@ -1,6 +1,6 @@
 # SetmembersinSoundModulationTrans-
 
-Adds a node that modifies a 'SoundModulationTransform'
+添加一个修改 "SoundModulationTransform "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SoundModulationTransform'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Sound Modulation Transform Structure (by ref).  
+Struct Ref: 声音调制变换结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sound Modulation Transform Structure (by ref). Reference to the input struct.
-
+结构出来。Sound Modulation Transform Structure (by ref)。对输入结构的引用。

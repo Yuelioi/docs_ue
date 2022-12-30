@@ -1,6 +1,6 @@
 # SetmembersinMeshBlendShapeChanne-
 
-Adds a node that modifies a 'MeshBlendShapeChannelMapping'
+添加一个修改 "MeshBlendShapeChannelMapping "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MeshBlendShapeChannelMapping'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Mesh Blend Shape Channel Mapping Structure (by ref).  
+Struct Ref: Mesh Blend Shape Channel Mapping Structure（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Mesh Blend Shape Channel Mapping Structure (by ref). Reference to the input struct.
-
+结构出来。Mesh Blend Shape Channel Mapping Structure（通过ref）。对输入结构的引用。

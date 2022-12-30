@@ -1,6 +1,6 @@
 # MakeNavAgentProperties
 
-Adds a node that create a 'NavAgentProperties' from its members
+添加一个节点，从其成员中创建一个'NavAgentProperties'。
 
 ## 图示
 
@@ -8,27 +8,26 @@ Adds a node that create a 'NavAgentProperties' from its members
 
 ## Inputs
 
-Nav Agent Radius: Float (single-precision). Agent Radius:. Radius of the capsule used for navigation/pathfinding..
+导航代理半径。Float（单精度）。代理人半径：。用于导航/寻路的胶囊的半径。
 
-Nav Agent Height: Float (single-precision). Agent Height:. Total height of the capsule used for navigation/pathfinding..
+导航员高度。Float（单精度）。代理人高度：。用于导航/寻路的太空舱的总高度。
 
-Nav Agent Step Height: Float (single-precision). Agent Step Height:. Step height to use, or -1 for default value from navdata's config..
+导航员的阶梯高度。Float（单精度）。代理人步高：。要使用的步高，或-1为navdata的配置中的默认值。
 
-Nav Walking Search Height Scale: Float (single-precision). Nav Walking Search Height Scale:. Scale factor to apply to height of bounds when searching for navmesh to project to when nav walking.
+导航行走搜索高度刻度。Float（单精度）。导航行走搜索高度比例：。当导航行走时，在搜索导航网格投射到的边界高度上应用的比例系数。
 
-Preferred Nav Data: Soft Class Path Structure. Preferred Nav Data:. Type of navigation data used by agent, null means "any".
+优选的导航数据。软类路径结构。首选导航数据：。代理人使用的导航数据类型，空表示 "任何"。
 
-Can Crouch: Boolean. Can Crouch:. If true, this Pawn is capable of crouching..
+可以蹲下。布尔型。可以蹲下：。如果为真，这个卒子能够蹲下。
 
-Can Jump: Boolean. Can Jump:. If true, this Pawn is capable of jumping..
+能跳。布尔型。能跳：。如果为真，这个卒子就能跳起来。
 
-Can Walk: Boolean. Can Walk:. If true, this Pawn is capable of walking or moving on the ground..
+可以行走。Boolean.可以行走：。如果为真，这个棋子能够在地上行走或移动。
 
-Can Swim: Boolean. Can Swim:. If true, this Pawn is capable of swimming or moving through fluid volumes..
+会游泳：布尔值。可以游泳：。如果为真，该棋子能够游泳或在液体体积中移动。
 
-Can Fly: Boolean. Can Fly:. If true, this Pawn is capable of flying..  
+会飞：布尔值。能飞：。如果为真，这个棋子能够飞行。
 
 ## Outputs
 
-Nav Agent Properties: Nav Agent Properties Structure.
-
+导航员属性。导航员属性结构。

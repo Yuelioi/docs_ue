@@ -1,6 +1,6 @@
 # SetmembersinEditableTextBoxStyle
 
-Adds a node that modifies a 'EditableTextBoxStyle'
+添加一个节点，修改 "EditableTextBoxStyle"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'EditableTextBoxStyle'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Editable Text Box Style Structure (by ref).  
+结构参考：可编辑文本框样式结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Editable Text Box Style Structure (by ref). Reference to the input struct.
-
+结构出来。可编辑文本框样式结构（通过引用）。对输入结构的引用。

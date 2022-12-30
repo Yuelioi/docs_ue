@@ -1,8 +1,8 @@
 # TextTrimPreceding
 
-Removes whitespace characters from the front of the text.
+移除文本前面的空白字符。
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet Text Library
 
 ## Inputs
 
-In Text: Text (by ref).  
+在文本中。文本（由参考文献）。  
 
 ## Outputs
 
-Return Value: Text. Removes whitespace characters from the front of the text..
-
+返回值。文本。删除文本前面的空白字符。

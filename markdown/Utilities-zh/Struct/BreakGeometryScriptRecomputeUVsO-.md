@@ -1,6 +1,6 @@
 # BreakGeometryScriptRecomputeUVsO-
 
-Adds a node that breaks a 'GeometryScriptRecomputeUVsOptions' into its member fields
+添加一个节点，将'GeometryScriptRecomputeUVsOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'GeometryScriptRecomputeUVsOptions' into its member fi
 
 ## Inputs
 
-Geometry Script Recompute UVs Options: Geometry Script Recompute UVs Options Structure (by ref).  
+几何图形脚本重新计算UVs选项。Geometry Script Recommandation UVs Options结构（按参考）。  
 
 ## Outputs
 
-Method: EGeometryScriptUVFlattenMethod Enum. Method.
+方法。EGeometryScriptUVFlattenMethod Enum.方法。
 
-Island Source: EGeometryScriptUVIslandSource Enum. Island Source.
+岛源。EGeometryScriptUVIslandSource枚举。岛源。
 
-Exp Map Options: Geometry Script Exp Map UVOptions Structure. Exp Map Options.
+Exp Map选项。Geometry Script Exp Map UVOptions结构。Exp Map Options.
 
-Group Layer: Geometry Script Group Layer Structure. Group Layer.
+组图层。Geometry Script Group Layer Structure.组图层。
 
-Auto Align Islands With Axes: Boolean. Auto Align Islands with Axes.
-
+自动将岛屿与轴对齐。布尔值。自动将岛屿与轴对齐。

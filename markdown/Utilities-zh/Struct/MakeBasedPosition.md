@@ -1,6 +1,6 @@
 # MakeBasedPosition
 
-Adds a node that create a 'BasedPosition' from its members
+添加一个节点，从其成员中创建一个 "BasedPosition"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'BasedPosition' from its members
 
 ## Inputs
 
-Base: Actor Object Reference. Base:. Actor that is the base.
+基础。Actor Object Reference.基础：。作为基地的演员。
 
-Position: Vector. Position:. Position relative to the base actor.  
+位置。矢量。位置：。相对于基本演员的位置。  
 
 ## Outputs
 
-Based Position: Based Position Structure.
-
+基于职位。基于职位结构。

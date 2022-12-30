@@ -1,6 +1,6 @@
 # SetmembersinViewportActionKeyInp-
 
-Adds a node that modifies a 'ViewportActionKeyInput'
+添加一个修改 "ViewportActionKeyInput "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ViewportActionKeyInput'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Viewport Action Key Input Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Viewport Action Key Input Structure (by ref). Reference to the input struct.
-
+结构出来。Viewport Action Key Input Structure (by ref)。对输入结构的引用。

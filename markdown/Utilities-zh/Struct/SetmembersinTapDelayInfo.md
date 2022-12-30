@@ -1,6 +1,6 @@
 # SetmembersinTapDelayInfo
 
-Adds a node that modifies a 'TapDelayInfo'
+添加一个修改 "TapDelayInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TapDelayInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Tap Delay Info Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Tap Delay Info Structure (by ref). Reference to the input struct.
-
+Struct Out:Tap Delay Info Structure（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # BreakGeometryScriptIsSameMeshOpt-
 
-Adds a node that breaks a 'GeometryScriptIsSameMeshOptions' into its member fields
+添加一个节点，将'GeometryScriptIsSameMeshOptions'分解到其成员字段中
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that breaks a 'GeometryScriptIsSameMeshOptions' into its member fiel
 
 ## Inputs
 
-Geometry Script Is Same Mesh Options: Geometry Script Is Same Mesh Options Structure (by ref).  
+Geometry Script Is Same Mesh Options:Geometry Script Is Same Mesh Options结构（由参考文献）。  
 
 ## Outputs
 
-Check Connectivity: Boolean. Check Connectivity.
+检查连接性。布尔型。检查连接性。
 
-Check Edge IDs: Boolean. Check Edge IDs.
+检查边缘ID。布尔型。检查边缘ID。
 
-Check Normals: Boolean. Check Normals.
+检查规范。布尔型。检查规范。
 
-Check Colors: Boolean. Check Colors.
+检查颜色。Boolean.检查颜色。
 
-Check UVs: Boolean. Check UVs.
+检查UVs。布尔值。Check UVs.
 
-Check Groups: Boolean. Check Groups.
+检查组。布尔型。检查组。
 
-Check Attributes: Boolean. Check Attributes.
+检查属性。布尔型。检查属性。
 
-Epsilon: Float (single-precision). Epsilon.
-
+Epsilon: 浮点数（单精度）。Epsilon.

@@ -1,6 +1,6 @@
 # MakeTagAndValue
 
-Adds a node that create a 'TagAndValue' from its members
+添加一个节点，从其成员中创建一个 "标签和值"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'TagAndValue' from its members
 
 ## Inputs
 
-Tag: Name. Tag.
+标签：名称。标记。
 
-Value: String. Value.  
+价值。字符串。价值。  
 
 ## Outputs
 
-Tag and Value: Tag And Value Structure.
-
+标签和价值。标签和价值结构。

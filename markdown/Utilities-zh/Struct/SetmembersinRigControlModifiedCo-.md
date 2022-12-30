@@ -1,6 +1,6 @@
 # SetmembersinRigControlModifiedCo-
 
-Adds a node that modifies a 'RigControlModifiedContext'
+添加一个修改 "RigControlModifiedContext "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RigControlModifiedContext'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Rig Control Modified Context Structure (by ref).  
+结构参考：钻机控制修改的上下文结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Rig Control Modified Context Structure (by ref). Reference to the input struct.
-
+结构出来。钻机控制修改的上下文结构（通过引用）。对输入结构的引用。

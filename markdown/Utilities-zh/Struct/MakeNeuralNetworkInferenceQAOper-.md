@@ -1,6 +1,6 @@
 # MakeNeuralNetworkInferenceQAOper-
 
-Adds a node that create a 'NeuralNetworkInferenceQAOperatorAsset' from its members
+添加一个节点，从其成员中创建一个 "NeuralNetworkInferenceQAOperatorAsset"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'NeuralNetworkInferenceQAOperatorAsset' from its membe
 
 ## Outputs
 
-Neural Network Inference QAOperator Asset: Neural Network Inference QAOperator Asset Structure.
-
+神经网络推理QAOperator资产：神经网络推理QAOperator资产结构。

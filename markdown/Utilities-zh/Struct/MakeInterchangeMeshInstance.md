@@ -1,6 +1,6 @@
 # MakeInterchangeMeshInstance
 
-Adds a node that create a 'InterchangeMeshInstance' from its members
+添加一个节点，从其成员中创建一个 "InterchangeMeshInstance"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'InterchangeMeshInstance' from its members
 
 ## Outputs
 
-Interchange Mesh Instance: Interchange Mesh Instance Structure.
-
+互换网格实例。互换网实例结构。

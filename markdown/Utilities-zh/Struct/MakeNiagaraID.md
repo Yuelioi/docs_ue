@@ -1,6 +1,6 @@
 # MakeNiagaraID
 
-Adds a node that create a 'NiagaraID' from its members
+添加一个节点，从其成员中创建一个 "NiagaraID"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'NiagaraID' from its members
 
 ## Inputs
 
-Index: Integer. Index:. Index in the indirection table for this particle. Allows fast access to this particles data.. Is always unique among currently living particles but will be reused after the particle dies..
+索引。整数。索引：。这个粒子在转接表中的索引。允许快速访问这个粒子的数据。在当前活着的粒子中总是唯一的，但是在粒子死亡后会被重新使用。
 
-Acquire Tag: Integer. Acquire Tag:. A unique tag for when this ID was acquired.. Allows us to differentiate between particles when one dies and another reuses it's Index..  
+获取标签。整数。获取标签：。这个ID是什么时候获得的唯一标签。当一个粒子死亡而另一个粒子重新使用它的索引时，允许我们对其进行区分。  
 
 ## Outputs
 
-Niagara ID: Niagara ID Structure.
-
+尼亚加拉身份证。尼亚加拉身份证结构。

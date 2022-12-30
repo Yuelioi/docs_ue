@@ -1,6 +1,6 @@
 # SetmembersinTimedDataMonitorCali-_1
 
-Adds a node that modifies a 'TimedDataMonitorCalibrationResult'
+添加一个节点，修改 "TimedDataMonitorCalibrationResult"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TimedDataMonitorCalibrationResult'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Timed Data Monitor Calibration Result Structure (by ref).  
+结构参考：定时数据监控器校准结果结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Timed Data Monitor Calibration Result Structure (by ref). Reference to the input struct.
-
+结构输出。定时数据监控器校准结果结构（通过参考）。对输入结构的引用。

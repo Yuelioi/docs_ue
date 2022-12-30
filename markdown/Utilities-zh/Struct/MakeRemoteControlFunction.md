@@ -1,6 +1,6 @@
 # MakeRemoteControlFunction
 
-Adds a node that create a 'RemoteControlFunction' from its members
+添加一个节点，从其成员中创建一个 "远程控制功能"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RemoteControlFunction' from its members
 
 ## Outputs
 
-Remote Control Function: Remote Control Function Structure.
-
+遥控功能。遥控功能结构。

@@ -1,6 +1,6 @@
 # MakeInputRange
 
-Adds a node that create a 'InputRange' from its members
+添加一个节点，从其成员中创建一个 "输入范围"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'InputRange' from its members
 
 ## Inputs
 
-Min: Float (single-precision). Min.
+最小值。Float（单精度）。最小值。
 
-Max: Float (single-precision). Max.  
+最大：浮点数（单精度）。最大。  
 
 ## Outputs
 
-Input Range: Input Range Structure.
-
+输入范围。输入范围结构。

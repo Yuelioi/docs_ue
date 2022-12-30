@@ -1,6 +1,6 @@
 # SetmembersinAIRequestID
 
-Adds a node that modifies a 'AIRequestID'
+添加一个修改 "AIRequestID "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AIRequestID'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: AIRequest ID Structure (by ref).  
+结构参考：AIRequest ID结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: AIRequest ID Structure (by ref). Reference to the input struct.
-
+结构出来。AIRequest ID 结构（通过引用）。对输入结构的引用。

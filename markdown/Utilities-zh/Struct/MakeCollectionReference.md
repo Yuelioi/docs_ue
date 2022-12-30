@@ -1,6 +1,6 @@
 # MakeCollectionReference
 
-Adds a node that create a 'CollectionReference' from its members
+添加一个节点，从其成员中创建一个 "CollectionReference"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'CollectionReference' from its members
 
 ## Inputs
 
-Collection Name: Name. Collection Name:. Name of the collection.  
+收藏品名称。名称。收藏品名称：。收藏品的名称。  
 
 ## Outputs
 
-Collection Reference: Collection Reference Structure.
-
+藏品参考。藏品参考结构。

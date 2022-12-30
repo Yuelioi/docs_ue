@@ -1,6 +1,6 @@
 # SetmembersinActorInstanceHandle
 
-Adds a node that modifies a 'ActorInstanceHandle'
+添加一个修改'ActorInstanceHandle'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ActorInstanceHandle'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Actor Instance Handle Structure (by ref).  
+Struct Ref: Actor Instance Handle Structure（通过Ref）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Actor Instance Handle Structure (by ref). Reference to the input struct.
-
+结构出来。Actor Instance Handle结构（通过ref）。对输入结构的引用。

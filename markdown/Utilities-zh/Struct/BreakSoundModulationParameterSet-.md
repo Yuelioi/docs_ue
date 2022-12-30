@@ -1,6 +1,6 @@
 # BreakSoundModulationParameterSet-
 
-Adds a node that breaks a 'SoundModulationParameterSettings' into its member fields
+添加一个节点，将'SoundModulationParameterSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'SoundModulationParameterSettings' into its member fie
 
 ## Inputs
 
-Sound Modulation Parameter Settings: Sound Modulation Parameter Settings Structure (by ref).  
+声音调制参数设置。声音调制参数设置结构（按参考）。  
 
 ## Outputs
 
-Value Normalized: Float (single-precision). Value Normalized:. Normalized, unitless default value of modulator. To ensure bypass functionality of mixing, patching, and modulating. functions as anticipated, value should be selected such that GetMixFunction (see USoundModulationParameter). reduces to an identity function (i.e. function acts as a "pass-through" for all values in the range [0.0, 1.0]).. If GetMixFunction performs the mathematical operation f(x1, x2), then the default ValueNormalized should result in. f(x1, d) = x1 where d is ValueNormalized..
-
+归一化的值。Float (single-precision).归一化的值：。调制器的归一化、无单位默认值。为了确保混合、修补和调制的旁路功能，应该选择GetMixFunction（见USoundModulationParameter），使其还原为一个同一函数（即函数作为[0.0, 1.0]范围内所有数值的 "直通"）。如果GetMixFunction执行数学运算f(x1, x2)，那么默认的ValueNormalized的结果应该是： f(x1, d) = x1 其中d是ValueNormalized。

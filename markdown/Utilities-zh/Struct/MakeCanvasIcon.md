@@ -1,6 +1,6 @@
 # MakeCanvasIcon
 
-Adds a node that create a 'CanvasIcon' from its members
+添加一个节点，从其成员中创建一个 "CanvasIcon"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'CanvasIcon' from its members
 
 ## Inputs
 
-Texture: Texture Object Reference. Texture:. Source texture.
+纹理。纹理对象参考。Texture:（纹理）。源纹理。
 
-U: Float (single-precision). U:. UV coords.
+U:Float（单精度）。U:.UV坐标。
 
-V: Float (single-precision). V.
+V：浮点数（单精度）。V.
 
-UL: Float (single-precision). UL.
+UL：浮点数（单精度）。UL。
 
-VL: Float (single-precision). VL.  
+VL：浮点数（单精度）。VL。  
 
 ## Outputs
 
-Canvas Icon: Canvas Icon Structure.
-
+Canvas Icon: Canvas Icon结构。

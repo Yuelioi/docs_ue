@@ -1,8 +1,8 @@
 # IsPolyglotDataValid
 
-Check whether the given polyglot data is valid.
+检查给定的polyglot数据是否有效。
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet Text Library
 
 ## Inputs
 
-Polyglot Data: Polyglot Text Data Structure (by ref).  
+Polyglot数据。Polyglot Text Data Structure (by ref).  
 
 ## Outputs
 
-Is Valid: Boolean.
+是有效的。布尔型。
 
-Error Message: Text.
-
+错误信息。文本。

@@ -1,6 +1,6 @@
 # BreakGeometryScriptFlareWarpOpti-
 
-Adds a node that breaks a 'GeometryScriptFlareWarpOptions' into its member fields
+添加一个节点，将'GeometryScriptFlareWarpOptions'分解到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'GeometryScriptFlareWarpOptions' into its member field
 
 ## Inputs
 
-Geometry Script Flare Warp Options: Geometry Script Flare Warp Options Structure (by ref).  
+Geometry Script Flare Warp Options:Geometry Script Flare Warp Options结构（按参考）。  
 
 ## Outputs
 
-Symmetric Extents: Boolean. Symmetric Extents:. Symmetric extents are [-BendExtent,BendExtent], if disabled, then [-LowerExtent,BendExtent] is used.
+对称的外延。布尔型。对称外延：。对称外延是[-BendExtent,BendExtent]，如果禁用，则使用[-LowerExtent,BendExtent]。
 
-Lower Extent: Float (single-precision). Lower Extent:. Lower extent used when bSymmetricExtents = false.
+下限范围。浮点数（单精度）。Lower Extent:.当bSymmetricExtents = false时使用的下限范围。
 
-Flare Type: EGeometryScriptFlareType Enum. Flare Type:. Determines the profile used as a displacement.
-
+Flare类型。EGeometryScriptFlareType枚举。Flare Type:.确定用作位移的轮廓。

@@ -1,6 +1,6 @@
 # SetmembersinDisp-_10
 
-Adds a node that modifies a 'DisplayClusterConfigurationICVFX_CameraSoftEdge'
+添加一个节点，修改 "DisplayClusterConfigurationICVFX_CameraSoftEdge"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DisplayClusterConfigurationICVFX_CameraSoftEdge'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Display Cluster Configuration ICVFX Camera Soft Edge Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Display Cluster Configuration ICVFX Camera Soft Edge Structure (by ref). Reference to the input struct.
-
+结构出来。Display Cluster Configuration ICVFX Camera Soft Edge Structure（通过参考）。对输入结构的引用。

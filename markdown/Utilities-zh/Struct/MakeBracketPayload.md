@@ -1,6 +1,6 @@
 # MakeBracketPayload
 
-Adds a node that create a 'BracketPayload' from its members
+添加一个节点，从其成员中创建一个 "BracketPayload"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'BracketPayload' from its members
 
 ## Outputs
 
-Bracket Payload: Bracket Payload Structure.
-
+支架上的有效载荷。支架有效载荷结构。

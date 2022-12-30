@@ -1,6 +1,6 @@
 # MakeNamedTransform
 
-Adds a node that create a 'NamedTransform' from its members
+添加一个节点，从其成员中创建一个 "NamedTransform"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'NamedTransform' from its members
 
 ## Inputs
 
-Value: Transform. Value.
+价值。转化。价值。
 
-Name: Name. Name.  
+姓名：姓名名字。  
 
 ## Outputs
 
-Named Transform: Named Transform Structure.
-
+命名的变换。命名的变换结构。

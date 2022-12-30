@@ -1,6 +1,6 @@
 # BreakTimedDataMonitorTimeCorrect-_1
 
-Adds a node that breaks a 'TimedDataMonitorTimeCorrectionResult' into its member fields
+添加一个节点，将 "TimedDataMonitorTimeCorrectionResult "分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'TimedDataMonitorTimeCorrectionResult' into its member
 
 ## Inputs
 
-Timed Data Monitor Time Correction Result: Timed Data Monitor Time Correction Result Structure (by ref).  
+计时数据监测器时间校正结果。计时数据监测器时间校正结果结构（通过参考）。  
 
 ## Outputs
 
-Return Code: ETimedDataMonitorTimeCorrectionReturnCode Enum. Return Code.
+返回代码。ETimedDataMonitorTimeCorrectionReturnCode枚举。返回代码。
 
-Failure Channel Identifiers: Array of Timed Data Monitor Channel Identifier Structures. Failure Channel Identifiers.
-
+故障通道标识符。计时数据监控通道标识符结构的数组。故障通道标识符。

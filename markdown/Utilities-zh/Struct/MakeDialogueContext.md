@@ -1,6 +1,6 @@
 # MakeDialogueContext
 
-Adds a node that create a 'DialogueContext' from its members
+添加一个节点，从其成员中创建一个 "对话环境"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'DialogueContext' from its members
 
 ## Inputs
 
-Speaker: Dialogue Voice Object Reference. Speaker:. The person speaking the dialogue..
+发言人。对话语音对象参考。发言人：。讲述对话的人...
 
-Targets: Array of Dialogue Voice Object References. Targets:. The people being spoken to..  
+目标。对话语音对象参考数组。目标:.被交谈的人。
 
 ## Outputs
 
-Dialogue Context: Dialogue Context Structure.
-
+对话背景。对话背景结构。

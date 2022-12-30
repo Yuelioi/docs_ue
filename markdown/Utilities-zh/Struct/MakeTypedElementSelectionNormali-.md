@@ -1,6 +1,6 @@
 # MakeTypedElementSelectionNormali-
 
-Adds a node that create a 'TypedElementSelectionNormalizationOptions' from its members
+添加一个节点，从其成员中创建一个'TypedElementSelectionNormalizationOptions'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'TypedElementSelectionNormalizationOptions' from its m
 
 ## Inputs
 
-Expand Groups: Boolean. Expand Groups.
+扩展组。Boolean.扩展组。
 
-Follow Attachment: Boolean. Follow Attachment.  
+跟随附件。布尔型。关注附件。  
 
 ## Outputs
 
-Typed Element Selection Normalization Options: Typed Element Selection Normalization Options Structure.
-
+类型化元素选择归一化选项。类型化元素选择规范化选项结构。

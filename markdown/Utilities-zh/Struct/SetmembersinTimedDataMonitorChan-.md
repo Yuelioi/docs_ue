@@ -1,6 +1,6 @@
 # SetmembersinTimedDataMonitorChan-
 
-Adds a node that modifies a 'TimedDataMonitorChannelIdentifier'
+添加一个修改 "TimedDataMonitorChannelIdentifier "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TimedDataMonitorChannelIdentifier'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Timed Data Monitor Channel Identifier Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Timed Data Monitor Channel Identifier Structure (by ref). Reference to the input struct.
-
+结构输出。定时数据监测通道标识符结构（通过参考）。对输入结构的引用。

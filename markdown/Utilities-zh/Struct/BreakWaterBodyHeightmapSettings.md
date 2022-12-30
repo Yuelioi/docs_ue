@@ -1,6 +1,6 @@
 # BreakWaterBodyHeightmapSettings
 
-Adds a node that breaks a 'WaterBodyHeightmapSettings' into its member fields
+添加一个节点，将'WaterBodyHeightmapSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'WaterBodyHeightmapSettings' into its member fields
 
 ## Inputs
 
-Water Body Heightmap Settings: Water Body Heightmap Settings Structure (by ref).  
+水体高度图设置。水体高度图设置结构（按参考）。  
 
 ## Outputs
 
-Blend Mode: EWaterBrushBlendType Enum. Blend Mode.
+混合模式。EWaterBrushBlendType枚举。混合模式。
 
-Invert Shape: Boolean. Invert Shape.
+反转形状。布尔值。反转形状。
 
-Falloff Settings: Water Falloff Settings Structure. Falloff Settings.
+落差设置。水的衰减设置结构。褪色设置。
 
-Effects: Water Brush Effects Structure. Effects.
-
+效果。水刷的效果结构。效果。

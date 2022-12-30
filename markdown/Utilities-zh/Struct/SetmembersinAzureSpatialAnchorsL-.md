@@ -1,6 +1,6 @@
 # SetmembersinAzureSpatialAnchorsL-
 
-Adds a node that modifies a 'AzureSpatialAnchorsLocateCriteria'
+添加一个修改 "AzureSpatialAnchorsLocateCriteria "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AzureSpatialAnchorsLocateCriteria'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Azure Spatial Anchors Locate Criteria Structure (by ref).  
+Struct Ref: Azure Spatial Anchors 定位标准结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Azure Spatial Anchors Locate Criteria Structure (by ref). Reference to the input struct.
-
+结构出来。Azure Spatial Anchors定位标准结构（通过ref）。对输入结构的引用。

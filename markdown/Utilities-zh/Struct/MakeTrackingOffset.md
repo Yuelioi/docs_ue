@@ -1,6 +1,6 @@
 # MakeTrackingOffset
 
-Adds a node that create a 'TrackingOffset' from its members
+添加一个节点，从其成员中创建一个 "跟踪偏移"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'TrackingOffset' from its members
 
 ## Inputs
 
-Translation: Vector. Translation.
+翻译。矢量。翻译。
 
-Rotation: Rotator. Rotation.  
+旋转。旋转器。旋转。  
 
 ## Outputs
 
-Tracking Offset: Tracking Offset Structure.
-
+追踪偏移。追踪偏移结构。

@@ -1,6 +1,6 @@
 # MakeDMXImportGDTFGeometryReferen-
 
-Adds a node that create a 'DMXImportGDTFGeometryReference' from its members
+添加一个节点，从其成员中创建一个'DMXImportGDTFGeometryReference'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXImportGDTFGeometryReference' from its members
 
 ## Outputs
 
-DMXImport GDTFGeometry Reference: DMXImport GDTFGeometry Reference Structure.
-
+DMXImport GDTFGeometry参考。DMXImport GDTFGeometry 参考结构。

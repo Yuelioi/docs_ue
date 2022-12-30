@@ -1,6 +1,6 @@
 # MakeDisplayClust-_13
 
-Adds a node that create a 'DisplayClusterConfigurationPostRender_BlurPostprocess' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationPostRender_BlurPostprocess"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'DisplayClusterConfigurationPostRender_BlurPostprocess
 
 ## Inputs
 
-Mode: EDisplayClusterConfiguration_PostRenderBlur Enum. Mode:. Enable/disable Post Process Blur and specify method..
+模式。EDisplayClusterConfiguration_PostRenderBlur枚举。模式:.启用/禁用后处理模糊并指定方法。
 
-Kernel Radius: Integer. Kernel Radius:. Kernel Radius.
+内核半径：整数。内核半径：。内核半径。
 
-Kernel Scale: Float (single-precision). Kernel Scale:. Kernel Scale.  
+内核规模：浮点数（单精度）。内核规模：。核心规模。  
 
 ## Outputs
 
-Display Cluster Configuration Post Render Blur Postprocess: Display Cluster Configuration Post Render Blur Postprocess Structure.
-
+显示 Cluster Configuration Post Render Blur Postprocess。显示集群配置 渲染后模糊后处理结构。

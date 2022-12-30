@@ -1,6 +1,6 @@
 # BreakUserActivity
 
-Adds a node that breaks a 'UserActivity' into its member fields
+添加一个节点，将 "UserActivity "分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'UserActivity' into its member fields
 
 ## Inputs
 
-User Activity: User Activity Structure (by ref).  
+用户活动。用户活动结构（按参考）。  
 
 ## Outputs
 
-Action Name: String. Action Name:. Describes the user's activity.
-
+行动名称。字符串。行动名称：。描述了用户的活动。

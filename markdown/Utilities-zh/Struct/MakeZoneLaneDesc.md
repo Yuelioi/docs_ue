@@ -1,6 +1,6 @@
 # MakeZoneLaneDesc
 
-Adds a node that create a 'ZoneLaneDesc' from its members
+添加一个节点，从其成员中创建一个 "ZoneLaneDesc"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ZoneLaneDesc' from its members
 
 ## Outputs
 
-Zone Lane Desc: Zone Lane Desc Structure.
-
+区道描述：区道描述结构。

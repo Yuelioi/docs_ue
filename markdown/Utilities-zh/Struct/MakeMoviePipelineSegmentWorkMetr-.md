@@ -1,6 +1,6 @@
 # MakeMoviePipelineSegmentWorkMetr-
 
-Adds a node that create a 'MoviePipelineSegmentWorkMetrics' from its members
+添加一个节点，从其成员中创建一个'MoviePipelineSegmentWorkMetrics'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'MoviePipelineSegmentWorkMetrics' from its members
 
 ## Outputs
 
-Movie Pipeline Segment Work Metrics: Movie Pipeline Segment Work Metrics Structure.
-
+电影管道段的工作指标。电影管道段的工作指标结构。

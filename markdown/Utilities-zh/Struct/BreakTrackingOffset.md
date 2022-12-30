@@ -1,6 +1,6 @@
 # BreakTrackingOffset
 
-Adds a node that breaks a 'TrackingOffset' into its member fields
+添加一个节点，将'TrackingOffset'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'TrackingOffset' into its member fields
 
 ## Inputs
 
-Tracking Offset: Tracking Offset Structure (by ref).  
+追踪偏移。追踪偏移结构（通过参考）。  
 
 ## Outputs
 
-Translation: Vector. Translation.
+翻译。矢量。翻译。
 
-Rotation: Rotator. Rotation.
-
+旋转： 旋转器。轮换。

@@ -1,6 +1,6 @@
 # MakeModularSynthPresetBankEntry
 
-Adds a node that create a 'ModularSynthPresetBankEntry' from its members
+添加一个节点，从其成员中创建一个 "ModularSynthPresetBankEntry"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ModularSynthPresetBankEntry' from its members
 
 ## Inputs
 
-Preset Name: String. Preset Name.
+预设名称：字符串。预设名称。
 
-Preset: Modular Synth Preset Structure. Preset.  
+预设。模块合成器预设结构。预设。  
 
 ## Outputs
 
-Modular Synth Preset Bank Entry: Modular Synth Preset Bank Entry Structure.
-
+模块化合成器预置库输入。模块化合成器预置库条目结构。

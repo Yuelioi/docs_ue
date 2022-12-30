@@ -1,6 +1,6 @@
 # MakeDMXProtocolName
 
-Adds a node that create a 'DMXProtocolName' from its members
+添加一个节点，从其成员中创建一个'DMXProtocolName'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXProtocolName' from its members
 
 ## Outputs
 
-DMXProtocol Name: DMXProtocol Name Structure.
-
+DMXProtocol Name: DMXProtocol Name结构。

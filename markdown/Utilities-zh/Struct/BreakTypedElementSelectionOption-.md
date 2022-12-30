@@ -1,6 +1,6 @@
 # BreakTypedElementSelectionOption-
 
-Adds a node that breaks a 'TypedElementSelectionOptions' into its member fields
+添加一个节点，将'TypedElementSelectionOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'TypedElementSelectionOptions' into its member fields
 
 ## Inputs
 
-Typed Element Selection Options: Typed Element Selection Options Structure (by ref).  
+类型化的元素选择选项。类型化元素选择选项的结构（按参考）。  
 
 ## Outputs
 
-Allow Hidden: Boolean. Allow Hidden.
+允许隐藏。布尔值。允许隐藏。
 
-Allow Groups: Boolean. Allow Groups.
+允许群组。布尔值。允许群组。
 
-Allow Legacy Notifications: Boolean. Allow Legacy Notifications.
+允许遗留通知。布尔型。允许遗留通知。
 
-Warn If Locked: Boolean. Warn if Locked.
+如果被锁定则警告。布尔值。锁定时发出警告。
 
-Child Element Inclusion Method: ETypedElementChildInclusionMethod Enum. Child Element Inclusion Method.
-
+子元素包容方法。ETypedElementChildInclusionMethod Enum.子元素包容方法。

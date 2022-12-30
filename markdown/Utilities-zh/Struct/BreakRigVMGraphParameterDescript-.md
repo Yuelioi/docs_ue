@@ -1,6 +1,6 @@
 # BreakRigVMGraphParameterDescript-
 
-Adds a node that breaks a 'RigVMGraphParameterDescription' into its member fields
+添加一个节点，将'RigVMGraphParameterDescription'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'RigVMGraphParameterDescription' into its member field
 
 ## Inputs
 
-Rig VMGraph Parameter Description: Rig VMGraph Parameter Description Structure (by ref).  
+Rig VMGraph参数描述。Rig VMGraph参数描述结构（通过参考）。  
 
 ## Outputs
 
-Name: Name. Name:. The name of the parameter.
+姓名。姓名：。名称：。参数的名称。
 
-Is Input: Boolean. Is Input:. True if the parameter is an input.
+是输入。布尔型。是输入：。如果该参数是输入，则为真。
 
-CPPType: String. CPPType:. The C++ data type of the parameter.
+CPPT类型。字符串。CPPType:。参数的C++数据类型。
 
-CPPType Object: Object Reference. CPPType Object:. The Struct of the C++ data type of the parameter (or nullptr).
+CPPT类型对象。对象参考。CPPType Object:。参数的C++数据类型的结构（或nullptr）。
 
-Default Value: String. Default Value:. The default value of the parameter.
-
+默认值。字符串。默认值：。该参数的默认值。

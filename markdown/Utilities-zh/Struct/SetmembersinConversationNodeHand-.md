@@ -1,6 +1,6 @@
 # SetmembersinConversationNodeHand-
 
-Adds a node that modifies a 'ConversationNodeHandle'
+添加一个修改'ConversationNodeHandle'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ConversationNodeHandle'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Conversation Node Handle Structure (by ref).  
+Struct Ref: Conversation Node Handle Structure（通过ref）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Conversation Node Handle Structure (by ref). Reference to the input struct.
-
+结构出来。对话节点处理结构（通过引用）。对输入结构的引用。

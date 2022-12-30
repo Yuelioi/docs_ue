@@ -1,6 +1,6 @@
 # MakeBasicParticleData
 
-Adds a node that create a 'BasicParticleData' from its members
+添加一个节点，从其成员中创建一个 "BasicParticleData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'BasicParticleData' from its members
 
 ## Outputs
 
-Basic Particle Data: Basic Particle Data Structure.
-
+基本粒子数据。基本粒子数据结构。

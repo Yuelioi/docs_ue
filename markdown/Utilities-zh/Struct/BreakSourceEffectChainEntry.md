@@ -1,6 +1,6 @@
 # BreakSourceEffectChainEntry
 
-Adds a node that breaks a 'SourceEffectChainEntry' into its member fields
+添加一个打破'SourceEffectChainEntry'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'SourceEffectChainEntry' into its member fields
 
 ## Inputs
 
-Source Effect Chain Entry: Source Effect Chain Entry Structure (by ref).  
+源效应链条目。源效应链入口结构（按参考）。  
 
 ## Outputs
 
-Preset: Sound Effect Source Preset Object Reference. Preset.
+预设。声音效果源预设对象参考。预设。
 
-Bypass: Boolean. Bypass.
-
+旁路。布尔型。旁路。

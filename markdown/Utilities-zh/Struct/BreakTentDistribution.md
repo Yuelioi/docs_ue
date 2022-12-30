@@ -1,6 +1,6 @@
 # BreakTentDistribution
 
-Adds a node that breaks a 'TentDistribution' into its member fields
+添加一个节点，将'TentDistribution'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'TentDistribution' into its member fields
 
 ## Inputs
 
-Tent Distribution: Tent Distribution Structure (by ref).  
+帐篷分布。帐篷分配结构（按参考）。  
 
 ## Outputs
 
-Tip Altitude: Float (single-precision). Tip Altitude.
+提示高度。浮点数（单精度）。提示高度。
 
-Tip Value: Float (single-precision). Tip Value.
+提示值。Float（单精度）。提示值。
 
-Width: Float (single-precision). Width.
-
+宽度：浮点数（单精度）。宽度。

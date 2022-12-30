@@ -1,6 +1,6 @@
 # BreakSourceEffectPannerSettings
 
-Adds a node that breaks a 'SourceEffectPannerSettings' into its member fields
+添加一个节点，将'SourceEffectPannerSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'SourceEffectPannerSettings' into its member fields
 
 ## Inputs
 
-Source Effect Panner Settings: Source Effect Panner Settings Structure (by ref).  
+源效果器的设置。源效果器设置结构（按参考）。  
 
 ## Outputs
 
-Spread: Float (single-precision). Spread:. The spread of the source. 1.0 means left only in left channel, right only in right; 0.0 means both mixed, -1.0 means right and left channels are inverted..
+传播。Float（单精度）。展开：。信号源的扩散。1.0表示左通道只有左，右通道只有右；0.0表示两者混合，-1.0表示左右通道倒置。
 
-Pan: Float (single-precision). Pan:. The pan of the source. -1.0 means left, 0.0 means center, 1.0 means right..
-
+潘。Float（单精度）。平移：。信号源的平移。-1.0表示左边，0.0表示中间，1.0表示右边。

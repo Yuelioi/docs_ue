@@ -1,6 +1,6 @@
 # BreakImagePlateParameters
 
-Adds a node that breaks a 'ImagePlateParameters' into its member fields
+添加一个节点，将 "ImagePlateParameters "分解成其成员字段。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'ImagePlateParameters' into its member fields
 
 ## Inputs
 
-Image Plate Parameters: Image Plate Parameters Structure (by ref).  
+图像板参数。图像板参数结构（按参考）。  
 
 ## Outputs
 
-Material: Material Interface Object Reference. Material:. The material that the image plate is rendered with..
+材料。材料界面对象参考。材料:.图像板块被渲染的材料。
 
-Texture Parameter Name: Name. Texture Parameter Name:. Name of a texture parameter inside the material to patch the render target texture to.
+纹理参数名称。名称。Texture Parameter Name（纹理参数名称）：。材质中的纹理参数名称，用于修补渲染目标纹理。
 
-Fill Screen: Boolean. Fill Screen:. Automatically size the plate based on the active camera's lens and filmback settings. Target Camera is found by looking for an active camera component from this component's actor, through its attached parents..
+填充屏幕。Boolean.填充画面：。根据活动摄像机的镜头和filmback设置，自动确定平板的大小。目标摄像机是通过从该组件的演员中寻找活动的摄像机组件，通过其附属的父母找到的。
 
-Fill Screen Amount: Vector 2D Structure. Fill Screen Amount:. The amount to fill the screen with when attached to a camera.
+填充屏幕数量。矢量2D结构。Fill Screen Amount：。与相机相连时填充屏幕的量。
 
-Fixed Size: Vector 2D Structure. Fixed Size:. The fixed size of the image plate.
+固定尺寸。矢量2D结构。固定尺寸：。图像板的固定尺寸。
 
-Render Texture: Texture Object Reference. Render Texture:. Transient texture that receives image frames.
-
+渲染纹理。纹理对象参考。Render Texture:（渲染纹理）。接收图像帧的瞬时纹理。

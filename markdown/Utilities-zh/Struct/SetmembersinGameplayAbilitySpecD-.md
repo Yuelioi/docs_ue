@@ -1,6 +1,6 @@
 # SetmembersinGameplayAbilitySpecD-
 
-Adds a node that modifies a 'GameplayAbilitySpecDef'
+添加一个修改 "GameplayAbilitySpecDef "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GameplayAbilitySpecDef'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Gameplay Ability Spec Def Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Gameplay Ability Spec Def Structure (by ref). Reference to the input struct.
-
+结构了。Gameplay Ability Spec Def Structure（通过引用）。对输入结构的引用。

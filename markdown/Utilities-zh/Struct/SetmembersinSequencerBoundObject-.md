@@ -1,6 +1,6 @@
 # SetmembersinSequencerBoundObject-
 
-Adds a node that modifies a 'SequencerBoundObjects'
+添加一个修改 "SequencerBoundObjects "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SequencerBoundObjects'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Sequencer Bound Objects Structure (by ref).  
+Struct Ref: Sequencer Bound Objects结构（通过ref）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sequencer Bound Objects Structure (by ref). Reference to the input struct.
-
+结构出来。Sequencer Bound Objects 结构（通过ref）。对输入结构的引用。

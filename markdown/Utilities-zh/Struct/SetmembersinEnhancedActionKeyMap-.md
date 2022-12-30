@@ -1,6 +1,6 @@
 # SetmembersinEnhancedActionKeyMap-
 
-Adds a node that modifies a 'EnhancedActionKeyMapping'
+添加一个修改'EnhancedActionKeyMapping'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'EnhancedActionKeyMapping'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Enhanced Action Key Mapping Structure (by ref).  
+结构参考：强化行动键映射结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Enhanced Action Key Mapping Structure (by ref). Reference to the input struct.
-
+结构出来。增强的动作键映射结构（通过引用）。对输入结构的引用。

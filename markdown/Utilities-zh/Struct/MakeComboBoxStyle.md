@@ -1,6 +1,6 @@
 # MakeComboBoxStyle
 
-Adds a node that create a 'ComboBoxStyle' from its members
+添加一个节点，从其成员中创建一个 "ComboBoxStyle"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'ComboBoxStyle' from its members
 
 ## Inputs
 
-Combo Button Style: Combo Button Style Structure. Combo Button Style:. The style to use for our SComboButton.
+组合按钮风格。组合按钮风格的结构。Combo Button Style:.我们的SComboButton要使用的样式。
 
-Pressed Sound: Slate Sound Structure. Pressed Slate Sound:. The sound the button should play when pressed.
+压制的声音。板岩的声音结构。按下的石板声：。按钮被按下时应该播放的声音。
 
-Selection Change Sound: Slate Sound Structure. Selection Change Slate Sound:. The Sound to play when the selection is changed.
+选择改变声音。石板的声音结构。选择变化板块的声音：。当选择被改变时要播放的声音。
 
-Content Padding: Margin Structure. Content Padding:: Button Content Padding.
+内容填充。保证金结构。内容填充：。按钮的内容填充。
 
-Menu Row Padding: Margin Structure. Menu Row Padding:: Menu Row Padding.  
+菜单行填充。边缘结构。菜单行填充：。菜单行填充：菜单行填充。  
 
 ## Outputs
 
-Combo Box Style: Combo Box Style Structure.
-
+组合框风格。组合框风格结构。

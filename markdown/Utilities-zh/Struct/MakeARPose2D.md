@@ -1,6 +1,6 @@
 # MakeARPose2D
 
-Adds a node that create a 'ARPose2D' from its members
+添加一个节点，从其成员中创建一个'ARPose2D'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ARPose2D' from its members
 
 ## Outputs
 
-ARPose 2D: ARPose 2D Structure.
-
+ARPose 2D: ARPose 2D结构。

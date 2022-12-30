@@ -1,6 +1,6 @@
 # BreakUnderwaterPostProcessSettin-
 
-Adds a node that breaks a 'UnderwaterPostProcessSettings' into its member fields
+添加一个节点，将'UnderwaterPostProcessSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'UnderwaterPostProcessSettings' into its member fields
 
 ## Inputs
 
-Underwater Post Process Settings: Underwater Post Process Settings Structure (by ref).  
+水下后期处理设置。水下后期处理设置结构（按参考）。  
 
 ## Outputs
 
-Enabled: Boolean. Enabled.
+已启用。布尔型。已启用。
 
-Priority: Float (single-precision). Priority.
+优先级。浮点数（单精度）。优先级。
 
-Blend Radius: Float (single-precision). Blend Radius:. World space radius around the volume that is used for blending (only if not unbound)..
+混合半径。Float（单精度）。Blend Radius:（混合半径）。用于混合的体积周围的世界空间半径（仅在非绑定时）。
 
-Blend Weight: Float (single-precision). Blend Weight:. 0:no effect, 1:full effect.
+混合重量。Float（单精度）。混合权重：。0:无影响，1:完全影响。
 
-Post Process Settings: Post Process Settings Structure. Post Process Settings:. List of all post-process settings to use when underwater : note : use UnderwaterPostProcessMaterial for setting the actual post process material..
-
+后期流程设置。后期处理设置结构。后期处理设置：。所有在水下使用的后期处理设置的列表：注意：使用UnderwaterPostProcessMaterial来设置实际的后期处理材料。

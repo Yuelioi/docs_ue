@@ -1,6 +1,6 @@
 # SetmembersinRigVMCompileSettings
 
-Adds a node that modifies a 'RigVMCompileSettings'
+添加一个节点，修改 "RigVMCompileSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RigVMCompileSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Rig VMCompile Settings Structure (by ref).  
+结构参考：Rig VMCompile设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Rig VMCompile Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Rig VMCompile设置结构（通过ref）。对输入结构的引用。

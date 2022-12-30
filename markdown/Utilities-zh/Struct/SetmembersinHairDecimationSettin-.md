@@ -1,6 +1,6 @@
 # SetmembersinHairDecimationSettin-
 
-Adds a node that modifies a 'HairDecimationSettings'
+添加一个修改 "HairDecimationSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'HairDecimationSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Hair Decimation Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Hair Decimation Settings Structure (by ref). Reference to the input struct.
-
+Struct Out: Hair Decimation Settings Structure (by ref).对输入结构的引用。

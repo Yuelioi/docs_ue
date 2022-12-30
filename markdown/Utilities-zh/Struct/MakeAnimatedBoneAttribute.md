@@ -1,6 +1,6 @@
 # MakeAnimatedBoneAttribute
 
-Adds a node that create a 'AnimatedBoneAttribute' from its members
+添加一个节点，从其成员中创建一个 "AnimatedBoneAttribute"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AnimatedBoneAttribute' from its members
 
 ## Outputs
 
-Animated Bone Attribute: Animated Bone Attribute Structure.
-
+动画的骨骼属性:动画骨骼属性结构.

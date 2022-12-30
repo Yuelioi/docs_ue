@@ -1,6 +1,6 @@
 # BreakMotionTrajectorySettings
 
-Adds a node that breaks a 'MotionTrajectorySettings' into its member fields
+添加一个节点，将'MotionTrajectorySettings'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'MotionTrajectorySettings' into its member fields
 
 ## Inputs
 
-Motion Trajectory Settings: Motion Trajectory Settings Structure (by ref).  
+运动轨迹设置。运动轨迹设置结构（按参考）。  
 
 ## Outputs
 
-Domain: Bitmask Integer. Domain:. Trajectory mask for specifying a time and/or distance domain. Default: Time Domain of 2.0 seconds.
+域。Bitmask 整数。域：。用于指定时间和/或距离域的轨迹掩码。默认值。时间域为2.0秒。
 
-Seconds: Float (single-precision). Seconds:. Sample time horizon.
+秒数。Float（单精度）。Seconds:.采样时间范围。
 
-Distance: Float (single-precision). Distance:. Sample distance horizon.
-
+距离。Float（单精度）。距离：。采样距离的水平线。

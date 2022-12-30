@@ -1,6 +1,6 @@
 # MakeGameplayCueNotify_ParticleIn-
 
-Adds a node that create a 'GameplayCueNotify_ParticleInfo' from its members
+添加一个节点，从其成员中创建一个 "GameplayCueNotify_ParticleInfo"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayCueNotify_ParticleInfo' from its members
 
 ## Outputs
 
-Gameplay Cue Notify Particle Info: Gameplay Cue Notify Particle Info Structure.
-
+Gameplay Cue Notify Particle Info:Gameplay Cue Notify Particle Info Structure.

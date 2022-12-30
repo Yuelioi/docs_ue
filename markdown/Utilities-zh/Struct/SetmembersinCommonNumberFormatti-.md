@@ -1,6 +1,6 @@
 # SetmembersinCommonNumberFormatti-
 
-Adds a node that modifies a 'CommonNumberFormattingOptions'
+添加一个修改 "CommonNumberFormattingOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CommonNumberFormattingOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Common Number Formatting Options Structure (by ref).  
+结构参考：通用数字格式化选项结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Common Number Formatting Options Structure (by ref). Reference to the input struct.
-
+结构出来。普通数字格式化选项结构（通过引用）。对输入结构的引用。

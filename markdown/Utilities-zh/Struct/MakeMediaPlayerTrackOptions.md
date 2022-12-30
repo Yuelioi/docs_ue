@@ -1,6 +1,6 @@
 # MakeMediaPlayerTrackOptions
 
-Adds a node that create a 'MediaPlayerTrackOptions' from its members
+添加一个节点，从其成员中创建一个 "MediaPlayerTrackOptions"。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that create a 'MediaPlayerTrackOptions' from its members
 
 ## Inputs
 
-Audio: Integer. Audio.
+音频：整数。音频。
 
-Caption: Integer. Caption.
+标题。整数。说明：标题。
 
-Metadata: Integer. Metadata.
+元数据：整数。元数据。
 
-Script: Integer. Script.
+脚本。整数。脚本。
 
-Subtitle: Integer. Subtitle.
+副标题。整数。副标题。
 
-Text: Integer. Text.
+文本：整数。文本。
 
-Video: Integer. Video.  
+视频：整数。视频。  
 
 ## Outputs
 
-Media Player Track Options: Media Player Track Options Structure.
-
+媒体播放器音轨选项。媒体播放器音轨选项结构。

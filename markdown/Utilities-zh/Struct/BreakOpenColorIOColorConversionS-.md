@@ -1,6 +1,6 @@
 # BreakOpenColorIOColorConversionS-
 
-Adds a node that breaks a 'OpenColorIOColorConversionSettings' into its member fields
+添加一个节点，将'OpenColorIOColorConversionSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'OpenColorIOColorConversionSettings' into its member f
 
 ## Inputs
 
-Open Color IOColor Conversion Settings: Open Color IOColor Conversion Settings Structure (by ref).  
+打开颜色IOC颜色转换设置。打开颜色IOC颜色转换设置结构（按参考）。  
 
 ## Outputs
 
-Configuration Source: Open Color IOConfiguration Object Reference. Configuration Source:. The source color space name..
+配置源。Open Color IOConfiguration对象参考。配置源：。源色彩空间名称。
 
-Source Color Space: Open Color IOColor Space Structure. Source Color Space:. The source color space name..
+源色彩空间。开放色彩IOC色彩空间结构。源色彩空间：。源色彩空间的名称。
 
-Destination Color Space: Open Color IOColor Space Structure. Destination Color Space:. The destination color space name..
-
+目的地色彩空间。打开颜色IOC颜色空间结构。目标色彩空间：。目的地色彩空间名称...

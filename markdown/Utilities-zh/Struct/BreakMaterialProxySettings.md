@@ -8,7 +8,7 @@
 
 ## Inputs
 
-材料代理设置。材料代理设置结构（通过引用）。 
+材料代理设置。材料代理设置结构（通过引用）。
 
 ## Outputs
 
@@ -74,7 +74,7 @@ Roughness Texture Size（粗糙度纹理尺寸）。Int Point Structure. Roughne
 
 Anisotropy Texture Size（各向异性纹理尺寸）。Int Point Structure. Anisotropy Texture Size:.各向异性纹理尺寸。覆盖各向异性纹理的大小。
 
-Specular Texture Size（镜面纹理尺寸）。Int Point Structure. Specular Texture Size:. 覆盖镜面纹理尺寸。
+Specular Texture Size（镜面纹理尺寸）。Int Point Structure.镜面纹理尺寸：.覆盖镜面纹理尺寸。
 
 Emissive Texture Size（辐射纹理尺寸）。Int Point Structure. Emissive Texture Size:（辐射纹理尺寸）。覆盖Emissive纹理尺寸。
 
@@ -82,4 +82,4 @@ Opacity Texture Size（不透明度纹理尺寸）。Int Point Structure. Opacit
 
 Opacity Mask Texture Size（不透明度遮罩纹理尺寸）。Int Point Structure. Opacity Mask Texture Size:. 覆盖不透明度蒙版纹理尺寸。
 
-Ambient Occlusion Texture Size（环境遮蔽纹理尺寸）。Int Point Structure. Ambient Occlusion Texture Size:. 覆盖Ambient Occlusion纹理尺寸。
+Ambient Occlusion Texture Size（环境遮蔽纹理尺寸）。Int Point Structure.覆盖Ambient Occlusion纹理尺寸。

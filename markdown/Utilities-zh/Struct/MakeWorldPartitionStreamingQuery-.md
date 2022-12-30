@@ -1,6 +1,6 @@
 # MakeWorldPartitionStreamingQuery-
 
-Adds a node that create a 'WorldPartitionStreamingQuerySource' from its members
+添加一个节点，从其成员中创建一个 "WorldPartitionStreamingQuerySource"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'WorldPartitionStreamingQuerySource' from its members
 
 ## Inputs
 
-Location: Vector. Location:. Location to query. (not used if bSpatialQuery is false).
+地点：向量。向量。位置：。要查询的位置。(如果bSpatialQuery为false则不使用）。
 
-Radius: Float (single-precision). Radius:. Radius to query. (not used if bSpatialQuery is false).
+半径。Float（单精度）。半径：。要查询的半径。(如果bSpatialQuery为false则不使用）。
 
-Use Grid Loading Range: Boolean. Use Grid Loading Range:. If True, Instead of providing a query radius, query can be bound to loading range radius..
+使用网格加载范围。Boolean.使用网格加载范围：。如果为 "真"，则可以不提供查询半径，而是将查询与加载范围半径绑定。
 
-Data Layers: Array of Names. Data Layers:. Optional list of data layers to specialize the query. If empty only non data layer cells will be returned by the query..
+数据层。名称的阵列。数据层：。可选的数据层列表，用于专门的查询。如果为空，查询将只返回非数据层单元。
 
-Data Layers Only: Boolean. Data Layers Only:. If True, Only cells that are in a data layer found in DataLayers property will be returned by the query..
+仅限数据层。布尔型。仅限数据层：。如果为 "真"，只有在DataLayers属性中找到的数据层中的单元格才会被查询返回。
 
-Spatial Query: Boolean. Spatial Query:. If False, Location/Radius will not be used to find the cells. Only AlwaysLoaded cells will be returned by the query..  
+空间查询。Boolean.空间查询：。如果是假的，位置/半径将不会被用来寻找单元格。只有AlwaysLoaded单元格会被查询返回。
 
 ## Outputs
 
-World Partition Streaming Query Source: World Partition Streaming Query Source Structure.
-
+世界分区流查询源。世界分区流查询源结构。

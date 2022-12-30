@@ -1,6 +1,6 @@
 # BreakSoundModulationDestinationS-
 
-Adds a node that breaks a 'SoundModulationDestinationSettings' into its member fields
+添加一个节点，将'SoundModulationDestinationSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'SoundModulationDestinationSettings' into its member f
 
 ## Inputs
 
-Sound Modulation Destination Settings: Sound Modulation Destination Settings Structure (by ref).  
+声音调制目的地设置。声音调制目的地设置结构（按参考）。  
 
 ## Outputs
 
-Value: Float (single-precision). Value:. Base value of parameter.
+值。Float (single-precision).值：。参数的基础值。
 
-Modulator: Sound Modulator Base Object Reference. Modulator:. Modulation source, which provides value to mix with base value..
-
+调制器。声音调制器基础对象参考。调制器:.调制源，它提供了与基础值混合的数值。

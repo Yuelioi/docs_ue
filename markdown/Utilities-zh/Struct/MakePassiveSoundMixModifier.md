@@ -1,6 +1,6 @@
 # MakePassiveSoundMixModifier
 
-Adds a node that create a 'PassiveSoundMixModifier' from its members
+添加一个节点，从其成员中创建一个 "PassiveSoundMixModifier"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PassiveSoundMixModifier' from its members
 
 ## Outputs
 
-Passive Sound Mix Modifier: Passive Sound Mix Modifier Structure.
-
+被动式声音混合修改器。被动声音混合修改器的结构。

@@ -1,6 +1,6 @@
 # SetmembersinResonanceAudioReverb-
 
-Adds a node that modifies a 'ResonanceAudioReverbPluginSettings'
+添加一个节点，修改 "ResonanceAudioReverbPluginSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ResonanceAudioReverbPluginSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Resonance Audio Reverb Plugin Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Resonance Audio Reverb Plugin Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Resonance Audio Reverb Plugin Settings Structure (by ref)。对输入结构的引用。

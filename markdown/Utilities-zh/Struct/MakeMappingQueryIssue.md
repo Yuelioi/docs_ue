@@ -1,6 +1,6 @@
 # MakeMappingQueryIssue
 
-Adds a node that create a 'MappingQueryIssue' from its members
+添加一个节点，从其成员中创建一个 "MappingQueryIssue"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'MappingQueryIssue' from its members
 
 ## Outputs
 
-Mapping Query Issue: Mapping Query Issue Structure.
-
+映射查询问题。映射查询问题结构。

@@ -1,6 +1,6 @@
 # MakeTypedElementSelectionSetStat-
 
-Adds a node that create a 'TypedElementSelectionSetState' from its members
+添加一个节点，从其成员中创建一个'TypedElementSelectionSetState'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'TypedElementSelectionSetState' from its members
 
 ## Outputs
 
-Typed Element Selection Set State: Typed Element Selection Set State Structure.
-
+类型化的元素选择集状态。类型化元素选择集状态结构。

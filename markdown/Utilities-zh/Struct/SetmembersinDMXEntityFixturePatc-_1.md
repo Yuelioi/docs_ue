@@ -1,6 +1,6 @@
 # SetmembersinDMXEntityFixturePatc-_1
 
-Adds a node that modifies a 'DMXEntityFixturePatchRef'
+添加一个节点，修改 "DMXEntityFixturePatchRef"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXEntityFixturePatchRef'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: DMX Fixture Patch Ref Structure (by ref).  
+结构参考：DMX灯具补丁参考结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMX Fixture Patch Ref Structure (by ref). Reference to the input struct.
-
+结构输出。DMX灯具补丁参考结构（通过参考）。对输入结构的引用。

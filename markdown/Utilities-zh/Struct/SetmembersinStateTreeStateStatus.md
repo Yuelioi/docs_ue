@@ -1,6 +1,6 @@
 # SetmembersinStateTreeStateStatus
 
-Adds a node that modifies a 'StateTreeStateStatus'
+添加一个修改 "StateTreeStateStatus "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'StateTreeStateStatus'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: State Tree State Status Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: State Tree State Status Structure (by ref). Reference to the input struct.
-
+结构出来。状态树状态结构（通过引用）。对输入结构的引用。

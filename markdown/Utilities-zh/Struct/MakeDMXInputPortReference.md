@@ -1,6 +1,6 @@
 # MakeDMXInputPortReference
 
-Adds a node that create a 'DMXInputPortReference' from its members
+添加一个节点，从其成员中创建一个'DMXInputPortReference'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'DMXInputPortReference' from its members
 
 ## Inputs
 
-Port Guid: Guid Structure. Port Guid:. Unique identifier shared with port config and port instance.. Note: This needs be BlueprintReadWrite to be accessible to property type customization, but is hidden by customization..
+港口指南。指南结构。端口指南：。与端口配置和端口实例共享的唯一标识符。注意：这需要BlueprintReadWrite才能被属性类型定制所访问，但被定制所隐藏。
 
-Enabled Flag: Boolean. Enabled Flag:. Optional flag for port references that can be enabled or disabled.  
+启用的标志：布尔值。Enabled Flag:.端口引用的可选标志，可以启用或禁用。  
 
 ## Outputs
 
-DMXInput Port Reference: DMXInput Port Reference Structure.
-
+DMX输入端口参考。DMX输入端口参考结构。

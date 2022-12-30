@@ -1,6 +1,6 @@
 # MakeWaterBodyBrushCache
 
-Adds a node that create a 'WaterBodyBrushCache' from its members
+添加一个节点，从其成员中创建一个 "WaterBodyBrushCache"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'WaterBodyBrushCache' from its members
 
 ## Inputs
 
-Cache Render Target: Texture Render Target 2D Object Reference. Cache Render Target.
+Cache Render Target: Texture Render Target 2D Object Reference.Cache Render Target。
 
-Cache Is Valid: Boolean. Cache Is Valid.  
+缓存是有效的。布尔值。缓存是有效的。  
 
 ## Outputs
 
-Water Body Brush Cache: Water Body Brush Cache Structure.
-
+水体刷子缓存。水体刷缓存的结构。

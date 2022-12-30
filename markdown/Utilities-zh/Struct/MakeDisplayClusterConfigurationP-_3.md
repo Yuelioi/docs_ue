@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationP-_3
 
-Adds a node that create a 'DisplayClusterConfigurationPrimaryNode' from its members
+添加一个节点，从其成员中创建一个'DisplayClusterConfigurationPrimaryNode'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DisplayClusterConfigurationPrimaryNode' from its memb
 
 ## Outputs
 
-Display Cluster Configuration Primary Node: Display Cluster Configuration Primary Node Structure.
-
+显示群集配置主节点。显示群集配置主节点结构。

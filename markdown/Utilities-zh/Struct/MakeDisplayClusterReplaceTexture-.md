@@ -1,6 +1,6 @@
 # MakeDisplayClusterReplaceTexture-
 
-Adds a node that create a 'DisplayClusterReplaceTextureCropRectangle' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterReplaceTextureCropRectangle"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'DisplayClusterReplaceTextureCropRectangle' from its m
 
 ## Inputs
 
-Texture Crop Origin: Texture Crop Origin Structure. Origin:. Texture Crop Origin.
+纹理作物的起源。纹理作物起源结构。起源：。纹理作物的起源。
 
-Texture Crop Size: Texture Crop Size Structure. Size:. Texture Crop Size.  
+纹理裁剪尺寸。纹理裁剪尺寸结构。尺寸:.纹理裁剪尺寸。  
 
 ## Outputs
 
-Display Cluster Replace Texture Crop Rectangle: Display Cluster Replace Texture Crop Rectangle Structure.
-
+显示群组替换纹理裁剪矩形。显示群组 替换纹理 裁剪矩形 结构。

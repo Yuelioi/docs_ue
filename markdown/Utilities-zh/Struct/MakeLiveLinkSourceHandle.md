@@ -1,6 +1,6 @@
 # MakeLiveLinkSourceHandle
 
-Adds a node that create a 'LiveLinkSourceHandle' from its members
+添加一个节点，从其成员中创建一个 "LiveLinkSourceHandle"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'LiveLinkSourceHandle' from its members
 
 ## Outputs
 
-Live Link Source Handle: Live Link Source Handle Structure.
-
+活链接源处理程序。现场链接源手柄结构。

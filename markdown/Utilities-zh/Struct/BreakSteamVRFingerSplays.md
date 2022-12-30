@@ -1,6 +1,6 @@
 # BreakSteamVRFingerSplays
 
-Adds a node that breaks a 'SteamVRFingerSplays' into its member fields
+添加一个节点，将 "SteamVRFingerSplays "分解到其成员字段中。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'SteamVRFingerSplays' into its member fields
 
 ## Inputs
 
-Steam VRFinger Splays: Steam VRFinger Splays Structure (by ref).  
+蒸汽VRFinger Splays。蒸汽VRFinger Splays结构（由参考）。  
 
 ## Outputs
 
-Thumb Index: Float (single-precision). Thumb Index.
+拇指指数。浮点数（单精度）。拇指指数。
 
-Index Middle: Float (single-precision). Index Middle.
+索引中间。Float（单精度）。指数中间。
 
-Middle Ring: Float (single-precision). Middle Ring.
+中环。Float（单精度）。中环。
 
-Ring Pinky: Float (single-precision). Ring Pinky.
-
+环形小指。Float（单精度）。环形小指。

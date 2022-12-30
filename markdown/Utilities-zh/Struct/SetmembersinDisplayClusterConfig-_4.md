@@ -1,6 +1,6 @@
 # SetmembersinDisplayClusterConfig-_4
 
-Adds a node that modifies a 'DisplayClusterConfigurationOCIOProfile'
+添加一个修改 "DisplayClusterConfigurationOCIOProfile "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DisplayClusterConfigurationOCIOProfile'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Display Cluster Configuration OCIOProfile Structure (by ref).  
+结构参考：显示群集配置OCIOProfile结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Display Cluster Configuration OCIOProfile Structure (by ref). Reference to the input struct.
-
+结构出来。显示集群配置 OCIOProfile 结构（通过 ref）。对输入结构的引用。

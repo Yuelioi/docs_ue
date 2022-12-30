@@ -1,6 +1,6 @@
 # MakeCreateTextureObjectResult
 
-Adds a node that create a 'CreateTextureObjectResult' from its members
+添加一个节点，从其成员中创建一个'CreateTextureObjectResult'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CreateTextureObjectResult' from its members
 
 ## Outputs
 
-Create Texture Object Result: Create Texture Object Result Structure.
-
+创建纹理对象结果。创建纹理对象结果结构。

@@ -1,6 +1,6 @@
 # MakeGeometryScriptPatchBuilderOp-
 
-Adds a node that create a 'GeometryScriptPatchBuilderOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptPatchBuilderOptions"。
 
 ## 图示
 
@@ -8,27 +8,26 @@ Adds a node that create a 'GeometryScriptPatchBuilderOptions' from its members
 
 ## Inputs
 
-Initial Patch Count: Integer. Initial Patch Count.
+初始补丁计数。整数。初始补丁计数。
 
-Min Patch Size: Integer. Min Patch Size.
+最小补丁尺寸。整数。最小补丁尺寸。
 
-Patch Curvature Alignment Weight: Float (single-precision). Patch Curvature Alignment Weight.
+补丁曲率对齐权重。Float（单精度）。Patch Curvature Alignment Weight（补丁曲率对齐权重）。
 
-Patch Merging Metric Thresh: Float (single-precision). Patch Merging Metric Thresh.
+补丁合并度量阈值。Float (single-precision).补丁合并公制阈值。
 
-Patch Merging Angle Thresh: Float (single-precision). Patch Merging Angle Thresh.
+补丁合并角度阈值。Float（单精度）。补丁合并角度阈值。
 
-Exp Map Options: Geometry Script Exp Map UVOptions Structure. Exp Map Options.
+Exp Map选项。Geometry Script Exp Map UVOptions结构。Exp Map Options.
 
-Respect Input Groups: Boolean. Respect Input Groups.
+尊重输入组。Boolean.尊重输入组。
 
-Group Layer: Geometry Script Group Layer Structure. Group Layer.
+组图层。Geometry Script Group Layer Structure.组图层。
 
-Auto Pack: Boolean. Auto Pack.
+自动包装。布尔型。自动包装。
 
-Packing Options: Geometry Script Repack UVs Options Structure. Packing Options.  
+包装选项。Geometry Script Repack UVs Options结构。包装选项。  
 
 ## Outputs
 
-Geometry Script Patch Builder Options: Geometry Script Patch Builder Options Structure.
-
+Geometry Script Patch Builder Options:Geometry Script Patch Builder Options结构。

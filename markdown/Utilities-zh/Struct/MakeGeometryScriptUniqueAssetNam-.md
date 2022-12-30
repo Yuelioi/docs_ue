@@ -1,6 +1,6 @@
 # MakeGeometryScriptUniqueAssetNam-
 
-Adds a node that create a 'GeometryScriptUniqueAssetNameOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptUniqueAssetNameOptions"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'GeometryScriptUniqueAssetNameOptions' from its member
 
 ## Inputs
 
-Unique IDDigits: Integer. Unique IDDigits.  
+唯一的IDDigits。整数。独特的IDDigits。  
 
 ## Outputs
 
-Geometry Script Unique Asset Name Options: Geometry Script Unique Asset Name Options Structure.
-
+Geometry Script Unique Asset Name Options:Geometry Script Unique Asset Name Options结构。

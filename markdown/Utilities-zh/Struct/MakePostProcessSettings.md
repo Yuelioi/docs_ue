@@ -1,6 +1,6 @@
 # MakePostProcessSettings
 
-Adds a node that create a 'PostProcessSettings' from its members
+添加一个节点，从其成员中创建一个 "PostProcessSettings"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PostProcessSettings' from its members
 
 ## Outputs
 
-Post Process Settings: Post Process Settings Structure.
-
+后期流程设置。后期处理设置结构。

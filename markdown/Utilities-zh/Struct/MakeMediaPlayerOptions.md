@@ -1,6 +1,6 @@
 # MakeMediaPlayerOptions
 
-Adds a node that create a 'MediaPlayerOptions' from its members
+添加一个节点，从其成员中创建一个 "MediaPlayerOptions"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'MediaPlayerOptions' from its members
 
 ## Inputs
 
-Tracks: Media Player Track Options Structure. Tracks.
+曲目。媒体播放器轨道选项结构。曲目。
 
-Seek Time: Timespan Structure. Seek Time.
+寻求时间：时间跨度结构。寻求时间。
 
-Play On Open: EMediaPlayerOptionBooleanOverride Enum. Play on Open.
+打开时播放。EMediaPlayerOptionBooleanOverride枚举。打开时播放。
 
-Loop: EMediaPlayerOptionBooleanOverride Enum. Loop.  
+循环。EMediaPlayerOptionBooleanOverride Enum.循环。  
 
 ## Outputs
 
-Media Player Options: Media Player Options Structure.
-
+媒体播放器选项。媒体播放器选项结构。

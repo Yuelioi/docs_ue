@@ -1,6 +1,6 @@
 # MakeFrameMetrics
 
-Adds a node that create a 'FrameMetrics' from its members
+添加一个节点，从其成员中创建一个 "FrameMetrics"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'FrameMetrics' from its members
 
 ## Outputs
 
-Frame Metrics: Frame Metrics Structure.
-
+框架度量。框架度量结构。

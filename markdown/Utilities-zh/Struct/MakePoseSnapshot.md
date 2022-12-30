@@ -1,6 +1,6 @@
 # MakePoseSnapshot
 
-Adds a node that create a 'PoseSnapshot' from its members
+添加一个节点，从其成员中创建一个 "PoseSnapshot"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'PoseSnapshot' from its members
 
 ## Inputs
 
-Local Transforms: Array of Transforms. Local Transforms:. Array of transforms per-bone.
+局部变换。变换的阵列。局部变换：。每根骨头的变换数组。
 
-Bone Names: Array of Names. Bone Names:. Array of bone names (corresponding to LocalTransforms).
+骨骼名称。阵列的名称。骨骼名称：。骨头名称的数组（对应于LocalTransforms）。
 
-Skeletal Mesh Name: Name. Skeletal Mesh Name:. The name of the skeletal mesh that was used to take this snapshot.
+骨骼网名称。名称。骨骼网名称：。用于拍摄此快照的骨架网的名称。
 
-Snapshot Name: Name. Snapshot Name:. The name for this snapshot.
+快照名称。名称。快照名称：。此快照的名称。
 
-Is Valid: Boolean. Is Valid:. Whether the pose is valid.  
+是否有效。布尔型。是否有效：。姿势是否有效。  
 
 ## Outputs
 
-Pose Snapshot: Pose Snapshot Structure.
-
+姿势快照。姿势快照结构。

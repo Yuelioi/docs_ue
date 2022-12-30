@@ -1,6 +1,6 @@
 # SetmembersinCompositingParamPayl-
 
-Adds a node that modifies a 'CompositingParamPayload'
+添加一个修改 "CompositingParamPayload "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CompositingParamPayload'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Compositing Param Payload Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Compositing Param Payload Structure (by ref). Reference to the input struct.
-
+结构出来。Compositing Param Payload Structure（通过引用）。对输入结构的引用。

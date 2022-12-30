@@ -1,6 +1,6 @@
 # SetmembersinRichImageRow
 
-Adds a node that modifies a 'RichImageRow'
+添加一个修改'RichImageRow'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RichImageRow'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Rich Image Row Structure (by ref).  
+结构参考：丰富的图像行结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Rich Image Row Structure (by ref). Reference to the input struct.
-
+结构出来。丰富的图像行结构（通过引用）。对输入结构的引用。

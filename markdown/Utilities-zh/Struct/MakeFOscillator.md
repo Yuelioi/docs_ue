@@ -1,6 +1,6 @@
 # MakeFOscillator
 
-Adds a node that create a 'FOscillator' from its members
+添加一个节点，从其成员中创建一个 "FO振荡器"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'FOscillator' from its members
 
 ## Inputs
 
-Amplitude: Float (single-precision). Amplitude:. Amplitude of the sinusoidal oscillation..
+振幅。浮点数（单精度）。振幅：。正弦波振荡的振幅。
 
-Frequency: Float (single-precision). Frequency:. Frequency of the sinusoidal oscillation..
+频率。Float (single-precision).频率：。正弦波振荡的频率。
 
-Waveform: EOscillatorWaveform Enum. Waveform:. Type of waveform to use for oscillation..  
+波形。EOscillatorWaveform Enum.Waveform:.用于震荡的波形类型。  
 
 ## Outputs
 
-FOscillator: FOscillator Structure.
-
+FO振荡器。FOscillator结构。

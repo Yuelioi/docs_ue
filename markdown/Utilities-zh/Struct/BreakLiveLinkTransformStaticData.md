@@ -1,6 +1,6 @@
 # BreakLiveLinkTransformStaticData
 
-Adds a node that breaks a 'LiveLinkTransformStaticData' into its member fields
+添加一个节点，将'LiveLinkTransformStaticData'分解到其成员字段中
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'LiveLinkTransformStaticData' into its member fields
 
 ## Inputs
 
-Live Link Transform Static Data: Live Link Transform Static Data Structure (by ref).  
+Live Link Transform 静态数据。Live Link Transform 静态数据结构（参考）。  
 
 ## Outputs
 
-Is Location Supported: Boolean. Is Location Supported:. Whether location in frame data should be used.
+位置是否支持。布尔型。是否支持位置：。是否应使用框架数据中的位置。
 
-Is Rotation Supported: Boolean. Is Rotation Supported:. Whether rotation in frame data should be used.
+是否支持旋转。布尔型。是否支持旋转：。是否应使用帧数据中的旋转。
 
-Is Scale Supported: Boolean. Is Scale Supported:. Whether scale in frame data should be used.
+是否支持刻度。布尔型。是否支持比例：。是否应使用框架数据中的比例。
 
-Property Names: Array of Names. Property Names:. Names for each curve values that will be sent for each frame.
-
+属性名称。名称的阵列。属性名称：。将为每一帧发送的每个曲线值的名称。

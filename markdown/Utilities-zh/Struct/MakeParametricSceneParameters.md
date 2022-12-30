@@ -1,6 +1,6 @@
 # MakeParametricSceneParameters
 
-Adds a node that create a 'ParametricSceneParameters' from its members
+添加一个节点，从其成员中创建一个 "参数化场景参数"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ParametricSceneParameters' from its members
 
 ## Outputs
 
-Parametric Scene Parameters: Parametric Scene Parameters Structure.
-
+参数化场景参数。Parametric Scene Parameters结构。

@@ -1,6 +1,6 @@
 # MakeGeometryScriptGroupLayer
 
-Adds a node that create a 'GeometryScriptGroupLayer' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptGroupLayer"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'GeometryScriptGroupLayer' from its members
 
 ## Inputs
 
-Default Layer: Boolean. Default Layer:. If true,the default/standard PolyGroup Layer is used.
+默认层。Boolean.默认图层：。如果为真，则使用默认的/标准的PolyGroup层。
 
-Extended Layer Index: Integer. Extended Layer Index:. Index of an extended PolyGroup Layer (which may or may not exist on any given Mesh).  
+扩展层索引。整数。扩展图层索引：。扩展的PolyGroup图层的索引（在任何给定的网格上可能存在也可能不存在）。  
 
 ## Outputs
 
-Geometry Script Group Layer: Geometry Script Group Layer Structure.
-
+Geometry Script Group Layer:几何脚本组图层结构。

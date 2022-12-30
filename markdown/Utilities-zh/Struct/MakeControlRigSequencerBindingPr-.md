@@ -1,6 +1,6 @@
 # MakeControlRigSequencerBindingPr-
 
-Adds a node that create a 'ControlRigSequencerBindingProxy' from its members
+添加一个节点，从其成员中创建一个 "ControlRigSequencerBindingProxy"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ControlRigSequencerBindingProxy' from its members
 
 ## Outputs
 
-Control Rig Sequencer Binding Proxy: Control Rig Sequencer Binding Proxy Structure.
-
+控制钻机序列器的绑定代理。控制设备序列器的绑定代理结构。

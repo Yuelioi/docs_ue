@@ -1,6 +1,6 @@
 # MakeRigVMFunctionReferenceArray
 
-Adds a node that create a 'RigVMFunctionReferenceArray' from its members
+添加一个节点，从其成员中创建一个 "RigVMFunctionReferenceArray"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigVMFunctionReferenceArray' from its members
 
 ## Outputs
 
-Rig VMFunction Reference Array: Rig VMFunction Reference Array Structure.
-
+Rig VMFunction 参考数组。Rig VMFunction Reference Array结构。

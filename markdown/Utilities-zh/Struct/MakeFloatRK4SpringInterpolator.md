@@ -1,6 +1,6 @@
 # MakeFloatRK4SpringInterpolator
 
-Adds a node that create a 'FloatRK4SpringInterpolator' from its members
+添加一个节点，从其成员中创建一个 "FloatRK4SpringInterpolator"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'FloatRK4SpringInterpolator' from its members
 
 ## Outputs
 
-Float RK4Spring Interpolator: Float RK4Spring Interpolator Structure.
-
+Float RK4Spring插值器。Float RK4Spring插值器的结构。

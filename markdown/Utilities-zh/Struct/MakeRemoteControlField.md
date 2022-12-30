@@ -1,6 +1,6 @@
 # MakeRemoteControlField
 
-Adds a node that create a 'RemoteControlField' from its members
+添加一个节点，从其成员中创建一个 "远程控制域"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RemoteControlField' from its members
 
 ## Outputs
 
-Remote Control Field: Remote Control Field Structure.
-
+遥控领域。遥控场结构。

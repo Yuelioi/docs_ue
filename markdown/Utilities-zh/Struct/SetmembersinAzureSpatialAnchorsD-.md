@@ -1,6 +1,6 @@
 # SetmembersinAzureSpatialAnchorsD-
 
-Adds a node that modifies a 'AzureSpatialAnchorsDiagnosticsConfig'
+添加一个修改 "AzureSpatialAnchorsDiagnosticsConfig "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AzureSpatialAnchorsDiagnosticsConfig'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Azure Spatial Anchors Diagnostics Config Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Azure Spatial Anchors Diagnostics Config Structure (by ref). Reference to the input struct.
-
+结构出来了。Azure Spatial Anchors Diagnostics配置结构（通过引用）。对输入结构的引用。

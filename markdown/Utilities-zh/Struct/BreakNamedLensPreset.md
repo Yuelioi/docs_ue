@@ -1,6 +1,6 @@
 # BreakNamedLensPreset
 
-Adds a node that breaks a 'NamedLensPreset' into its member fields
+添加一个节点，将 "NamedLensPreset "分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'NamedLensPreset' into its member fields
 
 ## Inputs
 
-Named Lens Preset: Named Lens Preset Structure (by ref).  
+命名的镜头预设。命名的镜头预设结构（通过参考）。  
 
 ## Outputs
 
-Name: String. Name:. Name for the preset..
+名称。字符串。名称:.预设的名称。
 
-Lens Settings: Camera Lens Settings Structure. Lens Settings.
-
+镜头设置。相机镜头设置结构。镜头设置。

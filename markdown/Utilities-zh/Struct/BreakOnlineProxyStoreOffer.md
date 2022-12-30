@@ -1,6 +1,6 @@
 # BreakOnlineProxyStoreOffer
 
-Adds a node that breaks a 'OnlineProxyStoreOffer' into its member fields
+添加一个节点，将'OnlineProxyStoreOffer'分解成其成员字段
 
 ## 图示
 
@@ -8,33 +8,32 @@ Adds a node that breaks a 'OnlineProxyStoreOffer' into its member fields
 
 ## Inputs
 
-Online Proxy Store Offer: Online Proxy Store Offer Structure (by ref).  
+在线代理店报价。在线代理商店的报价结构（按参考）。  
 
 ## Outputs
 
-Offer Id: String. Offer Id:. Unique offer identifier.
+提供标识。字符串.Offer Id:.唯一的报价标识符。
 
-Title: Text. Title:. Title for display.
+标题。文字。标题:。用于显示的标题。
 
-Description: Text. Description:. Short description for display.
+描述。文本。描述：。用于显示的简短描述。
 
-Long Description: Text. Long Description:. Full description for display.
+长篇描述。文本。长描述：。用于显示的完整描述。
 
-Regular Price Text: Text. Regular Price Text:. Regular non-sale price as text for display.
+正价文本。文字。常规价格文本：。正常的非销售价格作为显示的文本。
 
-Regular Price: Integer. Regular Price:. Regular non-sale price in numeric form for comparison/sorting.
+正常价格。整数。常规价格：。常规非销售价格的数字形式，用于比较/排序。
 
-Price Text: Text. Price Text:. Final-Pricing (Post-Sales/Discounts) as text for display.
+价格文本。文本.价格文本：。最后-定价（售后/折扣）作为显示的文本。
 
-Numeric Price: Integer. Numeric Price:. Final-Price (Post-Sales/Discounts) in numeric form for comparison/sorting.
+数值价格。整数。Numeric Price:.最终价格（售后/折扣）的数字形式，用于比较/排序。
 
-Currency Code: String. Currency Code:. Price currency code.
+货币代码。字符串。货币代码：。价格货币代码。
 
-Release Date: Date Time Structure. Release Date:. Date the offer was released.
+发布日期。日期时间结构。发布日期：.要约发布的日期。
 
-Expiration Date: Date Time Structure. Expiration Date:. Date this information is no longer valid (maybe due to sale ending, etc).
+过期日期。日期时间结构。过期日期：。此信息不再有效的日期（可能是由于销售结束等原因）。
 
-Discount Type: EOnlineProxyStoreOfferDiscountType Enum. Discount Type:. Type of discount currently running on this offer (if any).
+折扣类型。EOnlineProxyStoreOfferDiscountType枚举。折扣类型：.当前在此优惠上运行的折扣类型（如果有的话）。
 
-Dynamic Fields: Map of Strings to Strings. Dynamic Fields.
-
+动态字段。字符串到字符串的映射。动态字段。

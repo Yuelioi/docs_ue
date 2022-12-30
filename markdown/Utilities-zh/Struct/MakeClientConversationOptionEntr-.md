@@ -1,6 +1,6 @@
 # MakeClientConversationOptionEntr-
 
-Adds a node that create a 'ClientConversationOptionEntry' from its members
+添加一个节点，从其成员中创建一个 "ClientConversationOptionEntry"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'ClientConversationOptionEntry' from its members
 
 ## Inputs
 
-Choice Text: Text. Choice Text.
+选择文本。文本。选择文本。
 
-Choice Tags: Gameplay Tag Container Structure. Choice Tags.
+选择标签。游戏性标签容器结构。选择标签。
 
-Choice Type: EConversationChoiceType Enum. Choice Type.
+选择类型。EConversationChoiceType枚举。选择类型。
 
-Choice Reference: Conversation Choice Reference Structure. Choice Reference.
+选择参考。对话选择参考结构。选择参考》。
 
-Extra Data: Array of Conversation Node Parameter Pair Structures. Extra Data:. Occasionally a choice might need to send down metadata that's entirely extra.. It's just bonus information for the client to do things like show more information. in the UI. This information is not used on the return to the server to make the choice..  
+额外数据。对话节点参数对结构的数组。额外数据：。偶尔一个选择可能需要送下完全是额外的元数据。这只是额外的信息，用于客户端做一些事情，比如在用户界面中显示更多的信息。这些信息在返回服务器时不会被用来做选择。  
 
 ## Outputs
 
-Client Conversation Option Entry: Client Conversation Option Entry Structure.
-
+客户对话选项条目。客户端对话选项条目结构。

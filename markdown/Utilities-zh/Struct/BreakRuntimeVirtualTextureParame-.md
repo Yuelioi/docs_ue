@@ -1,6 +1,6 @@
 # BreakRuntimeVirtualTextureParame-
 
-Adds a node that breaks a 'RuntimeVirtualTextureParameterValue' into its member fields
+添加一个节点，将 "RuntimeVirtualTextureParameterValue "分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'RuntimeVirtualTextureParameterValue' into its member 
 
 ## Inputs
 
-Runtime Virtual Texture Parameter Value: Runtime Virtual Texture Parameter Value Structure (by ref).  
+Runtime Virtual Texture Parameter Value（运行时虚拟纹理参数值）。运行时虚拟纹理参数值结构（通过引用）。  
 
 ## Outputs
 
-Parameter Info: Material Parameter Info Structure. Parameter Info.
+参数信息：材料参数信息结构。参数信息。
 
-Parameter Value: Runtime Virtual Texture Object Reference. Parameter Value.
-
+参数值。Runtime Virtual Texture Object Reference.参数值。

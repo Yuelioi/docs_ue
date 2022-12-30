@@ -1,6 +1,6 @@
 # SetmembersinRigPose
 
-Adds a node that modifies a 'RigPose'
+添加一个修改 "RigPose "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RigPose'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Rig Pose Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Rig Pose Structure (by ref). Reference to the input struct.
-
+结构出来。Rig Pose结构（通过参考）。对输入结构的引用。

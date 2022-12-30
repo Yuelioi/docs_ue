@@ -1,6 +1,6 @@
 # SetmembersinDataTableCategoryHan-
 
-Adds a node that modifies a 'DataTableCategoryHandle'
+添加一个修改 "DataTableCategoryHandle "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DataTableCategoryHandle'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Data Table Category Handle Structure (by ref).  
+Struct Ref: 数据表分类处理结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Data Table Category Handle Structure (by ref). Reference to the input struct.
-
+结构出来。数据表分类处理结构（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # BreakGeometryScriptCreateNewVolu-
 
-Adds a node that breaks a 'GeometryScriptCreateNewVolumeFromMeshOptions' into its member fields
+添加一个打破'GeometryScriptCreateNewVolumeFromMeshOptions'的节点到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'GeometryScriptCreateNewVolumeFromMeshOptions' into it
 
 ## Inputs
 
-Geometry Script Create New Volume from Mesh Options: Geometry Script Create New Volume From Mesh Options Structure (by ref).  
+Geometry Script Create New Volume from Mesh Options:Geometry Script Create New Volume From Mesh Options结构（参考）。  
 
 ## Outputs
 
-Volume Type: Volume Class Reference. Volume Type.
+卷宗类型。卷类参考。音量类型。
 
-Auto Simplify: Boolean. Auto Simplify.
+自动简化。布尔型。Auto Simplify（自动简化）。
 
-Max Triangles: Integer. Max Triangles.
-
+最大三角形。整数。Max Triangles.

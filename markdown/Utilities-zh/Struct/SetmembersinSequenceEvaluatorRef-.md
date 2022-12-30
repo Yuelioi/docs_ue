@@ -1,6 +1,6 @@
 # SetmembersinSequenceEvaluatorRef-
 
-Adds a node that modifies a 'SequenceEvaluatorReference'
+添加一个修改 "SequenceEvaluatorReference "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SequenceEvaluatorReference'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Sequence Evaluator Reference Structure (by ref).  
+Struct Ref: 序列评估器参考结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sequence Evaluator Reference Structure (by ref). Reference to the input struct.
-
+结构出来。序列评估器参考结构（通过ref）。对输入结构的引用。

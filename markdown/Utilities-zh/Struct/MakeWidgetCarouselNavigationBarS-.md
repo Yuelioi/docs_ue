@@ -1,6 +1,6 @@
 # MakeWidgetCarouselNavigationBarS-
 
-Adds a node that create a 'WidgetCarouselNavigationBarStyle' from its members
+添加一个节点，从其成员中创建一个 "WidgetCarouselNavigationBarStyle"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'WidgetCarouselNavigationBarStyle' from its members
 
 ## Inputs
 
-Highlight Brush: Slate Brush Structure. Highlight Brush.
+高光笔刷。石板刷的结构。高光笔。
 
-Left Button Style: Button Style Structure. Left Button Style.
+左边的按钮样式。按钮风格结构。左边的按钮样式。
 
-Center Button Style: Button Style Structure. Center Button Style.
+中心按钮样式。按钮样式结构。中心按钮样式。
 
-Right Button Style: Button Style Structure. Right Button Style.  
+右边的按钮样式。按钮风格结构。右边的按钮样式。  
 
 ## Outputs
 
-Widget Carousel Navigation Bar Style: Widget Carousel Navigation Bar Style Structure.
-
+小工具旋转木马导航栏风格。小工具旋转木马导航栏风格结构。

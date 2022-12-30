@@ -1,6 +1,6 @@
 # SetmembersinNavigationEvent
 
-Adds a node that modifies a 'NavigationEvent'
+添加一个修改'NavigationEvent'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'NavigationEvent'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Navigation Event Structure (by ref).  
+结构参考：导航事件结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Navigation Event Structure (by ref). Reference to the input struct.
-
+结构出来。导航事件结构（通过引用）。对输入结构的引用。

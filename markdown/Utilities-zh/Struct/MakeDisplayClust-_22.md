@@ -1,6 +1,6 @@
 # MakeDisplayClust-_22
 
-Adds a node that create a 'DisplayClusterConfigurationViewport_PerNodeColorGrading' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationViewport_PerNodeColorGrading"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'DisplayClusterConfigurationViewport_PerNodeColorGradi
 
 ## Inputs
 
-Enable Per- Node Color Grading: Boolean. Is Enabled:. Enable the color grading settings for the node(s) specified and add them to nDisplay's color grading stack..
+启用每个节点的颜色分级。布尔值。是启用的：。启用指定节点的调色设置，并将其添加到nDisplay的调色栈中。
 
-Include Entire Cluster Color Grading: Boolean. Entire Cluster Color Grading:. Optionally include Entire Cluster Color Grading settings specified on the root actor in nDisplay's color grading stack for these nodes..
+包括整个群组的颜色分级。布尔值。整个群组调色：.可选择包括在nDisplay的调色堆栈中为这些节点的根演员指定的整个群组调色设置。
 
-Include All Nodes Color Grading: Boolean. All Nodes Color Grading:. Optionally include the All Nodes Color Grading settings specified above in nDisplay's color grading stack for these nodes..
+包括所有节点的颜色分级。布尔型。所有节点调色：.可选择将上面指定的所有节点调色设置包含在nDisplay的调色堆栈中，用于这些节点。
 
-Color Grading: Display Cluster Configuration Viewport Color Grading Rendering Settings Structure. Color Grading Settings:. Color Grading.  
+颜色分级。显示集群配置 视口调色 渲染设置结构。颜色分级设置：.Color Grading.  
 
 ## Outputs
 
-Display Cluster Configuration Viewport Per Node Color Grading: Display Cluster Configuration Viewport Per Node Color Grading Structure.
-
+显示群组配置视口每节点颜色分级。显示群组配置视口每节点颜色分级结构。

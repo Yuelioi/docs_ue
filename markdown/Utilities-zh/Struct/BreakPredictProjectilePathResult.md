@@ -1,6 +1,6 @@
 # BreakPredictProjectilePathResult
 
-Adds a node that breaks a 'PredictProjectilePathResult' into its member fields
+添加一个节点，将 "PredictProjectilePathResult "分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'PredictProjectilePathResult' into its member fields
 
 ## Inputs
 
-Predict Projectile Path Result: Predict Projectile Path Result Structure (by ref).  
+预测射弹路径结果。预测投射路径结果结构（按参考）。  
 
 ## Outputs
 
-Path Data: Array of Predict Projectile Path Point Data Structures. Path Data:. Info for each point on the path..
+路径数据。预测弹道点数据结构的阵列。路径数据：。路径上每个点的信息。
 
-Last Trace Destination: Predict Projectile Path Point Data Structure. Last Trace Destination:. Info on the last point we tried to trace to, which may have been beyond the final hit..
+最后的追踪目的地。预测弹道点数据结构。最后追踪目的地：。我们试图追踪到的最后一个点的信息，它可能已经超出了最后的命中。
 
-Hit Result: Hit Result Structure. Hit Result:. Hit along the trace, if tracing with collision was enabled..
-
+命中结果。命中结果结构。碰撞结果：。如果启用了碰撞追踪，则沿途的撞击情况。

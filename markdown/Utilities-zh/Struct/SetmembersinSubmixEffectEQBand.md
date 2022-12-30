@@ -1,6 +1,6 @@
 # SetmembersinSubmixEffectEQBand
 
-Adds a node that modifies a 'SubmixEffectEQBand'
+添加一个节点，修改 "SubmixEffectEQBand"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SubmixEffectEQBand'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Submix Effect EQBand Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Submix Effect EQBand Structure (by ref). Reference to the input struct.
-
+Struct Out:Submix Effect EQBand结构（通过ref）。对输入结构的引用。

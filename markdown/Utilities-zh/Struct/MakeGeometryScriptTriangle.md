@@ -1,6 +1,6 @@
 # MakeGeometryScriptTriangle
 
-Adds a node that create a 'GeometryScriptTriangle' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptTriangle"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'GeometryScriptTriangle' from its members
 
 ## Inputs
 
-Vector 0: Vector. Vector 0.
+向量0：向量。矢量0。
 
-Vector 1: Vector. Vector 1.
+向量1：向量。矢量1。
 
-Vector 2: Vector. Vector 2.  
+向量2：向量。矢量2。
 
 ## Outputs
 
-Geometry Script Triangle: Geometry Script Triangle Structure.
-
+几何学剧本《三角形》。几何脚本三角形的结构。

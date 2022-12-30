@@ -1,6 +1,6 @@
 # MakeDatasmithImportFactoryCreate-
 
-Adds a node that create a 'DatasmithImportFactoryCreateFileResult' from its members
+添加一个节点，从其成员中创建一个 "DatasmithImportFactoryCreateFileResult"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'DatasmithImportFactoryCreateFileResult' from its memb
 
 ## Inputs
 
-Imported Actors: Array of Actor Object References. Imported Actors:. List of all created actors if user requires to use multiple actors. The root actor will be the first element of the array..
+导入的演员。演员对象参考数组。Imported Actors:.如果用户需要使用多个演员，所有创建的演员的列表。根演员将是该数组的第一个元素。
 
-Imported Meshes: Array of Object References. Imported Meshes:. Meshes created during the import process.
+导入的网格。对象参考数组。Imported Meshes:.导入的网格。在导入过程中创建的网格。
 
-Import Succeed: Boolean. Import Succeed.
+导入成功。布尔值。进口成功。
 
-Scene: Datasmith Scene Object Reference. Scene.  
+场景。Datasmith 场景对象参考。场景。  
 
 ## Outputs
 
-Datasmith Import Factory Create File Result: Datasmith Import Factory Create File Result Structure.
-
+Datasmith导入工厂创建文件的结果。Datasmith导入工厂创建文件结果结构。

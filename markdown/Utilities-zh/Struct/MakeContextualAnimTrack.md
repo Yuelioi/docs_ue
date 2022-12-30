@@ -1,6 +1,6 @@
 # MakeContextualAnimTrack
 
-Adds a node that create a 'ContextualAnimTrack' from its members
+添加一个节点，从其成员中创建一个'ContextualAnimTrack'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ContextualAnimTrack' from its members
 
 ## Inputs
 
-Settings: Contextual Anim Track Settings Structure. Settings.
+设置。上下文的Anim轨道设置结构。设置.
 
-Anim Data: Contextual Anim Data Structure. Anim Data.  
+动画数据。上下文的Anim数据结构。动画数据。  
 
 ## Outputs
 
-Contextual Anim Track: Contextual Anim Track Structure.
-
+语境动画轨道:语境动画轨道结构.

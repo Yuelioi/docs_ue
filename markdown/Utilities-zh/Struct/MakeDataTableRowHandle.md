@@ -1,6 +1,6 @@
 # MakeDataTableRowHandle
 
-Adds a node that create a 'DataTableRowHandle' from its members
+添加一个节点，从其成员中创建一个 "DataTableRowHandle"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'DataTableRowHandle' from its members
 
 ## Inputs
 
-Data Table: Data Table Object Reference. Data Table:. Pointer to table we want a row from.
+数据表。数据表对象参考.数据表：.指向我们想要的行的表的指针。
 
-Row Name: Name. Row Name:. Name of row in the table that we want.  
+行名。名称。行名：。我们想要的表格中的行的名称。  
 
 ## Outputs
 
-Data Table Row Handle: Data Table Row Handle Structure.
-
+数据表行处理程序。数据表行柄结构。

@@ -1,6 +1,6 @@
 # MakeDMXFixtureMode
 
-Adds a node that create a 'DMXFixtureMode' from its members
+添加一个节点，从其成员中创建一个 "DMXFixtureMode"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'DMXFixtureMode' from its members
 
 ## Inputs
 
-Mode Name: String. Mode Name.
+模式名称：字符串。模式名称。
 
-Functions: Array of DMXFixture Function Structures. Functions.
+函数。DMXFixture功能结构的数组。函数。
 
-Channel Span: Integer. Channel Span:. Number of channels (bytes) used by this mode's functions.
+通道跨度。整数。通道跨度：。这个模式的功能所使用的通道数量（字节）。
 
-Fixture Matrix Enabled: Boolean. Fixture Matrix Enabled.  
+启用的夹具矩阵。Boolean.启用的夹具矩阵。  
 
 ## Outputs
 
-DMXFixture Mode: DMXFixture Mode Structure.
-
+DMXFixture模式。DMX灯具模式结构。

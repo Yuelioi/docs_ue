@@ -1,6 +1,6 @@
 # SetmembersinAttenuationSubmixSen-
 
-Adds a node that modifies a 'AttenuationSubmixSendSettings'
+添加一个节点，修改 "AttenuationSubmixSendSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AttenuationSubmixSendSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Attenuation Submix Send Settings Structure (by ref).  
+Struct Ref: Attenuation Submix Send Settings Structure (通过参考文献)。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Attenuation Submix Send Settings Structure (by ref). Reference to the input struct.
-
+Struct Out:Attenuation Submix Send Settings Structure（通过参考）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeControlRigComponentMappedCom-
 
-Adds a node that create a 'ControlRigComponentMappedComponent' from its members
+添加一个节点，从其成员中创建一个 "ControlRigComponentMappedComponent"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'ControlRigComponentMappedComponent' from its members
 
 ## Inputs
 
-Component: Scene Component Object Reference. Component.
+组件。场景组件对象参考。组件。
 
-Element Name: Name. Element Name.
+元素名称：名称。元素名称。
 
-Element Type: ERigElementType Enum. Element Type:. The type of element this is mapped to.
+元素类型。ERigElementType枚举。元素类型：。这个元素的类型被映射到。
 
-Direction: EControlRigComponentMapDirection Enum. Direction.  
+方向。EControlRigComponentMapDirection Enum。方向。  
 
 ## Outputs
 
-Control Rig Component Mapped Component: Mapped Component Structure.
-
+控制钻机组件映射的组件。映射的组件结构。

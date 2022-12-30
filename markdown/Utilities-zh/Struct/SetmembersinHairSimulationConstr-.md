@@ -1,6 +1,6 @@
 # SetmembersinHairSimulationConstr-
 
-Adds a node that modifies a 'HairSimulationConstraints'
+添加一个修改 "HairSimulationConstraints "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'HairSimulationConstraints'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Hair Simulation Constraints Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Hair Simulation Constraints Structure (by ref). Reference to the input struct.
-
+Struct Out: Hair Simulation Constraints Structure (by ref).对输入结构的引用。

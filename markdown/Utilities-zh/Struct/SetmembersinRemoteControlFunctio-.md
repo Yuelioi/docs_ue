@@ -1,6 +1,6 @@
 # SetmembersinRemoteControlFunctio-
 
-Adds a node that modifies a 'RemoteControlFunction'
+添加一个修改 "远程控制功能 "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RemoteControlFunction'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Remote Control Function Structure (by ref).  
+结构参考：远程控制功能结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Remote Control Function Structure (by ref). Reference to the input struct.
-
+结构出来。远程控制功能结构（通过引用）。对输入结构的引用。

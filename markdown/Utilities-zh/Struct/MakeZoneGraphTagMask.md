@@ -1,6 +1,6 @@
 # MakeZoneGraphTagMask
 
-Adds a node that create a 'ZoneGraphTagMask' from its members
+添加一个节点，从其成员中创建一个'ZoneGraphTagMask'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ZoneGraphTagMask' from its members
 
 ## Outputs
 
-Zone Graph Tag Mask: Zone Graph Tag Mask Structure.
-
+区图标签掩码：区图标签掩码结构。

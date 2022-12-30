@@ -1,6 +1,6 @@
 # MakeMoviePipelinePassIdentifier
 
-Adds a node that create a 'MoviePipelinePassIdentifier' from its members
+添加一个节点，从其成员中创建一个'MoviePipelinePassIdentifier'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'MoviePipelinePassIdentifier' from its members
 
 ## Inputs
 
-Name: String. Name.  
+名称: 字符串。名称。  
 
 ## Outputs
 
-Movie Pipeline Pass Identifier: Movie Pipeline Pass Identifier Structure.
-
+电影管道通标识符：电影管道通标识符结构。

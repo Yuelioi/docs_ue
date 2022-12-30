@@ -1,6 +1,6 @@
 # MakeTextureCropOrigin
 
-Adds a node that create a 'TextureCropOrigin' from its members
+添加一个节点，从其成员中创建一个 "TextureCropOrigin"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'TextureCropOrigin' from its members
 
 ## Inputs
 
-X: Integer. X:. Replace texture origin X location, in pixels.
+X: 整数。X:.替换纹理原点的X位置，单位为像素。
 
-Y: Integer. Y:. Replace texture origin Y position, in pixels.  
+Y：整数。Y:.替换纹理原点的Y位置，单位为像素。  
 
 ## Outputs
 
-Texture Crop Origin: Texture Crop Origin Structure.
-
+纹理作物的起源。纹理作物起源结构。

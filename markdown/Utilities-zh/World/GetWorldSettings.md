@@ -1,8 +1,8 @@
 # GetWorldSettings
 
-Returns the AWorldSettings actor associated with this world.
+返回与这个世界相关的AWorldSettings角色。
 
-Target is World
+目标是世界
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is World
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Target: World Object Reference.  
+目标。世界对象参考。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Return Value: World Settings Object Reference. AWorldSettings actor associated with this world.
-
+返回值。世界设置对象参考。与这个世界相关的AWorldSettings演员。

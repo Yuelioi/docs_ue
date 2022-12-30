@@ -1,6 +1,6 @@
 # MakeIntPoint
 
-Adds a node that create a 'IntPoint' from its members
+添加一个节点，从其成员中创建一个 "IntPoint"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'IntPoint' from its members
 
 ## Inputs
 
-X: Integer. X.
+X：整数。X.
 
-Y: Integer. Y.  
+Y：整数。Y.
 
 ## Outputs
 
-Int Point: Int Point Structure.
-
+Int Point: Int Point 结构。

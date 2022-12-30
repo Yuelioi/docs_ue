@@ -1,6 +1,6 @@
 # MakeGeometryScriptSimpleMeshBuff-
 
-Adds a node that create a 'GeometryScriptSimpleMeshBuffers' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptSimpleMeshBuffers"。
 
 ## 图示
 
@@ -8,33 +8,32 @@ Adds a node that create a 'GeometryScriptSimpleMeshBuffers' from its members
 
 ## Inputs
 
-Vertices: Array of Vectors. Vertices.
+顶点。矢量的阵列。垂直点。
 
-Normals: Array of Vectors. Normals.
+规范。矢量的阵列。正常值。
 
-UV0: Array of Vector 2D Structures. UV0.
+UV0：向量2D结构阵列。UV0.
 
-UV1: Array of Vector 2D Structures. UV1.
+UV1。矢量二维结构的阵列。UV1.
 
-UV2: Array of Vector 2D Structures. UV2.
+UV2。矢量二维结构的阵列。UV2.
 
-UV3: Array of Vector 2D Structures. UV3.
+UV3: 矢量二维结构的阵列。UV3.
 
-UV4: Array of Vector 2D Structures. UV4.
+UV4: 矢量二维结构的阵列。UV4.
 
-UV5: Array of Vector 2D Structures. UV5.
+UV5: 矢量二维结构的阵列。UV5.
 
-UV6: Array of Vector 2D Structures. UV6.
+UV6：向量2D结构阵列。UV6.
 
-UV7: Array of Vector 2D Structures. UV7.
+UV7：向量2D结构阵列。UV7.
 
-Vertex Colors: Array of Linear Color Structures. Vertex Colors.
+顶点颜色。线性颜色结构的阵列。顶点颜色。
 
-Triangles: Array of Int Vector Structures. Triangles.
+三角形。阵列的Int向量结构。三角形。
 
-Tri Group IDs: Array of Integers. Tri Group IDs.  
+三组ID。整数的数组。三组IDs。  
 
 ## Outputs
 
-Geometry Script Simple Mesh Buffers: Geometry Script Simple Mesh Buffers Structure.
-
+Geometry Script Simple Mesh Buffers:Geometry Script Simple Mesh Buffers 结构。

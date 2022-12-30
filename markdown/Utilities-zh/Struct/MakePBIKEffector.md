@@ -1,6 +1,6 @@
 # MakePBIKEffector
 
-Adds a node that create a 'PBIKEffector' from its members
+添加一个节点，从其成员中创建一个 "PBIKE效果器"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PBIKEffector' from its members
 
 ## Outputs
 
-PBIKEffector: PBIKEffector Structure.
-
+PBIKEffector。PBIKEffector结构。

@@ -1,6 +1,6 @@
 # MakeComponentSpacePose
 
-Adds a node that create a 'ComponentSpacePose' from its members
+添加一个节点，从其成员中创建一个 "ComponentSpacePose"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ComponentSpacePose' from its members
 
 ## Inputs
 
-Transforms: Array of Transforms. Transforms.
+变换。变形的阵列。变换。
 
-Names: Array of Names. Names.  
+名称。阵列的名称。名称。  
 
 ## Outputs
 
-Component Space Pose: Component Space Pose Structure.
-
+分量空间姿态。分量空间 姿势结构。

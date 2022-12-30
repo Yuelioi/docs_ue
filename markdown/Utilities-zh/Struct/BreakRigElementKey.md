@@ -1,6 +1,6 @@
 # BreakRigElementKey
 
-Adds a node that breaks a 'RigElementKey' into its member fields
+添加一个节点，将'RigElementKey'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'RigElementKey' into its member fields
 
 ## Inputs
 
-Rig Element Key: Rig Element Key Structure (by ref).  
+钻机元素键。钻机元素键结构（按参考）。  
 
 ## Outputs
 
-Type: ERigElementType Enum. Type.
+类型。ERigElementType枚举。类型。
 
-Name: Name. Name.
-
+姓名：姓名名称。

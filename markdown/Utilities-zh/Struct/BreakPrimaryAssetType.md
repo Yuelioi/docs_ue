@@ -1,6 +1,6 @@
 # BreakPrimaryAssetType
 
-Adds a node that breaks a 'PrimaryAssetType' into its member fields
+添加一个节点，将'PrimaryAssetType'分解为其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'PrimaryAssetType' into its member fields
 
 ## Inputs
 
-Primary Asset Type: Primary Asset Type Structure (by ref).  
+主要资产类型。主要资产类型结构（按参考）。  
 
 ## Outputs
 
-Name: Name. Name:. The Type of this object, by default its base class's name.
-
+姓名。姓名：。名称：。这个对象的类型，默认为其基类的名称。

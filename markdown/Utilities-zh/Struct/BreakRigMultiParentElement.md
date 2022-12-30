@@ -1,6 +1,6 @@
 # BreakRigMultiParentElement
 
-Adds a node that breaks a 'RigMultiParentElement' into its member fields
+添加一个打破'RigMultiParentElement'的节点到其成员字段中
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'RigMultiParentElement' into its member fields
 
 ## Inputs
 
-Rig Multi Parent Element: Rig Multi Parent Element Structure (by ref).  
+钻机多父元素。钻机多母体元素结构（按参考）。  
 
 ## Outputs
 
-Parent: Rig Current And Initial Transform Structure. Parent.
+父母。钻机当前和初始转换结构。母体。
 
-Pose: Rig Current And Initial Transform Structure. Pose.
+姿势。钻机电流和初始变换结构。姿势。
 
-Key: Rig Element Key Structure. Key.
+钥匙。钻机元素关键结构。钥匙。
 
-Index: Integer. Index.
+索引。整数。指数。
 
-Sub Index: Integer. Sub Index.
+副索引。整数。副索引。
 
-Selected: Boolean. Selected.
-
+选定。布尔型。选定。

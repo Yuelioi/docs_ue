@@ -1,6 +1,6 @@
 # MakeTakeRecorderProjectParameter-
 
-Adds a node that create a 'TakeRecorderProjectParameters' from its members
+添加一个节点，从其成员中创建一个 "TakeRecorderProjectParameters"。
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that create a 'TakeRecorderProjectParameters' from its members
 
 ## Inputs
 
-Root Take Save Dir: Directory Path Structure. Root Take Save Dir:. The root of the directory in which to save recorded takes..
+Root Take Save Dir：目录路径结构。根目录保存地址：。保存记录的目录根...
 
-Take Save Dir: String. Take Save Dir:. The name of the directory in which to save recorded takes. Supports any of the following format specifiers that will be substituted when a take is recorded:. {day} - The day of the timestamp for the start of the recording.. {month} - The month of the timestamp for the start of the recording.. {year} - The year of the timestamp for the start of the recording.. {hour} - The hour of the timestamp for the start of the recording.. {minute} - The minute of the timestamp for the start of the recording.. {second} - The second of the timestamp for the start of the recording.. {take} - The take number.. {slate} - The slate string..
+采取保存Dir: 字符串。Take Save Dir:.用于保存录制的片段的目录名称。支持以下任何格式的指定符，在录制时将被替换：。{日} - 录音开始的时间戳的日期。{月} - 录音开始的时间戳的月份。{年} - 录音开始时的时间戳的年份。{小时｝- 录音开始的时间戳的小时。{minute} - 录音开始的时间戳的分钟。{second} - 录音开始的时间戳中的秒。{take}--录音开始的时间戳的第二部分。- 录音编号。{slate} - 板块字符串。
 
-Default Slate: String. Default Slate:. The default name to use for the Slate information.
+默认板块。字符串。默认板岩：。石板信息使用的默认名称。
 
-Recording Clock Source: EUpdateClockSource Enum. Recording Clock Source:. The clock source to use when recording.
+录音时钟源。EUpdateClockSource枚举。录音时钟源：。录音时要使用的时钟源。
 
-Start At Current Timecode: Boolean. Start at Current Timecode:. If enabled, track sections will start at the current timecode. Otherwise, 0..
+在当前时间码开始。布尔型。Start at Current Timecode（从当前时间码开始）：。如果启用，轨道部分将从当前时间码开始。否则，0...
 
-Record Timecode: Boolean. Record Timecode:. If enabled, timecode will be recorded into each actor track.
+记录时间码。Boolean.Record Timecode:（记录时间码）。如果启用，时间码将被记录到每个演员轨道中。
 
-Record Sources Into Sub Sequences: Boolean. Record Sources Into Sub Sequences:. If enabled, each Source will be recorded into a separate Sequence and embedded in the Master Sequence will link to them via Subscenes track.. If disabled, all Sources will be recorded into the Master Sequence, and you will not be able to swap between various takes of specific source. using the Sequencer Take ui. This can still be done via copying and pasting between sequences if needed..
+将来源记录到子序列中。Boolean.将源记录到子序列中：。如果启用，每个源将被录入一个单独的序列，并嵌入到主序列中，通过子场景轨道链接到它们。如果禁用，所有的源将被记录到主序列中，你将不能在特定源的各种拍摄之间进行交换，使用Sequencer Take ui。如果需要，仍然可以通过在序列之间复制和粘贴来完成。
 
-Record To Possessable: Boolean. Record to Possessable:: If enabled, all recorded actors will be recorded to possessable object bindings in Sequencer. If disabled, all recorded actors will be: recorded to spawnable object bindings in Sequencer. This can be overridden per actor source..
+记录到可拥有。布尔值。Record to Possessable:: 如果启用，所有记录的演员将被记录到Sequencer中的可占有对象绑定。如果禁用，所有记录的演员将被记录到Sequencer中的可产卵对象绑定。这一点可以被每个演员的源头覆盖。
 
-Show Notifications: Boolean. Show Notifications:. Whether to show notification windows or not when recording.  
+显示通知。布尔型。显示通知：。录制时是否显示通知窗口。  
 
 ## Outputs
 
-Take Recorder Project Parameters: Take Recorder Project Parameters Structure.
-
+录音机项目参数。录音机项目参数结构。

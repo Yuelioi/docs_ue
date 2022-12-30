@@ -1,6 +1,6 @@
 # BreakImageCenterInfo
 
-Adds a node that breaks a 'ImageCenterInfo' into its member fields
+添加一个节点，将'ImageCenterInfo'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'ImageCenterInfo' into its member fields
 
 ## Inputs
 
-Image Center Info: Image Center Info Structure (by ref).  
+图像中心信息：图像中心信息结构（通过参考）。  
 
 ## Outputs
 
-Image Center: Vector 2D Structure. Principal Point:. Value expected to be normalized [0,1].
-
+图像中心。矢量二维结构。主点：。预期归一化的值[0,1]。

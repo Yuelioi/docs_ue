@@ -1,6 +1,6 @@
 # BreakSteamVRFingerCurls
 
-Adds a node that breaks a 'SteamVRFingerCurls' into its member fields
+添加一个节点，将'SteamVRFingerCurls'分解到其成员字段中。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'SteamVRFingerCurls' into its member fields
 
 ## Inputs
 
-Steam VRFinger Curls: Steam VRFinger Curls Structure (by ref).  
+蒸汽VRFinger Curls。蒸汽VRFinger Curls的结构（由参考）。  
 
 ## Outputs
 
-Thumb: Float (single-precision). Thumb.
+拇指。Float（单精度）。拇指。
 
-Index: Float (single-precision). Index.
+索引。Float（单精度）。指数。
 
-Middle: Float (single-precision). Middle.
+中间。Float（单精度）。中间。
 
-Ring: Float (single-precision). Ring.
+环。浮点数（单精度）。环形。
 
-Pinky: Float (single-precision). Pinky.
-
+小指。Float（单精度）。小指头。

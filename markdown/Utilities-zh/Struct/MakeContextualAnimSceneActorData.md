@@ -1,6 +1,6 @@
 # MakeContextualAnimSceneActorData
 
-Adds a node that create a 'ContextualAnimSceneActorData' from its members
+添加一个节点，从其成员中创建一个 "ContextualAnimSceneActorData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ContextualAnimSceneActorData' from its members
 
 ## Outputs
 
-Contextual Anim Scene Actor Data: Contextual Anim Scene Actor Data Structure.
-
+语境下的动画场景演员数据。语境下的动画场景演员数据结构。

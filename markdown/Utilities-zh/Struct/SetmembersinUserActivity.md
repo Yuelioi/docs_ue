@@ -1,6 +1,6 @@
 # SetmembersinUserActivity
 
-Adds a node that modifies a 'UserActivity'
+添加一个修改 "UserActivity "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'UserActivity'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: User Activity Structure (by ref).  
+结构参考：用户活动结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: User Activity Structure (by ref). Reference to the input struct.
-
+结构出来。用户活动结构（通过引用）。对输入结构的引用。

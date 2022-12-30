@@ -1,6 +1,6 @@
 # SetmembersinTakeRecorderUserPara-
 
-Adds a node that modifies a 'TakeRecorderUserParameters'
+添加一个修改 "TakeRecorderUserParameters "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TakeRecorderUserParameters'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Take Recorder User Parameters Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Take Recorder User Parameters Structure (by ref). Reference to the input struct.
-
+结构出来。Take Recorder User Parameters Structure（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeInputActionInstance
 
-Adds a node that create a 'InputActionInstance' from its members
+添加一个节点，从其成员中创建一个 "InputActionInstance"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'InputActionInstance' from its members
 
 ## Outputs
 
-Input Action Instance: Input Action Instance Structure.
-
+输入动作实例。输入行动实例结构。

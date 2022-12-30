@@ -1,6 +1,6 @@
 # MakeCreateTextureObjectParams
 
-Adds a node that create a 'CreateTextureObjectParams' from its members
+添加一个节点，从其成员中创建一个'CreateTextureObjectParams'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CreateTextureObjectParams' from its members
 
 ## Outputs
 
-Create Texture Object Params: Create Texture Object Params Structure.
-
+创建纹理对象参数。创建纹理对象参数结构。

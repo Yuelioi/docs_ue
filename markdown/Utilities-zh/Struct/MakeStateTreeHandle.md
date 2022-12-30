@@ -1,6 +1,6 @@
 # MakeStateTreeHandle
 
-Adds a node that create a 'StateTreeHandle' from its members
+添加一个节点，从其成员中创建一个 "StateTreeHandle"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'StateTreeHandle' from its members
 
 ## Outputs
 
-State Tree Handle: State Tree Handle Structure.
-
+状态树句柄。状态树句柄结构。

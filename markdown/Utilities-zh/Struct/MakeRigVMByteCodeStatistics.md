@@ -1,6 +1,6 @@
 # MakeRigVMByteCodeStatistics
 
-Adds a node that create a 'RigVMByteCodeStatistics' from its members
+添加一个节点，从其成员中创建一个'RigVMByteCodeStatistics'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigVMByteCodeStatistics' from its members
 
 ## Outputs
 
-Rig VMByte Code Statistics: Rig VMByte Code Statistics Structure.
-
+钻机VMByte代码统计。钻机VMByte代码统计结构。

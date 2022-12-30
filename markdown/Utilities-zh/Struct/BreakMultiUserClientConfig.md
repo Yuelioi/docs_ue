@@ -1,6 +1,6 @@
 # BreakMultiUserClientConfig
 
-Adds a node that breaks a 'MultiUserClientConfig' into its member fields
+添加一个节点，将'MultiUserClientConfig'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'MultiUserClientConfig' into its member fields
 
 ## Inputs
 
-Multi User Client Config: Multi User Client Config Structure (by ref).  
+多用户客户端配置。多用户客户端配置结构（按参考）。  
 
 ## Outputs
 
-Default Server URL: String. Default Server URL.
+默认的服务器URL。字符串。默认的服务器URL。
 
-Default Session Name: String. Default Session Name.
+默认会话名称：字符串。默认会话名称。
 
-Default Session To Restore: String. Default Session to Restore.
+要恢复的默认会话。字符串。要恢复的默认会话。
 
-Validation Mode: EMultiUserSourceValidationMode Enum. Validation Mode.
-
+验证模式。EMultiUserSourceValidationMode枚举。验证模式。

@@ -1,6 +1,6 @@
 # BreakMovieSceneSequencePlaybackP-
 
-Adds a node that breaks a 'MovieSceneSequencePlaybackParams' into its member fields
+添加一个节点，将 "MovieSceneSequencePlaybackParams "分解成其成员字段。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'MovieSceneSequencePlaybackParams' into its member fie
 
 ## Inputs
 
-Movie Scene Sequence Playback Params: Movie Scene Sequence Playback Params Structure (by ref).  
+电影场景序列播放参数。电影场景序列播放参数结构（按参考）。  
 
 ## Outputs
 
-Frame: Frame Time Structure. Frame.
+框架。框架时间结构。框架。
 
-Time: Float (single-precision). Time.
+时间。Float（单精度）。时间。
 
-Marked Frame: String. Marked Frame.
+标记的框架。绳子。标记的框架。
 
-Position Type: EMovieScenePositionType Enum. Position Type.
+位置类型。EMovieScenePositionType枚举。位置类型。
 
-Update Method: EUpdatePositionMethod Enum. Update Method.
+更新方法。EUpdatePositionMethod Enum.更新方法。
 
-Has Jumped: Boolean. Has Jumped.
-
+已经跳了。布尔型。已经跳槽。

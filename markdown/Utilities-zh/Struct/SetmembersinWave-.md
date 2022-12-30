@@ -1,6 +1,6 @@
 # SetmembersinWave-
 
-Adds a node that modifies a 'WaveFunctionCollapseAdjacencyToOptionsMap'
+添加一个节点，修改 "WaveFunctionCollapseAdjacencyToOptionsMap"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'WaveFunctionCollapseAdjacencyToOptionsMap'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Wave Function Collapse Adjacency To Options Map Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Wave Function Collapse Adjacency To Options Map Structure (by ref). Reference to the input struct.
-
+结构出来。Wave Function Collapse Adjacency To Options Map Structure（通过参考）。对输入结构的引用。

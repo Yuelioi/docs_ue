@@ -1,6 +1,6 @@
 # BreakLiveLinkSkeletonStaticData
 
-Adds a node that breaks a 'LiveLinkSkeletonStaticData' into its member fields
+添加一个节点，将'LiveLinkSkeletonStaticData'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'LiveLinkSkeletonStaticData' into its member fields
 
 ## Inputs
 
-Live Link Skeleton Static Data: Live Link Skeleton Static Data Structure (by ref).  
+活体链接骨架静态数据。Live Link Skeleton静态数据结构（参考）。  
 
 ## Outputs
 
-Bone Names: Array of Names. Bone Names:. Names of each bone in the skeleton.
+骨骼名称。阵列的名称。骨骼名称：。骨架中每块骨头的名称。
 
-Bone Parents: Array of Integers. Bone Parents:. Parent Indices: For each bone it specifies the index of its parent.
+骨骼的父母。整数数组。骨骼的父母：。父级索引。对于每个骨，它指定了它的父的索引。
 
-Property Names: Array of Names. Property Names:. Names for each curve values that will be sent for each frame.
-
+属性名称。名称的阵列。属性名称：。将为每一帧发送的每个曲线值的名称。

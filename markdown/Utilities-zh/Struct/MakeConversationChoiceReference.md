@@ -1,6 +1,6 @@
 # MakeConversationChoiceReference
 
-Adds a node that create a 'ConversationChoiceReference' from its members
+添加一个节点，从其成员中创建一个'ConversationChoiceReference'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ConversationChoiceReference' from its members
 
 ## Inputs
 
-Node Reference: Conversation Node Handle Structure. Node Reference:. This is the node that we're targeting with our choice..
+节点参考。对话节点处理结构。节点参考：。这是我们的选择所针对的节点。
 
-Node Parameters: Array of Conversation Node Parameter Pair Structures. Node Parameters:. These are the parameters required by that node to be activated. The. same node could potentially handle several dynamic choices it provides, so these. parameters are used to uniquely identify the choice when the client responds to the server..  
+节点参数。对话节点参数对结构的数组。节点参数：。这些是该节点被激活所需的参数。同一个节点有可能处理它提供的几个动态选择，所以这些.参数被用来在客户端响应服务器时唯一地识别选择。
 
 ## Outputs
 
-Conversation Choice Reference: Conversation Choice Reference Structure.
-
+对话选择参考。对话选择参考结构。

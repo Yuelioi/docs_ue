@@ -1,6 +1,6 @@
 # MakeOptionalMovieSceneBlendType
 
-Adds a node that create a 'OptionalMovieSceneBlendType' from its members
+添加一个节点，从其成员中创建一个 "OptionalMovieSceneBlendType"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'OptionalMovieSceneBlendType' from its members
 
 ## Outputs
 
-Optional Movie Scene Blend Type: Optional Movie Scene Blend Type Structure.
-
+可选的电影场景混合类型。可选的电影场景混合类型的结构。

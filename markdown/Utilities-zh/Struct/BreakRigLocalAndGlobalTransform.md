@@ -1,6 +1,6 @@
 # BreakRigLocalAndGlobalTransform
 
-Adds a node that breaks a 'RigLocalAndGlobalTransform' into its member fields
+添加一个节点，将 "RigLocalAndGlobalTransform "分解到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'RigLocalAndGlobalTransform' into its member fields
 
 ## Inputs
 
-Rig Local and Global Transform: Rig Local And Global Transform Structure (by ref).  
+Rig Local and Global Transform:钻机本地和全球转换结构（由参考文献）。  
 
 ## Outputs
 
-Local: Rig Computed Transform Structure. Local.
+地方。Rig计算转换结构。当地的。
 
-Global: Rig Computed Transform Structure. Global.
-
+全球。Rig计算的变换结构。全球。

@@ -1,6 +1,6 @@
 # BreakXRDeviceId
 
-Adds a node that breaks a 'XRDeviceId' into its member fields
+添加一个节点，将'XRDeviceId'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'XRDeviceId' into its member fields
 
 ## Inputs
 
-XRDevice Id: XRDevice Id Structure (by ref).  
+XRDevice Id。XRDevice Id结构（通过参考）。  
 
 ## Outputs
 
-System Name: Name. System Name.
+系统名称：名称。系统名称。
 
-Device Id: Integer. Device Id.
-
+设备标识。整数。设备标识。

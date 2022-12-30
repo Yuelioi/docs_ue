@@ -1,6 +1,6 @@
 # MakeHairStretchConstraint
 
-Adds a node that create a 'HairStretchConstraint' from its members
+添加一个节点，从其成员中创建一个 "HairStretchConstraint"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'HairStretchConstraint' from its members
 
 ## Outputs
 
-Hair Stretch Constraint: Hair Stretch Constraint Structure.
-
+头发拉伸约束：头发拉伸约束结构。

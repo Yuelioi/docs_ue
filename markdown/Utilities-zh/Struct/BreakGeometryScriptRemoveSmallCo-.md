@@ -1,6 +1,6 @@
 # BreakGeometryScriptRemoveSmallCo-
 
-Adds a node that breaks a 'GeometryScriptRemoveSmallComponentOptions' into its member fields
+添加一个打破'GeometryScriptRemoveSmallComponentOptions'的节点到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'GeometryScriptRemoveSmallComponentOptions' into its m
 
 ## Inputs
 
-Geometry Script Remove Small Component Options: Geometry Script Remove Small Component Options Structure (by ref).  
+Geometry Script Remove Small Component Options:Geometry Script Remove Small Component Options结构（按参考）。  
 
 ## Outputs
 
-Min Volume: Float (single-precision). Min Volume.
+最小体积。Float (single-precision).最小体积。
 
-Min Area: Float (single-precision). Min Area.
+最小面积。浮点数（单精度）。最小面积。
 
-Min Triangle Count: Integer. Min Triangle Count.
-
+最小三角形计数。整数。最小三角形计数。

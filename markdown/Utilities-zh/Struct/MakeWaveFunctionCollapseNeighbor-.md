@@ -1,6 +1,6 @@
 # MakeWaveFunctionCollapseNeighbor-
 
-Adds a node that create a 'WaveFunctionCollapseNeighborRule' from its members
+添加一个节点，从其成员中创建一个 "WaveFunctionCollapseNeighborRule"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'WaveFunctionCollapseNeighborRule' from its members
 
 ## Inputs
 
-Key Object: Soft Object Path Structure. Key Object.
+关键对象。软对象路径结构。关键对象。
 
-Neighbors: Array of Wave Function Collapse Neighbor Structures. Neighbors.
+邻人。阵列的波函数崩溃邻接结构。邻人。
 
-Spawn Objects: Array of Soft Object Path Structures. Spawn Objects.
+生成对象。软对象路径结构的数组。再生对象。
 
-Spawn Relative Transform: Transform. Spawn Relative Transform.
+新生儿的相对转化。转变。再生婴儿相对转换。
 
-Spawn Chance: Float (single-precision). Spawn Chance:. SpawnChance 1 = 100 % chance to spawn, SpawnChance 0 = 0 % chance to spawn.  
+产卵机会。Float（单精度）。产卵机会：。SpawnChance 1 = 100 %的产卵机会，SpawnChance 0 = 0 %的产卵机会。  
 
 ## Outputs
 
-Wave Function Collapse Neighbor Rule: Wave Function Collapse Neighbor Rule Structure.
-
+波函数塌陷邻接规则。波函数塌陷邻接规则结构。

@@ -1,6 +1,6 @@
 # MakeGameplayEffectExecutionScope-
 
-Adds a node that create a 'GameplayEffectExecutionScopedModifierInfo' from its members
+添加一个节点，从其成员中创建一个 "GameplayEffectExecutionScopedModifierInfo"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayEffectExecutionScopedModifierInfo' from its m
 
 ## Outputs
 
-Gameplay Effect Execution Scoped Modifier Info: Gameplay Effect Execution Scoped Modifier Info Structure.
-
+游戏效果执行范围的修改器信息。Gameplay Effect Execution Scoped Modifier Info Structure.

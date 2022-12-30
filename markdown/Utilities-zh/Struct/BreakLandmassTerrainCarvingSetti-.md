@@ -1,6 +1,6 @@
 # BreakLandmassTerrainCarvingSetti-
 
-Adds a node that breaks a 'LandmassTerrainCarvingSettings' into its member fields
+添加一个节点，将'LandmassTerrainCarvingSettings'分解为其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'LandmassTerrainCarvingSettings' into its member field
 
 ## Inputs
 
-Landmass Terrain Carving Settings: Landmass Terrain Carving Settings Structure (by ref).  
+地标地形雕刻设置。地标地形雕刻设置结构（按参考）。  
 
 ## Outputs
 
-Blend Mode: EBrushBlendType Enum. Blend Mode.
+混合模式。EBrushBlendType枚举。混合模式。
 
-Invert Shape: Boolean. Invert Shape.
+反转形状。布尔值。反转形状。
 
-Falloff Settings: Landmass Falloff Settings Structure. Falloff Settings.
+落差设置。Landmass Falloff设置结构。褪色设置。
 
-Effects: Landmass Brush Effects List Structure. Effects.
+效果。地幔刷效果列表结构。效果。
 
-Priority: Integer. Priority.
-
+优先权。整数。优先权。

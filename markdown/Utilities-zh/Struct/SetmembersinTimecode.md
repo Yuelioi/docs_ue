@@ -1,6 +1,6 @@
 # SetmembersinTimecode
 
-Adds a node that modifies a 'Timecode'
+添加一个修改 "时间码 "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'Timecode'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Timecode Structure (by ref).  
+Struct Ref: 时间码结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Timecode Structure (by ref). Reference to the input struct.
-
+结构出来。时间码结构（通过引用）。对输入结构的引用。

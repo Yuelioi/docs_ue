@@ -1,6 +1,6 @@
 # MakeDMXRawArtNetRequest
 
-Adds a node that create a 'DMXRawArtNetRequest' from its members
+添加一个节点，从其成员中创建一个 "DMXRawArtNetRequest"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'DMXRawArtNetRequest' from its members
 
 ## Inputs
 
-Net: Integer. Net.
+网：整数。净值。
 
-Sub Net: Integer. Sub Net.
+子网：整数。子网。
 
-Universe: Integer. Universe.
+宇宙。整数。宇宙。
 
-Address: Integer. Address.
+地址。整数。地址。
 
-Value: Byte. Value.  
+值: 字节。价值。  
 
 ## Outputs
 
-DMXRaw Art Net Request: DMXRaw Art Net Request Structure.
-
+DMXRaw艺术网请求。DMXRaw艺术网请求结构。

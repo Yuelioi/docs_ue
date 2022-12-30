@@ -1,6 +1,6 @@
 # SetmembersinVectorSpringState
 
-Adds a node that modifies a 'VectorSpringState'
+添加一个修改 "VectorSpringState "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'VectorSpringState'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Vector Spring State Structure (by ref).  
+Struct Ref: 向量弹簧状态结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Vector Spring State Structure (by ref). Reference to the input struct.
-
+结构出来。矢量弹簧状态结构（通过引用）。对输入结构的引用。

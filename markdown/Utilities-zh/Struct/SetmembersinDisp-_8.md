@@ -1,6 +1,6 @@
 # SetmembersinDisp-_8
 
-Adds a node that modifies a 'DisplayClusterConfigurationICVFX_CameraRenderSettings'
+添加一个节点，修改 "DisplayClusterConfigurationICVFX_CameraRenderSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DisplayClusterConfigurationICVFX_CameraRenderSettin
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Display Cluster Configuration ICVFX Camera Render Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Display Cluster Configuration ICVFX Camera Render Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Display Cluster Configuration ICVFX Camera Render Settings Structure（通过引用）。对输入结构的引用。

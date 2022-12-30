@@ -1,6 +1,6 @@
 # MakeRichImageRow
 
-Adds a node that create a 'RichImageRow' from its members
+添加一个节点，从其成员中创建一个 "RichImageRow"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RichImageRow' from its members
 
 ## Outputs
 
-Rich Image Row: Rich Image Row Structure.
-
+丰富的图像行。丰富的图像行结构。

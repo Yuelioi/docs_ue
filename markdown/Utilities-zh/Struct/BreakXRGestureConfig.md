@@ -1,6 +1,6 @@
 # BreakXRGestureConfig
 
-Adds a node that breaks a 'XRGestureConfig' into its member fields
+添加一个节点，将'XRGestureConfig'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'XRGestureConfig' into its member fields
 
 ## Inputs
 
-XRGesture Config: XRGesture Config Structure (by ref).  
+XRGesture配置。XRGesture配置结构（通过参考）。  
 
 ## Outputs
 
-Tap: Boolean. Tap.
+点选：布尔值。轻拍。
 
-Hold: Boolean. Hold.
+保持：布尔型。保持。
 
-Axis Gesture: ESpatialInputGestureAxis Enum. Axis Gesture.
+轴位手势。ESpatialInputGestureAxis Enum.Axis Gesture.
 
-Navigation Axis X: Boolean. Navigation Axis X.
+导航轴X。布尔值。导航轴X。
 
-Navigation Axis Y: Boolean. Navigation Axis Y.
+导航轴Y：布尔值。导航轴Y。
 
-Navigation Axis Z: Boolean. Navigation Axis Z.
-
+导航轴Z：布尔值。导航轴Z。

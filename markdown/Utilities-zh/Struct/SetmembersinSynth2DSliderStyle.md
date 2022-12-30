@@ -1,6 +1,6 @@
 # SetmembersinSynth2DSliderStyle
 
-Adds a node that modifies a 'Synth2DSliderStyle'
+添加一个节点，修改 "Synth2DSliderStyle"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'Synth2DSliderStyle'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Synth 2DSlider Style Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Synth 2DSlider Style Structure (by ref). Reference to the input struct.
-
+结构出来。Synth 2DSlider风格结构（通过ref）。对输入结构的引用。

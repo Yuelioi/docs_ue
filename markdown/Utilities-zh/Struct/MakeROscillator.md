@@ -1,6 +1,6 @@
 # MakeROscillator
 
-Adds a node that create a 'ROscillator' from its members
+添加一个节点，从其成员中创建一个 "ROscillator"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'ROscillator' from its members
 
 ## Inputs
 
-Pitch: FOscillator Structure. Pitch:. Pitch oscillation..
+沥青。FO振荡器结构。Pitch:.音高震荡.
 
-Yaw: FOscillator Structure. Yaw:. Yaw oscillation..
+偏航。FO震荡器结构。Yaw:.偏航震荡.
 
-Roll: FOscillator Structure. Roll:. Roll oscillation..  
+滚动。FO震荡器结构。滚动:.滚动震荡.  
 
 ## Outputs
 
-ROscillator: ROscillator Structure.
-
+RO振荡器。ROscillator结构。

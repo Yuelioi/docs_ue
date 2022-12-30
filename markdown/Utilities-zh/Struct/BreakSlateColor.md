@@ -1,6 +1,6 @@
 # BreakSlateColor
 
-Adds a node that breaks a 'SlateColor' into its member fields
+添加一个节点，将'SlateColor'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'SlateColor' into its member fields
 
 ## Inputs
 
-Slate Color: Slate Color Structure (by ref).  
+板岩色：板岩色结构（按参考）。  
 
 ## Outputs
 
-Specified Color: Linear Color Structure. Specified Color:. The current specified color; only meaningful when ColorToUse == UseColor_Specified..
+指定的颜色：线性颜色结构。指定的颜色：。当前指定的颜色；只有当ColorToUse == UseColor_Specified时才有意义。
 
-Color Use Rule: ESlateColorStylingMode Enum. Color Use Rule:. The rule for which color to pick..
-
+颜色使用规则。ESlateColorStylingMode枚举。颜色使用规则：。选择哪种颜色的规则。

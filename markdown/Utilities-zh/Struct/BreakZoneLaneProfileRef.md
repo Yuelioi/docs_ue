@@ -1,6 +1,6 @@
 # BreakZoneLaneProfileRef
 
-Adds a node that breaks a 'ZoneLaneProfileRef' into its member fields
+添加一个节点，将'ZoneLaneProfileRef'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ZoneLaneProfileRef' into its member fields
 
 ## Inputs
 
-Zone Lane Profile Ref: Zone Lane Profile Ref Structure (by ref).  
+区巷简介参考：区巷简介参考结构（通过参考）。  
 
 ## Outputs
 
-Name: Name. Name.
+姓名：姓名名称。
 
-ID: Guid Structure. ID.
-
+ID：指导结构。ID。

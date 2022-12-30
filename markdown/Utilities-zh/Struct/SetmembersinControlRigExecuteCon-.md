@@ -1,6 +1,6 @@
 # SetmembersinControlRigExecuteCon-
 
-Adds a node that modifies a 'ControlRigExecuteContext'
+添加一个修改 "ControlRigExecuteContext "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ControlRigExecuteContext'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Control Rig Execute Context Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Control Rig Execute Context Structure (by ref). Reference to the input struct.
-
+结构出来。控制程序执行上下文结构（通过引用）。对输入结构的引用。

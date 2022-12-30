@@ -1,6 +1,6 @@
 # BreakLightingChannels
 
-Adds a node that breaks a 'LightingChannels' into its member fields
+添加一个节点，将'LightingChannels'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'LightingChannels' into its member fields
 
 ## Inputs
 
-Lighting Channels: Lighting Channels Structure (by ref).  
+照明通道。照明通道结构（按参考）。  
 
 ## Outputs
 
-Channel 0: Boolean. Channel 0:. Default channel for all primitives and lights..
+通道0：布尔值。通道0：。所有基元和灯光的默认通道。
 
-Channel 1: Boolean. Channel 1:. First custom channel.
+通道1：布尔值。频道1:。第一个自定义通道。
 
-Channel 2: Boolean. Channel 2:. Second custom channel.
-
+通道2：布尔值。通道2：。第二个自定义通道。

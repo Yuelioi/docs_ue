@@ -1,6 +1,6 @@
 # SetmembersinSoundWaveEnvelopeDat-
 
-Adds a node that modifies a 'SoundWaveEnvelopeDataPerSound'
+添加一个节点，修改 "SoundWaveEnvelopeDataPerSound"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SoundWaveEnvelopeDataPerSound'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Sound Wave Envelope Data Per Sound Structure (by ref).  
+Struct Ref: 每个声音结构的声波包络数据（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sound Wave Envelope Data Per Sound Structure (by ref). Reference to the input struct.
-
+结构出来。每个声音结构的声波包络数据（通过参考）。对输入结构的引用。

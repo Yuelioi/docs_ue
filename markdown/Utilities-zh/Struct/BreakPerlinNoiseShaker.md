@@ -1,6 +1,6 @@
 # BreakPerlinNoiseShaker
 
-Adds a node that breaks a 'PerlinNoiseShaker' into its member fields
+添加一个节点，将'PerlinNoiseShaker'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'PerlinNoiseShaker' into its member fields
 
 ## Inputs
 
-Perlin Noise Shaker: Perlin Noise Shaker Structure (by ref).  
+佩林噪声振动器。佩林噪声振动器的结构（由参考）。  
 
 ## Outputs
 
-Amplitude: Float (single-precision). Amplitude:. Amplitude of the perlin noise..
+振幅。浮点数（单精度）。振幅：。perlin噪声的振幅。
 
-Frequency: Float (single-precision). Frequency:. Frequency of the sinusoidal oscillation..
-
+频率。Float (single-precision).频率：。正弦波振荡的频率。

@@ -1,6 +1,6 @@
 # MakeChaosRemovalEventData
 
-Adds a node that create a 'ChaosRemovalEventData' from its members
+添加一个节点，从其成员中创建一个 "ChaosRemovalEventData"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'ChaosRemovalEventData' from its members
 
 ## Inputs
 
-Location: Vector. Location:. Current removal location..
+地点：向量。向量。位置:.当前移除位置.
 
-Mass: Float (single-precision). Mass:. The mass of the removal..
+质量。Float（单精度）。质量：。移除物的质量...
 
-Particle Index: Integer. Particle Index:. The particle index of the removal..  
+颗粒指数。整数。粒子指数：。移除物的颗粒指数。  
 
 ## Outputs
 
-Chaos Removal Event Data: Chaos Removal Event Data Structure.
-
+混沌清除事件数据。Chaos Removal Event Data Structure.

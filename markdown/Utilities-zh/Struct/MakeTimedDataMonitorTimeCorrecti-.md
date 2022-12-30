@@ -1,6 +1,6 @@
 # MakeTimedDataMonitorTimeCorrecti-
 
-Adds a node that create a 'TimedDataMonitorTimeCorrectionParameters' from its members
+添加一个节点，从其成员中创建一个 "TimedDataMonitorTimeCorrectionParameters"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'TimedDataMonitorTimeCorrectionParameters' from its me
 
 ## Inputs
 
-Buffer Resize Allowed: Boolean. Buffer Resize Allowed:. If no calibration is possible, are we allowed to increase the size of the buffer..
+允许调整缓冲区大小。Boolean.允许的缓冲区大小：。如果不可能校准，我们是否允许增加缓冲区的大小。
 
-Buffer Shrink Allowed: Boolean. Buffer Shrink Allowed:. When resizing buffer, do we allow shrinking them..
+允许的缓冲区收缩。Boolean.允许的缓冲区收缩：。当调整缓冲区的大小时，我们是否允许缩小它们。
 
-Failed If Buffer Cant Be Resize: Boolean. Failed if Buffer Cant be Resize:. When resizing buffer, failed the calibration if a buffer couldn't be resize..
+如果缓冲区不能被调整大小，则失败。Boolean.Failed if Buffer Cant be Resize:（缓冲区不能调整大小时失败）。当调整缓冲区的大小时，如果缓冲区不能被调整大小，则校准失败。
 
-Use Standard Deviation: Boolean. Use Standard Deviation:. When calibrating, ensure that the evaluation is included inside the STD..
+使用标准偏差。布尔型。使用标准偏差：。校准时，确保评价包含在STD.内。
 
-Number Of Standard Deviation: Integer. Number Of Standard Deviation:. When using STD, how many should we use..  
+标准偏差的数量。整数。标准差的数量：。当使用STD时，我们应该使用多少个。
 
 ## Outputs
 
-Timed Data Monitor Time Correction Parameters: Timed Data Monitor Time Correction Parameters Structure.
-
+计时数据监控器时间校正参数。定时数据监测器时间校正参数结构。

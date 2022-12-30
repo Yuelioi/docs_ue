@@ -1,6 +1,6 @@
 # MakePoseSearchWeightParams
 
-Adds a node that create a 'PoseSearchWeightParams' from its members
+添加一个节点，从其成员中创建一个 "PoseSearchWeightParams"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'PoseSearchWeightParams' from its members
 
 ## Inputs
 
-Pose Weight: Pose Search Channel Weight Params Structure. Pose Weight.
+姿势权重。Pose Search Channel Weight Params Structure.姿势权重。
 
-Trajectory Weight: Pose Search Channel Weight Params Structure. Trajectory Weight.  
+轨迹权重。姿势搜索通道权重参数结构。轨迹权重。  
 
 ## Outputs
 
-Pose Search Weight Params: Pose Search Weight Params Structure.
-
+姿势搜索权重参数。姿势搜索权重参数结构。

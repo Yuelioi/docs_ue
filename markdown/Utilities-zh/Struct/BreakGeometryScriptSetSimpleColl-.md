@@ -1,6 +1,6 @@
 # BreakGeometryScriptSetSimpleColl-
 
-Adds a node that breaks a 'GeometryScriptSetSimpleCollisionOptions' into its member fields
+添加一个打破'GeometryScriptSetSimpleCollisionOptions'的节点到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'GeometryScriptSetSimpleCollisionOptions' into its mem
 
 ## Inputs
 
-Geometry Script Set Simple Collision Options: Geometry Script Set Simple Collision Options Structure (by ref).  
+几何学脚本设置简单碰撞选项。几何学脚本设置简单碰撞选项的结构（按参考）。  
 
 ## Outputs
 
-Emit Transaction: Boolean. Emit Transaction.
-
+排放交易。布尔型。Emit Transaction（提交交易）。

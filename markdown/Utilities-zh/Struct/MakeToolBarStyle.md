@@ -1,6 +1,6 @@
 # MakeToolBarStyle
 
-Adds a node that create a 'ToolBarStyle' from its members
+添加一个节点，从其成员中创建一个 "ToolBarStyle"。
 
 ## 图示
 
@@ -8,49 +8,48 @@ Adds a node that create a 'ToolBarStyle' from its members
 
 ## Inputs
 
-Background Brush: Slate Brush Structure. Background Brush:. The brush used for the background of the toolbar.
+背景画笔。板岩画笔结构。背景画笔：。用于工具条背景的画笔。
 
-Expand Brush: Slate Brush Structure. Expand Brush:. The brush used for the expand arrow when the toolbar runs out of room and needs to display toolbar items in a menu.
+扩大刷子。石板刷结构。展开画笔：。当工具栏没有空间了，需要在菜单中显示工具栏项目时，用于展开箭头的画笔。
 
-Separator Brush: Slate Brush Structure. Separator Brush.
+分离器刷。石板刷的结构。分离器刷子。
 
-Label Style: Text Block Style Structure. Label Style.
+标签风格。文本块样式结构。标签样式。
 
-Editable Text Style: Editable Text Box Style Structure. Editable Text Style.
+可编辑的文本样式。可编辑的文本框样式结构。可编辑的文本样式。
 
-Toggle Button: Check Box Style Structure. Toggle Button.
+拨动按钮。Check Box Style Structure.拨动按钮。
 
-Combo Button Style: Combo Button Style Structure. Combo Button Style.
+组合按钮风格。组合按钮风格的结构。Combo Button Style.
 
-Settings Button Style: Button Style Structure. Settings Button Style.
+设置按钮样式。按钮风格结构。设置按钮样式。
 
-Settings Combo Button: Combo Button Style Structure. Settings Combo Button.
+设置组合按钮。组合按钮风格结构。设置组合按钮。
 
-Settings Toggle Button: Check Box Style Structure. Settings Toggle Button.
+设置切换按钮。复选框样式结构。设置切换按钮。
 
-Button Style: Button Style Structure. Button Style.
+纽扣风格。钮扣式结构。钮扣风格。
 
-Label Padding: Margin Structure. Label Padding.
+标签填充。保证金结构。Label Padding.
 
-Separator Padding: Margin Structure. Separator Padding.
+分隔符填充。保证金结构。分隔符填充。
 
-Combo Button Padding: Margin Structure. Combo Button Padding.
+组合按钮衬垫。边缘结构。Combo Button Padding.
 
-Button Padding: Margin Structure. Button Padding.
+按钮衬垫。保证金结构。按钮的填充。
 
-Check Box Padding: Margin Structure. Check Box Padding.
+复选框填充。保证金结构。复选框填充。
 
-Block Padding: Margin Structure. Block Padding.
+块状填充。保证金结构。块状填充。
 
-Indented Block Padding: Margin Structure. Indented Block Padding.
+缩进块填充。边缘结构。缩进区块填充。
 
-Background Padding: Margin Structure. Background Padding.
+背景填充。保证金结构。背景填充物。
 
-Icon Size: Vector 2D Structure. Icon Size.
+图标尺寸。矢量2D结构。图标尺寸。
 
-Show Labels: Boolean. Show Labels.  
+显示标签。布尔型。显示标签。  
 
 ## Outputs
 
-Tool Bar Style: Tool Bar Style Structure.
-
+工具栏风格。工具栏风格结构。

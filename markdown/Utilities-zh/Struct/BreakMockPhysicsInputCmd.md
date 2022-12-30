@@ -1,6 +1,6 @@
 # BreakMockPhysicsInputCmd
 
-Adds a node that breaks a 'MockPhysicsInputCmd' into its member fields
+添加一个节点，将'MockPhysicsInputCmd'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'MockPhysicsInputCmd' into its member fields
 
 ## Inputs
 
-Mock Physics Input Cmd: Mock Physics Input Cmd Structure (by ref).  
+模拟物理学输入指令。模拟物理学输入指令的结构（由参考文献）。  
 
 ## Outputs
 
-Movement Input: Vector. Movement Input.
+运动输入。矢量。运动输入。
 
-Jumped Pressed: Boolean. Jumped Pressed.
+跳跃的按下。布尔型。跳跃的按下。
 
-Charge Pressed: Boolean. Charge Pressed.
-
+充电的时候。布尔型。冲锋陷阵。

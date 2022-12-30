@@ -1,6 +1,6 @@
 # MakeDistortionInfo
 
-Adds a node that create a 'DistortionInfo' from its members
+添加一个节点，从其成员中创建一个'DistortionInfo'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'DistortionInfo' from its members
 
 ## Inputs
 
-Parameters: Array of Float (single-precision)s. Parameters:. Generic array of floating-point lens distortion parameters.  
+参数。Float（单精度）的数组。参数：.通用的浮点镜头失真参数数组。  
 
 ## Outputs
 
-Distortion Info: Distortion Info Structure.
-
+失真信息。失真信息结构。

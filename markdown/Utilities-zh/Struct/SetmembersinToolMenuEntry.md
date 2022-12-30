@@ -1,6 +1,6 @@
 # SetmembersinToolMenuEntry
 
-Adds a node that modifies a 'ToolMenuEntry'
+添加一个修改 "ToolMenuEntry "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ToolMenuEntry'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Tool Menu Entry Structure (by ref).  
+结构参考：工具菜单条目结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Tool Menu Entry Structure (by ref). Reference to the input struct.
-
+结构出来。工具菜单条目结构（通过引用）。对输入结构的引用。

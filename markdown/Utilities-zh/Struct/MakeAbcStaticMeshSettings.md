@@ -1,6 +1,6 @@
 # MakeAbcStaticMeshSettings
 
-Adds a node that create a 'AbcStaticMeshSettings' from its members
+添加一个节点，从其成员中创建一个'AbcStaticMeshSettings'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'AbcStaticMeshSettings' from its members
 
 ## Inputs
 
-Merge Meshes: Boolean. Merge Meshes:. Whether or not to merge the static meshes on import (remember this can cause problems with overlapping UV-sets).
+合并网格。Boolean.Merge Meshes（合并网格）：。是否在导入时合并静态网格（请记住这可能会导致UV集重叠的问题）。
 
-Propagate Matrix Transformations: Boolean. Propagate Matrix Transformations:. This will, if applicable, apply matrix transformations to the meshes.
+传播矩阵变换。布尔型。传播矩阵变换：。如果适用，这将把矩阵变换应用到网格上。
 
-Generate Lightmap UVs: Boolean. Generate Lightmap UVs:. Flag for whether or not lightmap UVs should be generated.  
+生成光绘UV。布尔值。Generate Lightmap UVs:.是否要生成光照图UV的标志。  
 
 ## Outputs
 
-Abc Static Mesh Settings: Abc Static Mesh Settings Structure.
-
+Abc静态网格设置。Abc静态网格设置结构。

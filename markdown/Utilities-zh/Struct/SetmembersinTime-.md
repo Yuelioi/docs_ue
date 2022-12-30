@@ -1,6 +1,6 @@
 # SetmembersinTime-
 
-Adds a node that modifies a 'TimedDataMonitorTimeCorrectionParameters'
+添加一个节点，修改 "TimedDataMonitorTimeCorrectionParameters"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TimedDataMonitorTimeCorrectionParameters'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Timed Data Monitor Time Correction Parameters Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Timed Data Monitor Time Correction Parameters Structure (by ref). Reference to the input struct.
-
+Struct Out:定时数据监测时间校正参数结构（通过参考）。对输入结构的引用。

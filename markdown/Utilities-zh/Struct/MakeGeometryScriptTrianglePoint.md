@@ -1,6 +1,6 @@
 # MakeGeometryScriptTrianglePoint
 
-Adds a node that create a 'GeometryScriptTrianglePoint' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptTrianglePoint"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'GeometryScriptTrianglePoint' from its members
 
 ## Inputs
 
-Valid: Boolean. Valid.
+有效。布尔型。有效。
 
-Triangle ID: Integer. Triangle ID.
+三角形ID：整数。三角形ID。
 
-Position: Vector. Position.
+位置。矢量。位置。
 
-Bary Coords: Vector. Bary Coords.  
+Bary Coords:向量。Bary Coords.  
 
 ## Outputs
 
-Geometry Script Triangle Point: Geometry Script Triangle Point Structure.
-
+几何学剧本《三角形点》。几何脚本三角点的结构。

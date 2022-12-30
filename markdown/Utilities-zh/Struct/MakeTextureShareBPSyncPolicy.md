@@ -1,6 +1,6 @@
 # MakeTextureShareBPSyncPolicy
 
-Adds a node that create a 'TextureShareBPSyncPolicy' from its members
+添加一个节点，从其成员中创建一个 "TextureShareBPSyncPolicy"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'TextureShareBPSyncPolicy' from its members
 
 ## Inputs
 
-Connection: ETextureShareBPSyncConnect Enum. Connection:. Synchronize Session state events (BeginSession/EndSession).
+连接。ETextureShareBPSyncon Enum.连接：。同步会话状态事件（BeginSession/EndSession）。
 
-Frame: ETextureShareBPSyncFrame Enum. Frame:. Synchronize frame events (BeginFrame/EndFrame).
+帧。ETextureShareBPSyncFrame Enum.帧：。同步框架事件（BeginFrame/EndFrame）。
 
-Texture: ETextureShareBPSyncSurface Enum. Texture:. Synchronize texture events (LockTexture/UnlockTexture).  
+纹理。ETextureShareBPSyncSurface Enum.Texture:.同步纹理事件（LockTexture/UnlockTexture）。  
 
 ## Outputs
 
-Texture Share BPSync Policy: Texture Share BPSync Policy Structure.
-
+纹理共享BPSync政策。纹理共享 BPSync政策结构。

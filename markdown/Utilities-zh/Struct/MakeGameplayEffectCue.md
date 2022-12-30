@@ -1,6 +1,6 @@
 # MakeGameplayEffectCue
 
-Adds a node that create a 'GameplayEffectCue' from its members
+添加一个节点，从其成员中创建一个 "GameplayEffectCue"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayEffectCue' from its members
 
 ## Outputs
 
-Gameplay Effect Cue: Gameplay Effect Cue Structure.
-
+Gameplay Effect Cue: 游戏效果线索结构。

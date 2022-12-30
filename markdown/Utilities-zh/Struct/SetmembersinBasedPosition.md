@@ -1,6 +1,6 @@
 # SetmembersinBasedPosition
 
-Adds a node that modifies a 'BasedPosition'
+添加一个修改 "BasedPosition "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'BasedPosition'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Based Position Structure (by ref).  
+结构参考：基于职位结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Based Position Structure (by ref). Reference to the input struct.
-
+结构出。基于位置的结构（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeWarpingVectorValue
 
-Adds a node that create a 'WarpingVectorValue' from its members
+添加一个节点，从其成员中创建一个 "WarpingVectorValue"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'WarpingVectorValue' from its members
 
 ## Inputs
 
-Mode: EWarpingVectorMode Enum. Mode:. Space of the corresponding Vector value.
+模式。EWarpingVectorMode Enum.模式：。相应矢量值的空间。
 
-Value: Vector. Value:. Specifies a vector relative to the space defined by Mode.  
+价值。向量。值：。指定一个相对于Mode定义的空间的向量。  
 
 ## Outputs
 
-Warping Vector Value: Warping Vector Value Structure.
-
+翘曲向量值。Warping Vector Value结构。

@@ -1,6 +1,6 @@
 # MakeMPCDIGeometryExportData
 
-Adds a node that create a 'MPCDIGeometryExportData' from its members
+添加一个节点，从其成员中创建一个 "MPCDIGeometryExportData"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'MPCDIGeometryExportData' from its members
 
 ## Inputs
 
-Vertices: Array of Vectors. Vertices.
+顶点。矢量的阵列。垂直点。
 
-Normal: Array of Vectors. Normal.
+正常。矢量的阵列。正常。
 
-UV: Array of Vector 2D Structures. UV.
+UV: 矢量二维结构的阵列。UV。
 
-Triangles: Array of Integers. Triangles.  
+三角形。整数阵列。三角形。  
 
 ## Outputs
 
-MPCDIGeometry Export Data: MPCDIGeometry Export Data Structure.
-
+MPCDIGeometry导出数据。MPCDIGeometry出口数据结构。

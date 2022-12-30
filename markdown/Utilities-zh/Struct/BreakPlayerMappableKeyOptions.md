@@ -1,6 +1,6 @@
 # BreakPlayerMappableKeyOptions
 
-Adds a node that breaks a 'PlayerMappableKeyOptions' into its member fields
+添加一个节点，将'PlayerMappableKeyOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'PlayerMappableKeyOptions' into its member fields
 
 ## Inputs
 
-Player Mappable Key Options: Player Mappable Key Options Structure (by ref).  
+球员的可映射键选项。玩家可映射的按键选项结构（按参考）。  
 
 ## Outputs
 
-Name: Name. Name:. A unique name for this player binding to be saved with..
+姓名。姓名：。名称:。这个玩家绑定的唯一名字，要用它来保存。
 
-Display Name: Text. Display Name:. The display name that can.
+显示名称。文本。显示名称：。可以的显示名称。
 
-Display Category: Text. Display Category:. The category that this player binding is in.
-
+显示类别。文本.显示类别：。该播放器绑定的类别。

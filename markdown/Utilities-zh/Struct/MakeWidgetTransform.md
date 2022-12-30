@@ -1,6 +1,6 @@
 # MakeWidgetTransform
 
-Adds a node that create a 'WidgetTransform' from its members
+添加一个节点，从其成员中创建一个 "WidgetTransform"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'WidgetTransform' from its members
 
 ## Inputs
 
-Translation: Vector 2D Structure. Translation:. The amount to translate the widget in slate units.
+翻译。矢量二维结构。翻译：。以石板为单位对小部件进行翻译的量。
 
-Scale: Vector 2D Structure. Scale:. The scale to apply to the widget.
+规模。矢量二维结构。规模：。应用于小部件的比例。
 
-Shear: Vector 2D Structure. Shear:. The amount to shear the widget in slate units.
+剪切力。矢量二维结构。剪切：。以石板为单位对小部件进行剪切的量。
 
-Angle: Float (single-precision). Angle:. The angle in degrees to rotate.  
+角度。Float（单精度）。角度：。要旋转的角度，单位是度。  
 
 ## Outputs
 
-Widget Transform: Widget Transform Structure.
-
+小工具转换。小工具转换结构。

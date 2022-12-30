@@ -1,6 +1,6 @@
 # MakeCreateProxyMeshActorOptions
 
-Adds a node that create a 'CreateProxyMeshActorOptions' from its members
+添加一个节点，从其成员中创建一个'CreateProxyMeshActorOptions'。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'CreateProxyMeshActorOptions' from its members
 
 ## Inputs
 
-Spawn Merged Actor: Boolean. Spawn Merged Actor:. Spawn the new merged actors.
+生成合并的演员。Boolean.生成合并的演员：。生成新的合并后的演员。
 
-Base Package Name: String. Base Package Name:. The package path you want to save to. ie: /Game/MyFolder.
+基础包名称。字符串。基础包名称：。你想保存到的软件包路径。即：/Game/MyFolder。
 
-Mesh Proxy Settings: Mesh Proxy Settings Structure. Mesh Proxy Settings.
+网格代理设置。网格代理设置结构。网格代理设置。
 
-Destroy Source Actors: Boolean. Destroy Source Actors:. Destroy the provided Actors after the operation..
+销毁源演员。Boolean.Destroy Source Actors：.在操作后销毁所提供的演员。
 
-New Actor Label: String. New Actor Label:. Name of the new spawned Actor to replace the provided Actors..
+新的演员标签。字符串。新演员标签：.新产生的演员的名字，以取代提供的演员。
 
-Rename Components From Source: Boolean. Rename Components from Source:. Rename StaticMeshComponents based on source Actor's name..  
+从源头重命名组件。布尔型。从源头重命名组件：。根据源Actor的名字重命名StaticMeshComponents。
 
 ## Outputs
 
-Create Proxy Mesh Actor Options: Create Proxy Mesh Actor Options Structure.
-
+创建代理网格演员选项。创建代理网格演员选项结构。

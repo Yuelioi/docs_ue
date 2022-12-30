@@ -1,6 +1,6 @@
 # SetmembersinHairGeometrySettings
 
-Adds a node that modifies a 'HairGeometrySettings'
+添加一个修改 "HairGeometrySettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'HairGeometrySettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Hair Geometry Settings Structure (by ref).  
+结构参考：头发的几何设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Hair Geometry Settings Structure (by ref). Reference to the input struct.
-
+Struct Out: Hair Geometry Settings Structure (by ref).对输入结构的引用。

@@ -1,6 +1,6 @@
 # SetmembersinSoundControlBusMixSt-
 
-Adds a node that modifies a 'SoundControlBusMixStage'
+添加一个节点，修改 "SoundControlBusMixStage"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SoundControlBusMixStage'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Sound Control Bus Mix Stage Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sound Control Bus Mix Stage Structure (by ref). Reference to the input struct.
-
+结构出来。Sound Control Bus Mix Stage Structure（通过参考）。对输入结构的参考。

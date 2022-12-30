@@ -1,6 +1,6 @@
 # BreakNamedTransform
 
-Adds a node that breaks a 'NamedTransform' into its member fields
+添加一个节点，将 "NamedTransform "分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'NamedTransform' into its member fields
 
 ## Inputs
 
-Named Transform: Named Transform Structure (by ref).  
+命名的变换。命名的变换结构（通过参考）。  
 
 ## Outputs
 
-Value: Transform. Value.
+价值。转化。价值。
 
-Name: Name. Name.
-
+姓名：姓名名称。

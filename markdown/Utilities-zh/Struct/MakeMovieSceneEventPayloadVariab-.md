@@ -1,6 +1,6 @@
 # MakeMovieSceneEventPayloadVariab-
 
-Adds a node that create a 'MovieSceneEventPayloadVariable' from its members
+添加一个节点，从其成员中创建一个 "MovieSceneEventPayloadVariable"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'MovieSceneEventPayloadVariable' from its members
 
 ## Outputs
 
-Movie Scene Event Payload Variable: Movie Scene Event Payload Variable Structure.
-
+电影场景事件的有效载荷变量。电影场景事件的有效载荷变量结构。

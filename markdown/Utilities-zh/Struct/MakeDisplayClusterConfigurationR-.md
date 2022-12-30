@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationR-
 
-Adds a node that create a 'DisplayClusterConfigurationRectangle' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationRectangle"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'DisplayClusterConfigurationRectangle' from its member
 
 ## Inputs
 
-X: Integer. X.
+X：整数。X.
 
-Y: Integer. Y.
+Y：整数。Y.
 
-W: Integer. W.
+W：整数。W.
 
-H: Integer. H.  
+H：整数。H.
 
 ## Outputs
 
-Display Cluster Configuration Rectangle: Display Cluster Configuration Rectangle Structure.
-
+显示群组配置矩形。显示群组配置矩形的结构。

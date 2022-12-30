@@ -1,6 +1,6 @@
 # BreakMoviePipelineRenderPassOutp-
 
-Adds a node that breaks a 'MoviePipelineRenderPassOutputData' into its member fields
+添加一个节点，将'MoviePipelineRenderPassOutputData'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'MoviePipelineRenderPassOutputData' into its member fi
 
 ## Inputs
 
-Movie Pipeline Render Pass Output Data: Movie Pipeline Render Pass Output Data Structure (by ref).  
+电影管道渲染通道的输出数据。电影管道渲染通道输出数据结构（通过参考）。  
 
 ## Outputs
 
-File Paths: Array of Strings. File Paths.
-
+文件路径。字符串阵列。文件路径。

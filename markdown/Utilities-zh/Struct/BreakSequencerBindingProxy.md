@@ -1,6 +1,6 @@
 # BreakSequencerBindingProxy
 
-Adds a node that breaks a 'SequencerBindingProxy' into its member fields
+添加一个节点，将'SequencerBindingProxy'分解到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'SequencerBindingProxy' into its member fields
 
 ## Inputs
 
-Sequencer Binding Proxy: Sequencer Binding Proxy Structure (by ref).  
+序列器绑定代理。定序器绑定代理结构（通过参考）。  
 
 ## Outputs
 
-Sequence: Movie Scene Sequence Object Reference. Sequence.
-
+序列。电影场景序列对象参考。序列。

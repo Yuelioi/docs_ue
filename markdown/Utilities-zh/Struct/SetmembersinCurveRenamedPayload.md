@@ -1,6 +1,6 @@
 # SetmembersinCurveRenamedPayload
 
-Adds a node that modifies a 'CurveRenamedPayload'
+添加一个修改 "CurveRenamedPayload "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CurveRenamedPayload'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Curve Renamed Payload Structure (by ref).  
+结构参考：曲线重命名为有效载荷结构（由参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Curve Renamed Payload Structure (by ref). Reference to the input struct.
-
+结构出来了。曲线重命名的有效载荷结构（通过ref）。对输入结构的引用。

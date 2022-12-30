@@ -1,6 +1,6 @@
 # SetmembersinNamedFilmbackPreset
 
-Adds a node that modifies a 'NamedFilmbackPreset'
+添加一个修改 "NamedFilmbackPreset "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'NamedFilmbackPreset'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Named Filmback Preset Structure (by ref).  
+Struct Ref: 命名的Filmback预设结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Named Filmback Preset Structure (by ref). Reference to the input struct.
-
+结构出来。命名的Filmback预设结构（通过ref）。对输入结构的引用。

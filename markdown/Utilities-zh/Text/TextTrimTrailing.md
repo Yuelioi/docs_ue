@@ -1,8 +1,8 @@
 # TextTrimTrailing
 
-Removes trailing whitespace characters.
+删除尾部的空白字符。
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet Text Library
 
 ## Inputs
 
-In Text: Text (by ref).  
+在文本中。文本（由参考文献）。  
 
 ## Outputs
 
-Return Value: Text. Removes trailing whitespace characters..
-
+返回值。文本。删除尾部的空白字符。

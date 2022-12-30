@@ -1,6 +1,6 @@
 # SetmembersinCaptureResolution
 
-Adds a node that modifies a 'CaptureResolution'
+添加一个修改 "CaptureResolution "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CaptureResolution'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Capture Resolution Structure (by ref).  
+结构参考：捕获分辨率结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Capture Resolution Structure (by ref). Reference to the input struct.
-
+结构出来。捕获解析结构（通过引用）。对输入结构的引用。

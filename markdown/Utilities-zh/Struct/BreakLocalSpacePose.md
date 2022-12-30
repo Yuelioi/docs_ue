@@ -1,6 +1,6 @@
 # BreakLocalSpacePose
 
-Adds a node that breaks a 'LocalSpacePose' into its member fields
+添加一个节点，将 "LocalSpacePose "分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'LocalSpacePose' into its member fields
 
 ## Inputs
 
-Local Space Pose: Local Space Pose Structure (by ref).  
+本地空间姿势。本地空间姿势结构（由参考文献）。  
 
 ## Outputs
 
-Transforms: Array of Transforms. Transforms.
+变换。变形的阵列。变换。
 
-Names: Array of Names. Names.
-
+名称。阵列的名称。名称。

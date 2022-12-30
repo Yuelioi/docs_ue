@@ -1,6 +1,6 @@
 # BreakWaveFunctionCollapseTile
 
-Adds a node that breaks a 'WaveFunctionCollapseTile' into its member fields
+添加一个节点，将'WaveFunctionCollapseTile'分解到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'WaveFunctionCollapseTile' into its member fields
 
 ## Inputs
 
-Wave Function Collapse Tile: Wave Function Collapse Tile Structure (by ref).  
+波函数塌陷瓦片。波函数折叠瓦片结构（由参考）。  
 
 ## Outputs
 
-Shannon Entropy: Float (single-precision). Shannon Entropy.
+Shannon Entropy:Float (single-precision).Shannon Entropy.
 
-Remaining Options: Array of Wave Function Collapse Option Structures. Remaining Options.
-
+剩余的选项。波函数折叠选项结构的阵列。剩余的选项。

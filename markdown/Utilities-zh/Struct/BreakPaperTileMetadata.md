@@ -1,6 +1,6 @@
 # BreakPaperTileMetadata
 
-Adds a node that breaks a 'PaperTileMetadata' into its member fields
+添加一个节点，将 "PaperTileMetadata "分解成其成员字段。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'PaperTileMetadata' into its member fields
 
 ## Inputs
 
-Paper Tile Metadata: Paper Tile Metadata Structure (by ref).  
+纸牌元数据：纸牌元数据结构（按参考）。  
 
 ## Outputs
 
-User Data Name: Name. User Data Name:. A tag that can be used for grouping and categorizing (consider using it as the index into a UDataTable asset)..
-
+用户数据名称。名称。用户数据名称：。一个可用于分组和分类的标签（考虑将其作为进入UDataTable资产的索引）。

@@ -1,6 +1,6 @@
 # MakeRigControlLimitEnabled
 
-Adds a node that create a 'RigControlLimitEnabled' from its members
+添加一个节点，从其成员中创建一个 "RigControlLimitEnabled"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'RigControlLimitEnabled' from its members
 
 ## Inputs
 
-Minimum: Boolean. Minimum.
+最小值。布尔型。最小值。
 
-Maximum: Boolean. Maximum.  
+最大。布尔型。最大。  
 
 ## Outputs
 
-Rig Control Limit Enabled: Rig Control Limit Enabled Structure.
-
+钻机控制限制已启用。钻机控制限制已启用的结构。

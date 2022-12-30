@@ -1,6 +1,6 @@
 # SetmembersinAssetCompileData
 
-Adds a node that modifies a 'AssetCompileData'
+添加一个修改 "AssetCompileData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AssetCompileData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Asset Compile Data Structure (by ref).  
+结构参考：资产编译数据结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Asset Compile Data Structure (by ref). Reference to the input struct.
-
+结构出来。资产编译数据结构（通过引用）。对输入结构的引用。

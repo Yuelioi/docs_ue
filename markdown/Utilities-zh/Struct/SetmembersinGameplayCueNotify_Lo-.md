@@ -1,6 +1,6 @@
 # SetmembersinGameplayCueNotify_Lo-
 
-Adds a node that modifies a 'GameplayCueNotify_LoopingEffects'
+添加一个节点，修改 "GameplayCueNotify_LoopingEffects"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GameplayCueNotify_LoopingEffects'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Gameplay Cue Notify Looping Effects Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Gameplay Cue Notify Looping Effects Structure (by ref). Reference to the input struct.
-
+结构出来。Gameplay Cue Notify Looping Effects Structure（通过引用）。对输入结构的引用。

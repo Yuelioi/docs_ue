@@ -1,6 +1,6 @@
 # MakeDMXNormalizedAttributeValueM-
 
-Adds a node that create a 'DMXNormalizedAttributeValueMap' from its members
+添加一个节点，从其成员中创建一个 "DMXNormalizedAttributeValueMap"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'DMXNormalizedAttributeValueMap' from its members
 
 ## Inputs
 
-Map: Map of DMXAttribute Name Structures to Float (single-precision)s. Map.  
+地图。DMXAttribute Name结构到Float（单精度）的映射。地图。  
 
 ## Outputs
 
-DMXNormalized Attribute Value Map: DMXNormalized Attribute Value Map Structure.
-
+DMXNormalized Attribute Value Map。DMXNormalized Attribute Value Map结构。

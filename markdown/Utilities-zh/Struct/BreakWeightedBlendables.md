@@ -1,6 +1,6 @@
 # BreakWeightedBlendables
 
-Adds a node that breaks a 'WeightedBlendables' into its member fields
+添加一个节点，将 "WeightedBlendables "分解成其成员字段。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'WeightedBlendables' into its member fields
 
 ## Inputs
 
-Weighted Blendables: Weighted Blendables Structure (by ref).  
+加权混杂物。加权混合结构（按参考）。  
 
 ## Outputs
 
-Array: Array of Weighted Blendable Structures. Array.
-
+阵列。加权混合结构的阵列。阵列。

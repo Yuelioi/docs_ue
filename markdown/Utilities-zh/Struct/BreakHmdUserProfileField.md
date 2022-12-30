@@ -1,6 +1,6 @@
 # BreakHmdUserProfileField
 
-Adds a node that breaks a 'HmdUserProfileField' into its member fields
+添加一个节点，将 "HmdUserProfileField "分解为其成员字段。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'HmdUserProfileField' into its member fields
 
 ## Inputs
 
-Hmd User Profile Field: HMD User Profile Data Field Structure (by ref).  
+Hmd用户资料字段。HMD用户资料数据字段结构（通过参考）。  
 
 ## Outputs
 
-Field Name: String. Field Name.
+字段名。字符串。字段名。
 
-Field Value: String. Field Value.
-
+字段值。字符串。字段值。

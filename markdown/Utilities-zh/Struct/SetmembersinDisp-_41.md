@@ -1,6 +1,6 @@
 # SetmembersinDisp-_41
 
-Adds a node that modifies a 'DisplayClusterConfigurationViewport_RemapData'
+添加一个节点，修改 "DisplayClusterConfigurationViewport_RemapData"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DisplayClusterConfigurationViewport_RemapData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Display Cluster Configuration Viewport Remap Data Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Display Cluster Configuration Viewport Remap Data Structure (by ref). Reference to the input struct.
-
+结构出来。Display Cluster Configuration Viewport Remap Data Structure（通过引用）。对输入结构的引用。

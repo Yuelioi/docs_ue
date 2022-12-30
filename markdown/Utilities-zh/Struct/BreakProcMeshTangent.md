@@ -1,6 +1,6 @@
 # BreakProcMeshTangent
 
-Adds a node that breaks a 'ProcMeshTangent' into its member fields
+添加一个打破'ProcMeshTangent'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ProcMeshTangent' into its member fields
 
 ## Inputs
 
-Proc Mesh Tangent: Proc Mesh Tangent Structure (by ref).  
+Proc网状切线。Proc网状切线结构（由参考）。  
 
 ## Outputs
 
-Tangent X: Vector. Tangent X:. Direction of X tangent for this vertex.
+切线X：向量。切线X：。此顶点的X切线方向。
 
-Flip Tangent Y: Boolean. Flip Tangent Y:. Bool that indicates whether we should flip the Y tangent when we compute it using cross product.
-
+翻转切线Y：布尔值。Flip Tangent Y:.Bool，表示我们在使用交叉乘积计算Y切线时，是否应该翻转它。

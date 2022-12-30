@@ -1,6 +1,6 @@
 # SetmembersinLiveLinkCameraBluepr-
 
-Adds a node that modifies a 'LiveLinkCameraBlueprintData'
+添加一个修改 "LiveLinkCameraBlueprintData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'LiveLinkCameraBlueprintData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Live Link Camera Blueprint Data Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Live Link Camera Blueprint Data Structure (by ref). Reference to the input struct.
-
+结构出来。Live Link相机蓝图数据结构（通过ref）。对输入结构的引用。

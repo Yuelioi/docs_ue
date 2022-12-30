@@ -1,6 +1,6 @@
 # MakeFoundMIDIDevice
 
-Adds a node that create a 'FoundMIDIDevice' from its members
+添加一个节点，从其成员中创建一个'FoundMIDIDevice'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'FoundMIDIDevice' from its members
 
 ## Outputs
 
-Found MIDIDevice: Found MIDIDevice Structure.
-
+找到了MIDIDevice。发现MIDIDevice结构。

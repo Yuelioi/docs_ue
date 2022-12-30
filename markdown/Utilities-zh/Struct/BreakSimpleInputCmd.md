@@ -1,6 +1,6 @@
 # BreakSimpleInputCmd
 
-Adds a node that breaks a 'SimpleInputCmd' into its member fields
+添加一个节点，将'SimpleInputCmd'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'SimpleInputCmd' into its member fields
 
 ## Inputs
 
-Simple Input Cmd: Simple Input Cmd Structure (by ref).  
+简单输入指令。简单输入指令结构（通过参考）。  
 
 ## Outputs
 
-Movement Dir: Vector. Movement Dir:. Simple world vector force to be applied.
+运动方向：向量。Movement Dir:.运动方向。要应用的简单世界矢量力。
 
-Button Pressed: Boolean. Button Pressed.
+按钮被按下。布尔型。按下的按钮。
 
-Legit: Boolean. Legit.
-
+合法的。布尔型。合法的。

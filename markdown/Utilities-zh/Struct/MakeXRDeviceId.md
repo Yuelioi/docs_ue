@@ -1,6 +1,6 @@
 # MakeXRDeviceId
 
-Adds a node that create a 'XRDeviceId' from its members
+添加一个节点，从其成员中创建一个'XRDeviceId'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'XRDeviceId' from its members
 
 ## Outputs
 
-XRDevice Id: XRDevice Id Structure.
-
+XRD设备标识。XRDevice Id结构。

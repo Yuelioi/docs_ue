@@ -1,6 +1,6 @@
 # MakeMeterChannelInfo
 
-Adds a node that create a 'MeterChannelInfo' from its members
+添加一个节点，从其成员中创建一个 "MeterChannelInfo"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'MeterChannelInfo' from its members
 
 ## Inputs
 
-Meter Value: Float (single-precision). Meter Value.
+仪表值。浮点数（单精度）。电表值。
 
-Peak Value: Float (single-precision). Peak Value.
+峰值。Float（单精度）。峰值。
 
-Clipping Value: Float (single-precision). Clipping Value.  
+剪切值。Float (single-precision).剪切值。  
 
 ## Outputs
 
-Meter Channel Info: Meter Channel Info Structure.
-
+电表通道信息。电表通道信息结构。

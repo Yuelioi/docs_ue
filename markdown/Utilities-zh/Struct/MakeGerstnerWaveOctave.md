@@ -1,6 +1,6 @@
 # MakeGerstnerWaveOctave
 
-Adds a node that create a 'GerstnerWaveOctave' from its members
+添加一个节点，从其成员中创建一个 "GerstnerWaveOctave"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'GerstnerWaveOctave' from its members
 
 ## Inputs
 
-Num Waves: Integer. Num Waves.
+Num Waves: 整数。Num Waves。
 
-Amplitude Scale: Float (single-precision). Amplitude Scale.
+振幅刻度。Float（单精度）。振幅刻度。
 
-Main Direction: Float (single-precision). Main Direction.
+主要方向。浮点（单精度）。主要方向。
 
-Spread Angle: Float (single-precision). Spread Angle.
+传播角度。Float（单精度）。展开角度。
 
-Uniform Spread: Boolean. Uniform Spread.  
+统一传播。布尔值。Uniform Spread（均匀传播）。  
 
 ## Outputs
 
-Gerstner Wave Octave: Gerstner Wave Octave Structure.
-
+格斯特纳波八度。Gerstner Wave Octave的结构。

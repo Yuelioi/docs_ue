@@ -1,6 +1,6 @@
 # MakeRigVMGraphVariableDescriptio-
 
-Adds a node that create a 'RigVMGraphVariableDescription' from its members
+添加一个节点，从其成员中创建一个 "RigVMGraphVariableDescription"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigVMGraphVariableDescription' from its members
 
 ## Outputs
 
-Rig VMGraph Variable Description: Rig VMGraph Variable Description Structure.
-
+Rig VMGraph变量描述。Rig VMGraph 变量描述结构。

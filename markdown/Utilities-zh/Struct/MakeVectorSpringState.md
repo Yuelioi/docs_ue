@@ -1,6 +1,6 @@
 # MakeVectorSpringState
 
-Adds a node that create a 'VectorSpringState' from its members
+添加一个节点，从其成员中创建一个 "VectorSpringState"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'VectorSpringState' from its members
 
 ## Outputs
 
-Vector Spring State: Vector Spring State Structure.
-
+矢量弹簧状态。矢量弹簧状态结构。

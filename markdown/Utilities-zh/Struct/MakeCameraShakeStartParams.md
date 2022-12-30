@@ -1,6 +1,6 @@
 # MakeCameraShakeStartParams
 
-Adds a node that create a 'CameraShakeStartParams' from its members
+添加一个节点，从其成员中创建一个 "CameraShakeStartParams"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'CameraShakeStartParams' from its members
 
 ## Inputs
 
-Is Restarting: Boolean. Is Restarting.  
+正在重启。布尔型。是否重新启动。  
 
 ## Outputs
 
-Camera Shake Start Params: Camera Shake Start Params Structure.
-
+相机抖动启动参数。相机抖动启动参数结构。

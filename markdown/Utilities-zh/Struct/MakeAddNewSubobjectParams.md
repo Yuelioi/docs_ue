@@ -1,6 +1,6 @@
 # MakeAddNewSubobjectParams
 
-Adds a node that create a 'AddNewSubobjectParams' from its members
+添加一个节点，从其成员中创建一个'AddNewSubobjectParams'。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'AddNewSubobjectParams' from its members
 
 ## Inputs
 
-Parent Handle: Subobject Data Handle Structure. Parent Handle.
+父处理程序。子对象数据处理结构。父处理程序。
 
-New Class: Object Class Reference. New Class:. The class of the new subobject that will be added.
+新类。对象类参考。新类：。将被添加的新子对象的类。
 
-Blueprint Context: Blueprint Object Reference. Blueprint Context:. Pointer to the blueprint context that this subobject is in. If this is null, it is assumed that. this subobject is being added to an instance..
+蓝图语境。蓝图对象参考。Blueprint Context:.指向该子对象所在的蓝图上下文的指针。如果该指针为空，则假定该子对象被添加到一个实例中。
 
-Skip Mark Blueprint Modified: Boolean. Skip Mark Blueprint Modified:. Optionally skip marking this blueprint as modified (e.g. if we're handling that externally.
+跳过标记蓝图的修改。Boolean.Skip Mark Blueprint Modified:.可选择跳过将此蓝图标记为已修改（例如，如果我们在外部处理。
 
-Conform Transform To Parent: Boolean. Conform Transform to Parent:. Whether the newly created component should keep its transform, or conform it to its parent.  
+向父代转化：布尔值。转换到父级：。新创建的组件是否应保持其变换，或使其符合其父级。  
 
 ## Outputs
 
-Add New Subobject Params: Add New Subobject Params Structure.
-
+添加新的子对象参数。添加新的子对象参数结构。

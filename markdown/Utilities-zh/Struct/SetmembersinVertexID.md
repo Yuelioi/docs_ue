@@ -1,6 +1,6 @@
 # SetmembersinVertexID
 
-Adds a node that modifies a 'VertexID'
+添加一个修改 "顶点ID "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'VertexID'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Vertex ID Structure (by ref).  
+结构参考：顶点ID结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Vertex ID Structure (by ref). Reference to the input struct.
-
+结构出来。顶点ID结构（通过引用）。对输入结构的引用。

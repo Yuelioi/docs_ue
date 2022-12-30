@@ -1,6 +1,6 @@
 # MakeTextureCropSize
 
-Adds a node that create a 'TextureCropSize' from its members
+添加一个节点，从其成员中创建一个 "TextureCropSize"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'TextureCropSize' from its members
 
 ## Inputs
 
-W: Integer. W:. Replace texture crop width, in pixels.
+W：整数。W:.替换后的纹理裁剪宽度，单位为像素。
 
-H: Integer. H:. Replace texture crop height, in pixels.  
+H：整数。H:.替换后的纹理裁剪高度，单位为像素。  
 
 ## Outputs
 
-Texture Crop Size: Texture Crop Size Structure.
-
+纹理裁剪尺寸。纹理裁剪尺寸结构。

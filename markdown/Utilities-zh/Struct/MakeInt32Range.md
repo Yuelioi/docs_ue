@@ -1,6 +1,6 @@
 # MakeInt32Range
 
-Adds a node that create a 'Int32Range' from its members
+添加一个节点，从其成员中创建一个'Int32Range'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'Int32Range' from its members
 
 ## Inputs
 
-Lower Bound: Int 32Range Bound Structure. Lower Bound:. Holds the range's lower bound..
+下限。Int 32Range Bound结构。Lower Bound:.保存范围的下限。
 
-Upper Bound: Int 32Range Bound Structure. Upper Bound:. Holds the range's upper bound..  
+上边界。Int 32Range Bound结构。Upper Bound:.保存范围的上界。
 
 ## Outputs
 
-Int 32Range: Int 32Range Structure.
-
+Int 32Range:Int 32Range结构。

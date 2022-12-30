@@ -1,6 +1,6 @@
 # MakeCreateMeshObjectResult
 
-Adds a node that create a 'CreateMeshObjectResult' from its members
+添加一个节点，从其成员中创建一个'CreateMeshObjectResult'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CreateMeshObjectResult' from its members
 
 ## Outputs
 
-Create Mesh Object Result: Create Mesh Object Result Structure.
-
+创建网格对象结果。创建网格对象结果结构。

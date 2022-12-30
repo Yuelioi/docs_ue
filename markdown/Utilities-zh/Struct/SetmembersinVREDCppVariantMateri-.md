@@ -1,6 +1,6 @@
 # SetmembersinVREDCppVariantMateri-
 
-Adds a node that modifies a 'VREDCppVariantMaterial'
+添加一个修改 "VREDCppVariantMaterial "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'VREDCppVariantMaterial'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: VREDCpp Variant Material Structure (by ref).  
+结构参考：VREDCpp变体材料结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: VREDCpp Variant Material Structure (by ref). Reference to the input struct.
-
+结构出来。VREDCpp变量材料结构（通过参考）。对输入结构的引用。

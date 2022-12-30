@@ -1,6 +1,6 @@
 # BreakMPCDIGeometryExportData
 
-Adds a node that breaks a 'MPCDIGeometryExportData' into its member fields
+添加一个节点，将'MPCDIGeometryExportData'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'MPCDIGeometryExportData' into its member fields
 
 ## Inputs
 
-MPCDIGeometry Export Data: MPCDIGeometry Export Data Structure (by ref).  
+MPCDIGeometry导出数据。MPCDIGeometry导出数据结构（按参考）。  
 
 ## Outputs
 
-Vertices: Array of Vectors. Vertices.
+顶点。矢量的阵列。垂直点。
 
-Normal: Array of Vectors. Normal.
+正常。矢量的阵列。正常。
 
-UV: Array of Vector 2D Structures. UV.
+UV: 矢量二维结构的阵列。UV。
 
-Triangles: Array of Integers. Triangles.
-
+三角形。整数阵列。三角形。

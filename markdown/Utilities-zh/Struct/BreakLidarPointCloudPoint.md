@@ -1,6 +1,6 @@
 # BreakLidarPointCloudPoint
 
-Adds a node that breaks a 'LidarPointCloudPoint' into its member fields
+添加一个节点，将'LidarPointCloudPoint'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'LidarPointCloudPoint' into its member fields
 
 ## Inputs
 
-Lidar Point Cloud Point: Lidar Point Cloud Point Structure (by ref).  
+Lidar Point Cloud Point:激光雷达点云点结构（按参考）。  
 
 ## Outputs
 
-Location: Vector 3f. Location.
+位置。矢量3f。位置。
 
-Color: Color Structure. Color.
+颜色：颜色结构。颜色。
 
-Normal: Lidar Point Cloud Normal Structure. Normal.
+正常。激光雷达点云正常结构。正常。
 
-Visible: Boolean. Visible.
-
+可见。布尔型。可见性。

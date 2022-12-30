@@ -1,6 +1,6 @@
 # MakeGameplayAbilityTargetData_Ac-
 
-Adds a node that create a 'GameplayAbilityTargetData_ActorArray' from its members
+添加一个节点，从其成员中创建一个 "GameplayAbilityTargetData_ActorArray"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'GameplayAbilityTargetData_ActorArray' from its member
 
 ## Inputs
 
-Source Location: Gameplay Ability Targeting Location Info Structure. Source Location:. We could be selecting this group of actors from any type of location, so use a generic location type.  
+源头位置。游戏性的能力 瞄准位置信息结构。源地点：。我们可以从任何类型的地点选择这组演员，所以使用一个通用的地点类型。  
 
 ## Outputs
 
-Gameplay Ability Target Data Actor Array: Gameplay Ability Target Data Actor Array Structure.
-
+Gameplay Ability Target Data Actor Array:Gameplay Ability Target Data Actor Array结构。

@@ -1,6 +1,6 @@
 # MakeWaveFunctionCollapseOption
 
-Adds a node that create a 'WaveFunctionCollapseOption' from its members
+添加一个节点，从其成员中创建一个 "WaveFunctionCollapseOption"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'WaveFunctionCollapseOption' from its members
 
 ## Inputs
 
-Base Object: Soft Object Path Structure. Base Object.
+基础对象。软对象路径结构。基础对象。
 
-Base Rotator: Rotator. Base Rotator.
+基地旋转器: 旋转器。基地旋转器。
 
-Base Scale 3D: Vector. Base Scale 3D.  
+基础比例3D：矢量。基础比例3D。  
 
 ## Outputs
 
-Wave Function Collapse Option: Wave Function Collapse Option Structure.
-
+波函数折叠选项。波函数折叠选项的结构。

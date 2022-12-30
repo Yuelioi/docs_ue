@@ -1,6 +1,6 @@
 # MakeSequencePlayerReference
 
-Adds a node that create a 'SequencePlayerReference' from its members
+添加一个节点，从其成员中创建一个'SequencePlayerReference'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SequencePlayerReference' from its members
 
 ## Outputs
 
-Sequence Player Reference: Sequence Player Reference Structure.
-
+序列播放器参考。序列播放器参考结构。

@@ -1,6 +1,6 @@
 # MakeDMXOutputPortDestinationAddr-
 
-Adds a node that create a 'DMXOutputPortDestinationAddress' from its members
+添加一个节点，从其成员中创建一个'DMXOutputPortDestinationAddress'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXOutputPortDestinationAddress' from its members
 
 ## Outputs
 
-DMXOutput Port Destination Address: DMXOutput Port Destination Address Structure.
-
+DMXOutput Port Destination Address。DMXOutput Port Destination Address结构。

@@ -1,6 +1,6 @@
 # MakeDisplayClusterClusterEventBa-
 
-Adds a node that create a 'DisplayClusterClusterEventBase' from its members
+添加一个节点，从其成员中创建一个'DisplayClusterClusterEventBase'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'DisplayClusterClusterEventBase' from its members
 
 ## Inputs
 
-Is Sytem Event. ' True' Is Reserved For N Display Internals.: Boolean. Is System Event:. Is nDisplay internal event (should never be true for end users).
+是系统事件。'True'是保留给N个显示内部的。Boolean.是系统事件：。是nDisplay内部事件（对终端用户来说不应该是真的）。
 
-Should Discard On Repeat: Boolean. Should Discard on Repeat:. Should older events with the same Name/Type/Category (for JSON) or ID (for binary) be discarded if a new one received.  
+重复时应丢弃：布尔值。重复时应丢弃：。如果收到新的事件，具有相同名称/类型/类别（对于JSON）或ID（对于二进制）的旧事件应被丢弃。  
 
 ## Outputs
 
-Display Cluster Cluster Event Base: Display Cluster Cluster Event Base Structure.
-
+显示群组群组事件库。显示群组群组事件库结构。

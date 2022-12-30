@@ -1,6 +1,6 @@
 # BreakSubtitleCue
 
-Adds a node that breaks a 'SubtitleCue' into its member fields
+添加一个节点，将 "SubtitleCue "分解成其成员字段。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'SubtitleCue' into its member fields
 
 ## Inputs
 
-Subtitle Cue: Subtitle Cue Structure (by ref).  
+副标题提示：副标题提示结构（由参考文献）。  
 
 ## Outputs
 
-Text: Text. Text:. The text to appear in the subtitle..
+文本。文本。文本：。要出现在副标题中的文字。
 
-Time: Float (single-precision). Time:. The time at which the subtitle is to be displayed, in seconds relative to the beginning of the line..
-
+时间。Float（单精度）。时间：。要显示字幕的时间，相对于该行的开始，以秒为单位。

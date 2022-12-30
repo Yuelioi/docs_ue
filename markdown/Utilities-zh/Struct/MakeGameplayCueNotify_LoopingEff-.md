@@ -1,6 +1,6 @@
 # MakeGameplayCueNotify_LoopingEff-
 
-Adds a node that create a 'GameplayCueNotify_LoopingEffects' from its members
+添加一个节点，从其成员中创建一个 "GameplayCueNotify_LoopingEffects"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayCueNotify_LoopingEffects' from its members
 
 ## Outputs
 
-Gameplay Cue Notify Looping Effects: Gameplay Cue Notify Looping Effects Structure.
-
+Gameplay Cue Notify Looping Effects:Gameplay Cue Notify Looping Effects 结构。

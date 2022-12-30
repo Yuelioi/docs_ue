@@ -1,6 +1,6 @@
 # SetmembersinNavDataConfig
 
-Adds a node that modifies a 'NavDataConfig'
+添加一个修改 "NavDataConfig "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'NavDataConfig'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Nav Data Config Structure (by ref).  
+结构参考：导航数据配置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Nav Data Config Structure (by ref). Reference to the input struct.
-
+结构出来。导航数据配置结构（通过引用）。对输入结构的引用。

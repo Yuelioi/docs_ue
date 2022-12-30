@@ -1,6 +1,6 @@
 # BreakRemoteControlActor
 
-Adds a node that breaks a 'RemoteControlActor' into its member fields
+添加一个节点，将'RemoteControlActor'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'RemoteControlActor' into its member fields
 
 ## Inputs
 
-Remote Control Actor: Remote Control Actor Structure (by ref).  
+遥控演员。遥控演员结构（按参考）。  
 
 ## Outputs
 
-Path: Soft Object Path Structure. Path:. Path to the exposed object..
+路径。软对象路径结构。路径：。暴露对象的路径。
 
-Owner: Remote Control Preset Weak object. Owner:. The preset that owns this entity..
+业主。遥控预设的弱点对象。所有者：。拥有这个实体的预设...
 
-Label: Name. Label:. This exposed entity's alias..
+标签。名称。标签:.这个暴露的实体的别名。
 
-Id: Guid Structure. Id:. Unique identifier for this entity.
-
+同上。指导结构。Id:.该实体的唯一标识符。

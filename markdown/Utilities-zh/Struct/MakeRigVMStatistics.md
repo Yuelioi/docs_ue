@@ -1,6 +1,6 @@
 # MakeRigVMStatistics
 
-Adds a node that create a 'RigVMStatistics' from its members
+添加一个节点，从其成员中创建一个 "RigVMStatistics"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigVMStatistics' from its members
 
 ## Outputs
 
-Rig VMStatistics: Rig VMStatistics Structure.
-
+Rig VMStatistics。Rig VMStatistics结构。

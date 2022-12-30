@@ -1,6 +1,6 @@
 # MakeRigRigidBodyElement
 
-Adds a node that create a 'RigRigidBodyElement' from its members
+添加一个节点，从其成员中创建一个 "RigRigidBodyElement"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigRigidBodyElement' from its members
 
 ## Outputs
 
-Rig Rigid Body Element: Rig Rigid Body Element Structure.
-
+刚性刚体元素。Rig Rigid Body Element（刚性体元素）结构。

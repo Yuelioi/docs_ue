@@ -1,6 +1,6 @@
 # BreakIsPropertyValidParams
 
-Adds a node that breaks a 'IsPropertyValidParams' into its member fields
+添加一个节点，将'IsPropertyValidParams'分解到其成员字段中。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'IsPropertyValidParams' into its member fields
 
 ## Inputs
 
-Is Property Valid Params: Is Property Valid Params Structure (by ref).  
+Is Property Valid Params:是否属性有效参数结构（通过参考）。  
 
 ## Outputs
 
-Snapshot Actor: Actor Object Reference. Snapshot Actor:. The actor saved in the snapshot.
+快照演员。Actor Object Reference.Snapshot Actor:.保存在快照中的演员。
 
-Level Actor: Actor Object Reference. Level Actor:. The actor equivalent to LevelActor: it exists in the world.
+级演员。Actor Object Reference.Level Actor:。相当于LevelActor:的演员，它存在于世界中。
 
-Snapshot Property Container: Property Container Handle Structure. Snapshot Property Container:. For passing to FProperty::ContainerPtrToValuePtr. This is either SnapshotActor or a subobject thereof..
+快照属性容器。属性容器处理结构。快照属性容器：。用于传递给FProperty::ContainerPtrToValuePtr。这要么是SnapshotActor或其子对象。
 
-Level Property Containers: Property Container Handle Structure. Level Property Containers:. For passing to FProperty::ContainerPtrToValuePtr. This is either LevelPropertyContainers or a subobject thereof..
+等级属性容器。属性容器处理结构。级属性容器：。用于传递给FProperty::ContainerPtrToValuePtr。这要么是LevelPropertyContainers，要么是其子对象。
 
-Property: Property Reference. Property:. The property that we may want to rollback..
+财产。物业参考.属性：。我们可能想要回滚的属性。
 
-Property Path: Array of Strings. Property Path:. Each elements is the name of a subobject name leading to this property. The last element is the property name.. The first element is either the name of a component or a struct/subobject in the root actor.: Examples:: MyCustomComponent -> MyCustomStructPropertyName -> PropertyName: MyCustomComponent -> MyCustomStructPropertyName: StructPropertyNameInActor -> PropertyName.
-
+属性路径。字符串的阵列。属性路径：。每个元素都是通往此属性的子对象名称。最后一个元素是属性名称。第一个元素是一个组件的名称或根演员中的一个结构/子对象。例子：。MyCustomComponent -> MyCustomStructPropertyName -> PropertyName。MyCustomComponent -> MyCustomStructPropertyName。StructPropertyNameInActor -> PropertyName.

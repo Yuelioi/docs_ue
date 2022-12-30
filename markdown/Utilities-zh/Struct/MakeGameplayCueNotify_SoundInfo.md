@@ -1,6 +1,6 @@
 # MakeGameplayCueNotify_SoundInfo
 
-Adds a node that create a 'GameplayCueNotify_SoundInfo' from its members
+添加一个节点，从其成员中创建一个 "GameplayCueNotify_SoundInfo"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayCueNotify_SoundInfo' from its members
 
 ## Outputs
 
-Gameplay Cue Notify Sound Info: Gameplay Cue Notify Sound Info Structure.
-
+Gameplay Cue Notify Sound Info:Gameplay Cue Notify Sound Info Structure.

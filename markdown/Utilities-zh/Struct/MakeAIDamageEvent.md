@@ -1,6 +1,6 @@
 # MakeAIDamageEvent
 
-Adds a node that create a 'AIDamageEvent' from its members
+添加一个节点，从其成员中创建一个 "AIDamageEvent"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'AIDamageEvent' from its members
 
 ## Inputs
 
-Amount: Float (single-precision). Amount:. Damage taken by DamagedActor.. @Note 0-damage events do not get ignored.
+数量。Float（单精度）。金额:.DamagedActor所受的伤害。@注意 0-damage事件不会被忽略。
 
-Location: Vector. Location:. Event's "Location", or what will be later treated as the perceived location for this sense.. If not set, HitLocation will be used, if that is unset too DamagedActor's location.
+地点：向量。向量。位置：。事件的 "位置"，或者说以后将被视为这个意义上的感知位置。如果没有设置，将使用HitLocation，如果没有设置，则使用DamagedActor的位置。
 
-Hit Location: Vector. Hit Location:. Event's additional spatial information. @TODO document.
+击中位置。向量。击中位置：。事件的额外空间信息。@TODO文件。
 
-Damaged Actor: Actor Object Reference. Damaged Actor:. Damaged actor.
+损坏的演员。演员对象参考。损坏的演员：。损坏的演员。
 
-Instigator: Actor Object Reference. Instigator:. Actor that instigated damage. Can be None.
+指导者。演员对象参考。教唆者：。煽动损害的行为者。可以是无。
 
-Tag: Name. Tag:. Optional named identifier for the damage..  
+标签。名称。标签：.可选的命名标识符，用于损坏。  
 
 ## Outputs
 
-AIDamage Event: AIDamage Event Structure.
-
+AIDamage事件。AIDamage事件结构。

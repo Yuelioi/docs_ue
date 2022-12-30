@@ -1,6 +1,6 @@
 # MakeActorPerceptionBlueprintInfo
 
-Adds a node that create a 'ActorPerceptionBlueprintInfo' from its members
+添加一个节点，从其成员中创建一个'ActorPerceptionBlueprintInfo'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'ActorPerceptionBlueprintInfo' from its members
 
 ## Inputs
 
-Target: Actor Object Reference. Target.
+目标。演员对象参考。目标。
 
-Last Sensed Stimuli: Array of AIStimulus Structures. Last Sensed Stimuli.
+最后感觉到的刺激：AIStimulus结构的阵列。最后感觉到的刺激。
 
-Is Hostile: Boolean. Is Hostile.  
+是敌对的：布尔型。是敌对的。  
 
 ## Outputs
 
-Actor Perception Blueprint Info: Sensed Actor's Data Structure.
-
+演员感知蓝图信息。被感知的演员的数据结构。

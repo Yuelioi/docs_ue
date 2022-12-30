@@ -1,6 +1,6 @@
 # BreakGoogleARCoreCameraConfig
 
-Adds a node that breaks a 'GoogleARCoreCameraConfig' into its member fields
+添加一个节点，将'GoogleARCoreCameraConfig'分解成其成员字段
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'GoogleARCoreCameraConfig' into its member fields
 
 ## Inputs
 
-Google ARCore Camera Config: Google ARCore Camera Config Structure (by ref).  
+谷歌ARCore相机配置。谷歌ARCore相机配置结构（按参考）。  
 
 ## Outputs
 
-Camera Image Resolution: Int Point Structure. Camera Image Resolution:. CPU-accessible camera image resolution..
+摄像机图像分辨率。Int点结构。摄像机图像分辨率：.CPU可访问的摄像机图像分辨率。
 
-Camera Texture Resolution: Int Point Structure. Camera Texture Resolution:. Texture resolution for the camera image accessible to the. graphics API and shaders..
+摄像机纹理分辨率。Int Point Structure.Camera Texture Resolution: 摄像机纹理分辨率。可供图形API和着色器访问的相机图像的纹理分辨率。
 
-Camera ID: String. Camera ID:. The id of the camera will be used in this CameraConfig..
+相机ID。字符串。相机ID:.将在此CameraConfig.中使用的摄像机ID。
 
-Target FPS: Bitmask Integer. Target FPS:. The target FPS of the camera..
+目标FPS: Bitmask Integer.目标FPS:.摄像机的目标FPS。
 
-Depth Sensor Usage: Bitmask Integer. Depth Sensor Usage:. The desired depth sensor usage of the camera..
-
+深度传感器的使用。Bitmask Integer.Depth Sensor Usage:.深度传感器用法。摄像机所需的深度传感器用途。

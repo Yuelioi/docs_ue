@@ -1,6 +1,6 @@
 # MakeGeometryScriptMeasureMeshDis-
 
-Adds a node that create a 'GeometryScriptMeasureMeshDistanceOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptMeasureMeshDistanceOptions'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'GeometryScriptMeasureMeshDistanceOptions' from its me
 
 ## Inputs
 
-Symmetric: Boolean. Symmetric.  
+对称性：布尔型。对称性。  
 
 ## Outputs
 
-Geometry Script Measure Mesh Distance Options: Geometry Script Measure Mesh Distance Options Structure.
-
+Geometry Script Measure Mesh Distance Options:Geometry Script Measure Mesh Distance Options结构。

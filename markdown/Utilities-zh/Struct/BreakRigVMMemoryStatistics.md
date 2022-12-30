@@ -1,6 +1,6 @@
 # BreakRigVMMemoryStatistics
 
-Adds a node that breaks a 'RigVMMemoryStatistics' into its member fields
+添加一个节点，将'RigVMMemoryStatistics'分解为其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'RigVMMemoryStatistics' into its member fields
 
 ## Inputs
 
-Rig VMMemory Statistics: Rig VMMemory Statistics Structure (by ref).  
+Rig VMMemory Statistics:Rig VMMemory统计结构（按参考）。  
 
 ## Outputs
 
-Register Count: Integer. Register Count.
+寄存器计数。整数。寄存器计数。
 
-Data Bytes: Integer. Data Bytes.
+数据字节。整数。数据字节。
 
-Total Bytes: Integer. Total Bytes.
-
+总字节数。整数。总字节数。

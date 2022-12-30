@@ -1,6 +1,6 @@
 # MakeLandmassBrushEffectsList
 
-Adds a node that create a 'LandmassBrushEffectsList' from its members
+添加一个节点，从其成员中创建一个 "LandmassBrushEffectsList"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'LandmassBrushEffectsList' from its members
 
 ## Inputs
 
-Blurring: Brush Effect Blurring Structure. Blurring.
+模糊化。刷子效果模糊结构。模糊化。
 
-Curl Noise: Brush Effect Curl Noise Structure. Curl Noise.
+卷曲噪音。刷子效应 卷曲噪音结构。卷曲噪音。
 
-Displacement: Brush Effect Displacement Structure. Displacement.
+置换。刷子效应 排除结构。流离失所。
 
-Smooth Blending: Brush Effect Smooth Blending Structure. Smooth Blending.
+平滑的混合。刷子效果 平滑的混合结构。平滑的混合。
 
-Terracing: Brush Effect Terracing Structure. Terracing.  
+梯田。刷子效果的梯田结构。梯田。  
 
 ## Outputs
 
-Landmass Brush Effects List: Landmass Brush Effects List Structure.
-
+Landmass刷子的效果列表。Landmass画笔效果列表结构。

@@ -1,8 +1,8 @@
 # AsCurrency_integer__DEPRECATED_u-
 
-Converts a passed in integer to a text formatted as a currency
+将一个传入的整数转换为一个格式化的货币文本
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,25 +10,24 @@ Target is Kismet Text Library
 
 ## Inputs
 
-Value: Integer.
+值。整数。
 
-Rounding Mode: ERoundingMode Enum.
+四舍五入模式。ERoundingMode Enum.
 
-Always Sign: Boolean.
+总是签名：布尔值。
 
-Use Grouping: Boolean.
+使用分组。布尔型。
 
-Minimum Integral Digits: Integer.
+最小整数位。整数。
 
-Maximum Integral Digits: Integer.
+最大整数位。整数。
 
-Minimum Fractional Digits: Integer.
+最小的小数位。整数。
 
-Maximum Fractional Digits: Integer.
+最大的小数位。整数。
 
-Currency Code: String.  
+货币代码。字符串。  
 
 ## Outputs
 
-Return Value: Text. Converts a passed in integer to a text formatted as a currency.
-
+返回值。文本。将传入的整数转换为格式化的货币文本。

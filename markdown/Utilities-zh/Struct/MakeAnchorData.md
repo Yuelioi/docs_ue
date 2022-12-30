@@ -1,6 +1,6 @@
 # MakeAnchorData
 
-Adds a node that create a 'AnchorData' from its members
+添加一个节点，从其成员中创建一个 "AnchorData"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'AnchorData' from its members
 
 ## Inputs
 
-Offsets: Margin Structure. Offsets:. Offset..
+抵销。保证金结构。抵销：.抵偿.
 
-Anchors: Anchors Structure. Anchors:. Anchors..
+锚点。锚的结构。锚点:.锚杆.
 
-Alignment: Vector 2D Structure. Alignment:. Alignment is the pivot point of the widget. Starting in the upper left at (0,0),. ending in the lower right at (1,1). Moving the alignment point allows you to move. the origin of the widget..  
+对齐。矢量二维结构。Alignment:.Alignment是小部件的支点。从左上方的（0,0）开始，在右下方的（1,1）结束。移动对齐点允许你移动小部件的原点。  
 
 ## Outputs
 
-Anchor Data: Anchor Data Structure.
-
+锚点数据。锚定数据结构。

@@ -1,6 +1,6 @@
 # BreakTakeRecorderParameters
 
-Adds a node that breaks a 'TakeRecorderParameters' into its member fields
+添加一个节点，将 "TakeRecorderParameters "分解成其成员字段。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'TakeRecorderParameters' into its member fields
 
 ## Inputs
 
-Take Recorder Parameters: Take Recorder Parameters Structure (by ref).  
+拍摄记录仪参数。录音机参数结构（按参考）。  
 
 ## Outputs
 
-User: Take Recorder User Parameters Structure. User.
+用户：采取录音机用户参数结构。用户。
 
-Project: Take Recorder Project Parameters Structure. Project.
+项目。采取录音机项目参数结构。项目。
 
-Take Recorder Mode: ETakeRecorderMode Enum. Take Recorder Mode.
-
+拍摄记录器模式。ETakeRecorderMode枚举。录音机模式。

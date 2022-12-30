@@ -1,6 +1,6 @@
 # MakeSkelMeshMergeUVTransformMapp-
 
-Adds a node that create a 'SkelMeshMergeUVTransformMapping' from its members
+添加一个节点，从其成员中创建一个'SkelMeshMergeUVTransformMapping'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'SkelMeshMergeUVTransformMapping' from its members
 
 ## Inputs
 
-UVTransforms Per Mesh: Array of Skel Mesh Merge Mesh UVTransforms Structures. UVTransforms Per Mesh:. UV coordinates transform datam one entry for each Skeletal Mesh..  
+每个网格的UVTransforms。Skel Mesh Merge Mesh UVTransforms结构的阵列。UVTransforms Per Mesh:.UV坐标变换数据，每个骨架网格有一个条目。
 
 ## Outputs
 
-Skel Mesh Merge UVTransform Mapping: Skel Mesh Merge UVTransform Mapping Structure.
-
+Skel Mesh Merge UVTransform Mapping。Skel Mesh Merge UVTransform Mapping Structure.

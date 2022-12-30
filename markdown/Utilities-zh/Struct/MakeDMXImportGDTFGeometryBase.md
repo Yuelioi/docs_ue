@@ -1,6 +1,6 @@
 # MakeDMXImportGDTFGeometryBase
 
-Adds a node that create a 'DMXImportGDTFGeometryBase' from its members
+添加一个节点，从其成员中创建一个'DMXImportGDTFGeometryBase'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXImportGDTFGeometryBase' from its members
 
 ## Outputs
 
-DMXImport GDTFGeometry Base: DMXImport GDTFGeometry Base Structure.
-
+DMXImport GDTFGeometry Base:DMXImport GDTFGeometry Base结构。

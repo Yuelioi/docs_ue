@@ -1,6 +1,6 @@
 # SetmembersinCachedAnimAssetPlaye-
 
-Adds a node that modifies a 'CachedAnimAssetPlayerData'
+添加一个节点，修改 "CachedAnimAssetPlayerData"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CachedAnimAssetPlayerData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Cached Anim Asset Player Data Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Cached Anim Asset Player Data Structure (by ref). Reference to the input struct.
-
+结构出来了。缓存的Anim资产播放器数据结构（通过ref）。对输入结构的引用。

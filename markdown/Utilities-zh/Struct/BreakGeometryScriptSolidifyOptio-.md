@@ -1,6 +1,6 @@
 # BreakGeometryScriptSolidifyOptio-
 
-Adds a node that breaks a 'GeometryScriptSolidifyOptions' into its member fields
+添加一个节点，将'GeometryScriptSolidifyOptions'分解到其成员字段中。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'GeometryScriptSolidifyOptions' into its member fields
 
 ## Inputs
 
-Geometry Script Solidify Options: Geometry Script Solidify Options Structure (by ref).  
+Geometry Script Solidify Options:Geometry Script Solidify Options结构（按参考）。  
 
 ## Outputs
 
-Grid Parameters: Geometry Script 3DGrid Parameters Structure. Grid Parameters.
+网格参数。Geometry Script 3DGrid Parameters 结构。网格参数。
 
-Winding Threshold: Float (single-precision). Winding Threshold.
+绕组阈值。Float（单精度）。绕组阈值。
 
-Solid At Boundaries: Boolean. Solid at Boundaries.
+边界处的固体。布尔型。边界处的固体。
 
-Extend Bounds: Float (single-precision). Extend Bounds.
+扩展边界。Float（单精度）。延伸界线。
 
-Surface Search Steps: Integer. Surface Search Steps.
-
+表面搜索步骤。整数。表面搜索步骤。

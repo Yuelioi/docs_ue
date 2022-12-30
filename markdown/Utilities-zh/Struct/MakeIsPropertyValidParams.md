@@ -1,6 +1,6 @@
 # MakeIsPropertyValidParams
 
-Adds a node that create a 'IsPropertyValidParams' from its members
+添加一个节点，从其成员中创建一个'IsPropertyValidParams'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'IsPropertyValidParams' from its members
 
 ## Outputs
 
-Is Property Valid Params: Is Property Valid Params Structure.
-
+属性是否有效 Params:属性是否有效 Params 结构。

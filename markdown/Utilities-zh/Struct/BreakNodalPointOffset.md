@@ -1,6 +1,6 @@
 # BreakNodalPointOffset
 
-Adds a node that breaks a 'NodalPointOffset' into its member fields
+添加一个打破'NodalPointOffset'的节点到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'NodalPointOffset' into its member fields
 
 ## Inputs
 
-Nodal Point Offset: Nodal Point Offset Structure (by ref).  
+节点偏移。节点偏移结构（通过参考）。  
 
 ## Outputs
 
-Location Offset: Vector. Location Offset.
+位置偏移。向量。位置偏移。
 
-Rotation Offset: Quat Structure. Rotation Offset.
-
+旋转偏移。Quat结构。旋转偏移。

@@ -1,6 +1,6 @@
 # SetmembersinCustomMeshTriangle
 
-Adds a node that modifies a 'CustomMeshTriangle'
+添加一个修改 "CustomMeshTriangle "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CustomMeshTriangle'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Custom Mesh Triangle Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Custom Mesh Triangle Structure (by ref). Reference to the input struct.
-
+结构出来。自定义网格三角形结构（通过引用）。对输入结构的引用。

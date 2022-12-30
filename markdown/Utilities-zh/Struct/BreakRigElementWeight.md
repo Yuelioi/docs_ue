@@ -1,6 +1,6 @@
 # BreakRigElementWeight
 
-Adds a node that breaks a 'RigElementWeight' into its member fields
+添加一个节点，将'RigElementWeight'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'RigElementWeight' into its member fields
 
 ## Inputs
 
-Rig Element Weight: Rig Element Weight Structure (by ref).  
+钻机元件重量。钻机元件重量结构（按参考）。  
 
 ## Outputs
 
-Location: Float (single-precision). Location.
+位置。Float（单精度）。位置。
 
-Rotation: Float (single-precision). Rotation.
+旋转。Float（单精度）。旋转。
 
-Scale: Float (single-precision). Scale.
-
+规模。Float（单精度）。规模。

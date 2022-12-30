@@ -1,6 +1,6 @@
 # BreakWaveOscillator
 
-Adds a node that breaks a 'WaveOscillator' into its member fields
+添加一个节点，将'WaveOscillator'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'WaveOscillator' into its member fields
 
 ## Inputs
 
-Wave Oscillator: Wave Oscillator Structure (by ref).  
+波浪振荡器。波浪震荡器的结构（由参考文献）。  
 
 ## Outputs
 
-Amplitude: Float (single-precision). Amplitude:. Amplitude of the sinusoidal oscillation..
+振幅。浮点数（单精度）。振幅：。正弦波振荡的振幅。
 
-Frequency: Float (single-precision). Frequency:. Frequency of the sinusoidal oscillation..
+频率。Float (single-precision).频率：。正弦波振荡的频率。
 
-Initial Offset Type: EInitialWaveOscillatorOffsetType Enum. Initial Offset Type:. Defines how to begin the oscillation..
-
+初始偏移类型。EInitialWaveOscillatorOffsetType枚举。初始偏移类型：。定义了如何开始振荡。

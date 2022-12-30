@@ -1,6 +1,6 @@
 # SetmembersinAzureSpatialAnchorsS-
 
-Adds a node that modifies a 'AzureSpatialAnchorsSessionConfiguration'
+添加一个修改 "AzureSpatialAnchorsSessionConfiguration "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AzureSpatialAnchorsSessionConfiguration'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Azure Spatial Anchors Session Configuration Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Azure Spatial Anchors Session Configuration Structure (by ref). Reference to the input struct.
-
+结构出来。Azure Spatial Anchors会话配置结构（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeChaosTrailingEventData
 
-Adds a node that create a 'ChaosTrailingEventData' from its members
+添加一个节点，从其成员中创建一个 "ChaosTrailingEventData"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'ChaosTrailingEventData' from its members
 
 ## Inputs
 
-Location: Vector. Location:. Current trail location..
+地点：向量。向量。位置：。当前小路的位置。
 
-Velocity: Vector. Velocity:. The velocity of the trail..
+速度。矢量。速度：。拖车的速度...
 
-Angular Velocity: Vector. Angular Velocity:. The angular velocity of the trail..
+角速度。矢量。角速度：。拖车的角速度...
 
-Mass: Float (single-precision). Mass:. The mass of the trail..
+质量。Float（单精度）。质量：。踪迹的质量...
 
-Particle Index: Integer. Particle Index:. The particle index of the trail..  
+颗粒指数。整数。粒子指数：。粒子指数的线索。
 
 ## Outputs
 
-Chaos Trailing Event Data: Chaos Trailing Event Data Structure.
-
+Chaos Trailing Event Data:Chaos Trailing Event Data Structure.

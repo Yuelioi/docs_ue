@@ -1,6 +1,6 @@
 # SetmembersinVPCameraRigSpawnPara-
 
-Adds a node that modifies a 'VPCameraRigSpawnParams'
+添加一个节点，修改 "VPCameraRigSpawnParams"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'VPCameraRigSpawnParams'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: VPCamera Rig Spawn Params Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: VPCamera Rig Spawn Params Structure (by ref). Reference to the input struct.
-
+Struct Out:VPCamera Rig Spawn Params结构（通过引用）。对输入结构的引用。

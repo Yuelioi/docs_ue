@@ -1,6 +1,6 @@
 # MakeConversationNodeParameterPai-
 
-Adds a node that create a 'ConversationNodeParameterPair' from its members
+添加一个节点，从其成员中创建一个'ConversationNodeParameterPair'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ConversationNodeParameterPair' from its members
 
 ## Inputs
 
-Name: String. Name.
+名称: 字符串。名称。
 
-Value: String. Value.  
+价值。字符串。价值。  
 
 ## Outputs
 
-Conversation Node Parameter Pair: Conversation Node Parameter Pair Structure.
-
+会话节点参数对。Conversation Node Parameter Pair结构。

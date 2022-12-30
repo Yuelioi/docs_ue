@@ -1,6 +1,6 @@
 # MakeInterpCurveTwoVectors
 
-Adds a node that create a 'InterpCurveTwoVectors' from its members
+添加一个节点，从其成员中创建一个 "InterpCurveTwoVectors"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'InterpCurveTwoVectors' from its members
 
 ## Inputs
 
-Points: Array of Interp Curve Point Two Vectors Structures. Points:. Holds the collection of interpolation points..
+点。阵列的Interp曲线点两个矢量的结构。Points:.保存插值点的集合。
 
-Is Looped: Boolean. Is Looped:. Specify whether the curve is looped or not.
+是循环的。布尔型。是否循环：。指定曲线是否是循环的。
 
-Loop Key Offset: Float (single-precision). Loop Key Offset:. Specify the offset from the last point's input key corresponding to the loop point.  
+循环键偏移。Float (single-precision).循环键偏移：。指定与循环点对应的最后一个点的输入键的偏移量。  
 
 ## Outputs
 
-Interp Curve Two Vectors: Interp Curve Two Vectors Structure.
-
+Interp Curve Two Vectors:Interp Curve Two Vectors的结构。

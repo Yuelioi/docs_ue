@@ -1,6 +1,6 @@
 # SetmembersinActiveGameplayEffect
 
-Adds a node that modifies a 'ActiveGameplayEffect'
+添加一个修改 "ActiveGameplayEffect "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ActiveGameplayEffect'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Active Gameplay Effect Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Active Gameplay Effect Structure (by ref). Reference to the input struct.
-
+结构了。Active Gameplay Effect Structure（通过引用）。对输入结构的引用。

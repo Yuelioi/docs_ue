@@ -1,6 +1,6 @@
 # MakeGeometryScriptMeshSelfUnionO-
 
-Adds a node that create a 'GeometryScriptMeshSelfUnionOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptMeshSelfUnionOptions"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'GeometryScriptMeshSelfUnionOptions' from its members
 
 ## Inputs
 
-Fill Holes: Boolean. Fill Holes.
+填充孔。布尔型。填充孔。
 
-Trim Flaps: Boolean. Trim Flaps.
+修剪襟翼。Boolean.修剪襟翼。
 
-Simplify Output: Boolean. Simplify Output.
+简化输出。布尔型。简化输出。
 
-Simplify Planar Tolerance: Float (single-precision). Simplify Planar Tolerance.
+简化平面公差。Float（单精度）。简化平面公差。
 
-Winding Threshold: Float (single-precision). Winding Threshold.  
+绕组阈值。Float（单精度）。绕组阈值。  
 
 ## Outputs
 
-Geometry Script Mesh Self Union Options: Geometry Script Mesh Self Union Options Structure.
-
+Geometry Script Mesh Self Union Options:Geometry Script Mesh Self Union Options结构。

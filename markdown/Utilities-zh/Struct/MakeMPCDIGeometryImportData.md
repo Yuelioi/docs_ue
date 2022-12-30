@@ -1,6 +1,6 @@
 # MakeMPCDIGeometryImportData
 
-Adds a node that create a 'MPCDIGeometryImportData' from its members
+添加一个节点，从其成员中创建一个 "MPCDIGeometryImportData"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'MPCDIGeometryImportData' from its members
 
 ## Inputs
 
-Width: Integer. Width.
+宽度：整数。宽度。
 
-Height: Integer. Height.
+高度：整数。高度。
 
-Vertices: Array of Vectors. Vertices.  
+顶点。矢量的阵列。垂直点。  
 
 ## Outputs
 
-MPCDIGeometry Import Data: MPCDIGeometry Import Data Structure.
-
+MPCDIGeometry导入数据。MPCDIGeometry导入数据结构。

@@ -1,6 +1,6 @@
 # BreakGeometryScriptCreateNewStat-
 
-Adds a node that breaks a 'GeometryScriptCreateNewStaticMeshAssetOptions' into its member fields
+添加一个打破'GeometryScriptCreateNewStaticMeshAssetOptions'的节点到其成员字段中
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'GeometryScriptCreateNewStaticMeshAssetOptions' into i
 
 ## Inputs
 
-Geometry Script Create New Static Mesh Asset Options: Geometry Script Create New Static Mesh Asset Options Structure (by ref).  
+Geometry Script Create New Static Mesh Asset Options:Geometry Script Create New Static Mesh Asset Options Structure (by ref).  
 
 ## Outputs
 
-Enable Recompute Normals: Boolean. Enable Recompute Normals.
+启用重新计算法线。布尔值。启用重新计算法线。
 
-Enable Recompute Tangents: Boolean. Enable Recompute Tangents.
+启用重新计算切线。布尔值。启用重新计算切线。
 
-Enable Nanite: Boolean. Enable Nanite.
+启用Nanite。布尔型。启用Nanite。
 
-Nanite Proxy Triangle Percent: Float (single-precision). Nanite Proxy Triangle Percent.
+Nanite Proxy Triangle Percent。浮点数（单精度）。Nanite Proxy Triangle Percent.
 
-Enable Collision: Boolean. Enable Collision.
+启用碰撞。布尔型。启用碰撞。
 
-Collision Mode: ECollisionTraceFlag Enum. Collision Mode.
-
+碰撞模式。ECollisionTraceFlag 枚举。碰撞模式。

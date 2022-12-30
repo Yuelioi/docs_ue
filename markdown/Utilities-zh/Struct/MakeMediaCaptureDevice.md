@@ -1,6 +1,6 @@
 # MakeMediaCaptureDevice
 
-Adds a node that create a 'MediaCaptureDevice' from its members
+添加一个节点，从其成员中创建一个 "MediaCaptureDevice"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'MediaCaptureDevice' from its members
 
 ## Outputs
 
-Media Capture Device: Media Capture Device Structure.
-
+媒体采集设备。媒体捕获设备结构。

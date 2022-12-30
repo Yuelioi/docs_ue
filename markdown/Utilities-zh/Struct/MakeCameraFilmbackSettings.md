@@ -1,6 +1,6 @@
 # MakeCameraFilmbackSettings
 
-Adds a node that create a 'CameraFilmbackSettings' from its members
+添加一个节点，从其成员中创建一个 "CameraFilmbackSettings"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'CameraFilmbackSettings' from its members
 
 ## Inputs
 
-Sensor Width: Float (single-precision). Sensor Width:. Horizontal size of filmback or digital sensor, in mm..
+传感器宽度：浮点（单精度）。传感器宽度：。滤光片或数字传感器的水平尺寸，单位是毫米。
 
-Sensor Height: Float (single-precision). Sensor Height:. Vertical size of filmback or digital sensor, in mm..  
+传感器高度。浮点（单精度）。传感器高度：。滤光片或数字传感器的垂直尺寸，单位：毫米。
 
 ## Outputs
 
-Camera Filmback Settings: Camera Filmback Settings Structure.
-
+相机回放设置。相机回放设置结构。

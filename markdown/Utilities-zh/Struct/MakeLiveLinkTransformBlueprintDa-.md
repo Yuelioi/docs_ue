@@ -1,6 +1,6 @@
 # MakeLiveLinkTransformBlueprintDa-
 
-Adds a node that create a 'LiveLinkTransformBlueprintData' from its members
+添加一个节点，从其成员中创建一个 "LiveLinkTransformBlueprintData"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'LiveLinkTransformBlueprintData' from its members
 
 ## Inputs
 
-Static Data: Live Link Transform Static Data Structure. Static Data:. Static data that should not change every frame.
+静态数据。现场链接转换 静态数据结构。静态数据：。静态数据，不应该每一帧都改变。
 
-Frame Data: Live Link Transform Frame Data Structure. Frame Data:. Dynamic data that can change every frame.  
+帧数据。实时链接转换 帧数据结构。帧数据：。动态数据，每一帧都可以改变。  
 
 ## Outputs
 
-Live Link Transform Blueprint Data: Live Link Transform Blueprint Data Structure.
-
+现场链接转换蓝图数据。现场链接转换蓝图数据结构。

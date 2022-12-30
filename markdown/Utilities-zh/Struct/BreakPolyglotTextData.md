@@ -1,6 +1,6 @@
 # BreakPolyglotTextData
 
-Adds a node that breaks a 'PolyglotTextData' into its member fields
+添加一个节点，将 "PolyglotTextData "分解成其成员字段。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'PolyglotTextData' into its member fields
 
 ## Inputs
 
-Polyglot Text Data: Polyglot Text Data Structure (by ref).  
+Polyglot文本数据。Polyglot Text Data Structure (by ref).  
 
 ## Outputs
 
-Category: ELocalizedTextSourceCategory Enum. Category:. The category of this polyglot data.. @note This affects when and how the data is loaded into the text localization manager..
+类别。ELocalizedTextSourceCategory枚举。类别：。这个多语言数据的类别。@注 这将影响数据何时以及如何被加载到文本本地化管理器中。
 
-Native Culture: String. Native Culture:. The native culture of this polyglot data.. @note This may be empty, and if empty, will be inferred from the native culture of the text category..
+乡土文化。绳子.本土文化：.这个多语言数据的本土文化.@注 这可能是空的，如果是空的，将从文本类别的本土文化中推断出来。
 
-Namespace: String. Namespace:. The namespace of the text created from this polyglot data.. @note This may be empty..
+名称空间。字符串。命名空间:.由该多语言数据创建的文本的名称空间...@注 这可能是空的.
 
-Key: String. Key:. The key of the text created from this polyglot data.. @note This must not be empty..
+钥匙。弦乐。Key:.从这个多义词数据中创建的文本的键。@note 这个不能是空的。
 
-Native String: String. Native String:. The native string for this polyglot data.. @note This must not be empty (it should be the same as the originally authored text you are trying to replace)..
+本地字符串。字符串.原生字符串:.这个多语言数据的本地字符串...@note 这个不能是空的（应该和你要替换的原作者的文本一样）。
 
-Localized Strings: Map of Strings to Strings. Localized Strings:. Mapping between a culture code and its localized string.. @note The native culture may also have a translation in this map..
+本地化的字符串。琴弦与琴弦的地图。本地化字符串：.文化代码和其本地化字符串之间的映射。@注 本土文化在此映射中也可能有一个翻译。
 
-Is Minimal Patch: Boolean. Is Minimal Patch:. True if this polyglot data is a minimal patch, and that missing translations should be. ignored (falling back to any LocRes data) rather than falling back to the native string..
-
+是最小的补丁。Boolean.Is Minimal Patch:.如果这个多语言数据是一个最小的补丁，并且缺失的翻译应该被.忽略（回落到任何LocRes数据）而不是回落到本地字符串，则为真。

@@ -1,6 +1,6 @@
 # BreakPostProcessSettings
 
-Adds a node that breaks a 'PostProcessSettings' into its member fields
+添加一个节点，将'PostProcessSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,7 +8,6 @@ Adds a node that breaks a 'PostProcessSettings' into its member fields
 
 ## Inputs
 
-Post Process Settings: Post Process Settings Structure (by ref).  
+后期流程设置。后期流程设置结构（按参考）。  
 
 ## Outputs
-

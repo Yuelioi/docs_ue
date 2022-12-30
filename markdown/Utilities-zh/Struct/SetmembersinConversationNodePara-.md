@@ -1,6 +1,6 @@
 # SetmembersinConversationNodePara-
 
-Adds a node that modifies a 'ConversationNodeParameterPair'
+添加一个修改'ConversationNodeParameterPair'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ConversationNodeParameterPair'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Conversation Node Parameter Pair Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Conversation Node Parameter Pair Structure (by ref). Reference to the input struct.
-
+结构出来。对话节点参数对结构（通过ref）。对输入结构的引用。

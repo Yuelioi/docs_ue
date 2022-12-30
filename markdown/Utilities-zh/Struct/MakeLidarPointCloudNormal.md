@@ -1,6 +1,6 @@
 # MakeLidarPointCloudNormal
 
-Adds a node that create a 'LidarPointCloudNormal' from its members
+添加一个节点，从其成员中创建一个 "LidarPointCloudNormal"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'LidarPointCloudNormal' from its members
 
 ## Inputs
 
-X: Byte. X.
+X: 字节。X.
 
-Y: Byte. Y.
+Y: 字节。Y.
 
-Z: Byte. Z.  
+Z: 字节。Z.
 
 ## Outputs
 
-Lidar Point Cloud Normal: Lidar Point Cloud Normal Structure.
-
+激光雷达点云法线。激光雷达点云法线结构。

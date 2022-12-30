@@ -1,6 +1,6 @@
 # SetmembersinCameraExposureSettin-
 
-Adds a node that modifies a 'CameraExposureSettings'
+添加一个修改 "CameraExposureSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CameraExposureSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Camera Exposure Settings Structure (by ref).  
+结构参考：相机曝光设置结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Camera Exposure Settings Structure (by ref). Reference to the input struct.
-
+结构出来。相机曝光设置结构（通过引用）。对输入结构的引用。

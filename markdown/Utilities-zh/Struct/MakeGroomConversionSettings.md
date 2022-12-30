@@ -1,6 +1,6 @@
 # MakeGroomConversionSettings
 
-Adds a node that create a 'GroomConversionSettings' from its members
+添加一个节点，从其成员中创建一个 "GroomConversionSettings"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'GroomConversionSettings' from its members
 
 ## Inputs
 
-Rotation: Vector. Rotation:. Rotation in Euler angles in degrees to fix up or front axes.
+旋转。矢量。旋转：。以欧拉角为单位的旋转，用度数来固定上轴或前轴。
 
-Scale: Vector. Scale:. Scale value to convert file unit into centimeters.  
+规模。矢量。刻度：。将文件单位转换为厘米的比例值。  
 
 ## Outputs
 
-Groom Conversion Settings: Groom Conversion Settings Structure.
-
+新郎转换设置。新郎转换设置结构。

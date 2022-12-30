@@ -1,6 +1,6 @@
 # SetmembersinLiveLinkTransformBlu-
 
-Adds a node that modifies a 'LiveLinkTransformBlueprintData'
+添加一个修改 "LiveLinkTransformBlueprintData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'LiveLinkTransformBlueprintData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Live Link Transform Blueprint Data Structure (by ref).  
+Struct Ref: Live Link Transform Blueprint Data Structure（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Live Link Transform Blueprint Data Structure (by ref). Reference to the input struct.
-
+结构出来。Live Link Transform Blueprint数据结构（通过ref）。对输入结构的引用。

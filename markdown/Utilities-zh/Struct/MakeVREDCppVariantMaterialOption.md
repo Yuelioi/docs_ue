@@ -1,6 +1,6 @@
 # MakeVREDCppVariantMaterialOption
 
-Adds a node that create a 'VREDCppVariantMaterialOption' from its members
+添加一个节点，从其成员中创建一个'VREDCppVariantMaterialOption'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'VREDCppVariantMaterialOption' from its members
 
 ## Inputs
 
-Name: String. Name.  
+名称: 字符串。名称。  
 
 ## Outputs
 
-VREDCpp Variant Material Option: VREDCpp Variant Material Option Structure.
-
+VREDCpp变体材料选项。VREDCpp变体材料选项结构。

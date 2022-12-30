@@ -1,6 +1,6 @@
 # MakeGeometryScriptPrimitiveOptio-
 
-Adds a node that create a 'GeometryScriptPrimitiveOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptPrimitiveOptions'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'GeometryScriptPrimitiveOptions' from its members
 
 ## Inputs
 
-Polygroup Mode: EGeometryScriptPrimitivePolygroupMode Enum. Polygroup Mode.
+多组模式。EGeometryScriptPrimitivePolygroupMode枚举。多组模式。
 
-Flip Orientation: Boolean. Flip Orientation.
+翻转方向。布尔型。翻转方向。
 
-UVMode: EGeometryScriptPrimitiveUVMode Enum. UVMode.  
+UVMode。EGeometryScriptPrimitiveUVMode Enum.UVMode。  
 
 ## Outputs
 
-Geometry Script Primitive Options: Geometry Script Primitive Options Structure.
-
+Geometry Script Primitive Options:Geometry Script Primitive Options结构。

@@ -1,6 +1,6 @@
 # BreakHairSimulationSolver
 
-Adds a node that breaks a 'HairSimulationSolver' into its member fields
+添加一个节点，将'HairSimulationSolver'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'HairSimulationSolver' into its member fields
 
 ## Inputs
 
-Hair Simulation Solver: Hair Simulation Solver Structure (by ref).  
+头发模拟求解器：头发模拟求解器结构（由参考文献）。  
 
 ## Outputs
 
-Enable Simulation: Boolean. Enable Simulation:. Enable the simulation of the groom groups/LODs if both this boolean and the one in the groom asset are true.
-
+启用模拟。布尔型。启用模拟：。如果这个布尔值和新郎资产中的布尔值都为真，则启用新郎组/LODs的模拟。

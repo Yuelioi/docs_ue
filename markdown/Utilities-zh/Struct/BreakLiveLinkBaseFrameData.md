@@ -1,6 +1,6 @@
 # BreakLiveLinkBaseFrameData
 
-Adds a node that breaks a 'LiveLinkBaseFrameData' into its member fields
+添加一个节点，将 "LiveLinkBaseFrameData "分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'LiveLinkBaseFrameData' into its member fields
 
 ## Inputs
 
-Live Link Base Frame Data: Live Link Base Frame Data Structure (by ref).  
+实时链接基本框架数据。实时链接基本框架数据结构（由参考）。  
 
 ## Outputs
 
-Meta Data: Live Link Meta Data Structure. Meta Data:. Frame's metadata..
+元数据。现场链接元数据结构。元数据：。框架的元数据.
 
-Property Values: Array of Float (single-precision)s. Property Values:. Values of the properties defined in the static structure. Use FLiveLinkBaseStaticData.FindPropertyValue to evaluate..
-
+属性值。Float (single-precision)s阵列。属性值：。在静态结构中定义的属性值。使用FLiveLinkBaseStaticData.FindPropertyValue来评估。

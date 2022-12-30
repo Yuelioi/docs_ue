@@ -1,6 +1,6 @@
 # MakeDisplayClust-_5
 
-Adds a node that create a 'DisplayClusterConfigurationICVFX_CameraMotionBlurOverridePPS' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationICVFX_CameraMotionBlurOverridePPS"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'DisplayClusterConfigurationICVFX_CameraMotionBlurOver
 
 ## Inputs
 
-Enable Settings Override: Boolean. Replace Enable:. If enabled, override the overall motion blur settings that would otherwise come from the current post-process volume or Cine Camera..
+启用设置重写。布尔值。替换启用：。如果启用，将覆盖整个运动模糊的设置，否则将来自当前的后期处理卷或Cine Camera。
 
-Intensity: Float (single-precision). Motion Blur Amount:. Strength of motion blur, 0:off..
+强度。浮点（单精度）。运动模糊量：。运动模糊的强度，0:关闭。
 
-Max: Float (single-precision). Motion Blur Max:. Max distortion caused by motion blur in percent of the screen width, 0:off.
+最大值：浮点（单精度）。Motion Blur Max:.运动模糊造成的最大失真，占屏幕宽度的百分比，0：关闭。
 
-Per Object Size: Float (single-precision). Motion Blur Per Object Size:. The minimum projected screen radius for a primitive to be drawn in the velocity pass.Percentage of screen width, smaller numbers cause more draw calls, default: 4 %.  
+每个对象的大小。浮点（单精度）。每物体大小的运动模糊：。在速度传递中要绘制的基元的最小投影屏幕半径。屏幕宽度的百分比，较小的数字会导致更多的绘制调用，默认：4 %。  
 
 ## Outputs
 
-Display Cluster Configuration ICVFX Camera Motion Blur Override PPS: Display Cluster Configuration ICVFX Camera Motion Blur Override PPS Structure.
-
+Display Cluster Configuration ICVFX Camera Motion Blur Override PPS: 显示集群配置 ICVFX Camera Motion Blur Override PPS 结构。

@@ -1,6 +1,6 @@
 # MakeContentBrowserDataObjectFilt-
 
-Adds a node that create a 'ContentBrowserDataObjectFilter' from its members
+添加一个节点，从其成员中创建一个'ContentBrowserDataObjectFilter'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'ContentBrowserDataObjectFilter' from its members
 
 ## Inputs
 
-Object Names To Include: Array of Names. Object Names to Include:. Array of object names that should be included in this query.
+要包括的对象名称。阵列的名称。要包括的对象名称：.应该包括在这个查询中的对象名称的数组。
 
-Object Names To Exclude: Array of Names. Object Names to Exclude:. Array of object names that should be excluded from this query.
+要排除的对象名称。名称的数组。要排除的对象名称：.应该从这个查询中排除的对象名称的数组。
 
-On Disk Objects Only: Boolean. On Disk Objects Only:. Whether we should only include on-disk objects (ignoring those that exist only in memory).  
+仅在磁盘对象上。布尔值。On Disk Objects Only:.我们是否应该只包括磁盘上的对象（忽略那些只存在于内存中的对象）。  
 
 ## Outputs
 
-Content Browser Data Object Filter: Content Browser Data Object Filter Structure.
-
+内容浏览器数据对象过滤器。内容浏览器数据对象过滤器结构。

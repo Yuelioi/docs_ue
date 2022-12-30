@@ -1,6 +1,6 @@
 # MakeNodalPointOffset
 
-Adds a node that create a 'NodalPointOffset' from its members
+添加一个节点，从其成员中创建一个'NodalPointOffset'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'NodalPointOffset' from its members
 
 ## Inputs
 
-Location Offset: Vector. Location Offset.
+位置偏移。向量。位置偏移。
 
-Rotation Offset: Quat Structure. Rotation Offset.  
+旋转偏移。Quat结构。旋转偏移。  
 
 ## Outputs
 
-Nodal Point Offset: Nodal Point Offset Structure.
-
+节点偏移。节点偏移结构。

@@ -1,6 +1,6 @@
 # SetmembersinSphericalPontoon
 
-Adds a node that modifies a 'SphericalPontoon'
+添加一个修改 "SphericalPontoon "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SphericalPontoon'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Spherical Pontoon Structure (by ref).  
+结构参考：球形浮桥结构（由参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Spherical Pontoon Structure (by ref). Reference to the input struct.
-
+结构出来。球形浮桥结构（通过引用）。对输入结构的引用。

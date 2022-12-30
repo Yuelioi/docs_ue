@@ -1,6 +1,6 @@
 # MakeWaveFunctionCollapseQueueEle-
 
-Adds a node that create a 'WaveFunctionCollapseQueueElement' from its members
+添加一个节点，从其成员中创建一个'WaveFunctionCollapseQueueElement'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'WaveFunctionCollapseQueueElement' from its members
 
 ## Inputs
 
-Center Object Index: Integer. Center Object Index.
+中心对象索引。整数。中心对象索引。
 
-Adjacency: EWaveFunctionCollapseAdjacency Enum. Adjacency.  
+相邻关系。EWaveFunctionCollapseAdjacency Enum.邻接性。  
 
 ## Outputs
 
-Wave Function Collapse Queue Element: Wave Function Collapse Queue Element Structure.
-
+波函数折叠队列元素。波函数折叠队列元素结构。

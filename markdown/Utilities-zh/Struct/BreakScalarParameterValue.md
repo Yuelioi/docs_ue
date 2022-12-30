@@ -1,6 +1,6 @@
 # BreakScalarParameterValue
 
-Adds a node that breaks a 'ScalarParameterValue' into its member fields
+添加一个节点，将'ScalarParameterValue'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ScalarParameterValue' into its member fields
 
 ## Inputs
 
-Scalar Parameter Value: Scalar Parameter Value Structure (by ref).  
+标量参数值。标量参数值结构（通过参考）。  
 
 ## Outputs
 
-Parameter Info: Material Parameter Info Structure. Parameter Info.
+参数信息：材料参数信息结构。参数信息。
 
-Parameter Value: Float (single-precision). Parameter Value.
-
+参数值。Float (single-precision).参数值。

@@ -1,6 +1,6 @@
 # MakeMIDIDeviceInfo
 
-Adds a node that create a 'MIDIDeviceInfo' from its members
+添加一个节点，从其成员中创建一个'MIDIDeviceInfo'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'MIDIDeviceInfo' from its members
 
 ## Outputs
 
-MIDIDevice Info: MIDIDevice Info Structure.
-
+MIDID设备信息。MIDIDevice Info结构。

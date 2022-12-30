@@ -1,6 +1,6 @@
 # MakeContextualAnimIKTargetDefini-
 
-Adds a node that create a 'ContextualAnimIKTargetDefinition' from its members
+添加一个节点，从其成员中创建一个 "ContextualAnimIKTargetDefinition"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'ContextualAnimIKTargetDefinition' from its members
 
 ## Inputs
 
-IKGoal Name: Name. IKGoal Name.
+IKGoal Name: 名称。IKGoal名称。
 
-Bone Name: Name. Bone Name.
+骨骼名称：名称。骨骼名称。
 
-Alpha Curve Name: Name. Alpha Curve Name.
+阿尔法曲线的名称。名称。阿尔法曲线的名称。
 
-Provider: EContextualAnimIKTargetProvider Enum. Provider.
+提供者。EContextualAnimIKTargetProvider Enum.提供者。
 
-Auto Params: Contextual Anim IKTarget Bone Params Structure. Auto Params:. @TODO: Hide from the UI when Type != Auto.
+Auto Params:Contextual Anim IKTarget Bone Params Structure.Auto Params:.@TODO: 当Type != Auto时从UI中隐藏。
 
-Bone Params: Contextual Anim IKTarget Bone Params Structure. Bone Params:. @TODO: Hide from the UI when Type != Bone.  
+Bone Params:上下文的Anim IKTarget Bone Params结构。Bone Params:.@TODO: 当Type != Bone.时从UI中隐藏。  
 
 ## Outputs
 
-Contextual Anim IKTarget Definition: Contextual Anim IKTarget Definition Structure.
-
+语境动画 IKT目标定义:语境动画 IKTarget 定义结构。

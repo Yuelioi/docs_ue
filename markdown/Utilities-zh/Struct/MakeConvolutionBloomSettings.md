@@ -1,6 +1,6 @@
 # MakeConvolutionBloomSettings
 
-Adds a node that create a 'ConvolutionBloomSettings' from its members
+添加一个节点，从其成员中创建一个 "ConvolutionBloomSettings"。
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that create a 'ConvolutionBloomSettings' from its members
 
 ## Inputs
 
-Convolution Kernel: Texture 2D Object Reference. Texture:. Texture to replace default convolution bloom kernel.
+卷积核。纹理2D对象参考。纹理：。替换默认的卷积Bloom内核的纹理。
 
-Scatter Dispersion: Float (single-precision). Scatter Dispersion:. Intensity multiplier on the scatter dispersion energy of the kernel. 1.0 means exactly use the same energy as the kernel scatter dispersion..
+散射色散。Float (single-precision).Scatter Dispersion:.内核散射色散能量的强度乘数。1.0表示完全使用与内核散射色散相同的能量。
 
-Convolution Scale: Float (single-precision). Size:. Relative size of the convolution kernel image compared to the minor axis of the viewport.
+卷积比例。Float（单精度）。大小：。与视口的小轴相比，卷积核图像的相对大小。
 
-Convolution Center: Vector 2D Structure. Center UV:. The UV location of the center of the kernel. Should be very close to (.5,.5).
+卷积中心。矢量2D结构。Center UV：。内核中心的UV位置。应该非常接近于（.5,.5）。
 
-Convolution Boost Min: Float (single-precision). Pre Filter Min:. Boost intensity of select pixels prior to computing bloom convolution (Min, Max, Multiplier). Max < Min disables.
+Convolution Boost Min:Float（单精度）。预过滤最小值：。在计算绽放卷积之前，提高选定像素的强度（最小、最大、乘数）。Max < Min 禁用。
 
-Convolution Boost Max: Float (single-precision). Pre Filter Max:. Boost intensity of select pixels prior to computing bloom convolution (Min, Max, Multiplier). Max < Min disables.
+Convolution Boost Max: Float（单精度）。预过滤最大值：。在计算绽放卷积之前，提高选定像素的强度（最小、最大、乘数）。Max < Min 禁用。
 
-Convolution Boost Mult: Float (single-precision). Pre Filter Mult:. Boost intensity of select pixels prior to computing bloom convolution (Min, Max, Multiplier). Max < Min disables.
+Convolution Boost Mult:Float（单精度）。预过滤Mult:。在计算绽放卷积之前，提高选定像素的强度（最小、最大、乘数）。Max < Min 禁用。
 
-Convolution Buffer: Float (single-precision). Buffer Scale:. Implicit buffer region as a fraction of the screen size to insure the bloom does not wrap across the screen. Larger sizes have perf impact..  
+卷积缓冲区。Float (single-precision).缓冲区比例：。隐含的缓冲区是屏幕大小的一部分，以确保bloom不会在屏幕上缠绕。较大的尺寸会影响性能。
 
 ## Outputs
 
-Convolution Bloom Settings: Convolution Bloom Settings Structure.
-
+卷积布隆设置。卷积布隆设置结构。

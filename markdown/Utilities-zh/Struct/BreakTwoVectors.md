@@ -1,6 +1,6 @@
 # BreakTwoVectors
 
-Adds a node that breaks a 'TwoVectors' into its member fields
+添加一个节点，将'TwoVectors'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'TwoVectors' into its member fields
 
 ## Inputs
 
-Two Vectors: Two Vectors Structure (by ref).  
+两个矢量。两个向量的结构（由参考文献）。  
 
 ## Outputs
 
-V 1: Vector. V 1.
+V 1: 向量。V 1.
 
-V 2: Vector. V 2.
-
+V 2: 向量。V 2.

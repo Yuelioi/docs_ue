@@ -1,6 +1,6 @@
 # BreakGeometryScriptDebugMessage
 
-Adds a node that breaks a 'GeometryScriptDebugMessage' into its member fields
+添加一个节点，将'GeometryScriptDebugMessage'分解到其成员字段中。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'GeometryScriptDebugMessage' into its member fields
 
 ## Inputs
 
-Geometry Script Debug Message: Geometry Script Debug Message Structure (by ref).  
+Geometry Script Debug Message:Geometry Script Debug Message结构（按参考）。  
 
 ## Outputs
 
-Message Type: EGeometryScriptDebugMessageType Enum. Message Type.
+消息类型。EGeometryScriptDebugMessageType枚举。消息类型。
 
-Error Type: EGeometryScriptErrorType Enum. Error Type.
+错误类型。EGeometryScriptErrorType枚举。错误类型。
 
-Message: Text. Message.
-
+留言：文字。信息。

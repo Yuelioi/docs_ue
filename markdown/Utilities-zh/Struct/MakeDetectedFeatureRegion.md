@@ -1,6 +1,6 @@
 # MakeDetectedFeatureRegion
 
-Adds a node that create a 'DetectedFeatureRegion' from its members
+添加一个节点，从其成员中创建一个 "DetectedFeatureRegion"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DetectedFeatureRegion' from its members
 
 ## Outputs
 
-Detected Feature Region: Detected Feature Region Structure.
-
+检测到的特征区域。检测到的特征区域结构。

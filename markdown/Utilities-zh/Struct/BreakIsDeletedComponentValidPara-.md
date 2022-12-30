@@ -1,6 +1,6 @@
 # BreakIsDeletedComponentValidPara-
 
-Adds a node that breaks a 'IsDeletedComponentValidParams' into its member fields
+添加一个打破'IsDeletedComponentValidParams'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'IsDeletedComponentValidParams' into its member fields
 
 ## Inputs
 
-Is Deleted Component Valid Params: Is Deleted Component Valid Params Structure (by ref).  
+Is Deleted Component Valid Params:Is Deleted Component Valid Params Structure (by ref).  
 
 ## Outputs
 
-Deleted Component: Actor Component Object Reference. Deleted Component:. This component was removed from the actor. This instance exists in a transient snapshot world; it does not exist in the editor world..
+被删除的组件。Actor Component Object Reference.删除的组件：。这个组件已经从角色中删除。这个实例存在于一个瞬时快照世界中；它不存在于编辑世界中。
 
-Editor Actor: Actor Object Reference. Editor Actor:. The actor the component was removed from; This instance exists in the editor world..
-
+编辑演员。演员对象参考。Editor Actor:.组件被移除的角色；该实例存在于编辑器世界中。

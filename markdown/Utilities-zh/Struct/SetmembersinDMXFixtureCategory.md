@@ -1,6 +1,6 @@
 # SetmembersinDMXFixtureCategory
 
-Adds a node that modifies a 'DMXFixtureCategory'
+添加一个修改 "DMXFixtureCategory "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXFixtureCategory'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: DMXFixture Category Structure (by ref).  
+结构参考：DMXFixture类别结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMXFixture Category Structure (by ref). Reference to the input struct.
-
+结构输出。DMXFixture类别结构（通过参考）。对输入结构的引用。

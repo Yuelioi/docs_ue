@@ -1,6 +1,6 @@
 # SetmembersinFloatRangeBound
 
-Adds a node that modifies a 'FloatRangeBound'
+添加一个修改 "FloatRangeBound "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'FloatRangeBound'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Float Range Bound Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Float Range Bound Structure (by ref). Reference to the input struct.
-
+结构输出。Float Range Bound Structure（通过ref）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # BreakMatrix
 
-Adds a node that breaks a 'Matrix' into its member fields
+添加一个节点，将 "矩阵 "分解成其成员字段。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'Matrix' into its member fields
 
 ## Inputs
 
-Matrix: Matrix Structure (by ref).  
+矩阵。矩阵结构（按参考）。  
 
 ## Outputs
 
-XPlane: Plane Structure. XPlane.
+XPlane。平面结构。XPlane.
 
-YPlane: Plane Structure. YPlane.
+YPlane:平面结构。YPlane.
 
-ZPlane: Plane Structure. ZPlane.
+ZPlane: 平面结构。ZPlane。
 
-WPlane: Plane Structure. WPlane.
-
+WPlane:平面结构。WPlane.

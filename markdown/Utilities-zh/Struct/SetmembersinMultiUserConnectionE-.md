@@ -1,6 +1,6 @@
 # SetmembersinMultiUserConnectionE-
 
-Adds a node that modifies a 'MultiUserConnectionError'
+添加一个修改'MultiUserConnectionError'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MultiUserConnectionError'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Multi User Connection Error Structure (by ref).  
+结构参考：多用户连接错误结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Multi User Connection Error Structure (by ref). Reference to the input struct.
-
+结构出来。多用户连接错误结构（通过引用）。对输入结构的引用。

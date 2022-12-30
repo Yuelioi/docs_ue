@@ -1,6 +1,6 @@
 # SetmembersinPoseSearchChannelDyn-
 
-Adds a node that modifies a 'PoseSearchChannelDynamicWeightParams'
+添加一个修改 "PoseSearchChannelDynamicWeightParams "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'PoseSearchChannelDynamicWeightParams'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Pose Search Channel Dynamic Weight Params Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Pose Search Channel Dynamic Weight Params Structure (by ref). Reference to the input struct.
-
+结构出来。姿势搜索通道动态权重参数结构（通过参考）。对输入结构的引用。

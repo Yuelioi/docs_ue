@@ -1,6 +1,6 @@
 # SetmembersinSmartObjectSlotIndex
 
-Adds a node that modifies a 'SmartObjectSlotIndex'
+添加一个修改 "SmartObjectSlotIndex "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SmartObjectSlotIndex'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Smart Object Slot Index Structure (by ref).  
+Struct Ref: 智能对象槽位索引结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Smart Object Slot Index Structure (by ref). Reference to the input struct.
-
+结构出来。智能对象槽位索引结构（通过引用）。对输入结构的引用。

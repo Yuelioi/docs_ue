@@ -1,6 +1,6 @@
 # BreakTagAndValue
 
-Adds a node that breaks a 'TagAndValue' into its member fields
+添加一个节点，将 "TagAndValue "分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'TagAndValue' into its member fields
 
 ## Inputs
 
-Tag and Value: Tag And Value Structure (by ref).  
+标签和价值。标签和价值结构（由参考）。  
 
 ## Outputs
 
-Tag: Name. Tag.
+标签：名称。标记。
 
-Value: String. Value.
-
+价值。字符串。价值。

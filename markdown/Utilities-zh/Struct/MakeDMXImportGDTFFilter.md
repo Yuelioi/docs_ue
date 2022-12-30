@@ -1,6 +1,6 @@
 # MakeDMXImportGDTFFilter
 
-Adds a node that create a 'DMXImportGDTFFilter' from its members
+添加一个节点，从其成员中创建一个 "DMXImportGDTFF过滤器"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXImportGDTFFilter' from its members
 
 ## Outputs
 
-DMXImport GDTFFilter: DMXImport GDTFFilter Structure.
-
+DMXImport GDTFFilter。DMXImport GDTFFilter结构。

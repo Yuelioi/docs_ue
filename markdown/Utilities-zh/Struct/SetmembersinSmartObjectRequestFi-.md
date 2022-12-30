@@ -1,6 +1,6 @@
 # SetmembersinSmartObjectRequestFi-
 
-Adds a node that modifies a 'SmartObjectRequestFilter'
+添加一个修改 "SmartObjectRequestFilter "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SmartObjectRequestFilter'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Smart Object Request Filter Structure (by ref).  
+结构参考：智能对象请求过滤结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Smart Object Request Filter Structure (by ref). Reference to the input struct.
-
+结构出来。智能对象请求过滤结构（通过引用）。对输入结构的引用。

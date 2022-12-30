@@ -1,6 +1,6 @@
 # MakeSourceEffectChorusBaseSettin-
 
-Adds a node that create a 'SourceEffectChorusBaseSettings' from its members
+添加一个节点，从其成员中创建一个 "SourceEffectChorusBaseSettings"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'SourceEffectChorusBaseSettings' from its members
 
 ## Inputs
 
-Depth: Float (single-precision). Depth:. The depth of the chorus effect.
+深度。Float（单精度）。深度：。合唱效果的深度。
 
-Frequency: Float (single-precision). Frequency:. The frequency of the chorus effect.
+频率。Float (single-precision).频率：。合唱效果的频率。
 
-Feedback: Float (single-precision). Feedback:. The feedback of the chorus effect.
+反馈。Float（单精度）。反馈：。合唱效果的反馈。
 
-Wet Level: Float (single-precision). Wet Level:. The wet level of the chorus effect.
+湿水平。浮点（单精度）。湿电平：。合唱效果的湿电平。
 
-Dry Level: Float (single-precision). Dry Level:. The dry level of the chorus effect.
+干燥程度。浮点（单精度）。干电平：。合唱效果的干电平。
 
-Spread: Float (single-precision). Spread:. The spread of the effect (larger means greater difference between left and right delay lines).  
+传播。Float（单精度）。扩散：。效果的扩散（越大意味着左右延迟线之间的差异越大）。  
 
 ## Outputs
 
-Source Effect Chorus Base Settings: Source Effect Chorus Base Settings Structure.
-
+源效果合唱团基础设置。源效果合唱团基础设置结构。

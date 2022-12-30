@@ -1,6 +1,6 @@
 # SetmembersinRemoteControlOptiona-
 
-Adds a node that modifies a 'RemoteControlOptionalExposeArgs'
+添加一个修改 "RemoteControlOptionalExposeArgs "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RemoteControlOptionalExposeArgs'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Remote Control Optional Expose Args Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Remote Control Optional Expose Args Structure (by ref). Reference to the input struct.
-
+结构出来。远程控制可选择的暴露Args结构（通过ref）。对输入结构的引用。

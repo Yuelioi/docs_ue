@@ -1,6 +1,6 @@
 # MakeRemoteControlActor
 
-Adds a node that create a 'RemoteControlActor' from its members
+添加一个节点，从其成员中创建一个 "远程控制角色"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RemoteControlActor' from its members
 
 ## Outputs
 
-Remote Control Actor: Remote Control Actor Structure.
-
+遥控演员。遥控演员结构。

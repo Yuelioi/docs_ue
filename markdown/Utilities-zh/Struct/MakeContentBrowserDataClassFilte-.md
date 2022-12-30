@@ -1,6 +1,6 @@
 # MakeContentBrowserDataClassFilte-
 
-Adds a node that create a 'ContentBrowserDataClassFilter' from its members
+添加一个节点，从其成员中创建一个 "ContentBrowserDataClassFilter"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'ContentBrowserDataClassFilter' from its members
 
 ## Inputs
 
-Class Names To Include: Array of Names. Class Names to Include:. Array of class names that should be included in this query.
+要包括的类名。阵列的名称。要包括的类名：。应该包括在这个查询中的类名称的数组。
 
-Class Names To Exclude: Array of Names. Class Names to Exclude:. Array of class names that should be excluded from this query.
+要排除的类名。阵列的名称。排除的类名：。应从该查询中排除的类名称数组。
 
-Recursive Class Names To Include: Boolean. Recursive Class Names to Include:. Whether we should include inclusive sub-classes in this query.
+递归类名称要包括。Boolean.递归类名称包括：。我们是否应该在这个查询中包含子类。
 
-Recursive Class Names To Exclude: Boolean. Recursive Class Names to Exclude:. Whether we should include exclusive sub-classes in this query.  
+要排除的递归类名。布尔型。要排除的递归类名：。我们是否应该在这个查询中包括专属子类。  
 
 ## Outputs
 
-Content Browser Data Class Filter: Content Browser Data Class Filter Structure.
-
+内容浏览器数据类过滤器。内容浏览器数据类过滤器结构。

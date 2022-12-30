@@ -1,6 +1,6 @@
 # MakeOpenColorIODisplayConfigurat-
 
-Adds a node that create a 'OpenColorIODisplayConfiguration' from its members
+添加一个节点，从其成员中创建一个 "OpenColorIODisplayConfiguration"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'OpenColorIODisplayConfiguration' from its members
 
 ## Inputs
 
-Is Enabled: Boolean. Is Enabled:. Whether or not this display configuration is enabled. Since display look are applied on viewports, this will. dictate whether it's applied or not to it.
+是否启用。布尔型。Is Enabled:.这个显示配置是否被启用。因为显示外观是应用在视口上的，这将.决定它是否被应用到视口上。
 
-Color Configuration: Open Color IOColor Conversion Settings Structure. Color Configuration:. Conversion to apply when this display is enabled.  
+颜色配置。打开颜色IOC颜色转换设置结构。颜色配置：。启用此显示时要应用的转换。  
 
 ## Outputs
 
-Open Color IODisplay Configuration: Open Color IODisplay Configuration Structure.
-
+开放式彩色 IODisplay 配置。开放式彩色IOD显示配置结构。

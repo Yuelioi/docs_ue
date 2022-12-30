@@ -1,6 +1,6 @@
 # MakeColor
 
-Adds a node that create a 'Color' from its members
+添加一个节点，从其成员中创建一个 "颜色"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'Color' from its members
 
 ## Inputs
 
-B: Byte. B.
+B: 字节。B.
 
-G: Byte. G.
+G: 字节。G.
 
-R: Byte. R.
+R: 字节。R.
 
-A: Byte. A.  
+A: 字节。A.
 
 ## Outputs
 
-Color: Color Structure.
-
+颜色：颜色结构。

@@ -1,6 +1,6 @@
 # SetmembersinInheritedTagContaine-
 
-Adds a node that modifies a 'InheritedTagContainer'
+添加一个修改 "InheritedTagContainer "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InheritedTagContainer'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Inherited Tag Container Structure (by ref).  
+结构参考：继承的标签容器结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Inherited Tag Container Structure (by ref). Reference to the input struct.
-
+Struct Out: 继承的标签容器结构（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeControlRigExecuteContext
 
-Adds a node that create a 'ControlRigExecuteContext' from its members
+添加一个节点，从其成员中创建一个 "ControlRigExecuteContext"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ControlRigExecuteContext' from its members
 
 ## Outputs
 
-Control Rig Execute Context: Control Rig Execute Context Structure.
-
+控制钻机执行语境。控制钻机执行上下文结构。

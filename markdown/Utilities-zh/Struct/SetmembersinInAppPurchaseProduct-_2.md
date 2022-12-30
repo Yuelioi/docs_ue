@@ -1,6 +1,6 @@
 # SetmembersinInAppPurchaseProduct-_2
 
-Adds a node that modifies a 'InAppPurchaseProductRequest'
+添加一个节点，修改 "InAppPurchaseProductRequest"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InAppPurchaseProductRequest'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: In App Purchase Product Request Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: In App Purchase Product Request Structure (by ref). Reference to the input struct.
-
+Struct Out: In App Purchase Product Request Structure (by ref).对输入结构的引用。

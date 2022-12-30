@@ -1,6 +1,6 @@
 # SetmembersinCommonInputActionHan-
 
-Adds a node that modifies a 'CommonInputActionHandlerData'
+添加一个修改 "CommonInputActionHandlerData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CommonInputActionHandlerData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Common Input Action Handler Data Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Common Input Action Handler Data Structure (by ref). Reference to the input struct.
-
+Struct Out:普通输入动作处理程序数据结构（通过引用）。对输入结构的引用。

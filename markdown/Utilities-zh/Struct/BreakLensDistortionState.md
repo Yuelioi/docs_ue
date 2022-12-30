@@ -1,6 +1,6 @@
 # BreakLensDistortionState
 
-Adds a node that breaks a 'LensDistortionState' into its member fields
+添加一个节点，将 "LensDistortionState "分解成其成员字段。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'LensDistortionState' into its member fields
 
 ## Inputs
 
-Lens Distortion State: Lens Distortion State Structure (by ref).  
+镜头失真状态。镜头失真状态结构（通过参考）。  
 
 ## Outputs
 
-Distortion Info: Distortion Info Structure. Distortion Info:. Generic array of distortion parameters.
+失真信息。失真信息结构。失真信息：。扭曲参数的通用数组。
 
-Focal Length Info: Focal Length Info Structure. Focal Length Info:. Normalized focal fength in both dimensions.
+焦距信息。焦距信息结构。焦距信息：。两个维度的归一化焦距。
 
-Image Center: Image Center Info Structure. Image Center:. Normalized center of the image, in the range [0.0f, 1.0f].
-
+图像中心。图片中心信息结构。图像中心：。图像的归一化中心，范围为[0.0f, 1.0f]。

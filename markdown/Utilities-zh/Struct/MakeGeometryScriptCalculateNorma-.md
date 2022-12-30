@@ -1,6 +1,6 @@
 # MakeGeometryScriptCalculateNorma-
 
-Adds a node that create a 'GeometryScriptCalculateNormalsOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptCalculateNormalsOptions"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'GeometryScriptCalculateNormalsOptions' from its membe
 
 ## Inputs
 
-Angle Weighted: Boolean. Angle Weighted.
+角度加权。布尔型。角度加权。
 
-Area Weighted: Boolean. Area Weighted.  
+面积加权。布尔型。面积加权。  
 
 ## Outputs
 
-Geometry Script Calculate Normals Options: Geometry Script Calculate Normals Options Structure.
-
+Geometry Script Calculate Normals Options:Geometry Script Calculate Normals Options 结构。

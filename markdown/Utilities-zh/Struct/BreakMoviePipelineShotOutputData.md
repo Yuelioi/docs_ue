@@ -1,6 +1,6 @@
 # BreakMoviePipelineShotOutputData
 
-Adds a node that breaks a 'MoviePipelineShotOutputData' into its member fields
+添加一个节点，将'MoviePipelineShotOutputData'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'MoviePipelineShotOutputData' into its member fields
 
 ## Inputs
 
-Movie Pipeline Shot Output Data: Movie Pipeline Shot Output Data Structure (by ref).  
+电影管道拍摄的输出数据。电影管道拍摄输出数据结构（按参考）。  
 
 ## Outputs
 
-Shot: Movie Pipeline Executor Shot Weak object. Shot:. Which shot was this output data for?.
+镜头。电影管道执行者拍摄弱小物体。镜头：。这个输出数据是哪个镜头的？
 
-Render Pass Data: Map of Movie Pipeline Pass Identifier Structures to Movie Pipeline Render Pass Output Data Structures. Render Pass Data:. A mapping between render passes (such as 'FinalImage') and an array containing the files written for that shot.. Will be multiple files if using image sequences..
-
+渲染通道数据。电影管道通道标识符结构与电影管道渲染通道输出数据结构的映射。渲染通道数据：。渲染通道（如'FinalImage'）和一个包含为该镜头编写的文件的数组之间的映射。如果使用图像序列，将是多个文件。

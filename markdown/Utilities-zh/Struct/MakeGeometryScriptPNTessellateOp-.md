@@ -1,6 +1,6 @@
 # MakeGeometryScriptPNTessellateOp-
 
-Adds a node that create a 'GeometryScriptPNTessellateOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptPNTessellateOptions"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'GeometryScriptPNTessellateOptions' from its members
 
 ## Inputs
 
-Recompute Normals: Boolean. Recompute Normals.  
+重新计算法线。布尔值。重新计算法线。  
 
 ## Outputs
 
-Geometry Script PNTessellate Options: PN Tessellate Options Structure.
-
+Geometry Script PNTessellate Options:PN Tessellate选项结构。

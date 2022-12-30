@@ -1,6 +1,6 @@
 # MakeEventPayload
 
-Adds a node that create a 'EventPayload' from its members
+添加一个节点，从其成员中创建一个 "EventPayload"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'EventPayload' from its members
 
 ## Inputs
 
-Event Name: Name. Event Name:. The name of the event to trigger.  
+活动名称。名称。事件名称：。要触发的事件的名称。  
 
 ## Outputs
 
-Event Payload: Event Payload Structure.
-
+事件有效载荷。事件有效载荷结构。

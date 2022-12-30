@@ -1,6 +1,6 @@
 # MakeHairGroupsProceduralCards
 
-Adds a node that create a 'HairGroupsProceduralCards' from its members
+添加一个节点，从其成员中创建一个 "HairGroupsProceduralCards"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'HairGroupsProceduralCards' from its members
 
 ## Outputs
 
-Hair Groups Procedural Cards: Hair Groups Procedural Cards Structure.
-
+头发组程序卡。头发组程序卡的结构。

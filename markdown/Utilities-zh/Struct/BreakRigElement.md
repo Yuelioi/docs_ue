@@ -1,6 +1,6 @@
 # BreakRigElement
 
-Adds a node that breaks a 'RigElement' into its member fields
+添加一个节点，将一个'RigElement'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'RigElement' into its member fields
 
 ## Inputs
 
-Rig Element: Rig Element Structure (by ref).  
+钻机元素。钻机元件结构（按参考）。  
 
 ## Outputs
 
-Name: Name. Name.
+姓名：姓名名称。
 
-Index: Integer. Index.
-
+索引。整数。指数。

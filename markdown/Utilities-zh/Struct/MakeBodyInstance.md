@@ -1,6 +1,6 @@
 # MakeBodyInstance
 
-Adds a node that create a 'BodyInstance' from its members
+添加一个节点，从其成员中创建一个 "BodyInstance"。
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that create a 'BodyInstance' from its members
 
 ## Inputs
 
-Sleep Family: ESleepFamily Enum. Sleep Family:. The set of values used in considering when put this body to sleep..
+睡眠家族。ESleepFamily Enum.睡眠家族：。用于考虑何时让这个身体进入睡眠状态的一组值。
 
-Linear Damping: Float (single-precision). Linear Damping:. 'Drag' force added to reduce linear movement.
+线性阻尼。Float（单精度）。线性阻尼：。为减少线性运动而增加的'拖曳'力。
 
-Angular Damping: Float (single-precision). Angular Damping:. 'Drag' force added to reduce angular movement.
+角度阻尼。Float（单精度）。角度阻尼：。增加的'拖曳'力，以减少角度运动。
 
-Center Of Mass Offset: Vector. COMNudge:. User specified offset for the center of mass of this object, from the calculated location.
+质量中心偏移。矢量。COMNudge:。用户指定的该物体的质心偏移，从计算的位置开始。
 
-Mass Scale: Float (single-precision). Mass Scale:. Per-instance scaling of mass.
+质量刻度。Float（单精度）。质量标度：。每一实例的质量比例。
 
-Inertia Tensor Scale: Vector. Inertia Tensor Scale:. Per-instance scaling of inertia (bigger number means it'll be harder to rotate).
+惯性张量表。矢量。惯性张量比例：。惯性的每一实例的比例（更大的数字意味着它将更难旋转）。
 
-Simulate Physics: Boolean. Simulate Physics:. If true, this body will use simulation. If false, will be 'fixed' (ie kinematic) and move where it is told.. For a Skeletal Mesh Component, simulating requires a physics asset setup and assigned on the SkeletalMesh asset.. For a Static Mesh Component, simulating requires simple collision to be setup on the StaticMesh asset..
+模拟物理学。Boolean.模拟物理：。如果是真的，这个身体将使用模拟。如果是假的，将是 "固定 "的（即运动学的），并在它被告知的地方移动。对于骨骼网格组件，模拟需要设置物理资产并分配给骨骼网格资产。对于静态网格组件，模拟需要在StaticMesh资产上设置简单的碰撞。
 
-Auto Weld: Boolean. Auto Weld:. If true and is attached to a parent, the two bodies will be joined into a single rigid body. Physical settings like collision profile and body settings are determined by the root.
+自动焊接。布尔型。自动焊接：。如果为真，并且连接到一个父体，两个体将被连接成一个单一的刚体。碰撞轮廓和体的设置等物理设置由根决定。
 
-Update Mass When Scale Changes: Boolean. Update Mass when Scale Changes:. If true, it will update mass when scale change *.  
+规模变化时更新质量。布尔值。规模变化时更新质量：。如果为真，它将在规模变化时更新质量*。  
 
 ## Outputs
 
-Body Instance: Body Instance Structure.
-
+身体实例。身体实例结构。

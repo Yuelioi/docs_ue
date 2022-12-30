@@ -1,6 +1,6 @@
 # MakeBrushEffectDisplacement
 
-Adds a node that create a 'BrushEffectDisplacement' from its members
+添加一个节点，从其成员中创建一个 "刷子效果位移"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'BrushEffectDisplacement' from its members
 
 ## Inputs
 
-Displacement Height: Float (single-precision). Displacement Height.
+位移高度。浮点数（单精度）。位移高度。
 
-Displacement Tiling: Float (single-precision). Displacement Tiling.
+位移平铺。Float（单精度）。位移平铺法。
 
-Texture: Texture 2D Object Reference. Texture.
+纹理。Texture 2D Object Reference.纹理。
 
-Midpoint: Float (single-precision). Midpoint.
+中点。Float (single-precision).中点。
 
-Channel: Linear Color Structure. Channel.
+通道。线性色彩结构。频道。
 
-Weightmap Influence: Float (single-precision). Weightmap Influence.  
+权重图的影响。Float (single-precision).权重图的影响。  
 
 ## Outputs
 
-Brush Effect Displacement: Brush Effect Displacement Structure.
-
+刷子效应位移。刷子效应位移结构。

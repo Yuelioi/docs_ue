@@ -1,6 +1,6 @@
 # SetmembersinGeometryScriptPNTess-
 
-Adds a node that modifies a 'GeometryScriptPNTessellateOptions'
+添加一个修改 "GeometryScriptPNTessellateOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryScriptPNTessellateOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: PN Tessellate Options Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: PN Tessellate Options Structure (by ref). Reference to the input struct.
-
+结构出来。PN Tessellate选项结构（通过ref）。对输入结构的引用。

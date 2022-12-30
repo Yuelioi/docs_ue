@@ -1,6 +1,6 @@
 # BreakSoundClassAdjuster
 
-Adds a node that breaks a 'SoundClassAdjuster' into its member fields
+添加一个节点，将'SoundClassAdjuster'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'SoundClassAdjuster' into its member fields
 
 ## Inputs
 
-Sound Class Adjuster: Sound Class Adjuster Structure (by ref).  
+声音类调整器。声音类调整器结构（按参考）。  
 
 ## Outputs
 
-Sound Class: Sound Class Object Reference. Sound Class Object:. The sound class this adjuster affects..
+声音类。声音类对象参考。声音类对象：。这个调整器所影响的声音类...
 
-Volume Adjuster: Float (single-precision). Volume Adjuster:. A multiplier applied to the volume..
+音量调节器。浮点（单精度）。音量调节器：。一个应用于音量的乘数。
 
-Pitch Adjuster: Float (single-precision). Pitch Adjuster:. A multiplier applied to the pitch..
+螺距调节器。浮动式（单精度）。Pitch Adjuster:.一个应用于音高的乘数。
 
-Low Pass Filter Frequency: Float (single-precision). Low Pass Filter Frequency:. Lowpass filter cutoff frequency to apply to sound sources..
+低通滤波器频率。浮点数（单精度）。低通滤波频率：。应用于声源的低通滤波器截止频率。
 
-Apply To Children: Boolean. Apply to Children:. Set to true to apply this adjuster to all children of the sound class..
+适用于儿童。Boolean.应用于儿童：。设置为 "true"，将此调整器应用于声音类的所有子代。
 
-Voice Center Channel Volume Adjuster: Float (single-precision). Voice Center Channel Volume Adjuster:. A multiplier applied to VoiceCenterChannelVolume..
-
+语音中心通道音量调节器。浮动（单精度）。语音中心通道音量调节器：。应用于VoiceCenterChannelVolume.的乘数。

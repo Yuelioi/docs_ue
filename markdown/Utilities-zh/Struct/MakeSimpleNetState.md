@@ -1,6 +1,6 @@
 # MakeSimpleNetState
 
-Adds a node that create a 'SimpleNetState' from its members
+添加一个节点，从其成员中创建一个 "简单网络状态"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'SimpleNetState' from its members
 
 ## Inputs
 
-Button Pressed Counter: Integer. Button Pressed Counter.
+按下按钮的计数器。整数。按下按钮的计数器。
 
-Counter: Integer. Counter:. Frame we last applied a kick impulse.  
+计数器。整数。计数器：。我们最后一次应用踢球冲动的帧。  
 
 ## Outputs
 
-Simple Net State: Simple Net State Structure.
-
+简单的网状状态。简单的网状状态结构。

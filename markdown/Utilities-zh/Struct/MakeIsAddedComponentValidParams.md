@@ -1,6 +1,6 @@
 # MakeIsAddedComponentValidParams
 
-Adds a node that create a 'IsAddedComponentValidParams' from its members
+添加一个节点，从其成员中创建一个 "IsAddedComponentValidParams"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'IsAddedComponentValidParams' from its members
 
 ## Outputs
 
-Is Added Component Valid Params: Is Added Component Valid Params Structure.
-
+是否添加了组件的有效参数。是添加的组件有效参数结构。

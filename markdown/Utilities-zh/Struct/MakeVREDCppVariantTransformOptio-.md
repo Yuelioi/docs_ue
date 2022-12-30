@@ -1,6 +1,6 @@
 # MakeVREDCppVariantTransformOptio-
 
-Adds a node that create a 'VREDCppVariantTransformOption' from its members
+添加一个节点，从其成员中创建一个'VREDCppVariantTransformOption'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'VREDCppVariantTransformOption' from its members
 
 ## Inputs
 
-Name: String. Name.
+名称: 字符串。名称。
 
-Transform: Transform. Transform.  
+转变。转变。转变。  
 
 ## Outputs
 
-VREDCpp Variant Transform Option: VREDCpp Variant Transform Option Structure.
-
+VREDCpp变体变换选项：VREDCpp变体变换选项结构。

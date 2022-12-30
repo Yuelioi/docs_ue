@@ -1,6 +1,6 @@
 # SetmembersinDisp-_2
 
-Adds a node that modifies a 'DisplayClusterConfigurationFramePostProcess_OutputRemap'
+添加一个节点，修改 "DisplayClusterConfigurationFramePostProcess_OutputRemap"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DisplayClusterConfigurationFramePostProcess_OutputR
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Display Cluster Configuration Frame Post Process Output Remap Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Display Cluster Configuration Frame Post Process Output Remap Structure (by ref). Reference to the input struct.
-
+结构输出。Display Cluster Configuration Frame Post Process Output Remap Structure（通过ref）。对输入结构的引用。

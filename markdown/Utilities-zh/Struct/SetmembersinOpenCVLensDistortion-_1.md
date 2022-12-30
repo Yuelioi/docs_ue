@@ -1,6 +1,6 @@
 # SetmembersinOpenCVLensDistortion-_1
 
-Adds a node that modifies a 'OpenCVLensDistortionParametersBase'
+添加一个节点，修改 "OpenCVLensDistortionParametersBase"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'OpenCVLensDistortionParametersBase'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Open CVLens Distortion Parameters Base Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Open CVLens Distortion Parameters Base Structure (by ref). Reference to the input struct.
-
+结构出来。Open CVLens Distortion Parameters Base Structure（通过引用）。对输入结构的引用。

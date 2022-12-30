@@ -1,6 +1,6 @@
 # MakeFloatInterval
 
-Adds a node that create a 'FloatInterval' from its members
+添加一个节点，从其成员中创建一个 "FloatInterval"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'FloatInterval' from its members
 
 ## Inputs
 
-Min: Float (single-precision). Min:. Values must be >= Min.
+最小值。Float（单精度）。最小值：。值必须>=最小值。
 
-Max: Float (single-precision). Max:. Values must be <= Max.  
+最大：浮点数（单精度）。最大：。值必须<=Max.  
 
 ## Outputs
 
-Float Interval: Float Interval Structure.
-
+浮动区间。浮动区间结构。

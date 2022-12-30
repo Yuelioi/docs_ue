@@ -1,6 +1,6 @@
 # MakeMovieSceneSequenceLoopCount
 
-Adds a node that create a 'MovieSceneSequenceLoopCount' from its members
+添加一个节点，从其成员中创建一个 "MovieSceneSequenceLoopCount"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'MovieSceneSequenceLoopCount' from its members
 
 ## Inputs
 
-Loop: Integer. Value:. Whether or not to loop playback. If Loop Exactly is chosen, you can specify the number of times to loop.  
+循环。整数。值：。是否循环播放。如果选择Loop Exactly，你可以指定循环的次数。  
 
 ## Outputs
 
-Movie Scene Sequence Loop Count: Movie Scene Sequence Loop Count Structure.
-
+电影场景序列循环计数。电影场景序列循环计数结构。

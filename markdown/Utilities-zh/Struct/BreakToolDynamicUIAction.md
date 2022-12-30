@@ -1,6 +1,6 @@
 # BreakToolDynamicUIAction
 
-Adds a node that breaks a 'ToolDynamicUIAction' into its member fields
+添加一个打破'ToolDynamicUIAction'的节点到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'ToolDynamicUIAction' into its member fields
 
 ## Inputs
 
-Tool Dynamic UIAction: Tool Dynamic UIAction Structure (by ref).  
+工具动态UIAction。工具动态UIAction的结构（通过参考）。  
 
 ## Outputs
 
-Execute Action: Delegate. Execute Action.
-
+执行行动。授权。执行行动。

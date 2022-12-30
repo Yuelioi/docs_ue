@@ -1,6 +1,6 @@
 # SetmembersinScriptTypedElementHa-
 
-Adds a node that modifies a 'ScriptTypedElementHandle'
+添加一个修改 "ScriptTypedElementHandle "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ScriptTypedElementHandle'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Script Typed Element Handle Structure (by ref).  
+Struct Ref: 脚本类型的元素处理结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Script Typed Element Handle Structure (by ref). Reference to the input struct.
-
+结构出来。脚本类型的元素处理结构（通过ref）。对输入结构的引用。

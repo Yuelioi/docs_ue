@@ -1,6 +1,6 @@
 # SetmembersinRichTextIconData
 
-Adds a node that modifies a 'RichTextIconData'
+添加一个修改 "RichTextIconData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RichTextIconData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Rich Text Icon Data Structure (by ref).  
+Struct Ref: 富文本图标数据结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Rich Text Icon Data Structure (by ref). Reference to the input struct.
-
+结构出来。富文本图标数据结构（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeMeshInstancingSettings
 
-Adds a node that create a 'MeshInstancingSettings' from its members
+添加一个节点，从其成员中创建一个 "MeshInstancingSettings"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'MeshInstancingSettings' from its members
 
 ## Inputs
 
-Actor Class To Use: Actor Class Reference. Actor Class to Use:. The actor class to attach new instance static mesh components to.
+要使用的演员类。Actor Class Reference.要使用的角色类：。用于连接新的静态网格组件实例的角色类。
 
-Instance Replacement Threshold: Integer. Instance Replacement Threshold:. The number of static mesh instances needed before a mesh is replaced with an instanced version.
+实例替换阈值。整数。实例替换阈值：。在网格被替换成实例版本之前，需要的静态网格实例数量。
 
-Skip Meshes With Vertex Colors: Boolean. Skip Meshes with Vertex Colors:. Whether to skip the conversion to an instanced static mesh for meshes with vertex colors.. Instanced static meshes do not support vertex colors per-instance, so conversion will lose. this data..
+跳过有顶点颜色的网格。布尔值。跳过有顶点颜色的网格：。对于有顶点颜色的网格，是否跳过转换为实例静态网格。实例静态网格不支持每个实例的顶点颜色，所以转换时会丢失这些数据。
 
-Use HLOD Volumes: Boolean. Use HLODVolumes:. Whether split up instanced static mesh components based on their intersection with HLOD volumes.
+使用HLOD卷。Boolean.Use HLODVolumes:（使用HLOD卷）。是否根据其与HLOD卷的交集来分割实例的静态网格组件。
 
-Select The Type Of Instanced Component: Instanced Static Mesh Component Class Reference. ISMComponent to Use:. Whether to use the Instanced Static Mesh Compoment or the Hierarchical Instanced Static Mesh Compoment.  
+选择实例化组件的类型。Instanced Static Mesh Component类参考。使用的ISMComponent：.是使用Instanced Static Mesh Compoment还是Hierarchical Instanced Static Mesh Compoment。  
 
 ## Outputs
 
-Mesh Instancing Settings: Mesh Instancing Settings Structure.
-
+网格实例设置。网格实例设置结构。

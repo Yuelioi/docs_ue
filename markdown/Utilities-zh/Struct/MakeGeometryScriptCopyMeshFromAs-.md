@@ -1,6 +1,6 @@
 # MakeGeometryScriptCopyMeshFromAs-
 
-Adds a node that create a 'GeometryScriptCopyMeshFromAssetOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptCopyMeshFromAssetOptions'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'GeometryScriptCopyMeshFromAssetOptions' from its memb
 
 ## Inputs
 
-Apply Build Settings: Boolean. Apply Build Settings.
+应用构建设置。布尔值。应用构建设置。
 
-Request Tangents: Boolean. Request Tangents.
+要求切线。布尔值。请求切线。
 
-Ignore Remove Degenerates: Boolean. Ignore Remove Degenerates.  
+忽略删除退化者。布尔型。忽略删除退化者。  
 
 ## Outputs
 
-Geometry Script Copy Mesh from Asset Options: Geometry Script Copy Mesh From Asset Options Structure.
-
+Geometry Script Copy Mesh from Asset Options:Geometry Script Copy Mesh From Asset Options结构。

@@ -1,6 +1,6 @@
 # MakeDMXEntityFixturePatchRef
 
-Adds a node that create a 'DMXEntityFixturePatchRef' from its members
+添加一个节点，从其成员中创建一个 "DMXEntityFixturePatchRef"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXEntityFixturePatchRef' from its members
 
 ## Outputs
 
-DMXEntity Fixture Patch Ref: DMX Fixture Patch Ref Structure.
-
+DMXEntity Fixture Patch Ref: DMX Fixture Patch Ref结构。

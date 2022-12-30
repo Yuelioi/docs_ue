@@ -1,6 +1,6 @@
 # MakeConversationParticipantEntry
 
-Adds a node that create a 'ConversationParticipantEntry' from its members
+添加一个节点，从其成员中创建一个 "ConversationParticipantEntry"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ConversationParticipantEntry' from its members
 
 ## Inputs
 
-Actor: Actor Object Reference. Actor.
+演员。Actor Object Reference.行为者。
 
-Participant ID: Gameplay Tag Structure. Participant ID.  
+参与者ID。游戏性标签结构。参与者ID。  
 
 ## Outputs
 
-Conversation Participant Entry: Conversation Participant Entry Structure.
-
+对话参与者条目。对话参与者条目结构。

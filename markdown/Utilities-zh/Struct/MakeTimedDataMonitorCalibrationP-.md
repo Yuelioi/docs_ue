@@ -1,6 +1,6 @@
 # MakeTimedDataMonitorCalibrationP-
 
-Adds a node that create a 'TimedDataMonitorCalibrationParameters' from its members
+添加一个节点，从其成员中创建一个 "TimedDataMonitorCalibrationParameters"。
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that create a 'TimedDataMonitorCalibrationParameters' from its membe
 
 ## Inputs
 
-Number Of Retries: Integer. Number Of Retries:. When needed, how many retry is allowed..
+重试的次数。整数。重试次数：。当需要时，允许多少次重试。
 
-Buffer Resize Allowed: Boolean. Buffer Resize Allowed:. If no calibration is possible, are we allowed to increase the size of the buffer..
+允许调整缓冲区大小。Boolean.允许的缓冲区大小：。如果不可能校准，我们是否允许增加缓冲区的大小。
 
-Buffer Shrink Allowed: Boolean. Buffer Shrink Allowed:. When resizing buffer, do we allow shrinking them..
+允许的缓冲区收缩。Boolean.允许的缓冲区收缩：。当调整缓冲区的大小时，我们是否允许缩小它们。
 
-Failed If Buffer Cant Be Resize: Boolean. Failed if Buffer Cant be Resize:. When resizing buffer, failed the calibration if a buffer couldn't be resize..
+如果缓冲区不能被调整大小，则失败。Boolean.Failed if Buffer Cant be Resize:（缓冲区不能调整大小时失败）。当调整缓冲区的大小时，如果缓冲区不能被调整大小，则校准失败。
 
-Use Standard Deviation: Boolean. Use Standard Deviation:. When calibrating, ensure that the evaluation is included inside the STD..
+使用标准偏差。布尔型。使用标准偏差：。校准时，确保评价包含在STD.内。
 
-Number Of Standard Deviation: Integer. Number Of Standard Deviation:. When using STD, how many should we use..
+标准偏差的数量。整数。标准差的数量：。当使用STD时，我们应该使用多少个。
 
-Reset Statistics Before Using Standard Deviation: Boolean. Reset Statistics Before Using Standard Deviation:. Before calibration, allow to reset the statistics..
+在使用标准偏差之前重置统计数据。布尔值。使用标准偏差前重设统计数据：。在校准之前，允许重置统计数据。
 
-Amount Of Seconds To Wait After Statistic Reset: Float (single-precision). Amount Of Seconds to Wait After Statistic Reset:. Before calibration, allow to reset the statistics..  
+统计重设后等待的秒数。Float (single-precision).统计复位后等待的秒数：。在校准之前，允许重置统计数据。  
 
 ## Outputs
 
-Timed Data Monitor Calibration Parameters: Timed Data Monitor Calibration Parameters Structure.
-
+计时数据监控器校准参数。定时数据监控器校准参数结构。

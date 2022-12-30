@@ -1,6 +1,6 @@
 # MakeSequencerChannelProxy
 
-Adds a node that create a 'SequencerChannelProxy' from its members
+添加一个节点，从其成员中创建一个 "SequencerChannelProxy"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'SequencerChannelProxy' from its members
 
 ## Inputs
 
-Channel Name: Name. Channel Name.
+频道名称：名称。频道名称。
 
-Section: Movie Scene Section Object Reference. Section.  
+节。电影场景部分对象参考。节。  
 
 ## Outputs
 
-Sequencer Channel Proxy: Sequencer Channel Proxy Structure.
-
+定序器通道代理。定序器通道代理结构。

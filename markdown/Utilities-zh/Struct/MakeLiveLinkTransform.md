@@ -1,6 +1,6 @@
 # MakeLiveLinkTransform
 
-Adds a node that create a 'LiveLinkTransform' from its members
+添加一个节点，从其成员中创建一个 "LiveLinkTransform"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'LiveLinkTransform' from its members
 
 ## Outputs
 
-Live Link Transform: Live Link Transform Structure.
-
+Live Link Transform:活体链路转换结构。

@@ -1,6 +1,6 @@
 # MakeAIDynamicParam
 
-Adds a node that create a 'AIDynamicParam' from its members
+添加一个节点，从其成员中创建一个'AIDynamicParam'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'AIDynamicParam' from its members
 
 ## Inputs
 
-Value: Float (single-precision). Value.
+值。Float（单精度）。值。
 
-BBKey: Blackboard Key Selector Structure. BBKey.  
+BBKey。黑板键选择器结构。BBKey.  
 
 ## Outputs
 
-AIDynamic Param: AIDynamic Param Structure.
-
+AIDynamic Param: AIDynamic Param结构。

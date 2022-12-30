@@ -1,6 +1,6 @@
 # BreakHairSimulationSetup
 
-Adds a node that breaks a 'HairSimulationSetup' into its member fields
+添加一个节点，将'HairSimulationSetup'分解成其成员字段
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'HairSimulationSetup' into its member fields
 
 ## Inputs
 
-Hair Simulation Setup: Hair Simulation Setup Structure (by ref).  
+头发模拟设置。头发模拟设置结构（按参考）。  
 
 ## Outputs
 
-Reset Simulation: Boolean. Reset Simulation:. Boolean to control if we want to reset trhe simulation at some point in time.
+重置模拟。布尔值。重置模拟：。布尔值，用于控制我们是否要在某个时间点重置模拟。
 
-Debug Simulation: Boolean. Debug Simulation:. Boolean to make the simulation strands visible.
+调试模拟。Boolean.Debug Simulation:.Boolean，使模拟股可见。
 
-Local Simulation: Boolean. Local Simulation:. Strands simulation is done in local space.
+本地模拟。布尔型。本地模拟：。在本地空间中进行股线模拟。
 
-Linear Velocity Scale: Float (single-precision). Linear Velocity Scale:. Scaling of the bone world linear velocity contribution.
+线性速度刻度。Float（单精度）。线性速度比例：。骨骼世界线性速度的贡献比例。
 
-Angular Velocity Scale: Float (single-precision). Angular Velocity Scale:. Scaling of the bone world angular velocity contribution.
+角速度刻度。Float（单精度）。角速度比例：。骨骼世界角速度的贡献比例。
 
-Local Bone: String. Local Bone:. Bone used for the simulation local space.
+当地的骨头：字符串。本地骨：。用于模拟局部空间的骨骼。
 
-Teleport Distance: Float (single-precision). Teleport Distance:. Teleport distance threshold to reset the simulation.
-
+传送距离。浮点（单精度）。Teleport Distance:.重置模拟的传送距离阈值。

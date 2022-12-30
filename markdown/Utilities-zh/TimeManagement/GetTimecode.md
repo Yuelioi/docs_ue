@@ -1,8 +1,8 @@
 # GetTimecode
 
-Get the current timecode of the engine.
+获取引擎的当前时间码。
 
-Target is Time Management Blueprint Library
+目标是时间管理蓝图库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Time Management Blueprint Library
 
 ## Outputs
 
-Return Value: Timecode Structure. Get the current timecode of the engine..
-
+返回值。时间码结构。获取引擎的当前时间码。

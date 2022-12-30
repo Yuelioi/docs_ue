@@ -1,6 +1,6 @@
 # SetmembersinFrameRateChangedPayl-
 
-Adds a node that modifies a 'FrameRateChangedPayload'
+添加一个修改 "FrameRateChangedPayload "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'FrameRateChangedPayload'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Frame Rate Changed Payload Structure (by ref).  
+Struct Ref: 帧率改变的有效载荷结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Frame Rate Changed Payload Structure (by ref). Reference to the input struct.
-
+结构出来了。帧速率改变的有效载荷结构（通过参考）。对输入结构的引用。

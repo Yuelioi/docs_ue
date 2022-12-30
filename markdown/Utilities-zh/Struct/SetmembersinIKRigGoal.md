@@ -1,6 +1,6 @@
 # SetmembersinIKRigGoal
 
-Adds a node that modifies a 'IKRigGoal'
+添加一个修改 "IKRigGoal "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'IKRigGoal'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: IKRig Goal Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: IKRig Goal Structure (by ref). Reference to the input struct.
-
+Struct Out: IKRig目标结构（通过ref）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeTrajectoryDirectionClamp
 
-Adds a node that create a 'TrajectoryDirectionClamp' from its members
+添加一个节点，从其成员中创建一个 "TrajectoryDirectionClamp"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'TrajectoryDirectionClamp' from its members
 
 ## Inputs
 
-Direction: Vector. Direction:. Target clamped direction for an incoming source direction.
+方向。矢量。方向：。传入源方向的目标钳制方向。
 
-Angle Treshold Degrees: Float (single-precision). Angle Treshold Degrees:. Target clamped directions will be applied to any source direction within this angle boundary.  
+角度阀值度数。浮点（单精度）。角度界限度数：。目标钳制方向将被应用于该角度边界内的任何源方向。  
 
 ## Outputs
 
-Trajectory Direction Clamp: Trajectory Direction Clamp Structure.
-
+轨迹方向夹子。轨迹方向夹结构。

@@ -1,6 +1,6 @@
 # MakeContextualAnimQuerier
 
-Adds a node that create a 'ContextualAnimQuerier' from its members
+添加一个节点，从其成员中创建一个 "ContextualAnimQuerier"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ContextualAnimQuerier' from its members
 
 ## Inputs
 
-Actor: Actor Weak object. Actor.
+演员。演员 弱势的对象。行为者。
 
-Transform: Transform. Transform.  
+转变。转变。转变。  
 
 ## Outputs
 
-Contextual Anim Querier: Contextual Anim Querier Structure.
-
+Contextual Anim Querier: Contextual Anim Querier结构。

@@ -1,6 +1,6 @@
 # MakeRigRigidBodySettings
 
-Adds a node that create a 'RigRigidBodySettings' from its members
+添加一个节点，从其成员中创建一个 "RigRigidBodySettings"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'RigRigidBodySettings' from its members
 
 ## Inputs
 
-Mass: Float (single-precision). Mass.  
+质量。Float（单精度）。质量。  
 
 ## Outputs
 
-Rig Rigid Body Settings: Rig Rigid Body Settings Structure.
-
+刚性体的设置。Rig Rigid Body Settings 结构。

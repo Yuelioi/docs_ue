@@ -1,6 +1,6 @@
 # MakeOculusMR_PlaneMeshTriangle
 
-Adds a node that create a 'OculusMR_PlaneMeshTriangle' from its members
+添加一个节点，从其成员中创建一个'OculusMR_PlaneMeshTriangle'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'OculusMR_PlaneMeshTriangle' from its members
 
 ## Outputs
 
-Oculus MR Plane Mesh Triangle: Oculus MR Plane Mesh Triangle Structure.
-
+Oculus MR平面网状三角结构。Oculus MR平面网格三角形结构。

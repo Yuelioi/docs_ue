@@ -1,6 +1,6 @@
 # MakeGameplayEffectContextHandle
 
-Adds a node that create a 'GameplayEffectContextHandle' from its members
+添加一个节点，从其成员中创建一个 "GameplayEffectContextHandle"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayEffectContextHandle' from its members
 
 ## Outputs
 
-Gameplay Effect Context Handle: Gameplay Effect Context Handle Structure.
-
+Gameplay Effect Context Handle。Gameplay Effect Context Handle结构。

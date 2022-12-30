@@ -1,6 +1,6 @@
 # MakeAttributeMetaData
 
-Adds a node that create a 'AttributeMetaData' from its members
+添加一个节点，从其成员中创建一个 "AttributeMetaData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AttributeMetaData' from its members
 
 ## Outputs
 
-Attribute Meta Data: Attribute Meta Data Structure.
-
+属性元数据。属性元数据结构。

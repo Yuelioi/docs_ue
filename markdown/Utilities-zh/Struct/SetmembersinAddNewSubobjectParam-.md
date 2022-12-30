@@ -1,6 +1,6 @@
 # SetmembersinAddNewSubobjectParam-
 
-Adds a node that modifies a 'AddNewSubobjectParams'
+添加一个修改'AddNewSubobjectParams'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AddNewSubobjectParams'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Add New Subobject Params Structure (by ref).  
+结构参考：添加新的子对象参数结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Add New Subobject Params Structure (by ref). Reference to the input struct.
-
+结构出来。添加新的子对象Params结构（通过ref）。对输入结构的引用。

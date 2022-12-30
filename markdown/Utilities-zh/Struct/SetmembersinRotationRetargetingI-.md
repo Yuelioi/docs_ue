@@ -1,6 +1,6 @@
 # SetmembersinRotationRetargetingI-
 
-Adds a node that modifies a 'RotationRetargetingInfo'
+添加一个修改 "RotationRetargetingInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RotationRetargetingInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Rotation Retargeting Info Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Rotation Retargeting Info Structure (by ref). Reference to the input struct.
-
+结构出来。Rotation Retargeting Info Structure（通过ref）。对输入结构的引用。

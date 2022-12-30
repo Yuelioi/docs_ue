@@ -1,6 +1,6 @@
 # MakeImportMeshLodSectionsData
 
-Adds a node that create a 'ImportMeshLodSectionsData' from its members
+添加一个节点，从其成员中创建一个'ImportMeshLodSectionsData'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ImportMeshLodSectionsData' from its members
 
 ## Outputs
 
-Import Mesh Lod Sections Data: Import Mesh Lod Sections Data Structure.
-
+导入Mesh Lod Sections数据。导入Mesh Lod Sections的数据结构。

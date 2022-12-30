@@ -1,6 +1,6 @@
 # BreakGoogleARCoreLightEstimate
 
-Adds a node that breaks a 'GoogleARCoreLightEstimate' into its member fields
+添加一个节点，将'GoogleARCoreLightEstimate'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'GoogleARCoreLightEstimate' into its member fields
 
 ## Inputs
 
-Google ARCore Light Estimate: Google ARCore Light Estimate Structure (by ref).  
+谷歌ARCore Light估算。谷歌ARCore Light估计结构（按参考）。  
 
 ## Outputs
 
-Is Valid: Boolean. Is Valid:. Whether this light estimation is valid..
+是否有效。布尔型。是否有效：。这个灯光估计是否有效。
 
-Pixel Intensity: Float (single-precision). Pixel Intensity:. The average pixel intensity of the passthrough camera image..
+像素强度。Float (single-precision).像素强度：。穿透式摄像机图像的平均像素强度。
 
-RGBScale Factor: Vector. RGBScale Factor:. The RGB scale to match the color of the light in the real environment..
-
+RGBScale Factor。矢量。RGBScale Factor:。匹配真实环境中光线颜色的RGB比例。

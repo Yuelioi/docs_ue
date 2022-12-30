@@ -1,6 +1,6 @@
 # MakeDisplayClust-_16
 
-Adds a node that create a 'DisplayClusterConfigurationViewport_ColorGradingMiscSettings' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationViewport_ColorGradingMiscSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'DisplayClusterConfigurationViewport_ColorGradingMiscS
 
 ## Inputs
 
-Blue Correction: Float (single-precision). Blue Correction:. Correct for artifacts with "electric" blues due to the ACEScg color space. Bright blue desaturates instead of going to violet..
+蓝色校正。Float（单精度）。蓝色校正：。纠正由于ACEScg色彩空间而产生的 "电 "蓝的伪影。明亮的蓝色会去饱和，而不是变成紫色。
 
-Expand Gamut: Float (single-precision). Expand Gamut:. Expand bright saturated colors outside the sRGB gamut to fake wide gamut rendering..
+扩大色域：浮点（单精度）。扩展色域：。将明亮的饱和颜色扩展到sRGB色域之外，以伪造宽色域渲染。
 
-Scene Color Tint: Linear Color Structure. Scene Color Tint:. Scene tint color.  
+场景色彩的色调。线性色彩结构。场景色彩色调：。场景色调的颜色。  
 
 ## Outputs
 
-Display Cluster Configuration Viewport Color Grading Misc Settings: Display Cluster Configuration Viewport Color Grading Misc Settings Structure.
-
+显示群组配置视口颜色分级杂项设置。显示集群配置 视口颜色分级 杂项设置 结构。

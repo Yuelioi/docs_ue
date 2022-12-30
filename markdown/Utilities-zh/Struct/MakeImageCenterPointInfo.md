@@ -1,6 +1,6 @@
 # MakeImageCenterPointInfo
 
-Adds a node that create a 'ImageCenterPointInfo' from its members
+添加一个节点，从其成员中创建一个 "ImageCenterPointInfo"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'ImageCenterPointInfo' from its members
 
 ## Inputs
 
-Image Center Info: Image Center Info Structure. Image Center Info:. Image Center parameter.
+图片中心信息：图片中心信息结构。图像中心信息：。图片中心参数。
 
-Focus: Float (single-precision). Focus:. Point Focus Value.
+焦点。Float（单精度）。焦点：。点聚焦值。
 
-Zoom: Float (single-precision). Zoom:. Point Zoom Value.  
+缩放。Float（单精度）。缩放:.点的缩放值。  
 
 ## Outputs
 
-Image Center Point Info: Image Center Point Info Structure.
-
+图像中心点信息：图像中心点信息结构。

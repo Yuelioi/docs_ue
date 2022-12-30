@@ -1,6 +1,6 @@
 # BreakGeometryScriptCopyMeshToAss-
 
-Adds a node that breaks a 'GeometryScriptCopyMeshToAssetOptions' into its member fields
+添加一个打破'GeometryScriptCopyMeshToAssetOptions'的节点到其成员字段中
 
 ## 图示
 
@@ -8,27 +8,26 @@ Adds a node that breaks a 'GeometryScriptCopyMeshToAssetOptions' into its member
 
 ## Inputs
 
-Geometry Script Copy Mesh to Asset Options: Geometry Script Copy Mesh To Asset Options Structure (by ref).  
+几何图形脚本复制网格到资产选项。几何图形脚本复制网格到资产选项结构（按参考）。  
 
 ## Outputs
 
-Enable Recompute Normals: Boolean. Enable Recompute Normals.
+启用重新计算法线。布尔值。启用重新计算法线。
 
-Enable Recompute Tangents: Boolean. Enable Recompute Tangents.
+启用重新计算切线。布尔值。启用重新计算切线。
 
-Enable Remove Degenerates: Boolean. Enable Remove Degenerates.
+启用删除退化者。布尔型。启用删除退化者。
 
-Replace Materials: Boolean. Replace Materials.
+替换材料。布尔值。替换材料。
 
-New Materials: Array of Material Interface Object References. New Materials.
+新材料。材料界面对象参考数组。新材料。
 
-New Material Slot Names: Array of Names. New Material Slot Names.
+新材料槽的名称。名称的阵列。新的材料槽名称。
 
-Apply Nanite Settings: Boolean. Apply Nanite Settings:. If enabled, NaniteSettings will be applied to the target Asset if possible.
+应用纳米技术设置。Boolean.应用奈米设置：。如果启用，如果可能，NaniteSettings将被应用到目标资产。
 
-Nanite Settings: Geometry Script Nanite Options Structure. Nanite Settings:. Nanite Settings applied to the target Asset, if bApplyNaniteSettings = true.
+Nanite设置。Geometry Script Nanite Options Structure.Nanite设置：。如果bApplyNaniteSettings = true，则应用于目标资产的奈米设置。
 
-Emit Transaction: Boolean. Emit Transaction.
+排放交易。布尔型。Emit Transaction（提交交易）。
 
-Defer Mesh Post Edit Change: Boolean. Defer Mesh Post Edit Change.
-
+推迟网格编辑后的变化。布尔值。推迟网格编辑后的改变。

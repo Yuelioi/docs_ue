@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationV-_2
 
-Adds a node that create a 'DisplayClusterConfigurationViewport_Remap' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationViewport_Remap"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'DisplayClusterConfigurationViewport_Remap' from its m
 
 ## Inputs
 
-Enable Output Remapping: Boolean. Enable:. Enables or disables viweport output remapping.
+启用输出重映射。布尔值。启用：。启用或禁用viweport输出重映射。
 
-Base Remap: Display Cluster Configuration Viewport Remap Data Structure. Base Remap:. The base remap to apply to the entire viewport, used to apply flipping and rotation to the viewport.  
+基础重合。显示集群配置视口重映射数据结构。Base Remap:（基本重订）。应用于整个作业视窗的基本重绘，用来应用于作业视窗的翻转和旋转。  
 
 ## Outputs
 
-Display Cluster Configuration Viewport Remap: Display Cluster Configuration Viewport Remap Structure.
-
+显示群集配置视口重合。显示群组配置视口重映射结构。

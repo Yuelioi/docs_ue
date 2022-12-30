@@ -1,6 +1,6 @@
 # MakeNiagaraPerfBaselineStats
 
-Adds a node that create a 'NiagaraPerfBaselineStats' from its members
+添加一个节点，从其成员中创建一个 "NiagaraPerfBaselineStats"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'NiagaraPerfBaselineStats' from its members
 
 ## Inputs
 
-Per Instance Avg GT: Float (single-precision). Per Instance Avg GT:. Per instance average time spent on the GameThread (?s)..
+每实例平均数GT：浮点数（单精度）。每实例平均数 GT:.每个实例在GameThread上花费的平均时间(?s).。
 
-Per Instance Avg RT: Float (single-precision). Per Instance Avg RT:. Per instance average time spent on the RenerThread (?s)..
+每实例平均RT。Float (single-precision).每实例平均RT:.每个实例在RenerThread上花费的平均时间(?s).。
 
-Per Instance Max GT: Float (single-precision). Per Instance Max GT:. Per instance max time spent on the GameThread (?s)..
+每实例最大GT：浮点数（单精度）。每实例最大GT：。每个实例在GameThread上花费的最大时间(?s).。
 
-Per Instance Max RT: Float (single-precision). Per Instance Max RT:. Per instance max time spent on the RenderThread (?s)..  
+每实例最大RT。Float (single-precision).Per Instance Max RT:.每个实例在RenderThread上花费的最大时间(?s).。  
 
 ## Outputs
 
-Niagara Perf Baseline Stats: Niagara Perf Baseline Stats Structure.
-
+尼亚加拉香水基线统计。尼亚加拉香水基线统计结构。

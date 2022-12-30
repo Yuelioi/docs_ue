@@ -1,6 +1,6 @@
 # MakeCameraShakeUpdateParams
 
-Adds a node that create a 'CameraShakeUpdateParams' from its members
+添加一个节点，从其成员中创建一个 "CameraShakeUpdateParams"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'CameraShakeUpdateParams' from its members
 
 ## Inputs
 
-Delta Time: Float (single-precision). Delta Time:. The time elapsed since last update.
+三角洲时间。Float（单精度）。三角洲时间：。自上次更新以来所经过的时间。
 
-Shake Scale: Float (single-precision). Shake Scale:. The base scale for this shake.
+摇动刻度。Float（单精度）。抖动比例：。该抖动的基本刻度。
 
-Dynamic Scale: Float (single-precision). Dynamic Scale:. The dynamic scale being passed down from the camera manger for the next update.
+动态刻度。Float（单精度）。动态比例：。下次更新时从摄像机管理程序传递下来的动态比例。
 
-Blending Weight: Float (single-precision). Blending Weight:. The auto-computed blend in/out scale, when blending is handled by externally (see UCameraShakeBase::GetShakeInfo).
+混合重量。Float（单精度）。Blending Weight:（混合重量）。自动计算的混入/混出比例，当混入由外部处理时（见UCameraShakeBase::GetShakeInfo）。
 
-POV: Minimal View Info Structure. POV:. The current view that this camera shake should modify.  
+POV。最小的视图信息结构。POV:。此相机摇动应修改的当前视图。  
 
 ## Outputs
 
-Camera Shake Update Params: Camera Shake Update Params Structure.
-
+相机抖动更新参数。相机抖动更新参数结构。

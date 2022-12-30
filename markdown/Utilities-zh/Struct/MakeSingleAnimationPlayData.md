@@ -1,6 +1,6 @@
 # MakeSingleAnimationPlayData
 
-Adds a node that create a 'SingleAnimationPlayData' from its members
+添加一个节点，从其成员中创建一个 "SingleAnimationPlayData"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'SingleAnimationPlayData' from its members
 
 ## Inputs
 
-Anim To Play: Animation Asset Object Reference. Anim to Play:. @todo in the future, we should make this one UObject. and have detail customization to display different things. The default sequence to play on this skeletal mesh.
+Anim To Play:动画资产对象参考.Anim to Play:.@todo在未来，我们应该把这个作为一个UObject.并有详细的定制来显示不同的东西。在这个骨架网格上播放的默认序列。
 
-Looping: Boolean. Saved Looping:. Default setting for looping for SequenceToPlay. This is not current state of looping..
+循环。布尔型。保存的循环：。SequenceToPlay的循环的默认设置。这不是循环的当前状态。
 
-Playing: Boolean. Saved Playing:. Default setting for playing for SequenceToPlay. This is not current state of playing..
+播放。Boolean.保存的播放：。为SequenceToPlay的默认播放设置。这不是当前的播放状态。
 
-Initial Position: Float (single-precision). Saved Position:. Default setting for position of SequenceToPlay to play..
+初始位置。Float（单精度）。保存的位置：。SequenceToPlay的位置的默认设置，用于播放。
 
-Play Rate: Float (single-precision). Saved Play Rate:. Default setting for play rate of SequenceToPlay to play..  
+播放率。Float（单精度）。保存的播放率：。SequenceToPlay的播放率默认设置为播放。
 
 ## Outputs
 
-Single Animation Play Data: Single Animation Play Data Structure.
-
+单一动画播放数据。单一动画播放数据结构。

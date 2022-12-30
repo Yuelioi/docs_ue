@@ -1,6 +1,6 @@
 # SetmembersinContentBrowserDataCo-
 
-Adds a node that modifies a 'ContentBrowserDataCollectionFilter'
+添加一个修改 "ContentBrowserDataCollectionFilter "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ContentBrowserDataCollectionFilter'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Content Browser Data Collection Filter Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Content Browser Data Collection Filter Structure (by ref). Reference to the input struct.
-
+结构出来。内容浏览器数据收集过滤结构（通过引用）。对输入结构的引用。

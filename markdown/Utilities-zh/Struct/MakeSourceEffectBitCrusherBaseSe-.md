@@ -1,6 +1,6 @@
 # MakeSourceEffectBitCrusherBaseSe-
 
-Adds a node that create a 'SourceEffectBitCrusherBaseSettings' from its members
+添加一个节点，从其成员中创建一个'SourceEffectBitCrusherBaseSettings'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'SourceEffectBitCrusherBaseSettings' from its members
 
 ## Inputs
 
-Sample Rate: Float (single-precision). Sample Rate:. The reduced frequency to use for the audio stream..
+采样率。Float（单精度）。采样率：。用于音频流的降低频率。
 
-Bit Depth: Float (single-precision). Bit Depth:. The reduced bit depth to use for the audio stream.  
+位深度。Float (single-precision).Bit Depth:.用于音频流的缩小的比特深度。  
 
 ## Outputs
 
-Source Effect Bit Crusher Base Settings: Source Effect Bit Crusher Base Settings Structure.
-
+源效应位粉碎机基础设置。源效应位粉碎机基础设置结构。

@@ -1,6 +1,6 @@
 # BreakPredictProjectilePathParams
 
-Adds a node that breaks a 'PredictProjectilePathParams' into its member fields
+添加一个节点，将'PredictProjectilePathParams'分解成其成员字段
 
 ## 图示
 
@@ -8,35 +8,34 @@ Adds a node that breaks a 'PredictProjectilePathParams' into its member fields
 
 ## Inputs
 
-Predict Projectile Path Params: Predict Projectile Path Params Structure (by ref).  
+预测射弹路径参数。预测射弹路径参数结构（按参考）。  
 
 ## Outputs
 
-Start Location: Vector. Start Location:. Location of the start of the trace..
+开始的位置。向量。开始位置：。追踪的起始位置。
 
-Launch Velocity: Vector. Launch Velocity:. Initial launch velocity at the start of the trace..
+发射速度。矢量。发射速度：。追踪开始时的初始发射速度。
 
-Trace With Collision: Boolean. Trace with Collision:. Whether to trace along the path looking for blocking collision and stopping at the first hit..
+有碰撞的追踪。Boolean.碰撞追踪：。是否沿着路径追踪，寻找阻挡碰撞，并在第一次撞击时停止。
 
-Projectile Radius: Float (single-precision). Projectile Radius:. Projectile radius, used when tracing for collision. If <= 0, a line trace is used instead..
+射弹半径。Float（单精度）。投射物半径：。投射物半径，在追踪碰撞时使用。如果<=0，则使用直线追踪。
 
-Max Sim Time: Float (single-precision). Max Sim Time:. Maximum simulation time for the virtual projectile..
+最大模拟时间。Float（单精度）。最大模拟时间：。虚拟射弹的最大模拟时间。
 
-Trace With Channel: Boolean. Trace with Channel:. Whether or not to use TraceChannel, if tracing with collision..
+用通道追踪。Boolean.用通道追踪：。如果用碰撞追踪，是否使用TraceChannel。
 
-Trace Channel: ECollisionChannel Enum. Trace Channel:. Trace channel to use, if tracing with collision..
+跟踪通道。ECollisionChannel Enum.追踪通道:.使用的跟踪通道，如果用碰撞跟踪。
 
-Object Types: Array of EObjectTypeQuery Enums. Object Types:. Object type to use, if tracing with collision..
+对象类型。EObjectTypeQuery枚举的数组。对象类型:.要使用的对象类型，如果用碰撞追踪的话。
 
-Actors To Ignore: Array of Actor Object References. Actors to Ignore:. Actors to ignore when tracing with collision..
+要忽略的演员。演员对象参考数组。忽略的角色：。使用碰撞追踪时要忽略的角色。
 
-Sim Frequency: Float (single-precision). Sim Frequency:. Determines size of each sub-step in the simulation (chopping up MaxSimTime). Recommended between 10 to 30 depending on desired quality versus performance..
+模拟频率。Float (single-precision).模拟频率：。决定仿真中每个子步骤的大小（切分MaxSimTime）。建议在10到30之间，取决于所需的质量和性能。
 
-Override Gravity Z: Float (single-precision). Override Gravity Z:. Optional override of Gravity (if 0, uses WorldGravityZ)..
+覆盖重力Z：浮点（单精度）。覆盖Gravity Z:.重力的可选覆盖（如果是0，使用WorldGravityZ）。
 
-Draw Debug Type: EDrawDebugTrace Enum. Draw Debug Type:. Debug drawing duration option..
+绘制调试类型。EDrawDebugTrace Enum.绘图调试类型：.调试绘图持续时间选项...
 
-Draw Debug Time: Float (single-precision). Draw Debug Time:. Duration of debug lines (only relevant for DrawDebugType::Duration).
+绘制调试时间。Float (single-precision).Draw Debug Time:.调试线的持续时间（只与DrawDebugType::Duration有关）。
 
-Trace Complex: Boolean. Trace Complex:. Trace against complex collision (triangles rather than simple primitives) if tracing with collision..
-
+跟踪复合体：布尔。复杂追踪：。如果用碰撞追踪，则针对复杂碰撞（三角形而非简单基元）进行追踪。

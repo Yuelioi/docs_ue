@@ -1,6 +1,6 @@
 # BreakProceduralFoliageInstance
 
-Adds a node that breaks a 'ProceduralFoliageInstance' into its member fields
+添加一个打破'ProceduralFoliageInstance'的节点到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ProceduralFoliageInstance' into its member fields
 
 ## Inputs
 
-Procedural Foliage Instance: Procedural Foliage Instance Structure (by ref).  
+程序性叶子实例。程序性叶子实例结构（按参考）。  
 
 ## Outputs
 
-Location: Vector. Location.
+地点：向量。向量。位置。
 
-Age: Float (single-precision). Age.
+年龄：浮点数（单精度）。年龄。
 
-Normal: Vector. Normal.
-
+正常：向量。正常。

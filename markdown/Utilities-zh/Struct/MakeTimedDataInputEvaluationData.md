@@ -1,6 +1,6 @@
 # MakeTimedDataInputEvaluationData
 
-Adds a node that create a 'TimedDataInputEvaluationData' from its members
+添加一个节点，从其成员中创建一个 "TimedDataInputEvaluationData"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'TimedDataInputEvaluationData' from its members
 
 ## Inputs
 
-Distance To Newest Sample Seconds: Float (single-precision). Distance to Newest Sample Seconds:. Distance between evaluation time and newest sample in seconds.
+到最新样本的距离 秒。Float (single-precision).到最新样本的距离秒数：。评估时间与最新样本之间的距离，单位是秒。
 
-Distance To Oldest Sample Seconds: Float (single-precision). Distance to Oldest Sample Seconds:. Distance between evaluation time and newest sample in seconds.  
+到最古老样本的距离 秒。Float (single-precision).到最旧样本的距离秒数：。评估时间与最新样本之间的距离，单位为秒。  
 
 ## Outputs
 
-Timed Data Input Evaluation Data: Timed Data Input Evaluation Data Structure.
-
+计时数据输入评估数据。计时数据输入 评估数据结构。

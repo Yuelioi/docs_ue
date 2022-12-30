@@ -1,6 +1,6 @@
 # BreakRigVMStatistics
 
-Adds a node that breaks a 'RigVMStatistics' into its member fields
+添加一个节点，将'RigVMStatistics'分解成其成员字段
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'RigVMStatistics' into its member fields
 
 ## Inputs
 
-Rig VMStatistics: Rig VMStatistics Structure (by ref).  
+Rig VMStatistics:钻机VMStatistics结构（按参考）。  
 
 ## Outputs
 
-Bytes For CDO: Integer. Bytes for CDO.
+字节 对于CDO：整数。CDO的字节。
 
-Bytes Per Instance: Integer. Bytes Per Instance.
+每个实例的字节数。整数。每实例的字节数。
 
-Literal Memory: Rig VMMemory Statistics Structure. Literal Memory.
+字面记忆。Rig VMMemory统计结构。字面记忆。
 
-Work Memory: Rig VMMemory Statistics Structure. Work Memory.
+工作内存。Rig VMMemory统计结构。工作存储器。
 
-Debug Memory: Rig VMMemory Statistics Structure. Debug Memory.
+调试内存。Rig VMMemory统计结构。调试内存。
 
-Bytes For Caching: Integer. Bytes for Caching.
+缓存的字节数：整数。缓存的字节数。
 
-Byte Code: Rig VMByte Code Statistics Structure. Byte Code.
-
+字节代码。Rig VMByte Code 统计结构。字节代码。

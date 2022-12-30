@@ -1,6 +1,6 @@
 # MakeSplitterStyle
 
-Adds a node that create a 'SplitterStyle' from its members
+添加一个节点，从其成员中创建一个 "SplitterStyle"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'SplitterStyle' from its members
 
 ## Inputs
 
-Handle Normal Brush: Slate Brush Structure. Handle Normal Brush:. Brush used to draw the handle in its normal state.
+手柄普通刷。石板刷的结构。手柄普通画笔：。用于绘制正常状态下的手柄的画笔。
 
-Handle Highlight Brush: Slate Brush Structure. Handle Highlight Brush:. Brush used to draw the handle in its highlight state.  
+手柄高光刷。石板刷的结构。手柄高光笔刷：。用于在高亮状态下绘制手柄的画笔。  
 
 ## Outputs
 
-Splitter Style: Splitter Style Structure.
-
+分割器风格。分离器风格结构。

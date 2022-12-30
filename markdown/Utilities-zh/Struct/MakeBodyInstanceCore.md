@@ -1,6 +1,6 @@
 # MakeBodyInstanceCore
 
-Adds a node that create a 'BodyInstanceCore' from its members
+添加一个节点，从其成员中创建一个 "BodyInstanceCore"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'BodyInstanceCore' from its members
 
 ## Inputs
 
-Simulate Physics: Boolean. Simulate Physics:. If true, this body will use simulation. If false, will be 'fixed' (ie kinematic) and move where it is told.. For a Skeletal Mesh Component, simulating requires a physics asset setup and assigned on the SkeletalMesh asset.. For a Static Mesh Component, simulating requires simple collision to be setup on the StaticMesh asset..
+模拟物理学。Boolean.模拟物理：。如果是真的，这个身体将使用模拟。如果是假的，将是 "固定 "的（即运动学的），并在它被告知的地方移动。对于骨骼网格组件，模拟需要设置物理资产并分配给骨骼网格资产。对于静态网格组件，模拟需要在StaticMesh资产上设置简单的碰撞。
 
-Auto Weld: Boolean. Auto Weld:. If true and is attached to a parent, the two bodies will be joined into a single rigid body. Physical settings like collision profile and body settings are determined by the root.
+自动焊接。布尔型。自动焊接：。如果为真，并且连接到一个父体，两个体将被连接成一个单一的刚体。碰撞轮廓和体的设置等物理设置由根决定。
 
-Update Mass When Scale Changes: Boolean. Update Mass when Scale Changes:. If true, it will update mass when scale change *.  
+规模变化时更新质量。布尔值。规模变化时更新质量：。如果为真，它将在规模变化时更新质量*。  
 
 ## Outputs
 
-Body Instance Core: Body Instance Core Structure.
-
+身体实例核心。身体实例核心结构。

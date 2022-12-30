@@ -1,6 +1,6 @@
 # MakeDMXImportGDTFWheel
 
-Adds a node that create a 'DMXImportGDTFWheel' from its members
+添加一个节点，从其成员中创建一个 "DMXImportGDTFWheel"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXImportGDTFWheel' from its members
 
 ## Outputs
 
-DMXImport GDTFWheel: DMXImport GDTFWheel Structure.
-
+DMXImport GDTFWheel:DMXImport GDTFWheel结构。

@@ -1,6 +1,6 @@
 # SetmembersinDatasmithTessellatio-
 
-Adds a node that modifies a 'DatasmithTessellationOptions'
+添加一个修改 "DatasmithTessellationOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DatasmithTessellationOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Datasmith Tessellation Options Structure (by ref).  
+结构参考：Datasmith Tessellation选项结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Datasmith Tessellation Options Structure (by ref). Reference to the input struct.
-
+结构出来。Datasmith Tessellation选项结构（by ref）。对输入结构的引用。

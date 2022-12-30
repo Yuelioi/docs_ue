@@ -1,6 +1,6 @@
 # BreakTextureShareBPSyncPolicySet-
 
-Adds a node that breaks a 'TextureShareBPSyncPolicySettings' into its member fields
+添加一个节点，将'TextureShareBPSyncPolicySettings'分解到其成员字段中
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'TextureShareBPSyncPolicySettings' into its member fie
 
 ## Inputs
 
-Texture Share BPSync Policy Settings: Texture Share BPSync Policy Settings Structure (by ref).  
+纹理共享BPSync政策设置。纹理共享BPSync政策设置结构（按参考）。  
 
 ## Outputs
 
-Default Sync Policy: Texture Share BPSync Policy Structure. Default Sync Policy:. Default values for sync policy on local process.
+默认的同步策略。纹理共享 BPSync政策结构。默认同步策略：。本地进程上的同步策略的默认值。
 
-Time Out: Texture Share BPTime Out Structure. Time Out:. Timeout values (in seconds) for sync policy on local process.
-
+超时。纹理共享 BPTTime Out结构。超时：。本地进程上的同步策略的超时值（单位：秒）。

@@ -1,6 +1,6 @@
 # MakeEnvNamedValue
 
-Adds a node that create a 'EnvNamedValue' from its members
+添加一个节点，从其成员中创建一个'EnvNamedValue'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'EnvNamedValue' from its members
 
 ## Inputs
 
-Param Name: Name. Param Name.
+Param Name: 名称。Param 名称。
 
-Param Type: EAIParamType Enum. Param Type.
+Param Type: EAIParamType Enum.Param类型。
 
-Value: Float (single-precision). Value.  
+值。Float（单精度）。值。  
 
 ## Outputs
 
-Env Named Value: Env Named Value Structure.
-
+环境命名值。环境命名值的结构。

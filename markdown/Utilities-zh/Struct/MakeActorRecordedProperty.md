@@ -1,6 +1,6 @@
 # MakeActorRecordedProperty
 
-Adds a node that create a 'ActorRecordedProperty' from its members
+添加一个节点，从其成员中创建一个'ActorRecordedProperty'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ActorRecordedProperty' from its members
 
 ## Inputs
 
-Property Name: Name. Property Name.
+财产名称。名称。属性名称。
 
-Enabled: Boolean. Enabled.  
+已启用。布尔型。已启用。  
 
 ## Outputs
 
-Actor Recorded Property: Actor Recorded Property Structure.
-
+Actor Recorded Property:Actor Recorded Property Structure.

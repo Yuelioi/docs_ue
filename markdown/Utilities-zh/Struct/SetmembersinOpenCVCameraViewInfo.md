@@ -1,6 +1,6 @@
 # SetmembersinOpenCVCameraViewInfo
 
-Adds a node that modifies a 'OpenCVCameraViewInfo'
+添加一个修改 "OpenCVCameraViewInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'OpenCVCameraViewInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Open CVCamera View Info Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Open CVCamera View Info Structure (by ref). Reference to the input struct.
-
+结构出来。Open CVCamera View Info Structure（通过ref）。对输入结构的引用。

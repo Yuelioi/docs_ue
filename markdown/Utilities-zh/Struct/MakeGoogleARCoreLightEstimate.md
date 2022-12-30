@@ -1,6 +1,6 @@
 # MakeGoogleARCoreLightEstimate
 
-Adds a node that create a 'GoogleARCoreLightEstimate' from its members
+添加一个节点，从其成员中创建一个 "GoogleARCoreLightEstimate"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GoogleARCoreLightEstimate' from its members
 
 ## Outputs
 
-Google ARCore Light Estimate: Google ARCore Light Estimate Structure.
-
+谷歌ARCore Light估算。谷歌ARCore Light估计结构。

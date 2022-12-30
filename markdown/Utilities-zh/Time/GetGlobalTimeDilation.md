@@ -1,8 +1,8 @@
 # GetGlobalTimeDilation
 
-Gets the current global time dilation.
+获取当前的全局时间扩张。
 
-Target is Gameplay Statics
+目标是游戏性的统计学
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Gameplay Statics
 
 ## Outputs
 
-Return Value: Float (single-precision). Current time dilation..
-
+返回值。浮点数（单精度）。当前的时间扩张。

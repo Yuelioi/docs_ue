@@ -1,6 +1,6 @@
 # MakeCurveRenamedPayload
 
-Adds a node that create a 'CurveRenamedPayload' from its members
+添加一个节点，从其成员中创建一个'CurveRenamedPayload'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CurveRenamedPayload' from its members
 
 ## Outputs
 
-Curve Renamed Payload: Curve Renamed Payload Structure.
-
+曲线重命名的有效载荷。曲线重命名的有效载荷结构。

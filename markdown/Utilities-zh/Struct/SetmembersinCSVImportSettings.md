@@ -1,6 +1,6 @@
 # SetmembersinCSVImportSettings
 
-Adds a node that modifies a 'CSVImportSettings'
+添加一个修改 "CSVImportSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CSVImportSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: CSVImport Settings Structure (by ref).  
+结构参考：CSVImport设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: CSVImport Settings Structure (by ref). Reference to the input struct.
-
+结构出来。CSVImport设置结构（通过引用）。对输入结构的引用。

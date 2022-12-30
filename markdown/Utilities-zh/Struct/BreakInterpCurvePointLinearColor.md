@@ -1,6 +1,6 @@
 # BreakInterpCurvePointLinearColor
 
-Adds a node that breaks a 'InterpCurvePointLinearColor' into its member fields
+添加一个打破'InterpCurvePointLinearColor'的节点到其成员字段中
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'InterpCurvePointLinearColor' into its member fields
 
 ## Inputs
 
-Interp Curve Point Linear Color: Interp Curve Point Linear Color Structure (by ref).  
+Interp Curve Point Linear Color: Interp Curve Point Linear Color结构（通过参考）。  
 
 ## Outputs
 
-In Val: Float (single-precision). In Val:. Float input value that corresponds to this key (eg. time)..
+在Val中：浮点数（单精度）。In Val:.与此键对应的浮动输入值（例如：时间）。
 
-Out Val: Linear Color Structure. Out Val:. Color output value of when input is equal to InVal..
+Out Val: 线性色彩结构。Out Val:.当输入等于InVal.时的颜色输出值。
 
-Arrive Tangent: Linear Color Structure. Arrive Tangent:. Tangent of curve arriving at this point..
+抵达切线。线性色彩结构。到达切线：。曲线到达此点的切线。
 
-Leave Tangent: Linear Color Structure. Leave Tangent:. Tangent of curve leaving this point..
+离开切线。线性色彩结构。离开切线：。离开此点的曲线的切线。
 
-Interp Mode: EInterpCurveMode Enum. Interp Mode:. Interpolation mode between this point and the next one..
-
+Interp模式。EInterpCurveMode Enum.Interp Mode:.这个点和下一个点之间的插值模式。

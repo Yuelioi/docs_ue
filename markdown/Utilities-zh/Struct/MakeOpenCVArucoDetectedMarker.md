@@ -1,6 +1,6 @@
 # MakeOpenCVArucoDetectedMarker
 
-Adds a node that create a 'OpenCVArucoDetectedMarker' from its members
+添加一个节点，从其成员中创建一个 "OpenCVArucoDetectedMarker"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'OpenCVArucoDetectedMarker' from its members
 
 ## Inputs
 
-Id: Integer. Id.
+同上。整数。同上。
 
-Corners: Array of Vector 2D Structures. Corners.
+角落。矢量二维结构的阵列。角落。
 
-Pose: Transform. Pose.  
+姿势：转变。姿势。  
 
 ## Outputs
 
-Open CVAruco Detected Marker: Open CVAruco Detected Marker Structure.
-
+打开CVAruco检测到的标记。开放式CVAruco检测到的标记结构。

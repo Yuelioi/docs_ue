@@ -1,6 +1,6 @@
 # BreakGeometryScriptExpMapUVOptio-
 
-Adds a node that breaks a 'GeometryScriptExpMapUVOptions' into its member fields
+添加一个节点，将'GeometryScriptExpMapUVOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'GeometryScriptExpMapUVOptions' into its member fields
 
 ## Inputs
 
-Geometry Script Exp Map UVOptions: Geometry Script Exp Map UVOptions Structure (by ref).  
+Geometry Script Exp Map UVOptions:Geometry Script Exp Map UVOptions结构（通过参考）。  
 
 ## Outputs
 
-Normal Smoothing Rounds: Integer. Normal Smoothing Rounds.
+正态平滑轮数。整数。正态平滑轮数。
 
-Normal Smoothing Alpha: Float (single-precision). Normal Smoothing Alpha.
-
+正常平滑的Alpha。Float（单精度）。Normal Smoothing Alpha.

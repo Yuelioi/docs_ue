@@ -1,6 +1,6 @@
 # MakeSoundModulationDefaultSettin-
 
-Adds a node that create a 'SoundModulationDefaultSettings' from its members
+添加一个节点，从其成员中创建一个'SoundModulationDefaultSettings'。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'SoundModulationDefaultSettings' from its members
 
 ## Inputs
 
-Volume: Sound Modulation Destination Settings Structure. Volume Modulation Destination:. Volume modulation.
+音量。声音调制目的地设置结构。音量调制目的地：。音量调制。
 
-Pitch: Sound Modulation Destination Settings Structure. Pitch Modulation Destination:. Pitch modulation.
+沥青。声音调制目的地设置结构。Pitch Modulation Destination：.Pitch modulation.
 
-Highpass: Sound Modulation Destination Settings Structure. Highpass Modulation Destination:. Highpass modulation.
+高通。声音调制目的地设置结构。高通调制目的地：。高通调制。
 
-Lowpass: Sound Modulation Destination Settings Structure. Lowpass Modulation Destination:. Lowpass modulation.  
+低通。声音调制目的地设置结构。低通调制目的地：。低通调制。  
 
 ## Outputs
 
-Sound Modulation Default Settings: Sound Modulation Default Settings Structure.
-
+声音调制的默认设置。声音调制的默认设置结构。

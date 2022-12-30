@@ -1,6 +1,6 @@
 # MakeComponentReference
 
-Adds a node that create a 'ComponentReference' from its members
+添加一个节点，从其成员中创建一个 "ComponentReference"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ComponentReference' from its members
 
 ## Inputs
 
-Referenced Actor: Actor Object Reference. Other Actor:. Pointer to a different Actor that owns the Component.. If this is not provided the reference refers to a component on this / the same actor..
+被引用的演员。演员对象参考。其他角色：.指向拥有该组件的另一个角色的指针。如果没有提供这一点，则引用指的是这个/同一个角色上的一个组件。
 
-Component Name: Name. Component Property:. Name of component to use. If this is not specified the reference refers to the root component..  
+组件名称。名称。组件属性：。要使用的组件的名称。如果没有指定，参考是指根组件。  
 
 ## Outputs
 
-Component Reference: Component Reference Structure.
-
+元素参考。组件参考结构。

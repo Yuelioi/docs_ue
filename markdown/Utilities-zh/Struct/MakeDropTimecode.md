@@ -1,6 +1,6 @@
 # MakeDropTimecode
 
-Adds a node that create a 'DropTimecode' from its members
+添加一个节点，从其成员中创建一个 "DropTimecode"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'DropTimecode' from its members
 
 ## Inputs
 
-Timecode: Timecode Structure. Timecode:. Decoded Timecode.
+时间码。时间码结构。时间码：。解码的时间码。
 
-Frame Rate: Integer. Frame Rate:. Guess at incoming frame rate.
+帧速率。整数。帧率：。猜测传入的帧率。
 
-Color Framing: Boolean. Color Framing:. Sync is in phase with color burst.
+颜色定格。Boolean.颜色取景：。同步与颜色突发相一致。
 
-Running Forward: Boolean. Running Forward:. When timecode is reading forward.
+往前跑。布尔型。正向运行：。当时间码被向前读取时。
 
-New Frame: Boolean. New Frame:. Is a new timecode frame.  
+新框架。布尔型。新帧：。是一个新的时间码帧。  
 
 ## Outputs
 
-Drop Timecode: Drop Timecode Structure.
-
+删除时间码。删除时间码结构。

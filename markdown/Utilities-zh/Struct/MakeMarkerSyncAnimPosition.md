@@ -1,6 +1,6 @@
 # MakeMarkerSyncAnimPosition
 
-Adds a node that create a 'MarkerSyncAnimPosition' from its members
+添加一个节点，从其成员中创建一个 "MarkerSyncAnimPosition"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'MarkerSyncAnimPosition' from its members
 
 ## Outputs
 
-Marker Sync Anim Position: Marker Sync Anim Position Structure.
-
+Marker Sync Anim Position: 标记同步动画位置结构。

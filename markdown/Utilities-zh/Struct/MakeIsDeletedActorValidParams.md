@@ -1,6 +1,6 @@
 # MakeIsDeletedActorValidParams
 
-Adds a node that create a 'IsDeletedActorValidParams' from its members
+添加一个节点，从其成员中创建一个 "IsDeletedActorValidParams"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'IsDeletedActorValidParams' from its members
 
 ## Outputs
 
-Is Deleted Actor Valid Params: Is Deleted Actor Valid Params Structure.
-
+Is Deleted Actor Valid Params:Is Deleted Actor Valid Params Structure.

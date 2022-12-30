@@ -1,6 +1,6 @@
 # MakeAnimNodeReference
 
-Adds a node that create a 'AnimNodeReference' from its members
+添加一个节点，从其成员中创建一个'AnimNodeReference'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AnimNodeReference' from its members
 
 ## Outputs
 
-Anim Node Reference: Anim Node Reference Structure.
-
+Anim Node Reference:动画节点参考结构.

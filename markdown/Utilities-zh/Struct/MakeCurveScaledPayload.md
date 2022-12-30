@@ -1,6 +1,6 @@
 # MakeCurveScaledPayload
 
-Adds a node that create a 'CurveScaledPayload' from its members
+添加一个节点，从其成员中创建一个'CurveScaledPayload'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CurveScaledPayload' from its members
 
 ## Outputs
 
-Curve Scaled Payload: Curve Scaled Payload Structure.
-
+曲线比例的有效载荷。曲线比例的有效载荷结构。

@@ -1,6 +1,6 @@
 # SetmembersinCommonInputActionDat-
 
-Adds a node that modifies a 'CommonInputActionDataBase'
+添加一个修改 "CommonInputActionDataBase "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CommonInputActionDataBase'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Common Input Action Data Base Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Common Input Action Data Base Structure (by ref). Reference to the input struct.
-
+结构出来。通用输入动作数据库结构（通过引用）。对输入结构的引用。

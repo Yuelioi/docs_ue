@@ -1,6 +1,6 @@
 # BreakNavDataConfig
 
-Adds a node that breaks a 'NavDataConfig' into its member fields
+添加一个节点，将 "NavDataConfig "分解成其成员字段。
 
 ## 图示
 
@@ -8,35 +8,34 @@ Adds a node that breaks a 'NavDataConfig' into its member fields
 
 ## Inputs
 
-Nav Data Config: Nav Data Config Structure (by ref).  
+导航数据配置。导航数据配置结构（通过参考）。  
 
 ## Outputs
 
-Name: Name. Name:. Internal/debug name of this agent.
+姓名。姓名：。名称：。该代理的内部/调试名称。
 
-Color: Color Structure. Color:. Color used to represent this agent in the editor and for debugging.
+颜色：颜色结构。颜色：。用于在编辑器中表示该代理的颜色，并用于调试。
 
-Default Query Extent: Vector. Default Query Extent:. Rough size of this agent, used when projecting unto navigation mesh.
+默认查询范围。矢量。默认查询范围：。该代理的粗略尺寸，在投射到导航网格时使用。
 
-Nav Data Class: Actor Soft Class Reference. Nav Data Class:. Class to use when spawning navigation data instance.
+导航数据类。Actor Soft Class Reference.导航数据类：。生成导航数据实例时使用的类。
 
-Nav Agent Radius: Float (single-precision). Agent Radius:. Radius of the capsule used for navigation/pathfinding..
+导航代理半径。Float（单精度）。代理人半径：。用于导航/寻路的胶囊的半径。
 
-Nav Agent Height: Float (single-precision). Agent Height:. Total height of the capsule used for navigation/pathfinding..
+导航员高度。Float（单精度）。代理人高度：。用于导航/寻路的太空舱的总高度。
 
-Nav Agent Step Height: Float (single-precision). Agent Step Height:. Step height to use, or -1 for default value from navdata's config..
+导航员的阶梯高度。Float（单精度）。代理人步高：。要使用的步高，或-1为navdata的配置中的默认值。
 
-Nav Walking Search Height Scale: Float (single-precision). Nav Walking Search Height Scale:. Scale factor to apply to height of bounds when searching for navmesh to project to when nav walking.
+导航行走搜索高度刻度。Float（单精度）。导航行走搜索高度比例：。当导航行走时，在搜索导航网格投射到的边界高度上应用的比例系数。
 
-Preferred Nav Data: Soft Class Path Structure. Preferred Nav Data:. Type of navigation data used by agent, null means "any".
+优选的导航数据。软类路径结构。首选导航数据：。代理人使用的导航数据类型，空表示 "任何"。
 
-Can Crouch: Boolean. Can Crouch:. If true, this Pawn is capable of crouching..
+可以蹲下。布尔型。可以蹲下：。如果为真，这个卒子能够蹲下。
 
-Can Jump: Boolean. Can Jump:. If true, this Pawn is capable of jumping..
+能跳。布尔型。能跳：。如果为真，这个卒子就能跳起来。
 
-Can Walk: Boolean. Can Walk:. If true, this Pawn is capable of walking or moving on the ground..
+可以行走。Boolean.可以行走：。如果为真，这个棋子能够在地上行走或移动。
 
-Can Swim: Boolean. Can Swim:. If true, this Pawn is capable of swimming or moving through fluid volumes..
+会游泳：布尔值。可以游泳：。如果为真，该棋子能够游泳或在液体体积中移动。
 
-Can Fly: Boolean. Can Fly:. If true, this Pawn is capable of flying..
-
+会飞：布尔值。能飞：。如果为真，这个卒子就能飞行。

@@ -1,6 +1,6 @@
 # SetmembersinChaosRemovalEvent
 
-Adds a node that modifies a 'ChaosRemovalEvent'
+添加一个修改 "ChaosRemovalEvent "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ChaosRemovalEvent'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Chaos Removal Event Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Chaos Removal Event Structure (by ref). Reference to the input struct.
-
+结构出来。Chaos Removal Event Structure（通过引用）。对输入结构的引用。

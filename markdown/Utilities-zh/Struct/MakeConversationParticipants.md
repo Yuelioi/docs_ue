@@ -1,6 +1,6 @@
 # MakeConversationParticipants
 
-Adds a node that create a 'ConversationParticipants' from its members
+添加一个节点，从其成员中创建一个 "ConversationParticipants"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'ConversationParticipants' from its members
 
 ## Inputs
 
-List: Array of Conversation Participant Entry Structures. List.  
+列表。对话参与者条目结构的数组。列表。  
 
 ## Outputs
 
-Conversation Participants: Conversation Participants Structure.
-
+对话参与者。对话参与者结构。

@@ -1,6 +1,6 @@
 # MakePhysicsAssetSolverSettings
 
-Adds a node that create a 'PhysicsAssetSolverSettings' from its members
+添加一个节点，从其成员中创建一个 "PhysicsAssetSolverSettings"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'PhysicsAssetSolverSettings' from its members
 
 ## Inputs
 
-Position Iterations: Integer. Position Iterations:. The number of position iterations to run. The position solve is responsible for depenetration and friction.. Increasing this will improve simulation stability, but increase the cost..
+位置迭代。整数。位置迭代：。要运行的位置迭代的数量。位置求解负责消耗和摩擦。增加这个数字可以提高仿真的稳定性，但会增加成本。
 
-Velocity Iterations: Integer. Velocity Iterations:. The number of velocity iterations to run. The velocity solve is responsible for restitution..
+速度迭代。整数。速度迭代：。要运行的速度迭代次数。速度求解负责重构。
 
-Projection Iterations: Integer. Projection Iterations:. The number of projection iterations to run. The projection phase is a final pass over the constraints, applying. a semi-physical correction to any joint errors remaining after the position and velocity solves. It can be. very helpful to stabilize joint chains, but can cause issues with collision response. The projection magnitude. can be controlled per-constraint in the constraint settings (assuming ProjectionIteration is not zero)..
+投影迭代。整数。投影迭代：。要运行的投影迭代的数量。投影阶段是对约束条件的最后处理，对位置和速度求解后剩余的任何关节误差进行半物理修正。这对稳定关节链很有帮助，但会导致碰撞响应的问题。投影幅度可以在约束设置中控制每个约束（假设投影迭代不为零）。
 
-Cull Distance: Float (single-precision). Cull Distance:. The distance at which collisions are ignored. In general you need this to be a bit larger than the typical relative body. movement in your simulation, but small enough so that we don't have to speculatively create too many unused collisions..
+Cull距离。Float（单精度）。Cull Distance:.碰撞被忽略的距离。一般来说，你需要这个距离比你的模拟中典型的相对体运动大一点，但要小到足以使我们不必推测地创造太多的未使用的碰撞。
 
-Max Depenetration Velocity: Float (single-precision). Max Depenetration Velocity:. When bodies are penetrating, this is the maximum velocity delta that can be applied in one frame..
+最大穿透力速度。浮点（单精度）。最大穿透速度：。当物体穿透时，这是在一帧中可以应用的最大速度δ。
 
-Fixed Time Step: Float (single-precision). Fixed Time Step:. The recommended fixed timestep for the RBAN solver. Set to 0 to run with variable timestep (default).. NOTE: If this value is non-zero and less than the current frame time, the simulation will step multiple times. which increases the cost..  
+固定时间步骤。Float（单精度）。固定时间步长：。推荐给RBAN求解器的固定时间步长。设置为0以运行可变时间步长（默认）。注意：如果这个值不是零，并且小于当前的框架时间，那么仿真将进行多次步进，这会增加成本。
 
 ## Outputs
 
-Physics Asset Solver Settings: Physics Asset Solver Settings Structure.
-
+物理资产解算器设置。物理资产解算器设置结构。

@@ -1,6 +1,6 @@
 # BreakSequencerScriptingRange
 
-Adds a node that breaks a 'SequencerScriptingRange' into its member fields
+添加一个节点，将'SequencerScriptingRange'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'SequencerScriptingRange' into its member fields
 
 ## Inputs
 
-Sequencer Scripting Range: Sequencer Scripting Range Structure (by ref).  
+序列器脚本范围。定序器脚本范围结构（按参考）。  
 
 ## Outputs
 
-Has Start: Boolean. Has Start.
+有启动。布尔型。已开始。
 
-Has End: Boolean. Has End.
+有结束。布尔型。已结束。
 
-Inclusive Start: Integer. Inclusive Start.
+包容性的开始。整数。包容性开始。
 
-Exclusive End: Integer. Exclusive End.
-
+排他性结束。整数。排他性结束。

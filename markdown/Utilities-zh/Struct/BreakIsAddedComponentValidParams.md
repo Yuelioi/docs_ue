@@ -1,6 +1,6 @@
 # BreakIsAddedComponentValidParams
 
-Adds a node that breaks a 'IsAddedComponentValidParams' into its member fields
+添加一个节点，将'IsAddedComponentValidParams'分解到其成员字段中。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'IsAddedComponentValidParams' into its member fields
 
 ## Inputs
 
-Is Added Component Valid Params: Is Added Component Valid Params Structure (by ref).  
+是否添加了组件的有效参数。是否添加了组件的有效参数结构（通过参考）。  
 
 ## Outputs
 
-Added Component: Actor Component Object Reference. Added Component:. This component was added to the actor. This is an instance in the editor world..
-
+增加了组件。Actor组件对象参考。添加的组件：。这个组件被添加到演员身上。这是在编辑器世界中的一个实例。

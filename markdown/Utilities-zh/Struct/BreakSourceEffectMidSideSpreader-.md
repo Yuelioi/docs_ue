@@ -1,6 +1,6 @@
 # BreakSourceEffectMidSideSpreader-
 
-Adds a node that breaks a 'SourceEffectMidSideSpreaderSettings' into its member fields
+添加一个打破'SourceEffectMidSideSpreaderSettings'的节点到其成员字段中
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'SourceEffectMidSideSpreaderSettings' into its member 
 
 ## Inputs
 
-Source Effect Mid Side Spreader Settings: Source Effect Mid Side Spreader Settings Structure (by ref).  
+源效应中侧吊具设置。源效应中侧吊具设置结构（按参考）。  
 
 ## Outputs
 
-Spread Amount: Float (single-precision). Spread Amount:. Amount of Mid/Side Spread. 0.0 is no spread, 1.0 is full wide..
+差价金额。Float（单精度）。Spread Amount:.中间/侧面展宽的数量。0.0为无价差，1.0为全宽。
 
-Input Mode: EStereoChannelMode Enum. Input Mode:. Indicate the channel mode of the input signal.
+输入模式。EStereoChannelMode枚举。输入模式：。指明输入信号的通道模式。
 
-Output Mode: EStereoChannelMode Enum. Output Mode:. Indicate the channel mode of the output signal.
+输出模式。EStereoChannelMode枚举。输出模式：。指明输出信号的通道模式。
 
-Equal Power: Boolean. Equal Power:. Indicate whether an equal power relationship between the mid and side channels should be maintained.
-
+等权：布尔。等功率：。表示是否应保持中声道和侧声道之间的等功率关系。

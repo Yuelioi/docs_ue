@@ -1,6 +1,6 @@
 # MakeLinearColor
 
-Adds a node that create a 'LinearColor' from its members
+添加一个节点，从其成员中创建一个 "线性颜色"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'LinearColor' from its members
 
 ## Inputs
 
-R: Float (single-precision). R.
+R：浮点数（单精度）。R.
 
-G: Float (single-precision). G.
+G：浮点数（单精度）。G.
 
-B: Float (single-precision). B.
+B：浮点数（单精度）。B.
 
-A: Float (single-precision). A.  
+A: 浮点数(单精度)。A.
 
 ## Outputs
 
-Linear Color: Linear Color Structure.
-
+线性色彩：线性色彩结构。

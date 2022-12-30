@@ -1,6 +1,6 @@
 # MakeRemoteControlEntity
 
-Adds a node that create a 'RemoteControlEntity' from its members
+添加一个节点，从其成员中创建一个 "RemoteControlEntity"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RemoteControlEntity' from its members
 
 ## Outputs
 
-Remote Control Entity: Remote Control Entity Structure.
-
+远程控制实体。远程控制实体结构。

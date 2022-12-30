@@ -1,6 +1,6 @@
 # BreakStateTreeStateStatus
 
-Adds a node that breaks a 'StateTreeStateStatus' into its member fields
+添加一个节点，将'StateTreeStateStatus'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'StateTreeStateStatus' into its member fields
 
 ## Inputs
 
-State Tree State Status: State Tree State Status Structure (by ref).  
+状态树状态。状态树状态结构（通过参考）。  
 
 ## Outputs
 
-State: State Tree Handle Structure. State.
+状态。状态树柄结构。状态。
 
-Run Status: EStateTreeRunStatus Enum. Run Status.
-
+运行状态：EStateTreeRunStatus枚举。运行状态。

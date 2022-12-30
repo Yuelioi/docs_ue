@@ -1,6 +1,6 @@
 # MakeDataSourceFilterConfiguratio-
 
-Adds a node that create a 'DataSourceFilterConfiguration' from its members
+添加一个节点，从其成员中创建一个 "DataSourceFilterConfiguration"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DataSourceFilterConfiguration' from its members
 
 ## Outputs
 
-Data Source Filter Configuration: Data Source Filter Configuration Structure.
-
+数据源过滤器配置。数据源过滤器配置结构。

@@ -1,6 +1,6 @@
 # BreakGeometryScriptRayHitResult
 
-Adds a node that breaks a 'GeometryScriptRayHitResult' into its member fields
+在其成员字段中添加一个打破'GeometryScriptRayHitResult'的节点
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'GeometryScriptRayHitResult' into its member fields
 
 ## Inputs
 
-Geometry Script Ray Hit Result: Ray Hit Result Structure (by ref).  
+几何脚本射线命中结果。雷击结果结构（按参考）。  
 
 ## Outputs
 
-Hit: Boolean. Hit.
+命中：布尔值。击中。
 
-Ray Parameter: Float (single-precision). Ray Parameter.
+雷参数。Float (single-precision).Ray Parameter.
 
-Hit Triangle ID: Integer. Hit Triangle ID.
+击中三角区ID：整数。击中三角形的ID。
 
-Hit Position: Vector. Hit Position.
+击中位置：向量。击中位置。
 
-Hit Bary Coords: Vector. Hit Bary Coords.
-
+打Bary Coords。向量。击中Bary Coords.

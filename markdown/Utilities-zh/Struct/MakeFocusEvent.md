@@ -1,6 +1,6 @@
 # MakeFocusEvent
 
-Adds a node that create a 'FocusEvent' from its members
+添加一个节点，从其成员中创建一个 "FocusEvent"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'FocusEvent' from its members
 
 ## Outputs
 
-Focus Event: Focus Event Structure.
-
+焦点事件。焦点事件结构。

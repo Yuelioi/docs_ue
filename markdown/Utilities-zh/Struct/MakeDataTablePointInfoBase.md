@@ -1,6 +1,6 @@
 # MakeDataTablePointInfoBase
 
-Adds a node that create a 'DataTablePointInfoBase' from its members
+添加一个节点，从其成员中创建一个 "DataTablePointInfoBase"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'DataTablePointInfoBase' from its members
 
 ## Inputs
 
-Focus: Float (single-precision). Focus:. Point Focus Value.
+焦点。Float（单精度）。焦点：。点聚焦值。
 
-Zoom: Float (single-precision). Zoom:. Point Zoom Value.  
+缩放。Float（单精度）。缩放:.点的缩放值。  
 
 ## Outputs
 
-Data Table Point Info Base: Data Table Point Info Base Structure.
-
+数据表点信息库。数据表点信息库结构。

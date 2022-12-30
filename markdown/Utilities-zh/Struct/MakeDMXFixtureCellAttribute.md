@@ -1,6 +1,6 @@
 # MakeDMXFixtureCellAttribute
 
-Adds a node that create a 'DMXFixtureCellAttribute' from its members
+添加一个节点，从其成员中创建一个 "DMXFixtureCellAttribute"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'DMXFixtureCellAttribute' from its members
 
 ## Inputs
 
-Attribute Mapping: DMXAttribute Name Structure. Attribute:. The Attribute name to map this Function to.. This is used to easily find the Function in Blueprints, using an Attribute. list instead of typing the Function name directly.. The list of Attributes can be edited on. Project Settings->Plugins->DMX Protocol->Fixture Settings->Fixture Function Attributes.
+属性映射。DMXAttribute Name结构。属性：。将该函数映射到的属性名称。这用于在蓝图中轻松找到该功能，使用属性列表，而不是直接输入功能名称。属性列表可以在下面编辑。项目设置->插件->DMX协议->灯具设置->灯具功能属性。
 
-Description: String. Description.
+描述。字符串。描述。
 
-Default Value: Integer64. Default Value:. Initial value for this function when no value is set.
+默认值。整数64。默认值：。没有设定值时，此函数的初始值。
 
-Data Type: EDMXFixtureSignalFormat Enum. Data Type:. This function's data type. Defines the used number of channels (bytes).
+数据类型。EDMXFixtureSignalFormat枚举。数据类型：.这个函数的数据类型。定义了使用的通道数（字节）。
 
-Use LSB Mode: Boolean. Use LSBMode:. The Endianess of the Attribute:. Least Significant Byte mode makes the individual bytes (channels) of the function be. interpreted with the first bytes being the lowest part of the number.: E.g., given a 16 bit function with two channel values set to [0, 1],. they would be interpreted as the binary number 00000001 00000000, which means 256.. The first byte (0) became the lowest part in binary form and the following byte (1), the highest.: Most Fixtures use MSB (Most Significant Byte) mode, which interprets bytes as highest first.. In MSB mode, the example above would be interpreted in binary as 00000000 00000001, which means 1.. The first byte (0) became the highest part in binary form and the following byte (1), the lowest..  
+使用LSB模式。布尔值。使用LSBMode:。属性的尾数：。最不重要的字节模式使函数的各个字节（通道）被解释为第一个字节是数字的最低部分。例如，给定一个16位的函数，有两个通道值设置为[0, 1]，.它们将被解释为二进制数字00000001 00000000，这意味着256。第一个字节（0）成为二进制形式的最低部分，下面的字节（1），是最高的。大多数灯具使用MSB（最重要的字节）模式，它将字节解释为最高的第一个。在MSB模式下，上面的例子在二进制中被解释为00000000 00000001，这意味着1。第一个字节（0）成为二进制形式的最高部分，下面的字节（1），是最低的。  
 
 ## Outputs
 
-DMXFixture Cell Attribute: DMXFixture Cell Attribute Structure.
-
+DMXFixture单元属性。DMXFixture单元属性的结构。

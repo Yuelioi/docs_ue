@@ -1,6 +1,6 @@
 # MakeCoarseLocalizationSettings
 
-Adds a node that create a 'CoarseLocalizationSettings' from its members
+添加一个节点，从其成员中创建一个 "CoarseLocalizationSettings"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'CoarseLocalizationSettings' from its members
 
 ## Inputs
 
-Enable: Boolean. Enable:. If true coarse localization will be active.
+启用。布尔型。启用：。如果为真，粗略的本地化将被激活。
 
-Enable GPS: Boolean. Enable GPS:. If true GPS can be used for localization ("location" must also be enabled in Project Settings->Platforms->Hololens->Capabilities).
+启用GPS：布尔值。启用GPS：。如果为真，可以使用GPS进行定位（"定位 "也必须在项目设置->平台->Hololens->Capabilities中启用）。
 
-Enable Wifi: Boolean. Enable Wifi:. If true WiFi can be used for localization ("wiFiControl" must also be enabled in Project Settings->Platforms->Hololens->Capabilities).
+启用Wifi：布尔值。启用Wifi：。如果为真，WiFi可用于本地化（"wiFiControl "也必须在项目设置->平台->Hololens->Capabilities中启用）。
 
-BLEBeacon UUIDs: Array of Strings. BLEBeacon UUIDs:. List of bluetooth beacon uuids that can be used for localization ("bluetooth" must also be enabled in Project Settings->Platforms->Hololens->Capabilities).  
+BLEBeacon UUIDs。字符串的阵列。BLEBeacon UUIDs:.可用于本地化的蓝牙信标UUID列表（"蓝牙 "也必须在项目设置->平台->Holens->Capabilities中启用）。  
 
 ## Outputs
 
-Coarse Localization Settings: Coarse Localization Settings Structure.
-
+粗略的本地化设置。粗略的本地化设置结构。

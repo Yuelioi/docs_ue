@@ -1,6 +1,6 @@
 # SetmembersinAudioOutputDeviceInf-
 
-Adds a node that modifies a 'AudioOutputDeviceInfo'
+添加一个修改 "AudioOutputDeviceInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AudioOutputDeviceInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Audio Output Device Info Structure (by ref).  
+结构参考：音频输出设备信息结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Audio Output Device Info Structure (by ref). Reference to the input struct.
-
+Struct Out:音频输出设备信息结构（通过参考）。对输入结构的引用。

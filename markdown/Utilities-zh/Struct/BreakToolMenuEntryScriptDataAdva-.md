@@ -1,6 +1,6 @@
 # BreakToolMenuEntryScriptDataAdva-
 
-Adds a node that breaks a 'ToolMenuEntryScriptDataAdvanced' into its member fields
+添加一个节点，将'ToolMenuEntryScriptDataAdvanced'分解成其成员字段
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that breaks a 'ToolMenuEntryScriptDataAdvanced' into its member fiel
 
 ## Inputs
 
-Tool Menu Entry Script Data Advanced: Tool Menu Entry Script Data Advanced Structure (by ref).  
+工具菜单输入脚本数据高级。工具菜单输入脚本数据高级结构（按参考）。  
 
 ## Outputs
 
-Tutorial Highlight: Name. Tutorial Highlight.
+教程亮点。名字。教程亮点。
 
-Entry Type: EMultiBlockType Enum. Entry Type.
+输入类型。EMultiBlockType枚举。条目类型。
 
-User Interface Action Type: EUserInterfaceActionType Enum. User Interface Action Type.
+用户界面动作类型。EUserInterfaceActionType枚举。用户界面动作类型。
 
-Style Name Override: Name. Style Name Override.
+风格名称覆盖。名称。风格名称覆盖。
 
-Is Sub Menu: Boolean. Is Sub Menu.
+是子菜单。布尔型。是子菜单。
 
-Open Sub Menu On Click: Boolean. Open Sub Menu on Click.
+单击时打开子菜单。布尔值。点击时打开子菜单。
 
-Should Close Window After Menu Selection: Boolean. Should Close Window After Menu Selection.
+选择菜单后应关闭窗口。布尔值。选择菜单后应关闭窗口。
 
-Simple Combo Box: Boolean. Simple Combo Box.
-
+简单的组合框。Boolean.简单的组合框。

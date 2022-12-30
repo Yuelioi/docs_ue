@@ -1,6 +1,6 @@
 # BreakInAppPurchaseProductInfo
 
-Adds a node that breaks a 'InAppPurchaseProductInfo' into its member fields
+添加一个节点，将 "InAppPurchaseProductInfo "分解成其成员字段。
 
 ## 图示
 
@@ -8,29 +8,28 @@ Adds a node that breaks a 'InAppPurchaseProductInfo' into its member fields
 
 ## Inputs
 
-In App Purchase Product Info: In App Purchase Product Info Structure (by ref).  
+应用内购买产品信息：应用内购买产品信息结构（按参考）。  
 
 ## Outputs
 
-Identifier: String. Identifier:. The unique product identifier.
+识别器。字符串。标识符：。唯一的产品标识符。
 
-Transaction Identifier: String. Transaction Identifier:. the unique transaction identifier.
+交易标识符。字符串。交易标识符：。唯一的交易标识符。
 
-Display Name: String. Display Name:. The localized display name.
+显示名称。字符串。显示名称：。本地化的显示名称。
 
-Display Description: String. Display Description:. The localized display description name.
+显示描述。字符串。显示描述：。本地化的显示描述名称。
 
-Display Price: String. Display Price:. The localized display price name.
+显示价格。绳索。显示价格：。本地化的显示价格名称。
 
-Raw Price: Float (single-precision). Raw Price:. Raw price without currency code and symbol.
+原始价格。Float (single-precision).原始价格：。没有货币代码和符号的原始价格。
 
-Currency Code: String. Currency Code:. The localized currency code of the price.
+货币代码。字符串。货币代码：。价格的本土化货币代码。
 
-Currency Symbol: String. Currency Symbol:. The localized currency symbol of the price.
+货币符号。字符串。货币符号：。价格的本土化货币符号。
 
-Decimal Separator: String. Decimal Separator:. The localized decimal separator used in the price.
+小数点分离器。字符串。小数点分离器：。价格中使用的本地化的小数分隔符。
 
-Grouping Separator: String. Grouping Separator:. The localized grouping separator of the price.
+分组分隔符。字符串。分组分隔符：.价格的本地化分组分隔符。
 
-Receipt Data: String. Receipt Data:. Opaque receipt data for the transaction.
-
+收据数据。字符串。收据数据：。交易的不透明的收据数据。

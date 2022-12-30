@@ -1,6 +1,6 @@
 # BreakGeometryScriptMeasureMeshDi-
 
-Adds a node that breaks a 'GeometryScriptMeasureMeshDistanceOptions' into its member fields
+添加一个节点，将'GeometryScriptMeasureMeshDistanceOptions'分解到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'GeometryScriptMeasureMeshDistanceOptions' into its me
 
 ## Inputs
 
-Geometry Script Measure Mesh Distance Options: Geometry Script Measure Mesh Distance Options Structure (by ref).  
+Geometry Script Measure Mesh Distance Options:Geometry Script Measure Mesh Distance Options结构（按参考）。  
 
 ## Outputs
 
-Symmetric: Boolean. Symmetric.
-
+对称性：布尔型。对称性。

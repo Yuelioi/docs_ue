@@ -1,6 +1,6 @@
 # SetmembersinOpenColorIOColorSpac-
 
-Adds a node that modifies a 'OpenColorIOColorSpace'
+添加一个修改 "OpenColorIOColorSpace "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'OpenColorIOColorSpace'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Open Color IOColor Space Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Open Color IOColor Space Structure (by ref). Reference to the input struct.
-
+结构出来。Open Color IOColor Space Structure（通过ref）。对输入结构的引用。

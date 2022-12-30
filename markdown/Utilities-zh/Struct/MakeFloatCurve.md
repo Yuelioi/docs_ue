@@ -1,6 +1,6 @@
 # MakeFloatCurve
 
-Adds a node that create a 'FloatCurve' from its members
+添加一个节点，从其成员中创建一个 "FloatCurve"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'FloatCurve' from its members
 
 ## Outputs
 
-Float Curve: Float Curve Structure.
-
+浮动曲线。浮动曲线结构。

@@ -1,6 +1,6 @@
 # MakeSourceEffectChainEntry
 
-Adds a node that create a 'SourceEffectChainEntry' from its members
+添加一个节点，从其成员中创建一个 "SourceEffectChainEntry"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'SourceEffectChainEntry' from its members
 
 ## Inputs
 
-Preset: Sound Effect Source Preset Object Reference. Preset.
+预设。声音效果源预设对象参考。预设。
 
-Bypass: Boolean. Bypass.  
+旁路。布尔型。旁路。  
 
 ## Outputs
 
-Source Effect Chain Entry: Source Effect Chain Entry Structure.
-
+源效应链条目。源效应链入口结构。

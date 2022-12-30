@@ -1,6 +1,6 @@
 # BreakScrollBorderStyle
 
-Adds a node that breaks a 'ScrollBorderStyle' into its member fields
+添加一个节点，将'ScrollBorderStyle'分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ScrollBorderStyle' into its member fields
 
 ## Inputs
 
-Scroll Border Style: Scroll Border Style Structure (by ref).  
+卷轴边框风格。卷轴边框风格结构（按参考）。  
 
 ## Outputs
 
-Top Shadow Brush: Slate Brush Structure. Top Shadow Brush:. Brush used to draw the top shadow of a scrollborder.
+顶部的阴影刷。石板刷的结构。顶影画笔：。用于绘制卷轴边框的顶部阴影的画笔。
 
-Bottom Shadow Brush: Slate Brush Structure. Bottom Shadow Brush:. Brush used to draw the bottom shadow of a scrollborder.
-
+底部阴影刷。石板刷的结构。底部阴影画笔：。用于绘制卷轴边框的底部阴影的画笔。

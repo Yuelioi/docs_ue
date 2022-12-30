@@ -1,6 +1,6 @@
 # SetmembersinInterpCurveLinearCol-
 
-Adds a node that modifies a 'InterpCurveLinearColor'
+添加一个修改 "InterpCurveLinearColor "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InterpCurveLinearColor'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Interp Curve Linear Color Structure (by ref).  
+Struct Ref: Interp Curve Linear Color Structure（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Interp Curve Linear Color Structure (by ref). Reference to the input struct.
-
+Struct Out: Interp Curve Linear Color Structure (by ref).对输入结构的引用。

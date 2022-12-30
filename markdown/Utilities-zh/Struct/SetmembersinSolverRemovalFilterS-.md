@@ -1,6 +1,6 @@
 # SetmembersinSolverRemovalFilterS-
 
-Adds a node that modifies a 'SolverRemovalFilterSettings'
+添加一个节点，修改 "SolverRemovalFilterSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SolverRemovalFilterSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Solver Removal Filter Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Solver Removal Filter Settings Structure (by ref). Reference to the input struct.
-
+结构出来。解算器移除过滤器设置结构（通过引用）。对输入结构的引用。

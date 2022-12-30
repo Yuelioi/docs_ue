@@ -1,6 +1,6 @@
 # SetmembersinFilmStockSettings
 
-Adds a node that modifies a 'FilmStockSettings'
+添加一个节点，修改 "FilmStockSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'FilmStockSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Film Stock Settings Structure (by ref).  
+结构参考：电影库存设置结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Film Stock Settings Structure (by ref). Reference to the input struct.
-
+结构出来。胶片库存设置结构（通过参考）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeNavAvoidanceMask
 
-Adds a node that create a 'NavAvoidanceMask' from its members
+添加一个节点，从其成员中创建一个 "NavAvoidanceMask"。
 
 ## 图示
 
@@ -8,71 +8,70 @@ Adds a node that create a 'NavAvoidanceMask' from its members
 
 ## Inputs
 
-Group 0: Boolean. Group 0.
+第0组：布尔值。第0组。
 
-Group 1: Boolean. Group 1.
+第1组：布尔型。第1组。
 
-Group 2: Boolean. Group 2.
+第2组：布尔型。第2组。
 
-Group 3: Boolean. Group 3.
+第3组：布尔型。第3组。
 
-Group 4: Boolean. Group 4.
+第4组：布尔型。第4组。
 
-Group 5: Boolean. Group 5.
+第5组：布尔型。第5组。
 
-Group 6: Boolean. Group 6.
+第6组：布尔型。第6组。
 
-Group 7: Boolean. Group 7.
+第7组：布尔型。第7组。
 
-Group 8: Boolean. Group 8.
+第8组：布尔型。第8组。
 
-Group 9: Boolean. Group 9.
+第9组：布尔型。第9组。
 
-Group 10: Boolean. Group 10.
+第10组。布尔型。第10组。
 
-Group 11: Boolean. Group 11.
+第11组：布尔型。第11组。
 
-Group 12: Boolean. Group 12.
+第12组：布尔型。第12组。
 
-Group 13: Boolean. Group 13.
+第13组：布尔型。第13组。
 
-Group 14: Boolean. Group 14.
+第14组：布尔型。第14组。
 
-Group 15: Boolean. Group 15.
+第15组：布尔型。第15组。
 
-Group 16: Boolean. Group 16.
+第16组：布尔型。第16组。
 
-Group 17: Boolean. Group 17.
+第17组：布尔型。第17组。
 
-Group 18: Boolean. Group 18.
+第18组：布尔。第18组。
 
-Group 19: Boolean. Group 19.
+第19组：布尔型。第19组。
 
-Group 20: Boolean. Group 20.
+第20组。布尔型。第20组。
 
-Group 21: Boolean. Group 21.
+第21组：布尔型。第21组。
 
-Group 22: Boolean. Group 22.
+第22组：布尔型。第22组。
 
-Group 23: Boolean. Group 23.
+第23组：布尔型。第23组。
 
-Group 24: Boolean. Group 24.
+第24组：布尔型。第24组。
 
-Group 25: Boolean. Group 25.
+第25组。布尔型。第25组。
 
-Group 26: Boolean. Group 26.
+第26组：布尔型。第26组。
 
-Group 27: Boolean. Group 27.
+第27组：布尔型。第27组。
 
-Group 28: Boolean. Group 28.
+第28组：布尔。第28组。
 
-Group 29: Boolean. Group 29.
+第29组：布尔型。第29组。
 
-Group 30: Boolean. Group 30.
+第30组：布尔型。第30组。
 
-Group 31: Boolean. Group 31.  
+第31组：布尔型。第31组。  
 
 ## Outputs
 
-Nav Avoidance Mask: Nav Avoidance Mask Structure.
-
+导航规避面具：导航规避面具结构。

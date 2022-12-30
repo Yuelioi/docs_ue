@@ -1,6 +1,6 @@
 # BreakVirtualCameraSettings
 
-Adds a node that breaks a 'VirtualCameraSettings' into its member fields
+添加一个节点，将'VirtualCameraSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'VirtualCameraSettings' into its member fields
 
 ## Inputs
 
-Virtual Camera Settings: Virtual Camera Settings Structure (by ref).  
+虚拟摄像机设置。虚拟相机设置结构（按参考）。  
 
 ## Outputs
 
-Focal Length: Float (single-precision). Focal Length:. The focal length of the camera.
+焦距。浮点数（单精度）。Focal Length:（焦距）。相机的焦距。
 
-Aperture: Float (single-precision). Aperture:. The aperture of the camera.
-
+光圈。Float（单精度）。光圈：。相机的光圈。

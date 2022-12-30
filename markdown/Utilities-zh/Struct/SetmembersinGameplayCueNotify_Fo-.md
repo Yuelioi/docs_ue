@@ -1,6 +1,6 @@
 # SetmembersinGameplayCueNotify_Fo-
 
-Adds a node that modifies a 'GameplayCueNotify_ForceFeedbackInfo'
+添加一个节点，修改 "GameplayCueNotify_ForceFeedbackInfo"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GameplayCueNotify_ForceFeedbackInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Gameplay Cue Notify Force Feedback Info Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Gameplay Cue Notify Force Feedback Info Structure (by ref). Reference to the input struct.
-
+结构出来。Gameplay Cue Notify Force Feedback Info Structure（通过参考）。对输入结构的引用。

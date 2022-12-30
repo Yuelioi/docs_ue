@@ -1,6 +1,6 @@
 # SetmembersinRigVMParserASTSettin-
 
-Adds a node that modifies a 'RigVMParserASTSettings'
+添加一个修改 "RigVMParserASTSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RigVMParserASTSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Rig VMParser ASTSettings Structure (by ref).  
+Struct Ref: Rig VMParser ASTSettings结构（通过引用）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Rig VMParser ASTSettings Structure (by ref). Reference to the input struct.
-
+结构出来。Rig VMParser ASTSettings 结构（通过引用）。对输入结构的引用。

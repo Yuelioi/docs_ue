@@ -1,6 +1,6 @@
 # SetmembersinMeterChannelInfo
 
-Adds a node that modifies a 'MeterChannelInfo'
+添加一个修改 "MeterChannelInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MeterChannelInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Meter Channel Info Structure (by ref).  
+结构参考：仪表通道信息结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Meter Channel Info Structure (by ref). Reference to the input struct.
-
+结构输出。仪表通道信息结构（通过参考）。对输入结构的引用。

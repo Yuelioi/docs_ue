@@ -1,6 +1,6 @@
 # MakeRigLocalAndGlobalTransform
 
-Adds a node that create a 'RigLocalAndGlobalTransform' from its members
+添加一个节点，从其成员中创建一个 "RigLocalAndGlobalTransform"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigLocalAndGlobalTransform' from its members
 
 ## Outputs
 
-Rig Local and Global Transform: Rig Local And Global Transform Structure.
-
+Rig Local and Global Transform:钻机的局部和全局转换结构。

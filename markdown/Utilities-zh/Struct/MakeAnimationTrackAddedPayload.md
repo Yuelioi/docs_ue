@@ -1,6 +1,6 @@
 # MakeAnimationTrackAddedPayload
 
-Adds a node that create a 'AnimationTrackAddedPayload' from its members
+添加一个节点，从其成员中创建一个'AnimationTrackAddedPayload'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AnimationTrackAddedPayload' from its members
 
 ## Outputs
 
-Animation Track Added Payload: Animation Track Added Payload Structure.
-
+动画轨道增加了有效载荷。动画轨道 增加了有效载荷结构。

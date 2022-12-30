@@ -1,6 +1,6 @@
 # MakeControlRigComponentMappedBon-
 
-Adds a node that create a 'ControlRigComponentMappedBone' from its members
+添加一个节点，从其成员中创建一个 "ControlRigComponentMappedBone"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ControlRigComponentMappedBone' from its members
 
 ## Inputs
 
-Source: Name. Source.
+来源。名字。来源：《中国新闻周刊》。
 
-Target: Name. Target.  
+目标：名称。目标。  
 
 ## Outputs
 
-Control Rig Component Mapped Bone: Mapped Bone Structure.
-
+控制钻机组件映射的骨骼：映射的骨骼结构。

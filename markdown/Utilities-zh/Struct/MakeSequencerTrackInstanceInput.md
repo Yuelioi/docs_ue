@@ -1,6 +1,6 @@
 # MakeSequencerTrackInstanceInput
 
-Adds a node that create a 'SequencerTrackInstanceInput' from its members
+添加一个节点，从其成员中创建一个 "SequencerTrackInstanceInput"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SequencerTrackInstanceInput' from its members
 
 ## Outputs
 
-Sequencer Track Instance Input: Sequencer Track Instance Input Structure.
-
+定序器音轨实例输入。定序器音轨实例输入结构。

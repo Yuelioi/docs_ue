@@ -1,6 +1,6 @@
 # MakeNamedColor
 
-Adds a node that create a 'NamedColor' from its members
+添加一个节点，从其成员中创建一个 "NamedColor"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'NamedColor' from its members
 
 ## Inputs
 
-Value: Color Structure. Value.
+价值。颜色结构。价值。
 
-Name: Name. Name.  
+姓名：姓名名称。  
 
 ## Outputs
 
-Named Color: Named Color Structure.
-
+命名的颜色： 命名的颜色结构。

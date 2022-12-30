@@ -1,6 +1,6 @@
 # MakeAnimNode_SteamVRInputAnimPos-
 
-Adds a node that create a 'AnimNode_SteamVRInputAnimPose' from its members
+添加一个节点，从其成员中创建一个'AnimNode_SteamVRInputAnimPose'。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'AnimNode_SteamVRInputAnimPose' from its members
 
 ## Inputs
 
-Motion Range: EMotionRange Enum. Motion Range:. Range of motion for the skeletal input values.
+运动范围。EMotionRange Enum.运动范围：。骨骼输入值的运动范围。
 
-Hand: EHand Enum. Hand:. Which hand should the animation node retrieve skeletal input values for.
+手。EHand Enum.手：。动画节点应该检索哪只手的骨架输入值。
 
-Hand Skeleton: EHandSkeleton Enum. Hand Skeleton:. What kind of skeleton are we dealing with.
+手部骨架。EHandSkeleton Enum.手部骨架：。我们处理的是什么类型的骨架。
 
-Mirror: Boolean. Mirror:. Should the pose be mirrored so it can be applied to the opposite hand.
+镜像。Boolean.镜像：。姿势是否应该被镜像，以便它可以应用于对面的手。
 
-Steam VRSkeletal Transform: Steam VRSkeleton Transform Structure. Steam VRSkeletal Transform:. The UE4 equivalent of the SteamVR Transform values per bone.  
+蒸汽VRS骨架转换。蒸汽VRS骨架转换结构。Steam VRSkeletal Transform:.UE4相当于SteamVR每个骨骼的变换值。  
 
 ## Outputs
 
 Anim Node Steam VRInput Anim Pose: Anim Node Steam VRInput Anim Pose Structure.
-

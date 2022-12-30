@@ -1,6 +1,6 @@
 # SetmembersinGeometryScriptCollis-
 
-Adds a node that modifies a 'GeometryScriptCollisionFromMeshOptions'
+添加一个节点，修改 "GeometryScriptCollisionFromMeshOptions"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryScriptCollisionFromMeshOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Geometry Script Collision From Mesh Options Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Geometry Script Collision From Mesh Options Structure (by ref). Reference to the input struct.
-
+结构出来。Geometry Script Collision From Mesh Options Structure（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # BreakSphericalPontoon
 
-Adds a node that breaks a 'SphericalPontoon' into its member fields
+添加一个节点，将'SphericalPontoon'分解成其成员字段
 
 ## 图示
 
@@ -8,39 +8,38 @@ Adds a node that breaks a 'SphericalPontoon' into its member fields
 
 ## Inputs
 
-Spherical Pontoon: Spherical Pontoon Structure (by ref).  
+球形浮桥。球形浮桥结构（由参考）。  
 
 ## Outputs
 
-Center Socket: Name. Center Socket:. The socket to center this pontoon on.
+中心插座。名称。中心插座：。将此浮标置于中心的插座。
 
-Relative Location: Vector. Relative Location:. Relative Location of pontoon WRT parent actor. Overridden by Center Socket..
+相对位置。矢量。相对位置：。相对于父角色，浮桥的相对位置。由中心插座重写。
 
-Radius: Float (single-precision). Radius:. The radius of the pontoon.
+半径。Float（单精度）。半径：。浮桥的半径。
 
-Local Force: Vector. Local Force.
+当地的力量。矢量。当地的力。
 
-Center Location: Vector. Center Location.
+中心位置。向量。中心位置。
 
-Socket Rotation: Quat Structure. Socket Rotation.
+插座旋转：Quat结构。插座旋转。
 
-Offset: Vector. Offset.
+偏移。矢量。偏移。
 
-Water Height: Float (single-precision). Water Height.
+水的高度。浮点（单精度）。水的高度。
 
-Water Depth: Float (single-precision). Water Depth.
+水深。浮动（单精度）。水深。
 
-Immersion Depth: Float (single-precision). Immersion Depth.
+浸入深度。Float（单精度）。浸入深度。
 
-Water Plane Location: Vector. Water Plane Location.
+水平面的位置。向量。水平面的位置。
 
-Water Plane Normal: Vector. Water Plane Normal.
+水平面法线: 向量。水平面正常。
 
-Water Surface Position: Vector. Water Surface Position.
+水面位置。向量。水面位置。
 
-Water Velocity: Vector. Water Velocity.
+水的速度。矢量。水的速度。
 
-Water Body Index: Integer. Water Body Index.
+水体指数。整数。水体指数。
 
-Current Water Body Component: Water Body Component Object Reference. Current Water Body Component.
-
+当前的水体成分。水体组件对象参考。当前水体组件。

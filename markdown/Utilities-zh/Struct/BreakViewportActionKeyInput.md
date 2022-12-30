@@ -1,6 +1,6 @@
 # BreakViewportActionKeyInput
 
-Adds a node that breaks a 'ViewportActionKeyInput' into its member fields
+添加一个节点，将'ViewportActionKeyInput'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ViewportActionKeyInput' into its member fields
 
 ## Inputs
 
-Viewport Action Key Input: Viewport Action Key Input Structure (by ref).  
+视口动作键输入。视口动作键输入结构（按参考）。  
 
 ## Outputs
 
-Action Type: Name. Action Type:. The name of this action.
+行动类型。名称。行动类型：。这个行动的名称。
 
-Event: EInputEvent Enum. Event:. Input event.
-
+事件。EInputEvent Enum.事件：。输入事件。

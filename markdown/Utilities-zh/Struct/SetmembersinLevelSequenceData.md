@@ -1,6 +1,6 @@
 # SetmembersinLevelSequenceData
 
-Adds a node that modifies a 'LevelSequenceData'
+添加一个修改 "LevelSequenceData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'LevelSequenceData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Level Sequence Data Structure (by ref).  
+Struct Ref: 水平序列数据结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Level Sequence Data Structure (by ref). Reference to the input struct.
-
+结构出来。水平序列数据结构（通过引用）。对输入结构的引用。

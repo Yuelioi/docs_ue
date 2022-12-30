@@ -1,6 +1,6 @@
 # MakeNavigationLink
 
-Adds a node that create a 'NavigationLink' from its members
+添加一个节点，从其成员中创建一个 "导航链接"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'NavigationLink' from its members
 
 ## Inputs
 
-Left: Vector. Left.
+左图：向量。左边。
 
-Right: Vector. Right.
+对。向量。右图。
 
-Direction: ENavLinkDirection Enum. Direction:. WITH_EDITORONLY_DATA.  
+方向。ENavLinkDirection Enum.方向:。with_editoronly_data.  
 
 ## Outputs
 
-Navigation Link: Navigation Link Structure.
-
+导航链接。导航链接结构。

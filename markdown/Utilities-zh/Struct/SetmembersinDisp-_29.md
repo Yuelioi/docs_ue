@@ -1,6 +1,6 @@
 # SetmembersinDisp-_29
 
-Adds a node that modifies a 'DisplayClusterConfigurationViewport_AllNodesColorGrading'
+添加一个节点，修改 "DisplayClusterConfigurationViewport_AllNodesColorGrading"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DisplayClusterConfigurationViewport_AllNodesColorGr
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Display Cluster Configuration Viewport All Nodes Color Grading Structure (by ref).  
+结构参考：显示集群配置视口所有节点颜色分级结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Display Cluster Configuration Viewport All Nodes Color Grading Structure (by ref). Reference to the input struct.
-
+结构出来。Display Cluster Configuration Viewport All Nodes Color Grading Structure（通过参考）。对输入结构的引用。

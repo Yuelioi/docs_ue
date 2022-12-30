@@ -1,6 +1,6 @@
 # MakeNodalOffsetPointInfo
 
-Adds a node that create a 'NodalOffsetPointInfo' from its members
+添加一个节点，从其成员中创建一个'NodalOffsetPointInfo'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'NodalOffsetPointInfo' from its members
 
 ## Inputs
 
-Nodal Point Offset: Nodal Point Offset Structure. Nodal Point Offset:. Nodal Point parameter.
+节点偏移。节点偏移结构。节点偏移：。节点参数。
 
-Focus: Float (single-precision). Focus:. Point Focus Value.
+焦点。Float（单精度）。焦点：。点聚焦值。
 
-Zoom: Float (single-precision). Zoom:. Point Zoom Value.  
+缩放。Float（单精度）。缩放:.点的缩放值。  
 
 ## Outputs
 
-Nodal Offset Point Info: Nodal Offset Point Info Structure.
-
+节点偏移点信息。节点偏移点信息结构。

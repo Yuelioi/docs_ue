@@ -1,6 +1,6 @@
 # SetmembersinWaveFunctionCollapse-_2
 
-Adds a node that modifies a 'WaveFunctionCollapseOption'
+添加一个修改 "WaveFunctionCollapseOption "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'WaveFunctionCollapseOption'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Wave Function Collapse Option Structure (by ref).  
+Struct Ref: 波形函数折叠选项结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Wave Function Collapse Option Structure (by ref). Reference to the input struct.
-
+结构出来。波函数折叠选项结构（通过参考）。对输入结构的引用。

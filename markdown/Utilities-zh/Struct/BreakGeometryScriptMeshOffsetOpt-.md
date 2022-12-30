@@ -1,6 +1,6 @@
 # BreakGeometryScriptMeshOffsetOpt-
 
-Adds a node that breaks a 'GeometryScriptMeshOffsetOptions' into its member fields
+添加一个节点，将'GeometryScriptMeshOffsetOptions'分解到其成员字段中
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'GeometryScriptMeshOffsetOptions' into its member fiel
 
 ## Inputs
 
-Geometry Script Mesh Offset Options: Geometry Script Mesh Offset Options Structure (by ref).  
+Geometry Script Mesh Offset Options:Geometry Script Mesh Offset Options结构（按参考）。  
 
 ## Outputs
 
-Offset Distance: Float (single-precision). Offset Distance.
+偏移距离。Float（单精度）。偏移距离。
 
-Fixed Boundary: Boolean. Fixed Boundary.
+固定边界：布尔值。固定的边界。
 
-Solve Steps: Integer. Solve Steps.
+解决步骤。整数。解决步骤。
 
-Smooth Alpha: Float (single-precision). Smooth Alpha.
+平滑阿尔法。Float（单精度）。平滑阿尔法。
 
-Reproject During Smoothing: Boolean. Reproject During Smoothing.
+平滑化过程中的重投：布尔值。平滑化过程中的重投。
 
-Boundary Alpha: Float (single-precision). Boundary Alpha:. should not be > 0.9.
-
+边界Alpha。Float（单精度）。边界Alpha：.不应大于0.9。

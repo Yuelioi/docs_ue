@@ -1,6 +1,6 @@
 # MakeControlRigSnapperSelection
 
-Adds a node that create a 'ControlRigSnapperSelection' from its members
+添加一个节点，从其成员中创建一个 "ControlRigSnapperSelection"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ControlRigSnapperSelection' from its members
 
 ## Inputs
 
-Actors: Array of Actor For World Transforms Structures. Actors.
+演员。行为者阵列 对于世界的转变结构。行为者。
 
-Control Rigs: Array of Control Rig For World Transforms Structures. Control Rigs.  
+控制装置。阵列控制钻机用于世界转换的结构。控制装置。  
 
 ## Outputs
 
-Control Rig Snapper Selection: Control Rig Snapper Selection Structure.
-
+控制钻机鲷鱼的选择。控制钻机鲷鱼的选择结构。

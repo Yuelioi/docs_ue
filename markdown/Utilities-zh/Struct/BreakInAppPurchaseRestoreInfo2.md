@@ -1,6 +1,6 @@
 # BreakInAppPurchaseRestoreInfo2
 
-Adds a node that breaks a 'InAppPurchaseRestoreInfo2' into its member fields
+添加一个节点，将'InAppPurchaseRestoreInfo2'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'InAppPurchaseRestoreInfo2' into its member fields
 
 ## Inputs
 
-In App Purchase Restore Info 2: In App Purchase Restore Info 2 Structure (by ref).  
+应用内购买恢复信息2：应用内购买恢复信息2结构（按参考）。  
 
 ## Outputs
 
-Item Name: String. Item Name:. The item name.
+项目名称。绳索。项目名称：。项目的名称。
 
-Item Id: String. Item Id:. The unique product identifier.
+项目标识。字符串。项目标识：。唯一的产品标识符。
 
-Validation Info: String. Validation Info:. the unique transaction identifier.
-
+验证信息。字符串。验证信息：。唯一的交易标识符。

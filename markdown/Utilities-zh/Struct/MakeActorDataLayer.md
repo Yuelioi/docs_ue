@@ -1,6 +1,6 @@
 # MakeActorDataLayer
 
-Adds a node that create a 'ActorDataLayer' from its members
+添加一个节点，从其成员中创建一个 "演员数据层"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ActorDataLayer' from its members
 
 ## Outputs
 
-Actor Data Layer: Actor Data Layer Structure.
-
+演员数据层。演员数据层结构。

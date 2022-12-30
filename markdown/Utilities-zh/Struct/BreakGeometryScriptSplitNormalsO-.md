@@ -1,6 +1,6 @@
 # BreakGeometryScriptSplitNormalsO-
 
-Adds a node that breaks a 'GeometryScriptSplitNormalsOptions' into its member fields
+添加一个节点，将'GeometryScriptSplitNormalsOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'GeometryScriptSplitNormalsOptions' into its member fi
 
 ## Inputs
 
-Geometry Script Split Normals Options: Geometry Script Split Normals Options Structure (by ref).  
+Geometry Script Split Normals Options:Geometry Script Split Normals Options结构（按参考）。  
 
 ## Outputs
 
-Split By Opening Angle: Boolean. Split by Opening Angle.
+按开口角度分割。布尔型。按开口角度分割。
 
-Opening Angle Deg: Float (single-precision). Opening Angle Deg.
+开口角度：浮点数（单精度）。开口角度
 
-Split By Face Group: Boolean. Split by Face Group.
+按脸部组别分割。布尔型。按脸部组别分割。
 
-Group Layer: Geometry Script Group Layer Structure. Group Layer.
-
+组图层。Geometry Script Group Layer Structure.组图层。

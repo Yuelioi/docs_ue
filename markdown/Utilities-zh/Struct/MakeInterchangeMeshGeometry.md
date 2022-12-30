@@ -1,6 +1,6 @@
 # MakeInterchangeMeshGeometry
 
-Adds a node that create a 'InterchangeMeshGeometry' from its members
+添加一个节点，从其成员中创建一个 "InterchangeMeshGeometry"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'InterchangeMeshGeometry' from its members
 
 ## Outputs
 
-Interchange Mesh Geometry: Interchange Mesh Geometry Structure.
-
+互换网的几何结构。交换网的几何结构。

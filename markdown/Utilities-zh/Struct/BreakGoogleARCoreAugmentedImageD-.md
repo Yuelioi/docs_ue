@@ -1,6 +1,6 @@
 # BreakGoogleARCoreAugmentedImageD-
 
-Adds a node that breaks a 'GoogleARCoreAugmentedImageDatabaseEntry' into its member fields
+添加一个节点，将'GoogleARCoreAugmentedImageDatabaseEntry'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'GoogleARCoreAugmentedImageDatabaseEntry' into its mem
 
 ## Inputs
 
-Google ARCore Augmented Image Database Entry: Google ARCore Augmented Image Database Entry Structure (by ref).  
+谷歌ARCore增强型图像数据库条目。谷歌ARCore增强型图像数据库条目结构（按参考）。  
 
 ## Outputs
 
-Name: Name. Name:. Name of the image. This can be retrieved from an active. UGoogleARCoreAugmentedImage with the GetImageName function..
+姓名。姓名：。名称：。图像的名称。这可以从一个活动的.UGoogleARCoreAugmentedImage的GetImageName函数。
 
-Image Asset: Texture 2D Object Reference. Image Asset:. Texture to use for this image. Valid formats are RGBA8 and. BGRA8..
+图像资产：纹理2D对象参考。图像资产：。用于该图像的纹理。有效的格式是RGBA8和.BGRA8.
 
-Width: Float (single-precision). Width:. Width of the image in meters..
-
+宽度：浮点数（单精度）。宽度：。图像的宽度，单位是米。

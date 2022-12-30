@@ -1,6 +1,6 @@
 # MakeDMXImportGDTFFilterShaper
 
-Adds a node that create a 'DMXImportGDTFFilterShaper' from its members
+添加一个节点，从其成员中创建一个 "DMXImportGDTFFilterShaper"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXImportGDTFFilterShaper' from its members
 
 ## Outputs
 
-DMXImport GDTFFilter Shaper: DMXImport GDTFFilter Shaper Structure.
-
+DMXImport GDTFFilter Shaper:DMXImport GDTFFilter Shaper结构。

@@ -1,6 +1,6 @@
 # SetmembersinPoseSearchDatabaseSe-
 
-Adds a node that modifies a 'PoseSearchDatabaseSequence'
+添加一个修改 "PoseSearchDatabaseSequence "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'PoseSearchDatabaseSequence'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Pose Search Database Sequence Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Pose Search Database Sequence Structure (by ref). Reference to the input struct.
-
+结构出来。姿势搜索数据库序列结构（通过参考）。对输入结构的引用。

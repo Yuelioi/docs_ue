@@ -1,6 +1,6 @@
 # BreakMoviePipelinePostProcessPas-
 
-Adds a node that breaks a 'MoviePipelinePostProcessPass' into its member fields
+添加一个节点，将'MoviePipelinePostProcessPass'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'MoviePipelinePostProcessPass' into its member fields
 
 ## Inputs
 
-Movie Pipeline Post Process Pass: Movie Pipeline Post Process Pass Structure (by ref).  
+电影管道后处理通道。电影管道后处理通道结构（按参考）。  
 
 ## Outputs
 
-Enabled: Boolean. Enabled:. Additional passes add a significant amount of render time. May produce multiple output files if using Screen Percentage..
+已启用。布尔型。启用：。额外的传递会增加大量的渲染时间。如果使用屏幕百分比，可能会产生多个输出文件。
 
-Material: Material Interface Soft Object Reference. Material:. Material should be set to Post Process domain, and Blendable Location = After Tonemapping.. This will need bDisableMultisampleEffects enabled for pixels to line up(ie : no DoF, MotionBlur, TAA).
-
+材料。材料界面软性物体参考。材料:.材质应设置为后期处理域，可混合的位置=After Tonemapping。这将需要启用bDisableMultisampleEffects来使像素排成一行（即：没有DoF、MotionBlur、TAA）。

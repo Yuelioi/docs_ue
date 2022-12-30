@@ -1,6 +1,6 @@
 # MakeBuoyancyData
 
-Adds a node that create a 'BuoyancyData' from its members
+添加一个节点，从其成员中创建一个 "浮力数据"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'BuoyancyData' from its members
 
 ## Outputs
 
-Buoyancy Data: Buoyancy Data Structure.
-
+浮力数据。浮力数据结构。

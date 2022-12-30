@@ -1,6 +1,6 @@
 # MakeTimedDataChannelSampleTime
 
-Adds a node that create a 'TimedDataChannelSampleTime' from its members
+添加一个节点，从其成员中创建一个 "TimedDataChannelSampleTime"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'TimedDataChannelSampleTime' from its members
 
 ## Outputs
 
-Timed Data Channel Sample Time: Timed Data Channel Sample Time Structure.
-
+定时数据通道采样时间：定时数据通道采样时间结构。

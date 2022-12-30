@@ -1,6 +1,6 @@
 # MakeActorForWorldTransforms
 
-Adds a node that create a 'ActorForWorldTransforms' from its members
+添加一个节点，从其成员中创建一个'ActorForWorldTransforms'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'ActorForWorldTransforms' from its members
 
 ## Inputs
 
-Actor: Actor Weak object. Actor.
+演员。演员 弱势的对象。行为者。
 
-Component: Scene Component Weak object. Component.
+组件。场景组件 弱势对象。组件。
 
-Socket Name: Name. Socket Name.  
+插座名称：名称。插座名称。  
 
 ## Outputs
 
-Actor for World Transforms: Actor For World Transforms Structure.
-
+为世界转变的演员。世界变化的行为者结构。

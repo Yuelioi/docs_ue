@@ -1,6 +1,6 @@
 # MakeGameplayEventData
 
-Adds a node that create a 'GameplayEventData' from its members
+添加一个节点，从其成员中创建一个 "GameplayEventData"。
 
 ## 图示
 
@@ -8,27 +8,26 @@ Adds a node that create a 'GameplayEventData' from its members
 
 ## Inputs
 
-Event Tag: Gameplay Tag Structure. Event Tag:. Tag of the event that triggered this.
+事件标签。游戏性标签结构。事件标签：。触发该事件的标签。
 
-Instigator: Actor Object Reference. Instigator:. The instigator of the event.
+指导者。演员对象参考。指导者：。事件的发起者。
 
-Target: Actor Object Reference. Target:. The target of the event.
+目标。演员对象参考。目标：。事件的目标。
 
-Optional Object: Object Reference. Optional Object:. An optional ability-specific object to be passed though the event.
+可选对象。对象参考。可选对象：.一个可选的特定能力对象，通过事件传递。
 
-Optional Object 2: Object Reference. Optional Object 2:. A second optional ability-specific object to be passed though the event.
+可选对象2：对象参考。可选对象2：.第二个可选的特定能力对象，通过事件传递。
 
-Context Handle: Gameplay Effect Context Handle Structure. Context Handle:. Polymorphic context information.
+语境处理。Gameplay Effect Context Handle结构。上下文手柄：。多态的上下文信息。
 
-Instigator Tags: Gameplay Tag Container Structure. Instigator Tags:. Tags that the instigator has.
+教唆者标签。游戏性标签 容器结构。教唆者标签：。教唆者拥有的标签。
 
-Target Tags: Gameplay Tag Container Structure. Target Tags:. Tags that the target has.
+目标标签。游戏性标签 容器结构。目标标签：。目标所拥有的标签。
 
-Event Magnitude: Float (single-precision). Event Magnitude:. The magnitude of the triggering event.
+事件幅度。Float (single-precision).事件幅值：。触发事件的量级。
 
-Target Data: Gameplay Ability Target Data Handle Structure. Target Data:. The polymorphic target information for the event.  
+目标数据。游戏能力目标数据处理结构。目标数据：。事件的多态目标信息。  
 
 ## Outputs
 
-Gameplay Event Data: Gameplay Event Data Structure.
-
+游戏性事件数据。游戏性事件数据结构。

@@ -1,6 +1,6 @@
 # SetmembersinDisp-_19
 
-Adds a node that modifies a 'DisplayClusterConfigurationICVFX_VisibilityList'
+添加一个节点，修改 "DisplayClusterConfigurationICVFX_VisibilityList"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DisplayClusterConfigurationICVFX_VisibilityList'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Display Cluster Configuration ICVFX Visibility List Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Display Cluster Configuration ICVFX Visibility List Structure (by ref). Reference to the input struct.
-
+结构出来。Display Cluster Configuration ICVFX Visibility List Structure（通过参考）。对输入结构的引用。

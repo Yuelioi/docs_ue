@@ -1,6 +1,6 @@
 # MakeAttributeCurve
 
-Adds a node that create a 'AttributeCurve' from its members
+添加一个节点，从其成员中创建一个 "AttributeCurve"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AttributeCurve' from its members
 
 ## Outputs
 
-Attribute Curve: Attribute Curve Structure.
-
+属性曲线。属性曲线结构。

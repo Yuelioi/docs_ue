@@ -1,6 +1,6 @@
 # MakeSequencerQuickBindingResult
 
-Adds a node that create a 'SequencerQuickBindingResult' from its members
+添加一个节点，从其成员中创建一个'SequencerQuickBindingResult'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SequencerQuickBindingResult' from its members
 
 ## Outputs
 
-Sequencer Quick Binding Result: Sequencer Quick Binding Result Structure.
-
+序列器快速绑定结果。序列器快速绑定结果结构。

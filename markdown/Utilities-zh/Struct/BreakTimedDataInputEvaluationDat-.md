@@ -1,6 +1,6 @@
 # BreakTimedDataInputEvaluationDat-
 
-Adds a node that breaks a 'TimedDataInputEvaluationData' into its member fields
+添加一个节点，将'TimedDataInputEvaluationData'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'TimedDataInputEvaluationData' into its member fields
 
 ## Inputs
 
-Timed Data Input Evaluation Data: Timed Data Input Evaluation Data Structure (by ref).  
+计时数据输入评估数据。定时数据输入评估数据结构（由参考）。  
 
 ## Outputs
 
-Distance To Newest Sample Seconds: Float (single-precision). Distance to Newest Sample Seconds:. Distance between evaluation time and newest sample in seconds.
+到最新样本的距离 秒。Float (single-precision).到最新样本的距离秒数：。评估时间与最新样本之间的距离，单位是秒。
 
-Distance To Oldest Sample Seconds: Float (single-precision). Distance to Oldest Sample Seconds:. Distance between evaluation time and newest sample in seconds.
-
+到最古老样本的距离 秒。Float (single-precision).到最旧样本的距离秒数：。评估时间与最新样本之间的距离，单位为秒。

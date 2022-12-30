@@ -1,6 +1,6 @@
 # MakeGeometryScriptMeshBooleanOpt-
 
-Adds a node that create a 'GeometryScriptMeshBooleanOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptMeshBooleanOptions'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'GeometryScriptMeshBooleanOptions' from its members
 
 ## Inputs
 
-Fill Holes: Boolean. Fill Holes.
+填充孔。布尔型。填充孔。
 
-Simplify Output: Boolean. Simplify Output.
+简化输出。布尔型。简化输出。
 
-Simplify Planar Tolerance: Float (single-precision). Simplify Planar Tolerance.  
+简化平面公差。Float（单精度）。简化平面公差。  
 
 ## Outputs
 
-Geometry Script Mesh Boolean Options: Geometry Script Mesh Boolean Options Structure.
-
+Geometry Script Mesh Boolean Options:Geometry Script Mesh Boolean Options结构。

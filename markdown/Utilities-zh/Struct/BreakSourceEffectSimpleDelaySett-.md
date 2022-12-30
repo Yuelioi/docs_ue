@@ -1,6 +1,6 @@
 # BreakSourceEffectSimpleDelaySett-
 
-Adds a node that breaks a 'SourceEffectSimpleDelaySettings' into its member fields
+添加一个节点，将'SourceEffectSimpleDelaySettings'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'SourceEffectSimpleDelaySettings' into its member fiel
 
 ## Inputs
 
-Source Effect Simple Delay Settings: Source Effect Simple Delay Settings Structure (by ref).  
+源效果简单延时设置。源效果简单延时设置结构（按参考）。  
 
 ## Outputs
 
-Speed Of Sound: Float (single-precision). Speed Of Sound:. Speed of sound in meters per second when using distance-based delay.
+声速。Float (single-precision).声速：。使用基于距离的延迟时，声音的速度，单位是米/秒。
 
-Delay Amount: Float (single-precision). Delay Amount:. Delay amount in seconds.
+延迟量。Float (single-precision).延迟量：。延迟量，单位是秒。
 
-Dry Amount: Float (single-precision). Dry Amount:. Gain stage on dry (non-delayed signal).
+干量。Float（单精度）。干量：。干信号（非延迟信号）的增益阶段。
 
-Wet Amount: Float (single-precision). Wet Amount:. Gain stage on wet (delayed) signal.
+湿量。Float（单精度）。湿量：。对湿（延迟）信号的增益阶段。
 
-Feedback: Float (single-precision). Feedback:. Amount to feedback into the delay line (because why not).
+反馈。Float（单精度）。反馈：。反馈到延迟线的数量（因为为什么不呢）。
 
-Delay Based On Distance: Boolean. Delay Based on Distance:. Whether or not to delay the audio based on the distance to the listener or use manual delay.
-
+基于距离的延迟。布尔型。基于距离的延迟：。是否根据听众的距离来延迟音频，或使用手动延迟。

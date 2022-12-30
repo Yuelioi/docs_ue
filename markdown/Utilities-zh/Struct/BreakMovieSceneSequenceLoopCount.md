@@ -1,6 +1,6 @@
 # BreakMovieSceneSequenceLoopCount
 
-Adds a node that breaks a 'MovieSceneSequenceLoopCount' into its member fields
+添加一个节点，将'MovieSceneSequenceLoopCount'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'MovieSceneSequenceLoopCount' into its member fields
 
 ## Inputs
 
-Movie Scene Sequence Loop Count: Movie Scene Sequence Loop Count Structure (by ref).  
+电影场景序列循环计数。电影场景序列循环计数结构（按参考）。  
 
 ## Outputs
 
-Loop: Integer. Value:. Whether or not to loop playback. If Loop Exactly is chosen, you can specify the number of times to loop.
-
+循环。整数。值：。是否循环播放。如果选择Loop Exactly，你可以指定循环的次数。

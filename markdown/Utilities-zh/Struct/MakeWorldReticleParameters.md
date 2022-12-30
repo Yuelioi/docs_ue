@@ -1,6 +1,6 @@
 # MakeWorldReticleParameters
 
-Adds a node that create a 'WorldReticleParameters' from its members
+添加一个节点，从其成员中创建一个 "WorldReticleParameters"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'WorldReticleParameters' from its members
 
 ## Inputs
 
-AOEScale: Vector. AOEScale.  
+AOEScale: 向量。AOEScale。  
 
 ## Outputs
 
-World Reticle Parameters: World Reticle Parameters Structure.
-
+世界视网膜参数。世界视网膜参数结构。

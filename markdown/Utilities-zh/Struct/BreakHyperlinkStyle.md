@@ -1,6 +1,6 @@
 # BreakHyperlinkStyle
 
-Adds a node that breaks a 'HyperlinkStyle' into its member fields
+添加一个节点，将'HyperlinkStyle'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'HyperlinkStyle' into its member fields
 
 ## Inputs
 
-Hyperlink Style: Hyperlink Style Structure (by ref).  
+超链接风格。超链接风格结构（按参考文献）。  
 
 ## Outputs
 
-Underline Style: Button Style Structure. Underline Style:. Underline style.
+下划线风格。按钮式结构。下划线样式：。下划线样式。
 
-Text Style: Text Block Style Structure. Text Style:. Text style.
+文本样式。文本块样式结构。文本风格：。文本风格。
 
-Padding: Margin Structure. Padding:. Padding.
-
+填充。保证金结构。Padding:.填充。

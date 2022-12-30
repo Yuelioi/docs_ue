@@ -1,6 +1,6 @@
 # MakeNamedCurveValue
 
-Adds a node that create a 'NamedCurveValue' from its members
+添加一个节点，从其成员中创建一个 "NamedCurveValue"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'NamedCurveValue' from its members
 
 ## Inputs
 
-Name: Name. Name:. The name of the curve.
+姓名。姓名：。名称：。曲线的名称。
 
-Value: Float (single-precision). Value:. The value of the curve.  
+值。Float (single-precision).值：。曲线的值。  
 
 ## Outputs
 
-Named Curve Value: Named Curve Value Structure.
-
+命名的曲线值。命名的曲线值结构。

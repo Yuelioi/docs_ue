@@ -1,6 +1,6 @@
 # MakeVoiceSettings
 
-Adds a node that create a 'VoiceSettings' from its members
+添加一个节点，从其成员中创建一个 "VoiceSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'VoiceSettings' from its members
 
 ## Inputs
 
-Component To Attach To: Scene Component Object Reference. Component to Attach To:. Optionally attach the voice source to a Scene Component to give the appearance. that the voice is coming from that scene component.. If this is not set, the voice will not be spatialized..
+要连接的组件。场景组件对象参考。要附加的组件：。可选地将语音源附加到一个场景组件上，使其看起来是来自该场景组件的声音。如果没有设置，语音将不会被空间化。
 
-Attenuation Settings: Sound Attenuation Object Reference. Attenuation Settings:. Optional attenuation settings to attach to this player's voice.. This should only be used when ComponentToAttachTo is set..
+衰减设置。声音衰减对象参考。衰减设置：。可选的衰减设置，附加在这个播放器的声音上。这只应在设置了ComponentToAttachTo时使用。
 
-Source Effect Chain: Sound Effect Source Preset Chain Object Reference. Source Effect Chain:. Optional audio effects to apply to this player's voice..  
+源效果链。声效源预设链对象参考。源效果链：。可选的音频效果，应用于这个播放器的声音。  
 
 ## Outputs
 
-Voice Settings: Voice Settings Structure.
-
+语音设置。语音设置结构。

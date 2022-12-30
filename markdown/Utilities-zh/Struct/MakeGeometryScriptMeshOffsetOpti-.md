@@ -1,6 +1,6 @@
 # MakeGeometryScriptMeshOffsetOpti-
 
-Adds a node that create a 'GeometryScriptMeshOffsetOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptMeshOffsetOptions'。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'GeometryScriptMeshOffsetOptions' from its members
 
 ## Inputs
 
-Offset Distance: Float (single-precision). Offset Distance.
+偏移距离。Float（单精度）。偏移距离。
 
-Fixed Boundary: Boolean. Fixed Boundary.
+固定边界：布尔值。固定的边界。
 
-Solve Steps: Integer. Solve Steps.
+解决步骤。整数。解决步骤。
 
-Smooth Alpha: Float (single-precision). Smooth Alpha.
+平滑阿尔法。Float（单精度）。平滑的Alpha。
 
-Reproject During Smoothing: Boolean. Reproject During Smoothing.
+平滑化过程中的重投：布尔值。平滑化过程中的重投。
 
-Boundary Alpha: Float (single-precision). Boundary Alpha:. should not be > 0.9.  
+边界Alpha。Float（单精度）。边界Alpha：.不应大于0.9。  
 
 ## Outputs
 
-Geometry Script Mesh Offset Options: Geometry Script Mesh Offset Options Structure.
-
+Geometry Script Mesh Offset Options:Geometry Script Mesh Offset Options结构。

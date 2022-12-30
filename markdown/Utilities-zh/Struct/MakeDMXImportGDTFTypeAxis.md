@@ -1,6 +1,6 @@
 # MakeDMXImportGDTFTypeAxis
 
-Adds a node that create a 'DMXImportGDTFTypeAxis' from its members
+添加一个节点，从其成员中创建一个'DMXImportGDTFTypeAxis'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXImportGDTFTypeAxis' from its members
 
 ## Outputs
 
-DMXImport GDTFType Axis: DMXImport GDTFType Axis Structure.
-
+DMXImport GDTFType Axis: DMXImport GDTFType Axis结构。

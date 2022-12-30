@@ -1,6 +1,6 @@
 # BreakTextureShareBPPostprocess
 
-Adds a node that breaks a 'TextureShareBPPostprocess' into its member fields
+添加一个节点，将'TextureShareBPPostprocess'分解到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'TextureShareBPPostprocess' into its member fields
 
 ## Inputs
 
-Texture Share BPPostprocess: Texture Share BPPostprocess Structure (by ref).  
+纹理共享 BPPostprocess。纹理共享 BPPostprocess 结构（按参考）。  
 
 ## Outputs
 
-Additional Data: Texture Share BPAdditional Data Structure. Additional Data:. Send Additional data.
+附加数据。纹理共享BPA附加数据结构。附加数据：。发送附加数据。
 
-Send: Array of Texture Share BPTexture 2D Structures. Send:. Send this textures to remote process.
+发送。纹理阵列分享BPTexture 2D结构。发送：。发送此纹理到远程进程。
 
-Receive: Array of Texture Share BPTexture 2D Structures. Receive:. Receive this texture from remote process.
-
+接收。纹理共享的数组 BPTexture 2D结构。Receive：。从远程进程中接收该纹理。

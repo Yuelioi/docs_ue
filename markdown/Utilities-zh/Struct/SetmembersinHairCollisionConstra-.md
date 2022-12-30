@@ -1,6 +1,6 @@
 # SetmembersinHairCollisionConstra-
 
-Adds a node that modifies a 'HairCollisionConstraint'
+添加一个修改 "HairCollisionConstraint "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'HairCollisionConstraint'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Hair Collision Constraint Structure (by ref).  
+Struct Ref: 头发碰撞约束结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Hair Collision Constraint Structure (by ref). Reference to the input struct.
-
+Struct Out: Hair Collision Constraint Structure（通过引用）。对输入结构的引用。

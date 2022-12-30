@@ -1,6 +1,6 @@
 # BreakMontageBlendSettings
 
-Adds a node that breaks a 'MontageBlendSettings' into its member fields
+添加一个节点，将'MontageBlendSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'MontageBlendSettings' into its member fields
 
 ## Inputs
 
-Montage Blend Settings: Montage Blend Settings Structure (by ref).  
+蒙太奇混合设置。蒙太奇混合设置结构（按参考）。  
 
 ## Outputs
 
-Blend Profile: Blend Profile Object Reference. Blend Profile:. Blend Profile to use for this blend.
+Blend Profile:Blend Profile Object Reference.Blend Profile:.用于此混合的混合配置文件。
 
-Blend: Alpha Blend Args Structure. Blend:. AlphaBlend options (time, curve, etc.).
+混合。Alpha Blend Args结构。混合：。AlphaBlend选项（时间、曲线等）。
 
-Blend Mode: EMontageBlendMode Enum. Blend Mode:. Type of blend mode (Standard vs Inertial).
-
+混合模式。EMontageBlendMode枚举。混合模式：。混合模式的类型（标准与惯性）。

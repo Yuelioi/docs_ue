@@ -1,6 +1,6 @@
 # SetmembersinLevelSequencePlayerS-
 
-Adds a node that modifies a 'LevelSequencePlayerSnapshot'
+添加一个修改 "LevelSequencePlayerSnapshot "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'LevelSequencePlayerSnapshot'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Level Sequence Player Snapshot Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Level Sequence Player Snapshot Structure (by ref). Reference to the input struct.
-
+结构出来。水平序列播放器快照结构（通过参考）。对输入结构的引用。

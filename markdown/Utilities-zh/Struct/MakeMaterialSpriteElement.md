@@ -1,6 +1,6 @@
 # MakeMaterialSpriteElement
 
-Adds a node that create a 'MaterialSpriteElement' from its members
+添加一个节点，从其成员中创建一个 "MaterialSpriteElement"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'MaterialSpriteElement' from its members
 
 ## Inputs
 
-Material: Material Interface Object Reference. Material:. The material that the sprite is rendered with..
+材料。材料界面对象参考。材质:.对精灵进行渲染的材料。
 
-Distance To Opacity Curve: Curve Float Object Reference. Distance to Opacity Curve:. A curve that maps distance on the X axis to the sprite opacity on the Y axis..
+与不透明度曲线的距离。曲线浮动对象参考。距离与不透明度曲线：。一条将X轴上的距离映射到Y轴上的精灵不透明度的曲线。
 
-Size Is In Screen Space: Boolean. Size Is in Screen Space:. Whether the size is defined in screen-space or world-space..
+尺寸是在屏幕空间内。布尔值。尺寸是在屏幕空间：。尺寸是在屏幕空间还是在世界空间定义的。
 
-Base Size X: Float (single-precision). Base Size X:. The base width of the sprite, multiplied with the DistanceToSizeCurve..
+基准尺寸X：浮点数（单精度）。基准尺寸X：。魍魉的基本宽度，与DistanceToSizeCurve相乘。
 
-Base Size Y: Float (single-precision). Base Size Y:. The base height of the sprite, multiplied with the DistanceToSizeCurve..
+基准尺寸Y：浮点数（单精度）。基准尺寸Y：。魍魉的基本高度，与DistanceToSizeCurve相乘。
 
-Distance To Size Curve: Curve Float Object Reference. Distance to Size Curve:. A curve that maps distance on the X axis to the sprite size on the Y axis..  
+与尺寸曲线的距离。曲线浮动对象参考。距离与尺寸曲线：。一条将X轴上的距离映射到Y轴上的精灵尺寸的曲线。  
 
 ## Outputs
 
-Material Sprite Element: Material Sprite Element Structure.
-
+Material Sprite Element:Material Sprite Element Structure.

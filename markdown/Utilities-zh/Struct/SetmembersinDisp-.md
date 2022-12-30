@@ -1,6 +1,6 @@
 # SetmembersinDisp-
 
-Adds a node that modifies a 'DisplayClusterConfigurationClusterItemReferenceList'
+添加一个节点，修改'DisplayClusterConfigurationClusterItemReferenceList'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DisplayClusterConfigurationClusterItemReferenceList
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Display Cluster Configuration Cluster Item Reference List Structure (by ref).  
+Struct Ref: 显示群集配置群集项目参考列表结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Display Cluster Configuration Cluster Item Reference List Structure (by ref). Reference to the input struct.
-
+结构出来。显示群集配置群集项目参考列表结构（通过参考）。对输入结构的引用。

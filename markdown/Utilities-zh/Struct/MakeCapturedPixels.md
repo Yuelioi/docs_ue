@@ -1,6 +1,6 @@
 # MakeCapturedPixels
 
-Adds a node that create a 'CapturedPixels' from its members
+添加一个节点，从其成员中创建一个 "CapturedPixels"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CapturedPixels' from its members
 
 ## Outputs
 
-Captured Pixels: Captured Pixels Structure.
-
+捕获的像素。捕获的像素结构。

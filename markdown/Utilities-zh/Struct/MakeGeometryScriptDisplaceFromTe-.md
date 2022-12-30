@@ -1,6 +1,6 @@
 # MakeGeometryScriptDisplaceFromTe-
 
-Adds a node that create a 'GeometryScriptDisplaceFromTextureOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptDisplaceFromTextureOptions'。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'GeometryScriptDisplaceFromTextureOptions' from its me
 
 ## Inputs
 
-Magnitude: Float (single-precision). Magnitude.
+幅度。Float（单精度）。幅值。
 
-UVScale: Vector 2D Structure. UVScale.
+UVScale: 矢量2D结构。UVScale。
 
-UVOffset: Vector 2D Structure. UVOffset.
+UVOffset。矢量2D结构。UVOffset。
 
-Center: Float (single-precision). Center.
+中心。Float（单精度）。中心。
 
-Image Channel: Integer. Image Channel.  
+图像通道：整数。图像通道。  
 
 ## Outputs
 
-Geometry Script Displace from Texture Options: Geometry Script Displace From Texture Options Structure.
-
+Geometry Script Displace from Texture Options:Geometry Script Displace From Texture Options结构。

@@ -1,6 +1,6 @@
 # SetmembersinInterpCurveQuat
 
-Adds a node that modifies a 'InterpCurveQuat'
+添加一个修改 "InterpCurveQuat "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InterpCurveQuat'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Interp Curve Quat Structure (by ref).  
+结构参考：Interp Curve Quat结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Interp Curve Quat Structure (by ref). Reference to the input struct.
-
+Struct Out: Interp Curve Quat Structure (by ref).对输入结构的引用。

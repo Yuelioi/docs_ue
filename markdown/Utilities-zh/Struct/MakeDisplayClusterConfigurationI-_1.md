@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationI-_1
 
-Adds a node that create a 'DisplayClusterConfigurationICVFX_CameraSettings' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationICVFX_CameraSettings"。
 
 ## 图示
 
@@ -8,41 +8,40 @@ Adds a node that create a 'DisplayClusterConfigurationICVFX_CameraSettings' from
 
 ## Inputs
 
-Enable Inner Frustum: Boolean. Enable:. Render the inner frustum for this ICVFX camera..
+启用内部信托：布尔值。启用：。渲染此ICVFX摄像机的内围。
 
-Cine Camera Actor: Cine Camera Actor Soft Object Reference. External Camera Actor:. Specify a Cine Camera Actor for this ICVFX camera to use instead of the default nDisplay camera..
+电影摄影机演员。Cine Camera Actor 软对象参考。外部摄像机演员：.为这个ICVFX摄像机指定一个摄像机演员，以代替默认的nDisplay摄像机。
 
-Inner Frustum Screen Percentage: Float (single-precision). Buffer Ratio:. Adjust resolution scaling for the inner frustum..
+内幕消息百分比。Float（单精度）。缓冲比例：。调整内壳的分辨率比例。
 
-Inner Frustum Overscan: Display Cluster Configuration ICVFX Camera Custom Frustum Structure. Custom Frustum:. Render a larger or smaller inner frame.
+内层Frustum过扫描。显示集群配置ICVFX相机自定义Frustum结构。自定义Frustum：。渲染一个更大或更小的内框。
 
-Soft Edge: Display Cluster Configuration ICVFX Camera Soft Edge Structure. Soft Edge:. Soften the edges of the inner frustum to help avoid hard lines in reflections seen by the live-action camera..
+软边缘：显示集群配置 ICVFX相机软边缘结构。软边缘：。软化内壳的边缘，以帮助避免真人摄像机看到的反射中的硬线。
 
-Inner Frustum Rotation: Rotator. Frustum Rotation:. Rotate the inner frustum..
+内部地壳旋转：旋转器。地壳旋转：。旋转内壳...
 
-Inner Frustum Offset: Vector. Frustum Offset:. Specify an offset on the inner frustum..
+内侧的Frustum偏移。向量。Frustum Offset:.指定内壳上的偏移量。
 
-Inner Frustum Border: Display Cluster Configuration ICVFX Camera Border Structure. Border:. Border for the inner frustum..
+内侧的Frustum边界。显示集群配置ICVFX相机边界结构。边界：。内壳的边框。
 
-Camera Motion Blur: Display Cluster Configuration ICVFX Camera Motion Blur Structure. Camera Motion Blur:. Render motion blur more accurately by subtracting blur from camera motion and avoiding amplification of blur by the physical camera..
+摄像机运动模糊：显示集群配置ICVFX摄像机运动模糊结构。相机运动模糊：。通过从摄像机运动中减去模糊，避免物理摄像机对模糊的放大，更准确地渲染运动模糊。
 
-Render Settings: Display Cluster Configuration ICVFX Camera Render Settings Structure. Render Settings:. Configure global render settings for this viewport.
+渲染设置。显示集群配置 ICVFX摄像机的渲染设置结构。渲染设置：.配置该视口的全局渲染设置。
 
-Chromakey: Display Cluster Configuration ICVFX Chromakey Settings Structure. Chromakey.
+Chromakey。显示集群配置 ICVFX Chromakey设置结构。Chromakey.
 
-All Nodes OCIO Configuration: Display Cluster Configuration OCIOConfiguration Structure. All Nodes OCIOConfiguration:. OCIO Display look configuration for this camera.
+所有节点的OCIO配置。显示群集配置 OCIOConfiguration结构。所有节点 OCIOConfiguration:.OCIO 显示此摄像机的外观配置。
 
-Per- Node OCIO Overrides: Array of Display Cluster Configuration OCIOProfile Structures. Per Node OCIOProfiles:. Apply an OpenColorIO configuration on a per-node or group-of-nodes basis..
+每个节点的OCIO重写。显示集群配置OCIOProfile结构的阵列。每节点OCIOProfiles:.在每个节点或节点组的基础上应用OpenColorIO配置。
 
-All Nodes Color Grading: Display Cluster Configuration Viewport All Nodes Color Grading Structure. All Nodes Color Grading:. All Nodes Color Grading.
+所有节点的颜色分级。显示群组配置视口所有节点颜色分级结构。所有节点颜色分级：。所有节点颜色分级。
 
-Per- Node Color Grading: Array of Display Cluster Configuration Viewport Per Node Color Grading Structures. Per Node Color Grading:. Perform advanced color grading operations for the inner frustum on a per-node or group-of-nodes basis..
+每个节点的颜色分级。显示集群配置视口每节点颜色分级结构的阵列。每节点调色：.在每个节点或节点组的基础上，对内部地壳进行高级调色操作。
 
-Content Hidden From Inner Frustum: Display Cluster Configuration ICVFX Visibility List Structure. Camera Hide List:. Content specified here will not appear in the inner frustum, but can appear in the nDisplay viewports..
+从内部隐藏的内容：显示集群配置ICVFX可见性列表结构。相机隐藏列表：.此处指定的内容将不会出现在内部地壳中，但可以出现在 nDisplay 视口中。
 
-Inner Frustum Hidden In Viewports: Display Cluster Configuration Cluster Item Reference List Structure. Hidden ICVFXViewports:. A list of viewports that the inner frustum is not rendered to..  
+隐藏在视窗中的内层外壳。显示群组配置群组项目参考列表结构。隐藏的ICVFX视口:.内部地壳不被渲染的视口的列表。
 
 ## Outputs
 
-Display Cluster Configuration ICVFX Camera Settings: Display Cluster Configuration ICVFX Camera Settings Structure.
-
+显示群组配置ICVFX摄像机设置。显示集群配置 ICVFX相机设置结构。

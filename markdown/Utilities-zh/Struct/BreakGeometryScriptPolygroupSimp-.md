@@ -1,6 +1,6 @@
 # BreakGeometryScriptPolygroupSimp-
 
-Adds a node that breaks a 'GeometryScriptPolygroupSimplifyOptions' into its member fields
+添加一个节点，将'GeometryScriptPolygroupSimplifyOptions'分解到其成员字段中。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'GeometryScriptPolygroupSimplifyOptions' into its memb
 
 ## Inputs
 
-Geometry Script Polygroup Simplify Options: Geometry Script Polygroup Simplify Options Structure (by ref).  
+Geometry Script Polygroup Simplify Options:Geometry Script Polygroup Simplify Options结构（按参考文献）。  
 
 ## Outputs
 
-Angle Threshold: Float (single-precision). Angle Threshold.
-
+角度阈值。Float（单精度）。角度阈值。

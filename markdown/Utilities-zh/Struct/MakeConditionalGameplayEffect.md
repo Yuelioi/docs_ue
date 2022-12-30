@@ -1,6 +1,6 @@
 # MakeConditionalGameplayEffect
 
-Adds a node that create a 'ConditionalGameplayEffect' from its members
+添加一个节点，从其成员中创建一个 "条件游戏效应"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ConditionalGameplayEffect' from its members
 
 ## Outputs
 
-Conditional Gameplay Effect: Conditional Gameplay Effect Structure.
-
+条件性游戏效果。有条件的游戏效果结构。

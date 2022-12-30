@@ -1,6 +1,6 @@
 # MakeSolverCollisionFilterSetting-
 
-Adds a node that create a 'SolverCollisionFilterSettings' from its members
+添加一个节点，从其成员中创建一个 "SolverCollisionFilterSettings"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'SolverCollisionFilterSettings' from its members
 
 ## Inputs
 
-Filter Enabled: Boolean. Filter Enabled:. Filter is enabled..
+启用的过滤器。Boolean.启用的过滤器：。过滤器已启用。
 
-Min Mass Threshold: Float (single-precision). Min Mass:. The minimum mass threshold for the results (compared with min of particle 1 mass and particle 2 mass)..
+最小质量阈值。浮点（单精度）。最小质量：。结果的最小质量阈值（与颗粒1质量和颗粒2质量的最小值相比）。
 
-Min Speed Threshold: Float (single-precision). Min Speed:. The min velocity threshold for the results (compared with min of particle 1 speed and particle 2 speed)..
+最小速度阈值。Float (single-precision).最小速度：。结果的最小速度阈值（与粒子1速度和粒子2速度的最小值相比）。
 
-Min Impulse Threshold: Float (single-precision). Min Impulse:. The minimum impulse threshold for the results..  
+最小脉冲阈值。Float（单精度）。最小脉冲：。结果的最小脉冲阈值。  
 
 ## Outputs
 
-Solver Collision Filter Settings: Solver Collision Filter Settings Structure.
-
+解算器碰撞过滤器设置。解算器碰撞过滤器设置结构。

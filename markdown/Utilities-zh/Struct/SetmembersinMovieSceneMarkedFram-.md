@@ -1,6 +1,6 @@
 # SetmembersinMovieSceneMarkedFram-
 
-Adds a node that modifies a 'MovieSceneMarkedFrame'
+添加一个节点，修改 "MovieSceneMarkedFrame"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MovieSceneMarkedFrame'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Movie Scene Marked Frame Structure (by ref).  
+Struct Ref: 电影场景标记的框架结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Movie Scene Marked Frame Structure (by ref). Reference to the input struct.
-
+结构出来。电影场景标记的帧结构（通过ref）。对输入结构的引用。

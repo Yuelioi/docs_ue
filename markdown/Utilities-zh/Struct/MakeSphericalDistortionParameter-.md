@@ -1,6 +1,6 @@
 # MakeSphericalDistortionParameter-
 
-Adds a node that create a 'SphericalDistortionParameters' from its members
+添加一个节点，从其成员中创建一个 "球形失真参数"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'SphericalDistortionParameters' from its members
 
 ## Inputs
 
-K1: Float (single-precision). K1:. Radial coefficient of the r^2 term.
+K1：浮点（单精度）。K1:.r^2项的径向系数。
 
-K2: Float (single-precision). K2:. Radial coefficient of the r^4 term.
+K2:浮点数（单精度）。K2:.r^4项的径向系数。
 
-K3: Float (single-precision). K3:. Radial coefficient of the r^6 term.
+K3: 浮点数（单精度）。K3:.r^6项的径向系数。
 
-P1: Float (single-precision). P1:. First tangential coefficient.
+P1：浮点数（单精度）。P1:.第一个切向系数。
 
-P2: Float (single-precision). P2:. Second tangential coefficient.  
+P2:浮点数（单精度）。P2:.第二个切向系数。  
 
 ## Outputs
 
-Spherical Distortion Parameters: Spherical Distortion Parameters Structure.
-
+球形失真参数。球形失真参数结构。

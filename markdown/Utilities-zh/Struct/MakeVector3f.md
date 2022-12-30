@@ -1,6 +1,6 @@
 # MakeVector3f
 
-Adds a node that create a 'Vector3f' from its members
+添加一个节点，从其成员中创建一个'Vector3f'。
 
 ## 图示
 
@@ -11,4 +11,3 @@ Adds a node that create a 'Vector3f' from its members
 ## Outputs
 
 Vector 3f: Vector 3f.
-

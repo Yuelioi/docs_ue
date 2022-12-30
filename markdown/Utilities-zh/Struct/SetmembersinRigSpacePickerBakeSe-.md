@@ -1,6 +1,6 @@
 # SetmembersinRigSpacePickerBakeSe-
 
-Adds a node that modifies a 'RigSpacePickerBakeSettings'
+添加一个节点，修改 "RigSpacePickerBakeSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RigSpacePickerBakeSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Rig Space Picker Bake Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Rig Space Picker Bake Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Rig Space Picker Bake Settings Structure（通过引用）。对输入结构的引用。

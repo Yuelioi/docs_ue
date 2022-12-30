@@ -1,8 +1,8 @@
 # ToText_Double
 
-Converts a passed in double to text based on formatting options
+根据格式化选项将传入的双数转换为文本
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,23 +10,22 @@ Target is Kismet Text Library
 
 ## Inputs
 
-In Double: Float (double-precision).
+在Double中。Float（双精度）。
 
-Rounding Mode: ERoundingMode Enum.
+四舍五入模式。ERoundingMode Enum.
 
-Always Sign: Boolean.
+总是签名：布尔值。
 
-Use Grouping: Boolean.
+使用分组。布尔型。
 
-Minimum Integral Digits: Integer.
+最小整数位。整数。
 
-Maximum Integral Digits: Integer.
+最大整数位。整数。
 
-Minimum Fractional Digits: Integer.
+最小的小数位。整数。
 
-Maximum Fractional Digits: Integer.  
+最大的小数位。整数。  
 
 ## Outputs
 
-Return Value: Text. Converts a passed in double to text based on formatting options.
-
+返回值。文本。根据格式化选项，将传入的双数转换为文本。

@@ -1,6 +1,6 @@
 # SetmembersinJsonObjectWrapper
 
-Adds a node that modifies a 'JsonObjectWrapper'
+添加一个修改 "JsonObjectWrapper "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'JsonObjectWrapper'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Json Object Structure (by ref).  
+Struct Ref: Json对象结构（通过引用）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Json Object Structure (by ref). Reference to the input struct.
-
+结构出来。Json对象结构（通过引用）。对输入结构的引用。

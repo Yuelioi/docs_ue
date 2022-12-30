@@ -1,6 +1,6 @@
 # MakeContextualAnimDebugParams
 
-Adds a node that create a 'ContextualAnimDebugParams' from its members
+添加一个节点，从其成员中创建一个 "ContextualAnimDebugParams"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ContextualAnimDebugParams' from its members
 
 ## Inputs
 
-Test Actor: Actor Weak object. Test Actor.
+测试演员。行为者弱化对象。测试演员。
 
-Draw Alignment Transform At Time: Float (single-precision). Draw Alignment Transform at Time.  
+在时间上绘制对齐变换。浮点数（单精度）。在时间上绘制对齐变换。  
 
 ## Outputs
 
-Contextual Anim Debug Params: Contextual Anim Debug Params Structure.
-
+语境动画调试参数:上下文动画调试参数的结构。

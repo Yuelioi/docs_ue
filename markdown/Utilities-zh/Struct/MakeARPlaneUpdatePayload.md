@@ -1,6 +1,6 @@
 # MakeARPlaneUpdatePayload
 
-Adds a node that create a 'ARPlaneUpdatePayload' from its members
+添加一个节点，从其成员中创建一个'ARPlaneUpdatePayload'。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'ARPlaneUpdatePayload' from its members
 
 ## Inputs
 
-World Transform: Transform. World Transform.
+世界转型。转变。世界转型。
 
-Center: Vector. Center.
+中心。向量。中心。
 
-Extents: Vector. Extents.
+延伸。矢量。Extents.
 
-Boundary Vertices: Array of Vectors. Boundary Vertices.  
+边界顶点。矢量的阵列。边界顶点。  
 
 ## Outputs
 
-ARPlane Update Payload: ARPlane Update Payload Structure.
-
+ARPlane更新有效载荷。ARPlane Update Payload结构。

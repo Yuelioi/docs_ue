@@ -1,8 +1,8 @@
 # FindStringTableIDandKeyfromText
 
-Attempts to find the String Table ID and key used by the given text.
+试图找到给定文本所使用的字符串表ID和键。
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,13 +10,12 @@ Target is Kismet Text Library
 
 ## Inputs
 
-Text: Text.  
+文本。文本。  
 
 ## Outputs
 
-Out Table Id: Name.
+出表标识。名称。
 
-Out Key: String.
+出键：字符串。
 
-Return Value: Boolean. True if the String Table ID and key were found, false otherwise..
-
+返回值。布尔值。如果找到字符串表的ID和键，则为真，否则为假。

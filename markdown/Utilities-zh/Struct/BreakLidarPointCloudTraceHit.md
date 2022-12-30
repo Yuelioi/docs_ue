@@ -1,6 +1,6 @@
 # BreakLidarPointCloudTraceHit
 
-Adds a node that breaks a 'LidarPointCloudTraceHit' into its member fields
+在其成员字段中添加一个打破'LidarPointCloudTraceHit'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'LidarPointCloudTraceHit' into its member fields
 
 ## Inputs
 
-Lidar Point Cloud Trace Hit: Lidar Point Cloud Trace Hit Structure (by ref).  
+Lidar Point Cloud Trace Hit: Lidar Point Cloud Trace Hit结构（通过参考）。  
 
 ## Outputs
 
-Actor: Lidar Point Cloud Actor Object Reference. Actor.
+演员。Lidar Point Cloud Actor Object Reference.行为者。
 
-Component: Lidar Point Cloud Component Object Reference. Component.
+组件。激光雷达点云组件对象参考。组件。
 
-Points: Array of Lidar Point Cloud Point Structures. Points.
-
+点。激光雷达点云的点结构阵列。点。

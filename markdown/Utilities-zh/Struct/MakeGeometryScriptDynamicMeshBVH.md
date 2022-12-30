@@ -1,6 +1,6 @@
 # MakeGeometryScriptDynamicMeshBVH
 
-Adds a node that create a 'GeometryScriptDynamicMeshBVH' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptDynamicMeshBVH'。
 
 ## 图示
 
@@ -11,4 +11,3 @@ Adds a node that create a 'GeometryScriptDynamicMeshBVH' from its members
 ## Outputs
 
 Geometry Script Dynamic Mesh BVH: Dynamic Mesh BVH Cache Structure.
-

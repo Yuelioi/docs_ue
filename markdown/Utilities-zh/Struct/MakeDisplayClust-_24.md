@@ -1,6 +1,6 @@
 # MakeDisplayClust-_24
 
-Adds a node that create a 'DisplayClusterConfigurationViewport_RenderSettings' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationViewport_RenderSettings"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'DisplayClusterConfigurationViewport_RenderSettings' f
 
 ## Inputs
 
-Stereo Mode: EDisplayClusterConfigurationViewport_StereoMode Enum. Stereo Mode:. Enables and sets Stereo mode.
+立体声模式。EDisplayClusterConfigurationViewport_StereoMode枚举。立体声模式：。启用和设置立体声模式。
 
-Screen Percentage: Float (single-precision). Buffer Ratio:. Adjust resolution scaling for an individual viewport. Viewport Screen Percentage Multiplier is applied to this value..
+屏幕百分比。Float（单精度）。缓冲比例：。调整单个视口的分辨率比例。视口屏幕百分比乘数被应用到这个值。
 
-Replace: Display Cluster Configuration Post Render Override Structure. Replace:. Override viewport render from source texture.
+替换。显示集群配置后渲染覆盖结构。取代:.覆盖来自源纹理的视口渲染。
 
-Postprocess Blur: Display Cluster Configuration Post Render Blur Postprocess Structure. Postprocess Blur:. Add postprocess blur to viewport.
+后处理模糊：显示集群配置 渲染后模糊 后处理结构。后处理模糊：。在视口添加后处理模糊。
 
-Generate Mips: Display Cluster Configuration Post Render Generate Mips Structure. Generate Mips:. Generate Mips texture for this viewport (used, only if projection policy supports this feature).
+生成Mips。显示集群配置 渲染后生成Mips结构。生成Mips:.为该视口生成Mips纹理（仅在投影策略支持该功能时使用）。
 
-Overscan: Display Cluster Configuration Viewport Overscan Structure. Overscan:. Render a larger frame than specified in the configuration to achieve continuity across displays when using post-processing effects..  
+Overscan。显示集群配置视口过扫描结构。Overscan:.渲染一个比配置中指定的更大的框架，以便在使用后期处理效果时实现跨显示器的连续性。  
 
 ## Outputs
 
-Display Cluster Configuration Viewport Render Settings: Display Cluster Configuration Viewport Render Settings Structure.
-
+显示群组配置视口的渲染设置。Display Cluster Configuration（显示集群配置） Viewport Render Settings（视口渲染设置）结构。

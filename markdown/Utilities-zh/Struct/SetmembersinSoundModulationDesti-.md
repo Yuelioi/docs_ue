@@ -1,6 +1,6 @@
 # SetmembersinSoundModulationDesti-
 
-Adds a node that modifies a 'SoundModulationDestinationSettings'
+添加一个节点，修改 "SoundModulationDestinationSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SoundModulationDestinationSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Sound Modulation Destination Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sound Modulation Destination Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Sound Modulation Destination Settings Structure（通过参考）。对输入结构的引用。

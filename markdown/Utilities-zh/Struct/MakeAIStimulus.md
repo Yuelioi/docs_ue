@@ -1,6 +1,6 @@
 # MakeAIStimulus
 
-Adds a node that create a 'AIStimulus' from its members
+添加一个节点，从其成员中创建一个 "AIStimulus"。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that create a 'AIStimulus' from its members
 
 ## Inputs
 
-Age: Float (single-precision). Age.
+年龄：浮点数（单精度）。年龄。
 
-Expiration Age: Float (single-precision). Expiration Age.
+过期年龄。Float (single-precision).过期年龄。
 
-Strength: Float (single-precision). Strength.
+强度。Float（单精度）。强度。
 
-Stimulus Location: Vector. Stimulus Location.
+刺激的位置。向量。刺激物的位置。
 
-Receiver Location: Vector. Receiver Location.
+接收器位置。向量。接收器的位置。
 
-Tag: Name. Tag.
+标签：名称。标记。
 
-Successfully Sensed: Boolean. Successfully Sensed.  
+成功感应到的。布尔值。成功感应到的。  
 
 ## Outputs
 
-AIStimulus: AIStimulus Structure.
-
+AIStimulus。AIStimulus结构。

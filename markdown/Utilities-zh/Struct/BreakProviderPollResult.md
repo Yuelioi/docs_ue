@@ -1,6 +1,6 @@
 # BreakProviderPollResult
 
-Adds a node that breaks a 'ProviderPollResult' into its member fields
+添加一个节点，将 "ProviderPollResult "分解为其成员字段。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ProviderPollResult' into its member fields
 
 ## Inputs
 
-Provider Poll Result: Provider Poll Result Structure (by ref).  
+提供者投票结果。提供者投票结果结构（按参考）。  
 
 ## Outputs
 
-Provider Name: String. Name:. The name of the provider.
+提供者名称。字符串.名称:.提供者的名称。
 
-Machine Name: String. Machine Name:. The name of the machine the provider is running on.
+机器名称。字符串。机器名称：。提供商正在运行的机器的名称。
 
-Is Valid Provider: Boolean. Is Valid Provider:. Whether the provider is valid (compatible with the current version of LiveLink).
-
+是有效的提供者。Boolean.是否有效提供方：。提供者是否有效（与当前版本的LiveLink兼容）。

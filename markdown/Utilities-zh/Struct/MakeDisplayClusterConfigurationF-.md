@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationF-
 
-Adds a node that create a 'DisplayClusterConfigurationFailoverSettings' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationFailoverSettings"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'DisplayClusterConfigurationFailoverSettings' from its
 
 ## Inputs
 
-Failover Policy: EDisplayClusterConfigurationFailoverPolicy Enum. Failover Policy:. Failover policy.  
+故障转移策略。EDisplayClusterConfigurationFailoverPolicy Enum.故障转移策略：。故障转移策略。  
 
 ## Outputs
 
-Display Cluster Configuration Failover Settings: Display Cluster Configuration Failover Settings Structure.
-
+显示群集配置故障转移设置。显示群集配置故障转移设置结构。

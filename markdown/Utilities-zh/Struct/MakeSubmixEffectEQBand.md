@@ -1,6 +1,6 @@
 # MakeSubmixEffectEQBand
 
-Adds a node that create a 'SubmixEffectEQBand' from its members
+添加一个节点，从其成员中创建一个 "SubmixEffectEQBand"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'SubmixEffectEQBand' from its members
 
 ## Inputs
 
-Frequency: Float (single-precision). Frequency.
+频率。Float (single-precision).频率。
 
-Bandwidth: Float (single-precision). Bandwidth.
+带宽：浮点数（单精度）。带宽。
 
-Gain Db: Float (single-precision). Gain Db.
+增益Db。Float (single-precision).Gain Db.
 
-Enabled: Boolean. Enabled.  
+已启用。布尔型。已启用。  
 
 ## Outputs
 
-Submix Effect EQBand: Submix Effect EQBand Structure.
-
+Submix Effect EQBand: Submix Effect EQBand结构。

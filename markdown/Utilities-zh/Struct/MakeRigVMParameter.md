@@ -1,6 +1,6 @@
 # MakeRigVMParameter
 
-Adds a node that create a 'RigVMParameter' from its members
+添加一个节点，从其成员中创建一个 "RigVMParameter"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigVMParameter' from its members
 
 ## Outputs
 
-Rig VMParameter: Rig VMParameter Structure.
-
+Rig VMParameter: Rig VMParameter结构。

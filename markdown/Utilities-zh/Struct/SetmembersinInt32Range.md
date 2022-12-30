@@ -1,6 +1,6 @@
 # SetmembersinInt32Range
 
-Adds a node that modifies a 'Int32Range'
+添加一个修改'Int32Range'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'Int32Range'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Int 32Range Structure (by ref).  
+结构参考：Int 32Range结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Int 32Range Structure (by ref). Reference to the input struct.
-
+Struct Out: Int 32Range 结构（通过ref）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # BreakSoundConcurrencySettings
 
-Adds a node that breaks a 'SoundConcurrencySettings' into its member fields
+添加一个节点，将'SoundConcurrencySettings'分解成其成员字段
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that breaks a 'SoundConcurrencySettings' into its member fields
 
 ## Inputs
 
-Sound Concurrency Settings: Sound Concurrency Settings Structure (by ref).  
+声音并发设置。声音并发设置结构（按参考）。  
 
 ## Outputs
 
-Max Count: Integer. Max Count:. The max number of allowable concurrent active voices for voices playing in this concurrency group..
+最大计数。整数。最大计数：。在这个并发组中播放的声音，允许的最大并发活动声音数。
 
-Limit To Owner: Boolean. Limit to Owner:. Whether or not to limit the concurrency to per sound owner (i.e. the actor that plays the sound). If the sound doesn't have an owner, it falls back to global concurrency..
+限制到所有者：布尔值。限制给所有者：。是否限制并发到每个声音的所有者（即播放声音的演员）。如果这个声音没有主人，它就会回到全局并发。
 
-Resolution Rule: EMaxConcurrentResolutionRule Enum. Resolution Rule:. Which concurrency resolution policy to use if max voice count is reached..
+决议规则。EMaxConcurrentResolutionRule枚举。解析规则：.如果达到最大语音数，要使用哪种并发解决策略。
 
-Retrigger Time: Float (single-precision). Retrigger Time:. Amount of time to wait (in seconds) between different sounds which play with this concurrency. Sounds rejected from this will ignore virtualization settings..
+重新触发时间。Float（单精度）。重新触发时间：。在不同的声音之间等待的时间量（以秒为单位），这些声音与这个并发性播放。从这个拒绝的声音将忽略虚拟化设置。
 
-Duck Time: Float (single-precision). Volume Scale Attack Time:. Time taken to apply duck using volume scalar..
+鸭子时间。Float（单精度）。体积标度攻击时间：。使用体积标度应用鸭子的时间。
 
-Can Recover: Boolean. Volume Scale Can Release:. Whether or not volume scaling can recover volume ducking behavior when concurrency group sounds stop (default scale mode only)..
+可以恢复。布尔值。音量缩放可以释放：。当并发组声音停止时，卷的缩放是否可以恢复卷的躲避行为（仅默认缩放模式）。
 
-Recover Time: Float (single-precision). Volume Scale Release Time:. Time taken to recover volume scalar duck..
+恢复时间。Float (single-precision).卷标量释放时间：。恢复卷标量鸭子所需的时间。
 
-Voice Steal Release Time: Float (single-precision). Voice Steal Release Time:. Time taken to fade out if voice is evicted or culled due to another voice in the group starting..
-
+语音窃取释放时间。Float（单精度）。语音窃取释放时间：。如果由于组内的另一个声音开始被驱逐或剔除，淡出的时间。

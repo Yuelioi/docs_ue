@@ -1,6 +1,6 @@
 # MakeUniqueNetIdRepl
 
-Adds a node that create a 'UniqueNetIdRepl' from its members
+添加一个节点，从其成员中创建一个 "UniqueNetIdRepl"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'UniqueNetIdRepl' from its members
 
 ## Outputs
 
-Unique Net Id Repl: Unique Net Id Structure.
-
+Unique Net Id Repl: Unique Net Id结构。

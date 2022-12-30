@@ -1,6 +1,6 @@
 # BreakPassiveSoundMixModifier
 
-Adds a node that breaks a 'PassiveSoundMixModifier' into its member fields
+添加一个节点，将'PassiveSoundMixModifier'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'PassiveSoundMixModifier' into its member fields
 
 ## Inputs
 
-Passive Sound Mix Modifier: Passive Sound Mix Modifier Structure (by ref).  
+被动式声音混合修改器。被动声音混合修改器的结构（按参考）。  
 
 ## Outputs
 
-Sound Mix: Sound Mix Object Reference. Sound Mix:. The SoundMix to activate.
+声音混合。声音混合对象参考。Sound Mix:.要激活的SoundMix。
 
-Min Volume Threshold: Float (single-precision). Min Volume Threshold:. Minimum volume level required to activate SoundMix. Below this value the SoundMix will not be active..
+最小音量阈值。Float (single-precision).最小音量阈值：。激活SoundMix所需的最小音量。低于这个值，SoundMix将不会被激活。
 
-Max Volume Threshold: Float (single-precision). Max Volume Threshold:. Maximum volume level required to activate SoundMix. Above this value the SoundMix will not be active..
-
+最大音量阈值。Float (single-precision).最大音量阈值：。激活SoundMix所需的最大音量水平。超过这个值，SoundMix就不会被激活。

@@ -1,6 +1,6 @@
 # SetmembersinDMXEntityFixtureType-
 
-Adds a node that modifies a 'DMXEntityFixtureTypeConstructionParams'
+添加一个节点，修改 "DMXEntityFixtureTypeConstructionParams"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXEntityFixtureTypeConstructionParams'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: DMXEntity Fixture Type Construction Params Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMXEntity Fixture Type Construction Params Structure (by ref). Reference to the input struct.
-
+结构输出。DMXEntity Fixture Type Construction Params 结构（通过参考）。对输入结构的引用。

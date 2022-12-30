@@ -1,6 +1,6 @@
 # BreakMoviePipelineSegmentWorkMet-
 
-Adds a node that breaks a 'MoviePipelineSegmentWorkMetrics' into its member fields
+添加一个节点，将'MoviePipelineSegmentWorkMetrics'分解成其成员字段
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'MoviePipelineSegmentWorkMetrics' into its member fiel
 
 ## Inputs
 
-Movie Pipeline Segment Work Metrics: Movie Pipeline Segment Work Metrics Structure (by ref).  
+电影管道段的工作指标。电影管道段的工作指标结构（按参考）。  
 
 ## Outputs
 
-Segment Name: String. Segment Name:. The name of the segment (if any).
+段落名称。弦乐。段落名称：。段的名称（如果有的话）。
 
-Output Frame Index: Integer. Output Frame Index:. Index of the output frame we are working on right now..
+输出帧索引。整数。输出帧索引：。我们现在正在处理的输出框的索引。
 
-Total Output Frame Count: Integer. Total Output Frame Count:. The number of output frames we expect to make for this segment..
+总输出帧数。整数。总输出帧数：。我们期望为该段制作的输出帧数。
 
-Output Sub Sample Index: Integer. Output Sub Sample Index:. Which temporal/spatial sub sample are we working on right now. This counts temporal, spatial, and tile samples to accurately reflect how much work is needed for this output frame..
+输出子样本索引。整数。输出子样本索引：。我们现在正在处理的是哪个时间/空间子样本。这对时间、空间和瓦片样本进行计数，以准确反映这个输出框架需要多少工作。
 
-Total Sub Sample Count: Integer. Total Sub Sample Count:. The total number of samples we will have to build to render this output frame..
+总的子样本数。整数。总子样本数：。我们将不得不建立的样本总数，以呈现这个输出框架。
 
-Engine Warm Up Frame Index: Integer. Engine Warm Up Frame Index:. The index of the engine warm up frame that we are working on. No rendering samples are produced for these..
+发动机预热框架指数。整数。发动机预热框架索引：。我们正在处理的引擎预热帧的索引。这些帧不产生渲染样本。
 
-Total Engine Warm Up Frame Count: Integer. Total Engine Warm Up Frame Count:. The total number of engine warm up frames for this segment..
-
+发动机预热总帧数。整数。发动机预热总帧数：。该段的发动机预热帧总数。

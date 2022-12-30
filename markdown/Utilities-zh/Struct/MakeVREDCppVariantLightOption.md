@@ -1,6 +1,6 @@
 # MakeVREDCppVariantLightOption
 
-Adds a node that create a 'VREDCppVariantLightOption' from its members
+添加一个节点，从其成员中创建一个 "VREDCppVariantLightOption"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'VREDCppVariantLightOption' from its members
 
 ## Inputs
 
-Name: String. Name.  
+名称: 字符串。名称。  
 
 ## Outputs
 
-VREDCpp Variant Light Option: VREDCpp Variant Light Option Structure.
-
+VREDCpp变体灯选项。VREDCpp Variant Light Option结构。

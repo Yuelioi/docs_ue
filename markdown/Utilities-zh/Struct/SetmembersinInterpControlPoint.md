@@ -1,6 +1,6 @@
 # SetmembersinInterpControlPoint
 
-Adds a node that modifies a 'InterpControlPoint'
+添加一个修改 "InterpControlPoint "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InterpControlPoint'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Interp Control Point Structure (by ref).  
+结构参考：Interp控制点结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Interp Control Point Structure (by ref). Reference to the input struct.
-
+Struct Out: Interp控制点结构（通过ref）。对输入结构的引用。

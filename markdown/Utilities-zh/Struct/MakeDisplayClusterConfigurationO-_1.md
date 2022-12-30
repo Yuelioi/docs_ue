@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationO-_1
 
-Adds a node that create a 'DisplayClusterConfigurationOCIOProfile' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationOCIOProfile"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'DisplayClusterConfigurationOCIOProfile' from its memb
 
 ## Inputs
 
-Enable OCIO: Boolean. Is Enabled:. Enable the application of an OpenColorIO configuration for the viewport(s) specified..
+启用OCIO：布尔值。是启用的：。启用指定视口的OpenColorIO配置的应用。
 
-OCIO Configuration: Open Color IODisplay Configuration Structure. OCIOConfiguration:. OpenColorIO Configuration.  
+OCIO配置。Open Color IODisplay配置结构。OCIOConfiguration:.OpenColorIO Configuration.  
 
 ## Outputs
 
-Display Cluster Configuration OCIOProfile: Display Cluster Configuration OCIOProfile Structure.
-
+显示群集配置OCIOProfile。显示群集配置 OCIOProfile 结构。

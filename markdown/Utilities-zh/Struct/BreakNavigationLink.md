@@ -1,6 +1,6 @@
 # BreakNavigationLink
 
-Adds a node that breaks a 'NavigationLink' into its member fields
+添加一个节点，将 "NavigationLink "分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'NavigationLink' into its member fields
 
 ## Inputs
 
-Navigation Link: Navigation Link Structure (by ref).  
+导航链接。导航链接结构（按参考）。  
 
 ## Outputs
 
-Left: Vector. Left.
+左图：向量。左边。
 
-Right: Vector. Right.
+对。向量。右图。
 
-Direction: ENavLinkDirection Enum. Direction:. WITH_EDITORONLY_DATA.
-
+方向。ENavLinkDirection Enum.方向:。with_editoronly_data.

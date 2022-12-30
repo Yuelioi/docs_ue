@@ -1,6 +1,6 @@
 # BreakMeshApproximationSettings
 
-Adds a node that breaks a 'MeshApproximationSettings' into its member fields
+添加一个节点，将'MeshApproximationSettings'分解为其成员字段
 
 ## 图示
 
@@ -8,87 +8,86 @@ Adds a node that breaks a 'MeshApproximationSettings' into its member fields
 
 ## Inputs
 
-Mesh Approximation Settings: Mesh Approximation Settings Structure (by ref).  
+网格逼近设置。网格逼近设置结构（按参考）。  
 
 ## Outputs
 
-Output Type: EMeshApproximationType Enum. Output Type:. Type of output from mesh approximation process.
+输出类型。EMeshApproximationType枚举。输出类型：。网格逼近过程中的输出类型。
 
-Approximation Accuracy (Meters): Float (single-precision). Approximation Accuracy:. Approximation Accuracy in Meters, will determine (eg) voxel resolution.
+近似精度（米）。Float（单精度）。逼近精度：。以米为单位的近似精度，将决定（例如）体素分辨率。
 
-Clamp Voxel Dimension: Integer. Clamp Voxel Dimension:. Maximum allowable voxel count along main directions. This is a limit on ApproximationAccuracy. Max of 1290 (1290^3 is the last integer < 2^31, using a bigger number results in failures in TArray code & probably elsewhere).
+钳制体素尺寸。整数。Clamp Voxel Dimension:.沿着主要方向允许的最大体素数。这是对ApproximationAccuracy的一个限制。最大为1290（1290^3是<2^31的最后一个整数，使用更大的数字会导致TAURAY代码和其他地方的失败）。
 
-Attempt Auto Thickening: Boolean. Attempt Auto Thickening:. if enabled, we will attempt to auto-thicken thin parts or flat sheets.
+尝试自动增稠。布尔值。尝试自动加厚：。如果启用，我们将尝试自动加厚薄的部件或平板。
 
-Target Min Thickness Multiplier: Float (single-precision). Target Min Thickness Multiplier:. Multiplier on Approximation Accuracy used for auto-thickening.
+目标最小厚度乘数。浮点（单精度）。目标最小厚度乘数：。用于自动增厚的近似精度的乘数。
 
-Ignore Tiny Parts: Boolean. Ignore Tiny Parts:. If enabled, tiny parts will be excluded from the mesh merging, which can improve performance.
+忽略细小的部分。布尔型。忽略小零件：。如果启用，微小部件将被排除在网格合并之外，这可以提高性能。
 
-Tiny Part Size Multiplier: Float (single-precision). Tiny Part Size Multiplier:. Multiplier on Approximation Accuracy used to define tiny-part threshold, using maximum bounding-box dimension.
+小巧的零件尺寸乘法器。浮点数（单精度）。Tiny Part Size Multiplier:（微小部件尺寸乘数）。近似精度的乘数，用于定义微小部件的阈值，使用最大边界盒尺寸。
 
-Base Capping: EMeshApproximationBaseCappingType Enum. Base Capping:. Optional methods to attempt to close off the bottom of open meshes.
+基本封顶。EMeshApproximationBaseCappingType枚举。Base Capping:.可选的方法，尝试关闭开放网格的底部。
 
-Winding Threshold: Float (single-precision). Winding Threshold:. Winding Threshold controls hole filling at open mesh borders. Smaller value means "more/rounder" filling.
+绕组阈值。浮点（单精度）。缠绕阈值：。缠绕阈值控制开放网格边界的孔洞填充。较小的值意味着 "更多/更圆 "的填充。
 
-Fill Gaps: Boolean. Fill Gaps:. If true, topological expand/contract is used to try to fill small gaps between objects..
+填补空隙。布尔型。填补空隙：。如果为真，拓扑扩展/收缩被用来尝试填补物体之间的小间隙。
 
-Gap Filling Distance (Meters): Float (single-precision). Gap Distance:. Distance in Meters to expand/contract to fill gaps.
+间隙填充距离（米）。Float（单精度）。间隙距离：。以米为单位展开/收缩以填补间隙的距离。
 
-Occlusion Method: EOccludedGeometryFilteringPolicy Enum. Occlusion Method:. Type of hidden geometry removal to apply.
+遮挡方法。EOccludedGeometryFilteringPolicy Enum.遮挡方法：。要应用的隐藏几何体移除类型。
 
-Occlude From Bottom: Boolean. Occlude from Bottom:. If true, then the OcclusionMethod computation is configured to try to consider downward-facing "bottom" geometry as occluded.
+从底部闭塞。Boolean.从底部闭塞：。如果为true，那么OcclusionMethod的计算会被配置为尝试将朝下的 "底部 "几何体视为遮挡。
 
-Simplify Method: EMeshApproximationSimplificationPolicy Enum. Simplify Method:. Mesh Simplification criteria.
+简化方法。EMeshApproximationSimplificationPolicy枚举。简化方法：。网格简化标准。
 
-Target Tri Count: Integer. Target Tri Count:. Target triangle count for Mesh Simplification, for SimplifyMethods that use a Count.
+目标Tri计数。整数。Target Tri Count：。网格简化的目标三角形数，用于使用计数的简化方法。
 
-Triangles Per M: Float (single-precision). Triangles Per M:. Approximate Number of triangles per Square Meter, for SimplifyMethods that use such a constraint.
+Triangles Per M: Float（单精度）。Triangles Per M:.每平方米三角形的大致数量，用于使用这种约束的简化方法。
 
-Geometric Deviation (Meters): Float (single-precision). Geometric Deviation:. Allowable Geometric Deviation in Meters when SimplifyMethod incorporates a Geometric Tolerance.
+几何偏差（米）。Float（单精度）。几何偏差：。当SimplifyMethod包含一个几何公差时，允许的几何偏差，单位是米。
 
-Ground Clipping: EMeshApproximationGroundPlaneClippingPolicy Enum. Ground Clipping:. Configure how the final mesh should be clipped with a ground plane, if desired.
+地面剪裁。EMeshApproximationGroundPlaneClippingPolicy Enum.Ground Clipping:.配置最终的网格应该如何与地平面进行剪切，如果需要的话。
 
-Ground Clipping ZHeight: Float (single-precision). Ground Clipping ZHeight:. Z-Height for the ground clipping plane, if enabled.
+地面剪裁ZHeight。Float（单精度）。Ground Clipping ZHeight:（地面剪切Z高度）。地面剪切平面的Z-高度，如果启用的话。
 
-Estimate Hard Normals: Boolean. Estimate Hard Normals:. If true, normal angle will be used to estimate hard normals.
+估计硬规范。Boolean.估计硬法线：。如果为真，将使用法线角度来估计硬法线。
 
-Hard Normal Angle: Float (single-precision). Hard Normal Angle.
+硬法线角度。Float（单精度）。硬法线角度。
 
-UVGeneration Method: EMeshApproximationUVGenerationPolicy Enum. UVGeneration Method:. Mesh UV Generation Settings.
+UVGeneration方法。EMeshApproximationUVGenerationPolicy枚举。UV生成方法：。网格UV生成设置。
 
-Initial Patch Count: Integer. Initial Patch Count:. Number of initial patches mesh will be split into before computing island merging.
+初始补丁计数。整数。初始补丁数：。在计算岛屿合并之前，网格被分割成的初始补丁的数量。
 
-Curvature Alignment: Float (single-precision). Curvature Alignment:. This parameter controls alignment of the initial patches to creases in the mesh.
+曲率对齐。Float（单精度）。Curvature Alignment:.曲率对齐。这个参数控制初始贴片与网格中折痕的对齐。
 
-Merging Threshold: Float (single-precision). Merging Threshold:. Distortion/Stretching Threshold for island merging - larger values increase the allowable UV stretching.
+合并阈值。Float (single-precision).合并阈值：。岛屿合并的失真/拉伸阈值--较大的数值会增加允许的UV拉伸。
 
-Max Angle Deviation: Float (single-precision). Max Angle Deviation:. UV islands will not be merged if their average face normals deviate by larger than this amount.
+最大角度偏差。浮点（单精度）。最大角度偏差：。如果UV岛的平均面法线的偏差大于这个量，就不会被合并。
 
-Generate Nanite Enabled Mesh: Boolean. Generate Nanite Enabled Mesh:. Whether to generate a nanite-enabled mesh.
+生成支持纳米技术的网格。布尔型。生成纳米网状结构：。是否生成支持纳米的网格。
 
-Nanite Proxy Triangle Percent: Float (single-precision). Nanite Proxy Triangle Percent:. Percentage of triangles to reduce down to for generating a coarse proxy mesh from the Nanite mesh.
+Nanite Proxy Triangle Percent。Float (single-precision).Nanite Proxy Triangle Percent:.从Nanite网格生成粗略的代理网格时要减少的三角形百分比。
 
-Support Ray Tracing: Boolean. Support Ray Tracing:. Whether ray tracing will be supported on this mesh. Disable this to save memory if the generated mesh will only be rendered in the distance..
+支持光线追踪。布尔型。Support Ray Tracing:（支持光线追踪）。这个网格是否支持光线追踪。如果生成的网格只在远处渲染，则禁用此选项以节省内存。
 
-Allow Distance Field: Boolean. Allow Distance Field:. Whether to allow distance field to be computed for this mesh. Disable this to save memory if the generated mesh will only be rendered in the distance..
+允许距离字段。布尔型。Allow Distance Field:（允许距离场）。是否允许计算这个网格的距离场。如果生成的网格只在距离范围内渲染，请禁用此选项以节省内存。
 
-Multi Sampling AA: Integer. Multi Sampling AA:. If Value is > 1, Multisample output baked textures by this amount in each direction (eg 4 == 16x supersampling).
+多重采样AA：整数。多重采样AA：。如果值大于1，多采样输出在每个方向上都以这个数量烘烤纹理（例如4==16倍超采样）。
 
-Render Capture Resolution: Integer. Render Capture Resolution:. If Value is zero, use MaterialSettings resolution, otherwise override the render capture resolution.
+渲染捕获分辨率。整数。渲染捕捉分辨率：。如果数值为0，使用MaterialSettings分辨率，否则就覆盖渲染捕捉分辨率。
 
-Material Settings: Material Proxy Settings Structure. Material Settings:. Material generation settings.
+材料设置。材料代理设置结构。材料设置：。材料生成设置。
 
-Capture Field Of View: Float (single-precision). Capture Field Of View.
+捕获视场。Float (single-precision).捕获视场。
 
-Near Plane Dist: Float (single-precision). Near Plane Dist.
+近平面距离。Float（单精度）。近平面距离
 
-Use Render LODMeshes: Boolean. Use Render LODMeshes:. If true, LOD0 Render Meshes (or Nanite Fallback meshes) are used instead of Source Mesh data. This can significantly reduce computation time and memory usage, but potentially at the cost of lower quality output..
+使用Render LODMeshes。Boolean.使用Render LODMeshes：。如果为true，则使用LOD0渲染网格（或Nanite Fallback网格）来代替源网格数据。这可以大大减少计算时间和内存使用量，但有可能以降低输出质量为代价。
 
-Enable Simplify Pre Pass: Boolean. Enable Simplify Pre Pass:. If true, a faster mesh simplfication strategy will be used. This can significantly reduce computation time and memory usage, but potentially at the cost of lower quality output..
+启用简化预传递。布尔值。启用简化预处理：。如果为真，将使用更快的网格简化策略。这可以大大减少计算时间和内存的使用，但有可能以降低输出质量为代价。
 
-Enable Parallel Baking: Boolean. Enable Parallel Baking:. If false, texture capture and baking will be done serially after mesh generation, rather than in parallel when possible. This will reduce the maximum memory requirements of the process..
+启用平行烘烤。布尔值。Enable Parallel Baking（启用并行烘焙）：。如果是假的，纹理捕捉和烘焙将在网格生成后串行进行，而不是尽可能地并行进行。这将减少进程的最大内存需求。
 
-Print Debug Messages: Boolean. Print Debug Messages:. If true, print out debugging messages.
+打印调试信息。布尔型。打印调试信息：。如果为真，打印出调试信息。
 
-Emit Full Debug Mesh: Boolean. Emit Full Debug Mesh:. If true, write the full mesh triangle set (ie flattened, non-instanced) used for mesh generation. Warning: this asset may be extremely large!!.
-
+发出完整的调试网格。布尔值。放出完整的调试网格：。如果为true，写出用于生成网格的完整网格三角集（即扁平化的、非静态的）。警告：这个资产可能非常大！！。

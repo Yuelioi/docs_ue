@@ -1,6 +1,6 @@
 # SetmembersinActiveGameplayCueCon-
 
-Adds a node that modifies a 'ActiveGameplayCueContainer'
+添加一个修改 "ActiveGameplayCueContainer "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ActiveGameplayCueContainer'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Active Gameplay Cue Container Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Active Gameplay Cue Container Structure (by ref). Reference to the input struct.
-
+结构出来。活动游戏线索容器结构（通过引用）。对输入结构的引用。

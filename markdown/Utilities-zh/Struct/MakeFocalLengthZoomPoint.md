@@ -1,6 +1,6 @@
 # MakeFocalLengthZoomPoint
 
-Adds a node that create a 'FocalLengthZoomPoint' from its members
+添加一个节点，从其成员中创建一个 "FocalLengthZoomPoint"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'FocalLengthZoomPoint' from its members
 
 ## Outputs
 
-Focal Length Zoom Point: Focal Length Zoom Point Structure.
-
+焦距变焦点。焦距变焦点结构。

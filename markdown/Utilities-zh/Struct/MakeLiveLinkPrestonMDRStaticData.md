@@ -1,6 +1,6 @@
 # MakeLiveLinkPrestonMDRStaticData
 
-Adds a node that create a 'LiveLinkPrestonMDRStaticData' from its members
+添加一个节点，从其成员中创建一个 "LiveLinkPrestonMDRStaticData"。
 
 ## 图示
 
@@ -8,31 +8,30 @@ Adds a node that create a 'LiveLinkPrestonMDRStaticData' from its members
 
 ## Inputs
 
-Is Field Of View Supported: Boolean. Is Field Of View Supported:. Whether FieldOfView in frame data can be used.
+是否支持视场。Boolean.是否支持视场：。是否可以使用框架数据中的FieldOfView。
 
-Is Aspect Ratio Supported: Boolean. Is Aspect Ratio Supported:. Whether AspectRatio in frame data can be used.
+是否支持纵横比。Boolean.是否支持高宽比：。是否可以使用帧数据中的AspectRatio。
 
-Is Focal Length Supported: Boolean. Is Focal Length Supported:. Whether FocalLength in frame data can be used.
+是否支持焦距。布尔型。是否支持焦距：。是否可以使用帧数据中的FocalLength。
 
-Is Projection Mode Supported: Boolean. Is Projection Mode Supported:. Whether ProjectionMode in frame data can be used.
+是否支持投射模式。布尔型。是否支持投影模式：。是否可以使用帧数据中的投影模式。
 
-Film Back Width: Float (single-precision). Film Back Width:. Used with CinematicCamera. Values greater than 0 will be applied.
+膜背宽度：浮点（单精度）。胶片背面宽度：。与CinematicCamera一起使用。大于0的值将被应用。
 
-Film Back Height: Float (single-precision). Film Back Height:. Used with CinematicCamera. Values greater than 0 will be applied.
+薄膜背面高度。浮动（单精度）。胶片背面高度：。与CinematicCamera一起使用。大于0的值将被应用。
 
-Is Aperture Supported: Boolean. Is Aperture Supported:. Whether Aperture in frame data can be used.
+是否支持Aperture。Boolean.是否支持光圈：。是否可以使用帧内光圈数据。
 
-Is Focus Distance Supported: Boolean. Is Focus Distance Supported:. Whether FocusDistance in frame data can be used.
+是否支持焦点距离。布尔型。是否支持焦点距离：。是否可以使用帧数据中的FocusDistance。
 
-Is Location Supported: Boolean. Is Location Supported:. Whether location in frame data should be used.
+位置是否支持。布尔型。是否支持位置：。是否应使用框架数据中的位置。
 
-Is Rotation Supported: Boolean. Is Rotation Supported:. Whether rotation in frame data should be used.
+是否支持旋转。布尔型。是否支持旋转：。是否应使用帧数据中的旋转。
 
-Is Scale Supported: Boolean. Is Scale Supported:. Whether scale in frame data should be used.
+是否支持刻度。Boolean.是否支持比例：。是否应使用框架数据中的比例。
 
-Property Names: Array of Names. Property Names:. Names for each curve values that will be sent for each frame.  
+属性名称。名称的阵列。属性名称：。将为每一帧发送的每个曲线值的名称。  
 
 ## Outputs
 
-Live Link Preston MDRStatic Data: Live Link Preston MDRStatic Data Structure.
-
+Live Link Preston MDRStatic Data:Live Link Preston MDR静态数据结构。

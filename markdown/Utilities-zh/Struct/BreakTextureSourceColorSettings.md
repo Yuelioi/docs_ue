@@ -1,6 +1,6 @@
 # BreakTextureSourceColorSettings
 
-Adds a node that breaks a 'TextureSourceColorSettings' into its member fields
+添加一个节点，将'TextureSourceColorSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'TextureSourceColorSettings' into its member fields
 
 ## Inputs
 
-Texture Source Color Settings: Texture Source Color Settings Structure (by ref).  
+纹理源颜色设置。纹理源颜色设置结构（按参考）。  
 
 ## Outputs
 
-Encoding Override: ETextureSourceEncoding Enum. Encoding Override:. Source encoding of the texture, exposing more options than just sRGB..
+编码重写。ETextureSourceEncoding Enum.编码重写：。纹理的源编码，除了sRGB之外还有更多选择。
 
-Color Space: ETextureColorSpace Enum. Color Space:. Source color space of the texture..
+颜色空间。ETextureColorSpace Enum.颜色空间：。纹理的源颜色空间。
 
-Red Chromaticity Coordinate: Vector 2D Structure. Red Chromaticity Coordinate:. Red chromaticity coordinate of the source color space..
+红色色度坐标。矢量2D结构。Red Chromaticity Coordinate: 红色色度坐标。源色彩空间的红色色度坐标。
 
-Green Chromaticity Coordinate: Vector 2D Structure. Green Chromaticity Coordinate:. Green chromaticity coordinate of the source color space..
+绿色色度坐标。矢量2D结构。绿色色度坐标：。源色彩空间的绿色色度坐标。
 
-Blue Chromaticity Coordinate: Vector 2D Structure. Blue Chromaticity Coordinate:. Blue chromaticity coordinate of the source color space..
+蓝色色度坐标。矢量2D结构。Blue Chromaticity Coordinate：.源色空间的蓝色色度坐标。
 
-White Chromaticity Coordinate: Vector 2D Structure. White Chromaticity Coordinate:. White chromaticity coordinate of the source color space..
+白色色度坐标。矢量2D结构。白色色度坐标：。源色彩空间的白色色度坐标。
 
-Chromatic Adaptation Method: ETextureChromaticAdaptationMethod Enum. Chromatic Adaptation Method:. Chromatic adaption method applied if the source white point differs from the working color space white point..
-
+色度适应方法。ETextureChromaticAdaptationMethod Enum.色度适应方法：。如果源白点与工作色彩空间的白点不同，则采用色度适应方法。

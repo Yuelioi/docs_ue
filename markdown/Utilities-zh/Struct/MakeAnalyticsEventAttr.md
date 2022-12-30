@@ -1,6 +1,6 @@
 # MakeAnalyticsEventAttr
 
-Adds a node that create a 'AnalyticsEventAttr' from its members
+添加一个节点，从其成员中创建一个'AnalyticsEventAttr'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'AnalyticsEventAttr' from its members
 
 ## Inputs
 
-Name: String. Name.
+名称: 字符串。名称。
 
-Value: String. Value.  
+价值。字符串。价值。  
 
 ## Outputs
 
-Analytics Event Attr: Analytics Event Attr Structure.
-
+分析事件attr:分析事件Attr结构。

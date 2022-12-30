@@ -1,6 +1,6 @@
 # SetmembersinGeometryScriptSetSim-
 
-Adds a node that modifies a 'GeometryScriptSetSimpleCollisionOptions'
+添加一个修改 "GeometryScriptSetSimpleCollisionOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryScriptSetSimpleCollisionOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Geometry Script Set Simple Collision Options Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Geometry Script Set Simple Collision Options Structure (by ref). Reference to the input struct.
-
+结构出来了。Geometry Script Set Simple Collision Options Structure（通过引用）。对输入结构的引用。

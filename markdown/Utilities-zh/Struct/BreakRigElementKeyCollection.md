@@ -1,6 +1,6 @@
 # BreakRigElementKeyCollection
 
-Adds a node that breaks a 'RigElementKeyCollection' into its member fields
+添加一个节点，将'RigElementKeyCollection'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'RigElementKeyCollection' into its member fields
 
 ## Inputs
 
-Rig Element Key Collection: Rig Element Key Collection Structure (by ref).  
+钻机元素密钥集。钻机元素钥匙集结构（按参考）。  
 
 ## Outputs
 
-Keys: Array of Rig Element Key Structures. Keys.
-
+键。钻机元素钥匙结构的阵列。钥匙。

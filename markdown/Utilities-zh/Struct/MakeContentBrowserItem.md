@@ -1,6 +1,6 @@
 # MakeContentBrowserItem
 
-Adds a node that create a 'ContentBrowserItem' from its members
+添加一个节点，从其成员中创建一个'ContentBrowserItem'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ContentBrowserItem' from its members
 
 ## Outputs
 
-Content Browser Item: Content Browser Item Structure.
-
+内容浏览器项目。内容浏览器项目结构。

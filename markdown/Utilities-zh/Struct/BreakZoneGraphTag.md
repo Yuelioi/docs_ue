@@ -1,6 +1,6 @@
 # BreakZoneGraphTag
 
-Adds a node that breaks a 'ZoneGraphTag' into its member fields
+添加一个节点，将'ZoneGraphTag'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'ZoneGraphTag' into its member fields
 
 ## Inputs
 
-Zone Graph Tag: Zone Graph Tag Structure (by ref).  
+区图标签。区图标签结构（按参考）。  
 
 ## Outputs
 
-Bit: Byte. Bit.
-
+位。字节。位。

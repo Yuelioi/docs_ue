@@ -1,6 +1,6 @@
 # SetmembersinPyTestStruct
 
-Adds a node that modifies a 'PyTestStruct'
+添加一个修改 "PyTestStruct "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'PyTestStruct'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Py Test Struct Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Py Test Struct Structure (by ref). Reference to the input struct.
-
+Struct Out:Py Test Struct Structure（通过引用）。对输入结构的引用。

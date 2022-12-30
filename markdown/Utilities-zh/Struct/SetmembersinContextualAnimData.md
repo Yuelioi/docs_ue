@@ -1,6 +1,6 @@
 # SetmembersinContextualAnimData
 
-Adds a node that modifies a 'ContextualAnimData'
+添加一个修改 "ContextualAnimData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ContextualAnimData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Contextual Anim Data Structure (by ref).  
+Struct Ref: Contextual Anim数据结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Contextual Anim Data Structure (by ref). Reference to the input struct.
-
+结构出来。语境中的Anim数据结构（通过ref）。对输入结构的引用。

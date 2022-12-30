@@ -1,6 +1,6 @@
 # MakeBoneChain
 
-Adds a node that create a 'BoneChain' from its members
+添加一个节点，从其成员中创建一个'BoneChain'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'BoneChain' from its members
 
 ## Outputs
 
-Bone Chain: Bone Chain Structure.
-
+骨链。骨链结构。

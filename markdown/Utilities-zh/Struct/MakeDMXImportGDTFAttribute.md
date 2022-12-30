@@ -1,6 +1,6 @@
 # MakeDMXImportGDTFAttribute
 
-Adds a node that create a 'DMXImportGDTFAttribute' from its members
+添加一个节点，从其成员中创建一个'DMXImportGDTFAttribute'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXImportGDTFAttribute' from its members
 
 ## Outputs
 
-DMXImport GDTFAttribute: DMXImport GDTFAttribute Structure.
-
+DMXImport GDTFAttribute:DMXImport GDTFAttribute结构。

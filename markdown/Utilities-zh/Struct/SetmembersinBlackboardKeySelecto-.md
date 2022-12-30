@@ -1,6 +1,6 @@
 # SetmembersinBlackboardKeySelecto-
 
-Adds a node that modifies a 'BlackboardKeySelector'
+添加一个修改'BlackboardKeySelector'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'BlackboardKeySelector'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Blackboard Key Selector Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Blackboard Key Selector Structure (by ref). Reference to the input struct.
-
+结构出来。黑板键选择器结构（通过引用）。对输入结构的引用。

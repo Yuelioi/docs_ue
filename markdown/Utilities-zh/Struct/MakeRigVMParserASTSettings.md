@@ -1,6 +1,6 @@
 # MakeRigVMParserASTSettings
 
-Adds a node that create a 'RigVMParserASTSettings' from its members
+添加一个节点，从其成员中创建一个 "RigVMParserASTSettings"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigVMParserASTSettings' from its members
 
 ## Outputs
 
-Rig VMParser ASTSettings: Rig VMParser ASTSettings Structure.
-
+Rig VMParser ASTSettings。Rig VMParser ASTSettings结构。

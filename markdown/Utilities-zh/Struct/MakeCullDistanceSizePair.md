@@ -1,6 +1,6 @@
 # MakeCullDistanceSizePair
 
-Adds a node that create a 'CullDistanceSizePair' from its members
+添加一个节点，从其成员中创建一个 "CullDistanceSizePair"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CullDistanceSizePair' from its members
 
 ## Outputs
 
-Cull Distance Size Pair: Cull Distance Size Pair Structure.
-
+剔除距离大小对。Cull Distance Size Pair的结构。

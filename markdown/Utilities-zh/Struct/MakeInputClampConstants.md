@@ -1,6 +1,6 @@
 # MakeInputClampConstants
 
-Adds a node that create a 'InputClampConstants' from its members
+添加一个节点，从其成员中创建一个 "InputClampConstants"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'InputClampConstants' from its members
 
 ## Inputs
 
-Clamp Result: Boolean. Clamp Result.
+钳制结果。布尔型。钳制结果。
 
-Interp Result: Boolean. Interp Result.
+Interp结果。布尔型。Interp结果。
 
-Clamp Min: Float (single-precision). Clamp Min.
+夹子最小值。浮点数（单精度）。钳制最小值。
 
-Clamp Max: Float (single-precision). Clamp Max.
+钳子最大值：浮点（单精度）。钳子的最大值。
 
-Interp Speed Increasing: Float (single-precision). Interp Speed Increasing.
+Interp速度递增。Float（单精度）。Interp速度增加。
 
-Interp Speed Decreasing: Float (single-precision). Interp Speed Decreasing.  
+Interp速度递减。Float（单精度）。间歇期速度递减。  
 
 ## Outputs
 
-Input Clamp Constants: Input Clamp Constants Structure.
-
+输入钳制常数。输入钳制常数结构。

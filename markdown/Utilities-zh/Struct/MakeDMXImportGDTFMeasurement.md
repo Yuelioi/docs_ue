@@ -1,6 +1,6 @@
 # MakeDMXImportGDTFMeasurement
 
-Adds a node that create a 'DMXImportGDTFMeasurement' from its members
+添加一个节点，从其成员中创建一个'DMXImportGDTFMeasurement'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXImportGDTFMeasurement' from its members
 
 ## Outputs
 
-DMXImport GDTFMeasurement: DMXImport GDTFMeasurement Structure.
-
+DMXImport GDTFMeasurement:DMXImport GDTFMeasurement结构。

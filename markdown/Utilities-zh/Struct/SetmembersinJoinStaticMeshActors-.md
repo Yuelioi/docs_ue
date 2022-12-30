@@ -1,6 +1,6 @@
 # SetmembersinJoinStaticMeshActors-
 
-Adds a node that modifies a 'JoinStaticMeshActorsOptions'
+添加一个修改 "JoinStaticMeshActorsOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'JoinStaticMeshActorsOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Join Static Mesh Actors Options Structure (by ref).  
+Struct Ref: 加入静态网格演员选项结构（通过ref）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Join Static Mesh Actors Options Structure (by ref). Reference to the input struct.
-
+结构出来。Join Static Mesh Actors选项结构（通过ref）。对输入结构的引用。

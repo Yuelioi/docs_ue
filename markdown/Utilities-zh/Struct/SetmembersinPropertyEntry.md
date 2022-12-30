@@ -1,6 +1,6 @@
 # SetmembersinPropertyEntry
 
-Adds a node that modifies a 'PropertyEntry'
+添加一个修改 "PropertyEntry "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'PropertyEntry'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Property Entry Structure (by ref).  
+结构参考：财产条目结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Property Entry Structure (by ref). Reference to the input struct.
-
+结构出来。属性输入结构（通过引用）。对输入结构的引用。

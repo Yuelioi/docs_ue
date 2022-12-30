@@ -1,6 +1,6 @@
 # BreakPredictProjectilePathPointD-
 
-Adds a node that breaks a 'PredictProjectilePathPointData' into its member fields
+添加一个节点，将 "PredictProjectilePathPointData "分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'PredictProjectilePathPointData' into its member field
 
 ## Inputs
 
-Predict Projectile Path Point Data: Predict Projectile Path Point Data Structure (by ref).  
+预测射弹路径点数据。预测弹道点数据结构（由参考）。  
 
 ## Outputs
 
-Location: Vector. Location:. Location of this point.
+地点：向量。向量。位置：。这个点的位置。
 
-Velocity: Vector. Velocity:. Velocity at this point.
+速度。矢量。速度:。在这一点上的速度。
 
-Time: Float (single-precision). Time:. Elapsed time at this point from the start of the trace..
-
+时间。Float（单精度）。时间：。在这一点上，从追踪的开始所花费的时间。

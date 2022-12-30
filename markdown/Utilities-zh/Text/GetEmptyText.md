@@ -1,8 +1,8 @@
 # GetEmptyText
 
-Returns an empty piece of text.
+返回一个空的文本。
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Kismet Text Library
 
 ## Outputs
 
-Return Value: Text. Returns an empty piece of text..
-
+返回值。文本。返回一个空的文本。

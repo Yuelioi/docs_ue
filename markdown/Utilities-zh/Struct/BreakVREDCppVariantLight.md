@@ -1,6 +1,6 @@
 # BreakVREDCppVariantLight
 
-Adds a node that breaks a 'VREDCppVariantLight' into its member fields
+添加一个节点，将 "VREDCppVariantLight "分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'VREDCppVariantLight' into its member fields
 
 ## Inputs
 
-VREDCpp Variant Light: VREDCpp Variant Light Structure (by ref).  
+VREDCpp变体灯。VREDCpp变体灯结构（由参考）。  
 
 ## Outputs
 
-Target Nodes: Array of Strings. Target Nodes.
+目标节点。字符串的数组。目标节点。
 
-Options: Array of VREDCpp Variant Light Option Structures. Options.
-
+选项。Array of VREDCpp Variant Light Option Structures.选项。

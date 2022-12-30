@@ -1,6 +1,6 @@
 # MakeDataTableCategoryHandle
 
-Adds a node that create a 'DataTableCategoryHandle' from its members
+添加一个节点，从其成员中创建一个 "DataTableCategoryHandle"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'DataTableCategoryHandle' from its members
 
 ## Inputs
 
-Data Table: Data Table Object Reference. Data Table:. Pointer to table we want a row from.
+数据表。数据表对象参考.数据表：.指向我们想要的行的表的指针。
 
-Column Name: Name. Column Name:. Name of column in the table that we want.
+专栏名称。名称。列名：。我们想要的表中的列的名称。
 
-Row Contents: Name. Row Contents:. Contents of rows in the table that we want.  
+行内容。名称。行内容：。我们想要的表格中的行的内容。  
 
 ## Outputs
 
-Data Table Category Handle: Data Table Category Handle Structure.
-
+数据表的分类处理。数据表类别手柄结构。

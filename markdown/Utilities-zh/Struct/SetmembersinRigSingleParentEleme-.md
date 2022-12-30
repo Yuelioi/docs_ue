@@ -1,6 +1,6 @@
 # SetmembersinRigSingleParentEleme-
 
-Adds a node that modifies a 'RigSingleParentElement'
+添加一个修改 "RigSingleParentElement "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RigSingleParentElement'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Rig Single Parent Element Structure (by ref).  
+Struct Ref: Rig 单一父元素结构（通过ref）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Rig Single Parent Element Structure (by ref). Reference to the input struct.
-
+结构出来。Rig 单一父元素结构（通过引用）。对输入结构的引用。

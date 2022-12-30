@@ -1,6 +1,6 @@
 # MakeGeometryScriptCollisionFromM-
 
-Adds a node that create a 'GeometryScriptCollisionFromMeshOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptCollisionFromMeshOptions'。
 
 ## 图示
 
@@ -8,31 +8,30 @@ Adds a node that create a 'GeometryScriptCollisionFromMeshOptions' from its memb
 
 ## Inputs
 
-Emit Transaction: Boolean. Emit Transaction.
+排放交易。布尔型。Emit Transaction（提交交易）。
 
-Method: EGeometryScriptCollisionGenerationMethod Enum. Method.
+方法。EGeometryScriptCollisionGenerationMethod Enum.方法。
 
-Auto Detect Spheres: Boolean. Auto Detect Spheres.
+自动检测球体：布尔值。自动检测球体。
 
-Auto Detect Boxes: Boolean. Auto Detect Boxes.
+自动检测框。布尔型。Auto Detect Boxes.
 
-Auto Detect Capsules: Boolean. Auto Detect Capsules.
+自动检测胶囊。布尔型。自动检测胶囊。
 
-Min Thickness: Float (single-precision). Min Thickness.
+最小厚度。Float（单精度）。最小厚度。
 
-Simplify Hulls: Boolean. Simplify Hulls.
+简化胡尔斯。布尔型。简化Hulls。
 
-Convex Hull Target Face Count: Integer. Convex Hull Target Face Count.
+凸面壳目标面数。整数。凸面体目标面数。
 
-Swept Hull Simplify Tolerance: Float (single-precision). Swept Hull Simplify Tolerance.
+扫除船体简化公差。浮点（单精度）。扫频船体简化公差。
 
-Swept Hull Axis: EGeometryScriptSweptHullAxis Enum. Swept Hull Axis.
+Swept Hull Axis: EGeometryScriptSweptHullAxis枚举。扫荡船体轴。
 
-Remove Fully Contained Shapes: Boolean. Remove Fully Contained Shapes.
+移除完全包含的形状。布尔值。移除完全包含的形状。
 
-Max Shape Count: Integer. Max Shape Count.  
+最大形状数。整数。最大形状数。  
 
 ## Outputs
 
-Geometry Script Collision from Mesh Options: Geometry Script Collision From Mesh Options Structure.
-
+网格选项中的几何脚本碰撞。Geometry Script Collision From Mesh Options结构。

@@ -1,6 +1,6 @@
 # SetmembersinAlphaBlend
 
-Adds a node that modifies a 'AlphaBlend'
+添加一个修改 "AlphaBlend "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AlphaBlend'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Alpha Blend Structure (by ref).  
+结构参考：阿尔法混合结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Alpha Blend Structure (by ref). Reference to the input struct.
-
+结构出来。阿尔法混合结构（通过引用）。对输入结构的引用。

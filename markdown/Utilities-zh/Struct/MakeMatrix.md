@@ -1,6 +1,6 @@
 # MakeMatrix
 
-Adds a node that create a 'Matrix' from its members
+添加一个节点，从其成员中创建一个 "矩阵"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'Matrix' from its members
 
 ## Inputs
 
-XPlane: Plane Structure. XPlane.
+XPlane。平面结构。XPlane.
 
-YPlane: Plane Structure. YPlane.
+YPlane:平面结构。YPlane.
 
-ZPlane: Plane Structure. ZPlane.
+ZPlane: 平面结构。ZPlane。
 
-WPlane: Plane Structure. WPlane.  
+WPlane:平面结构。WPlane.  
 
 ## Outputs
 
-Matrix: Matrix Structure.
-
+矩阵。矩阵结构。

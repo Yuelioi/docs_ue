@@ -1,6 +1,6 @@
 # MakeDisplayClust-_9
 
-Adds a node that create a 'DisplayClusterConfigurationICVFX_ChromakeySettings' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationICVFX_ChromakeySettings"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'DisplayClusterConfigurationICVFX_ChromakeySettings' f
 
 ## Inputs
 
-Enable Inner Frustum Chromakey: Boolean. Enable:. Set to True to fill the inner frustum with the specified Chromakey Color..
+启用 "内部文件夹 "Chromakey: Boolean.启用：。设置为 "True"，用指定的Chromakey颜色填充内壳。
 
-Chromakey Color: Linear Color Structure. Chromakey Color:. Chromakey Color.
+Chromakey色彩：线性色彩结构。Chromakey Color:.Chromakey Color.
 
-Custom Chromakey: Display Cluster Configuration ICVFX Chromakey Render Settings Structure. Chromakey Render Texture:. Configure a custom chromakey based on content that will appear in the inner frustum, rather than the entire inner frustum..
+自定义Chromakey。Display Cluster Configuration ICVFX Chromakey Render Settings Structure.Chromakey Render Texture:.根据将出现在内围的内容，而不是整个内围的内容，配置一个自定义的色眼。
 
-Chromakey Markers: Display Cluster Configuration ICVFX Chromakey Markers Structure. Chromakey Markers:. Display Chromakey Markers to facilitate camera tracking in post production..  
+Chromakey标记。显示集群配置 ICVFX Chromakey Markers结构。Chromakey Markers:.显示Chromakey标记，以方便后期制作中的摄像机跟踪。  
 
 ## Outputs
 
-Display Cluster Configuration ICVFX Chromakey Settings: Display Cluster Configuration ICVFX Chromakey Settings Structure.
-
+显示集群配置ICVFX Chromakey设置。显示群组配置 ICVFX Chromakey设置结构。

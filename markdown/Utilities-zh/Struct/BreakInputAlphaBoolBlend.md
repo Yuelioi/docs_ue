@@ -1,6 +1,6 @@
 # BreakInputAlphaBoolBlend
 
-Adds a node that breaks a 'InputAlphaBoolBlend' into its member fields
+添加一个节点，将'InputAlphaBoolBlend'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'InputAlphaBoolBlend' into its member fields
 
 ## Inputs
 
-Input Alpha Bool Blend: Input Alpha Bool Blend Structure (by ref).  
+输入Alpha Bool Blend。输入Alpha Bool Blend结构（通过引用）。  
 
 ## Outputs
 
-Blend In Time: Float (single-precision). Blend in Time.
+融合时间。Float (single-precision).Blend in Time.
 
-Blend Out Time: Float (single-precision). Blend Out Time.
+融合时间。Float (single-precision).融合时间。
 
-Blend Option: EAlphaBlendOption Enum. Blend Option.
+混合选项：EAlphaBlendOption Enum.混合选项。
 
-Custom Curve: Curve Float Object Reference. Custom Curve.
-
+自定义曲线。曲线浮点对象参考。自定义曲线。

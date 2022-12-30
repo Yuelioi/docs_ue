@@ -1,6 +1,6 @@
 # MakeFieldObjectCommands
 
-Adds a node that create a 'FieldObjectCommands' from its members
+添加一个节点，从其成员中创建一个'FieldObjectCommands'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'FieldObjectCommands' from its members
 
 ## Inputs
 
-Target Names: Array of Names. Target Names:. Commands Target Name.
+目标名称。阵列的名称。目标名称：。命令目标名称。
 
-Root Nodes: Array of Field Node Base Object References. Root Nodes:. Commands Root Node.
+根节点。字段节点基本对象参考数组。根节点：.命令根节点。
 
-Meta Datas: Array of Field System Meta Data Object References. Meta Datas:. Commands Meta Data.  
+元数据。场系统元数据对象参考数组。元数据：。命令元数据。  
 
 ## Outputs
 
-Field Object Commands: Field Object Commands Structure.
-
+字段对象命令。字段对象命令结构。

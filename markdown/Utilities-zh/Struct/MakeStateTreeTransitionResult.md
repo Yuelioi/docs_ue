@@ -1,6 +1,6 @@
 # MakeStateTreeTransitionResult
 
-Adds a node that create a 'StateTreeTransitionResult' from its members
+添加一个节点，从其成员中创建一个 "StateTreeTransitionResult"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'StateTreeTransitionResult' from its members
 
 ## Outputs
 
-State Tree Transition Result: State Tree Transition Result Structure.
-
+状态树过渡结果。状态树转换结果结构。

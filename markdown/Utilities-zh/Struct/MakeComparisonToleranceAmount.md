@@ -1,6 +1,6 @@
 # MakeComparisonToleranceAmount
 
-Adds a node that create a 'ComparisonToleranceAmount' from its members
+添加一个节点，从其成员中创建一个'ComparisonToleranceAmount'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ComparisonToleranceAmount' from its members
 
 ## Outputs
 
-Comparison Tolerance Amount: Comparison Tolerance Amount Structure.
-
+比较宽容量。比较宽容量结构。

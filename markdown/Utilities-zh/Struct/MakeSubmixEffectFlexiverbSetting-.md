@@ -1,6 +1,6 @@
 # MakeSubmixEffectFlexiverbSetting-
 
-Adds a node that create a 'SubmixEffectFlexiverbSettings' from its members
+添加一个节点，从其成员中创建一个 "SubmixEffectFlexiverbSettings"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'SubmixEffectFlexiverbSettings' from its members
 
 ## Inputs
 
-Pre Delay: Float (single-precision). Pre Delay:. PreDelay - 0.01 < 10.0 < 40.0 - Amount of delay to the first echo in milliseconds..
+预延时。Float（单精度）。Pre Delay:.PreDelay - 0.01 < 10.0 < 40.0 - 到第一个回声的延迟量，以毫秒计。
 
-Decay Time: Float (single-precision). Decay Time:. Time in seconds it will take for the impulse response to decay to -60 dB..
+衰减时间。Float（单精度）。衰减时间：。脉冲响应衰减到-60dB所需的时间（秒）。
 
-Room Dampening: Float (single-precision). Room Dampening:. Room Dampening - 0.0 < 0.85 < 1.0 - Frequency at which the room dampens..
+房间阻尼。Float（单精度）。房间阻尼：。房间减震 - 0.0 < 0.85 < 1.0 - 房间减震的频率。
 
-Complexity: Integer. Complexity.  
+复杂度：整数。复杂度。  
 
 ## Outputs
 
-Submix Effect Flexiverb Settings: Submix Effect Flexiverb Settings Structure.
-
+子混音效果的Flexiverb设置。子混音效果的Flexiverb设置结构。

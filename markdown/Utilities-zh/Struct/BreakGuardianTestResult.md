@@ -1,6 +1,6 @@
 # BreakGuardianTestResult
 
-Adds a node that breaks a 'GuardianTestResult' into its member fields
+添加一个节点，将 "GuardianTestResult "分解成其成员字段。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'GuardianTestResult' into its member fields
 
 ## Inputs
 
-Guardian Test Result: Guardian Test Result Structure (by ref).  
+监护人测试结果。监护人测试结果结构（按参考）。  
 
 ## Outputs
 
-Is Triggering: Boolean. Is Triggering:. Is there a triggering interaction between the device/point and specified boundary?.
+是否触发。布尔型。是否触发：。设备/点与指定边界之间是否存在触发互动？
 
-Device Type: ETrackedDeviceType Enum. Device Type:. Device type triggering boundary (ETrackedDeviceType::None if BoundaryTestResult corresponds to a point rather than a device).
+设备类型。ETrackedDeviceType枚举。设备类型：。触发边界的设备类型（如果BoundaryTestResult对应的是一个点而不是一个设备，则ETrackedDeviceType::None）。
 
-Closest Distance: Float (single-precision). Closest Distance:. Distance of device/point to surface of boundary specified by BoundaryType.
+最近的距离。Float（单精度）。最近的距离：。设备/点到BoundaryType指定的边界表面的距离。
 
-Closest Point: Vector. Closest Point:. Closest point on surface corresponding to specified boundary.
+最近的点。向量。最近的点：。与指定边界对应的曲面上的最近点。
 
-Closest Point Normal: Vector. Closest Point Normal:. Normal of closest point.
-
+最接近的点法线。向量。最近点法线：。最靠近的点的法线。

@@ -1,6 +1,6 @@
 # SetmembersinSteamVRInputBindingI-
 
-Adds a node that modifies a 'SteamVRInputBindingInfo'
+添加一个修改 "SteamVRInputBindingInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SteamVRInputBindingInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Steam VRInput Binding Info Structure (by ref).  
+结构参考：Steam VRInput 绑定信息结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Steam VRInput Binding Info Structure (by ref). Reference to the input struct.
-
+结构出来。Steam VRInput绑定信息结构（通过ref）。对输入结构的引用。

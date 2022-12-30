@@ -1,6 +1,6 @@
 # BreakWaterBrushEffectDisplacemen-
 
-Adds a node that breaks a 'WaterBrushEffectDisplacement' into its member fields
+添加一个打破'WaterBrushEffectDisplacement'的节点到其成员字段中
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'WaterBrushEffectDisplacement' into its member fields
 
 ## Inputs
 
-Water Brush Effect Displacement: Water Brush Effect Displacement Structure (by ref).  
+水刷效果的位移。水刷效果的位移结构（按参考）。  
 
 ## Outputs
 
-Displacement Height: Float (single-precision). Displacement Height.
+位移高度。浮点数（单精度）。位移高度。
 
-Displacement Tiling: Float (single-precision). Displacement Tiling.
+位移平铺。Float（单精度）。位移平铺法。
 
-Texture: Texture 2D Object Reference. Texture.
+纹理。Texture 2D Object Reference.纹理。
 
-Midpoint: Float (single-precision). Midpoint.
+中点。Float (single-precision).中点。
 
-Channel: Linear Color Structure. Channel.
+通道。线性色彩结构。频道。
 
-Weightmap Influence: Float (single-precision). Weightmap Influence.
-
+权重图的影响。Float (single-precision).权重图的影响。

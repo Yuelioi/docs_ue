@@ -1,6 +1,6 @@
 # MakeVectorParameterValue
 
-Adds a node that create a 'VectorParameterValue' from its members
+添加一个节点，从其成员中创建一个'VectorParameterValue'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'VectorParameterValue' from its members
 
 ## Inputs
 
-Parameter Info: Material Parameter Info Structure. Parameter Info.
+参数信息：材料参数信息结构。参数信息。
 
-Parameter Value: Linear Color Structure. Parameter Value.  
+参数值。线性色彩结构。参数值。  
 
 ## Outputs
 
-Vector Parameter Value: Vector Parameter Value Structure.
-
+矢量参数值。矢量参数值结构。

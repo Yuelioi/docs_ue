@@ -1,8 +1,8 @@
 # ToText_string
 
-Converts string to culture invariant text. Use Format or Make Literal Text to create localizable text
+将字符串转换为文化不变的文本。使用 "格式化 "或 "制作字面文本 "来创建可本地化的文本
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet Text Library
 
 ## Inputs
 
-In String: String.  
+在字符串中：字符串。  
 
 ## Outputs
 
-Return Value: Text. Converts string to culture invariant text. Use Format or Make Literal Text to create localizable text.
-
+返回值。文本。将字符串转换为文化不变的文本。使用Format或Make Literal Text来创建可本地化的文本。

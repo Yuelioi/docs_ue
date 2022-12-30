@@ -1,6 +1,6 @@
 # BreakLidarPointCloudNormal
 
-Adds a node that breaks a 'LidarPointCloudNormal' into its member fields
+添加一个节点，将'LidarPointCloudNormal'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'LidarPointCloudNormal' into its member fields
 
 ## Inputs
 
-Lidar Point Cloud Normal: Lidar Point Cloud Normal Structure (by ref).  
+激光雷达点云法线。激光雷达点云法线结构（通过参考）。  
 
 ## Outputs
 
-X: Byte. X.
+X: 字节。X.
 
-Y: Byte. Y.
+Y: 字节。Y.
 
-Z: Byte. Z.
-
+Z: 字节。Z.

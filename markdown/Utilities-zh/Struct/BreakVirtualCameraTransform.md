@@ -1,6 +1,6 @@
 # BreakVirtualCameraTransform
 
-Adds a node that breaks a 'VirtualCameraTransform' into its member fields
+添加一个节点，将'VirtualCameraTransform'分解到其成员字段中
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'VirtualCameraTransform' into its member fields
 
 ## Inputs
 
-Virtual Camera Transform: Virtual Camera Transform Structure (by ref).  
+虚拟相机转换。虚拟相机转换结构（由参考文献）。  
 
 ## Outputs
 
-Transform: Transform. Transform.
-
+转变。转变。转变。

@@ -1,6 +1,6 @@
 # MakeARGeoAnchorUpdatePayload
 
-Adds a node that create a 'ARGeoAnchorUpdatePayload' from its members
+添加一个节点，从其成员中创建一个 "ARGeoAnchorUpdatePayload"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'ARGeoAnchorUpdatePayload' from its members
 
 ## Inputs
 
-World Transform: Transform. World Transform.  
+世界转型。转变。世界转型。  
 
 ## Outputs
 
-ARGeo Anchor Update Payload: ARGeo Anchor Update Payload Structure.
-
+ARGeo Anchor Update Payload:ARGeo Anchor Update Payload结构。

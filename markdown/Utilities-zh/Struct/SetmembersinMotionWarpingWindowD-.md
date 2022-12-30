@@ -1,6 +1,6 @@
 # SetmembersinMotionWarpingWindowD-
 
-Adds a node that modifies a 'MotionWarpingWindowData'
+添加一个修改 "MotionWarpingWindowData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MotionWarpingWindowData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Motion Warping Window Data Structure (by ref).  
+Struct Ref: 运动扭曲窗口数据结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Motion Warping Window Data Structure (by ref). Reference to the input struct.
-
+Struct Out:运动扭曲窗口数据结构（通过引用）。对输入结构的引用。

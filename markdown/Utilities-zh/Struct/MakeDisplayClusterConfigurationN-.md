@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationN-
 
-Adds a node that create a 'DisplayClusterConfigurationNetworkSettings' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationNetworkSettings"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'DisplayClusterConfigurationNetworkSettings' from its 
 
 ## Inputs
 
-Connect Retries Amount: Integer. Connect Retries Amount:. Advanced: amount of times nDisplay tries to reconnect before dropping.
+连接重试量。整数。连接重试量：.高级：nDisplay在掉线前尝试重新连接的次数。
 
-Connect Retry Delay: Integer. Connect Retry Delay:. Advanced: delay in between connection retries.
+连接重试延迟。整数。连接重试延迟：。高级：连接重试之间的延迟。
 
-Game Start Barrier Timeout: Integer. Game Start Barrier Timeout:. Advanced: timeout for Game Thread Barrier.
+游戏开始障碍超时。整数。游戏开始障碍超时：。高级：游戏线程障碍的超时。
 
-Frame Start Barrier Timeout: Integer. Frame Start Barrier Timeout:. Advanced: timeout value for Start Frame Barrier.
+帧开始障碍超时。整数。帧开始障碍超时：。高级：开始帧障碍物的超时值。
 
-Frame End Barrier Timeout: Integer. Frame End Barrier Timeout:. Advanced: timeout value for End Frame Barrier.
+帧结束障碍物超时。整数。帧结束障碍超时：。高级：结束帧屏障的超时值。
 
-Render Sync Barrier Timeout: Integer. Render Sync Barrier Timeout:. Advanced: timeout value for Render Sync.  
+渲染同步障碍超时。整数。Render Sync Barrier Timeout:.高级：Render Sync的超时值。  
 
 ## Outputs
 
-Display Cluster Configuration Network Settings: Display Cluster Configuration Network Settings Structure.
-
+显示群集配置网络设置。显示群集配置网络设置结构。

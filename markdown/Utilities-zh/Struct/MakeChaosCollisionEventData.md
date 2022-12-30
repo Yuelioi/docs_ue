@@ -1,6 +1,6 @@
 # MakeChaosCollisionEventData
 
-Adds a node that create a 'ChaosCollisionEventData' from its members
+添加一个节点，从其成员中创建一个 "ChaosCollisionEventData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ChaosCollisionEventData' from its members
 
 ## Outputs
 
-Chaos Collision Event Data: Chaos Collision Event Data Structure.
-
+混沌碰撞事件数据。混沌碰撞事件数据结构。

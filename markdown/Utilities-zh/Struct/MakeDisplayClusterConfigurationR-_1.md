@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationR-_1
 
-Adds a node that create a 'DisplayClusterConfigurationRenderFrame' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationRenderFrame"。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that create a 'DisplayClusterConfigurationRenderFrame' from its memb
 
 ## Inputs
 
-Global Viewport RTT Size Multiplier: Float (single-precision). Cluster Render Target Ratio Mult:. Multiply all viewports RTT size's for whole cluster by this value.
+全局视口RTT大小乘数。Float (single-precision).Cluster Render Target Ratio Mult:.将整个集群的所有视口的RTT尺寸乘以这个值。
 
-Inner Frustum RTT Size Multiplier: Float (single-precision). Cluster ICVFXInner Viewport Render Target Ratio Mult:. Multiply inner frustum RTT size's for whole cluster by this value.
+内部Frustum RTT大小乘数。Float (single-precision).Cluster ICVFXInner Viewport Render Target Ratio Mult:.整个集群的内视口RTT大小乘以此值。
 
-Outer Viewport RTT Size Multiplier: Float (single-precision). Cluster ICVFXOuter Viewport Render Target Ratio Mult:. Multiply outer viewports RTT size's for whole cluster by this value.
+外视口RTT大小乘数。Float（单精度）。Cluster ICVFXOuter Viewport Render Target Ratio Mult:.整个集群的外视口RTT大小乘以此值。
 
-Global Viewport Screen Percentage Multiplier: Float (single-precision). Cluster Buffer Ratio Mult:. Multiply all buffer ratios for whole cluster by this value.
+全局视口屏幕百分比乘数。浮点数（单精度）。Cluster Buffer Ratio Mult:.将整个集群的所有缓冲区比率乘以这个值。
 
-Inner Frustum Screen Percentage Multiplier: Float (single-precision). Cluster ICVFXInner Frustum Buffer Ratio Mult:. Multiply inner frustums buffer ratios for whole cluster by this value.
+内层Frustum屏幕百分比乘数。Float（单精度）。Cluster ICVFXInner Frustum Buffer Ratio Mult:.整个群组的内侧Frustums缓冲区比率乘以此值。
 
-Viewport Screen Percentage Multiplier: Float (single-precision). Cluster ICVFXOuter Viewport Buffer Ratio Mult:. Multiply the screen percentage for all viewports in the cluster by this value..
+视口屏幕百分比乘数。Float（单精度）。Cluster ICVFXOuter Viewport Buffer Ratio Mult:.将集群中所有视口的屏幕百分比乘以此值。
 
-Allow Warp Blend: Boolean. Allow Warp Blend:. Allow warpblend render.  
+允许经纬仪混合。布尔值。Allow Warp Blend:.允许经线混合。允许经线混合渲染。  
 
 ## Outputs
 
-Display Cluster Configuration Render Frame: Display Cluster Configuration Render Frame Structure.
-
+显示群集配置渲染框架。显示集群配置的渲染框架结构。

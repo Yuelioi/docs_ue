@@ -1,6 +1,6 @@
 # MakeGeographicCoordinates
 
-Adds a node that create a 'GeographicCoordinates' from its members
+添加一个节点，从其成员中创建一个 "GeographicCoordinates"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'GeographicCoordinates' from its members
 
 ## Inputs
 
-Longitude: Float (double-precision). Longitude:. FVector where X = Latitude, Y = Longitude, Z = Altitude.
+经度。Float（双精度）。经度:。FVector，其中X = 纬度，Y = 经度，Z = 海拔。
 
-Latitude: Float (double-precision). Latitude.
+纬度。Float (double-precision).纬度。
 
-Altitude: Float (double-precision). Altitude.  
+海拔高度。Float（双精度）。海拔高度。  
 
 ## Outputs
 
-Geographic Coordinates: Geographic Coordinates Structure.
-
+地理坐标。地理坐标结构。

@@ -1,6 +1,6 @@
 # SetmembersinScreenReaderReply
 
-Adds a node that modifies a 'ScreenReaderReply'
+添加一个修改 "ScreenReaderReply "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ScreenReaderReply'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Screen Reader Reply Structure (by ref).  
+结构参考：屏幕阅读器回复结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Screen Reader Reply Structure (by ref). Reference to the input struct.
-
+结构出来。读屏器回复结构（通过引用）。对输入结构的引用。

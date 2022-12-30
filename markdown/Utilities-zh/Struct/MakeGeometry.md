@@ -1,6 +1,6 @@
 # MakeGeometry
 
-Adds a node that create a 'Geometry' from its members
+添加一个节点，从其成员中创建一个 "几何"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'Geometry' from its members
 
 ## Outputs
 
-Geometry: Geometry Structure.
-
+几何学。几何结构。

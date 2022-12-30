@@ -1,6 +1,6 @@
 # SetmembersinTextureParameterValu-
 
-Adds a node that modifies a 'TextureParameterValue'
+添加一个修改 "TextureParameterValue "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TextureParameterValue'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Texture Parameter Value Structure (by ref).  
+Struct Ref: 纹理参数值结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Texture Parameter Value Structure (by ref). Reference to the input struct.
-
+结构出来。纹理参数值结构（通过引用）。对输入结构的引用。

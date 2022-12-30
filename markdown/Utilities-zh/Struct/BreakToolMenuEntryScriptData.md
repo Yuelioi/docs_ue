@@ -1,6 +1,6 @@
 # BreakToolMenuEntryScriptData
 
-Adds a node that breaks a 'ToolMenuEntryScriptData' into its member fields
+添加一个节点，将'ToolMenuEntryScriptData'分解成其成员字段
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that breaks a 'ToolMenuEntryScriptData' into its member fields
 
 ## Inputs
 
-Tool Menu Entry Script Data: Tool Menu Entry Script Data Structure (by ref).  
+工具菜单输入脚本数据。工具菜单输入脚本数据结构（按参考）。  
 
 ## Outputs
 
-Menu: Name. Menu.
+菜单。名称。菜单。
 
-Section: Name. Section.
+节。名称。节。
 
-Name: Name. Name.
+姓名：姓名名字。
 
-Label: Text. Label.
+标签：文本。标签。
 
-Tool Tip: Text. Tool Tip.
+工具提示。文本。工具提示。
 
-Icon: Script Slate Icon Structure. Icon.
+图标：脚本石板图标结构。图标。
 
-Owner Name: Name. Owner Name:. Optional identifier used for unregistering a group of menu items.
+业主姓名。名称。业主名称：。用于取消注册一组菜单项的可选标识符。
 
-Insert Position: Tool Menu Insert Structure. Insert Position.
+插入位置：工具菜单插入结构。插入位置。
 
-Advanced: Tool Menu Entry Script Data Advanced Structure. Advanced.
-
+高级。工具菜单输入脚本数据高级结构。先进的。

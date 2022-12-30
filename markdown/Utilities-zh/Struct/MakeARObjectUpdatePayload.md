@@ -1,6 +1,6 @@
 # MakeARObjectUpdatePayload
 
-Adds a node that create a 'ARObjectUpdatePayload' from its members
+添加一个节点，从其成员中创建一个'AROBjectUpdatePayload'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'ARObjectUpdatePayload' from its members
 
 ## Inputs
 
-World Transform: Transform. World Transform.  
+世界转型。转变。世界转型。  
 
 ## Outputs
 
-ARObject Update Payload: ARObject Update Payload Structure.
-
+ARObject Update Payload。ARObject Update Payload结构。

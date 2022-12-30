@@ -1,6 +1,6 @@
 # BreakVREDCppVariantCameraOption
 
-Adds a node that breaks a 'VREDCppVariantCameraOption' into its member fields
+添加一个节点，将'VREDCppVariantCameraOption'分解到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'VREDCppVariantCameraOption' into its member fields
 
 ## Inputs
 
-VREDCpp Variant Camera Option: VREDCpp Variant Camera Option Structure (by ref).  
+VREDCpp变体相机选项。VREDCpp变体相机选项结构（按参考）。  
 
 ## Outputs
 
-Name: String. Name.
+名称: 字符串。名字。
 
-Location: Vector. Location.
+地点：向量。向量。位置。
 
-Rotation: Rotator. Rotation.
-
+旋转： 旋转器。轮换。

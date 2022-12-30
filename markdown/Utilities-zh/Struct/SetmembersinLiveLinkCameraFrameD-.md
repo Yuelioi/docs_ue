@@ -1,6 +1,6 @@
 # SetmembersinLiveLinkCameraFrameD-
 
-Adds a node that modifies a 'LiveLinkCameraFrameData'
+添加一个修改 "LiveLinkCameraFrameData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'LiveLinkCameraFrameData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Live Link Camera Frame Data Structure (by ref).  
+Struct Ref: Live Link摄像机帧数据结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Live Link Camera Frame Data Structure (by ref). Reference to the input struct.
-
+Struct Out:Live Link摄像机帧数据结构（通过参考）。对输入结构的引用。

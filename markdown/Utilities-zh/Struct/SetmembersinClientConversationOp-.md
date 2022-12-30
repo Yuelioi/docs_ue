@@ -1,6 +1,6 @@
 # SetmembersinClientConversationOp-
 
-Adds a node that modifies a 'ClientConversationOptionEntry'
+添加一个修改 "ClientConversationOptionEntry "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ClientConversationOptionEntry'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Client Conversation Option Entry Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Client Conversation Option Entry Structure (by ref). Reference to the input struct.
-
+结构出来。客户端对话选项条目结构（通过引用）。对输入结构的引用。

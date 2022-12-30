@@ -1,6 +1,6 @@
 # SetmembersinTableViewStyle
 
-Adds a node that modifies a 'TableViewStyle'
+添加一个修改 "TableViewStyle "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TableViewStyle'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Table View Style Structure (by ref).  
+结构参考：表视图样式结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Table View Style Structure (by ref). Reference to the input struct.
-
+结构出来。表视图式结构（通过引用）。对输入结构的引用。

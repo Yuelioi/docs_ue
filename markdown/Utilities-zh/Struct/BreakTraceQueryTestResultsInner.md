@@ -1,6 +1,6 @@
 # BreakTraceQueryTestResultsInner
 
-Adds a node that breaks a 'TraceQueryTestResultsInner' into its member fields
+添加一个节点，将'TraceQueryTestResultsInner'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'TraceQueryTestResultsInner' into its member fields
 
 ## Inputs
 
-Trace Query Test Results Inner: Trace Query Test Results Inner Structure (by ref).  
+跟踪查询测试结果内部。追踪查询测试结果内部结构（按参考）。  
 
 ## Outputs
 
-Line Results: Trace Query Test Results Inner Most Structure. Line Results:. The results associated with the line trace.
+行结果。追踪查询测试结果最内部结构。行结果：。与行跟踪相关的结果。
 
-Sphere Results: Trace Query Test Results Inner Most Structure. Sphere Results:. The results associated with the sphere.
+球体结果。追踪查询测试结果最里面的结构。球体结果：。与球体相关的结果。
 
-Capsule Results: Trace Query Test Results Inner Most Structure. Capsule Results:. The results associated with the capsule.
+胶囊结果。追踪查询测试结果最内部结构。胶囊结果：。与胶囊相关的结果。
 
-Box Results: Trace Query Test Results Inner Most Structure. Box Results:. The results associated with the box.
-
+箱体结果。追踪查询测试结果最内部结构。箱子结果：。与盒子相关的结果。

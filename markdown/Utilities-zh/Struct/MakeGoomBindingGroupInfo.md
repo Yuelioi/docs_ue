@@ -1,6 +1,6 @@
 # MakeGoomBindingGroupInfo
 
-Adds a node that create a 'GoomBindingGroupInfo' from its members
+添加一个节点，从其成员中创建一个'GoomBindingGroupInfo'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GoomBindingGroupInfo' from its members
 
 ## Outputs
 
-Goom Binding Group Info: Goom Binding Group Info Structure.
-
+Goom 绑定组信息。Goom Binding Group信息结构。

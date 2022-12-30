@@ -1,6 +1,6 @@
 # MakeTimedDataMonitorTimeCorrecti-_1
 
-Adds a node that create a 'TimedDataMonitorTimeCorrectionResult' from its members
+添加一个节点，从其成员中创建一个'TimedDataMonitorTimeCorrectionResult'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'TimedDataMonitorTimeCorrectionResult' from its member
 
 ## Outputs
 
-Timed Data Monitor Time Correction Result: Timed Data Monitor Time Correction Result Structure.
-
+计时数据监控器时间校正结果。计时数据监测器时间校正结果结构。

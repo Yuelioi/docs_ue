@@ -1,6 +1,6 @@
 # MakeNamedCompMaterialParam
 
-Adds a node that create a 'NamedCompMaterialParam' from its members
+添加一个节点，从其成员中创建一个'NamedCompMaterialParam'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'NamedCompMaterialParam' from its members
 
 ## Outputs
 
-Named Comp Material Param: Named Comp Material Param Structure.
-
+命名的复合材料参数: 命名的复合材料参数结构。

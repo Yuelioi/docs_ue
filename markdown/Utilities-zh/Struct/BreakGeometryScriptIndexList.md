@@ -1,6 +1,6 @@
 # BreakGeometryScriptIndexList
 
-Adds a node that breaks a 'GeometryScriptIndexList' into its member fields
+添加一个节点，将'GeometryScriptIndexList'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'GeometryScriptIndexList' into its member fields
 
 ## Inputs
 
-Geometry Script Index List: Index List Structure (by ref).  
+几何学脚本索引列表。索引列表结构（按参考文献）。  
 
 ## Outputs
 
-Index Type: EGeometryScriptIndexType Enum. Index Type.
-
+索引类型。EGeometryScriptIndexType枚举。指数类型。

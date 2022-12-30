@@ -1,6 +1,6 @@
 # BreakTextureShareBPSyncPolicy
 
-Adds a node that breaks a 'TextureShareBPSyncPolicy' into its member fields
+添加一个节点，将'TextureShareBPSyncPolicy'分解到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'TextureShareBPSyncPolicy' into its member fields
 
 ## Inputs
 
-Texture Share BPSync Policy: Texture Share BPSync Policy Structure (by ref).  
+纹理共享BPSync政策。纹理共享BPSync政策结构（按参考）。  
 
 ## Outputs
 
-Connection: ETextureShareBPSyncConnect Enum. Connection:. Synchronize Session state events (BeginSession/EndSession).
+连接。ETextureShareBPSyncon Enum.连接：。同步会话状态事件（BeginSession/EndSession）。
 
-Frame: ETextureShareBPSyncFrame Enum. Frame:. Synchronize frame events (BeginFrame/EndFrame).
+帧。ETextureShareBPSyncFrame Enum.帧：。同步框架事件（BeginFrame/EndFrame）。
 
-Texture: ETextureShareBPSyncSurface Enum. Texture:. Synchronize texture events (LockTexture/UnlockTexture).
-
+纹理。ETextureShareBPSyncSurface Enum.Texture:.同步纹理事件（LockTexture/UnlockTexture）。

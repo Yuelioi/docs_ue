@@ -1,6 +1,6 @@
 # MakeVariantDependency
 
-Adds a node that create a 'VariantDependency' from its members
+添加一个节点，从其成员中创建一个 "变量依赖"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'VariantDependency' from its members
 
 ## Outputs
 
-Variant Dependency: Variant Dependency Structure.
-
+变体依存关系。变体依存关系结构。

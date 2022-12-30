@@ -1,6 +1,6 @@
 # MakeAnchors
 
-Adds a node that create a 'Anchors' from its members
+添加一个节点，从其成员中创建一个 "锚"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'Anchors' from its members
 
 ## Inputs
 
-Minimum: Vector 2D Structure. Minimum:. Holds the minimum anchors, left + top..
+最低限度。矢量2D结构。最小值：。保存最小锚点，左+顶。
 
-Maximum: Vector 2D Structure. Maximum:. Holds the maximum anchors, right + bottom..  
+最大。矢量2D结构。最大：。保存最大的锚点，右键+底部。
 
 ## Outputs
 
-Anchors: Anchors Structure.
-
+锚点。锚点结构。

@@ -1,6 +1,6 @@
 # BreakIntMargin
 
-Adds a node that breaks a 'IntMargin' into its member fields
+添加一个节点，将'IntMargin'分解到其成员字段中
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'IntMargin' into its member fields
 
 ## Inputs
 
-Int Margin: Int Margin Structure (by ref).  
+国际保证金。国际保证金结构（由参考）。  
 
 ## Outputs
 
-Left: Integer. Left:. Holds the margin to the left..
+左：整数。Left:.保存在左边的空白。
 
-Top: Integer. Top:. Holds the margin to the top..
+顶部：整数。顶部:.保存到顶部的边距。
 
-Right: Integer. Right:. Holds the margin to the right..
+右：整数。右边:。保存在右边的空白。
 
-Bottom: Integer. Bottom:. Holds the margin to the bottom..
-
+底部。整数。底部：。保留到底部的空白。

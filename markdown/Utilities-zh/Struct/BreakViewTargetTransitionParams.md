@@ -1,6 +1,6 @@
 # BreakViewTargetTransitionParams
 
-Adds a node that breaks a 'ViewTargetTransitionParams' into its member fields
+添加一个节点，将'ViewTargetTransitionParams'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'ViewTargetTransitionParams' into its member fields
 
 ## Inputs
 
-View Target Transition Params: View Target Transition Params Structure (by ref).  
+查看目标过渡期参数。查看目标过渡参数结构（通过参考）。  
 
 ## Outputs
 
-Blend Time: Float (single-precision). Blend Time:. Total duration of blend to pending view target. 0 means no blending..
+混合时间。Float（单精度）。混合时间：。混合到待定视图目标的总时间。0表示没有混合。
 
-Blend Function: EViewTargetBlendFunction Enum. Blend Function:. Function to apply to the blend parameter..
+混合功能。EViewTargetBlendFunction Enum.混合功能：.应用于混合参数的函数。
 
-Blend Exp: Float (single-precision). Blend Exp:. Exponent, used by certain blend functions to control the shape of the curve..
+Blend Exp: Float (single-precision).Blend Exp:.指数，被某些混合函数用来控制曲线的形状。
 
-Lock Outgoing: Boolean. Lock Outgoing:. If true, lock outgoing viewtarget to last frame's camera POV for the remainder of the blend.. This is useful if you plan to teleport the old viewtarget, but don't want to affect the blend..
-
+锁定外发。布尔值。锁定传出：。如果为真，则在剩余的混合过程中，将出场目标锁定为上一帧的摄像机POV。如果你打算传送旧的视点，但又不想影响到混合，那么这很有用。

@@ -1,6 +1,6 @@
 # MakeMotionWarpingWindowData
 
-Adds a node that create a 'MotionWarpingWindowData' from its members
+添加一个节点，从其成员中创建一个 "MotionWarpingWindowData"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'MotionWarpingWindowData' from its members
 
 ## Inputs
 
-Anim Notify: Motion Warping Object Reference. Anim Notify.
+Anim Notify:运动翘曲的对象参考.动画通知.
 
-Start Time: Float (single-precision). Start Time.
+开始时间。浮点数（单精度）。开始时间。
 
-End Time: Float (single-precision). End Time.  
+结束时间。Float（单精度）。结束时间。  
 
 ## Outputs
 
-Motion Warping Window Data: Motion Warping Window Data Structure.
-
+运动翘曲窗口数据。运动翘曲窗口数据结构。

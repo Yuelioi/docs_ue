@@ -1,6 +1,6 @@
 # MakeGameplayAbilityActorInfo
 
-Adds a node that create a 'GameplayAbilityActorInfo' from its members
+添加一个节点，从其成员中创建一个 "GameplayAbilityActorInfo"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayAbilityActorInfo' from its members
 
 ## Outputs
 
-Gameplay Ability Actor Info: Gameplay Ability Actor Info Structure.
-
+游戏能力演员信息。Gameplay Ability Actor Info Structure.

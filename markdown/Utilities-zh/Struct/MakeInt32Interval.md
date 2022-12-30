@@ -1,6 +1,6 @@
 # MakeInt32Interval
 
-Adds a node that create a 'Int32Interval' from its members
+添加一个节点，从其成员中创建一个'Int32Interval'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'Int32Interval' from its members
 
 ## Inputs
 
-Min: Integer. Min:. Values must be >= Min.
+最小。整数。Min:.值必须>=最小值。
 
-Max: Integer. Max:. Values must be <= Max.  
+最大：整数。Max:.数值必须<=最大。  
 
 ## Outputs
 
-Int 32Interval: Int 32Interval Structure.
-
+Int 32Interval:Int 32Interval 结构。

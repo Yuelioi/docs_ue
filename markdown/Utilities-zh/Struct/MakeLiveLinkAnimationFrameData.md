@@ -1,6 +1,6 @@
 # MakeLiveLinkAnimationFrameData
 
-Adds a node that create a 'LiveLinkAnimationFrameData' from its members
+添加一个节点，从其成员中创建一个 "LiveLinkAnimationFrameData"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'LiveLinkAnimationFrameData' from its members
 
 ## Inputs
 
-Transforms: Array of Transforms. Transforms:. Array of transforms for each bone of the skeleton.
+变换。变形的阵列。变换：。骨架的每块骨头的变换数组。
 
-Meta Data: Live Link Meta Data Structure. Meta Data:. Frame's metadata..
+元数据。现场链接元数据结构。元数据：。框架的元数据.
 
-Property Values: Array of Float (single-precision)s. Property Values:. Values of the properties defined in the static structure. Use FLiveLinkBaseStaticData.FindPropertyValue to evaluate..  
+属性值。Float (single-precision)s阵列。属性值：。在静态结构中定义的属性值。使用FLiveLinkBaseStaticData.FindPropertyValue来评估。
 
 ## Outputs
 
-Live Link Animation Frame Data: Live Link Animation Frame Data Structure.
-
+活体链接动画帧数据。活体链接动画帧数据结构。

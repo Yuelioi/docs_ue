@@ -1,6 +1,6 @@
 # SetmembersinFocalLengthPointInfo
 
-Adds a node that modifies a 'FocalLengthPointInfo'
+添加一个修改 "FocalLengthPointInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'FocalLengthPointInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Focal Length Point Info Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Focal Length Point Info Structure (by ref). Reference to the input struct.
-
+结构出来。焦距点信息结构（通过参考）。对输入结构的引用。

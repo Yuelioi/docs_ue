@@ -1,6 +1,6 @@
 # MakeLiveLinkCameraBlueprintData
 
-Adds a node that create a 'LiveLinkCameraBlueprintData' from its members
+添加一个节点，从其成员中创建一个 "LiveLinkCameraBlueprintData"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'LiveLinkCameraBlueprintData' from its members
 
 ## Inputs
 
-Static Data: Live Link Camera Static Data Structure. Static Data:. Static data that should not change every frame.
+静态数据。实时链接摄像机静态数据结构。静态数据：。静态数据，不应每一帧都改变。
 
-Frame Data: Live Link Camera Frame Data Structure. Frame Data:. Dynamic data that can change every frame.  
+帧数据。Live Link摄像机帧数据结构。帧数据：。动态数据，每一帧都可以改变。  
 
 ## Outputs
 
-Live Link Camera Blueprint Data: Live Link Camera Blueprint Data Structure.
-
+Live Link相机蓝图数据。Live Link Camera Blueprint Data Structure.

@@ -1,6 +1,6 @@
 # MakeWaveFunctionCollapseOptions
 
-Adds a node that create a 'WaveFunctionCollapseOptions' from its members
+添加一个节点，从其成员中创建一个'WaveFunctionCollapseOptions'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'WaveFunctionCollapseOptions' from its members
 
 ## Inputs
 
-Options: Array of Wave Function Collapse Option Structures. Options.  
+选项。波函数折叠选项结构的阵列。选项。  
 
 ## Outputs
 
-Wave Function Collapse Options: Wave Function Collapse Options Structure.
-
+波函数折叠选项。波函数折叠选项的结构。

@@ -1,6 +1,6 @@
 # MakeDMXFixtureCategory
 
-Adds a node that create a 'DMXFixtureCategory' from its members
+添加一个节点，从其成员中创建一个 "DMXFixtureCategory"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DMXFixtureCategory' from its members
 
 ## Outputs
 
-DMXFixture Category: DMXFixture Category Structure.
-
+DMXFixture类别。DMXFixture类别结构。

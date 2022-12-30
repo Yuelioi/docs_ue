@@ -1,6 +1,6 @@
 # SetmembersinOculusMR_PlaneMeshTr-
 
-Adds a node that modifies a 'OculusMR_PlaneMeshTriangle'
+添加一个节点，修改 "OculusMR_PlaneMeshTriangle"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'OculusMR_PlaneMeshTriangle'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Oculus MR Plane Mesh Triangle Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Oculus MR Plane Mesh Triangle Structure (by ref). Reference to the input struct.
-
+结构出来了。Oculus MR Plane Mesh Triangle Structure（通过ref）。对输入结构的引用。

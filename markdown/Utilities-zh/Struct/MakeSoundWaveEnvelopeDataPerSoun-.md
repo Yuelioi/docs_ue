@@ -1,6 +1,6 @@
 # MakeSoundWaveEnvelopeDataPerSoun-
 
-Adds a node that create a 'SoundWaveEnvelopeDataPerSound' from its members
+添加一个节点，从其成员中创建一个 "SoundWaveEnvelopeDataPerSound"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'SoundWaveEnvelopeDataPerSound' from its members
 
 ## Inputs
 
-Envelope: Float (single-precision). Envelope:. The current envelope of the playing sound.
+包络。Float (single-precision).包络：。正在播放的声音的当前包络线。
 
-Playback Time: Float (single-precision). Playback Time:. The current playback time of this sound wave.
+播放时间。Float（单精度）。播放时间：。这个声波的当前播放时间。
 
-Sound Wave: Sound Wave Object Reference. Sound Wave:. The sound wave this envelope data is associated with.  
+声波。声波对象参考。声波：。这个包络数据与之相关的声波。  
 
 ## Outputs
 
-Sound Wave Envelope Data Per Sound: Sound Wave Envelope Data Per Sound Structure.
-
+每个声音的声波包络数据。每个声音的声波包络数据的结构。

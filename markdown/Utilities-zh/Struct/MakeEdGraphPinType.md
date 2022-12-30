@@ -1,6 +1,6 @@
 # MakeEdGraphPinType
 
-Adds a node that create a 'EdGraphPinType' from its members
+添加一个节点，从其成员中创建一个'EdGraphPinType'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'EdGraphPinType' from its members
 
 ## Outputs
 
-Ed Graph Pin Type: Ed Graph Pin Type Structure.
-
+绘图针型。铅酸蓄电池的结构。

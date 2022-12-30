@@ -1,6 +1,6 @@
 # MakeScreenReaderAnnouncementInfo
 
-Adds a node that create a 'ScreenReaderAnnouncementInfo' from its members
+添加一个节点，从其成员中创建一个 "ScreenReaderAnnouncementInfo"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'ScreenReaderAnnouncementInfo' from its members
 
 ## Inputs
 
-Should Queue: Boolean. Should Queue:. True if the associated announcement should be queued if it cannot be spoken immediately or is interrupted. Else false..
+应该排队。布尔型。应该排队：。如果相关公告不能立即发言或被打断，应排队，则为真。否则为假。
 
-Interruptable: Boolean. Interruptable:. True if the associazted announcement can be intrrupted by another announcement. Else false..
+可中断。布尔型。可中断：。如果指定的公告可以被另一个公告打断，则为真。否则为假。
 
-Priority: EScreenReaderAnnouncementPriority Enum. Priority:. The priority level of the associated announcement..  
+优先级。EScreenReaderAnnouncementPriority枚举。优先级：。相关公告的优先级。  
 
 ## Outputs
 
-Screen Reader Announcement Info: Screen Reader Announcement Info Structure.
-
+读屏器公告信息。读屏器公告信息结构。

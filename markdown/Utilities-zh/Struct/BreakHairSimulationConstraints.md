@@ -1,6 +1,6 @@
 # BreakHairSimulationConstraints
 
-Adds a node that breaks a 'HairSimulationConstraints' into its member fields
+添加一个节点，将'HairSimulationConstraints'分解成其成员字段
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that breaks a 'HairSimulationConstraints' into its member fields
 
 ## Inputs
 
-Hair Simulation Constraints: Hair Simulation Constraints Structure (by ref).  
+头发模拟约束。头发模拟约束结构（由参考文献）。  
 
 ## Outputs
 
-Bend Damping: Float (single-precision). Bend Damping:. Damping for the bend constraint between 0 and 1.
+弯曲阻尼。Float（单精度）。弯曲阻尼：。弯曲约束的阻尼在0和1之间。
 
-Bend Stiffness: Float (single-precision). Bend Stiffness:. Stiffness for the bend constraint in GPa.
+弯曲刚度。Float（单精度）。弯曲刚度：。弯曲约束的刚度，单位为GPa。
 
-Stretch Damping: Float (single-precision). Stretch Damping:. Damping for the stretch constraint between 0 and 1.
+弹性阻尼。Float（单精度）。伸展阻尼：。拉伸约束的阻尼在0和1之间。
 
-Stretch Stiffness: Float (single-precision). Stretch Stiffness:. Stiffness for the stretch constraint in GPa.
+伸展的僵硬度。Float（单精度）。Stretch Stiffness:.拉伸约束的刚度，单位为GPa。
 
-Static Friction: Float (single-precision). Static Friction:. Static friction used for collision against the physics asset.
+静态摩擦。Float（单精度）。静态摩擦：。用于对物理资产进行碰撞的静态摩擦。
 
-Kinetic Friction: Float (single-precision). Kinetic Friction:. Kinetic friction used for collision against the physics asset.
+动能摩擦。浮动（单精度）。Kinetic Friction:.用于对物理资产进行碰撞的动能摩擦。
 
-Strands Viscosity: Float (single-precision). Strands Viscosity:. Viscosity parameter between 0 and 1 that will be used for self collision.
+钢绞线粘度。Float（单精度）。Strands Viscosity:.粘度参数，介于0和1之间，将用于自我碰撞。
 
-Collision Radius: Float (single-precision). Collision Radius:. Radius that will be used for the collision detection against the physics asset.
-
+碰撞半径。Float（单精度）。碰撞半径：。对物理资产进行碰撞检测时使用的半径。

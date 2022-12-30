@@ -1,6 +1,6 @@
 # MakeRigUnit
 
-Adds a node that create a 'RigUnit' from its members
+添加一个节点，从其成员中创建一个 "RigUnit"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigUnit' from its members
 
 ## Outputs
 
-Rig Unit: Rig Unit Structure.
-
+钻井单元。钻井单元结构。

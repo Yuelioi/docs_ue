@@ -1,6 +1,6 @@
 # BreakWaveFunctionCollapseQueueEl-
 
-Adds a node that breaks a 'WaveFunctionCollapseQueueElement' into its member fields
+添加一个节点，将'WaveFunctionCollapseQueueElement'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'WaveFunctionCollapseQueueElement' into its member fie
 
 ## Inputs
 
-Wave Function Collapse Queue Element: Wave Function Collapse Queue Element Structure (by ref).  
+波函数折叠队列元素。波函数折叠队列元素结构（按参考）。  
 
 ## Outputs
 
-Center Object Index: Integer. Center Object Index.
+中心对象索引。整数。中心对象索引。
 
-Adjacency: EWaveFunctionCollapseAdjacency Enum. Adjacency.
-
+相邻关系。EWaveFunctionCollapseAdjacency Enum.邻接性。

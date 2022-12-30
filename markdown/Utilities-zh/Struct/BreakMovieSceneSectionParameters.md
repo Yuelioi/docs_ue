@@ -1,6 +1,6 @@
 # BreakMovieSceneSectionParameters
 
-Adds a node that breaks a 'MovieSceneSectionParameters' into its member fields
+添加一个节点，将 "MovieSceneSectionParameters "分解成其成员字段。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'MovieSceneSectionParameters' into its member fields
 
 ## Inputs
 
-Movie Scene Section Parameters: Movie Scene Section Parameters Structure (by ref).  
+电影场景部分参数。电影场景部分的参数结构（按参考）。  
 
 ## Outputs
 
-Start Frame Offset: Frame Number Structure. Start Frame Offset:. Number of frames (in display rate) to skip at the beginning of the sub-sequence..
+开始帧偏移。帧号结构。开始帧偏移：。在子序列开始时要跳过的帧数（按显示速率）。
 
-Can Loop: Boolean. Can Loop:. Whether this section supports looping the sub-sequence..
+可以循环。布尔型。可以循环：。本节是否支持循环子序列。
 
-End Frame Offset: Frame Number Structure. End Frame Offset:. Number of frames (in display rate) to skip at the beginning of the sub-sequence..
+结束帧偏移。帧号结构。结束帧偏移：。在子序列开始时要跳过的帧数（按显示速率）。
 
-First Loop Start Frame Offset: Frame Number Structure. First Loop Start Frame Offset:. Number of frames (in display rate) to offset the first loop of the sub-sequence..
+第一个循环的起始帧偏移。帧号结构。第一环路开始帧偏移：。帧数（按显示速率），以抵消子序列的第一个循环。
 
-Time Scale: Float (single-precision). Time Scale:. Playback time scaling factor..
+时间刻度。Float（单精度）。时间刻度：。播放时间的比例系数。
 
-Hierarchical Bias: Integer. Hierarchical Bias:. Hierachical bias. Higher bias will take precedence..
-
+层次偏差：整数。层次偏向：。层次偏向。更高的偏向将优先考虑。

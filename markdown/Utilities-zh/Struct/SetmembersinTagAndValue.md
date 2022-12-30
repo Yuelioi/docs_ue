@@ -1,6 +1,6 @@
 # SetmembersinTagAndValue
 
-Adds a node that modifies a 'TagAndValue'
+添加一个修改 "TagAndValue "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TagAndValue'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Tag And Value Structure (by ref).  
+结构参考：标签和价值结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Tag And Value Structure (by ref). Reference to the input struct.
-
+结构出来。标签和值结构（通过引用）。对输入结构的引用。

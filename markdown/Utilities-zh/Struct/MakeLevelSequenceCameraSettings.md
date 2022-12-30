@@ -1,6 +1,6 @@
 # MakeLevelSequenceCameraSettings
 
-Adds a node that create a 'LevelSequenceCameraSettings' from its members
+添加一个节点，从其成员中创建一个 "LevelSequenceCameraSettings"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'LevelSequenceCameraSettings' from its members
 
 ## Inputs
 
-Override Aspect Ratio Axis Constraint: Boolean. Override Aspect Ratio Axis Constraint.
+覆盖纵横比轴约束。Boolean.覆盖纵横比轴约束。
 
-Aspect Ratio Axis Constraint: EAspectRatioAxisConstraint Enum. Aspect Ratio Axis Constraint.  
+纵横比轴约束。EAspectRatioAxisConstraint Enum.纵横比轴约束。  
 
 ## Outputs
 
-Level Sequence Camera Settings: Level Sequence Camera Settings Structure.
-
+水平序列相机设置。水平序列相机设置结构。

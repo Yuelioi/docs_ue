@@ -1,6 +1,6 @@
 # MakeBlueprintSessionResult
 
-Adds a node that create a 'BlueprintSessionResult' from its members
+添加一个节点，从其成员中创建一个 "BlueprintSessionResult"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'BlueprintSessionResult' from its members
 
 ## Outputs
 
-Blueprint Session Result: Blueprint Session Result Structure.
-
+蓝图会议结果。蓝图会议结果结构。

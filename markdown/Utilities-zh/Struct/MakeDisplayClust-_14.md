@@ -1,6 +1,6 @@
 # MakeDisplayClust-_14
 
-Adds a node that create a 'DisplayClusterConfigurationPostRender_GenerateMips' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationPostRender_GenerateMips"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'DisplayClusterConfigurationPostRender_GenerateMips' f
 
 ## Inputs
 
-Auto Generate Mips: Boolean. Auto Generate Mips:. Generate and use mipmaps for the inner frustum. Disabling this can improve performance but result in visual artifacts on the inner frustum..
+自动生成Mips。Boolean.自动生成Mips:.生成并使用内部地壳的mipmaps。禁用该功能可以提高性能，但会导致内层地壳出现视觉伪影。
 
-Mips Sampler Filter: TextureFilter Enum. Mips Sampler Filter:. Mips Sampler Filter.
+Mips Sampler Filter: TextureFilter Enum.Mips采样器过滤器:。Mips采样器过滤器。
 
-Mips Address U: TextureAddress Enum. Mips Address U:. AutoGenerateMips sampler address mode for U channel. Defaults to clamp..
+Mips Address U: TextureAddress Enum.Mips Address U:.为U通道自动生成Mips采样器地址模式。默认为钳子。
 
-Mips Address V: TextureAddress Enum. Mips Address V:. AutoGenerateMips sampler address mode for V channel. Defaults to clamp..
+Mips Address V: TextureAddress Enum.Mips Address V:.为V通道自动生成Mips采样器地址模式。默认为钳子。
 
-Enable Maximum Number Of Mips: Boolean. Enabled Max Num Mips:. Performance: Allows a limited number of MIPs for high resolution..
+启用 "最大里程数"。布尔值。启用最大点数：.性能。允许有限数量的MIPs用于高分辨率。
 
-Maximum Number Of Mips: Integer. Max Num Mips:. Performance: Use this value as the maximum number of MIPs for high resolution..  
+最大Mips数。整数。Max Num Mips:.性能。使用此值作为高分辨率的最大MIP数量。  
 
 ## Outputs
 
-Display Cluster Configuration Post Render Generate Mips: Display Cluster Configuration Post Render Generate Mips Structure.
-
+显示 Cluster Configuration Post Render Generate Mips:显示群集配置 渲染后生成Mips结构。

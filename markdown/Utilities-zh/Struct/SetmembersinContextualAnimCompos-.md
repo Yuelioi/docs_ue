@@ -1,6 +1,6 @@
 # SetmembersinContextualAnimCompos-
 
-Adds a node that modifies a 'ContextualAnimCompositeTrack'
+添加一个节点，修改 "ContextualAnimCompositeTrack"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ContextualAnimCompositeTrack'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Contextual Anim Composite Track Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Contextual Anim Composite Track Structure (by ref). Reference to the input struct.
-
+结构出来。上下文的Anim复合轨道结构（通过ref）。对输入结构的引用。

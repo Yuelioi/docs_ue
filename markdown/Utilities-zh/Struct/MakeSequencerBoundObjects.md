@@ -1,6 +1,6 @@
 # MakeSequencerBoundObjects
 
-Adds a node that create a 'SequencerBoundObjects' from its members
+添加一个节点，从其成员中创建一个'SequencerBoundObjects'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'SequencerBoundObjects' from its members
 
 ## Inputs
 
-Binding Proxy: Sequencer Binding Proxy Structure. Binding Proxy.
+绑定代理。定序器绑定代理结构。绑定代理。
 
-Bound Objects: Array of Object References. Bound Objects.  
+绑定的对象。对象引用数组。绑定的对象。  
 
 ## Outputs
 
-Sequencer Bound Objects: Sequencer Bound Objects Structure.
-
+序列器绑定的对象。序列器绑定对象的结构。

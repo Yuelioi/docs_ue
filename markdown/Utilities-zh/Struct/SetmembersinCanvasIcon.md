@@ -1,6 +1,6 @@
 # SetmembersinCanvasIcon
 
-Adds a node that modifies a 'CanvasIcon'
+添加一个修改 "CanvasIcon "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CanvasIcon'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Canvas Icon Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Canvas Icon Structure (by ref). Reference to the input struct.
-
+结构出来。画布图标结构（通过引用）。对输入结构的引用。

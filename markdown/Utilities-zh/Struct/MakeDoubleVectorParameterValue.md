@@ -1,6 +1,6 @@
 # MakeDoubleVectorParameterValue
 
-Adds a node that create a 'DoubleVectorParameterValue' from its members
+添加一个节点，从其成员中创建一个 "DoubleVectorParameterValue"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'DoubleVectorParameterValue' from its members
 
 ## Inputs
 
-Parameter Info: Material Parameter Info Structure. Parameter Info.  
+参数信息：材料参数信息结构。参数信息。  
 
 ## Outputs
 
-Double Vector Parameter Value: Double Vector Parameter Value Structure.
-
+双向量参数值。双向量参数值结构。

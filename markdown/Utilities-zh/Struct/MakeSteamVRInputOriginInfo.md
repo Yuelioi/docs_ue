@@ -1,6 +1,6 @@
 # MakeSteamVRInputOriginInfo
 
-Adds a node that create a 'SteamVRInputOriginInfo' from its members
+添加一个节点，从其成员中创建一个 "SteamVRInputOriginInfo"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SteamVRInputOriginInfo' from its members
 
 ## Outputs
 
-Steam VRInput Origin Info: Steam VRInput Origin Info Structure.
-
+蒸汽VRInput起源信息。蒸汽VRInput起源信息结构。

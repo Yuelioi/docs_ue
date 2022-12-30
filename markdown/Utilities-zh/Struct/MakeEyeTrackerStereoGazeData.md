@@ -1,6 +1,6 @@
 # MakeEyeTrackerStereoGazeData
 
-Adds a node that create a 'EyeTrackerStereoGazeData' from its members
+添加一个节点，从其成员中创建一个 "EyeTrackerStereoGazeData"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'EyeTrackerStereoGazeData' from its members
 
 ## Inputs
 
-Left Eye Origin: Vector. Left Eye Origin:. Origin of the left eye's gaze ray..
+左眼起源。向量。左眼原点：。左眼注视射线的起源。
 
-Left Eye Direction: Vector. Left Eye Direction:. Forward direction of the left eye's gaze ray..
+左眼方向。矢量。左眼方向：。左眼注视射线的前进方向。
 
-Right Eye Origin: Vector. Right Eye Origin:. Origin of the right eye's gaze ray..
+右眼起源。向量。右眼原点：。右眼注视射线的起源。
 
-Right Eye Direction: Vector. Right Eye Direction:. Forward direction of the right eye's gaze ray..
+右眼方向。矢量。右眼方向：。右眼注视射线的前进方向。
 
-Fixation Point: Vector. Fixation Point:. Location that the eyes converge. This is the 3d point where the tracked viewer is looking..
+固定点。向量。固定点：。眼睛汇聚的位置。这是被追踪的观看者正在看的3D点。
 
-Confidence Value: Float (single-precision). Confidence Value:. Value [0..1] that represents confidence in the gaze ray data above. Stable, reliably tracked eyes will be at or near 1. Fast-moving or unreliably tracked eyes will be at or near 0..  
+信心值。Float（单精度）。信心值：。代表对上述凝视射线数据的信心的值[0...1]。稳定的、可靠追踪的眼睛将处于或接近1。快速移动或不可靠跟踪的眼睛将处于或接近0。
 
 ## Outputs
 
-Eye Tracker Stereo Gaze Data: Eye Tracker Stereo Gaze Data Structure.
-
+眼睛跟踪器立体凝视数据。眼睛跟踪器立体凝视数据结构。

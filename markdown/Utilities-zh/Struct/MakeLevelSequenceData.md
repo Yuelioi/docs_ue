@@ -1,6 +1,6 @@
 # MakeLevelSequenceData
 
-Adds a node that create a 'LevelSequenceData' from its members
+添加一个节点，从其成员中创建一个'LevelSequenceData'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'LevelSequenceData' from its members
 
 ## Inputs
 
-Asset Path: String. Asset Path.
+资产路径。字符串。资产路径。
 
-Display Name: String. Display Name.
+显示名称。字符串。显示名称。
 
-Last Edited: Date Time Structure. Last Edited.  
+最后编辑。日期时间结构。最后一次编辑。  
 
 ## Outputs
 
-Level Sequence Data: Level Sequence Data Structure.
-
+水平序列数据。水平序列数据结构。

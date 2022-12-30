@@ -1,6 +1,6 @@
 # SetmembersinDMXImportGDTFGeometr-_1
 
-Adds a node that modifies a 'DMXImportGDTFGeometryReference'
+添加一个修改'DMXImportGDTFGeometryReference'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXImportGDTFGeometryReference'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: DMXImport GDTFGeometry Reference Structure (by ref).  
+Struct Ref: DMXImport GDTFGeometry 参考结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMXImport GDTFGeometry Reference Structure (by ref). Reference to the input struct.
-
+结构输出。DMXImport GDTFGeometry参考结构（通过ref）。对输入结构的引用。

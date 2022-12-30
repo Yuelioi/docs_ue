@@ -1,6 +1,6 @@
 # SetmembersinDisp-_24
 
-Adds a node that modifies a 'DisplayClusterConfigurationPostRender_BlurPostprocess'
+添加一个节点，修改 "DisplayClusterConfigurationPostRender_BlurPostprocess"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DisplayClusterConfigurationPostRender_BlurPostproce
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Display Cluster Configuration Post Render Blur Postprocess Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Display Cluster Configuration Post Render Blur Postprocess Structure (by ref). Reference to the input struct.
-
+结构出来。Display Cluster Configuration Post Render Blur Postprocess Structure（通过ref）。对输入结构的引用。

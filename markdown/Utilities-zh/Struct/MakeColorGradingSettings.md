@@ -1,6 +1,6 @@
 # MakeColorGradingSettings
 
-Adds a node that create a 'ColorGradingSettings' from its members
+添加一个节点，从其成员中创建一个'ColorGradingSettings'。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that create a 'ColorGradingSettings' from its members
 
 ## Inputs
 
-Global: Color Grade Per Range Settings Structure. Global.
+全局：颜色等级每范围设置结构。全局。
 
-Shadows: Color Grade Per Range Settings Structure. Shadows.
+阴影。颜色等级每范围设置结构。阴影。
 
-Midtones: Color Grade Per Range Settings Structure. Midtones.
+中调。每个范围内的颜色等级设置结构。中调。
 
-Highlights: Color Grade Per Range Settings Structure. Highlights.
+亮点。颜色等级每范围设置结构。亮点。
 
-Shadows Max: Float (single-precision). Shadows Max.
+阴影最大值：浮点数（单精度）。阴影最大值。
 
-Highlights Min: Float (single-precision). Highlights Min.
+突出显示 Min:Float（单精度）。亮点 Min.
 
-Highlights Max: Float (single-precision). Highlights Max.  
+亮点最大：浮点数（单精度）。亮点 最大。  
 
 ## Outputs
 
-Color Grading Settings: Color Grading Settings Structure.
-
+颜色分级设置。颜色分级设置结构。

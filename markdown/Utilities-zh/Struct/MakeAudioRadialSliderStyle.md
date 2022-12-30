@@ -1,6 +1,6 @@
 # MakeAudioRadialSliderStyle
 
-Adds a node that create a 'AudioRadialSliderStyle' from its members
+添加一个节点，从其成员中创建一个 "AudioRadialSliderStyle"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'AudioRadialSliderStyle' from its members
 
 ## Inputs
 
-Text Box Style: Audio Text Box Style Structure. Text Box Style:. The style to use for the audio text box widget..
+文本框样式。音频文本框风格结构。文本框样式：。用于音频文本框小部件的样式。
 
-Center Background Color: Slate Color Structure. Center Background Color:. Color used to draw the slider center background.
+中心背景色: 板岩色结构。中心背景色：。用于绘制滑块中心背景的颜色。
 
-Slider Bar Color: Slate Color Structure. Slider Bar Color:. Color used to draw the unprogressed slider bar.
+滑动条颜色: 板岩色结构。滑块条颜色：。用于绘制未前进的滑块栏的颜色。
 
-Slider Progress Color: Slate Color Structure. Slider Progress Color:. Color used to draw the progress bar.
+滑块进度颜色：石板颜色结构。滑块进度的颜色：。用于绘制进度条的颜色。
 
-Label Padding: Float (single-precision). Label Padding:. Size of the padding between the label and the slider.
+标签填充。Float（单精度）。Label Padding:.标签和滑块之间的填充物的大小。
 
-Default Slider Radius: Float (single-precision). Default Slider Radius:. Default size of the slider itself (not including label).  
+默认的滑块半径。Float（单精度）。默认滑块半径：。滑块本身的默认尺寸（不包括标签）。  
 
 ## Outputs
 
-Audio Radial Slider Style: Audio Radial Slider Style Structure.
-
+音频径向滑块风格。音频径向滑块风格结构。

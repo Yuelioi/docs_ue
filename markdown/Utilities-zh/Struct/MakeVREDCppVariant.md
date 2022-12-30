@@ -1,6 +1,6 @@
 # MakeVREDCppVariant
 
-Adds a node that create a 'VREDCppVariant' from its members
+添加一个节点，从其成员中创建一个 "VREDCppVariant"。
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that create a 'VREDCppVariant' from its members
 
 ## Inputs
 
-Name: String. Name.
+名称: 字符串。名称。
 
-Type: EVREDCppVariantType Enum. Type.
+类型。EVREDCppVariantType枚举。类型。
 
-Camera: VREDCpp Variant Camera Structure. Camera.
+摄像机。VREDCpp变体相机结构。摄像机。
 
-Geometry: VREDCpp Variant Geometry Structure. Geometry.
+几何学。VREDCpp变体几何结构。几何学。
 
-Material: VREDCpp Variant Material Structure. Material.
+材料。VREDCpp变体材料结构。材料。
 
-Variant Set: VREDCpp Variant Set Structure. Variant Set.
+变体集：VREDCpp变体集结构。变体套装。
 
-Transform: VREDCpp Variant Transform Structure. Transform.
+变换。VREDCpp变体变形结构。变换。
 
-Light: VREDCpp Variant Light Structure. Light.  
+光。VREDCpp变体光结构。光。  
 
 ## Outputs
 
-VREDCpp Variant: VREDCpp Variant Structure.
-
+VREDCpp变体：VREDCpp变体结构。

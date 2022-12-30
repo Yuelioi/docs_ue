@@ -1,6 +1,6 @@
 # SetmembersinGameplayModifierEval-
 
-Adds a node that modifies a 'GameplayModifierEvaluatedData'
+添加一个修改 "GameplayModifierEvaluatedData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GameplayModifierEvaluatedData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Gameplay Modifier Evaluated Data Structure (by ref).  
+Struct Ref: Gameplay Modifier评估的数据结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Gameplay Modifier Evaluated Data Structure (by ref). Reference to the input struct.
-
+结构出来。Gameplay Modifier评估的数据结构（通过ref）。对输入结构的引用。

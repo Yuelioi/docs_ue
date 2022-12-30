@@ -1,6 +1,6 @@
 # MakeMeshNaniteSettings
 
-Adds a node that create a 'MeshNaniteSettings' from its members
+添加一个节点，从其成员中创建一个 "MeshNaniteSettings"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'MeshNaniteSettings' from its members
 
 ## Inputs
 
-Enabled: Boolean. Enabled:. If true, Nanite data will be generated..
+已启用。布尔型。启用：。如果为真，将生成纳米特数据。
 
-Position Precision: Integer. Position Precision:. Position Precision. Step size is 2^(-PositionPrecision) cm. MIN_int32 is auto..
+位置精度。整数。位置精度:。位置精度。步长为2^(-PositionPrecision)cm。MIN_int32是自动的。
 
-Keep Percent Triangles: Float (single-precision). Keep Percent Triangles:. Percentage of triangles to keep from source mesh. 1.0 = no reduction, 0.0 = no triangles..
+保持三角形的百分比。Float (single-precision).Keep Percent Triangles:保留三角形的百分比。保留源网格中三角形的百分比。1.0 = 不减少，0.0 = 不保留三角形。
 
-Trim Relative Error: Float (single-precision). Trim Relative Error:. Reduce until at least this amount of error is reached relative to size of the mesh.
+修剪相对误差。Float (single-precision).Trim Relative Error:（修剪相对误差）。减少，直到相对于网格的大小至少达到这个误差量。
 
-Fallback Percent Triangles: Float (single-precision). Fallback Percent Triangles:. Percentage of triangles to keep from source mesh for fallback. 1.0 = no reduction, 0.0 = no triangles..
+回退百分比三角形。Float (single-precision).Fallback Percent Triangles:.回退三角形百分比。保留源网格中三角形的百分比。1.0 = 不减少，0.0 = 不保留三角形。
 
-Fallback Relative Error: Float (single-precision). Fallback Relative Error:. Reduce until at least this amount of error is reached relative to size of the mesh.  
+回落相对误差。Float (single-precision).Fallback Relative Error:。减少，直到相对于网格的大小至少达到这个误差量。  
 
 ## Outputs
 
-Mesh Nanite Settings: Mesh Nanite Settings Structure.
-
+网状纳米石的设置。网状纳米石设置结构。

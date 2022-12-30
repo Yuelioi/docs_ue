@@ -1,6 +1,6 @@
 # BreakInt32Range
 
-Adds a node that breaks a 'Int32Range' into its member fields
+添加一个节点，将'Int32Range'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'Int32Range' into its member fields
 
 ## Inputs
 
-Int 32Range: Int 32Range Structure (by ref).  
+Int 32Range:Int 32Range结构（通过引用）。  
 
 ## Outputs
 
-Lower Bound: Int 32Range Bound Structure. Lower Bound:. Holds the range's lower bound..
+下限。Int 32Range Bound结构。Lower Bound:.保存范围的下限。
 
-Upper Bound: Int 32Range Bound Structure. Upper Bound:. Holds the range's upper bound..
-
+上边界。Int 32Range Bound结构。Upper Bound:.保存范围的上界。

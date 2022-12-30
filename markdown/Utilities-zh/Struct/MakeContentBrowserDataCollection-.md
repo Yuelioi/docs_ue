@@ -1,6 +1,6 @@
 # MakeContentBrowserDataCollection-
 
-Adds a node that create a 'ContentBrowserDataCollectionFilter' from its members
+添加一个节点，从其成员中创建一个 "ContentBrowserDataCollectionFilter"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'ContentBrowserDataCollectionFilter' from its members
 
 ## Inputs
 
-Include Child Collections: Boolean. Include Child Collections:. Whether we should include child collections in this query.  
+包括子集。布尔型。包括子集：。我们是否应该在这个查询中包括子集合。  
 
 ## Outputs
 
-Content Browser Data Collection Filter: Content Browser Data Collection Filter Structure.
-
+内容浏览器数据收集过滤器。内容浏览器数据收集过滤器的结构。

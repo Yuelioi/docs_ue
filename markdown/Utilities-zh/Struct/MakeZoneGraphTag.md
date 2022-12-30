@@ -1,6 +1,6 @@
 # MakeZoneGraphTag
 
-Adds a node that create a 'ZoneGraphTag' from its members
+添加一个节点，从其成员中创建一个 "ZoneGraphTag"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'ZoneGraphTag' from its members
 
 ## Inputs
 
-Bit: Byte. Bit.  
+位。字节。位。  
 
 ## Outputs
 
-Zone Graph Tag: Zone Graph Tag Structure.
-
+区图标签：区图标签结构。

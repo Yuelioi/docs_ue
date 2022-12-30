@@ -1,6 +1,6 @@
 # MakeSourceEffectBitCrusherSettin-
 
-Adds a node that create a 'SourceEffectBitCrusherSettings' from its members
+添加一个节点，从其成员中创建一个 "SourceEffectBitCrusherSettings"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'SourceEffectBitCrusherSettings' from its members
 
 ## Inputs
 
-Sample Rate: Sound Modulation Destination Settings Structure. Sample Rate Modulation:. The reduced frequency to use for the audio stream..
+采样率。声音调制 目的地设置结构。采样率调制：。用于音频流的降低频率。
 
-Bit Depth: Sound Modulation Destination Settings Structure. Bit Modulation:. The reduced bit depth to use for the audio stream.  
+位深度。声音调制 目的地设置结构。比特调制：。用于音频流的降低的比特深度。  
 
 ## Outputs
 
-Source Effect Bit Crusher Settings: Source Effect Bit Crusher Settings Structure.
-
+源效应位粉碎机设置。源效应位粉碎机设置结构。

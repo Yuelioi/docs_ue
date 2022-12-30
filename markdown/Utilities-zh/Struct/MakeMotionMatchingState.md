@@ -1,6 +1,6 @@
 # MakeMotionMatchingState
 
-Adds a node that create a 'MotionMatchingState' from its members
+添加一个节点，从其成员中创建一个 "MotionMatchingState"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'MotionMatchingState' from its members
 
 ## Outputs
 
-Motion Matching State: Motion Matching State Structure.
-
+运动匹配状态。运动匹配状态的结构。

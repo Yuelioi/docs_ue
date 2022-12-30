@@ -1,6 +1,6 @@
 # BreakLiveLinkCameraBlueprintData
 
-Adds a node that breaks a 'LiveLinkCameraBlueprintData' into its member fields
+添加一个节点，将'LiveLinkCameraBlueprintData'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'LiveLinkCameraBlueprintData' into its member fields
 
 ## Inputs
 
-Live Link Camera Blueprint Data: Live Link Camera Blueprint Data Structure (by ref).  
+Live Link相机蓝图数据。Live Link相机蓝图数据结构（按参考）。  
 
 ## Outputs
 
-Static Data: Live Link Camera Static Data Structure. Static Data:. Static data that should not change every frame.
+静态数据。实时链接摄像机静态数据结构。静态数据：。静态数据，不应每一帧都改变。
 
-Frame Data: Live Link Camera Frame Data Structure. Frame Data:. Dynamic data that can change every frame.
-
+帧数据。Live Link摄像机帧数据结构。帧数据：。动态数据，每一帧都可以改变。

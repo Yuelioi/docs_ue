@@ -1,6 +1,6 @@
 # SetmembersinDMXEntityFixturePatc-
 
-Adds a node that modifies a 'DMXEntityFixturePatchConstructionParams'
+添加一个节点，修改 "DMXEntityFixturePatchConstructionParams"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXEntityFixturePatchConstructionParams'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: DMXEntity Fixture Patch Construction Params Structure (by ref).  
+Struct Ref: DMXEntity Fixture Patch Construction Params 结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMXEntity Fixture Patch Construction Params Structure (by ref). Reference to the input struct.
-
+结构输出。DMXEntity Fixture Patch Construction Params结构（通过ref）。对输入结构的引用。

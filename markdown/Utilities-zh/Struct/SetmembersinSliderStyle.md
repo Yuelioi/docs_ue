@@ -1,6 +1,6 @@
 # SetmembersinSliderStyle
 
-Adds a node that modifies a 'SliderStyle'
+添加一个修改 "SliderStyle "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SliderStyle'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Slider Style Structure (by ref).  
+结构参考：滑块样式结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Slider Style Structure (by ref). Reference to the input struct.
-
+结构出来。滑块样式结构（通过引用）。对输入结构的引用。

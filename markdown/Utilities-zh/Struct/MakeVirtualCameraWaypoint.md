@@ -1,6 +1,6 @@
 # MakeVirtualCameraWaypoint
 
-Adds a node that create a 'VirtualCameraWaypoint' from its members
+添加一个节点，从其成员中创建一个 "VirtualCameraWaypoint"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'VirtualCameraWaypoint' from its members
 
 ## Inputs
 
-Name: String. Name:. An associated name for the waypoint provided by the user.
+名称。字符串。名称:。由用户提供的该航点的相关名称。
 
-Waypoint Transform: Transform. Waypoint Transform:. The location of the waypoint in world space.
+航点转换。转变。航点转换：。航点在世界空间中的位置。
 
-Date Created: Date Time Structure. Date Created.
+创建日期。日期时间结构。创建日期。
 
-Is Home Waypoint: Boolean. Is Home Waypoint.
+Is Home Waypoint: 布尔型。是主航点。
 
-Is Favorited: Boolean. Is Favorited.  
+是否被喜爱。布尔型。是最喜欢的。  
 
 ## Outputs
 
-Virtual Camera Waypoint: Virtual Camera Waypoint Structure.
-
+虚拟摄像机航点。虚拟摄像机航点结构。

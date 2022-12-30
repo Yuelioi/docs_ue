@@ -1,6 +1,6 @@
 # SetmembersinSkeletalControlRefer-
 
-Adds a node that modifies a 'SkeletalControlReference'
+添加一个修改 "SkeletalControlReference "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SkeletalControlReference'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Skeletal Control Reference Structure (by ref).  
+Struct Ref: 骨骼控制参考结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Skeletal Control Reference Structure (by ref). Reference to the input struct.
-
+结构出来。骨架控制参考结构（通过参考）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # BreakPrimaryAssetId
 
-Adds a node that breaks a 'PrimaryAssetId' into its member fields
+添加一个节点，将'PrimaryAssetId'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'PrimaryAssetId' into its member fields
 
 ## Inputs
 
-Primary Asset Id: Primary Asset Id Structure (by ref).  
+主要资产标识。主要资产识别结构（按参考）。  
 
 ## Outputs
 
-Primary Asset Type: Primary Asset Type Structure. Primary Asset Type:. The Type of this object, by default its base class's name.
+主要资产类型。主要资产类型结构。主要资产类型：。此对象的类型，默认为其基类的名称。
 
-Primary Asset Name: Name. Primary Asset Name:. The Name of this object, by default its short name.
-
+主要资产名称。名称。主要资产名称：。这个对象的名称，默认是它的短名称。

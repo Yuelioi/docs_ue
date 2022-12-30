@@ -1,6 +1,6 @@
 # BreakIsAddedActorValidParams
 
-Adds a node that breaks a 'IsAddedActorValidParams' into its member fields
+添加一个节点，将'IsAddedActorValidParams'分解到其成员字段中。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'IsAddedActorValidParams' into its member fields
 
 ## Inputs
 
-Is Added Actor Valid Params: Is Added Actor Valid Params Structure (by ref).  
+是否添加了演员的有效参数。是否添加了演员有效参数结构（通过参考）。  
 
 ## Outputs
 
-New Actor: Actor Object Reference. New Actor:. This actor was added to the level since the snapshot was taken..
-
+新的演员。演员对象参考。新演员：。这个演员是在拍摄快照后被添加到关卡中的。

@@ -1,6 +1,6 @@
 # BreakHairSimulationForces
 
-Adds a node that breaks a 'HairSimulationForces' into its member fields
+添加一个节点，将'HairSimulationForces'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'HairSimulationForces' into its member fields
 
 ## Inputs
 
-Hair Simulation Forces: Hair Simulation Forces Structure (by ref).  
+头发模拟力量。头发模拟部队的结构（由参考）。  
 
 ## Outputs
 
-Gravity Vector: Vector. Gravity Vector:. Acceleration vector in cm/s2 to be used for the gravity.
+重力矢量。向量。重力矢量：。用于重力的加速度矢量，单位是cm/s2。
 
-Air Drag: Float (single-precision). Air Drag:. Coefficient between 0 and 1 to be used for the air drag.
+空气阻力：浮动（单精度）。空气阻力：。用于空气阻力的0到1之间的系数。
 
-Air Velocity: Vector. Air Velocity:. Velocity of the surrounding air in cm/s.
-
+空气速度。矢量。空气速度：。周围空气的速度，单位是cm/s。

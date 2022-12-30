@@ -1,6 +1,6 @@
 # MakeGameplayEffectAttributeCaptu-
 
-Adds a node that create a 'GameplayEffectAttributeCaptureDefinition' from its members
+添加一个节点，从其成员中创建一个 "GameplayEffectAttributeCaptureDefinition"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayEffectAttributeCaptureDefinition' from its me
 
 ## Outputs
 
-Gameplay Effect Attribute Capture Definition: Gameplay Effect Attribute Capture Definition Structure.
-
+Gameplay Effect Attribute Capture的定义。Gameplay Effect Attribute Capture Definition结构。

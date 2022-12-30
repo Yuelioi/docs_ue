@@ -1,6 +1,6 @@
 # SetmembersinNamedVector
 
-Adds a node that modifies a 'NamedVector'
+添加一个修改 "NamedVector "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'NamedVector'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Named Vector Structure (by ref).  
+Struct Ref: 命名的向量结构（通过引用）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Named Vector Structure (by ref). Reference to the input struct.
-
+结构出来。命名的向量结构（通过引用）。对输入结构的引用。

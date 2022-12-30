@@ -1,6 +1,6 @@
 # MakeActiveGameplayEffect
 
-Adds a node that create a 'ActiveGameplayEffect' from its members
+添加一个节点，从其成员中创建一个 "ActiveGameplayEffect"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ActiveGameplayEffect' from its members
 
 ## Outputs
 
-Active Gameplay Effect: Active Gameplay Effect Structure.
-
+主动游戏效果。主动游戏效果结构。

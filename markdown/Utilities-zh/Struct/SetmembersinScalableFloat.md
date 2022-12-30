@@ -1,6 +1,6 @@
 # SetmembersinScalableFloat
 
-Adds a node that modifies a 'ScalableFloat'
+添加一个修改 "ScalableFloat "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ScalableFloat'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Scalable Float Structure (by ref).  
+Struct Ref: 可扩展的浮点结构（通过引用）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Scalable Float Structure (by ref). Reference to the input struct.
-
+结构出来。可扩展的浮点结构（通过引用）。对输入结构的引用。

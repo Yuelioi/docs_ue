@@ -1,6 +1,6 @@
 # MakeGameplayAbilityTargetData_Si-
 
-Adds a node that create a 'GameplayAbilityTargetData_SingleTargetHit' from its members
+添加一个节点，从其成员中创建一个 "GameplayAbilityTargetData_SingleTargetHit"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayAbilityTargetData_SingleTargetHit' from its m
 
 ## Outputs
 
-Gameplay Ability Target Data Single Target Hit: Gameplay Ability Target Data Single Target Hit Structure.
-
+Gameplay Ability Target Data Single Target Hit: Gameplay Ability Target Data Single Target Hit结构。

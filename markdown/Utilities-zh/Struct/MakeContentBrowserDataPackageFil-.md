@@ -1,6 +1,6 @@
 # MakeContentBrowserDataPackageFil-
 
-Adds a node that create a 'ContentBrowserDataPackageFilter' from its members
+添加一个节点，从其成员中创建一个 "ContentBrowserDataPackageFilter"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'ContentBrowserDataPackageFilter' from its members
 
 ## Inputs
 
-Package Names To Include: Array of Names. Package Names to Include:. Array of package names that should be included in this query.
+要包括的软件包名称。阵列的名称。要包括的包名称：。应该包括在这个查询中的包名称的数组。
 
-Package Names To Exclude: Array of Names. Package Names to Exclude:. Array of package names that should be excluded from this query.
+要排除的软件包名称。名称的数组。要排除的包名称：。应该从这个查询中排除的包名称的数组。
 
-Package Paths To Include: Array of Names. Package Paths to Include:. Array of package paths that should be included in this query.
+要包括的软件包路径。名称的数组。包含的包路径：。应该包括在这个查询中的软件包路径的数组。
 
-Package Paths To Exclude: Array of Names. Package Paths to Exclude:. Array of package paths that should be excluded from this query.
+要排除的软件包路径。名称的数组。排除的包路径：。应从该查询中排除的软件包路径数组。
 
-Recursive Package Paths To Include: Boolean. Recursive Package Paths to Include:. Whether we should include inclusive package sub-paths in this query.
+递归软件包路径包括。布尔值。递归包路径包括：。我们是否应该在这个查询中包括包容包的子路径。
 
-Recursive Package Paths To Exclude: Boolean. Recursive Package Paths to Exclude:. Whether we should include exclusive package sub-paths in this query.  
+要排除的递归软件包路径。布尔型。递归包路径排除：。我们是否应该在这个查询中包括专属包的子路径。  
 
 ## Outputs
 
-Content Browser Data Package Filter: Content Browser Data Package Filter Structure.
-
+内容浏览器数据包过滤器。内容浏览器数据包过滤器结构。

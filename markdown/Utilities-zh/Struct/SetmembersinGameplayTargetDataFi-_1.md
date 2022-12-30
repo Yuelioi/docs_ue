@@ -1,6 +1,6 @@
 # SetmembersinGameplayTargetDataFi-_1
 
-Adds a node that modifies a 'GameplayTargetDataFilterHandle'
+添加一个节点，修改 "GameplayTargetDataFilterHandle"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GameplayTargetDataFilterHandle'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Gameplay Target Data Filter Handle Structure (by ref).  
+Struct Ref: Gameplay Target Data Filter Handle结构（通过Ref）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Gameplay Target Data Filter Handle Structure (by ref). Reference to the input struct.
-
+结构出来。Gameplay Target Data Filter Handle结构（通过ref）。对输入结构的引用。

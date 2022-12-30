@@ -1,6 +1,6 @@
 # MakePoseSearchDynamicWeightParam-
 
-Adds a node that create a 'PoseSearchDynamicWeightParams' from its members
+添加一个节点，从其成员中创建一个 "PoseSearchDynamicWeightParams"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'PoseSearchDynamicWeightParams' from its members
 
 ## Inputs
 
-Pose Dynamic Weights: Pose Search Channel Dynamic Weight Params Structure. Pose Dynamic Weights.
+姿势动态权重。姿势搜索通道动态权重参数结构。姿势动态权重。
 
-Trajectory Dynamic Weights: Pose Search Channel Dynamic Weight Params Structure. Trajectory Dynamic Weights.
+轨迹动态权重。姿势搜索通道动态权重参数结构。轨迹动态权重。
 
-Debug Disable Weights: Boolean. Debug Disable Weights.  
+Debug Disable Weights:布尔型。Debug Disable Weights.  
 
 ## Outputs
 
-Pose Search Dynamic Weight Params: Pose Search Dynamic Weight Params Structure.
-
+姿势搜索动态权重参数。姿势搜索动态权重参数结构。

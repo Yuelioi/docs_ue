@@ -1,6 +1,6 @@
 # BreakInputActionInstance
 
-Adds a node that breaks a 'InputActionInstance' into its member fields
+添加一个节点，将'InputActionInstance'分解成其成员字段
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'InputActionInstance' into its member fields
 
 ## Inputs
 
-Input Action Instance: Input Action Instance Structure (by ref).  
+输入动作实例。输入行动实例结构（通过参考）。  
 
 ## Outputs
 
-Source Action: Input Action Object Reference. Source Action:. The source action that this instance is created from.
+源行动。输入行动对象参考。源动作：。这个实例是由源动作创建的。
 
-Triggers: Array of Input Trigger Object References. Triggers:. TODO: Just hold a duplicate of the UInputAction in here?. TODO: Restrict blueprint access to triggers and modifiers?.
+触发器。输入触发器对象参考数组。Triggers:.TODO: 在这里保持一个UInputAction的副本即可？TODO:限制蓝图对触发器和修改器的访问？
 
-Modifiers: Array of Input Modifier Object References. Modifiers.
+修改器。输入修改器对象参考数组。修改器。
 
-Elapsed Processed Time: Float (single-precision). Elapsed Processed Time:. Total trigger processing/evaluation time (How long this action has been in event Started, Ongoing, or Triggered.
+经过处理的时间。Float (single-precision).已用完的处理时间：。总的触发处理/评估时间（这个动作在事件中已经开始、正在进行或触发了多长时间。
 
-Elapsed Triggered Time: Float (single-precision). Elapsed Triggered Time:. Triggered time (How long this action has been in event Triggered only).
+经过的触发时间。Float (single-precision).Elapsed Triggered Time:.触发时间（该动作仅在事件触发中持续了多长时间）。
 
-Last Triggered World Time: Float (single-precision). Last Triggered World Time:. The last time that this evaluated to a Triggered State.
+最后触发的世界时间。浮点数（单精度）。最后触发的世界时间：。最后一次评估为触发状态的时间。
 
-Trigger Event: ETriggerEvent Enum. Trigger Event:. Trigger state.
-
+触发事件: ETriggerEvent Enum.触发事件。触发状态。

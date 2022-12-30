@@ -1,6 +1,6 @@
 # MakeControlToTransformMappings
 
-Adds a node that create a 'ControlToTransformMappings' from its members
+添加一个节点，从其成员中创建一个 "ControlToTransformMappings"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ControlToTransformMappings' from its members
 
 ## Outputs
 
-Control to Transform Mappings: Control To Transform Mappings Structure.
-
+控制到转换映射。控制到转换映射的结构。

@@ -1,6 +1,6 @@
 # BreakVREDCppVariantGeometry
 
-Adds a node that breaks a 'VREDCppVariantGeometry' into its member fields
+添加一个节点，将'VREDCppVariantGeometry'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'VREDCppVariantGeometry' into its member fields
 
 ## Inputs
 
-VREDCpp Variant Geometry: VREDCpp Variant Geometry Structure (by ref).  
+VREDCpp变体几何。VREDCpp变体几何结构（由参考）。  
 
 ## Outputs
 
-Target Nodes: Array of Strings. Target Nodes.
+目标节点。字符串的数组。目标节点。
 
-Options: Array of VREDCpp Variant Geometry Option Structures. Options.
-
+选项。VREDCpp变体几何选项结构的数组。选项。

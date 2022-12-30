@@ -1,6 +1,6 @@
 # MakeClientConversationMessagePay-
 
-Adds a node that create a 'ClientConversationMessagePayload' from its members
+添加一个节点，从其成员中创建一个'ClientConversationMessagePayload'。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'ClientConversationMessagePayload' from its members
 
 ## Inputs
 
-Message: Client Conversation Message Structure. Message.
+信息：客户对话信息结构。信息。
 
-Participants: Conversation Participants Structure. Participants.
+参与者。对话参与者结构。参与者。
 
-Current Node: Conversation Node Handle Structure. Current Node.
+当前节点。对话节点处理结构。当前节点。
 
-Options: Array of Client Conversation Option Entry Structures. Options.  
+选项。客户端对话选项条目结构的数组。选项。  
 
 ## Outputs
 
-Client Conversation Message Payload: Client Conversation Message Payload Structure.
-
+客户端对话消息的有效载荷。客户端对话消息有效载荷结构。

@@ -1,6 +1,6 @@
 # MakeGeometryScriptExpMapUVOption-
 
-Adds a node that create a 'GeometryScriptExpMapUVOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptExpMapUVOptions"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'GeometryScriptExpMapUVOptions' from its members
 
 ## Inputs
 
-Normal Smoothing Rounds: Integer. Normal Smoothing Rounds.
+正态平滑轮数。整数。正态平滑轮数。
 
-Normal Smoothing Alpha: Float (single-precision). Normal Smoothing Alpha.  
+正常平滑的Alpha。Float（单精度）。Normal Smoothing Alpha.  
 
 ## Outputs
 
-Geometry Script Exp Map UVOptions: Geometry Script Exp Map UVOptions Structure.
-
+Geometry Script Exp Map UVOptions:Geometry Script Exp Map UVOptions结构。

@@ -1,6 +1,6 @@
 # MakeControlRigEnumControlProxyVa-
 
-Adds a node that create a 'ControlRigEnumControlProxyValue' from its members
+添加一个节点，从其成员中创建一个 "ControlRigEnumControlProxyValue"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ControlRigEnumControlProxyValue' from its members
 
 ## Outputs
 
-Control Rig Enum Control Proxy Value: Control Rig Enum Control Proxy Value Structure.
-
+控制钻机Enum控制代理值。Control Rig Enum控制代理值结构。

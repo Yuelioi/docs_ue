@@ -1,6 +1,6 @@
 # MakeKey
 
-Adds a node that create a 'Key' from its members
+添加一个节点，从其成员中创建一个 "钥匙"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'Key' from its members
 
 ## Outputs
 
-Key: Key Structure.
-
+钥匙。关键的结构。

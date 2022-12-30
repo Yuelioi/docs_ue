@@ -1,6 +1,6 @@
 # BreakIntVector
 
-Adds a node that breaks a 'IntVector' into its member fields
+添加一个节点，将'IntVector'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'IntVector' into its member fields
 
 ## Inputs
 
-Int Vector: Int Vector Structure (by ref).  
+英特向量。英特向量结构（通过参考）。  
 
 ## Outputs
 
-X: Integer. X.
+X：整数。X.
 
-Y: Integer. Y.
+Y：整数。Y.
 
-Z: Integer. Z.
-
+Z：整数。Z.

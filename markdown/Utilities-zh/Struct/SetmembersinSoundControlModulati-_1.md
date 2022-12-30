@@ -1,6 +1,6 @@
 # SetmembersinSoundControlModulati-_1
 
-Adds a node that modifies a 'SoundControlModulationPatch'
+添加一个节点，修改 "SoundControlModulationPatch"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SoundControlModulationPatch'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Sound Control Modulation Patch Structure (by ref).  
+Struct Ref: 声控调制补丁结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sound Control Modulation Patch Structure (by ref). Reference to the input struct.
-
+结构出来。Sound Control Modulation Patch Structure (by ref)（声控调制补丁结构）。对输入结构的引用。

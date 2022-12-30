@@ -1,6 +1,6 @@
 # SetmembersinMotionTrajectorySett-
 
-Adds a node that modifies a 'MotionTrajectorySettings'
+添加一个修改 "MotionTrajectorySettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MotionTrajectorySettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Motion Trajectory Settings Structure (by ref).  
+Struct Ref: 运动轨迹设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Motion Trajectory Settings Structure (by ref). Reference to the input struct.
-
+结构出来。运动轨迹设置结构（通过参考）。对输入结构的引用。

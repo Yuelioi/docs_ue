@@ -1,6 +1,6 @@
 # MakeSoundCueCrossfadeInfo
 
-Adds a node that create a 'SoundCueCrossfadeInfo' from its members
+添加一个节点，从其成员中创建一个 "SoundCueCrossfadeInfo"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'SoundCueCrossfadeInfo' from its members
 
 ## Outputs
 
-Sound Cue Crossfade Info: Sound Cue Crossfade Info Structure.
-
+声音提示交错信息。声音提示交叉淡化信息结构。

@@ -1,6 +1,6 @@
 # MakeGeometryScriptXAtlasOptions
 
-Adds a node that create a 'GeometryScriptXAtlasOptions' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptXAtlasOptions'。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'GeometryScriptXAtlasOptions' from its members
 
 ## Inputs
 
-Max Iterations: Integer. Max Iterations.  
+最大迭代次数。整数。最大迭代次数。  
 
 ## Outputs
 
-Geometry Script XAtlas Options: Geometry Script XAtlas Options Structure.
-
+Geometry Script XAtlas Options:Geometry Script XAtlas Options结构。

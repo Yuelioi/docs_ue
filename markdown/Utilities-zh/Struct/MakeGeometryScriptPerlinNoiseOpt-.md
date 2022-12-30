@@ -1,6 +1,6 @@
 # MakeGeometryScriptPerlinNoiseOpt-
 
-Adds a node that create a 'GeometryScriptPerlinNoiseOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptPerlinNoiseOptions"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'GeometryScriptPerlinNoiseOptions' from its members
 
 ## Inputs
 
-Base Layer: Geometry Script Perlin Noise Layer Options Structure. Base Layer.
+基础层。Geometry Script Perlin Noise Layer Options Structure.基础层。
 
-Apply Along Normal: Boolean. Apply Along Normal.  
+沿着法线应用：布尔值。沿着法线应用。  
 
 ## Outputs
 
-Geometry Script Perlin Noise Options: Geometry Script Perlin Noise Options Structure.
-
+Geometry Script Perlin Noise Options:Geometry Script Perlin Noise Options结构。

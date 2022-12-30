@@ -1,6 +1,6 @@
 # MakeContextualAnimTrackSettings
 
-Adds a node that create a 'ContextualAnimTrackSettings' from its members
+添加一个节点，从其成员中创建一个'ContextualAnimTrackSettings'。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'ContextualAnimTrackSettings' from its members
 
 ## Inputs
 
-Preview Actor Class: Actor Class Reference. Preview Actor Class.
+预览演员类。角色类参考。Preview Actor Class.
 
-Join Rule: EContextualAnimJoinRule Enum. Join Rule.
+连接规则。EContextualAnimJoinRule Enum.加入规则。
 
-IKTarget Definitions: Array of Contextual Anim IKTarget Definition Structures. IKTarget Definitions.
+IKT目标定义。语境中的Anim IKTarget定义结构阵列。IKTarget Definitions.
 
-Mesh To Component: Transform. Mesh to Component.  
+网格到组件。转换。网格到组件。  
 
 ## Outputs
 
-Contextual Anim Track Settings: Contextual Anim Track Settings Structure.
-
+上下文的动画轨道设置:语境动画轨道设置结构.

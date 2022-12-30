@@ -1,6 +1,6 @@
 # MakeCameraLookatTrackingSettings
 
-Adds a node that create a 'CameraLookatTrackingSettings' from its members
+添加一个节点，从其成员中创建一个 "CameraLookatTrackingSettings"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'CameraLookatTrackingSettings' from its members
 
 ## Inputs
 
-Enable Look At Tracking: Boolean. Enable Look at Tracking:. True to enable lookat tracking, false otherwise..
+启用查看跟踪。布尔型。启用查看跟踪：。为 "真 "则启用查看跟踪，否则为 "假"。
 
-Draw Debug Look At Tracking Position: Boolean. Draw Debug Look at Tracking Position:. True to draw a debug representation of the lookat location.
+在跟踪位置绘制调试视图。Boolean.绘制调试时的跟踪位置：。如果为真，就可以画出debug lookat位置的表示。
 
-Look At Tracking Interp Speed: Float (single-precision). Look at Tracking Interp Speed:. Controls degree of smoothing. 0.f for no smoothing, higher numbers for faster/tighter tracking..
+看跟踪interp速度。Float (single-precision).Look at Tracking Interp Speed:.控制平滑的程度。0.f表示没有平滑，更高的数字表示更快/更紧密的跟踪。
 
-Actor To Track: Actor Soft Object Reference. Actor to Track:. If set, camera will track this actor's location.
+Actor To Track:Actor Soft Object Reference.要跟踪的演员：。如果设置，摄像机将追踪此演员的位置。
 
-Relative Offset: Vector. Relative Offset:. Offset from actor position to look at. Relative to actor if tracking an actor, relative to world otherwise..
+相对偏移。矢量。Relative Offset：。从演员位置看的偏移量。如果跟踪一个演员，则相对于演员，否则相对于世界。
 
-Allow Roll: Boolean. Allow Roll:. True to allow user-defined roll, false otherwise..  
+允许滚动。Boolean.允许滚动：。为真，允许用户定义的滚动，否则为假。  
 
 ## Outputs
 
-Camera Lookat Tracking Settings: Camera Lookat Tracking Settings Structure.
-
+摄像机跟踪设置。摄像机跟踪设置结构。

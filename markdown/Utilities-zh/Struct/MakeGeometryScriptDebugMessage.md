@@ -1,6 +1,6 @@
 # MakeGeometryScriptDebugMessage
 
-Adds a node that create a 'GeometryScriptDebugMessage' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptDebugMessage"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'GeometryScriptDebugMessage' from its members
 
 ## Inputs
 
-Message Type: EGeometryScriptDebugMessageType Enum. Message Type.
+消息类型。EGeometryScriptDebugMessageType枚举。消息类型。
 
-Error Type: EGeometryScriptErrorType Enum. Error Type.
+错误类型。EGeometryScriptErrorType枚举。错误类型。
 
-Message: Text. Message.  
+信息：文本。信息。  
 
 ## Outputs
 
-Geometry Script Debug Message: Geometry Script Debug Message Structure.
-
+Geometry Script Debug Message:Geometry Script Debug Message结构。

@@ -1,6 +1,6 @@
 # SetmembersinSlateFontInfo
 
-Adds a node that modifies a 'SlateFontInfo'
+添加一个修改 "SlateFontInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SlateFontInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Slate Font Info Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Slate Font Info Structure (by ref). Reference to the input struct.
-
+结构出来。Slate Font Info Structure（通过引用）。对输入结构的引用。

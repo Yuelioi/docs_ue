@@ -1,6 +1,6 @@
 # BreakGeometryScriptPrimitiveOpti-
 
-Adds a node that breaks a 'GeometryScriptPrimitiveOptions' into its member fields
+添加一个节点，将'GeometryScriptPrimitiveOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'GeometryScriptPrimitiveOptions' into its member field
 
 ## Inputs
 
-Geometry Script Primitive Options: Geometry Script Primitive Options Structure (by ref).  
+Geometry Script Primitive Options:几何脚本原始选项结构（按参考）。  
 
 ## Outputs
 
-Polygroup Mode: EGeometryScriptPrimitivePolygroupMode Enum. Polygroup Mode.
+多组模式。EGeometryScriptPrimitivePolygroupMode枚举。多组模式。
 
-Flip Orientation: Boolean. Flip Orientation.
+翻转方向。布尔型。翻转方向。
 
-UVMode: EGeometryScriptPrimitiveUVMode Enum. UVMode.
-
+UVMode。EGeometryScriptPrimitiveUVMode Enum.UVMode。

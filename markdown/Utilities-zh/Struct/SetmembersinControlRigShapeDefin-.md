@@ -1,6 +1,6 @@
 # SetmembersinControlRigShapeDefin-
 
-Adds a node that modifies a 'ControlRigShapeDefinition'
+添加一个修改 "ControlRigShapeDefinition "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ControlRigShapeDefinition'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Shape Structure (by ref).  
+结构参考：形状结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Shape Structure (by ref). Reference to the input struct.
-
+结构出来。形状结构（通过引用）。对输入结构的引用。

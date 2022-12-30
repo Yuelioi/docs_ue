@@ -1,8 +1,8 @@
 # AsTime
 
-Converts a passed in date & time to a text, formatted as a time using an invariant timezone. This will use the given date & time as-is, so it's assumed to already be in the correct timezone.
+将传入的日期和时间转换为文本，格式为使用不变的时区的时间。这将使用给定的日期和时间，所以假定它已经在正确的时区。
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet Text Library
 
 ## Inputs
 
-In: Date Time Structure (by ref).  
+在。日期时间结构（按参考）。  
 
 ## Outputs
 
-Return Value: Text. Converts a passed in date & time to a text, formatted as a time using an invariant timezone. This will use the given date & time as-is, so it's assumed to already be in the correct timezone..
-
+返回值。文本。将传入的日期和时间转换为文本，格式为使用不变的时区的时间。这将使用给定的日期和时间，所以假定它已经在正确的时区。

@@ -1,6 +1,6 @@
 # MakePlane
 
-Adds a node that create a 'Plane' from its members
+添加一个节点，从其成员中创建一个 "平面"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'Plane' from its members
 
 ## Inputs
 
-W: Float (double-precision). W.
+W：浮点数（双精度）。W.
 
-X: Float (double-precision). X.
+X：浮点数（双精度）。X.
 
-Y: Float (double-precision). Y:. Alias for float/double depending on LWC status. Note: Will be refactored to double before UE5 ships..
+Y: Float (double-precision).Y:.取决于LWC状态的float/double的别名。注意：在UE5发布之前，将被重构为双精度。
 
-Z: Float (double-precision). Z.  
+Z：浮点数（双精度）。Z.
 
 ## Outputs
 
-Plane: Plane Structure.
-
+平面。平面结构。

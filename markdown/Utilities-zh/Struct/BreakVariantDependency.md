@@ -1,6 +1,6 @@
 # BreakVariantDependency
 
-Adds a node that breaks a 'VariantDependency' into its member fields
+添加一个节点，该节点将 "变量依赖 "分解为其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'VariantDependency' into its member fields
 
 ## Inputs
 
-Variant Dependency: Variant Dependency Structure (by ref).  
+变体依存关系。变种依存关系结构（按参考）。  
 
 ## Outputs
 
-Variant Set: Variant Set Soft Object Reference. Variant Set.
+变体集。变量集软对象参考。变体集。
 
-Variant: Variant Soft Object Reference. Variant.
+变体。变量软对象参考。变体。
 
-Enabled: Boolean. Enabled.
-
+已启用。布尔型。已启用。

@@ -1,6 +1,6 @@
 # MakeGeometryScriptSweptHullOptio-
 
-Adds a node that create a 'GeometryScriptSweptHullOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptSweptHullOptions"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'GeometryScriptSweptHullOptions' from its members
 
 ## Inputs
 
-Prefilter Vertices: Boolean. Prefilter Vertices.
+预滤器顶点。布尔型。预滤器顶点。
 
-Prefilter Grid Resolution: Integer. Prefilter Grid Resolution.
+预滤器网格分辨率。整数。预滤器的网格分辨率。
 
-Min Thickness: Float (single-precision). Min Thickness.
+最小厚度。Float（单精度）。最小厚度。
 
-Simplify: Boolean. Simplify.
+简化。布尔型。简化。
 
-Min Edge Length: Float (single-precision). Min Edge Length.
+最小边缘长度。Float（单精度）。最小边缘长度。
 
-Simplify Tolerance: Float (single-precision). Simplify Tolerance.  
+简化公差。Float（单精度）。简化公差。  
 
 ## Outputs
 
-Geometry Script Swept Hull Options: Geometry Script Swept Hull Options Structure.
-
+Geometry Script Swept Hull Options:Geometry Script Swept Hull Options结构。

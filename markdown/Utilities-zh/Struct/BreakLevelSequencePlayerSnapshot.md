@@ -1,6 +1,6 @@
 # BreakLevelSequencePlayerSnapshot
 
-Adds a node that breaks a 'LevelSequencePlayerSnapshot' into its member fields
+添加一个节点，将'LevelSequencePlayerSnapshot'分解成其成员字段
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that breaks a 'LevelSequencePlayerSnapshot' into its member fields
 
 ## Inputs
 
-Level Sequence Player Snapshot: Level Sequence Player Snapshot Structure (by ref).  
+水平序列球员快照。水平序列球员快照结构（按参考）。  
 
 ## Outputs
 
-Master Name: String. Master Name.
+主人名：字符串。主人的名字。
 
-Master Time: Qualified Frame Time Structure. Master Time.
+主时间。合格的框架时间结构。主时间。
 
-Source Time: Qualified Frame Time Structure. Source Time.
+源时间。合格的框架时间结构。源时间。
 
-Current Shot Name: String. Current Shot Name.
+当前拍摄名称。字符串。当前拍摄名称。
 
-Current Shot Local Time: Qualified Frame Time Structure. Current Shot Local Time.
+当前拍摄的当地时间。合格的框架时间结构。当前拍摄的本地时间。
 
-Current Shot Source Time: Qualified Frame Time Structure. Current Shot Source Time.
+当前的拍摄源时间。合格的帧时间结构。当前的拍摄来源时间。
 
-Source Timecode: String. Source Timecode.
+源时间码。字符串。源时间码。
 
-Camera Component: Camera Component Soft Object Reference. Camera Component.
+相机组件。相机组件软对象参考。相机组件。
 
-Active Shot: Level Sequence Object Reference. Active Shot.
-
+主动拍摄。水平序列对象参考。主动拍摄。

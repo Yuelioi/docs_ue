@@ -1,6 +1,6 @@
 # BreakSoundClassProperties
 
-Adds a node that breaks a 'SoundClassProperties' into its member fields
+添加一个节点，将'SoundClassProperties'分解成其成员字段
 
 ## 图示
 
@@ -8,47 +8,46 @@ Adds a node that breaks a 'SoundClassProperties' into its member fields
 
 ## Inputs
 
-Sound Class Properties: Sound Class Properties Structure (by ref).  
+声音类的属性。声音类属性结构（按参考）。  
 
 ## Outputs
 
-Volume: Float (single-precision). Volume:. Volume multiplier..
+量。浮点数（单精度）。体积：。 体积乘数。
 
-Pitch: Float (single-precision). Pitch:. Pitch multiplier..
+沥青。Float（单精度）。Pitch:.螺距乘数。
 
-Low Pass Filter Frequency: Float (single-precision). Low Pass Filter Frequency:. Lowpass filter cutoff frequency.
+低通滤波器频率。浮点数（单精度）。低通滤波频率：。低通滤波器的截止频率。
 
-Attenuation Distance Scale: Float (single-precision). Attenuation Distance Scale:. Distance scale to apply to sounds that play with this sound class.. Sounds will have their attenuation distance scaled by this amount.. Allows adjusting attenuation settings dynamically..
+衰减距离刻度。Float（单精度）。衰减距离标度：。适用于与此声音类别一起播放的声音的距离比例。声音的衰减距离将以这个数量为尺度。允许动态地调整衰减设置。
 
-LFE Bleed: Float (single-precision). LFEBleed:. The amount of a sound to bleed to the LFE channel.
+LFE Bleed:Float（单精度）。LFEBleed:.渗入到LFE通道的声音量。
 
-Voice Center Channel Volume: Float (single-precision). Voice Center Channel Volume:. The amount to send to center channel (does not propagate to child classes).
+语音中心通道音量。Float（单精度）。语音中心通道音量：。发送到中心通道的量（不传播到子类）。
 
-Radio Filter Volume: Float (single-precision). Radio Filter Volume:. Volume of the radio filter effect..
+无线电过滤量。Float (single-precision).无线电滤波音量：。无线电滤波效果的音量...
 
-Radio Filter Volume Threshold: Float (single-precision). Radio Filter Volume Threshold:. Volume at which the radio filter kicks in.
+无线电过滤器音量阈值。Float (single-precision).无线电滤波音量阈值：。无线电过滤器启动时的音量。
 
-Output To Master EQ Submix: Boolean. Apply Effects:. Whether to use 'Master EQ Submix' as set in the 'Audio' category of Project Settings as the default submix for referencing sounds..
+输出到主EQ副混音。布尔值。应用效果：。是否使用项目设置的 "音频 "类别中设置的 "Master EQ Submix "作为参考声音的默认submix。
 
-Always Play: Boolean. Always Play:. Whether to inflate referencing sound's priority to always play..
+始终播放：布尔值。总是播放：。是否将引用的声音的优先级膨胀到总是播放。
 
-Is UISound: Boolean. Is UISound:. Whether or not this sound plays when the game is paused in the UI.
+是UISound。Boolean.是UISound:。当游戏在用户界面中暂停时，是否播放此声音。
 
-Is Music: Boolean. Is Music:. Whether or not this is music (propagates to child classes only if parent is true).
+是音乐：布尔值。是音乐：。这是否是音乐（只有当父类为真时才会传播到子类）。
 
-Center Channel Only: Boolean. Center Channel Only:. Whether or not this sound class forces sounds to the center channel.
+只有中心通道。布尔值。仅中心通道：。这个声音类是否强制声音到中心通道。
 
-Apply Ambient Volumes: Boolean. Apply Ambient Volumes:. Whether the Interior/Exterior volume and LPF modifiers should be applied.
+应用环境容量。布尔值。Apply Ambient Volumes:（应用环境音量）。是否应该应用内部/外部音量和LPF修改器。
 
-Send To Master Reverb Submix: Boolean. Reverb:. Whether or not sounds referencing this class send to the reverb submix.
+发送到主混响次混响。布尔型。混响：。引用该类的声音是否发送至混响子混音。
 
-Default 2DReverb Send Amount: Float (single-precision). Default 2DReverb Send Amount:. Send amount to master reverb effect for referencing unattenuated (2D) sounds..
+默认的2DReverb发送量。Float (single-precision).默认的2DReverb发送量：。发送到主混响效果的量，用于参考未衰减的（2D）声音。
 
-Modulation Settings: Sound Modulation Default Settings Structure. Modulation Settings:. Default modulation settings for sounds directly referencing this class.
+调制设置。声音调制默认设置结构。调制设置：。直接引用该类的声音的默认调制设置。
 
-Output Target: EAudioOutputTarget Enum. Output Target:. Which output target the sound should be played through.
+输出目标。EAudioOutputTarget Enum.输出目标：。声音应该通过哪个输出目标来播放。
 
-Loading Behavior Override: ESoundWaveLoadingBehavior Enum. Loading Behavior:. Specifies how and when compressed audio data is loaded for asset if stream caching is enabled..
+加载行为覆盖。ESoundWaveLoadingBehavior Enum.Loading Behavior:.指定在启用流缓存的情况下，如何以及何时为资产加载压缩的音频数据。
 
-Default Submix: Sound Submix Object Reference. Default Submix:. Default output submix of referencing sounds. If unset, falls back to the 'Master Submix' as set in the 'Audio' category of Project Settings.. (Unavailable if legacy 'Output to Master EQ Submix' is set).
-
+默认的子混音。声音子混音对象参考。Default Submix:（默认子混音）。参考声音的默认输出子混音。如果没有设置，就会回到项目设置的 "音频 "类别中设置的 "主混音"（如果设置了传统的 "输出到主EQ混音"，则不可用）。

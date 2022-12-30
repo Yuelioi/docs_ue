@@ -1,6 +1,6 @@
 # MakeRawAnimSequenceTrack
 
-Adds a node that create a 'RawAnimSequenceTrack' from its members
+添加一个节点，从其成员中创建一个 "RawAnimSequenceTrack"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RawAnimSequenceTrack' from its members
 
 ## Outputs
 
-Raw Anim Sequence Track: Raw Anim Sequence Track Structure.
-
+原始动画序列轨道:Raw Anim Sequence Track 结构.

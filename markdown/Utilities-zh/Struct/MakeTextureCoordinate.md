@@ -1,6 +1,6 @@
 # MakeTextureCoordinate
 
-Adds a node that create a 'TextureCoordinate' from its members
+添加一个节点，从其成员中创建一个 "TextureCoordinate"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'TextureCoordinate' from its members
 
 ## Outputs
 
-Texture Coordinate: Texture Coordinate Structure.
-
+纹理坐标。纹理坐标结构。

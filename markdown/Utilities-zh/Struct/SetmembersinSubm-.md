@@ -1,6 +1,6 @@
 # SetmembersinSubm-
 
-Adds a node that modifies a 'SubmixEffectDynamicProcessorFilterSettings'
+添加一个节点，修改 "SubmixEffectDynamicProcessorFilterSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SubmixEffectDynamicProcessorFilterSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Submix Effect Dynamic Processor Filter Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Submix Effect Dynamic Processor Filter Settings Structure (by ref). Reference to the input struct.
-
+Struct Out:Submix Effect动态处理器滤波器设置结构（通过参考）。对输入结构的引用。

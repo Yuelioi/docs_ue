@@ -1,6 +1,6 @@
 # BreakMotionMatchingState
 
-Adds a node that breaks a 'MotionMatchingState' into its member fields
+添加一个节点，将'MotionMatchingState'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'MotionMatchingState' into its member fields
 
 ## Inputs
 
-Motion Matching State: Motion Matching State Structure (by ref).  
+运动匹配状态。运动匹配状态结构（按参考）。  
 
 ## Outputs
 
-Flags: EMotionMatchingFlags Enum. Flags:. Evaluation flags relevant to the state of motion matching.
-
+旌旗。EMotionMatchingFlags Enum.Flags:.与运动匹配状态相关的评估标志。

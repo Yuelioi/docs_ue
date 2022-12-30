@@ -1,6 +1,6 @@
 # MakePropertyContainerHandle
 
-Adds a node that create a 'PropertyContainerHandle' from its members
+添加一个节点，从其成员中创建一个 "PropertyContainerHandle"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PropertyContainerHandle' from its members
 
 ## Outputs
 
-Property Container Handle: Property Container Handle Structure.
-
+属性容器句柄。属性容器手柄结构。

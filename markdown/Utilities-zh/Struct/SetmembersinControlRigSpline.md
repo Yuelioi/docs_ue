@@ -1,6 +1,6 @@
 # SetmembersinControlRigSpline
 
-Adds a node that modifies a 'ControlRigSpline'
+添加一个修改 "ControlRigSpline "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ControlRigSpline'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Control Rig Spline Structure (by ref).  
+结构参考：控制钻机花键结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Control Rig Spline Structure (by ref). Reference to the input struct.
-
+结构出来。控制钻机花键结构（通过引用）。对输入结构的引用。

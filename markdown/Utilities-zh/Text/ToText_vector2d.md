@@ -1,8 +1,8 @@
 # ToText_vector2d
 
-Converts a vector2d value to localized formatted text, in the form 'X= Y='
+将一个向量2d值转换为本地化的格式化文本，格式为'X= Y='
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet Text Library
 
 ## Inputs
 
-In Vec: Vector 2D Structure.  
+在Vec。矢量二维结构。  
 
 ## Outputs
 
-Return Value: Text. Converts a vector2d value to localized formatted text, in the form 'X= Y='.
-
+返回值。文本。将一个矢量值转换为本地化的格式化文本，形式为'X= Y='。

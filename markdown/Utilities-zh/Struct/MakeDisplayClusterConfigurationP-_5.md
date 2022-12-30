@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationP-_5
 
-Adds a node that create a 'DisplayClusterConfigurationProjection' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationProjection"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'DisplayClusterConfigurationProjection' from its membe
 
 ## Outputs
 
-Display Cluster Configuration Projection: Display Cluster Configuration Projection Structure.
-
+显示群组配置投影。显示群组配置的投影结构。

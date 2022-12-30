@@ -1,6 +1,6 @@
 # MakeCurveTableRowHandle
 
-Adds a node that create a 'CurveTableRowHandle' from its members
+添加一个节点，从其成员中创建一个 "CurveTableRowHandle"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'CurveTableRowHandle' from its members
 
 ## Inputs
 
-Curve Table: Curve Table Object Reference. Curve Table:. Pointer to table we want a row from.
+曲线表。曲线表对象参考。曲线表：。指向我们想要的表格的指针。
 
-Row Name: Name. Row Name:. Name of row in the table that we want.  
+行名。名称。行名：。我们想要的表格中的行的名称。  
 
 ## Outputs
 
-Curve Table Row Handle: Curve Table Row Handle Structure.
-
+曲线表行拉手。曲线表行拉手结构。

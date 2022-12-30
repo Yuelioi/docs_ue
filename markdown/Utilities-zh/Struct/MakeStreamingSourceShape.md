@@ -1,6 +1,6 @@
 # MakeStreamingSourceShape
 
-Adds a node that create a 'StreamingSourceShape' from its members
+添加一个节点，从其成员中创建一个 "StreamingSourceShape"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'StreamingSourceShape' from its members
 
 ## Inputs
 
-Use Grid Loading Range: Boolean. Use Grid Loading Range:. If True, streaming source shape radius is bound to loading range radius..
+使用网格加载范围。Boolean.使用网格加载范围：。如果为 "真"，流媒体的源形状半径将被绑定到加载范围半径。
 
-Radius: Float (single-precision). Radius:. Custom streaming source shape radius (not used if bUseGridLoadingRange is True)..
+半径。Float（单精度）。Radius:.自定义流媒体源形状半径（如果bUseGridLoadingRange为True，则不使用）。
 
-Is Sector: Boolean. Is Sector:. Whether the source shape is a spherical sector instead of a regular sphere source..
+是部门。布尔型。是扇形：。源的形状是否为球形扇形，而不是普通的球形源。
 
-Sector Angle: Float (single-precision). Sector Angle:. Shape's spherical sector angle in degree (not used if bIsSector is False)..
+扇区角度。Float（单精度）。扇形角度：。形状的球形扇形角度，度数（如果bIsSector为False，则不使用）。
 
-Location: Vector. Location:. Streaming source shape location (local to streaming source)..
+地点：向量。向量。位置：。流媒体源的形状位置（流媒体源的本地）。
 
-Rotation: Rotator. Rotation:. Streaming source shape rotation (local to streaming source)..  
+旋转。旋转器。旋转:。流媒体源的形状旋转（流媒体源的本地）。  
 
 ## Outputs
 
-Streaming Source Shape: Streaming Source Shape Structure.
-
+流动源形状。流媒体源的形状结构。

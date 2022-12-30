@@ -1,6 +1,6 @@
 # BreakGeometryScriptTangentsOptio-
 
-Adds a node that breaks a 'GeometryScriptTangentsOptions' into its member fields
+添加一个节点，将'GeometryScriptTangentsOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'GeometryScriptTangentsOptions' into its member fields
 
 ## Inputs
 
-Geometry Script Tangents Options: Geometry Script Tangents Options Structure (by ref).  
+Geometry Script Tangents Options:几何脚本切线选项结构（按参考）。  
 
 ## Outputs
 
-Type: EGeometryScriptTangentTypes Enum. Type.
+类型。EGeometryScriptTangentTypes Enum.类型。
 
-UVLayer: Integer. UVLayer.
-
+UVLayer。整数。UVLayer。

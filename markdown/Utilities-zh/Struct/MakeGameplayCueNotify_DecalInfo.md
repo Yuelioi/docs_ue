@@ -1,6 +1,6 @@
 # MakeGameplayCueNotify_DecalInfo
 
-Adds a node that create a 'GameplayCueNotify_DecalInfo' from its members
+添加一个节点，从其成员中创建一个 "GameplayCueNotify_DecalInfo"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayCueNotify_DecalInfo' from its members
 
 ## Outputs
 
-Gameplay Cue Notify Decal Info: Gameplay Cue Notify Decal Info Structure.
-
+游戏提示通知贴纸信息。Gameplay Cue Notify Decal Info结构。

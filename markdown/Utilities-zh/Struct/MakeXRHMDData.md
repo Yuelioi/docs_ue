@@ -1,6 +1,6 @@
 # MakeXRHMDData
 
-Adds a node that create a 'XRHMDData' from its members
+添加一个节点，从其成员中创建一个 "XRHMDData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'XRHMDData' from its members
 
 ## Outputs
 
-XRHMDData: XRHMDData Structure.
-
+XRHMDData。XRHMDData结构。

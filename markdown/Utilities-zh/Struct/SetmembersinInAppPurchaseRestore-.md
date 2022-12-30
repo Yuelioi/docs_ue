@@ -1,6 +1,6 @@
 # SetmembersinInAppPurchaseRestore-
 
-Adds a node that modifies a 'InAppPurchaseRestoreInfo'
+添加一个节点，修改 "InAppPurchaseRestoreInfo"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InAppPurchaseRestoreInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: In App Purchase Restore Info Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: In App Purchase Restore Info Structure (by ref). Reference to the input struct.
-
+Struct Out: In App Purchase Restore Info Structure (by ref).对输入结构的引用。

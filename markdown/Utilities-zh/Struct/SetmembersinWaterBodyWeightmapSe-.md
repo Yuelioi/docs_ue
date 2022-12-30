@@ -1,6 +1,6 @@
 # SetmembersinWaterBodyWeightmapSe-
 
-Adds a node that modifies a 'WaterBodyWeightmapSettings'
+添加一个节点，修改 "WaterBodyWeightmapSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'WaterBodyWeightmapSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Water Body Weightmap Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Water Body Weightmap Settings Structure (by ref). Reference to the input struct.
-
+结构出来。水体重量图设置结构（通过参考）。对输入结构的引用。

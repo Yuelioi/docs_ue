@@ -1,6 +1,6 @@
 # MakeTextureShareBPPostprocess
 
-Adds a node that create a 'TextureShareBPPostprocess' from its members
+添加一个节点，从其成员中创建一个 "TextureShareBPPostprocess"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'TextureShareBPPostprocess' from its members
 
 ## Inputs
 
-Additional Data: Texture Share BPAdditional Data Structure. Additional Data:. Send Additional data.
+附加数据。纹理共享BPA附加数据结构。附加数据：。发送附加数据。
 
-Send: Array of Texture Share BPTexture 2D Structures. Send:. Send this textures to remote process.
+发送。纹理数组分享BPTexture 2D结构。发送：。发送此纹理到远程进程。
 
-Receive: Array of Texture Share BPTexture 2D Structures. Receive:. Receive this texture from remote process.  
+接收。纹理共享的数组 BPTexture 2D结构。Receive：。从远程进程中接收该纹理。  
 
 ## Outputs
 
-Texture Share BPPostprocess: Texture Share BPPostprocess Structure.
-
+纹理共享 BPPostprocess。纹理共享 BPPostprocess结构。

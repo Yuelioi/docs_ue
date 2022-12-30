@@ -1,6 +1,6 @@
 # SetmembersinDisp-_43
 
-Adds a node that modifies a 'DisplayClusterReplaceTextureCropRectangle'
+添加一个节点，修改 "DisplayClusterReplaceTextureCropRectangle"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DisplayClusterReplaceTextureCropRectangle'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Display Cluster Replace Texture Crop Rectangle Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Display Cluster Replace Texture Crop Rectangle Structure (by ref). Reference to the input struct.
-
+结构出来。Display Cluster Replace Texture Crop Rectangle Structure（通过引用）。对输入结构的引用。

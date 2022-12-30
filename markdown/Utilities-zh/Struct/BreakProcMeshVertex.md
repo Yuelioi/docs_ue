@@ -1,6 +1,6 @@
 # BreakProcMeshVertex
 
-Adds a node that breaks a 'ProcMeshVertex' into its member fields
+添加一个节点，将'ProcMeshVertex'分解到其成员字段中
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that breaks a 'ProcMeshVertex' into its member fields
 
 ## Inputs
 
-Proc Mesh Vertex: Proc Mesh Vertex Structure (by ref).  
+Proc网格顶点。Proc网格顶点结构（通过参考）。  
 
 ## Outputs
 
-Position: Vector. Position:. Vertex position.
+位置。矢量。Position:.顶点位置。
 
-Normal: Vector. Normal:. Vertex normal.
+正常：向量。正常:。法线顶点。
 
-Tangent: Proc Mesh Tangent Structure. Tangent:. Vertex tangent.
+切线。Proc网状切线结构。切线：。顶点切线。
 
-Color: Color Structure. Color:. Vertex color.
+颜色：颜色结构。颜色:。顶点颜色。
 
-UV0: Vector 2D Structure. UV0:. Vertex texture co-ordinate.
+UV0:向量2D结构。UV0:。顶点纹理坐标。
 
-UV1: Vector 2D Structure. UV1:. Vertex texture co-ordinate.
+UV1。矢量二维结构。UV1:.顶点纹理坐标。
 
-UV2: Vector 2D Structure. UV2:. Vertex texture co-ordinate.
+UV2。矢量二维结构。UV2:.顶点纹理坐标。
 
-UV3: Vector 2D Structure. UV3:. Vertex texture co-ordinate.
-
+UV3: 矢量2D结构。UV3:。顶点纹理坐标。

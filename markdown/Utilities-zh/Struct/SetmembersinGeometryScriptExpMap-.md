@@ -1,6 +1,6 @@
 # SetmembersinGeometryScriptExpMap-
 
-Adds a node that modifies a 'GeometryScriptExpMapUVOptions'
+添加一个修改 "GeometryScriptExpMapUVOptions "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryScriptExpMapUVOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Geometry Script Exp Map UVOptions Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Geometry Script Exp Map UVOptions Structure (by ref). Reference to the input struct.
-
+Struct Out:Geometry Script Exp Map UVOptions结构（通过ref）。对输入结构的引用。

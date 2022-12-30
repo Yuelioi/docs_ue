@@ -1,6 +1,6 @@
 # MakeDMXRequest
 
-Adds a node that create a 'DMXRequest' from its members
+添加一个节点，从其成员中创建一个 "DMXRequest"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'DMXRequest' from its members
 
 ## Inputs
 
-DMXLibrary: DMXLibrary Class Reference. DMXLibrary.
+DMXLibrary。DMXLibrary类参考。DMXLibrary.
 
-Value: Byte. Value.  
+值: 字节。价值。  
 
 ## Outputs
 
-DMXRequest: DMXRequest Structure.
-
+DMXRequest。DMXRequest结构。

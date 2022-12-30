@@ -1,6 +1,6 @@
 # BreakNamedFloat
 
-Adds a node that breaks a 'NamedFloat' into its member fields
+添加一个节点，将'NamedFloat'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'NamedFloat' into its member fields
 
 ## Inputs
 
-Named Float: Named Float Structure (by ref).  
+命名的浮子。命名的浮点结构（通过引用）。  
 
 ## Outputs
 
-Value: Float (single-precision). Value.
+值。Float（单精度）。值。
 
-Name: Name. Name.
-
+姓名：姓名名称。

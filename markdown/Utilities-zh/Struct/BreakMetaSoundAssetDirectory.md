@@ -1,6 +1,6 @@
 # BreakMetaSoundAssetDirectory
 
-Adds a node that breaks a 'MetaSoundAssetDirectory' into its member fields
+添加一个节点，将'MetaSoundAssetDirectory'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'MetaSoundAssetDirectory' into its member fields
 
 ## Inputs
 
-Meta Sound Asset Directory: Meta Sound Asset Directory Structure (by ref).  
+元声音资产目录。元声音资产目录结构（按参考）。  
 
 ## Outputs
 
-Directory: Directory Path Structure. Directory.
-
+目录。目录路径结构。目录。

@@ -1,6 +1,6 @@
 # SetmembersinDMXImportGDTFDMXProf-
 
-Adds a node that modifies a 'DMXImportGDTFDMXProfiles'
+添加一个节点，修改'DMXImportGDTFDMXProfiles'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXImportGDTFDMXProfiles'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: DMXImport GDTFDMXProfiles Structure (by ref).  
+结构参考: DMXImport GDTFDMXProfiles 结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMXImport GDTFDMXProfiles Structure (by ref). Reference to the input struct.
-
+结构输出。DMXImport GDTFDMXProfiles结构（通过ref）。对输入结构的引用。

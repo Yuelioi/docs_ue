@@ -1,6 +1,6 @@
 # SetmembersinCameraShakeStartPara-
 
-Adds a node that modifies a 'CameraShakeStartParams'
+添加一个修改 "CameraShakeStartParams "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CameraShakeStartParams'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Camera Shake Start Params Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Camera Shake Start Params Structure (by ref). Reference to the input struct.
-
+结构出来。Camera Shake Start Params结构（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeEmptyPayload
 
-Adds a node that create a 'EmptyPayload' from its members
+添加一个节点，从其成员中创建一个 "EmptyPayload"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'EmptyPayload' from its members
 
 ## Outputs
 
-Empty Payload: Empty Payload Structure.
-
+空的有效载荷。空的有效载荷结构。

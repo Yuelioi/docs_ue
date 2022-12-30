@@ -1,6 +1,6 @@
 # MakeOpenColorIOColorSpace
 
-Adds a node that create a 'OpenColorIOColorSpace' from its members
+添加一个节点，从其成员中创建一个 "OpenColorIOColorSpace"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'OpenColorIOColorSpace' from its members
 
 ## Outputs
 
-Open Color IOColor Space: Open Color IOColor Space Structure.
-
+开放色彩IOC色彩空间。开放色彩IOC色彩空间结构。

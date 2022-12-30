@@ -1,6 +1,6 @@
 # BreakWaterBrushEffectTerracing
 
-Adds a node that breaks a 'WaterBrushEffectTerracing' into its member fields
+在其成员字段中添加一个打破'WaterBrushEffectTerracing'的节点
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'WaterBrushEffectTerracing' into its member fields
 
 ## Inputs
 
-Water Brush Effect Terracing: Water Brush Effect Terracing Structure (by ref).  
+水刷效果的梯田。水刷效果的梯田结构（由参考）。  
 
 ## Outputs
 
-Terrace Alpha: Float (single-precision). Terrace Alpha.
+Terrace Alpha。Float (single-precision).梯田Alpha。
 
-Terrace Spacing: Float (single-precision). Terrace Spacing.
+台阶间距。Float（单精度）。梯田间距。
 
-Terrace Smoothness: Float (single-precision). Terrace Smoothness.
+露台平滑度。Float（单精度）。梯田平滑度。
 
-Mask Length: Float (single-precision). Mask Length.
+掩码长度。浮点数（单精度）。掩码长度。
 
-Mask Start Offset: Float (single-precision). Mask Start Offset.
-
+掩码起始偏移。Float (single-precision).掩码开始偏移。

@@ -1,6 +1,6 @@
 # BreakSequencerQuickBindingResult
 
-Adds a node that breaks a 'SequencerQuickBindingResult' into its member fields
+添加一个节点，将'SequencerQuickBindingResult'分解成其成员字段
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'SequencerQuickBindingResult' into its member fields
 
 ## Inputs
 
-Sequencer Quick Binding Result: Sequencer Quick Binding Result Structure (by ref).  
+序列器快速结合结果。序列器快速结合结果结构（通过参考）。  
 
 ## Outputs
 
-Payload Names: Array of Strings. Payload Names:. Names of the payload variables of the event..
-
+有效载荷名称。字符串阵列。有效载荷名称：。事件的有效载荷变量的名称。

@@ -1,6 +1,6 @@
 # SetmembersinDisp-_20
 
-Adds a node that modifies a 'DisplayClusterConfigurationInputSyncPolicy'
+添加一个修改 "DisplayClusterConfigurationInputSyncPolicy "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DisplayClusterConfigurationInputSyncPolicy'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Display Cluster Configuration Input Sync Policy Structure (by ref).  
+Struct Ref: 显示群集配置输入同步策略结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Display Cluster Configuration Input Sync Policy Structure (by ref). Reference to the input struct.
-
+结构出来。显示群集配置输入同步策略结构（通过参考）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeGeometryScriptColorList
 
-Adds a node that create a 'GeometryScriptColorList' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptColorList"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GeometryScriptColorList' from its members
 
 ## Outputs
 
-Geometry Script Color List: Color List Structure.
-
+Geometry Script Color List:颜色列表结构。

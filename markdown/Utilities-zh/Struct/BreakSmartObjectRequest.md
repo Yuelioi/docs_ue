@@ -1,6 +1,6 @@
 # BreakSmartObjectRequest
 
-Adds a node that breaks a 'SmartObjectRequest' into its member fields
+添加一个节点，将'SmartObjectRequest'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'SmartObjectRequest' into its member fields
 
 ## Inputs
 
-Smart Object Request: Smart Object Request Structure (by ref).  
+智能对象请求。智能对象请求结构（通过参考）。  
 
 ## Outputs
 
-Query Box: Box Structure. Query Box:. Box defining the search range.
+查询框。箱子结构。查询框：。定义搜索范围的方框。
 
-Filter: Smart Object Request Filter Structure. Filter:. Struct used to filter out some results (all results allowed by default).
-
+过滤器。智能对象请求过滤器结构。过滤器：。用于过滤掉一些结果的结构（默认允许所有结果）。

@@ -1,6 +1,6 @@
 # BreakTimedDataMonitorCalibration-_1
 
-Adds a node that breaks a 'TimedDataMonitorCalibrationResult' into its member fields
+添加一个节点，将'TimedDataMonitorCalibrationResult'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'TimedDataMonitorCalibrationResult' into its member fi
 
 ## Inputs
 
-Timed Data Monitor Calibration Result: Timed Data Monitor Calibration Result Structure (by ref).  
+计时数据监测仪校准结果。定时数据监控器校准结果结构（通过参考）。  
 
 ## Outputs
 
-Return Code: ETimedDataMonitorCalibrationReturnCode Enum. Return Code.
+返回代码。ETimedDataMonitorCalibrationReturnCode枚举。返回代码。
 
-Failure Input Identifiers: Array of Timed Data Monitor Input Identifier Structures. Failure Input Identifiers.
-
+故障输入标识符。计时数据监控输入标识符结构阵列。故障输入标识符。

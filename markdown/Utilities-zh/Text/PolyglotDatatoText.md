@@ -1,8 +1,8 @@
 # PolyglotDatatoText
 
-Get the text instance created from this polyglot data.
+获取由该多语言数据创建的文本实例。
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet Text Library
 
 ## Inputs
 
-Polyglot Data: Polyglot Text Data Structure (by ref).  
+Polyglot数据。Polyglot Text Data Structure (by ref).  
 
 ## Outputs
 
-Return Value: Text. The text instance, or an empty text if the data is invalid..
-
+返回值。文本。文本实例，如果数据无效，则为空文本。

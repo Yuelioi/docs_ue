@@ -1,6 +1,6 @@
 # BreakUsdStageOptions
 
-Adds a node that breaks a 'UsdStageOptions' into its member fields
+添加一个节点，将'UsdStageOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'UsdStageOptions' into its member fields
 
 ## Inputs
 
-Usd Stage Options: Usd Stage Options Structure (by ref).  
+Usd Stage Options:Usd Stage Options Structure (by ref).  
 
 ## Outputs
 
-Meters Per Unit: Float (single-precision). Meters Per Unit:. MetersPerUnit to use for the stage. Defaults to 0.01 (i.e. 1cm per unit, which equals UE units).
+每单位米数。Float (single-precision).Meters Per Unit:.舞台上使用的米数单位（MetersPerUnit）。默认为0.01（即每单位1厘米，相当于UE单位）。
 
-Up Axis: EUsdUpAxis Enum. Up Axis:. UpAxis to use for the stage. Defaults to ZAxis, which equals the UE convention.
-
+Up Axis: EUsdUpAxis Enum.Up Axis:.舞台要使用的上轴。默认为ZAxis，等同于UE惯例。

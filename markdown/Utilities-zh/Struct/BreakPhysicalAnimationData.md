@@ -1,6 +1,6 @@
 # BreakPhysicalAnimationData
 
-Adds a node that breaks a 'PhysicalAnimationData' into its member fields
+添加一个节点，将 "PhysicalAnimationData "分解到其成员字段中。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'PhysicalAnimationData' into its member fields
 
 ## Inputs
 
-Physical Animation Data: Physical Animation Data Structure (by ref).  
+物理动画数据。物理动画数据结构（由参考）。  
 
 ## Outputs
 
-Is Local Simulation: Boolean. Is Local Simulation:. Whether the drive targets are in world space or local.
+是本地模拟。布尔型。是本地模拟：。驱动目标是在世界空间还是在本地。
 
-Orientation Strength: Float (single-precision). Orientation Strength:. The strength used to correct orientation error.
+方向强度。Float（单精度）。方向强度：。用于纠正方向误差的强度。
 
-Angular Velocity Strength: Float (single-precision). Angular Velocity Strength:. The strength used to correct angular velocity error.
+角速度强度。Float（单精度）。角速度强度：。用于纠正角速度误差的强度。
 
-Position Strength: Float (single-precision). Position Strength:. The strength used to correct linear position error. Only used for non-local simulation.
+位置强度。Float（单精度）。位置强度：。用于修正线性位置误差的强度。只用于非局部模拟。
 
-Velocity Strength: Float (single-precision). Velocity Strength:. The strength used to correct linear velocity error. Only used for non-local simulation.
+速度强度。Float（单精度）。速度强度：。用于修正线性速度误差的强度。仅用于非局部模拟。
 
-Max Linear Force: Float (single-precision). Max Linear Force:. The max force used to correct linear errors.
+最大线性力。浮点数（单精度）。最大线性力：。用于纠正线性误差的最大力。
 
-Max Angular Force: Float (single-precision). Max Angular Force:. The max force used to correct angular errors.
-
+最大角力。浮点（单精度）。最大角力：。用于纠正角度误差的最大力。

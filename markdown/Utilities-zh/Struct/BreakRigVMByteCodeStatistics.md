@@ -1,6 +1,6 @@
 # BreakRigVMByteCodeStatistics
 
-Adds a node that breaks a 'RigVMByteCodeStatistics' into its member fields
+添加一个节点，将'RigVMByteCodeStatistics'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'RigVMByteCodeStatistics' into its member fields
 
 ## Inputs
 
-Rig VMByte Code Statistics: Rig VMByte Code Statistics Structure (by ref).  
+钻机VMByte代码统计。钻机VMByte代码统计结构（按参考）。  
 
 ## Outputs
 
-Instruction Count: Integer. Instruction Count.
+指令数。整数。指令数。
 
-Data Bytes: Integer. Data Bytes.
-
+数据字节。整数。数据字节。

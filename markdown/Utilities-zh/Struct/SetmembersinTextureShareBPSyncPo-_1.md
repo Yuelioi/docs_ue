@@ -1,6 +1,6 @@
 # SetmembersinTextureShareBPSyncPo-_1
 
-Adds a node that modifies a 'TextureShareBPSyncPolicySettings'
+添加一个修改 "TextureShareBPSyncPolicySettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TextureShareBPSyncPolicySettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Texture Share BPSync Policy Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Texture Share BPSync Policy Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Texture Share BPSync Policy Settings Structure（通过引用）。对输入结构的引用。

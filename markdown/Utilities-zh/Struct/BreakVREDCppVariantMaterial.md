@@ -1,6 +1,6 @@
 # BreakVREDCppVariantMaterial
 
-Adds a node that breaks a 'VREDCppVariantMaterial' into its member fields
+添加一个节点，将'VREDCppVariantMaterial'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'VREDCppVariantMaterial' into its member fields
 
 ## Inputs
 
-VREDCpp Variant Material: VREDCpp Variant Material Structure (by ref).  
+VREDCpp变体材料。VREDCpp变体材料结构（通过参考）。  
 
 ## Outputs
 
-Target Nodes: Array of Strings. Target Nodes.
+目标节点。字符串的数组。目标节点。
 
-Options: Array of VREDCpp Variant Material Option Structures. Options.
-
+选项。VREDCpp变体材料选项结构的数组。选项。

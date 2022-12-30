@@ -1,8 +1,8 @@
 # IsTextfromStringTable
 
-Returns true if the given text is referencing a string table.
+如果给定的文本引用了一个字符串表，则返回真。
 
-Target is Kismet Text Library
+目标是Kismet文本库
 
 ## 图示
 
@@ -10,9 +10,8 @@ Target is Kismet Text Library
 
 ## Inputs
 
-Text: Text (by ref).  
+文本。文本（由裁判）。  
 
 ## Outputs
 
-Return Value: Boolean. Returns true if the given text is referencing a string table..
-
+返回值。布尔值。如果给定的文本引用的是一个字符串表，则返回真。

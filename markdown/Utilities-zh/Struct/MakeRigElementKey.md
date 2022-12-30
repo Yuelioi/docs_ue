@@ -1,6 +1,6 @@
 # MakeRigElementKey
 
-Adds a node that create a 'RigElementKey' from its members
+添加一个节点，从其成员中创建一个'RigElementKey'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'RigElementKey' from its members
 
 ## Inputs
 
-Type: ERigElementType Enum. Type.
+类型。ERigElementType枚举。类型。
 
-Name: Name. Name.  
+姓名：姓名名称。  
 
 ## Outputs
 
-Rig Element Key: Rig Element Key Structure.
-
+钻机元素键。钻机元素键结构。

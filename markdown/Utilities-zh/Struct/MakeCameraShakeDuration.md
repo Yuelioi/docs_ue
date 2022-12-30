@@ -1,6 +1,6 @@
 # MakeCameraShakeDuration
 
-Adds a node that create a 'CameraShakeDuration' from its members
+添加一个节点，从其成员中创建一个 "CameraShakeDuration"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CameraShakeDuration' from its members
 
 ## Outputs
 
-Camera Shake Duration: Camera Shake Duration Structure.
-
+相机抖动持续时间。相机抖动持续时间结构。

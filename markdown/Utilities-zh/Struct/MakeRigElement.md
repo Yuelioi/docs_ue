@@ -1,6 +1,6 @@
 # MakeRigElement
 
-Adds a node that create a 'RigElement' from its members
+添加一个节点，从其成员中创建一个 "RigElement"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigElement' from its members
 
 ## Outputs
 
-Rig Element: Rig Element Structure.
-
+钻机元素。钻机元件结构。

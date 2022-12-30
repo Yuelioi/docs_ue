@@ -1,6 +1,6 @@
 # SetmembersinZoneLaneDesc
 
-Adds a node that modifies a 'ZoneLaneDesc'
+添加一个修改 "ZoneLaneDesc "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ZoneLaneDesc'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Zone Lane Desc Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Zone Lane Desc Structure (by ref). Reference to the input struct.
-
+Struct Out:Zone Lane Desc Structure（通过引用）。对输入结构的引用。

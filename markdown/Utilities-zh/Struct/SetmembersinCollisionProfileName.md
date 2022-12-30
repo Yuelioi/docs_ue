@@ -1,6 +1,6 @@
 # SetmembersinCollisionProfileName
 
-Adds a node that modifies a 'CollisionProfileName'
+添加一个修改'CollisionProfileName'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CollisionProfileName'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Collision Profile Name Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Collision Profile Name Structure (by ref). Reference to the input struct.
-
+结构出来。碰撞配置文件名称结构（通过引用）。对输入结构的引用。

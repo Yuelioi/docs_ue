@@ -1,6 +1,6 @@
 # SetmembersinHairGroupDesc
 
-Adds a node that modifies a 'HairGroupDesc'
+添加一个修改 "HairGroupDesc "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'HairGroupDesc'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Hair Group Desc Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Hair Group Desc Structure (by ref). Reference to the input struct.
-
+Struct Out: Hair Group Desc Structure (by ref).对输入结构的引用。

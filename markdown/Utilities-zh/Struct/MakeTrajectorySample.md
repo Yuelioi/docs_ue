@@ -1,6 +1,6 @@
 # MakeTrajectorySample
 
-Adds a node that create a 'TrajectorySample' from its members
+添加一个节点，从其成员中创建一个 "TrajectorySample"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'TrajectorySample' from its members
 
 ## Inputs
 
-Accumulated Seconds: Float (single-precision). Accumulated Seconds:. The relative accumulated time that this sample is associated with. Zero value for instantaneous, negative values for the past, and positive values for the future.
+累积的秒数。Float (single-precision).累积秒数：。这个样本所关联的相对累积时间。瞬时为零值，过去为负值，未来为正值。
 
-Accumulated Distance: Float (single-precision). Accumulated Distance:. The relative accumulated distance that this trajectory sample is associated with. Zero value for instantaneous, negative values for the past, and positive values for the future.
+累积的距离。Float（单精度）。累积距离：。这个轨迹样本所关联的相对累积距离。瞬时为零值，过去为负值，未来为正值。
 
-Position: Vector. Position:. Position relative to the sampled in-motion object.
+位置。矢量。位置：。相对于运动中采样对象的位置。
 
-Local Linear Velocity: Vector. Local Linear Velocity:. Linear velocity relative to the sampled in-motion object.
+本地线性速度。矢量。本地线性速度：。相对于运动中采样物体的线性速度。
 
-Local Linear Acceleration: Vector. Local Linear Acceleration:. Linear acceleration relative to the sampled in-motion object.  
+本地线性加速度。矢量。本地线性加速度：。相对于运动中采样物体的线性加速度。  
 
 ## Outputs
 
-Trajectory Sample: Trajectory Sample Structure.
-
+轨迹样本。轨迹样本结构。

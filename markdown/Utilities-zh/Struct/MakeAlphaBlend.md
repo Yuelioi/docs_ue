@@ -1,6 +1,6 @@
 # MakeAlphaBlend
 
-Adds a node that create a 'AlphaBlend' from its members
+添加一个节点，从其成员中创建一个 "AlphaBlend"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AlphaBlend' from its members
 
 ## Outputs
 
-Alpha Blend: Alpha Blend Structure.
-
+Alpha Blend:阿尔法混合体结构。

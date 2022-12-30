@@ -1,6 +1,6 @@
 # BreakGeometryScriptMeshExtrudeOp-
 
-Adds a node that breaks a 'GeometryScriptMeshExtrudeOptions' into its member fields
+添加一个打破'GeometryScriptMeshExtrudeOptions'的节点到其成员字段中
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'GeometryScriptMeshExtrudeOptions' into its member fie
 
 ## Inputs
 
-Geometry Script Mesh Extrude Options: Geometry Script Mesh Extrude Options Structure (by ref).  
+Geometry Script Mesh Extrude Options:Geometry Script Mesh Extrude Options结构（按参考）。  
 
 ## Outputs
 
-Extrude Distance: Float (single-precision). Extrude Distance.
+挤出的距离。Float（单精度）。挤出距离。
 
-Extrude Direction: Vector. Extrude Direction.
+挤出的方向。矢量。挤出方向。
 
-UVScale: Float (single-precision). UVScale.
+UVScale。Float（单精度）。UVScale。
 
-Solids To Shells: Boolean. Solids to Shells.
-
+固体到外壳。布尔型。固体到外壳。

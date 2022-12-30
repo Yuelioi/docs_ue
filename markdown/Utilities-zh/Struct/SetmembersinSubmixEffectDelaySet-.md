@@ -1,6 +1,6 @@
 # SetmembersinSubmixEffectDelaySet-
 
-Adds a node that modifies a 'SubmixEffectDelaySettings'
+添加一个节点，修改 "SubmixEffectDelaySettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SubmixEffectDelaySettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Submix Effect Delay Settings Structure (by ref).  
+Struct Ref: Submix Effect Delay Settings Structure（子混音效果延迟设置结构）（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Submix Effect Delay Settings Structure (by ref). Reference to the input struct.
-
+Struct Out:Submix Effect Delay Settings Structure (by ref)。对输入结构的引用。

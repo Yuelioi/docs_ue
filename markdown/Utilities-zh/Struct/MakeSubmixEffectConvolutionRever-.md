@@ -1,6 +1,6 @@
 # MakeSubmixEffectConvolutionRever-
 
-Adds a node that create a 'SubmixEffectConvolutionReverbSettings' from its members
+添加一个节点，从其成员中创建一个 "SubmixEffectConvolutionReverbSettings"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'SubmixEffectConvolutionReverbSettings' from its membe
 
 ## Inputs
 
-Bypass: Boolean. Bypass:. If true, input audio is directly routed to output audio with applying any effect..
+旁路。布尔型。绕过：。如果为真，输入的音频将直接被送到输出的音频，并应用任何效果。
 
-Mix Input Channel Format To Impulse Response Format: Boolean. Mix Input Channel Format to Impulse Response Format:. If true, the submix input audio is downmixed to match the IR asset audio channel: If false, the input audio's channels are matched to the IR assets: audio channels..
+混合输入通道格式到脉冲响应格式。布尔值。混合输入通道格式到脉冲响应格式：。如果是真的，子混音的输入音频被降频以匹配IR资产的音频通道。如果是假的，输入音频的通道与IR资产的通道相匹配：音频通道。
 
-Mix Reverb Output To Output Channel Format: Boolean. Mix Reverb Output to Output Channel Format:. If true, the reverberated audio is upmixed or downmixed to match the submix: output audio format. If false, the reverberated audio's channels are matched: to the submixs output audio channels..
+混合混响输出到输出通道格式。布尔值。混合混响输出到输出通道格式：。如果为真，混响的音频被向上混合或向下混合，以匹配子混音：输出音频格式。如果是假的，混响音频的通道将与子混音的输出音频通道相匹配。
 
-Surround Rear Channel Bleed Db: Float (single-precision). Surround Rear Channel Bleed Db:. Amout of audio to be sent to rear channels in quad/surround configurations.
+环绕声后置声道漂移Db。浮动（单精度）。环绕声后置声道泄压Db:。在四声道/环绕声配置中发送到后部通道的音频量。
 
-Invert Rear Channel Bleed Phase: Boolean. Invert Rear Channel Bleed Phase:. If true, rear channel bleed sends will have their phase inverted..
+反转后方通道漂流相位。布尔型。Invert Rear Channel Bleed Phase:（反转后方通道的泄压相位）。如果为真，后方通道的泄放信号将反转其相位。
 
-Surround Rear Channel Flip: Boolean. Surround Rear Channel Flip:. If true, send Surround Rear Channel Bleed Amount sends front left to back right and vice versa.  
+环绕声后部通道翻转。布尔型。环绕声后部通道翻转：。如果为真，则发送环绕声后方通道出血量，将前面的左方发送到后面的右方，反之亦然。  
 
 ## Outputs
 
-Submix Effect Convolution Reverb Settings: Submix Effect Convolution Reverb Settings Structure.
-
+Submix Effect Convolution Reverb Settings:Submix Effect Convolution Reverb Settings 结构。

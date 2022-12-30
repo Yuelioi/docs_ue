@@ -1,6 +1,6 @@
 # BreakHmdUserProfile
 
-Adds a node that breaks a 'HmdUserProfile' into its member fields
+添加一个节点，将 "HmdUserProfile "分解为其成员字段。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'HmdUserProfile' into its member fields
 
 ## Inputs
 
-Hmd User Profile: HMD User Profile Data Structure (by ref).  
+Hmd用户资料。HMD用户资料的数据结构（由参考）。  
 
 ## Outputs
 
-Name: String. Name:. Name of the user's profile..
+名称。字符串。名称:.用户资料的名称.
 
-Gender: String. Gender:. Gender of the user ("male", "female", etc)..
+性别。字符串。性别:.用户的性别（"男性"、"女性 "等）。
 
-Player Height: Float (single-precision). Player Height:. Height of the player, in meters.
+球员高度。浮点数（单精度）。球员高度：。球员的高度，以米为单位。
 
-Eye Height: Float (single-precision). Eye Height:. Height of the player, in meters.
+眼睛高度。浮动（单精度）。眼睛高度：。球员的高度，以米为单位。
 
-IPD: Float (single-precision). IPD:. Interpupillary distance of the player, in meters.
+IPD: 浮点数(单精度)。IPD:。球员的瞳孔间距离，单位：米。
 
-Neck To Eye Distance: Vector 2D Structure. Neck to Eye Distance:. Neck-to-eye distance, in meters. X - horizontal, Y - vertical..
+脖子到眼睛的距离。矢量2D结构。颈部到眼睛的距离：。脖子到眼睛的距离，以米为单位。X - 水平，Y - 垂直。
 
-Extra Fields: Array of HMD User Profile Data Field Structures. Extra Fields.
-
+额外字段。HMD用户资料数据字段结构的阵列。额外字段。

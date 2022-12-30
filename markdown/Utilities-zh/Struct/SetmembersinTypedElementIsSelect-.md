@@ -1,6 +1,6 @@
 # SetmembersinTypedElementIsSelect-
 
-Adds a node that modifies a 'TypedElementIsSelectedOptions'
+添加一个修改'TypedElementIsSelectedOptions'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'TypedElementIsSelectedOptions'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Typed Element Is Selected Options Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Typed Element Is Selected Options Structure (by ref). Reference to the input struct.
-
+结构出来。类型元素被选中的选项结构（通过ref）。对输入结构的引用。

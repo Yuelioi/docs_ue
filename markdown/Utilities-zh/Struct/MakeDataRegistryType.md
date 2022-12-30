@@ -1,6 +1,6 @@
 # MakeDataRegistryType
 
-Adds a node that create a 'DataRegistryType' from its members
+添加一个节点，从其成员中创建一个 "DataRegistryType"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'DataRegistryType' from its members
 
 ## Inputs
 
-Name: Name. Name:. The FName representing this type.  
+姓名。姓名：。名称：。代表该类型的FName。  
 
 ## Outputs
 
-Data Registry Type: Data Registry Type Structure.
-
+数据注册类型。数据注册类型结构。

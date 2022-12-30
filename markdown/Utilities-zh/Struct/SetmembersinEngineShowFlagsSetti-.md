@@ -1,6 +1,6 @@
 # SetmembersinEngineShowFlagsSetti-
 
-Adds a node that modifies a 'EngineShowFlagsSetting'
+添加一个修改 "EngineShowFlagsSetting "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'EngineShowFlagsSetting'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Engine Show Flags Setting Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Engine Show Flags Setting Structure (by ref). Reference to the input struct.
-
+结构出来。引擎显示标志设置结构（通过引用）。对输入结构的引用。

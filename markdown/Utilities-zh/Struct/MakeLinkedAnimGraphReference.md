@@ -1,6 +1,6 @@
 # MakeLinkedAnimGraphReference
 
-Adds a node that create a 'LinkedAnimGraphReference' from its members
+添加一个节点，从其成员中创建一个 "LinkedAnimGraphReference"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'LinkedAnimGraphReference' from its members
 
 ## Outputs
 
-Linked Anim Graph Reference: Linked Anim Graph Reference Structure.
-
+链接动画图的参考:链接动画图的参考结构.

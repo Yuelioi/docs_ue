@@ -1,6 +1,6 @@
 # SetmembersinZoneLaneProfileRef
 
-Adds a node that modifies a 'ZoneLaneProfileRef'
+添加一个修改 "ZoneLaneProfileRef "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ZoneLaneProfileRef'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Zone Lane Profile Ref Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Zone Lane Profile Ref Structure (by ref). Reference to the input struct.
-
+结构出来。Zone Lane Profile Ref Structure（通过参考）。对输入结构的引用。

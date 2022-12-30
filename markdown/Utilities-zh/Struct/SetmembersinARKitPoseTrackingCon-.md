@@ -1,6 +1,6 @@
 # SetmembersinARKitPoseTrackingCon-
 
-Adds a node that modifies a 'ARKitPoseTrackingConfig'
+添加一个修改'ARKitPoseTrackingConfig'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ARKitPoseTrackingConfig'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: ARKit Pose Tracking Config Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: ARKit Pose Tracking Config Structure (by ref). Reference to the input struct.
-
+Struct Out:ARKit 姿势跟踪配置结构（通过 ref）。对输入结构的引用。

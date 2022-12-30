@@ -1,6 +1,6 @@
 # MakeWaterBrushEffects
 
-Adds a node that create a 'WaterBrushEffects' from its members
+添加一个节点，从其成员中创建一个 "WaterBrushEffects"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'WaterBrushEffects' from its members
 
 ## Inputs
 
-Blurring: Water Brush Effect Blurring Structure. Blurring.
+模糊化。水刷效果 模糊结构。模糊化。
 
-Curl Noise: Water Brush Effect Curl Noise Structure. Curl Noise.
+卷曲噪音。水刷效果的卷曲噪音结构。卷曲噪音。
 
-Displacement: Water Brush Effect Displacement Structure. Displacement.
+置换。水刷子效应的置换结构。流离失所。
 
-Smooth Blending: Water Brush Effect Smooth Blending Structure. Smooth Blending.
+平滑的混合。水刷效果 平滑的混合结构。平滑的混合。
 
-Terracing: Water Brush Effect Terracing Structure. Terracing.  
+梯田。水刷效果的梯田结构。梯田。  
 
 ## Outputs
 
-Water Brush Effects: Water Brush Effects Structure.
-
+水刷的效果。水刷子的作用结构。

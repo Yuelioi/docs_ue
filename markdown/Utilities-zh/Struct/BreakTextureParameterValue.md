@@ -1,6 +1,6 @@
 # BreakTextureParameterValue
 
-Adds a node that breaks a 'TextureParameterValue' into its member fields
+添加一个节点，将 "TextureParameterValue "分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'TextureParameterValue' into its member fields
 
 ## Inputs
 
-Texture Parameter Value: Texture Parameter Value Structure (by ref).  
+纹理参数值。纹理参数值结构（通过参考）。  
 
 ## Outputs
 
-Parameter Info: Material Parameter Info Structure. Parameter Info.
+参数信息：材料参数信息结构。参数信息。
 
-Parameter Value: Texture Object Reference. Parameter Value.
-
+参数值。纹理对象参考。参数值。

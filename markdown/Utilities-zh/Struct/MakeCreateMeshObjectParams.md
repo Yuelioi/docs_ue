@@ -1,6 +1,6 @@
 # MakeCreateMeshObjectParams
 
-Adds a node that create a 'CreateMeshObjectParams' from its members
+添加一个节点，从其成员中创建一个'CreateMeshObjectParams'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CreateMeshObjectParams' from its members
 
 ## Outputs
 
-Create Mesh Object Params: Create Mesh Object Params Structure.
-
+创建网格对象参数。创建网格对象参数结构。

@@ -1,6 +1,6 @@
 # MakeSoundControlBusMixStage
 
-Adds a node that create a 'SoundControlBusMixStage' from its members
+添加一个节点，从其成员中创建一个 "SoundControlBusMixStage"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'SoundControlBusMixStage' from its members
 
 ## Inputs
 
-Bus: Sound Control Bus Object Reference. Bus:. Bus controlled by stage..
+总线：声音控制总线对象参考。总线:.总线控制的阶段...
 
-Value: Sound Modulation Mix Value Structure. Value:. Value mix is set to..  
+价值。声音调制混合值结构。价值：.价值混合被设定为。
 
 ## Outputs
 
-Sound Control Bus Mix Stage: Sound Control Bus Mix Stage Structure.
-
+声音控制总线混合阶段。声音控制总线混合阶段的结构。

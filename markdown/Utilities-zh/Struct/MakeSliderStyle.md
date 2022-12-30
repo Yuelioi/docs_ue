@@ -1,6 +1,6 @@
 # MakeSliderStyle
 
-Adds a node that create a 'SliderStyle' from its members
+添加一个节点，从其成员中创建一个 "SliderStyle"。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that create a 'SliderStyle' from its members
 
 ## Inputs
 
-Normal Bar Image: Slate Brush Structure. Normal Bar Image:. Image to use when the slider bar is in its normal state.
+普通条形图像。石板刷结构。正常栏图像：。当滑块栏处于正常状态时使用的图像。
 
-Hovered Bar Image: Slate Brush Structure. Hovered Bar Image:. Image to use when the slider bar is in its hovered state.
+悬停的酒吧形象。石板刷结构。悬停条图像：。当滑块栏处于悬停状态时使用的图像。
 
-Disabled Bar Image: Slate Brush Structure. Disabled Bar Image:. Image to use when the slider bar is in its disabled state.
+残缺的酒吧形象。石板刷结构。禁用栏图像：。当滑块栏处于禁用状态时使用的图像。
 
-Normal Thumb Image: Slate Brush Structure. Normal Thumb Image:. Image to use when the slider thumb is in its normal state.
+正常的拇指图像。石板刷结构。正常拇指图像：。当滑块的拇指处于正常状态时使用的图像。
 
-Hovered Thumb Image: Slate Brush Structure. Hovered Thumb Image:. Image to use when the slider thumb is in its hovered state.
+悬停的拇指图像。石板刷结构。悬停的拇指图像：。当滑块的拇指处于悬停状态时使用的图像。
 
-Disabled Thumb Image: Slate Brush Structure. Disabled Thumb Image:. Image to use when the slider thumb is in its disabled state.
+残缺的拇指图像。石板刷结构。失效的拇指图像：。当滑块拇指处于禁用状态时使用的图像。
 
-Bar Thickness: Float (single-precision). Bar Thickness.  
+棒材厚度。Float（单精度）。条形厚度。  
 
 ## Outputs
 
-Slider Style: Slider Style Structure.
-
+滑块风格。滑块风格结构。

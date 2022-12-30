@@ -1,6 +1,6 @@
 # BreakXRHMDData
 
-Adds a node that breaks a 'XRHMDData' into its member fields
+添加一个节点，将'XRHMDData'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'XRHMDData' into its member fields
 
 ## Inputs
 
-XRHMDData: XRHMDData Structure (by ref).  
+XRHMDData。XRHMDData结构（通过引用）。  
 
 ## Outputs
 
-Valid: Boolean. Valid.
+有效。布尔型。有效。
 
-Device Name: Name. Device Name.
+设备名称。名称。设备名称。
 
-Application Instance ID: Guid Structure. Application Instance ID.
+应用实例ID：指导结构。应用实例ID。
 
-Tracking Status: ETrackingStatus Enum. Tracking Status.
+跟踪状态。ETTrackingStatus枚举。追踪状态。
 
-Position: Vector. Position.
+位置。矢量。位置。
 
-Rotation: Quat Structure. Rotation.
-
+轮换。Quat结构。轮换。

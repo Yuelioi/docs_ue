@@ -1,6 +1,6 @@
 # MakePoseSearchDatabaseSequence
 
-Adds a node that create a 'PoseSearchDatabaseSequence' from its members
+添加一个节点，从其成员中创建一个 "PoseSearchDatabaseSequence"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PoseSearchDatabaseSequence' from its members
 
 ## Outputs
 
-Pose Search Database Sequence: Pose Search Database Sequence Structure.
-
+姿势搜索数据库序列。姿势搜索数据库序列结构。

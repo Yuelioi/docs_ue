@@ -1,6 +1,6 @@
 # SetmembersinDMXOutputPortReferen-
 
-Adds a node that modifies a 'DMXOutputPortReference'
+添加一个修改 "DMXOutputPortReference "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXOutputPortReference'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: DMXOutput Port Reference Structure (by ref).  
+Struct Ref: DMXOutput Port Reference Structure（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMXOutput Port Reference Structure (by ref). Reference to the input struct.
-
+结构输出。DMX输出端口参考结构（通过ref）。对输入结构的引用。

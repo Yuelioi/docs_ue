@@ -1,6 +1,6 @@
 # MakeDistortionPointInfo
 
-Adds a node that create a 'DistortionPointInfo' from its members
+添加一个节点，从其成员中创建一个 "DistortionPointInfo"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'DistortionPointInfo' from its members
 
 ## Inputs
 
-Distortion Info: Distortion Info Structure. Distortion Info:. Lens distortion parameter.
+失真信息。失真信息结构。扭曲信息：。镜头失真参数。
 
-Focus: Float (single-precision). Focus:. Point Focus Value.
+焦点。Float（单精度）。焦点：。点聚焦值。
 
-Zoom: Float (single-precision). Zoom:. Point Zoom Value.  
+缩放。Float（单精度）。缩放:.点的缩放值。  
 
 ## Outputs
 
-Distortion Point Info: Distortion Point Info Structure.
-
+扭曲点信息。失真点信息结构。

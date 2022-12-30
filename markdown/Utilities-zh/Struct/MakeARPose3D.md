@@ -1,6 +1,6 @@
 # MakeARPose3D
 
-Adds a node that create a 'ARPose3D' from its members
+添加一个节点，从其成员中创建一个 "ARPose3D"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'ARPose3D' from its members
 
 ## Outputs
 
-ARPose 3D: ARPose 3D Structure.
-
+ARPose 3D: ARPose 3D结构。

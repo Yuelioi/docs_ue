@@ -1,6 +1,6 @@
 # MakeAudioMeterStyle
 
-Adds a node that create a 'AudioMeterStyle' from its members
+添加一个节点，从其成员中创建一个 "AudioMeterStyle"。
 
 ## 图示
 
@@ -8,41 +8,40 @@ Adds a node that create a 'AudioMeterStyle' from its members
 
 ## Inputs
 
-Meter Value Image: Slate Brush Structure. Meter Value Image:. Image to use to represent the meter value..
+表值图像。石板刷结构。仪表值图像：。用来表示仪表值的图像。
 
-Background Image: Slate Brush Structure. Background Image:. Image to use to represent the background..
+背景图片。石板刷结构。背景图片:.用来表示背景的图像。
 
-Meter Background Image: Slate Brush Structure. Meter Background Image:. Image to use to represent the meter background..
+电表背景图片。石板刷结构.电表背景图片：.用来表示仪表背景的图像。
 
-Meter Value Background Image: Slate Brush Structure. Meter Value Background Image:. Image to use to draw behind the meter value..
+表值背景图片。石板刷结构。仪表值背景图片：.用来在仪表值后面绘制的图像。
 
-Meter Peak Image: Slate Brush Structure. Meter Peak Image:. Image to use to represent the meter peak..
+米峰形象。石板刷结构。电表峰值图像：。用来表示电表峰值的图像。
 
-Meter Size: Vector 2D Structure. Meter Size:. How thick to draw the meter.
+米的大小。矢量二维结构。电表尺寸：。绘制多厚的仪表。
 
-Meter Padding: Vector 2D Structure. Meter Padding:. How much padding to add around the meter.
+仪表填充。矢量二维结构。仪表填充：。在仪表周围添加多少填充物。
 
-Meter Value Padding: Float (single-precision). Meter Value Padding:. How much padding to add around the meter value.
+表值填充。Float（单精度）。仪表值填充：。在仪表值周围添加多少填充物。
 
-Peak Value Width: Float (single-precision). Peak Value Width:. How wide to draw the peak value indicator.
+峰值宽度：浮点数（单精度）。峰值宽度：。绘制峰值指示器的宽度。
 
-Value Range Db: Vector 2D Structure. Value Range Db:. The minimum and maximum value to display in dB (values are clamped in this range).
+值范围Db。矢量2D结构。值范围Db:。以dB为单位显示的最小值和最大值（数值在此范围内被夹紧）。
 
-Show Scale: Boolean. Show Scale:. Whether or not to show the decibel scale alongside the meter.
+显示刻度。Boolean.显示刻度：。是否在仪表旁边显示分贝刻度。
 
-Scale Side: Boolean. Scale Side:. Which side to show the scale. If vertical, true means left side, false means right side. If horizontal, true means above, false means below..
+规模方面。Boolean.刻度侧：。显示比例的哪一面。如果是垂直的，真表示左边，假表示右边。如果是水平的，真表示上面，假表示下面。
 
-Scale Hash Offset: Float (single-precision). Scale Hash Offset:. Offset for the hashes.
+缩放哈希偏移。Float (single-precision).Scale Hash Offset:.哈希值的偏移量。
 
-Scale Hash Width: Float (single-precision). Scale Hash Width:. The width of each hash mark.
+Scale Hash Width: Float (single-precision).规模哈希宽度：。每个哈希标记的宽度。
 
-Scale Hash Height: Float (single-precision). Scale Hash Height:. The height of each hash mark.
+缩放哈希高度。Float (single-precision).规模哈希高度：。每个哈希标记的高度。
 
-Decibels Per Hash: Integer. Decibels Per Hash:. How wide to draw the decibel scale, if it's enabled.
+每个哈希值的分贝：整数。Decibels Per Hash:.如果启用了分贝表，要画多宽。
 
-Font: Slate Font Info Structure. Font:. Font family and size to be used when displaying the meter scale..  
+字体。Slate字体信息结构。字体:.显示仪表刻度时要使用的字体家族和大小。
 
 ## Outputs
 
-Audio Meter Style: Audio Meter Style Structure.
-
+音频仪表风格：音频仪表风格结构。

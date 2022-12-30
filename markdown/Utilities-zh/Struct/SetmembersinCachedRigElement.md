@@ -1,6 +1,6 @@
 # SetmembersinCachedRigElement
 
-Adds a node that modifies a 'CachedRigElement'
+添加一个修改 "CachedRigElement "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CachedRigElement'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Cached Rig Element Structure (by ref).  
+Struct Ref: 缓存的钻机元素结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Cached Rig Element Structure (by ref). Reference to the input struct.
-
+结构出来。缓存的钻机元素结构（通过引用）。对输入结构的引用。

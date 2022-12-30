@@ -1,6 +1,6 @@
 # MakeEyeTrackerGazeData
 
-Adds a node that create a 'EyeTrackerGazeData' from its members
+添加一个节点，从其成员中创建一个 "EyeTrackerGazeData"。
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that create a 'EyeTrackerGazeData' from its members
 
 ## Inputs
 
-Gaze Origin: Vector. Gaze Origin:. Origin of the unified gaze ray..
+凝视原点。向量。凝视原点：。统一的凝视射线的起源。
 
-Gaze Direction: Vector. Gaze Direction:. Forward direction of the unified gaze ray..
+凝视方向。矢量。凝视方向：。统一凝视射线的前进方向。
 
-Fixation Point: Vector. Fixation Point:. Location that the eyes converge. This is the 3d point where the tracked viewer is looking..
+固定点。向量。固定点：。眼睛汇聚的位置。这是被追踪的观看者正在看的3D点。
 
-Confidence Value: Float (single-precision). Confidence Value:. Value [0..1] that represents confidence in the gaze ray data above. Stable, reliably tracked eyes will be at or near 1. Fast-moving or unreliably tracked eyes will be at or near 0..  
+信心值。Float（单精度）。信心值：。代表对上述凝视射线数据的信心的值[0...1]。稳定的、可靠追踪的眼睛将处于或接近1。快速移动或不可靠跟踪的眼睛将处于或接近0。
 
 ## Outputs
 
-Eye Tracker Gaze Data: Eye Tracker Gaze Data Structure.
-
+眼球追踪器凝视数据。眼球追踪器凝视数据结构。

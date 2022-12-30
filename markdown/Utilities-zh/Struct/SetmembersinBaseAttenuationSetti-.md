@@ -1,6 +1,6 @@
 # SetmembersinBaseAttenuationSetti-
 
-Adds a node that modifies a 'BaseAttenuationSettings'
+添加一个节点，修改 "BaseAttenuationSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'BaseAttenuationSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Base Attenuation Settings Structure (by ref).  
+结构参考：基础衰减设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Base Attenuation Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Base Attenuation Settings Structure（通过参考）。对输入结构的引用。

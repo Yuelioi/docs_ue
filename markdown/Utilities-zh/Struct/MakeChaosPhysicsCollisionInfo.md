@@ -1,6 +1,6 @@
 # MakeChaosPhysicsCollisionInfo
 
-Adds a node that create a 'ChaosPhysicsCollisionInfo' from its members
+添加一个节点，从其成员中创建一个 "ChaosPhysicsCollisionInfo"。
 
 ## 图示
 
@@ -8,29 +8,28 @@ Adds a node that create a 'ChaosPhysicsCollisionInfo' from its members
 
 ## Inputs
 
-Component: Primitive Component Object Reference. Component.
+组件。原始组件对象参考。组件。
 
-Other Component: Primitive Component Object Reference. Other Component.
+其他组件。原始组件对象参考。其他组件。
 
-Location: Vector. Location:. Location of the impact.
+地点：向量。向量。位置：。撞击的位置。
 
-Normal: Vector. Normal:. Normal at the impact.
+正常。矢量。法线：。撞击处的法线。
 
-Accumulated Impulse: Vector. Accumulated Impulse.
+累积冲力：向量。累积冲动。
 
-Velocity: Vector. Velocity.
+速度。矢量。速度。
 
-Other Velocity: Vector. Other Velocity.
+其他速度。矢量。其他速度。
 
-Angular Velocity: Vector. Angular Velocity.
+角速度。矢量。角速度。
 
-Other Angular Velocity: Vector. Other Angular Velocity.
+其他角速度。矢量。Other Angular Velocity.
 
-Mass: Float (single-precision). Mass.
+质量。Float（单精度）。质量。
 
-Other Mass: Float (single-precision). Other Mass.  
+其他质量。Float（单精度）。其他质量。  
 
 ## Outputs
 
-Chaos Physics Collision Info: Chaos Physics Collision Info Structure.
-
+混沌物理学的碰撞信息。混沌物理学碰撞信息结构。

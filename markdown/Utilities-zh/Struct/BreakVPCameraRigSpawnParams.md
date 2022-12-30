@@ -1,6 +1,6 @@
 # BreakVPCameraRigSpawnParams
 
-Adds a node that breaks a 'VPCameraRigSpawnParams' into its member fields
+添加一个节点，将'VPCameraRigSpawnParams'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'VPCameraRigSpawnParams' into its member fields
 
 ## Inputs
 
-VPCamera Rig Spawn Params: VPCamera Rig Spawn Params Structure (by ref).  
+VPCamera Rig Spawn Params:VPCamera Rig Spawn Params结构（通过参考）。  
 
 ## Outputs
 
-Use World Space: Boolean. Use World Space:. Use world space (as opposed to local space) for points..
+使用世界空间。Boolean.使用世界空间：。使用世界空间（相对于本地空间）的点。
 
-Use First Point As Spawn Location: Boolean. Use First Point as Spawn Location:. Use the first vector of input as the spawn transform.. Causes RigTransform to be completely ignored..
+使用第一点作为产卵地点。布尔值。使用第一点作为产卵地点：。使用输入的第一个矢量作为产卵变换。导致RigTransform被完全忽略。
 
-Linear Approximation Mode: EVPCameraRigSpawnLinearApproximationMode Enum. Linear Approximation Mode:. Causes a linear approximation of the spline points to be generated instead. of relying purely on the passed in points / curves..
+线性逼近模式。EVPCameraRigSpawnLinearApproximationMode枚举。线性逼近模式：.导致花键点的线性逼近被生成，而不是纯粹依靠传入的点/曲线。
 
-Linear Approximation Param: Float (single-precision). Linear Approximation Param:. This is only used if LinearApproximationMode is not None.. When mode is Density:. See FSplinePositionLinearApproximation::Build.: When mode is IntegrationStep:. Integration step (in CM) between approximation points. Decreasing this value will. increase the number of spline points and will therefore increase the accuracy. (at the cost of increased complexity)..
-
+线性近似参数。Float (single-precision).Linear Approximation Param:.只有在LinearApproximationMode不是None.时才会使用。当模式为密度时：。参见FSplinePositionLinearApproximation::Build。当模式为IntegrationStep时：。近似点之间的整合步骤（以CM为单位）。减少这个值会。增加花键点的数量，因此会增加精度。(以增加复杂性为代价)。

@@ -1,6 +1,6 @@
 # MakeSTMapPointInfo
 
-Adds a node that create a 'STMapPointInfo' from its members
+添加一个节点，从其成员中创建一个'STmapPointInfo'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'STMapPointInfo' from its members
 
 ## Inputs
 
-STMap Info: STMap Info Structure. STMap Info:. ST Map parameter.
+STMap信息。STMap信息结构。STMap Info:.ST Map参数。
 
-Focus: Float (single-precision). Focus:. Point Focus Value.
+焦点。Float（单精度）。焦点：。点聚焦值。
 
-Zoom: Float (single-precision). Zoom:. Point Zoom Value.  
+缩放。Float（单精度）。缩放:.点的缩放值。  
 
 ## Outputs
 
-STMap Point Info: STMap Point Info Structure.
-
+STMap点信息。STMap点信息结构。

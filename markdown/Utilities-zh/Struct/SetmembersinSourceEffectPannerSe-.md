@@ -1,6 +1,6 @@
 # SetmembersinSourceEffectPannerSe-
 
-Adds a node that modifies a 'SourceEffectPannerSettings'
+添加一个节点，修改 "SourceEffectPannerSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SourceEffectPannerSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Source Effect Panner Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Source Effect Panner Settings Structure (by ref). Reference to the input struct.
-
+Struct Out:Source Effect Panner Settings Structure（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeGoogleARCoreAugmentedImageDa-
 
-Adds a node that create a 'GoogleARCoreAugmentedImageDatabaseEntry' from its members
+添加一个节点，从其成员中创建一个 "GoogleARCoreAugmentedImageDatabaseEntry"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GoogleARCoreAugmentedImageDatabaseEntry' from its mem
 
 ## Outputs
 
-Google ARCore Augmented Image Database Entry: Google ARCore Augmented Image Database Entry Structure.
-
+谷歌ARCore增强型图像数据库条目。谷歌ARCore增强型图像数据库条目结构。

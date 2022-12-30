@@ -1,6 +1,6 @@
 # SetmembersinLidarPointCloudNorma-
 
-Adds a node that modifies a 'LidarPointCloudNormal'
+添加一个节点，修改 "LidarPointCloudNormal"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'LidarPointCloudNormal'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Lidar Point Cloud Normal Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Lidar Point Cloud Normal Structure (by ref). Reference to the input struct.
-
+结构出来。激光雷达点云正常结构（通过参考）。对输入结构的引用。

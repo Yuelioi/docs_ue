@@ -1,6 +1,6 @@
 # BreakGeometryScriptMathWarpOptio-
 
-Adds a node that breaks a 'GeometryScriptMathWarpOptions' into its member fields
+添加一个节点，将'GeometryScriptMathWarpOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'GeometryScriptMathWarpOptions' into its member fields
 
 ## Inputs
 
-Geometry Script Math Warp Options: Geometry Script Math Warp Options Structure (by ref).  
+Geometry Script Math Warp Options:Geometry Script Math Warp Options结构（由参考文献）。  
 
 ## Outputs
 
-Magnitude: Float (single-precision). Magnitude.
+幅度。Float（单精度）。幅值。
 
-Frequency: Float (single-precision). Frequency.
+频率。Float (single-precision).频率。
 
-Frequency Shift: Float (single-precision). Frequency Shift.
-
+频移。Float (single-precision).频移。

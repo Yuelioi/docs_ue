@@ -1,6 +1,6 @@
 # SetmembersinMoviePipelineSegment-
 
-Adds a node that modifies a 'MoviePipelineSegmentWorkMetrics'
+添加一个节点，修改 "MoviePipelineSegmentWorkMetrics"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MoviePipelineSegmentWorkMetrics'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Movie Pipeline Segment Work Metrics Structure (by ref).  
+结构参考：电影管道段工作指标结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Movie Pipeline Segment Work Metrics Structure (by ref). Reference to the input struct.
-
+结构出来。电影管道段工作指标结构（通过参考）。对输入结构的引用。

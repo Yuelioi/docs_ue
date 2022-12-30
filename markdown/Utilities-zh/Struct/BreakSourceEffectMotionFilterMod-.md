@@ -1,6 +1,6 @@
 # BreakSourceEffectMotionFilterMod-
 
-Adds a node that breaks a 'SourceEffectMotionFilterModulationSettings' into its member fields
+添加一个节点，将'SourceEffectMotionFilterModulationSettings'分解到其成员字段中。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'SourceEffectMotionFilterModulationSettings' into its 
 
 ## Inputs
 
-Source Effect Motion Filter Modulation Settings: Source Effect Motion Filter Modulation Settings Structure (by ref).  
+源效果运动滤波器调制设置。源效果运动滤波器调制设置结构（按参考）。  
 
 ## Outputs
 
-Modulation Source: ESourceEffectMotionFilterModSource Enum. Modulation Source:. The Modulation Source.
+调制源。ESourceEffectMotionFilterModSource枚举。调制源：。调制源。
 
-Modulation Input Range: Vector 2D Structure. Modulation Input Range:. The Modulation Clamped Input Range.
+调制输入范围。矢量二维结构。调制输入范围：。调制钳制的输入范围。
 
-Modulation Output Minimum Range: Vector 2D Structure. Modulation Output Minimum Range:. The Modulation Random Minimum Output Range.
+调制输出最小范围。矢量2D结构。调制输出最小范围：。调制随机最小输出范围。
 
-Modulation Output Maximum Range: Vector 2D Structure. Modulation Output Maximum Range:. The Modulation Random Maximum Output Range.
+调制输出最大范围。矢量2D结构。调制输出最大范围：。调制随机最大输出范围。
 
-Update Ease MS: Float (single-precision). Update Ease MS:. Update Ease Speed in milliseconds.
-
+更新Ease MS: Float (single-precision).Update Ease MS:.更新速度，以毫秒为单位。

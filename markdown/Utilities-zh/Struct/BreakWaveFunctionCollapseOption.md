@@ -1,6 +1,6 @@
 # BreakWaveFunctionCollapseOption
 
-Adds a node that breaks a 'WaveFunctionCollapseOption' into its member fields
+添加一个节点，将'WaveFunctionCollapseOption'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'WaveFunctionCollapseOption' into its member fields
 
 ## Inputs
 
-Wave Function Collapse Option: Wave Function Collapse Option Structure (by ref).  
+波函数折叠选项。波函数折叠选项结构（按参考）。  
 
 ## Outputs
 
-Base Object: Soft Object Path Structure. Base Object.
+基础对象。软对象路径结构。基础对象。
 
-Base Rotator: Rotator. Base Rotator.
+基地旋转器: 旋转器。基地旋转器。
 
-Base Scale 3D: Vector. Base Scale 3D.
-
+基础比例3D：矢量。基础比例3D。

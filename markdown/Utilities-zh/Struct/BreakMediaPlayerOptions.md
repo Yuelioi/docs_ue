@@ -1,6 +1,6 @@
 # BreakMediaPlayerOptions
 
-Adds a node that breaks a 'MediaPlayerOptions' into its member fields
+添加一个节点，将'MediaPlayerOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'MediaPlayerOptions' into its member fields
 
 ## Inputs
 
-Media Player Options: Media Player Options Structure (by ref).  
+媒体播放器选项。媒体播放器选项结构（按参考）。  
 
 ## Outputs
 
-Tracks: Media Player Track Options Structure. Tracks.
+曲目。媒体播放器轨道选项结构。曲目。
 
-Seek Time: Timespan Structure. Seek Time.
+寻求时间：时间跨度结构。寻求时间。
 
-Play On Open: EMediaPlayerOptionBooleanOverride Enum. Play on Open.
+打开时播放。EMediaPlayerOptionBooleanOverride枚举。打开时播放。
 
-Loop: EMediaPlayerOptionBooleanOverride Enum. Loop.
-
+循环。EMediaPlayerOptionBooleanOverride Enum.循环。

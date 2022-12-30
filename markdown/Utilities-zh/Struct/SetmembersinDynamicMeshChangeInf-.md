@@ -1,6 +1,6 @@
 # SetmembersinDynamicMeshChangeInf-
 
-Adds a node that modifies a 'DynamicMeshChangeInfo'
+添加一个修改'DynamicMeshChangeInfo'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DynamicMeshChangeInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Dynamic Mesh Change Info Structure (by ref).  
+结构参考：动态网格变化信息结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Dynamic Mesh Change Info Structure (by ref). Reference to the input struct.
-
+结构出来。动态网格变化信息结构（通过ref）。对输入结构的引用。

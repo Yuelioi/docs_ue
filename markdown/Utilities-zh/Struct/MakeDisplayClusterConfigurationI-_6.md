@@ -1,6 +1,6 @@
 # MakeDisplayClusterConfigurationI-_6
 
-Adds a node that create a 'DisplayClusterConfigurationICVFX_VisibilityList' from its members
+添加一个节点，从其成员中创建一个 "DisplayClusterConfigurationICVFX_VisibilityList"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'DisplayClusterConfigurationICVFX_VisibilityList' from
 
 ## Inputs
 
-Layers: Array of Actor Layer Structures. Actor Layers:. {LayersTooltip}.
+层。演员层结构的阵列。Actor Layers:.{LayersTooltip}.
 
-Actors: Array of Actor Soft Object References. Actors:. {ActorsTooltip}.
+演员。演员软对象参考数组。Actors:.{ActorsTooltip}.
 
-Root Actor Component Names: Array of Strings. Root Actor Component Names:. Reference to RootActor components by names.  
+根部演员组件名称。字符串阵列。Root Actor Component Names:.通过名称参考RootActor组件。  
 
 ## Outputs
 
-Display Cluster Configuration ICVFX Visibility List: Display Cluster Configuration ICVFX Visibility List Structure.
-
+显示群集配置 ICVFX 可见性列表。显示群集配置 ICVFX 可见性列表结构。

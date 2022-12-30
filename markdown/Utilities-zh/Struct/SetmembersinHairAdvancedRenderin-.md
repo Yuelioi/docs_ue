@@ -1,6 +1,6 @@
 # SetmembersinHairAdvancedRenderin-
 
-Adds a node that modifies a 'HairAdvancedRenderingSettings'
+添加一个修改 "HairAdvancedRenderingSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'HairAdvancedRenderingSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Hair Advanced Rendering Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Hair Advanced Rendering Settings Structure (by ref). Reference to the input struct.
-
+Struct Out: Hair Advanced Rendering Settings Structure（通过引用）。对输入结构的引用。

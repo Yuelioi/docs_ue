@@ -1,6 +1,6 @@
 # MakeInterpCurvePointFloat
 
-Adds a node that create a 'InterpCurvePointFloat' from its members
+添加一个节点，从其成员中创建一个 "InterpCurvePointFloat"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'InterpCurvePointFloat' from its members
 
 ## Inputs
 
-In Val: Float (single-precision). In Val:. Float input value that corresponds to this key (eg. time)..
+在Val中：浮点数（单精度）。In Val:.与此键对应的浮动输入值（例如：时间）。
 
-Out Val: Float (single-precision). Out Val:. Float output value type when input is equal to InVal..
+Out Val: Float (single-precision).Out Val:.当输入等于InVal.时的浮动输出值类型。
 
-Arrive Tangent: Float (single-precision). Arrive Tangent:. Tangent of curve arriving at this point..
+到达切线。Float（单精度）。到达正切：。曲线到达此点的正切。
 
-Leave Tangent: Float (single-precision). Leave Tangent:. Tangent of curve leaving this point..
+离开切线。Float (single-precision).离开切线：。离开此点的曲线切线。
 
-Interp Mode: EInterpCurveMode Enum. Interp Mode:. Interpolation mode between this point and the next one..  
+Interp模式。EInterpCurveMode Enum.Interp Mode:.这个点和下一个点之间的插值模式。  
 
 ## Outputs
 
-Interp Curve Point Float: Interp Curve Point Float Structure.
-
+Interp Curve Point Float:Interp Curve Point Float 结构。

@@ -1,8 +1,8 @@
 # BreakFrameRate
 
-Breaks a FFrameRate into a numerator and denominator.
+将一个FFrameRate分解成分子和分母。
 
-Target is Kismet Math Library
+目标是Kismet数学图书馆
 
 ## 图示
 
@@ -10,11 +10,10 @@ Target is Kismet Math Library
 
 ## Inputs
 
-In Frame Rate: Frame Rate Structure (by ref).  
+在帧率。帧率结构（按参考）。  
 
 ## Outputs
 
-Numerator: Integer.
+分子：整数。
 
-Denominator: Integer.
-
+分母：整数。

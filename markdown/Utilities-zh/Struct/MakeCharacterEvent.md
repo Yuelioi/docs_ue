@@ -1,6 +1,6 @@
 # MakeCharacterEvent
 
-Adds a node that create a 'CharacterEvent' from its members
+添加一个节点，从其成员中创建一个 "CharacterEvent"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CharacterEvent' from its members
 
 ## Outputs
 
-Character Event: Character Event Structure.
-
+角色事件。角色事件结构。

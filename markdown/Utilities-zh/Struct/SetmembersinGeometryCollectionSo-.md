@@ -1,6 +1,6 @@
 # SetmembersinGeometryCollectionSo-
 
-Adds a node that modifies a 'GeometryCollectionSource'
+添加一个修改 "GeometryCollectionSource "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'GeometryCollectionSource'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Geometry Collection Source Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Geometry Collection Source Structure (by ref). Reference to the input struct.
-
+结构出来。Geometry Collection源结构（通过ref）。对输入结构的引用。

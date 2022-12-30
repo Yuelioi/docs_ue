@@ -1,6 +1,6 @@
 # SetmembersinHairCardsTextureSett-
 
-Adds a node that modifies a 'HairCardsTextureSettings'
+添加一个节点，修改 "HairCardsTextureSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'HairCardsTextureSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Hair Cards Texture Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Hair Cards Texture Settings Structure (by ref). Reference to the input struct.
-
+Struct Out: Hair Cards Texture Settings Structure (by ref).对输入结构的引用。

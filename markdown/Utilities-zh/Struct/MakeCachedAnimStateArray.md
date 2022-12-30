@@ -1,6 +1,6 @@
 # MakeCachedAnimStateArray
 
-Adds a node that create a 'CachedAnimStateArray' from its members
+添加一个节点，从其成员中创建一个 "CachedAnimStateArray"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'CachedAnimStateArray' from its members
 
 ## Outputs
 
-Cached Anim State Array: Cached Anim State Array Structure.
-
+缓存的动画状态数组。缓存的动画状态数组结构.

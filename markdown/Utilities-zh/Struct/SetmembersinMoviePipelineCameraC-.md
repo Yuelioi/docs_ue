@@ -1,6 +1,6 @@
 # SetmembersinMoviePipelineCameraC-
 
-Adds a node that modifies a 'MoviePipelineCameraCutInfo'
+添加一个节点，修改 "MoviePipelineCameraCutInfo"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MoviePipelineCameraCutInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Movie Pipeline Camera Cut Info Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Movie Pipeline Camera Cut Info Structure (by ref). Reference to the input struct.
-
+结构出来。Movie Pipeline Camera Cut Info Structure（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # MakeMotionEvent
 
-Adds a node that create a 'MotionEvent' from its members
+添加一个节点，从其成员中创建一个 "MotionEvent"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'MotionEvent' from its members
 
 ## Outputs
 
-Motion Event: Motion Event Structure.
-
+运动事件。运动事件结构。

@@ -1,6 +1,6 @@
 # MakeGeometryScriptSimplifyMeshOp-
 
-Adds a node that create a 'GeometryScriptSimplifyMeshOptions' from its members
+添加一个节点，从其成员中创建一个 "GeometryScriptSimplifyMeshOptions"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'GeometryScriptSimplifyMeshOptions' from its members
 
 ## Inputs
 
-Method: EGeometryScriptRemoveMeshSimplificationType Enum. Method.
+方法。EGeometryScriptRemoveMeshSimplificationType枚举。方法。
 
-Allow Seam Collapse: Boolean. Allow Seam Collapse.
+允许接缝塌陷。布尔型。允许缝合。
 
-Allow Seam Smoothing: Boolean. Allow Seam Smoothing.
+允许接缝平滑：布尔值。允许接缝平滑。
 
-Allow Seam Splits: Boolean. Allow Seam Splits.
+允许接缝分割。布尔型。允许拼接。
 
-Preserve Vertex Positions: Boolean. Preserve Vertex Positions.
+保留顶点位置。Boolean.保留顶点位置。
 
-Retain Quadric Memory: Boolean. Retain Quadric Memory.  
+保留四边形内存。布尔型。保留Quadric内存。  
 
 ## Outputs
 
-Geometry Script Simplify Mesh Options: Geometry Script Simplify Mesh Options Structure.
-
+Geometry Script Simplify Mesh Options:Geometry Script Simplify Mesh Options 结构。

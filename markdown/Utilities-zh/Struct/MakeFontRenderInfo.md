@@ -1,6 +1,6 @@
 # MakeFontRenderInfo
 
-Adds a node that create a 'FontRenderInfo' from its members
+添加一个节点，从其成员中创建一个'FontRenderInfo'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'FontRenderInfo' from its members
 
 ## Inputs
 
-Clip Text: Boolean. Clip Text:. Whether to clip text.
+剪切文本。Boolean.剪辑文本：。是否剪辑文本。
 
-Enable Shadow: Boolean. Enable Shadow:. Whether to turn on shadowing.
+启用阴影：布尔值。启用阴影：。是否开启阴影。
 
-Glow Info: Depth Field Glow Info Structure. Glow Info:. Depth field glow parameters (only usable if font was imported with a depth field).  
+辉光信息。深度场辉光信息结构。辉光信息：。深度场辉光参数（只有在字体被导入深度场的情况下才可用）。  
 
 ## Outputs
 
-Font Render Info: Font Render Info Structure.
-
+字体渲染信息：字体渲染信息结构。

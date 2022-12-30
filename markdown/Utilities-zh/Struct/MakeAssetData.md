@@ -1,6 +1,6 @@
 # MakeAssetData
 
-Adds a node that create a 'AssetData' from its members
+添加一个节点，从其成员中创建一个 "资产数据"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AssetData' from its members
 
 ## Outputs
 
-Asset Data: Asset Data Structure.
-
+资产数据。资产数据结构。

@@ -1,6 +1,6 @@
 # MakeWaterBrushEffectBlurring
 
-Adds a node that create a 'WaterBrushEffectBlurring' from its members
+添加一个节点，从其成员中创建一个'WaterBrushEffectBlurring'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'WaterBrushEffectBlurring' from its members
 
 ## Inputs
 
-Blur Shape: Boolean. Blur Shape.
+模糊的形状。Boolean.模糊的形状。
 
-Radius: Integer. Radius.  
+半径：整数。半径。  
 
 ## Outputs
 
-Water Brush Effect Blurring: Water Brush Effect Blurring Structure.
-
+水刷效果的模糊化。水刷效果 模糊结构。

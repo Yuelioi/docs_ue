@@ -1,6 +1,6 @@
 # SetmembersinSubmixEffectTapDelay-
 
-Adds a node that modifies a 'SubmixEffectTapDelaySettings'
+添加一个节点，修改 "SubmixEffectTapDelaySettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SubmixEffectTapDelaySettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Submix Effect Tap Delay Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Submix Effect Tap Delay Settings Structure (by ref). Reference to the input struct.
-
+Struct Out:Submix Effect Tap Delay Settings Structure（通过参考）。对输入结构的引用。

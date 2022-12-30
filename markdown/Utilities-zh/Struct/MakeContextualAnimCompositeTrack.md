@@ -1,6 +1,6 @@
 # MakeContextualAnimCompositeTrack
 
-Adds a node that create a 'ContextualAnimCompositeTrack' from its members
+添加一个节点，从其成员中创建一个 "ContextualAnimCompositeTrack"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ContextualAnimCompositeTrack' from its members
 
 ## Inputs
 
-Settings: Contextual Anim Track Settings Structure. Settings.
+设置。上下文的Anim轨道设置结构。设置.
 
-Anim Data Container: Array of Contextual Anim Data Structures. Anim Data Container.  
+动画数据容器。上下文的动画数据结构阵列.动画数据容器.  
 
 ## Outputs
 
-Contextual Anim Composite Track: Contextual Anim Composite Track Structure.
-
+语境动画综合轨道:语境动画综合轨道结构.

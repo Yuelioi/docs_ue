@@ -1,6 +1,6 @@
 # BreakOpenCVLensDistortionParamet-
 
-Adds a node that breaks a 'OpenCVLensDistortionParameters' into its member fields
+添加一个节点，将'OpenCVLensDistortionParameters'分解成其成员字段
 
 ## 图示
 
@@ -8,29 +8,28 @@ Adds a node that breaks a 'OpenCVLensDistortionParameters' into its member field
 
 ## Inputs
 
-Open CVLens Distortion Parameters: Open CVLens Distortion Parameters Structure (by ref).  
+开放式CVLens失真参数。开放式CVLens失真参数结构（按参考）。  
 
 ## Outputs
 
-K1: Float (single-precision). K1:. Radial parameter #1..
+K1：浮点（单精度）。K1:.径向参数#1.
 
-K2: Float (single-precision). K2:. Radial parameter #2..
+K2:浮点数（单精度）。K2:.径向参数#2.
 
-P1: Float (single-precision). P1:. Tangential parameter #1..
+P1：浮点数（单精度）。P1:.切向参数#1.
 
-P2: Float (single-precision). P2:. Tangential parameter #2..
+P2:浮点数（单精度）。P2:.切向参数#2.
 
-K3: Float (single-precision). K3:. Radial parameter #3..
+K3: 浮点数（单精度）。K3:.径向参数#3.
 
-K4: Float (single-precision). K4:. Radial parameter #4..
+K4: 浮点数(单精度)。K4:.径向参数#4.
 
-K5: Float (single-precision). K5:. Radial parameter #5..
+K5：浮点（单精度）。K5:.径向参数#5.
 
-K6: Float (single-precision). K6:. Radial parameter #6..
+K6: Float (single-precision).K6:.径向参数#6.
 
-F: Vector 2D Structure. F:. Camera matrix's normalized Fx and Fy..
+F: 矢量二维结构。F:.相机矩阵的归一化Fx和Fy。
 
-C: Vector 2D Structure. C:. Camera matrix's normalized Cx and Cy..
+C：向量二维结构。C:.相机矩阵的归一化Cx和Cy.。
 
-Use Fisheye Model: Boolean. Use Fisheye Model:. Camera lens needs Fisheye camera model..
-
+使用鱼眼模型。Boolean.Use Fisheye Model:.使用鱼眼模型。相机镜头需要鱼眼相机模型。

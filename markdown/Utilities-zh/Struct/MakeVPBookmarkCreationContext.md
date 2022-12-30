@@ -1,6 +1,6 @@
 # MakeVPBookmarkCreationContext
 
-Adds a node that create a 'VPBookmarkCreationContext' from its members
+添加一个节点，从其成员中创建一个 "VPBookmarkCreationContext"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'VPBookmarkCreationContext' from its members
 
 ## Inputs
 
-Concert Creator: String. Concert Creator:. Username of the Concert client who is creating this bookmark..
+音乐会的创造者。弦乐。Concert Creator:.创建此书签的Concert客户端的用户名...
 
-Category Name: Name. Category Name:. Category of the Bookmark.
+类别名称。名称。类别名称:.书签的类别。
 
-Display Name: String. Display Name:. Name of the Bookmark.  
+显示名称。字符串。显示名称：。书签的名称。  
 
 ## Outputs
 
-VPBookmark Creation Context: VPBookmark Creation Context Structure.
-
+VPBookmark创建上下文。VPBookmark Creation Context结构。

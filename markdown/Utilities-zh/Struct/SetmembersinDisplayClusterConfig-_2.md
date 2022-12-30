@@ -1,6 +1,6 @@
 # SetmembersinDisplayClusterConfig-_2
 
-Adds a node that modifies a 'DisplayClusterConfigurationICVFX_Size'
+添加一个节点，修改 "DisplayClusterConfigurationICVFX_Size"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DisplayClusterConfigurationICVFX_Size'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Display Cluster Configuration ICVFX Size Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Display Cluster Configuration ICVFX Size Structure (by ref). Reference to the input struct.
-
+结构出来。显示集群配置ICVFX大小结构（通过参考）。对输入结构的引用。

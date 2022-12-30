@@ -1,6 +1,6 @@
 # MakeFloatRange
 
-Adds a node that create a 'FloatRange' from its members
+添加一个节点，从其成员中创建一个 "FloatRange"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'FloatRange' from its members
 
 ## Inputs
 
-Lower Bound: Float Range Bound Structure. Lower Bound:. Holds the range's lower bound..
+下限。浮动范围边界结构。Lower Bound:.保存范围的下限。
 
-Upper Bound: Float Range Bound Structure. Upper Bound:. Holds the range's upper bound..  
+上边界。浮动范围边界结构。Upper Bound:.保存范围的上界。
 
 ## Outputs
 
-Float Range: Float Range Structure.
-
+浮动范围。浮动范围的结构。

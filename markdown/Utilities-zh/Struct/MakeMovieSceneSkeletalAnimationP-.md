@@ -1,6 +1,6 @@
 # MakeMovieSceneSkeletalAnimationP-
 
-Adds a node that create a 'MovieSceneSkeletalAnimationParams' from its members
+添加一个节点，从其成员中创建一个 "MovieSceneSkeletalAnimationParams"。
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that create a 'MovieSceneSkeletalAnimationParams' from its members
 
 ## Inputs
 
-Animation: Anim Sequence Base Object Reference. Animation:. The animation this section plays.
+动画。Anim Sequence 基础对象参考.动画：。本节播放的动画。
 
-First Loop Start Frame Offset: Frame Number Structure. First Loop Start Frame Offset:. The offset into the beginning of the animation clip for the first loop of play..
+第一个循环的起始帧偏移。帧号结构。第一个循环的开始帧偏移：。第一个循环播放的动画片段开始的偏移量。
 
-Start Frame Offset: Frame Number Structure. Start Frame Offset:. The offset into the beginning of the animation clip.
+开始帧偏移。帧号结构。开始帧偏移：。动画片段开始的偏移量。
 
-End Frame Offset: Frame Number Structure. End Frame Offset:. The offset into the end of the animation clip.
+结束帧偏移。帧号结构。结束帧偏移：。动画片段结束时的偏移量。
 
-Play Rate: Float (single-precision). Play Rate:. The playback rate of the animation clip.
+播放率。Float（单精度）。播放率：。动画片段的播放速率。
 
-Reverse: Boolean. Reverse:. Reverse the playback of the animation clip.
+反向。布尔型。反转：。反向播放动画片段。
 
-Slot Name: Name. Slot Name:. The slot name to use for the animation.
+槽位名称。名称。槽位名称：。动画要使用的槽位名称。
 
-Mirror Data Table: Mirror Data Table Object Reference. Mirror Data Table.
+镜像数据表。镜像数据表对象参考.镜像数据表。
 
-Skip Anim Notifiers: Boolean. Skip Anim Notifiers:. If on will skip sending animation notifies.  
+跳过Anim Notifiers。Boolean.跳过动画通知器：.如果开启将跳过发送动画通知。  
 
 ## Outputs
 
-Movie Scene Skeletal Animation Params: Movie Scene Skeletal Animation Params Structure.
-
+Movie Scene Skeletal Animation Params:电影场景骨架动画参数结构。

@@ -1,6 +1,6 @@
 # SetmembersinSoundClassProperties
 
-Adds a node that modifies a 'SoundClassProperties'
+添加一个修改 "SoundClassProperties "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SoundClassProperties'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Sound Class Properties Structure (by ref).  
+结构参考：声音类属性结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sound Class Properties Structure (by ref). Reference to the input struct.
-
+结构出来。声音类属性结构（通过引用）。对输入结构的引用。

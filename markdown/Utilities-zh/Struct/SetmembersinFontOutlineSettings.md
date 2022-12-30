@@ -1,6 +1,6 @@
 # SetmembersinFontOutlineSettings
 
-Adds a node that modifies a 'FontOutlineSettings'
+添加一个修改 "FontOutlineSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'FontOutlineSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Font Outline Settings Structure (by ref).  
+结构参考：字体概要设置结构（按参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Font Outline Settings Structure (by ref). Reference to the input struct.
-
+结构出来。字体轮廓设置结构（通过引用）。对输入结构的引用。

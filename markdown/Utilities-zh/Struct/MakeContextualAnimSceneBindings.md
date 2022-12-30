@@ -1,6 +1,6 @@
 # MakeContextualAnimSceneBindings
 
-Adds a node that create a 'ContextualAnimSceneBindings' from its members
+添加一个节点，从其成员中创建一个 "ContextualAnimSceneBindings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'ContextualAnimSceneBindings' from its members
 
 ## Inputs
 
-Role To Actor Map: Map of Names to Actor Object References. Role to Actor Map:. Map with actors to bind to each role in the scene.
+角色到演员地图。名称到演员对象参考的地图。角色到演员地图：。带有演员的地图，与场景中的每个角色绑定。
 
-Anim Data Index: Integer. Anim Data Index:. Desired AnimDataIndex. If INDEX_NONE the Manager will attempt to find the best AnimData to use.
+动画数据索引。整数.动画数据索引:.希望的AnimDataIndex。如果INDEX_NONE，管理器将试图找到最好的AnimData来使用。
 
-Anim Start Time: Float (single-precision). Anim Start Time:. Desired start time. Only relevant if AnimDataIndex != INDEX_NONE.  
+动画开始时间。Float (single-precision).动画开始时间:.希望的开始时间。只有当AnimDataIndex != INDEX_NONE时才相关。  
 
 ## Outputs
 
-Contextual Anim Scene Bindings: Contextual Anim Scene Bindings Structure.
-
+上下文动画场景绑定:上下文的动画场景绑定结构.

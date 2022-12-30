@@ -1,6 +1,6 @@
 # MakeLidarPointCloudImportSetting-
 
-Adds a node that create a 'LidarPointCloudImportSettings_ASCII_Columns' from its members
+添加一个节点，从其成员中创建一个 "LidarPointCloudImportSettings_ASCII_Columns"。
 
 ## 图示
 
@@ -8,27 +8,26 @@ Adds a node that create a 'LidarPointCloudImportSettings_ASCII_Columns' from its
 
 ## Inputs
 
-Location X: Integer. Location X:. Index of a column containing Location X data.
+位置X：整数。位置X：。包含Location X数据的列的索引。
 
-Location Y: Integer. Location Y:. Index of a column containing Location Y data.
+位置Y。整数。位置Y：。包含Location Y数据的列的索引。
 
-Location Z: Integer. Location Z:. Index of a column containing Location Z data.
+位置Z：整数。位置Z：。包含Location Z数据的列的索引。
 
-Red: Integer. Red:. Index of a column containing Red channel. Set to -1 if not available.
+红色：整数。红：。包含红色通道的列的索引。如果不可用，则设置为-1。
 
-Green: Integer. Green:. Index of a column containing Green channel. Set to -1 if not available.
+绿色。整数。绿色：。包含绿色通道的列的索引。如果不可用，则设置为-1。
 
-Blue: Integer. Blue:. Index of a column containing Blue channel. Set to -1 if not available.
+蓝色。整数。蓝色：。包含蓝色通道的列的索引。如果不可用，则设置为-1。
 
-Intensity: Integer. Intensity:. Index of a column containing Intensity channel. Set to -1 if not available.
+强度。整数。强度:。包含Intensity通道的列的索引。如果不可用，则设置为-1。
 
-Normal X: Integer. Normal X:. Index of a column containing Normal X data. Set to -1 if not available.
+正常X：整数。正态X：。包含Normal X数据的列的索引。如果不可用，则设置为-1。
 
-Normal Y: Integer. Normal Y:. Index of a column containing Normal Y data. Set to -1 if not available.
+正常Y：整数。正态Y：。包含正态Y数据的列的索引。如果不可用，则设置为-1。
 
-Normal Z: Integer. Normal Z:. Index of a column containing Normal Z data. Set to -1 if not available.  
+正常Z：整数。正态Z：。包含正态Z数据的列的索引。如果不可用，则设置为-1。  
 
 ## Outputs
 
-Lidar Point Cloud Import Settings ASCII Columns: Lidar Point Cloud Import Settings ASCII Columns Structure.
-
+Lidar Point Cloud Import Settings ASCII Columns:Lidar Point Cloud Import Settings ASCII Columns Structure.

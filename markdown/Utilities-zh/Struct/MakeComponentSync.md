@@ -1,6 +1,6 @@
 # MakeComponentSync
 
-Adds a node that create a 'ComponentSync' from its members
+添加一个节点，从其成员中创建一个 "ComponentSync"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ComponentSync' from its members
 
 ## Inputs
 
-Name: Name. Name.
+姓名：姓名名字。
 
-Sync Option: ESyncOption Enum. Sync Option.  
+Sync Option: ESyncOption Enum.同步选项。  
 
 ## Outputs
 
-Component Sync: Component Sync Structure.
-
+组件同步。组件同步结构。

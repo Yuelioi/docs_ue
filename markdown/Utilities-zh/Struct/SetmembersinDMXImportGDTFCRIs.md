@@ -1,6 +1,6 @@
 # SetmembersinDMXImportGDTFCRIs
 
-Adds a node that modifies a 'DMXImportGDTFCRIs'
+添加一个修改'DMXImportGDTFCRIs'的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DMXImportGDTFCRIs'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: DMXImport GDTFCRIs Structure (by ref).  
+结构参考: DMXImport GDTFCRIs结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: DMXImport GDTFCRIs Structure (by ref). Reference to the input struct.
-
+结构输出。DMXImport GDTFCRIs结构（通过ref）。对输入结构的引用。

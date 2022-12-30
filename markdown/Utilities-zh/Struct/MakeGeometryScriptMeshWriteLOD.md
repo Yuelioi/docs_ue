@@ -1,6 +1,6 @@
 # MakeGeometryScriptMeshWriteLOD
 
-Adds a node that create a 'GeometryScriptMeshWriteLOD' from its members
+添加一个节点，从其成员中创建一个'GeometryScriptMeshWriteLOD'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'GeometryScriptMeshWriteLOD' from its members
 
 ## Inputs
 
-Write Hi Res Source: Boolean. Write Hi Res Source.
+写入高清晰度源。Boolean.写入高清晰度源。
 
-LODIndex: Integer. LODIndex.  
+LODIndex。整数。LODIndex.  
 
 ## Outputs
 
-Geometry Script Mesh Write LOD: Geometry Script Mesh Write LOD Structure.
-
+Geometry Script Mesh Write LOD: 几何图形脚本的网格写入LOD结构。

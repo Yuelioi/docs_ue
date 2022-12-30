@@ -1,6 +1,6 @@
 # SetmembersinMotoSynthRuntimeSett-
 
-Adds a node that modifies a 'MotoSynthRuntimeSettings'
+添加一个节点，修改 "MotoSynthRuntimeSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MotoSynthRuntimeSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Moto Synth Runtime Settings Structure (by ref).  
+结构参考：Moto Synth Runtime设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Moto Synth Runtime Settings Structure (by ref). Reference to the input struct.
-
+结构出来了。Moto Synth Runtime Settings Structure（通过引用）。对输入结构的引用。

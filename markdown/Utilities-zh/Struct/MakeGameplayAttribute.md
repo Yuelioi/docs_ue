@@ -1,6 +1,6 @@
 # MakeGameplayAttribute
 
-Adds a node that create a 'GameplayAttribute' from its members
+添加一个节点，从其成员中创建一个 "GameplayAttribute"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'GameplayAttribute' from its members
 
 ## Outputs
 
-Gameplay Attribute: Gameplay Attribute Structure.
-
+游戏属性。Gameplay Attribute Structure.

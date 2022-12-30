@@ -1,6 +1,6 @@
 # SetmembersinAudioVolumeSubmixSen-
 
-Adds a node that modifies a 'AudioVolumeSubmixSendSettings'
+添加一个节点，修改 "AudioVolumeSubmixSendSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'AudioVolumeSubmixSendSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Audio Volume Submix Send Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Audio Volume Submix Send Settings Structure (by ref). Reference to the input struct.
-
+Struct Out:Audio Volume Submix Send Settings Structure（通过参考）。对输入结构的引用。

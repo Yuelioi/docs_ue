@@ -1,6 +1,6 @@
 # MakeMeterResults
 
-Adds a node that create a 'MeterResults' from its members
+添加一个节点，从其成员中创建一个 "MeterResults"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'MeterResults' from its members
 
 ## Outputs
 
-Meter Results: Meter Results Structure.
-
+仪表结果。仪表结果结构。

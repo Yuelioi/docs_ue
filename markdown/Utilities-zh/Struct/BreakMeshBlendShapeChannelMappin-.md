@@ -1,6 +1,6 @@
 # BreakMeshBlendShapeChannelMappin-
 
-Adds a node that breaks a 'MeshBlendShapeChannelMapping' into its member fields
+添加一个打破'MeshBlendShapeChannelMapping'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'MeshBlendShapeChannelMapping' into its member fields
 
 ## Inputs
 
-Mesh Blend Shape Channel Mapping: Mesh Blend Shape Channel Mapping Structure (by ref).  
+Mesh Blend Shape Channel Mapping。Mesh Blend Shape Channel Mapping结构（按参考）。  
 
 ## Outputs
 
-Mesh Index: Integer. Mesh Index.
+网格索引。整数。网格索引。
 
-Blend Shape Channel Index: Integer. Blend Shape Channel Index.
-
+混合形状通道索引。整数。Blend Shape Channel Index.

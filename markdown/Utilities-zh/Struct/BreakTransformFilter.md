@@ -1,6 +1,6 @@
 # BreakTransformFilter
 
-Adds a node that breaks a 'TransformFilter' into its member fields
+添加一个节点，将'TransformFilter'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'TransformFilter' into its member fields
 
 ## Inputs
 
-Transform Filter: Transform Filter Structure (by ref).  
+变形过滤器。变换滤波结构（按参考）。  
 
 ## Outputs
 
-Translation Filter: Filter Option Per Axis Structure. Translation Filter.
+翻译过滤器：每轴结构的过滤器选项。翻译过滤器。
 
-Rotation Filter: Filter Option Per Axis Structure. Rotation Filter.
+旋转过滤器：每轴结构的过滤器选项。旋转式过滤器。
 
-Scale Filter: Filter Option Per Axis Structure. Scale Filter.
-
+比例过滤：每轴结构的过滤选项。刻度过滤器。

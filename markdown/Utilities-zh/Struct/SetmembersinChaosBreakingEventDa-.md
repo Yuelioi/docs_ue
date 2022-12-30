@@ -1,6 +1,6 @@
 # SetmembersinChaosBreakingEventDa-
 
-Adds a node that modifies a 'ChaosBreakingEventData'
+添加一个修改 "ChaosBreakingEventData "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ChaosBreakingEventData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Chaos Breaking Event Data Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Chaos Breaking Event Data Structure (by ref). Reference to the input struct.
-
+结构出来。混沌破坏事件数据结构（通过引用）。对输入结构的引用。

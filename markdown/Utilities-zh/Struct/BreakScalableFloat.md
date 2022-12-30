@@ -1,6 +1,6 @@
 # BreakScalableFloat
 
-Adds a node that breaks a 'ScalableFloat' into its member fields
+添加一个节点，将'ScalableFloat'分解成其成员字段
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'ScalableFloat' into its member fields
 
 ## Inputs
 
-Scalable Float: Scalable Float Structure (by ref).  
+可扩展的浮子。可扩展的浮点结构（通过参考）。  
 
 ## Outputs
 
-Value: Float (single-precision). Value:. Raw value, is multiplied by curve.
+值。Float (single-precision).值：。原始值，是与曲线相乘的。
 
-Curve: Curve Table Row Handle Structure. Curve:. Curve that is evaluated at a specific level. If found, it is multipled by Value.
+曲线。曲线表行手柄结构。曲线：。在特定水平上被评估的曲线。如果找到，则乘以Value。
 
-Registry Type: Data Registry Type Structure. Registry Type:. Name of Data Registry containing curve to use. If set the RowName inside Curve is used as the item name.
-
+注册表类型。数据登记类型结构。注册表类型：。包含要使用的曲线的数据注册表的名称。如果设置了Curve内部的RowName，则使用该项目名称。

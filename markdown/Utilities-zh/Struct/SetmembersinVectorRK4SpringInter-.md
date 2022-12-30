@@ -1,6 +1,6 @@
 # SetmembersinVectorRK4SpringInter-
 
-Adds a node that modifies a 'VectorRK4SpringInterpolator'
+添加一个修改 "VectorRK4SpringInterpolator "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'VectorRK4SpringInterpolator'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Vector RK4Spring Interpolator Structure (by ref).  
+结构参考：向量RK4Spring插值器结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Vector RK4Spring Interpolator Structure (by ref). Reference to the input struct.
-
+结构输出。矢量RK4Spring插值器结构（通过引用）。对输入结构的引用。

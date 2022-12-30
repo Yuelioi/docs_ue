@@ -1,6 +1,6 @@
 # SetmembersinSubm-_1
 
-Adds a node that modifies a 'SubmixEffectOculusAmbisonicSpatializerSettings'
+添加一个节点，修改 "SubmixEffectOculusAmbisonicSpatializerSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SubmixEffectOculusAmbisonicSpatializerSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Submix Effect Oculus Ambisonic Spatializer Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Submix Effect Oculus Ambisonic Spatializer Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Submix Effect Oculus Ambisonic Spatializer设置结构（通过ref）。对输入结构的引用。

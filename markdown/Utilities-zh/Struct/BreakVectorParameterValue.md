@@ -1,6 +1,6 @@
 # BreakVectorParameterValue
 
-Adds a node that breaks a 'VectorParameterValue' into its member fields
+添加一个节点，将'VectorParameterValue'分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'VectorParameterValue' into its member fields
 
 ## Inputs
 
-Vector Parameter Value: Vector Parameter Value Structure (by ref).  
+矢量参数值。矢量参数值结构（通过参考）。  
 
 ## Outputs
 
-Parameter Info: Material Parameter Info Structure. Parameter Info.
+参数信息：材料参数信息结构。参数信息。
 
-Parameter Value: Linear Color Structure. Parameter Value.
-
+参数值。线性色彩结构。参数值。

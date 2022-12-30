@@ -1,6 +1,6 @@
 # MakeAbilityEndedData
 
-Adds a node that create a 'AbilityEndedData' from its members
+添加一个节点，从其成员中创建一个'AbilityEndedData'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AbilityEndedData' from its members
 
 ## Outputs
 
-Ability Ended Data: Ability Ended Data Structure.
-
+能力结束的数据。能力结束的数据结构。

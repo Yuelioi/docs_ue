@@ -1,6 +1,6 @@
 # MakeHairCollisionConstraint
 
-Adds a node that create a 'HairCollisionConstraint' from its members
+添加一个节点，从其成员中创建一个 "HairCollisionConstraint"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'HairCollisionConstraint' from its members
 
 ## Outputs
 
-Hair Collision Constraint: Hair Collision Constraint Structure.
-
+头发碰撞约束：头发碰撞约束结构。

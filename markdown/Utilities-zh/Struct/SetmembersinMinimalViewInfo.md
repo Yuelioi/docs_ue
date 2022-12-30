@@ -1,6 +1,6 @@
 # SetmembersinMinimalViewInfo
 
-Adds a node that modifies a 'MinimalViewInfo'
+添加一个修改 "MinimalViewInfo "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MinimalViewInfo'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Minimal View Info Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Minimal View Info Structure (by ref). Reference to the input struct.
-
+结构出来。最小的视图信息结构（通过引用）。对输入结构的引用。

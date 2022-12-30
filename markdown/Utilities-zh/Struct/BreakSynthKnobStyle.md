@@ -1,6 +1,6 @@
 # BreakSynthKnobStyle
 
-Adds a node that breaks a 'SynthKnobStyle' into its member fields
+添加一个节点，将'SynthKnobStyle'分解到其成员字段中。
 
 ## 图示
 
@@ -8,21 +8,20 @@ Adds a node that breaks a 'SynthKnobStyle' into its member fields
 
 ## Inputs
 
-Synth Knob Style: Synth Knob Style Structure (by ref).  
+合成器旋钮风格。合成器旋钮风格结构（按参考）。  
 
 ## Outputs
 
-Large Knob: Slate Brush Structure. Large Knob:. Image to use for the large knob.
+大旋钮：石板刷结构。大旋钮：。用于大旋钮的图像。
 
-Large Knob Overlay: Slate Brush Structure. Large Knob Overlay:. Image to use for the dot handle.
+大的旋钮覆盖物。石板刷结构。大旋钮覆盖物：。用于点状手柄的图像。
 
-Medium Knob: Slate Brush Structure. Medium Knob:. Image to use for the medium large knob.
+中型旋钮：石板刷结构。中型旋钮：。用于中型大旋钮的图像。
 
-Medium Knob Overlay: Slate Brush Structure. Medium Knob Overlay:. Image to use for the mediaum knob dot handle.
+中型旋钮覆盖物。石板刷结构。中型旋钮叠加：。用于介质旋钮点状手柄的图像。
 
-Min Value Angle: Float (single-precision). Min Value Angle:. Image to use for the mediaum knob dot handle.
+最小值角度。Float（单精度）。最小值角度：。用于mediaum旋钮点柄的图像。
 
-Max Value Angle: Float (single-precision). Max Value Angle:. Image to use for the mediaum knob dot handle.
+最大值角度。Float（单精度）。最大值角度：。用于介质旋钮点手柄的图像。
 
-Knob Size: ESynthKnobSize Enum. Knob Size:. The size of the knobs to use..
-
+旋钮大小。ESynthKnobSize枚举。旋钮尺寸：。要使用的旋钮的大小。

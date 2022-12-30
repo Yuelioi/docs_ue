@@ -1,6 +1,6 @@
 # SetmembersinInputScaleBiasClampC-
 
-Adds a node that modifies a 'InputScaleBiasClampConstants'
+添加一个修改 "InputScaleBiasClampConstants "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'InputScaleBiasClampConstants'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Input Scale Bias Clamp Constants Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Input Scale Bias Clamp Constants Structure (by ref). Reference to the input struct.
-
+Struct Out: Input Scale Bias Clamp Constants Structure (by ref).对输入结构的引用。

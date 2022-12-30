@@ -1,6 +1,6 @@
 # MakeFrameTime
 
-Adds a node that create a 'FrameTime' from its members
+添加一个节点，从其成员中创建一个 "FrameTime"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'FrameTime' from its members
 
 ## Inputs
 
-Frame Number: Frame Number Structure. Frame Number:. Count of frames from start of timing.
+框架编号。框架号码结构。帧数：。从计时开始的帧数。
 
-Sub Frame: Float (single-precision). Sub Frame:. Time within a frame, always between >= 0 and < 1.  
+子帧。Float (single-precision).子帧：。一帧内的时间，总是在>=0和<1之间。
 
 ## Outputs
 
-Frame Time: Frame Time Structure.
-
+框架时间。框架时间结构。

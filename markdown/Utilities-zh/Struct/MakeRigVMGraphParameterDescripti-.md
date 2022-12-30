@@ -1,6 +1,6 @@
 # MakeRigVMGraphParameterDescripti-
 
-Adds a node that create a 'RigVMGraphParameterDescription' from its members
+添加一个节点，从其成员中创建一个 "RigVMGraphParameterDescription"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigVMGraphParameterDescription' from its members
 
 ## Outputs
 
-Rig VMGraph Parameter Description: Rig VMGraph Parameter Description Structure.
-
+Rig VMGraph参数描述。Rig VMGraph参数描述结构。

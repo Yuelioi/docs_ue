@@ -1,6 +1,6 @@
 # SetmembersinPoseSnapshot
 
-Adds a node that modifies a 'PoseSnapshot'
+添加一个修改 "PoseSnapshot "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'PoseSnapshot'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Pose Snapshot Structure (by ref).  
+Struct Ref: 姿势快照结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Pose Snapshot Structure (by ref). Reference to the input struct.
-
+结构出来。姿势快照结构（通过引用）。对输入结构的引用。

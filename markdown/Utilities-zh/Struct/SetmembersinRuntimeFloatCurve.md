@@ -1,6 +1,6 @@
 # SetmembersinRuntimeFloatCurve
 
-Adds a node that modifies a 'RuntimeFloatCurve'
+添加一个修改 "RuntimeFloatCurve "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RuntimeFloatCurve'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Runtime Float Curve Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Runtime Float Curve Structure (by ref). Reference to the input struct.
-
+结构出来。运行时浮动曲线结构（通过ref）。对输入结构的引用。

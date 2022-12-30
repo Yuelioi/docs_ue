@@ -1,6 +1,6 @@
 # MakeGroomBuildSettings
 
-Adds a node that create a 'GroomBuildSettings' from its members
+添加一个节点，从其成员中创建一个 "GroomBuildSettings"。
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that create a 'GroomBuildSettings' from its members
 
 ## Inputs
 
-Override Guides: Boolean. Override Guides:. If checked, override imported guides with generated ones..
+覆盖指南。Boolean.覆盖指南：。如果选中，用生成的指南覆盖导入的指南。
 
-Hair To Guide Density: Float (single-precision). Hair to Guide Density:. Density factor for converting hair into guide curve if no guides are provided..
+头发到指导密度。Float（单精度）。Hair to Guide Density:（毛发与导轨密度）。如果没有提供导引器，用于将头发转换为导引器曲线的密度系数。
 
-Interpolation Quality: EGroomInterpolationQuality Enum. Interpolation Quality:. Interpolation data quality..
+插值质量。EGroomInterpolationQuality枚举。插值质量：。插值数据的质量。
 
-Interpolation Distance: EGroomInterpolationWeight Enum. Interpolation Distance:. Interpolation distance metric..
+插值距离。EGroomInterpolationWeight Enum。插值距离:.插值距离的度量.
 
-Randomize Guide: Boolean. Randomize Guide:. Randomize which guides affect a given hair strand..
+随机化指南。布尔型。随机化指南：。随机化哪些指南会影响给定的发丝。
 
-Use Unique Guide: Boolean. Use Unique Guide:. Force a hair strand to be affected by a unique guide..  
+使用唯一指南。Boolean.使用独特指南：。强制要求发丝受独特指南的影响。
 
 ## Outputs
 
-Groom Build Settings: Groom Build Settings Structure.
-
+新郎建造设置。新郎建造设置结构。

@@ -1,6 +1,6 @@
 # MakeEnvQueryResult
 
-Adds a node that create a 'EnvQueryResult' from its members
+添加一个节点，从其成员中创建一个'EnvQueryResult'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'EnvQueryResult' from its members
 
 ## Outputs
 
-Env Query Result: Env Query Result Structure.
-
+环境查询结果。环境查询结果的结构。

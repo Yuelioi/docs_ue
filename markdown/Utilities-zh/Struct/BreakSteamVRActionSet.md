@@ -1,6 +1,6 @@
 # BreakSteamVRActionSet
 
-Adds a node that breaks a 'SteamVRActionSet' into its member fields
+添加一个节点，将 "SteamVRActionSet "分解为其成员字段。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'SteamVRActionSet' into its member fields
 
 ## Inputs
 
-Steam VRAction Set: Steam VRAction Set Structure (by ref).  
+蒸汽VRAction套装。蒸汽VRAction Set的结构（由参考）。  
 
 ## Outputs
 
-Path: String. Path:. The path defined for this action set (e.g. /actions/main).
-
+路径。字符串。路径：。为这个动作集定义的路径（例如，/actions/main）。

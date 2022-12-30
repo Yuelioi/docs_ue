@@ -1,6 +1,6 @@
 # MakeNamedLensPreset
 
-Adds a node that create a 'NamedLensPreset' from its members
+添加一个节点，从其成员中创建一个 "NamedLensPreset"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'NamedLensPreset' from its members
 
 ## Inputs
 
-Name: String. Name:. Name for the preset..
+名称。字符串。名称:.预设的名称。
 
-Lens Settings: Camera Lens Settings Structure. Lens Settings.  
+镜头设置。相机镜头设置结构。镜头设置。  
 
 ## Outputs
 
-Named Lens Preset: Named Lens Preset Structure.
-
+命名的镜头预设。命名的镜头预设结构。

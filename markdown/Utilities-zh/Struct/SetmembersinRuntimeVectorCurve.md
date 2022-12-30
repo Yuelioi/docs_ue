@@ -1,6 +1,6 @@
 # SetmembersinRuntimeVectorCurve
 
-Adds a node that modifies a 'RuntimeVectorCurve'
+添加一个修改'RuntimeVectorCurve'的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'RuntimeVectorCurve'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Runtime Vector Curve Structure (by ref).  
+Struct Ref: Runtime Vector Curve Structure（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Runtime Vector Curve Structure (by ref). Reference to the input struct.
-
+结构出来。运行时矢量曲线结构（通过ref）。对输入结构的引用。

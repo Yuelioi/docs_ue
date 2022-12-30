@@ -1,6 +1,6 @@
 # MakeSoundSubmixSendInfo
 
-Adds a node that create a 'SoundSubmixSendInfo' from its members
+添加一个节点，从其成员中创建一个 "SoundSubmixSendInfo"。
 
 ## 图示
 
@@ -8,27 +8,26 @@ Adds a node that create a 'SoundSubmixSendInfo' from its members
 
 ## Inputs
 
-Send Level Control Method: ESendLevelControlMethod Enum. Send Level Control Method:. Manual: Use Send Level only. Linear: Interpolate between Min and Max Send Levels based on listener distance (between Distance Min and Distance Max). Custom Curve: Use the float curve to map Send Level to distance (0.0-1.0 on curve maps to Distance Min - Distance Max).
+发送水平控制方法。ESendLevelControlMethod Enum.发送电平控制方法：。手动。只使用发送电平。线性。根据听众的距离（在距离最小和距离最大之间），在最小和最大发送水平之间进行插值。自定义曲线。使用浮动曲线将发送电平映射到距离（0.0-1.0的曲线映射到距离最小-距离最大）。
 
-Send Stage: ESubmixSendStage Enum. Send Stage:. Defines at what mix stage the send should happen..
+发送阶段。ESubmixSendStage Enum.发送阶段：。定义发送应该发生在哪个混音阶段。
 
-Sound Submix: Sound Submix Base Object Reference. Sound Submix:. The submix to send the audio to.
+Sound Submix:Sound Submix基础对象参考。Sound Submix:.要发送音频的子混音。
 
-Send Level: Float (single-precision). Send Level:. The amount of audio to send.
+发送水平。Float (single-precision).发送电平：。要发送的音频量。
 
-Disable Manual Send Clamp: Boolean. Disable Manual Send Clamp:. Whether to disable the 0-1 clamp for manual SendLevel control.
+禁用手动发送钳制。布尔值。Disable Manual Send Clamp:（禁用手动发送钳位）。是否禁用手动SendLevel控制的0-1钳制。
 
-Min Send Level: Float (single-precision). Min Send Level:. The amount to send to master when sound is located at a distance equal to value specified in the min send distance..
+最小发送水平。Float (single-precision).最小发送水平：。当声音位于与最小发送距离中指定的值相等的距离时，向主站发送的数量。
 
-Max Send Level: Float (single-precision). Max Send Level:. The amount to send to master when sound is located at a distance equal to value specified in the max send distance..
+最大发送水平。Float（单精度）。最大发送电平：。当声音位于与最大发送距离中指定的值相等的距离时，向主站发送的数量。
 
-Min Send Distance: Float (single-precision). Min Send Distance:. The min distance to send to the master.
+最小发送距离。Float (single-precision).最小发送距离：。发送给主站的最小距离。
 
-Max Send Distance: Float (single-precision). Max Send Distance:. The max distance to send to the master.
+最大发送距离。Float (single-precision).最大发送距离：。向主站发送的最大距离。
 
-Custom Send Level Curve: Runtime Float Curve Structure. Custom Send Level Curve:. The custom reverb send curve to use for distance-based send level..  
+自定义发送水平曲线。运行时浮动曲线结构。自定义发送电平曲线：。自定义混响发送曲线，用于基于距离的发送电平。  
 
 ## Outputs
 
-Sound Submix Send Info: Sound Submix Send Info Structure.
-
+Sound Submix Send Info:Sound Submix Send Info结构。

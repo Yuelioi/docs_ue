@@ -1,6 +1,6 @@
 # MakeEditorDialogLibraryObjectDet-
 
-Adds a node that create a 'EditorDialogLibraryObjectDetailsViewOptions' from its members
+添加一个节点，从其成员中创建一个'EditorDialogLibraryObjectDetailsViewOptions'。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'EditorDialogLibraryObjectDetailsViewOptions' from its
 
 ## Inputs
 
-Show Object Name: Boolean. Show Object Name.
+显示对象名称。Boolean.显示对象名称。
 
-Allow Search: Boolean. Allow Search.  
+允许搜索。布尔型。允许搜索。  
 
 ## Outputs
 
-Editor Dialog Library Object Details View Options: Editor Dialog Library Object Details View Options Structure.
-
+编辑器对话库对象细节视图选项。编辑器对话库对象细节查看选项结构。

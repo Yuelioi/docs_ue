@@ -1,6 +1,6 @@
 # SetmembersinCullDistanceSizePair
 
-Adds a node that modifies a 'CullDistanceSizePair'
+添加一个修改 "CullDistanceSizePair "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CullDistanceSizePair'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Cull Distance Size Pair Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Cull Distance Size Pair Structure (by ref). Reference to the input struct.
-
+结构了。Cull Distance Size Pair Structure（通过引用）。对输入结构的引用。

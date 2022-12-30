@@ -1,6 +1,6 @@
 # SetmembersinVREditorFloatingUICr-
 
-Adds a node that modifies a 'VREditorFloatingUICreationContext'
+添加一个修改 "VREditorFloatingUICreationContext "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'VREditorFloatingUICreationContext'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: VREditor Floating UICreation Context Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: VREditor Floating UICreation Context Structure (by ref). Reference to the input struct.
-
+结构出来。VREditor浮动UICreation Context结构（通过ref）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # BreakInheritedTagContainer
 
-Adds a node that breaks a 'InheritedTagContainer' into its member fields
+添加一个打破'InheritedTagContainer'的节点到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'InheritedTagContainer' into its member fields
 
 ## Inputs
 
-Inherited Tag Container: Inherited Tag Container Structure (by ref).  
+继承的标签容器。继承的标签容器结构（通过引用）。  
 
 ## Outputs
 
-Combined Tags: Gameplay Tag Container Structure. Combined Tags:. Tags that I inherited and tags that I added minus tags that I removed.
+合并标签。游戏性标签 容器结构。合并标签：。我继承的标签和我添加的标签减去我删除的标签。
 
-Added: Gameplay Tag Container Structure. Added:. Tags that I have in addition to my parent's tags.
+新增： 游戏性标签容器结构。新增：.我在父母的标签之外还有的标签。
 
-Removed: Gameplay Tag Container Structure. Removed:. Tags that should be removed if my parent had them.
-
+删除了。游戏性标签容器结构。删除了：。如果我的父辈有这些标签，就应该被删除。

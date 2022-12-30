@@ -1,6 +1,6 @@
 # SetmembersinPassiveSoundMixModif-
 
-Adds a node that modifies a 'PassiveSoundMixModifier'
+添加一个修改 "PassiveSoundMixModifier "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'PassiveSoundMixModifier'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Passive Sound Mix Modifier Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Passive Sound Mix Modifier Structure (by ref). Reference to the input struct.
-
+结构出来。Passive Sound Mix Modifier Structure（通过ref）。对输入结构的引用。

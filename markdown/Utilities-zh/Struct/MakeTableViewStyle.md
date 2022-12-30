@@ -1,6 +1,6 @@
 # MakeTableViewStyle
 
-Adds a node that create a 'TableViewStyle' from its members
+添加一个节点，从其成员中创建一个 "TableViewStyle"。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that create a 'TableViewStyle' from its members
 
 ## Inputs
 
-Background Brush: Slate Brush Structure. Background Brush:. Brush used when a selected row is active.  
+背景画笔。板岩画笔结构。背景画笔：。当选定的行被激活时使用的画笔。  
 
 ## Outputs
 
-Table View Style: Table View Style Structure.
-
+表视图样式。表视图风格结构。

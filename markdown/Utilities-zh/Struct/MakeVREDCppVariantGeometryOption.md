@@ -1,6 +1,6 @@
 # MakeVREDCppVariantGeometryOption
 
-Adds a node that create a 'VREDCppVariantGeometryOption' from its members
+添加一个节点，从其成员中创建一个'VREDCppVariantGeometryOption'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'VREDCppVariantGeometryOption' from its members
 
 ## Inputs
 
-Name: String. Name.
+名称: 字符串。名称。
 
-Visible Meshes: Array of Strings. Visible Meshes.
+可见的网格。字符串阵列。Visible Meshes.
 
-Hidden Meshes: Array of Strings. Hidden Meshes.  
+隐藏的Meshes。字符串阵列。隐藏的网格。  
 
 ## Outputs
 
-VREDCpp Variant Geometry Option: VREDCpp Variant Geometry Option Structure.
-
+VREDCpp变体几何选项。VREDCpp变体几何选项的结构。

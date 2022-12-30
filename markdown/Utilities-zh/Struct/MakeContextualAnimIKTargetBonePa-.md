@@ -1,6 +1,6 @@
 # MakeContextualAnimIKTargetBonePa-
 
-Adds a node that create a 'ContextualAnimIKTargetBoneParams' from its members
+添加一个节点，从其成员中创建一个 "ContextualAnimIKTargetBoneParams"。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that create a 'ContextualAnimIKTargetBoneParams' from its members
 
 ## Inputs
 
-Target Role: Name. Target Role.
+目标角色。姓名。目标角色。
 
-Bone Name: Name. Bone Name.  
+骨骼名称：名称。骨骼名称。  
 
 ## Outputs
 
-Contextual Anim IKTarget Bone Params: Contextual Anim IKTarget Bone Params Structure.
-
+Contextual Anim IKTarget Bone Params:Contextual Anim IKTarget Bone Params 结构.

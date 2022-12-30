@@ -1,6 +1,6 @@
 # SetmembersinEulerTransform
 
-Adds a node that modifies a 'EulerTransform'
+添加一个修改 "欧拉变换 "的节点
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'EulerTransform'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Euler Transform Structure (by ref).  
+结构参考：欧拉变换结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Euler Transform Structure (by ref). Reference to the input struct.
-
+结构出来。欧拉变换结构（通过引用）。对输入结构的引用。

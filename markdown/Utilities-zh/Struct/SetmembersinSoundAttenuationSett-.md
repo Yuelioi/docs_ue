@@ -1,6 +1,6 @@
 # SetmembersinSoundAttenuationSett-
 
-Adds a node that modifies a 'SoundAttenuationSettings'
+添加一个修改 "SoundAttenuationSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SoundAttenuationSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Sound Attenuation Settings Structure (by ref).  
+结构参考：声音衰减设置结构（由参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Sound Attenuation Settings Structure (by ref). Reference to the input struct.
-
+结构出来。声音衰减设置结构（通过参考）。对输入结构的引用。

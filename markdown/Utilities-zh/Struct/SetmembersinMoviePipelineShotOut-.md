@@ -1,6 +1,6 @@
 # SetmembersinMoviePipelineShotOut-
 
-Adds a node that modifies a 'MoviePipelineShotOutputData'
+添加一个节点，修改 "MoviePipelineShotOutputData"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'MoviePipelineShotOutputData'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Movie Pipeline Shot Output Data Structure (by ref).  
+Struct Ref: 电影管道拍摄输出数据结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Movie Pipeline Shot Output Data Structure (by ref). Reference to the input struct.
-
+Struct Out:电影管道拍摄输出数据结构（通过引用）。对输入结构的引用。

@@ -1,6 +1,6 @@
 # BreakInterpCurveLinearColor
 
-Adds a node that breaks a 'InterpCurveLinearColor' into its member fields
+添加一个打破'InterpCurveLinearColor'的节点到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'InterpCurveLinearColor' into its member fields
 
 ## Inputs
 
-Interp Curve Linear Color: Interp Curve Linear Color Structure (by ref).  
+Interp Curve Linear Color: Interp Curve Linear Color结构（通过参考）。  
 
 ## Outputs
 
-Points: Array of Interp Curve Point Linear Color Structures. Points:. Holds the collection of interpolation points..
+点。Interp曲线点线性颜色结构的阵列。Points:.保存插值点的集合。
 
-Is Looped: Boolean. Is Looped:. Specify whether the curve is looped or not.
+是循环的。布尔型。是否循环：。指定曲线是否是循环的。
 
-Loop Key Offset: Float (single-precision). Loop Key Offset:. Specify the offset from the last point's input key corresponding to the loop point.
-
+循环键偏移。Float (single-precision).循环键偏移：。指定与循环点对应的最后一个点的输入键的偏移量。

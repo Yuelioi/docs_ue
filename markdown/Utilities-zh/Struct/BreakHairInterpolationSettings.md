@@ -1,6 +1,6 @@
 # BreakHairInterpolationSettings
 
-Adds a node that breaks a 'HairInterpolationSettings' into its member fields
+添加一个节点，将'HairInterpolationSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,19 +8,18 @@ Adds a node that breaks a 'HairInterpolationSettings' into its member fields
 
 ## Inputs
 
-Hair Interpolation Settings: Hair Interpolation Settings Structure (by ref).  
+头发插值设置。头发插值设置结构（按参考）。  
 
 ## Outputs
 
-Override Guides: Boolean. Override Guides:. If checked, override imported guides with generated ones..
+覆盖指南。Boolean.覆盖指南：。如果选中，用生成的指南覆盖导入的指南。
 
-Hair To Guide Density: Float (single-precision). Hair to Guide Density:. Density factor for converting hair into guide curve if no guides are provided. The value should be between 0 and 1, and can be thought as a ratio/percentage of strands used as guides..
+头发到指导密度。Float（单精度）。Hair to Guide Density:（毛发与导轨密度）。如果没有提供导引器，用于将头发转换为导引器曲线的密度系数。这个值应该在0到1之间，可以认为是用作导引的头发的比率/百分比。
 
-Interpolation Quality: EHairInterpolationQuality Enum. Interpolation Quality:. Interpolation data quality..
+插值质量。EHairInterpolationQuality Enum.插值质量:。内插数据的质量。
 
-Interpolation Distance: EHairInterpolationWeight Enum. Interpolation Distance:. Interpolation distance metric..
+内插距离。EHairInterpolationWeight Enum.插值距离:.插值距离的度量.
 
-Randomize Guide: Boolean. Randomize Guide:. Randomize which guides affect a given hair strand..
+随机化指南。布尔型。随机化指南：。随机化哪些指南会影响给定的发丝。
 
-Use Unique Guide: Boolean. Use Unique Guide:. Force a hair strand to be affected by a unique guide..
-
+使用唯一指南。Boolean.使用独特指南：。强制要求发丝受独特指南的影响。

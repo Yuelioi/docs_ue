@@ -1,6 +1,6 @@
 # BreakSoundAttenuationSettings
 
-Adds a node that breaks a 'SoundAttenuationSettings' into its member fields
+添加一个节点，将'SoundAttenuationSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,139 +8,138 @@ Adds a node that breaks a 'SoundAttenuationSettings' into its member fields
 
 ## Inputs
 
-Sound Attenuation Settings: Sound Attenuation Settings Structure (by ref).  
+声音衰减设置。声音衰减设置结构（按参考）。  
 
 ## Outputs
 
-Enable Volume Attenuation: Boolean. Attenuate:. Allows distance-based volume attenuation..
+启用音量衰减。布尔型。衰减：。允许基于距离的音量衰减。
 
-Enable Spatialization: Boolean. Spatialize:. Allows the source to be 3D spatialized..
+启用空间化。布尔型。Spatialize:.允许对源进行三维空间化。
 
-Enable Air Absorption: Boolean. Attenuate with LPF:. Allows simulation of air absorption by applying a filter with a cutoff frequency as a function of distance..
+启用空气吸收。布尔型。用LPF衰减：。允许通过应用一个具有截止频率的滤波器来模拟空气吸收，作为距离的一个函数。
 
-Enable Listener Focus: Boolean. Enable Listener Focus:. Enable listener focus-based adjustments..
+启用监听器焦点：布尔值。启用听众焦点：。启用基于听众焦点的调整。
 
-Enable Focus Interpolation: Boolean. Enable Focus Interpolation:. Enables focus interpolation to smooth transition in and and of focus..
+启用焦点插值。布尔值。启用焦点插值：。启用焦点插值，以实现焦点的平滑过渡。
 
-Enable Occlusion: Boolean. Enable Occlusion:. Enables realtime occlusion tracing..
+启用遮挡。Boolean.启用闭塞：。启用实时闭塞追踪。
 
-Use Complex Collision For Occlusion: Boolean. Use Complex Collision for Occlusion:. Enables tracing against complex collision when doing occlusion traces..
+使用复杂碰撞进行遮蔽。Boolean.为遮挡使用复杂碰撞：。在进行遮挡追踪时，启用对复杂碰撞的追踪。
 
-Enable Reverb Send: Boolean. Enable Reverb Send:. Enables adjusting reverb sends based on distance..
+启用混响发送。布尔型。启用混响发送：。启用基于距离的混响发送的调整。
 
-Enable Priority Attenuation: Boolean. Enable Priority Attenuation:. Enables attenuation of sound priority based off distance..
+启用优先权衰减。布尔型。启用优先权衰减：。启用基于距离的声音优先级的衰减。
 
-Normalize 3D Stereo Sounds: Boolean. Apply Normalization to Stereo Sounds:. Enables applying a -6 dB attenuation to stereo assets which are 3d spatialized. Avoids clipping when assets have spread of 0.0 due to channel summing..
+正常化3D立体声。布尔型。将规范化应用于立体声：。对三维空间化的立体声资产应用-6dB的衰减。当资产因通道相加而扩散为0.0时，避免了削波。
 
-Enable Log Frequency Scaling: Boolean. Enable Log Frequency Scaling:. Enables applying a log scale to frequency values (so frequency sweeping is perceptually linear)..
+启用日志频率缩放。布尔值。启用对数频率缩放：。启用频率值的对数刻度（因此频率扫描在感觉上是线性的）。
 
-Enable Submix Send: Boolean. Enable Submix Sends:. Enables submix sends based on distance..
+启用子混音发送。布尔值。启用子混音发送：。启用基于距离的子混音发送。
 
-Enable Source Data Override: Boolean. Enable Source Data Override:. Enables overriding WaveInstance data using source data override plugin.
+启用源数据覆盖。布尔型。启用源数据覆盖：。启用使用源数据覆盖插件覆盖WaveInstance数据。
 
-Spatialization Method: ESoundSpatializationAlgorithm Enum. Spatialization Algorithm:. What method we use to spatialize the sound..
+空间化方法。ESoundSpatializationAlgorithm枚举。空间化算法：。我们用什么方法对声音进行空间化。
 
-Binaural Radius: Float (single-precision). Binaural Radius:. What min radius to use to swap to non-binaural audio when a sound starts playing..
+双耳半径。Float（单精度）。Binaural Radius:.当一个声音开始播放时，用什么最小半径来交换到非双耳音频。
 
-Absorption Method: EAirAbsorptionMethod Enum. Absorption Method:. What method to use to map distance values to frequency absorption values..
+吸收方法。EAirAbsorptionMethod Enum.吸收方法：。用什么方法将距离值映射到频率吸收值。
 
-Occlusion Trace Channel: ECollisionChannel Enum. Occlusion Trace Channel:. Which trace channel to use for audio occlusion checks..
+遮挡追踪通道。ECollisionChannel Enum.闭塞跟踪通道：.哪个跟踪通道用于音频闭塞检查。
 
-Reverb Send Method: EReverbSendMethod Enum. Reverb Send Method:. What method to use to control master reverb sends.
+混响发送方法。EReverbSendMethod Enum.混响发送方法：。用什么方法来控制主混响的发送。
 
-Priority Attenuation Method: EPriorityAttenuationMethod Enum. Priority Attenuation Method:. What method to use to control priority attenuation.
+优先权衰减方法。EPriorityAttenuationMethod Enum.优先权衰减方法：。用什么方法来控制优先权衰减。
 
-Non- Spatialized Radius: Float (single-precision). Omni Radius:. The distance below which a sound is non-spatialized (2D). This prevents near-field audio from flipping as audio crosses the listener's position. This does not apply when using a 3rd party binaural plugin (audio will remain spatialized)..
+非空间化半径。Float（单精度）。全能半径：。声音被非空间化的距离（2D）。这可以防止近场的音频在穿过听众的位置时翻转。这不适用于使用第三方双耳插件的情况（音频将保持空间化）。
 
-3D Stereo Spread: Float (single-precision). Stereo Spread:. The world-space distance between left and right stereo channels when stereo assets are 3D spatialized..
+三维立体传播。Float（单精度）。立体声传播：。当立体声资产被3D空间化时，左右立体声通道之间的世界空间距离。
 
-Min Distance Range: Float (single-precision). LPFRadius Min:. The distance min range at which to apply an absorption LPF filter..
+最小距离范围。Float（单精度）。LPFRadius Min:.应用吸收LPF滤波器的最小距离范围。
 
-Max Distance Range: Float (single-precision). LPFRadius Max:. The max distance range at which to apply an absorption LPF filter. Absorption freq cutoff interpolates between filter frequency ranges between these distance values..
+最大距离范围。Float（单精度）。LPFRadius Max:.应用吸收LPF滤波器的最大距离范围。吸收频率截断在这些距离值之间的滤波器频率范围内插值。
 
-Custom Lowpass Air Absorption Curve: Runtime Float Curve Structure. Custom Lowpass Air Absorption Curve:. The normalized custom curve to use for the air absorption lowpass frequency values. Does a mapping from defined distance values (x-axis) and defined frequency values (y-axis).
+自定义低通空气吸收曲线。运行时间的浮动曲线结构。自定义低通空气吸收曲线：。用于空气吸收低通频率值的规范化自定义曲线。从定义的距离值（X轴）和定义的频率值（Y轴）做一个映射。
 
-Custom Highpass Air Absorption Curve: Runtime Float Curve Structure. Custom Highpass Air Absorption Curve:. The normalized custom curve to use for the air absorption highpass frequency values. Does a mapping from defined distance values (x-axis) and defined frequency values (y-axis).
+定制的高通空气吸收曲线。运行时间的浮动曲线结构。自定义高通空气吸收曲线：。用于空气吸收高通频率值的规范化自定义曲线。从定义的距离值（X轴）和定义的频率值（Y轴）做一个映射。
 
-Low Pass Cutoff Frequency Min: Float (single-precision). LPFFrequency at Min:. The range of the cutoff frequency (in Hz) of the lowpass absorption filter..
+低通关断频率最小。Float（单精度）。LPFFrequency at Min：.低通吸收滤波器的截止频率的范围（单位：Hz）。
 
-Low Pass Cutoff Frequency Max: Float (single-precision). LPFFrequency at Max:. The range of the cutoff frequency (in Hz) of the lowpass absorption filter..
+低通截止频率最大值：浮点（单精度）。LPFFrequency at Max:.低通吸收滤波器的截止频率的范围（单位：Hz）。
 
-High Pass Cutoff Frequency Min: Float (single-precision). HPFFrequency at Min:. The range of the cutoff frequency (in Hz) of the highpass absorption filter..
+高通关断频率最小。Float（单精度）。HPFFrequency at Min：.高通吸收滤波器的截止频率（单位：Hz）的范围。
 
-High Pass Cutoff Frequency Max: Float (single-precision). HPFFrequency at Max:. The range of the cutoff frequency (in Hz) of the highpass absorption filter..
+高通截止频率最大值：浮点（单精度）。HPFFrequency at Max：。高通吸收滤波器的截止频率的范围（单位：Hz）。
 
-Focus Azimuth: Float (single-precision). Focus Azimuth:. Azimuth angle (in degrees) relative to the listener forward vector which defines the focus region of sounds. Sounds playing at an angle less than this will be in focus..
+焦点方位角。浮点（单精度）。焦点方位角：。相对于听众前方矢量的方位角（度），它定义了声音的焦点区域。在一个小于这个角度播放的声音将被聚焦。
 
-Non Focus Azimuth: Float (single-precision). Non Focus Azimuth:. Azimuth angle (in degrees) relative to the listener forward vector which defines the non-focus region of sounds. Sounds playing at an angle greater than this will be out of focus..
+非聚焦方位角。浮点（单精度）。非焦点方位角：。相对于听众前方矢量的方位角（度），它定义了声音的非焦点区域。在大于这个角度播放的声音将是失焦的。
 
-Focus Distance Scale: Float (single-precision). Focus Distance Scale:. Amount to scale the distance calculation of sounds that are in-focus. Can be used to make in-focus sounds appear to be closer or further away than they actually are..
+焦点距离刻度。浮点（单精度）。焦点距离标度：。对焦点内的声音进行距离计算的数量。可用于使焦点内的声音看起来比实际的更近或更远。
 
-Non Focus Distance Scale: Float (single-precision). Non Focus Distance Scale:. Amount to scale the distance calculation of sounds that are not in-focus. Can be used to make in-focus sounds appear to be closer or further away than they actually are..
+非焦点距离刻度。浮点（单精度）。非焦点距离标度：。对非焦点的声音进行距离计算的数量。可用于使焦点内的声音看起来比实际的更近或更远。
 
-Focus Priority Scale: Float (single-precision). Focus Priority Scale:. Amount to scale the priority of sounds that are in focus. Can be used to boost the priority of sounds that are in focus..
+焦点优先规模。Float（单精度）。焦点优先级比例：。缩放焦点中的声音的优先级的数量。可以用来提高被聚焦的声音的优先级。
 
-Non Focus Priority Scale: Float (single-precision). Non Focus Priority Scale:. Amount to scale the priority of sounds that are not in-focus. Can be used to reduce the priority of sounds that are not in focus..
+非焦点优先规模。Float（单精度）。非焦点优先级比例：。缩放不在焦点上的声音的优先级的数量。可以用来降低不在焦点上的声音的优先级。
 
-Focus Volume Attenuation: Float (single-precision). Focus Volume Attenuation:. Amount to attenuate sounds that are in focus. Can be overridden at the sound-level..
+焦点音量衰减。浮点（单精度）。Focus Volume Attenuation：。衰减处于焦点的声音的数量。可以在声级上重写。
 
-Non Focus Volume Attenuation: Float (single-precision). Non Focus Volume Attenuation:. Amount to attenuate sounds that are not in focus. Can be overridden at the sound-level..
+非聚焦体积衰减。浮点（单精度）。Non Focus Volume Attenuation：。衰减非焦点的声音的数量。可以在声级上重写。
 
-Focus Attack Interp Speed: Float (single-precision). Focus Attack Interp Speed:. Scalar used to increase interpolation speed upwards to the target Focus value.
+焦点攻击interp速度。浮点（单精度）。Focus Attack Interp Speed:.用于向上增加插值速度到目标Focus值的标量。
 
-Focus Release Interp Speed: Float (single-precision). Focus Release Interp Speed:. Scalar used to increase interpolation speed downwards to the target Focus value.
+焦点释放插值速度。浮点数（单精度）。Focus Release Interp Speed:.用于向下增加插值速度到目标Focus值的标量。
 
-Occlusion Low Pass Filter Frequency: Float (single-precision). Occlusion Low Pass Filter Frequency:. The low pass filter frequency (in Hz) to apply if the sound playing in this audio component is occluded. This will override the frequency set in LowPassFilterFrequency. A frequency of 0.0 is the device sample rate and will bypass the filter..
+遮挡低通滤波器频率。浮点数（单精度）。遮挡低通滤波频率：。如果这个音频组件中播放的声音被遮挡，要应用的低通滤波器频率（单位：Hz）。这将覆盖LowPassFilterFrequency中设置的频率。一个0.0的频率是设备的采样率，将绕过过滤器。
 
-Occlusion Volume Attenuation: Float (single-precision). Occlusion Volume Attenuation:. The amount of volume attenuation to apply to sounds which are occluded..
+遮挡体积衰减。Float (single-precision).遮挡音量衰减：。适用于被遮挡的声音的音量衰减量。
 
-Occlusion Interpolation Time: Float (single-precision). Occlusion Interpolation Time:. The amount of time in seconds to interpolate to the target OcclusionLowPassFilterFrequency when a sound is occluded..
+遮挡插值时间。Float (single-precision).遮挡插值时间：。当声音被遮挡时，插值到目标OcclusionLowPassFilterFrequency的时间，单位是秒。
 
-Reverb Min Send Level: Float (single-precision). Reverb Wet Level Min:. The amount to send to master reverb when sound is located at a distance equal to value specified in the reverb min send distance..
+混响最小发送电平。Float（单精度）。最小混响湿润电平：。当声音位于与混响最小发送距离中指定的数值相等的距离时，要发送到主混响的量。
 
-Reverb Max Send Level: Float (single-precision). Reverb Wet Level Max:. The amount to send to master reverb when sound is located at a distance equal to value specified in the reverb max send distance..
+混响最大发送电平。Float（单精度）。混响最大湿电平：。当声音位于与混响最大发送距离中指定的数值相等的距离时，向主混响发送的量。
 
-Reverb Min Send Distance: Float (single-precision). Reverb Distance Min:. The min distance to send to the master reverb..
+混响最小发送距离。Float（单精度）。最小混响距离：。发送到主混响的最小距离。
 
-Reverb Max Send Distance: Float (single-precision). Reverb Distance Max:. The max distance to send to the master reverb..
+混响最大发送距离。Float（单精度）。混响最大距离：。发送到主混响的最大距离。
 
-Manual Reverb Send Level: Float (single-precision). Manual Reverb Send Level:. The manual master reverb send level to use. Doesn't change as a function of distance..
+手动混响发送电平。Float（单精度）。手动混响发送电平：。要使用的手动主混响发送电平。不随距离的变化而变化。
 
-Custom Reverb Send Curve: Runtime Float Curve Structure. Custom Reverb Send Curve:. The custom reverb send curve to use for distance-based send level..
+自定义混响发送曲线。运行时浮动曲线结构。自定义混响发送曲线：。自定义混响发送曲线，用于基于距离的发送电平。
 
-Submix Send Settings: Array of Attenuation Submix Send Settings Structures. Submix Send Settings:. Set of submix send settings to use to send audio to submixes as a function of distance..
+子混音发送设置。衰减子混音发送设置结构的阵列。子混音发送设置：。子混音发送设置的集合，用于将音频发送到子混音，作为距离的一个函数。
 
-Priority Attenuation at Min Distance: Float (single-precision). Priority Attenuation Min:. Interpolated value to scale priority against when the sound is at the minimum priority attenuation distance from the closest listener..
+最小距离时的优先衰减。Float（单精度）。最小优先级衰减：。当声音与最近的听众处于最小优先权衰减距离时，用来衡量优先权的内插值。
 
-Priority Attenuation at Max Distance: Float (single-precision). Priority Attenuation Max:. Interpolated value to scale priority against when the sound is at the maximum priority attenuation distance from the closest listener..
+最大距离时的优先衰减。Float（单精度）。优先权衰减最大值：。当声音与最近的听众处于最大的优先权衰减距离时，用来衡量优先权的内插值。
 
-Priority Attenuation Min Distance: Float (single-precision). Priority Attenuation Distance Min:. The min distance to attenuate priority..
+优先衰减最小距离。Float（单精度）。优先权衰减距离最小值：。衰减优先权的最小距离。
 
-Priority Attenuation Max Distance: Float (single-precision). Priority Attenuation Distance Max:. The max distance to attenuate priority..
+优先衰减最大距离。Float（单精度）。优先权衰减距离最大值：。衰减优先权的最大距离。
 
-Attenuation Priority: Float (single-precision). Manual Priority Attenuation:. Static priority scalar to use (doesn't change as a function of distance)..
+衰减优先级。Float（单精度）。手动优先级衰减：。要使用的静态优先级标量（不随距离的变化而变化）。
 
-Custom Priority Attenuation Curve: Runtime Float Curve Structure. Custom Priority Attenuation Curve:. The custom curve to use for distance-based priority attenuation..
+自定义优先级衰减曲线。运行时浮动曲线结构。自定义优先权衰减曲线：。用于基于距离的优先权衰减的自定义曲线。
 
-Plugin Settings: Sound Attenuation Plugin Settings Structure. Plugin Settings:. Sound attenuation plugin settings to use with sounds that play with this attenuation setting..
+插件设置。声音衰减插件设置结构.插件设置：.声音衰减插件设置，以使用的声音，发挥这个衰减设置.
 
-Attenuation Function: EAttenuationDistanceModel Enum. Distance Algorithm:. The type of attenuation as a function of distance to use..
+衰减功能。EAttenuationDistanceModel枚举。距离算法：。衰减的类型作为距离的函数来使用。
 
-Attenuation Shape: EAttenuationShape Enum. Attenuation Shape:. The shape of the non-custom attenuation method..
+衰减形状。EAttenuationShape Enum.衰减形状：。非自定义衰减方法的形状。
 
-Attenuation at Max (D B): Float (single-precision). D BAttenuation at Max:. The attenuation volume at the falloff distance in decibels (Only for 'Natural Sound' Distance Algorithm)..
+最大处的衰减（D B）。Float（单精度）。D BAttenuation at Max: 。在衰减距离上的衰减量，单位是分贝（仅适用于 "自然声 "距离算法）。
 
-Falloff Mode: ENaturalSoundFalloffMode Enum. Falloff Mode:. Whether to continue attenuating, go silent, or hold last volume value when beyond falloff bounds and. 'Attenuation At Max (dB)' is set to a value greater than -60dB.. (Only for 'Natural Sound' Distance Algorithm). */.
+衰减模式。ENaturalSoundFalloffMode Enum.衰减模式：。当超出衰减范围时，是继续衰减，还是保持最后的音量值，并且'Attenuation At Max (dB)'被设置为大于-60dB的值。*/.
 
-Attenuation Shape Extents: Vector. Attenuation Shape Extents:. The dimensions to use for the attenuation shape. Interpretation of the values differ per shape.. Sphere - X is Sphere Radius. Y and Z are unused. Capsule - X is Capsule Half Height, Y is Capsule Radius, Z is unused. Box - X, Y, and Z are the Box's dimensions. Cone - X is Cone Radius, Y is Cone Angle, Z is Cone Falloff Angle.
+衰减形状的范围。矢量。衰减形状的外延：。衰减形状使用的尺寸。每个形状的值的解释不同。Sphere - X是球体半径。Y和Z未使用。胶囊 - X是胶囊半高，Y是胶囊半径，Z是未使用的。盒子 - X, Y, 和 Z 是盒子的尺寸。锥体 - X是锥体半径，Y是锥体角度，Z是锥体脱落角度。
 
-Cone Offset: Float (single-precision). Cone Offset:. The distance back from the sound's origin to begin the cone when using the cone attenuation shape..
+锥体偏移。Float（单精度）。锥体偏移：。当使用锥体衰减形状时，从声音的原点向后开始锥体的距离。
 
-Falloff Distance: Float (single-precision). Falloff Distance:. The distance over which volume attenuation occurs..
+漂移距离。Float（单精度）。衰减距离：。发生体积衰减的距离。
 
-Cone Sphere Radius: Float (single-precision). Cone Sphere Radius:. An optional attenuation radius (sphere) that extends from the cone origin..
+锥体球体半径。Float（单精度）。Cone Sphere Radius:.一个可选的衰减半径（球体），从圆锥体的原点延伸出来。
 
-Cone Sphere Falloff Distance: Float (single-precision). Cone Sphere Falloff Distance:. The distance over which volume attenuation occurs for the optional sphere shape..
+锥体球体漂移距离。Float（单精度）。Cone Sphere Falloff Distance：.对于可选的球体形状，发生体积衰减的距离。
 
-Custom Attenuation Curve: Runtime Float Curve Structure. Custom Attenuation Curve:. The custom volume attenuation curve to use..
-
+自定义衰减曲线。运行时浮动曲线结构。自定义衰减曲线：。要使用的自定义音量衰减曲线。

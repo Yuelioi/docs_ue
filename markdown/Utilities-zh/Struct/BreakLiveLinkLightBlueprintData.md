@@ -1,6 +1,6 @@
 # BreakLiveLinkLightBlueprintData
 
-Adds a node that breaks a 'LiveLinkLightBlueprintData' into its member fields
+添加一个节点，将'LiveLinkLightBlueprintData'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'LiveLinkLightBlueprintData' into its member fields
 
 ## Inputs
 
-Live Link Light Blueprint Data: Live Link Light Blueprint Data Structure (by ref).  
+Live Link Light蓝图数据。Live Link Light蓝图数据结构（按参考）。  
 
 ## Outputs
 
-Static Data: Live Link Light Static Data Structure. Static Data:. Static data that should not change every frame.
+静态数据。活体链接灯 静态数据结构。静态数据：。静态数据，不应该每一帧都改变。
 
-Frame Data: Live Link Light Frame Data Structure. Frame Data:. Dynamic data that can change every frame.
-
+帧数据。实时链接光帧数据结构。帧数据：。动态数据，每一帧都可以改变。

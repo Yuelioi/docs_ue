@@ -1,6 +1,6 @@
 # MakeRigInfluenceMapPerEvent
 
-Adds a node that create a 'RigInfluenceMapPerEvent' from its members
+添加一个节点，从其成员中创建一个 "RigInfluenceMapPerEvent"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'RigInfluenceMapPerEvent' from its members
 
 ## Outputs
 
-Rig Influence Map Per Event: Rig Influence Map Per Event Structure.
-
+每个事件的钻机影响图。钻机影响图，每个事件的结构。

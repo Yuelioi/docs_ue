@@ -1,6 +1,6 @@
 # MakeSoundWaveSpectralDataPerSoun-
 
-Adds a node that create a 'SoundWaveSpectralDataPerSound' from its members
+添加一个节点，从其成员中创建一个 "SoundWaveSpectralDataPerSound"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'SoundWaveSpectralDataPerSound' from its members
 
 ## Inputs
 
-Spectral Data: Array of Sound Wave Spectral Data Structures. Spectral Data:. The array of current spectral data for this sound wave.
+光谱数据。声波光谱数据结构的阵列。频谱数据：。此声波的当前频谱数据数组。
 
-Playback Time: Float (single-precision). Playback Time:. The current playback time of this sound wave.
+播放时间。Float（单精度）。播放时间：。这个声波的当前播放时间。
 
-Sound Wave: Sound Wave Object Reference. Sound Wave:. The sound wave this spectral data is associated with.  
+声波。声波对象参考。声波：。这个频谱数据所关联的声波。  
 
 ## Outputs
 
-Sound Wave Spectral Data Per Sound: Sound Wave Spectral Data Per Sound Structure.
-
+每个声音的声波频谱数据。每个声音的声波频谱数据的结构。

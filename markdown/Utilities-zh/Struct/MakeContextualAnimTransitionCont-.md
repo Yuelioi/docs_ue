@@ -1,6 +1,6 @@
 # MakeContextualAnimTransitionCont-
 
-Adds a node that create a 'ContextualAnimTransitionContainer' from its members
+添加一个节点，从其成员中创建一个 "ContextualAnimTransitionContainer"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'ContextualAnimTransitionContainer' from its members
 
 ## Inputs
 
-From Sections: Array of Names. From Sections.
+来自各部门。名称的阵列。来自各部门。
 
-To Section: Name. To Section.
+到科室。名字。到科室。
 
-Force Transition: Boolean. Force Transition:. @TODO: Remove this from here it should be on the EdMode.  
+强制过渡。布尔型。强制过渡：。@TODO:从这里删除，它应该是在EdMode上。  
 
 ## Outputs
 
-Contextual Anim Transition Container: Contextual Anim Transition Container Structure.
-
+语境动画过渡容器:语境动画过渡容器结构.

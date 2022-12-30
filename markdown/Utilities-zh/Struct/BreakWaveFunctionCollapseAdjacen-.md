@@ -1,6 +1,6 @@
 # BreakWaveFunctionCollapseAdjacen-
 
-Adds a node that breaks a 'WaveFunctionCollapseAdjacencyToOptionsMap' into its member fields
+添加一个节点，将'WaveFunctionCollapseAdjacencyToOptionsMap'分解到其成员字段中
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that breaks a 'WaveFunctionCollapseAdjacencyToOptionsMap' into its m
 
 ## Inputs
 
-Wave Function Collapse Adjacency to Options Map: Wave Function Collapse Adjacency To Options Map Structure (by ref).  
+波浪函数折叠与选项地图的相邻关系。波函数折叠邻接到选项地图的结构（由参考）。  
 
 ## Outputs
 
-Contribution: Integer. Contribution:. The amount of times an option is present when deriving a model.. This value is used to calculate its weight..
+贡献。整数。贡献:。在推导模型时，一个选项出现的次数。该值用于计算其权重。
 
-Weight: Float (single-precision). Weight:. The weight of an option calculated by dividing this Contribution by the sum of all contributions of all options..
+重量。Float（单精度）。权重：。一个选项的权重，通过该贡献除以所有选项的所有贡献之和来计算。
 
-Adjacency To Options Map: Map of EWaveFunctionCollapseAdjacency Enums to Wave Function Collapse Options Structures. Adjacency to Options Map.
-
+相邻关系到选项地图。EWaveFunctionCollapseAdjacency Enums到Wave Function Collapse Options结构的地图。与选项的相邻关系图。

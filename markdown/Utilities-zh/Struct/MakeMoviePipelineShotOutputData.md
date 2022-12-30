@@ -1,6 +1,6 @@
 # MakeMoviePipelineShotOutputData
 
-Adds a node that create a 'MoviePipelineShotOutputData' from its members
+添加一个节点，从其成员中创建一个 "MoviePipelineShotOutputData"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'MoviePipelineShotOutputData' from its members
 
 ## Outputs
 
-Movie Pipeline Shot Output Data: Movie Pipeline Shot Output Data Structure.
-
+电影管道拍摄的输出数据。电影管道拍摄的输出数据结构。

@@ -1,6 +1,6 @@
 # SetmembersinDataprepSetLODsReduc-
 
-Adds a node that modifies a 'DataprepSetLODsReductionSettings'
+添加一个节点，修改 "DataprepSetLODsReductionSettings"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'DataprepSetLODsReductionSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Dataprep Set LODs Reduction Settings Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Dataprep Set LODs Reduction Settings Structure (by ref). Reference to the input struct.
-
+结构出来。Dataprep Set LODs Reduction Settings Structure（通过引用）。对输入结构的引用。

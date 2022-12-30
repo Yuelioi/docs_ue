@@ -1,6 +1,6 @@
 # SetmembersinCameraLensSettings
 
-Adds a node that modifies a 'CameraLensSettings'
+添加一个修改 "CameraLensSettings "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CameraLensSettings'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
-Struct Ref: Camera Lens Settings Structure (by ref).  
+结构参考：相机镜头设置结构（通过参考）。  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Camera Lens Settings Structure (by ref). Reference to the input struct.
-
+结构出来。相机镜头设置结构（通过引用）。对输入结构的引用。

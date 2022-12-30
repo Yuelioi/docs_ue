@@ -1,6 +1,6 @@
 # BreakSkelMeshMergeSectionMapping
 
-Adds a node that breaks a 'SkelMeshMergeSectionMapping' into its member fields
+添加一个打破'SkelMeshMergeSectionMapping'的节点到其成员字段中。
 
 ## 图示
 
@@ -8,9 +8,8 @@ Adds a node that breaks a 'SkelMeshMergeSectionMapping' into its member fields
 
 ## Inputs
 
-Skel Mesh Merge Section Mapping: Skel Mesh Merge Section Mapping Structure (by ref).  
+Skel网格合并部分的映射。Skel网格合并部分的映射结构（通过参考）。  
 
 ## Outputs
 
-Section IDs: Array of Integers. Section IDs:. indices to final section entries of the merged skel mesh.
-
+节的ID。整数的数组。断面ID：...合并后skel网格的最终断面条目的索引。

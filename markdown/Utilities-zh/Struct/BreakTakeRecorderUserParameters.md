@@ -1,6 +1,6 @@
 # BreakTakeRecorderUserParameters
 
-Adds a node that breaks a 'TakeRecorderUserParameters' into its member fields
+添加一个节点，将 "TakeRecorderUserParameters "分解成其成员字段。
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that breaks a 'TakeRecorderUserParameters' into its member fields
 
 ## Inputs
 
-Take Recorder User Parameters: Take Recorder User Parameters Structure (by ref).  
+拍摄记录仪用户参数。录音机用户参数结构（按参考）。  
 
 ## Outputs
 
-Maximize Viewport: Boolean. Maximize Viewport:. Whether to maximize the viewport (enter Immersive Mode) when recording.
+使视口最大化。布尔值。最大化视口：。录制时是否最大化视口（进入沉浸式模式）。
 
-Countdown: Float (single-precision). Countdown Seconds:. Delay that we will use before starting recording.
+倒计时。Float（单精度）。倒计时秒数：。我们将在开始录制前使用的延迟。
 
-Engine Time Dilation: Float (single-precision). Engine Time Dilation:. The engine time dilation to apply during the recording.
+引擎时间扩张。Float（单精度）。发动机时间扩张：。在记录过程中要应用的引擎时间扩张。
 
-Stop At Playback End: Boolean. Stop at Playback End:. Automatically stop recording when reaching the end of the playback range.
+在播放结束时停止。布尔型。在播放结束时停止：。当达到播放范围的终点时自动停止录制。
 
-Remove Redundant Tracks: Boolean. Remove Redundant Tracks:. Recommended for use with recorded spawnables. Beware that changes to actor instances in the map after recording may alter the recording when played back.
+删除多余的轨道。布尔型。移除多余的轨迹：。推荐用于录制的产卵器。请注意，在录制后对地图中的演员实例的改变可能会在回放时改变录制的内容。
 
-Reduce Keys Tolerance: Float (single-precision). Reduce Keys Tolerance:. Tolerance to use when reducing keys.
+减少键的公差。Float（单精度）。缩减键的公差：.在减少按键时使用的公差。
 
-Save Recorded Assets: Boolean. Save Recorded Assets:. Whether to save recorded level sequences and assets when done recording.
+保存记录的资产。布尔型。Save Recorded Assets:（保存录制的资产）。完成录制后是否保存已录制的等级序列和资产。
 
-Auto Lock: Boolean. Auto Lock:. Whether to lock the level sequence when done recording.
+自动锁定：布尔值。自动锁定：。录音结束后是否锁定电平序列。
 
-Auto Serialize: Boolean. Auto Serialize:. Whether to incrementally serialize and store some data while recording.
-
+自动序列化。Boolean.自动序列化：。是否在录制时增量地序列化并存储一些数据。

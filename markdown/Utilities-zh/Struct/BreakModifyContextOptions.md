@@ -1,6 +1,6 @@
 # BreakModifyContextOptions
 
-Adds a node that breaks a 'ModifyContextOptions' into its member fields
+添加一个节点，将'ModifyContextOptions'分解到其成员字段中。
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'ModifyContextOptions' into its member fields
 
 ## Inputs
 
-Modify Context Options: Modify Context Options Structure (by ref).  
+修改上下文选项。修改上下文选项结构（通过参考）。  
 
 ## Outputs
 
-Ignore All Pressed Keys Until Release: Boolean. Ignore All Pressed Keys Until Release:. If true than any keys that are pressed during the rebuild of control mappings will be ignored until they are released..
+忽略所有被按下的键，直到释放。布尔值。忽略所有被按下的键，直到释放：。如果为真，那么在重建控制映射时按下的任何键都将被忽略，直到它们被释放。
 
-Force Immediately: Boolean. Force Immediately:. The mapping changes will be applied synchronously, rather than at the end of the frame, making them available to the input system on the same frame..
-
+立即强制。布尔型。Force Immediately:（立即强制）。映射变化将被同步应用，而不是在帧的末尾，使它们在同一帧上对输入系统可用。

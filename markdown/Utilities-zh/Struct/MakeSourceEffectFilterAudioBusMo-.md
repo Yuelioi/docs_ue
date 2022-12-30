@@ -1,6 +1,6 @@
 # MakeSourceEffectFilterAudioBusMo-
 
-Adds a node that create a 'SourceEffectFilterAudioBusModulationSettings' from its members
+添加一个节点，从其成员中创建一个 "SourceEffectFilterAudioBusModulationSettings"。
 
 ## 图示
 
@@ -8,23 +8,22 @@ Adds a node that create a 'SourceEffectFilterAudioBusModulationSettings' from it
 
 ## Inputs
 
-Audio Bus: Audio Bus Object Reference. Audio Bus:. Audio bus to use to modulate the filter.
+音频总线: 音频总线对象参考.音频总线：。用来调制滤波器的音频总线。
 
-Attack Time (Ms): Integer. Envelope Follower Attack Time Msec:. The amplitude envelope follower attack time (in milliseconds) on the audio bus..
+攻击时间（Ms）。整数。包络器攻击时间Msec:。音频总线上的振幅包络器攻击时间（以毫秒为单位）。
 
-Release Time (Ms): Integer. Envelope Follower Release Time Msec:. The amplitude envelope follower release time (in milliseconds) on the audio bus..
+释放时间（Ms）。整数。Envelope Follower Release Time Msec:.音频总线上的振幅包络器释放时间（以毫秒计）。
 
-Envelope Gain Multiplier: Float (single-precision). Envelope Gain Multiplier:. An amount to scale the envelope follower output to map to the modulation values..
+包络增益乘数。浮点数（单精度）。Envelope Gain Multiplier:.一个用于缩放包络器输出以映射到调制值的数额。
 
-Min Frequency Modulation Amount: Float (single-precision). Min Frequency Modulation:. The frequency modulation value (in semitones from the filter frequency) to use when the envelope is quietest.
+最小频率调制量。浮点（单精度）。最小频率调制：。包络最安静时使用的频率调制值（以半音为单位，从滤波器频率开始）。
 
-Max Frequency Modulation Amount: Float (single-precision). Max Frequency Modulation:. The frequency modulation value (in semitones from the filter frequency) to use when the envelope is loudest.
+最大频率调制量。浮点（单精度）。最大频率调制：。当包络最响时使用的频率调制值（以半音为单位，从滤波器频率开始）。
 
-Min Resonance Modulation Amount: Float (single-precision). Min Resonance Modulation:. The resonance modulation value to use when the envelope is quietest.
+最小谐振调制量。浮点（单精度）。最小谐振调制：。当包络最安静时使用的谐振调制值。
 
-Max Resonance Modulation Amount: Float (single-precision). Max Resonance Modulation:. The resonance modulation value to use when the envelope is loudest.  
+最大谐振调制量。浮点（单精度）。最大谐振调制量：。当包络最响时要使用的共振调制值。  
 
 ## Outputs
 
-Source Effect Filter Audio Bus Modulation Settings: Source Effect Filter Audio Bus Modulation Settings Structure.
-
+源效果滤波器音频总线调制设置。源效果滤波器音频总线调制设置结构。

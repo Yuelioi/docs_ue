@@ -1,6 +1,6 @@
 # BreakPyTestChildStruct
 
-Adds a node that breaks a 'PyTestChildStruct' into its member fields
+添加一个节点，将'PyTestChildStruct'分解成其成员字段
 
 ## 图示
 
@@ -8,27 +8,26 @@ Adds a node that breaks a 'PyTestChildStruct' into its member fields
 
 ## Inputs
 
-Py Test Child Struct: Py Test Child Struct Structure (by ref).  
+Py测试子结构。Py测试子结构的结构（通过参考）。  
 
 ## Outputs
 
-Bool: Boolean. Bool.
+Bool。布尔型。Bool.
 
-Int: Integer. Int.
+Int: 整数。沟通。
 
-Float: Float (single-precision). Float.
+浮点数。Float (single-precision).浮点数。
 
-Enum: EPyTestEnum Enum. Enum.
+Enum: EPyTestEnum Enum.枚举。
 
-String: String. String.
+字符串。字符串。
 
-Name: Name. Name.
+姓名：姓名名字。
 
-Text: Text. Text.
+文本。文本。文本。
 
-String Array: Array of Strings. String Array.
+字符串阵列。字符串的数组。字符串数组。
 
-String Set: Set of Strings. String Set.
+弦乐组。弦乐组合。弦乐组。
 
-String Int Map: Map of Strings to Integers. String Int Map.
-
+String Int Map:字符串到整数的映射。String Int Map.

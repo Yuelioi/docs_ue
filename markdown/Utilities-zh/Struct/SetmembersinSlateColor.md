@@ -1,6 +1,6 @@
 # SetmembersinSlateColor
 
-Adds a node that modifies a 'SlateColor'
+添加一个修改 "SlateColor "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'SlateColor'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Slate Color Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Slate Color Structure (by ref). Reference to the input struct.
-
+结构出来。石板颜色结构（通过引用）。对输入结构的引用。

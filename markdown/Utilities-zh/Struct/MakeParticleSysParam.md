@@ -1,6 +1,6 @@
 # MakeParticleSysParam
 
-Adds a node that create a 'ParticleSysParam' from its members
+添加一个节点，从其成员中创建一个 "ParticleSysParam"。
 
 ## 图示
 
@@ -8,25 +8,24 @@ Adds a node that create a 'ParticleSysParam' from its members
 
 ## Inputs
 
-Name: Name. Name:. The name of the parameter.
+姓名。姓名：。名称：。参数的名称。
 
-Param Type: EParticleSysParamType Enum. Param Type:. The type of parameters. PSPT_None - There is no data type. PSPT_Scalar - Use the scalar value. PSPT_ScalarRand - Select a scalar value in the range [Scalar_Low..Scalar). PSPT_Vector - Use the vector value. PSPT_VectorRand - Select a vector value in the range [Vector_Low..Vector). PSPT_Color - Use the color value. PSPT_Actor - Use the actor value. PSPT_Material - Use the material value. PSPT_VectorUnitRand - Select a random unit vector and scale along the range [Vector_Low..Vector).
+参数类型。EParticleSysParamType Enum.Param Type:.参数类型。参数的类型。PSPT_None - 没有数据类型。PSPT_Scalar - 使用标量值。PSPT_ScalarRand - 在[Scalar_Low.Scalar]范围内选择一个标量值。PSPT_Vector - 使用矢量值。PSPT_VectorRand - 在[Vector_Low.Vector)范围内选择一个矢量值。PSPT_Color - 使用颜色值。PSPT_Actor - 使用演员值。PSPT_Material - 使用材质值。PSPT_VectorUnitRand - 沿着[Vector_Low.Vector)的范围选择一个随机的单位向量和比例。
 
-Scalar: Float (single-precision). Scalar.
+标量。Float（单精度）。标量。
 
-Scalar Low: Float (single-precision). Scalar Low.
+Scalar Low: Float (single-precision).Scalar Low.
 
-Vector: Vector. Vector.
+向量：向量。矢量。
 
-Vector Low: Vector. Vector Low.
+Vector Low: Vector.矢量低。
 
-Color: Color Structure. Color.
+颜色：颜色结构。颜色。
 
-Actor: Actor Object Reference. Actor.
+演员。Actor Object Reference.行为者。
 
-Material: Material Interface Object Reference. Material.  
+材料。材料界面对象参考。材料。  
 
 ## Outputs
 
-Particle Sys Param: Particle Sys Param Structure.
-
+Particle Sys Param: 粒子系统参数结构。

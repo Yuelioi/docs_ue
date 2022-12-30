@@ -1,6 +1,6 @@
 # BreakPropertyEntry
 
-Adds a node that breaks a 'PropertyEntry' into its member fields
+添加一个节点，将 "PropertyEntry "分解为其成员字段。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that breaks a 'PropertyEntry' into its member fields
 
 ## Inputs
 
-Property Entry: Property Entry Structure (by ref).  
+财产条目。财产条目结构（按参考）。  
 
 ## Outputs
 
-Property: EMaterialProperty Enum. Property:. Property which should be baked out.
+属性。EMaterialProperty Enum.属性：。应该被烘烤出来的属性。
 
-Use Custom Size: Boolean. Use Custom Size:. Whether or not to use the value of custom size for the output texture.
+使用自定义尺寸。布尔值。Use Custom Size（使用自定义尺寸）：。是否对输出纹理使用自定义尺寸的值。
 
-Custom Size: Int Point Structure. Custom Size:. Defines the size of the output textures for the baked out material properties.
+自定义尺寸。Int Point Structure.Custom Size:.自定义尺寸。定义烘烤材质属性的输出纹理的大小。
 
-Use Constant Value: Boolean. Use Constant Value:. Wheter or not to use Constant Value as the final 'baked out' value for the this property.
+使用常量值。Boolean.使用常量值：。是否使用Constant Value作为该属性的最终 "出炉 "值。
 
-Constant Value: Float (single-precision). Constant Value:. Defines the value representing this property in the final proxy material.
-
+常量值。浮点数（单精度）。常量值：。定义了在最终代理材料中代表该属性的值。

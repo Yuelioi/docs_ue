@@ -1,6 +1,6 @@
 # MakeLensDistortionState
 
-Adds a node that create a 'LensDistortionState' from its members
+添加一个节点，从其成员中创建一个 "LensDistortionState"。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'LensDistortionState' from its members
 
 ## Inputs
 
-Distortion Info: Distortion Info Structure. Distortion Info:. Generic array of distortion parameters.
+失真信息。失真信息结构。失真信息：。扭曲参数的通用数组。
 
-Focal Length Info: Focal Length Info Structure. Focal Length Info:. Normalized focal fength in both dimensions.
+焦距信息。焦距信息结构。焦距信息：。两个维度的归一化焦距。
 
-Image Center: Image Center Info Structure. Image Center:. Normalized center of the image, in the range [0.0f, 1.0f].  
+图像中心。图片中心信息结构。图像中心：。图像的归一化中心，范围为[0.0f, 1.0f]。  
 
 ## Outputs
 
-Lens Distortion State: Lens Distortion State Structure.
-
+镜头失真状态。镜头失真状态的结构。

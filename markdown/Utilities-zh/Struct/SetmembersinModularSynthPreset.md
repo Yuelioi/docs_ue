@@ -1,6 +1,6 @@
 # SetmembersinModularSynthPreset
 
-Adds a node that modifies a 'ModularSynthPreset'
+添加一个修改 "ModularSynthPreset "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'ModularSynthPreset'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Modular Synth Preset Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Modular Synth Preset Structure (by ref). Reference to the input struct.
-
+结构出来。模块化合成器预置结构（通过参考）。对输入结构的引用。

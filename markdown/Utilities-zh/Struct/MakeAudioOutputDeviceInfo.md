@@ -1,6 +1,6 @@
 # MakeAudioOutputDeviceInfo
 
-Adds a node that create a 'AudioOutputDeviceInfo' from its members
+添加一个节点，从其成员中创建一个'AudioOutputDeviceInfo'。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'AudioOutputDeviceInfo' from its members
 
 ## Outputs
 
-Audio Output Device Info: Audio Output Device Info Structure.
-
+音频输出设备信息。音频输出设备信息结构。

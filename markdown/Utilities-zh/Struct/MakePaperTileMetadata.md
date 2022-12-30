@@ -1,6 +1,6 @@
 # MakePaperTileMetadata
 
-Adds a node that create a 'PaperTileMetadata' from its members
+添加一个节点，从其成员中创建一个 "PaperTileMetadata"。
 
 ## 图示
 
@@ -10,5 +10,4 @@ Adds a node that create a 'PaperTileMetadata' from its members
 
 ## Outputs
 
-Paper Tile Metadata: Paper Tile Metadata Structure.
-
+纸牌元数据：纸牌元数据结构。

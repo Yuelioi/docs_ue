@@ -1,6 +1,6 @@
 # BreakMotoSynthRuntimeSettings
 
-Adds a node that breaks a 'MotoSynthRuntimeSettings' into its member fields
+添加一个节点，将'MotoSynthRuntimeSettings'分解成其成员字段
 
 ## 图示
 
@@ -8,73 +8,72 @@ Adds a node that breaks a 'MotoSynthRuntimeSettings' into its member fields
 
 ## Inputs
 
-Moto Synth Runtime Settings: Moto Synth Runtime Settings Structure (by ref).  
+Moto Synth运行时设置。Moto Synth运行时设置结构（按参考）。  
 
 ## Outputs
 
-Synth Tone Enabled: Boolean. Synth Tone Enabled:. If the synth tone is enabled.
+启用的合成音。布尔值。Synth Tone Enabled：.如果合成音被启用。
 
-Synth Tone Volume Range: Vector 2D Structure. Synth Tone Volume Range:. The volume of the synth tone between min and max RPM.
+Synth Tone Volume Range:矢量2D结构。合成音的音量范围：。合成音的音量在最小和最大转速之间。
 
-Synth Tone Filter Frequency Range: Vector 2D Structure. Synth Tone Filter Frequency Range:. The filter frequency of the synth tone between min/max RPM.
+Synth Tone Filter频率范围。矢量2D结构。合成音滤波频率范围：。合成音的滤波频率在最小/最大转速之间。
 
-Synth Tone Envelope Enabled: Boolean. Synth Tone Envelope Enabled:. Enable the synth tone envelope generator.
+Synth Tone Envelope Enabled:布尔值。Synth Tone Envelope Enabled：.启用合成音调包络发生器。
 
-Synth Tone Attack Time Msec Range: Vector 2D Structure. Synth Tone Attack Time Msec Range:. Synth tone envelope attack time in milliseconds between min/max RPM.
+Synth Tone Attack Time Msec Range:矢量2D结构。合成音攻击时间Msec范围：。合成音包络的攻击时间，在最小/最大转速之间的毫秒。
 
-Synth Tone Attack Curve Range: Vector 2D Structure. Synth Tone Attack Curve Range:. Synth tone envelope attack curve. 1.0 = linear growth, < 1.0 logorithmic growth, > 1.0 exponential growth..
+合成器音调攻击曲线范围。矢量2D结构。合成音攻击曲线范围：。合成音包络攻击曲线。1.0=线性增长，<1.0对数增长，>1.0指数增长。
 
-Synth Tone Decay Time Msec Range: Vector 2D Structure. Synth Tone Decay Time Msec Range:. Synth tone decay time in milliseconds.
+Synth Tone Decay Time Msec范围。矢量2D结构。Synth Tone Decay Time Msec 范围：。同步音的衰减时间，单位是毫秒。
 
-Synth Tone Decay Curve Range: Vector 2D Structure. Synth Tone Decay Curve Range:. Synth tone envelope decay curve. 1.0 = linear decay, < 1.0 exponential decay, > 1.0 logarithmic decay..
+Synth Tone Decay Curve范围。矢量2D结构。合成音的衰减曲线范围：。合成音包络衰减曲线。1.0 = 线性衰减，< 1.0 指数衰减，> 1.0 对数衰减。
 
-Synth Octave Shift: Integer. Synth Octave Shift:. Octave shift of the synth.
+合成器倍频移位。整数。合成器八度移位：。合成器的倍频移位。
 
-Noise Enabled: Boolean. Noise Enabled:. If the noise generator enabled.
+启用的噪声。布尔型。启用的噪声：。如果噪声发生器启用。
 
-Noise Volume Range: Vector 2D Structure. Noise Volume Range:. The volume of the noise source.
+噪声量范围。矢量2D结构。噪声体积范围：。噪声源的音量。
 
-Noise Envelope Enabled: Boolean. Noise Envelope Enabled:. If the noise generator has the envelope enabled.
+启用的噪声包络。布尔值。启用的噪声包络：。如果噪声发生器启用了包络。
 
-Noise LPFRange: Vector 2D Structure. Noise LPFRange:. The filter frequency of the noise generator between min/max RPM.
+噪声LPFRange。矢量2D结构。噪声LPFRange:。最小/最大转速之间的噪声发生器的滤波频率。
 
-Noise Attack Time Msec Range: Vector 2D Structure. Noise Attack Time Msec Range:. Noise envelope attack time in milliseconds between min/max RPM.
+噪声攻击时间Msec范围。矢量2D结构。噪声攻击时间Msec范围：。噪声包络的攻击时间，在最小/最大转速之间的毫秒。
 
-Noise Attack Curve Range: Vector 2D Structure. Noise Attack Curve Range:. Noise envelope attack curve. 1.0 = linear growth, < 1.0 logorithmic growth, > 1.0 exponential growth..
+噪声攻击曲线范围。矢量2D结构。噪声攻击曲线范围：。噪声包络攻击曲线。1.0=线性增长，<1.0对数增长，>1.0指数增长。
 
-Noise Decay Time Msec Range: Vector 2D Structure. Noise Decay Time Msec Range:. Noise envelope attack time in milliseconds between min/max RPM.
+噪声衰减时间Msec范围。矢量2D结构。噪声衰减时间Msec范围：。噪声包络的攻击时间，在最小/最大转速之间的毫秒。
 
-Noise Decay Curve Range: Vector 2D Structure. Noise Decay Curve Range:. Noise envelope attack curve between min/max RPM. 1.0 = linear growth, < 1.0 logorithmic growth, > 1.0 exponential growth..
+噪声衰减曲线范围。矢量2D结构。噪声衰减曲线范围：。最小/最大转速之间的噪声包络攻击曲线。1.0=线性增长，<1.0对数增长，>1.0指数增长。
 
-Granular Engine Enabled: Boolean. Granular Engine Enabled:. If the granular engine is enabled.
+启用了颗粒引擎。Boolean.颗粒引擎已启用：。如果颗粒引擎被启用。
 
-Granular Engine Volume: Float (single-precision). Granular Engine Volume:. The volume of the granular engine.
+颗粒引擎量。Float（单精度）。颗粒引擎体积：。颗粒引擎的体积。
 
-Granular Engine Pitch Scale: Float (single-precision). Granular Engine Pitch Scale:. The pitch scale of the granular engine.
+粒状引擎的音程刻度。Float（单精度）。颗粒引擎音阶：。颗粒引擎的音高比例。
 
-Num Samples To Crossfade Between Grains: Integer. Num Samples to Crossfade Between Grains:. The volume of the granular engine.
+颗粒之间交叉淡化的样本数。整数。Num Samples to Crossfade Between Grains:.颗粒引擎的体积。
 
-Num Grain Table Entries Per Grain: Integer. Num Grain Table Entries Per Grain:. How many grain-table entries to use per runtime grain.
+每粒粮食的粮食表条目数。整数。Num Grain Table Entries Per Grain：。每个运行时间的谷物表条目有多少。
 
-Grain Table Random Offset For Constant RPMs: Integer. Grain Table Random Offset for Constant RPMs:. Random grain table offset for cases where RPM is constant. Allows random shuffling of grains to avoid a robotic sound..
+恒定转速下的晶粒表随机偏移。整数。恒定转速的晶粒表随机偏移量：。在转速恒定的情况下，随机谷物表偏移。允许随机洗粒以避免机器人的声音。
 
-Grain Crossfade Samples For Constant RPMs: Integer. Grain Crossfade Samples for Constant RPMs:. Number of samples to cross fade grains when on a constant-RPM state. More crossfaded samples can reduce the robotic sound..
+恒定转速下的谷粒交叉淡化样本。整数。恒定转速下的纹路交叉淡化样本：。在恒定转速状态下，交叉淡化谷物的样本数。更多的交叉淡化样本可以减少机器人的声音。
 
-Stereo Widener Enabled: Boolean. Stereo Widener Enabled:. If the stereo widener is enabled.
+启用立体声扩音器。Boolean.Stereo Widener Enabled：。如果立体声加宽器被启用。
 
-Stereo Delay Msec: Float (single-precision). Stereo Delay Msec:. If the stereo widener is enabled.
+立体声延时Msec:Float（单精度）。Stereo Delay Msec:.如果启用了立体声扩音器。
 
-Stereo Feedback: Float (single-precision). Stereo Feedback:. Amount of feedback for stereo widener.
+立体声反馈。Float（单精度）。立体声反馈：。立体声扩音器的反馈量。
 
-Stereo Widener Wetlevel: Float (single-precision). Stereo Widener Wetlevel:. Wet level of stereo delay used for stereo widener.
+立体声维德纳湿电平。Float（单精度）。Stereo Widener Wetlevel：。用于立体声加宽器的立体声延迟的湿电平。
 
-Stereo Widener Dry Level: Float (single-precision). Stereo Widener Dry Level:. Dry level of stereo delay used for stereo widener.
+立体声扩音器干式电平。浮点（单精度）。Stereo Widener Dry Level：。用于立体声加宽器的立体声延迟的干电平。
 
-Stereo Widener Delay Ratio: Float (single-precision). Stereo Widener Delay Ratio:. Delay ratio of left/right channels for stereo widener effect.
+立体声扩音器延迟率。Float（单精度）。立体声加宽器延迟率：。立体声扩音器效果的左/右通道的延迟率。
 
-Stereo Widener Filter Enabled: Boolean. Stereo Widener Filter Enabled:. Delay ratio of left/right channels for stereo widener effect.
+启用立体声宽频滤波器。Boolean.Stereo Widener Filter Enabled:（启用立体声宽屏滤波器）。立体声加宽器效果的左/右通道的延迟比例。
 
-Stereo Widener Filter Frequency: Float (single-precision). Stereo Widener Filter Frequency:. Delay ratio of left/right channels for stereo widener effect.
+立体声宽频滤波器频率。Float（单精度）。立体声加宽器滤波频率：。立体声拓宽器效果的左/右通道的延迟率。
 
-Stereo Widener Filter Q: Float (single-precision). Stereo Widener Filter Q:. Delay ratio of left/right channels for stereo widener effect.
-
+Stereo Widener Filter Q: Float (single-precision).立体声加宽器滤波Q:。立体声加宽器效果的左/右通道的延迟率。

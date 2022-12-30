@@ -1,6 +1,6 @@
 # BreakTypedElementSelectionNormal-
 
-Adds a node that breaks a 'TypedElementSelectionNormalizationOptions' into its member fields
+添加一个节点，将'TypedElementSelectionNormalizationOptions'分解成其成员字段
 
 ## 图示
 
@@ -8,11 +8,10 @@ Adds a node that breaks a 'TypedElementSelectionNormalizationOptions' into its m
 
 ## Inputs
 
-Typed Element Selection Normalization Options: Typed Element Selection Normalization Options Structure (by ref).  
+类型化元素选择归一化选项。类型化元素选择归一化选项的结构（通过参考）。  
 
 ## Outputs
 
-Expand Groups: Boolean. Expand Groups.
+扩展组。Boolean.扩展组。
 
-Follow Attachment: Boolean. Follow Attachment.
-
+跟随附件。布尔型。跟随附件。

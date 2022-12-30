@@ -1,6 +1,6 @@
 # SetmembersinCurveFlagsChangedPay-
 
-Adds a node that modifies a 'CurveFlagsChangedPayload'
+添加一个修改 "CurveFlagsChangedPayload "的节点。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that modifies a 'CurveFlagsChangedPayload'
 
 ## Inputs
 
-In: Exec.
+在。执行。
 
 Struct Ref: Curve Flags Changed Payload Structure (by ref).  
 
 ## Outputs
 
-Out: Exec.
+出：执行。
 
-Struct Out: Curve Flags Changed Payload Structure (by ref). Reference to the input struct.
-
+结构出来了。曲线标志改变后的有效载荷结构（通过参考）。对输入结构的引用。

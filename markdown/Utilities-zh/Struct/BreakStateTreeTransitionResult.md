@@ -1,6 +1,6 @@
 # BreakStateTreeTransitionResult
 
-Adds a node that breaks a 'StateTreeTransitionResult' into its member fields
+添加一个节点，将'StateTreeTransitionResult'分解为其成员字段
 
 ## 图示
 
@@ -8,15 +8,14 @@ Adds a node that breaks a 'StateTreeTransitionResult' into its member fields
 
 ## Inputs
 
-State Tree Transition Result: State Tree Transition Result Structure (by ref).  
+状态树过渡结果。状态树过渡结果结构（通过参考）。  
 
 ## Outputs
 
-Source: State Tree State Status Structure. Source:. State where the transition started..
+资料来源：《国家树》。国家树国家状态结构。来源：。转变开始的状态...
 
-Target: State Tree Handle Structure. Target:. Transition target state.
+目标。状态树处理结构。目标：。转移目标状态。
 
-Next: State Tree Handle Structure. Next:. Selected state, can be different from Transition, if Transition is a selector state..
+下一步。状态树手柄结构。下一篇：.选择的状态，可以与过渡期不同，如果过渡期是一个选择器状态。
 
-Current: State Tree Handle Structure. Current:. Current state, update as we execute the tree..
-
+当前：状态树柄结构。当前：。当前状态，在我们执行树的过程中更新。

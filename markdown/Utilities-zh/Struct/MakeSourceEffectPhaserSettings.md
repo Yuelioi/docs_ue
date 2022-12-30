@@ -1,6 +1,6 @@
 # MakeSourceEffectPhaserSettings
 
-Adds a node that create a 'SourceEffectPhaserSettings' from its members
+添加一个节点，从其成员中创建一个 "SourceEffectPhaserSettings"。
 
 ## 图示
 
@@ -8,17 +8,16 @@ Adds a node that create a 'SourceEffectPhaserSettings' from its members
 
 ## Inputs
 
-Wet Level: Float (single-precision). Wet Level:. The wet level of the phaser effect.
+湿水平。浮点（单精度）。湿电平：。相位器效果的湿电平。
 
-Frequency: Float (single-precision). Frequency:. The LFO frequency of the phaser effect.
+频率。Float (single-precision).频率：。相位器效果的LFO频率。
 
-Feedback: Float (single-precision). Feedback:. The feedback of the phaser effect.
+反馈。Float（单精度）。反馈：。相位器效果的反馈。
 
-LFOType: EPhaserLFOType Enum. LFOType:. The phaser LFO type.
+LFOType:EPhaserLFOType Enum.LFOType:.相位器的LFO类型。
 
-Use Quadrature Phase: Boolean. Use Quadrature Phase:. Whether or not to use quadtrature phase for the LFO modulation.  
+使用正交相位。Boolean.使用正交相位：。是否对LFO的调制使用正交相位。  
 
 ## Outputs
 
-Source Effect Phaser Settings: Source Effect Phaser Settings Structure.
-
+源效果相位器设置。源效果相位器设置结构。

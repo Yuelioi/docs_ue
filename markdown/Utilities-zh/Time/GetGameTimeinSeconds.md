@@ -1,8 +1,8 @@
 # GetGameTimeinSeconds
 
-Get the current game time, in seconds. This stops when the game is paused and is affected by slomo.
+获取当前的游戏时间，单位是秒。这在游戏暂停时停止，并受到slomo的影响。
 
-Target is Kismet System Library
+目标是Kismet系统库
 
 ## 图示
 
@@ -12,5 +12,4 @@ Target is Kismet System Library
 
 ## Outputs
 
-Return Value: Float (single-precision).
-
+返回值。浮点数（单精度）。

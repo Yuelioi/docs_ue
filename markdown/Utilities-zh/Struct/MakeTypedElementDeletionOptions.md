@@ -1,6 +1,6 @@
 # MakeTypedElementDeletionOptions
 
-Adds a node that create a 'TypedElementDeletionOptions' from its members
+添加一个节点，从其成员中创建一个'TypedElementDeletionOptions'。
 
 ## 图示
 
@@ -8,13 +8,12 @@ Adds a node that create a 'TypedElementDeletionOptions' from its members
 
 ## Inputs
 
-Verify Deletion Can Happen: Boolean. Verify Deletion Can Happen.
+验证删除是否可以发生。布尔型。验证删除是否发生。
 
-Warn About References: Boolean. Warn About References.
+关于引用的警告。布尔型。关于引用的警告。
 
-Warn About Soft References: Boolean. Warn About Soft References.  
+关于软引用的警告。布尔型。警告软性引用。  
 
 ## Outputs
 
-Typed Element Deletion Options: Typed Element Deletion Options Structure.
-
+类型化的元素删除选项。类型化的元素删除选项的结构。
