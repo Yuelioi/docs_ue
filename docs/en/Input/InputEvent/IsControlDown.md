@@ -1,0 +1,18 @@
+# IsControlDown
+
+Returns true if either control key was down when this event occurred
+
+Target is Kismet Input Library
+
+## 图示
+
+![]($-20221218-19242419.png)
+
+## Inputs
+
+Input: Input Event Structure (by ref).  
+
+## Outputs
+
+Return Value: Boolean. Returns true if either control key was down when this event occurred.
+

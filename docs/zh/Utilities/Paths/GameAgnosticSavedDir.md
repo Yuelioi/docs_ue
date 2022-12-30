@@ -1,0 +1,15 @@
+# GameAgnosticSavedDir
+
+返回不针对游戏的保存目录。这通常等同于。EngineSavedDir()。
+
+目标是蓝图路径库
+
+## 图示
+
+![]($-20221218-14274461.png)
+
+## Inputs
+
+## Outputs
+
+返回值。字符串。保存的目录。
