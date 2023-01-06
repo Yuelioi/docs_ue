@@ -1,0 +1,50 @@
+# HasAssets_Message
+
+给定的路径是否包含资产，也可选择测试子路径？
+
+目标是资产注册处
+
+## 图示
+
+![]($-20221218-18005173.png)
+
+## Inputs
+
+在。执行。
+
+目标。对象参考。
+
+包路径。名称。查询资产数据的路径（例如，/Game/MyFolder）。
+
+递归。布尔值。如果为真，提供的路径将被递归测试。 
+
+## Outputs
+
+输出。执行。
+
+返回值。布尔值。
+
+Does the given path contain assets, optionally also testing sub-paths?
+
+Target is Asset Registry
+
+## 图示
+
+![]($-20221218-18005173.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Object Reference.
+
+Package Path: Name. the path to query asset data in (eg, /Game/MyFolder).
+
+Recursive: Boolean. if true, the supplied path will be tested recursively.  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Boolean.
+

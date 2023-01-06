@@ -1,0 +1,54 @@
+# AddVerticestoMesh
+
+为网格添加顶点
+
+目标是几何脚本库中的网格基本编辑功能
+
+## 图示
+
+![]($-20221218-19112967.png)
+
+## Inputs
+
+在。执行。
+
+目标网格。动态网格对象参考。
+
+新位置列表。矢量列表结构。
+
+推迟更改通知。布尔值。  
+
+## Outputs
+
+出：执行。
+
+新的指数列表。指数列表结构。
+
+目标网格。动态网格对象参考。为网格添加顶点。
+
+Add Vertices to Mesh
+
+Target is Geometry Script Library Mesh Basic Edit Functions
+
+## 图示
+
+![]($-20221218-19112967.png)
+
+## Inputs
+
+In: Exec.
+
+Target Mesh: Dynamic Mesh Object Reference.
+
+New Positions List: Vector List Structure.
+
+Defer Change Notifications: Boolean.  
+
+## Outputs
+
+Out: Exec.
+
+New Indices List: Index List Structure.
+
+Target Mesh: Dynamic Mesh Object Reference. Add Vertices to Mesh.
+

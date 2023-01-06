@@ -1,4 +1,0 @@
-# AddMathExpression
-
-Collapsed composite node
-

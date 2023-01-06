@@ -1,4 +1,0 @@
-# OnApplied
-
-On Applied
-

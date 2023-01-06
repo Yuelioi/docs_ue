@@ -1,0 +1,34 @@
+# GetCurrentPlaybackProgressTime
+
+获取当前播放进度时间
+
+目标是合成器样本播放器
+
+## 图示
+
+![]($-20221218-21063339.png)
+
+## Inputs
+
+目标。Synth Sample Player对象参考。  
+
+## Outputs
+
+返回值。Float（单精度）。获取当前播放进度时间。
+
+Get Current Playback Progress Time
+
+Target is Synth Sample Player
+
+## 图示
+
+![]($-20221218-21063339.png)
+
+## Inputs
+
+Target: Synth Sample Player Object Reference.  
+
+## Outputs
+
+Return Value: Float (single-precision). Get Current Playback Progress Time.
+

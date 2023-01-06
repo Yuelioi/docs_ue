@@ -1,4 +1,0 @@
-# OnNewConnection
-
-On New Connection
-

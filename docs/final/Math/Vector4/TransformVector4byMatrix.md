@@ -1,0 +1,38 @@
+# TransformVector4byMatrix
+
+用提供的矩阵4x4对输入向量4进行变换，并返回结果向量4。
+
+目标是Kismet数学图书馆
+
+## 图示
+
+![]($-20221218-19592330.png)
+
+## Inputs
+
+矩阵。矩阵结构（按参考）。
+
+Vec 4: 矢量4结构（通过参考）。  
+
+## Outputs
+
+返回值。向量4结构。变换后的向量4。
+
+Transform the input vector4 by a provided matrix4x4 and returns the resulting vector4.
+
+Target is Kismet Math Library
+
+## 图示
+
+![]($-20221218-19592330.png)
+
+## Inputs
+
+Matrix: Matrix Structure (by ref).
+
+Vec 4: Vector 4 Structure (by ref).  
+
+## Outputs
+
+Return Value: Vector 4 Structure. Transformed vector4..
+

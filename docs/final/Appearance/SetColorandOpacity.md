@@ -1,0 +1,42 @@
+# SetColorandOpacity
+
+设置小组件的色调，这影响到所有的子小组件。
+
+目标是用户小部件
+
+## 图示
+
+![]($-20221218-17544168.png)
+
+## Inputs
+
+在。执行。
+
+目标。用户小部件对象参考。
+
+在颜色和不透明度。线性颜色结构。应用于所有子小部件的色调。 
+
+## Outputs
+
+出来。执行。
+
+Sets the tint of the widget, this affects all child widgets.
+
+Target is User Widget
+
+## 图示
+
+![]($-20221218-17544168.png)
+
+## Inputs
+
+In: Exec.
+
+Target: User Widget Object Reference.
+
+In Color and Opacity: Linear Color Structure. The tint to apply to all child widgets..  
+
+## Outputs
+
+Out: Exec.
+

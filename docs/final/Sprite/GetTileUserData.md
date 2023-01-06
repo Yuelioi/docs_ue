@@ -1,0 +1,34 @@
+# GetTileUserData
+
+返回指定瓦片的用户数据名称，如果没有用户指定的数据，则返回NAME_NONE。
+
+目标是瓦片地图蓝图库
+
+## 图示
+
+![]($-20221218-21023496.png)
+
+## Inputs
+
+瓦片。纸瓦信息结构。  
+
+## Outputs
+
+返回值。名称。返回指定瓦片的用户数据名称，如果没有用户指定的数据，则返回NAME_NONE。
+
+Returns the user data name for the specified tile, or NAME_None if there is no user-specified data
+
+Target is Tile Map Blueprint Library
+
+## 图示
+
+![]($-20221218-21023496.png)
+
+## Inputs
+
+Tile: Paper Tile Info Structure.  
+
+## Outputs
+
+Return Value: Name. Returns the user data name for the specified tile, or NAME_None if there is no user-specified data.
+

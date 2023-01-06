@@ -1,4 +1,0 @@
-# OnARTransformUpdated
-
-On ARTransform Updated
-

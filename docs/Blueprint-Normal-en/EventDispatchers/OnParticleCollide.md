@@ -1,4 +1,0 @@
-# OnParticleCollide
-
-On Particle Collide
-

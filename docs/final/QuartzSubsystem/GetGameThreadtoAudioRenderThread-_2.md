@@ -1,0 +1,42 @@
+# GetGameThreadtoAudioRenderThread-_2
+
+获取游戏线程到音频渲染线程的最小延时
+
+目标是石英
+
+## 图示
+
+![]($-20221218-20323884.png)
+
+## Inputs
+
+在。执行。
+
+目标。石英对象参考。  
+
+## Outputs
+
+出：执行。
+
+返回值。浮点数（单精度）。获取游戏线程到音频渲染线程的最小延时。
+
+Get Game Thread to Audio Render Thread Min Latency
+
+Target is Quartz
+
+## 图示
+
+![]($-20221218-20323884.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Quartz Object Reference.  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Float (single-precision). Get Game Thread to Audio Render Thread Min Latency.
+

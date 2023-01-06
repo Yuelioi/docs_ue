@@ -1,0 +1,38 @@
+# GetNumEdgeConnectedTriangles
+
+返回与此边相连的三角形的数量。
+
+目标是网状描述基
+
+## 图示
+
+![]($-20221218-20034415.png)
+
+## Inputs
+
+目标。网格描述 基本对象参考。
+
+边缘标识：边缘标识结构。  
+
+## Outputs
+
+返回值。整数。返回与此边连接的三角形的数量。
+
+Returns the number of triangles connected to this edge
+
+Target is Mesh Description Base
+
+## 图示
+
+![]($-20221218-20034415.png)
+
+## Inputs
+
+Target: Mesh Description Base Object Reference.
+
+Edge ID: Edge ID Structure.  
+
+## Outputs
+
+Return Value: Integer. Returns the number of triangles connected to this edge.
+

@@ -1,4 +1,0 @@
-# OnParticleSpawn
-
-On Particle Spawn
-

@@ -1,0 +1,34 @@
+# GetOwningListView
+
+返回包含该条目的列表视图。
+
+目标是用户列表条目库
+
+## 图示
+
+![]($-20221218-21224901.png)
+
+## Inputs
+
+用户名单录入。用户名单条目界面。注意：在视觉上没有传送，但这默认为 "自己"。如果在内部调用，不需要勾选...
+
+## Outputs
+
+返回值。列表视图基本对象参考。
+
+Returns the list view that contains this entry.
+
+Target is User List Entry Library
+
+## 图示
+
+![]($-20221218-21224901.png)
+
+## Inputs
+
+User List Entry: User List Entry Interface. Note: Visually not transmitted, but this defaults to "self". No need to hook up if calling internally..  
+
+## Outputs
+
+Return Value: List View Base Object Reference.
+

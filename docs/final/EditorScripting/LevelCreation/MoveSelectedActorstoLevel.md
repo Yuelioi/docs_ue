@@ -1,0 +1,45 @@
+# MoveSelectedActorstoLevel
+
+将当前选定的演员移到指定的流媒体级别。新的演员将被选中
+
+目标是编辑水平的利用
+
+## 图示
+
+![]($-20221218-18503448.png)
+
+## Inputs
+
+在。执行。
+
+Dest Level:水平流对象参考。
+
+关于引用的警告。布尔值。是否对被引用的演员显示模式警告，这些演员在被移动后可能不再起作用。
+
+## Outputs
+
+出：执行。
+
+返回值。整数。成功转移到新级别的演员的数量。
+Moves the currently selected actors to the specified streaming level. The new actors will be selected
+
+Target is Editor Level Utils
+
+## 图示
+
+![]($-20221218-18503448.png)
+
+## Inputs
+
+In: Exec.
+
+Dest Level: Level Streaming Object Reference.
+
+Warn About References: Boolean. Whether or not to show a modal warning about referenced actors that may no longer function after being moved.  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Integer. The number of actors that were successfully moved to the new level.
+

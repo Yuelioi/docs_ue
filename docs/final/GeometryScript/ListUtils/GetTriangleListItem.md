@@ -1,0 +1,42 @@
+# GetTriangleListItem
+
+获取三角形列表项目
+
+目标是几何学脚本库列表实用功能
+
+## 图示
+
+![]($-20221218-19110373.png)
+
+## Inputs
+
+三角形列表。三角形列表结构。
+
+三角形：整数。  
+
+## Outputs
+
+是有效三角。布尔型。
+
+返回值。Int 矢量结构。获取三角形列表项目。
+
+Get Triangle List Item
+
+Target is Geometry Script Library List Utility Functions
+
+## 图示
+
+![]($-20221218-19110373.png)
+
+## Inputs
+
+Triangle List: Triangle List Structure.
+
+Triangle: Integer.  
+
+## Outputs
+
+Is Valid Triangle: Boolean.
+
+Return Value: Int Vector Structure. Get Triangle List Item.
+

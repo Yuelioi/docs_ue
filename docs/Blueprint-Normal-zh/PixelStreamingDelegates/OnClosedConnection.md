@@ -1,4 +1,0 @@
-# OnClosedConnection
-
-On Closed Connection
-

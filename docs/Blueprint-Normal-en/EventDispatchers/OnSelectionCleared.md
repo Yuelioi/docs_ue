@@ -1,4 +1,0 @@
-# OnSelectionCleared
-
-On Selection Cleared
-

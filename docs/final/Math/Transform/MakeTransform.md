@@ -1,0 +1,42 @@
+# MakeTransform
+
+从位置、旋转和比例进行转换
+
+目标是Kismet数学图书馆
+
+## 图示
+
+![]($-20221218-19554300.png)
+
+## Inputs
+
+地点：向量。向量。
+
+旋转： 旋转器。
+
+规模：向量。  
+
+## Outputs
+
+返回值。变换。从位置、旋转和比例做一个变换。
+
+Make a transform from location, rotation and scale
+
+Target is Kismet Math Library
+
+## 图示
+
+![]($-20221218-19554300.png)
+
+## Inputs
+
+Location: Vector.
+
+Rotation: Rotator.
+
+Scale: Vector.  
+
+## Outputs
+
+Return Value: Transform. Make a transform from location, rotation and scale.
+

@@ -1,0 +1,46 @@
+# SetLinearXLimit
+
+设置LinearX运动类型
+
+目标是物理约束组件
+
+## 图示
+
+![]($-20221218-20212748.png)
+
+## Inputs
+
+在。执行。
+
+目标。物理约束组件对象参考。
+
+约束类型。ELinearConstraintMotion Enum.新约束类型。
+
+极限大小。Float (single-precision).限制的大小。  
+
+## Outputs
+
+出：执行。
+
+Sets the LinearX Motion Type
+
+Target is Physics Constraint Component
+
+## 图示
+
+![]($-20221218-20212748.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Physics Constraint Component Object Reference.
+
+Constraint Type: ELinearConstraintMotion Enum. New Constraint Type.
+
+Limit Size: Float (single-precision). Size of limit.  
+
+## Outputs
+
+Out: Exec.
+

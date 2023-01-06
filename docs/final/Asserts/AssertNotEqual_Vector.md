@@ -1,0 +1,54 @@
+# AssertNotEqual_Vector
+
+断言两个向量（成员）在一个小的公差范围内不相等。
+
+目标是功能测试
+
+## 图示
+
+![]($-20221218-17593275.png)
+
+## Inputs
+
+在。执行。
+
+目标。功能测试对象参考。
+
+实际：向量。
+
+不期望的。向量。
+
+What：字符串。如果断言失败，在信息中使用的名称（"预期'什么'不是{预期}，但它是{实际}的上下文''"）。 
+
+## Outputs
+
+Out：输出。Exec。
+
+返回值。布尔值。
+
+Assert that two vectors are (memberwise) not equal within a small tolerance.
+
+Target is Functional Test
+
+## 图示
+
+![]($-20221218-17593275.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Functional Test Object Reference.
+
+Actual: Vector.
+
+Not Expected: Vector.
+
+What: String. A name to use in the message if the assert fails ("Expected 'What' not to be {Expected} but it was {Actual} for context ''").  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Boolean.
+

@@ -1,4 +1,0 @@
-# OnPick
-
-On Pick
-

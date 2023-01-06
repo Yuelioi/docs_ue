@@ -1,0 +1,34 @@
+# GetDisplayName
+
+获取显示名称
+
+目标是内容浏览器项目库
+
+## 图示
+
+![]($-20221218-18302050.png)
+
+## Inputs
+
+项目。内容浏览器项目结构（通过引用）。 
+
+## Outputs
+
+返回值。文本。获取显示名称。
+
+Get Display Name
+
+Target is Content Browser Item Library
+
+## 图示
+
+![]($-20221218-18302050.png)
+
+## Inputs
+
+Item: Content Browser Item Structure (by ref).  
+
+## Outputs
+
+Return Value: Text. Get Display Name.
+

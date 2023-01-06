@@ -1,4 +1,0 @@
-# OnSampleLoaded
-
-On Sample Loaded
-

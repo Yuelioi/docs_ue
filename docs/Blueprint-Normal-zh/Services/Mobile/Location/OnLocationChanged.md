@@ -1,4 +1,0 @@
-# OnLocationChanged
-
-On Location Changed
-

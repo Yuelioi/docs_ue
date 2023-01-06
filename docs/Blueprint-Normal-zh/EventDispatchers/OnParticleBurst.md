@@ -1,4 +1,0 @@
-# OnParticleBurst
-
-On Particle Burst
-

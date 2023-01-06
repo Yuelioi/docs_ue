@@ -1,4 +1,0 @@
-# OnTestsBegin
-
-On Tests Begin
-

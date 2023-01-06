@@ -1,0 +1,38 @@
+# Equals
+
+等于
+
+目标是数据层
+
+## 图示
+
+![]($-20221218-18343349.png)
+
+## Inputs
+
+目标。数据层对象参考。
+
+演员数据层。演员数据层结构（通过引用）。 
+
+## Outputs
+
+返回值。布尔值。等于。
+
+Equals
+
+Target is Data Layer
+
+## 图示
+
+![]($-20221218-18343349.png)
+
+## Inputs
+
+Target: Data Layer Object Reference.
+
+Actor Data Layer: Actor Data Layer Structure (by ref).  
+
+## Outputs
+
+Return Value: Boolean. Equals.
+

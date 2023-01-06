@@ -1,4 +1,0 @@
-# TimeElapsed
-
-Time Elapsed
-

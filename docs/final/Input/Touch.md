@@ -1,0 +1,42 @@
+# Touch
+
+当手指在触摸设备上按下、释放或移动时的事件。
+
+## 图示
+
+![]($-20221218-19294257.png)
+
+## Inputs
+
+## Outputs
+
+已按下。执行。
+
+已发布。执行。
+
+动议。执行。
+
+地点：向量。向量。
+
+手指索引: ETouchIndex Enum.
+
+Event for when a finger presses, releases or is moved on a touch device.
+
+## 图示
+
+![]($-20221218-19294257.png)
+
+## Inputs
+
+## Outputs
+
+Pressed: Exec.
+
+Released: Exec.
+
+Moved: Exec.
+
+Location: Vector.
+
+Finger Index: ETouchIndex Enum.
+

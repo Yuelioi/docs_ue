@@ -1,0 +1,46 @@
+# StartRecordingSource
+
+在每个指定的源上调用录音初始化流程。
+
+目标是采取录音机来源
+
+## 图示
+
+![]($-20221218-21105614.png)
+
+## Inputs
+
+在。执行。
+
+目标。采取记录器来源对象参考。
+
+在来源中。录音机来源对象的数组参考。
+
+目前的框架时间。合格的框架时间结构（按参考）。  
+
+## Outputs
+
+出：执行。
+
+Calls the recording initialization flows on each of the specified sources.
+
+Target is Take Recorder Sources
+
+## 图示
+
+![]($-20221218-21105614.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Take Recorder Sources Object Reference.
+
+In Sources: Array of Take Recorder Source Object References.
+
+Current Frame Time: Qualified Frame Time Structure (by ref).  
+
+## Outputs
+
+Out: Exec.
+

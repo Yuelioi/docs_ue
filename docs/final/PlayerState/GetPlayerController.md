@@ -1,0 +1,34 @@
+# GetPlayerController
+
+返回创建此播放器状态的播放器控制器，对于远程客户端则为空。
+
+目标是玩家状态
+
+## 图示
+
+![]($-20221218-20300623.png)
+
+## Inputs
+
+目标。玩家状态对象参考。  
+
+## Outputs
+
+返回值。播放器控制器对象参考。返回创建此播放器状态的播放器控制器，或者对于远程客户端为空。
+
+Return the player controller that created this player state, or null for remote clients
+
+Target is Player State
+
+## 图示
+
+![]($-20221218-20300623.png)
+
+## Inputs
+
+Target: Player State Object Reference.  
+
+## Outputs
+
+Return Value: Player Controller Object Reference. Return the player controller that created this player state, or null for remote clients.
+

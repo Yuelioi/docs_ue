@@ -1,0 +1,38 @@
+# GetPointsOutsideBox
+
+确定哪些点在盒子外面，并将这些点返回给调用者
+
+目标是点云组件
+
+## 图示
+
+![]($-20221218-20301331.png)
+
+## Inputs
+
+目标。点云组件对象参考。
+
+世界空间箱。盒子结构（按参考）。  
+
+## Outputs
+
+返回值。矢量数组。确定哪些点在盒子外面，并将这些点返回给调用者。
+
+Determines which points are outside the box and returns those to the caller
+
+Target is Point Cloud Component
+
+## 图示
+
+![]($-20221218-20301331.png)
+
+## Inputs
+
+Target: Point Cloud Component Object Reference.
+
+World Space Box: Box Structure (by ref).  
+
+## Outputs
+
+Return Value: Array of Vectors. Determines which points are outside the box and returns those to the caller.
+

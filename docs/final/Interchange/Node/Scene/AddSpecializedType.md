@@ -1,0 +1,46 @@
+# AddSpecializedType
+
+添加专业类型
+
+目标是互换场景节点
+
+## 图示
+
+![]($-20221218-19324574.png)
+
+## Inputs
+
+在。执行。
+
+目标：互换场景节点对象参考。
+
+专门的类型。绳子。  
+
+## Outputs
+
+出：执行。
+
+返回值。布尔值。增加专门的类型。
+
+Add Specialized Type
+
+Target is Interchange Scene Node
+
+## 图示
+
+![]($-20221218-19324574.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Interchange Scene Node Object Reference.
+
+Specialized Type: String.  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Boolean. Add Specialized Type.
+

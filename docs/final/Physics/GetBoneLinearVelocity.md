@@ -1,0 +1,46 @@
+# GetBoneLinearVelocity
+
+获取骨骼线性速度
+
+目标是骨架网组件
+
+## 图示
+
+![]($-20221218-20273973.png)
+
+## Inputs
+
+在。执行。
+
+目标。骨骼网组件对象参考。
+
+骨骼中的名字。名称（按参考）。  
+
+## Outputs
+
+出：执行。
+
+返回值。矢量。获取骨骼线性速度。
+
+Get Bone Linear Velocity
+
+Target is Skeletal Mesh Component
+
+## 图示
+
+![]($-20221218-20273973.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Skeletal Mesh Component Object Reference.
+
+In Bone Name: Name (by ref).  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Vector. Get Bone Linear Velocity.
+

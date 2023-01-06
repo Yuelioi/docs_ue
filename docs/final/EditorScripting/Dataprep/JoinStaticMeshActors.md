@@ -1,0 +1,49 @@
+# JoinStaticMeshActors
+
+在关卡中创建一个新的演员，包含所有演员静态网格组件的副本。ActorsToJoin需要在同一个关卡中。这对性能的影响不大，但可以通过将网格归入一个Actor来帮助版本。
+
+目标是静态网格编辑器子系统
+
+## 图示
+
+![]($-20221218-18484806.png)
+
+## Inputs
+
+在。执行。
+
+目标。静态网格编辑器子系统对象参考。
+
+要加入的演员。静态网格演员对象参考数组。要加入的角色列表...
+
+加入选项。加入静态网格演员选项结构（按参考）。关于如何加入演员的选项...
+
+## Outputs
+
+出：执行。
+
+返回值。演员对象参考。新创建的演员。
+Create a new Actor in the level that contains a duplicate of all the Actors Static Meshes Component.. The ActorsToJoin need to be in the same Level.. This will have a low impact on performance but may help the edition by grouping the meshes under a single Actor.
+
+Target is Static Mesh Editor Subsystem
+
+## 图示
+
+![]($-20221218-18484806.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Static Mesh Editor Subsystem Object Reference.
+
+Actors to Join: Array of Static Mesh Actor Object References. List of Actors to join..
+
+Join Options: Join Static Mesh Actors Options Structure (by ref). Options on how to join the actors..  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Actor Object Reference. The new created actor..
+

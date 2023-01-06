@@ -1,0 +1,34 @@
+# GetIsEnabled
+
+获取小组件的当前启用状态。
+
+目标是小工具
+
+## 图示
+
+![]($-20221218-21343437.png)
+
+## Inputs
+
+目标。小工具对象参考。  
+
+## Outputs
+
+返回值。布尔值。获取该小组件的当前启用状态。
+
+Gets the current enabled status of the widget
+
+Target is Widget
+
+## 图示
+
+![]($-20221218-21343437.png)
+
+## Inputs
+
+Target: Widget Object Reference.  
+
+## Outputs
+
+Return Value: Boolean. Gets the current enabled status of the widget.
+

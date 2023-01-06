@@ -1,4 +1,0 @@
-# OnAccept
-
-On Accept
-

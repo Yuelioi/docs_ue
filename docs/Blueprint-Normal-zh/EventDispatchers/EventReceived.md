@@ -1,4 +1,0 @@
-# EventReceived
-
-Event Received
-

@@ -1,0 +1,42 @@
+# SetMediaOptions
+
+设置播放器使用的媒体选项。
+
+目标是媒体播放器
+
+## 图示
+
+![]($-20221218-20014443.png)
+
+## Inputs
+
+在。执行。
+
+目标。媒体播放器对象参考。
+
+选项。媒体源对象参考。传递给播放器的选项...
+
+## Outputs
+
+出：执行。
+
+Sets the media options used by the player.
+
+Target is Media Player
+
+## 图示
+
+![]($-20221218-20014443.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Media Player Object Reference.
+
+Options: Media Source Object Reference. Options to pass to the player..  
+
+## Outputs
+
+Out: Exec.
+
