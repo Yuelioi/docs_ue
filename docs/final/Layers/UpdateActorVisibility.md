@@ -1,0 +1,62 @@
+# UpdateActorVisibility
+
+更新所提供的演员在视口中的可见度。
+
+目标是分层子系统
+
+## 图示
+
+![]($-20221218-19381620.png)
+
+## Inputs
+
+在。执行。
+
+目标。分层子系统对象参考。
+
+演员。Actor Object Reference.要更新的演员。
+
+通知选择变化。布尔值。如果为真，编辑部会被通知选择的变化；如果为假，编辑部将不会被通知。
+
+重新绘制视口。布尔值。如果为真，视口将被重绘；如果为假，则不重绘。  
+
+## Outputs
+
+出：执行。
+
+Out Selection Changed: Boolean.[OUT] 编辑部的选择是否改变。
+
+出演者修改过。布尔值。[OUT] 演员是否被修改。
+
+返回值。布尔值。
+
+Updates the provided actors visibility in the viewports
+
+Target is Layers Subsystem
+
+## 图示
+
+![]($-20221218-19381620.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Layers Subsystem Object Reference.
+
+Actor: Actor Object Reference. Actor to update.
+
+Notify Selection Change: Boolean. If true the Editor is notified of the selection change; if false, the Editor will not be notified.
+
+Redraw Viewports: Boolean. If true the viewports will be redrawn; if false, they will not.  
+
+## Outputs
+
+Out: Exec.
+
+Out Selection Changed: Boolean. [OUT] Whether the Editors selection changed.
+
+Out Actor Modified: Boolean. [OUT] Whether the actor was modified.
+
+Return Value: Boolean.
+

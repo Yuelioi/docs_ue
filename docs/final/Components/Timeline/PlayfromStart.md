@@ -1,0 +1,38 @@
+# PlayfromStart
+
+从头开始播放时间线
+
+目标是时间线组件
+
+## 图示
+
+![]($-20221218-18282798.png)
+
+## Inputs
+
+在。执行。
+
+目标。时间线组件对象参考。 
+
+## Outputs
+
+输出。执行。
+
+Start playback of timeline from the start
+
+Target is Timeline Component
+
+## 图示
+
+![]($-20221218-18282798.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Timeline Component Object Reference.  
+
+## Outputs
+
+Out: Exec.
+

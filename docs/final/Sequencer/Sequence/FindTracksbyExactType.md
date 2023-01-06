@@ -1,0 +1,46 @@
+# FindTracksbyExactType
+
+在指定类型的绑定范围内查找所有轨道，不允许有子类的类型
+
+目标是电影场景绑定扩展
+
+## 图示
+
+![]($-20221218-20540887.png)
+
+## Inputs
+
+在。执行。
+
+绑定中。定序器绑定代理结构（通过参考）。要在其中寻找轨道的绑定。
+
+轨迹类型。电影场景轨迹类参考。一个UMovieSceneTrack类的类型，指定要返回的轨道的确切类型。  
+
+## Outputs
+
+出：执行。
+
+返回值。电影场景轨道对象引用数组。一个包含任何与指定类型完全相同的轨道的数组。
+
+Find all tracks within a given binding of the specified type, not allowing sub-classed types
+
+Target is Movie Scene Binding Extensions
+
+## 图示
+
+![]($-20221218-20540887.png)
+
+## Inputs
+
+In: Exec.
+
+In Binding: Sequencer Binding Proxy Structure (by ref). The binding to find tracks in.
+
+Track Type: Movie Scene Track Class Reference. A UMovieSceneTrack class type specifying the exact types of track to return.  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Array of Movie Scene Track Object References. An array containing any tracks that are exactly the same as the type specified.
+

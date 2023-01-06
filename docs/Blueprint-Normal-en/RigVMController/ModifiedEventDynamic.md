@@ -1,4 +1,0 @@
-# ModifiedEventDynamic
-
-Modified Event Dynamic
-

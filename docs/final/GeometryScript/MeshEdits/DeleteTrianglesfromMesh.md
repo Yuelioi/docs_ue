@@ -1,0 +1,54 @@
+# DeleteTrianglesfromMesh
+
+从网格中删除三角形
+
+目标是几何脚本库中的网格基本编辑功能
+
+## 图示
+
+![]($-20221218-19113552.png)
+
+## Inputs
+
+在。执行。
+
+目标网格。动态网格对象参考。
+
+三角形列表。索引列表结构。
+
+推迟更改通知。布尔值。  
+
+## Outputs
+
+出：执行。
+
+Num Deleted:整数。
+
+目标网格。动态网格对象参考。从网格中删除三角形。
+
+Delete Triangles from Mesh
+
+Target is Geometry Script Library Mesh Basic Edit Functions
+
+## 图示
+
+![]($-20221218-19113552.png)
+
+## Inputs
+
+In: Exec.
+
+Target Mesh: Dynamic Mesh Object Reference.
+
+Triangle List: Index List Structure.
+
+Defer Change Notifications: Boolean.  
+
+## Outputs
+
+Out: Exec.
+
+Num Deleted: Integer.
+
+Target Mesh: Dynamic Mesh Object Reference. Delete Triangles from Mesh.
+

@@ -1,0 +1,42 @@
+# IsFocusVisualizationAllowed
+
+检查焦点可视化是否可以激活
+
+目标是虚拟摄像机选项
+
+## 图示
+
+![]($-20221218-21261997.png)
+
+## Inputs
+
+在。执行。
+
+目标。虚拟摄像机选项界面。  
+
+## Outputs
+
+出：执行。
+
+返回值。布尔值。触摸事件可视化的当前状态。
+
+Checks whether or not focus visualization can activate
+
+Target is Virtual Camera Options
+
+## 图示
+
+![]($-20221218-21261997.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Virtual Camera Options Interface.  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Boolean. the current state of touch event visualization.
+

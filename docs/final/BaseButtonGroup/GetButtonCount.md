@@ -1,0 +1,34 @@
+# GetButtonCount
+
+获取按钮数
+
+目标是普通按钮组基数
+
+## 图示
+
+![]($-20221218-18102808.png)
+
+## Inputs
+
+目标。通用按钮组基础对象参考。 
+
+## Outputs
+
+返回值。整数。获取按钮数。
+
+Get Button Count
+
+Target is Common Button Group Base
+
+## 图示
+
+![]($-20221218-18102808.png)
+
+## Inputs
+
+Target: Common Button Group Base Object Reference.  
+
+## Outputs
+
+Return Value: Integer. Get Button Count.
+

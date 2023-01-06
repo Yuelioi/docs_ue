@@ -1,0 +1,53 @@
+# CreateProxyMeshActor
+
+建立一个可以替代一组网格演员的代理网格演员。
+
+目标是静态网格编辑器子系统
+
+## 图示
+
+![]($-20221218-18484672.png)
+
+## Inputs
+
+在。执行。
+
+目标。静态网格编辑器子系统对象参考。
+
+要合并的角色。静态网格演员对象参考数组。建立代理的演员列表。
+
+合并选项。创建代理网格演员选项结构（按参考）。
+
+## Outputs
+
+出：执行。
+
+出合并的角色。静态网格演员对象参考。如果要求的话，生成演员。
+
+返回值。布尔值。代理创建成功。
+Build a proxy mesh actor that can replace a set of mesh actors.
+
+Target is Static Mesh Editor Subsystem
+
+## 图示
+
+![]($-20221218-18484672.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Static Mesh Editor Subsystem Object Reference.
+
+Actors to Merge: Array of Static Mesh Actor Object References. List of actors to build a proxy for..
+
+Merge Options: Create Proxy Mesh Actor Options Structure (by ref).  
+
+## Outputs
+
+Out: Exec.
+
+Out Merged Actor: Static Mesh Actor Object Reference. generated actor if requested.
+
+Return Value: Boolean. Success of the proxy creation.
+

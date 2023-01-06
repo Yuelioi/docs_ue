@@ -1,0 +1,46 @@
+# SetDefaultCollisionThickness
+
+为任何没有覆盖碰撞厚度的图层设置默认厚度。注意：这只对拥有自己瓦片贴图的组件有效（OwnsTileMap返回true），你不能修改独立的瓦片贴图资产。
+
+目标是纸质瓦片地图组件
+
+## 图示
+
+![]($-20221218-21024425.png)
+
+## Inputs
+
+在。执行。
+
+目标。纸质瓦片地图组件对象参考。
+
+厚度。Float（单精度）。
+
+重建碰撞。布尔值。  
+
+## Outputs
+
+出：执行。
+
+Sets the default thickness for any layers that don't override the collision thickness. Note: This will only work on components that own their own tile map (OwnsTileMap returns true), you cannot modify standalone tile map assets
+
+Target is Paper Tile Map Component
+
+## 图示
+
+![]($-20221218-21024425.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Paper Tile Map Component Object Reference.
+
+Thickness: Float (single-precision).
+
+Rebuild Collision: Boolean.  
+
+## Outputs
+
+Out: Exec.
+

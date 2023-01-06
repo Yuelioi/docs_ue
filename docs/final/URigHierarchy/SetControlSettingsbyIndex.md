@@ -1,0 +1,58 @@
+# SetControlSettingsbyIndex
+
+通过索引设置一个给定的控制元素的控制设置
+
+目标是钻机等级制度
+
+## 图示
+
+![]($-20221218-21200589.png)
+
+## Inputs
+
+在。执行。
+
+目标。Rig Hierarchy对象参考。
+
+在元素索引中。整数。要设置的控制元素的索引。
+
+在设置中。钻机控制设置结构。要设置的新控制设置值。
+
+设置撤销。布尔值。如果为真，转换栈将被设置为撤销/重做。
+
+力量。布尔型。
+
+打印Python命令。布尔值。  
+
+## Outputs
+
+出：执行。
+
+Sets the control settings for a given control element by index
+
+Target is Rig Hierarchy
+
+## 图示
+
+![]($-20221218-21200589.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Rig Hierarchy Object Reference.
+
+In Element Index: Integer. The index of the control element to set the settings for.
+
+In Settings: Rig Control Settings Structure. The new control settings value to set.
+
+Setup Undo: Boolean. If true the transform stack will be setup for undo / redo.
+
+Force: Boolean.
+
+Print Python Commands: Boolean.  
+
+## Outputs
+
+Out: Exec.
+

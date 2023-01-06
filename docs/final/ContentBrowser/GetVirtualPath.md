@@ -1,0 +1,34 @@
+# GetVirtualPath
+
+获取虚拟路径
+
+目标是内容浏览器项目库
+
+## 图示
+
+![]($-20221218-18302530.png)
+
+## Inputs
+
+项目。内容浏览器项目结构（通过引用）。 
+
+## Outputs
+
+返回值。名称。获取虚拟路径。
+
+Get Virtual Path
+
+Target is Content Browser Item Library
+
+## 图示
+
+![]($-20221218-18302530.png)
+
+## Inputs
+
+Item: Content Browser Item Structure (by ref).  
+
+## Outputs
+
+Return Value: Name. Get Virtual Path.
+

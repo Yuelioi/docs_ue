@@ -1,0 +1,42 @@
+# GetNumSpectators
+
+返回当前观看的人类玩家的数量
+
+目标是游戏模式基础
+
+## 图示
+
+![]($-20221218-19061745.png)
+
+## Inputs
+
+在。执行。
+
+目标。游戏模式基本对象参考。  
+
+## Outputs
+
+出：执行。
+
+返回值。整数。返回当前观看的人类玩家的数量。
+
+Returns number of human players currently spectating
+
+Target is Game Mode Base
+
+## 图示
+
+![]($-20221218-19061745.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Game Mode Base Object Reference.  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Integer. Returns number of human players currently spectating.
+

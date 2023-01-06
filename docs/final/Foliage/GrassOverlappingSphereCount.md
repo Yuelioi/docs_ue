@@ -1,0 +1,50 @@
+# GrassOverlappingSphereCount
+
+计算有多少草的叶子实例与给定的球体重叠。
+
+目标是游戏性的统计学
+
+## 图示
+
+![]($-20221218-19004287.png)
+
+## Inputs
+
+在。执行。
+
+静态网格。静态网格对象参考。
+
+中心位置。矢量。球体的中心位置。
+
+半径。Float（单精度）。球体的半径。  
+
+## Outputs
+
+出：执行。
+
+返回值。整数。网格设置为Mesh的树叶实例与球体重叠的数量。
+
+Counts how many grass foliage instances overlap a given sphere.
+
+Target is Gameplay Statics
+
+## 图示
+
+![]($-20221218-19004287.png)
+
+## Inputs
+
+In: Exec.
+
+Static Mesh: Static Mesh Object Reference.
+
+Center Position: Vector. The center position of the sphere..
+
+Radius: Float (single-precision). The radius of the sphere..  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Integer. Number of foliage instances with their mesh set to Mesh that overlap the sphere..
+

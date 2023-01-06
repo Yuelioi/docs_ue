@@ -1,0 +1,78 @@
+# WaitGameplayEffectAppliedtoSelf
+
+等待，直到所有者从给定的来源（来源也可能是所有者！）收到一个GameplayEffect。如果TriggerOnce为真，这个任务将只返回一次。否则，在能力的生命周期内，每次应用符合要求的GE时，它都会返回。可选的外部所有者可以用来对其他人（不是能力的所有者）运行这个任务。默认情况下，你可以将其留空。
+
+目标是能力任务等待游戏效果应用自己
+
+## 图示
+
+![]($-20221218-17334083.png)
+
+## Inputs
+
+在。执行。
+
+源过滤。游戏性目标数据过滤手柄结构。
+
+源标签要求。Gameplay标签要求结构。
+
+目标标签要求。Gameplay Tag Requirements（游戏标签要求）结构。
+
+Trigger Once: Boolean.
+
+可选的外部所有者：演员对象参考。
+
+Listen for Periodic Effect: Boolean.  
+
+## Outputs
+
+输出。执行：执行。
+
+Async Task: Ability Task Wait Gameplay Effect Applied Self Object Reference.
+
+在应用。Exec. 在应用中。
+
+资源。演员对象参考。
+
+Spec Handle。Gameplay Effect Spec Handle结构。
+
+Active Handle（活动手柄）。活动的游戏效果手柄结构。
+
+Wait until the owner receives a GameplayEffect from a given source (the source may be the owner too!). If TriggerOnce is true, this task will only return one time. Otherwise it will return everytime a GE is applied that meets the requirements over the life of the ability. Optional External Owner can be used to run this task on someone else (not the owner of the ability). By default you can leave this empty.
+
+Target is Ability Task Wait Gameplay Effect Applied Self
+
+## 图示
+
+![]($-20221218-17334083.png)
+
+## Inputs
+
+In: Exec.
+
+Source Filter: Gameplay Target Data Filter Handle Structure.
+
+Source Tag Requirements: Gameplay Tag Requirements Structure.
+
+Target Tag Requirements: Gameplay Tag Requirements Structure.
+
+Trigger Once: Boolean.
+
+Optional External Owner: Actor Object Reference.
+
+Listen for Periodic Effect: Boolean.  
+
+## Outputs
+
+Out: Exec.
+
+Async Task: Ability Task Wait Gameplay Effect Applied Self Object Reference.
+
+On Applied: Exec. On Applied.
+
+Source: Actor Object Reference.
+
+Spec Handle: Gameplay Effect Spec Handle Structure.
+
+Active Handle: Active Gameplay Effect Handle Structure.
+

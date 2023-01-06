@@ -1,0 +1,42 @@
+# AddActortoExcludefromHitTests
+
+将一个演员添加到演员列表中，永远不允许互动者在场景中撞击。没有选择。没有悬停。没有必要从这个列表中删除演员。他们会在被摧毁时自动从其中失效。
+
+目标是视口世界的相互作用
+
+## 图示
+
+![]($-20221218-21253212.png)
+
+## Inputs
+
+在。执行。
+
+目标。视口世界互动对象参考。
+
+从命中测试中排除的角色。演员对象参考。应该永远从命中测试中排除的角色。  
+
+## Outputs
+
+出：执行。
+
+Adds an actor to the list of actors to never allow an interactor to hit in the scene. No selection. No hover.. There's no need to remove actors from this list. They'll expire from it automatically when destroyed.
+
+Target is Viewport World Interaction
+
+## 图示
+
+![]($-20221218-21253212.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Viewport World Interaction Object Reference.
+
+Actor to Exclude from Hit Tests: Actor Object Reference. The actor that should be forever excluded from hit tests.  
+
+## Outputs
+
+Out: Exec.
+

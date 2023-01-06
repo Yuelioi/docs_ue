@@ -1,4 +1,0 @@
-# OnNotifyBegin
-
-On Notify Begin
-

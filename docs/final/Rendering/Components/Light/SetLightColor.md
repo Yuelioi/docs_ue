@@ -1,0 +1,46 @@
+# SetLightColor
+
+设置灯光的颜色
+
+目标是轻型组件
+
+## 图示
+
+![]($-20221218-20342818.png)
+
+## Inputs
+
+在。执行。
+
+目标。光组件对象参考。
+
+新的灯光颜色：线性颜色结构。
+
+SRGB：布尔值。  
+
+## Outputs
+
+出：执行。
+
+Set color of the light
+
+Target is Light Component
+
+## 图示
+
+![]($-20221218-20342818.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Light Component Object Reference.
+
+New Light Color: Linear Color Structure.
+
+SRGB: Boolean.  
+
+## Outputs
+
+Out: Exec.
+

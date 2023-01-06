@@ -1,0 +1,42 @@
+# SetOcclusionTint
+
+遮蔽色调集
+
+目标是天灯组件
+
+## 图示
+
+![]($-20221218-20345735.png)
+
+## Inputs
+
+在。执行。
+
+目标。天空之光组件对象参考。
+
+在色调。颜色结构（按参考）。  
+
+## Outputs
+
+出：执行。
+
+Set Occlusion Tint
+
+Target is Sky Light Component
+
+## 图示
+
+![]($-20221218-20345735.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Sky Light Component Object Reference.
+
+In Tint: Color Structure (by ref).  
+
+## Outputs
+
+Out: Exec.
+

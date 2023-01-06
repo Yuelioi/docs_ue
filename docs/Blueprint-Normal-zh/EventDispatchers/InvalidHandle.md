@@ -1,4 +1,0 @@
-# InvalidHandle
-
-Invalid Handle
-

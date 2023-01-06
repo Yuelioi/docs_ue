@@ -1,0 +1,34 @@
+# GetAnimationNoti-
+
+检索在给定动画序列中发现的所有独特的动画通知轨道名称。
+
+目标是动画蓝图库
+
+## 图示
+
+![]($-20221218-17512715.png)
+
+## Inputs
+
+动画序列基础。动画序列基础对象参考。 
+
+## Outputs
+
+轨道名称。名称的数组。
+
+Retrieves all Unique Animation Notify Track Names found within the given Animation Sequence
+
+Target is Animation Blueprint Library
+
+## 图示
+
+![]($-20221218-17512715.png)
+
+## Inputs
+
+Animation Sequence Base: Anim Sequence Base Object Reference.  
+
+## Outputs
+
+Track Names: Array of Names.
+

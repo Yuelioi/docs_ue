@@ -1,4 +1,0 @@
-# OnDragCancelled
-
-On Drag Cancelled
-

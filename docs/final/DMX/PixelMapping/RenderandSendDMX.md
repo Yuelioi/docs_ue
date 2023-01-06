@@ -1,0 +1,37 @@
+# RenderandSendDMX
+
+渲染降采样纹理，并为该组件和所有子组件发送DMX。
+
+目标是DMXPixel Mapping基础组件
+
+## 图示
+
+![]($-20221218-18444484.png)
+
+## Inputs
+
+在。执行。
+
+目标。DMXPixel Mapping基础组件对象参考。
+
+## Outputs
+
+出：执行。
+Render downsample texture and send DMX for this component and all children
+
+Target is DMXPixel Mapping Base Component
+
+## 图示
+
+![]($-20221218-18444484.png)
+
+## Inputs
+
+In: Exec.
+
+Target: DMXPixel Mapping Base Component Object Reference.  
+
+## Outputs
+
+Out: Exec.
+

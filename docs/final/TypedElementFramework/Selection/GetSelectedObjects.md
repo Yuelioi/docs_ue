@@ -1,0 +1,46 @@
+# GetSelectedObjects
+
+从当前选定的元素中获取选定对象的数组。
+
+目标是类型化的元素选择集
+
+## 图示
+
+![]($-20221218-21170212.png)
+
+## Inputs
+
+在。执行。
+
+目标。类型化的元素选择集对象参考。
+
+在必修课中。对象类参考。  
+
+## Outputs
+
+出：执行。
+
+返回值。对象引用数组。从当前选定的元素中获取选定对象的数组。
+
+Get the array of selected objects from the currently selected elements.
+
+Target is Typed Element Selection Set
+
+## 图示
+
+![]($-20221218-21170212.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Typed Element Selection Set Object Reference.
+
+In Required Class: Object Class Reference.  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Array of Object References. Get the array of selected objects from the currently selected elements..
+

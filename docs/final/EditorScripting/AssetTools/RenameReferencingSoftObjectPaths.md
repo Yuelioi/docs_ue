@@ -1,0 +1,45 @@
+# RenameReferencingSoftObjectPaths
+
+将所有带有旧资产路径的FSoftObjectPath对象重命名为新路径的函数。
+
+目标是资产工具
+
+## 图示
+
+![]($-20221218-18481754.png)
+
+## Inputs
+
+在。执行。
+
+目标。资产工具界面。
+
+要检查的包。包对象引用数组。要检查引用FSoftObjectPath.的软件包。
+
+资产重定向器地图。软对象路径结构到软对象路径结构的映射。从旧资产路径到新资产路径的映射。
+
+## Outputs
+
+出：执行。
+Function that renames all FSoftObjectPath object with the old asset path to the new one.
+
+Target is Asset Tools
+
+## 图示
+
+![]($-20221218-18481754.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Asset Tools Interface.
+
+Packages to Check: Array of Package Object References. Packages to check for referencing FSoftObjectPath..
+
+Asset Redirector Map: Map of Soft Object Path Structures to Soft Object Path Structures. Map from old asset path to new asset path.  
+
+## Outputs
+
+Out: Exec.
+

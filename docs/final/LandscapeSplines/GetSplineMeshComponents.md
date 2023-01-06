@@ -1,0 +1,42 @@
+# GetSplineMeshComponents
+
+获取代表此景观花键的花键网格组件的列表（仅编辑器）。
+
+目标是景观花键组件
+
+## 图示
+
+![]($-20221218-19372197.png)
+
+## Inputs
+
+在。执行。
+
+目标。景观花键组件对象参考。  
+
+## Outputs
+
+出：执行。
+
+返回值。花键网格组件对象的数组。获取代表此景观花键的花键网格组件的列表（仅编辑器）。
+
+Get a list of spline mesh components representing this landscape spline (Editor only)
+
+Target is Landscape Splines Component
+
+## 图示
+
+![]($-20221218-19372197.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Landscape Splines Component Object Reference.  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Array of Spline Mesh Component Object References. Get a list of spline mesh components representing this landscape spline (Editor only).
+

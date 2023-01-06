@@ -1,4 +1,0 @@
-# OnParticleDeath
-
-On Particle Death
-

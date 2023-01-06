@@ -1,0 +1,34 @@
+# GetParentComponents
+
+获取所有附件的父组件，包括根组件。
+
+目标是场景组件
+
+## 图示
+
+![]($-20221218-18242975.png)
+
+## Inputs
+
+目标。场景组件对象参考。 
+
+## Outputs
+
+父组件。场景组件对象引用的数组。
+
+Gets all attachment parent components up to and including the root component
+
+Target is Scene Component
+
+## 图示
+
+![]($-20221218-18242975.png)
+
+## Inputs
+
+Target: Scene Component Object Reference.  
+
+## Outputs
+
+Parents: Array of Scene Component Object References.
+

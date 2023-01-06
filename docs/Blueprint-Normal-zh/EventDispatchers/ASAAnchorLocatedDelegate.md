@@ -1,4 +1,0 @@
-# ASAAnchorLocatedDelegate
-
-ASAAnchor Located Delegate
-

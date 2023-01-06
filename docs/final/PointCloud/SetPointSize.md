@@ -1,0 +1,42 @@
+# SetPointSize
+
+允许你改变被渲染的点的大小
+
+目标是点云组件
+
+## 图示
+
+![]($-20221218-20301917.png)
+
+## Inputs
+
+在。执行。
+
+目标。点云组件对象参考。
+
+大小。浮点数（单精度）。  
+
+## Outputs
+
+出：执行。
+
+Allows you to change the size of the points being rendered
+
+Target is Point Cloud Component
+
+## 图示
+
+![]($-20221218-20301917.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Point Cloud Component Object Reference.
+
+Size: Float (single-precision).  
+
+## Outputs
+
+Out: Exec.
+

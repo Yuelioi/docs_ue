@@ -1,0 +1,46 @@
+# SetBoxExtent
+
+改变盒子的范围大小。这是在应用组件缩放之前的未缩放的尺寸。
+
+目标是箱体碰撞
+
+## 图示
+
+![]($-20221218-18225972.png)
+
+## Inputs
+
+在。执行。
+
+目标：箱体碰撞对象参考。
+
+在箱体范围内。向量。
+
+更新重叠。Boolean（布尔）。 
+
+## Outputs
+
+输出。执行：执行。
+
+Change the box extent size. This is the unscaled size, before component scale is applied.
+
+Target is Box Collision
+
+## 图示
+
+![]($-20221218-18225972.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Box Collision Object Reference.
+
+In Box Extent: Vector.
+
+Update Overlaps: Boolean.  
+
+## Outputs
+
+Out: Exec.
+

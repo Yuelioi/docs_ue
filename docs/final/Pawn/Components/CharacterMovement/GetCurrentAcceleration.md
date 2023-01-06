@@ -1,0 +1,34 @@
+# GetCurrentAcceleration
+
+返回当前的加速度，每次更新时从输入矢量计算出来。
+
+目标是角色运动组件
+
+## 图示
+
+![]($-20221218-20181311.png)
+
+## Inputs
+
+目标。角色运动组件对象参考。  
+
+## Outputs
+
+返回值。矢量。返回当前的加速度，每次更新时从输入矢量计算出来。
+
+Returns current acceleration, computed from input vector each update.
+
+Target is Character Movement Component
+
+## 图示
+
+![]($-20221218-20181311.png)
+
+## Inputs
+
+Target: Character Movement Component Object Reference.  
+
+## Outputs
+
+Return Value: Vector. Returns current acceleration, computed from input vector each update..
+

@@ -1,0 +1,34 @@
+# IsLooping
+
+检查播放是否是循环的。
+
+目标是媒体播放器
+
+## 图示
+
+![]($-20221218-20010938.png)
+
+## Inputs
+
+目标。媒体播放器对象参考。  
+
+## Outputs
+
+返回值。布尔值。如果循环，为真，否则为假。
+
+Check whether playback is looping.
+
+Target is Media Player
+
+## 图示
+
+![]($-20221218-20010938.png)
+
+## Inputs
+
+Target: Media Player Object Reference.  
+
+## Outputs
+
+Return Value: Boolean. true if looping, false otherwise..
+

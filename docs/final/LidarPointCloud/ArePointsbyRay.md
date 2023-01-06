@@ -1,0 +1,46 @@
+# ArePointsbyRay
+
+如果有任何点被给定的射线击中，则返回true。
+
+目标是激光雷达点云蓝图库
+
+## 图示
+
+![]($-20221218-19425109.png)
+
+## Inputs
+
+原产地。向量。
+
+方向。矢量。
+
+半径。Float（单精度）。
+
+仅可见。布尔型。  
+
+## Outputs
+
+返回值。布尔值。如果有任何点被给定的射线击中，则返回真。
+
+Returns true if there are any points hit by the given ray.
+
+Target is Lidar Point Cloud Blueprint Library
+
+## 图示
+
+![]($-20221218-19425109.png)
+
+## Inputs
+
+Origin: Vector.
+
+Direction: Vector.
+
+Radius: Float (single-precision).
+
+Visible Only: Boolean.  
+
+## Outputs
+
+Return Value: Boolean. Returns true if there are any points hit by the given ray..
+

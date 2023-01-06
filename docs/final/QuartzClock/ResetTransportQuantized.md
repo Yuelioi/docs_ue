@@ -1,0 +1,50 @@
+# ResetTransportQuantized
+
+复位传输量化
+
+目标是石英钟手柄
+
+## 图示
+
+![]($-20221218-20320977.png)
+
+## Inputs
+
+在。执行。
+
+目标。石英钟手柄对象参考。
+
+在量化边界。石英量化边界结构。
+
+在代表。代表（由裁判）。  
+
+## Outputs
+
+出：执行。
+
+时钟拉手。石英钟拉手对象参考。
+
+Reset Transport Quantized
+
+Target is Quartz Clock Handle
+
+## 图示
+
+![]($-20221218-20320977.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Quartz Clock Handle Object Reference.
+
+In Quantization Boundary: Quartz Quantization Boundary Structure.
+
+In Delegate: Delegate (by ref).  
+
+## Outputs
+
+Out: Exec.
+
+Clock Handle: Quartz Clock Handle Object Reference.
+

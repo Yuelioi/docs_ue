@@ -1,0 +1,38 @@
+# ActivateGameViewport
+
+帮助将游戏视口带到前面。
+
+目标是虚拟摄像机播放器控制器底座
+
+## 图示
+
+![]($-20221218-21271457.png)
+
+## Inputs
+
+在。执行。
+
+目标。虚拟摄像机播放器控制器基础对象参考。  
+
+## Outputs
+
+出：执行。
+
+Helper to bring the game viewport to front.
+
+Target is Virtual Camera Player Controller Base
+
+## 图示
+
+![]($-20221218-21271457.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Virtual Camera Player Controller Base Object Reference.  
+
+## Outputs
+
+Out: Exec.
+

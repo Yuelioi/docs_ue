@@ -1,0 +1,70 @@
+# FindTurnBasedMatch
+
+使用平台的匹配服务（如游戏中心）来寻找匹配。
+
+目标是寻找回合制比赛的回调代理
+
+## 图示
+
+![]($-20221218-20164227.png)
+
+## Inputs
+
+在。执行。
+
+播放器控制器。播放器控制器对象参考。
+
+比赛演员。基于回合的比赛界面界面。
+
+最小球员。整数。
+
+最大的玩家。整数。
+
+球员组。整数。
+
+显示现有的匹配。布尔型。  
+
+## Outputs
+
+出：执行。
+
+关于成功。执政。On Success:.匹配成功时调用。
+
+失败时。执行。失败时：。匹配失败时调用。
+
+匹配ID：字符串。
+
+Use the platform matchmaking service (like Game Center) to find a match.
+
+Target is Find Turn Based Match Callback Proxy
+
+## 图示
+
+![]($-20221218-20164227.png)
+
+## Inputs
+
+In: Exec.
+
+Player Controller: Player Controller Object Reference.
+
+Match Actor: Turn Based Match Interface Interface.
+
+Min Players: Integer.
+
+Max Players: Integer.
+
+Player Group: Integer.
+
+Show Existing Matches: Boolean.  
+
+## Outputs
+
+Out: Exec.
+
+On Success: Exec. On Success:. Called when matchmaking succeeded..
+
+On Failure: Exec. On Failure:. Called when matchmaking failed.
+
+Match ID: String.
+

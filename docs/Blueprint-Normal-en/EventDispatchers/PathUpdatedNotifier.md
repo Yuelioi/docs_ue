@@ -1,4 +1,0 @@
-# PathUpdatedNotifier
-
-Path Updated Notifier
-

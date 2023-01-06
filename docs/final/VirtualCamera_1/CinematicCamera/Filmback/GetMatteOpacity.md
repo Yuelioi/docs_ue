@@ -1,0 +1,34 @@
+# GetMatteOpacity
+
+将哑光长宽比设置为一个新值。
+
+目标是虚拟摄像机播放器控制器底座
+
+## 图示
+
+![]($-20221218-21273309.png)
+
+## Inputs
+
+目标。虚拟摄像机播放器控制器基础对象参考。  
+
+## Outputs
+
+返回值。浮点数（单精度）。需要使用的哑光不透明度。
+
+Set the matte aspect ratio to a new value.
+
+Target is Virtual Camera Player Controller Base
+
+## 图示
+
+![]($-20221218-21273309.png)
+
+## Inputs
+
+Target: Virtual Camera Player Controller Base Object Reference.  
+
+## Outputs
+
+Return Value: Float (single-precision). The desired matte opacity to use.
+

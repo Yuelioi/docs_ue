@@ -1,0 +1,50 @@
+# AddActortoLayer
+
+将演员添加到命名的图层中。
+
+目标是分层子系统
+
+## 图示
+
+![]($-20221218-19372919.png)
+
+## Inputs
+
+在。执行。
+
+目标。分层子系统对象参考。
+
+演员。演员对象参考。要添加到指定图层中的演员。
+
+层名。名称（通过引用）。要添加演员的层的名称。  
+
+## Outputs
+
+出：执行。
+
+返回值。布尔值。如果演员被添加，则为真。如果演员已经属于该层，则返回假。
+
+Adds the actor to the named layer.
+
+Target is Layers Subsystem
+
+## 图示
+
+![]($-20221218-19372919.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Layers Subsystem Object Reference.
+
+Actor: Actor Object Reference. The actor to add to the named layer.
+
+Layer Name: Name (by ref). The name of the layer to add the actor to.  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Boolean. true if the actor was added. false is returned if the actor already belongs to the layer..
+

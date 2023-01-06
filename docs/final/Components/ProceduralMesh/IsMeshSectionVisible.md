@@ -1,0 +1,38 @@
+# IsMeshSectionVisible
+
+返回某一特定部分当前是否可见
+
+目标是程序网格组件
+
+## 图示
+
+![]($-20221218-18254846.png)
+
+## Inputs
+
+目标。程序网格组件对象参考。
+
+章节索引。整数。 
+
+## Outputs
+
+返回值。布尔值。返回某个特定部分当前是否可见。
+
+Returns whether a particular section is currently visible
+
+Target is Procedural Mesh Component
+
+## 图示
+
+![]($-20221218-18254846.png)
+
+## Inputs
+
+Target: Procedural Mesh Component Object Reference.
+
+Section Index: Integer.  
+
+## Outputs
+
+Return Value: Boolean. Returns whether a particular section is currently visible.
+

@@ -1,4 +1,0 @@
-# ValidData
-
-Valid Data
-

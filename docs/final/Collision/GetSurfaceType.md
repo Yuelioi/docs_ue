@@ -1,0 +1,34 @@
+# GetSurfaceType
+
+返回给定Hit.的EPhysicalSurface类型。要为你的项目编辑表面类型，请使用ProjectSettings/Physics/PhysicalSurface部分。
+
+目标是游戏的静力学
+
+## 图示
+
+![]($-20221218-18190656.png)
+
+## Inputs
+
+命中：命中结果结构（通过引用）。 
+
+## Outputs
+
+返回值。EPhysicalSurface枚举。返回给定命中的EPhysicalSurface类型。要为你的项目编辑表面类型，请使用ProjectSettings/Physics/PhysicalSurface部分。
+
+Returns the EPhysicalSurface type of the given Hit.. To edit surface type for your project, use ProjectSettings/Physics/PhysicalSurface section
+
+Target is Gameplay Statics
+
+## 图示
+
+![]($-20221218-18190656.png)
+
+## Inputs
+
+Hit: Hit Result Structure (by ref).  
+
+## Outputs
+
+Return Value: EPhysicalSurface Enum. Returns the EPhysicalSurface type of the given Hit.. To edit surface type for your project, use ProjectSettings/Physics/PhysicalSurface section.
+

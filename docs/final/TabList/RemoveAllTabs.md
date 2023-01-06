@@ -1,0 +1,38 @@
+# RemoveAllTabs
+
+移除所有标签
+
+目标是普通标签列表小工具基础
+
+## 图示
+
+![]($-20221218-21091926.png)
+
+## Inputs
+
+在。执行。
+
+目标。普通标签列表小工具基础对象参考。  
+
+## Outputs
+
+出：执行。
+
+Remove All Tabs
+
+Target is Common Tab List Widget Base
+
+## 图示
+
+![]($-20221218-21091926.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Common Tab List Widget Base Object Reference.  
+
+## Outputs
+
+Out: Exec.
+

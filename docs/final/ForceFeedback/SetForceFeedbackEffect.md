@@ -1,0 +1,42 @@
+# SetForceFeedbackEffect
+
+设置该组件播放的力反馈效果
+
+目标是力反馈组件
+
+## 图示
+
+![]($-20221218-19005099.png)
+
+## Inputs
+
+在。执行。
+
+目标。力反馈组件对象参考。
+
+新的力反馈效果。力反馈效果的对象参考。  
+
+## Outputs
+
+出：执行。
+
+Set what force feedback effect is played by this component
+
+Target is Force Feedback Component
+
+## 图示
+
+![]($-20221218-19005099.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Force Feedback Component Object Reference.
+
+New Force Feedback Effect: Force Feedback Effect Object Reference.  
+
+## Outputs
+
+Out: Exec.
+

@@ -1,0 +1,46 @@
+# AddDisplayDelegate
+
+为显示子系统添加一个动态委托。
+
+目标是视口统计子系统
+
+## 图示
+
+![]($-20221218-21252861.png)
+
+## Inputs
+
+在。执行。
+
+目标。视口统计子系统对象参考。
+
+代表。代表（由裁判）。  
+
+## Outputs
+
+出：执行。
+
+返回值。整数。
+
+Add a dynamic delegate to the display subsystem.
+
+Target is Viewport Stats Subsystem
+
+## 图示
+
+![]($-20221218-21252861.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Viewport Stats Subsystem Object Reference.
+
+Delegate: Delegate (by ref).  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Integer.
+

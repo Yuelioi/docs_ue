@@ -1,0 +1,50 @@
+# CreateCollection
+
+用给定的名称和共享类型创建一个新的集合。
+
+目标是资产标签子系统
+
+## 图示
+
+![]($-20221218-18013145.png)
+
+## Inputs
+
+在。执行。
+
+目标。资产标签子系统对象参考。
+
+名称。名称。给予集合的名称。
+
+共享类型。ECollectionScriptingShareType枚举。集合是否应该是本地的，私有的，或者共享的？ 
+
+## Outputs
+
+输出。执行。
+
+返回值。布尔值。如果集合被创建，则为真，否则为假（关于错误的细节，请看输出日志）。
+
+Create a new collection with the given name and share type.
+
+Target is Asset Tags Subsystem
+
+## 图示
+
+![]($-20221218-18013145.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Asset Tags Subsystem Object Reference.
+
+Name: Name. Name to give to the collection..
+
+Share Type: ECollectionScriptingShareType Enum. Whether the collection should be local, private, or shared?.  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Boolean. True if the collection was created, false otherwise (see the output log for details on error)..
+

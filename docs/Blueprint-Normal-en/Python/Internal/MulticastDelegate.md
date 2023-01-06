@@ -1,4 +1,0 @@
-# MulticastDelegate
-
-Multicast Delegate
-

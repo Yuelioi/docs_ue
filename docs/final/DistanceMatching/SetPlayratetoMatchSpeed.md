@@ -1,0 +1,50 @@
+# SetPlayratetoMatchSpeed
+
+设置序列播放器的播放速率，使动画的速度与游戏中的运动速度相匹配。虽然距离匹配通常用于过渡动画，但循环动画（步行、慢跑等）通常只是调整其播放速率以匹配游戏中的移动速度。这个函数假设动画有一个恒定的速度。
+
+目标是Anim Distance Matching Library
+
+## 图示
+
+![]($-20221218-18431616.png)
+
+## Inputs
+
+在。执行。
+
+序列播放器。序列播放器参考结构（通过参考）。序列播放器的节点来操作。
+
+匹配的速度。浮点（单精度）。游戏中要匹配的运动速度。这通常是运动组件的当前速度。
+
+播放率钳制。矢量2D结构。钳制动画的播放速度可以改变多少以配合游戏中的运动速度。设置为(0,0)表示没有钳制。
+
+## Outputs
+
+出：执行。
+
+返回值。序列播放器参考结构。
+
+Set the play rate of the sequence player so that the speed of the animation matches in-game movement speed.. While distance matching is commonly used for transition animations, cycle animations (walk, jog, etc) typically just adjust their play rate to match. the in-game movement speed.. This function assumes that the animation has a constant speed.
+
+Target is Anim Distance Matching Library
+
+## 图示
+
+![]($-20221218-18431616.png)
+
+## Inputs
+
+In: Exec.
+
+Sequence Player: Sequence Player Reference Structure (by ref). The sequence player node to operate on..
+
+Speed to Match: Float (single-precision). The in-game movement speed to match. This is usually the current speed of the movement component..
+
+Play Rate Clamp: Vector 2D Structure. A clamp on how much the animation's play rate can change to match the in-game movement speed. Set to (0,0) for no clamping..  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Sequence Player Reference Structure.
+

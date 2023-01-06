@@ -1,0 +1,42 @@
+# HideComponent
+
+将该组件添加到我们的隐藏组件列表中。
+
+目标是场景捕捉组件
+
+## 图示
+
+![]($-20221218-20385836.png)
+
+## Inputs
+
+在。执行。
+
+目标。场景捕捉组件对象参考。
+
+在组件中。原始组件对象参考。  
+
+## Outputs
+
+出：执行。
+
+Adds the component to our list of hidden components.
+
+Target is Scene Capture Component
+
+## 图示
+
+![]($-20221218-20385836.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Scene Capture Component Object Reference.
+
+In Component: Primitive Component Object Reference.  
+
+## Outputs
+
+Out: Exec.
+

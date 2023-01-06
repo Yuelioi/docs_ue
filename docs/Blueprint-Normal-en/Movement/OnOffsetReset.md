@@ -1,4 +1,0 @@
-# OnOffsetReset
-
-On Offset Reset
-

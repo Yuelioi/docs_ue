@@ -1,0 +1,42 @@
+# ActivatePreviousWidget
+
+激活之前的小工具
+
+目标是普通动画切换器
+
+## 图示
+
+![]($-20221218-18215828.png)
+
+## Inputs
+
+在。执行。
+
+目标。普通动画切换器对象参考。
+
+可以包起来。布尔值。 
+
+## Outputs
+
+出来。执行：执行。
+
+Activate Previous Widget
+
+Target is Common Animated Switcher
+
+## 图示
+
+![]($-20221218-18215828.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Common Animated Switcher Object Reference.
+
+Can Wrap: Boolean.  
+
+## Outputs
+
+Out: Exec.
+

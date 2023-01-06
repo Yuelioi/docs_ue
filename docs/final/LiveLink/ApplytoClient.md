@@ -1,0 +1,42 @@
+# ApplytoClient
+
+向客户申请
+
+目标是实时链接预设
+
+## 图示
+
+![]($-20221218-19445715.png)
+
+## Inputs
+
+在。执行。
+
+目标。现场链接预设对象参考。  
+
+## Outputs
+
+出：执行。
+
+返回值。布尔值。适用于客户端。
+
+Apply to Client
+
+Target is Live Link Preset
+
+## 图示
+
+![]($-20221218-19445715.png)
+
+## Inputs
+
+In: Exec.
+
+Target: Live Link Preset Object Reference.  
+
+## Outputs
+
+Out: Exec.
+
+Return Value: Boolean. Apply to Client.
+
