@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21075824.png)
+![](/uploads/projects/ue-bluprint/20221218-21075824.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Modular Synth Component Object Reference。
 
-攻击时间Msec:Float (single-precision).  
+攻击时间 Msec:Float (single-precision).
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the envelope modulator attack time in msec
 
@@ -26,7 +28,7 @@ Target is Modular Synth Component
 
 ## 图示
 
-![]($-20221218-21075824.png)
+![](/uploads/projects/ue-bluprint/20221218-21075824.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Modular Synth Component Object Reference.
 
-Attack Time Msec: Float (single-precision).  
+Attack Time Msec: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

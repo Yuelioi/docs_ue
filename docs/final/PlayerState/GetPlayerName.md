@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20300741.png)
+![](/uploads/projects/ue-bluprint/20221218-20300741.png)
 
 ## Inputs
 
-目标。玩家状态对象参考。  
+目标。玩家状态对象参考。
 
 ## Outputs
 
 返回值。字符串。返回当前球员的名字。
+
+<hr>
 
 returns current player name
 
@@ -22,13 +24,12 @@ Target is Player State
 
 ## 图示
 
-![]($-20221218-20300741.png)
+![](/uploads/projects/ue-bluprint/20221218-20300741.png)
 
 ## Inputs
 
-Target: Player State Object Reference.  
+Target: Player State Object Reference.
 
 ## Outputs
 
 Return Value: String. returns current player name.
-

@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18274757.png)
+![](/uploads/projects/ue-bluprint/20221218-18274757.png)
 
 ## Inputs
 
 在。执行。
 
-目标。立体图层对象参考。 
+目标。立体图层对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Manually mark the stereo layer texture for updating
 
@@ -24,15 +26,14 @@ Target is Stereo Layer
 
 ## 图示
 
-![]($-20221218-18274757.png)
+![](/uploads/projects/ue-bluprint/20221218-18274757.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Stereo Layer Object Reference.  
+Target: Stereo Layer Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

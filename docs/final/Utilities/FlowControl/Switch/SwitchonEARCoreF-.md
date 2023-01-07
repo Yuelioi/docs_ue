@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14162073.png)
+![](/uploads/projects/ue-bluprint/20221218-14162073.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARCoreFaceComponentTransformMixing枚举。 
+选择。EARCoreFaceComponentTransformMixing 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Component Location Tracked Rotation: Exec.
 
 仅限跟踪。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14162073.png)
+![](/uploads/projects/ue-bluprint/20221218-14162073.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARCoreFaceComponentTransformMixing Enum.  
+Selection: EARCoreFaceComponentTransformMixing Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Component Only: Exec.
 Component Location Tracked Rotation: Exec.
 
 Tracking Only: Exec.
-

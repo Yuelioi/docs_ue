@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20093061.png)
+![](/uploads/projects/ue-bluprint/20221218-20093061.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 致命：布尔值。
 
-错误原因。文本。  
+错误原因。文本。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 On Executor Errored Impl
 
@@ -30,7 +32,7 @@ Target is Movie Pipeline Executor Base
 
 ## 图示
 
-![]($-20221218-20093061.png)
+![](/uploads/projects/ue-bluprint/20221218-20093061.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Errored Pipeline: Movie Pipeline Object Reference.
 
 Fatal: Boolean.
 
-Error Reason: Text.  
+Error Reason: Text.
 
 ## Outputs
 
 Out: Exec.
-

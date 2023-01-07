@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21055032.png)
+![](/uploads/projects/ue-bluprint/20221218-21055032.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 要删除的子对象。子对象数据句柄结构的数组。应该被删除的子对象句柄数组。
 
-BPContext。蓝图对象参考。给定的蓝图上下文。  
+BPContext。蓝图对象参考。给定的蓝图上下文。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ BPContext。蓝图对象参考。给定的蓝图上下文。
 
 返回值。整数。成功删除的子对象的数量。
 
+<hr>
+
 Attempts to delete the given array of subobjects from their context
 
 Target is Subobject Data Subsystem
 
 ## 图示
 
-![]($-20221218-21055032.png)
+![](/uploads/projects/ue-bluprint/20221218-21055032.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Context Handle: Subobject Data Handle Structure (by ref). The owning context of 
 
 Subobjects to Delete: Array of Subobject Data Handle Structures. Array of subobject handles that should be deleted.
 
-BPContext: Blueprint Object Reference. The blueprint context for the given.  
+BPContext: Blueprint Object Reference. The blueprint context for the given.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. The number of subobjects successfully deleted.
-

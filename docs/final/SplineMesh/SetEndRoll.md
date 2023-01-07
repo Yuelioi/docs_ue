@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21015788.png)
+![](/uploads/projects/ue-bluprint/20221218-21015788.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 末端滚动。Float（单精度）。
 
-更新网格。布尔值。  
+更新网格。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the end roll
 
@@ -28,7 +30,7 @@ Target is Spline Mesh Component
 
 ## 图示
 
-![]($-20221218-21015788.png)
+![](/uploads/projects/ue-bluprint/20221218-21015788.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Spline Mesh Component Object Reference.
 
 End Roll: Float (single-precision).
 
-Update Mesh: Boolean.  
+Update Mesh: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

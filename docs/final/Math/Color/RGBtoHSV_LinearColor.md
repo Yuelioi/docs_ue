@@ -1,20 +1,22 @@
 # RGBtoHSV_LinearColor
 
-将RGB线性颜色转换为HSV（其中H在R，S在G，V在B）。
+将 RGB 线性颜色转换为 HSV（其中 H 在 R，S 在 G，V 在 B）。
 
-目标是Kismet数学图书馆
+目标是 Kismet 数学图书馆
 
 ## 图示
 
-![]($-20221218-19475606.png)
+![](/uploads/projects/ue-bluprint/20221218-19475606.png)
 
 ## Inputs
 
-RGB：线性颜色结构。  
+RGB：线性颜色结构。
 
 ## Outputs
 
-返回值。线性颜色结构。将RGB线性颜色转换为HSV（其中H在R，S在G，V在B）。
+返回值。线性颜色结构。将 RGB 线性颜色转换为 HSV（其中 H 在 R，S 在 G，V 在 B）。
+
+<hr>
 
 Converts a RGB linear color to HSV (where H is in R, S is in G, and V is in B)
 
@@ -22,13 +24,12 @@ Target is Kismet Math Library
 
 ## 图示
 
-![]($-20221218-19475606.png)
+![](/uploads/projects/ue-bluprint/20221218-19475606.png)
 
 ## Inputs
 
-RGB: Linear Color Structure.  
+RGB: Linear Color Structure.
 
 ## Outputs
 
 Return Value: Linear Color Structure. Converts a RGB linear color to HSV (where H is in R, S is in G, and V is in B).
-

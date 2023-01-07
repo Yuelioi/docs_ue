@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21083285.png)
+![](/uploads/projects/ue-bluprint/20221218-21083285.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Synth Component Mono Wave Table 对象参考。
 
-在反转。布尔型。  
+在反转。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Position envelope envelope inversion
 
@@ -26,7 +28,7 @@ Target is Synth Component Mono Wave Table
 
 ## 图示
 
-![]($-20221218-21083285.png)
+![](/uploads/projects/ue-bluprint/20221218-21083285.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Synth Component Mono Wave Table Object Reference.
 
-In Invert: Boolean.  
+In Invert: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -2,17 +2,17 @@
 
 获取粒子模块吸引器粒子道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19021660.png)
+![](/uploads/projects/ue-bluprint/20221218-19021660.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。粒子吸引器对象参考。  
+粒子模块。粒子吸引器对象参考。
 
 ## Outputs
 
@@ -34,19 +34,21 @@
 
 Out Inherit Source Velocity:Boolean.
 
+<hr>
+
 Get Particle Module Attractor Particle Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19021660.png)
+![](/uploads/projects/ue-bluprint/20221218-19021660.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Particle Attractor Object Reference.  
+Particle Module: Particle Attractor Object Reference.
 
 ## Outputs
 
@@ -67,4 +69,3 @@ Out Selection Method: EAttractorParticleSelectionMethod Enum.
 Out Renew Source: Boolean.
 
 Out Inherit Source Velocity: Boolean.
-

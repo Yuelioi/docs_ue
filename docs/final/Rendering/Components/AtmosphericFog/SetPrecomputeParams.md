@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20332817.png)
+![](/uploads/projects/ue-bluprint/20221218-20332817.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 最大散射顺序：整数。
 
-散射高度样本数。整数。  
+散射高度样本数。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Deprecated
 
@@ -30,7 +32,7 @@ Target is Atmospheric Fog Component
 
 ## 图示
 
-![]($-20221218-20332817.png)
+![](/uploads/projects/ue-bluprint/20221218-20332817.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Density Height: Float (single-precision).
 
 Max Scattering Order: Integer.
 
-Inscatter Altitude Sample Num: Integer.  
+Inscatter Altitude Sample Num: Integer.
 
 ## Outputs
 
 Out: Exec.
-

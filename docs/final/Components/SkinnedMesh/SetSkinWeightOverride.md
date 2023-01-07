@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18270939.png)
+![](/uploads/projects/ue-bluprint/20221218-18270939.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 LODIndex。整数。
 
-皮肤权重。Skel Mesh皮肤权重信息结构的数组。 
+皮肤权重。Skel Mesh 皮肤权重信息结构的数组。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Allow override of skin weights on a per-component basis.
 
@@ -28,7 +30,7 @@ Target is Skinned Mesh Component
 
 ## 图示
 
-![]($-20221218-18270939.png)
+![](/uploads/projects/ue-bluprint/20221218-18270939.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Skinned Mesh Component Object Reference.
 
 LODIndex: Integer.
 
-Skin Weights: Array of Skel Mesh Skin Weight Info Structures.  
+Skin Weights: Array of Skel Mesh Skin Weight Info Structures.
 
 ## Outputs
 
 Out: Exec.
-

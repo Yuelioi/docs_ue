@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14223238.png)
+![](/uploads/projects/ue-bluprint/20221218-14223238.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EPropertyAccessChangeNotifyMode枚举。 
+选择。EPropertyAccessChangeNotifyMode 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 始终。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14223238.png)
+![](/uploads/projects/ue-bluprint/20221218-14223238.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EPropertyAccessChangeNotifyMode Enum.  
+Selection: EPropertyAccessChangeNotifyMode Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Default: Exec.
 Never: Exec.
 
 Always: Exec.
-

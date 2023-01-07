@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20080980.png)
+![](/uploads/projects/ue-bluprint/20221218-20080980.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。物理运动组件对象参考。
 
-目标偏航。布尔值。  
+目标偏航。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Enable Target Yaw
 
@@ -26,7 +28,7 @@ Target is Physics Movement Component
 
 ## 图示
 
-![]($-20221218-20080980.png)
+![](/uploads/projects/ue-bluprint/20221218-20080980.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Physics Movement Component Object Reference.
 
-Target Yaw: Boolean.  
+Target Yaw: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

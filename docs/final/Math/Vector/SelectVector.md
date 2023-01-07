@@ -1,12 +1,12 @@
 # SelectVector
 
-如果bPickA为真，则返回A，否则返回B。
+如果 bPickA 为真，则返回 A，否则返回 B。
 
-目标是Kismet数学图书馆
+目标是 Kismet 数学图书馆
 
 ## 图示
 
-![]($-20221218-19572881.png)
+![](/uploads/projects/ue-bluprint/20221218-19572881.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 B: 向量。
 
-选A：布尔型。  
+选 A：布尔型。
 
 ## Outputs
 
-返回值。矢量。如果bPickA为真，则返回A，否则为B。
+返回值。矢量。如果 bPickA 为真，则返回 A，否则为 B。
+
+<hr>
 
 If bPickA is true, A is returned, otherwise B is
 
@@ -26,7 +28,7 @@ Target is Kismet Math Library
 
 ## 图示
 
-![]($-20221218-19572881.png)
+![](/uploads/projects/ue-bluprint/20221218-19572881.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ A: Vector.
 
 B: Vector.
 
-Pick A: Boolean.  
+Pick A: Boolean.
 
 ## Outputs
 
 Return Value: Vector. If bPickA is true, A is returned, otherwise B is.
-

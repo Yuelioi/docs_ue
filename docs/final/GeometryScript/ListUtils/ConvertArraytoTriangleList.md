@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-19104737.png)
+![](/uploads/projects/ue-bluprint/20221218-19104737.png)
 
 ## Inputs
 
 在。执行。
 
-三角形阵列。Int向量结构的阵列。  
+三角形阵列。Int 向量结构的阵列。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 三角形列表。三角形列表结构。
 
+<hr>
+
 Convert Array to Triangle List
 
 Target is Geometry Script Library List Utility Functions
 
 ## 图示
 
-![]($-20221218-19104737.png)
+![](/uploads/projects/ue-bluprint/20221218-19104737.png)
 
 ## Inputs
 
 In: Exec.
 
-Triangle Array: Array of Int Vector Structures.  
+Triangle Array: Array of Int Vector Structures.
 
 ## Outputs
 
 Out: Exec.
 
 Triangle List: Triangle List Structure.
-

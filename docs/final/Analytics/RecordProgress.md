@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17490644.png)
+![](/uploads/projects/ue-bluprint/20221218-17490644.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 进度类型。字符串。
 
-进度名称。字符串。 
+进度名称。字符串。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Records a user progress event has happened
 
@@ -26,7 +28,7 @@ Target is Analytics Blueprint Library
 
 ## 图示
 
-![]($-20221218-17490644.png)
+![](/uploads/projects/ue-bluprint/20221218-17490644.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Progress Type: String.
 
-Progress Name: String.  
+Progress Name: String.
 
 ## Outputs
 
 Out: Exec.
-

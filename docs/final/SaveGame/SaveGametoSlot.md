@@ -1,12 +1,12 @@
 # SaveGametoSlot
 
-将SaveGameObject的内容保存到一个特定平台的保存槽/文件中。注意：这将写出所有的非瞬时属性，SaveGame属性标志不被检查。
+将 SaveGameObject 的内容保存到一个特定平台的保存槽/文件中。注意：这将写出所有的非瞬时属性，SaveGame 属性标志不被检查。
 
 目标是游戏性的统计学
 
 ## 图示
 
-![]($-20221218-20470619.png)
+![](/uploads/projects/ue-bluprint/20221218-20470619.png)
 
 ## Inputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。我们是否成功保存了该信息。
 
+<hr>
+
 Save the contents of the SaveGameObject to a platform-specific save slot/file.. Note: This will write out all non-transient properties, the SaveGame property flag is not checked
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-20470619.png)
+![](/uploads/projects/ue-bluprint/20221218-20470619.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Save Game Object: Save Game Object Reference. Object that contains data about th
 
 Slot Name: String. Name of save game slot to save to..
 
-User Index: Integer. For some platforms, master user index to identify the user doing the saving..  
+User Index: Integer. For some platforms, master user index to identify the user doing the saving..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Whether we successfully saved this information.
-

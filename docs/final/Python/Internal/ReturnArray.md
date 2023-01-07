@@ -2,15 +2,15 @@
 
 返回数组
 
-目标是Py测试对象
+目标是 Py 测试对象
 
 ## 图示
 
-![]($-20221218-20315082.png)
+![](/uploads/projects/ue-bluprint/20221218-20315082.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。整数的数组。返回数组。
 
+<hr>
+
 Return Array
 
 Target is Py Test Object
 
 ## 图示
 
-![]($-20221218-20315082.png)
+![](/uploads/projects/ue-bluprint/20221218-20315082.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Array of Integers. Return Array.
-

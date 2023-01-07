@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20074705.png)
+![](/uploads/projects/ue-bluprint/20221218-20074705.png)
 
 ## Inputs
 
 在。执行。
 
-运动翘曲组件。Motion Warping Component对象参考。
+运动翘曲组件。Motion Warping Component 对象参考。
 
 动画。Anim Sequence 基础对象参考。
 
@@ -26,23 +26,25 @@
 
 经点 动画 变形。变形.
 
-经点Anim Bone 名称: 名称.
+经点 Anim Bone 名称: 名称.
 
 经纬度翻译。布尔型。
 
-忽略Z轴：布尔值。
+忽略 Z 轴：布尔值。
 
 翘曲旋转。布尔型。
 
-旋转类型。EMotionWarpRotationType枚举。
+旋转类型。EMotionWarpRotationType 枚举。
 
-经线旋转时间乘数。浮点数（单精度）。  
+经线旋转时间乘数。浮点数（单精度）。
 
 ## Outputs
 
 出：执行。
 
-返回值。Skew Warp对象参考。添加根部运动修改器斜向翘曲。
+返回值。Skew Warp 对象参考。添加根部运动修改器斜向翘曲。
+
+<hr>
 
 Add Root Motion Modifier Skew Warp
 
@@ -50,7 +52,7 @@ Target is Skew Warp
 
 ## 图示
 
-![]($-20221218-20074705.png)
+![](/uploads/projects/ue-bluprint/20221218-20074705.png)
 
 ## Inputs
 
@@ -80,11 +82,10 @@ Warp Rotation: Boolean.
 
 Rotation Type: EMotionWarpRotationType Enum.
 
-Warp Rotation Time Multiplier: Float (single-precision).  
+Warp Rotation Time Multiplier: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Skew Warp Object Reference. Add Root Motion Modifier Skew Warp.
-

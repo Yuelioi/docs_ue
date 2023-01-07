@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21252979.png)
+![](/uploads/projects/ue-bluprint/20221218-21252979.png)
 
 ## Inputs
 
@@ -18,13 +18,15 @@
 
 颜色：线性颜色结构。要显示的文本的颜色。
 
-持续时间。Float（单精度）。文本在屏幕上停留的时间，如果是0，那么它将无限期地停留。
+持续时间。Float（单精度）。文本在屏幕上停留的时间，如果是 0，那么它将无限期地停留。
 
-显示偏移。矢量二维结构（通过引用）。信息在显示时应使用的位置偏移。  
+显示偏移。矢量二维结构（通过引用）。信息在显示时应使用的位置偏移。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add a message to be displayed on the viewport of this world
 
@@ -32,7 +34,7 @@ Target is Viewport Stats Subsystem
 
 ## 图示
 
-![]($-20221218-21252979.png)
+![](/uploads/projects/ue-bluprint/20221218-21252979.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Color: Linear Color Structure. Color of the text to be displayed.
 
 Duration: Float (single-precision). How long the text will be on screen, if 0 then it will stay indefinitely.
 
-Display Offset: Vector 2D Structure (by ref). A position offset that the message should use when displayed..  
+Display Offset: Vector 2D Structure (by ref). A position offset that the message should use when displayed..
 
 ## Outputs
 
 Out: Exec.
-

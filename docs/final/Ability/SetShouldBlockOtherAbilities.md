@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17323865.png)
+![](/uploads/projects/ue-bluprint/20221218-17323865.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。游戏能力对象参考。
 
-应该阻止能力。布尔值。 
+应该阻止能力。布尔值。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets rather ability block flags are enabled or disabled. Only valid on instanced abilities
 
@@ -26,7 +28,7 @@ Target is Gameplay Ability
 
 ## 图示
 
-![]($-20221218-17323865.png)
+![](/uploads/projects/ue-bluprint/20221218-17323865.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Gameplay Ability Object Reference.
 
-Should Block Abilities: Boolean.  
+Should Block Abilities: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

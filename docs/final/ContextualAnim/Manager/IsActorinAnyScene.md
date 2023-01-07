@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18303453.png)
+![](/uploads/projects/ue-bluprint/20221218-18303453.png)
 
 ## Inputs
 
 目标。语境动画管理器对象参考。
 
-演员。演员对象参考。 
+演员。演员对象参考。
 
 ## Outputs
 
 返回值。布尔值。是否在任何场景中的演员。
+
+<hr>
 
 Is Actor in Any Scene
 
@@ -24,15 +26,14 @@ Target is Contextual Anim Manager
 
 ## 图示
 
-![]($-20221218-18303453.png)
+![](/uploads/projects/ue-bluprint/20221218-18303453.png)
 
 ## Inputs
 
 Target: Contextual Anim Manager Object Reference.
 
-Actor: Actor Object Reference.  
+Actor: Actor Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Is Actor in Any Scene.
-

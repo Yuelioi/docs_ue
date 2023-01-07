@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14160481.png)
+![](/uploads/projects/ue-bluprint/20221218-14160481.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAnimDataEvalType枚举。 
+选择。EAnimDataEvalType 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 压缩的。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14160481.png)
+![](/uploads/projects/ue-bluprint/20221218-14160481.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAnimDataEvalType Enum.  
+Selection: EAnimDataEvalType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Source: Exec.
 Raw: Exec.
 
 Compressed: Exec.
-

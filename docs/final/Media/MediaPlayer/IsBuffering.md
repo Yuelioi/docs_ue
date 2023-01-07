@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20010600.png)
+![](/uploads/projects/ue-bluprint/20221218-20010600.png)
 
 ## Inputs
 
-目标。媒体播放器对象参考。  
+目标。媒体播放器对象参考。
 
 ## Outputs
 
 返回值。布尔值。如果循环，为真，否则为假。
+
+<hr>
 
 Check whether playback is buffering data.
 
@@ -22,13 +24,12 @@ Target is Media Player
 
 ## 图示
 
-![]($-20221218-20010600.png)
+![](/uploads/projects/ue-bluprint/20221218-20010600.png)
 
 ## Inputs
 
-Target: Media Player Object Reference.  
+Target: Media Player Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. true if looping, false otherwise..
-

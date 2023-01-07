@@ -1,12 +1,12 @@
 # SetUVRect
 
-改变映射到四维面的UV坐标
+改变映射到四维面的 UV 坐标
 
 目标是立体层
 
 ## 图示
 
-![]($-20221218-18280257.png)
+![](/uploads/projects/ue-bluprint/20221218-18280257.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。立体图层对象参考。
 
-In UVRect: Box 2D Structure.  
+In UVRect: Box 2D Structure.
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Change the UV coordinates mapped to the quad face
 
@@ -26,7 +28,7 @@ Target is Stereo Layer
 
 ## 图示
 
-![]($-20221218-18280257.png)
+![](/uploads/projects/ue-bluprint/20221218-18280257.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Stereo Layer Object Reference.
 
-In UVRect: Box 2D Structure.  
+In UVRect: Box 2D Structure.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19072324.png)
+![](/uploads/projects/ue-bluprint/20221218-19072324.png)
 
 ## Inputs
 
 目标。玩家控制器对象参考。
 
-钥匙。关键的结构。  
+钥匙。关键的结构。
 
 ## Outputs
 
 返回值。布尔值。如果给定的键/按钮在上一帧向上，在这一帧向下，则返回真。
+
+<hr>
 
 Returns true if the given key/button was up last frame and down this frame.
 
@@ -24,15 +26,14 @@ Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19072324.png)
+![](/uploads/projects/ue-bluprint/20221218-19072324.png)
 
 ## Inputs
 
 Target: Player Controller Object Reference.
 
-Key: Key Structure.  
+Key: Key Structure.
 
 ## Outputs
 
 Return Value: Boolean. Returns true if the given key/button was up last frame and down this frame..
-

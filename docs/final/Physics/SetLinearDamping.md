@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20284725.png)
+![](/uploads/projects/ue-bluprint/20221218-20284725.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。原始组件对象参考。
 
-在阻尼中。Float（单精度）。  
+在阻尼中。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the linear damping of this component.
 
@@ -26,7 +28,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20284725.png)
+![](/uploads/projects/ue-bluprint/20221218-20284725.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Primitive Component Object Reference.
 
-In Damping: Float (single-precision).  
+In Damping: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

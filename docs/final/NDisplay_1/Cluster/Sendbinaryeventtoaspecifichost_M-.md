@@ -2,11 +2,11 @@
 
 将二进制集群事件发送到一个特定的目标（在集群之外）。
 
-目标是显示集群蓝图API
+目标是显示集群蓝图 API
 
 ## 图示
 
-![]($-20221218-20110313.png)
+![](/uploads/projects/ue-bluprint/20221218-20110313.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 事件。显示群集群集事件二元结构（按参考）。
 
-仅限初级。布尔型。  
+仅限初级。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sends binary cluster event to a specific target (outside of the cluster).
 
@@ -32,7 +34,7 @@ Target is Display Cluster Blueprint API
 
 ## 图示
 
-![]($-20221218-20110313.png)
+![](/uploads/projects/ue-bluprint/20221218-20110313.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Port: Integer.
 
 Event: Display Cluster Cluster Event Binary Structure (by ref).
 
-Primary Only: Boolean.  
+Primary Only: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14250875.png)
+![](/uploads/projects/ue-bluprint/20221218-14250875.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EVectorCurveChannel Enum.  
+选择。EVectorCurveChannel Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Z：执行。
 
 无效。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14250875.png)
+![](/uploads/projects/ue-bluprint/20221218-14250875.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EVectorCurveChannel Enum.  
+Selection: EVectorCurveChannel Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Y: Exec.
 Z: Exec.
 
 Invalid: Exec.
-

@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-19105903.png)
+![](/uploads/projects/ue-bluprint/20221218-19105903.png)
 
 ## Inputs
 
-颜色列表。颜色列表结构。  
+颜色列表。颜色列表结构。
 
 ## Outputs
 
 返回值。整数。获取颜色列表长度。
+
+<hr>
 
 Get Color List Length
 
@@ -22,13 +24,12 @@ Target is Geometry Script Library List Utility Functions
 
 ## 图示
 
-![]($-20221218-19105903.png)
+![](/uploads/projects/ue-bluprint/20221218-19105903.png)
 
 ## Inputs
 
-Color List: Color List Structure.  
+Color List: Color List Structure.
 
 ## Outputs
 
 Return Value: Integer. Get Color List Length.
-

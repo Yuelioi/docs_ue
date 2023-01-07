@@ -2,17 +2,17 @@
 
 获取矢量分布均匀值
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19031637.png)
+![](/uploads/projects/ue-bluprint/20221218-19031637.png)
 
 ## Inputs
 
 在。执行。
 
-分布。分布矢量统一的对象参考。  
+分布。分布矢量统一的对象参考。
 
 ## Outputs
 
@@ -22,19 +22,21 @@ Out Min:向量。
 
 出最大：向量。
 
+<hr>
+
 Get Vector Distribution Uniform Values
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19031637.png)
+![](/uploads/projects/ue-bluprint/20221218-19031637.png)
 
 ## Inputs
 
 In: Exec.
 
-Distribution: Distribution Vector Uniform Object Reference.  
+Distribution: Distribution Vector Uniform Object Reference.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Out: Exec.
 Out Min: Vector.
 
 Out Max: Vector.
-

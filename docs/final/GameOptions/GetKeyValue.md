@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19080195.png)
+![](/uploads/projects/ue-bluprint/20221218-19080195.png)
 
 ## Inputs
 
@@ -14,9 +14,11 @@
 
 ## Outputs
 
-钥匙。字符串。(out) Pair的关键部分。如果没有 = in 字符串将与Pair.相同。
+钥匙。字符串。(out) Pair 的关键部分。如果没有 = in 字符串将与 Pair.相同。
 
-价值。字符串。(out) 对子的值部分。如果没有=in字符串将为空。
+价值。字符串。(out) 对子的值部分。如果没有=in 字符串将为空。
+
+<hr>
 
 Break up a key=value pair into its key and value.
 
@@ -24,15 +26,14 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-19080195.png)
+![](/uploads/projects/ue-bluprint/20221218-19080195.png)
 
 ## Inputs
 
-Pair: String. The string containing a pair to split apart..  
+Pair: String. The string containing a pair to split apart..
 
 ## Outputs
 
 Key: String. (out) Key portion of Pair. If no = in string will be the same as Pair..
 
 Value: String. (out) Value portion of Pair. If no = in string will be empty..
-

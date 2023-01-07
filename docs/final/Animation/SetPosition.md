@@ -2,11 +2,11 @@
 
 设置位置
 
-目标是Anim单节点实例
+目标是 Anim 单节点实例
 
 ## 图示
 
-![]($-20221218-17505044.png)
+![](/uploads/projects/ue-bluprint/20221218-17505044.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在位置上。Float（单精度）。
 
-火灾通知。布尔值。 
+火灾通知。布尔值。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set Position
 
@@ -28,7 +30,7 @@ Target is Anim Single Node Instance
 
 ## 图示
 
-![]($-20221218-17505044.png)
+![](/uploads/projects/ue-bluprint/20221218-17505044.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Anim Single Node Instance Object Reference.
 
 In Position: Float (single-precision).
 
-Fire Notifies: Boolean.  
+Fire Notifies: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

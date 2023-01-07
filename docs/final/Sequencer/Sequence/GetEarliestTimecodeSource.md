@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20542131.png)
+![](/uploads/projects/ue-bluprint/20221218-20542131.png)
 
 ## Inputs
 
-目标。电影场景序列对象参考。  
+目标。电影场景序列对象参考。
 
 ## Outputs
 
 返回值。电影场景时间码源结构。从这个序列的电影场景中包含的所有电影场景部分中获取最早的时间码源。
+
+<hr>
 
 Get the earliest timecode source out of all of the movie scene sections contained within this sequence's movie scene.
 
@@ -22,13 +24,12 @@ Target is Movie Scene Sequence
 
 ## 图示
 
-![]($-20221218-20542131.png)
+![](/uploads/projects/ue-bluprint/20221218-20542131.png)
 
 ## Inputs
 
-Target: Movie Scene Sequence Object Reference.  
+Target: Movie Scene Sequence Object Reference.
 
 ## Outputs
 
 Return Value: Movie Scene Timecode Source Structure. Get the earliest timecode source out of all of the movie scene sections contained within this sequence's movie scene..
-

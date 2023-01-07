@@ -2,11 +2,11 @@
 
 将传入的浮点数转换为文本，格式为百分比
 
-目标是Kismet文本库
+目标是 Kismet 文本库
 
 ## 图示
 
-![]($-20221218-15240150.png)
+![](/uploads/projects/ue-bluprint/20221218-15240150.png)
 
 ## Inputs
 
@@ -24,11 +24,13 @@
 
 最小的小数位。整数。
 
-最大的小数位。整数。  
+最大的小数位。整数。
 
 ## Outputs
 
 返回值。文本。将传入的浮点数转换为文本，格式为百分比。
+
+<hr>
 
 Converts a passed in float to a text, formatted as a percent
 
@@ -36,7 +38,7 @@ Target is Kismet Text Library
 
 ## 图示
 
-![]($-20221218-15240150.png)
+![](/uploads/projects/ue-bluprint/20221218-15240150.png)
 
 ## Inputs
 
@@ -54,9 +56,8 @@ Maximum Integral Digits: Integer.
 
 Minimum Fractional Digits: Integer.
 
-Maximum Fractional Digits: Integer.  
+Maximum Fractional Digits: Integer.
 
 ## Outputs
 
 Return Value: Text. Converts a passed in float to a text, formatted as a percent.
-

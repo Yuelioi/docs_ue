@@ -2,11 +2,11 @@
 
 设置色标/偏移
 
-目标是Oculus功能库
+目标是 Oculus 功能库
 
 ## 图示
 
-![]($-20221218-20155179.png)
+![](/uploads/projects/ue-bluprint/20221218-20155179.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 颜色偏移。线性色彩结构。
 
-应用于所有图层。布尔型。  
+应用于所有图层。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the Color Scale/Offset
 
@@ -28,7 +30,7 @@ Target is Oculus Function Library
 
 ## 图示
 
-![]($-20221218-20155179.png)
+![](/uploads/projects/ue-bluprint/20221218-20155179.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Color Scale: Linear Color Structure.
 
 Color Offset: Linear Color Structure.
 
-Apply to All Layers: Boolean.  
+Apply to All Layers: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

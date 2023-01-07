@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14232525.png)
+![](/uploads/projects/ue-bluprint/20221218-14232525.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESkeletalSummaryDataType枚举。 
+选择。ESkeletalSummaryDataType 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 从设备中。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14232525.png)
+![](/uploads/projects/ue-bluprint/20221218-14232525.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESkeletalSummaryDataType Enum.  
+Selection: ESkeletalSummaryDataType Enum.
 
 ## Outputs
 
 From Animation: Exec.
 
 From Device: Exec.
-

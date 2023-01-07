@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17483923.png)
+![](/uploads/projects/ue-bluprint/20221218-17483923.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@ Resource Classes: Array of Gameplay Task Resource Class References.
 
 优先权。字节。
 
-任务实例名称。名称。 
+任务实例名称。名称。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ Resource Classes: Array of Gameplay Task Resource Class References.
 
 返回值。游戏任务索赔资源对象参考。索赔资源。
 
+<hr>
+
 Claim Resources
 
 Target is Gameplay Task Claim Resource
 
 ## 图示
 
-![]($-20221218-17483923.png)
+![](/uploads/projects/ue-bluprint/20221218-17483923.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Resource Classes: Array of Gameplay Task Resource Class References.
 
 Priority: Byte.
 
-Task Instance Name: Name.  
+Task Instance Name: Name.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Gameplay Task Claim Resource Object Reference. Claim Resources.
-

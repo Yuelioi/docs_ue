@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18152926.png)
+![](/uploads/projects/ue-bluprint/20221218-18152926.png)
 
 ## Inputs
 
-物理碰撞。混沌物理碰撞信息结构（通过引用）。 
+物理碰撞。混沌物理碰撞信息结构（通过引用）。
 
 ## Outputs
 
 返回值。命中结果结构。将物理碰撞转换为命中结果。
+
+<hr>
 
 Convert Physics Collision to Hit Result
 
@@ -22,13 +24,12 @@ Target is Chaos Solver Engine Blueprint Library
 
 ## 图示
 
-![]($-20221218-18152926.png)
+![](/uploads/projects/ue-bluprint/20221218-18152926.png)
 
 ## Inputs
 
-Physics Collision: Chaos Physics Collision Info Structure (by ref).  
+Physics Collision: Chaos Physics Collision Info Structure (by ref).
 
 ## Outputs
 
 Return Value: Hit Result Structure. Convert Physics Collision to Hit Result.
-

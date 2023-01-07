@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18182721.png)
+![](/uploads/projects/ue-bluprint/20221218-18182721.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@ Linear Velocity Scale: 矢量。
 
 角速度刻度。浮点（单精度）。
 
-虚构的角度刻度。浮点（单精度）。 
+虚构的角度刻度。浮点（单精度）。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Velocity Scale
 
@@ -30,7 +32,7 @@ Target is Chaos Clothing Interactor
 
 ## 图示
 
-![]($-20221218-18182721.png)
+![](/uploads/projects/ue-bluprint/20221218-18182721.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Linear Velocity Scale: Vector.
 
 Angular Velocity Scale: Float (single-precision).
 
-Fictitious Angular Scale: Float (single-precision).  
+Fictitious Angular Scale: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

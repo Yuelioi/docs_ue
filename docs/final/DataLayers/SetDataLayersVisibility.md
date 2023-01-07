@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18352260.png)
+![](/uploads/projects/ue-bluprint/20221218-18352260.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 数据层。数据层对象引用的数组。要影响的数据层。
 
-是可见的。布尔值。如果为真，数据层将是可见的；如果为假，数据层将不可见。 
+是可见的。布尔值。如果为真，数据层将是可见的；如果为假，数据层将不可见。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Changes visibility of the DataLayers to the provided state
 
@@ -28,7 +30,7 @@ Target is Data Layer Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18352260.png)
+![](/uploads/projects/ue-bluprint/20221218-18352260.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Data Layer Editor Subsystem Object Reference.
 
 Data Layers: Array of Data Layer Object References. The DataLayers to affect.
 
-Is Visible: Boolean. If true the DataLayers will be visible; if false, the DataLayers will not be visible.  
+Is Visible: Boolean. If true the DataLayers will be visible; if false, the DataLayers will not be visible.
 
 ## Outputs
 
 Out: Exec.
-

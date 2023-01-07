@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18032235.png)
+![](/uploads/projects/ue-bluprint/20221218-18032235.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。音频组件对象参考。
 
-延迟时间。Float（单精度）。 
+延迟时间。Float（单精度）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Cues request to stop sound after the provided delay (in seconds), stopping immediately if delay is zero or negative
 
@@ -26,7 +28,7 @@ Target is Audio Component
 
 ## 图示
 
-![]($-20221218-18032235.png)
+![](/uploads/projects/ue-bluprint/20221218-18032235.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Audio Component Object Reference.
 
-Delay Time: Float (single-precision).  
+Delay Time: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

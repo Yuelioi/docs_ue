@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14230852.png)
+![](/uploads/projects/ue-bluprint/20221218-14230852.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERigVMPinDirection Enum.  
+选择。ERigVMPinDirection Enum.
 
 ## Outputs
 
@@ -26,17 +26,19 @@ IO: Exec.
 
 无效。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14230852.png)
+![](/uploads/projects/ue-bluprint/20221218-14230852.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERigVMPinDirection Enum.  
+Selection: ERigVMPinDirection Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Visible: Exec.
 Hidden: Exec.
 
 Invalid: Exec.
-

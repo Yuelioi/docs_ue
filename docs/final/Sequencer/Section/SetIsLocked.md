@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20532299.png)
+![](/uploads/projects/ue-bluprint/20221218-20532299.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。电影场景部分对象参考。
 
-在是锁定的。Boolean.  
+在是锁定的。Boolean.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Whether or not this section is locked.
 
@@ -26,7 +28,7 @@ Target is Movie Scene Section
 
 ## 图示
 
-![]($-20221218-20532299.png)
+![](/uploads/projects/ue-bluprint/20221218-20532299.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Movie Scene Section Object Reference.
 
-In Is Locked: Boolean.  
+In Is Locked: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

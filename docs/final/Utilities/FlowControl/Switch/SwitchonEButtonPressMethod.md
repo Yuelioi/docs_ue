@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14172659.png)
+![](/uploads/projects/ue-bluprint/20221218-14172659.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EButtonPressMethod Enum.  
+选择。EButtonPressMethod Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 按键释放。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14172659.png)
+![](/uploads/projects/ue-bluprint/20221218-14172659.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EButtonPressMethod Enum.  
+Selection: EButtonPressMethod Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Down And Up: Exec.
 Button Press: Exec.
 
 Button Release: Exec.
-

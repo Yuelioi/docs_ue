@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18194567.png)
+![](/uploads/projects/ue-bluprint/20221218-18194567.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。原始组件对象参考。
 
-通道。ECollisionChannel枚举。这个组件要使用的新通道。 
+通道。ECollisionChannel 枚举。这个组件要使用的新通道。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Changes the collision channel that this object uses when it moves
 
@@ -26,7 +28,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-18194567.png)
+![](/uploads/projects/ue-bluprint/20221218-18194567.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Primitive Component Object Reference.
 
-Channel: ECollisionChannel Enum. The new channel for this component to use.  
+Channel: ECollisionChannel Enum. The new channel for this component to use.
 
 ## Outputs
 
 Out: Exec.
-

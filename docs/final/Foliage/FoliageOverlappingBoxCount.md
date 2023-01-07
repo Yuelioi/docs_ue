@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19003931.png)
+![](/uploads/projects/ue-bluprint/20221218-19003931.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 静态网格。静态网格对象参考。要计算的网格。
 
-箱子。箱体结构。盒子要重合。  
+箱子。箱体结构。盒子要重合。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。整数。
 
+<hr>
+
 Gets the number of instances overlapping a provided box
 
 Target is Foliage Statistics
 
 ## 图示
 
-![]($-20221218-19003931.png)
+![](/uploads/projects/ue-bluprint/20221218-19003931.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Static Mesh: Static Mesh Object Reference. Mesh to count.
 
-Box: Box Structure. Box to overlap.  
+Box: Box Structure. Box to overlap.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21155414.png)
+![](/uploads/projects/ue-bluprint/20221218-21155414.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 项目。对象参考。
 
-扩展项目：布尔值。  
+扩展项目：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Attempts to expand/collapse the given item (only relevant if the item has children)
 
@@ -28,7 +30,7 @@ Target is Tree View
 
 ## 图示
 
-![]($-20221218-21155414.png)
+![](/uploads/projects/ue-bluprint/20221218-21155414.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Tree View Object Reference.
 
 Item: Object Reference.
 
-Expand Item: Boolean.  
+Expand Item: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

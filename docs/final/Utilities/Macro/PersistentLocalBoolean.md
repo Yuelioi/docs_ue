@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-14264997.png)
+![](/uploads/projects/ue-bluprint/20221218-14264997.png)
 
 ## Inputs
 
@@ -12,15 +12,16 @@
 
 变量。布尔值。
 
+<hr>
+
 Local temporary Boolean variable, which is serialized in save games
 
 ## 图示
 
-![]($-20221218-14264997.png)
+![](/uploads/projects/ue-bluprint/20221218-14264997.png)
 
 ## Inputs
 
 ## Outputs
 
 Variable: Boolean.
-

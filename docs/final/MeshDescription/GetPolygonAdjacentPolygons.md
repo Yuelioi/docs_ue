@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20035745.png)
+![](/uploads/projects/ue-bluprint/20221218-20035745.png)
 
 ## Inputs
 
 目标。网格描述 基本对象参考。
 
-多边形ID：多边形ID结构。  
+多边形 ID：多边形 ID 结构。
 
 ## Outputs
 
-Out Polygon IDs。多边形ID结构的数组。
+Out Polygon IDs。多边形 ID 结构的数组。
+
+<hr>
 
 Populates the passed array with adjacent polygons
 
@@ -24,15 +26,14 @@ Target is Mesh Description Base
 
 ## 图示
 
-![]($-20221218-20035745.png)
+![](/uploads/projects/ue-bluprint/20221218-20035745.png)
 
 ## Inputs
 
 Target: Mesh Description Base Object Reference.
 
-Polygon ID: Polygon ID Structure.  
+Polygon ID: Polygon ID Structure.
 
 ## Outputs
 
 Out Polygon IDs: Array of Polygon ID Structures.
-

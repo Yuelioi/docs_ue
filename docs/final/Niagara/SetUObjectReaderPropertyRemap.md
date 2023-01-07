@@ -6,23 +6,25 @@
 
 ## 图示
 
-![]($-20221218-20142339.png)
+![](/uploads/projects/ue-bluprint/20221218-20142339.png)
 
 ## Inputs
 
 在。执行。
 
-Niagara组件。Niagara Particle System Component Object Reference.
+Niagara 组件。Niagara Particle System Component Object Reference.
 
 用户参数名称：名称。
 
 图表名称：名称。
 
-重订名称：名称。  
+重订名称：名称。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Remaps a property reader, where the
 
@@ -30,7 +32,7 @@ Target is Object Reader
 
 ## 图示
 
-![]($-20221218-20142339.png)
+![](/uploads/projects/ue-bluprint/20221218-20142339.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ User Parameter Name: Name.
 
 Graph Name: Name.
 
-Remap Name: Name.  
+Remap Name: Name.
 
 ## Outputs
 
 Out: Exec.
-

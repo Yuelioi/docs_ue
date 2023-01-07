@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14245550.png)
+![](/uploads/projects/ue-bluprint/20221218-14245550.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETravelFailure 枚举。 
+选择。ETravelFailure 枚举。
 
 ## Outputs
 
@@ -18,7 +18,7 @@
 
 加载地图失败。Exec.
 
-无效的URL。Exec.
+无效的 URL。Exec.
 
 包裹缺失。Exec.
 
@@ -38,17 +38,19 @@
 
 客户端旅行失败。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14245550.png)
+![](/uploads/projects/ue-bluprint/20221218-14245550.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETravelFailure Enum.  
+Selection: ETravelFailure Enum.
 
 ## Outputs
 
@@ -75,4 +77,3 @@ Cloud Save Failure: Exec.
 Server Travel Failure: Exec.
 
 Client Travel Failure: Exec.
-

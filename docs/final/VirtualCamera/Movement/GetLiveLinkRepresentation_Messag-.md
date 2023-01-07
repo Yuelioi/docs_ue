@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21260723.png)
+![](/uploads/projects/ue-bluprint/20221218-21260723.png)
 
 ## Inputs
 
 在。执行。
 
-目标。对象参考。  
+目标。对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。活体链接主题表征结构。获取实时链接表征。
 
+<hr>
+
 Get Live Link Representation
 
 Target is Virtual Camera Controller
 
 ## 图示
 
-![]($-20221218-21260723.png)
+![](/uploads/projects/ue-bluprint/20221218-21260723.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Object Reference.  
+Target: Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Live Link Subject Representation Structure. Get Live Link Representation.
-

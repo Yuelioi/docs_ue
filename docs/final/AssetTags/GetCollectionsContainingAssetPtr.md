@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18013938.png)
+![](/uploads/projects/ue-bluprint/20221218-18013938.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。资产标签子系统对象参考。
 
-资产属性。对象参考。资产要测试。 
+资产属性。对象参考。资产要测试。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。名称的数组。包含资产的集合的名称。
 
+<hr>
+
 Get the names of the collections that contain the given asset.
 
 Target is Asset Tags Subsystem
 
 ## 图示
 
-![]($-20221218-18013938.png)
+![](/uploads/projects/ue-bluprint/20221218-18013938.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Asset Tags Subsystem Object Reference.
 
-Asset Ptr: Object Reference. Asset to test..  
+Asset Ptr: Object Reference. Asset to test..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Array of Names. Names of the collections that contain the asset..
-

@@ -6,33 +6,35 @@
 
 ## 图示
 
-![]($-20221218-18080519.png)
+![](/uploads/projects/ue-bluprint/20221218-18080519.png)
 
 ## Inputs
 
 在。Exec.
 
-目标。Sound Submix对象参考。
+目标。Sound Submix 对象参考。
 
 乐队设置中。阵列中的声音子混音频带分析设置结构。要分析的频带和它们的包络设置。
 
 On Submix Spectral Analysis BP: 委托（通过参考）。当新的频谱数据可用时触发的事件。
 
-更新率。Float（单精度）。从光谱分析器获取数据并广播事件的频率。最大是每秒30次。
+更新率。Float（单精度）。从光谱分析器获取数据并广播事件的频率。最大是每秒 30 次。
 
 分贝噪声底线。Float（单精度）。当使用分贝频谱类型时，将分贝噪声底线视为静音。
 
-做正常化。布尔值。如果为真，输出频段值将在0和1之间归一。
+做正常化。布尔值。如果为真，输出频段值将在 0 和 1 之间归一。
 
 做到自动范围。布尔值。如果是真的，输出频段的值将自动调整到音频中的最小和最大值。输出波段值将在零和一之间被归一化。
 
-自动范围攻击时间。Float（单精度）。范围扩大到较大范围的90%所需的时间（以秒为单位）。
+自动范围攻击时间。Float（单精度）。范围扩大到较大范围的 90%所需的时间（以秒为单位）。
 
-自动范围释放时间。Float（单精度）。范围缩小到小范围的90%所需的时间（以秒为单位）。 
+自动范围释放时间。Float（单精度）。范围缩小到小范围的 90%所需的时间（以秒为单位）。
 
 ## Outputs
 
 出来。执行。
+
+<hr>
 
 Adds a spectral analysis delegate to receive notifications when this submix has spectrum analysis enabled.
 
@@ -40,7 +42,7 @@ Target is Sound Submix
 
 ## 图示
 
-![]($-20221218-18080519.png)
+![](/uploads/projects/ue-bluprint/20221218-18080519.png)
 
 ## Inputs
 
@@ -62,9 +64,8 @@ Do Auto Range: Boolean. If true, output band values will have their ranges autom
 
 Auto Range Attack Time: Float (single-precision). The time (in seconds) it takes for the range to expand to 90% of a larger range..
 
-Auto Range Release Time: Float (single-precision). The time (in seconds) it takes for the range to shrink to 90% of a smaller range..  
+Auto Range Release Time: Float (single-precision). The time (in seconds) it takes for the range to shrink to 90% of a smaller range..
 
 ## Outputs
 
 Out: Exec.
-

@@ -1,12 +1,12 @@
 # SetTabEnabled
 
-设置与给定ID相关的标签是否被启用/禁用。
+设置与给定 ID 相关的标签是否被启用/禁用。
 
 目标是普通标签列表小工具基础
 
 ## 图示
 
-![]($-20221218-21092556.png)
+![](/uploads/projects/ue-bluprint/20221218-21092556.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标。普通标签列表小工具基础对象参考。
 
-标签名称ID。名称。
+标签名称 ID。名称。
 
-启用。布尔值。  
+启用。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets whether the tab associated with the given ID is enabled/disabled
 
@@ -28,7 +30,7 @@ Target is Common Tab List Widget Base
 
 ## 图示
 
-![]($-20221218-21092556.png)
+![](/uploads/projects/ue-bluprint/20221218-21092556.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Common Tab List Widget Base Object Reference.
 
 Tab Name ID: Name.
 
-Enable: Boolean.  
+Enable: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

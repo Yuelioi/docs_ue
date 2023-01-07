@@ -1,12 +1,12 @@
 # SendAIMessage
 
-发送AIM消息
+发送 AIM 消息
 
-目标是AIBlueprint Helper Library
+目标是 AIBlueprint Helper Library
 
 ## 图示
 
-![]($-20221218-17483353.png)
+![](/uploads/projects/ue-bluprint/20221218-17483353.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 消息来源。对象参考。
 
-成功。Boolean（布尔）。 
+成功。Boolean（布尔）。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Send AIMessage
 
@@ -30,7 +32,7 @@ Target is AIBlueprint Helper Library
 
 ## 图示
 
-![]($-20221218-17483353.png)
+![](/uploads/projects/ue-bluprint/20221218-17483353.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Message: Name.
 
 Message Source: Object Reference.
 
-Success: Boolean.  
+Success: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

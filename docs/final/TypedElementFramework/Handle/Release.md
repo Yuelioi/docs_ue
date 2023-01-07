@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21161702.png)
+![](/uploads/projects/ue-bluprint/20221218-21161702.png)
 
 ## Inputs
 
 在。执行。
 
-元素处理。脚本类型的元素句柄结构（通过参考）。  
+元素处理。脚本类型的元素句柄结构（通过参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Release this handle and set it back to an empty state.
 
@@ -24,15 +26,14 @@ Target is Typed Element Handle Library
 
 ## 图示
 
-![]($-20221218-21161702.png)
+![](/uploads/projects/ue-bluprint/20221218-21161702.png)
 
 ## Inputs
 
 In: Exec.
 
-Element Handle: Script Typed Element Handle Structure (by ref).  
+Element Handle: Script Typed Element Handle Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

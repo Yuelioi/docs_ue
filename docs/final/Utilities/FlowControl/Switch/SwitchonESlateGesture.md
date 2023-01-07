@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14232962.png)
+![](/uploads/projects/ue-bluprint/20221218-14232962.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESlateGesture Enum.  
+选择。ESlateGesture Enum.
 
 ## Outputs
 
@@ -26,17 +26,19 @@
 
 长按。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14232962.png)
+![](/uploads/projects/ue-bluprint/20221218-14232962.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESlateGesture Enum.  
+Selection: ESlateGesture Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Swipe: Exec.
 Rotate: Exec.
 
 Long Press: Exec.
-

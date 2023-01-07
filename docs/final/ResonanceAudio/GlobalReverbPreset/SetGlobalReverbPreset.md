@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20404973.png)
+![](/uploads/projects/ue-bluprint/20221218-20404973.png)
 
 ## Inputs
 
 在。执行。
 
-在预设中。共振音频混响插件预置对象参考。  
+在预设中。共振音频混响插件预置对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 This function overrides the Global Reverb Preset for Resonance Audio
 
@@ -24,15 +26,14 @@ Target is Resonance Audio Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-20404973.png)
+![](/uploads/projects/ue-bluprint/20221218-20404973.png)
 
 ## Inputs
 
 In: Exec.
 
-In Preset: Resonance Audio Reverb Plugin Preset Object Reference.  
+In Preset: Resonance Audio Reverb Plugin Preset Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

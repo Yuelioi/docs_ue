@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18032125.png)
+![](/uploads/projects/ue-bluprint/20221218-18032125.png)
 
 ## Inputs
 
 在。执行。
 
-目标。音频组件对象参考。 
+目标。音频组件对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Stop an audio component's sound, issue any delegates if needed
 
@@ -24,15 +26,14 @@ Target is Audio Component
 
 ## 图示
 
-![]($-20221218-18032125.png)
+![](/uploads/projects/ue-bluprint/20221218-18032125.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Audio Component Object Reference.  
+Target: Audio Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

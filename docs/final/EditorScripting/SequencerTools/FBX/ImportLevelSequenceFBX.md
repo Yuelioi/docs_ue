@@ -1,26 +1,22 @@
 # ImportLevelSequenceFBX
 
-  * * @InWorld 世界将被导入到
+- - @InWorld 世界将被导入到
 
-  * @InSequence 要导入的InSequence
+- @InSequence 要导入的 InSequence
 
-  * @InBindings 要导入的InBindings
+- @InBindings 要导入的 InBindings
 
-  * @InImportFBXSettings 控制导入的设置。
+- @InImportFBXSettings 控制导入的设置。
 
-  * @InImportFileName 要导入的fbx文件的路径
+- @InImportFileName 要导入的 fbx 文件的路径
 
-  * @InPlayer 播放器将被绑定到
+- @InPlayer 播放器将被绑定到
 
-
-
-
-
-目标是Sequencer Tools功能库
+目标是 Sequencer Tools 功能库
 
 ## 图示
 
-![]($-20221218-18534752.png)
+![](/uploads/projects/ue-bluprint/20221218-18534752.png)
 
 ## Inputs
 
@@ -32,7 +28,7 @@
 
 在绑定中。序列器绑定代理结构的阵列。
 
-在导入 FBXSettings。电影场景用户导入FBXSettings对象参考。
+在导入 FBXSettings。电影场景用户导入 FBXSettings 对象参考。
 
 在导入文件名：字符串。
 
@@ -40,28 +36,27 @@
 
 出：执行。
 
-返回值。布尔值。@InWorld 要导入的世界。@InSequence 要导入的InSequence。@InBindings 要导入的InBindings。@InImportFBXSettings 用于控制导入的设置。@InImportFileName 要导入的fbx文件的路径。@InPlayer 要绑定的播放器。
-  *   * @InWorld World to import to
+返回值。布尔值。@InWorld 要导入的世界。@InSequence 要导入的 InSequence。@InBindings 要导入的 InBindings。@InImportFBXSettings 用于控制导入的设置。@InImportFileName 要导入的 fbx 文件的路径。@InPlayer 要绑定的播放器。
 
-  * @InSequence InSequence to import
+<hr>
 
-  * @InBindings InBindings to import
+- - @InWorld World to import to
 
-  * @InImportFBXSettings Settings to control import.
+- @InSequence InSequence to import
 
-  * @InImportFileName Path to fbx file to import from
+- @InBindings InBindings to import
 
-  * @InPlayer Player to bind to
+- @InImportFBXSettings Settings to control import.
 
+- @InImportFileName Path to fbx file to import from
 
-
-
+- @InPlayer Player to bind to
 
 Target is Sequencer Tools Function Library
 
 ## 图示
 
-![]($-20221218-18534752.png)
+![](/uploads/projects/ue-bluprint/20221218-18534752.png)
 
 ## Inputs
 
@@ -75,11 +70,10 @@ In Bindings: Array of Sequencer Binding Proxy Structures.
 
 In Import FBXSettings: Movie Scene User Import FBXSettings Object Reference.
 
-In Import Filename: String.  
+In Import Filename: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. @InWorld World to import to: @InSequence InSequence to import: @InBindings InBindings to import: @InImportFBXSettings Settings to control import.: @InImportFileName Path to fbx file to import from: @InPlayer Player to bind to.
-

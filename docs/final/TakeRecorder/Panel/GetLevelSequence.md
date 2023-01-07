@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21102613.png)
+![](/uploads/projects/ue-bluprint/20221218-21102613.png)
 
 ## Inputs
 
-目标。采取记录仪面板对象参考。  
+目标。采取记录仪面板对象参考。
 
 ## Outputs
 
 返回值。水平序列对象参考。访问这个取材的水平序列。
+
+<hr>
 
 Access the level sequence for this take
 
@@ -22,13 +24,12 @@ Target is Take Recorder Panel
 
 ## 图示
 
-![]($-20221218-21102613.png)
+![](/uploads/projects/ue-bluprint/20221218-21102613.png)
 
 ## Inputs
 
-Target: Take Recorder Panel Object Reference.  
+Target: Take Recorder Panel Object Reference.
 
 ## Outputs
 
 Return Value: Level Sequence Object Reference. Access the level sequence for this take.
-

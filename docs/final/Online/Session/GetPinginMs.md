@@ -1,20 +1,22 @@
 # GetPinginMs
 
-在Ms中获取Ping
+在 Ms 中获取 Ping
 
 目标是查找会话回调代理
 
 ## 图示
 
-![]($-20221218-20163526.png)
+![](/uploads/projects/ue-bluprint/20221218-20163526.png)
 
 ## Inputs
 
-结果。蓝图会议结果结构（按参考）。  
+结果。蓝图会议结果结构（按参考）。
 
 ## Outputs
 
-返回值。整数。以Ms.为单位获取Ping。
+返回值。整数。以 Ms.为单位获取 Ping。
+
+<hr>
 
 Get Ping in Ms
 
@@ -22,13 +24,12 @@ Target is Find Sessions Callback Proxy
 
 ## 图示
 
-![]($-20221218-20163526.png)
+![](/uploads/projects/ue-bluprint/20221218-20163526.png)
 
 ## Inputs
 
-Result: Blueprint Session Result Structure (by ref).  
+Result: Blueprint Session Result Structure (by ref).
 
 ## Outputs
 
 Return Value: Integer. Get Ping in Ms.
-

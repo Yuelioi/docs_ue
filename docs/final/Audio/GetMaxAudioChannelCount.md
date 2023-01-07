@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-18045444.png)
+![](/uploads/projects/ue-bluprint/20221218-18045444.png)
 
 ## Inputs
 
-在。执行：执行。 
+在。执行：执行。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 返回值。整数。检索音频引擎当前使用的最大语音数。
 
+<hr>
+
 Retrieves the max voice count currently used by the audio engine.
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18045444.png)
+![](/uploads/projects/ue-bluprint/20221218-18045444.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. Retrieves the max voice count currently used by the audio engine..
-

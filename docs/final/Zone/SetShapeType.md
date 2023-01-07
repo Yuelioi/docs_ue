@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21390017.png)
+![](/uploads/projects/ue-bluprint/20221218-21390017.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。区域形状组件对象参考。
 
-类型。FZoneShapeType枚举。新的形状类型。
+类型。FZoneShapeType 枚举。新的形状类型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets shape type.
 
@@ -26,7 +28,7 @@ Target is Zone Shape Component
 
 ## 图示
 
-![]($-20221218-21390017.png)
+![](/uploads/projects/ue-bluprint/20221218-21390017.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Zone Shape Component Object Reference.
 
-Type: FZoneShapeType Enum. New shape type..  
+Type: FZoneShapeType Enum. New shape type..
 
 ## Outputs
 
 Out: Exec.
-

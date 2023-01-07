@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18100305.png)
+![](/uploads/projects/ue-bluprint/20221218-18100305.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 名称。字符串。
 
-选项。自动化截图选项结构（通过参考）。 
+选项。自动化截图选项结构（通过参考）。
 
 ## Outputs
 
 已完成。执行。
+
+<hr>
 
 Take Automation Screenshot Of UI
 
@@ -26,7 +28,7 @@ Target is Automation Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-18100305.png)
+![](/uploads/projects/ue-bluprint/20221218-18100305.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Name: String.
 
-Options: Automation Screenshot Options Structure (by ref).  
+Options: Automation Screenshot Options Structure (by ref).
 
 ## Outputs
 
 Completed: Exec.
-

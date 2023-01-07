@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18260586.png)
+![](/uploads/projects/ue-bluprint/20221218-18260586.png)
 
 ## Inputs
 
-目标。骨骼网组件对象参考。 
+目标。骨骼网组件对象参考。
 
 ## Outputs
 
 返回值。布尔值。获取允许刚体动画节点。
+
+<hr>
 
 Get Allow Rigid Body Anim Node
 
@@ -22,13 +24,12 @@ Target is Skeletal Mesh Component
 
 ## 图示
 
-![]($-20221218-18260586.png)
+![](/uploads/projects/ue-bluprint/20221218-18260586.png)
 
 ## Inputs
 
-Target: Skeletal Mesh Component Object Reference.  
+Target: Skeletal Mesh Component Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Get Allow Rigid Body Anim Node.
-

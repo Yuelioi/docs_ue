@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-18431275.png)
+![](/uploads/projects/ue-bluprint/20221218-18431275.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。布尔值。测试参数。
 
+<hr>
+
 Test Parameters
 
 Target is Direct Link Test Library
 
 ## 图示
 
-![]($-20221218-18431275.png)
+![](/uploads/projects/ue-bluprint/20221218-18431275.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Test Parameters.
-

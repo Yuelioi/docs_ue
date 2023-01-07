@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19285059.png)
+![](/uploads/projects/ue-bluprint/20221218-19285059.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 新钥匙。钥匙结构。
 
-选项。修改上下文选项结构（通过参考）。  
+选项。修改上下文选项结构（通过参考）。
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 返回值。整数。被替换的映射的数量。
 
+<hr>
+
 Replace any currently applied mappings to this key mapping with the given new one.. Requests a rebuild of the player mappings.
 
 Target is Enhanced Input Subsystem Interface
 
 ## 图示
 
-![]($-20221218-19285059.png)
+![](/uploads/projects/ue-bluprint/20221218-19285059.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Mapping Name: Name.
 
 New Key: Key Structure.
 
-Options: Modify Context Options Structure (by ref).  
+Options: Modify Context Options Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. The number of mappings that have been replaced.
-

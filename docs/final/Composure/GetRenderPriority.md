@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18292170.png)
+![](/uploads/projects/ue-bluprint/20221218-18292170.png)
 
 ## Inputs
 
-目标。空的Comp Shot对象参考。 
+目标。空的 Comp Shot 对象参考。
 
 ## Outputs
 
 返回值。整数。获取渲染优先权。
+
+<hr>
 
 Get Render Priority
 
@@ -22,13 +24,12 @@ Target is Empty Comp Shot
 
 ## 图示
 
-![]($-20221218-18292170.png)
+![](/uploads/projects/ue-bluprint/20221218-18292170.png)
 
 ## Inputs
 
-Target: Empty Comp Shot Object Reference.  
+Target: Empty Comp Shot Object Reference.
 
 ## Outputs
 
 Return Value: Integer. Get Render Priority.
-

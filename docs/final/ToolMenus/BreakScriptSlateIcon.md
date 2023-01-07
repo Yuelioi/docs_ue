@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-21133083.png)
+![](/uploads/projects/ue-bluprint/20221218-21133083.png)
 
 ## Inputs
 
-在价值。脚本石板图标结构（由参考文献）。  
+在价值。脚本石板图标结构（由参考文献）。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 小风格名称：名称。
 
+<hr>
+
 Break Script Slate Icon
 
 Target is Tool Menu Entry Extensions
 
 ## 图示
 
-![]($-20221218-21133083.png)
+![](/uploads/projects/ue-bluprint/20221218-21133083.png)
 
 ## Inputs
 
-In Value: Script Slate Icon Structure (by ref).  
+In Value: Script Slate Icon Structure (by ref).
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Style Set Name: Name.
 Style Name: Name.
 
 Small Style Name: Name.
-

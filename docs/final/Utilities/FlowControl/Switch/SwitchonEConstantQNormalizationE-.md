@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14175021.png)
+![](/uploads/projects/ue-bluprint/20221218-14175021.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EConstantQNormalizationEnum枚举。 
+选择。EConstantQNormalizationEnum 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 平等的振幅。幅度相等: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14175021.png)
+![](/uploads/projects/ue-bluprint/20221218-14175021.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EConstantQNormalizationEnum Enum.  
+Selection: EConstantQNormalizationEnum Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Equal Euclidean Norm: Exec.
 Equal Energy: Exec.
 
 Equal Amplitude: Exec.
-

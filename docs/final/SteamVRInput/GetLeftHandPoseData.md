@@ -2,15 +2,15 @@
 
 检索左手的姿势信息--位置、方向和速度
 
-目标是Steam VRInput设备功能库
+目标是 Steam VRInput 设备功能库
 
 ## 图示
 
-![]($-20221218-21042873.png)
+![](/uploads/projects/ue-bluprint/20221218-21042873.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -24,17 +24,19 @@ In: Exec.
 
 速度。矢量。
 
+<hr>
+
 Retrieve the left hand pose information - position, orientation and velocities
 
 Target is Steam VRInput Device Function Library
 
 ## 图示
 
-![]($-20221218-21042873.png)
+![](/uploads/projects/ue-bluprint/20221218-21042873.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Orientation: Rotator.
 Angular Velocity: Vector.
 
 Velocity: Vector.
-

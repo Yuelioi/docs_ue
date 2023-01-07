@@ -1,10 +1,10 @@
 # DebugKeySteamBackLeft
 
-当按下或释放Steam Back Left键时的事件。
+当按下或释放 Steam Back Left 键时的事件。
 
 ## 图示
 
-![]($-20221218-19214611.png)
+![](/uploads/projects/ue-bluprint/20221218-19214611.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 行动值。输入行动值结构。
 
+<hr>
+
 Events for when the Steam Back Left key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19214611.png)
+![](/uploads/projects/ue-bluprint/20221218-19214611.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

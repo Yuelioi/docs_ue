@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14185430.png)
+![](/uploads/projects/ue-bluprint/20221218-14185430.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFBXImportContentType Enum.  
+选择。EFBXImportContentType Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Geometry And Skinning Weights..: Exec.
 
 仅限蒙皮权重。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14185430.png)
+![](/uploads/projects/ue-bluprint/20221218-14185430.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFBXImportContentType Enum.  
+Selection: EFBXImportContentType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Geometry And Skinning Weights.: Exec.
 Geometry Only: Exec.
 
 Skinning Weights Only: Exec.
-

@@ -6,13 +6,15 @@
 
 ## 图示
 
-![]($-20221218-19234471.png)
+![](/uploads/projects/ue-bluprint/20221218-19234471.png)
 
 ## Inputs
 
 ## Outputs
 
-返回值。名称。特定于当前活动的HMD设备类型的FName。"无 "意味着没有设备，"未知 "意味着一个没有描述的设备。
+返回值。名称。特定于当前活动的 HMD 设备类型的 FName。"无 "意味着没有设备，"未知 "意味着一个没有描述的设备。
+
+<hr>
 
 Returns the name of the device, so scripts can modify their behaviour appropriately
 
@@ -20,11 +22,10 @@ Target is Head Mounted Display Function Library
 
 ## 图示
 
-![]($-20221218-19234471.png)
+![](/uploads/projects/ue-bluprint/20221218-19234471.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Name. FName specific to the currently active HMD device type. "None" implies no device, "Unknown" implies a device with no description..
-

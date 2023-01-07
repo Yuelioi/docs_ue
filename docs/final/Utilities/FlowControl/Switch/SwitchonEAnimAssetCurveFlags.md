@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14160385.png)
+![](/uploads/projects/ue-bluprint/20221218-14160385.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAnimAssetCurveFlags Enum.  
+选择。EAnimAssetCurveFlags Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 Metadata: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14160385.png)
+![](/uploads/projects/ue-bluprint/20221218-14160385.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAnimAssetCurveFlags Enum.  
+Selection: EAnimAssetCurveFlags Enum.
 
 ## Outputs
 
 Editable: Exec.
 
 Metadata: Exec.
-

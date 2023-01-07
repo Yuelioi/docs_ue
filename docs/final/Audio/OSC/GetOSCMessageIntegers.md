@@ -1,18 +1,18 @@
 # GetOSCMessageIntegers
 
-按照从OSCMessage接收的顺序返回所有整数值
+按照从 OSCMessage 接收的顺序返回所有整数值
 
-目标是OSCManager
+目标是 OSCManager
 
 ## 图示
 
-![]($-20221218-18055091.png)
+![](/uploads/projects/ue-bluprint/20221218-18055091.png)
 
 ## Inputs
 
 在。执行。
 
-消息。OSCMessage结构（通过引用）。 
+消息。OSCMessage 结构（通过引用）。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 值。整数的数组。
 
+<hr>
+
 Returns all integer values in order of received from OSCMessage
 
 Target is OSCManager
 
 ## 图示
 
-![]($-20221218-18055091.png)
+![](/uploads/projects/ue-bluprint/20221218-18055091.png)
 
 ## Inputs
 
 In: Exec.
 
-Message: OSCMessage Structure (by ref).  
+Message: OSCMessage Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Values: Array of Integers.
-

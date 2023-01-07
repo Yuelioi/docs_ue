@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21060003.png)
+![](/uploads/projects/ue-bluprint/20221218-21060003.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 新的场景根。子对象数据处理结构（通过引用）。
 
-BPContext。蓝图对象参考。  
+BPContext。蓝图对象参考。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ BPContext。蓝图对象参考。
 
 返回值。布尔值。制作新的场景根。
 
+<hr>
+
 Make New Scene Root
 
 Target is Subobject Data Subsystem
 
 ## 图示
 
-![]($-20221218-21060003.png)
+![](/uploads/projects/ue-bluprint/20221218-21060003.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Context: Subobject Data Handle Structure (by ref).
 
 New Scene Root: Subobject Data Handle Structure (by ref).
 
-BPContext: Blueprint Object Reference.  
+BPContext: Blueprint Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Make New Scene Root.
-

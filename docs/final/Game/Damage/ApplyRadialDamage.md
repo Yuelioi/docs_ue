@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19052828.png)
+![](/uploads/projects/ue-bluprint/20221218-19052828.png)
 
 ## Inputs
 
@@ -28,7 +28,7 @@
 
 造成全面伤害。布尔型。
 
-损害预防通道。ECollisionChannel Enum。如果原点和受害者之间有什么东西阻挡了这个通道上的痕迹，就不会对受害者施加伤害。  
+损害预防通道。ECollisionChannel Enum。如果原点和受害者之间有什么东西阻挡了这个通道上的痕迹，就不会对受害者施加伤害。
 
 ## Outputs
 
@@ -36,13 +36,15 @@
 
 返回值。布尔值。如果至少有一个演员受到了伤害，则为真。
 
+<hr>
+
 Hurt locally authoritative actors within the radius. Will only hit components that block the Visibility channel.
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-19052828.png)
+![](/uploads/projects/ue-bluprint/20221218-19052828.png)
 
 ## Inputs
 
@@ -64,11 +66,10 @@ Instigated by Controller: Controller Object Reference. Controller that was respo
 
 Do Full Damage: Boolean.
 
-Damage Prevention Channel: ECollisionChannel Enum. Damage will not be applied to victim if there is something between the origin and the victim which blocks traces on this channel.  
+Damage Prevention Channel: ECollisionChannel Enum. Damage will not be applied to victim if there is something between the origin and the victim which blocks traces on this channel.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if damage was applied to at least one actor..
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18422993.png)
+![](/uploads/projects/ue-bluprint/20221218-18422993.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 演员。Actor Object Reference.
 
-应该被选中。布尔型。  
+应该被选中。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the selection state for the selected actor
 
@@ -28,7 +30,7 @@ Target is Editor Actor Subsystem
 
 ## 图示
 
-![]($-20221218-18422993.png)
+![](/uploads/projects/ue-bluprint/20221218-18422993.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Editor Actor Subsystem Object Reference.
 
 Actor: Actor Object Reference.
 
-Should be Selected: Boolean.  
+Should be Selected: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

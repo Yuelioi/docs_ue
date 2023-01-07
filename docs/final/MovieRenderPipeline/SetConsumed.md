@@ -4,13 +4,13 @@
 
 渲染完成后，作业可以不被占用，以重新启用编辑。
 
-对于C++的实现，覆盖虚拟的void SetConsumed_Implementation() 覆盖 对于Python/BP的实现，覆盖。@unreal.ufunction(override=True). def set_consumed(self, isConsumed):
+对于 C++的实现，覆盖虚拟的 void SetConsumed_Implementation() 覆盖 对于 Python/BP 的实现，覆盖。@unreal.ufunction(override=True). def set_consumed(self, isConsumed):
 
 目标是电影管道执行人工作
 
 ## 图示
 
-![]($-20221218-20095875.png)
+![](/uploads/projects/ue-bluprint/20221218-20095875.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 目标。电影管道执行者工作对象参考。
 
-在消耗的。布尔值。如果作业应该被消耗，并且在用户界面中禁止编辑，则为真。  
+在消耗的。布尔值。如果作业应该被消耗，并且在用户界面中禁止编辑，则为真。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the job to be consumed. A consumed job is disabled in the UI and should not be. submitted for rendering again. This allows jobs to be added to a queue, the queue. submitted to a remote farm (consume the jobs) and then more jobs to be added and. the second submission to the farm won't re-submit the already in-progress jobs.
 
@@ -34,7 +36,7 @@ Target is Movie Pipeline Executor Job
 
 ## 图示
 
-![]($-20221218-20095875.png)
+![](/uploads/projects/ue-bluprint/20221218-20095875.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ In: Exec.
 
 Target: Movie Pipeline Executor Job Object Reference.
 
-In Consumed: Boolean. True if the job should be consumed and disabled for editing in the UI..  
+In Consumed: Boolean. True if the job should be consumed and disabled for editing in the UI..
 
 ## Outputs
 
 Out: Exec.
-

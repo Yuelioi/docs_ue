@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19095815.png)
+![](/uploads/projects/ue-bluprint/20221218-19095815.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@
 
 额外的所需资源。阵列的游戏任务资源类参考。
 
-额外索取的资源。游戏任务资源类参考阵列。  
+额外索取的资源。游戏任务资源类参考阵列。
 
 ## Outputs
 
 出：执行。
 
-返回值。EGameplayTaskRunResult枚举。END IGameplayTaskOwnerInterface。
+返回值。EGameplayTaskRunResult 枚举。END IGameplayTaskOwnerInterface。
+
+<hr>
 
 END IGameplayTaskOwnerInterface
 
@@ -34,7 +36,7 @@ Target is Gameplay Tasks Component
 
 ## 图示
 
-![]($-20221218-19095815.png)
+![](/uploads/projects/ue-bluprint/20221218-19095815.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Priority: Byte.
 
 Additional Required Resources: Array of Gameplay Task Resource Class References.
 
-Additional Claimed Resources: Array of Gameplay Task Resource Class References.  
+Additional Claimed Resources: Array of Gameplay Task Resource Class References.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: EGameplayTaskRunResult Enum. END IGameplayTaskOwnerInterface.
-

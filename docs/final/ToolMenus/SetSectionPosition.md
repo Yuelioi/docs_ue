@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21140472.png)
+![](/uploads/projects/ue-bluprint/20221218-21140472.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 其他科室名称：名称。
 
-位置类型。EToolMenuInsertType枚举。  
+位置类型。EToolMenuInsertType 枚举。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets where to insert a section into a menu when generating relative to other section names.
 
@@ -32,7 +34,7 @@ Target is Tool Menus
 
 ## 图示
 
-![]($-20221218-21140472.png)
+![](/uploads/projects/ue-bluprint/20221218-21140472.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Section Name: Name.
 
 Other Section Name: Name.
 
-Position Type: EToolMenuInsertType Enum.  
+Position Type: EToolMenuInsertType Enum.
 
 ## Outputs
 
 Out: Exec.
-

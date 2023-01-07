@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18004030.png)
+![](/uploads/projects/ue-bluprint/20221218-18004030.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 递归。布尔值。如果为真，所有提供的路径将被递归搜索。
 
-只包括磁盘上的资产。布尔型。 
+只包括磁盘上的资产。布尔型。
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 返回值。布尔值。
 
+<hr>
+
 Gets asset data for all assets in any of the supplied folder paths
 
 Target is Asset Registry
 
 ## 图示
 
-![]($-20221218-18004030.png)
+![](/uploads/projects/ue-bluprint/20221218-18004030.png)
 
 ## Inputs
 
@@ -46,7 +48,7 @@ Package Paths: Array of Names. the paths to query asset data in (eg, /Game/MyFol
 
 Recursive: Boolean. if true, all supplied paths will be searched recursively.
 
-Include Only on Disk Assets: Boolean.  
+Include Only on Disk Assets: Boolean.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Out: Exec.
 Out Asset Data: Array of Asset Data Structures. the list of assets in this path.
 
 Return Value: Boolean.
-

@@ -1,12 +1,12 @@
 # LinearColorSetRGBA
 
-指派单个线性RGBA组件。
+指派单个线性 RGBA 组件。
 
-目标是Kismet数学图书馆
+目标是 Kismet 数学图书馆
 
 ## 图示
 
-![]($-20221218-19474213.png)
+![](/uploads/projects/ue-bluprint/20221218-19474213.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@ G：浮点数（单精度）。
 
 B：浮点数（单精度）。
 
-A：浮点数（单精度）。  
+A：浮点数（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Assign individual linear RGBA components.
 
@@ -32,7 +34,7 @@ Target is Kismet Math Library
 
 ## 图示
 
-![]($-20221218-19474213.png)
+![](/uploads/projects/ue-bluprint/20221218-19474213.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ G: Float (single-precision).
 
 B: Float (single-precision).
 
-A: Float (single-precision).  
+A: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

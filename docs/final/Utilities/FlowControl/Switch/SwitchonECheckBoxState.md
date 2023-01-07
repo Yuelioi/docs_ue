@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14173447.png)
+![](/uploads/projects/ue-bluprint/20221218-14173447.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ECheckBoxState Enum.  
+选择。ECheckBoxState Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 未确定的。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14173447.png)
+![](/uploads/projects/ue-bluprint/20221218-14173447.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ECheckBoxState Enum.  
+Selection: ECheckBoxState Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Unchecked: Exec.
 Checked: Exec.
 
 Undetermined: Exec.
-

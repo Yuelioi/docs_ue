@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20523542.png)
+![](/uploads/projects/ue-bluprint/20221218-20523542.png)
 
 ## Inputs
 
-目标。电影场景参数部分对象参考。  
+目标。电影场景参数部分对象参考。
 
 ## Outputs
 
 参数名称。一组名称。
+
+<hr>
 
 Gets the set of all parameter names used by this section.
 
@@ -22,13 +24,12 @@ Target is Movie Scene Parameter Section
 
 ## 图示
 
-![]($-20221218-20523542.png)
+![](/uploads/projects/ue-bluprint/20221218-20523542.png)
 
 ## Inputs
 
-Target: Movie Scene Parameter Section Object Reference.  
+Target: Movie Scene Parameter Section Object Reference.
 
 ## Outputs
 
 Parameter Names: Set of Names.
-

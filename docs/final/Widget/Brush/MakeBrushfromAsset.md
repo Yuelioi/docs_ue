@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21333695.png)
+![](/uploads/projects/ue-bluprint/20221218-21333695.png)
 
 ## Inputs
 
-画笔资产：石板画笔资产对象参考。  
+画笔资产：石板画笔资产对象参考。
 
 ## Outputs
 
 返回值。石板刷结构。一个新的石板刷，使用资产的刷子。
+
+<hr>
 
 Creates a Slate Brush from a Slate Brush Asset
 
@@ -22,13 +24,12 @@ Target is Widget Blueprint Library
 
 ## 图示
 
-![]($-20221218-21333695.png)
+![](/uploads/projects/ue-bluprint/20221218-21333695.png)
 
 ## Inputs
 
-Brush Asset: Slate Brush Asset Object Reference.  
+Brush Asset: Slate Brush Asset Object Reference.
 
 ## Outputs
 
 Return Value: Slate Brush Structure. A new slate brush using the asset's brush..
-

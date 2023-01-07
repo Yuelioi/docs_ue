@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18234609.png)
+![](/uploads/projects/ue-bluprint/20221218-18234609.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Paper Flipbook Component 对象参考。
 
-新时间。Float（单精度）。 
+新时间。Float（单精度）。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set the new playback position time to use
 
@@ -26,7 +28,7 @@ Target is Paper Flipbook Component
 
 ## 图示
 
-![]($-20221218-18234609.png)
+![](/uploads/projects/ue-bluprint/20221218-18234609.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Paper Flipbook Component Object Reference.
 
-New Time: Float (single-precision).  
+New Time: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

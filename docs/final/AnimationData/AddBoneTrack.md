@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17531492.png)
+![](/uploads/projects/ue-bluprint/20221218-17531492.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 骨骼名称。名称。应添加轨道的骨骼名称。
 
-Should Transact（应该交易）。Boolean（布尔）。是否应该生成任何撤销-重做的更改。 
+Should Transact（应该交易）。Boolean（布尔）。是否应该生成任何撤销-重做的更改。
 
 ## Outputs
 
 输出。执行：执行。
 
-返回值。整数。添加骨骼轨迹的索引，如果添加失败，则为INDEX_NONE。
+返回值。整数。添加骨骼轨迹的索引，如果添加失败，则为 INDEX_NONE。
+
+<hr>
 
 Adds a new bone animation track for the provided name. Broadcasts a EAnimDataModelNotifyType::TrackAdded notify if successful.
 
@@ -30,7 +32,7 @@ Target is Animation Data Controller
 
 ## 图示
 
-![]($-20221218-17531492.png)
+![](/uploads/projects/ue-bluprint/20221218-17531492.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Animation Data Controller Interface.
 
 Bone Name: Name. Bone name for which a track should be added.
 
-Should Transact: Boolean. Whether or not any undo-redo changes should be generated.  
+Should Transact: Boolean. Whether or not any undo-redo changes should be generated.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. The index at which the bone track was added, INDEX_NONE if adding it failed.
-

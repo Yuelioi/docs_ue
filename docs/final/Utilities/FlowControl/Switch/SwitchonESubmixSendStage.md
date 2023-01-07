@@ -4,35 +4,36 @@
 
 ## 图示
 
-![]($-20221218-14240665.png)
+![](/uploads/projects/ue-bluprint/20221218-14240665.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESubmixSendStage Enum.  
+选择。ESubmixSendStage Enum.
 
 ## Outputs
 
 Post Distance Attenuation: Exec.
 
 Pre Distance Attenuation: Exec.
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14240665.png)
+![](/uploads/projects/ue-bluprint/20221218-14240665.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESubmixSendStage Enum.  
+Selection: ESubmixSendStage Enum.
 
 ## Outputs
 
 Post Distance Attenuation: Exec.
 
 Pre Distance Attenuation: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20202408.png)
+![](/uploads/projects/ue-bluprint/20221218-20202408.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 Include Self：布尔值。是否将所提供的主体名称包含在我们的行为列表中（对于一个根有多个孩子的情况，忽略是很有用的）。
 
-清除未找到。布尔值。如果为true，没有给定资料名称的主体将被清除任何现有的物理动画设置。如果是假的，没有给定资料名称的身体将不被触动。  
+清除未找到。布尔值。如果为 true，没有给定资料名称的主体将被清除任何现有的物理动画设置。如果是假的，没有给定资料名称的身体将不被触动。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Applies the physical animation profile to the body given and all bodies below.
 
@@ -32,7 +34,7 @@ Target is Physical Animation Component
 
 ## 图示
 
-![]($-20221218-20202408.png)
+![](/uploads/projects/ue-bluprint/20221218-20202408.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Profile Name: Name. The physical animation profile we'd like to apply. For each 
 
 Include Self: Boolean. Whether to include the provided body name in the list of bodies we act on (useful to ignore for cases where a root has multiple children).
 
-Clear Not Found: Boolean. If true, bodies without the given profile name will have any existing physical animation settings cleared. If false, bodies without the given profile name are left untouched..  
+Clear Not Found: Boolean. If true, bodies without the given profile name will have any existing physical animation settings cleared. If false, bodies without the given profile name are left untouched..
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18092915.png)
+![](/uploads/projects/ue-bluprint/20221218-18092915.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 出现次数。整数。
 
-完全匹配。布尔值。 
+完全匹配。布尔值。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Mute the report of log error and warning matching a pattern during an automated test
 
@@ -28,7 +30,7 @@ Target is Automation Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-18092915.png)
+![](/uploads/projects/ue-bluprint/20221218-18092915.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Expected Pattern String: String.
 
 Occurrences: Integer.
 
-Exact Match: Boolean.  
+Exact Match: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

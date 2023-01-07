@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14233137.png)
+![](/uploads/projects/ue-bluprint/20221218-14233137.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESlateSizeRule Enum.  
+选择。ESlateSizeRule Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 填充：Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14233137.png)
+![](/uploads/projects/ue-bluprint/20221218-14233137.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESlateSizeRule Enum.  
+Selection: ESlateSizeRule Enum.
 
 ## Outputs
 
 Automatic: Exec.
 
 Fill: Exec.
-

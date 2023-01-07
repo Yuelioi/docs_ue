@@ -1,20 +1,20 @@
 # AddHitBox
 
-在hud中添加一个打击箱
+在 hud 中添加一个打击箱
 
-目标是HUD
+目标是 HUD
 
 ## 图示
 
-![]($-20221218-19161115.png)
+![](/uploads/projects/ue-bluprint/20221218-19161115.png)
 
 ## Inputs
 
 在。执行。
 
-目标：HUD对象参考。
+目标：HUD 对象参考。
 
-位置。矢量2D结构。命中箱左上方的坐标。
+位置。矢量 2D 结构。命中箱左上方的坐标。
 
 尺寸。矢量二维结构。撞击箱的尺寸...
 
@@ -22,11 +22,13 @@
 
 消耗输入。布尔型。如果这个点击框被点击了，是否要继续进行点击处理。
 
-优先权。整数。用于分层的盒子的优先级。较大的值被首先考虑。相同的值按照它们被添加的顺序考虑。  
+优先权。整数。用于分层的盒子的优先级。较大的值被首先考虑。相同的值按照它们被添加的顺序考虑。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add a hitbox to the hud
 
@@ -34,7 +36,7 @@ Target is HUD
 
 ## 图示
 
-![]($-20221218-19161115.png)
+![](/uploads/projects/ue-bluprint/20221218-19161115.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ In Name: Name.
 
 Consumes Input: Boolean. Whether click processing should continue if this hit box is clicked..
 
-Priority: Integer. The priority of the box used for layering. Larger values are considered first. Equal values are considered in the order they were added..  
+Priority: Integer. The priority of the box used for layering. Larger values are considered first. Equal values are considered in the order they were added..
 
 ## Outputs
 
 Out: Exec.
-

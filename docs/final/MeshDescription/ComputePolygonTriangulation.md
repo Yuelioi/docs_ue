@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20031273.png)
+![](/uploads/projects/ue-bluprint/20221218-20031273.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。网格描述 基本对象参考。
 
-多边形ID：多边形ID结构。  
+多边形 ID：多边形 ID 结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Generates triangles and internal edges for the given polygon
 
@@ -26,7 +28,7 @@ Target is Mesh Description Base
 
 ## 图示
 
-![]($-20221218-20031273.png)
+![](/uploads/projects/ue-bluprint/20221218-20031273.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Mesh Description Base Object Reference.
 
-Polygon ID: Polygon ID Structure.  
+Polygon ID: Polygon ID Structure.
 
 ## Outputs
 
 Out: Exec.
-

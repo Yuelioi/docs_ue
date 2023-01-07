@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14170291.png)
+![](/uploads/projects/ue-bluprint/20221218-14170291.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAudioDeviceChangedState枚举。 
+选择。EAudioDeviceChangedState 枚举。
 
 ## Outputs
 
@@ -24,17 +24,19 @@
 
 拔掉插头。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14170291.png)
+![](/uploads/projects/ue-bluprint/20221218-14170291.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAudioDeviceChangedState Enum.  
+Selection: EAudioDeviceChangedState Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Disabled: Exec.
 Not Present: Exec.
 
 Unplugged: Exec.
-

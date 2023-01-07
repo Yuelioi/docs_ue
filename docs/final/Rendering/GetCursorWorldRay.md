@@ -2,15 +2,15 @@
 
 获得光标世界雷
 
-目标是Landmass蓝图功能库
+目标是 Landmass 蓝图功能库
 
 ## 图示
 
-![]($-20221218-20362923.png)
+![](/uploads/projects/ue-bluprint/20221218-20362923.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -24,17 +24,19 @@ In: Exec.
 
 返回值。布尔值。获取光标世界射线。
 
+<hr>
+
 Get Cursor World Ray
 
 Target is Landmass Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-20362923.png)
+![](/uploads/projects/ue-bluprint/20221218-20362923.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Ray Origin: Vector.
 Ray Direction: Vector.
 
 Return Value: Boolean. Get Cursor World Ray.
-

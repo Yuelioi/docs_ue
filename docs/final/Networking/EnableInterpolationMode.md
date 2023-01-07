@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20113215.png)
+![](/uploads/projects/ue-bluprint/20221218-20113215.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。参数化运动组件对象参考。
 
-值。布尔值。  
+值。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Enable Interpolation Mode
 
@@ -26,7 +28,7 @@ Target is Parametric Movement Component
 
 ## 图示
 
-![]($-20221218-20113215.png)
+![](/uploads/projects/ue-bluprint/20221218-20113215.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Parametric Movement Component Object Reference.
 
-Value: Boolean.  
+Value: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

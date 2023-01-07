@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19122674.png)
+![](/uploads/projects/ue-bluprint/20221218-19122674.png)
 
 ## Inputs
 
@@ -14,11 +14,11 @@
 
 目标网格。动态网格对象参考。
 
-三角形ID：整数。
+三角形 ID：整数。
 
 规范。几何脚本 三角形结构。
 
-推迟更改通知。布尔值。  
+推迟更改通知。布尔值。
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 目标网格。动态网格对象参考。设置网格三角形法线。
 
+<hr>
+
 Set Mesh Triangle Normals
 
 Target is Geometry Script Library Mesh Normals Functions
 
 ## 图示
 
-![]($-20221218-19122674.png)
+![](/uploads/projects/ue-bluprint/20221218-19122674.png)
 
 ## Inputs
 
@@ -46,7 +48,7 @@ Triangle ID: Integer.
 
 Normals: Geometry Script Triangle Structure.
 
-Defer Change Notifications: Boolean.  
+Defer Change Notifications: Boolean.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Out: Exec.
 Is Valid Triangle: Boolean.
 
 Target Mesh: Dynamic Mesh Object Reference. Set Mesh Triangle Normals.
-

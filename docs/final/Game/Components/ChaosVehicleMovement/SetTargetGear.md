@@ -1,12 +1,12 @@
 # SetTargetGear
 
-设置用户输入的档位（-1倒档，0空档，1+前进）。
+设置用户输入的档位（-1 倒档，0 空档，1+前进）。
 
 目标是混沌车辆运动组件
 
 ## 图示
 
-![]($-20221218-19041098.png)
+![](/uploads/projects/ue-bluprint/20221218-19041098.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 齿轮数。整数。
 
-即时。布尔型。  
+即时。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the user input for gear (-1 reverse, 0 neutral, 1+ forward)
 
@@ -28,7 +30,7 @@ Target is Chaos Vehicle Movement Component
 
 ## 图示
 
-![]($-20221218-19041098.png)
+![](/uploads/projects/ue-bluprint/20221218-19041098.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Chaos Vehicle Movement Component Object Reference.
 
 Gear Num: Integer.
 
-Immediate: Boolean.  
+Immediate: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

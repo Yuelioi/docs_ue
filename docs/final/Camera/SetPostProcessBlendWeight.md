@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18132993.png)
+![](/uploads/projects/ue-bluprint/20221218-18132993.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。相机组件对象参考。
 
-在后期处理中混合重量。Float（单精度）。 
+在后期处理中混合重量。Float（单精度）。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Post Process Blend Weight
 
@@ -26,7 +28,7 @@ Target is Camera Component
 
 ## 图示
 
-![]($-20221218-18132993.png)
+![](/uploads/projects/ue-bluprint/20221218-18132993.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Camera Component Object Reference.
 
-In Post Process Blend Weight: Float (single-precision).  
+In Post Process Blend Weight: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

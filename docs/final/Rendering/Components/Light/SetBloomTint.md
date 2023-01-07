@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20341423.png)
+![](/uploads/projects/ue-bluprint/20221218-20341423.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。光组件对象参考。
 
-新的价值。颜色结构。  
+新的价值。颜色结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Bloom Tint
 
@@ -26,7 +28,7 @@ Target is Light Component
 
 ## 图示
 
-![]($-20221218-20341423.png)
+![](/uploads/projects/ue-bluprint/20221218-20341423.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Light Component Object Reference.
 
-New Value: Color Structure.  
+New Value: Color Structure.
 
 ## Outputs
 
 Out: Exec.
-

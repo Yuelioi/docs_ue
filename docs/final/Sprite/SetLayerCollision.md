@@ -1,12 +1,12 @@
 # SetLayerCollision
 
-设置一个特定图层的碰撞厚度。注意：这只对拥有自己瓦片图的组件有效（OwnsTileMap返回true），你不能修改独立的瓦片图资产。
+设置一个特定图层的碰撞厚度。注意：这只对拥有自己瓦片图的组件有效（OwnsTileMap 返回 true），你不能修改独立的瓦片图资产。
 
 目标是纸质瓦片地图组件
 
 ## 图示
 
-![]($-20221218-21024657.png)
+![](/uploads/projects/ue-bluprint/20221218-21024657.png)
 
 ## Inputs
 
@@ -26,11 +26,13 @@
 
 自定义偏移。Float（单精度）。
 
-重建碰撞。布尔值。  
+重建碰撞。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the collision thickness for a specific layer. Note: This will only work on components that own their own tile map (OwnsTileMap returns true), you cannot modify standalone tile map assets
 
@@ -38,7 +40,7 @@ Target is Paper Tile Map Component
 
 ## 图示
 
-![]($-20221218-21024657.png)
+![](/uploads/projects/ue-bluprint/20221218-21024657.png)
 
 ## Inputs
 
@@ -58,9 +60,8 @@ Override Offset: Boolean.
 
 Custom Offset: Float (single-precision).
 
-Rebuild Collision: Boolean.  
+Rebuild Collision: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

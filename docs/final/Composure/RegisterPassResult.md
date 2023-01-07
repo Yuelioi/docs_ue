@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18294333.png)
+![](/uploads/projects/ue-bluprint/20221218-18294333.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 通过结果。纹理对象参考。
 
-设置为最新渲染结果。布尔值。 
+设置为最新渲染结果。布尔值。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Register Pass Result
 
@@ -30,7 +32,7 @@ Target is Empty Comp Shot
 
 ## 图示
 
-![]($-20221218-18294333.png)
+![](/uploads/projects/ue-bluprint/20221218-18294333.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Reference Name: Name.
 
 Pass Result: Texture Object Reference.
 
-Set as Latest Render Result: Boolean.  
+Set as Latest Render Result: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

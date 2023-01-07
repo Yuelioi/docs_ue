@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17483807.png)
+![](/uploads/projects/ue-bluprint/20221218-17483807.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@ In Task Owner: Gameplay Task Owner Interface Interface.
 
 优先权。字节。
 
-任务实例名称。名称。 
+任务实例名称。名称。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ In Task Owner: Gameplay Task Owner Interface Interface.
 
 Async Task: Gameplay Task Claim Resource Object Reference.
 
+<hr>
+
 Claim Resource
 
 Target is Gameplay Task Claim Resource
 
 ## 图示
 
-![]($-20221218-17483807.png)
+![](/uploads/projects/ue-bluprint/20221218-17483807.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Resource Class: Gameplay Task Resource Class Reference.
 
 Priority: Byte.
 
-Task Instance Name: Name.  
+Task Instance Name: Name.
 
 ## Outputs
 
 Out: Exec.
 
 Async Task: Gameplay Task Claim Resource Object Reference.
-

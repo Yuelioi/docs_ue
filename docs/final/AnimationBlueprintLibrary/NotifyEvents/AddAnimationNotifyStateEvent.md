@@ -6,7 +6,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17522729.png)
+![](/uploads/projects/ue-bluprint/20221218-17522729.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@ Start Time: Float (single-precision).
 
 Duration: Float (single-precision).
 
-Notify State Class: Anim Notify State Class Reference.  
+Notify State Class: Anim Notify State Class Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Anim Notify State Object Reference. Adds an Animation Notify State Event to Notify track in the given Animation with the given Notify State creation data.
+
+<hr>
 
 Adds an Animation Notify State Event to Notify track in the given Animation with the given Notify State creation data
 
@@ -34,7 +36,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17522729.png)
+![](/uploads/projects/ue-bluprint/20221218-17522729.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Start Time: Float (single-precision).
 
 Duration: Float (single-precision).
 
-Notify State Class: Anim Notify State Class Reference.  
+Notify State Class: Anim Notify State Class Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Anim Notify State Object Reference. Adds an Animation Notify State Event to Notify track in the given Animation with the given Notify State creation data.
-

@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-19105084.png)
+![](/uploads/projects/ue-bluprint/20221218-19105084.png)
 
 ## Inputs
 
 在。执行。
 
-颜色列表。颜色列表结构。  
+颜色列表。颜色列表结构。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 颜色阵列。线性色彩结构的阵列。
 
+<hr>
+
 Convert Color List to Array
 
 Target is Geometry Script Library List Utility Functions
 
 ## 图示
 
-![]($-20221218-19105084.png)
+![](/uploads/projects/ue-bluprint/20221218-19105084.png)
 
 ## Inputs
 
 In: Exec.
 
-Color List: Color List Structure.  
+Color List: Color List Structure.
 
 ## Outputs
 
 Out: Exec.
 
 Color Array: Array of Linear Color Structures.
-

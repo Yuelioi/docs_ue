@@ -2,17 +2,17 @@
 
 获取粒子模块径源道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19025985.png)
+![](/uploads/projects/ue-bluprint/20221218-19025985.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。源对象参考。  
+粒子模块。源对象参考。
 
 ## Outputs
 
@@ -34,19 +34,21 @@ Out Source Offset Defaults。矢量数组。
 
 Out Inherit Rotation:Boolean.
 
+<hr>
+
 Get Particle Module Trail Source Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19025985.png)
+![](/uploads/projects/ue-bluprint/20221218-19025985.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Source Object Reference.  
+Particle Module: Source Object Reference.
 
 ## Outputs
 
@@ -67,4 +69,3 @@ Out Source Offset Defaults: Array of Vectors.
 Out Selection Method: EParticleSourceSelectionMethod Enum.
 
 Out Inherit Rotation: Boolean.
-

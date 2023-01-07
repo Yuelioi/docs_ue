@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19410915.png)
+![](/uploads/projects/ue-bluprint/20221218-19410915.png)
 
 ## Inputs
 
@@ -22,11 +22,13 @@
 
 烘烤区间。框架时间结构（按参考）。
 
-Params:电影场景脚本Params结构（由参考）。  
+Params:电影场景脚本 Params 结构（由参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Bake transform
 
@@ -34,7 +36,7 @@ Target is Level Sequence Editor Subsystem
 
 ## 图示
 
-![]($-20221218-19410915.png)
+![](/uploads/projects/ue-bluprint/20221218-19410915.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Bake Out Time: Frame Time Structure (by ref).
 
 Bake Interval: Frame Time Structure (by ref).
 
-Params: Movie Scene Scripting Params Structure (by ref).  
+Params: Movie Scene Scripting Params Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

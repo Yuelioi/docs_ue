@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21155869.png)
+![](/uploads/projects/ue-bluprint/20221218-21155869.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 教程开始。编辑教程对象参考。
 
-重新启动。布尔值。  
+重新启动。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Begin a tutorial. Note that this will end the current tutorial that is in progress, if any
 
@@ -26,7 +28,7 @@ Target is Editor Tutorial
 
 ## 图示
 
-![]($-20221218-21155869.png)
+![](/uploads/projects/ue-bluprint/20221218-21155869.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Tutorial to Start: Editor Tutorial Object Reference.
 
-Restart: Boolean.  
+Restart: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

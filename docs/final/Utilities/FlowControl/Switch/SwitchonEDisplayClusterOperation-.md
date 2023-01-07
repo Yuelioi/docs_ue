@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14182016.png)
+![](/uploads/projects/ue-bluprint/20221218-14182016.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDisplayClusterOperationMode枚举。 
+选择。EDisplayClusterOperationMode 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Editor: Exec.
 
 禁用。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14182016.png)
+![](/uploads/projects/ue-bluprint/20221218-14182016.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDisplayClusterOperationMode Enum.  
+Selection: EDisplayClusterOperationMode Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Cluster: Exec.
 Editor: Exec.
 
 Disabled: Exec.
-

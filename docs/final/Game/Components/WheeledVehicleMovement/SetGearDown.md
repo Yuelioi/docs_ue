@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19051425.png)
+![](/uploads/projects/ue-bluprint/20221218-19051425.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。轮式车辆运动组件对象参考。
 
-新降档：布尔值。  
+新降档：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the user input for gear down
 
@@ -26,7 +28,7 @@ Target is Wheeled Vehicle Movement Component
 
 ## 图示
 
-![]($-20221218-19051425.png)
+![](/uploads/projects/ue-bluprint/20221218-19051425.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Wheeled Vehicle Movement Component Object Reference.
 
-New Gear Down: Boolean.  
+New Gear Down: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

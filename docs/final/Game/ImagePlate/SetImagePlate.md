@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19063354.png)
+![](/uploads/projects/ue-bluprint/20221218-19063354.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标：图像板组件对象参考。
 
-板块。图像板参数结构。  
+板块。图像板参数结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add an image plate to this actor
 
@@ -26,7 +28,7 @@ Target is Image Plate Component
 
 ## 图示
 
-![]($-20221218-19063354.png)
+![](/uploads/projects/ue-bluprint/20221218-19063354.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Image Plate Component Object Reference.
 
-Plate: Image Plate Parameters Structure.  
+Plate: Image Plate Parameters Structure.
 
 ## Outputs
 
 Out: Exec.
-

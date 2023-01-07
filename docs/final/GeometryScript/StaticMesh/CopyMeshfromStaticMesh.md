@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19133015.png)
+![](/uploads/projects/ue-bluprint/20221218-19133015.png)
 
 ## Inputs
 
@@ -18,9 +18,9 @@
 
 资产选项。Geometry Script Copy Mesh From Asset Options Structure.
 
-请求的LOD：Geometry Script Mesh Read LOD Structure.
+请求的 LOD：Geometry Script Mesh Read LOD Structure.
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -30,13 +30,15 @@
 
 动态网格。动态网格对象参考。从静态网格复制网格。
 
+<hr>
+
 Copy Mesh from Static Mesh
 
 Target is Geometry Script Library Static Mesh Functions
 
 ## 图示
 
-![]($-20221218-19133015.png)
+![](/uploads/projects/ue-bluprint/20221218-19133015.png)
 
 ## Inputs
 
@@ -50,7 +52,7 @@ Asset Options: Geometry Script Copy Mesh From Asset Options Structure.
 
 Requested LOD: Geometry Script Mesh Read LOD Structure.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Failure: Exec.
 Success: Exec.
 
 Dynamic Mesh: Dynamic Mesh Object Reference. Copy Mesh from Static Mesh.
-

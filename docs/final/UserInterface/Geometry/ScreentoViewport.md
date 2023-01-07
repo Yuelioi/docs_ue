@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21215780.png)
+![](/uploads/projects/ue-bluprint/20221218-21215780.png)
 
 ## Inputs
 
-屏幕位置。矢量2D结构。  
+屏幕位置。矢量 2D 结构。
 
 ## Outputs
 
-视口位置。矢量2D结构。
+视口位置。矢量 2D 结构。
+
+<hr>
 
 Translates a screen position in pixels into the local space of the viewport widget.
 
@@ -22,13 +24,12 @@ Target is Slate Blueprint Library
 
 ## 图示
 
-![]($-20221218-21215780.png)
+![](/uploads/projects/ue-bluprint/20221218-21215780.png)
 
 ## Inputs
 
-Screen Position: Vector 2D Structure.  
+Screen Position: Vector 2D Structure.
 
 ## Outputs
 
 Viewport Position: Vector 2D Structure.
-

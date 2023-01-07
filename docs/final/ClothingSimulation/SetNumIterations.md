@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18182486.png)
+![](/uploads/projects/ue-bluprint/20221218-18182486.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。衣服模拟交互器对象参考。
 
-Num Iterations: 整数。 
+Num Iterations: 整数。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set the number of time dependent solver iterations.
 
@@ -26,7 +28,7 @@ Target is Clothing Simulation Interactor
 
 ## 图示
 
-![]($-20221218-18182486.png)
+![](/uploads/projects/ue-bluprint/20221218-18182486.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Clothing Simulation Interactor Object Reference.
 
-Num Iterations: Integer.  
+Num Iterations: Integer.
 
 ## Outputs
 
 Out: Exec.
-

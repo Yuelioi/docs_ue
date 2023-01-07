@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19420020.png)
+![](/uploads/projects/ue-bluprint/20221218-19420020.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 追踪过滤器名称。文本（按参考）。
 
-已启用。布尔值。  
+已启用。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the specified track filter to be on or off
 
@@ -26,7 +28,7 @@ Target is Level Sequence Editor Blueprint Library
 
 ## 图示
 
-![]($-20221218-19420020.png)
+![](/uploads/projects/ue-bluprint/20221218-19420020.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Track Filter Name: Text (by ref).
 
-Enabled: Boolean.  
+Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -1,12 +1,12 @@
 # AssertEqual_Integer
 
-断言两个ints是相等的
+断言两个 ints 是相等的
 
 目标是功能测试
 
 ## 图示
 
-![]($-20221218-17591888.png)
+![](/uploads/projects/ue-bluprint/20221218-17591888.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 预期的。整数。
 
-What：字符串。如果断言失败，在信息中使用的名称（What: expected {Actual} to be Equal To {Expected} for context '' ）。 
+What：字符串。如果断言失败，在信息中使用的名称（What: expected {Actual} to be Equal To {Expected} for context '' ）。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ What：字符串。如果断言失败，在信息中使用的名称（What: expe
 
 返回值。布尔值。
 
+<hr>
+
 Assert that two ints are equal
 
 Target is Functional Test
 
 ## 图示
 
-![]($-20221218-17591888.png)
+![](/uploads/projects/ue-bluprint/20221218-17591888.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Actual: Integer.
 
 Expected: Integer.
 
-What: String. A name to use in the message if the assert fails (What: expected {Actual} to be Equal To {Expected} for context '').  
+What: String. A name to use in the message if the assert fails (What: expected {Actual} to be Equal To {Expected} for context '').
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

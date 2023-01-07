@@ -6,23 +6,25 @@
 
 ## 图示
 
-![]($-20221218-17515079.png)
+![](/uploads/projects/ue-bluprint/20221218-17515079.png)
 
 ## Inputs
 
 在。执行。
 
-动画序列。Anim Sequence对象参考。
+动画序列。Anim Sequence 对象参考。
 
-曲线名称。名称.  
+曲线名称。名称.
 
 ## Outputs
 
 Out: Exec.
 
-时间。Float (single-precision)s数组。
+时间。Float (single-precision)s 数组。
 
 值。矢量数组。
+
+<hr>
 
 Retrieves, a multiple of, Vector Key(s) from the specified Animation Curve inside of the given Animation Sequence
 
@@ -30,7 +32,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17515079.png)
+![](/uploads/projects/ue-bluprint/20221218-17515079.png)
 
 ## Inputs
 
@@ -38,7 +40,7 @@ In: Exec.
 
 Animation Sequence: Anim Sequence Object Reference.
 
-Curve Name: Name.  
+Curve Name: Name.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out: Exec.
 Times: Array of Float (single-precision)s.
 
 Values: Array of Vectors.
-

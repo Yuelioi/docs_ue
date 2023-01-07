@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19112854.png)
+![](/uploads/projects/ue-bluprint/20221218-19112854.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 新位置。向量。
 
-推迟更改通知。布尔值。  
+推迟更改通知。布尔值。
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 目标网格。动态网格对象参考。添加顶点到网格。
 
+<hr>
+
 Add Vertex to Mesh
 
 Target is Geometry Script Library Mesh Basic Edit Functions
 
 ## 图示
 
-![]($-20221218-19112854.png)
+![](/uploads/projects/ue-bluprint/20221218-19112854.png)
 
 ## Inputs
 
@@ -42,7 +44,7 @@ Target Mesh: Dynamic Mesh Object Reference.
 
 New Position: Vector.
 
-Defer Change Notifications: Boolean.  
+Defer Change Notifications: Boolean.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Out: Exec.
 New Vertex Index: Integer.
 
 Target Mesh: Dynamic Mesh Object Reference. Add Vertex to Mesh.
-

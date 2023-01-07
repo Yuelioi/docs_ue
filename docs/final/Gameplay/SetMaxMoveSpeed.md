@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19081112.png)
+![](/uploads/projects/ue-bluprint/20221218-19081112.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。网络预测额外的飞行卒子对象参考。
 
-新的最大移动速度。Float（单精度）。  
+新的最大移动速度。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Max Move Speed
 
@@ -26,7 +28,7 @@ Target is Network Prediction Extras Flying Pawn
 
 ## 图示
 
-![]($-20221218-19081112.png)
+![](/uploads/projects/ue-bluprint/20221218-19081112.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Network Prediction Extras Flying Pawn Object Reference.
 
-New Max Move Speed: Float (single-precision).  
+New Max Move Speed: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

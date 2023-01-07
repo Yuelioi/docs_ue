@@ -1,18 +1,18 @@
 # ParseDirectLinkSourceUri
 
-解析直接链接源Uri
+解析直接链接源 Uri
 
 目标是直接链接扩展蓝图库
 
 ## 图示
 
-![]($-20221218-18493347.png)
+![](/uploads/projects/ue-bluprint/20221218-18493347.png)
 
 ## Inputs
 
 在。执行。
 
-源Uri字符串。字符串。
+源 Uri 字符串。字符串。
 
 ## Outputs
 
@@ -26,20 +26,23 @@ Out Computer Name: String.
 
 输出源名称。字符串。
 
-返回值。布尔值。解析直接链接源Uri。
+返回值。布尔值。解析直接链接源 Uri。
+
+<hr>
+
 Parse Direct Link Source Uri
 
 Target is Direct Link Extension Blueprint Library
 
 ## 图示
 
-![]($-20221218-18493347.png)
+![](/uploads/projects/ue-bluprint/20221218-18493347.png)
 
 ## Inputs
 
 In: Exec.
 
-Source Uri String: String.  
+Source Uri String: String.
 
 ## Outputs
 
@@ -54,4 +57,3 @@ Out Executable Name: String.
 Out Source Name: String.
 
 Return Value: Boolean. Parse Direct Link Source Uri.
-

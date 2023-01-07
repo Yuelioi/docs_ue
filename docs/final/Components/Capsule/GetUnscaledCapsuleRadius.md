@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18230990.png)
+![](/uploads/projects/ue-bluprint/20221218-18230990.png)
 
 ## Inputs
 
-目标。胶囊碰撞对象参考。 
+目标。胶囊碰撞对象参考。
 
 ## Outputs
 
 返回值。Float (single-precision)。 胶囊半径，忽略分量的缩放。
+
+<hr>
 
 Returns the capsule radius, ignoring component scaling.
 
@@ -22,13 +24,12 @@ Target is Capsule Collision
 
 ## 图示
 
-![]($-20221218-18230990.png)
+![](/uploads/projects/ue-bluprint/20221218-18230990.png)
 
 ## Inputs
 
-Target: Capsule Collision Object Reference.  
+Target: Capsule Collision Object Reference.
 
 ## Outputs
 
 Return Value: Float (single-precision). the capsule radius, ignoring component scaling..
-

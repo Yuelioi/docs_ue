@@ -2,11 +2,11 @@
 
 在给定的上下文和集合中注册一个命令。该集合必须事先注册。
 
-目标是UICommands脚本子系统
+目标是 UICommands 脚本子系统
 
 ## 图示
 
-![]($-20221218-18483471.png)
+![](/uploads/projects/ue-bluprint/20221218-18483471.png)
 
 ## Inputs
 
@@ -27,13 +27,16 @@
 出：执行。
 
 返回值。布尔值。该命令是否被成功注册。
+
+<hr>
+
 Registers a command within the given context and set.. The set must be registered beforehand.
 
 Target is UICommands Scripting Subsystem
 
 ## 图示
 
-![]($-20221218-18483471.png)
+![](/uploads/projects/ue-bluprint/20221218-18483471.png)
 
 ## Inputs
 
@@ -47,11 +50,10 @@ On Execute Command: Delegate. The delegate to be executed for handling this comm
 
 On Can Execute Command: Delegate. The delegate to be executed for checking if this command can be executed..
 
-Override Existing: Boolean. Whether existing command with matching context, set and name should be overriden.  
+Override Existing: Boolean. Whether existing command with matching context, set and name should be overriden.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Whether the command was successfully registered.
-

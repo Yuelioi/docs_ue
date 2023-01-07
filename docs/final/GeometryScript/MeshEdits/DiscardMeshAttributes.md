@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19113898.png)
+![](/uploads/projects/ue-bluprint/20221218-19113898.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标网格。动态网格对象参考。
 
-推迟更改通知。布尔值。  
+推迟更改通知。布尔值。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 目标网格。动态网格对象参考。丢弃网格属性。
 
+<hr>
+
 Discard Mesh Attributes
 
 Target is Geometry Script Library Mesh Basic Edit Functions
 
 ## 图示
 
-![]($-20221218-19113898.png)
+![](/uploads/projects/ue-bluprint/20221218-19113898.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference.
 
-Defer Change Notifications: Boolean.  
+Defer Change Notifications: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Discard Mesh Attributes.
-

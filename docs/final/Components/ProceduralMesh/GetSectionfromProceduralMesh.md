@@ -1,20 +1,20 @@
 # GetSectionfromProceduralMesh
 
-从一个ProceduralMeshComponent中抓取几何数据。
+从一个 ProceduralMeshComponent 中抓取几何数据。
 
-目标是Kismet程序网格库
+目标是 Kismet 程序网格库
 
 ## 图示
 
-![]($-20221218-18254617.png)
+![](/uploads/projects/ue-bluprint/20221218-18254617.png)
 
 ## Inputs
 
 在。执行。
 
-在Proc Mesh中。程序网格组件对象参考。
+在 Proc Mesh 中。程序网格组件对象参考。
 
-部分索引。整数。 
+部分索引。整数。
 
 ## Outputs
 
@@ -26,9 +26,11 @@
 
 法线。矢量数组。
 
-紫外线。矢量2D结构数组。
+紫外线。矢量 2D 结构数组。
 
-切线。Proc网格切线结构数组。
+切线。Proc 网格切线结构数组。
+
+<hr>
 
 Grab geometry data from a ProceduralMeshComponent.
 
@@ -36,7 +38,7 @@ Target is Kismet Procedural Mesh Library
 
 ## 图示
 
-![]($-20221218-18254617.png)
+![](/uploads/projects/ue-bluprint/20221218-18254617.png)
 
 ## Inputs
 
@@ -44,7 +46,7 @@ In: Exec.
 
 In Proc Mesh: Procedural Mesh Component Object Reference.
 
-Section Index: Integer.  
+Section Index: Integer.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Normals: Array of Vectors.
 UVs: Array of Vector 2D Structures.
 
 Tangents: Array of Proc Mesh Tangent Structures.
-

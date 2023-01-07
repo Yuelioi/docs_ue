@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21214090.png)
+![](/uploads/projects/ue-bluprint/20221218-21214090.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在动画中。小工具动画对象参考。已经在播放的动画。
 
-播放速度。Float（单精度）。  
+播放速度。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Changes the playback rate of a playing animation
 
@@ -28,7 +30,7 @@ Target is User Widget
 
 ## 图示
 
-![]($-20221218-21214090.png)
+![](/uploads/projects/ue-bluprint/20221218-21214090.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: User Widget Object Reference.
 
 In Animation: Widget Animation Object Reference. The animation that is already playing.
 
-Playback Speed: Float (single-precision).  
+Playback Speed: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

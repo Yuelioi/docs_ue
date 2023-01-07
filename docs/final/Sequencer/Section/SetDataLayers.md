@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20531342.png)
+![](/uploads/projects/ue-bluprint/20221218-20531342.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。电影场景数据层部分对象参考。
 
-在数据层中。演员数据层结构的阵列。  
+在数据层中。演员数据层结构的阵列。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Data Layers
 
@@ -26,7 +28,7 @@ Target is Movie Scene Data Layer Section
 
 ## 图示
 
-![]($-20221218-20531342.png)
+![](/uploads/projects/ue-bluprint/20221218-20531342.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Movie Scene Data Layer Section Object Reference.
 
-In Data Layers: Array of Actor Data Layer Structures.  
+In Data Layers: Array of Actor Data Layer Structures.
 
 ## Outputs
 
 Out: Exec.
-

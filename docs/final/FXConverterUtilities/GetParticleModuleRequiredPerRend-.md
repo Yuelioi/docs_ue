@@ -2,17 +2,17 @@
 
 获取每个渲染器道具所需的粒子模块
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19024585.png)
+![](/uploads/projects/ue-bluprint/20221218-19024585.png)
 
 ## Inputs
 
 在。执行。
 
-需要的粒子模块。需要的对象参考。  
+需要的粒子模块。需要的对象参考。
 
 ## Outputs
 
@@ -30,7 +30,7 @@ Out Screen Alignment:EParticleScreenAlignment Enum.
 
 输出插值方法。EParticleSubUVInterpMethod Enum.
 
-B Out 移除HMDRoll。字节。
+B Out 移除 HMDRoll。字节。
 
 Out Min Facing Camera Blend Distance（最小的相机混合距离）。Float（单精度）。
 
@@ -46,19 +46,21 @@ Out Emitter Normals Mode: EEmitterNormalsMode Enum.
 
 Out Alpha Threshold:Float（单精度）。
 
+<hr>
+
 Get Particle Module Required Per Renderer Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19024585.png)
+![](/uploads/projects/ue-bluprint/20221218-19024585.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module Required: Required Object Reference.  
+Particle Module Required: Required Object Reference.
 
 ## Outputs
 
@@ -91,4 +93,3 @@ Out Opacity Source Mode: EOpacitySourceMode Enum.
 Out Emitter Normals Mode: EEmitterNormalsMode Enum.
 
 Out Alpha Threshold: Float (single-precision).
-

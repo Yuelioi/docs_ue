@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20001761.png)
+![](/uploads/projects/ue-bluprint/20221218-20001761.png)
 
 ## Inputs
 
 在。执行。
 
-目标。媒体捆绑演员基本对象参考。  
+目标。媒体捆绑演员基本对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。媒体包对象参考。获取媒体包。
 
+<hr>
+
 Get the Media Bundle.
 
 Target is Media Bundle Actor Base
 
 ## 图示
 
-![]($-20221218-20001761.png)
+![](/uploads/projects/ue-bluprint/20221218-20001761.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Media Bundle Actor Base Object Reference.  
+Target: Media Bundle Actor Base Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Media Bundle Object Reference. Get the Media Bundle..
-

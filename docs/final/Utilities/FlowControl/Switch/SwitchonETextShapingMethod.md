@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14243343.png)
+![](/uploads/projects/ue-bluprint/20221218-14243343.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETextShapingMethod Enum.  
+选择。ETextShapingMethod Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Kerning Only: Exec.
 
 全面塑形。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14243343.png)
+![](/uploads/projects/ue-bluprint/20221218-14243343.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETextShapingMethod Enum.  
+Selection: ETextShapingMethod Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Auto: Exec.
 Kerning Only: Exec.
 
 Full Shaping: Exec.
-

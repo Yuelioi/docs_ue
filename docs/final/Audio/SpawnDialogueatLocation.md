@@ -1,12 +1,12 @@
 # SpawnDialogueatLocation
 
-生成一个对话波（DialogueWave），这是一种特殊类型的资产，需要上下文数据以解决特定的SoundBase，然后将其传递给新的音频组件。这个功能允许用户在一个特定的世界位置和旋转中创建和播放音频组件。对空间化和/或距离衰减的对话很有用。
+生成一个对话波（DialogueWave），这是一种特殊类型的资产，需要上下文数据以解决特定的 SoundBase，然后将其传递给新的音频组件。这个功能允许用户在一个特定的世界位置和旋转中创建和播放音频组件。对空间化和/或距离衰减的对话很有用。
 
 目标是游戏的静力学
 
 ## 图示
 
-![]($-20221218-18075852.png)
+![](/uploads/projects/ue-bluprint/20221218-18075852.png)
 
 ## Inputs
 
@@ -28,7 +28,7 @@ Volume Multiplier（音量乘数）。Float（单精度）。一个与音量相�
 
 衰减设置。声音衰减对象参考。覆盖衰减设置包，用它来播放声音。
 
-Auto Destroy: 布尔值。当声音结束时（完成或停止），返回的音频组件是否会被自动清理，或者是否可以重新激活。 
+Auto Destroy: 布尔值。当声音结束时（完成或停止），返回的音频组件是否会被自动清理，或者是否可以重新激活。
 
 ## Outputs
 
@@ -36,13 +36,15 @@ Auto Destroy: 布尔值。当声音结束时（完成或停止），返回的音
 
 返回值。音频组件对象参考。用来操作播放对话的音频组件。
 
+<hr>
+
 Spawns a DialogueWave, a special type of Asset that requires Context data in order to resolve a specific SoundBase,. which is then passed on to the new Audio Component. This function allows users to create and play Audio Components at a. specific World Location and Rotation. Useful for spatialized and/or distance-attenuated dialogue.
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18075852.png)
+![](/uploads/projects/ue-bluprint/20221218-18075852.png)
 
 ## Inputs
 
@@ -64,11 +66,10 @@ Start Time: Float (single-precision). How far into the dialogue to begin playbac
 
 Attenuation Settings: Sound Attenuation Object Reference. Override attenuation settings package to play sound with.
 
-Auto Destroy: Boolean. Whether the returned audio component will be automatically cleaned up when the sound finishes (by completing or stopping) or whether it can be reactivated.  
+Auto Destroy: Boolean. Whether the returned audio component will be automatically cleaned up when the sound finishes (by completing or stopping) or whether it can be reactivated.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Audio Component Object Reference. Audio Component to manipulate the playing dialogue with.
-

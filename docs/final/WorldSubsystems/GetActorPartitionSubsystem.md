@@ -6,7 +6,7 @@ UActorPartitionSubsystem
 
 ## 图示
 
-![]($-20221218-21374167.png)
+![](/uploads/projects/ue-bluprint/20221218-21374167.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@ UActorPartitionSubsystem
 
 返回值。演员分区子系统对象参考。
 
+<hr>
+
 Get Actor Partition Subsystem (World Subsystem)
 
 UActorPartitionSubsystem
 
 ## 图示
 
-![]($-20221218-21374167.png)
+![](/uploads/projects/ue-bluprint/20221218-21374167.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Actor Partition Subsystem Object Reference.
-

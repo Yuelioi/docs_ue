@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-21231877.png)
+![](/uploads/projects/ue-bluprint/20221218-21231877.png)
 
 ## Inputs
 
@@ -12,15 +12,16 @@
 
 价值。通配符。
 
+<hr>
+
 Accesses properties according to property path
 
 ## 图示
 
-![]($-20221218-21231877.png)
+![](/uploads/projects/ue-bluprint/20221218-21231877.png)
 
 ## Inputs
 
 ## Outputs
 
 Value: Wildcard.
-

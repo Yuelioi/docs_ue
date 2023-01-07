@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17315492.png)
+![](/uploads/projects/ue-bluprint/20221218-17315492.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 Gameplay Tags: 游戏性标签容器结构（通过引用）。
 
-Should Replicate（应该复制）。Boolean（布尔）。 
+Should Replicate（应该复制）。Boolean（布尔）。
 
 ## Outputs
 
@@ -24,13 +24,15 @@ Should Replicate（应该复制）。Boolean（布尔）。
 
 返回值。布尔值。从一个给定的角色中手动删除一组标签，并可选择复制。
 
+<hr>
+
 Manually removes a set of tags from a given actor, with optional replication.
 
 Target is Ability System Blueprint Library
 
 ## 图示
 
-![]($-20221218-17315492.png)
+![](/uploads/projects/ue-bluprint/20221218-17315492.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Actor: Actor Object Reference.
 
 Gameplay Tags: Gameplay Tag Container Structure (by ref).
 
-Should Replicate: Boolean.  
+Should Replicate: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Manually removes a set of tags from a given actor, with optional replication..
-

@@ -2,11 +2,11 @@
 
 异步添加设备可视化组件
 
-目标是异步任务加载XRDevice Vis组件
+目标是异步任务加载 XRDevice Vis 组件
 
 ## 图示
 
-![]($-20221218-21384413.png)
+![](/uploads/projects/ue-bluprint/20221218-21384413.png)
 
 ## Inputs
 
@@ -14,11 +14,11 @@
 
 目标。演员对象参考。
 
-XRDevice Id。XRDevice Id结构（通过参考）。
+XRDevice Id。XRDevice Id 结构（通过参考）。
 
 手动附件。布尔型。
 
-相对转换。转换（通过参考）。  
+相对转换。转换（通过参考）。
 
 ## Outputs
 
@@ -32,13 +32,15 @@ XRDevice Id。XRDevice Id结构（通过参考）。
 
 加载的组件。原始组件对象参考。
 
+<hr>
+
 Add Device Visualization Component Async
 
 Target is Async Task Load XRDevice Vis Component
 
 ## 图示
 
-![]($-20221218-21384413.png)
+![](/uploads/projects/ue-bluprint/20221218-21384413.png)
 
 ## Inputs
 
@@ -50,7 +52,7 @@ XRDevice Id: XRDevice Id Structure (by ref).
 
 Manual Attachment: Boolean.
 
-Relative Transform: Transform (by ref).  
+Relative Transform: Transform (by ref).
 
 ## Outputs
 
@@ -63,4 +65,3 @@ On Model Loaded: Exec. On Model Loaded.
 On Load Failure: Exec. On Load Failure.
 
 Loaded Component: Primitive Component Object Reference.
-

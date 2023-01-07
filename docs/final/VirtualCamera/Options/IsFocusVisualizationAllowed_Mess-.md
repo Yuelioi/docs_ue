@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21262109.png)
+![](/uploads/projects/ue-bluprint/20221218-21262109.png)
 
 ## Inputs
 
 在。执行。
 
-目标。对象参考。  
+目标。对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。布尔值。触摸事件可视化的当前状态。
 
+<hr>
+
 Checks whether or not focus visualization can activate
 
 Target is Virtual Camera Options
 
 ## 图示
 
-![]($-20221218-21262109.png)
+![](/uploads/projects/ue-bluprint/20221218-21262109.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Object Reference.  
+Target: Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. the current state of touch event visualization.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18460913.png)
+![](/uploads/projects/ue-bluprint/20221218-18460913.png)
 
 ## Inputs
 
@@ -15,19 +15,21 @@
 ## Outputs
 
 返回值。布尔值。获取视图模式覆盖启用。
+
+<hr>
+
 Get View Mode Overrides Enabled
 
 Target is Base Dynamic Mesh Component
 
 ## 图示
 
-![]($-20221218-18460913.png)
+![](/uploads/projects/ue-bluprint/20221218-18460913.png)
 
 ## Inputs
 
-Target: Base Dynamic Mesh Component Object Reference.  
+Target: Base Dynamic Mesh Component Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Get View Mode Overrides Enabled.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21333102.png)
+![](/uploads/projects/ue-bluprint/20221218-21333102.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 在行：整数。
 
-在列。整数。  
+在列。整数。
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 返回值。统一网格槽对象参考。在统一网格中添加儿童。
 
+<hr>
+
 Add Child to Uniform Grid
 
 Target is Uniform Grid Panel
 
 ## 图示
 
-![]($-20221218-21333102.png)
+![](/uploads/projects/ue-bluprint/20221218-21333102.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Content: Widget Object Reference.
 
 In Row: Integer.
 
-In Column: Integer.  
+In Column: Integer.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Uniform Grid Slot Object Reference. Add Child to Uniform Grid.
-

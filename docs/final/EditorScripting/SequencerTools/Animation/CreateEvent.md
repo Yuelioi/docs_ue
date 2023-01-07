@@ -2,11 +2,11 @@
 
 从先前创建的蓝图端点和一个有效载荷创建一个事件。所产生的事件应该只被添加到作为参数的部分的通道中。
 
-目标是Sequencer Tools功能库
+目标是 Sequencer Tools 功能库
 
 ## 图示
 
-![]($-20221218-18521140.png)
+![](/uploads/projects/ue-bluprint/20221218-18521140.png)
 
 ## Inputs
 
@@ -25,13 +25,16 @@
 出：执行。
 
 返回值。电影场景事件结构。创建的电影事件。
+
+<hr>
+
 Create an event from a previously created blueprint endpoint and a payload. The resulting event should be added only. to a channel of the section that was given as a parameter.
 
 Target is Sequencer Tools Function Library
 
 ## 图示
 
-![]($-20221218-18521140.png)
+![](/uploads/projects/ue-bluprint/20221218-18521140.png)
 
 ## Inputs
 
@@ -43,11 +46,10 @@ In Section: Movie Scene Event Section Base Object Reference. Section of the even
 
 In Endpoint: Sequencer Quick Binding Result Structure (by ref). Previously created endpoint..
 
-In Payload: Array of Strings. Values passed as payload to event, count must match the numbers of payload variable names in.  
+In Payload: Array of Strings. Values passed as payload to event, count must match the numbers of payload variable names in.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Movie Scene Event Structure. The created movie event..
-

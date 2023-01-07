@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21012438.png)
+![](/uploads/projects/ue-bluprint/20221218-21012438.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 向量向上。向量（通过参考）。
 
-坐标空间。ESplineCoordinateSpace Enum.  
+坐标空间。ESplineCoordinateSpace Enum.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the default up vector used by this spline
 
@@ -28,7 +30,7 @@ Target is Spline Component
 
 ## 图示
 
-![]($-20221218-21012438.png)
+![](/uploads/projects/ue-bluprint/20221218-21012438.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Spline Component Object Reference.
 
 Up Vector: Vector (by ref).
 
-Coordinate Space: ESplineCoordinateSpace Enum.  
+Coordinate Space: ESplineCoordinateSpace Enum.
 
 ## Outputs
 
 Out: Exec.
-

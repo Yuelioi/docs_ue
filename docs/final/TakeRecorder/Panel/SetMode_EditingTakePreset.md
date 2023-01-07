@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21103333.png)
+![](/uploads/projects/ue-bluprint/20221218-21103333.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。采取记录仪面板对象参考。
 
-采取预设。采取预设对象参考。  
+采取预设。采取预设对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Setup this panel as an editor for the specified take preset asset.
 
@@ -26,7 +28,7 @@ Target is Take Recorder Panel
 
 ## 图示
 
-![]($-20221218-21103333.png)
+![](/uploads/projects/ue-bluprint/20221218-21103333.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Take Recorder Panel Object Reference.
 
-Take Preset: Take Preset Object Reference.  
+Take Preset: Take Preset Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

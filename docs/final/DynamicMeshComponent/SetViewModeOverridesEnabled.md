@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18462300.png)
+![](/uploads/projects/ue-bluprint/20221218-18462300.png)
 
 ## Inputs
 
@@ -19,13 +19,16 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Set View Mode Overrides Enabled
 
 Target is Base Dynamic Mesh Component
 
 ## 图示
 
-![]($-20221218-18462300.png)
+![](/uploads/projects/ue-bluprint/20221218-18462300.png)
 
 ## Inputs
 
@@ -33,9 +36,8 @@ In: Exec.
 
 Target: Base Dynamic Mesh Component Object Reference.
 
-Enabled: Boolean.  
+Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18114412.png)
+![](/uploads/projects/ue-bluprint/20221218-18114412.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 蓝图。蓝图对象参考。要删除该功能的蓝图。
 
-Func Name: 名称。要删除的函数的名称。 
+Func Name: 名称。要删除的函数的名称。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Deletes the function of the given name on this blueprint. Does NOT replace function call sites.
 
@@ -26,7 +28,7 @@ Target is Blueprint Editor Library
 
 ## 图示
 
-![]($-20221218-18114412.png)
+![](/uploads/projects/ue-bluprint/20221218-18114412.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Blueprint: Blueprint Object Reference. The blueprint to remove the function from.
 
-Func Name: Name. The name of the function to remove.  
+Func Name: Name. The name of the function to remove.
 
 ## Outputs
 
 Out: Exec.
-

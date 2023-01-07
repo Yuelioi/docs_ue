@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-14281583.png)
+![](/uploads/projects/ue-bluprint/20221218-14281583.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。字符串。根配置文件目录。
 
+<hr>
+
 Returns the directory the root configuration files are located.
 
 Target is Blueprint Paths Library
 
 ## 图示
 
-![]($-20221218-14281583.png)
+![](/uploads/projects/ue-bluprint/20221218-14281583.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: String. root config directory.
-

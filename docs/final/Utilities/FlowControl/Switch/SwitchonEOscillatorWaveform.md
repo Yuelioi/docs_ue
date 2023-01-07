@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14221393.png)
+![](/uploads/projects/ue-bluprint/20221218-14221393.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EOscillatorWaveform Enum.  
+选择。EOscillatorWaveform Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 佩林噪声: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14221393.png)
+![](/uploads/projects/ue-bluprint/20221218-14221393.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EOscillatorWaveform Enum.  
+Selection: EOscillatorWaveform Enum.
 
 ## Outputs
 
 Sine Wave: Exec.
 
 Perlin Noise: Exec.
-

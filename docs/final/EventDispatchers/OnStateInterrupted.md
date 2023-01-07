@@ -2,6 +2,6 @@
 
 On State Interrupted:. Invoked if the ability was interrupted and this state is active.
 
+<hr>
 
 On State Interrupted:. Invoked if the ability was interrupted and this state is active.
-

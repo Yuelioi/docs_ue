@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-14291267.png)
+![](/uploads/projects/ue-bluprint/20221218-14291267.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标集。通配符的集合。要删除的集合。
 
-项目。通配符阵列。要从该集合中移除的项目。 
+项目。通配符阵列。要从该集合中移除的项目。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Removes all elements in an Array from a set.
 
@@ -26,7 +28,7 @@ Target is Blueprint Set Library
 
 ## 图示
 
-![]($-20221218-14291267.png)
+![](/uploads/projects/ue-bluprint/20221218-14291267.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target Set: Set of Wildcards. The set to remove from.
 
-Items: Array of Wildcards. The items to remove from the set.  
+Items: Array of Wildcards. The items to remove from the set.
 
 ## Outputs
 
 Out: Exec.
-

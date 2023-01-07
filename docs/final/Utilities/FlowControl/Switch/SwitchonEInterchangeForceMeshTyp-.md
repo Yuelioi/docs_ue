@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14204780.png)
+![](/uploads/projects/ue-bluprint/20221218-14204780.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EInterchangeForceMeshType枚举。 
+选择。EInterchangeForceMeshType 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 骨架网状结构。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14204780.png)
+![](/uploads/projects/ue-bluprint/20221218-14204780.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EInterchangeForceMeshType Enum.  
+Selection: EInterchangeForceMeshType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ None: Exec.
 Static Mesh: Exec.
 
 Skeletal Mesh: Exec.
-

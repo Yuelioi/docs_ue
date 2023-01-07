@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19085055.png)
+![](/uploads/projects/ue-bluprint/20221218-19085055.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 规格处理。游戏效果 规格手柄结构（按参考）。
 
-目标。能力系统组件对象参考。  
+目标。能力系统组件对象参考。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。活动的游戏效果手柄结构。将之前创建的游戏效果规格应用于目标。
 
+<hr>
+
 Applies a previously created gameplay effect spec to a target
 
 Target is Ability System Component
 
 ## 图示
 
-![]($-20221218-19085055.png)
+![](/uploads/projects/ue-bluprint/20221218-19085055.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Ability System Component Object Reference.
 
 Spec Handle: Gameplay Effect Spec Handle Structure (by ref).
 
-Target: Ability System Component Object Reference.  
+Target: Ability System Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Active Gameplay Effect Handle Structure. Applies a previously created gameplay effect spec to a target.
-

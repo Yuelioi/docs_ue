@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20573677.png)
+![](/uploads/projects/ue-bluprint/20221218-20573677.png)
 
 ## Inputs
 
-目标。游戏用户设置对象参考。  
+目标。游戏用户设置对象参考。
 
 ## Outputs
 
 返回值。布尔值。检查屏幕分辨率的用户设置是否与当前不同。
+
+<hr>
 
 Checks if the Screen Resolution user setting is different from current
 
@@ -22,13 +24,12 @@ Target is Game User Settings
 
 ## 图示
 
-![]($-20221218-20573677.png)
+![](/uploads/projects/ue-bluprint/20221218-20573677.png)
 
 ## Inputs
 
-Target: Game User Settings Object Reference.  
+Target: Game User Settings Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Checks if the Screen Resolution user setting is different from current.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20362218.png)
+![](/uploads/projects/ue-bluprint/20221218-20362218.png)
 
 ## Inputs
 
@@ -18,15 +18,15 @@
 
 附加到组件。场景组件对象参考。
 
-附加点名称。名称。在AttachComponent中可选择的命名点，以催生发射器。
+附加点名称。名称。在 AttachComponent 中可选择的命名点，以催生发射器。
 
-地点：向量。矢量。根据Location Type的值，这要么是一个与附加组件/点的相对偏移，要么是一个将被转换为相对偏移的绝对世界位置。
+地点：向量。矢量。根据 Location Type 的值，这要么是一个与附加组件/点的相对偏移，要么是一个将被转换为相对偏移的绝对世界位置。
 
-旋转。旋转器。根据LocationType的值，这要么是一个从附加组件/点的相对偏移，要么是一个绝对的世界旋转，将被翻译成一个实际的偏移。
+旋转。旋转器。根据 LocationType 的值，这要么是一个从附加组件/点的相对偏移，要么是一个绝对的世界旋转，将被翻译成一个实际的偏移。
 
-位置类型。EAttachLocation枚举。指定Location是相对偏移还是绝对世界位置。
+位置类型。EAttachLocation 枚举。指定 Location 是相对偏移还是绝对世界位置。
 
-寿命。浮点数（单精度）。在时间用完后销毁贴花组件（0 = 无限）。  
+寿命。浮点数（单精度）。在时间用完后销毁贴花组件（0 = 无限）。
 
 ## Outputs
 
@@ -34,13 +34,15 @@
 
 返回值。贴花组件对象参考。
 
+<hr>
+
 Spawns a decal attached to and following the specified component. Does not replicate.
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-20362218.png)
+![](/uploads/projects/ue-bluprint/20221218-20362218.png)
 
 ## Inputs
 
@@ -60,11 +62,10 @@ Rotation: Rotator. Depending on the value of LocationType this is either a relat
 
 Location Type: EAttachLocation Enum. Specifies whether Location is a relative offset or an absolute world position.
 
-Life Span: Float (single-precision). destroy decal component after time runs out (0 = infinite).  
+Life Span: Float (single-precision). destroy decal component after time runs out (0 = infinite).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Decal Component Object Reference.
-

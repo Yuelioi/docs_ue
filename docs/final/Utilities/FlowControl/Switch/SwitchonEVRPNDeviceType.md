@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14252019.png)
+![](/uploads/projects/ue-bluprint/20221218-14252019.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EVRPNDeviceType枚举。 
+选择。EVRPNDeviceType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 追踪器：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14252019.png)
+![](/uploads/projects/ue-bluprint/20221218-14252019.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EVRPNDeviceType Enum.  
+Selection: EVRPNDeviceType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Dial: Exec.
 Button: Exec.
 
 Tracker: Exec.
-

@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-18322799.png)
+![](/uploads/projects/ue-bluprint/20221218-18322799.png)
 
 ## Inputs
 
 在。执行。
 
-对象。对象参考。 
+对象。对象参考。
 
 ## Outputs
 
@@ -22,19 +22,21 @@
 
 作为控制钻机蓝图。控制钻机蓝图对象参考。
 
+<hr>
+
 Cast to Control Rig Blueprint
 
 Target is Control Rig Blueprint Editor Library
 
 ## 图示
 
-![]($-20221218-18322799.png)
+![](/uploads/projects/ue-bluprint/20221218-18322799.png)
 
 ## Inputs
 
 In: Exec.
 
-Object: Object Reference.  
+Object: Object Reference.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Cast Succeeded: Exec.
 Cast Failed: Exec.
 
 As Control Rig Blueprint: Control Rig Blueprint Object Reference.
-

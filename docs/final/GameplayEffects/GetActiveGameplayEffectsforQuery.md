@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19085553.png)
+![](/uploads/projects/ue-bluprint/20221218-19085553.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。能力系统组件对象参考。
 
-查询。游戏效果查询结构（按参考）。  
+查询。游戏效果查询结构（按参考）。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。活动的游戏效果处理结构数组。返回活动效果的列表，用于查询。
 
+<hr>
+
 Returns list of active effects, for a query
 
 Target is Ability System Component
 
 ## 图示
 
-![]($-20221218-19085553.png)
+![](/uploads/projects/ue-bluprint/20221218-19085553.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Ability System Component Object Reference.
 
-Query: Gameplay Effect Query Structure (by ref).  
+Query: Gameplay Effect Query Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Array of Active Gameplay Effect Handle Structures. Returns list of active effects, for a query.
-

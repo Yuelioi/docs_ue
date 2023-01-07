@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20334006.png)
+![](/uploads/projects/ue-bluprint/20221218-20334006.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 开始延时。Float (single-precision).
 
-平均值。浮点（单精度）。  
+平均值。浮点（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Fade In
 
@@ -28,7 +30,7 @@ Target is Decal Component
 
 ## 图示
 
-![]($-20221218-20334006.png)
+![](/uploads/projects/ue-bluprint/20221218-20334006.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Decal Component Object Reference.
 
 Start Delay: Float (single-precision).
 
-Duaration: Float (single-precision).  
+Duaration: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

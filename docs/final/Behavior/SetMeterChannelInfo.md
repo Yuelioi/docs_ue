@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18111135.png)
+![](/uploads/projects/ue-bluprint/20221218-18111135.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。音频表对象参考。
 
-In Meter Channel Info: 电表通道信息结构的数组。 
+In Meter Channel Info: 电表通道信息结构的数组。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Sets the current meter values.
 
@@ -26,7 +28,7 @@ Target is Audio Meter
 
 ## 图示
 
-![]($-20221218-18111135.png)
+![](/uploads/projects/ue-bluprint/20221218-18111135.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Audio Meter Object Reference.
 
-In Meter Channel Info: Array of Meter Channel Info Structures.  
+In Meter Channel Info: Array of Meter Channel Info Structures.
 
 ## Outputs
 
 Out: Exec.
-

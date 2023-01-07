@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-14291353.png)
+![](/uploads/projects/ue-bluprint/20221218-14291353.png)
 
 ## Inputs
 
 在。Exec.
 
-A：通配符集。设置。 
+A：通配符集。设置。
 
 ## Outputs
 
@@ -20,23 +20,24 @@ A：通配符集。设置。
 
 结果。通配符的阵列。阵列。
 
+<hr>
+
 ## Outputs an Array containing copies of the entries of a Set.
 
 Target is Blueprint Set Library
 
 ## 图示
 
-![]($-20221218-14291353.png)
+![](/uploads/projects/ue-bluprint/20221218-14291353.png)
 
 ## Inputs
 
 In: Exec.
 
-A: Set of Wildcards. Set.  
+A: Set of Wildcards. Set.
 
 ## Outputs
 
 Out: Exec.
 
 Result: Array of Wildcards. Array.
-

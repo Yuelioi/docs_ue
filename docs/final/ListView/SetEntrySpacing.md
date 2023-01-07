@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19442977.png)
+![](/uploads/projects/ue-bluprint/20221218-19442977.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。普通列表视图对象参考。
 
-在条目间距。Float（单精度）。  
+在条目间距。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Entry Spacing
 
@@ -26,7 +28,7 @@ Target is Common List View
 
 ## 图示
 
-![]($-20221218-19442977.png)
+![](/uploads/projects/ue-bluprint/20221218-19442977.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common List View Object Reference.
 
-In Entry Spacing: Float (single-precision).  
+In Entry Spacing: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

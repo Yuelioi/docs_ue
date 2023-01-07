@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14232875.png)
+![](/uploads/projects/ue-bluprint/20221218-14232875.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESlateColorStylingMode枚举。 
+选择。ESlateColorStylingMode 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 Foreground Color: Exec.Ltd.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14232875.png)
+![](/uploads/projects/ue-bluprint/20221218-14232875.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESlateColorStylingMode Enum.  
+Selection: ESlateColorStylingMode Enum.
 
 ## Outputs
 
 Specified Color: Exec.
 
 Foreground Color: Exec.
-

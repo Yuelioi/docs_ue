@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14214222.png)
+![](/uploads/projects/ue-bluprint/20221218-14214222.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMoviePipelineObjectIdPassIdType枚举。 
+选择。EMoviePipelineObjectIdPassIdType 枚举。
 
 ## Outputs
 
@@ -26,17 +26,19 @@ Actor: Exec.
 
 层。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14214222.png)
+![](/uploads/projects/ue-bluprint/20221218-14214222.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMoviePipelineObjectIdPassIdType Enum.  
+Selection: EMoviePipelineObjectIdPassIdType Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Actor With Hierarchy: Exec.
 Folder: Exec.
 
 Layer: Exec.
-

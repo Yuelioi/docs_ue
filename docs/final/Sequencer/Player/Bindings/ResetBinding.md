@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20511039.png)
+![](/uploads/projects/ue-bluprint/20221218-20511039.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。水平序列演员对象参考。
 
-绑定。电影场景对象绑定的ID结构。  
+绑定。电影场景对象绑定的 ID 结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Resets the specified binding back to the defaults defined by the Level Sequence asset
 
@@ -26,7 +28,7 @@ Target is Level Sequence Actor
 
 ## 图示
 
-![]($-20221218-20511039.png)
+![](/uploads/projects/ue-bluprint/20221218-20511039.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Level Sequence Actor Object Reference.
 
-Binding: Movie Scene Object Binding ID Structure.  
+Binding: Movie Scene Object Binding ID Structure.
 
 ## Outputs
 
 Out: Exec.
-

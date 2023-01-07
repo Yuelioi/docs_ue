@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19412608.png)
+![](/uploads/projects/ue-bluprint/20221218-19412608.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。整数。获取选择范围的结束帧...
 
+<hr>
+
 Get the selection range end frame.
 
 Target is Level Sequence Editor Blueprint Library
 
 ## 图示
 
-![]($-20221218-19412608.png)
+![](/uploads/projects/ue-bluprint/20221218-19412608.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Integer. Get the selection range end frame..
-

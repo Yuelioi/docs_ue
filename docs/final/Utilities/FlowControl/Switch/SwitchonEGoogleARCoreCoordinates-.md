@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14200628.png)
+![](/uploads/projects/ue-bluprint/20221218-14200628.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGoogleARCoreCoordinates2DType枚举。 
+选择。EGoogleARCoreCoordinates2DType 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Image: 图像。Exec.
 
 Viewport: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14200628.png)
+![](/uploads/projects/ue-bluprint/20221218-14200628.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGoogleARCoreCoordinates2DType Enum.  
+Selection: EGoogleARCoreCoordinates2DType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Texture: Exec.
 Image: Exec.
 
 Viewport: Exec.
-

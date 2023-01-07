@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18291346.png)
+![](/uploads/projects/ue-bluprint/20221218-18291346.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 输出类型。合成元素输出类参考。
 
-可选通行证名称。Name（名称）。 
+可选通行证名称。Name（名称）。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。合成元素输出对象参考。查找输出通道。
 
+<hr>
+
 Find Output Pass
 
 Target is Empty Comp Shot
 
 ## 图示
 
-![]($-20221218-18291346.png)
+![](/uploads/projects/ue-bluprint/20221218-18291346.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Empty Comp Shot Object Reference.
 
 Output Type: Compositing Element Output Class Reference.
 
-Optional Pass Name: Name.  
+Optional Pass Name: Name.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Compositing Element Output Object Reference. Find Output Pass.
-

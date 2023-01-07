@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18230765.png)
+![](/uploads/projects/ue-bluprint/20221218-18230765.png)
 
 ## Inputs
 
-目标。Capsule Collision Object Reference。 
+目标。Capsule Collision Object Reference。
 
 ## Outputs
 
 返回值。Float（单精度）。胶囊半径，忽略分量的缩放。
+
+<hr>
 
 Returns the capsule half-height, ignoring component scaling. This includes the hemisphere end cap.
 
@@ -22,13 +24,12 @@ Target is Capsule Collision
 
 ## 图示
 
-![]($-20221218-18230765.png)
+![](/uploads/projects/ue-bluprint/20221218-18230765.png)
 
 ## Inputs
 
-Target: Capsule Collision Object Reference.  
+Target: Capsule Collision Object Reference.
 
 ## Outputs
 
 Return Value: Float (single-precision). The capsule radius, ignoring component scaling..
-

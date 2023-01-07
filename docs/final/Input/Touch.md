@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-19294257.png)
+![](/uploads/projects/ue-bluprint/20221218-19294257.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 手指索引: ETouchIndex Enum.
 
+<hr>
+
 Event for when a finger presses, releases or is moved on a touch device.
 
 ## 图示
 
-![]($-20221218-19294257.png)
+![](/uploads/projects/ue-bluprint/20221218-19294257.png)
 
 ## Inputs
 
@@ -39,4 +41,3 @@ Moved: Exec.
 Location: Vector.
 
 Finger Index: ETouchIndex Enum.
-

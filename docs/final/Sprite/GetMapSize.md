@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21022001.png)
+![](/uploads/projects/ue-bluprint/20221218-21022001.png)
 
 ## Inputs
 
 在。执行。
 
-目标。纸质瓦片地图组件对象参考。  
+目标。纸质瓦片地图组件对象参考。
 
 ## Outputs
 
@@ -24,19 +24,21 @@
 
 Num Layers:整数。
 
+<hr>
+
 Returns the size of the tile map
 
 Target is Paper Tile Map Component
 
 ## 图示
 
-![]($-20221218-21022001.png)
+![](/uploads/projects/ue-bluprint/20221218-21022001.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Paper Tile Map Component Object Reference.  
+Target: Paper Tile Map Component Object Reference.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Map Width: Integer.
 Map Height: Integer.
 
 Num Layers: Integer.
-

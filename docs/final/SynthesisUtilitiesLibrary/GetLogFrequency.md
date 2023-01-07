@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21090550.png)
+![](/uploads/projects/ue-bluprint/20221218-21090550.png)
 
 ## Inputs
 
@@ -20,7 +20,7 @@
 
 在范围内最小。Float（单精度）。
 
-最大范围内：浮点数（单精度）。  
+最大范围内：浮点数（单精度）。
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 返回值。浮点数（单精度）。返回输入值的对数频率。将线性域和范围值映射到对数输出（有利于线性滑块控制频率）。
 
+<hr>
+
 Returns the log frequency of the input value. Maps linear domain and range values to log output (good for linear slider controlling frequency)
 
 Target is Synthesis Utilities Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-21090550.png)
+![](/uploads/projects/ue-bluprint/20221218-21090550.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ In Domain Max: Float (single-precision).
 
 In Range Min: Float (single-precision).
 
-In Range Max: Float (single-precision).  
+In Range Max: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision). Returns the log frequency of the input value. Maps linear domain and range values to log output (good for linear slider controlling frequency).
-

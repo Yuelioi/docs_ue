@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14230223.png)
+![](/uploads/projects/ue-bluprint/20221218-14230223.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERigControlType Enum.  
+选择。ERigControlType Enum.
 
 ## Outputs
 
@@ -20,7 +20,7 @@ Float: Exec.
 
 整数。Exec.
 
-矢量2D: Exec.
+矢量 2D: Exec.
 
 位置 Exec.
 
@@ -30,17 +30,19 @@ Float: Exec.
 
 欧拉变换: 执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14230223.png)
+![](/uploads/projects/ue-bluprint/20221218-14230223.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERigControlType Enum.  
+Selection: ERigControlType Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Scale: Exec.
 Rotator: Exec.
 
 Euler Transform: Exec.
-

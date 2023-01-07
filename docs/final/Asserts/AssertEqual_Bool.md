@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17591436.png)
+![](/uploads/projects/ue-bluprint/20221218-17591436.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 预期的。布尔值。
 
-What：字符串。如果断言失败，在消息中使用的名称（What：预期{实际}等于{预期}的上下文''）。 
+What：字符串。如果断言失败，在消息中使用的名称（What：预期{实际}等于{预期}的上下文''）。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ What：字符串。如果断言失败，在消息中使用的名称（What：预
 
 返回值。布尔值。
 
+<hr>
+
 Assert that two bools are equal
 
 Target is Functional Test
 
 ## 图示
 
-![]($-20221218-17591436.png)
+![](/uploads/projects/ue-bluprint/20221218-17591436.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Actual: Boolean.
 
 Expected: Boolean.
 
-What: String. A name to use in the message if the assert fails (What: expected {Actual} to be Equal To {Expected} for context '').  
+What: String. A name to use in the message if the assert fails (What: expected {Actual} to be Equal To {Expected} for context '').
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19273561.png)
+![](/uploads/projects/ue-bluprint/20221218-19273561.png)
 
 ## Inputs
 
@@ -18,21 +18,22 @@
 
 出：执行。
 
+<hr>
+
 Disable tracking for all controllers associated with the specified player.
 
 Target is Motion Tracked Device Function Library
 
 ## 图示
 
-![]($-20221218-19273561.png)
+![](/uploads/projects/ue-bluprint/20221218-19273561.png)
 
 ## Inputs
 
 In: Exec.
 
-Player Index: Integer. (in) The index of the player..  
+Player Index: Integer. (in) The index of the player..
 
 ## Outputs
 
 Out: Exec.
-

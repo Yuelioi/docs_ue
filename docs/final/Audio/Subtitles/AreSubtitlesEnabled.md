@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18080776.png)
+![](/uploads/projects/ue-bluprint/20221218-18080776.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。布尔值。如果字幕被启用，则为真。
 
+<hr>
+
 Returns whether or not subtitles are currently enabled.
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18080776.png)
+![](/uploads/projects/ue-bluprint/20221218-18080776.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Boolean. true if subtitles are enabled..
-

@@ -1,10 +1,10 @@
 # DebugKeyNum5
 
-当Num 5键被按下或释放时的事件。
+当 Num 5 键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19201547.png)
+![](/uploads/projects/ue-bluprint/20221218-19201547.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 行动值。输入行动值结构。
 
+<hr>
+
 Events for when the Num 5 key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19201547.png)
+![](/uploads/projects/ue-bluprint/20221218-19201547.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

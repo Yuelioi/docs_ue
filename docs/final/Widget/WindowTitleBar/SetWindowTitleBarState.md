@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21371092.png)
+![](/uploads/projects/ue-bluprint/20221218-21371092.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@ Mode: EWindowTitleBarMode Enum.
 
 窗口按钮的可见性。布尔值。
 
-标题栏可见。布尔值。  
+标题栏可见。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Window Title Bar State
 
@@ -32,7 +34,7 @@ Target is Widget Blueprint Library
 
 ## 图示
 
-![]($-20221218-21371092.png)
+![](/uploads/projects/ue-bluprint/20221218-21371092.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Title Bar Drag Enabled: Boolean.
 
 Window Buttons Visible: Boolean.
 
-Title Bar Visible: Boolean.  
+Title Bar Visible: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

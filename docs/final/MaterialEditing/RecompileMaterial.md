@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19464983.png)
+![](/uploads/projects/ue-bluprint/20221218-19464983.png)
 
 ## Inputs
 
 在。执行。
 
-材料。材料 对象参考。  
+材料。材料 对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Trigger a recompile of a material. Must be performed after making changes to the graph to have changes reflected.
 
@@ -24,15 +26,14 @@ Target is Material Editing Library
 
 ## 图示
 
-![]($-20221218-19464983.png)
+![](/uploads/projects/ue-bluprint/20221218-19464983.png)
 
 ## Inputs
 
 In: Exec.
 
-Material: Material Object Reference.  
+Material: Material Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

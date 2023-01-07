@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19435694.png)
+![](/uploads/projects/ue-bluprint/20221218-19435694.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 中心。矢量。
 
-范围。矢量。  
+范围。矢量。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets visibility of points within the given box.
 
@@ -30,7 +32,7 @@ Target is Lidar Point Cloud Component
 
 ## 图示
 
-![]($-20221218-19435694.png)
+![](/uploads/projects/ue-bluprint/20221218-19435694.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ New Visibility: Boolean.
 
 Center: Vector.
 
-Extent: Vector.  
+Extent: Vector.
 
 ## Outputs
 
 Out: Exec.
-

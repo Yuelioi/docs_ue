@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14215812.png)
+![](/uploads/projects/ue-bluprint/20221218-14215812.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ENetDormancy Enum.  
+选择。ENetDormancy Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@
 
 初始化。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14215812.png)
+![](/uploads/projects/ue-bluprint/20221218-14215812.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ENetDormancy Enum.  
+Selection: ENetDormancy Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Dormant All: Exec.
 Dormant Partial: Exec.
 
 Initial: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19085279.png)
+![](/uploads/projects/ue-bluprint/20221218-19085279.png)
 
 ## Inputs
 
@@ -20,7 +20,7 @@
 
 水平。浮点数（单精度）。
 
-语境。游戏性效果语境处理结构。  
+语境。游戏性效果语境处理结构。
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 返回值。活动的游戏效果手柄结构。对传入的目标施加一个游戏效果。
 
+<hr>
+
 Apply a gameplay effect to passed in target
 
 Target is Ability System Component
 
 ## 图示
 
-![]($-20221218-19085279.png)
+![](/uploads/projects/ue-bluprint/20221218-19085279.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Target: Ability System Component Object Reference.
 
 Level: Float (single-precision).
 
-Context: Gameplay Effect Context Handle Structure.  
+Context: Gameplay Effect Context Handle Structure.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Active Gameplay Effect Handle Structure. Apply a gameplay effect to passed in target.
-

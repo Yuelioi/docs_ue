@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14161326.png)
+![](/uploads/projects/ue-bluprint/20221218-14161326.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAppleTextureType枚举。 
+选择。EAppleTextureType 枚举。
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Pixel Buffer: Exec.
 
 Metal Texture: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14161326.png)
+![](/uploads/projects/ue-bluprint/20221218-14161326.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAppleTextureType Enum.  
+Selection: EAppleTextureType Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Pixel Buffer: Exec.
 Surface: Exec.
 
 Metal Texture: Exec.
-

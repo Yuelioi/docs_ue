@@ -1,12 +1,12 @@
 # UnlockAIResourceswithAnimation
 
-解锁有动画的棋子的AI资源。将只解锁动画锁定的资源
+解锁有动画的棋子的 AI 资源。将只解锁动画锁定的资源
 
-目标是AIBlueprint Helper Library。
+目标是 AIBlueprint Helper Library。
 
 ## 图示
 
-![]($-20221218-17510893.png)
+![](/uploads/projects/ue-bluprint/20221218-17510893.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 解锁运动。Boolean.
 
-Unlock AILogic: Boolean.  
+Unlock AILogic: Boolean.
 
 ## Outputs
 
 Out: 执行：执行。
+
+<hr>
 
 unlocks indicated AI resources of animated pawn. Will unlock only animation-locked resources
 
@@ -28,7 +30,7 @@ Target is AIBlueprint Helper Library
 
 ## 图示
 
-![]($-20221218-17510893.png)
+![](/uploads/projects/ue-bluprint/20221218-17510893.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Anim Instance: Anim Instance Object Reference.
 
 Unlock Movement: Boolean.
 
-Unlock AILogic: Boolean.  
+Unlock AILogic: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14250343.png)
+![](/uploads/projects/ue-bluprint/20221218-14250343.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EUpdatePositionMethod Enum.  
+选择。EUpdatePositionMethod Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 擦洗：执行。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14250343.png)
+![](/uploads/projects/ue-bluprint/20221218-14250343.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EUpdatePositionMethod Enum.  
+Selection: EUpdatePositionMethod Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Play: Exec.
 Jump: Exec.
 
 Scrub: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18181916.png)
+![](/uploads/projects/ue-bluprint/20221218-18181916.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 Tether Stiffness: Vector 2D Structure.
 
-Tether Scale: 向量二维结构。 
+Tether Scale: 向量二维结构。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set Long Range Attachment
 
@@ -28,7 +30,7 @@ Target is Chaos Clothing Interactor
 
 ## 图示
 
-![]($-20221218-18181916.png)
+![](/uploads/projects/ue-bluprint/20221218-18181916.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Chaos Clothing Interactor Object Reference.
 
 Tether Stiffness: Vector 2D Structure.
 
-Tether Scale: Vector 2D Structure.  
+Tether Scale: Vector 2D Structure.
 
 ## Outputs
 
 Out: Exec.
-

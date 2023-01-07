@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20401604.png)
+![](/uploads/projects/ue-bluprint/20221218-20401604.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。小工具组件对象参考。
 
-要两面性。布尔型。  
+要两面性。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets whether the widget is two-sided or not
 
@@ -26,7 +28,7 @@ Target is Widget Component
 
 ## 图示
 
-![]($-20221218-20401604.png)
+![](/uploads/projects/ue-bluprint/20221218-20401604.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Widget Component Object Reference.
 
-Want Two Sided: Boolean.  
+Want Two Sided: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

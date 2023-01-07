@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21000223.png)
+![](/uploads/projects/ue-bluprint/20221218-21000223.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 坐标空间。ESplineCoordinateSpace Enum.
 
-更新花键。布尔值。  
+更新花键。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Adds a point to the spline
 
@@ -30,7 +32,7 @@ Target is Spline Component
 
 ## 图示
 
-![]($-20221218-21000223.png)
+![](/uploads/projects/ue-bluprint/20221218-21000223.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Position: Vector (by ref).
 
 Coordinate Space: ESplineCoordinateSpace Enum.
 
-Update Spline: Boolean.  
+Update Spline: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

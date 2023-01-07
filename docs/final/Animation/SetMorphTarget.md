@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17504701.png)
+![](/uploads/projects/ue-bluprint/20221218-17504701.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 Morph 目标名称: 名称.
 
-值。Float (single-precision).  
+值。Float (single-precision).
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets a morph target to a certain weight.
 
@@ -28,7 +30,7 @@ Target is Anim Instance
 
 ## 图示
 
-![]($-20221218-17504701.png)
+![](/uploads/projects/ue-bluprint/20221218-17504701.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Anim Instance Object Reference.
 
 Morph Target Name: Name.
 
-Value: Float (single-precision).  
+Value: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

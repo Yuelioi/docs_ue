@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19032443.png)
+![](/uploads/projects/ue-bluprint/20221218-19032443.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。尼亚加拉发射器转换背景对象参考。
 
-在已启用。布尔值。  
+在已启用。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Enabled
 
@@ -26,7 +28,7 @@ Target is Niagara Emitter Conversion Context
 
 ## 图示
 
-![]($-20221218-19032443.png)
+![](/uploads/projects/ue-bluprint/20221218-19032443.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Niagara Emitter Conversion Context Object Reference.
 
-In Enabled: Boolean.  
+In Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

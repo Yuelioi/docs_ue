@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14181577.png)
+![](/uploads/projects/ue-bluprint/20221218-14181577.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDemoPlayFailure 枚举。 
+选择。EDemoPlayFailure 枚举。
 
 ## Outputs
 
@@ -32,17 +32,19 @@ Replay Streamer Internal: Exec.
 
 序列化。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14181577.png)
+![](/uploads/projects/ue-bluprint/20221218-14181577.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDemoPlayFailure Enum.  
+Selection: EDemoPlayFailure Enum.
 
 ## Outputs
 
@@ -63,4 +65,3 @@ Replay Streamer Internal: Exec.
 Load Map: Exec.
 
 Serialization: Exec.
-

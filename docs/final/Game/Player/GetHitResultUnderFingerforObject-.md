@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19070458.png)
+![](/uploads/projects/ue-bluprint/20221218-19070458.png)
 
 ## Inputs
 
@@ -14,9 +14,9 @@
 
 手指索引: ETouchIndex Enum.
 
-对象类型。EObjectTypeQuery枚举的数组。
+对象类型。EObjectTypeQuery 枚举的数组。
 
-Trace Complex: Boolean.  
+Trace Complex: Boolean.
 
 ## Outputs
 
@@ -24,13 +24,15 @@ Trace Complex: Boolean.
 
 返回值。布尔值。在手指下进行碰撞查询，寻找物体类型。
 
+<hr>
+
 Performs a collision query under the finger, looking for object types
 
 Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19070458.png)
+![](/uploads/projects/ue-bluprint/20221218-19070458.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Finger Index: ETouchIndex Enum.
 
 Object Types: Array of EObjectTypeQuery Enums.
 
-Trace Complex: Boolean.  
+Trace Complex: Boolean.
 
 ## Outputs
 
 Hit Result: Hit Result Structure.
 
 Return Value: Boolean. Performs a collision query under the finger, looking for object types.
-

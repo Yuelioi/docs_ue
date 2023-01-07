@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21243293.png)
+![](/uploads/projects/ue-bluprint/20221218-21243293.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 索引：整数。
 
-依赖性。变体依赖结构（按参考）。  
+依赖性。变体依赖结构（按参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Dependency
 
@@ -28,7 +30,7 @@ Target is Variant Manager Blueprint Library
 
 ## 图示
 
-![]($-20221218-21243293.png)
+![](/uploads/projects/ue-bluprint/20221218-21243293.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Variant: Variant Object Reference.
 
 Index: Integer.
 
-Dependency: Variant Dependency Structure (by ref).  
+Dependency: Variant Dependency Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

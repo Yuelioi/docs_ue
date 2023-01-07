@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20205777.png)
+![](/uploads/projects/ue-bluprint/20221218-20205777.png)
 
 ## Inputs
 
 在。执行。
 
-目标。物理约束组件对象参考。  
+目标。物理约束组件对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。布尔值。检索约束被破坏的状态。
 
+<hr>
+
 Retrieve the status of constraint being broken.
 
 Target is Physics Constraint Component
 
 ## 图示
 
-![]($-20221218-20205777.png)
+![](/uploads/projects/ue-bluprint/20221218-20205777.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Physics Constraint Component Object Reference.  
+Target: Physics Constraint Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Retrieve the status of constraint being broken..
-

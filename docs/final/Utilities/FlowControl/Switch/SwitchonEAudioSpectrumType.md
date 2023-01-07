@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14170668.png)
+![](/uploads/projects/ue-bluprint/20221218-14170668.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAudioSpectrumType Enum.  
+选择。EAudioSpectrumType Enum.
 
 ## Outputs
 
@@ -19,18 +19,20 @@ Magnitude Spectrum: Exec.
 Power Spectrum: Exec.
 
 Decibel: Exec.
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14170668.png)
+![](/uploads/projects/ue-bluprint/20221218-14170668.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAudioSpectrumType Enum.  
+Selection: EAudioSpectrumType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Magnitude Spectrum: Exec.
 Power Spectrum: Exec.
 
 Decibel: Exec.
-

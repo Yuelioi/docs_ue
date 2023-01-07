@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18294447.png)
+![](/uploads/projects/ue-bluprint/20221218-18294447.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。空的复合射击对象参考。
 
-拥有的目标。Texture Render Target 2D Object Reference.  
+拥有的目标。Texture Render Target 2D Object Reference.
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。释放拥有的目标。
 
+<hr>
+
 Release Owned Target
 
 Target is Empty Comp Shot
 
 ## 图示
 
-![]($-20221218-18294447.png)
+![](/uploads/projects/ue-bluprint/20221218-18294447.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Empty Comp Shot Object Reference.
 
-Owned Target: Texture Render Target 2D Object Reference.  
+Owned Target: Texture Render Target 2D Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Release Owned Target.
-

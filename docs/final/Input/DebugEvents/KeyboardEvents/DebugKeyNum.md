@@ -1,10 +1,10 @@
 # DebugKeyNum
 
-当Num *键被按下或释放时的事件。
+当 Num \*键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19200840.png)
+![](/uploads/projects/ue-bluprint/20221218-19200840.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 行动值。输入行动值结构。
 
-Events for when the Num * key is pressed or released.
+<hr>
+
+Events for when the Num \* key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19200840.png)
+![](/uploads/projects/ue-bluprint/20221218-19200840.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

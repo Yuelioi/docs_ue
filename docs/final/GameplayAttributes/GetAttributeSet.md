@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19083076.png)
+![](/uploads/projects/ue-bluprint/20221218-19083076.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。能力系统组件对象参考。
 
-属性集类。属性集类参考。要寻找的属性集的类型。  
+属性集类。属性集类参考。要寻找的属性集的类型。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。属性集对象参考。
 
+<hr>
+
 Returns a reference to the Attribute Set instance, if one exists in this component
 
 Target is Ability System Component
 
 ## 图示
 
-![]($-20221218-19083076.png)
+![](/uploads/projects/ue-bluprint/20221218-19083076.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Ability System Component Object Reference.
 
-Attribute Set Class: Attribute Set Class Reference. The type of attribute set to look for.  
+Attribute Set Class: Attribute Set Class Reference. The type of attribute set to look for.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Attribute Set Object Reference.
-

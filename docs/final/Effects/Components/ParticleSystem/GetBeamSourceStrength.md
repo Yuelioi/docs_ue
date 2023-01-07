@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18543231.png)
+![](/uploads/projects/ue-bluprint/20221218-18543231.png)
 
 ## Inputs
 
@@ -20,14 +20,17 @@
 
 输出源强度。Float（单精度）。源切线的值。
 
-返回值。Boolean. true EmitterIndex和SourceIndex是有效的 - OutSourceStrength是有效的 false EmitterIndex或SourceIndex是无效的 - OutSourceStrength是无效的。
+返回值。Boolean. true EmitterIndex 和 SourceIndex 是有效的 - OutSourceStrength 是有效的 false EmitterIndex 或 SourceIndex 是无效的 - OutSourceStrength 是无效的。
+
+<hr>
+
 Get the beam source strength
 
 Target is Particle System Component
 
 ## 图示
 
-![]($-20221218-18543231.png)
+![](/uploads/projects/ue-bluprint/20221218-18543231.png)
 
 ## Inputs
 
@@ -35,11 +38,10 @@ Target: Particle System Component Object Reference.
 
 Emitter Index: Integer. The index of the emitter to get.
 
-Source Index: Integer. Which beam within the emitter to get.  
+Source Index: Integer. Which beam within the emitter to get.
 
 ## Outputs
 
 Out Source Strength: Float (single-precision). Value of source tangent.
 
 Return Value: Boolean. true EmitterIndex and SourceIndex are valid - OutSourceStrength is valid false EmitterIndex or SourceIndex is invalid - OutSourceStrength is invalid.
-

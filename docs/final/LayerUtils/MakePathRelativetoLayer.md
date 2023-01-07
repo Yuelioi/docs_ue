@@ -2,11 +2,11 @@
 
 使路径与图层相对应
 
-目标是Usd转换蓝图库
+目标是 Usd 转换蓝图库
 
 ## 图示
 
-![]($-20221218-19382487.png)
+![](/uploads/projects/ue-bluprint/20221218-19382487.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 锚层路径。字符串。
 
-使相对的路径。字符串。  
+使相对的路径。字符串。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。字符串。使路径与图层相对。
 
+<hr>
+
 Make Path Relative to Layer
 
 Target is Usd Conversion Blueprint Library
 
 ## 图示
 
-![]($-20221218-19382487.png)
+![](/uploads/projects/ue-bluprint/20221218-19382487.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Anchor Layer Path: String.
 
-Path to Make Relative: String.  
+Path to Make Relative: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: String. Make Path Relative to Layer.
-

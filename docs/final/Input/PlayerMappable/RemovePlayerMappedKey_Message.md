@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19290426.png)
+![](/uploads/projects/ue-bluprint/20221218-19290426.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 映射名称：名称。
 
-选项。修改上下文选项结构（通过参考）。  
+选项。修改上下文选项结构（通过参考）。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。整数。已被删除的映射的数量。
 
+<hr>
+
 Remove any player mappings with to the given action. Requests a rebuild of the player mappings.
 
 Target is Enhanced Input Subsystem Interface
 
 ## 图示
 
-![]($-20221218-19290426.png)
+![](/uploads/projects/ue-bluprint/20221218-19290426.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Object Reference.
 
 Mapping Name: Name.
 
-Options: Modify Context Options Structure (by ref).  
+Options: Modify Context Options Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. The number of mappings that have been removed.
-

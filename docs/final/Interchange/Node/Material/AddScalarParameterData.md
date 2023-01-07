@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19312398.png)
+![](/uploads/projects/ue-bluprint/20221218-19312398.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标：交换材料节点对象参考。
 
-参数名称：EInterchangeMaterialNodeParameterName枚举。
+参数名称：EInterchangeMaterialNodeParameterName 枚举。
 
-标量数据。Float（单精度）。  
+标量数据。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add Scalar Parameter Data
 
@@ -28,7 +30,7 @@ Target is Interchange Material Node
 
 ## 图示
 
-![]($-20221218-19312398.png)
+![](/uploads/projects/ue-bluprint/20221218-19312398.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Interchange Material Node Object Reference.
 
 Parameter Name: EInterchangeMaterialNodeParameterName Enum.
 
-Scalar Data: Float (single-precision).  
+Scalar Data: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

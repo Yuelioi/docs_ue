@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14161794.png)
+![](/uploads/projects/ue-bluprint/20221218-14161794.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARCandidateImageOrientation Enum.  
+选择。EARCandidateImageOrientation Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 Portrait: 纵向 Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14161794.png)
+![](/uploads/projects/ue-bluprint/20221218-14161794.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARCandidateImageOrientation Enum.  
+Selection: EARCandidateImageOrientation Enum.
 
 ## Outputs
 
 Landscape: Exec.
 
 Portrait: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19113552.png)
+![](/uploads/projects/ue-bluprint/20221218-19113552.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 三角形列表。索引列表结构。
 
-推迟更改通知。布尔值。  
+推迟更改通知。布尔值。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ Num Deleted:整数。
 
 目标网格。动态网格对象参考。从网格中删除三角形。
 
+<hr>
+
 Delete Triangles from Mesh
 
 Target is Geometry Script Library Mesh Basic Edit Functions
 
 ## 图示
 
-![]($-20221218-19113552.png)
+![](/uploads/projects/ue-bluprint/20221218-19113552.png)
 
 ## Inputs
 
@@ -42,7 +44,7 @@ Target Mesh: Dynamic Mesh Object Reference.
 
 Triangle List: Index List Structure.
 
-Defer Change Notifications: Boolean.  
+Defer Change Notifications: Boolean.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Out: Exec.
 Num Deleted: Integer.
 
 Target Mesh: Dynamic Mesh Object Reference. Delete Triangles from Mesh.
-

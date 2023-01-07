@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21104900.png)
+![](/uploads/projects/ue-bluprint/20221218-21104900.png)
 
 ## Inputs
 
 在。执行。
 
-On Take Recorder Pre Initialize:授权。  
+On Take Recorder Pre Initialize:授权。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Called before initialization occurs (ie. when the recording button is pressed and before the countdown starts)
 
@@ -24,15 +26,14 @@ Target is Take Recorder Blueprint Library
 
 ## 图示
 
-![]($-20221218-21104900.png)
+![](/uploads/projects/ue-bluprint/20221218-21104900.png)
 
 ## Inputs
 
 In: Exec.
 
-On Take Recorder Pre Initialize: Delegate.  
+On Take Recorder Pre Initialize: Delegate.
 
 ## Outputs
 
 Out: Exec.
-

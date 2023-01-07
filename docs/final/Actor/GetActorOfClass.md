@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-17342691.png)
+![](/uploads/projects/ue-bluprint/20221218-17342691.png)
 
 ## Inputs
 
 在。执行。
 
-Actor Class: Actor Class Reference。要查找的演员的类别。必须指定，否则结果将是空的。 
+Actor Class: Actor Class Reference。要查找的演员的类别。必须指定，否则结果将是空的。
 
 ## Outputs
 
 Out: 执行：执行。
 
-返回值。Actor对象参考。指定类别的演员。
+返回值。Actor 对象参考。指定类别的演员。
+
+<hr>
 
 Find the first Actor in the world of the specified class.. This is a slow operation, use with caution e.g. do not use every frame.
 
@@ -26,17 +28,16 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-17342691.png)
+![](/uploads/projects/ue-bluprint/20221218-17342691.png)
 
 ## Inputs
 
 In: Exec.
 
-Actor Class: Actor Class Reference. Class of Actor to find. Must be specified or result will be empty..  
+Actor Class: Actor Class Reference. Class of Actor to find. Must be specified or result will be empty..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Actor Object Reference. Actor of the specified class..
-

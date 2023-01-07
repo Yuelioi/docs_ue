@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14185782.png)
+![](/uploads/projects/ue-bluprint/20221218-14185782.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFBXSceneOptionsCreateHierarchyType Enum.  
+选择。EFBXSceneOptionsCreateHierarchyType Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Create Level Actors: Exec.
 
 创建一个蓝图资产：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14185782.png)
+![](/uploads/projects/ue-bluprint/20221218-14185782.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFBXSceneOptionsCreateHierarchyType Enum.  
+Selection: EFBXSceneOptionsCreateHierarchyType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Create Level Actors: Exec.
 Create One Actor With Components: Exec.
 
 Create One Blueprint Asset: Exec.
-

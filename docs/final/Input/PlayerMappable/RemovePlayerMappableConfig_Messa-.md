@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19290181.png)
+![](/uploads/projects/ue-bluprint/20221218-19290181.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 配置。玩家可绑定的输入配置对象参考。
 
-选项。修改上下文选项结构（通过参考）。  
+选项。修改上下文选项结构（通过参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Removes all the input mapping contexts inside of this mappable config.
 
@@ -28,7 +30,7 @@ Target is Enhanced Input Subsystem Interface
 
 ## 图示
 
-![]($-20221218-19290181.png)
+![](/uploads/projects/ue-bluprint/20221218-19290181.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Object Reference.
 
 Config: Player Bindable Input Config Object Reference.
 
-Options: Modify Context Options Structure (by ref).  
+Options: Modify Context Options Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

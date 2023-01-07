@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-17520331.png)
+![](/uploads/projects/ue-bluprint/20221218-17520331.png)
 
 ## Inputs
 
-动画序列基础。Anim Sequence Base对象参考。
+动画序列基础。Anim Sequence Base 对象参考。
 
-时间。Float（单精度）。 
+时间。Float（单精度）。
 
 ## Outputs
 
 是否有效。Boolean（布尔）。
+
+<hr>
 
 Checks whether or not the given Time Value lies within the given Animation Sequence's Length
 
@@ -24,15 +26,14 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17520331.png)
+![](/uploads/projects/ue-bluprint/20221218-17520331.png)
 
 ## Inputs
 
 Animation Sequence Base: Anim Sequence Base Object Reference.
 
-Time: Float (single-precision).  
+Time: Float (single-precision).
 
 ## Outputs
 
 Is Valid: Boolean.
-

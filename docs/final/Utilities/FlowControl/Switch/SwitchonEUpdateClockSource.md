@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14250167.png)
+![](/uploads/projects/ue-bluprint/20221218-14250167.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EUpdateClockSource Enum.  
+选择。EUpdateClockSource Enum.
 
 ## Outputs
 
@@ -28,17 +28,19 @@ Platform: Exec.
 
 自定义。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14250167.png)
+![](/uploads/projects/ue-bluprint/20221218-14250167.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EUpdateClockSource Enum.  
+Selection: EUpdateClockSource Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Timecode: Exec.
 Play Every Frame: Exec.
 
 Custom: Exec.
-

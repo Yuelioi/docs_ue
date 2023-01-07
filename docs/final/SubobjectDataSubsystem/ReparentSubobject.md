@@ -1,12 +1,12 @@
 # ReparentSubobject
 
-试图将给定的子对象重新parent到新的父对象上。
+试图将给定的子对象重新 parent 到新的父对象上。
 
 目标是子对象数据子系统
 
 ## 图示
 
-![]($-20221218-21060390.png)
+![](/uploads/projects/ue-bluprint/20221218-21060390.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 Params:上位子对象参数结构（通过参考）。
 
-到上级手柄。子对象数据句柄结构（通过引用）。将被移动的子对象的句柄。  
+到上级手柄。子对象数据句柄结构（通过引用）。将被移动的子对象的句柄。
 
 ## Outputs
 
@@ -24,13 +24,15 @@ Params:上位子对象参数结构（通过参考）。
 
 返回值。布尔值。如果重亲成功，则为真，否则为假。
 
+<hr>
+
 Attempts to reparent the given subobject to the new parent
 
 Target is Subobject Data Subsystem
 
 ## 图示
 
-![]($-20221218-21060390.png)
+![](/uploads/projects/ue-bluprint/20221218-21060390.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Subobject Data Subsystem Object Reference.
 
 Params: Reparent Subobject Params Structure (by ref).
 
-To Reparent Handle: Subobject Data Handle Structure (by ref). The handle of the subobject that will get moved.  
+To Reparent Handle: Subobject Data Handle Structure (by ref). The handle of the subobject that will get moved.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. True if the reparent was successful, false otherwise..
-

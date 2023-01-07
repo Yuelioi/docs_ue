@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14202385.png)
+![](/uploads/projects/ue-bluprint/20221218-14202385.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EHairCardsSourceType枚举。 
+选择。EHairCardsSourceType 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 进口的。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14202385.png)
+![](/uploads/projects/ue-bluprint/20221218-14202385.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EHairCardsSourceType Enum.  
+Selection: EHairCardsSourceType Enum.
 
 ## Outputs
 
 Procedural (Experimental): Exec.
 
 Imported: Exec.
-

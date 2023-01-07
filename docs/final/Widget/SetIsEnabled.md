@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21361493.png)
+![](/uploads/projects/ue-bluprint/20221218-21361493.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。小工具对象参考。
 
-In Is Enabled:布尔值。  
+In Is Enabled:布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the current enabled status of the widget
 
@@ -26,7 +28,7 @@ Target is Widget
 
 ## 图示
 
-![]($-20221218-21361493.png)
+![](/uploads/projects/ue-bluprint/20221218-21361493.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Widget Object Reference.
 
-In Is Enabled: Boolean.  
+In Is Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

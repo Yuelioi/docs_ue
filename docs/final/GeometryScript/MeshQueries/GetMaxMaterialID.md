@@ -1,22 +1,24 @@
 # GetMaxMaterialID
 
-获取最大材料ID
+获取最大材料 ID
 
 目标是几何脚本库网格材料功能
 
 ## 图示
 
-![]($-20221218-19115288.png)
+![](/uploads/projects/ue-bluprint/20221218-19115288.png)
 
 ## Inputs
 
-目标网格。动态网格对象参考。  
+目标网格。动态网格对象参考。
 
 ## Outputs
 
-有材料ID。布尔值。
+有材料 ID。布尔值。
 
-已启用。整数。获取最大材料ID。
+已启用。整数。获取最大材料 ID。
+
+<hr>
 
 Get Max Material ID
 
@@ -24,15 +26,14 @@ Target is Geometry Script Library Mesh Material Functions
 
 ## 图示
 
-![]($-20221218-19115288.png)
+![](/uploads/projects/ue-bluprint/20221218-19115288.png)
 
 ## Inputs
 
-Target Mesh: Dynamic Mesh Object Reference.  
+Target Mesh: Dynamic Mesh Object Reference.
 
 ## Outputs
 
 Has Material IDs: Boolean.
 
 Enabled: Integer. Get Max Material ID.
-

@@ -6,7 +6,7 @@ Target is Kismet System Library
 
 ## 图示
 
-![]($-20221218-18192168.png)
+![](/uploads/projects/ue-bluprint/20221218-18192168.png)
 
 ## Inputs
 
@@ -34,7 +34,7 @@ Trace Color: Linear Color Structure.
 
 Trace Hit Color: Linear Color Structure.
 
-Draw Time: Float (single-precision).  
+Draw Time: Float (single-precision).
 
 ## Outputs
 
@@ -43,13 +43,16 @@ Out: Exec.
 Out Hits: Array of Hit Result Structures. A list of hits, sorted along the trace from start to finish. The blocking hit will be the last hit, if there was one..
 
 Return Value: Boolean. True if there was a blocking hit, false otherwise..
+
+<hr>
+
 Sweeps a box along the given line and returns all hits encountered.. This trace finds the objects that RESPONDS to the given TraceChannel
 
 Target is Kismet System Library
 
 ## 图示
 
-![]($-20221218-18192168.png)
+![](/uploads/projects/ue-bluprint/20221218-18192168.png)
 
 ## Inputs
 
@@ -77,7 +80,7 @@ Trace Color: Linear Color Structure.
 
 Trace Hit Color: Linear Color Structure.
 
-Draw Time: Float (single-precision).  
+Draw Time: Float (single-precision).
 
 ## Outputs
 
@@ -86,4 +89,3 @@ Out: Exec.
 Out Hits: Array of Hit Result Structures. A list of hits, sorted along the trace from start to finish. The blocking hit will be the last hit, if there was one..
 
 Return Value: Boolean. True if there was a blocking hit, false otherwise..
-

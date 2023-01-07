@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18030412.png)
+![](/uploads/projects/ue-bluprint/20221218-18030412.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。音频组件对象参考。
 
-开始时间。浮点数（单精度）。开始读取声音的偏移量，单位是秒。 
+开始时间。浮点数（单精度）。开始读取声音的偏移量，单位是秒。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Begins playing the targeted Audio Component's sound at the designated Start Time, seeking into a sound.
 
@@ -26,7 +28,7 @@ Target is Audio Component
 
 ## 图示
 
-![]($-20221218-18030412.png)
+![](/uploads/projects/ue-bluprint/20221218-18030412.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Audio Component Object Reference.
 
-Start Time: Float (single-precision). The offset, in seconds, to begin reading the sound at.  
+Start Time: Float (single-precision). The offset, in seconds, to begin reading the sound at.
 
 ## Outputs
 
 Out: Exec.
-

@@ -2,15 +2,15 @@
 
 检索所有控制器的骨架跟踪水平
 
-目标是Steam VRInput设备功能库
+目标是 Steam VRInput 设备功能库
 
 ## 图示
 
-![]($-20221218-21042498.png)
+![](/uploads/projects/ue-bluprint/20221218-21042498.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ In: Exec.
 
 右边的控制器保真度。EControllerFidelity Enum.
 
+<hr>
+
 Retrieve skeletal tracking level for all controllers
 
 Target is Steam VRInput Device Function Library
 
 ## 图示
 
-![]($-20221218-21042498.png)
+![](/uploads/projects/ue-bluprint/20221218-21042498.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Out: Exec.
 Left Controller Fidelity: EControllerFidelity Enum.
 
 Right Controller Fidelity: EControllerFidelity Enum.
-

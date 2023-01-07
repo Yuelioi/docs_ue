@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21132491.png)
+![](/uploads/projects/ue-bluprint/20221218-21132491.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 节。工具菜单章节结构（按参考）。
 
-在对象中。工具菜单条目脚本对象参考。  
+在对象中。工具菜单条目脚本对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add Entry Object
 
@@ -26,7 +28,7 @@ Target is Tool Menu Section Extensions
 
 ## 图示
 
-![]($-20221218-21132491.png)
+![](/uploads/projects/ue-bluprint/20221218-21132491.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Section: Tool Menu Section Structure (by ref).
 
-In Object: Tool Menu Entry Script Object Reference.  
+In Object: Tool Menu Entry Script Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

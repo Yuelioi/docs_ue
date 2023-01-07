@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21244223.png)
+![](/uploads/projects/ue-bluprint/20221218-21244223.png)
 
 ## Inputs
 
@@ -18,13 +18,15 @@
 
 FOVDegrees。Float（单精度）。
 
-最小Z：浮点数（单精度）。
+最小 Z：浮点数（单精度）。
 
-伽马。Float（单精度）。  
+伽马。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Thumbnail from Camera
 
@@ -32,7 +34,7 @@ Target is Variant Set
 
 ## 图示
 
-![]($-20221218-21244223.png)
+![](/uploads/projects/ue-bluprint/20221218-21244223.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ FOVDegrees: Float (single-precision).
 
 Min Z: Float (single-precision).
 
-Gamma: Float (single-precision).  
+Gamma: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

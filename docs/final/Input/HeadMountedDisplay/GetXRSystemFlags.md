@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19235630.png)
+![](/uploads/projects/ue-bluprint/20221218-19235630.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。整数。IsAR, IsTablet, IsHeadMounted.返回错误。
 
+<hr>
+
 Returns the flags for the device, so scripts can modify their behaviour appropriately
 
 Target is Head Mounted Display Function Library
 
 ## 图示
 
-![]($-20221218-19235630.png)
+![](/uploads/projects/ue-bluprint/20221218-19235630.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Integer. IsAR, IsTablet, IsHeadMounted. Returns false.
-

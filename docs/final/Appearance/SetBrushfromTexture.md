@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17543561.png)
+![](/uploads/projects/ue-bluprint/20221218-17543561.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标：Border 对象参考。
 
-纹理。纹理2D对象参考。 
+纹理。纹理 2D 对象参考。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set Brush from Texture
 
@@ -26,7 +28,7 @@ Target is Border
 
 ## 图示
 
-![]($-20221218-17543561.png)
+![](/uploads/projects/ue-bluprint/20221218-17543561.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Border Object Reference.
 
-Texture: Texture 2D Object Reference.  
+Texture: Texture 2D Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

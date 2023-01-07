@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14220782.png)
+![](/uploads/projects/ue-bluprint/20221218-14220782.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EOculusMR_CompositionMethod Enum.  
+选择。EOculusMR_CompositionMethod Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 直接构成。构成：Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14220782.png)
+![](/uploads/projects/ue-bluprint/20221218-14220782.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EOculusMR_CompositionMethod Enum.  
+Selection: EOculusMR_CompositionMethod Enum.
 
 ## Outputs
 
 External Composition: Exec.
 
 Direct Composition: Exec.
-

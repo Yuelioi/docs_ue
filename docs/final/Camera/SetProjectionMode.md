@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18133122.png)
+![](/uploads/projects/ue-bluprint/20221218-18133122.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。相机组件对象参考。
 
-在投影模式中。ECameraProjectionMode枚举。 
+在投影模式中。ECameraProjectionMode 枚举。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Projection Mode
 
@@ -26,7 +28,7 @@ Target is Camera Component
 
 ## 图示
 
-![]($-20221218-18133122.png)
+![](/uploads/projects/ue-bluprint/20221218-18133122.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Camera Component Object Reference.
 
-In Projection Mode: ECameraProjectionMode Enum.  
+In Projection Mode: ECameraProjectionMode Enum.
 
 ## Outputs
 
 Out: Exec.
-

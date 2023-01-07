@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19465630.png)
+![](/uploads/projects/ue-bluprint/20221218-19465630.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 价值。纹理对象参考。
 
-协会。EMaterialParameterAssociation Enum.  
+协会。EMaterialParameterAssociation Enum.
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 返回值。布尔值。设置一个材质实例的纹理参数值。
 
+<hr>
+
 Set the texture parameter value for a Material Instance
 
 Target is Material Editing Library
 
 ## 图示
 
-![]($-20221218-19465630.png)
+![](/uploads/projects/ue-bluprint/20221218-19465630.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Parameter Name: Name.
 
 Value: Texture Object Reference.
 
-Association: EMaterialParameterAssociation Enum.  
+Association: EMaterialParameterAssociation Enum.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Set the texture parameter value for a Material Instance.
-

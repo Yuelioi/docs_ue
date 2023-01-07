@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21323911.png)
+![](/uploads/projects/ue-bluprint/20221218-21323911.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 在位置上。向量（由裁判）。
 
-包括深度。布尔型。  
+包括深度。布尔型。
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 出水深度。浮动（单精度）。
 
+<hr>
+
 Get Water Surface Info at Location
 
 Target is Water Body Component
 
 ## 图示
 
-![]($-20221218-21323911.png)
+![](/uploads/projects/ue-bluprint/20221218-21323911.png)
 
 ## Inputs
 
@@ -40,7 +42,7 @@ Target: Water Body Component Object Reference.
 
 In Location: Vector (by ref).
 
-Include Depth: Boolean.  
+Include Depth: Boolean.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Out Water Surface Normal: Vector.
 Out Water Velocity: Vector.
 
 Out Water Depth: Float (single-precision).
-

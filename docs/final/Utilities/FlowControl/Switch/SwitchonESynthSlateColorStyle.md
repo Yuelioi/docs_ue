@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14241930.png)
+![](/uploads/projects/ue-bluprint/20221218-14241930.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESynthSlateColorStyle Enum.  
+选择。ESynthSlateColorStyle Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ Light: Exec.
 
 深色: Exec.Ltd.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14241930.png)
+![](/uploads/projects/ue-bluprint/20221218-14241930.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESynthSlateColorStyle Enum.  
+Selection: ESynthSlateColorStyle Enum.
 
 ## Outputs
 
 Light: Exec.
 
 Dark: Exec.
-

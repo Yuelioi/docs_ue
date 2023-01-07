@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14174057.png)
+![](/uploads/projects/ue-bluprint/20221218-14174057.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EC ColorCorrectRegionsType枚举。 
+选择。EC ColorCorrectRegionsType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Box: Exec.
 
 锥体 Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14174057.png)
+![](/uploads/projects/ue-bluprint/20221218-14174057.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EColorCorrectRegionsType Enum.  
+Selection: EColorCorrectRegionsType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Box: Exec.
 Cylinder: Exec.
 
 Cone: Exec.
-

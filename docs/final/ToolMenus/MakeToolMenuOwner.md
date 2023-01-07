@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21135085.png)
+![](/uploads/projects/ue-bluprint/20221218-21135085.png)
 
 ## Inputs
 
-姓名：姓名  
+姓名：姓名
 
 ## Outputs
 
 返回值。工具菜单所有者结构。制作工具菜单所有者。
+
+<hr>
 
 Make Tool Menu Owner
 
@@ -22,13 +24,12 @@ Target is Tool Menu Entry Extensions
 
 ## 图示
 
-![]($-20221218-21135085.png)
+![](/uploads/projects/ue-bluprint/20221218-21135085.png)
 
 ## Inputs
 
-Name: Name.  
+Name: Name.
 
 ## Outputs
 
 Return Value: Tool Menu Owner Structure. Make Tool Menu Owner.
-

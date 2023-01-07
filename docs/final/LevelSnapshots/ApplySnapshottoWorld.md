@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19420444.png)
+![](/uploads/projects/ue-bluprint/20221218-19420444.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 快照。水平快照对象参考。
 
-可选的过滤器。水平快照过滤器对象参考。  
+可选的过滤器。水平快照过滤器对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Applies the snapshot to the world. If no filter is specified, the entire snapshot is applied.
 
@@ -26,7 +28,7 @@ Target is Level Snapshots Function Library
 
 ## 图示
 
-![]($-20221218-19420444.png)
+![](/uploads/projects/ue-bluprint/20221218-19420444.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Snapshot: Level Snapshot Object Reference.
 
-Optional Filter: Level Snapshot Filter Object Reference.  
+Optional Filter: Level Snapshot Filter Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

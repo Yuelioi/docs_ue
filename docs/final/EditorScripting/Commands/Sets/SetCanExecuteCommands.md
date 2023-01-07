@@ -2,11 +2,11 @@
 
 启用或禁用在给定集内注册的命令的执行。
 
-目标是UICommands脚本子系统
+目标是 UICommands 脚本子系统
 
 ## 图示
 
-![]($-20221218-18484008.png)
+![](/uploads/projects/ue-bluprint/20221218-18484008.png)
 
 ## Inputs
 
@@ -21,13 +21,16 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Enables or disables execution of commands registered within the given set
 
 Target is UICommands Scripting Subsystem
 
 ## 图示
 
-![]($-20221218-18484008.png)
+![](/uploads/projects/ue-bluprint/20221218-18484008.png)
 
 ## Inputs
 
@@ -37,9 +40,8 @@ Target: UICommands Scripting Subsystem Object Reference.
 
 Set Name: Name.
 
-Should Execute Commands: Boolean.  
+Should Execute Commands: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

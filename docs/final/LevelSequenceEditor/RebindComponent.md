@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19413909.png)
+![](/uploads/projects/ue-bluprint/20221218-19413909.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 组件绑定。序列器绑定代理结构的阵列。
 
-组件名称。名称（通过参考）。  
+组件名称。名称（通过参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Rebind the component binding to the requested component
 
@@ -28,7 +30,7 @@ Target is Level Sequence Editor Subsystem
 
 ## 图示
 
-![]($-20221218-19413909.png)
+![](/uploads/projects/ue-bluprint/20221218-19413909.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Level Sequence Editor Subsystem Object Reference.
 
 Component Bindings: Array of Sequencer Binding Proxy Structures.
 
-Component Name: Name (by ref).  
+Component Name: Name (by ref).
 
 ## Outputs
 
 Out: Exec.
-

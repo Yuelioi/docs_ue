@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21064444.png)
+![](/uploads/projects/ue-bluprint/20221218-21064444.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 所有笔记关闭：布尔值。
 
-杀死所有笔记。布尔值。  
+杀死所有笔记。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Stop the note (will only do anything if a voice is playing with that note)
 
@@ -30,7 +32,7 @@ Target is Modular Synth Component
 
 ## 图示
 
-![]($-20221218-21064444.png)
+![](/uploads/projects/ue-bluprint/20221218-21064444.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Note: Float (single-precision).
 
 All Notes Off: Boolean.
 
-Kill All Notes: Boolean.  
+Kill All Notes: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

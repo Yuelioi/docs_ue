@@ -1,12 +1,12 @@
 # SetCustomAdjustRGBCurve
 
-设置自定义调整RGBC曲线
+设置自定义调整 RGBC 曲线
 
 目标是互换纹理工厂节点
 
 ## 图示
 
-![]($-20221218-19350626.png)
+![](/uploads/projects/ue-bluprint/20221218-19350626.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 属性值。Float（单精度）（通过引用）。
 
-添加应用代表。Boolean.  
+添加应用代表。Boolean.
 
 ## Outputs
 
 出：执行。
 
-返回值。布尔值。设置自定义调整RGBCurve。
+返回值。布尔值。设置自定义调整 RGBCurve。
+
+<hr>
 
 Set Custom Adjust RGBCurve
 
@@ -30,7 +32,7 @@ Target is Interchange Texture Factory Node
 
 ## 图示
 
-![]($-20221218-19350626.png)
+![](/uploads/projects/ue-bluprint/20221218-19350626.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Interchange Texture Factory Node Object Reference.
 
 Attribute Value: Float (single-precision) (by ref).
 
-Add Apply Delegate: Boolean.  
+Add Apply Delegate: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Set Custom Adjust RGBCurve.
-

@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21201623.png)
+![](/uploads/projects/ue-bluprint/20221218-21201623.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Rig Hierarchy对象参考。
+目标。Rig Hierarchy 对象参考。
 
 在关键。钻机元素键结构。为其设置转换的键。
 
@@ -22,11 +22,13 @@
 
 影响儿童。布尔值。如果设置为 "false"，儿童将不会移动（保持全局）。
 
-设置撤销。布尔值。如果为真，转换栈将被设置为撤销/重做。  
+设置撤销。布尔值。如果为真，转换栈将被设置为撤销/重做。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the global current or initial transform for a given key.
 
@@ -34,7 +36,7 @@ Target is Rig Hierarchy
 
 ## 图示
 
-![]($-20221218-21201623.png)
+![](/uploads/projects/ue-bluprint/20221218-21201623.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Initial: Boolean. If true the initial transform will be used.
 
 Affect Children: Boolean. If set to false children will not move (maintain global)..
 
-Setup Undo: Boolean. If true the transform stack will be setup for undo / redo.  
+Setup Undo: Boolean. If true the transform stack will be setup for undo / redo.
 
 ## Outputs
 
 Out: Exec.
-

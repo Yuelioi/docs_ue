@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14202298.png)
+![](/uploads/projects/ue-bluprint/20221218-14202298.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EHairCardsGenerationType枚举。 
+选择。EHairCardsGenerationType 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 Use Guides: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14202298.png)
+![](/uploads/projects/ue-bluprint/20221218-14202298.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EHairCardsGenerationType Enum.  
+Selection: EHairCardsGenerationType Enum.
 
 ## Outputs
 
 Cards Count: Exec.
 
 Use Guides: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18551342.png)
+![](/uploads/projects/ue-bluprint/20221218-18551342.png)
 
 ## Inputs
 
@@ -16,19 +16,19 @@
 
 附加到组件。场景组件对象参考。
 
-附加点名称。名称。在AttachComponent中可选的命名点，用于生成发射器。
+附加点名称。名称。在 AttachComponent 中可选的命名点，用于生成发射器。
 
-位置。矢量。根据LocationType的值，这是一个从附加组件/点开始的相对偏移，或者是一个绝对的世界位置，将被翻译成相对偏移（如果LocationType是KeepWorldPosition）。
+位置。矢量。根据 LocationType 的值，这是一个从附加组件/点开始的相对偏移，或者是一个绝对的世界位置，将被翻译成相对偏移（如果 LocationType 是 KeepWorldPosition）。
 
-Rotation（旋转）。旋转器。取决于LocationType的值，它要么是一个从附加组件/点开始的相对偏移，要么是一个绝对的世界旋转，它将被翻译成一个相对偏移（如果LocationType是KeepWorldPosition）。
+Rotation（旋转）。旋转器。取决于 LocationType 的值，它要么是一个从附加组件/点开始的相对偏移，要么是一个绝对的世界旋转，它将被翻译成一个相对偏移（如果 LocationType 是 KeepWorldPosition）。
 
-Scale（刻度）。矢量。取决于LocationType的值，它要么是一个来自附加组件的相对比例，要么是一个绝对的世界比例，它将被转换为一个相对比例（如果LocationType是KeepWorldPosition）。
+Scale（刻度）。矢量。取决于 LocationType 的值，它要么是一个来自附加组件的相对比例，要么是一个绝对的世界比例，它将被转换为一个相对比例（如果 LocationType 是 KeepWorldPosition）。
 
-位置类型。EAttachLocation枚举。指定Location是相对偏移还是绝对世界位置。
+位置类型。EAttachLocation 枚举。指定 Location 是相对偏移还是绝对世界位置。
 
 Auto Destroy：布尔值。当粒子系统完成播放时，该组件是否会自动销毁，或者是否可以重新激活。
 
-池化方法。EPSCPoolMethod枚举。用于池化该组件的方法。默认为无。
+池化方法。EPSCPoolMethod 枚举。用于池化该组件的方法。默认为无。
 
 Auto Activate（自动激活）。Boolean（布尔）。该组件是否在创建时自动激活。
 
@@ -37,13 +37,16 @@ Auto Activate（自动激活）。Boolean（布尔）。该组件是否在创建
 输出。执行。
 
 返回值。粒子系统组件对象参考。
+
+<hr>
+
 Plays the specified effect attached to and following the specified component. The system will go away when the effect is complete. Does not replicate.
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18551342.png)
+![](/uploads/projects/ue-bluprint/20221218-18551342.png)
 
 ## Inputs
 
@@ -67,11 +70,10 @@ Auto Destroy: Boolean. Whether the component will automatically be destroyed whe
 
 Pooling Method: EPSCPoolMethod Enum. Method used for pooling this component. Defaults to none..
 
-Auto Activate: Boolean. Whether the component will be automatically activated on creation..  
+Auto Activate: Boolean. Whether the component will be automatically activated on creation..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Particle System Component Object Reference.
-

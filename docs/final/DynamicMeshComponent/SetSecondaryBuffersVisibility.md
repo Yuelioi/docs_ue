@@ -1,12 +1,12 @@
 # SetSecondaryBuffersVisibility
 
-显示/隐藏辅助三角形缓冲区。不会使SceneProxy失效。
+显示/隐藏辅助三角形缓冲区。不会使 SceneProxy 失效。
 
 目标是基础动态网格组件
 
 ## 图示
 
-![]($-20221218-18461831.png)
+![](/uploads/projects/ue-bluprint/20221218-18461831.png)
 
 ## Inputs
 
@@ -19,13 +19,16 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Show/Hide the secondary triangle buffers. Does not invalidate SceneProxy.
 
 Target is Base Dynamic Mesh Component
 
 ## 图示
 
-![]($-20221218-18461831.png)
+![](/uploads/projects/ue-bluprint/20221218-18461831.png)
 
 ## Inputs
 
@@ -33,9 +36,8 @@ In: Exec.
 
 Target: Base Dynamic Mesh Component Object Reference.
 
-Set Visible: Boolean.  
+Set Visible: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14203562.png)
+![](/uploads/projects/ue-bluprint/20221218-14203562.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EImplicitTypeEnum枚举。 
+选择。EImplicitTypeEnum 枚举。
 
 ## Outputs
 
@@ -26,17 +26,19 @@ Capsule（胶囊）。防御性
 
 凸面 Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14203562.png)
+![](/uploads/projects/ue-bluprint/20221218-14203562.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EImplicitTypeEnum Enum.  
+Selection: EImplicitTypeEnum Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Level Set: Exec.
 None: Exec.
 
 Convex: Exec.
-

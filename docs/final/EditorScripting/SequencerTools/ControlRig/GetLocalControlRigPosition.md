@@ -1,12 +1,12 @@
 # GetLocalControlRigPosition
 
-获取ControlRig控件在某一特定时间的位置值
+获取 ControlRig 控件在某一特定时间的位置值
 
-目标是Control Rig Sequencer Editor Library
+目标是 Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18525190.png)
+![](/uploads/projects/ue-bluprint/20221218-18525190.png)
 
 ## Inputs
 
@@ -20,20 +20,23 @@
 
 框架。帧号结构。获取数值的时间。
 
-时间单位。ESequenceTimeUnit枚举。帧值的单位，可以是显示率，也可以是tick分辨率。
+时间单位。ESequenceTimeUnit 枚举。帧值的单位，可以是显示率，也可以是 tick 分辨率。
 
 ## Outputs
 
 出：执行。
 
 返回值。矢量。返回当时的值。
+
+<hr>
+
 Get ControlRig Control's Position value at a specific time
 
 Target is Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18525190.png)
+![](/uploads/projects/ue-bluprint/20221218-18525190.png)
 
 ## Inputs
 
@@ -47,11 +50,10 @@ Control Name: Name. Name of the Control, should be a Position control.
 
 Frame: Frame Number Structure. Time to get the value.
 
-Time Unit: ESequenceTimeUnit Enum. Unit for frame values, either in display rate or tick resolution.  
+Time Unit: ESequenceTimeUnit Enum. Unit for frame values, either in display rate or tick resolution.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Vector. Returns Value at that time.
-

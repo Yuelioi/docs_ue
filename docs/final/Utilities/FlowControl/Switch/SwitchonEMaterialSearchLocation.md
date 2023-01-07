@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14212032.png)
+![](/uploads/projects/ue-bluprint/20221218-14212032.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMaterialSearchLocation Enum.  
+选择。EMaterialSearchLocation Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@
 
 不要搜索。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14212032.png)
+![](/uploads/projects/ue-bluprint/20221218-14212032.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMaterialSearchLocation Enum.  
+Selection: EMaterialSearchLocation Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Under Root: Exec.
 All Assets: Exec.
 
 Do Not Search: Exec.
-

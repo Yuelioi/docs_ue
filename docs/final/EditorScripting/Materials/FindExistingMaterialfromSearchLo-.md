@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18514803.png)
+![](/uploads/projects/ue-bluprint/20221218-18514803.png)
 
 ## Inputs
 
@@ -25,13 +25,16 @@
 出错：文本。
 
 返回值。材料界面对象参考。从搜索位置找到现有的材料。
+
+<hr>
+
 Find Existing Material from Search Location
 
 Target is Material Import Helpers
 
 ## 图示
 
-![]($-20221218-18514803.png)
+![](/uploads/projects/ue-bluprint/20221218-18514803.png)
 
 ## Inputs
 
@@ -41,7 +44,7 @@ Material Full Name: String.
 
 Base Package Path: String.
 
-Search Location: EMaterialSearchLocation Enum.  
+Search Location: EMaterialSearchLocation Enum.
 
 ## Outputs
 
@@ -50,4 +53,3 @@ Out: Exec.
 Out Error: Text.
 
 Return Value: Material Interface Object Reference. Find Existing Material from Search Location.
-

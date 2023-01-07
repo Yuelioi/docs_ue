@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21105730.png)
+![](/uploads/projects/ue-bluprint/20221218-21105730.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Stop recording if there is a recorder currently active
 
@@ -22,13 +24,12 @@ Target is Take Recorder Blueprint Library
 
 ## 图示
 
-![]($-20221218-21105730.png)
+![](/uploads/projects/ue-bluprint/20221218-21105730.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14221831.png)
+![](/uploads/projects/ue-bluprint/20221218-14221831.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EPathFollowingRequestResult枚举。 
+选择。EPathFollowingRequestResult 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Already At Goal: Exec.
 
 请求成功。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14221831.png)
+![](/uploads/projects/ue-bluprint/20221218-14221831.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EPathFollowingRequestResult Enum.  
+Selection: EPathFollowingRequestResult Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Failed: Exec.
 Already At Goal: Exec.
 
 Request Successful: Exec.
-

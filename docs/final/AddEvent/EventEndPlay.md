@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-17450865.png)
+![](/uploads/projects/ue-bluprint/20221218-17450865.png)
 
 ## Inputs
 
 ## Outputs
 
-输出Delegate。委托。
+输出 Delegate。委托。
 
 输出。Exec.
 
 结束游戏的原因。EEndPlayReason Enum.
+
+<hr>
 
 Event to notify blueprints this actor is being deleted or removed from a level.
 
@@ -24,7 +26,7 @@ Target is Actor
 
 ## 图示
 
-![]($-20221218-17450865.png)
+![](/uploads/projects/ue-bluprint/20221218-17450865.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Output Delegate: Delegate.
 Out: Exec.
 
 End Play Reason: EEndPlayReason Enum.
-

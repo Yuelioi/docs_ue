@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14175197.png)
+![](/uploads/projects/ue-bluprint/20221218-14175197.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EContentBrowserPathType枚举。 
+选择。EContentBrowserPathType 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 虚拟：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14175197.png)
+![](/uploads/projects/ue-bluprint/20221218-14175197.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EContentBrowserPathType Enum.  
+Selection: EContentBrowserPathType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ None: Exec.
 Internal: Exec.
 
 Virtual: Exec.
-

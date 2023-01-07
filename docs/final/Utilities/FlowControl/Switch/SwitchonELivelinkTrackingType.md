@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14210884.png)
+![](/uploads/projects/ue-bluprint/20221218-14210884.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ELivelinkTrackingType枚举。 
+选择。ELivelinkTrackingType 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 姿势跟踪：执行。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14210884.png)
+![](/uploads/projects/ue-bluprint/20221218-14210884.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ELivelinkTrackingType Enum.  
+Selection: ELivelinkTrackingType Enum.
 
 ## Outputs
 
 Face Tracking: Exec.
 
 Pose Tracking: Exec.
-

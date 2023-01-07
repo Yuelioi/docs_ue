@@ -2,11 +2,11 @@
 
 附加圆柱体
 
-目标是Geometry Script Library Mesh Primitive Functions
+目标是 Geometry Script Library Mesh Primitive Functions
 
 ## 图示
 
-![]($-20221218-19125125.png)
+![](/uploads/projects/ue-bluprint/20221218-19125125.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标网格。动态网格对象参考。
 
-原始选项。Geometry Script Primitive Options结构。
+原始选项。Geometry Script Primitive Options 结构。
 
 改造：改造。
 
@@ -28,9 +28,9 @@
 
 上限。布尔值。
 
-原产地。EGeometryScriptPrimitiveOriginMode枚举。
+原产地。EGeometryScriptPrimitiveOriginMode 枚举。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -38,13 +38,15 @@
 
 目标网格。动态网格对象参考。附加圆柱体。
 
+<hr>
+
 Append Cylinder
 
 Target is Geometry Script Library Mesh Primitive Functions
 
 ## 图示
 
-![]($-20221218-19125125.png)
+![](/uploads/projects/ue-bluprint/20221218-19125125.png)
 
 ## Inputs
 
@@ -68,11 +70,10 @@ Capped: Boolean.
 
 Origin: EGeometryScriptPrimitiveOriginMode Enum.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Append Cylinder.
-

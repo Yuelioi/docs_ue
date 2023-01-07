@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14224651.png)
+![](/uploads/projects/ue-bluprint/20221218-14224651.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERangeBoundTypes Enum.  
+选择。ERangeBoundTypes Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 开放式。独家: 独家
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14224651.png)
+![](/uploads/projects/ue-bluprint/20221218-14224651.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERangeBoundTypes Enum.  
+Selection: ERangeBoundTypes Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Exclusive: Exec.
 Inclusive: Exec.
 
 Open: Exec.
-

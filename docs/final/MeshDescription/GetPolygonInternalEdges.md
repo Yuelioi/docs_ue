@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20040217.png)
+![](/uploads/projects/ue-bluprint/20221218-20040217.png)
 
 ## Inputs
 
 目标。网格描述 基本对象参考。
 
-多边形ID：多边形ID结构。  
+多边形 ID：多边形 ID 结构。
 
 ## Outputs
 
-Out Edge IDs。边缘ID结构的数组。
+Out Edge IDs。边缘 ID 结构的数组。
+
+<hr>
 
 Populate the provided array with a list of edges which are internal to the polygon, i.e. those which separate. constituent triangles.
 
@@ -24,15 +26,14 @@ Target is Mesh Description Base
 
 ## 图示
 
-![]($-20221218-20040217.png)
+![](/uploads/projects/ue-bluprint/20221218-20040217.png)
 
 ## Inputs
 
 Target: Mesh Description Base Object Reference.
 
-Polygon ID: Polygon ID Structure.  
+Polygon ID: Polygon ID Structure.
 
 ## Outputs
 
 Out Edge IDs: Array of Edge ID Structures.
-

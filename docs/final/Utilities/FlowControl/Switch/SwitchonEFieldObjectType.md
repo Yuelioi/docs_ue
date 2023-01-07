@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14190568.png)
+![](/uploads/projects/ue-bluprint/20221218-14190568.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFieldObjectType Enum.  
+选择。EFieldObjectType Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Cloth: Exec.
 
 全部：Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14190568.png)
+![](/uploads/projects/ue-bluprint/20221218-14190568.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFieldObjectType Enum.  
+Selection: EFieldObjectType Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Destruction: Exec.
 Character: Exec.
 
 All: Exec.
-

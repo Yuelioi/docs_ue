@@ -1,12 +1,12 @@
 # InjectInputforAction_Message
 
-通过注入进行输入模拟。运行修改器和触发器委托，就像输入是通过底层输入系统的FKeys一样。在上面应用动作修改器和触发器。
+通过注入进行输入模拟。运行修改器和触发器委托，就像输入是通过底层输入系统的 FKeys 一样。在上面应用动作修改器和触发器。
 
 目标是增强型输入子系统接口
 
 ## 图示
 
-![]($-20221218-19241716.png)
+![](/uploads/projects/ue-bluprint/20221218-19241716.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 修改器。输入修改器对象参考数组。要应用于注入的输入的修改器。
 
-触发器。输入触发器对象参考数组。适用于注入的输入的触发器。  
+触发器。输入触发器对象参考数组。适用于注入的输入的触发器。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Input simulation via injection. Runs modifiers and triggers delegates as if the input had come through the underlying input system as FKeys.. Applies action modifiers and triggers on top.
 
@@ -32,7 +34,7 @@ Target is Enhanced Input Subsystem Interface
 
 ## 图示
 
-![]($-20221218-19241716.png)
+![](/uploads/projects/ue-bluprint/20221218-19241716.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Raw Value: Input Action Value Structure. The value to set the action to.
 
 Modifiers: Array of Input Modifier Object References. The modifiers to apply to the injected input..
 
-Triggers: Array of Input Trigger Object References. The triggers to apply to the injected input..  
+Triggers: Array of Input Trigger Object References. The triggers to apply to the injected input..
 
 ## Outputs
 
 Out: Exec.
-

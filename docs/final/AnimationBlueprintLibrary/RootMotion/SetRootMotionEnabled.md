@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17525106.png)
+![](/uploads/projects/ue-bluprint/20221218-17525106.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 动画序列。Anim Sequence Object Reference.
 
-启用。Boolean（布尔）。 
+启用。Boolean（布尔）。
 
 ## Outputs
 
 出来。执行：执行。
+
+<hr>
 
 Sets whether or not Root Motion is Enabled for the given Animation Sequence
 
@@ -26,7 +28,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17525106.png)
+![](/uploads/projects/ue-bluprint/20221218-17525106.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Animation Sequence: Anim Sequence Object Reference.
 
-Enabled: Boolean.  
+Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

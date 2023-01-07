@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20073899.png)
+![](/uploads/projects/ue-bluprint/20221218-20073899.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。运动轨迹组件对象参考。
 
-速率。整数。  
+速率。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Changes the history and prediction sample rate for the component
 
@@ -26,7 +28,7 @@ Target is Motion Trajectory Component
 
 ## 图示
 
-![]($-20221218-20073899.png)
+![](/uploads/projects/ue-bluprint/20221218-20073899.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Motion Trajectory Component Object Reference.
 
-Rate: Integer.  
+Rate: Integer.
 
 ## Outputs
 
 Out: Exec.
-

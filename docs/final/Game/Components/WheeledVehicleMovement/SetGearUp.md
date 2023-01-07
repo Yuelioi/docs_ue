@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19051536.png)
+![](/uploads/projects/ue-bluprint/20221218-19051536.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。轮式车辆运动组件对象参考。
 
-新装备：布尔。  
+新装备：布尔。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the user input for gear up
 
@@ -26,7 +28,7 @@ Target is Wheeled Vehicle Movement Component
 
 ## 图示
 
-![]($-20221218-19051536.png)
+![](/uploads/projects/ue-bluprint/20221218-19051536.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Wheeled Vehicle Movement Component Object Reference.
 
-New Gear Up: Boolean.  
+New Gear Up: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

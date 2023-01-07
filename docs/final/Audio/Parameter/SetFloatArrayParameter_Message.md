@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18065738.png)
+![](/uploads/projects/ue-bluprint/20221218-18065738.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在名称。名称。
 
-在值中。Float（单精度）的数组。 
+在值中。Float（单精度）的数组。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets a named Float Array
 
@@ -28,7 +30,7 @@ Target is Audio Parameter Controller Interface
 
 ## 图示
 
-![]($-20221218-18065738.png)
+![](/uploads/projects/ue-bluprint/20221218-18065738.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Object Reference.
 
 In Name: Name.
 
-In Value: Array of Float (single-precision)s.  
+In Value: Array of Float (single-precision)s.
 
 ## Outputs
 
 Out: Exec.
-

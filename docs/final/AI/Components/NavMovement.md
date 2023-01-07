@@ -1,16 +1,12 @@
 # NavMovement
 
-在这个页面上 
+在这个页面上
 
-  *行动
-
-
-
-
+\*行动
 
 ## Actions
 
-Is Crouching. 如果当前蹲下，则返回true：目标是导航运动组件。
+Is Crouching. 如果当前蹲下，则返回 true：目标是导航运动组件。
 
 是否坠落。如果当前正在下降（不是飞行，在一个非流体体中，并且不在地面上），则返回真。目标是导航运动组件。
 
@@ -20,13 +16,11 @@ Is Crouching. 如果当前蹲下，则返回true：目标是导航运动组件�
 
 正在游泳。如果当前正在游泳（在流体中移动），则返回真。目标是导航运动组件。
 
-On this page 
+<hr>
 
-  * Actions
+On this page
 
-
-
-
+- Actions
 
 ## Actions
 
@@ -39,4 +33,3 @@ Is Flying. Returns true if currently flying (moving through a non-fluid volume w
 Is Moving on Ground. Returns true if currently moving on the ground (e.g. walking or driving): Target is Nav Movement Component.
 
 Is Swimming. Returns true if currently swimming (moving through a fluid volume): Target is Nav Movement Component.
-

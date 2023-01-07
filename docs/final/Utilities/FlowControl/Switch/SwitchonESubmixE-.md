@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14240049.png)
+![](/uploads/projects/ue-bluprint/20221218-14240049.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESubmixEffectDynamicsChannelLinkMode枚举。 
+选择。ESubmixEffectDynamicsChannelLinkMode 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 峰值。执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14240049.png)
+![](/uploads/projects/ue-bluprint/20221218-14240049.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESubmixEffectDynamicsChannelLinkMode Enum.  
+Selection: ESubmixEffectDynamicsChannelLinkMode Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Disabled: Exec.
 Average: Exec.
 
 Peak: Exec.
-

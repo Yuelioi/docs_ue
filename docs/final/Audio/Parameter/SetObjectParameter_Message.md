@@ -1,12 +1,12 @@
 # SetObjectParameter_Message
 
-设置一个命名的UObject
+设置一个命名的 UObject
 
 目标是音频参数控制器接口
 
 ## 图示
 
-![]($-20221218-18070878.png)
+![](/uploads/projects/ue-bluprint/20221218-18070878.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在名称。名称。
 
-在值中。对象引用。 
+在值中。对象引用。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets a named UObject
 
@@ -28,7 +30,7 @@ Target is Audio Parameter Controller Interface
 
 ## 图示
 
-![]($-20221218-18070878.png)
+![](/uploads/projects/ue-bluprint/20221218-18070878.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Object Reference.
 
 In Name: Name.
 
-In Value: Object Reference.  
+In Value: Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

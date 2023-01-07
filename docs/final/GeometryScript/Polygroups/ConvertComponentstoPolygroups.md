@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19123480.png)
+![](/uploads/projects/ue-bluprint/20221218-19123480.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 组图层。Geometry Script Group Layer Structure.
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
 出：执行。
 
-目标网格。动态网格对象参考。将组件转换为Polygroups。
+目标网格。动态网格对象参考。将组件转换为 Polygroups。
+
+<hr>
 
 Convert Components to Polygroups
 
@@ -30,7 +32,7 @@ Target is Geometry Script Library Mesh Polygroup Functions
 
 ## 图示
 
-![]($-20221218-19123480.png)
+![](/uploads/projects/ue-bluprint/20221218-19123480.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target Mesh: Dynamic Mesh Object Reference.
 
 Group Layer: Geometry Script Group Layer Structure.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Convert Components to Polygroups.
-

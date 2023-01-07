@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-18311383.png)
+![](/uploads/projects/ue-bluprint/20221218-18311383.png)
 
 ## Inputs
 
 在。执行。
 
-在选定的对象中。对象参考。 
+在选定的对象中。对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。控制钻机蓝图对象参考。
 
+<hr>
+
 Create a new control rig asset within the contents space of the project. based on a skeletal mesh or skeleton object.
 
 Target is Control Rig Blueprint Factory
 
 ## 图示
 
-![]($-20221218-18311383.png)
+![](/uploads/projects/ue-bluprint/20221218-18311383.png)
 
 ## Inputs
 
 In: Exec.
 
-In Selected Object: Object Reference.  
+In Selected Object: Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Control Rig Blueprint Object Reference.
-

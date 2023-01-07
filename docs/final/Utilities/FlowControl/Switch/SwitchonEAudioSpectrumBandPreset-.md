@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14170575.png)
+![](/uploads/projects/ue-bluprint/20221218-14170575.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAudioSpectrumBandPresetType枚举。 
+选择。EAudioSpectrumBandPresetType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Snare Drum: Exec.
 
 Cymbals: 执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14170575.png)
+![](/uploads/projects/ue-bluprint/20221218-14170575.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAudioSpectrumBandPresetType Enum.  
+Selection: EAudioSpectrumBandPresetType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Snare Drum: Exec.
 Voice: Exec.
 
 Cymbals: Exec.
-

@@ -2,11 +2,11 @@
 
 再生多莉轨道从点光滑
 
-目标是VPCamera蓝图库
+目标是 VPCamera 蓝图库
 
 ## 图示
 
-![]($-20221218-21313861.png)
+![](/uploads/projects/ue-bluprint/20221218-21313861.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 点。阵列的转换。
 
-Interp类型。ESplinePointType Enum.  
+Interp 类型。ESplinePointType Enum.
 
 ## Outputs
 
@@ -24,13 +24,15 @@ Interp类型。ESplinePointType Enum.
 
 返回值。摄像机支架轨道对象参考。从点平滑生成多莉轨道。
 
+<hr>
+
 Spawn Dolly Track from Points Smooth
 
 Target is VPCamera Blueprint Library
 
 ## 图示
 
-![]($-20221218-21313861.png)
+![](/uploads/projects/ue-bluprint/20221218-21313861.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ World Context Object: Object Reference.
 
 Points: Array of Transforms.
 
-Interp Type: ESplinePointType Enum.  
+Interp Type: ESplinePointType Enum.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Camera Rig Rail Object Reference. Spawn Dolly Track from Points Smooth.
-

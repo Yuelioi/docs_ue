@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20101608.png)
+![](/uploads/projects/ue-bluprint/20221218-20101608.png)
 
 ## Inputs
 
 在。执行。
 
-客户端配置。多用户客户端配置结构（参考）。  
+客户端配置。多用户客户端配置结构（参考）。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。布尔值。配置多用户客户端。
 
+<hr>
+
 Configure the Multi-User client.
 
 Target is Multi User Client Statics
 
 ## 图示
 
-![]($-20221218-20101608.png)
+![](/uploads/projects/ue-bluprint/20221218-20101608.png)
 
 ## Inputs
 
 In: Exec.
 
-Client Config: Multi User Client Config Structure (by ref).  
+Client Config: Multi User Client Config Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Configure the Multi-User client..
-

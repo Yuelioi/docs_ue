@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21032249.png)
+![](/uploads/projects/ue-bluprint/20221218-21032249.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。静态网格对象参考。
 
-Num: 整数。  
+Num: 整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Num Source Models
 
@@ -26,7 +28,7 @@ Target is Static Mesh
 
 ## 图示
 
-![]($-20221218-21032249.png)
+![](/uploads/projects/ue-bluprint/20221218-21032249.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Static Mesh Object Reference.
 
-Num: Integer.  
+Num: Integer.
 
 ## Outputs
 
 Out: Exec.
-

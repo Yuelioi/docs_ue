@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14174230.png)
+![](/uploads/projects/ue-bluprint/20221218-14174230.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ECommonInputType枚举。 
+选择。ECommonInputType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Gamepad: Exec.
 
 计数。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14174230.png)
+![](/uploads/projects/ue-bluprint/20221218-14174230.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ECommonInputType Enum.  
+Selection: ECommonInputType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Gamepad: Exec.
 Touch: Exec.
 
 Count: Exec.
-

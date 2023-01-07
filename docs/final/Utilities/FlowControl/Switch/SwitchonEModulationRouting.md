@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14213523.png)
+![](/uploads/projects/ue-bluprint/20221218-14213523.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EModulationRouting Enum.  
+选择。EModulationRouting Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Inherit: Exec.
 
 Override: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14213523.png)
+![](/uploads/projects/ue-bluprint/20221218-14213523.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EModulationRouting Enum.  
+Selection: EModulationRouting Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Disable: Exec.
 Inherit: Exec.
 
 Override: Exec.
-

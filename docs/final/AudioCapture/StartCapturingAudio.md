@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18083906.png)
+![](/uploads/projects/ue-bluprint/20221218-18083906.png)
 
 ## Inputs
 
 在。执行。
 
-目标。音频采集对象参考。 
+目标。音频采集对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Starts capturing audio
 
@@ -24,15 +26,14 @@ Target is Audio Capture
 
 ## 图示
 
-![]($-20221218-18083906.png)
+![](/uploads/projects/ue-bluprint/20221218-18083906.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Audio Capture Object Reference.  
+Target: Audio Capture Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

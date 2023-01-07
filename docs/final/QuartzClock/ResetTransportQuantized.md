@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20320977.png)
+![](/uploads/projects/ue-bluprint/20221218-20320977.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 在量化边界。石英量化边界结构。
 
-在代表。代表（由裁判）。  
+在代表。代表（由裁判）。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 时钟拉手。石英钟拉手对象参考。
 
+<hr>
+
 Reset Transport Quantized
 
 Target is Quartz Clock Handle
 
 ## 图示
 
-![]($-20221218-20320977.png)
+![](/uploads/projects/ue-bluprint/20221218-20320977.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Quartz Clock Handle Object Reference.
 
 In Quantization Boundary: Quartz Quantization Boundary Structure.
 
-In Delegate: Delegate (by ref).  
+In Delegate: Delegate (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Clock Handle: Quartz Clock Handle Object Reference.
-

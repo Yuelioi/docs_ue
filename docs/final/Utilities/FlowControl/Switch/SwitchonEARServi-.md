@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14164419.png)
+![](/uploads/projects/ue-bluprint/20221218-14164419.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARServicePermissionRequestResult枚举。 
+选择。EARServicePermissionRequestResult 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 被拒绝。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14164419.png)
+![](/uploads/projects/ue-bluprint/20221218-14164419.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARServicePermissionRequestResult Enum.  
+Selection: EARServicePermissionRequestResult Enum.
 
 ## Outputs
 
 Granted: Exec.
 
 Denied: Exec.
-

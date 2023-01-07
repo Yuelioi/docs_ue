@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19000052.png)
+![](/uploads/projects/ue-bluprint/20221218-19000052.png)
 
 ## Inputs
 
@@ -14,9 +14,9 @@
 
 场的大小。Float（单精度）。平面漂移场的大小。
 
-最小范围。Float（单精度）。0到1之间的初始函数值将在MinRange和MaxRange之间进行缩放，然后乘以幅度。
+最小范围。Float（单精度）。0 到 1 之间的初始函数值将在 MinRange 和 MaxRange 之间进行缩放，然后乘以幅度。
 
-最大范围。Float（单精度）。0到1之间的初始函数值将在MinRange和MaxRange之间进行缩放，然后再乘以幅度。
+最大范围。Float（单精度）。0 到 1 之间的初始函数值将在 MinRange 和 MaxRange 之间进行缩放，然后再乘以幅度。
 
 默认值。Float（单精度）。如果样本投影距离（（样本位置-中心位置）.dot（平面法线））高于平面距离，该字段值将被设置为默认值。
 
@@ -26,18 +26,21 @@
 
 平面法线。向量。平面法线的平面漂移区域。
 
-Falloff类型。EFieldFalloffType枚举。用于模拟从平面到距离等值面的场的演变的衰减函数类型。
+Falloff 类型。EFieldFalloffType 枚举。用于模拟从平面到距离等值面的场的演变的衰减函数类型。
 
 ## Outputs
 
 返回值。平面漂移对象参考。
+
+<hr>
+
 Plane scalar field that will be defined only within a distance from a plane
 
 Target is Plane Falloff
 
 ## 图示
 
-![]($-20221218-19000052.png)
+![](/uploads/projects/ue-bluprint/20221218-19000052.png)
 
 ## Inputs
 
@@ -57,9 +60,8 @@ Center Position: Vector. Plane center position of the plane falloff field.
 
 Plane Normal: Vector. Plane normal of the plane falloff field.
 
-Falloff Type: EFieldFalloffType Enum. Type of falloff function used to model the evolution of the field from the plane surface to the distance isosurface.  
+Falloff Type: EFieldFalloffType Enum. Type of falloff function used to model the evolution of the field from the plane surface to the distance isosurface.
 
 ## Outputs
 
 Return Value: Plane Falloff Object Reference.
-

@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-19070928.png)
+![](/uploads/projects/ue-bluprint/20221218-19070928.png)
 
 ## Inputs
 
-目标。玩家控制器对象参考。  
+目标。玩家控制器对象参考。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 加速。矢量。
 
+<hr>
+
 Retrieves the current motion state of the player's input device
 
 Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19070928.png)
+![](/uploads/projects/ue-bluprint/20221218-19070928.png)
 
 ## Inputs
 
-Target: Player Controller Object Reference.  
+Target: Player Controller Object Reference.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Rotation Rate: Vector.
 Gravity: Vector.
 
 Acceleration: Vector.
-

@@ -1,12 +1,12 @@
 # PlayAnim
 
-对于AnimSequence具体*来说
+对于 AnimSequence 具体\*来说
 
-目标是Anim Single Node Instance
+目标是 Anim Single Node Instance
 
 ## 图示
 
-![]($-20221218-17501965.png)
+![](/uploads/projects/ue-bluprint/20221218-17501965.png)
 
 ## Inputs
 
@@ -18,19 +18,21 @@
 
 播放中的速率。Float（单精度）。
 
-在开始位置。浮点数（单精度）。 
+在开始位置。浮点数（单精度）。
 
 ## Outputs
 
 出场。执行。
 
-For AnimSequence specific *
+<hr>
+
+For AnimSequence specific \*
 
 Target is Anim Single Node Instance
 
 ## 图示
 
-![]($-20221218-17501965.png)
+![](/uploads/projects/ue-bluprint/20221218-17501965.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Is Looping: Boolean.
 
 In Play Rate: Float (single-precision).
 
-In Start Position: Float (single-precision).  
+In Start Position: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18032798.png)
+![](/uploads/projects/ue-bluprint/20221218-18032798.png)
 
 ## Inputs
 
@@ -24,7 +24,7 @@ Volume Multiplier（音量乘数）。Float（单精度）。一个与音量相�
 
 Persist Across Level Transition: 布尔值。
 
-Auto Destroy（自动销毁）：布尔值。当声音结束（完成或停止）时，返回的音频组件是否会被自动清理，或者是否可以重新激活。 
+Auto Destroy（自动销毁）：布尔值。当声音结束（完成或停止）时，返回的音频组件是否会被自动清理，或者是否可以重新激活。
 
 ## Outputs
 
@@ -32,13 +32,15 @@ Auto Destroy（自动销毁）：布尔值。当声音结束（完成或停止�
 
 返回值。音频组件对象参考。一个操作创建的声音的音频组件。
 
+<hr>
+
 This function allows users to create Audio Components in advance of playback with settings specifically for non-spatialized,. non-distance-attenuated sounds. Audio Components created using this function by default will not have Spatialization applied.
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18032798.png)
+![](/uploads/projects/ue-bluprint/20221218-18032798.png)
 
 ## Inputs
 
@@ -56,11 +58,10 @@ Concurrency Settings: Sound Concurrency Object Reference. Override concurrency s
 
 Persist Across Level Transition: Boolean.
 
-Auto Destroy: Boolean. Whether the returned audio component will be automatically cleaned up when the sound finishes (by completing or stopping), or whether it can be reactivated.  
+Auto Destroy: Boolean. Whether the returned audio component will be automatically cleaned up when the sound finishes (by completing or stopping), or whether it can be reactivated.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Audio Component Object Reference. An audio component to manipulate the created sound.
-

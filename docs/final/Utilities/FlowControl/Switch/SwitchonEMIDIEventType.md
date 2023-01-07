@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14213345.png)
+![](/uploads/projects/ue-bluprint/20221218-14213345.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMIDIEventType枚举。 
+选择。EMIDIEventType 枚举。
 
 ## Outputs
 
@@ -28,17 +28,19 @@
 
 弯音：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14213345.png)
+![](/uploads/projects/ue-bluprint/20221218-14213345.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMIDIEventType Enum.  
+Selection: EMIDIEventType Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Program Change: Exec.
 Channel After Touch: Exec.
 
 Pitch Bend: Exec.
-

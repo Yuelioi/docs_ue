@@ -2,17 +2,17 @@
 
 获取粒子模块的速度 继承父道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19030810.png)
+![](/uploads/projects/ue-bluprint/20221218-19030810.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。继承父代速度对象参考。  
+粒子模块。继承父代速度对象参考。
 
 ## Outputs
 
@@ -24,19 +24,21 @@
 
 出应用业主规模。布尔型。
 
+<hr>
+
 Get Particle Module Velocity Inherit Parent Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19030810.png)
+![](/uploads/projects/ue-bluprint/20221218-19030810.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Inherit Parent Velocity Object Reference.  
+Particle Module: Inherit Parent Velocity Object Reference.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out Scale: Distribution Object Reference.
 Out in World Space: Boolean.
 
 Out Apply Owner Scale: Boolean.
-

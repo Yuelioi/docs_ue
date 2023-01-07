@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18494018.png)
+![](/uploads/projects/ue-bluprint/20221218-18494018.png)
 
 ## Inputs
 
@@ -18,24 +18,26 @@
 
 出：执行。
 
-返回值。世界对象参考。如果地图被成功加载，则为true。
+返回值。世界对象参考。如果地图被成功加载，则为 true。
+
+<hr>
+
 Loads the specified map. Does not prompt the user to save the current map.
 
 Target is Editor Loading and Saving Utils
 
 ## 图示
 
-![]($-20221218-18494018.png)
+![](/uploads/projects/ue-bluprint/20221218-18494018.png)
 
 ## Inputs
 
 In: Exec.
 
-Filename: String. Level package filename, including path..  
+Filename: String. Level package filename, including path..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: World Object Reference. true if the map was loaded successfully..
-

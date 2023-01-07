@@ -4,22 +4,24 @@
 
 ## 图示
 
-![]($-20221218-18554014.png)
+![](/uploads/projects/ue-bluprint/20221218-18554014.png)
 
 ## Inputs
 
 ## Outputs
 
 返回值。Text To Speech Engine Subsystem 对象参考。
+
+<hr>
+
 Get Text to Speech Engine Subsystem an Engine Subsystem
 
 ## 图示
 
-![]($-20221218-18554014.png)
+![](/uploads/projects/ue-bluprint/20221218-18554014.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Text To Speech Engine Subsystem Object Reference.
-

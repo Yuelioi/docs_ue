@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-19355341.png)
+![](/uploads/projects/ue-bluprint/20221218-19355341.png)
 
 ## Inputs
 
-目标：互换基础节点容器对象参考。  
+目标：互换基础节点容器对象参考。
 
 ## Outputs
 
 根节点。字符串的阵列。
+
+<hr>
 
 Return all nodes that do not have any parent
 
@@ -22,13 +24,12 @@ Target is Interchange Base Node Container
 
 ## 图示
 
-![]($-20221218-19355341.png)
+![](/uploads/projects/ue-bluprint/20221218-19355341.png)
 
 ## Inputs
 
-Target: Interchange Base Node Container Object Reference.  
+Target: Interchange Base Node Container Object Reference.
 
 ## Outputs
 
 Root Nodes: Array of Strings.
-

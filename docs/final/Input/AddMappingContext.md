@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19165693.png)
+![](/uploads/projects/ue-bluprint/20221218-19165693.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 优先权。整数。较高优先级的映射将被首先应用，如果它们消耗了输入，将阻止较低优先级的映射。
 
-选项。修改上下文选项结构（通过参考）。添加该映射上下文时需要考虑的选项...  
+选项。修改上下文选项结构（通过参考）。添加该映射上下文时需要考虑的选项...
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add a control mapping context.
 
@@ -30,7 +32,7 @@ Target is Enhanced Input Subsystem Interface
 
 ## 图示
 
-![]($-20221218-19165693.png)
+![](/uploads/projects/ue-bluprint/20221218-19165693.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Mapping Context: Input Mapping Context Object Reference. A set of key to action 
 
 Priority: Integer. Higher priority mappings will be applied first and, if they consume input, will block lower priority mappings..
 
-Options: Modify Context Options Structure (by ref). Options to consider when adding this mapping context..  
+Options: Modify Context Options Structure (by ref). Options to consider when adding this mapping context..
 
 ## Outputs
 
 Out: Exec.
-

@@ -2,11 +2,11 @@
 
 插入子层
 
-目标是Usd转换蓝图库
+目标是 Usd 转换蓝图库
 
 ## 图示
 
-![]($-20221218-19382372.png)
+![](/uploads/projects/ue-bluprint/20221218-19382372.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 子层路径：字符串。
 
-索引：整数。  
+索引：整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Insert Sub Layer
 
@@ -28,7 +30,7 @@ Target is Usd Conversion Blueprint Library
 
 ## 图示
 
-![]($-20221218-19382372.png)
+![](/uploads/projects/ue-bluprint/20221218-19382372.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Parent Layer Path: String.
 
 Sub Layer Path: String.
 
-Index: Integer.  
+Index: Integer.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21124185.png)
+![](/uploads/projects/ue-bluprint/20221218-21124185.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 Identifier:定时数据监控通道标识符结构（通过参考）。
 
-缓冲区大小。整数。  
+缓冲区大小。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 If the channel does support it, set the maximum sample count of the channel.
 
@@ -28,7 +30,7 @@ Target is Timed Data Monitor Subsystem
 
 ## 图示
 
-![]($-20221218-21124185.png)
+![](/uploads/projects/ue-bluprint/20221218-21124185.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Timed Data Monitor Subsystem Object Reference.
 
 Identifier: Timed Data Monitor Channel Identifier Structure (by ref).
 
-Buffer Size: Integer.  
+Buffer Size: Integer.
 
 ## Outputs
 
 Out: Exec.
-

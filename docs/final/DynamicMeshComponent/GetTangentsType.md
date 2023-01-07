@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18460796.png)
+![](/uploads/projects/ue-bluprint/20221218-18460796.png)
 
 ## Inputs
 
@@ -14,20 +14,22 @@
 
 ## Outputs
 
-返回值。EDynamicMeshComponentTangentsMode枚举。获取切线类型。
+返回值。EDynamicMeshComponentTangentsMode 枚举。获取切线类型。
+
+<hr>
+
 Get Tangents Type
 
 Target is Dynamic Mesh Component
 
 ## 图示
 
-![]($-20221218-18460796.png)
+![](/uploads/projects/ue-bluprint/20221218-18460796.png)
 
 ## Inputs
 
-Target: Dynamic Mesh Component Object Reference.  
+Target: Dynamic Mesh Component Object Reference.
 
 ## Outputs
 
 Return Value: EDynamicMeshComponentTangentsMode Enum. Get Tangents Type.
-

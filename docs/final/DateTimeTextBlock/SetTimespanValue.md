@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18411130.png)
+![](/uploads/projects/ue-bluprint/20221218-18411130.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。普通日期时间文本块对象参考。
 
-在Timespan。时间跨度结构。  
+在 Timespan。时间跨度结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Timespan Value
 
@@ -26,7 +28,7 @@ Target is Common Date Time Text Block
 
 ## 图示
 
-![]($-20221218-18411130.png)
+![](/uploads/projects/ue-bluprint/20221218-18411130.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common Date Time Text Block Object Reference.
 
-In Timespan: Timespan Structure.  
+In Timespan: Timespan Structure.
 
 ## Outputs
 
 Out: Exec.
-

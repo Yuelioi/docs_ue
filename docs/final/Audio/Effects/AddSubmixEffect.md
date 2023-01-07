@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18033573.png)
+![](/uploads/projects/ue-bluprint/20221218-18033573.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 Sound Submix: Sound Submix Object Reference.
 
-Submix Effect Preset: Sound Effect Submix Preset（子混音效果预设）对象参考。 
+Submix Effect Preset: Sound Effect Submix Preset（子混音效果预设）对象参考。
 
 ## Outputs
 
@@ -22,13 +22,15 @@ Submix Effect Preset: Sound Effect Submix Preset（子混音效果预设）对�
 
 返回值。整数。在给定的子混音中，在其子混音效果链的末端添加一个子混音效果预置。返回子混音效果的数量。
 
+<hr>
+
 Adds a submix effect preset to the given submix at the end of its submix effect chain. Returns the number of submix effects.
 
 Target is Audio Mixer Blueprint Library
 
 ## 图示
 
-![]($-20221218-18033573.png)
+![](/uploads/projects/ue-bluprint/20221218-18033573.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Sound Submix: Sound Submix Object Reference.
 
-Submix Effect Preset: Sound Effect Submix Preset Object Reference.  
+Submix Effect Preset: Sound Effect Submix Preset Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. Adds a submix effect preset to the given submix at the end of its submix effect chain. Returns the number of submix effects..
-

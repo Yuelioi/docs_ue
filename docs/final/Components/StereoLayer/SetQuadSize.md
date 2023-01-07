@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18275916.png)
+![](/uploads/projects/ue-bluprint/20221218-18275916.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。立体图层对象参考。
 
-在四维尺寸。Vector 2D结构。 
+在四维尺寸。Vector 2D 结构。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Change the quad size. This is the unscaled height and width, before component scale is applied.
 
@@ -26,7 +28,7 @@ Target is Stereo Layer
 
 ## 图示
 
-![]($-20221218-18275916.png)
+![](/uploads/projects/ue-bluprint/20221218-18275916.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Stereo Layer Object Reference.
 
-In Quad Size: Vector 2D Structure.  
+In Quad Size: Vector 2D Structure.
 
 ## Outputs
 
 Out: Exec.
-

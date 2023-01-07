@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21230099.png)
+![](/uploads/projects/ue-bluprint/20221218-21230099.png)
 
 ## Inputs
 
 目标。镜头文件对象参考。
 
-在归一化值中。Float（单精度）。  
+在归一化值中。Float（单精度）。
 
 ## Outputs
 
 返回值。浮点数（单精度）。返回基于输入归一化值和映射的插值虹膜。
+
+<hr>
 
 Returns interpolated iris based on input normalized value and mapping
 
@@ -24,15 +26,14 @@ Target is Lens File
 
 ## 图示
 
-![]($-20221218-21230099.png)
+![](/uploads/projects/ue-bluprint/20221218-21230099.png)
 
 ## Inputs
 
 Target: Lens File Object Reference.
 
-In Normalized Value: Float (single-precision).  
+In Normalized Value: Float (single-precision).
 
 ## Outputs
 
 Return Value: Float (single-precision). Returns interpolated iris based on input normalized value and mapping.
-

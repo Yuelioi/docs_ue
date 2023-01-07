@@ -6,23 +6,25 @@
 
 ## 图示
 
-![]($-20221218-18182138.png)
+![](/uploads/projects/ue-bluprint/20221218-18182138.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Chaos Clothing Interactor对象参考。
+目标。Chaos Clothing Interactor 对象参考。
 
-边缘僵硬度。矢量2D结构。
+边缘僵硬度。矢量 2D 结构。
 
 弯曲刚度。矢量二维结构。
 
-面积刚度。矢量二维结构。 
+面积刚度。矢量二维结构。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Set Material
 
@@ -30,7 +32,7 @@ Target is Chaos Clothing Interactor
 
 ## 图示
 
-![]($-20221218-18182138.png)
+![](/uploads/projects/ue-bluprint/20221218-18182138.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Edge Stiffness: Vector 2D Structure.
 
 Bending Stiffness: Vector 2D Structure.
 
-Area Stiffness: Vector 2D Structure.  
+Area Stiffness: Vector 2D Structure.
 
 ## Outputs
 
 Out: Exec.
-

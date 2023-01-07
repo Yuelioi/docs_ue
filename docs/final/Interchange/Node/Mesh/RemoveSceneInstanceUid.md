@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19322168.png)
+![](/uploads/projects/ue-bluprint/20221218-19322168.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标：交换网格节点对象参考。
 
-依赖性Uid。字符串。  
+依赖性 Uid。字符串。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。从该对象中删除一个形状依赖。
 
+<hr>
+
 Remove one Shape dependency from this object.
 
 Target is Interchange Mesh Node
 
 ## 图示
 
-![]($-20221218-19322168.png)
+![](/uploads/projects/ue-bluprint/20221218-19322168.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Interchange Mesh Node Object Reference.
 
-Dependency Uid: String.  
+Dependency Uid: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Remove one Shape dependency from this object..
-

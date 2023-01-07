@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14212910.png)
+![](/uploads/projects/ue-bluprint/20221218-14212910.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMediaWebcamCaptureDeviceFilter Enum.  
+选择。EMediaWebcamCaptureDeviceFilter Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 未知。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14212910.png)
+![](/uploads/projects/ue-bluprint/20221218-14212910.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMediaWebcamCaptureDeviceFilter Enum.  
+Selection: EMediaWebcamCaptureDeviceFilter Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Front: Exec.
 Rear: Exec.
 
 Unknown: Exec.
-

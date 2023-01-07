@@ -6,21 +6,23 @@
 
 ## 图示
 
-![]($-20221218-18042645.png)
+![](/uploads/projects/ue-bluprint/20221218-18042645.png)
 
 ## Inputs
 
 在。执行。
 
-在Sound Submix中。Sound Submix Object Reference.
+在 Sound Submix 中。Sound Submix Object Reference.
 
 子混音链索引。整数。
 
-Submix Effect Preset: Sound Effect Submix Preset对象参考。 
+Submix Effect Preset: Sound Effect Submix Preset 对象参考。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Replaces the submix effect at the given submix chain index, adds the effect if there is none at that index.
 
@@ -28,7 +30,7 @@ Target is Audio Mixer Blueprint Library
 
 ## 图示
 
-![]($-20221218-18042645.png)
+![](/uploads/projects/ue-bluprint/20221218-18042645.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ In Sound Submix: Sound Submix Object Reference.
 
 Submix Chain Index: Integer.
 
-Submix Effect Preset: Sound Effect Submix Preset Object Reference.  
+Submix Effect Preset: Sound Effect Submix Preset Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

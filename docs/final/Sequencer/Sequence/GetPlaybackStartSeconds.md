@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20544140.png)
+![](/uploads/projects/ue-bluprint/20221218-20544140.png)
 
 ## Inputs
 
 在。执行。
 
-序列。电影场景序列对象参考。获得播放开始的序列。  
+序列。电影场景序列对象参考。获得播放开始的序列。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。浮点数（单精度）。此序列的播放开始。
 
+<hr>
+
 Get playback start of this sequence in seconds
 
 Target is Movie Scene Sequence Extensions
 
 ## 图示
 
-![]($-20221218-20544140.png)
+![](/uploads/projects/ue-bluprint/20221218-20544140.png)
 
 ## Inputs
 
 In: Exec.
 
-Sequence: Movie Scene Sequence Object Reference. The sequence within which to get the playback start.  
+Sequence: Movie Scene Sequence Object Reference. The sequence within which to get the playback start.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision). Playback start of this sequence.
-

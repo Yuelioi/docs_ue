@@ -2,17 +2,17 @@
 
 将选定的节点导出为文本
 
-目标是Rig VMController
+目标是 Rig VMController
 
 ## 图示
 
-![]($-20221218-20423753.png)
+![](/uploads/projects/ue-bluprint/20221218-20423753.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Rig VMController对象参考。  
+目标。Rig VMController 对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。字符串。将选定的节点导出为文本。
 
+<hr>
+
 Exports the selected nodes as text
 
 Target is Rig VMController
 
 ## 图示
 
-![]($-20221218-20423753.png)
+![](/uploads/projects/ue-bluprint/20221218-20423753.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Rig VMController Object Reference.  
+Target: Rig VMController Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: String. Exports the selected nodes as text.
-

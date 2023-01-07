@@ -1,12 +1,12 @@
 # SetCustombPreserveBorder
 
-设置自定义b保留边界
+设置自定义 b 保留边界
 
 目标是互换纹理工厂节点
 
 ## 图示
 
-![]($-20221218-19351555.png)
+![](/uploads/projects/ue-bluprint/20221218-19351555.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 属性值。布尔值（通过引用）。
 
-添加应用代表。Boolean.  
+添加应用代表。Boolean.
 
 ## Outputs
 
 出：执行。
 
-返回值。布尔值。设置Customb Preserve Border。
+返回值。布尔值。设置 Customb Preserve Border。
+
+<hr>
 
 Set Customb Preserve Border
 
@@ -30,7 +32,7 @@ Target is Interchange Texture Factory Node
 
 ## 图示
 
-![]($-20221218-19351555.png)
+![](/uploads/projects/ue-bluprint/20221218-19351555.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Interchange Texture Factory Node Object Reference.
 
 Attribute Value: Boolean (by ref).
 
-Add Apply Delegate: Boolean.  
+Add Apply Delegate: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Set Customb Preserve Border.
-

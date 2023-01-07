@@ -2,17 +2,17 @@
 
 获得粒子模块光道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19022838.png)
+![](/uploads/projects/ue-bluprint/20221218-19022838.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。Light Object Reference.  
+粒子模块。Light Object Reference.
 
 ## Outputs
 
@@ -42,19 +42,21 @@ Out Brightness Over Life:分布对象参考。
 
 出影投光。布尔值。
 
+<hr>
+
 Get Particle Module Light Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19022838.png)
+![](/uploads/projects/ue-bluprint/20221218-19022838.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Light Object Reference.  
+Particle Module: Light Object Reference.
 
 ## Outputs
 
@@ -83,4 +85,3 @@ Out Volumetric Scattering Intensity: Float (single-precision).
 Out High Quality Lights: Boolean.
 
 Out Shadow Casting Lights: Boolean.
-

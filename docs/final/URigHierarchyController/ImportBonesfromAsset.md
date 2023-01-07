@@ -2,19 +2,19 @@
 
 将一个现有的骨架导入到层次结构中。
 
-目标是Rig Hierarchy控制器
+目标是 Rig Hierarchy 控制器
 
 ## 图示
 
-![]($-20221218-21204565.png)
+![](/uploads/projects/ue-bluprint/20221218-21204565.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Rig Hierarchy Controller对象参考。
+目标。Rig Hierarchy Controller 对象参考。
 
-在资产路径中。字符串。要导入的uasset的路径。
+在资产路径中。字符串。要导入的 uasset 的路径。
 
 在名称空间。名称。在骨骼名称前加上名称空间。
 
@@ -24,13 +24,15 @@
 
 选择骨骼。布尔值。如果为真，骨骼将在导入时被选中。
 
-设置撤销。布尔值。如果设置为 "true"，堆栈将记录该变化，以便撤销/重做。  
+设置撤销。布尔值。如果设置为 "true"，堆栈将记录该变化，以便撤销/重做。
 
 ## Outputs
 
 出：执行。
 
-返回值。Rig元素键结构的数组。导入元素的键值。
+返回值。Rig 元素键结构的数组。导入元素的键值。
+
+<hr>
 
 Imports an existing skeleton to the hierarchy
 
@@ -38,7 +40,7 @@ Target is Rig Hierarchy Controller
 
 ## 图示
 
-![]($-20221218-21204565.png)
+![](/uploads/projects/ue-bluprint/20221218-21204565.png)
 
 ## Inputs
 
@@ -56,11 +58,10 @@ Remove Obsolete Bones: Boolean. If true bones non-existent in the skeleton will 
 
 Select Bones: Boolean. If true the bones will be selected upon import.
 
-Setup Undo: Boolean. If set to true the stack will record the change for undo / redo.  
+Setup Undo: Boolean. If set to true the stack will record the change for undo / redo.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Array of Rig Element Key Structures. The keys of the imported elements.
-

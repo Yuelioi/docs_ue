@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18071333.png)
+![](/uploads/projects/ue-bluprint/20221218-18071333.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在名称。名称。
 
-在值中。字符串的数组。 
+在值中。字符串的数组。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets a named String Array
 
@@ -28,7 +30,7 @@ Target is Audio Parameter Controller Interface
 
 ## 图示
 
-![]($-20221218-18071333.png)
+![](/uploads/projects/ue-bluprint/20221218-18071333.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Object Reference.
 
 In Name: Name.
 
-In Value: Array of Strings.  
+In Value: Array of Strings.
 
 ## Outputs
 
 Out: Exec.
-

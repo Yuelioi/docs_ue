@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21153333.png)
+![](/uploads/projects/ue-bluprint/20221218-21153333.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。演员对象参考。
 
-新的三维比例：矢量。  
+新的三维比例：矢量。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the Actor's world-space scale.
 
@@ -26,7 +28,7 @@ Target is Actor
 
 ## 图示
 
-![]($-20221218-21153333.png)
+![](/uploads/projects/ue-bluprint/20221218-21153333.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Actor Object Reference.
 
-New Scale 3D: Vector.  
+New Scale 3D: Vector.
 
 ## Outputs
 
 Out: Exec.
-

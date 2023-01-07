@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-19105675.png)
+![](/uploads/projects/ue-bluprint/20221218-19105675.png)
 
 ## Inputs
 
 颜色列表。颜色列表结构。
 
-索引：整数。  
+索引：整数。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。线性颜色结构。获取颜色列表项目。
 
+<hr>
+
 Get Color List Item
 
 Target is Geometry Script Library List Utility Functions
 
 ## 图示
 
-![]($-20221218-19105675.png)
+![](/uploads/projects/ue-bluprint/20221218-19105675.png)
 
 ## Inputs
 
 Color List: Color List Structure.
 
-Index: Integer.  
+Index: Integer.
 
 ## Outputs
 
 Is Valid Index: Boolean.
 
 Return Value: Linear Color Structure. Get Color List Item.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21154038.png)
+![](/uploads/projects/ue-bluprint/20221218-21154038.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。场景组件对象参考。
 
-新的三维比例：矢量。  
+新的三维比例：矢量。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the non-uniform scale of the component relative to its parent
 
@@ -26,7 +28,7 @@ Target is Scene Component
 
 ## 图示
 
-![]($-20221218-21154038.png)
+![](/uploads/projects/ue-bluprint/20221218-21154038.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Scene Component Object Reference.
 
-New Scale 3D: Vector.  
+New Scale 3D: Vector.
 
 ## Outputs
 
 Out: Exec.
-

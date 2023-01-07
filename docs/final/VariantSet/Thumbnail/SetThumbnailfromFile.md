@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21244462.png)
+![](/uploads/projects/ue-bluprint/20221218-21244462.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。变体组对象参考。
 
-文件路径。字符串。  
+文件路径。字符串。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Thumbnail from File
 
@@ -26,7 +28,7 @@ Target is Variant Set
 
 ## 图示
 
-![]($-20221218-21244462.png)
+![](/uploads/projects/ue-bluprint/20221218-21244462.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Variant Set Object Reference.
 
-File Path: String.  
+File Path: String.
 
 ## Outputs
 
 Out: Exec.
-

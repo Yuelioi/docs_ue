@@ -1,12 +1,12 @@
 # PushAction
 
-K2推杆动作
+K2 推杆动作
 
 目标是卒子行动组件
 
 ## 图示
 
-![]($-20221218-20194806.png)
+![](/uploads/projects/ue-bluprint/20221218-20194806.png)
 
 ## Inputs
 
@@ -18,13 +18,15 @@ K2推杆动作
 
 优先级。EAIRequestPriority Enum.
 
-指导者。对象参考。  
+指导者。对象参考。
 
 ## Outputs
 
 出：执行。
 
-返回值。布尔值。K2推送动作。
+返回值。布尔值。K2 推送动作。
+
+<hr>
 
 K2 Push Action
 
@@ -32,7 +34,7 @@ Target is Pawn Actions Component
 
 ## 图示
 
-![]($-20221218-20194806.png)
+![](/uploads/projects/ue-bluprint/20221218-20194806.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ New Action: Pawn Action Object Reference.
 
 Priority: EAIRequestPriority Enum.
 
-Instigator: Object Reference.  
+Instigator: Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. K2 Push Action.
-

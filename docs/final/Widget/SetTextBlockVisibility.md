@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21364236.png)
+![](/uploads/projects/ue-bluprint/20221218-21364236.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标：输入键选择器对象参考。
 
-在可见性中。ESlateVisibility Enum.  
+在可见性中。ESlateVisibility Enum.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the visibility of the text block.
 
@@ -26,7 +28,7 @@ Target is Input Key Selector
 
 ## 图示
 
-![]($-20221218-21364236.png)
+![](/uploads/projects/ue-bluprint/20221218-21364236.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Input Key Selector Object Reference.
 
-In Visibility: ESlateVisibility Enum.  
+In Visibility: ESlateVisibility Enum.
 
 ## Outputs
 
 Out: Exec.
-

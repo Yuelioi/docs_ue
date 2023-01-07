@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14210446.png)
+![](/uploads/projects/ue-bluprint/20221218-14210446.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ELidarPointCloudColorationMode枚举。 
+选择。ELidarPointCloudColorationMode 枚举。
 
 ## Outputs
 
@@ -24,17 +24,19 @@
 
 分类: 行政人员
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14210446.png)
+![](/uploads/projects/ue-bluprint/20221218-14210446.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ELidarPointCloudColorationMode Enum.  
+Selection: ELidarPointCloudColorationMode Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Elevation: Exec.
 Position: Exec.
 
 Classification: Exec.
-

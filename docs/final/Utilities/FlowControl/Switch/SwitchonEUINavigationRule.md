@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14245900.png)
+![](/uploads/projects/ue-bluprint/20221218-14245900.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EUINavigationRule Enum.  
+选择。EUINavigationRule Enum.
 
 ## Outputs
 
@@ -28,17 +28,19 @@ Wrap: 执行：Exec.
 
 无效的。执行：执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14245900.png)
+![](/uploads/projects/ue-bluprint/20221218-14245900.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EUINavigationRule Enum.  
+Selection: EUINavigationRule Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Custom: Exec.
 Custom Boundary: Exec.
 
 Invalid: Exec.
-

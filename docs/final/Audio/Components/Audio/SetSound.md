@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18031446.png)
+![](/uploads/projects/ue-bluprint/20221218-18031446.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。音频组件对象参考。
 
-新的声音。声音基础对象参考。 
+新的声音。声音基础对象参考。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set what sound is played by this component
 
@@ -26,7 +28,7 @@ Target is Audio Component
 
 ## 图示
 
-![]($-20221218-18031446.png)
+![](/uploads/projects/ue-bluprint/20221218-18031446.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Audio Component Object Reference.
 
-New Sound: Sound Base Object Reference.  
+New Sound: Sound Base Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

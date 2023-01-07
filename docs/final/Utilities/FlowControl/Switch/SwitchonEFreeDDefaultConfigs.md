@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14191625.png)
+![](/uploads/projects/ue-bluprint/20221218-14191625.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFreeDDefaultConfigs Enum.  
+选择。EFreeDDefaultConfigs Enum.
 
 ## Outputs
 
@@ -26,17 +26,19 @@ Mosys: Exec.
 
 Ncam: 执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14191625.png)
+![](/uploads/projects/ue-bluprint/20221218-14191625.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFreeDDefaultConfigs Enum.  
+Selection: EFreeDDefaultConfigs Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ St Ype: Exec.
 Mosys: Exec.
 
 Ncam: Exec.
-

@@ -1,4 +1,4 @@
-# AddorUpdateWarpTargetfromLocatio-_1
+# AddorUpdateWarpTargetfromLocatio-\_1
 
 创建并添加或更新一个与指定名称相关的目标
 
@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20074349.png)
+![](/uploads/projects/ue-bluprint/20221218-20074349.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 目标位置。向量。翘曲目标的位置。
 
-目标旋转。旋转器。  
+目标旋转。旋转器。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Create and adds or update a target associated with a specified name
 
@@ -30,7 +32,7 @@ Target is Motion Warping Component
 
 ## 图示
 
-![]($-20221218-20074349.png)
+![](/uploads/projects/ue-bluprint/20221218-20074349.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Warp Target Name: Name. Warp target identifier.
 
 Target Location: Vector. Location for the warp target.
 
-Target Rotation: Rotator.  
+Target Rotation: Rotator.
 
 ## Outputs
 
 Out: Exec.
-

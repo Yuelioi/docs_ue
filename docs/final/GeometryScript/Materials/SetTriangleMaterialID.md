@@ -1,12 +1,12 @@
 # SetTriangleMaterialID
 
-设置三角形材料ID
+设置三角形材料 ID
 
 目标是几何脚本库网格材料功能
 
 ## 图示
 
-![]($-20221218-19112489.png)
+![](/uploads/projects/ue-bluprint/20221218-19112489.png)
 
 ## Inputs
 
@@ -14,11 +14,11 @@
 
 目标网格。动态网格对象参考。
 
-三角形ID：整数。
+三角形 ID：整数。
 
 材料编号：整数。
 
-推迟更改通知。布尔值。  
+推迟更改通知。布尔值。
 
 ## Outputs
 
@@ -26,7 +26,9 @@
 
 是有效三角。布尔型。
 
-目标网格。动态网格对象参考。设置三角形材料ID。
+目标网格。动态网格对象参考。设置三角形材料 ID。
+
+<hr>
 
 Set Triangle Material ID
 
@@ -34,7 +36,7 @@ Target is Geometry Script Library Mesh Material Functions
 
 ## 图示
 
-![]($-20221218-19112489.png)
+![](/uploads/projects/ue-bluprint/20221218-19112489.png)
 
 ## Inputs
 
@@ -46,7 +48,7 @@ Triangle ID: Integer.
 
 Material ID: Integer.
 
-Defer Change Notifications: Boolean.  
+Defer Change Notifications: Boolean.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Out: Exec.
 Is Valid Triangle: Boolean.
 
 Target Mesh: Dynamic Mesh Object Reference. Set Triangle Material ID.
-

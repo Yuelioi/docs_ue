@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17523639.png)
+![](/uploads/projects/ue-bluprint/20221218-17523639.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@ Old Notify Class: Anim Notify State Class Reference.
 
 New Notify Class: Anim Notify State Class Reference.
 
-在通知状态被替换。代表。 
+在通知状态被替换。代表。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Replaces animation notifies in the specified Animation Sequence
 
@@ -30,7 +32,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17523639.png)
+![](/uploads/projects/ue-bluprint/20221218-17523639.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Old Notify Class: Anim Notify State Class Reference.
 
 New Notify Class: Anim Notify State Class Reference.
 
-On Notify State Replaced: Delegate.  
+On Notify State Replaced: Delegate.
 
 ## Outputs
 
 Out: Exec.
-

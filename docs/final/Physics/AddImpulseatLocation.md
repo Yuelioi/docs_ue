@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20204042.png)
+![](/uploads/projects/ue-bluprint/20221218-20204042.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 地点：向量。矢量。在世界空间中应用冲力的点。
 
-骨骼名称。名称。如果是SkeletalMeshComponent，要应用脉冲的骨骼名称。'无'表示根体。
+骨骼名称。名称。如果是 SkeletalMeshComponent，要应用脉冲的骨骼名称。'无'表示根体。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add an impulse to a single rigid body at a specific location.
 
@@ -30,7 +32,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20204042.png)
+![](/uploads/projects/ue-bluprint/20221218-20204042.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Impulse: Vector. Magnitude and direction of impulse to apply..
 
 Location: Vector. Point in world space to apply impulse at..
 
-Bone Name: Name. If a SkeletalMeshComponent, name of bone to apply impulse to. 'None' indicates root body..  
+Bone Name: Name. If a SkeletalMeshComponent, name of bone to apply impulse to. 'None' indicates root body..
 
 ## Outputs
 
 Out: Exec.
-

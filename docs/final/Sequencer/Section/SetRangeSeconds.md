@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20533135.png)
+![](/uploads/projects/ue-bluprint/20221218-20533135.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 开始时间。Float（单精度）。本节所需的开始时间框架。
 
-结束时间。Float（单精度）。本节的预期结束时间。  
+结束时间。Float（单精度）。本节的预期结束时间。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set range in seconds
 
@@ -28,7 +30,7 @@ Target is Movie Scene Section Extensions
 
 ## 图示
 
-![]($-20221218-20533135.png)
+![](/uploads/projects/ue-bluprint/20221218-20533135.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Section: Movie Scene Section Object Reference. The section within which to set t
 
 Start Time: Float (single-precision). The desired start frame for this section.
 
-End Time: Float (single-precision). The desired end frame for this section.  
+End Time: Float (single-precision). The desired end frame for this section.
 
 ## Outputs
 
 Out: Exec.
-

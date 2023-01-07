@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20102526.png)
+![](/uploads/projects/ue-bluprint/20221218-20102526.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 其他用户名称：字符串。
 
-转化偏移。变换。  
+转化偏移。变换。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Teleport to another Multi-User user's presence.
 
@@ -26,7 +28,7 @@ Target is Multi User Client Statics
 
 ## 图示
 
-![]($-20221218-20102526.png)
+![](/uploads/projects/ue-bluprint/20221218-20102526.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Other User Name: String.
 
-Transform Offset: Transform.  
+Transform Offset: Transform.
 
 ## Outputs
 
 Out: Exec.
-

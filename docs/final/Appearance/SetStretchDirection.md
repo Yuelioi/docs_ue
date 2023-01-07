@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17552945.png)
+![](/uploads/projects/ue-bluprint/20221218-17552945.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Scale Box 对象参考。
 
-在拉伸方向。EStretchDirection Enum。 
+在拉伸方向。EStretchDirection Enum。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set Stretch Direction
 
@@ -26,7 +28,7 @@ Target is Scale Box
 
 ## 图示
 
-![]($-20221218-17552945.png)
+![](/uploads/projects/ue-bluprint/20221218-17552945.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Scale Box Object Reference.
 
-In Stretch Direction: EStretchDirection Enum.  
+In Stretch Direction: EStretchDirection Enum.
 
 ## Outputs
 
 Out: Exec.
-

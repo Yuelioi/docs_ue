@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-18425992.png)
+![](/uploads/projects/ue-bluprint/20221218-18425992.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。布尔值。倾倒接收到的场景。
 
+<hr>
+
 Dump Received Scene
 
 Target is Direct Link Test Library
 
 ## 图示
 
-![]($-20221218-18425992.png)
+![](/uploads/projects/ue-bluprint/20221218-18425992.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Dump Received Scene.
-

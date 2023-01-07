@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21104421.png)
+![](/uploads/projects/ue-bluprint/20221218-21104421.png)
 
 ## Inputs
 
 在。执行。
 
-录音机取消了。代表。  
+录音机取消了。代表。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Called when take recording is cancelled.
 
@@ -24,15 +26,14 @@ Target is Take Recorder Blueprint Library
 
 ## 图示
 
-![]($-20221218-21104421.png)
+![](/uploads/projects/ue-bluprint/20221218-21104421.png)
 
 ## Inputs
 
 In: Exec.
 
-On Take Recorder Cancelled: Delegate.  
+On Take Recorder Cancelled: Delegate.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19374069.png)
+![](/uploads/projects/ue-bluprint/20221218-19374069.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。分层子系统对象参考。
 
-要删除的图层。名称（通过参考）。一个有效的图层名称。  
+要删除的图层。名称（通过参考）。一个有效的图层名称。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Deletes the provided layer, disassociating all actors from them
 
@@ -26,7 +28,7 @@ Target is Layers Subsystem
 
 ## 图示
 
-![]($-20221218-19374069.png)
+![](/uploads/projects/ue-bluprint/20221218-19374069.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Layers Subsystem Object Reference.
 
-Layer to Delete: Name (by ref). A valid layer name.  
+Layer to Delete: Name (by ref). A valid layer name.
 
 ## Outputs
 
 Out: Exec.
-

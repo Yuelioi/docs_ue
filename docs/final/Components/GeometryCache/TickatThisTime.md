@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18242405.png)
+![](/uploads/projects/ue-bluprint/20221218-18242405.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 在倒退中。布尔值。
 
-在是否循环中。布尔值。 
+在是否循环中。布尔值。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Tick at This Time
 
@@ -32,7 +34,7 @@ Target is Geometry Cache Component
 
 ## 图示
 
-![]($-20221218-18242405.png)
+![](/uploads/projects/ue-bluprint/20221218-18242405.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ In Is Running: Boolean.
 
 In Backwards: Boolean.
 
-In Is Looping: Boolean.  
+In Is Looping: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -2,11 +2,11 @@
 
 发出二进制集群事件。
 
-目标是显示集群蓝图API
+目标是显示集群蓝图 API
 
 ## 图示
 
-![]($-20221218-20103904.png)
+![](/uploads/projects/ue-bluprint/20221218-20103904.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 事件。显示群集群集事件二元结构（按参考）。
 
-只有小学。布尔型。  
+只有小学。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Emits binary cluster event.
 
@@ -28,7 +30,7 @@ Target is Display Cluster Blueprint API
 
 ## 图示
 
-![]($-20221218-20103904.png)
+![](/uploads/projects/ue-bluprint/20221218-20103904.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Object Reference.
 
 Event: Display Cluster Cluster Event Binary Structure (by ref).
 
-Primary Only: Boolean.  
+Primary Only: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

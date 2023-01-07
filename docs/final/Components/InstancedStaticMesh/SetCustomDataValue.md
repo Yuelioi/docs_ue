@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18244579.png)
+![](/uploads/projects/ue-bluprint/20221218-18244579.png)
 
 ## Inputs
 
@@ -20,7 +20,7 @@
 
 自定义数据值。Float（单精度）。
 
-Mark Render State Dirty: 布尔值。 
+Mark Render State Dirty: 布尔值。
 
 ## Outputs
 
@@ -28,13 +28,15 @@ Mark Render State Dirty: 布尔值。
 
 返回值。布尔值。更新特定实例的自定义数据。
 
+<hr>
+
 Update custom data for specific instance
 
 Target is Instanced Static Mesh Component
 
 ## 图示
 
-![]($-20221218-18244579.png)
+![](/uploads/projects/ue-bluprint/20221218-18244579.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Custom Data Index: Integer.
 
 Custom Data Value: Float (single-precision).
 
-Mark Render State Dirty: Boolean.  
+Mark Render State Dirty: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Update custom data for specific instance.
-

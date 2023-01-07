@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-18044108.png)
+![](/uploads/projects/ue-bluprint/20221218-18044108.png)
 
 ## Inputs
 
 输入。执行。
 
-目标。Submix Effect Tap Delay Preset对象参考。
+目标。Submix Effect Tap Delay Preset 对象参考。
 
-时间。Float（单精度）。 
+时间。Float（单精度）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set the time it takes to interpolate between parameters, in milliseconds.
 
@@ -26,7 +28,7 @@ Target is Submix Effect Tap Delay Preset
 
 ## 图示
 
-![]($-20221218-18044108.png)
+![](/uploads/projects/ue-bluprint/20221218-18044108.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Submix Effect Tap Delay Preset Object Reference.
 
-Time: Float (single-precision).  
+Time: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

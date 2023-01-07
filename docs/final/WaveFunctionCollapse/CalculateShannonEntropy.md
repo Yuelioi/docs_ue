@@ -2,11 +2,11 @@
 
 从一个选项阵列和一个给定的模型中计算出香农熵
 
-目标是波函数崩溃BPLibrary
+目标是波函数崩溃 BPLibrary
 
 ## 图示
 
-![]($-20221218-21324976.png)
+![](/uploads/projects/ue-bluprint/20221218-21324976.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 选项。波函数崩溃选项结构的阵列。选项的数组。
 
-WFCModel。波函数折叠模型对象参考。存储选项权重的WaveFunctionCollapseModel。  
+WFCModel。波函数折叠模型对象参考。存储选项权重的 WaveFunctionCollapseModel。
 
 ## Outputs
 
@@ -22,13 +22,15 @@ WFCModel。波函数折叠模型对象参考。存储选项权重的WaveFunction
 
 返回值。浮点数（单精度）。
 
+<hr>
+
 Calculates Shannon Entropy from an array of options and a given model
 
 Target is Wave Function Collapse BPLibrary
 
 ## 图示
 
-![]($-20221218-21324976.png)
+![](/uploads/projects/ue-bluprint/20221218-21324976.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Options: Array of Wave Function Collapse Option Structures. Array of options.
 
-WFCModel: Wave Function Collapse Model Object Reference. WaveFunctionCollapseModel that stores weights for options.  
+WFCModel: Wave Function Collapse Model Object Reference. WaveFunctionCollapseModel that stores weights for options.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision).
-

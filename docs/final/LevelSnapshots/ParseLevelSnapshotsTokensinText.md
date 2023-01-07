@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19422457.png)
+![](/uploads/projects/ue-bluprint/20221218-19422457.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 在文本解析中。文本（由参考）。
 
-在世界名称。字符串。  
+在世界名称。字符串。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。文本。解析文本中的级别快照标记。
 
+<hr>
+
 Parse Level Snapshots Tokens in Text
 
 Target is Level Snapshots Editor Settings
 
 ## 图示
 
-![]($-20221218-19422457.png)
+![](/uploads/projects/ue-bluprint/20221218-19422457.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 In Text to Parse: Text (by ref).
 
-In World Name: String.  
+In World Name: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Text. Parse Level Snapshots Tokens in Text.
-

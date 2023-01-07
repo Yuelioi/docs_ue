@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21324630.png)
+![](/uploads/projects/ue-bluprint/20221218-21324630.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 关键选项。波浪函数崩溃选项结构（由参考）。关键选项。
 
-相邻关系。EWaveFunctionCollapseAdjacency Enum.从KeyOption到AdjacentOption的相邻关系。
+相邻关系。EWaveFunctionCollapseAdjacency Enum.从 KeyOption 到 AdjacentOption 的相邻关系。
 
-邻近的选项。波函数折叠选项结构（参考）。相邻的选项。  
+邻近的选项。波函数折叠选项结构（参考）。相邻的选项。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Create a constraint
 
@@ -30,7 +32,7 @@ Target is Wave Function Collapse Model
 
 ## 图示
 
-![]($-20221218-21324630.png)
+![](/uploads/projects/ue-bluprint/20221218-21324630.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Key Option: Wave Function Collapse Option Structure (by ref). Key option.
 
 Adjacency: EWaveFunctionCollapseAdjacency Enum. Adjacency from KeyOption to AdjacentOption.
 
-Adjacent Option: Wave Function Collapse Option Structure (by ref). Adjacent option.  
+Adjacent Option: Wave Function Collapse Option Structure (by ref). Adjacent option.
 
 ## Outputs
 
 Out: Exec.
-

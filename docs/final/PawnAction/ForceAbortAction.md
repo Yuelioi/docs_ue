@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20194677.png)
+![](/uploads/projects/ue-bluprint/20221218-20194677.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。卒子行动组件对象参考。
 
-终止的行动。卒子行动对象参考。  
+终止的行动。卒子行动对象参考。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。EPawnActionAbortState Enum。终止给定的动作实例。
 
+<hr>
+
 Aborts given action instance
 
 Target is Pawn Actions Component
 
 ## 图示
 
-![]($-20221218-20194677.png)
+![](/uploads/projects/ue-bluprint/20221218-20194677.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Pawn Actions Component Object Reference.
 
-Action to Abort: Pawn Action Object Reference.  
+Action to Abort: Pawn Action Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: EPawnActionAbortState Enum. Aborts given action instance.
-

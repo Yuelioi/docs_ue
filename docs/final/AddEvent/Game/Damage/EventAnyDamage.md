@@ -8,7 +8,7 @@
 
 ## 图示
 
-![]($-20221218-17451353.png)
+![](/uploads/projects/ue-bluprint/20221218-17451353.png)
 
 ## Inputs
 
@@ -26,6 +26,8 @@
 
 Damage Causer: Actor Object Reference.
 
+<hr>
+
 Event when this actor takes ANY damage
 
 Target is Actor
@@ -34,7 +36,7 @@ Authority Only. This event only fires on the server.
 
 ## 图示
 
-![]($-20221218-17451353.png)
+![](/uploads/projects/ue-bluprint/20221218-17451353.png)
 
 ## Inputs
 
@@ -51,4 +53,3 @@ Damage Type: Damage Type Object Reference.
 Instigated By: Controller Object Reference.
 
 Damage Causer: Actor Object Reference.
-

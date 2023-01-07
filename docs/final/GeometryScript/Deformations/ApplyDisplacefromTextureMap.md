@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19103791.png)
+![](/uploads/projects/ue-bluprint/20221218-19103791.png)
 
 ## Inputs
 
@@ -16,11 +16,11 @@
 
 纹理。Texture 2D Object Reference.
 
-选项。Geometry Script Displace From Texture Options结构。
+选项。Geometry Script Displace From Texture Options 结构。
 
 UVLayer: 整数。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -28,13 +28,15 @@ UVLayer: 整数。
 
 目标网格。动态网格对象参考。应用纹理图的置换。
 
+<hr>
+
 Apply Displace from Texture Map
 
 Target is Geometry Script Library Mesh Deform Functions
 
 ## 图示
 
-![]($-20221218-19103791.png)
+![](/uploads/projects/ue-bluprint/20221218-19103791.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Options: Geometry Script Displace From Texture Options Structure.
 
 UVLayer: Integer.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Apply Displace from Texture Map.
-

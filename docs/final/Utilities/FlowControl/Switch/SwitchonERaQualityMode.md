@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14224740.png)
+![](/uploads/projects/ue-bluprint/20221218-14224740.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERaQualityMode枚举。 
+选择。ERaQualityMode 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Binaural Medium Quality: Exec.
 
 双耳 高质量: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14224740.png)
+![](/uploads/projects/ue-bluprint/20221218-14224740.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERaQualityMode Enum.  
+Selection: ERaQualityMode Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Binaural Low Quality: Exec.
 Binaural Medium Quality: Exec.
 
 Binaural High Quality: Exec.
-

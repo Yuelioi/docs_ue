@@ -1,12 +1,12 @@
 # ConvertHismComponent
 
-转换Hism组件
+转换 Hism 组件
 
-目标是Usd转换蓝图背景
+目标是 Usd 转换蓝图背景
 
 ## 图示
 
-![]($-20221218-18220503.png)
+![](/uploads/projects/ue-bluprint/20221218-18220503.png)
 
 ## Inputs
 
@@ -18,13 +18,15 @@
 
 原始路径。字符串。
 
-时间代码。Float（单精度）。 
+时间代码。Float（单精度）。
 
 ## Outputs
 
 输出。执行。
 
-返回值。布尔值。转换Hism组件。
+返回值。布尔值。转换 Hism 组件。
+
+<hr>
 
 Convert Hism Component
 
@@ -32,7 +34,7 @@ Target is Usd Conversion Blueprint Context
 
 ## 图示
 
-![]($-20221218-18220503.png)
+![](/uploads/projects/ue-bluprint/20221218-18220503.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Component: Hierarchical Instanced Static Mesh Component Object Reference.
 
 Prim Path: String.
 
-Time Code: Float (single-precision).  
+Time Code: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Convert Hism Component.
-

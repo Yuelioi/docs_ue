@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17324227.png)
+![](/uploads/projects/ue-bluprint/20221218-17324227.png)
 
 ## Inputs
 
-命中结果。命中结果结构（通过引用）。 
+命中结果。命中结果结构（通过引用）。
 
 ## Outputs
 
 返回值。游戏能力目标数据处理结构。创建一个具有单一命中结果的目标数据。
+
+<hr>
 
 Creates a target data with a single hit result
 
@@ -22,13 +24,12 @@ Target is Ability System Blueprint Library
 
 ## 图示
 
-![]($-20221218-17324227.png)
+![](/uploads/projects/ue-bluprint/20221218-17324227.png)
 
 ## Inputs
 
-Hit Result: Hit Result Structure (by ref).  
+Hit Result: Hit Result Structure (by ref).
 
 ## Outputs
 
 Return Value: Gameplay Ability Target Data Handle Structure. Creates a target data with a single hit result.
-

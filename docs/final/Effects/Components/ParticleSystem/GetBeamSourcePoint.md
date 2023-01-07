@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18543102.png)
+![](/uploads/projects/ue-bluprint/20221218-18543102.png)
 
 ## Inputs
 
@@ -20,14 +20,17 @@
 
 输出源点。向量。源点的值。
 
-true EmitterIndex和SourceIndex有效 - OutSourcePoint有效 false EmitterIndex或SourceIndex无效 - OutSourcePoint无效。
+true EmitterIndex 和 SourceIndex 有效 - OutSourcePoint 有效 false EmitterIndex 或 SourceIndex 无效 - OutSourcePoint 无效。
+
+<hr>
+
 Get the beam source point
 
 Target is Particle System Component
 
 ## 图示
 
-![]($-20221218-18543102.png)
+![](/uploads/projects/ue-bluprint/20221218-18543102.png)
 
 ## Inputs
 
@@ -35,11 +38,10 @@ Target: Particle System Component Object Reference.
 
 Emitter Index: Integer. The index of the emitter to get.
 
-Source Index: Integer. Which beam within the emitter to get.  
+Source Index: Integer. Which beam within the emitter to get.
 
 ## Outputs
 
 Out Source Point: Vector. Value of source point.
 
 Return Value: Boolean. true EmitterIndex and SourceIndex are valid - OutSourcePoint is valid false EmitterIndex or SourceIndex is invalid - OutSourcePoint is invalid.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19424687.png)
+![](/uploads/projects/ue-bluprint/20221218-19424687.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 半径。Float（单精度）。
 
-仅可见。布尔型。  
+仅可见。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Applies the given color to the first point hit by the given ray
 
@@ -32,7 +34,7 @@ Target is Lidar Point Cloud Blueprint Library
 
 ## 图示
 
-![]($-20221218-19424687.png)
+![](/uploads/projects/ue-bluprint/20221218-19424687.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Direction: Vector.
 
 Radius: Float (single-precision).
 
-Visible Only: Boolean.  
+Visible Only: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

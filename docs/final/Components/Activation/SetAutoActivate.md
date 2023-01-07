@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-18222627.png)
+![](/uploads/projects/ue-bluprint/20221218-18222627.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Actor Component对象参考。
+目标。Actor Component 对象参考。
 
-新的自动激活。布尔值。组件的新的自动激活状态。 
+新的自动激活。布尔值。组件的新的自动激活状态。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets whether the component should be auto activate or not. Only safe during construction scripts.
 
@@ -26,7 +28,7 @@ Target is Actor Component
 
 ## 图示
 
-![]($-20221218-18222627.png)
+![](/uploads/projects/ue-bluprint/20221218-18222627.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Actor Component Object Reference.
 
-New Auto Activate: Boolean. The new auto activate state of the component.  
+New Auto Activate: Boolean. The new auto activate state of the component.
 
 ## Outputs
 
 Out: Exec.
-

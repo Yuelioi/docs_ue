@@ -2,15 +2,15 @@
 
 获取界限
 
-目标是Kismet系统库
+目标是 Kismet 系统库
 
 ## 图示
 
-![]($-20221218-18190067.png)
+![](/uploads/projects/ue-bluprint/20221218-18190067.png)
 
 ## Inputs
 
-组件。场景组件对象参考。 
+组件。场景组件对象参考。
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Box Extent: Vector（向量）。
 
 球体半径。Float（单精度）。
 
+<hr>
+
 Get bounds
 
 Target is Kismet System Library
 
 ## 图示
 
-![]($-20221218-18190067.png)
+![](/uploads/projects/ue-bluprint/20221218-18190067.png)
 
 ## Inputs
 
-Component: Scene Component Object Reference.  
+Component: Scene Component Object Reference.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Origin: Vector.
 Box Extent: Vector.
 
 Sphere Radius: Float (single-precision).
-

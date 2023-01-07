@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20501357.png)
+![](/uploads/projects/ue-bluprint/20221218-20501357.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。电影场景脚本的双通道对象参考。
 
-钥匙。电影场景脚本的关键对象参考。  
+钥匙。电影场景脚本的关键对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Removes the specified key. Does nothing if the key is not specified or the key belongs to another channel.
 
@@ -26,7 +28,7 @@ Target is Movie Scene Scripting Double Channel
 
 ## 图示
 
-![]($-20221218-20501357.png)
+![](/uploads/projects/ue-bluprint/20221218-20501357.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Movie Scene Scripting Double Channel Object Reference.
 
-Key: Movie Scene Scripting Key Object Reference.  
+Key: Movie Scene Scripting Key Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

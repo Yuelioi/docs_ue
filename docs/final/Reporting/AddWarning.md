@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20404747.png)
+![](/uploads/projects/ue-bluprint/20221218-20404747.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。功能测试对象参考。
 
-消息：字符串。  
+消息：字符串。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add Warning
 
@@ -26,7 +28,7 @@ Target is Functional Test
 
 ## 图示
 
-![]($-20221218-20404747.png)
+![](/uploads/projects/ue-bluprint/20221218-20404747.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Functional Test Object Reference.
 
-Message: String.  
+Message: String.
 
 ## Outputs
 
 Out: Exec.
-

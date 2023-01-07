@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20510811.png)
+![](/uploads/projects/ue-bluprint/20221218-20510811.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标。水平序列演员对象参考。
 
-绑定。电影场景对象绑定的ID结构。
+绑定。电影场景对象绑定的 ID 结构。
 
-演员。Actor Object Reference.  
+演员。Actor Object Reference.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Removes the specified actor from the specified binding's actor array
 
@@ -28,7 +30,7 @@ Target is Level Sequence Actor
 
 ## 图示
 
-![]($-20221218-20510811.png)
+![](/uploads/projects/ue-bluprint/20221218-20510811.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Level Sequence Actor Object Reference.
 
 Binding: Movie Scene Object Binding ID Structure.
 
-Actor: Actor Object Reference.  
+Actor: Actor Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

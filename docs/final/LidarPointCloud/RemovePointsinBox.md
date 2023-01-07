@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19434772.png)
+![](/uploads/projects/ue-bluprint/20221218-19434772.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 延伸。向量。
 
-仅可见。布尔型。  
+仅可见。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Removes all points within the given box
 
@@ -28,7 +30,7 @@ Target is Lidar Point Cloud Blueprint Library
 
 ## 图示
 
-![]($-20221218-19434772.png)
+![](/uploads/projects/ue-bluprint/20221218-19434772.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Center: Vector.
 
 Extent: Vector.
 
-Visible Only: Boolean.  
+Visible Only: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

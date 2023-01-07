@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14172570.png)
+![](/uploads/projects/ue-bluprint/20221218-14172570.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EButtonClickMethod Enum.  
+选择。EButtonClickMethod Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 精确点击。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14172570.png)
+![](/uploads/projects/ue-bluprint/20221218-14172570.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EButtonClickMethod Enum.  
+Selection: EButtonClickMethod Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Mouse Down: Exec.
 Mouse Up: Exec.
 
 Precise Click: Exec.
-

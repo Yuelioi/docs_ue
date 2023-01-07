@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19080994.png)
+![](/uploads/projects/ue-bluprint/20221218-19080994.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 活动名称：名称。
 
-仅在游戏世界中：布尔值。  
+仅在游戏世界中：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sends an arbitrary extension event that can be listened for by other systems
 
@@ -30,7 +32,7 @@ Target is Game Framework Component Manager
 
 ## 图示
 
-![]($-20221218-19080994.png)
+![](/uploads/projects/ue-bluprint/20221218-19080994.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Receiver: Actor Object Reference.
 
 Event Name: Name.
 
-Only in Game Worlds: Boolean.  
+Only in Game Worlds: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

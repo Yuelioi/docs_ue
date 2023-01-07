@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17345064.png)
+![](/uploads/projects/ue-bluprint/20221218-17345064.png)
 
 ## Inputs
 
-目标。Actor对象参考。 
+目标。Actor 对象参考。
 
 ## Outputs
 
-返回值。布尔值。返回此Actor是否由一个子actor组件生成。
+返回值。布尔值。返回此 Actor 是否由一个子 actor 组件生成。
+
+<hr>
 
 Returns whether this Actor was spawned by a child actor component
 
@@ -22,13 +24,12 @@ Target is Actor
 
 ## 图示
 
-![]($-20221218-17345064.png)
+![](/uploads/projects/ue-bluprint/20221218-17345064.png)
 
 ## Inputs
 
-Target: Actor Object Reference.  
+Target: Actor Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Returns whether this Actor was spawned by a child actor component.
-

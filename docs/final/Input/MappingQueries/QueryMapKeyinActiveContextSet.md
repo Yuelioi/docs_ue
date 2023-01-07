@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19272275.png)
+![](/uploads/projects/ue-bluprint/20221218-19272275.png)
 
 ## Inputs
 
@@ -20,7 +20,7 @@
 
 钥匙。关键的结构。
 
-阻塞问题。EMappingQueryIssue Enum。  
+阻塞问题。EMappingQueryIssue Enum。
 
 ## Outputs
 
@@ -30,13 +30,15 @@
 
 返回值。EMappingQueryResult Enum. = DefaultMappingIssues::StandardFatal.
 
+<hr>
+
 = DefaultMappingIssues::StandardFatal
 
 Target is Enhanced Input Subsystem Interface
 
 ## 图示
 
-![]($-20221218-19272275.png)
+![](/uploads/projects/ue-bluprint/20221218-19272275.png)
 
 ## Inputs
 
@@ -50,7 +52,7 @@ Action: Input Action Object Reference.
 
 Key: Key Structure.
 
-Blocking Issues: EMappingQueryIssue Enum.  
+Blocking Issues: EMappingQueryIssue Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Out: Exec.
 Out Issues: Array of Mapping Query Issue Structures.
 
 Return Value: EMappingQueryResult Enum. = DefaultMappingIssues::StandardFatal.
-

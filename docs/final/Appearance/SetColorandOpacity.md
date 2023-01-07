@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17544168.png)
+![](/uploads/projects/ue-bluprint/20221218-17544168.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。用户小部件对象参考。
 
-在颜色和不透明度。线性颜色结构。应用于所有子小部件的色调。 
+在颜色和不透明度。线性颜色结构。应用于所有子小部件的色调。
 
 ## Outputs
 
 出来。执行。
+
+<hr>
 
 Sets the tint of the widget, this affects all child widgets.
 
@@ -26,7 +28,7 @@ Target is User Widget
 
 ## 图示
 
-![]($-20221218-17544168.png)
+![](/uploads/projects/ue-bluprint/20221218-17544168.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: User Widget Object Reference.
 
-In Color and Opacity: Linear Color Structure. The tint to apply to all child widgets..  
+In Color and Opacity: Linear Color Structure. The tint to apply to all child widgets..
 
 ## Outputs
 
 Out: Exec.
-

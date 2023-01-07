@@ -1,12 +1,12 @@
 # DuplicateAssetwithDialog
 
-打开一个资产选择器对话框，用指定的名称和路径创建一个资产。使用OriginalObject作为复制源。
+打开一个资产选择器对话框，用指定的名称和路径创建一个资产。使用 OriginalObject 作为复制源。
 
 目标是资产工具
 
 ## 图示
 
-![]($-20221218-18474418.png)
+![](/uploads/projects/ue-bluprint/20221218-18474418.png)
 
 ## Inputs
 
@@ -24,14 +24,17 @@
 
 出：执行。
 
-返回值。对象参考。打开一个资产选择器对话框，用指定的名称和路径创建一个资产。使用OriginalObject作为复制源。
+返回值。对象参考。打开一个资产选择器对话框，用指定的名称和路径创建一个资产。使用 OriginalObject 作为复制源。
+
+<hr>
+
 Opens an asset picker dialog and creates an asset with the specified name and path. Uses OriginalObject as the duplication source.
 
 Target is Asset Tools
 
 ## 图示
 
-![]($-20221218-18474418.png)
+![](/uploads/projects/ue-bluprint/20221218-18474418.png)
 
 ## Inputs
 
@@ -43,11 +46,10 @@ Asset Name: String.
 
 Package Path: String.
 
-Original Object: Object Reference.  
+Original Object: Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Object Reference. Opens an asset picker dialog and creates an asset with the specified name and path. Uses OriginalObject as the duplication source..
-

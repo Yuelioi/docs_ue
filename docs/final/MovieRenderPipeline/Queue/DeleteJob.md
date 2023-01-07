@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20094261.png)
+![](/uploads/projects/ue-bluprint/20221218-20094261.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。电影管道队列对象参考。
 
-在工作中。电影管道执行者工作对象参考。要寻找和删除的工作...  
+在工作中。电影管道执行者工作对象参考。要寻找和删除的工作...
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Deletes the specified job from the Queue.
 
@@ -26,7 +28,7 @@ Target is Movie Pipeline Queue
 
 ## 图示
 
-![]($-20221218-20094261.png)
+![](/uploads/projects/ue-bluprint/20221218-20094261.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Movie Pipeline Queue Object Reference.
 
-In Job: Movie Pipeline Executor Job Object Reference. The job to look for and delete..  
+In Job: Movie Pipeline Executor Job Object Reference. The job to look for and delete..
 
 ## Outputs
 
 Out: Exec.
-

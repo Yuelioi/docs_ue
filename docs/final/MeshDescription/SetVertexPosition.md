@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20050269.png)
+![](/uploads/projects/ue-bluprint/20221218-20050269.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标。网格描述 基本对象参考。
 
-顶点ID：顶点ID结构。
+顶点 ID：顶点 ID 结构。
 
-位置。向量（由裁判）。  
+位置。向量（由裁判）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets a vertex position
 
@@ -28,7 +30,7 @@ Target is Mesh Description Base
 
 ## 图示
 
-![]($-20221218-20050269.png)
+![](/uploads/projects/ue-bluprint/20221218-20050269.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Mesh Description Base Object Reference.
 
 Vertex ID: Vertex ID Structure.
 
-Position: Vector (by ref).  
+Position: Vector (by ref).
 
 ## Outputs
 
 Out: Exec.
-

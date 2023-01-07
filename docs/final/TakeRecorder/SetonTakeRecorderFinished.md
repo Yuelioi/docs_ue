@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21104542.png)
+![](/uploads/projects/ue-bluprint/20221218-21104542.png)
 
 ## Inputs
 
 在。执行。
 
-在采取录音机完成。代表。  
+在采取录音机完成。代表。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Called when take recording finishes.
 
@@ -24,15 +26,14 @@ Target is Take Recorder Blueprint Library
 
 ## 图示
 
-![]($-20221218-21104542.png)
+![](/uploads/projects/ue-bluprint/20221218-21104542.png)
 
 ## Inputs
 
 In: Exec.
 
-On Take Recorder Finished: Delegate.  
+On Take Recorder Finished: Delegate.
 
 ## Outputs
 
 Out: Exec.
-

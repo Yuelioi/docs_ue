@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14243620.png)
+![](/uploads/projects/ue-bluprint/20221218-14243620.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETextureRotationDirection Enum.  
+选择。ETextureRotationDirection Enum.
 
 ## Outputs
 
@@ -30,17 +30,19 @@ Left: Exec.
 
 向上 镜像。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14243620.png)
+![](/uploads/projects/ue-bluprint/20221218-14243620.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETextureRotationDirection Enum.  
+Selection: ETextureRotationDirection Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Right Mirrored: Exec.
 Down Mirrored: Exec.
 
 Up Mirrored: Exec.
-

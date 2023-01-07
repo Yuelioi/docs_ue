@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19103092.png)
+![](/uploads/projects/ue-bluprint/20221218-19103092.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 复制到网格。动态网格对象参考（通过参考）。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 从网格中复制。动态网格对象参考。复制网格到网格。
 
+<hr>
+
 Copy Mesh to Mesh
 
 Target is Geometry Script Library Mesh Decomposition Functions
 
 ## 图示
 
-![]($-20221218-19103092.png)
+![](/uploads/projects/ue-bluprint/20221218-19103092.png)
 
 ## Inputs
 
@@ -42,7 +44,7 @@ Copy from Mesh: Dynamic Mesh Object Reference.
 
 Copy to Mesh: Dynamic Mesh Object Reference (by ref).
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Out: Exec.
 Copy to Mesh: Dynamic Mesh Object Reference.
 
 Copy from Mesh: Dynamic Mesh Object Reference. Copy Mesh to Mesh.
-

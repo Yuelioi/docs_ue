@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14203822.png)
+![](/uploads/projects/ue-bluprint/20221218-14203822.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EInAppPurchaseStatus枚举。 
+选择。EInAppPurchaseStatus 枚举。
 
 ## Outputs
 
@@ -26,17 +26,19 @@
 
 恢复了。执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14203822.png)
+![](/uploads/projects/ue-bluprint/20221218-14203822.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EInAppPurchaseStatus Enum.  
+Selection: EInAppPurchaseStatus Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Canceled: Exec.
 Purchased: Exec.
 
 Restored: Exec.
-

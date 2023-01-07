@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20480919.png)
+![](/uploads/projects/ue-bluprint/20221218-20480919.png)
 
 ## Inputs
 
-序列播放器。序列播放器参考结构（通过参考）。  
+序列播放器。序列播放器参考结构（通过参考）。
 
 ## Outputs
 
 返回值。Float（单精度）。获取当前序列播放器的累积时间。
+
+<hr>
 
 Gets the current accumulated time of the sequence player
 
@@ -22,13 +24,12 @@ Target is Sequence Player Library
 
 ## 图示
 
-![]($-20221218-20480919.png)
+![](/uploads/projects/ue-bluprint/20221218-20480919.png)
 
 ## Inputs
 
-Sequence Player: Sequence Player Reference Structure (by ref).  
+Sequence Player: Sequence Player Reference Structure (by ref).
 
 ## Outputs
 
 Return Value: Float (single-precision). Gets the current accumulated time of the sequence player.
-

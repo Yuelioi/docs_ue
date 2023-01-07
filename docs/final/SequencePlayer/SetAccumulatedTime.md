@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20481524.png)
+![](/uploads/projects/ue-bluprint/20221218-20481524.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 序列播放器。序列播放器参考结构（通过参考）。
 
-时间。浮点数（单精度）。  
+时间。浮点数（单精度）。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。序列播放器参考结构。设置序列播放器的当前累积时间。
 
+<hr>
+
 Set the current accumulated time of the sequence player
 
 Target is Sequence Player Library
 
 ## 图示
 
-![]($-20221218-20481524.png)
+![](/uploads/projects/ue-bluprint/20221218-20481524.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Sequence Player: Sequence Player Reference Structure (by ref).
 
-Time: Float (single-precision).  
+Time: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Sequence Player Reference Structure. Set the current accumulated time of the sequence player.
-

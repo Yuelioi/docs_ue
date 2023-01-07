@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-18095251.png)
+![](/uploads/projects/ue-bluprint/20221218-18095251.png)
 
 ## Inputs
 
 在。执行。
 
-目标。地面实况数据对象参考。 
+目标。地面实况数据对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。对象参考。加载对象。
 
+<hr>
+
 Load Object
 
 Target is Ground Truth Data
 
 ## 图示
 
-![]($-20221218-18095251.png)
+![](/uploads/projects/ue-bluprint/20221218-18095251.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Ground Truth Data Object Reference.  
+Target: Ground Truth Data Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Object Reference. Load Object.
-

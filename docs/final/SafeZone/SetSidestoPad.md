@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20465777.png)
+![](/uploads/projects/ue-bluprint/20221218-20465777.png)
 
 ## Inputs
 
@@ -16,15 +16,17 @@
 
 In Pad Left: Boolean.
 
-在Pad Right。布尔值。
+在 Pad Right。布尔值。
 
 在垫顶：布尔值。
 
-在垫底。布尔型。  
+在垫底。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Sides to Pad
 
@@ -32,7 +34,7 @@ Target is Safe Zone
 
 ## 图示
 
-![]($-20221218-20465777.png)
+![](/uploads/projects/ue-bluprint/20221218-20465777.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ In Pad Right: Boolean.
 
 In Pad Top: Boolean.
 
-In Pad Bottom: Boolean.  
+In Pad Bottom: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

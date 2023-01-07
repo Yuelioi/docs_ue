@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-17343187.png)
+![](/uploads/projects/ue-bluprint/20221218-17343187.png)
 
 ## Inputs
 
 在。执行。
 
-接口。接口的接口。要查找的界面。必须指定，否则结果数组将是空的。 
+接口。接口的接口。要查找的界面。必须指定，否则结果数组将是空的。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 Out Actors: 演员对象引用数组。Output array of Actors of the specified interface...
 
+<hr>
+
 Find all Actors in the world with the specified interface.. This is a slow operation, use with caution e.g. do not use every frame.
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-17343187.png)
+![](/uploads/projects/ue-bluprint/20221218-17343187.png)
 
 ## Inputs
 
 In: Exec.
 
-Interface: Interface Interface. Interface to find. Must be specified or result array will be empty..  
+Interface: Interface Interface. Interface to find. Must be specified or result array will be empty..
 
 ## Outputs
 
 Out: Exec.
 
 Out Actors: Array of Actor Object References. Output array of Actors of the specified interface..
-

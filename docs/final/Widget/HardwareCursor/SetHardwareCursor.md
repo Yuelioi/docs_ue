@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21350157.png)
+![](/uploads/projects/ue-bluprint/20221218-21350157.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 游标名称：名称。
 
-热点。矢量二维结构。  
+热点。矢量二维结构。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。从游戏中的内容目录加载或设置一个硬件光标。
 
+<hr>
+
 Loads or sets a hardware cursor from the content directory in the game.
 
 Target is Widget Blueprint Library
 
 ## 图示
 
-![]($-20221218-21350157.png)
+![](/uploads/projects/ue-bluprint/20221218-21350157.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Cursor Shape: EMouseCursor Enum.
 
 Cursor Name: Name.
 
-Hot Spot: Vector 2D Structure.  
+Hot Spot: Vector 2D Structure.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Loads or sets a hardware cursor from the content directory in the game..
-

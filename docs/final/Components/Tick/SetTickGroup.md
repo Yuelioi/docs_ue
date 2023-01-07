@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-18281641.png)
+![](/uploads/projects/ue-bluprint/20221218-18281641.png)
 
 ## Inputs
 
 在。Exec.
 
-目标。Actor组件对象参考。
+目标。Actor 组件对象参考。
 
-新勾选组。ETickingGroup Enum.  
+新勾选组。ETickingGroup Enum.
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Changes the ticking group for this component
 
@@ -26,7 +28,7 @@ Target is Actor Component
 
 ## 图示
 
-![]($-20221218-18281641.png)
+![](/uploads/projects/ue-bluprint/20221218-18281641.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Actor Component Object Reference.
 
-New Tick Group: ETickingGroup Enum.  
+New Tick Group: ETickingGroup Enum.
 
 ## Outputs
 
 Out: Exec.
-

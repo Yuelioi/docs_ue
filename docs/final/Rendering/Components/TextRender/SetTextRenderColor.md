@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20354584.png)
+![](/uploads/projects/ue-bluprint/20221218-20354584.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。文本渲染组件对象参考。
 
-价值。颜色结构。  
+价值。颜色结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Change the text render color and signal the primitives to be rebuilt
 
@@ -26,7 +28,7 @@ Target is Text Render Component
 
 ## 图示
 
-![]($-20221218-20354584.png)
+![](/uploads/projects/ue-bluprint/20221218-20354584.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Text Render Component Object Reference.
 
-Value: Color Structure.  
+Value: Color Structure.
 
 ## Outputs
 
 Out: Exec.
-

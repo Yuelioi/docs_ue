@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21090299.png)
+![](/uploads/projects/ue-bluprint/20221218-21090299.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 预设。模块化合成器预设结构（按参考）。
 
-预设名称：字符串。  
+预设名称：字符串。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Adds the modular synth preset to the bank asset in the content browser. Only call during editor.
 
@@ -28,7 +30,7 @@ Target is Modular Synth Library
 
 ## 图示
 
-![]($-20221218-21090299.png)
+![](/uploads/projects/ue-bluprint/20221218-21090299.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ In Bank: Modular Synth Preset Bank Object Reference.
 
 Preset: Modular Synth Preset Structure (by ref).
 
-Preset Name: String.  
+Preset Name: String.
 
 ## Outputs
 
 Out: Exec.
-

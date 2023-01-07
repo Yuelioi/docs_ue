@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19010652.png)
+![](/uploads/projects/ue-bluprint/20221218-19010652.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 新的时间限制：浮点数（单精度）。
 
-时间用完后的结果。EFunctionalTestResult Enum。  
+时间用完后的结果。EFunctionalTestResult Enum。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Time Limit
 
@@ -28,7 +30,7 @@ Target is Functional Test
 
 ## 图示
 
-![]($-20221218-19010652.png)
+![](/uploads/projects/ue-bluprint/20221218-19010652.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Functional Test Object Reference.
 
 New Time Limit: Float (single-precision).
 
-Result when Time Runs Out: EFunctionalTestResult Enum.  
+Result when Time Runs Out: EFunctionalTestResult Enum.
 
 ## Outputs
 
 Out: Exec.
-

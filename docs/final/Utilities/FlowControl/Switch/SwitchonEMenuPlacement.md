@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14212997.png)
+![](/uploads/projects/ue-bluprint/20221218-14212997.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMenuPlacement枚举。 
+选择。EMenuPlacement 枚举。
 
 ## Outputs
 
@@ -40,17 +40,19 @@ Centered Below（居中）。Exec.
 
 匹配左下角。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14212997.png)
+![](/uploads/projects/ue-bluprint/20221218-14212997.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMenuPlacement Enum.  
+Selection: EMenuPlacement Enum.
 
 ## Outputs
 
@@ -79,4 +81,3 @@ Center: Exec.
 Right Center, Left Center: Exec.
 
 Match Bottom Left Corner: Exec.
-

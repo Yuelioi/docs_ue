@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21002490.png)
+![](/uploads/projects/ue-bluprint/20221218-21002490.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 在关键。Float (single-precision).
 
-坐标空间。ESplineCoordinateSpace Enum.  
+坐标空间。ESplineCoordinateSpace Enum.
 
 ## Outputs
 
 返回值。矢量。在提供的输入键值处沿花键获取单位方向。
+
+<hr>
 
 Get unit direction along spline at the provided input key value
 
@@ -26,7 +28,7 @@ Target is Spline Component
 
 ## 图示
 
-![]($-20221218-21002490.png)
+![](/uploads/projects/ue-bluprint/20221218-21002490.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Target: Spline Component Object Reference.
 
 In Key: Float (single-precision).
 
-Coordinate Space: ESplineCoordinateSpace Enum.  
+Coordinate Space: ESplineCoordinateSpace Enum.
 
 ## Outputs
 
 Return Value: Vector. Get unit direction along spline at the provided input key value.
-

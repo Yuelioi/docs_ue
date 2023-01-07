@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18480259.png)
+![](/uploads/projects/ue-bluprint/20221218-18480259.png)
 
 ## Inputs
 
@@ -21,13 +21,16 @@
 出：执行。
 
 返回值。对象引用的数组。成功导入的资产的列表。
+
+<hr>
+
 Imports assets using data specified completely up front. Does not ever ask any questions of the user or show any modal error messages
 
 Target is Asset Tools
 
 ## 图示
 
-![]($-20221218-18480259.png)
+![](/uploads/projects/ue-bluprint/20221218-18480259.png)
 
 ## Inputs
 
@@ -35,11 +38,10 @@ In: Exec.
 
 Target: Asset Tools Interface.
 
-Import Data: Automated Asset Import Data Object Reference.  
+Import Data: Automated Asset Import Data Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Array of Object References. list of successfully imported assets.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20281940.png)
+![](/uploads/projects/ue-bluprint/20221218-20281940.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 跳过自定义物理类型。布尔值。
 
-包括自我：布尔值。  
+包括自我：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set all of the bones below passed in bone to be simulated
 
@@ -32,7 +34,7 @@ Target is Skeletal Mesh Component
 
 ## 图示
 
-![]($-20221218-20281940.png)
+![](/uploads/projects/ue-bluprint/20221218-20281940.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Physics Blend Weight: Float (single-precision).
 
 Skip Custom Physics Type: Boolean.
 
-Include Self: Boolean.  
+Include Self: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

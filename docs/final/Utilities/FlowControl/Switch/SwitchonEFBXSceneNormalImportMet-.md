@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14190043.png)
+![](/uploads/projects/ue-bluprint/20221218-14190043.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFBXSceneNormalImportMethod Enum.  
+选择。EFBXSceneNormalImportMethod Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 导入法线和切线。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14190043.png)
+![](/uploads/projects/ue-bluprint/20221218-14190043.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFBXSceneNormalImportMethod Enum.  
+Selection: EFBXSceneNormalImportMethod Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Compute Normals: Exec.
 Import Normals: Exec.
 
 Import Normals And Tangents: Exec.
-

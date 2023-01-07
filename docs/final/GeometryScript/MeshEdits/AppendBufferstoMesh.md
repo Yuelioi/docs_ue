@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19113084.png)
+![](/uploads/projects/ue-bluprint/20221218-19113084.png)
 
 ## Inputs
 
@@ -20,7 +20,7 @@
 
 推迟更改通知。布尔值。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -30,13 +30,15 @@
 
 目标网格。动态网格对象参考。将缓冲区附加到网格上。
 
+<hr>
+
 Append Buffers to Mesh
 
 Target is Geometry Script Library Mesh Basic Edit Functions
 
 ## 图示
 
-![]($-20221218-19113084.png)
+![](/uploads/projects/ue-bluprint/20221218-19113084.png)
 
 ## Inputs
 
@@ -50,7 +52,7 @@ Material ID: Integer.
 
 Defer Change Notifications: Boolean.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Out: Exec.
 New Triangle Indices List: Index List Structure.
 
 Target Mesh: Dynamic Mesh Object Reference. Append Buffers to Mesh.
-

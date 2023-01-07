@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21094831.png)
+![](/uploads/projects/ue-bluprint/20221218-21094831.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。以元数据对象为参考。
 
-在描述中。字符串。  
+在描述中。字符串。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set this take's user-provided description. Note:: Only valid for takes that have not been locked
 
@@ -26,7 +28,7 @@ Target is Take Meta Data
 
 ## 图示
 
-![]($-20221218-21094831.png)
+![](/uploads/projects/ue-bluprint/20221218-21094831.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Take Meta Data Object Reference.
 
-In Description: String.  
+In Description: String.
 
 ## Outputs
 
 Out: Exec.
-

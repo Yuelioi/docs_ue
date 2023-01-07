@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18095520.png)
+![](/uploads/projects/ue-bluprint/20221218-18095520.png)
 
 ## Inputs
 
 在。执行。
 
-值。整数。0:电影式，1:史诗式...等等。 
+值。整数。0:电影式，1:史诗式...等等。
 
 ## Outputs
 
 出：输出。Exec.
+
+<hr>
 
 Sets all other settings based on an overall value
 
@@ -24,15 +26,14 @@ Target is Automation Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-18095520.png)
+![](/uploads/projects/ue-bluprint/20221218-18095520.png)
 
 ## Inputs
 
 In: Exec.
 
-Value: Integer. 0:Cinematic, 1:Epic...etc..  
+Value: Integer. 0:Cinematic, 1:Epic...etc..
 
 ## Outputs
 
 Out: Exec.
-

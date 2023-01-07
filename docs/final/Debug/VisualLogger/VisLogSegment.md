@@ -2,11 +2,11 @@
 
 日志段
 
-目标是Visual Logger Kismet库
+目标是 Visual Logger Kismet 库
 
 ## 图示
 
-![]($-20221218-18412741.png)
+![](/uploads/projects/ue-bluprint/20221218-18412741.png)
 
 ## Inputs
 
@@ -26,11 +26,13 @@
 
 类别名称。名称.
 
-添加到消息日志。布尔值。  
+添加到消息日志。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Log Segment
 
@@ -38,7 +40,7 @@ Target is Visual Logger Kismet Library
 
 ## 图示
 
-![]($-20221218-18412741.png)
+![](/uploads/projects/ue-bluprint/20221218-18412741.png)
 
 ## Inputs
 
@@ -58,9 +60,8 @@ Thickness: Float (single-precision).
 
 Category Name: Name.
 
-Add to Message Log: Boolean.  
+Add to Message Log: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

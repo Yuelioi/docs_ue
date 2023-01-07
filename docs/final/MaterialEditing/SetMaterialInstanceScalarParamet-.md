@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19465408.png)
+![](/uploads/projects/ue-bluprint/20221218-19465408.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 值。Float（单精度）。
 
-协会。EMaterialParameterAssociation Enum.  
+协会。EMaterialParameterAssociation Enum.
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 返回值。布尔值。设置一个材料实例的标量（浮点）参数值。
 
+<hr>
+
 Set the scalar (float) parameter value for a Material Instance
 
 Target is Material Editing Library
 
 ## 图示
 
-![]($-20221218-19465408.png)
+![](/uploads/projects/ue-bluprint/20221218-19465408.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Parameter Name: Name.
 
 Value: Float (single-precision).
 
-Association: EMaterialParameterAssociation Enum.  
+Association: EMaterialParameterAssociation Enum.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Set the scalar (float) parameter value for a Material Instance.
-

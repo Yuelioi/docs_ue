@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21252861.png)
+![](/uploads/projects/ue-bluprint/20221218-21252861.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。视口统计子系统对象参考。
 
-代表。代表（由裁判）。  
+代表。代表（由裁判）。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。整数。
 
+<hr>
+
 Add a dynamic delegate to the display subsystem.
 
 Target is Viewport Stats Subsystem
 
 ## 图示
 
-![]($-20221218-21252861.png)
+![](/uploads/projects/ue-bluprint/20221218-21252861.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Viewport Stats Subsystem Object Reference.
 
-Delegate: Delegate (by ref).  
+Delegate: Delegate (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14210972.png)
+![](/uploads/projects/ue-bluprint/20221218-14210972.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ELocalizedTextSourceCategory Enum.  
+选择。ELocalizedTextSourceCategory Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Engine: Exec.
 
 编辑器。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14210972.png)
+![](/uploads/projects/ue-bluprint/20221218-14210972.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ELocalizedTextSourceCategory Enum.  
+Selection: ELocalizedTextSourceCategory Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Game: Exec.
 Engine: Exec.
 
 Editor: Exec.
-

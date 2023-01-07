@@ -2,11 +2,11 @@
 
 绘制一个调试圆柱体
 
-目标是Kismet系统库
+目标是 Kismet 系统库
 
 ## 图示
 
-![]($-20221218-20360812.png)
+![](/uploads/projects/ue-bluprint/20221218-20360812.png)
 
 ## Inputs
 
@@ -24,11 +24,13 @@
 
 持续时间。浮点数（单精度）。
 
-厚度。Float（单精度）。  
+厚度。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Draw a debug cylinder
 
@@ -36,7 +38,7 @@ Target is Kismet System Library
 
 ## 图示
 
-![]($-20221218-20360812.png)
+![](/uploads/projects/ue-bluprint/20221218-20360812.png)
 
 ## Inputs
 
@@ -54,9 +56,8 @@ Line Color: Linear Color Structure.
 
 Duration: Float (single-precision).
 
-Thickness: Float (single-precision).  
+Thickness: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

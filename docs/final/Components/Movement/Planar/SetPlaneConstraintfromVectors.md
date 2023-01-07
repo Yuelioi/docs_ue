@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18251125.png)
+![](/uploads/projects/ue-bluprint/20221218-18251125.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 前进。Vector（向量）。
 
-向上。向量。 
+向上。向量。
 
 ## Outputs
 
 向外。Exec.
+
+<hr>
 
 Uses the Forward and Up vectors to compute the plane that constrains movement, enforced if the plane constraint is enabled.
 
@@ -28,7 +30,7 @@ Target is Movement Component
 
 ## 图示
 
-![]($-20221218-18251125.png)
+![](/uploads/projects/ue-bluprint/20221218-18251125.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Movement Component Object Reference.
 
 Forward: Vector.
 
-Up: Vector.  
+Up: Vector.
 
 ## Outputs
 
 Out: Exec.
-

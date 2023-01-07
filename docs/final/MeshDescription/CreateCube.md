@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20031393.png)
+![](/uploads/projects/ue-bluprint/20221218-20031393.png)
 
 ## Inputs
 
@@ -18,23 +18,25 @@
 
 半数外延。向量。
 
-多边形组。多边形组的ID结构。  
+多边形组。多边形组的 ID 结构。
 
 ## Outputs
 
 出：执行。
 
-Polygon ID Plus X: Polygon ID结构。
+Polygon ID Plus X: Polygon ID 结构。
 
-多边形ID减去X。多边形ID结构。
+多边形 ID 减去 X。多边形 ID 结构。
 
-多边形ID加Y：多边形ID结构。
+多边形 ID 加 Y：多边形 ID 结构。
 
-多边形ID减去Y：多边形ID结构。
+多边形 ID 减去 Y：多边形 ID 结构。
 
-Polygon ID Plus Z: Polygon ID结构。
+Polygon ID Plus Z: Polygon ID 结构。
 
-多边形ID减去Z：多边形ID结构。
+多边形 ID 减去 Z：多边形 ID 结构。
+
+<hr>
 
 Create Cube
 
@@ -42,7 +44,7 @@ Target is Static Mesh Description
 
 ## 图示
 
-![]($-20221218-20031393.png)
+![](/uploads/projects/ue-bluprint/20221218-20031393.png)
 
 ## Inputs
 
@@ -54,7 +56,7 @@ Center: Vector.
 
 Half Extents: Vector.
 
-Polygon Group: Polygon Group ID Structure.  
+Polygon Group: Polygon Group ID Structure.
 
 ## Outputs
 
@@ -71,4 +73,3 @@ Polygon ID Minus Y: Polygon ID Structure.
 Polygon ID Plus Z: Polygon ID Structure.
 
 Polygon ID Minus Z: Polygon ID Structure.
-

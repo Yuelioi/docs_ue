@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18480671.png)
+![](/uploads/projects/ue-bluprint/20221218-18480671.png)
 
 ## Inputs
 
@@ -21,13 +21,16 @@
 出：执行。
 
 返回值。对象引用的数组。成功导入的资产的列表。
+
+<hr>
+
 Opens a file open dialog to choose files to import to the destination path.
 
 Target is Asset Tools
 
 ## 图示
 
-![]($-20221218-18480671.png)
+![](/uploads/projects/ue-bluprint/20221218-18480671.png)
 
 ## Inputs
 
@@ -35,11 +38,10 @@ In: Exec.
 
 Target: Object Reference.
 
-Destination Path: String. Path to import files to.  
+Destination Path: String. Path to import files to.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Array of Object References. list of successfully imported assets.
-

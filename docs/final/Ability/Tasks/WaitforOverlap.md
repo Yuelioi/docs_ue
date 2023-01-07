@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-17333960.png)
+![](/uploads/projects/ue-bluprint/20221218-17333960.png)
 
 ## Inputs
 
-在。执行。 
+在。执行。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 目标数据。游戏能力目标数据处理结构（通过引用）。
 
+<hr>
+
 Wait until an overlap occurs. This will need to be better fleshed out so we can specify game specific collision requirements
 
 Target is Ability Task Wait Overlap
 
 ## 图示
 
-![]($-20221218-17333960.png)
+![](/uploads/projects/ue-bluprint/20221218-17333960.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Async Task: Ability Task Wait Overlap Object Reference.
 On Overlap: Exec. On Overlap.
 
 Target Data: Gameplay Ability Target Data Handle Structure (by ref).
-

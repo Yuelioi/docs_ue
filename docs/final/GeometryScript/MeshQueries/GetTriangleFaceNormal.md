@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-19120563.png)
+![](/uploads/projects/ue-bluprint/20221218-19120563.png)
 
 ## Inputs
 
 目标网格。动态网格对象参考。
 
-三角形ID：整数。  
+三角形 ID：整数。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 正常。向量。获取三角脸法线。
 
+<hr>
+
 Get Triangle Face Normal
 
 Target is Geometry Script Library Mesh Query Functions
 
 ## 图示
 
-![]($-20221218-19120563.png)
+![](/uploads/projects/ue-bluprint/20221218-19120563.png)
 
 ## Inputs
 
 Target Mesh: Dynamic Mesh Object Reference.
 
-Triangle ID: Integer.  
+Triangle ID: Integer.
 
 ## Outputs
 
 Is Valid Triangle: Boolean.
 
 Normal: Vector. Get Triangle Face Normal.
-

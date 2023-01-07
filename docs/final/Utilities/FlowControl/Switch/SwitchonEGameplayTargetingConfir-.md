@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14193561.png)
+![](/uploads/projects/ue-bluprint/20221218-14193561.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGameplayTargetingConfirmation枚举。 
+选择。EGameplayTargetingConfirmation 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ User Confirmed: Exec.
 
 自定多人：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14193561.png)
+![](/uploads/projects/ue-bluprint/20221218-14193561.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGameplayTargetingConfirmation Enum.  
+Selection: EGameplayTargetingConfirmation Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ User Confirmed: Exec.
 Custom: Exec.
 
 Custom Multi: Exec.
-

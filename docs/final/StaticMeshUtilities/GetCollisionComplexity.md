@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21033594.png)
+![](/uploads/projects/ue-bluprint/20221218-21033594.png)
 
 ## Inputs
 
 目标。静态网格编辑器子系统对象参考。
 
-静态网格。静态网格对象参考。静态网状物查询...  
+静态网格。静态网格对象参考。静态网状物查询...
 
 ## Outputs
 
-返回值。ECollisionTraceFlag枚举，碰撞跟踪行为。
+返回值。ECollisionTraceFlag 枚举，碰撞跟踪行为。
+
+<hr>
 
 Get the Collision Trace behavior of a static mesh
 
@@ -24,15 +26,14 @@ Target is Static Mesh Editor Subsystem
 
 ## 图示
 
-![]($-20221218-21033594.png)
+![](/uploads/projects/ue-bluprint/20221218-21033594.png)
 
 ## Inputs
 
 Target: Static Mesh Editor Subsystem Object Reference.
 
-Static Mesh: Static Mesh Object Reference. Mesh to query on..  
+Static Mesh: Static Mesh Object Reference. Mesh to query on..
 
 ## Outputs
 
 Return Value: ECollisionTraceFlag Enum. the Collision Trace behavior..
-

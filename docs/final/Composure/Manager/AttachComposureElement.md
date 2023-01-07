@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18292759.png)
+![](/uploads/projects/ue-bluprint/20221218-18292759.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 父级名称。名称。父组合元素的名称。
 
-子级名称。名称。子组合元素的名称。 
+子级名称。名称。子组合元素的名称。
 
 ## Outputs
 
@@ -22,13 +22,15 @@ Out: 执行。
 
 返回值。布尔值。 布尔值 附加过程是否成功。
 
+<hr>
+
 Attach one composure element as the child to another composure element in the scene.
 
 Target is Composure Blueprint Library
 
 ## 图示
 
-![]($-20221218-18292759.png)
+![](/uploads/projects/ue-bluprint/20221218-18292759.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Parent Name: Name. The name of the parent composure element..
 
-Child Name: Name. The name of the child composure element..  
+Child Name: Name. The name of the child composure element..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. bool Whether the attaching process is successful or not..
-

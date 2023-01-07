@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14171714.png)
+![](/uploads/projects/ue-bluprint/20221218-14171714.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EBoneControlSpace Enum.  
+选择。EBoneControlSpace Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 骨骼空间。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14171714.png)
+![](/uploads/projects/ue-bluprint/20221218-14171714.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EBoneControlSpace Enum.  
+Selection: EBoneControlSpace Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Component Space: Exec.
 Parent Bone Space: Exec.
 
 Bone Space: Exec.
-

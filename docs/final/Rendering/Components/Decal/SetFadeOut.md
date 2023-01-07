@@ -1,12 +1,12 @@
 # SetFadeOut
 
-设置贴花的褪色开始时间、持续时间，以及在贴花完全褪色后是否要销毁拥有的角色。FadeStartDelay和FadeDuration的默认值为0，使贴花持久化。见DecalLifetimeOpacity material.节点来控制 "淡出 "的外观。
+设置贴花的褪色开始时间、持续时间，以及在贴花完全褪色后是否要销毁拥有的角色。FadeStartDelay 和 FadeDuration 的默认值为 0，使贴花持久化。见 DecalLifetimeOpacity material.节点来控制 "淡出 "的外观。
 
 目标是贴花组件
 
 ## 图示
 
-![]($-20221218-20334116.png)
+![](/uploads/projects/ue-bluprint/20221218-20334116.png)
 
 ## Inputs
 
@@ -24,13 +24,15 @@
 
 出：执行。
 
+<hr>
+
 Sets the decal's fade start time, duration and if the owning actor should be destroyed after the decal is fully faded out.. The default value of 0 for FadeStartDelay and FadeDuration makes the decal persistent. See DecalLifetimeOpacity material. node to control the look of "fading out."
 
 Target is Decal Component
 
 ## 图示
 
-![]($-20221218-20334116.png)
+![](/uploads/projects/ue-bluprint/20221218-20334116.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Start Delay: Float (single-precision). Time in seconds to wait before beginning 
 
 Duration: Float (single-precision). Time in second for the decal to fade out..
 
-Destroy Owner After Fade: Boolean. Should the owning actor automatically be destroyed after it is completely faded out..  
+Destroy Owner After Fade: Boolean. Should the owning actor automatically be destroyed after it is completely faded out..
 
 ## Outputs
 
 Out: Exec.
-

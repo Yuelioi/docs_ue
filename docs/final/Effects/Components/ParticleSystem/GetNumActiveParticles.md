@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18544042.png)
+![](/uploads/projects/ue-bluprint/20221218-18544042.png)
 
 ## Inputs
 
@@ -15,19 +15,21 @@
 ## Outputs
 
 返回值。整数。获取这个系统中当前的活动粒子数。
+
+<hr>
+
 Get the current number of active particles in this system
 
 Target is Particle System Component
 
 ## 图示
 
-![]($-20221218-18544042.png)
+![](/uploads/projects/ue-bluprint/20221218-18544042.png)
 
 ## Inputs
 
-Target: Particle System Component Object Reference.  
+Target: Particle System Component Object Reference.
 
 ## Outputs
 
 Return Value: Integer. Get the current number of active particles in this system.
-

@@ -2,11 +2,11 @@
 
 在材料实例常量中设置一个纹理参数值。只在编辑器中起作用。
 
-目标是蓝图材料纹理节点BPLibrary
+目标是蓝图材料纹理节点 BPLibrary
 
 ## 图示
 
-![]($-20221218-20393847.png)
+![](/uploads/projects/ue-bluprint/20221218-20393847.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 Param Name: String.
 
-纹理。纹理2D对象参考。  
+纹理。纹理 2D 对象参考。
 
 ## Outputs
 
@@ -24,13 +24,15 @@ Param Name: String.
 
 返回值。布尔值。在材质实例常量中设置一个纹理参数值。只在编辑器中起作用。
 
+<hr>
+
 Sets a Texture Parameter value in a Material Instance Constant. Only works in the editor
 
 Target is Blueprint Material Texture Nodes BPLibrary
 
 ## 图示
 
-![]($-20221218-20393847.png)
+![](/uploads/projects/ue-bluprint/20221218-20393847.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Material: Material Instance Constant Object Reference.
 
 Param Name: String.
 
-Texture: Texture 2D Object Reference.  
+Texture: Texture 2D Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Sets a Texture Parameter value in a Material Instance Constant. Only works in the editor.
-

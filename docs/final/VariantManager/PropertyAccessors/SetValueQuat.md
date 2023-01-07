@@ -1,12 +1,12 @@
 # SetValueQuat
 
-设置值Quat
+设置值 Quat
 
 目标是变体管理器蓝图库
 
 ## 图示
 
-![]($-20221218-21241508.png)
+![](/uploads/projects/ue-bluprint/20221218-21241508.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 属性。属性值对象参考。
 
-在价值：Quat结构。  
+在价值：Quat 结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Value Quat
 
@@ -26,7 +28,7 @@ Target is Variant Manager Blueprint Library
 
 ## 图示
 
-![]($-20221218-21241508.png)
+![](/uploads/projects/ue-bluprint/20221218-21241508.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Property: Property Value Object Reference.
 
-In Value: Quat Structure.  
+In Value: Quat Structure.
 
 ## Outputs
 
 Out: Exec.
-

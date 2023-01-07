@@ -1,18 +1,18 @@
 # AddInjectedNode
 
-将一个函数/结构节点作为一个注入的节点添加到已编辑的图中。UnitNode代表一个USTRUCT上的RIGVM_METHOD声明。这将导致一个NodeAdded修改事件。
+将一个函数/结构节点作为一个注入的节点添加到已编辑的图中。UnitNode 代表一个 USTRUCT 上的 RIGVM_METHOD 声明。这将导致一个 NodeAdded 修改事件。
 
-目标是Rig VMController
+目标是 Rig VMController
 
 ## 图示
 
-![]($-20221218-20415910.png)
+![](/uploads/projects/ue-bluprint/20221218-20415910.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Rig VMController对象参考。
+目标。Rig VMController 对象参考。
 
 在销路：字符串。
 
@@ -30,13 +30,15 @@
 
 设置撤销重做：布尔值。
 
-打印Python命令。布尔值。  
+打印 Python 命令。布尔值。
 
 ## Outputs
 
 出：执行。
 
-返回值。Rig VMInjection信息对象参考。将一个函数/结构节点作为一个注入的节点添加到已编辑的图中。UnitNode代表一个USTRUCT上的RIGVM_METHOD声明。这将导致一个NodeAdded修改事件。
+返回值。Rig VMInjection 信息对象参考。将一个函数/结构节点作为一个注入的节点添加到已编辑的图中。UnitNode 代表一个 USTRUCT 上的 RIGVM_METHOD 声明。这将导致一个 NodeAdded 修改事件。
+
+<hr>
 
 Adds a Function / Struct Node to the edited Graph as an injected node. UnitNode represent a RIGVM_METHOD declaration on a USTRUCT.. This causes a NodeAdded modified event.
 
@@ -44,7 +46,7 @@ Target is Rig VMController
 
 ## 图示
 
-![]($-20221218-20415910.png)
+![](/uploads/projects/ue-bluprint/20221218-20415910.png)
 
 ## Inputs
 
@@ -68,11 +70,10 @@ In Node Name: String.
 
 Setup Undo Redo: Boolean.
 
-Print Python Command: Boolean.  
+Print Python Command: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Rig VMInjection Info Object Reference. Adds a Function / Struct Node to the edited Graph as an injected node. UnitNode represent a RIGVM_METHOD declaration on a USTRUCT.. This causes a NodeAdded modified event..
-

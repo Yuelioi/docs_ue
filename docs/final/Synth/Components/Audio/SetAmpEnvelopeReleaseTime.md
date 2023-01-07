@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-21065919.png)
+![](/uploads/projects/ue-bluprint/20221218-21065919.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Synth Component Mono Wave Table对象参考。
+目标。Synth Component Mono Wave Table 对象参考。
 
-在释放时间Msec:Float (single-precision).  
+在释放时间 Msec:Float (single-precision).
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Amp envelope release time (msec)
 
@@ -26,7 +28,7 @@ Target is Synth Component Mono Wave Table
 
 ## 图示
 
-![]($-20221218-21065919.png)
+![](/uploads/projects/ue-bluprint/20221218-21065919.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Synth Component Mono Wave Table Object Reference.
 
-In Release Time Msec: Float (single-precision).  
+In Release Time Msec: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

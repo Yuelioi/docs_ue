@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14165542.png)
+![](/uploads/projects/ue-bluprint/20221218-14165542.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EArucoDictionary Enum.  
+选择。EArucoDictionary Enum.
 
 ## Outputs
 
@@ -48,17 +48,19 @@ DICT 7X7 1000：执行。
 
 DICT ARUCO ORIGINAL: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14165542.png)
+![](/uploads/projects/ue-bluprint/20221218-14165542.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EArucoDictionary Enum.  
+Selection: EArucoDictionary Enum.
 
 ## Outputs
 
@@ -95,4 +97,3 @@ DICT 7X7 250: Exec.
 DICT 7X7 1000: Exec.
 
 DICT ARUCO ORIGINAL: Exec.
-

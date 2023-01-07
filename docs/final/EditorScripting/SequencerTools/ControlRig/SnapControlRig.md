@@ -2,11 +2,11 @@
 
 执行抓取操作，将子节点抓取到父节点。
 
-目标是Control Rig Sequencer Editor Library
+目标是 Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18534082.png)
+![](/uploads/projects/ue-bluprint/20221218-18534082.png)
 
 ## Inputs
 
@@ -24,20 +24,23 @@
 
 捕捉设置。控制钻机卡位设置对象参考。要使用的设置。
 
-时间单位。ESequenceTimeUnit枚举。帧值的单位，可以是显示率，也可以是tick分辨率。
+时间单位。ESequenceTimeUnit 枚举。帧值的单位，可以是显示率，也可以是 tick 分辨率。
 
 ## Outputs
 
 出：执行。
 
 返回值。布尔值。
+
+<hr>
+
 Peform a Snap operation to snap the children to the parent.
 
 Target is Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18534082.png)
+![](/uploads/projects/ue-bluprint/20221218-18534082.png)
 
 ## Inputs
 
@@ -55,11 +58,10 @@ Parent to Snap: Control Rig Snapper Selection Structure (by ref). The parent obj
 
 Snap Settings: Control Rig Snap Settings Object Reference. Settings to use.
 
-Time Unit: ESequenceTimeUnit Enum. Unit for frame values, either in display rate or tick resolution.  
+Time Unit: ESequenceTimeUnit Enum. Unit for frame values, either in display rate or tick resolution.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

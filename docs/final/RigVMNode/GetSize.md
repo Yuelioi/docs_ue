@@ -1,20 +1,22 @@
 # GetSize
 
-返回该节点的2d大小 - 用于UI。
+返回该节点的 2d 大小 - 用于 UI。
 
-目标是Rig VMNode
+目标是 Rig VMNode
 
 ## 图示
 
-![]($-20221218-20451468.png)
+![](/uploads/projects/ue-bluprint/20221218-20451468.png)
 
 ## Inputs
 
-目标。Rig VMNode对象参考。  
+目标。Rig VMNode 对象参考。
 
 ## Outputs
 
-返回值。矢量2D结构。返回该节点的2D尺寸--用于UI.NET。
+返回值。矢量 2D 结构。返回该节点的 2D 尺寸--用于 UI.NET。
+
+<hr>
 
 Returns the 2d size of this node - used for UI.
 
@@ -22,13 +24,12 @@ Target is Rig VMNode
 
 ## 图示
 
-![]($-20221218-20451468.png)
+![](/uploads/projects/ue-bluprint/20221218-20451468.png)
 
 ## Inputs
 
-Target: Rig VMNode Object Reference.  
+Target: Rig VMNode Object Reference.
 
 ## Outputs
 
 Return Value: Vector 2D Structure. Returns the 2d size of this node - used for UI..
-

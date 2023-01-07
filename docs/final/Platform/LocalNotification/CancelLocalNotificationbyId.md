@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20293401.png)
+![](/uploads/projects/ue-bluprint/20221218-20293401.png)
 
 ## Inputs
 
 在。执行。
 
-通知标识。整数。从ScheduleLocalNotification*函数之一返回的Id。  
+通知标识。整数。从 ScheduleLocalNotification\*函数之一返回的 Id。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Cancel a local notification given the ActivationEvent
 
@@ -24,15 +26,14 @@ Target is Blueprint Platform Library
 
 ## 图示
 
-![]($-20221218-20293401.png)
+![](/uploads/projects/ue-bluprint/20221218-20293401.png)
 
 ## Inputs
 
 In: Exec.
 
-Notification Id: Integer. The Id returned from one of the ScheduleLocalNotification* functions.  
+Notification Id: Integer. The Id returned from one of the ScheduleLocalNotification\* functions.
 
 ## Outputs
 
 Out: Exec.
-

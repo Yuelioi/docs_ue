@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14252900.png)
+![](/uploads/projects/ue-bluprint/20221218-14252900.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EWidgetAnimationEvent Enum.  
+选择。EWidgetAnimationEvent Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 已完成。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14252900.png)
+![](/uploads/projects/ue-bluprint/20221218-14252900.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EWidgetAnimationEvent Enum.  
+Selection: EWidgetAnimationEvent Enum.
 
 ## Outputs
 
 Started: Exec.
 
 Finished: Exec.
-

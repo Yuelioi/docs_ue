@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20534082.png)
+![](/uploads/projects/ue-bluprint/20221218-20534082.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。电影场景音频部分对象参考。
 
-在开始偏移。帧号结构。  
+在开始偏移。帧号结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the offset into the beginning of the audio clip
 
@@ -26,7 +28,7 @@ Target is Movie Scene Audio Section
 
 ## 图示
 
-![]($-20221218-20534082.png)
+![](/uploads/projects/ue-bluprint/20221218-20534082.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Movie Scene Audio Section Object Reference.
 
-In Start Offset: Frame Number Structure.  
+In Start Offset: Frame Number Structure.
 
 ## Outputs
 
 Out: Exec.
-

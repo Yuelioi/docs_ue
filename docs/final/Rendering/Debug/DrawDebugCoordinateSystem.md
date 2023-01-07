@@ -2,11 +2,11 @@
 
 绘制一个调试坐标系。
 
-目标是Kismet系统库
+目标是 Kismet 系统库
 
 ## 图示
 
-![]($-20221218-20360699.png)
+![](/uploads/projects/ue-bluprint/20221218-20360699.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 持续时间。浮点数（单精度）。
 
-厚度。Float（单精度）。  
+厚度。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Draw a debug coordinate system.
 
@@ -32,7 +34,7 @@ Target is Kismet System Library
 
 ## 图示
 
-![]($-20221218-20360699.png)
+![](/uploads/projects/ue-bluprint/20221218-20360699.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Scale: Float (single-precision).
 
 Duration: Float (single-precision).
 
-Thickness: Float (single-precision).  
+Thickness: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

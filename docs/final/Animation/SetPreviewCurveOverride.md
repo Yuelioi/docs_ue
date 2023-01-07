@@ -2,11 +2,11 @@
 
 设置姿势值
 
-目标是Anim单节点实例
+目标是 Anim 单节点实例
 
 ## 图示
 
-![]($-20221218-17505276.png)
+![](/uploads/projects/ue-bluprint/20221218-17505276.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 值。Float（单精度）。
 
-Remove if Zero: 布尔值。 
+Remove if Zero: 布尔值。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set pose value
 
@@ -30,7 +32,7 @@ Target is Anim Single Node Instance
 
 ## 图示
 
-![]($-20221218-17505276.png)
+![](/uploads/projects/ue-bluprint/20221218-17505276.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Pose Name: Name (by ref).
 
 Value: Float (single-precision).
 
-Remove if Zero: Boolean.  
+Remove if Zero: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

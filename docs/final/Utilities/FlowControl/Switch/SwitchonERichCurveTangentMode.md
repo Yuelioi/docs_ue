@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14225787.png)
+![](/uploads/projects/ue-bluprint/20221218-14225787.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERichCurveTangentMode枚举。 
+选择。ERichCurveTangentMode 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 Break: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14225787.png)
+![](/uploads/projects/ue-bluprint/20221218-14225787.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERichCurveTangentMode Enum.  
+Selection: ERichCurveTangentMode Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Auto: Exec.
 User: Exec.
 
 Break: Exec.
-

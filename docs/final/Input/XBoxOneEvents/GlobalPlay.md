@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-19300719.png)
+![](/uploads/projects/ue-bluprint/20221218-19300719.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 钥匙。关键的结构。
 
+<hr>
+
 Events for when the Global Play key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19300719.png)
+![](/uploads/projects/ue-bluprint/20221218-19300719.png)
 
 ## Inputs
 
@@ -31,4 +33,3 @@ Pressed: Exec.
 Released: Exec.
 
 Key: Key Structure.
-

@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20303909.png)
+![](/uploads/projects/ue-bluprint/20221218-20303909.png)
 
 ## Inputs
 
 在。执行。
 
-目标。尼亚加拉预览网格对象参考。  
+目标。尼亚加拉预览网格对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Deactivate Previews
 
@@ -24,15 +26,14 @@ Target is Niagara Preview Grid
 
 ## 图示
 
-![]($-20221218-20303909.png)
+![](/uploads/projects/ue-bluprint/20221218-20303909.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Niagara Preview Grid Object Reference.  
+Target: Niagara Preview Grid Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

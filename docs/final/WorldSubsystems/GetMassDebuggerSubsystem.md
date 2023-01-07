@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21380602.png)
+![](/uploads/projects/ue-bluprint/20221218-21380602.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。大规模调试器子系统对象参考。
 
+<hr>
+
 Get Mass Debugger Subsystem (World Subsystem)
 
 Mass Debugger Subsystem
 
 ## 图示
 
-![]($-20221218-21380602.png)
+![](/uploads/projects/ue-bluprint/20221218-21380602.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Mass Debugger Subsystem Object Reference.
-

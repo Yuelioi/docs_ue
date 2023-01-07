@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20574722.png)
+![](/uploads/projects/ue-bluprint/20221218-20574722.png)
 
 ## Inputs
 
 在。执行。
 
-目标：输入设置对象参考。  
+目标：输入设置对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Flush the current mapping values to the config file
 
@@ -24,15 +26,14 @@ Target is Input Settings
 
 ## 图示
 
-![]($-20221218-20574722.png)
+![](/uploads/projects/ue-bluprint/20221218-20574722.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Input Settings Object Reference.  
+Target: Input Settings Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

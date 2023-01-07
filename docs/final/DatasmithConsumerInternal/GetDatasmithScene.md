@@ -1,24 +1,26 @@
 # GetDatasmithScene
 
-获取Datasmith场景
+获取 Datasmith 场景
 
-目标是Datasmith消费者
+目标是 Datasmith 消费者
 
 ## 图示
 
-![]($-20221218-18404482.png)
+![](/uploads/projects/ue-bluprint/20221218-18404482.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Datasmith消费者对象参考。  
+目标。Datasmith 消费者对象参考。
 
 ## Outputs
 
 出：执行。
 
-返回值。Datasmith Scene对象参考。获取Datasmith Scene。
+返回值。Datasmith Scene 对象参考。获取 Datasmith Scene。
+
+<hr>
 
 Get Datasmith Scene
 
@@ -26,17 +28,16 @@ Target is Datasmith Consumer
 
 ## 图示
 
-![]($-20221218-18404482.png)
+![](/uploads/projects/ue-bluprint/20221218-18404482.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Datasmith Consumer Object Reference.  
+Target: Datasmith Consumer Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Datasmith Scene Object Reference. Get Datasmith Scene.
-

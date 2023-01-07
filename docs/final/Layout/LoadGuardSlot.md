@@ -2,11 +2,7 @@
 
 在这一页
 
-  * 行动
-
-
-
-
+- 行动
 
 ## Actions
 
@@ -16,13 +12,11 @@
 
 设置垂直对齐。设置垂直对准。目标是负载保护槽。
 
-On this page 
+<hr>
 
-  * Actions
+On this page
 
-
-
-
+- Actions
 
 ## Actions
 
@@ -31,4 +25,3 @@ Set Horizontal Alignment. Set Horizontal Alignment: Target is Load Guard Slot.
 Set Padding. Set Padding: Target is Load Guard Slot.
 
 Set Vertical Alignment. Set Vertical Alignment: Target is Load Guard Slot.
-

@@ -2,6 +2,6 @@
 
 On Latest Per Channel Meter Results:. Delegate to receive the latest per-channel meter results.
 
+<hr>
 
 On Latest Per Channel Meter Results:. Delegate to receive the latest per-channel meter results.
-

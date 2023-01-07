@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21253212.png)
+![](/uploads/projects/ue-bluprint/20221218-21253212.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。视口世界互动对象参考。
 
-从命中测试中排除的角色。演员对象参考。应该永远从命中测试中排除的角色。  
+从命中测试中排除的角色。演员对象参考。应该永远从命中测试中排除的角色。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Adds an actor to the list of actors to never allow an interactor to hit in the scene. No selection. No hover.. There's no need to remove actors from this list. They'll expire from it automatically when destroyed.
 
@@ -26,7 +28,7 @@ Target is Viewport World Interaction
 
 ## 图示
 
-![]($-20221218-21253212.png)
+![](/uploads/projects/ue-bluprint/20221218-21253212.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Viewport World Interaction Object Reference.
 
-Actor to Exclude from Hit Tests: Actor Object Reference. The actor that should be forever excluded from hit tests.  
+Actor to Exclude from Hit Tests: Actor Object Reference. The actor that should be forever excluded from hit tests.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-17500748.png)
+![](/uploads/projects/ue-bluprint/20221218-17500748.png)
 
 ## Inputs
 
 在。Exec.
 
-目标。车辆动画实例对象参考。 
+目标。车辆动画实例对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。轮式车辆对象参考。使蒙太奇跳到一个指定部分的结尾。
 
+<hr>
+
 Makes a montage jump to the end of a named section.
 
 Target is Vehicle Anim Instance
 
 ## 图示
 
-![]($-20221218-17500748.png)
+![](/uploads/projects/ue-bluprint/20221218-17500748.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Vehicle Anim Instance Object Reference.  
+Target: Vehicle Anim Instance Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Wheeled Vehicle Object Reference. Makes a montage jump to the end of a named section..
-

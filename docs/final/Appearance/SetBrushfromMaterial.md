@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17543224.png)
+![](/uploads/projects/ue-bluprint/20221218-17543224.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标：Border 对象参考。
 
-材料。材料界面对象参考。 
+材料。材料界面对象参考。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set Brush from Material
 
@@ -26,7 +28,7 @@ Target is Border
 
 ## 图示
 
-![]($-20221218-17543224.png)
+![](/uploads/projects/ue-bluprint/20221218-17543224.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Border Object Reference.
 
-Material: Material Interface Object Reference.  
+Material: Material Interface Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

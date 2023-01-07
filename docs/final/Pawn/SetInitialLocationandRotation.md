@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20193987.png)
+![](/uploads/projects/ue-bluprint/20221218-20193987.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 新的位置。向量（由裁判）。
 
-新的轮换。旋转器（由裁判）。  
+新的轮换。旋转器（由裁判）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the initial location and rotation of the controller, as well as the control rotation. Typically used when the controller is first created.
 
@@ -28,7 +30,7 @@ Target is Controller
 
 ## 图示
 
-![]($-20221218-20193987.png)
+![](/uploads/projects/ue-bluprint/20221218-20193987.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Controller Object Reference.
 
 New Location: Vector (by ref).
 
-New Rotation: Rotator (by ref).  
+New Rotation: Rotator (by ref).
 
 ## Outputs
 
 Out: Exec.
-

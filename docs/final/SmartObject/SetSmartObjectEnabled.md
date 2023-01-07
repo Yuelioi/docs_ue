@@ -6,7 +6,7 @@ K2 设置启用的智能对象
 
 ## 图示
 
-![]($-20221218-20592776.png)
+![](/uploads/projects/ue-bluprint/20221218-20592776.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@ K2 设置启用的智能对象
 
 智能对象。Actor Object Reference.
 
-已启用。布尔值。  
+已启用。布尔值。
 
 ## Outputs
 
@@ -22,13 +22,15 @@ K2 设置启用的智能对象
 
 返回值。布尔值。K2 设置启用的智能对象。
 
+<hr>
+
 K2 Set Smart Object Enabled
 
 Target is Smart Object Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-20592776.png)
+![](/uploads/projects/ue-bluprint/20221218-20592776.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Smart Object: Actor Object Reference.
 
-Enabled: Boolean.  
+Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. K2 Set Smart Object Enabled.
-

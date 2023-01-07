@@ -2,11 +2,11 @@
 
 添加线性楼梯
 
-目标是Geometry Script Library Mesh Primitive Functions
+目标是 Geometry Script Library Mesh Primitive Functions
 
 ## 图示
 
-![]($-20221218-19125363.png)
+![](/uploads/projects/ue-bluprint/20221218-19125363.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标网格。动态网格对象参考。
 
-原始选项。Geometry Script Primitive Options结构。
+原始选项。Geometry Script Primitive Options 结构。
 
 改造：改造。
 
@@ -28,7 +28,7 @@ Num Steps:整数。
 
 浮动。布尔型。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -36,13 +36,15 @@ Num Steps:整数。
 
 目标网格。动态网格对象参考。追加线性楼梯。
 
+<hr>
+
 Append Linear Stairs
 
 Target is Geometry Script Library Mesh Primitive Functions
 
 ## 图示
 
-![]($-20221218-19125363.png)
+![](/uploads/projects/ue-bluprint/20221218-19125363.png)
 
 ## Inputs
 
@@ -64,11 +66,10 @@ Num Steps: Integer.
 
 Floating: Boolean.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Append Linear Stairs.
-

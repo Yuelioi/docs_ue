@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21183929.png)
+![](/uploads/projects/ue-bluprint/20221218-21183929.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 在元素处理中。脚本类型的元素句柄结构（通过参考）。
 
-在转化。转变（通过参考）。  
+在转化。转变（通过参考）。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。尝试设置这个元素相对于它的父元素的变换。
 
+<hr>
+
 Attempt to set the transform of this element relative to its parent.
 
 Target is Typed Element World Interface
 
 ## 图示
 
-![]($-20221218-21183929.png)
+![](/uploads/projects/ue-bluprint/20221218-21183929.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Object Reference.
 
 In Element Handle: Script Typed Element Handle Structure (by ref).
 
-In Transform: Transform (by ref).  
+In Transform: Transform (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Attempt to set the transform of this element relative to its parent..
-

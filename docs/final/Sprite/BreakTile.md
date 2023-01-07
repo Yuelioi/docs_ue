@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-21021392.png)
+![](/uploads/projects/ue-bluprint/20221218-21021392.png)
 
 ## Inputs
 
-瓦片。纸瓦信息结构。  
+瓦片。纸瓦信息结构。
 
 ## Outputs
 
@@ -18,11 +18,13 @@
 
 瓦片组。纸质瓦片组对象参考。
 
-翻转H：布尔值。
+翻转 H：布尔值。
 
-翻转V：布尔值。
+翻转 V：布尔值。
 
-翻转D。布尔型。
+翻转 D。布尔型。
+
+<hr>
 
 Breaks out the information for a tile
 
@@ -30,11 +32,11 @@ Target is Tile Map Blueprint Library
 
 ## 图示
 
-![]($-20221218-21021392.png)
+![](/uploads/projects/ue-bluprint/20221218-21021392.png)
 
 ## Inputs
 
-Tile: Paper Tile Info Structure.  
+Tile: Paper Tile Info Structure.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Flip H: Boolean.
 Flip V: Boolean.
 
 Flip D: Boolean.
-

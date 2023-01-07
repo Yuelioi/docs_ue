@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18142322.png)
+![](/uploads/projects/ue-bluprint/20221218-18142322.png)
 
 ## Inputs
 
@@ -16,11 +16,11 @@
 
 摇晃类。相机摇动基类参考。
 
-尺度。Float（单精度）。定义播放抖动的 "强度 "的标量。1.0是正常的（如自创的）。
+尺度。Float（单精度）。定义播放抖动的 "强度 "的标量。1.0 是正常的（如自创的）。
 
-播放空间。ECameraShakePlaySpace枚举。在哪个坐标系中播放抖动（影响摆动和摄像机动画）。
+播放空间。ECameraShakePlaySpace 枚举。在哪个坐标系中播放抖动（影响摆动和摄像机动画）。
 
-User Play Space Rot: Rotator（旋转器）。当PlaySpace == CAPS_UserDefined.时播放抖动的坐标系。 
+User Play Space Rot: Rotator（旋转器）。当 PlaySpace == CAPS_UserDefined.时播放抖动的坐标系。
 
 ## Outputs
 
@@ -28,13 +28,15 @@ User Play Space Rot: Rotator（旋转器）。当PlaySpace == CAPS_UserDefined.�
 
 返回值。相机摇动基本对象参考。
 
+<hr>
+
 Plays a camera shake on this camera.
 
 Target is Player Camera Manager
 
 ## 图示
 
-![]($-20221218-18142322.png)
+![](/uploads/projects/ue-bluprint/20221218-18142322.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Scale: Float (single-precision). Scalar defining how "intense" to play the shake
 
 Play Space: ECameraShakePlaySpace Enum. Which coordinate system to play the shake in (affects oscillations and camera anims).
 
-User Play Space Rot: Rotator. Coordinate system to play shake when PlaySpace == CAPS_UserDefined..  
+User Play Space Rot: Rotator. Coordinate system to play shake when PlaySpace == CAPS_UserDefined..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Camera Shake Base Object Reference.
-

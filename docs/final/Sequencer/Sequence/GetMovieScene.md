@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20543200.png)
+![](/uploads/projects/ue-bluprint/20221218-20543200.png)
 
 ## Inputs
 
 在。执行。
 
-序列。电影场景序列对象参考。要使用的序列。  
+序列。电影场景序列对象参考。要使用的序列。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。电影场景对象参考。这个序列的电影场景数据对象。
 
+<hr>
+
 Get this sequence's movie scene data
 
 Target is Movie Scene Sequence Extensions
 
 ## 图示
 
-![]($-20221218-20543200.png)
+![](/uploads/projects/ue-bluprint/20221218-20543200.png)
 
 ## Inputs
 
 In: Exec.
 
-Sequence: Movie Scene Sequence Object Reference. The sequence to use.  
+Sequence: Movie Scene Sequence Object Reference. The sequence to use.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Movie Scene Object Reference. This sequence's movie scene data object.
-

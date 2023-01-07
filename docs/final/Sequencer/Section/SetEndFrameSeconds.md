@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20531829.png)
+![](/uploads/projects/ue-bluprint/20221218-20531829.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 节。电影场景部分对象参考。设置结束时间的部分。
 
-结束时间。浮点数（单精度）。本节的预期结束时间。  
+结束时间。浮点数（单精度）。本节的预期结束时间。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set end time in seconds
 
@@ -26,7 +28,7 @@ Target is Movie Scene Section Extensions
 
 ## 图示
 
-![]($-20221218-20531829.png)
+![](/uploads/projects/ue-bluprint/20221218-20531829.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Section: Movie Scene Section Object Reference. The section within which to set the end time.
 
-End Time: Float (single-precision). The desired end time for this section.  
+End Time: Float (single-precision). The desired end time for this section.
 
 ## Outputs
 
 Out: Exec.
-

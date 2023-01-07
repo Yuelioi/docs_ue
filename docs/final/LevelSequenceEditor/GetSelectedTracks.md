@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19412497.png)
+![](/uploads/projects/ue-bluprint/20221218-19412497.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。电影场景轨道对象引用数组。获取当前选定的轨道。
 
+<hr>
+
 Gets the currently selected tracks.
 
 Target is Level Sequence Editor Blueprint Library
 
 ## 图示
 
-![]($-20221218-19412497.png)
+![](/uploads/projects/ue-bluprint/20221218-19412497.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Array of Movie Scene Track Object References. Gets the currently selected tracks..
-

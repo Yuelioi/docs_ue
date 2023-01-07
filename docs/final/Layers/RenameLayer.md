@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19380565.png)
+![](/uploads/projects/ue-bluprint/20221218-19380565.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 原始层名称。名称（按参考）。要重命名的图层的名称。
 
-新层名称。名称（通过参考）。要重命名的图层的新名称。  
+新层名称。名称（通过参考）。要重命名的图层的新名称。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。
 
+<hr>
+
 Renames the provided originally named layer to the provided new name
 
 Target is Layers Subsystem
 
 ## 图示
 
-![]($-20221218-19380565.png)
+![](/uploads/projects/ue-bluprint/20221218-19380565.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Layers Subsystem Object Reference.
 
 Original Layer Name: Name (by ref). The name of the layer to be renamed.
 
-New Layer Name: Name (by ref). The new name for the layer to be renamed.  
+New Layer Name: Name (by ref). The new name for the layer to be renamed.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

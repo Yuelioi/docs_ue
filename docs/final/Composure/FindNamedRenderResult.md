@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18291230.png)
+![](/uploads/projects/ue-bluprint/20221218-18291230.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 通过名称。名称：
 
-搜索子元素。Boolean（布尔）。 
+搜索子元素。Boolean（布尔）。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。纹理对象参考。查找命名的渲染结果。
 
+<hr>
+
 Find Named Render Result
 
 Target is Empty Comp Shot
 
 ## 图示
 
-![]($-20221218-18291230.png)
+![](/uploads/projects/ue-bluprint/20221218-18291230.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Empty Comp Shot Object Reference.
 
 Pass Name: Name.
 
-Search Sub Elements: Boolean.  
+Search Sub Elements: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Texture Object Reference. Find Named Render Result.
-

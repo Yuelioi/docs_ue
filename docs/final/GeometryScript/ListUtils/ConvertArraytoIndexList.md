@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19104618.png)
+![](/uploads/projects/ue-bluprint/20221218-19104618.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 索引阵列。整数的数组。
 
-索引类型。EGeometryScriptIndexType 枚举。  
+索引类型。EGeometryScriptIndexType 枚举。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 索引列表。索引列表结构。
 
+<hr>
+
 Convert Array to Index List
 
 Target is Geometry Script Library List Utility Functions
 
 ## 图示
 
-![]($-20221218-19104618.png)
+![](/uploads/projects/ue-bluprint/20221218-19104618.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Index Array: Array of Integers.
 
-Index Type: EGeometryScriptIndexType Enum.  
+Index Type: EGeometryScriptIndexType Enum.
 
 ## Outputs
 
 Out: Exec.
 
 Index List: Index List Structure.
-

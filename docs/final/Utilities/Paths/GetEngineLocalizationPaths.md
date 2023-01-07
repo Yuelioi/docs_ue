@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-14275145.png)
+![](/uploads/projects/ue-bluprint/20221218-14275145.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。字符串的数组。返回特定于引擎的本地化路径的列表。
 
+<hr>
+
 Returns a list of engine-specific localization paths
 
 Target is Blueprint Paths Library
 
 ## 图示
 
-![]($-20221218-14275145.png)
+![](/uploads/projects/ue-bluprint/20221218-14275145.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Array of Strings. Returns a list of engine-specific localization paths.
-

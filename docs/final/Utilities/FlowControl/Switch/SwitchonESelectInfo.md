@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14231914.png)
+![](/uploads/projects/ue-bluprint/20221218-14231914.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESelectInfo Enum.  
+选择。ESelectInfo Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 直接：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14231914.png)
+![](/uploads/projects/ue-bluprint/20221218-14231914.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESelectInfo Enum.  
+Selection: ESelectInfo Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ On Navigation: Exec.
 On Mouse Click: Exec.
 
 Direct: Exec.
-

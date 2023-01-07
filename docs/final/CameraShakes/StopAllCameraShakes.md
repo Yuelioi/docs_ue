@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18142846.png)
+![](/uploads/projects/ue-bluprint/20221218-18142846.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。播放器摄像机管理器对象参考。
 
-立即执行。布尔值。 
+立即执行。布尔值。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Stops all active camera shakes on this camera.
 
@@ -26,7 +28,7 @@ Target is Player Camera Manager
 
 ## 图示
 
-![]($-20221218-18142846.png)
+![](/uploads/projects/ue-bluprint/20221218-18142846.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Player Camera Manager Object Reference.
 
-Immediately: Boolean.  
+Immediately: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

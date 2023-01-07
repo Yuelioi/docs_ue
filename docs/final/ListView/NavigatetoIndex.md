@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19442413.png)
+![](/uploads/projects/ue-bluprint/20221218-19442413.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。列表视图对象参考。
 
-索引：整数。  
+索引：整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Requests that the item at the given index navigated to, scrolling it into view if needed.
 
@@ -26,7 +28,7 @@ Target is List View
 
 ## 图示
 
-![]($-20221218-19442413.png)
+![](/uploads/projects/ue-bluprint/20221218-19442413.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: List View Object Reference.
 
-Index: Integer.  
+Index: Integer.
 
 ## Outputs
 
 Out: Exec.
-

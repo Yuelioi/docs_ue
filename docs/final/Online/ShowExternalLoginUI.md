@@ -2,17 +2,17 @@
 
 显示当前活动的在线子系统的登录界面，如果该子系统支持登录界面。
 
-目标是显示登录UICallback代理
+目标是显示登录 UICallback 代理
 
 ## 图示
 
-![]($-20221218-20163868.png)
+![](/uploads/projects/ue-bluprint/20221218-20163868.png)
 
 ## Inputs
 
 在。执行。
 
-在播放器控制器中。播放器控制器对象参考。  
+在播放器控制器中。播放器控制器对象参考。
 
 ## Outputs
 
@@ -24,19 +24,21 @@
 
 播放器控制器。播放器控制器对象参考。
 
+<hr>
+
 Shows the login UI for the currently active online subsystem, if the subsystem supports a login UI.
 
 Target is Show Login UICallback Proxy
 
 ## 图示
 
-![]($-20221218-20163868.png)
+![](/uploads/projects/ue-bluprint/20221218-20163868.png)
 
 ## Inputs
 
 In: Exec.
 
-In Player Controller: Player Controller Object Reference.  
+In Player Controller: Player Controller Object Reference.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ On Success: Exec. On Success:. Called when there is a successful query.
 On Failure: Exec. On Failure:. Called when there is an unsuccessful query.
 
 Player Controller: Player Controller Object Reference.
-

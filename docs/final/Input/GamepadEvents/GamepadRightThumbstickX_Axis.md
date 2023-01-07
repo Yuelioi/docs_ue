@@ -1,10 +1,10 @@
 # GamepadRightThumbstickX_Axis
 
-当输入被启用时，每帧提供一次游戏手柄右拇指杆X轴的当前值的事件。
+当输入被启用时，每帧提供一次游戏手柄右拇指杆 X 轴的当前值的事件。
 
 ## 图示
 
-![]($-20221218-19224309.png)
+![](/uploads/projects/ue-bluprint/20221218-19224309.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 轴值。Float（单精度）。
 
+<hr>
+
 Event that provides the current value of the Gamepad Right Thumbstick X-Axis axis once per frame when input is enabled for the containing actor.
 
 ## 图示
 
-![]($-20221218-19224309.png)
+![](/uploads/projects/ue-bluprint/20221218-19224309.png)
 
 ## Inputs
 
@@ -31,4 +33,3 @@ Output Delegate: Delegate.
 Out: Exec.
 
 Axis Value: Float (single-precision).
-

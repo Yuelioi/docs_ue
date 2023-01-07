@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14232174.png)
+![](/uploads/projects/ue-bluprint/20221218-14232174.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESequenceTimeUnit Enum.  
+选择。ESequenceTimeUnit Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 Tick Resolution: 计时分辨率: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14232174.png)
+![](/uploads/projects/ue-bluprint/20221218-14232174.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESequenceTimeUnit Enum.  
+Selection: ESequenceTimeUnit Enum.
 
 ## Outputs
 
 Display Rate: Exec.
 
 Tick Resolution: Exec.
-

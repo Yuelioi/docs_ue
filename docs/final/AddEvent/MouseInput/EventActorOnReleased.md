@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-17452149.png)
+![](/uploads/projects/ue-bluprint/20221218-17452149.png)
 
 ## Inputs
 
 ## Outputs
 
-输出Delegate。委托。
+输出 Delegate。委托。
 
 输出。Exec.
 
 按钮释放。钥匙结构。
+
+<hr>
 
 Event when this actor is under the mouse when left mouse button is released while using the clickable interface.
 
@@ -24,7 +26,7 @@ Target is Actor
 
 ## 图示
 
-![]($-20221218-17452149.png)
+![](/uploads/projects/ue-bluprint/20221218-17452149.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Output Delegate: Delegate.
 Out: Exec.
 
 Button Released: Key Structure.
-

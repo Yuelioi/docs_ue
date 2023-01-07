@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19424573.png)
+![](/uploads/projects/ue-bluprint/20221218-19424573.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 新颜色：颜色结构（按参考）。
 
-仅可见。布尔型（通过引用）。  
+仅可见。布尔型（通过引用）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Applies the given color to all points
 
@@ -28,7 +30,7 @@ Target is Lidar Point Cloud
 
 ## 图示
 
-![]($-20221218-19424573.png)
+![](/uploads/projects/ue-bluprint/20221218-19424573.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Lidar Point Cloud Object Reference.
 
 New Color: Color Structure (by ref).
 
-Visible Only: Boolean (by ref).  
+Visible Only: Boolean (by ref).
 
 ## Outputs
 
 Out: Exec.
-

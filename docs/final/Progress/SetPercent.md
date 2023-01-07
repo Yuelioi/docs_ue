@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20305196.png)
+![](/uploads/projects/ue-bluprint/20221218-20305196.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。进度条对象参考。
 
-以百分比计算。Float (single-precision).  
+以百分比计算。Float (single-precision).
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the current value of the ProgressBar.
 
@@ -26,7 +28,7 @@ Target is Progress Bar
 
 ## 图示
 
-![]($-20221218-20305196.png)
+![](/uploads/projects/ue-bluprint/20221218-20305196.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Progress Bar Object Reference.
 
-In Percent: Float (single-precision).  
+In Percent: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

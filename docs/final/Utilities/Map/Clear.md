@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-14265436.png)
+![](/uploads/projects/ue-bluprint/20221218-14265436.png)
 
 ## Inputs
 
 在。执行。
 
-目标地图。通配符到通配符的地图。要清除的地图。 
+目标地图。通配符到通配符的地图。要清除的地图。
 
 ## Outputs
 
 出来。Exec.
+
+<hr>
 
 Clears a map of all entries, resetting it to empty
 
@@ -24,15 +26,14 @@ Target is Blueprint Map Library
 
 ## 图示
 
-![]($-20221218-14265436.png)
+![](/uploads/projects/ue-bluprint/20221218-14265436.png)
 
 ## Inputs
 
 In: Exec.
 
-Target Map: Map of Wildcards to Wildcards. The map to clear.  
+Target Map: Map of Wildcards to Wildcards. The map to clear.
 
 ## Outputs
 
 Out: Exec.
-

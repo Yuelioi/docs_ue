@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20193871.png)
+![](/uploads/projects/ue-bluprint/20221218-20193871.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。控制器对象参考。
 
-新的轮换。旋转器（由裁判）。  
+新的轮换。旋转器（由裁判）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the control rotation.
 
@@ -26,7 +28,7 @@ Target is Controller
 
 ## 图示
 
-![]($-20221218-20193871.png)
+![](/uploads/projects/ue-bluprint/20221218-20193871.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Controller Object Reference.
 
-New Rotation: Rotator (by ref).  
+New Rotation: Rotator (by ref).
 
 ## Outputs
 
 Out: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14180080.png)
+![](/uploads/projects/ue-bluprint/20221218-14180080.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ECreateModelingObjectResult枚举。 
+选择。ECreateModelingObjectResult 枚举。
 
 ## Outputs
 
@@ -20,7 +20,7 @@ Ok: Exec.
 
 失败的未知数。执行。
 
-失败 没有找到APIF。执行。
+失败 没有找到 APIF。执行。
 
 失败 无效的世界。执行。
 
@@ -30,17 +30,19 @@ Ok: Exec.
 
 失败 资产创建失败。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14180080.png)
+![](/uploads/projects/ue-bluprint/20221218-14180080.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ECreateModelingObjectResult Enum.  
+Selection: ECreateModelingObjectResult Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Failed Invalid Mesh: Exec.
 Failed Invalid Texture: Exec.
 
 Failed Asset Creation Failed: Exec.
-

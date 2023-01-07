@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14210797.png)
+![](/uploads/projects/ue-bluprint/20221218-14210797.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EListItemAlignment Enum.  
+选择。EListItemAlignment Enum.
 
 ## Outputs
 
@@ -28,17 +28,19 @@
 
 填充：Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14210797.png)
+![](/uploads/projects/ue-bluprint/20221218-14210797.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EListItemAlignment Enum.  
+Selection: EListItemAlignment Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Right Aligned: Exec.
 Center Aligned: Exec.
 
 Fill: Exec.
-

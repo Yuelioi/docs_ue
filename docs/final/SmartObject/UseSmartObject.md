@@ -6,7 +6,7 @@ K2 使用智能对象
 
 ## 图示
 
-![]($-20221218-20593121.png)
+![](/uploads/projects/ue-bluprint/20221218-20593121.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@ K2 使用智能对象
 
 阿凡达：演员对象参考。
 
-智能对象。Actor Object Reference.  
+智能对象。Actor Object Reference.
 
 ## Outputs
 
@@ -22,13 +22,15 @@ K2 使用智能对象
 
 返回值。布尔值。K2 使用智能对象。
 
+<hr>
+
 K2 Use Smart Object
 
 Target is Smart Object Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-20593121.png)
+![](/uploads/projects/ue-bluprint/20221218-20593121.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Avatar: Actor Object Reference.
 
-Smart Object: Actor Object Reference.  
+Smart Object: Actor Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. K2 Use Smart Object.
-

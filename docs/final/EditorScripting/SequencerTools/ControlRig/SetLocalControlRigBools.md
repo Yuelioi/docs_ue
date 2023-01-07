@@ -1,12 +1,12 @@
 # SetLocalControlRigBools
 
-在特定时间设置ControlRig控件的bool值
+在特定时间设置 ControlRig 控件的 bool 值
 
-目标是Control Rig Sequencer Editor Library
+目标是 Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18532621.png)
+![](/uploads/projects/ue-bluprint/20221218-18532621.png)
 
 ## Inputs
 
@@ -16,24 +16,27 @@
 
 控制装置。控制装置对象参考。The ControlRig.
 
-控制名称。名称。控件的名称，应该是一个bool控件。
+控制名称。名称。控件的名称，应该是一个 bool 控件。
 
 帧。帧号结构的数组。设置数值的时间。
 
 值。布尔运算的数组。在这些时候设置。
 
-时间单位。ESequenceTimeUnit枚举。帧值的单位，可以是显示率，也可以是tick分辨率。
+时间单位。ESequenceTimeUnit 枚举。帧值的单位，可以是显示率，也可以是 tick 分辨率。
 
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Set ControlRig Control's bool values at specific times
 
 Target is Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18532621.png)
+![](/uploads/projects/ue-bluprint/20221218-18532621.png)
 
 ## Inputs
 
@@ -49,9 +52,8 @@ Frames: Array of Frame Number Structures. Times to set the values.
 
 Values: Array of Booleans. to set at those times.
 
-Time Unit: ESequenceTimeUnit Enum. Unit for frame values, either in display rate or tick resolution.  
+Time Unit: ESequenceTimeUnit Enum. Unit for frame values, either in display rate or tick resolution.
 
 ## Outputs
 
 Out: Exec.
-

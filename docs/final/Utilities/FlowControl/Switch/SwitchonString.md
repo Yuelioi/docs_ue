@@ -4,31 +4,32 @@
 
 ## 图示
 
-![]($-20221218-14255527.png)
+![](/uploads/projects/ue-bluprint/20221218-14255527.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。字符串。 
+选择。字符串。
 
 ## Outputs
 
 默认值。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14255527.png)
+![](/uploads/projects/ue-bluprint/20221218-14255527.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: String.  
+Selection: String.
 
 ## Outputs
 
 Default: Exec.
-

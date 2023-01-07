@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20533376.png)
+![](/uploads/projects/ue-bluprint/20221218-20533376.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@
 
 出：执行。
 
+<hr>
+
 Sets the sequence played by this section.
 
 Target is Movie Scene Sub Section
 
 ## 图示
 
-![]($-20221218-20533376.png)
+![](/uploads/projects/ue-bluprint/20221218-20533376.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Movie Scene Sub Section Object Reference.
 
-Sequence: Movie Scene Sequence Object Reference. The sequence to play..  
+Sequence: Movie Scene Sequence Object Reference. The sequence to play..
 
 ## Outputs
 
 Out: Exec.
-

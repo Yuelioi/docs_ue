@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20011054.png)
+![](/uploads/projects/ue-bluprint/20221218-20011054.png)
 
 ## Inputs
 
-目标。媒体播放器对象参考。  
+目标。媒体播放器对象参考。
 
 ## Outputs
 
-返回值。布尔值。如果播放暂停则为true，否则为false。
+返回值。布尔值。如果播放暂停则为 true，否则为 false。
+
+<hr>
 
 Check whether playback is currently paused.
 
@@ -22,13 +24,12 @@ Target is Media Player
 
 ## 图示
 
-![]($-20221218-20011054.png)
+![](/uploads/projects/ue-bluprint/20221218-20011054.png)
 
 ## Inputs
 
-Target: Media Player Object Reference.  
+Target: Media Player Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. true if playback is paused, false otherwise..
-

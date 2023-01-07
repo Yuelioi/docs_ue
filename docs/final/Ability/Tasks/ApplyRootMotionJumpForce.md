@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17330330.png)
+![](/uploads/projects/ue-bluprint/20221218-17330330.png)
 
 ## Inputs
 
@@ -26,7 +26,7 @@
 
 降落时完成。布尔值。
 
-完成时的速度模式。ERootMotionFinishVelocityMode枚举。
+完成时的速度模式。ERootMotionFinishVelocityMode 枚举。
 
 设置完成时的速度。Vector（向量）。
 
@@ -34,7 +34,7 @@
 
 Path Offset Curve。Curve Vector Object Reference.
 
-时间映射曲线。曲线浮点对象参考。 
+时间映射曲线。曲线浮点对象参考。
 
 ## Outputs
 
@@ -46,13 +46,15 @@ Async Task: Ability Task Apply Root Motion Jump Force Object Reference.
 
 落地时。执行。着陆时。
 
+<hr>
+
 Apply force to character's movement
 
 Target is Ability Task Apply Root Motion Jump Force
 
 ## 图示
 
-![]($-20221218-17330330.png)
+![](/uploads/projects/ue-bluprint/20221218-17330330.png)
 
 ## Inputs
 
@@ -80,7 +82,7 @@ Clamp Velocity on Finish: Float (single-precision).
 
 Path Offset Curve: Curve Vector Object Reference.
 
-Time Mapping Curve: Curve Float Object Reference.  
+Time Mapping Curve: Curve Float Object Reference.
 
 ## Outputs
 
@@ -91,4 +93,3 @@ Async Task: Ability Task Apply Root Motion Jump Force Object Reference.
 On Finish: Exec. On Finish.
 
 On Landed: Exec. On Landed.
-

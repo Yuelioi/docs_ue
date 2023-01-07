@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18504949.png)
+![](/uploads/projects/ue-bluprint/20221218-18504949.png)
 
 ## Inputs
 
@@ -17,21 +17,23 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Editor Request End Play
 
 Target is Level Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18504949.png)
+![](/uploads/projects/ue-bluprint/20221218-18504949.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Level Editor Subsystem Object Reference.  
+Target: Level Editor Subsystem Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

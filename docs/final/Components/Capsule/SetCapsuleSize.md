@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18231567.png)
+![](/uploads/projects/ue-bluprint/20221218-18231567.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 在半高度。Float (single-precision). : 半高，从胶囊中心到顶部或底部半球形的末端。
 
-更新重叠。布尔值。 
+更新重叠。布尔值。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Change the capsule size. This is the unscaled size, before component scale is applied.
 
@@ -30,7 +32,7 @@ Target is Capsule Collision
 
 ## 图示
 
-![]($-20221218-18231567.png)
+![](/uploads/projects/ue-bluprint/20221218-18231567.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ In Radius: Float (single-precision). : radius of end-cap hemispheres and center 
 
 In Half Height: Float (single-precision). : half-height, from capsule center to end of top or bottom hemisphere..
 
-Update Overlaps: Boolean.  
+Update Overlaps: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

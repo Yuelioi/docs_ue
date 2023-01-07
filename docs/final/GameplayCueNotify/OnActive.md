@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19084478.png)
+![](/uploads/projects/ue-bluprint/20221218-19084478.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 我的目标。演员对象参考。
 
-参数。游戏提示参数结构（按参考）。  
+参数。游戏提示参数结构（按参考）。
 
 ## Outputs
 
 返回值。布尔值。激活时。
+
+<hr>
 
 On Active
 
@@ -26,7 +28,7 @@ Target is Gameplay Cue Notify Static
 
 ## 图示
 
-![]($-20221218-19084478.png)
+![](/uploads/projects/ue-bluprint/20221218-19084478.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Target: Gameplay Cue Notify Static Object Reference.
 
 My Target: Actor Object Reference.
 
-Parameters: Gameplay Cue Parameters Structure (by ref).  
+Parameters: Gameplay Cue Parameters Structure (by ref).
 
 ## Outputs
 
 Return Value: Boolean. On Active.
-

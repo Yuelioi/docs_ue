@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21095667.png)
+![](/uploads/projects/ue-bluprint/20221218-21095667.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在取数：整数。
 
-Emit Changed：布尔值。是否发送取号变更事件。  
+Emit Changed：布尔值。是否发送取号变更事件。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set this take's take number. Take numbers are always clamped to be >= 1.
 
@@ -28,7 +30,7 @@ Target is Take Meta Data
 
 ## 图示
 
-![]($-20221218-21095667.png)
+![](/uploads/projects/ue-bluprint/20221218-21095667.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Take Meta Data Object Reference.
 
 In Take Number: Integer.
 
-Emit Changed: Boolean. Whether or not to send a take number changed event.  
+Emit Changed: Boolean. Whether or not to send a take number changed event.
 
 ## Outputs
 
 Out: Exec.
-

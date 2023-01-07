@@ -1,18 +1,18 @@
 # MakeControlValuefromBool
 
-从一个bool值创建一个钻机控制值
+从一个 bool 值创建一个钻机控制值
 
 目标是钻机等级制度
 
 ## 图示
 
-![]($-20221218-21194681.png)
+![](/uploads/projects/ue-bluprint/20221218-21194681.png)
 
 ## Inputs
 
 在。执行。
 
-在值。布尔值。用于创建钻机控制值的数值。  
+在值。布尔值。用于创建钻机控制值的数值。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。钻机控制值结构。转换后的控制钻机值。
 
+<hr>
+
 Creates a rig control value from a bool value
 
 Target is Rig Hierarchy
 
 ## 图示
 
-![]($-20221218-21194681.png)
+![](/uploads/projects/ue-bluprint/20221218-21194681.png)
 
 ## Inputs
 
 In: Exec.
 
-In Value: Boolean. The value to create the rig control value from.  
+In Value: Boolean. The value to create the rig control value from.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Rig Control Value Structure. The converted control rig val ue.
-

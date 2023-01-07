@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17490871.png)
+![](/uploads/projects/ue-bluprint/20221218-17490871.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 进度名称。字符串的数组。
 
-Attributes（属性）。Array of Analytics Event Attr Structures.  
+Attributes（属性）。Array of Analytics Event Attr Structures.
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Records a user progress event has happened with a full list of progress hierarchy names and with attributes
 
@@ -28,7 +30,7 @@ Target is Analytics Blueprint Library
 
 ## 图示
 
-![]($-20221218-17490871.png)
+![](/uploads/projects/ue-bluprint/20221218-17490871.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Progress Type: String.
 
 Progress Names: Array of Strings.
 
-Attributes: Array of Analytics Event Attr Structures.  
+Attributes: Array of Analytics Event Attr Structures.
 
 ## Outputs
 
 Out: Exec.
-

@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-18453763.png)
+![](/uploads/projects/ue-bluprint/20221218-18453763.png)
 
 ## Inputs
 
@@ -12,18 +12,20 @@
 
 ## Outputs
 
-返回值。Boolean，如果网格没有三角形，则为true。
+返回值。Boolean，如果网格没有三角形，则为 true。
+
+<hr>
+
 Target is Dynamic Mesh
 
 ## 图示
 
-![]($-20221218-18453763.png)
+![](/uploads/projects/ue-bluprint/20221218-18453763.png)
 
 ## Inputs
 
-Target: Dynamic Mesh Object Reference.  
+Target: Dynamic Mesh Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. true if the mesh has no triangles.
-

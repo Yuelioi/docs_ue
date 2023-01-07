@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18190547.png)
+![](/uploads/projects/ue-bluprint/20221218-18190547.png)
 
 ## Inputs
 
-目标。Actor Object Reference.  
+目标。Actor Object Reference.
 
 ## Outputs
 
 重叠的组件。原始组件对象引用的数组。
+
+<hr>
 
 Returns list of components this actor is overlapping.
 
@@ -22,13 +24,12 @@ Target is Actor
 
 ## 图示
 
-![]($-20221218-18190547.png)
+![](/uploads/projects/ue-bluprint/20221218-18190547.png)
 
 ## Inputs
 
-Target: Actor Object Reference.  
+Target: Actor Object Reference.
 
 ## Outputs
 
 Overlapping Components: Array of Primitive Component Object References.
-

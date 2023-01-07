@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18455501.png)
+![](/uploads/projects/ue-bluprint/20221218-18455501.png)
 
 ## Inputs
 
@@ -17,21 +17,23 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Clear any active override render material
 
 Target is Base Dynamic Mesh Component
 
 ## 图示
 
-![]($-20221218-18455501.png)
+![](/uploads/projects/ue-bluprint/20221218-18455501.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Base Dynamic Mesh Component Object Reference.  
+Target: Base Dynamic Mesh Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

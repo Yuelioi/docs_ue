@@ -2,11 +2,11 @@
 
 复制一个文件。
 
-目标是蓝图文件利用系统BPLibrary
+目标是蓝图文件利用系统 BPLibrary
 
 ## 图示
 
-![]($-20221218-19001483.png)
+![](/uploads/projects/ue-bluprint/20221218-19001483.png)
 
 ## Inputs
 
@@ -14,11 +14,11 @@
 
 目的地文件名：字符串。
 
-Src文件名: 字符串。
+Src 文件名: 字符串。
 
 替换。布尔值。
 
-即使只读。布尔型。  
+即使只读。布尔型。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ Src文件名: 字符串。
 
 返回值。布尔值。复制一个文件。
 
+<hr>
+
 Copies a file.
 
 Target is Blueprint File Utils BPLibrary
 
 ## 图示
 
-![]($-20221218-19001483.png)
+![](/uploads/projects/ue-bluprint/20221218-19001483.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Src Filename: String.
 
 Replace: Boolean.
 
-Even if Read Only: Boolean.  
+Even if Read Only: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Copies a file..
-

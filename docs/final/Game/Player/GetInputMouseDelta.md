@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-19071045.png)
+![](/uploads/projects/ue-bluprint/20221218-19071045.png)
 
 ## Inputs
 
-目标。玩家控制器对象参考。  
+目标。玩家控制器对象参考。
 
 ## Outputs
 
@@ -18,21 +18,22 @@ Delta X: Float（单精度）。
 
 Delta Y：浮动（单精度）。
 
+<hr>
+
 Retrieves how far the mouse moved this frame.
 
 Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19071045.png)
+![](/uploads/projects/ue-bluprint/20221218-19071045.png)
 
 ## Inputs
 
-Target: Player Controller Object Reference.  
+Target: Player Controller Object Reference.
 
 ## Outputs
 
 Delta X: Float (single-precision).
 
 Delta Y: Float (single-precision).
-

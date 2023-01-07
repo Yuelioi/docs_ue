@@ -4,27 +4,28 @@
 
 ## 图示
 
-![]($-20221218-21093878.png)
+![](/uploads/projects/ue-bluprint/20221218-21093878.png)
 
 ## Inputs
 
-目标。以元数据对象为参考。  
+目标。以元数据对象为参考。
 
 ## Outputs
 
 返回值。字符串。此处的板块。
 
+<hr>
+
 Target is Take Meta Data
 
 ## 图示
 
-![]($-20221218-21093878.png)
+![](/uploads/projects/ue-bluprint/20221218-21093878.png)
 
 ## Inputs
 
-Target: Take Meta Data Object Reference.  
+Target: Take Meta Data Object Reference.
 
 ## Outputs
 
 Return Value: String. The slate for this take.
-

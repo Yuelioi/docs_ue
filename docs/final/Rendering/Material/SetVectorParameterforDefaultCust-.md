@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20383139.png)
+![](/uploads/projects/ue-bluprint/20221218-20383139.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 参数名称。名称。自定义基元的参数名称。
 
-价值。矢量 4 结构。自定义基元的新值。  
+价值。矢量 4 结构。自定义基元的新值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set a vector parameter for default custom primitive data. This will be serialized and is useful in construction scripts.
 
@@ -28,7 +30,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20383139.png)
+![](/uploads/projects/ue-bluprint/20221218-20383139.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Primitive Component Object Reference.
 
 Parameter Name: Name. The parameter name of the custom primitive.
 
-Value: Vector 4 Structure. The new value of the custom primitive.  
+Value: Vector 4 Structure. The new value of the custom primitive.
 
 ## Outputs
 
 Out: Exec.
-

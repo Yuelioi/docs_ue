@@ -2,11 +2,11 @@
 
 两点之间的平方距离。
 
-目标是Kismet数学图书馆
+目标是 Kismet 数学图书馆
 
 ## 图示
 
-![]($-20221218-19563220.png)
+![](/uploads/projects/ue-bluprint/20221218-19563220.png)
 
 ## Inputs
 
@@ -18,21 +18,22 @@ V2:矢量。第二点...
 
 返回值。浮点数（双精度）。两点之间的平方距离。
 
+<hr>
+
 Squared distance between two points.
 
 Target is Kismet Math Library
 
 ## 图示
 
-![]($-20221218-19563220.png)
+![](/uploads/projects/ue-bluprint/20221218-19563220.png)
 
 ## Inputs
 
 V1: Vector. The first point..
 
-V2: Vector. The second point..  
+V2: Vector. The second point..
 
 ## Outputs
 
 Return Value: Float (double-precision). The squared distance between two points..
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19033027.png)
+![](/uploads/projects/ue-bluprint/20221218-19033027.png)
 
 ## Inputs
 
@@ -14,17 +14,19 @@
 
 目标。尼亚加拉发射器转换背景对象参考。
 
-在Renderer Properties中。Niagara Renderer Properties 对象参考。
+在 Renderer Properties 中。Niagara Renderer Properties 对象参考。
 
 绑定名称：名称。
 
 绑定的变量名称：名称。
 
-源数据模式。ENiagaraRendererSourceDataMode枚举。  
+源数据模式。ENiagaraRendererSourceDataMode 枚举。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Renderer Binding
 
@@ -32,7 +34,7 @@ Target is Niagara Emitter Conversion Context
 
 ## 图示
 
-![]($-20221218-19033027.png)
+![](/uploads/projects/ue-bluprint/20221218-19033027.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Binding Name: Name.
 
 Variable to Bind Name: Name.
 
-Source Data Mode: ENiagaraRendererSourceDataMode Enum.  
+Source Data Mode: ENiagaraRendererSourceDataMode Enum.
 
 ## Outputs
 
 Out: Exec.
-

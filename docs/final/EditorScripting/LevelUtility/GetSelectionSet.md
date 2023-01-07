@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18510689.png)
+![](/uploads/projects/ue-bluprint/20221218-18510689.png)
 
 ## Inputs
 
@@ -19,23 +19,25 @@
 出：执行。
 
 返回值。类型化元素选择集对象参考。获取当前世界的水平编辑类型元素选择集。
+
+<hr>
+
 Get the level Editor typed element selection set for the current world
 
 Target is Level Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18510689.png)
+![](/uploads/projects/ue-bluprint/20221218-18510689.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Level Editor Subsystem Object Reference.  
+Target: Level Editor Subsystem Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Typed Element Selection Set Object Reference. Get the level Editor typed element selection set for the current world.
-

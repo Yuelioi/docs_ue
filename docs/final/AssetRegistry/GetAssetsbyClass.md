@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18003368.png)
+![](/uploads/projects/ue-bluprint/20221218-18003368.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 类名。名称。请求的资产的类名称。
 
-Search Sub Classes: 布尔值。如果为真，所有传入类的子类也将被搜索。 
+Search Sub Classes: 布尔值。如果为真，所有传入类的子类也将被搜索。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ Search Sub Classes: 布尔值。如果为真，所有传入类的子类也将被
 
 返回值。布尔值。
 
+<hr>
+
 Gets asset data for all assets with the supplied class
 
 Target is Asset Registry
 
 ## 图示
 
-![]($-20221218-18003368.png)
+![](/uploads/projects/ue-bluprint/20221218-18003368.png)
 
 ## Inputs
 
@@ -42,7 +44,7 @@ Target: Asset Registry Interface.
 
 Class Name: Name. the class name of the assets requested.
 
-Search Sub Classes: Boolean. if true, all subclasses of the passed in class will be searched as well.  
+Search Sub Classes: Boolean. if true, all subclasses of the passed in class will be searched as well.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Out: Exec.
 Out Asset Data: Array of Asset Data Structures. the list of assets in this path.
 
 Return Value: Boolean.
-

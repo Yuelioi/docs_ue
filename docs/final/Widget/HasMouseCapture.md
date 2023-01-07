@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21350904.png)
+![](/uploads/projects/ue-bluprint/20221218-21350904.png)
 
 ## Inputs
 
-目标。小工具对象参考。  
+目标。小工具对象参考。
 
 ## Outputs
 
 返回值。布尔值。如果这个小组件捕获了鼠标，则为真。
+
+<hr>
 
 Checks to see if this widget is the current mouse captor
 
@@ -22,13 +24,12 @@ Target is Widget
 
 ## 图示
 
-![]($-20221218-21350904.png)
+![](/uploads/projects/ue-bluprint/20221218-21350904.png)
 
 ## Inputs
 
-Target: Widget Object Reference.  
+Target: Widget Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. True if this widget has captured the mouse.
-

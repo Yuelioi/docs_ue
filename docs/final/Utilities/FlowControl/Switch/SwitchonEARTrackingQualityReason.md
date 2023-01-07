@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14165355.png)
+![](/uploads/projects/ue-bluprint/20221218-14165355.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARTrackingQualityReason 枚举。 
+选择。EARTrackingQualityReason 枚举。
 
 ## Outputs
 
@@ -28,17 +28,19 @@
 
 坏的状态。执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14165355.png)
+![](/uploads/projects/ue-bluprint/20221218-14165355.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARTrackingQualityReason Enum.  
+Selection: EARTrackingQualityReason Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Insufficient Features: Exec.
 Insufficient Light: Exec.
 
 Bad State: Exec.
-

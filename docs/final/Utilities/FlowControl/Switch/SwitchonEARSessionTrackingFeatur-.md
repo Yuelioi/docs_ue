@@ -4,19 +4,19 @@
 
 ## 图示
 
-![]($-20221218-14164888.png)
+![](/uploads/projects/ue-bluprint/20221218-14164888.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARSessionTrackingFeature Enum.  
+选择。EARSessionTrackingFeature Enum.
 
 ## Outputs
 
 无。Exec.
 
-姿势检测2D: Exec.
+姿势检测 2D: Exec.
 
 人物分割: 执行。执行。
 
@@ -26,17 +26,19 @@
 
 平滑化场景深度: 执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14164888.png)
+![](/uploads/projects/ue-bluprint/20221218-14164888.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARSessionTrackingFeature Enum.  
+Selection: EARSessionTrackingFeature Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Person Segmentation With Depth: Exec.
 Scene Depth: Exec.
 
 Smoothed Scene Depth: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14183598.png)
+![](/uploads/projects/ue-bluprint/20221218-14183598.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDMXSendResult Enum.  
+选择。EDMXSendResult Enum.
 
 ## Outputs
 
@@ -26,17 +26,19 @@ Error Enqueue Package: 执行。
 
 错误 没有发送接口。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14183598.png)
+![](/uploads/projects/ue-bluprint/20221218-14183598.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDMXSendResult Enum.  
+Selection: EDMXSendResult Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Error Size Buffer: Exec.
 Error Enqueue Package: Exec.
 
 Error No Sending Interface: Exec.
-

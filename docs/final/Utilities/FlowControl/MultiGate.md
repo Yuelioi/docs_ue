@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-14155357.png)
+![](/uploads/projects/ue-bluprint/20221218-14155357.png)
 
 ## Inputs
 
@@ -16,19 +16,21 @@
 
 循环。布尔值。
 
-开始索引。整数。 
+开始索引。整数。
 
 ## Outputs
 
-输出0：执行。
+输出 0：执行。
 
-输出1：执行。
+输出 1：执行。
+
+<hr>
 
 Executes a series of pins in order
 
 ## 图示
 
-![]($-20221218-14155357.png)
+![](/uploads/projects/ue-bluprint/20221218-14155357.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Is Random: Boolean.
 
 Loop: Boolean.
 
-Start Index: Integer.  
+Start Index: Integer.
 
 ## Outputs
 
 Out 0: Exec.
 
 Out 1: Exec.
-

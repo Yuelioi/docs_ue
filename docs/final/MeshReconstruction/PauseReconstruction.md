@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20051911.png)
+![](/uploads/projects/ue-bluprint/20221218-20051911.png)
 
 ## Inputs
 
 在。执行。
 
-目标。网格重建器基础对象参考。  
+目标。网格重建器基础对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Pause Reconstruction
 
@@ -24,15 +26,14 @@ Target is Mesh Reconstructor Base
 
 ## 图示
 
-![]($-20221218-20051911.png)
+![](/uploads/projects/ue-bluprint/20221218-20051911.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Mesh Reconstructor Base Object Reference.  
+Target: Mesh Reconstructor Base Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19010998.png)
+![](/uploads/projects/ue-bluprint/20221218-19010998.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 脚本名称字符串。字符串。
 
-脚本转换上下文。Niagara Script Conversion Context对象参考。
+脚本转换上下文。Niagara Script Conversion Context 对象参考。
 
-事件脚本道具。尼亚加拉事件处理程序 添加动作结构。  
+事件脚本道具。尼亚加拉事件处理程序 添加动作结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add Module Event Script
 
@@ -30,7 +32,7 @@ Target is Niagara Emitter Conversion Context
 
 ## 图示
 
-![]($-20221218-19010998.png)
+![](/uploads/projects/ue-bluprint/20221218-19010998.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Script Name String: String.
 
 Script Conversion Context: Niagara Script Conversion Context Object Reference.
 
-Event Script Props: Niagara Event Handler Add Action Structure.  
+Event Script Props: Niagara Event Handler Add Action Structure.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21225779.png)
+![](/uploads/projects/ue-bluprint/20221218-21225779.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 焦点。Float（单精度）。
 
-在缩放中。Float（单精度）。  
+在缩放中。Float（单精度）。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。返回基于输入焦点和缩放的插值图像中心参数。
 
+<hr>
+
 Returns interpolated image center parameters based on input focus and zoom
 
 Target is Lens File
 
 ## 图示
 
-![]($-20221218-21225779.png)
+![](/uploads/projects/ue-bluprint/20221218-21225779.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ Target: Lens File Object Reference.
 
 In Focus: Float (single-precision).
 
-In Zoom: Float (single-precision).  
+In Zoom: Float (single-precision).
 
 ## Outputs
 
 Out Evaluated Value: Image Center Info Structure.
 
 Return Value: Boolean. Returns interpolated image center parameters based on input focus and zoom.
-

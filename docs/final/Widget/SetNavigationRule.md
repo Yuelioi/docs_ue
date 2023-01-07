@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21362618.png)
+![](/uploads/projects/ue-bluprint/20221218-21362618.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 规则。EUINavigationRule Enum.
 
-焦点的小工具。名称。  
+焦点的小工具。名称。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Navigation Rule
 
@@ -30,7 +32,7 @@ Target is Widget
 
 ## 图示
 
-![]($-20221218-21362618.png)
+![](/uploads/projects/ue-bluprint/20221218-21362618.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Direction: EUINavigation Enum.
 
 Rule: EUINavigationRule Enum.
 
-Widget to Focus: Name.  
+Widget to Focus: Name.
 
 ## Outputs
 
 Out: Exec.
-

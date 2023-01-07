@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-21133921.png)
+![](/uploads/projects/ue-bluprint/20221218-21133921.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。工具菜单对象参考。获取。
 
+<hr>
+
 Get
 
 Target is Tool Menus
 
 ## 图示
 
-![]($-20221218-21133921.png)
+![](/uploads/projects/ue-bluprint/20221218-21133921.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Tool Menus Object Reference. Get.
-

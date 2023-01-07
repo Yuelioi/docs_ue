@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-12172049.png)
+![](/uploads/projects/ue-bluprint/20221218-12172049.png)
 
 ## Inputs
 
 在。执行。
 
-资产：软对象参考。  
+资产：软对象参考。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 对象。对象参考。
 
+<hr>
+
 Asynchronously loads a Soft Object Reference and returns object of the correct type if the load succeeds
 
 ## 图示
 
-![]($-20221218-12172049.png)
+![](/uploads/projects/ue-bluprint/20221218-12172049.png)
 
 ## Inputs
 
 In: Exec.
 
-Asset: Soft Object Reference.  
+Asset: Soft Object Reference.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Out: Exec.
 Completed: Exec.
 
 Object: Object Reference.
-

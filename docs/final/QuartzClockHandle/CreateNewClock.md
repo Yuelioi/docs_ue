@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20321917.png)
+![](/uploads/projects/ue-bluprint/20221218-20321917.png)
 
 ## Inputs
 
@@ -20,7 +20,7 @@
 
 如果时钟存在，则覆盖设置。布尔型。
 
-使用音频引擎时钟管理器。布尔型。  
+使用音频引擎时钟管理器。布尔型。
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 返回值。石英时钟句柄对象参考。Clock Creation. 创建一个新的时钟（如果时钟已经存在，则返回句柄）。
 
+<hr>
+
 Clock Creation. create a new clock (or return handle if clock already exists)
 
 Target is Quartz
 
 ## 图示
 
-![]($-20221218-20321917.png)
+![](/uploads/projects/ue-bluprint/20221218-20321917.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ In Settings: Quartz Clock Settings Structure.
 
 Override Settings if Clock Exists: Boolean.
 
-Use Audio Engine Clock Manager: Boolean.  
+Use Audio Engine Clock Manager: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Quartz Clock Handle Object Reference. Clock Creation. create a new clock (or return handle if clock already exists).
-

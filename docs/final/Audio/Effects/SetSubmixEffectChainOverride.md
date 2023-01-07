@@ -6,21 +6,23 @@
 
 ## 图示
 
-![]($-20221218-18043444.png)
+![](/uploads/projects/ue-bluprint/20221218-18043444.png)
 
 ## Inputs
 
 在。执行。
 
-Sound Submix: Sound Submix对象参考。
+Sound Submix: Sound Submix 对象参考。
 
 Submix Effect Preset Chain: Array of Sound Effect Submix Preset Object References（子混音预设对象参考阵列）。
 
-Fade Time Sec: Float（单精度）。 
+Fade Time Sec: Float（单精度）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets a submix effect chain override on the given submix. The effect chain will cross fade from the base effect chain or current override to the new override.
 
@@ -28,7 +30,7 @@ Target is Audio Mixer Blueprint Library
 
 ## 图示
 
-![]($-20221218-18043444.png)
+![](/uploads/projects/ue-bluprint/20221218-18043444.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Sound Submix: Sound Submix Object Reference.
 
 Submix Effect Preset Chain: Array of Sound Effect Submix Preset Object References.
 
-Fade Time Sec: Float (single-precision).  
+Fade Time Sec: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

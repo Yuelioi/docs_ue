@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17592001.png)
+![](/uploads/projects/ue-bluprint/20221218-17592001.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 预期的。对象参考。
 
-What: 字符串。如果断言失败，在信息中使用的名称（What: expected {Actual} to be Equal To {Expected} for context '' ）。 
+What: 字符串。如果断言失败，在信息中使用的名称（What: expected {Actual} to be Equal To {Expected} for context '' ）。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ What: 字符串。如果断言失败，在信息中使用的名称（What: expec
 
 返回值。布尔值。
 
+<hr>
+
 Assert that two Objects are equal
 
 Target is Functional Test
 
 ## 图示
 
-![]($-20221218-17592001.png)
+![](/uploads/projects/ue-bluprint/20221218-17592001.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Actual: Object Reference.
 
 Expected: Object Reference.
 
-What: String. A name to use in the message if the assert fails (What: expected {Actual} to be Equal To {Expected} for context '').  
+What: String. A name to use in the message if the assert fails (What: expected {Actual} to be Equal To {Expected} for context '').
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

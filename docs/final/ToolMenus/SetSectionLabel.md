@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21140354.png)
+![](/uploads/projects/ue-bluprint/20221218-21140354.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 科室名称：名称。
 
-标签：文本。  
+标签：文本。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets a section's displayed label text.
 
@@ -30,7 +32,7 @@ Target is Tool Menus
 
 ## 图示
 
-![]($-20221218-21140354.png)
+![](/uploads/projects/ue-bluprint/20221218-21140354.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Menu Name: Name.
 
 Section Name: Name.
 
-Label: Text.  
+Label: Text.
 
 ## Outputs
 
 Out: Exec.
-

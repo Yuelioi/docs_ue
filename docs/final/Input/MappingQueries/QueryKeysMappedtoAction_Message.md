@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19272162.png)
+![](/uploads/projects/ue-bluprint/20221218-19272162.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。对象参考。
 
-行动。输入行动对象参考。  
+行动。输入行动对象参考。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。密钥结构的数组。返回在活动输入映射语境中映射到给定动作的键。
 
+<hr>
+
 Returns the keys mapped to the given action in the active input mapping contexts.
 
 Target is Enhanced Input Subsystem Interface
 
 ## 图示
 
-![]($-20221218-19272162.png)
+![](/uploads/projects/ue-bluprint/20221218-19272162.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Object Reference.
 
-Action: Input Action Object Reference.  
+Action: Input Action Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Array of Key Structures. Returns the keys mapped to the given action in the active input mapping contexts..
-

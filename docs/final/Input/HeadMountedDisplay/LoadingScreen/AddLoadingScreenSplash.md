@@ -2,11 +2,11 @@
 
 在加载屏幕上添加一个飞溅元素。
 
-目标是XRLoading屏幕功能库
+目标是 XRLoading 屏幕功能库
 
 ## 图示
 
-![]($-20221218-19240087.png)
+![](/uploads/projects/ue-bluprint/20221218-19240087.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@
 
 尺寸。矢量二维结构。(英寸) 尺寸，四边形与飞溅的屏幕。
 
-三角洲的旋转。旋转器。(in) 递增的旋转，每隔2帧加入到四边形变换中。四边形围绕四边形的中心进行旋转。
+三角洲的旋转。旋转器。(in) 递增的旋转，每隔 2 帧加入到四边形变换中。四边形围绕四边形的中心进行旋转。
 
-添加前清除。Boolean. (in) 如果为真，在添加新的飞溅物之前清除飞溅物。  
+添加前清除。Boolean. (in) 如果为真，在添加新的飞溅物之前清除飞溅物。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Adds a splash element to the loading screen.
 
@@ -34,7 +36,7 @@ Target is XRLoading Screen Function Library
 
 ## 图示
 
-![]($-20221218-19240087.png)
+![](/uploads/projects/ue-bluprint/20221218-19240087.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Size: Vector 2D Structure. (in) Size, of the quad with the splash screen..
 
 Delta Rotation: Rotator. (in) Incremental rotation, that is added each 2nd frame to the quad transform. The quad is rotated around the center of the quad..
 
-Clear Before Add: Boolean. (in) If true, clears splashes before adding a new one..  
+Clear Before Add: Boolean. (in) If true, clears splashes before adding a new one..
 
 ## Outputs
 
 Out: Exec.
-

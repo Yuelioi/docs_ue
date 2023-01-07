@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-17333593.png)
+![](/uploads/projects/ue-bluprint/20221218-17333593.png)
 
 ## Inputs
 
 在。执行。
 
-处理。活动的游戏效果手柄结构。 
+处理。活动的游戏效果手柄结构。
 
 ## Outputs
 
@@ -28,19 +28,21 @@
 
 旧计数。整数。
 
+<hr>
+
 Wait until the specified gameplay effect is removed.
 
 Target is Ability Task Wait Gameplay Effect Stack Change
 
 ## 图示
 
-![]($-20221218-17333593.png)
+![](/uploads/projects/ue-bluprint/20221218-17333593.png)
 
 ## Inputs
 
 In: Exec.
 
-Handle: Active Gameplay Effect Handle Structure.  
+Handle: Active Gameplay Effect Handle Structure.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Invalid Handle: Exec. Invalid Handle.
 New Count: Integer.
 
 Old Count: Integer.
-

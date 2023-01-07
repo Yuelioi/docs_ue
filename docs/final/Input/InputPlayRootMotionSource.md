@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19243678.png)
+![](/uploads/projects/ue-bluprint/20221218-19243678.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。模拟根部运动组件对象参考。
 
-源。模拟根部运动源对象参考。  
+源。模拟根部运动源对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Input Play Root Motion Source
 
@@ -26,7 +28,7 @@ Target is Mock Root Motion Component
 
 ## 图示
 
-![]($-20221218-19243678.png)
+![](/uploads/projects/ue-bluprint/20221218-19243678.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Mock Root Motion Component Object Reference.
 
-Source: Mock Root Motion Source Object Reference.  
+Source: Mock Root Motion Source Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

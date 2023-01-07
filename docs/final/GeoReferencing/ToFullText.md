@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19142275.png)
+![](/uploads/projects/ue-bluprint/20221218-19142275.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 整数位 Alti: 整数。
 
-作为DMS：布尔值。  
+作为 DMS：布尔值。
 
 ## Outputs
 
-返回值。文本。将GeographicCoordinates值转换为本地化的格式化文本，格式为'X= Y= Z='。
+返回值。文本。将 GeographicCoordinates 值转换为本地化的格式化文本，格式为'X= Y= Z='。
+
+<hr>
 
 Converts a GeographicCoordinates value to localized formatted text, in the form 'X= Y= Z='
 
@@ -28,7 +30,7 @@ Target is Geographic Coordinates Function Library
 
 ## 图示
 
-![]($-20221218-19142275.png)
+![](/uploads/projects/ue-bluprint/20221218-19142275.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Integral Digits Lat Lon: Integer.
 
 Integral Digits Alti: Integer.
 
-As DMS: Boolean.  
+As DMS: Boolean.
 
 ## Outputs
 
 Return Value: Text. Converts a GeographicCoordinates value to localized formatted text, in the form 'X= Y= Z='.
-

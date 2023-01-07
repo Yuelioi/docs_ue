@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20404043.png)
+![](/uploads/projects/ue-bluprint/20221218-20404043.png)
 
 ## Inputs
 
-目标。Replay Subsystem Object Reference.  
+目标。Replay Subsystem Object Reference.
 
 ## Outputs
 
 返回值。布尔值。是否记录。
+
+<hr>
 
 Is Recording
 
@@ -22,13 +24,12 @@ Target is Replay Subsystem
 
 ## 图示
 
-![]($-20221218-20404043.png)
+![](/uploads/projects/ue-bluprint/20221218-20404043.png)
 
 ## Inputs
 
-Target: Replay Subsystem Object Reference.  
+Target: Replay Subsystem Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Is Recording.
-

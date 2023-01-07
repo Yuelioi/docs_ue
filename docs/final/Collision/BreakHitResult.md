@@ -1,26 +1,26 @@
 # BreakHitResult
 
-从一个HitResult中提取数据。
+从一个 HitResult 中提取数据。
 
 目标是游戏规则统计学
 
 ## 图示
 
-![]($-20221218-18183642.png)
+![](/uploads/projects/ue-bluprint/20221218-18183642.png)
 
 ## Inputs
 
-命中：命中结果结构（通过引用）。源HitResult。 
+命中：命中结果结构（通过引用）。源 HitResult。
 
 ## Outputs
 
 阻断命中：布尔值。如果有一个阻断命中，则为真，否则为假。
 
-初始重合。布尔值。如果击中开始于初始重叠，则为真。在这种情况下，其他一些值应该有不同的解释。时间将为0，ImpactPoint将等于Location，法线将相等，表示一个穿透矢量。
+初始重合。布尔值。如果击中开始于初始重叠，则为真。在这种情况下，其他一些值应该有不同的解释。时间将为 0，ImpactPoint 将等于 Location，法线将相等，表示一个穿透矢量。
 
-时间。浮点数（单精度）。撞击的'时间'，如果有撞击的话，沿轨迹方向的范围为[0.0到1.0]，表示开始和结束之间的时间。如果没有击中，则等于1.0。
+时间。浮点数（单精度）。撞击的'时间'，如果有撞击的话，沿轨迹方向的范围为[0.0 到 1.0]，表示开始和结束之间的时间。如果没有击中，则等于 1.0。
 
-距离。浮点数（单精度）。从TraceStart到世界空间中的Location的距离。如果有初始重叠（追踪在另一个碰撞物体内开始），该值为0。
+距离。浮点数（单精度）。从 TraceStart 到世界空间中的 Location 的距离。如果有初始重叠（追踪在另一个碰撞物体内开始），该值为 0。
 
 位置。矢量。碰撞点在世界空间中的位置。如果这是一个扫射形状的测试，这是我们可以在世界中放置形状的位置，它不会穿透。
 
@@ -30,11 +30,11 @@
 
 撞击法线。向量。在世界空间中被击中的物体的法线，对于被扫射的物体。
 
-Phys Mat: 物理材料物体参考。被击中的物理材料。必须在查询参数中设置bReturnPhysicalMaterial为true才能返回。
+Phys Mat: 物理材料物体参考。被击中的物理材料。必须在查询参数中设置 bReturnPhysicalMaterial 为 true 才能返回。
 
-Hit Actor: Actor对象参考。被追踪击中的角色。
+Hit Actor: Actor 对象参考。被追踪击中的角色。
 
-Hit Component: Primitive Component对象参考。被追踪到的原始组件。
+Hit Component: Primitive Component 对象参考。被追踪到的原始组件。
 
 Hit Bone Name: 名称。被击中的骨骼名称（仅当我们击中一个骨骼网格时有效）。
 
@@ -50,17 +50,19 @@ Hit Item: 整数。基元特有的数据，记录了基元中哪个项被击中�
 
 追踪结束。向量。
 
+<hr>
+
 Extracts data from a HitResult.
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18183642.png)
+![](/uploads/projects/ue-bluprint/20221218-18183642.png)
 
 ## Inputs
 
-Hit: Hit Result Structure (by ref). The source HitResult..  
+Hit: Hit Result Structure (by ref). The source HitResult..
 
 ## Outputs
 
@@ -99,4 +101,3 @@ Face Index: Integer. If colliding with trimesh or landscape, index of face that 
 Trace Start: Vector.
 
 Trace End: Vector.
-

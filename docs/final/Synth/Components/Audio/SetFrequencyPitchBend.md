@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21073643.png)
+![](/uploads/projects/ue-bluprint/20221218-21073643.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Synth Component Mono Wave Table 对象参考。
 
-频率偏移分值。Float（单精度）。  
+频率偏移分值。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set a frequency offset in cents (for pitch modulation such as the Pitch Bend Wheel)
 
@@ -26,7 +28,7 @@ Target is Synth Component Mono Wave Table
 
 ## 图示
 
-![]($-20221218-21073643.png)
+![](/uploads/projects/ue-bluprint/20221218-21073643.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Synth Component Mono Wave Table Object Reference.
 
-Frequency Offset Cents: Float (single-precision).  
+Frequency Offset Cents: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

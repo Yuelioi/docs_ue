@@ -2,11 +2,11 @@
 
 将动画序列加载到这个控制装置部分
 
-目标是Control Rig Sequencer Editor Library
+目标是 Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18530579.png)
+![](/uploads/projects/ue-bluprint/20221218-18530579.png)
 
 ## Inputs
 
@@ -16,11 +16,11 @@
 
 Anim Sequence:Anim Sequence Object Reference.要加载的序列。
 
-Skel Mesh Comp:Skeletal Mesh Component对象参考。
+Skel Mesh Comp:Skeletal Mesh Component 对象参考。
 
 在起始帧。帧号结构。插入动画的帧。
 
-时间单位。ESequenceTimeUnit枚举。所有帧和时间值的单位，可以是显示速率或刻度分辨率。
+时间单位。ESequenceTimeUnit 枚举。所有帧和时间值的单位，可以是显示速率或刻度分辨率。
 
 关键减少。布尔值。如果为真，则根据公差进行减键，如果为假，则不减键。
 
@@ -30,14 +30,17 @@ Skel Mesh Comp:Skeletal Mesh Component对象参考。
 
 出：执行。
 
-返回值。布尔值。如果成功，返回True，否则返回False。
+返回值。布尔值。如果成功，返回 True，否则返回 False。
+
+<hr>
+
 Load anim sequence into this control rig section
 
 Target is Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18530579.png)
+![](/uploads/projects/ue-bluprint/20221218-18530579.png)
 
 ## Inputs
 
@@ -55,11 +58,10 @@ Time Unit: ESequenceTimeUnit Enum. Unit for all frame and time values, either in
 
 Key Reduce: Boolean. If true do key reduction based upon Tolerance, if false don't.
 
-Tolerance: Float (single-precision). If reducing keys, tolerance about which keys will be removed, smaller tolerance, more keys usually..  
+Tolerance: Float (single-precision). If reducing keys, tolerance about which keys will be removed, smaller tolerance, more keys usually..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. returns True if successful, False otherwise.
-

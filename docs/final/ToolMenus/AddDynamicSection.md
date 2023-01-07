@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21132254.png)
+![](/uploads/projects/ue-bluprint/20221218-21132254.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 科室名称：名称。
 
-对象。工具菜单部分动态对象参考。  
+对象。工具菜单部分动态对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add Dynamic Section Script
 
@@ -28,7 +30,7 @@ Target is Tool Menu
 
 ## 图示
 
-![]($-20221218-21132254.png)
+![](/uploads/projects/ue-bluprint/20221218-21132254.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Tool Menu Object Reference.
 
 Section Name: Name.
 
-Object: Tool Menu Section Dynamic Object Reference.  
+Object: Tool Menu Section Dynamic Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-18425763.png)
+![](/uploads/projects/ue-bluprint/20221218-18425763.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。布尔值。删除所有端点。
 
+<hr>
+
 Delete All Endpoint
 
 Target is Direct Link Test Library
 
 ## 图示
 
-![]($-20221218-18425763.png)
+![](/uploads/projects/ue-bluprint/20221218-18425763.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Delete All Endpoint.
-

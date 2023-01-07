@@ -2,15 +2,15 @@
 
 根据格式化选项将传入的整数转换为文本
 
-目标是Kismet文本库
+目标是 Kismet 文本库
 
 ## 图示
 
-![]($-20221218-15242750.png)
+![](/uploads/projects/ue-bluprint/20221218-15242750.png)
 
 ## Inputs
 
-值。整数64。
+值。整数 64。
 
 总是签名：布尔值。
 
@@ -18,11 +18,13 @@
 
 最小整数位。整数。
 
-最大整数位。整数。  
+最大整数位。整数。
 
 ## Outputs
 
 返回值。文本。根据格式化选项将传入的整数转换为文本。
+
+<hr>
 
 Converts a passed in integer to text based on formatting options
 
@@ -30,7 +32,7 @@ Target is Kismet Text Library
 
 ## 图示
 
-![]($-20221218-15242750.png)
+![](/uploads/projects/ue-bluprint/20221218-15242750.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Use Grouping: Boolean.
 
 Minimum Integral Digits: Integer.
 
-Maximum Integral Digits: Integer.  
+Maximum Integral Digits: Integer.
 
 ## Outputs
 
 Return Value: Text. Converts a passed in integer to text based on formatting options.
-

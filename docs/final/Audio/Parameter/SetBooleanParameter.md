@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18065403.png)
+![](/uploads/projects/ue-bluprint/20221218-18065403.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在名称。名称。
 
-在Bool中。布尔值。 
+在 Bool 中。布尔值。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets a named Boolean
 
@@ -28,7 +30,7 @@ Target is Audio Component
 
 ## 图示
 
-![]($-20221218-18065403.png)
+![](/uploads/projects/ue-bluprint/20221218-18065403.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Audio Component Object Reference.
 
 In Name: Name.
 
-In Bool: Boolean.  
+In Bool: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

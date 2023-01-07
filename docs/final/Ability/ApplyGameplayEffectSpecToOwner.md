@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17300081.png)
+![](/uploads/projects/ue-bluprint/20221218-17300081.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。游戏能力对象参考。
 
-效果规格手柄。Gameplay Effect Spec Handle结构。 
+效果规格手柄。Gameplay Effect Spec Handle 结构。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。活动的游戏效果手柄结构。将之前创建的游戏效果规格应用到这个能力的所有者身上。
 
+<hr>
+
 Apply a previously created gameplay effect spec to the owner of this ability
 
 Target is Gameplay Ability
 
 ## 图示
 
-![]($-20221218-17300081.png)
+![](/uploads/projects/ue-bluprint/20221218-17300081.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Gameplay Ability Object Reference.
 
-Effect Spec Handle: Gameplay Effect Spec Handle Structure.  
+Effect Spec Handle: Gameplay Effect Spec Handle Structure.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Active Gameplay Effect Handle Structure. Apply a previously created gameplay effect spec to the owner of this ability.
-

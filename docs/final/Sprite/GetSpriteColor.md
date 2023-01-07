@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21022678.png)
+![](/uploads/projects/ue-bluprint/20221218-21022678.png)
 
 ## Inputs
 
-目标。纸质翻页书组件对象参考。  
+目标。纸质翻页书组件对象参考。
 
 ## Outputs
 
 返回值。线性颜色结构。返回精灵的当前颜色。
+
+<hr>
 
 Returns the current color of the sprite
 
@@ -22,13 +24,12 @@ Target is Paper Flipbook Component
 
 ## 图示
 
-![]($-20221218-21022678.png)
+![](/uploads/projects/ue-bluprint/20221218-21022678.png)
 
 ## Inputs
 
-Target: Paper Flipbook Component Object Reference.  
+Target: Paper Flipbook Component Object Reference.
 
 ## Outputs
 
 Return Value: Linear Color Structure. Returns the current color of the sprite.
-

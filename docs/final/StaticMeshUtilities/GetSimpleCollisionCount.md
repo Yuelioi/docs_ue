@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21034654.png)
+![](/uploads/projects/ue-bluprint/20221218-21034654.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。静态网格编辑器子系统对象参考。
 
-静态网格。静态网格对象参考。静态网状物查询...  
+静态网格。静态网格对象参考。静态网状物查询...
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。整数。一个整数，代表输入静态网格的简单碰撞数。负值表示该命令无法执行。解释见日志。
 
+<hr>
+
 Get number of simple collisions present on a static mesh.
 
 Target is Static Mesh Editor Subsystem
 
 ## 图示
 
-![]($-20221218-21034654.png)
+![](/uploads/projects/ue-bluprint/20221218-21034654.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Static Mesh Editor Subsystem Object Reference.
 
-Static Mesh: Static Mesh Object Reference. Mesh to query on..  
+Static Mesh: Static Mesh Object Reference. Mesh to query on..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. An integer representing the number of simple collisions on the input static mesh. An negative value indicates that the command could not be executed. See log for explanation..
-

@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17521804.png)
+![](/uploads/projects/ue-bluprint/20221218-17521804.png)
 
 ## Inputs
 
-动画资产：动画资产对象参考。 
+动画资产：动画资产对象参考。
 
 ## Outputs
 
 元数据。动画元数据对象引用的数组。
+
+<hr>
 
 Retrieves all Meta Data Instances from the given Animation Asset
 
@@ -22,13 +24,12 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17521804.png)
+![](/uploads/projects/ue-bluprint/20221218-17521804.png)
 
 ## Inputs
 
-Animation Asset: Animation Asset Object Reference.  
+Animation Asset: Animation Asset Object Reference.
 
 ## Outputs
 
 Meta Data: Array of Anim Meta Data Object References.
-

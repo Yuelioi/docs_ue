@@ -1,12 +1,12 @@
 # AssertIsValid
 
-断言一个UObject是有效的
+断言一个 UObject 是有效的
 
 目标是功能测试
 
 ## 图示
 
-![]($-20221218-17592827.png)
+![](/uploads/projects/ue-bluprint/20221218-17592827.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 对象。对象参考。
 
-消息。字符串。如果对象无效，显示的信息（"Invalid object: 'Message' for context ''"）。 
+消息。字符串。如果对象无效，显示的信息（"Invalid object: 'Message' for context ''"）。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。
 
+<hr>
+
 Assert that a UObject is valid
 
 Target is Functional Test
 
 ## 图示
 
-![]($-20221218-17592827.png)
+![](/uploads/projects/ue-bluprint/20221218-17592827.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Functional Test Object Reference.
 
 Object: Object Reference.
 
-Message: String. The message to display if the object is invalid ("Invalid object: 'Message' for context ''").  
+Message: String. The message to display if the object is invalid ("Invalid object: 'Message' for context ''").
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

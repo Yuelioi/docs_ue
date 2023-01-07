@@ -2,11 +2,11 @@
 
 转换天灯组件
 
-目标是Usd转换蓝图背景
+目标是 Usd 转换蓝图背景
 
 ## 图示
 
-![]($-20221218-18221544.png)
+![](/uploads/projects/ue-bluprint/20221218-18221544.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 原始路径。字符串。
 
-时间代码。Float (single-precision).  
+时间代码。Float (single-precision).
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 返回值。布尔值。转换天灯组件。
 
+<hr>
+
 Convert Sky Light Component
 
 Target is Usd Conversion Blueprint Context
 
 ## 图示
 
-![]($-20221218-18221544.png)
+![](/uploads/projects/ue-bluprint/20221218-18221544.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Component: Sky Light Component Object Reference.
 
 Prim Path: String.
 
-Time Code: Float (single-precision).  
+Time Code: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Convert Sky Light Component.
-

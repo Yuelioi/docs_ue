@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14184469.png)
+![](/uploads/projects/ue-bluprint/20221218-14184469.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EEditorScriptingStringMatchType枚举。 
+选择。EEditorScriptingStringMatchType 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 完全匹配。执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14184469.png)
+![](/uploads/projects/ue-bluprint/20221218-14184469.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EEditorScriptingStringMatchType Enum.  
+Selection: EEditorScriptingStringMatchType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Contains: Exec.
 Matches Wildcard: Exec.
 
 Exact Match: Exec.
-

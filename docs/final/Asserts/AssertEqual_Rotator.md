@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17592112.png)
+![](/uploads/projects/ue-bluprint/20221218-17592112.png)
 
 ## Inputs
 
@@ -20,7 +20,7 @@
 
 What：字符串。如果断言失败，在信息中使用的名称（"预期'什么'是{预期}，但对于上下文''是{实际}"）。
 
-Tolerance（公差）。Float（单精度）。 
+Tolerance（公差）。Float（单精度）。
 
 ## Outputs
 
@@ -28,13 +28,15 @@ Tolerance（公差）。Float（单精度）。
 
 返回值。布尔值。
 
+<hr>
+
 Assert that the component angles of two rotators are all equal within a small tolerance.
 
 Target is Functional Test
 
 ## 图示
 
-![]($-20221218-17592112.png)
+![](/uploads/projects/ue-bluprint/20221218-17592112.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Expected: Rotator.
 
 What: String. A name to use in the message if the assert fails ("Expected 'What' to be {Expected} but it was {Actual} for context ''").
 
-Tolerance: Float (single-precision).  
+Tolerance: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

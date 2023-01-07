@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19240909.png)
+![](/uploads/projects/ue-bluprint/20221218-19240909.png)
 
 ## Inputs
 
 在。执行。
 
-原产地。EHMDTrackingOrigin Enum。  
+原产地。EHMDTrackingOrigin Enum。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets current tracking origin type (eye level or floor level).
 
@@ -24,15 +26,14 @@ Target is Head Mounted Display Function Library
 
 ## 图示
 
-![]($-20221218-19240909.png)
+![](/uploads/projects/ue-bluprint/20221218-19240909.png)
 
 ## Inputs
 
 In: Exec.
 
-Origin: EHMDTrackingOrigin Enum.  
+Origin: EHMDTrackingOrigin Enum.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18411016.png)
+![](/uploads/projects/ue-bluprint/20221218-18411016.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 显示为倒计时。布尔型。
 
-在刷新延时。Float (single-precision).  
+在刷新延时。Float (single-precision).
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Date Time Value
 
@@ -30,7 +32,7 @@ Target is Common Date Time Text Block
 
 ## 图示
 
-![]($-20221218-18411016.png)
+![](/uploads/projects/ue-bluprint/20221218-18411016.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ In Date Time: Date Time Structure.
 
 Show as Countdown: Boolean.
 
-In Refresh Delay: Float (single-precision).  
+In Refresh Delay: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

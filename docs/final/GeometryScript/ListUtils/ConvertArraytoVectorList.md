@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-19104965.png)
+![](/uploads/projects/ue-bluprint/20221218-19104965.png)
 
 ## Inputs
 
 在。执行。
 
-矢量阵列。阵列的载体。  
+矢量阵列。阵列的载体。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 矢量列表。矢量列表结构。
 
+<hr>
+
 Convert Array to Vector List
 
 Target is Geometry Script Library List Utility Functions
 
 ## 图示
 
-![]($-20221218-19104965.png)
+![](/uploads/projects/ue-bluprint/20221218-19104965.png)
 
 ## Inputs
 
 In: Exec.
 
-Vector Array: Array of Vectors.  
+Vector Array: Array of Vectors.
 
 ## Outputs
 
 Out: Exec.
 
 Vector List: Vector List Structure.
-

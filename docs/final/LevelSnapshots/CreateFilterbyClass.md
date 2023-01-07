@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19420653.png)
+![](/uploads/projects/ue-bluprint/20221218-19420653.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 姓名：姓名
 
-外部。对象参考。  
+外部。对象参考。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。水平快照过滤器对象参考。按类别创建过滤器。
 
+<hr>
+
 Create Filter by Class
 
 Target is Filter Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-19420653.png)
+![](/uploads/projects/ue-bluprint/20221218-19420653.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Class: Level Snapshot Filter Class Reference (by ref).
 
 Name: Name.
 
-Outer: Object Reference.  
+Outer: Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Level Snapshot Filter Object Reference. Create Filter by Class.
-

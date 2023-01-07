@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17323620.png)
+![](/uploads/projects/ue-bluprint/20221218-17323620.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 演员。Actor Object Reference.
 
-事件标签。Gameplay Tag结构。
+事件标签。Gameplay Tag 结构。
 
-有效载荷。Gameplay Event Data Structure（游戏事件数据结构）。 
+有效载荷。Gameplay Event Data Structure（游戏事件数据结构）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 This function can be used to trigger an ability on the actor in question with useful payload data.
 
@@ -28,7 +30,7 @@ Target is Ability System Blueprint Library
 
 ## 图示
 
-![]($-20221218-17323620.png)
+![](/uploads/projects/ue-bluprint/20221218-17323620.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Actor: Actor Object Reference.
 
 Event Tag: Gameplay Tag Structure.
 
-Payload: Gameplay Event Data Structure.  
+Payload: Gameplay Event Data Structure.
 
 ## Outputs
 
 Out: Exec.
-

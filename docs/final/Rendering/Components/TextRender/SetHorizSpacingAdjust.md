@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20354225.png)
+![](/uploads/projects/ue-bluprint/20221218-20354225.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。文本渲染组件对象参考。
 
-值。Float（单精度）。  
+值。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Change the text horizontal spacing adjustment and signal the primitives to be rebuilt
 
@@ -26,7 +28,7 @@ Target is Text Render Component
 
 ## 图示
 
-![]($-20221218-20354225.png)
+![](/uploads/projects/ue-bluprint/20221218-20354225.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Text Render Component Object Reference.
 
-Value: Float (single-precision).  
+Value: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

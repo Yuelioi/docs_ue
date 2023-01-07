@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19375416.png)
+![](/uploads/projects/ue-bluprint/20221218-19375416.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。分层子系统对象参考。
 
-演员。演员对象参考。要验证的行为者。  
+演员。演员对象参考。要验证的行为者。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。
 
+<hr>
+
 Checks to see if the specified actor is in an appropriate state to interact with layers
 
 Target is Layers Subsystem
 
 ## 图示
 
-![]($-20221218-19375416.png)
+![](/uploads/projects/ue-bluprint/20221218-19375416.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Layers Subsystem Object Reference.
 
-Actor: Actor Object Reference. The actor to validate.  
+Actor: Actor Object Reference. The actor to validate.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

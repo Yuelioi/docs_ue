@@ -8,7 +8,7 @@
 
 ## 图示
 
-![]($-20221218-20095995.png)
+![](/uploads/projects/ue-bluprint/20221218-20095995.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 目标。电影管道对象参考。
 
-在日期时间。日期时间结构（通过引用）。为GetInitializationTime返回的DateTime对象。  
+在日期时间。日期时间结构（通过引用）。为 GetInitializationTime 返回的 DateTime 对象。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Override the time this movie pipeline was initialized at. This can be used for render farms. to ensure that jobs on all machines use the same date/time instead of each calculating it locally.
 
@@ -30,7 +32,7 @@ Target is Movie Pipeline
 
 ## 图示
 
-![]($-20221218-20095995.png)
+![](/uploads/projects/ue-bluprint/20221218-20095995.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ In: Exec.
 
 Target: Movie Pipeline Object Reference.
 
-In Date Time: Date Time Structure (by ref). The DateTime object to return for GetInitializationTime..  
+In Date Time: Date Time Structure (by ref). The DateTime object to return for GetInitializationTime..
 
 ## Outputs
 
 Out: Exec.
-

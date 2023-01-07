@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20323182.png)
+![](/uploads/projects/ue-bluprint/20221218-20323182.png)
 
 ## Inputs
 
 在。执行。
 
-目标。石英对象参考。  
+目标。石英对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。布尔值。是否启用了石英。
 
+<hr>
+
 Is Quartz Enabled
 
 Target is Quartz
 
 ## 图示
 
-![]($-20221218-20323182.png)
+![](/uploads/projects/ue-bluprint/20221218-20323182.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Quartz Object Reference.  
+Target: Quartz Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Is Quartz Enabled.
-

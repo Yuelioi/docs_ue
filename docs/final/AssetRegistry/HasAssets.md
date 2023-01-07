@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18005065.png)
+![](/uploads/projects/ue-bluprint/20221218-18005065.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 包路径。名称。查询资产数据的路径（例如，/Game/MyFolder）。
 
-递归。布尔值。如果为真，提供的路径将被递归测试。 
+递归。布尔值。如果为真，提供的路径将被递归测试。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。
 
+<hr>
+
 Does the given path contain assets, optionally also testing sub-paths?
 
 Target is Asset Registry
 
 ## 图示
 
-![]($-20221218-18005065.png)
+![](/uploads/projects/ue-bluprint/20221218-18005065.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Asset Registry Interface.
 
 Package Path: Name. the path to query asset data in (eg, /Game/MyFolder).
 
-Recursive: Boolean. if true, the supplied path will be tested recursively.  
+Recursive: Boolean. if true, the supplied path will be tested recursively.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

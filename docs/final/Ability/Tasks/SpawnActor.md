@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17331485.png)
+![](/uploads/projects/ue-bluprint/20221218-17331485.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标数据。游戏性能力目标数据处理结构。
 
-类。演员类参考。 
+类。演员类参考。
 
 ## Outputs
 
@@ -28,13 +28,15 @@ Async Task: Ability Task Spawn Actor Object Reference。
 
 生成的演员。Actor Object Reference.
 
+<hr>
+
 Spawn new Actor on the network authority (server)
 
 Target is Ability Task Spawn Actor
 
 ## 图示
 
-![]($-20221218-17331485.png)
+![](/uploads/projects/ue-bluprint/20221218-17331485.png)
 
 ## Inputs
 
@@ -42,7 +44,7 @@ In: Exec.
 
 Target Data: Gameplay Ability Target Data Handle Structure.
 
-Class: Actor Class Reference.  
+Class: Actor Class Reference.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Success: Exec. Success.
 Did Not Spawn: Exec. Did Not Spawn:. Called when we can't spawn: on clients or potentially on server if they fail to spawn (rare).
 
 Spawned Actor: Actor Object Reference.
-

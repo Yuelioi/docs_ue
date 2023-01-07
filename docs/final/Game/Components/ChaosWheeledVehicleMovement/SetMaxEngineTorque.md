@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19043428.png)
+![](/uploads/projects/ue-bluprint/20221218-19043428.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。混沌轮式车辆运动组件对象参考。
 
-扭矩。Float（单精度）。  
+扭矩。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 change handling via blueprint at runtime
 
@@ -26,7 +28,7 @@ Target is Chaos Wheeled Vehicle Movement Component
 
 ## 图示
 
-![]($-20221218-19043428.png)
+![](/uploads/projects/ue-bluprint/20221218-19043428.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Chaos Wheeled Vehicle Movement Component Object Reference.
 
-Torque: Float (single-precision).  
+Torque: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

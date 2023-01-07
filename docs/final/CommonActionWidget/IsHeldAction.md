@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18201589.png)
+![](/uploads/projects/ue-bluprint/20221218-18201589.png)
 
 ## Inputs
 
-目标。通用动作小工具对象参考。 
+目标。通用动作小工具对象参考。
 
 ## Outputs
 
 返回值。布尔值。是否持有行动。
+
+<hr>
 
 Is Held Action
 
@@ -22,13 +24,12 @@ Target is Common Action Widget
 
 ## 图示
 
-![]($-20221218-18201589.png)
+![](/uploads/projects/ue-bluprint/20221218-18201589.png)
 
 ## Inputs
 
-Target: Common Action Widget Object Reference.  
+Target: Common Action Widget Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Is Held Action.
-

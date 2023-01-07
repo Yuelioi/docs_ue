@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20163981.png)
+![](/uploads/projects/ue-bluprint/20221218-20163981.png)
 
 ## Inputs
 
@@ -16,11 +16,11 @@
 
 比赛演员。基于回合的比赛界面界面。
 
-匹配ID：字符串。
+匹配 ID：字符串。
 
 本地玩家的结果。EMPMatchOutcome Enum.
 
-其他球员的结果。EMPMatchOutcome Enum.  
+其他球员的结果。EMPMatchOutcome Enum.
 
 ## Outputs
 
@@ -30,13 +30,15 @@
 
 失败时。执行。失败时：。结束比赛失败时调用。
 
+<hr>
+
 End a match that is in progress while it is the current player's turn
 
 Target is End Match Callback Proxy
 
 ## 图示
 
-![]($-20221218-20163981.png)
+![](/uploads/projects/ue-bluprint/20221218-20163981.png)
 
 ## Inputs
 
@@ -50,7 +52,7 @@ Match ID: String.
 
 Local Player Outcome: EMPMatchOutcome Enum.
 
-Other Players Outcome: EMPMatchOutcome Enum.  
+Other Players Outcome: EMPMatchOutcome Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Out: Exec.
 On Success: Exec. On Success:. Called when the match ends successfully.
 
 On Failure: Exec. On Failure:. Called when ending the match fails.
-

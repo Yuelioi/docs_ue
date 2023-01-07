@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21031912.png)
+![](/uploads/projects/ue-bluprint/20221218-21031912.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 材料索引。整数。
 
-新材料。材料界面对象参考。  
+新材料。材料界面对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets a Material given a Material Index
 
@@ -28,7 +30,7 @@ Target is Static Mesh
 
 ## 图示
 
-![]($-20221218-21031912.png)
+![](/uploads/projects/ue-bluprint/20221218-21031912.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Static Mesh Object Reference.
 
 Material Index: Integer.
 
-New Material: Material Interface Object Reference.  
+New Material: Material Interface Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

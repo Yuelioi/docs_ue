@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17332849.png)
+![](/uploads/projects/ue-bluprint/20221218-17332849.png)
 
 ## Inputs
 
@@ -16,13 +16,13 @@
 
 属性分母。游戏玩法属性结构。
 
-比较类型。EWaitAttributeChangeComparison枚举。
+比较类型。EWaitAttributeChangeComparison 枚举。
 
 比较值。Float（单精度）。
 
 触发一次：布尔值。
 
-可选的外部所有者：Actor对象参考。 
+可选的外部所有者：Actor 对象参考。
 
 ## Outputs
 
@@ -36,13 +36,15 @@ Async Task: Ability Task Wait Attribute Change Ratio Threshold Object Reference.
 
 当前比率。浮点数（单精度）。
 
+<hr>
+
 Wait on attribute ratio change meeting a comparison threshold.
 
 Target is Ability Task Wait Attribute Change Ratio Threshold
 
 ## 图示
 
-![]($-20221218-17332849.png)
+![](/uploads/projects/ue-bluprint/20221218-17332849.png)
 
 ## Inputs
 
@@ -58,7 +60,7 @@ Comparison Value: Float (single-precision).
 
 Trigger Once: Boolean.
 
-Optional External Owner: Actor Object Reference.  
+Optional External Owner: Actor Object Reference.
 
 ## Outputs
 
@@ -71,4 +73,3 @@ On Change: Exec. On Change.
 Matches Comparison: Boolean.
 
 Current Ratio: Float (single-precision).
-

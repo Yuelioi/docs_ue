@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18551207.png)
+![](/uploads/projects/ue-bluprint/20221218-18551207.png)
 
 ## Inputs
 
@@ -31,13 +31,16 @@ Auto Activate System（自动激活系统）。Boolean（布尔）。
 输出。执行。
 
 返回值。粒子系统组件对象参考。
+
+<hr>
+
 Plays the specified effect at the given location and rotation, fire and forget. The system will go away when the effect is complete. Does not replicate.
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18551207.png)
+![](/uploads/projects/ue-bluprint/20221218-18551207.png)
 
 ## Inputs
 
@@ -55,11 +58,10 @@ Auto Destroy: Boolean. Whether the component will automatically be destroyed whe
 
 Pooling Method: EPSCPoolMethod Enum. Method used for pooling this component. Defaults to none..
 
-Auto Activate System: Boolean.  
+Auto Activate System: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Particle System Component Object Reference.
-

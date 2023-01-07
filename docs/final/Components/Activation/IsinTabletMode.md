@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-18222222.png)
+![](/uploads/projects/ue-bluprint/20221218-18222222.png)
 
 ## Inputs
 
 在。Exec.
 
-目标。平台事件组件对象参考。 
+目标。平台事件组件对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。布尔值。如果在平板电脑模式下为真，否则为假，或者如果不是可转换的笔记本电脑。
 
+<hr>
+
 Check whether a convertible laptop is laptop mode.
 
 Target is Platform Events Component
 
 ## 图示
 
-![]($-20221218-18222222.png)
+![](/uploads/projects/ue-bluprint/20221218-18222222.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Platform Events Component Object Reference.  
+Target: Platform Events Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if in tablet mode, false otherwise or if not a convertible laptop..
-

@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17471591.png)
+![](/uploads/projects/ue-bluprint/20221218-17471591.png)
 
 ## Inputs
 
-目标。导航路径对象参考。 
+目标。导航路径对象参考。
 
 ## Outputs
 
 返回值。浮点数（单精度）。获取路径成本。
+
+<hr>
 
 Get Path Cost
 
@@ -22,13 +24,12 @@ Target is Navigation Path
 
 ## 图示
 
-![]($-20221218-17471591.png)
+![](/uploads/projects/ue-bluprint/20221218-17471591.png)
 
 ## Inputs
 
-Target: Navigation Path Object Reference.  
+Target: Navigation Path Object Reference.
 
 ## Outputs
 
 Return Value: Float (single-precision). Get Path Cost.
-

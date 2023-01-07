@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21132612.png)
+![](/uploads/projects/ue-bluprint/20221218-21132612.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 科室名称：名称。
 
-Args: 工具菜单条目结构（通过参考）。  
+Args: 工具菜单条目结构（通过参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add Menu Entry
 
@@ -28,7 +30,7 @@ Target is Tool Menu
 
 ## 图示
 
-![]($-20221218-21132612.png)
+![](/uploads/projects/ue-bluprint/20221218-21132612.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Tool Menu Object Reference.
 
 Section Name: Name.
 
-Args: Tool Menu Entry Structure (by ref).  
+Args: Tool Menu Entry Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

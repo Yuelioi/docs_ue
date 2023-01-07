@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18163675.png)
+![](/uploads/projects/ue-bluprint/20221218-18163675.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Matinee Actor对象参考。 
+目标。Matinee Actor 对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Similar to play, but the playback will go backwards until the beginning of the sequence is reached.
 
@@ -24,15 +26,14 @@ Target is Matinee Actor
 
 ## 图示
 
-![]($-20221218-18163675.png)
+![](/uploads/projects/ue-bluprint/20221218-18163675.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Matinee Actor Object Reference.  
+Target: Matinee Actor Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

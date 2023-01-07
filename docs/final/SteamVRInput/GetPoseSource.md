@@ -2,15 +2,15 @@
 
 检查我们在运动控制器的方向和位置上是使用骨架姿势还是原始控制器姿势
 
-目标是Steam VRInput设备功能库
+目标是 Steam VRInput 设备功能库
 
 ## 图示
 
-![]($-20221218-21042994.png)
+![](/uploads/projects/ue-bluprint/20221218-21042994.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 使用骨架姿势。布尔。
 
+<hr>
+
 Check whether we are using a skeleton pose or the raw controller pose for the orientation and position of the motion controller
 
 Target is Steam VRInput Device Function Library
 
 ## 图示
 
-![]($-20221218-21042994.png)
+![](/uploads/projects/ue-bluprint/20221218-21042994.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Using Skeleton Pose: Boolean.
-

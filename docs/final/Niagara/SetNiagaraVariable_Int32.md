@@ -1,12 +1,12 @@
 # SetNiagaraVariable_Int32
 
-设置一个Niagara int参数的名称，如果需要的话，可以在本地重写。
+设置一个 Niagara int 参数的名称，如果需要的话，可以在本地重写。
 
-目标是Niagara粒子系统组件
+目标是 Niagara 粒子系统组件
 
 ## 图示
 
-![]($-20221218-20135907.png)
+![](/uploads/projects/ue-bluprint/20221218-20135907.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在变量 名称： 名称。
 
-在值。整数。  
+在值。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets a Niagara int parameter by name, overriding locally if necessary.
 
@@ -28,7 +30,7 @@ Target is Niagara Particle System Component
 
 ## 图示
 
-![]($-20221218-20135907.png)
+![](/uploads/projects/ue-bluprint/20221218-20135907.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Niagara Particle System Component Object Reference.
 
 In Variable Name: Name.
 
-In Value: Integer.  
+In Value: Integer.
 
 ## Outputs
 
 Out: Exec.
-

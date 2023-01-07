@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17550798.png)
+![](/uploads/projects/ue-bluprint/20221218-17550798.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。文本对象参考。
 
-In Min Desired Width: Float (single-precision).新的最小期望宽度。 
+In Min Desired Width: Float (single-precision).新的最小期望宽度。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Set the minimum desired width for this text block
 
@@ -26,7 +28,7 @@ Target is Text
 
 ## 图示
 
-![]($-20221218-17550798.png)
+![](/uploads/projects/ue-bluprint/20221218-17550798.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Text Object Reference.
 
-In Min Desired Width: Float (single-precision). new minimum desired width.  
+In Min Desired Width: Float (single-precision). new minimum desired width.
 
 ## Outputs
 
 Out: Exec.
-

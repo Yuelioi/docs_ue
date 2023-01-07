@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-17491555.png)
+![](/uploads/projects/ue-bluprint/20221218-17491555.png)
 
 ## Inputs
 
 在。Exec.
 
-年龄：整数。 
+年龄：整数。
 
 ## Outputs
 
 出：执行。Exec.
+
+<hr>
 
 Sets the user's age (if supported) on the analytics provider
 
@@ -24,15 +26,14 @@ Target is Analytics Blueprint Library
 
 ## 图示
 
-![]($-20221218-17491555.png)
+![](/uploads/projects/ue-bluprint/20221218-17491555.png)
 
 ## Inputs
 
 In: Exec.
 
-Age: Integer.  
+Age: Integer.
 
 ## Outputs
 
 Out: Exec.
-

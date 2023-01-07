@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14160860.png)
+![](/uploads/projects/ue-bluprint/20221218-14160860.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAnimNodeReferenceConversionResult枚举。 
+选择。EAnimNodeReferenceConversionResult 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 失败。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14160860.png)
+![](/uploads/projects/ue-bluprint/20221218-14160860.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAnimNodeReferenceConversionResult Enum.  
+Selection: EAnimNodeReferenceConversionResult Enum.
 
 ## Outputs
 
 Succeeded: Exec.
 
 Failed: Exec.
-

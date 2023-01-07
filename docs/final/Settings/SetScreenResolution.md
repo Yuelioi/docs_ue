@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20580431.png)
+![](/uploads/projects/ue-bluprint/20221218-20580431.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。游戏用户设置对象参考。
 
-决议。Int点结构。  
+决议。Int 点结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the user setting for game screen resolution, in pixels.
 
@@ -26,7 +28,7 @@ Target is Game User Settings
 
 ## 图示
 
-![]($-20221218-20580431.png)
+![](/uploads/projects/ue-bluprint/20221218-20580431.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Game User Settings Object Reference.
 
-Resolution: Int Point Structure.  
+Resolution: Int Point Structure.
 
 ## Outputs
 
 Out: Exec.
-

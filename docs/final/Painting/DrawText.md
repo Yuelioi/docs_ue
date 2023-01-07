@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20175317.png)
+![](/uploads/projects/ue-bluprint/20221218-20175317.png)
 
 ## Inputs
 
@@ -30,13 +30,15 @@
 
 出：执行。
 
+<hr>
+
 Draws text.
 
 Target is Widget Blueprint Library
 
 ## 图示
 
-![]($-20221218-20175317.png)
+![](/uploads/projects/ue-bluprint/20221218-20175317.png)
 
 ## Inputs
 
@@ -54,9 +56,8 @@ Font Size: Integer.
 
 Font Type Face: Name.
 
-Tint: Linear Color Structure. Color to render the line..  
+Tint: Linear Color Structure. Color to render the line..
 
 ## Outputs
 
 Out: Exec.
-

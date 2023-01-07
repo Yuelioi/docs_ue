@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21331213.png)
+![](/uploads/projects/ue-bluprint/20221218-21331213.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。波函数折叠模型对象参考。
 
-贡献。整数。  
+贡献。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the contribution values of key objects to a given value
 
@@ -26,7 +28,7 @@ Target is Wave Function Collapse Model
 
 ## 图示
 
-![]($-20221218-21331213.png)
+![](/uploads/projects/ue-bluprint/20221218-21331213.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Wave Function Collapse Model Object Reference.
 
-Contribution: Integer.  
+Contribution: Integer.
 
 ## Outputs
 
 Out: Exec.
-

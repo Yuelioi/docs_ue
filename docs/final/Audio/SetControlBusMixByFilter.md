@@ -1,12 +1,12 @@
 # SetControlBusMixByFilter
 
-将一个给定类别的过滤阶段设定为mix的活动实例的目标值。不更新混合的UObject定义。
+将一个给定类别的过滤阶段设定为 mix 的活动实例的目标值。不更新混合的 UObject 定义。
 
 目标是音频调制静态
 
 ## 图示
 
-![]($-20221218-18074297.png)
+![](/uploads/projects/ue-bluprint/20221218-18074297.png)
 
 ## Inputs
 
@@ -22,11 +22,13 @@ Param Filter（参数过滤器）。Sound Modulation Parameter Object 参考。(
 
 值。Float（单精度）。混合过滤阶段的目标值。
 
-衰减时间。Float（单精度）。如果是非负数，更新发现的符合所提供的滤波器的总线级的淡出时间。 
+衰减时间。Float（单精度）。如果是非负数，更新发现的符合所提供的滤波器的总线级的淡出时间。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets filtered stages of a given class to a provided target value for active instance of mix.. Does not update UObject definition of mix.
 
@@ -34,7 +36,7 @@ Target is Audio Modulation Statics
 
 ## 图示
 
-![]($-20221218-18074297.png)
+![](/uploads/projects/ue-bluprint/20221218-18074297.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Param Filter: Sound Modulation Parameter Object Reference. (Optional) Filters bu
 
 Value: Float (single-precision). Target value to mix filtered stages to..
 
-Fade Time: Float (single-precision). If non-negative, updates the fade time for the resulting bus stages found matching the provided filter..  
+Fade Time: Float (single-precision). If non-negative, updates the fade time for the resulting bus stages found matching the provided filter..
 
 ## Outputs
 
 Out: Exec.
-

@@ -1,10 +1,10 @@
 # EventGameplayCue
 
-处理GameplayCue事件 GameplayCue
+处理 GameplayCue 事件 GameplayCue
 
 ## 图示
 
-![]($-20221218-17451691.png)
+![](/uploads/projects/ue-bluprint/20221218-17451691.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 事件类型。EGameplayCueEvent Enum。
 
-参数。Gameplay Cue Parameters结构（通过引用）。
+参数。Gameplay Cue Parameters 结构（通过引用）。
+
+<hr>
 
 Handle GameplayCue Event GameplayCue
 
 ## 图示
 
-![]($-20221218-17451691.png)
+![](/uploads/projects/ue-bluprint/20221218-17451691.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Out: Exec.
 Event Type: EGameplayCueEvent Enum.
 
 Parameters: Gameplay Cue Parameters Structure (by ref).
-

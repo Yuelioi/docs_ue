@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19033639.png)
+![](/uploads/projects/ue-bluprint/20221218-19033639.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 附加到组件。场景组件对象参考。
 
-衰减位置OVerride。矢量。  
+衰减位置 OVerride。矢量。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Audio Listener Attenuation Override
 
@@ -28,7 +30,7 @@ Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19033639.png)
+![](/uploads/projects/ue-bluprint/20221218-19033639.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Player Controller Object Reference.
 
 Attach to Component: Scene Component Object Reference.
 
-Attenuation Location OVerride: Vector.  
+Attenuation Location OVerride: Vector.
 
 ## Outputs
 
 Out: Exec.
-

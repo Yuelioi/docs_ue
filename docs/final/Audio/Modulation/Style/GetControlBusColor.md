@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-18045784.png)
+![](/uploads/projects/ue-bluprint/20221218-18045784.png)
 
 ## Inputs
 
-在。Exec.  
+在。Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 返回值。颜色结构。获取控制总线颜色。
 
+<hr>
+
 Get Control Bus Color
 
 Target is Audio Modulation Style
 
 ## 图示
 
-![]($-20221218-18045784.png)
+![](/uploads/projects/ue-bluprint/20221218-18045784.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Color Structure. Get Control Bus Color.
-

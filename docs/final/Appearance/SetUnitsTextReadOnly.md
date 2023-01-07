@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17553624.png)
+![](/uploads/projects/ue-bluprint/20221218-17553624.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。音频滑块基础对象参考。
 
-是只读。布尔值。 
+是只读。布尔值。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets whether the units text is read only
 
@@ -26,7 +28,7 @@ Target is Audio Slider Base
 
 ## 图示
 
-![]($-20221218-17553624.png)
+![](/uploads/projects/ue-bluprint/20221218-17553624.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Audio Slider Base Object Reference.
 
-Is Read Only: Boolean.  
+Is Read Only: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

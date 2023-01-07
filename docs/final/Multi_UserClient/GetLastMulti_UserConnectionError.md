@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-20101722.png)
+![](/uploads/projects/ue-bluprint/20221218-20101722.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。多用户连接错误结构。获取最后发生的多用户连接错误，如果有的话。
 
+<hr>
+
 Get the last Multi-User connection error that happened, if any
 
 Target is Multi User Client Statics
 
 ## 图示
 
-![]($-20221218-20101722.png)
+![](/uploads/projects/ue-bluprint/20221218-20101722.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Multi User Connection Error Structure. Get the last Multi-User connection error that happened, if any.
-

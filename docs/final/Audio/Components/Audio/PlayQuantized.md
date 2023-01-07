@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18030529.png)
+![](/uploads/projects/ue-bluprint/20221218-18030529.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 Quantization Boundary（量化边界）中。石英量化边界结构（通过引用）。
 
-在Delegate中。Delegate（通过引用）。
+在 Delegate 中。Delegate（通过引用）。
 
 在开始时间。浮点数（单精度）。
 
@@ -26,11 +26,13 @@ Quantization Boundary（量化边界）中。石英量化边界结构（通过�
 
 在淡入音量水平。Float（单精度）。
 
-渐变曲线。EAudioFaderCurve Enum。 
+渐变曲线。EAudioFaderCurve Enum。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Start a sound playing on an audio component on a given quantization boundary with the handle to an existing clock
 
@@ -38,7 +40,7 @@ Target is Audio Component
 
 ## 图示
 
-![]($-20221218-18030529.png)
+![](/uploads/projects/ue-bluprint/20221218-18030529.png)
 
 ## Inputs
 
@@ -58,9 +60,8 @@ In Fade in Duration: Float (single-precision).
 
 In Fade Volume Level: Float (single-precision).
 
-In Fade Curve: EAudioFaderCurve Enum.  
+In Fade Curve: EAudioFaderCurve Enum.
 
 ## Outputs
 
 Out: Exec.
-

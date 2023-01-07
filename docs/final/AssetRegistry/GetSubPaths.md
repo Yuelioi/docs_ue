@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18004820.png)
+![](/uploads/projects/ue-bluprint/20221218-18004820.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 在基本路径。字符串。
 
-在Recurse中。Boolean（布尔）。 
+在 Recurse 中。Boolean（布尔）。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 输出路径列表。字符串的数组。
 
+<hr>
+
 Gets a list of all paths that are currently cached below the passed-in base path
 
 Target is Asset Registry
 
 ## 图示
 
-![]($-20221218-18004820.png)
+![](/uploads/projects/ue-bluprint/20221218-18004820.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Asset Registry Interface.
 
 In Base Path: String.
 
-In Recurse: Boolean.  
+In Recurse: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Out Path List: Array of Strings.
-

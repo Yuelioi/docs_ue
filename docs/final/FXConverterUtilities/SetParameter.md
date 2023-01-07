@@ -2,11 +2,11 @@
 
 在这个脚本转换上下文持有的脚本上设置一个参数。
 
-目标是Niagara脚本转换语境
+目标是 Niagara 脚本转换语境
 
 ## 图示
 
-![]($-20221218-19032796.png)
+![](/uploads/projects/ue-bluprint/20221218-19032796.png)
 
 ## Inputs
 
@@ -20,7 +20,7 @@
 
 在拥有编辑条件。布尔值。
 
-在编辑条件值。布尔值。  
+在编辑条件值。布尔值。
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 返回值。布尔值。设置该参数是否成功。
 
+<hr>
+
 Set a parameter on the Script this Script Conversion Context holds.
 
 Target is Niagara Script Conversion Context
 
 ## 图示
 
-![]($-20221218-19032796.png)
+![](/uploads/projects/ue-bluprint/20221218-19032796.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Parameter Input: Niagara Script Conversion Context Input Object Reference. Value
 
 In Has Edit Condition: Boolean.
 
-In Edit Condition Value: Boolean.  
+In Edit Condition Value: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Whether setting the parameter was successful..
-

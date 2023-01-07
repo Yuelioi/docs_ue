@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-19110373.png)
+![](/uploads/projects/ue-bluprint/20221218-19110373.png)
 
 ## Inputs
 
 三角形列表。三角形列表结构。
 
-三角形：整数。  
+三角形：整数。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。Int 矢量结构。获取三角形列表项目。
 
+<hr>
+
 Get Triangle List Item
 
 Target is Geometry Script Library List Utility Functions
 
 ## 图示
 
-![]($-20221218-19110373.png)
+![](/uploads/projects/ue-bluprint/20221218-19110373.png)
 
 ## Inputs
 
 Triangle List: Triangle List Structure.
 
-Triangle: Integer.  
+Triangle: Integer.
 
 ## Outputs
 
 Is Valid Triangle: Boolean.
 
 Return Value: Int Vector Structure. Get Triangle List Item.
-

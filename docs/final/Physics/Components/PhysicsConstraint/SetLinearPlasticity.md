@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20212159.png)
+![](/uploads/projects/ue-bluprint/20221218-20212159.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 线性可塑性阈值。Float（单精度）。重置接头的静止长度所需的变形百分比。
 
-塑性类型。EConstraintPlasticityType枚举。  
+塑性类型。EConstraintPlasticityType 枚举。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the Linear Plasticity properties
 
@@ -30,7 +32,7 @@ Target is Physics Constraint Component
 
 ## 图示
 
-![]($-20221218-20212159.png)
+![](/uploads/projects/ue-bluprint/20221218-20212159.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Linear Plasticity: Boolean. Whether it is possible to reset the target angle fro
 
 Linear Plasticity Threshold: Float (single-precision). Percent deformation needed to reset the rest length of the joint.
 
-Plasticity Type: EConstraintPlasticityType Enum.  
+Plasticity Type: EConstraintPlasticityType Enum.
 
 ## Outputs
 
 Out: Exec.
-

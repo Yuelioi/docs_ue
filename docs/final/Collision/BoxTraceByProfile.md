@@ -2,11 +2,11 @@
 
 用一个盒子对世界进行扫荡，并返回使用特定配置文件的第一个阻断命中。
 
-目标是Kismet系统库
+目标是 Kismet 系统库
 
 ## 图示
 
-![]($-20221218-18183408.png)
+![](/uploads/projects/ue-bluprint/20221218-18183408.png)
 
 ## Inputs
 
@@ -34,7 +34,7 @@ Trace Complex：布尔值。真，测试复杂的碰撞；假，测试简化的�
 
 Trace Hit Color: 线性颜色结构。
 
-绘制时间。浮点数（单精度）。 
+绘制时间。浮点数（单精度）。
 
 ## Outputs
 
@@ -44,13 +44,15 @@ Out Hit: 命中结果结构。追踪命中的属性。
 
 返回值。布尔值。如果有一个命中，则为真，否则为假。
 
+<hr>
+
 Sweep a box against the world and return the first blocking hit using a specific profile
 
 Target is Kismet System Library
 
 ## 图示
 
-![]($-20221218-18183408.png)
+![](/uploads/projects/ue-bluprint/20221218-18183408.png)
 
 ## Inputs
 
@@ -78,7 +80,7 @@ Trace Color: Linear Color Structure.
 
 Trace Hit Color: Linear Color Structure.
 
-Draw Time: Float (single-precision).  
+Draw Time: Float (single-precision).
 
 ## Outputs
 
@@ -87,4 +89,3 @@ Out: Exec.
 Out Hit: Hit Result Structure. Properties of the trace hit..
 
 Return Value: Boolean. True if there was a hit, false otherwise..
-

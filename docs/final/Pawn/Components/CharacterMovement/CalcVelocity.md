@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20180496.png)
+![](/uploads/projects/ue-bluprint/20221218-20180496.png)
 
 ## Inputs
 
@@ -14,17 +14,19 @@
 
 目标。角色运动组件对象参考。
 
-Delta时间。Float (single-precision). 自上一帧起经过的时间。
+Delta 时间。Float (single-precision). 自上一帧起经过的时间。
 
 摩擦力。浮动（单精度）。不加速时的摩擦系数，或在与加速相反的方向。
 
 流体。布尔值。如果在流体中移动，则为真，导致摩擦力总是被应用，而不管加速度如何。
 
-刹车减速。Float (single-precision). 当不加速时或超过最大速度时应用减速。  
+刹车减速。Float (single-precision). 当不加速时或超过最大速度时应用减速。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Updates Velocity and Acceleration based on the current state, applying the effects of friction and acceleration or deceleration. Does not apply gravity.. This is used internally during movement updates. Normally you don't need to call this from outside code, but you might want to use it for custom movement modes.
 
@@ -32,7 +34,7 @@ Target is Character Movement Component
 
 ## 图示
 
-![]($-20221218-20180496.png)
+![](/uploads/projects/ue-bluprint/20221218-20180496.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Friction: Float (single-precision). coefficient of friction when not acceleratin
 
 Fluid: Boolean. true if moving through a fluid, causing Friction to always be applied regardless of acceleration..
 
-Braking Deceleration: Float (single-precision). deceleration applied when not accelerating, or when exceeding max velocity..  
+Braking Deceleration: Float (single-precision). deceleration applied when not accelerating, or when exceeding max velocity..
 
 ## Outputs
 
 Out: Exec.
-

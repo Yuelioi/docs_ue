@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14234980.png)
+![](/uploads/projects/ue-bluprint/20221218-14234980.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESPStereoCameraLayer Enum.  
+选择。ESPStereoCameraLayer Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 双眼：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14234980.png)
+![](/uploads/projects/ue-bluprint/20221218-14234980.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESPStereoCameraLayer Enum.  
+Selection: ESPStereoCameraLayer Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Left Eye: Exec.
 Right Eye: Exec.
 
 Both Eyes: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17505749.png)
+![](/uploads/projects/ue-bluprint/20221218-17505749.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。小工具组件对象参考。
 
-离屏时要打勾。布尔值。 
+离屏时要打勾。布尔值。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets whether the widget ticks when offscreen or not
 
@@ -26,7 +28,7 @@ Target is Widget Component
 
 ## 图示
 
-![]($-20221218-17505749.png)
+![](/uploads/projects/ue-bluprint/20221218-17505749.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Widget Component Object Reference.
 
-Want Tick when Offscreen: Boolean.  
+Want Tick when Offscreen: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

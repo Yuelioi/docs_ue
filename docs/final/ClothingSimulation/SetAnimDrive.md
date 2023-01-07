@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18180988.png)
+![](/uploads/projects/ue-bluprint/20221218-18180988.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标。Chaos Clothing Interactor 对象参考.
 
-Anim Drive Stiffness: 矢量2D结构.
+Anim Drive Stiffness: 矢量 2D 结构.
 
-动画驱动阻尼: 矢量2D结构.  
+动画驱动阻尼: 矢量 2D 结构.
 
 ## Outputs
 
 Out: 执行.
+
+<hr>
 
 Set Anim Drive
 
@@ -28,7 +30,7 @@ Target is Chaos Clothing Interactor
 
 ## 图示
 
-![]($-20221218-18180988.png)
+![](/uploads/projects/ue-bluprint/20221218-18180988.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Chaos Clothing Interactor Object Reference.
 
 Anim Drive Stiffness: Vector 2D Structure.
 
-Anim Drive Damping: Vector 2D Structure.  
+Anim Drive Damping: Vector 2D Structure.
 
 ## Outputs
 
 Out: Exec.
-

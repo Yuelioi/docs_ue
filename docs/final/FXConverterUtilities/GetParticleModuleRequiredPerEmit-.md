@@ -2,17 +2,17 @@
 
 获取每个发射器道具所需的粒子模块
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19024344.png)
+![](/uploads/projects/ue-bluprint/20221218-19024344.png)
 
 ## Inputs
 
 在。执行。
 
-需要的粒子模块。需要的对象参考。  
+需要的粒子模块。需要的对象参考。
 
 ## Outputs
 
@@ -36,7 +36,7 @@
 
 发射器持续时间低：浮点数（单精度）。
 
-OUt Emitter Delay使用范围。布尔值。
+OUt Emitter Delay 使用范围。布尔值。
 
 仅限第一循环的输出延迟。布尔型。
 
@@ -48,19 +48,21 @@ Out Emitter Delay Low: Float（单精度）。
 
 输出器的循环。整数。
 
+<hr>
+
 Get Particle Module Required Per Emitter Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19024344.png)
+![](/uploads/projects/ue-bluprint/20221218-19024344.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module Required: Required Object Reference.  
+Particle Module Required: Required Object Reference.
 
 ## Outputs
 
@@ -95,4 +97,3 @@ Out Emitter Delay Low: Float (single-precision).
 Out Duration Recalc Each Loop: Boolean.
 
 Out Emitter Loops: Integer.
-

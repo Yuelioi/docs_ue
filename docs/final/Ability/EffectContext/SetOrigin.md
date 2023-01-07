@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17304435.png)
+![](/uploads/projects/ue-bluprint/20221218-17304435.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 效果语境。Gameplay Effect Context Handle Structure.
 
-原点。Vector（向量）。 
+原点。Vector（向量）。
 
 ## Outputs
 
 出处: Out: 执行：执行。
+
+<hr>
 
 Sets the location the effect originated from
 
@@ -26,7 +28,7 @@ Target is Ability System Blueprint Library
 
 ## 图示
 
-![]($-20221218-17304435.png)
+![](/uploads/projects/ue-bluprint/20221218-17304435.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Effect Context: Gameplay Effect Context Handle Structure.
 
-Origin: Vector.  
+Origin: Vector.
 
 ## Outputs
 
 Out: Exec.
-

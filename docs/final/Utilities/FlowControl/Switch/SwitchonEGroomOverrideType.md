@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14202037.png)
+![](/uploads/projects/ue-bluprint/20221218-14202037.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGroomOverrideType枚举。 
+选择。EGroomOverrideType 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Enable（启用）。Exec.
 
 Disable（禁用）。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14202037.png)
+![](/uploads/projects/ue-bluprint/20221218-14202037.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGroomOverrideType Enum.  
+Selection: EGroomOverrideType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Auto: Exec.
 Enable: Exec.
 
 Disable: Exec.
-

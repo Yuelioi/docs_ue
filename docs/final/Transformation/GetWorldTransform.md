@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21152201.png)
+![](/uploads/projects/ue-bluprint/20221218-21152201.png)
 
 ## Inputs
 
-目标。场景组件对象参考。  
+目标。场景组件对象参考。
 
 ## Outputs
 
 返回值。变换。获取该组件当前的组件到世界的转换。
+
+<hr>
 
 Get the current component-to-world transform for this component
 
@@ -22,13 +24,12 @@ Target is Scene Component
 
 ## 图示
 
-![]($-20221218-21152201.png)
+![](/uploads/projects/ue-bluprint/20221218-21152201.png)
 
 ## Inputs
 
-Target: Scene Component Object Reference.  
+Target: Scene Component Object Reference.
 
 ## Outputs
 
 Return Value: Transform. Get the current component-to-world transform for this component.
-

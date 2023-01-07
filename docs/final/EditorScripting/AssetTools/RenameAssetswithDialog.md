@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18481347.png)
+![](/uploads/projects/ue-bluprint/20221218-18481347.png)
 
 ## Inputs
 
@@ -22,14 +22,17 @@
 
 出：执行。
 
-返回值。EAssetRenameResult枚举。使用指定的名称重命名资产。
+返回值。EAssetRenameResult 枚举。使用指定的名称重命名资产。
+
+<hr>
+
 Renames assets using the specified names.
 
 Target is Asset Tools
 
 ## 图示
 
-![]($-20221218-18481347.png)
+![](/uploads/projects/ue-bluprint/20221218-18481347.png)
 
 ## Inputs
 
@@ -39,11 +42,10 @@ Target: Asset Tools Interface.
 
 Assets and Names: Array of Asset Rename Data Structures.
 
-Auto Checkout: Boolean.  
+Auto Checkout: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: EAssetRenameResult Enum. Renames assets using the specified names..
-

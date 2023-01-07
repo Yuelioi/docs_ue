@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19314684.png)
+![](/uploads/projects/ue-bluprint/20221218-19314684.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标：交换材料工厂节点对象参考。
 
-依赖性Uid。字符串。  
+依赖性 Uid。字符串。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。从该对象中删除一个纹理依赖。
 
+<hr>
+
 Remove one Texture dependency from this object.
 
 Target is Interchange Material Factory Node
 
 ## 图示
 
-![]($-20221218-19314684.png)
+![](/uploads/projects/ue-bluprint/20221218-19314684.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Interchange Material Factory Node Object Reference.
 
-Dependency Uid: String.  
+Dependency Uid: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Remove one Texture dependency from this object..
-

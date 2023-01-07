@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14231383.png)
+![](/uploads/projects/ue-bluprint/20221218-14231383.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EScaleChainInitialLength枚举。 
+选择。EScaleChainInitialLength 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 链的长度。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14231383.png)
+![](/uploads/projects/ue-bluprint/20221218-14231383.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EScaleChainInitialLength Enum.  
+Selection: EScaleChainInitialLength Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Fixed Default Length Value: Exec.
 Distance: Exec.
 
 Chain Length: Exec.
-

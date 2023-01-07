@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14253254.png)
+![](/uploads/projects/ue-bluprint/20221218-14253254.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EWidgetInteractionSource Enum.  
+选择。EWidgetInteractionSource Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 自定义。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14253254.png)
+![](/uploads/projects/ue-bluprint/20221218-14253254.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EWidgetInteractionSource Enum.  
+Selection: EWidgetInteractionSource Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Mouse: Exec.
 Center Screen: Exec.
 
 Custom: Exec.
-

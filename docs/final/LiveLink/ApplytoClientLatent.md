@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19445818.png)
+![](/uploads/projects/ue-bluprint/20221218-19445818.png)
 
 ## Inputs
 
 在。执行。
 
-目标。现场链接预设对象参考。  
+目标。现场链接预设对象参考。
 
 ## Outputs
 
 已完成。执行。
+
+<hr>
 
 Remove all previous sources and subjects and add the sources and subjects from this preset.
 
@@ -24,15 +26,14 @@ Target is Live Link Preset
 
 ## 图示
 
-![]($-20221218-19445818.png)
+![](/uploads/projects/ue-bluprint/20221218-19445818.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Live Link Preset Object Reference.  
+Target: Live Link Preset Object Reference.
 
 ## Outputs
 
 Completed: Exec.
-

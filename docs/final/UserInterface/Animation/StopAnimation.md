@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21214311.png)
+![](/uploads/projects/ue-bluprint/20221218-21214311.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。用户小部件对象参考。
 
-在动画中。小工具动画对象参考。  
+在动画中。小工具动画对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Stops an already running animation in this widget
 
@@ -26,7 +28,7 @@ Target is User Widget
 
 ## 图示
 
-![]($-20221218-21214311.png)
+![](/uploads/projects/ue-bluprint/20221218-21214311.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: User Widget Object Reference.
 
-In Animation: Widget Animation Object Reference.  
+In Animation: Widget Animation Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

@@ -1,18 +1,18 @@
 # GetGeoLocationatWorldPosition
 
-将UE4世界空间中的一个位置转换成一个地理位置。
+将 UE4 世界空间中的一个位置转换成一个地理位置。
 
-目标是Get Geo Location Async Task Blueprint Proxy。
+目标是 Get Geo Location Async Task Blueprint Proxy。
 
 ## 图示
 
-![]($-20221218-17564387.png)
+![](/uploads/projects/ue-bluprint/20221218-17564387.png)
 
 ## Inputs
 
 在。执行。
 
-世界位置。矢量（通过引用）。 
+世界位置。矢量（通过引用）。
 
 ## Outputs
 
@@ -30,19 +30,21 @@
 
 错误。字符串。
 
+<hr>
+
 Convert a position in UE4 world space into a Geo location.
 
 Target is Get Geo Location Async Task Blueprint Proxy
 
 ## 图示
 
-![]($-20221218-17564387.png)
+![](/uploads/projects/ue-bluprint/20221218-17564387.png)
 
 ## Inputs
 
 In: Exec.
 
-World Position: Vector (by ref).  
+World Position: Vector (by ref).
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Latitude: Float (single-precision).
 Altitude: Float (single-precision).
 
 Error: String.
-

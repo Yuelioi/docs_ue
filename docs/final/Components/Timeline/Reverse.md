@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18282911.png)
+![](/uploads/projects/ue-bluprint/20221218-18282911.png)
 
 ## Inputs
 
 在。执行。
 
-目标。时间线组件对象参考。 
+目标。时间线组件对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Start playback of timeline in reverse
 
@@ -24,15 +26,14 @@ Target is Timeline Component
 
 ## 图示
 
-![]($-20221218-18282911.png)
+![](/uploads/projects/ue-bluprint/20221218-18282911.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Timeline Component Object Reference.  
+Target: Timeline Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

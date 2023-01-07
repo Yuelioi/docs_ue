@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18175610.png)
+![](/uploads/projects/ue-bluprint/20221218-18175610.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。衣服模拟互动器对象参考。
 
-在向量。向量（通过参考）。 
+在向量。向量（通过参考）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set a new gravity override and enable the override.
 
@@ -26,7 +28,7 @@ Target is Clothing Simulation Interactor
 
 ## 图示
 
-![]($-20221218-18175610.png)
+![](/uploads/projects/ue-bluprint/20221218-18175610.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Clothing Simulation Interactor Object Reference.
 
-In Vector: Vector (by ref).  
+In Vector: Vector (by ref).
 
 ## Outputs
 
 Out: Exec.
-

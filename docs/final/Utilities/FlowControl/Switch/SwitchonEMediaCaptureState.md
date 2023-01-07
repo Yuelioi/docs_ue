@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14212471.png)
+![](/uploads/projects/ue-bluprint/20221218-14212471.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMediaCaptureState Enum。 
+选择。EMediaCaptureState Enum。
 
 ## Outputs
 
@@ -24,17 +24,19 @@
 
 已停止。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14212471.png)
+![](/uploads/projects/ue-bluprint/20221218-14212471.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMediaCaptureState Enum.  
+Selection: EMediaCaptureState Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Preparing: Exec.
 Stop Requested: Exec.
 
 Stopped: Exec.
-

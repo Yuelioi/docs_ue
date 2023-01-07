@@ -2,11 +2,11 @@
 
 将当前的动画绑定到一个控制钻机轨道上
 
-目标是Control Rig Sequencer Editor Library
+目标是 Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18521807.png)
+![](/uploads/projects/ue-bluprint/20221218-18521807.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 世界。世界对象参考。活跃的世界。
 
-水平序列。Level Sequence对象参考。我们正在烘焙的LevelSequence。
+水平序列。Level Sequence 对象参考。我们正在烘焙的 LevelSequence。
 
 控制钻机类。对象类别参考。控制装置的类别。
 
@@ -30,14 +30,17 @@
 
 出：执行。
 
-返回值。布尔值。如果成功，返回True，否则返回False。
+返回值。布尔值。如果成功，返回 True，否则返回 False。
+
+<hr>
+
 Bake the current animation in the binding to a Control Rig track
 
 Target is Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18521807.png)
+![](/uploads/projects/ue-bluprint/20221218-18521807.png)
 
 ## Inputs
 
@@ -55,11 +58,10 @@ Reduce Keys: Boolean.
 
 Tolerance: Float (single-precision). If reducing keys, tolerance about which keys will be removed, smaller tolerance, more keys usually..
 
-Binding: Sequencer Binding Proxy Structure (by ref). The binding upon which to bake.  
+Binding: Sequencer Binding Proxy Structure (by ref). The binding upon which to bake.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. returns True if successful, False otherwise.
-

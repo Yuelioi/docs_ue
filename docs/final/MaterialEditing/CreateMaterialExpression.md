@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19461166.png)
+![](/uploads/projects/ue-bluprint/20221218-19461166.png)
 
 ## Inputs
 
@@ -16,9 +16,9 @@
 
 表达式类。材料表达式类参考。要添加的表达式的类别。
 
-节点位置X。整数。新表达式节点的X位置。
+节点位置 X。整数。新表达式节点的 X 位置。
 
-Node Pos Y：整数。新表达式节点的Y位置。  
+Node Pos Y：整数。新表达式节点的 Y 位置。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ Node Pos Y：整数。新表达式节点的Y位置。
 
 返回值。材料表达式对象参考。
 
+<hr>
+
 Create a new material expression node within the supplied material
 
 Target is Material Editing Library
 
 ## 图示
 
-![]($-20221218-19461166.png)
+![](/uploads/projects/ue-bluprint/20221218-19461166.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Expression Class: Material Expression Class Reference. Class of expression to ad
 
 Node Pos X: Integer. X position of new expression node.
 
-Node Pos Y: Integer. Y position of new expression node.  
+Node Pos Y: Integer. Y position of new expression node.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Material Expression Object Reference.
-

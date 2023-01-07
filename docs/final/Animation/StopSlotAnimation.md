@@ -2,11 +2,11 @@
 
 停止当前播放的老虎机动画槽或全部
 
-目标是Anim Instance
+目标是 Anim Instance
 
 ## 图示
 
-![]($-20221218-17510194.png)
+![](/uploads/projects/ue-bluprint/20221218-17510194.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 In Blend Out Time: Float (single-precision).
 
-插槽节点名称。名称：  
+插槽节点名称。名称：
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Stops currently playing slot animation slot or all
 
@@ -28,7 +30,7 @@ Target is Anim Instance
 
 ## 图示
 
-![]($-20221218-17510194.png)
+![](/uploads/projects/ue-bluprint/20221218-17510194.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Anim Instance Object Reference.
 
 In Blend Out Time: Float (single-precision).
 
-Slot Node Name: Name.  
+Slot Node Name: Name.
 
 ## Outputs
 
 Out: Exec.
-

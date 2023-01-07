@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-14273001.png)
+![](/uploads/projects/ue-bluprint/20221218-14273001.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 前缀。字符串。文件前缀。
 
-扩展名。字符串。文件扩展名（需要'.'）.  
+扩展名。字符串。文件扩展名（需要'.'）.
 
 ## Outputs
 
 返回值。字符串。
+
+<hr>
 
 Creates a temporary filename with the specified prefix.
 
@@ -26,7 +28,7 @@ Target is Blueprint Paths Library
 
 ## 图示
 
-![]($-20221218-14273001.png)
+![](/uploads/projects/ue-bluprint/20221218-14273001.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Path: String. The file pathname..
 
 Prefix: String. The file prefix..
 
-Extension: String. File extension ('.' required)..  
+Extension: String. File extension ('.' required)..
 
 ## Outputs
 
 Return Value: String.
-

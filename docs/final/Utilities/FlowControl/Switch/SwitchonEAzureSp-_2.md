@@ -1,16 +1,16 @@
-# SwitchonEAzureSp-_2
+# SwitchonEAzureSp-\_2
 
 选择一个与输入值相匹配的输出
 
 ## 图示
 
-![]($-20221218-14171043.png)
+![](/uploads/projects/ue-bluprint/20221218-14171043.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAzureSpatialAnchorsLogVerbosity Enum.  
+选择。EAzureSpatialAnchorsLogVerbosity Enum.
 
 ## Outputs
 
@@ -26,17 +26,19 @@
 
 全部：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14171043.png)
+![](/uploads/projects/ue-bluprint/20221218-14171043.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAzureSpatialAnchorsLogVerbosity Enum.  
+Selection: EAzureSpatialAnchorsLogVerbosity Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Information: Exec.
 Debug: Exec.
 
 All: Exec.
-

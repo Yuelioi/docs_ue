@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14173882.png)
+![](/uploads/projects/ue-bluprint/20221218-14173882.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ECollisionTraceFlag Enum.  
+选择。ECollisionTraceFlag Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 将复杂碰撞作为简单碰撞使用。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14173882.png)
+![](/uploads/projects/ue-bluprint/20221218-14173882.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ECollisionTraceFlag Enum.  
+Selection: ECollisionTraceFlag Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Simple and Complex: Exec.
 Use Simple Collision as Complex: Exec.
 
 Use Complex Collision as Simple: Exec.
-

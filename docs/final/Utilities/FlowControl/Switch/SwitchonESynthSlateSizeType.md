@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14242017.png)
+![](/uploads/projects/ue-bluprint/20221218-14242017.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESynthSlateSizeType枚举。 
+选择。ESynthSlateSizeType 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 大号 Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14242017.png)
+![](/uploads/projects/ue-bluprint/20221218-14242017.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESynthSlateSizeType Enum.  
+Selection: ESynthSlateSizeType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Small: Exec.
 Medium: Exec.
 
 Large: Exec.
-

@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21112050.png)
+![](/uploads/projects/ue-bluprint/20221218-21112050.png)
 
 ## Inputs
 
 播放器控制器。播放器控制器对象参考。
 
-PPIndex: 整数。  
+PPIndex: 整数。
 
 ## Outputs
 
@@ -22,19 +22,21 @@ Out PPBlend Weight。浮点（单精度）。
 
 返回值。布尔值。获取后处理混合缓存。
 
+<hr>
+
 Get Post Process Blend Cache
 
 Target is Sequence Camera Shake Test Util
 
 ## 图示
 
-![]($-20221218-21112050.png)
+![](/uploads/projects/ue-bluprint/20221218-21112050.png)
 
 ## Inputs
 
 Player Controller: Player Controller Object Reference.
 
-PPIndex: Integer.  
+PPIndex: Integer.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Out PPSettings: Post Process Settings Structure.
 Out PPBlend Weight: Float (single-precision).
 
 Return Value: Boolean. Get Post Process Blend Cache.
-

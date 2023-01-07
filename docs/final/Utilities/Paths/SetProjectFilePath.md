@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-14282879.png)
+![](/uploads/projects/ue-bluprint/20221218-14282879.png)
 
 ## Inputs
 
 在。执行。
 
-新游戏项目文件路径。字符串。要设置的项目文件路径。 
+新游戏项目文件路径。字符串。要设置的项目文件路径。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets the path to the project file.
 
@@ -24,15 +26,14 @@ Target is Blueprint Paths Library
 
 ## 图示
 
-![]($-20221218-14282879.png)
+![](/uploads/projects/ue-bluprint/20221218-14282879.png)
 
 ## Inputs
 
 In: Exec.
 
-New Game Project File Path: String. The project file path to set..  
+New Game Project File Path: String. The project file path to set..
 
 ## Outputs
 
 Out: Exec.
-

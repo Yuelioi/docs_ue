@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21263630.png)
+![](/uploads/projects/ue-bluprint/20221218-21263630.png)
 
 ## Inputs
 
 在。执行。
 
-目标。水平序列播放控制器对象参考。  
+目标。水平序列播放控制器对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Clears the current level sequence player, needed when recording clean takes of something.
 
@@ -24,15 +26,14 @@ Target is Level Sequence Playback Controller
 
 ## 图示
 
-![]($-20221218-21263630.png)
+![](/uploads/projects/ue-bluprint/20221218-21263630.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Level Sequence Playback Controller Object Reference.  
+Target: Level Sequence Playback Controller Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

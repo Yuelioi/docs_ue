@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18064964.png)
+![](/uploads/projects/ue-bluprint/20221218-18064964.png)
 
 ## Inputs
 
 在。执行。
 
-目标。音频参数控制器界面界面。 
+目标。音频参数控制器界面界面。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Resets all parameters to their original values.
 
@@ -24,15 +26,14 @@ Target is Audio Parameter Controller Interface
 
 ## 图示
 
-![]($-20221218-18064964.png)
+![](/uploads/projects/ue-bluprint/20221218-18064964.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Audio Parameter Controller Interface Interface.  
+Target: Audio Parameter Controller Interface Interface.
 
 ## Outputs
 
 Out: Exec.
-

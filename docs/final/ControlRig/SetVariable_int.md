@@ -2,11 +2,11 @@
 
 设置一个布尔变量的值
 
-目标是Optimus Deformer Instance
+目标是 Optimus Deformer Instance
 
 ## 图示
 
-![]($-20221218-18322195.png)
+![](/uploads/projects/ue-bluprint/20221218-18322195.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 在变量名称。名称.
 
-在值中。整数。 
+在值中。整数。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。设置一个布尔变量的值。
 
+<hr>
+
 Set the value of a boolean variable
 
 Target is Optimus Deformer Instance
 
 ## 图示
 
-![]($-20221218-18322195.png)
+![](/uploads/projects/ue-bluprint/20221218-18322195.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Optimus Deformer Instance Object Reference.
 
 In Variable Name: Name.
 
-In Value: Integer.  
+In Value: Integer.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Set the value of a boolean variable.
-

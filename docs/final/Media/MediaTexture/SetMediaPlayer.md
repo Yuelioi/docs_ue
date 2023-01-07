@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20023365.png)
+![](/uploads/projects/ue-bluprint/20221218-20023365.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@
 
 出：执行。
 
+<hr>
+
 Set the media player that provides the video samples.
 
 Target is Media Texture
 
 ## 图示
 
-![]($-20221218-20023365.png)
+![](/uploads/projects/ue-bluprint/20221218-20023365.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Media Texture Object Reference.
 
-New Media Player: Media Player Object Reference. The player to set..  
+New Media Player: Media Player Object Reference. The player to set..
 
 ## Outputs
 
 Out: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14231027.png)
+![](/uploads/projects/ue-bluprint/20221218-14231027.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERootMotionModifierState Enum.  
+选择。ERootMotionModifierState Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Marked For Removal: Exec.
 
 已被禁用。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14231027.png)
+![](/uploads/projects/ue-bluprint/20221218-14231027.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERootMotionModifierState Enum.  
+Selection: ERootMotionModifierState Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Active: Exec.
 Marked For Removal: Exec.
 
 Disabled: Exec.
-

@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-19485868.png)
+![](/uploads/projects/ue-bluprint/20221218-19485868.png)
 
 ## Inputs
 
-目标。曲线基点对象参考。  
+目标。曲线基点对象参考。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 最大值。Float（单精度）。
 
+<hr>
+
 Get the value range across all curves
 
 Target is Curve Base
 
 ## 图示
 
-![]($-20221218-19485868.png)
+![](/uploads/projects/ue-bluprint/20221218-19485868.png)
 
 ## Inputs
 
-Target: Curve Base Object Reference.  
+Target: Curve Base Object Reference.
 
 ## Outputs
 
 Min Value: Float (single-precision).
 
 Max Value: Float (single-precision).
-

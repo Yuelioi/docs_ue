@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21255556.png)
+![](/uploads/projects/ue-bluprint/20221218-21255556.png)
 
 ## Inputs
 
 在。执行。
 
-目标。对象参考。  
+目标。对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。摄像机组件对象参考。返回用于创建流媒体视图的目标摄像机。
 
+<hr>
+
 Returns the target camera that is used to create the streamed view.
 
 Target is Virtual Camera Controller
 
 ## 图示
 
-![]($-20221218-21255556.png)
+![](/uploads/projects/ue-bluprint/20221218-21255556.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Object Reference.  
+Target: Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Cine Camera Component Object Reference. Returns the target camera that is used to create the streamed view..
-

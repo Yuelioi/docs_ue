@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18415534.png)
+![](/uploads/projects/ue-bluprint/20221218-18415534.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。混沌毁灭听众对象参考。
 
-在设置中。混乱的破坏性事件请求设置结构（由参考）。  
+在设置中。混乱的破坏性事件请求设置结构（由参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets breaking event request settings dynamically
 
@@ -26,7 +28,7 @@ Target is Chaos Destruction Listener
 
 ## 图示
 
-![]($-20221218-18415534.png)
+![](/uploads/projects/ue-bluprint/20221218-18415534.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Chaos Destruction Listener Object Reference.
 
-In Settings: Chaos Breaking Event Request Settings Structure (by ref).  
+In Settings: Chaos Breaking Event Request Settings Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

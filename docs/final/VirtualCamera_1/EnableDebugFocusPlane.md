@@ -2,11 +2,11 @@
 
 启用/禁用调试焦点平面
 
-目标是VCAM蓝图功能库
+目标是 VCAM 蓝图功能库
 
 ## 图示
 
-![]($-20221218-21275646.png)
+![](/uploads/projects/ue-bluprint/20221218-21275646.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 摄像机。摄像机组件对象参考。
 
-已启用。布尔值。  
+已启用。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Enable/Disable debug focus plane
 
@@ -26,7 +28,7 @@ Target is VCam Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-21275646.png)
+![](/uploads/projects/ue-bluprint/20221218-21275646.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Cine Camera: Cine Camera Component Object Reference.
 
-Enabled: Boolean.  
+Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

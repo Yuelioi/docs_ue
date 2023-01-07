@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14225174.png)
+![](/uploads/projects/ue-bluprint/20221218-14225174.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EReplaceActorPolicy Enum.  
+选择。EReplaceActorPolicy Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Replace: 替换。Exec.
 
 忽略 执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14225174.png)
+![](/uploads/projects/ue-bluprint/20221218-14225174.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EReplaceActorPolicy Enum.  
+Selection: EReplaceActorPolicy Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Replace: Exec.
 Update Transform: Exec.
 
 Ignore: Exec.
-

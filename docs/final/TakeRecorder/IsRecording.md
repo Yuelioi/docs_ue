@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21101750.png)
+![](/uploads/projects/ue-bluprint/20221218-21101750.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。布尔值。检查一个录音是否当前处于活动状态。
 
+<hr>
+
 Check whether a recording is currently active
 
 Target is Take Recorder Blueprint Library
 
 ## 图示
 
-![]($-20221218-21101750.png)
+![](/uploads/projects/ue-bluprint/20221218-21101750.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Boolean. Check whether a recording is currently active.
-

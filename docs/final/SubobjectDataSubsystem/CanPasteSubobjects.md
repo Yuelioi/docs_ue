@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21054196.png)
+![](/uploads/projects/ue-bluprint/20221218-21054196.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 根手柄。子对象数据手柄结构（通过引用）。
 
-BPContext。蓝图对象参考。  
+BPContext。蓝图对象参考。
 
 ## Outputs
 
 返回值。布尔值。可以粘贴子对象。
+
+<hr>
 
 Can Paste Subobjects
 
@@ -26,7 +28,7 @@ Target is Subobject Data Subsystem
 
 ## 图示
 
-![]($-20221218-21054196.png)
+![](/uploads/projects/ue-bluprint/20221218-21054196.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Target: Subobject Data Subsystem Object Reference.
 
 Root Handle: Subobject Data Handle Structure (by ref).
 
-BPContext: Blueprint Object Reference.  
+BPContext: Blueprint Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Can Paste Subobjects.
-

@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-19111073.png)
+![](/uploads/projects/ue-bluprint/20221218-19111073.png)
 
 ## Inputs
 
 矢量列表。矢量列表结构。
 
-索引：整数。  
+索引：整数。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。矢量。获取向量列表项目。
 
+<hr>
+
 Get Vector List Item
 
 Target is Geometry Script Library List Utility Functions
 
 ## 图示
 
-![]($-20221218-19111073.png)
+![](/uploads/projects/ue-bluprint/20221218-19111073.png)
 
 ## Inputs
 
 Vector List: Vector List Structure.
 
-Index: Integer.  
+Index: Integer.
 
 ## Outputs
 
 Is Valid Index: Boolean.
 
 Return Value: Vector. Get Vector List Item.
-

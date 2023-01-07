@@ -4,17 +4,17 @@
 
 ## 图示
 
-![]($-20221218-14215899.png)
+![](/uploads/projects/ue-bluprint/20221218-14215899.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ENetworkFailure 枚举。 
+选择。ENetworkFailure 枚举。
 
 ## Outputs
 
-Net驱动已经存在。Exec.
+Net 驱动已经存在。Exec.
 
 网络驱动程序创建失败。Exec.
 
@@ -36,17 +36,19 @@ Net驱动已经存在。Exec.
 
 网络校验码不匹配。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14215899.png)
+![](/uploads/projects/ue-bluprint/20221218-14215899.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ENetworkFailure Enum.  
+Selection: ENetworkFailure Enum.
 
 ## Outputs
 
@@ -71,4 +73,3 @@ Pending Connection Failure: Exec.
 Net Guid Mismatch: Exec.
 
 Net Checksum Mismatch: Exec.
-

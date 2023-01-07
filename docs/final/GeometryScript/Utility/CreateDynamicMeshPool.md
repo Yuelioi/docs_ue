@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-19133953.png)
+![](/uploads/projects/ue-bluprint/20221218-19133953.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 动态网格池。动态网格池对象参考。创建动态网格池。
 
+<hr>
+
 Create Dynamic Mesh Pool
 
 Target is Geometry Script Library Scene Utility Functions
 
 ## 图示
 
-![]($-20221218-19133953.png)
+![](/uploads/projects/ue-bluprint/20221218-19133953.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Dynamic Mesh Pool: Dynamic Mesh Pool Object Reference. Create Dynamic Mesh Pool.
-

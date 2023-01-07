@@ -1,12 +1,12 @@
 # AdvanceTimebyDistanceMatching
 
-通过移动的距离而不是时间向前推进序列评估器。动画上需要有一条距离曲线，该曲线描述了动画中根骨所走的距离。参见UDistanceCurveModifier。
+通过移动的距离而不是时间向前推进序列评估器。动画上需要有一条距离曲线，该曲线描述了动画中根骨所走的距离。参见 UDistanceCurveModifier。
 
-目标是Anim Distance Matching Library
+目标是 Anim Distance Matching Library
 
 ## 图示
 
-![]($-20221218-18431387.png)
+![](/uploads/projects/ue-bluprint/20221218-18431387.png)
 
 ## Inputs
 
@@ -28,13 +28,15 @@
 
 返回值。序列评估器 参考结构。
 
+<hr>
+
 Advance the sequence evaluator forward by distance traveled rather than time. A distance curve is required on the animation that. describes the distance traveled by the root bone in the animation. See UDistanceCurveModifier.
 
 Target is Anim Distance Matching Library
 
 ## 图示
 
-![]($-20221218-18431387.png)
+![](/uploads/projects/ue-bluprint/20221218-18431387.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Distance Traveled: Float (single-precision). The distance traveled by the charac
 
 Distance Curve Name: Name. Name of the curve we want to match.
 
-Play Rate Clamp: Vector 2D Structure. A clamp on the effective play rate of the animation after distance matching. Set to (0,0) for no clamping..  
+Play Rate Clamp: Vector 2D Structure. A clamp on the effective play rate of the animation after distance matching. Set to (0,0) for no clamping..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Sequence Evaluator Reference Structure.
-

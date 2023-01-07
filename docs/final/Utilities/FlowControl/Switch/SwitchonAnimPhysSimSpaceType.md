@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14155637.png)
+![](/uploads/projects/ue-bluprint/20221218-14155637.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。AnimPhysSimSpaceType Enum.  
+选择。AnimPhysSimSpaceType Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Root Relative: Exec.
 
 Bone Relative: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14155637.png)
+![](/uploads/projects/ue-bluprint/20221218-14155637.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: AnimPhysSimSpaceType Enum.  
+Selection: AnimPhysSimSpaceType Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ World: Exec.
 Root Relative: Exec.
 
 Bone Relative: Exec.
-

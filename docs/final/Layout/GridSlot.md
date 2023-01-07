@@ -2,11 +2,7 @@
 
 在这一页
 
-  * 行动
-
-
-
-
+- 行动
 
 ## Actions
 
@@ -26,13 +22,11 @@
 
 设置垂直对齐。设置垂直对齐。目标是网格槽。
 
-On this page 
+<hr>
 
-  * Actions
+On this page
 
-
-
-
+- Actions
 
 ## Actions
 
@@ -51,4 +45,3 @@ Set Row. Sets the row index of the slot, this determines what cell the slot is i
 Set Row Span. How many rows this this slot spans over: Target is Grid Slot.
 
 Set Vertical Alignment. Set Vertical Alignment: Target is Grid Slot.
-

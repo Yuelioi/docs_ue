@@ -1,6 +1,6 @@
 # EventPointDamage
 
-该演员受到POINT伤害时的事件
+该演员受到 POINT 伤害时的事件
 
 目标是演员
 
@@ -8,7 +8,7 @@
 
 ## 图示
 
-![]($-20221218-17451465.png)
+![](/uploads/projects/ue-bluprint/20221218-17451465.png)
 
 ## Inputs
 
@@ -38,6 +38,8 @@ Shot from Direction: 向量。
 
 命中信息：命中结果结构（通过参考）。
 
+<hr>
+
 Event when this actor takes POINT damage
 
 Target is Actor
@@ -46,7 +48,7 @@ Authority Only. This event only fires on the server.
 
 ## 图示
 
-![]($-20221218-17451465.png)
+![](/uploads/projects/ue-bluprint/20221218-17451465.png)
 
 ## Inputs
 
@@ -75,4 +77,3 @@ Instigated By: Controller Object Reference.
 Damage Causer: Actor Object Reference.
 
 Hit Info: Hit Result Structure (by ref).
-

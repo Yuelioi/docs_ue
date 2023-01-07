@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19460832.png)
+![](/uploads/projects/ue-bluprint/20221218-19460832.png)
 
 ## Inputs
 
 在。执行。
 
-实例。材料实例常量对象参考。  
+实例。材料实例常量对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Clears all material parameters set by this Material Instance
 
@@ -24,15 +26,14 @@ Target is Material Editing Library
 
 ## 图示
 
-![]($-20221218-19460832.png)
+![](/uploads/projects/ue-bluprint/20221218-19460832.png)
 
 ## Inputs
 
 In: Exec.
 
-Instance: Material Instance Constant Object Reference.  
+Instance: Material Instance Constant Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

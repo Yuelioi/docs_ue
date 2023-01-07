@@ -2,17 +2,17 @@
 
 创建脚本输入矢量
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19013216.png)
+![](/uploads/projects/ue-bluprint/20221218-19013216.png)
 
 ## Inputs
 
 在。执行。
 
-价值。向量。  
+价值。向量。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。Niagara Script Conversion Context Input Object Reference。创建脚本输入向量。
 
+<hr>
+
 Create Script Input Vector
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19013216.png)
+![](/uploads/projects/ue-bluprint/20221218-19013216.png)
 
 ## Inputs
 
 In: Exec.
 
-Value: Vector.  
+Value: Vector.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Niagara Script Conversion Context Input Object Reference. Create Script Input Vector.
-

@@ -6,17 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20523654.png)
+![](/uploads/projects/ue-bluprint/20221218-20523654.png)
 
 ## Inputs
 
 在。执行。
 
-节。电影场景子部分对象参考。InFrame所在的部分。
+节。电影场景子部分对象参考。InFrame 所在的部分。
 
 在框架内。整数。所需的本地框架。
 
-父序列。电影场景序列对象参考。要穿越的父序列。  
+父序列。电影场景序列对象参考。要穿越的父序列。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。整数。父序列的帧。
 
+<hr>
+
 Get the frame in the space of its parent sequence
 
 Target is Movie Scene Section Extensions
 
 ## 图示
 
-![]($-20221218-20523654.png)
+![](/uploads/projects/ue-bluprint/20221218-20523654.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Section: Movie Scene Sub Section Object Reference. The section that the InFrame 
 
 In Frame: Integer. The desired local frame.
 
-Parent Sequence: Movie Scene Sequence Object Reference. The parent sequence to traverse from.  
+Parent Sequence: Movie Scene Sequence Object Reference. The parent sequence to traverse from.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. The frame at the parent sequence.
-

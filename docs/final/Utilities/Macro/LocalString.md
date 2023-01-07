@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-14264571.png)
+![](/uploads/projects/ue-bluprint/20221218-14264571.png)
 
 ## Inputs
 
@@ -12,15 +12,16 @@
 
 变量。字符串。
 
+<hr>
+
 Local temporary String variable
 
 ## 图示
 
-![]($-20221218-14264571.png)
+![](/uploads/projects/ue-bluprint/20221218-14264571.png)
 
 ## Inputs
 
 ## Outputs
 
 Variable: String.
-

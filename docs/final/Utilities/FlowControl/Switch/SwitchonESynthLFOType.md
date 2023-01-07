@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14241664.png)
+![](/uploads/projects/ue-bluprint/20221218-14241664.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESynthLFOType Enum.  
+选择。ESynthLFOType Enum.
 
 ## Outputs
 
@@ -28,17 +28,19 @@
 
 随机采样保持：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14241664.png)
+![](/uploads/projects/ue-bluprint/20221218-14241664.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESynthLFOType Enum.  
+Selection: ESynthLFOType Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Triangle: Exec.
 Exponential: Exec.
 
 Random Sample Hold: Exec.
-

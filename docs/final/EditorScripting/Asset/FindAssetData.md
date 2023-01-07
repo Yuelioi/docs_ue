@@ -1,12 +1,12 @@
 # FindAssetData
 
-返回该资产的AssetData，然后可以用于更复杂的lib AssetRegistryHelpers。
+返回该资产的 AssetData，然后可以用于更复杂的 lib AssetRegistryHelpers。
 
 目标是编辑器资产库
 
 ## 图示
 
-![]($-20221218-18471615.png)
+![](/uploads/projects/ue-bluprint/20221218-18471615.png)
 
 ## Inputs
 
@@ -19,23 +19,25 @@
 出：执行。
 
 返回值。资产数据结构。资产数据发现...
+
+<hr>
+
 Return the AssetData for the Asset that can then be used with the more complex lib AssetRegistryHelpers.
 
 Target is Editor Asset Library
 
 ## 图示
 
-![]($-20221218-18471615.png)
+![](/uploads/projects/ue-bluprint/20221218-18471615.png)
 
 ## Inputs
 
 In: Exec.
 
-Asset Path: String. Asset Path we are trying to find..  
+Asset Path: String. Asset Path we are trying to find..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Asset Data Structure. The AssetData found..
-

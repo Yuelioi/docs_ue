@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19414328.png)
+![](/uploads/projects/ue-bluprint/20221218-19414328.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。水平序列编辑器子系统对象参考。
 
-对象绑定。定序器绑定代理结构（通过引用）。  
+对象绑定。定序器绑定代理结构（通过引用）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Remove missing objects bound to this track
 
@@ -26,7 +28,7 @@ Target is Level Sequence Editor Subsystem
 
 ## 图示
 
-![]($-20221218-19414328.png)
+![](/uploads/projects/ue-bluprint/20221218-19414328.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Level Sequence Editor Subsystem Object Reference.
 
-Object Binding: Sequencer Binding Proxy Structure (by ref).  
+Object Binding: Sequencer Binding Proxy Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

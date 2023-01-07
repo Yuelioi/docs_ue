@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21290341.png)
+![](/uploads/projects/ue-bluprint/20221218-21290341.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标。虚拟摄像机播放器控制器基础对象参考。
 
-要切换的轴。EVirtualCameraAxis枚举。应该切换其锁定的轴。  
+要切换的轴。EVirtualCameraAxis 枚举。应该切换其锁定的轴。
 
 ## Outputs
 
 出：执行。
 
-返回值。Boolean。AxisToToggle的新冻结状态（true = frozen）。
+返回值。Boolean。AxisToToggle 的新冻结状态（true = frozen）。
+
+<hr>
 
 Toggles the freeze on a given axis; returns new frozen state.
 
@@ -28,7 +30,7 @@ Target is Virtual Camera Player Controller Base
 
 ## 图示
 
-![]($-20221218-21290341.png)
+![](/uploads/projects/ue-bluprint/20221218-21290341.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Virtual Camera Player Controller Base Object Reference.
 
-Axis to Toggle: EVirtualCameraAxis Enum. The axis whose lock should be toggled.  
+Axis to Toggle: EVirtualCameraAxis Enum. The axis whose lock should be toggled.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. the new frozen state of AxisToToggle (true = frozen).
-

@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-18305631.png)
+![](/uploads/projects/ue-bluprint/20221218-18305631.png)
 
 ## Inputs
 
 在。执行。
 
-目标。对象参考。 
+目标。对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。骨架网格组件对象参考。获取网格。
 
+<hr>
+
 Get Mesh
 
 Target is Contextual Anim Actor Interface
 
 ## 图示
 
-![]($-20221218-18305631.png)
+![](/uploads/projects/ue-bluprint/20221218-18305631.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Object Reference.  
+Target: Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Skeletal Mesh Component Object Reference. Get Mesh.
-

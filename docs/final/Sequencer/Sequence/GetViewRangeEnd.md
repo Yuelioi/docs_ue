@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20545275.png)
+![](/uploads/projects/ue-bluprint/20221218-20545275.png)
 
 ## Inputs
 
-在序列中。电影场景序列对象参考。  
+在序列中。电影场景序列对象参考。
 
 ## Outputs
 
 返回值。浮点数（单精度）。该序列的视图范围结束时间（秒）。
+
+<hr>
 
 Get the sequence view range end in seconds
 
@@ -22,13 +24,12 @@ Target is Movie Scene Sequence Extensions
 
 ## 图示
 
-![]($-20221218-20545275.png)
+![](/uploads/projects/ue-bluprint/20221218-20545275.png)
 
 ## Inputs
 
-In Sequence: Movie Scene Sequence Object Reference.  
+In Sequence: Movie Scene Sequence Object Reference.
 
 ## Outputs
 
 Return Value: Float (single-precision). The view range end time in seconds for this sequence.
-

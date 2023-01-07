@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21081501.png)
+![](/uploads/projects/ue-bluprint/20221218-21081501.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 Osc Index: 整数。
 
-脉宽：浮点数（单精度）。  
+脉宽：浮点数（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the square wave pulsewidth [0.0, 1.0]
 
@@ -28,7 +30,7 @@ Target is Modular Synth Component
 
 ## 图示
 
-![]($-20221218-21081501.png)
+![](/uploads/projects/ue-bluprint/20221218-21081501.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Modular Synth Component Object Reference.
 
 Osc Index: Integer.
 
-Pulsewidth: Float (single-precision).  
+Pulsewidth: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

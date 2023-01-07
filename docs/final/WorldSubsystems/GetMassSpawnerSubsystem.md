@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21381700.png)
+![](/uploads/projects/ue-bluprint/20221218-21381700.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。质量再生器子系统对象参考。
 
+<hr>
+
 Get Mass Spawner Subsystem (World Subsystem)
 
 Mass Spawner Subsystem
 
 ## 图示
 
-![]($-20221218-21381700.png)
+![](/uploads/projects/ue-bluprint/20221218-21381700.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Mass Spawner Subsystem Object Reference.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21363160.png)
+![](/uploads/projects/ue-bluprint/20221218-21363160.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 方向。EUINavigation Enum.
 
-在小工具中。小工具对象参考。关注这个小工具实例。  
+在小工具中。小工具对象参考。关注这个小工具实例。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the widget navigation rules for a specific direction. This can only be called on widgets that are in a widget tree. This works only for Explicit Rule.
 
@@ -28,7 +30,7 @@ Target is Widget
 
 ## 图示
 
-![]($-20221218-21363160.png)
+![](/uploads/projects/ue-bluprint/20221218-21363160.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Widget Object Reference.
 
 Direction: EUINavigation Enum.
 
-In Widget: Widget Object Reference. Focus on this widget instance.  
+In Widget: Widget Object Reference. Focus on this widget instance.
 
 ## Outputs
 
 Out: Exec.
-

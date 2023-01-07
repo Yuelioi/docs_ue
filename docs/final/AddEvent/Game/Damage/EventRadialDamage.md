@@ -1,6 +1,6 @@
 # EventRadialDamage
 
-当该演员受到RADIAL伤害时的事件
+当该演员受到 RADIAL 伤害时的事件
 
 目标是演员
 
@@ -8,7 +8,7 @@
 
 ## 图示
 
-![]($-20221218-17451576.png)
+![](/uploads/projects/ue-bluprint/20221218-17451576.png)
 
 ## Inputs
 
@@ -28,7 +28,9 @@
 
 引发者：控制器对象参考。控制者对象参考。
 
-伤害造成者。Actor对象参考。
+伤害造成者。Actor 对象参考。
+
+<hr>
 
 Event when this actor takes RADIAL damage
 
@@ -38,7 +40,7 @@ Authority Only. This event only fires on the server.
 
 ## 图示
 
-![]($-20221218-17451576.png)
+![](/uploads/projects/ue-bluprint/20221218-17451576.png)
 
 ## Inputs
 
@@ -59,4 +61,3 @@ Hit Info: Hit Result Structure (by ref).
 Instigated By: Controller Object Reference.
 
 Damage Causer: Actor Object Reference.
-

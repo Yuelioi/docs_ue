@@ -4,19 +4,19 @@
 
 ## 图示
 
-![]($-20221218-14242646.png)
+![](/uploads/projects/ue-bluprint/20221218-14242646.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETargetUsageFlags Enum.  
+选择。ETargetUsageFlags Enum.
 
 ## Outputs
 
 USAGE 无。Exec.
 
-USAGE输入。Exec.
+USAGE 输入。Exec.
 
 USAGE 变换。执行。
 
@@ -24,17 +24,19 @@ USAGE 输出。执行。
 
 USAGE Persistent: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14242646.png)
+![](/uploads/projects/ue-bluprint/20221218-14242646.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETargetUsageFlags Enum.  
+Selection: ETargetUsageFlags Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ USAGE Transform: Exec.
 USAGE Output: Exec.
 
 USAGE Persistent: Exec.
-

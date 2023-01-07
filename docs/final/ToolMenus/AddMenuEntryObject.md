@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21132727.png)
+![](/uploads/projects/ue-bluprint/20221218-21132727.png)
 
 ## Inputs
 
 在。执行。
 
-菜单输入对象。工具菜单输入脚本对象参考。  
+菜单输入对象。工具菜单输入脚本对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。布尔值。从蓝图/脚本中注册菜单条目对象。
 
+<hr>
+
 Registers menu entry object from blueprint/script
 
 Target is Tool Menus
 
 ## 图示
 
-![]($-20221218-21132727.png)
+![](/uploads/projects/ue-bluprint/20221218-21132727.png)
 
 ## Inputs
 
 In: Exec.
 
-Menu Entry Object: Tool Menu Entry Script Object Reference.  
+Menu Entry Object: Tool Menu Entry Script Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Registers menu entry object from blueprint/script.
-

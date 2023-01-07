@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-21321603.png)
+![](/uploads/projects/ue-bluprint/20221218-21321603.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。整数。获取浅水区最大冲力。
 
+<hr>
+
 Get Shallow Water Max Impulse Forces
 
 Target is Water Subsystem
 
 ## 图示
 
-![]($-20221218-21321603.png)
+![](/uploads/projects/ue-bluprint/20221218-21321603.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. Get Shallow Water Max Impulse Forces.
-

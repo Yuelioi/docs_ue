@@ -1,12 +1,12 @@
 # CalculateVelocityFromPositionHis-
 
-这个函数计算出一个位置随时间变化的速度。你需要将一个有效的PositionHistory变量挂在这里进行存储。
+这个函数计算出一个位置随时间变化的速度。你需要将一个有效的 PositionHistory 变量挂在这里进行存储。
 
-目标是Kismet动画库
+目标是 Kismet 动画库
 
 ## 图示
 
-![]($-20221218-12164221.png)
+![](/uploads/projects/ue-bluprint/20221218-12164221.png)
 
 ## Inputs
 
@@ -20,9 +20,9 @@ Delta Seconds:Float（单精度）。经过的时间，以秒为单位。
 
 采样数。整数。用于历史记录的样本数。样本数越多，速度变化越平滑。
 
-速度最小。浮点数（单精度）。用于归一化的最小速度（如果min和max都设置为0，则归一化被关闭）。
+速度最小。浮点数（单精度）。用于归一化的最小速度（如果 min 和 max 都设置为 0，则归一化被关闭）。
 
-速度最大值：浮点数（单精度）。用于归一化的最大速度（如果min和max都设置为0，则归一化被关闭）。  
+速度最大值：浮点数（单精度）。用于归一化的最大速度（如果 min 和 max 都设置为 0，则归一化被关闭）。
 
 ## Outputs
 
@@ -30,13 +30,15 @@ Delta Seconds:Float（单精度）。经过的时间，以秒为单位。
 
 返回值。浮点数（单精度）。
 
+<hr>
+
 This function calculates the velocity of a position changing over time.. You need to hook up a valid PositionHistory variable to this for storage.
 
 Target is Kismet Animation Library
 
 ## 图示
 
-![]($-20221218-12164221.png)
+![](/uploads/projects/ue-bluprint/20221218-12164221.png)
 
 ## Inputs
 
@@ -52,11 +54,10 @@ Number Of Samples: Integer. The number of samples to use for the history. The hi
 
 Velocity Min: Float (single-precision). The minimum velocity to use for normalization (if both min and max are set to 0, normalization is turned off).
 
-Velocity Max: Float (single-precision). The maximum velocity to use for normalization (if both min and max are set to 0, normalization is turned off).  
+Velocity Max: Float (single-precision). The maximum velocity to use for normalization (if both min and max are set to 0, normalization is turned off).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision).
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14251846.png)
+![](/uploads/projects/ue-bluprint/20221218-14251846.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EVPWidgetDisplayType枚举。 
+选择。EVPWidgetDisplayType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Viewport: Exec.
 
 姿态：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14251846.png)
+![](/uploads/projects/ue-bluprint/20221218-14251846.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EVPWidgetDisplayType Enum.  
+Selection: EVPWidgetDisplayType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Viewport: Exec.
 Post Process: Exec.
 
 Composure: Exec.
-

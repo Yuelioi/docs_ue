@@ -2,11 +2,11 @@
 
 在当前经过的时间内暂停一个设定的计时器。
 
-目标是Kismet系统库
+目标是 Kismet 系统库
 
 ## 图示
 
-![]($-20221218-15245511.png)
+![](/uploads/projects/ue-bluprint/20221218-15245511.png)
 
 ## Inputs
 
@@ -18,21 +18,22 @@
 
 出：执行。
 
+<hr>
+
 Pauses a set timer at its current elapsed time.
 
 Target is Kismet System Library
 
 ## 图示
 
-![]($-20221218-15245511.png)
+![](/uploads/projects/ue-bluprint/20221218-15245511.png)
 
 ## Inputs
 
 In: Exec.
 
-Handle: Timer Handle Structure. The handle of the timer to pause..  
+Handle: Timer Handle Structure. The handle of the timer to pause..
 
 ## Outputs
 
 Out: Exec.
-

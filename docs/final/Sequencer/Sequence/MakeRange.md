@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20550315.png)
+![](/uploads/projects/ue-bluprint/20221218-20550315.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 开始帧。整数。开始范围的帧。
 
-持续时间。整数。范围的长度。  
+持续时间。整数。范围的长度。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。序列器脚本范围结构。指定的序列器范围。
 
+<hr>
+
 Make a new range for this sequence in its display rate
 
 Target is Movie Scene Sequence Extensions
 
 ## 图示
 
-![]($-20221218-20550315.png)
+![](/uploads/projects/ue-bluprint/20221218-20550315.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Sequence: Movie Scene Sequence Object Reference. The sequence within which to fi
 
 Start Frame: Integer. The frame at which to start the range.
 
-Duration: Integer. The length of the range.  
+Duration: Integer. The length of the range.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Sequencer Scripting Range Structure. Specified sequencer range.
-

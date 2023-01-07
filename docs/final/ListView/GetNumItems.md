@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-19441770.png)
+![](/uploads/projects/ue-bluprint/20221218-19441770.png)
 
 ## Inputs
 
-目标。列表视图对象参考。  
+目标。列表视图对象参考。
 
 ## Outputs
 
 返回值。整数。返回项目的总数。
+
+<hr>
 
 Returns the total number of items
 
@@ -22,13 +24,12 @@ Target is List View
 
 ## 图示
 
-![]($-20221218-19441770.png)
+![](/uploads/projects/ue-bluprint/20221218-19441770.png)
 
 ## Inputs
 
-Target: List View Object Reference.  
+Target: List View Object Reference.
 
 ## Outputs
 
 Return Value: Integer. Returns the total number of items.
-

@@ -1,10 +1,10 @@
 # GamepadD_padUp
 
-当游戏手柄D-pad Up键被按下或释放时的事件。
+当游戏手柄 D-pad Up 键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19221649.png)
+![](/uploads/projects/ue-bluprint/20221218-19221649.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 钥匙。关键的结构。
 
+<hr>
+
 Events for when the Gamepad D-pad Up key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19221649.png)
+![](/uploads/projects/ue-bluprint/20221218-19221649.png)
 
 ## Inputs
 
@@ -31,4 +33,3 @@ Pressed: Exec.
 Released: Exec.
 
 Key: Key Structure.
-

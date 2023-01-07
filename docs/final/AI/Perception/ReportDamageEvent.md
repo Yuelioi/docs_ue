@@ -1,12 +1,12 @@
 # ReportDamageEvent
 
-EventLocation将被报告为事件发生时煽动者的位置。
+EventLocation 将被报告为事件发生时煽动者的位置。
 
-目标是AISense损害
+目标是 AISense 损害
 
 ## 图示
 
-![]($-20221218-17481869.png)
+![](/uploads/projects/ue-bluprint/20221218-17481869.png)
 
 ## Inputs
 
@@ -22,11 +22,13 @@ EventLocation将被报告为事件发生时煽动者的位置。
 
 击中位置。向量。
 
-标签。名称。 
+标签。名称。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 EventLocation will be reported as Instigator's location at the moment of event happening
 
@@ -34,7 +36,7 @@ Target is AISense Damage
 
 ## 图示
 
-![]($-20221218-17481869.png)
+![](/uploads/projects/ue-bluprint/20221218-17481869.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Event Location: Vector.
 
 Hit Location: Vector.
 
-Tag: Name.  
+Tag: Name.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17323740.png)
+![](/uploads/projects/ue-bluprint/20221218-17323740.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。游戏能力的对象参考。
 
-可以取消。布尔值。 
+可以取消。布尔值。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets whether the ability should ignore cancel requests. Only valid on instanced abilities
 
@@ -26,7 +28,7 @@ Target is Gameplay Ability
 
 ## 图示
 
-![]($-20221218-17323740.png)
+![](/uploads/projects/ue-bluprint/20221218-17323740.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Gameplay Ability Object Reference.
 
-Can be Canceled: Boolean.  
+Can be Canceled: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

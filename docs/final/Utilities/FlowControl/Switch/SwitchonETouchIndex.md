@@ -4,47 +4,49 @@
 
 ## 图示
 
-![]($-20221218-14244494.png)
+![](/uploads/projects/ue-bluprint/20221218-14244494.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETouchIndex枚举。 
+选择。ETouchIndex 枚举。
 
 ## Outputs
 
-触摸1：执行。
+触摸 1：执行。
 
-触摸2：执行。
+触摸 2：执行。
 
-触摸3：执行。
+触摸 3：执行。
 
-触摸4：执行。
+触摸 4：执行。
 
-触摸5。执行。
+触摸 5。执行。
 
-触摸6：执行。
+触摸 6：执行。
 
-触摸7：执行。
+触摸 7：执行。
 
-触摸8：执行。
+触摸 8：执行。
 
-触摸9：执行。
+触摸 9：执行。
 
-触摸10：执行。
+触摸 10：执行。
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14244494.png)
+![](/uploads/projects/ue-bluprint/20221218-14244494.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETouchIndex Enum.  
+Selection: ETouchIndex Enum.
 
 ## Outputs
 
@@ -67,4 +69,3 @@ Touch 8: Exec.
 Touch 9: Exec.
 
 Touch 10: Exec.
-

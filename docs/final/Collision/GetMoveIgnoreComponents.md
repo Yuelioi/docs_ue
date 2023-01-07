@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-18190314.png)
+![](/uploads/projects/ue-bluprint/20221218-18190314.png)
 
 ## Inputs
 
 在。执行。
 
-目标。原始组件对象参考。 
+目标。原始组件对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。原始组件对象引用的数组。返回我们目前在移动时忽略的演员列表。
 
+<hr>
+
 Returns the list of actors we currently ignore when moving.
 
 Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-18190314.png)
+![](/uploads/projects/ue-bluprint/20221218-18190314.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Primitive Component Object Reference.  
+Target: Primitive Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Array of Primitive Component Object References. Returns the list of actors we currently ignore when moving..
-

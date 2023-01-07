@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20342590.png)
+![](/uploads/projects/ue-bluprint/20221218-20342590.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。光组件对象参考。
 
-新的强度。Float（单精度）。  
+新的强度。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set intensity of the light
 
@@ -26,7 +28,7 @@ Target is Light Component
 
 ## 图示
 
-![]($-20221218-20342590.png)
+![](/uploads/projects/ue-bluprint/20221218-20342590.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Light Component Object Reference.
 
-New Intensity: Float (single-precision).  
+New Intensity: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

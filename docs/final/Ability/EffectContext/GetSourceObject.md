@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17303946.png)
+![](/uploads/projects/ue-bluprint/20221218-17303946.png)
 
 ## Inputs
 
-效果上下文。Gameplay Effect Context Handle结构。 
+效果上下文。Gameplay Effect Context Handle 结构。
 
 ## Outputs
 
 返回值。对象参考。获取效果的源对象。
+
+<hr>
 
 Gets the source object of the effect.
 
@@ -22,13 +24,12 @@ Target is Ability System Blueprint Library
 
 ## 图示
 
-![]($-20221218-17303946.png)
+![](/uploads/projects/ue-bluprint/20221218-17303946.png)
 
 ## Inputs
 
-Effect Context: Gameplay Effect Context Handle Structure.  
+Effect Context: Gameplay Effect Context Handle Structure.
 
 ## Outputs
 
 Return Value: Object Reference. Gets the source object of the effect..
-

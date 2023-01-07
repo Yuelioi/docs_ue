@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-19463445.png)
+![](/uploads/projects/ue-bluprint/20221218-19463445.png)
 
 ## Inputs
 
-材料功能。材料功能的对象参考。  
+材料功能。材料功能的对象参考。
 
 ## Outputs
 
 返回值。整数。返回所提供材料中的材料表达式的数量。
+
+<hr>
 
 Returns number of material expressions in the supplied material
 
@@ -22,13 +24,12 @@ Target is Material Editing Library
 
 ## 图示
 
-![]($-20221218-19463445.png)
+![](/uploads/projects/ue-bluprint/20221218-19463445.png)
 
 ## Inputs
 
-Material Function: Material Function Object Reference.  
+Material Function: Material Function Object Reference.
 
 ## Outputs
 
 Return Value: Integer. Returns number of material expressions in the supplied material.
-

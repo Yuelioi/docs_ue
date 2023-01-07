@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20523770.png)
+![](/uploads/projects/ue-bluprint/20221218-20523770.png)
 
 ## Inputs
 
-目标。电影场景部分对象参考。  
+目标。电影场景部分对象参考。
 
 ## Outputs
 
 返回值。整数。获取后滚轮框架。
+
+<hr>
 
 Get Post Roll Frames
 
@@ -22,13 +24,12 @@ Target is Movie Scene Section
 
 ## 图示
 
-![]($-20221218-20523770.png)
+![](/uploads/projects/ue-bluprint/20221218-20523770.png)
 
 ## Inputs
 
-Target: Movie Scene Section Object Reference.  
+Target: Movie Scene Section Object Reference.
 
 ## Outputs
 
 Return Value: Integer. Get Post Roll Frames.
-

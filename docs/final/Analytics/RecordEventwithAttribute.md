@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17490296.png)
+![](/uploads/projects/ue-bluprint/20221218-17490296.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 属性名称。字符串。
 
-属性值。字符串。 
+属性值。字符串。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Records an event has happened by name with a single attribute
 
@@ -28,7 +30,7 @@ Target is Analytics Blueprint Library
 
 ## 图示
 
-![]($-20221218-17490296.png)
+![](/uploads/projects/ue-bluprint/20221218-17490296.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Event Name: String.
 
 Attribute Name: String.
 
-Attribute Value: String.  
+Attribute Value: String.
 
 ## Outputs
 
 Out: Exec.
-

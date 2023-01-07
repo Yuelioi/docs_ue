@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-17322837.png)
+![](/uploads/projects/ue-bluprint/20221218-17322837.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Gameplay Ability对象参考。
+目标。Gameplay Ability 对象参考。
 
-游戏提示标签。Gameplay Tag结构。 
+游戏提示标签。Gameplay Tag 结构。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Removes a persistent gameplay cue from the ability owner
 
@@ -26,7 +28,7 @@ Target is Gameplay Ability
 
 ## 图示
 
-![]($-20221218-17322837.png)
+![](/uploads/projects/ue-bluprint/20221218-17322837.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Gameplay Ability Object Reference.
 
-Gameplay Cue Tag: Gameplay Tag Structure.  
+Gameplay Cue Tag: Gameplay Tag Structure.
 
 ## Outputs
 
 Out: Exec.
-

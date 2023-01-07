@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18283728.png)
+![](/uploads/projects/ue-bluprint/20221218-18283728.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 火灾事件。布尔值。如果是真的，在当前位置和新播放位置之间的事件函数将被触发。
 
-Fire Update：布尔值。如果是真的，更新输出执行器将在设置新的播放位置后启动。 
+Fire Update：布尔值。如果是真的，更新输出执行器将在设置新的播放位置后启动。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Jump to a position in the timeline.
 
@@ -30,7 +32,7 @@ Target is Timeline Component
 
 ## 图示
 
-![]($-20221218-18283728.png)
+![](/uploads/projects/ue-bluprint/20221218-18283728.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ New Position: Float (single-precision).
 
 Fire Events: Boolean. If true, event functions that are between current position and new playback position will fire..
 
-Fire Update: Boolean. If true, the update output exec will fire after setting the new playback position..  
+Fire Update: Boolean. If true, the update output exec will fire after setting the new playback position..
 
 ## Outputs
 
 Out: Exec.
-

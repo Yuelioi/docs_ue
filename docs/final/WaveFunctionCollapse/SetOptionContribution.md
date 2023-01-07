@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21331451.png)
+![](/uploads/projects/ue-bluprint/20221218-21331451.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 选项。波浪函数崩溃期权结构（由参考）。
 
-贡献。整数。  
+贡献。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the contribution value of a key object to a given value
 
@@ -28,7 +30,7 @@ Target is Wave Function Collapse Model
 
 ## 图示
 
-![]($-20221218-21331451.png)
+![](/uploads/projects/ue-bluprint/20221218-21331451.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Wave Function Collapse Model Object Reference.
 
 Option: Wave Function Collapse Option Structure (by ref).
 
-Contribution: Integer.  
+Contribution: Integer.
 
 ## Outputs
 
 Out: Exec.
-

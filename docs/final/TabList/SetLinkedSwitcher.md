@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21092308.png)
+![](/uploads/projects/ue-bluprint/20221218-21092308.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。普通标签列表小工具基础对象参考。
 
-常见的切换器。常见的动画切换器对象参考。这个标签列表应该与之相关联并操作的切换器。  
+常见的切换器。常见的动画切换器对象参考。这个标签列表应该与之相关联并操作的切换器。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Establishes the activatable widget switcher instance that this tab list should interact with
 
@@ -26,7 +28,7 @@ Target is Common Tab List Widget Base
 
 ## 图示
 
-![]($-20221218-21092308.png)
+![](/uploads/projects/ue-bluprint/20221218-21092308.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common Tab List Widget Base Object Reference.
 
-Common Switcher: Common Animated Switcher Object Reference. The switcher that this tab list should be associated with and manipulate.  
+Common Switcher: Common Animated Switcher Object Reference. The switcher that this tab list should be associated with and manipulate.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18080384.png)
+![](/uploads/projects/ue-bluprint/20221218-18080384.png)
 
 ## Inputs
 
@@ -36,7 +36,7 @@ Attenuation Settings: Sound Attenuation Object Reference. Override attenuation s
 
 Concurrency Settings: Sound Concurrency Object Reference. Override concurrency settings package to play sound with.
 
-Auto Destroy: Boolean. Whether the returned audio component will be automatically cleaned up when the sound finishes (by completing or stopping) or whether it can be reactivated.  
+Auto Destroy: Boolean. Whether the returned audio component will be automatically cleaned up when the sound finishes (by completing or stopping) or whether it can be reactivated.
 
 ## Outputs
 
@@ -44,6 +44,7 @@ Out: Exec.
 
 Return Value: Audio Component Object Reference. An audio component to manipulate the spawned sound.
 
+<hr>
 
 This function allows users to create and play Audio Components attached to a specific Scene Component.. Useful for spatialized and/or distance-attenuated sounds that need to follow another object in space.
 
@@ -51,7 +52,7 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18080384.png)
+![](/uploads/projects/ue-bluprint/20221218-18080384.png)
 
 ## Inputs
 
@@ -81,11 +82,10 @@ Attenuation Settings: Sound Attenuation Object Reference. Override attenuation s
 
 Concurrency Settings: Sound Concurrency Object Reference. Override concurrency settings package to play sound with.
 
-Auto Destroy: Boolean. Whether the returned audio component will be automatically cleaned up when the sound finishes (by completing or stopping) or whether it can be reactivated.  
+Auto Destroy: Boolean. Whether the returned audio component will be automatically cleaned up when the sound finishes (by completing or stopping) or whether it can be reactivated.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Audio Component Object Reference. An audio component to manipulate the spawned sound.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21013120.png)
+![](/uploads/projects/ue-bluprint/20221218-21013120.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 类型。ESplinePointType Enum.
 
-更新花键。布尔值。  
+更新花键。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Specify the type of a spline point
 
@@ -30,7 +32,7 @@ Target is Spline Component
 
 ## 图示
 
-![]($-20221218-21013120.png)
+![](/uploads/projects/ue-bluprint/20221218-21013120.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Point Index: Integer.
 
 Type: ESplinePointType Enum.
 
-Update Spline: Boolean.  
+Update Spline: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

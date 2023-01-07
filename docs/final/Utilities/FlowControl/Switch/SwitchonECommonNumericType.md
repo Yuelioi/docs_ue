@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14174318.png)
+![](/uploads/projects/ue-bluprint/20221218-14174318.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ECommonNumericType枚举。 
+选择。ECommonNumericType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Seconds（秒）。执行率
 
 距离。执行率
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14174318.png)
+![](/uploads/projects/ue-bluprint/20221218-14174318.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ECommonNumericType Enum.  
+Selection: ECommonNumericType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Percentage: Exec.
 Seconds: Exec.
 
 Distance: Exec.
-

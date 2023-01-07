@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17551233.png)
+![](/uploads/projects/ue-bluprint/20221218-17551233.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Circular Throbber 对象参考。
 
-在周期。Float (single-precision).  
+在周期。Float (single-precision).
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets the amount of time for a full circle (in seconds).
 
@@ -26,7 +28,7 @@ Target is Circular Throbber
 
 ## 图示
 
-![]($-20221218-17551233.png)
+![](/uploads/projects/ue-bluprint/20221218-17551233.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Circular Throbber Object Reference.
 
-In Period: Float (single-precision).  
+In Period: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,15 +6,15 @@
 
 ## 图示
 
-![]($-20221218-21353847.png)
+![](/uploads/projects/ue-bluprint/20221218-21353847.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Panel Widget对象参考。
+目标。Panel Widget 对象参考。
 
-索引：整数。  
+索引：整数。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。通过它的索引删除一个孩子。
 
+<hr>
+
 Removes a child by it's index.
 
 Target is Panel Widget
 
 ## 图示
 
-![]($-20221218-21353847.png)
+![](/uploads/projects/ue-bluprint/20221218-21353847.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Panel Widget Object Reference.
 
-Index: Integer.  
+Index: Integer.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Removes a child by it's index..
-

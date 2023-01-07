@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19374304.png)
+![](/uploads/projects/ue-bluprint/20221218-19374304.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。分层子系统对象参考。
 
-演员。Actor Object Reference。要从层系统中分离的角色。  
+演员。Actor Object Reference。要从层系统中分离的角色。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。
 
+<hr>
+
 Disassociates an Actor's layers from the layer system, general used before deleting the Actor
 
 Target is Layers Subsystem
 
 ## 图示
 
-![]($-20221218-19374304.png)
+![](/uploads/projects/ue-bluprint/20221218-19374304.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Layers Subsystem Object Reference.
 
-Actor: Actor Object Reference. The actor to disassociate from the layer system.  
+Actor: Actor Object Reference. The actor to disassociate from the layer system.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

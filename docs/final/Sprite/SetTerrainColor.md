@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21025121.png)
+![](/uploads/projects/ue-bluprint/20221218-21025121.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。纸质地形组件对象参考。
 
-新颜色：线性颜色结构。  
+新颜色：线性颜色结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set color of the terrain
 
@@ -26,7 +28,7 @@ Target is Paper Terrain Component
 
 ## 图示
 
-![]($-20221218-21025121.png)
+![](/uploads/projects/ue-bluprint/20221218-21025121.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Paper Terrain Component Object Reference.
 
-New Color: Linear Color Structure.  
+New Color: Linear Color Structure.
 
 ## Outputs
 
 Out: Exec.
-

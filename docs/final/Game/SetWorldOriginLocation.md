@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19074535.png)
+![](/uploads/projects/ue-bluprint/20221218-19074535.png)
 
 ## Inputs
 
 在。执行。
 
-新的位置。Int Vector结构。  
+新的位置。Int Vector 结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Requests a new location for a world origin.
 
@@ -24,15 +26,14 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-19074535.png)
+![](/uploads/projects/ue-bluprint/20221218-19074535.png)
 
 ## Inputs
 
 In: Exec.
 
-New Location: Int Vector Structure.  
+New Location: Int Vector Structure.
 
 ## Outputs
 
 Out: Exec.
-

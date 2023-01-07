@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14182279.png)
+![](/uploads/projects/ue-bluprint/20221218-14182279.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDMXCellFormat枚举。 
+选择。EDMXCellFormat 枚举。
 
 ## Outputs
 
@@ -48,17 +48,19 @@ BRGA: 执行
 
 GRBA: 执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14182279.png)
+![](/uploads/projects/ue-bluprint/20221218-14182279.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDMXCellFormat Enum.  
+Selection: EDMXCellFormat Enum.
 
 ## Outputs
 
@@ -95,4 +97,3 @@ GBRA: Exec.
 BRGA: Exec.
 
 GRBA: Exec.
-

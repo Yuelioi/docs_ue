@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14224475.png)
+![](/uploads/projects/ue-bluprint/20221218-14224475.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERandomizeTransformType枚举。 
+选择。ERandomizeTransformType 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 规模: Exec: 规模: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14224475.png)
+![](/uploads/projects/ue-bluprint/20221218-14224475.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERandomizeTransformType Enum.  
+Selection: ERandomizeTransformType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Rotation: Exec.
 Location: Exec.
 
 Scale: Exec.
-

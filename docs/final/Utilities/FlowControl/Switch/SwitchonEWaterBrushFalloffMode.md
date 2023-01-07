@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14252636.png)
+![](/uploads/projects/ue-bluprint/20221218-14252636.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EWaterBrushFalloffMode枚举。 
+选择。EWaterBrushFalloffMode 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 宽度: Exec.Ltd.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14252636.png)
+![](/uploads/projects/ue-bluprint/20221218-14252636.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EWaterBrushFalloffMode Enum.  
+Selection: EWaterBrushFalloffMode Enum.
 
 ## Outputs
 
 Angle: Exec.
 
 Width: Exec.
-

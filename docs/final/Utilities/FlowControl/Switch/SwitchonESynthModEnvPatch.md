@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14241841.png)
+![](/uploads/projects/ue-bluprint/20221218-14241841.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESynthModEnvPatch Enum.  
+选择。ESynthModEnvPatch Enum.
 
 ## Outputs
 
@@ -30,17 +30,19 @@ Patch To LFO1Freq: Exec.
 
 Patch To LFO2Freq: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14241841.png)
+![](/uploads/projects/ue-bluprint/20221218-14241841.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESynthModEnvPatch Enum.  
+Selection: ESynthModEnvPatch Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Patch To LFO2Gain: Exec.
 Patch To LFO1Freq: Exec.
 
 Patch To LFO2Freq: Exec.
-

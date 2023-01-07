@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14201863.png)
+![](/uploads/projects/ue-bluprint/20221218-14201863.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGroomInterpolationType枚举。 
+选择。EGroomInterpolationType 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Offset Transform: Exec.
 
 Smooth Transform（平滑变换）。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14201863.png)
+![](/uploads/projects/ue-bluprint/20221218-14201863.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGroomInterpolationType Enum.  
+Selection: EGroomInterpolationType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Rigid Transform: Exec.
 Offset Transform: Exec.
 
 Smooth Transform: Exec.
-

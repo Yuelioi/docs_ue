@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20494420.png)
+![](/uploads/projects/ue-bluprint/20221218-20494420.png)
 
 ## Inputs
 
-目标。电影场景脚本的双键对象参考。  
+目标。电影场景脚本的双键对象参考。
 
 ## Outputs
 
 返回值。Float（双精度）。此键所代表的双倍值。
+
+<hr>
 
 Gets the value for this key from the owning channel.
 
@@ -22,13 +24,12 @@ Target is Movie Scene Scripting Double Key
 
 ## 图示
 
-![]($-20221218-20494420.png)
+![](/uploads/projects/ue-bluprint/20221218-20494420.png)
 
 ## Inputs
 
-Target: Movie Scene Scripting Double Key Object Reference.  
+Target: Movie Scene Scripting Double Key Object Reference.
 
 ## Outputs
 
 Return Value: Float (double-precision). The double value this key represents..
-

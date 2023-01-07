@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17593857.png)
+![](/uploads/projects/ue-bluprint/20221218-17593857.png)
 
 ## Inputs
 
@@ -20,7 +20,7 @@
 
 预期的。整数。
 
-什么：字符串。如果断言失败，在消息中使用的名称（What: expected {Actual} to be <ShouldBe> {Expected} for context '' ）。 
+什么：字符串。如果断言失败，在消息中使用的名称（What: expected {Actual} to be <ShouldBe> {Expected} for context '' ）。
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 返回值。布尔值。
 
+<hr>
+
 Assert on a relationship between two integers.
 
 Target is Functional Test
 
 ## 图示
 
-![]($-20221218-17593857.png)
+![](/uploads/projects/ue-bluprint/20221218-17593857.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Should Be: EComparisonMethod Enum.
 
 Expected: Integer.
 
-What: String. A name to use in the message if the assert fails (What: expected {Actual} to be <ShouldBe> {Expected} for context '').  
+What: String. A name to use in the message if the assert fails (What: expected {Actual} to be <ShouldBe> {Expected} for context '').
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21302752.png)
+![](/uploads/projects/ue-bluprint/20221218-21302752.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。虚拟摄像机播放器控制器基础对象参考。
 
-航点名称。字符串。要删除的航点的名称。  
+航点名称。字符串。要删除的航点的名称。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。整数。与该键相关的值的数量。
 
+<hr>
+
 Deletes a waypoint, using its name as the key.
 
 Target is Virtual Camera Player Controller Base
 
 ## 图示
 
-![]($-20221218-21302752.png)
+![](/uploads/projects/ue-bluprint/20221218-21302752.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Virtual Camera Player Controller Base Object Reference.
 
-Waypoint Name: String. The name of the waypoint to delete.  
+Waypoint Name: String. The name of the waypoint to delete.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. the number of values associated with the key.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14221042.png)
+![](/uploads/projects/ue-bluprint/20221218-14221042.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EOnlineProxyStoreOfferDiscountType枚举。 
+选择。EOnlineProxyStoreOfferDiscountType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 支付金额。折扣金额: 折扣金额
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14221042.png)
+![](/uploads/projects/ue-bluprint/20221218-14221042.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EOnlineProxyStoreOfferDiscountType Enum.  
+Selection: EOnlineProxyStoreOfferDiscountType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Percentage: Exec.
 Discount Amount: Exec.
 
 Pay Amount: Exec.
-

@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21160538.png)
+![](/uploads/projects/ue-bluprint/20221218-21160538.png)
 
 ## Inputs
 
 在。执行。
 
-新的可见性。布尔型。  
+新的可见性。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the visibility of the engine folder in the content browser
 
@@ -24,15 +26,14 @@ Target is Editor Tutorial
 
 ## 图示
 
-![]($-20221218-21160538.png)
+![](/uploads/projects/ue-bluprint/20221218-21160538.png)
 
 ## Inputs
 
 In: Exec.
 
-New Visibility: Boolean.  
+New Visibility: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

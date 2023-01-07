@@ -1,22 +1,24 @@
 # StopEnvelopeFollowing
 
-开始包络跟踪submix输出。与OnSubmixEnvelope注册，在BP中接收包络器数据。
+开始包络跟踪 submix 输出。与 OnSubmixEnvelope 注册，在 BP 中接收包络器数据。
 
-目标是Sound Submix
+目标是 Sound Submix
 
 ## 图示
 
-![]($-20221218-18044785.png)
+![](/uploads/projects/ue-bluprint/20221218-18044785.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Sound Submix对象参考。 
+目标。Sound Submix 对象参考。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Start envelope following the submix output. Register with OnSubmixEnvelope to receive envelope follower data in BP.
 
@@ -24,15 +26,14 @@ Target is Sound Submix
 
 ## 图示
 
-![]($-20221218-18044785.png)
+![](/uploads/projects/ue-bluprint/20221218-18044785.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Sound Submix Object Reference.  
+Target: Sound Submix Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17514283.png)
+![](/uploads/projects/ue-bluprint/20221218-17514283.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 曲线名称。名称.
 
-时间。Float (single-precision)s数组。
+时间。Float (single-precision)s 数组。
 
-变换。变换的数组。 
+变换。变换的数组。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Adds a multiple of Transformation Keys to the specified Animation Curve inside of the given Animation Sequence
 
@@ -30,7 +32,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17514283.png)
+![](/uploads/projects/ue-bluprint/20221218-17514283.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Curve Name: Name.
 
 Times: Array of Float (single-precision)s.
 
-Transforms: Array of Transforms.  
+Transforms: Array of Transforms.
 
 ## Outputs
 
 Out: Exec.
-

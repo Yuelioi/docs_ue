@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17511003.png)
+![](/uploads/projects/ue-bluprint/20221218-17511003.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 预期的结构。Script Struct Object Reference.
 
-Out Payload: Empty Payload Structure (by ref).  
+Out Payload: Empty Payload Structure (by ref).
 
 ## Outputs
 
 出来了。执行。
+
+<hr>
 
 Copy Payload
 
@@ -28,7 +30,7 @@ Target is Animation Data Model Notifies Extensions
 
 ## 图示
 
-![]($-20221218-17511003.png)
+![](/uploads/projects/ue-bluprint/20221218-17511003.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Payload: Anim Data Model Notif Payload Structure (by ref).
 
 Expected Struct: Script Struct Object Reference.
 
-Out Payload: Empty Payload Structure (by ref).  
+Out Payload: Empty Payload Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

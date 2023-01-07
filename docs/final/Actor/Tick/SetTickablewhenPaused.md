@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-17350551.png)
+![](/uploads/projects/ue-bluprint/20221218-17350551.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Actor对象参考。
+目标。Actor 对象参考。
 
-暂停时可勾选。布尔值。 
+暂停时可勾选。布尔值。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets whether this actor can tick when paused.
 
@@ -26,7 +28,7 @@ Target is Actor
 
 ## 图示
 
-![]($-20221218-17350551.png)
+![](/uploads/projects/ue-bluprint/20221218-17350551.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Actor Object Reference.
 
-Tickable when Paused: Boolean.  
+Tickable when Paused: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

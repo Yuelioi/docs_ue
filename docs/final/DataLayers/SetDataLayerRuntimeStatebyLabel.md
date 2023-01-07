@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18352030.png)
+![](/uploads/projects/ue-bluprint/20221218-18352030.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 在数据层标签。名称（通过参考）。
 
-在状态中。EDataLayerRuntimeState枚举。
+在状态中。EDataLayerRuntimeState 枚举。
 
-在 Is Recursive: 布尔值。 
+在 Is Recursive: 布尔值。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set the Data Layer state using its label.
 
@@ -30,7 +32,7 @@ Target is Data Layer Subsystem
 
 ## 图示
 
-![]($-20221218-18352030.png)
+![](/uploads/projects/ue-bluprint/20221218-18352030.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ In Data Layer Label: Name (by ref).
 
 In State: EDataLayerRuntimeState Enum.
 
-In Is Recursive: Boolean.  
+In Is Recursive: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -1,12 +1,12 @@
 # SetFocus
 
-为角色设置焦点，将设置FocalPoint作为结果。
+为角色设置焦点，将设置 FocalPoint 作为结果。
 
-目标是AIController
+目标是 AIController
 
 ## 图示
 
-![]($-20221218-17483582.png)
+![](/uploads/projects/ue-bluprint/20221218-17483582.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。AIController 对象参考。
 
-新的焦点。Actor对象参考。 
+新的焦点。Actor 对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Focus for actor, will set FocalPoint as a result.
 
@@ -26,7 +28,7 @@ Target is AIController
 
 ## 图示
 
-![]($-20221218-17483582.png)
+![](/uploads/projects/ue-bluprint/20221218-17483582.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: AIController Object Reference.
 
-New Focus: Actor Object Reference.  
+New Focus: Actor Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

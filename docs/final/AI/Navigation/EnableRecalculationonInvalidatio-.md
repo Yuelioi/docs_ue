@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17470680.png)
+![](/uploads/projects/ue-bluprint/20221218-17470680.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。导航路径对象参考。
 
-做重新计算。ENavigationOptionFlag 枚举。 
+做重新计算。ENavigationOptionFlag 枚举。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 if enabled path will request recalculation if it gets invalidated due to a change to underlying navigation
 
@@ -26,7 +28,7 @@ Target is Navigation Path
 
 ## 图示
 
-![]($-20221218-17470680.png)
+![](/uploads/projects/ue-bluprint/20221218-17470680.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Navigation Path Object Reference.
 
-Do Recalculation: ENavigationOptionFlag Enum.  
+Do Recalculation: ENavigationOptionFlag Enum.
 
 ## Outputs
 
 Out: Exec.
-

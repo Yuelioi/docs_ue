@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18102681.png)
+![](/uploads/projects/ue-bluprint/20221218-18102681.png)
 
 ## Inputs
 
 目标。普通按钮组基础对象参考。
 
-索引。整数。 
+索引。整数。
 
 ## Outputs
 
 返回值。普通按钮基座对象参考。在索引处获取按钮基数。
+
+<hr>
 
 Get Button Base at Index
 
@@ -24,15 +26,14 @@ Target is Common Button Group Base
 
 ## 图示
 
-![]($-20221218-18102681.png)
+![](/uploads/projects/ue-bluprint/20221218-18102681.png)
 
 ## Inputs
 
 Target: Common Button Group Base Object Reference.
 
-Index: Integer.  
+Index: Integer.
 
 ## Outputs
 
 Return Value: Common Button Base Object Reference. Get Button Base at Index.
-

@@ -1,10 +1,10 @@
 # DebugKeyThumbMouseButton2
 
-拇指鼠标按键2键被按下或释放时的事件。
+拇指鼠标按键 2 键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19212274.png)
+![](/uploads/projects/ue-bluprint/20221218-19212274.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 行动值。输入行动值结构。
 
+<hr>
+
 Events for when the Thumb Mouse Button 2 key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19212274.png)
+![](/uploads/projects/ue-bluprint/20221218-19212274.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

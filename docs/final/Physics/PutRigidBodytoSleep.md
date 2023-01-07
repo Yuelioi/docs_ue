@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20281351.png)
+![](/uploads/projects/ue-bluprint/20221218-20281351.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。原始组件对象参考。
 
-骨骼名称。名称。如果是SkeletalMeshComponent，则是要进入睡眠状态的主体名称。'无'表示根体。
+骨骼名称。名称。如果是 SkeletalMeshComponent，则是要进入睡眠状态的主体名称。'无'表示根体。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Force a single body back to sleep.
 
@@ -26,7 +28,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20281351.png)
+![](/uploads/projects/ue-bluprint/20221218-20281351.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Primitive Component Object Reference.
 
-Bone Name: Name. If a SkeletalMeshComponent, name of body to put to sleep. 'None' indicates root body..  
+Bone Name: Name. If a SkeletalMeshComponent, name of body to put to sleep. 'None' indicates root body..
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18262322.png)
+![](/uploads/projects/ue-bluprint/20221218-18262322.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 列表。名称的数组。
 
-允许。Boolean（布尔）。 
+允许。Boolean（布尔）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 resets, and then only allow the following list to be allowed/disallowed
 
@@ -28,7 +30,7 @@ Target is Skeletal Mesh Component
 
 ## 图示
 
-![]($-20221218-18262322.png)
+![](/uploads/projects/ue-bluprint/20221218-18262322.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Skeletal Mesh Component Object Reference.
 
 List: Array of Names.
 
-Allow: Boolean.  
+Allow: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

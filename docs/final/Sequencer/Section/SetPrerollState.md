@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20532897.png)
+![](/uploads/projects/ue-bluprint/20221218-20532897.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。电影场景数据层部分对象参考。
 
-在Preroll状态。EDataLayerRuntimeState Enum.  
+在 Preroll 状态。EDataLayerRuntimeState Enum.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Preroll State
 
@@ -26,7 +28,7 @@ Target is Movie Scene Data Layer Section
 
 ## 图示
 
-![]($-20221218-20532897.png)
+![](/uploads/projects/ue-bluprint/20221218-20532897.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Movie Scene Data Layer Section Object Reference.
 
-In Preroll State: EDataLayerRuntimeState Enum.  
+In Preroll State: EDataLayerRuntimeState Enum.
 
 ## Outputs
 
 Out: Exec.
-

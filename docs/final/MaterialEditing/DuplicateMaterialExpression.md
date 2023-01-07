@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19461832.png)
+![](/uploads/projects/ue-bluprint/20221218-19461832.png)
 
 ## Inputs
 
@@ -14,9 +14,9 @@
 
 材料。材料对象参考。要添加表达式的材料资产。
 
-材料功能。材料函数对象参考。如果向MaterialFunction添加表达式，则指定为新表达式对象的外部。
+材料功能。材料函数对象参考。如果向 MaterialFunction 添加表达式，则指定为新表达式对象的外部。
 
-表达式。材料表达式对象参考。  
+表达式。材料表达式对象参考。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。材料表达式对象参考。
 
+<hr>
+
 Duplicates the provided material expression adding it to the same material / material function, and copying parameters.. Note: Does not duplicate transient properties (Ex: GraphNode).
 
 Target is Material Editing Library
 
 ## 图示
 
-![]($-20221218-19461832.png)
+![](/uploads/projects/ue-bluprint/20221218-19461832.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Material: Material Object Reference. Material asset to add an expression to.
 
 Material Function: Material Function Object Reference. Specified if adding an expression to a MaterialFunction, used as Outer for new expression object.
 
-Expression: Material Expression Object Reference.  
+Expression: Material Expression Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Material Expression Object Reference.
-

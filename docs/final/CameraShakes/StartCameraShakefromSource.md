@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18142454.png)
+![](/uploads/projects/ue-bluprint/20221218-18142454.png)
 
 ## Inputs
 
@@ -20,9 +20,9 @@
 
 刻度。Float（单精度）。在与源的距离计算出的动态比例之上应用一个额外的恒定比例。
 
-播放空间。ECameraShakePlaySpace枚举。在哪个坐标系中播放抖动（影响摆动和摄像机动画）。
+播放空间。ECameraShakePlaySpace 枚举。在哪个坐标系中播放抖动（影响摆动和摄像机动画）。
 
-User Play Space Rot: Rotator（旋转器）。当PlaySpace == CAPS_UserDefined.时播放抖动的坐标系。 
+User Play Space Rot: Rotator（旋转器）。当 PlaySpace == CAPS_UserDefined.时播放抖动的坐标系。
 
 ## Outputs
 
@@ -30,13 +30,15 @@ User Play Space Rot: Rotator（旋转器）。当PlaySpace == CAPS_UserDefined.�
 
 返回值。相机摇动基本对象参考。
 
+<hr>
+
 Plays a camera shake on this camera.
 
 Target is Player Camera Manager
 
 ## 图示
 
-![]($-20221218-18142454.png)
+![](/uploads/projects/ue-bluprint/20221218-18142454.png)
 
 ## Inputs
 
@@ -52,11 +54,10 @@ Scale: Float (single-precision). Applies an additional constant scale on top of 
 
 Play Space: ECameraShakePlaySpace Enum. Which coordinate system to play the shake in (affects oscillations and camera anims).
 
-User Play Space Rot: Rotator. Coordinate system to play shake when PlaySpace == CAPS_UserDefined..  
+User Play Space Rot: Rotator. Coordinate system to play shake when PlaySpace == CAPS_UserDefined..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Camera Shake Base Object Reference.
-

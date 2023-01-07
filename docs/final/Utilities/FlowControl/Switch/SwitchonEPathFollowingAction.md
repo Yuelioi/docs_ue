@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14221743.png)
+![](/uploads/projects/ue-bluprint/20221218-14221743.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EPathFollowingAction Enum.  
+选择。EPathFollowingAction Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@
 
 通往目标的路径: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14221743.png)
+![](/uploads/projects/ue-bluprint/20221218-14221743.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EPathFollowingAction Enum.  
+Selection: EPathFollowingAction Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Direct Move: Exec.
 Partial Path: Exec.
 
 Path To Goal: Exec.
-

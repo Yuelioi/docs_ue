@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19375765.png)
+![](/uploads/projects/ue-bluprint/20221218-19375765.png)
 
 ## Inputs
 
@@ -18,13 +18,15 @@
 
 要删除的层。名称（通过引用）。要删除演员的层的名称。
 
-更新统计资料。布尔型。  
+更新统计资料。布尔型。
 
 ## Outputs
 
 出：执行。
 
-返回值。布尔值。如果该演员被从该层移除，则为true。如果该演员已经属于该层，则返回false。
+返回值。布尔值。如果该演员被从该层移除，则为 true。如果该演员已经属于该层，则返回 false。
+
+<hr>
 
 Removes an actor from the specified layer.
 
@@ -32,7 +34,7 @@ Target is Layers Subsystem
 
 ## 图示
 
-![]($-20221218-19375765.png)
+![](/uploads/projects/ue-bluprint/20221218-19375765.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Actor: Actor Object Reference. The actor to remove from the provided layer.
 
 Layer to Remove: Name (by ref). The name of the layer to remove the actor from.
 
-Update Stats: Boolean.  
+Update Stats: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if the actor was removed from the layer. false is returned if the actor already belonged to the layer..
-

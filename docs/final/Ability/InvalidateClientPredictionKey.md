@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-17322212.png)
+![](/uploads/projects/ue-bluprint/20221218-17322212.png)
 
 ## Inputs
 
 在。执行。
 
-目标。游戏能力的对象参考。 
+目标。游戏能力的对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Invalidates the current prediction key. This should be used in cases where there is a valid prediction window, but the server is doing logic that only he can do, and afterwards performs an action that the client could predict (had the client been able to run the server-only code prior).. This returns instantly and has no other side effects other than clearing the current prediction key.
 
@@ -24,15 +26,14 @@ Target is Gameplay Ability
 
 ## 图示
 
-![]($-20221218-17322212.png)
+![](/uploads/projects/ue-bluprint/20221218-17322212.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Gameplay Ability Object Reference.  
+Target: Gameplay Ability Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

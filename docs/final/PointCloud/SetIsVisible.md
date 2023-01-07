@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20301445.png)
+![](/uploads/projects/ue-bluprint/20221218-20301445.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。点云组件对象参考。
 
-新的可见性。布尔型。  
+新的可见性。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Changes the visibility setting
 
@@ -26,7 +28,7 @@ Target is Point Cloud Component
 
 ## 图示
 
-![]($-20221218-20301445.png)
+![](/uploads/projects/ue-bluprint/20221218-20301445.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Point Cloud Component Object Reference.
 
-New Visibility: Boolean.  
+New Visibility: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

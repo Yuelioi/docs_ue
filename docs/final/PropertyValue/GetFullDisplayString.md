@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20305315.png)
+![](/uploads/projects/ue-bluprint/20221218-20305315.png)
 
 ## Inputs
 
-目标。属性值对象参考。  
+目标。属性值对象参考。
 
 ## Outputs
 
 返回值。字符串。获取完整的显示字符串。
+
+<hr>
 
 Get Full Display String
 
@@ -22,13 +24,12 @@ Target is Property Value
 
 ## 图示
 
-![]($-20221218-20305315.png)
+![](/uploads/projects/ue-bluprint/20221218-20305315.png)
 
 ## Inputs
 
-Target: Property Value Object Reference.  
+Target: Property Value Object Reference.
 
 ## Outputs
 
 Return Value: String. Get Full Display String.
-

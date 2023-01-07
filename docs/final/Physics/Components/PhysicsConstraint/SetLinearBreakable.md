@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20211924.png)
+![](/uploads/projects/ue-bluprint/20221218-20211924.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 线性可破。布尔型。是否有可能用线性力破坏关节。
 
-线性中断阈值。Float（单精度）。打破关节所需的力。  
+线性中断阈值。Float（单精度）。打破关节所需的力。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the Linear Breakable properties
 
@@ -28,7 +30,7 @@ Target is Physics Constraint Component
 
 ## 图示
 
-![]($-20221218-20211924.png)
+![](/uploads/projects/ue-bluprint/20221218-20211924.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Physics Constraint Component Object Reference.
 
 Linear Breakable: Boolean. Whether it is possible to break the joint with linear force.
 
-Linear Break Threshold: Float (single-precision). Force needed to break the joint.  
+Linear Break Threshold: Float (single-precision). Force needed to break the joint.
 
 ## Outputs
 
 Out: Exec.
-

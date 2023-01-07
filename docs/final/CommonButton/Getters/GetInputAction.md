@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-18203082.png)
+![](/uploads/projects/ue-bluprint/20221218-18203082.png)
 
 ## Inputs
 
-目标。通用按钮基础对象参考。 
+目标。通用按钮基础对象参考。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 返回值。布尔值。获取被设置的相应的输入动作。
 
+<hr>
+
 Gets the appropriate input action that is set
 
 Target is Common Button Base
 
 ## 图示
 
-![]($-20221218-18203082.png)
+![](/uploads/projects/ue-bluprint/20221218-18203082.png)
 
 ## Inputs
 
-Target: Common Button Base Object Reference.  
+Target: Common Button Base Object Reference.
 
 ## Outputs
 
 Input Action Row: Data Table Row Handle Structure.
 
 Return Value: Boolean. Gets the appropriate input action that is set.
-

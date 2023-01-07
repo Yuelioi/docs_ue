@@ -1,16 +1,16 @@
-# SwitchonEGamepla-_2
+# SwitchonEGamepla-\_2
 
 选择一个与输入值相匹配的输出
 
 ## 图示
 
-![]($-20221218-14192326.png)
+![](/uploads/projects/ue-bluprint/20221218-14192326.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGameplayAbilityNetSecurityPolicy Enum.  
+选择。EGameplayAbilityNetSecurityPolicy Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 仅限服务器。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14192326.png)
+![](/uploads/projects/ue-bluprint/20221218-14192326.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGameplayAbilityNetSecurityPolicy Enum.  
+Selection: EGameplayAbilityNetSecurityPolicy Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Server Only Execution: Exec.
 Server Only Termination: Exec.
 
 Server Only: Exec.
-

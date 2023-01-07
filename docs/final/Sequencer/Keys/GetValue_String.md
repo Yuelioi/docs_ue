@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20495105.png)
+![](/uploads/projects/ue-bluprint/20221218-20495105.png)
 
 ## Inputs
 
-目标。电影场景脚本 字符串关键对象参考。  
+目标。电影场景脚本 字符串关键对象参考。
 
 ## Outputs
 
 返回值。字符串。这个键的值。
+
+<hr>
 
 Gets the value for this key from the owning channel.
 
@@ -22,13 +24,12 @@ Target is Movie Scene Scripting String Key
 
 ## 图示
 
-![]($-20221218-20495105.png)
+![](/uploads/projects/ue-bluprint/20221218-20495105.png)
 
 ## Inputs
 
-Target: Movie Scene Scripting String Key Object Reference.  
+Target: Movie Scene Scripting String Key Object Reference.
 
 ## Outputs
 
 Return Value: String. The value for this key..
-

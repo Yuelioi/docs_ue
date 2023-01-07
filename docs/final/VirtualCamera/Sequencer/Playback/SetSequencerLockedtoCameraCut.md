@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21265595.png)
+![](/uploads/projects/ue-bluprint/20221218-21265595.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。水平序列播放控制器对象参考。
 
-锁定视图。布尔值。  
+锁定视图。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the current Sequencer perspective to be locked to camera cut
 
@@ -26,7 +28,7 @@ Target is Level Sequence Playback Controller
 
 ## 图示
 
-![]($-20221218-21265595.png)
+![](/uploads/projects/ue-bluprint/20221218-21265595.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Level Sequence Playback Controller Object Reference.
 
-Lock View: Boolean.  
+Lock View: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

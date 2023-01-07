@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18232141.png)
+![](/uploads/projects/ue-bluprint/20221218-18232141.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Actor Component Object Reference。 
+目标。Actor Component Object Reference。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Unregister and mark for pending kill a component. This may not be used to destroy a component that is owned by an actor unless the owning actor is calling the function.
 
@@ -24,15 +26,14 @@ Target is Actor Component
 
 ## 图示
 
-![]($-20221218-18232141.png)
+![](/uploads/projects/ue-bluprint/20221218-18232141.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Actor Component Object Reference.  
+Target: Actor Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

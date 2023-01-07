@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21362753.png)
+![](/uploads/projects/ue-bluprint/20221218-21362753.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 方向。EUINavigation Enum.
 
-规则。EUINavigationRule枚举。当导航发生时，要使用的规则。  
+规则。EUINavigationRule 枚举。当导航发生时，要使用的规则。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the widget navigation rules for a specific direction. This can only be called on widgets that are in a widget tree. This works only for non Explicit, non Custom and non CustomBoundary Rules.
 
@@ -28,7 +30,7 @@ Target is Widget
 
 ## 图示
 
-![]($-20221218-21362753.png)
+![](/uploads/projects/ue-bluprint/20221218-21362753.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Widget Object Reference.
 
 Direction: EUINavigation Enum.
 
-Rule: EUINavigationRule Enum. The rule to use when navigation is taking place.  
+Rule: EUINavigationRule Enum. The rule to use when navigation is taking place.
 
 ## Outputs
 
 Out: Exec.
-

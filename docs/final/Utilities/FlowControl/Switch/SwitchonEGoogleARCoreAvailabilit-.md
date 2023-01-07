@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14200360.png)
+![](/uploads/projects/ue-bluprint/20221218-14200360.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGoogleARCoreAvailability Enum.  
+选择。EGoogleARCoreAvailability Enum.
 
 ## Outputs
 
@@ -28,17 +28,19 @@
 
 支持 已安装: 执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14200360.png)
+![](/uploads/projects/ue-bluprint/20221218-14200360.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGoogleARCoreAvailability Enum.  
+Selection: EGoogleARCoreAvailability Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Supported Not Installed: Exec.
 Supported Apk Too Old: Exec.
 
 Supported Installed: Exec.
-

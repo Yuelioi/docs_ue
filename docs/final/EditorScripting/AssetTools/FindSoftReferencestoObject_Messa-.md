@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18475986.png)
+![](/uploads/projects/ue-bluprint/20221218-18475986.png)
 
 ## Inputs
 
@@ -21,13 +21,16 @@
 出：执行。
 
 引用对象。对象引用的数组。
+
+<hr>
+
 Returns list of objects that soft reference the given soft object path. This will load assets into memory to verify
 
 Target is Asset Tools
 
 ## 图示
 
-![]($-20221218-18475986.png)
+![](/uploads/projects/ue-bluprint/20221218-18475986.png)
 
 ## Inputs
 
@@ -35,11 +38,10 @@ In: Exec.
 
 Target: Object Reference.
 
-Target Object: Soft Object Path Structure.  
+Target Object: Soft Object Path Structure.
 
 ## Outputs
 
 Out: Exec.
 
 Referencing Objects: Array of Object References.
-

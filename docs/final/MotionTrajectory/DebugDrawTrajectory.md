@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20073189.png)
+![](/uploads/projects/ue-bluprint/20221218-20073189.png)
 
 ## Inputs
 
@@ -24,9 +24,11 @@
 
 箭头大小。浮点数（单精度）。输入样本箭头的大小。
 
-箭头厚度。Float（单精度）。输入箭头绘制的样本厚度。  
+箭头厚度。Float（单精度）。输入箭头绘制的样本厚度。
 
 ## Outputs
+
+<hr>
 
 Projects trajectory samples onto a defined set of allowed directions
 
@@ -34,7 +36,7 @@ Target is Motion Trajectory Blueprint Library
 
 ## 图示
 
-![]($-20221218-20073189.png)
+![](/uploads/projects/ue-bluprint/20221218-20073189.png)
 
 ## Inputs
 
@@ -52,7 +54,6 @@ Arrow Scale: Float (single-precision). Input sample velocity draw scale.
 
 Arrow Size: Float (single-precision). Input sample arrow draw size.
 
-Arrow Thickness: Float (single-precision). Input sample arrow draw thickness.  
+Arrow Thickness: Float (single-precision). Input sample arrow draw thickness.
 
 ## Outputs
-

@@ -1,10 +1,10 @@
 # GenericUSBControllerButton20
 
-GenericUSBController Button 20键被按下或释放时的事件。
+GenericUSBController Button 20 键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19232936.png)
+![](/uploads/projects/ue-bluprint/20221218-19232936.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@ GenericUSBController Button 20键被按下或释放时的事件。
 
 钥匙。关键的结构。
 
+<hr>
+
 Events for when the GenericUSBController Button 20 key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19232936.png)
+![](/uploads/projects/ue-bluprint/20221218-19232936.png)
 
 ## Inputs
 
@@ -31,4 +33,3 @@ Pressed: Exec.
 Released: Exec.
 
 Key: Key Structure.
-

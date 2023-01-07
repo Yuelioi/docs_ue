@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19415599.png)
+![](/uploads/projects/ue-bluprint/20221218-19415599.png)
 
 ## Inputs
 
 在。执行。
 
-锁定：布尔值。  
+锁定：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the lock for the current level sequence and its descendants for editing.
 
@@ -24,15 +26,14 @@ Target is Level Sequence Editor Blueprint Library
 
 ## 图示
 
-![]($-20221218-19415599.png)
+![](/uploads/projects/ue-bluprint/20221218-19415599.png)
 
 ## Inputs
 
 In: Exec.
 
-Lock: Boolean.  
+Lock: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

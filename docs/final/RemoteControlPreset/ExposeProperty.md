@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20330432.png)
+![](/uploads/projects/ue-bluprint/20221218-20330432.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 属性。字符串。要公布的属性的名称或路径。
 
-Args:可选的参数...。  
+Args:可选的参数...。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ Args:可选的参数...。
 
 返回值。布尔值。操作是否成功。
 
+<hr>
+
 Expose a property in a remote control preset.
 
 Target is Remote Control Function Library
 
 ## 图示
 
-![]($-20221218-20330432.png)
+![](/uploads/projects/ue-bluprint/20221218-20330432.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Source Object: Object Reference. the object that contains the property to expose
 
 Property: String. the name or path of the property to expose..
 
-Args: Remote Control Optional Expose Args Structure. optional arguments..  
+Args: Remote Control Optional Expose Args Structure. optional arguments..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Whether the operation was successful..
-

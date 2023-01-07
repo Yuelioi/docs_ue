@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-21085538.png)
+![](/uploads/projects/ue-bluprint/20221218-21085538.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Synth Component Mono Wave Table对象参考。
+目标。Synth Component Mono Wave Table 对象参考。
 
-在持续踏板状态。布尔型。  
+在持续踏板状态。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Inform the synth if the sustain pedal is pressed or not
 
@@ -26,7 +28,7 @@ Target is Synth Component Mono Wave Table
 
 ## 图示
 
-![]($-20221218-21085538.png)
+![](/uploads/projects/ue-bluprint/20221218-21085538.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Synth Component Mono Wave Table Object Reference.
 
-In Sustain Pedal State: Boolean.  
+In Sustain Pedal State: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

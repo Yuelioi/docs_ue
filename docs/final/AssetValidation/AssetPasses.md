@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18015053.png)
+![](/uploads/projects/ue-bluprint/20221218-18015053.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。编辑器验证器基础对象参考。
 
-输入资产：对象参考。 
+输入资产：对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Asset Passes
 
@@ -26,7 +28,7 @@ Target is Editor Validator Base
 
 ## 图示
 
-![]($-20221218-18015053.png)
+![](/uploads/projects/ue-bluprint/20221218-18015053.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Editor Validator Base Object Reference.
 
-In Asset: Object Reference.  
+In Asset: Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

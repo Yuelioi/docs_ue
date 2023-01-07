@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18095388.png)
+![](/uploads/projects/ue-bluprint/20221218-18095388.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Ground Truth Data Object Reference.
 
-地面实况：对象参考。 
+地面实况：对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Save Object
 
@@ -26,7 +28,7 @@ Target is Ground Truth Data
 
 ## 图示
 
-![]($-20221218-18095388.png)
+![](/uploads/projects/ue-bluprint/20221218-18095388.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Ground Truth Data Object Reference.
 
-Ground Truth: Object Reference.  
+Ground Truth: Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

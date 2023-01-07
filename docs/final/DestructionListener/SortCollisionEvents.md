@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18420453.png)
+![](/uploads/projects/ue-bluprint/20221218-18420453.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 碰撞事件。混沌碰撞事件数据结构的阵列。
 
-排序方法：EChaosCollisionSortMethod Enum。  
+排序方法：EChaosCollisionSortMethod Enum。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sorts collision events according to the given sort method
 
@@ -28,7 +30,7 @@ Target is Chaos Destruction Listener
 
 ## 图示
 
-![]($-20221218-18420453.png)
+![](/uploads/projects/ue-bluprint/20221218-18420453.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Chaos Destruction Listener Object Reference.
 
 Collision Events: Array of Chaos Collision Event Data Structures.
 
-Sort Method: EChaosCollisionSortMethod Enum.  
+Sort Method: EChaosCollisionSortMethod Enum.
 
 ## Outputs
 
 Out: Exec.
-

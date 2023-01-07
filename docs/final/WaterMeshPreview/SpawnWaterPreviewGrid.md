@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21324261.png)
+![](/uploads/projects/ue-bluprint/20221218-21324261.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@ HISMC: Hierarchical Instanced Static Mesh Component Object Reference。
 
 网格大小。Float（单精度）。
 
-网格砖。整数。  
+网格砖。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Spawn Water Preview Grid
 
@@ -30,7 +32,7 @@ Target is Caustics Generator Actor
 
 ## 图示
 
-![]($-20221218-21324261.png)
+![](/uploads/projects/ue-bluprint/20221218-21324261.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ HISMC: Hierarchical Instanced Static Mesh Component Object Reference.
 
 Grid Size: Float (single-precision).
 
-Grid Tiles: Integer.  
+Grid Tiles: Integer.
 
 ## Outputs
 
 Out: Exec.
-

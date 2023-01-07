@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19041337.png)
+![](/uploads/projects/ue-bluprint/20221218-19041337.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。混沌车辆运动组件对象参考。
 
-使用自动：布尔值。  
+使用自动：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the flag that will be used to select auto-gears
 
@@ -26,7 +28,7 @@ Target is Chaos Vehicle Movement Component
 
 ## 图示
 
-![]($-20221218-19041337.png)
+![](/uploads/projects/ue-bluprint/20221218-19041337.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Chaos Vehicle Movement Component Object Reference.
 
-Use Auto: Boolean.  
+Use Auto: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

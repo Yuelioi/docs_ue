@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19100985.png)
+![](/uploads/projects/ue-bluprint/20221218-19100985.png)
 
 ## Inputs
 
@@ -22,7 +22,7 @@
 
 选项。Geometry Script Create New Volume From Mesh Options Structure.
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -32,13 +32,15 @@
 
 卷的演员。卷宗对象参考。从网格中创建新的体积。
 
+<hr>
+
 Create New Volume from Mesh
 
 Target is Geometry Script Library Create New Asset Functions
 
 ## 图示
 
-![]($-20221218-19100985.png)
+![](/uploads/projects/ue-bluprint/20221218-19100985.png)
 
 ## Inputs
 
@@ -54,7 +56,7 @@ Base Actor Name: String.
 
 Options: Geometry Script Create New Volume From Mesh Options Structure.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -63,4 +65,3 @@ Failure: Exec.
 Success: Exec.
 
 Volume Actor: Volume Object Reference. Create New Volume from Mesh.
-

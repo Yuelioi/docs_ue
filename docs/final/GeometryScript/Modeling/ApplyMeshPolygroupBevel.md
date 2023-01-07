@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19121860.png)
+![](/uploads/projects/ue-bluprint/20221218-19121860.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 选项。Geometry Script Mesh Bevel Options 结构。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 目标网格。动态网格对象参考。应用网格多组斜面。
 
+<hr>
+
 Apply Mesh Polygroup Bevel
 
 Target is Geometry Script Library Mesh Modeling Functions
 
 ## 图示
 
-![]($-20221218-19121860.png)
+![](/uploads/projects/ue-bluprint/20221218-19121860.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target Mesh: Dynamic Mesh Object Reference.
 
 Options: Geometry Script Mesh Bevel Options Structure.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Apply Mesh Polygroup Bevel.
-

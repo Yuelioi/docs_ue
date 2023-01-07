@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-20090295.png)
+![](/uploads/projects/ue-bluprint/20221218-20090295.png)
 
 ## Inputs
 
-在电影管道中。电影管道对象参考。  
+在电影管道中。电影管道对象参考。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 输出总计数。整数。
 
+<hr>
+
 Get Overall Output Frames
 
 Target is Movie Pipeline Blueprint Library
 
 ## 图示
 
-![]($-20221218-20090295.png)
+![](/uploads/projects/ue-bluprint/20221218-20090295.png)
 
 ## Inputs
 
-In Movie Pipeline: Movie Pipeline Object Reference.  
+In Movie Pipeline: Movie Pipeline Object Reference.
 
 ## Outputs
 
 Out Current Index: Integer.
 
 Out Total Count: Integer.
-

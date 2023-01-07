@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20082589.png)
+![](/uploads/projects/ue-bluprint/20221218-20082589.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 在文件名中：字符串。
 
-在保存资产：布尔值。  
+在保存资产：布尔值。
 
 ## Outputs
 
@@ -30,13 +30,15 @@
 
 返回值。布尔值。将配置导出到资产。
 
+<hr>
+
 Export Config to Asset
 
 Target is Movie Pipeline Editor Blueprint Library
 
 ## 图示
 
-![]($-20221218-20082589.png)
+![](/uploads/projects/ue-bluprint/20221218-20082589.png)
 
 ## Inputs
 
@@ -48,7 +50,7 @@ In Package Path: String.
 
 In File Name: String.
 
-In Save Asset: Boolean.  
+In Save Asset: Boolean.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Out Asset: Movie Pipeline Master Config Object Reference.
 Out Error Reason: Text.
 
 Return Value: Boolean. Export Config to Asset.
-

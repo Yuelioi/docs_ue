@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-21102113.png)
+![](/uploads/projects/ue-bluprint/20221218-21102113.png)
 
 ## Inputs
 
-目标。采取记录仪面板对象参考。  
+目标。采取记录仪面板对象参考。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 返回值。布尔值。面板是否准备好开始录制。
 
+<hr>
+
 Whether the panel is ready to start recording
 
 Target is Take Recorder Panel
 
 ## 图示
 
-![]($-20221218-21102113.png)
+![](/uploads/projects/ue-bluprint/20221218-21102113.png)
 
 ## Inputs
 
-Target: Take Recorder Panel Object Reference.  
+Target: Take Recorder Panel Object Reference.
 
 ## Outputs
 
 Out Error Text: Text.
 
 Return Value: Boolean. Whether the panel is ready to start recording.
-

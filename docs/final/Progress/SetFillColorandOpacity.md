@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20304961.png)
+![](/uploads/projects/ue-bluprint/20221218-20304961.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。进度条对象参考。
 
-在颜色：线性颜色结构。  
+在颜色：线性颜色结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the fill color of the progress bar.
 
@@ -26,7 +28,7 @@ Target is Progress Bar
 
 ## 图示
 
-![]($-20221218-20304961.png)
+![](/uploads/projects/ue-bluprint/20221218-20304961.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Progress Bar Object Reference.
 
-In Color: Linear Color Structure.  
+In Color: Linear Color Structure.
 
 ## Outputs
 
 Out: Exec.
-

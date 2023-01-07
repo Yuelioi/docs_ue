@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18303336.png)
+![](/uploads/projects/ue-bluprint/20221218-18303336.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。上下文动画管理器对象参考。
 
-演员。演员对象参考。 
+演员。演员对象参考。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。Contextual Anim Scene Instance Object Reference。获取带有演员的场景。
 
+<hr>
+
 Get Scene with Actor
 
 Target is Contextual Anim Manager
 
 ## 图示
 
-![]($-20221218-18303336.png)
+![](/uploads/projects/ue-bluprint/20221218-18303336.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Contextual Anim Manager Object Reference.
 
-Actor: Actor Object Reference.  
+Actor: Actor Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Contextual Anim Scene Instance Object Reference. Get Scene with Actor.
-

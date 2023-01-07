@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-18281266.png)
+![](/uploads/projects/ue-bluprint/20221218-18281266.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Actor Component对象参考。
+目标。Actor Component 对象参考。
 
-勾选间隔。Float（单精度）。这个组件的主要滴答功能的滴答间隔时间。 
+勾选间隔。Float（单精度）。这个组件的主要滴答功能的滴答间隔时间。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets the tick interval for this component's primary tick function. Does not enable the tick interval. Takes effect on next tick.
 
@@ -26,7 +28,7 @@ Target is Actor Component
 
 ## 图示
 
-![]($-20221218-18281266.png)
+![](/uploads/projects/ue-bluprint/20221218-18281266.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Actor Component Object Reference.
 
-Tick Interval: Float (single-precision). The duration between ticks for this component's primary tick function.  
+Tick Interval: Float (single-precision). The duration between ticks for this component's primary tick function.
 
 ## Outputs
 
 Out: Exec.
-

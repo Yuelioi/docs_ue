@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18543511.png)
+![](/uploads/projects/ue-bluprint/20221218-18543511.png)
 
 ## Inputs
 
@@ -20,14 +20,17 @@
 
 输出目标点。矢量。目标点的值。
 
-true EmitterIndex和TargetIndex有效 - OutTargetPoint有效 false EmitterIndex或TargetIndex无效 - OutTargetPoint无效。
+true EmitterIndex 和 TargetIndex 有效 - OutTargetPoint 有效 false EmitterIndex 或 TargetIndex 无效 - OutTargetPoint 无效。
+
+<hr>
+
 Get the beam target point
 
 Target is Particle System Component
 
 ## 图示
 
-![]($-20221218-18543511.png)
+![](/uploads/projects/ue-bluprint/20221218-18543511.png)
 
 ## Inputs
 
@@ -35,11 +38,10 @@ Target: Particle System Component Object Reference.
 
 Emitter Index: Integer. The index of the emitter to get.
 
-Target Index: Integer. Which beam within the emitter to get.  
+Target Index: Integer. Which beam within the emitter to get.
 
 ## Outputs
 
 Out Target Point: Vector. Value of target point.
 
 Return Value: Boolean. true EmitterIndex and TargetIndex are valid - OutTargetPoint is valid false EmitterIndex or TargetIndex is invalid - OutTargetPoint is invalid.
-

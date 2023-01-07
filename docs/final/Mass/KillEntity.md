@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19460730.png)
+![](/uploads/projects/ue-bluprint/20221218-19460730.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。大众代理组件对象参考。
 
-销毁演员。布尔型。  
+销毁演员。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Kill Entity
 
@@ -26,7 +28,7 @@ Target is Mass Agent Component
 
 ## 图示
 
-![]($-20221218-19460730.png)
+![](/uploads/projects/ue-bluprint/20221218-19460730.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Mass Agent Component Object Reference.
 
-Destroy Actor: Boolean.  
+Destroy Actor: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14190830.png)
+![](/uploads/projects/ue-bluprint/20221218-14190830.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFieldPhysicsType Enum.  
+选择。EFieldPhysicsType Enum.
 
 ## Outputs
 
@@ -38,17 +38,19 @@ Sleeping Threshold: Exec.
 
 激活禁用。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14190830.png)
+![](/uploads/projects/ue-bluprint/20221218-14190830.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFieldPhysicsType Enum.  
+Selection: EFieldPhysicsType Enum.
 
 ## Outputs
 
@@ -75,4 +77,3 @@ Sleeping Threshold: Exec.
 Collision Group: Exec.
 
 Activate Disabled: Exec.
-

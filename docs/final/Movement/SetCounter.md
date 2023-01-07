@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20080750.png)
+![](/uploads/projects/ue-bluprint/20221218-20080750.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。物理学简单组件对象参考。
 
-新值。整数。  
+新值。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Counter
 
@@ -26,7 +28,7 @@ Target is Physics Simple Component
 
 ## 图示
 
-![]($-20221218-20080750.png)
+![](/uploads/projects/ue-bluprint/20221218-20080750.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Physics Simple Component Object Reference.
 
-New Value: Integer.  
+New Value: Integer.
 
 ## Outputs
 
 Out: Exec.
-

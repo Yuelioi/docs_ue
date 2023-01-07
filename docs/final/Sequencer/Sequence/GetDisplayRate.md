@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20542020.png)
+![](/uploads/projects/ue-bluprint/20221218-20542020.png)
 
 ## Inputs
 
 在。执行。
 
-序列。电影场景序列对象参考。要使用的序列。  
+序列。电影场景序列对象参考。要使用的序列。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。帧速率结构。该序列的显示率，显示为。
 
+<hr>
+
 Gets this sequence's display rate
 
 Target is Movie Scene Sequence Extensions
 
 ## 图示
 
-![]($-20221218-20542020.png)
+![](/uploads/projects/ue-bluprint/20221218-20542020.png)
 
 ## Inputs
 
 In: Exec.
 
-Sequence: Movie Scene Sequence Object Reference. The sequence to use.  
+Sequence: Movie Scene Sequence Object Reference. The sequence to use.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Frame Rate Structure. The display rate that this sequence is displayed as.
-

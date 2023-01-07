@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14225437.png)
+![](/uploads/projects/ue-bluprint/20221218-14225437.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERetargetTranslationMode Enum.  
+选择。ERetargetTranslationMode Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Globally Scaled: 执行。
 
 绝对：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14225437.png)
+![](/uploads/projects/ue-bluprint/20221218-14225437.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERetargetTranslationMode Enum.  
+Selection: ERetargetTranslationMode Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ None: Exec.
 Globally Scaled: Exec.
 
 Absolute: Exec.
-

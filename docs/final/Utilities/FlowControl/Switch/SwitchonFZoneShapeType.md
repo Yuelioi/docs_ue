@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14255000.png)
+![](/uploads/projects/ue-bluprint/20221218-14255000.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。FZoneShapeType枚举。 
+选择。FZoneShapeType 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@ Spline: Exec.
 
 多边形 Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14255000.png)
+![](/uploads/projects/ue-bluprint/20221218-14255000.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: FZoneShapeType Enum.  
+Selection: FZoneShapeType Enum.
 
 ## Outputs
 
 Spline: Exec.
 
 Polygon: Exec.
-

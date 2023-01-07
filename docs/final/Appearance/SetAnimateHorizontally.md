@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-17541887.png)
+![](/uploads/projects/ue-bluprint/20221218-17541887.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Throbber对象参考。
+目标。Throbber 对象参考。
 
-在 Animate Horizontally: Boolean（布尔）。 
+在 Animate Horizontally: Boolean（布尔）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets whether the pieces animate horizontally.
 
@@ -26,7 +28,7 @@ Target is Throbber
 
 ## 图示
 
-![]($-20221218-17541887.png)
+![](/uploads/projects/ue-bluprint/20221218-17541887.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Throbber Object Reference.
 
-In Animate Horizontally: Boolean.  
+In Animate Horizontally: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

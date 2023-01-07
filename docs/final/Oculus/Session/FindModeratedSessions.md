@@ -1,18 +1,18 @@
 # FindModeratedSessions
 
-用oculus在线子系统搜索有节制的房间会议
+用 oculus 在线子系统搜索有节制的房间会议
 
-目标是Oculus查找会话回调代理
+目标是 Oculus 查找会话回调代理
 
 ## 图示
 
-![]($-20221218-20145511.png)
+![](/uploads/projects/ue-bluprint/20221218-20145511.png)
 
 ## Inputs
 
 在。执行。
 
-最大结果。整数。  
+最大结果。整数。
 
 ## Outputs
 
@@ -24,19 +24,21 @@
 
 结果。蓝图会话结果结构的数组。
 
+<hr>
+
 Searches for moderated room sessions with the oculus online subsystem
 
 Target is Oculus Find Sessions Callback Proxy
 
 ## 图示
 
-![]($-20221218-20145511.png)
+![](/uploads/projects/ue-bluprint/20221218-20145511.png)
 
 ## Inputs
 
 In: Exec.
 
-Max Results: Integer.  
+Max Results: Integer.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ On Success: Exec. On Success:. Called when there is a successful query.
 On Failure: Exec. On Failure:. Called when there is an unsuccessful query.
 
 Results: Array of Blueprint Session Result Structures.
-

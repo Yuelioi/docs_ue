@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19424898.png)
+![](/uploads/projects/ue-bluprint/20221218-19424898.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 延伸。向量。
 
-仅可见。布尔型。  
+仅可见。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Applies the given color to all points within the box
 
@@ -32,7 +34,7 @@ Target is Lidar Point Cloud Component
 
 ## 图示
 
-![]($-20221218-19424898.png)
+![](/uploads/projects/ue-bluprint/20221218-19424898.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Center: Vector.
 
 Extent: Vector.
 
-Visible Only: Boolean.  
+Visible Only: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

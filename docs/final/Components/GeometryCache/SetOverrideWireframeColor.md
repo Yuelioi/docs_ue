@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-18241847.png)
+![](/uploads/projects/ue-bluprint/20221218-18241847.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Geometry Cache Component对象参考。
+目标。Geometry Cache Component 对象参考。
 
-覆盖。Boolean（布尔）。 
+覆盖。Boolean（布尔）。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Override wireframe color?
 
@@ -26,7 +28,7 @@ Target is Geometry Cache Component
 
 ## 图示
 
-![]($-20221218-18241847.png)
+![](/uploads/projects/ue-bluprint/20221218-18241847.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Geometry Cache Component Object Reference.
 
-Override: Boolean.  
+Override: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -1,20 +1,22 @@
 # GetMRMesh
 
-获取MRMesh
+获取 MRMesh
 
-目标是ARComponent
+目标是 ARComponent
 
 ## 图示
 
-![]($-20221218-17582711.png)
+![](/uploads/projects/ue-bluprint/20221218-17582711.png)
 
 ## Inputs
 
-目标。ARComponent对象参考。 
+目标。ARComponent 对象参考。
 
 ## Outputs
 
-返回值。MRMesh组件对象参考。获取MRMesh。
+返回值。MRMesh 组件对象参考。获取 MRMesh。
+
+<hr>
 
 Get MRMesh
 
@@ -22,13 +24,12 @@ Target is ARComponent
 
 ## 图示
 
-![]($-20221218-17582711.png)
+![](/uploads/projects/ue-bluprint/20221218-17582711.png)
 
 ## Inputs
 
-Target: ARComponent Object Reference.  
+Target: ARComponent Object Reference.
 
 ## Outputs
 
 Return Value: MRMesh Component Object Reference. Get MRMesh.
-

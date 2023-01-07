@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14235856.png)
+![](/uploads/projects/ue-bluprint/20221218-14235856.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EStretch Enum.  
+选择。EStretch Enum.
 
 ## Outputs
 
@@ -22,7 +22,7 @@ Scale To Fit: Exec.
 
 Scale To Fit X: 执行。
 
-适应Y的比例：执行。
+适应 Y 的比例：执行。
 
 填充比例: Exec.
 
@@ -30,17 +30,19 @@ Scale To Fit X: 执行。
 
 用户指定: 执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14235856.png)
+![](/uploads/projects/ue-bluprint/20221218-14235856.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EStretch Enum.  
+Selection: EStretch Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Scale To Fill: Exec.
 Scale By Safe Zone: Exec.
 
 User Specified: Exec.
-

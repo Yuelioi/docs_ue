@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14213612.png)
+![](/uploads/projects/ue-bluprint/20221218-14213612.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMotionExtractor_Axis枚举。 
+选择。EMotionExtractor_Axis 枚举。
 
 ## Outputs
 
@@ -28,17 +28,19 @@ YZ: Exec.
 
 XYZ: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14213612.png)
+![](/uploads/projects/ue-bluprint/20221218-14213612.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMotionExtractor_Axis Enum.  
+Selection: EMotionExtractor_Axis Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ XZ: Exec.
 YZ: Exec.
 
 XYZ: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18475438.png)
+![](/uploads/projects/ue-bluprint/20221218-18475438.png)
 
 ## Inputs
 
@@ -21,13 +21,16 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Exports the specified objects to file. First prompting the user to pick an export directory and optionally prompting the user to pick a unique directory per file
 
 Target is Asset Tools
 
 ## 图示
 
-![]($-20221218-18475438.png)
+![](/uploads/projects/ue-bluprint/20221218-18475438.png)
 
 ## Inputs
 
@@ -37,9 +40,8 @@ Target: Asset Tools Interface.
 
 Assets to Export: Array of Strings. List of assets to export.
 
-Prompt for Individual Filenames: Boolean.  
+Prompt for Individual Filenames: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

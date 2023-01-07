@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21351840.png)
+![](/uploads/projects/ue-bluprint/20221218-21351840.png)
 
 ## Inputs
 
-目标。小工具对象参考。  
+目标。小工具对象参考。
 
 ## Outputs
 
-返回值。布尔值。如果该小组件目前正被一个指针设备悬停，则返回true。
+返回值。布尔值。如果该小组件目前正被一个指针设备悬停，则返回 true。
+
+<hr>
 
 Returns true if the widget is currently being hovered by a pointer device
 
@@ -22,13 +24,12 @@ Target is Widget
 
 ## 图示
 
-![]($-20221218-21351840.png)
+![](/uploads/projects/ue-bluprint/20221218-21351840.png)
 
 ## Inputs
 
-Target: Widget Object Reference.  
+Target: Widget Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Returns true if the widget is currently being hovered by a pointer device.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19135812.png)
+![](/uploads/projects/ue-bluprint/20221218-19135812.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 选项。Geometry Script Morphology Options 结构。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 目标网格。动态网格对象参考。应用网格形态学。
 
+<hr>
+
 Apply Mesh Morphology
 
 Target is Geometry Script Library Mesh Voxel Functions
 
 ## 图示
 
-![]($-20221218-19135812.png)
+![](/uploads/projects/ue-bluprint/20221218-19135812.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target Mesh: Dynamic Mesh Object Reference.
 
 Options: Geometry Script Morphology Options Structure.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Apply Mesh Morphology.
-

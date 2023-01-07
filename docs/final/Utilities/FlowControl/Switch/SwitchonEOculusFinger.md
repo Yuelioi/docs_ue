@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14220430.png)
+![](/uploads/projects/ue-bluprint/20221218-14220430.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EOculusFinger Enum.  
+选择。EOculusFinger Enum.
 
 ## Outputs
 
@@ -26,17 +26,19 @@
 
 无效。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14220430.png)
+![](/uploads/projects/ue-bluprint/20221218-14220430.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EOculusFinger Enum.  
+Selection: EOculusFinger Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Ring: Exec.
 Pinky: Exec.
 
 Invalid: Exec.
-

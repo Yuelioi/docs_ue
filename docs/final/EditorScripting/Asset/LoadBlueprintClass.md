@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18472440.png)
+![](/uploads/projects/ue-bluprint/20221218-18472440.png)
 
 ## Inputs
 
@@ -19,23 +19,25 @@
 出：执行。
 
 返回值。对象类参考。找到或加载的类。
+
+<hr>
+
 Load a Blueprint asset from the Content Browser and return its generated class. It will verify if the object is already loaded and only load it if it's necessary.
 
 Target is Editor Asset Library
 
 ## 图示
 
-![]($-20221218-18472440.png)
+![](/uploads/projects/ue-bluprint/20221218-18472440.png)
 
 ## Inputs
 
 In: Exec.
 
-Asset Path: String. Asset Path of the Blueprint asset..  
+Asset Path: String. Asset Path of the Blueprint asset..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Object Class Reference. Found or loaded class..
-

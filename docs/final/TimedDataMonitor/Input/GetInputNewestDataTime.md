@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21130622.png)
+![](/uploads/projects/ue-bluprint/20221218-21130622.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。定时数据监控子系统对象参考。
 
-Identifier:定时数据监控器输入标识符结构（通过参考）。  
+Identifier:定时数据监控器输入标识符结构（通过参考）。
 
 ## Outputs
 
@@ -22,13 +22,15 @@ Identifier:定时数据监控器输入标识符结构（通过参考）。
 
 返回值。定时数据通道采样时间结构。获取此输入中所有通道的最新采样时间。
 
+<hr>
+
 Get the latest sample time of all the channel in this input.
 
 Target is Timed Data Monitor Subsystem
 
 ## 图示
 
-![]($-20221218-21130622.png)
+![](/uploads/projects/ue-bluprint/20221218-21130622.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Timed Data Monitor Subsystem Object Reference.
 
-Identifier: Timed Data Monitor Input Identifier Structure (by ref).  
+Identifier: Timed Data Monitor Input Identifier Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Timed Data Channel Sample Time Structure. Get the latest sample time of all the channel in this input..
-

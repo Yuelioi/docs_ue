@@ -6,21 +6,23 @@
 
 ## 图示
 
-![]($-20221218-17515432.png)
+![](/uploads/projects/ue-bluprint/20221218-17515432.png)
 
 ## Inputs
 
 在。执行。
 
-动画序列。Anim Sequence对象参考。
+动画序列。Anim Sequence 对象参考。
 
 曲线名称。名称.
 
-Remove Name from Skeleton: Boolean.  
+Remove Name from Skeleton: Boolean.
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Removes an Animation Curve by Name from the given Animation Sequence (Raw Animation Curves [Names] may not be removed from the Skeleton)
 
@@ -28,7 +30,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17515432.png)
+![](/uploads/projects/ue-bluprint/20221218-17515432.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Animation Sequence: Anim Sequence Object Reference.
 
 Curve Name: Name.
 
-Remove Name from Skeleton: Boolean.  
+Remove Name from Skeleton: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

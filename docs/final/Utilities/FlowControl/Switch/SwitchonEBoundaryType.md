@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14172136.png)
+![](/uploads/projects/ue-bluprint/20221218-14172136.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EBoundaryType枚举。 
+选择。EBoundaryType 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 Play Area: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14172136.png)
+![](/uploads/projects/ue-bluprint/20221218-14172136.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EBoundaryType Enum.  
+Selection: EBoundaryType Enum.
 
 ## Outputs
 
 Outer Boundary: Exec.
 
 Play Area: Exec.
-

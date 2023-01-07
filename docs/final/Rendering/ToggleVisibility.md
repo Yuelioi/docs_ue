@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20402650.png)
+![](/uploads/projects/ue-bluprint/20221218-20402650.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。场景组件对象参考。
 
-传播给孩子。布尔型。  
+传播给孩子。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Toggle visibility of the component
 
@@ -26,7 +28,7 @@ Target is Scene Component
 
 ## 图示
 
-![]($-20221218-20402650.png)
+![](/uploads/projects/ue-bluprint/20221218-20402650.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Scene Component Object Reference.
 
-Propagate to Children: Boolean.  
+Propagate to Children: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

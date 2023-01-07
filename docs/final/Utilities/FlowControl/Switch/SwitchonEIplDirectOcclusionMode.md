@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14205392.png)
+![](/uploads/projects/ue-bluprint/20221218-14205392.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EIplDirectOcclusionMode枚举。 
+选择。EIplDirectOcclusionMode 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Direct Occlusion, Frequency- Independent Transmission: 执行。
 
 直接闭塞，依赖频率的传输。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14205392.png)
+![](/uploads/projects/ue-bluprint/20221218-14205392.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EIplDirectOcclusionMode Enum.  
+Selection: EIplDirectOcclusionMode Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Direct Occlusion, No Transmission: Exec.
 Direct Occlusion, Frequency- Independent Transmission: Exec.
 
 Direct Occlusion, Frequency- Dependent Transmission: Exec.
-

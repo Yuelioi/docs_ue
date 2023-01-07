@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20403816.png)
+![](/uploads/projects/ue-bluprint/20221218-20403816.png)
 
 ## Inputs
 
-目标。Replay Subsystem Object Reference.  
+目标。Replay Subsystem Object Reference.
 
 ## Outputs
 
 返回值。浮动（单精度）。 浮动 当前的记录/播放时间（秒）。
+
+<hr>
 
 Get current recording/playing replay time
 
@@ -22,13 +24,12 @@ Target is Replay Subsystem
 
 ## 图示
 
-![]($-20221218-20403816.png)
+![](/uploads/projects/ue-bluprint/20221218-20403816.png)
 
 ## Inputs
 
-Target: Replay Subsystem Object Reference.  
+Target: Replay Subsystem Object Reference.
 
 ## Outputs
 
 Return Value: Float (single-precision). float Current recording/playback time in seconds.
-

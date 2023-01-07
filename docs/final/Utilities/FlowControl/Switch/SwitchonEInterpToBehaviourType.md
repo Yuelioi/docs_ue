@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14205042.png)
+![](/uploads/projects/ue-bluprint/20221218-14205042.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EInterpToBehaviourType枚举。 
+选择。EInterpToBehaviourType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ One Shot Reverse: Exec.
 
 乒乓。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14205042.png)
+![](/uploads/projects/ue-bluprint/20221218-14205042.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EInterpToBehaviourType Enum.  
+Selection: EInterpToBehaviourType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ One Shot Reverse: Exec.
 Loop Reset: Exec.
 
 Ping Pong: Exec.
-

@@ -1,10 +1,10 @@
 # DebugKeySteamTouch3
 
-当Steam Touch 3键被按下或释放时的事件。
+当 Steam Touch 3 键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19215179.png)
+![](/uploads/projects/ue-bluprint/20221218-19215179.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 行动值。输入行动值结构。
 
+<hr>
+
 Events for when the Steam Touch 3 key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19215179.png)
+![](/uploads/projects/ue-bluprint/20221218-19215179.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

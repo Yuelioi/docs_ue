@@ -1,22 +1,22 @@
 # WaitforAbilityActivateQuery
 
-等到一个新的能力（相同或不同类型）被激活。除非IncludeTriggeredAbilities为真，否则只有基于输入的能力才会被计算在内。
+等到一个新的能力（相同或不同类型）被激活。除非 IncludeTriggeredAbilities 为真，否则只有基于输入的能力才会被计算在内。
 
 目标是能力 任务 等待 能力 激活
 
 ## 图示
 
-![]($-20221218-17332348.png)
+![](/uploads/projects/ue-bluprint/20221218-17332348.png)
 
 ## Inputs
 
 在。执行。
 
-查询。Gameplay Tag查询结构。
+查询。Gameplay Tag 查询结构。
 
 包括触发的能力。布尔值。
 
-触发一次：布尔值。 
+触发一次：布尔值。
 
 ## Outputs
 
@@ -28,13 +28,15 @@ Async Task: Ability Task Wait Ability Activate Object Reference.
 
 激活的能力。Gameplay Ability 对象参考。
 
+<hr>
+
 Wait until a new ability (of the same or different type) is activated. Only input based abilities will be counted unless IncludeTriggeredAbilities is true.
 
 Target is Ability Task Wait Ability Activate
 
 ## 图示
 
-![]($-20221218-17332348.png)
+![](/uploads/projects/ue-bluprint/20221218-17332348.png)
 
 ## Inputs
 
@@ -44,7 +46,7 @@ Query: Gameplay Tag Query Structure.
 
 Include Triggered Abilities: Boolean.
 
-Trigger Once: Boolean.  
+Trigger Once: Boolean.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Async Task: Ability Task Wait Ability Activate Object Reference.
 On Activate: Exec. On Activate.
 
 Activated Ability: Gameplay Ability Object Reference.
-

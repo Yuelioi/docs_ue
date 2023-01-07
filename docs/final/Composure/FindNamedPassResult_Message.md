@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18291110.png)
+![](/uploads/projects/ue-bluprint/20221218-18291110.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。对象参考。
 
-查阅名称。名称。 
+查阅名称。名称。
 
 ## Outputs
 
@@ -24,13 +24,15 @@ Out Texture: 纹理对象参考。
 
 返回值。布尔值。查找命名通过的结果。
 
+<hr>
+
 Find Named Pass Result
 
 Target is Compositing Texture Lookup Table
 
 ## 图示
 
-![]($-20221218-18291110.png)
+![](/uploads/projects/ue-bluprint/20221218-18291110.png)
 
 ## Inputs
 
@@ -38,7 +40,7 @@ In: Exec.
 
 Target: Object Reference.
 
-Lookup Name: Name.  
+Lookup Name: Name.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out: Exec.
 Out Texture: Texture Object Reference.
 
 Return Value: Boolean. Find Named Pass Result.
-

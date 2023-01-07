@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21023948.png)
+![](/uploads/projects/ue-bluprint/20221218-21023948.png)
 
 ## Inputs
 
 在。执行。
 
-目标。纸质瓦片地图组件对象参考。  
+目标。纸质瓦片地图组件对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Makes the tile map asset pointed to by this component editable. Nothing happens if it was already instanced, but. if the tile map is an asset reference, it is cloned to make a unique instance.
 
@@ -24,15 +26,14 @@ Target is Paper Tile Map Component
 
 ## 图示
 
-![]($-20221218-21023948.png)
+![](/uploads/projects/ue-bluprint/20221218-21023948.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Paper Tile Map Component Object Reference.  
+Target: Paper Tile Map Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@ ApplyExternalStran.这个函数将向物理线程派发一个命令，以便在�
 
 ## 图示
 
-![]($-20221218-18594315.png)
+![](/uploads/projects/ue-bluprint/20221218-18594315.png)
 
 ## Inputs
 
@@ -28,13 +28,15 @@ ApplyExternalStran.这个函数将向物理线程派发一个命令，以便在�
 
 出：执行。
 
+<hr>
+
 ApplyExternalStran. This function will dispatch a command to the physics thread to apply. a strain field on a clustered set of geometry. This is used to trigger a. breaking event within the solver.
 
 Target is Field System Component
 
 ## 图示
 
-![]($-20221218-18594315.png)
+![](/uploads/projects/ue-bluprint/20221218-18594315.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Falloff Radius: Float (single-precision). Radial influence from the position, po
 
 Field Magnitude: Float (single-precision). The size of the linear force..
 
-Cluster Levels: Integer. Levels of evaluation into the cluster hierarchy..  
+Cluster Levels: Integer. Levels of evaluation into the cluster hierarchy..
 
 ## Outputs
 
 Out: Exec.
-

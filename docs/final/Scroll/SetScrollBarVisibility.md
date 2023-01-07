@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-20475367.png)
+![](/uploads/projects/ue-bluprint/20221218-20475367.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Scroll Box对象参考。
+目标。Scroll Box 对象参考。
 
-新的滚动条可见性。ESlateVisibility Enum.  
+新的滚动条可见性。ESlateVisibility Enum.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Scroll Bar Visibility
 
@@ -26,7 +28,7 @@ Target is Scroll Box
 
 ## 图示
 
-![]($-20221218-20475367.png)
+![](/uploads/projects/ue-bluprint/20221218-20475367.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Scroll Box Object Reference.
 
-New Scroll Bar Visibility: ESlateVisibility Enum.  
+New Scroll Bar Visibility: ESlateVisibility Enum.
 
 ## Outputs
 
 Out: Exec.
-

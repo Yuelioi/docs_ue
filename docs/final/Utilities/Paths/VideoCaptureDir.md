@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-14283393.png)
+![](/uploads/projects/ue-bluprint/20221218-14283393.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。字符串。视频捕获目录。
 
+<hr>
+
 Returns the directory the engine uses to output user requested video capture files.
 
 Target is Blueprint Paths Library
 
 ## 图示
 
-![]($-20221218-14283393.png)
+![](/uploads/projects/ue-bluprint/20221218-14283393.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: String. Video capture directory.
-

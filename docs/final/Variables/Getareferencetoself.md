@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-21231770.png)
+![](/uploads/projects/ue-bluprint/20221218-21231770.png)
 
 ## Inputs
 
@@ -12,15 +12,16 @@
 
 自己：自己的对象参考。
 
+<hr>
+
 Gets a reference to this instance of the blueprint
 
 ## 图示
 
-![]($-20221218-21231770.png)
+![](/uploads/projects/ue-bluprint/20221218-21231770.png)
 
 ## Inputs
 
 ## Outputs
 
 Self: Self Object Reference.
-

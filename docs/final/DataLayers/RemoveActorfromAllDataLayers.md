@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18350502.png)
+![](/uploads/projects/ue-bluprint/20221218-18350502.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。数据层编辑子系统对象参考。
 
-行为者。Actor对象参考。要修改的角色。 
+行为者。Actor 对象参考。要修改的角色。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。如果行为体被修改，则为真。
 
+<hr>
+
 Removes an actor from all DataLayers.
 
 Target is Data Layer Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18350502.png)
+![](/uploads/projects/ue-bluprint/20221218-18350502.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Data Layer Editor Subsystem Object Reference.
 
-Actor: Actor Object Reference. The actor to modify.  
+Actor: Actor Object Reference. The actor to modify.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if the actor was changed..
-

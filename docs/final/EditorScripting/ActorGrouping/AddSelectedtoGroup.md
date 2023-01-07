@@ -6,32 +6,34 @@
 
 ## 图示
 
-![]($-20221218-18464494.png)
+![](/uploads/projects/ue-bluprint/20221218-18464494.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Actor Grouping Utils对象参考。
+目标。Actor Grouping Utils 对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Activates "Add to Group" mode which allows the user to select a group to append current selection
 
 Target is Actor Grouping Utils
 
 ## 图示
 
-![]($-20221218-18464494.png)
+![](/uploads/projects/ue-bluprint/20221218-18464494.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Actor Grouping Utils Object Reference.  
+Target: Actor Grouping Utils Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

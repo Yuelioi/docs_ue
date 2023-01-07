@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19412166.png)
+![](/uploads/projects/ue-bluprint/20221218-19412166.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。电影场景文件夹对象参考数组。获取当前选定的文件夹。
 
+<hr>
+
 Gets the currently selected folders.
 
 Target is Level Sequence Editor Blueprint Library
 
 ## 图示
 
-![]($-20221218-19412166.png)
+![](/uploads/projects/ue-bluprint/20221218-19412166.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Array of Movie Scene Folder Object References. Gets the currently selected folders..
-

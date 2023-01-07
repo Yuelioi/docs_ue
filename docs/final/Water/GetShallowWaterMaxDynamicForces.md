@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-21321478.png)
+![](/uploads/projects/ue-bluprint/20221218-21321478.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。整数。获取浅水区最大动态力。
 
+<hr>
+
 Get Shallow Water Max Dynamic Forces
 
 Target is Water Subsystem
 
 ## 图示
 
-![]($-20221218-21321478.png)
+![](/uploads/projects/ue-bluprint/20221218-21321478.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. Get Shallow Water Max Dynamic Forces.
-

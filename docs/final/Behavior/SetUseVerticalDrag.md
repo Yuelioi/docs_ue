@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18112194.png)
+![](/uploads/projects/ue-bluprint/20221218-18112194.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。径向滑块对象参考。
 
-使用中 垂直拖动：布尔值。 
+使用中 垂直拖动：布尔值。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set whether the value is changed when dragging vertically as opposed to along the radial curve.
 
@@ -26,7 +28,7 @@ Target is Radial Slider
 
 ## 图示
 
-![]($-20221218-18112194.png)
+![](/uploads/projects/ue-bluprint/20221218-18112194.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Radial Slider Object Reference.
 
-In Use Vertical Drag: Boolean.  
+In Use Vertical Drag: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

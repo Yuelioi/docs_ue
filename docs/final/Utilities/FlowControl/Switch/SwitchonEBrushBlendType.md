@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14172221.png)
+![](/uploads/projects/ue-bluprint/20221218-14172221.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EBrushBlendType枚举。 
+选择。EBrushBlendType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Min: Exec.
 
 添加剂。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14172221.png)
+![](/uploads/projects/ue-bluprint/20221218-14172221.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EBrushBlendType Enum.  
+Selection: EBrushBlendType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Min: Exec.
 Max: Exec.
 
 Additive: Exec.
-

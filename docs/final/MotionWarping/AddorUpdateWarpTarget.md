@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20074010.png)
+![](/uploads/projects/ue-bluprint/20221218-20074010.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 经纬度目标名称。名称。
 
-经纬度目标。运动翘曲目标结构（由参考）。  
+经纬度目标。运动翘曲目标结构（由参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Adds or update a target associated with a specified name
 
@@ -28,7 +30,7 @@ Target is Motion Warping Component
 
 ## 图示
 
-![]($-20221218-20074010.png)
+![](/uploads/projects/ue-bluprint/20221218-20074010.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Motion Warping Component Object Reference.
 
 Warp Target Name: Name.
 
-Warp Target: Motion Warping Target Structure (by ref).  
+Warp Target: Motion Warping Target Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

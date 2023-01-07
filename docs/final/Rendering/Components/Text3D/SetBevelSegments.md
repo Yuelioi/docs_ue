@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20351409.png)
+![](/uploads/projects/ue-bluprint/20221218-20351409.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。文本 3DComponent Object Reference.
 
-值。整数。  
+值。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the amount of segments that will be used to tesselate the Bevel
 
@@ -26,7 +28,7 @@ Target is Text 3DComponent
 
 ## 图示
 
-![]($-20221218-20351409.png)
+![](/uploads/projects/ue-bluprint/20221218-20351409.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Text 3DComponent Object Reference.
 
-Value: Integer.  
+Value: Integer.
 
 ## Outputs
 
 Out: Exec.
-

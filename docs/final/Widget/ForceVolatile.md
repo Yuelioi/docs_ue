@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21340936.png)
+![](/uploads/projects/ue-bluprint/20221218-21340936.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。小工具对象参考。
 
-力量。布尔型。  
+力量。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the forced volatility of the widget.
 
@@ -26,7 +28,7 @@ Target is Widget
 
 ## 图示
 
-![]($-20221218-21340936.png)
+![](/uploads/projects/ue-bluprint/20221218-21340936.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Widget Object Reference.
 
-Force: Boolean.  
+Force: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

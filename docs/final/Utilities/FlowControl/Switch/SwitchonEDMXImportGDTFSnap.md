@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14183241.png)
+![](/uploads/projects/ue-bluprint/20221218-14183241.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDMXImportGDTFSnap Enum.  
+选择。EDMXImportGDTFSnap Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@ No: 执行。
 
 关闭：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14183241.png)
+![](/uploads/projects/ue-bluprint/20221218-14183241.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDMXImportGDTFSnap Enum.  
+Selection: EDMXImportGDTFSnap Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ No: Exec.
 On: Exec.
 
 Off: Exec.
-

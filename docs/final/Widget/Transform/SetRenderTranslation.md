@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21370548.png)
+![](/uploads/projects/ue-bluprint/20221218-21370548.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。小工具对象参考。
 
-翻译。矢量二维结构。  
+翻译。矢量二维结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Render Translation
 
@@ -26,7 +28,7 @@ Target is Widget
 
 ## 图示
 
-![]($-20221218-21370548.png)
+![](/uploads/projects/ue-bluprint/20221218-21370548.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Widget Object Reference.
 
-Translation: Vector 2D Structure.  
+Translation: Vector 2D Structure.
 
 ## Outputs
 
 Out: Exec.
-

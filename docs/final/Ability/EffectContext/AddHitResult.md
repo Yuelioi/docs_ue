@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17303004.png)
+![](/uploads/projects/ue-bluprint/20221218-17303004.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 命中结果。命中结果结构。
 
-重置。Boolean（布尔）。 
+重置。Boolean（布尔）。
 
 ## Outputs
 
 出场。执行：执行。
+
+<hr>
 
 Adds a hit result to the effect context
 
@@ -28,7 +30,7 @@ Target is Ability System Blueprint Library
 
 ## 图示
 
-![]($-20221218-17303004.png)
+![](/uploads/projects/ue-bluprint/20221218-17303004.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Effect Context: Gameplay Effect Context Handle Structure.
 
 Hit Result: Hit Result Structure.
 
-Reset: Boolean.  
+Reset: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

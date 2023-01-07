@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18205495.png)
+![](/uploads/projects/ue-bluprint/20221218-18205495.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Common Button Base 对象参考。
 
-风格中。普通按钮样式类参考。 
+风格中。普通按钮样式类参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets the style of this button, rebuilds the internal styling
 
@@ -26,7 +28,7 @@ Target is Common Button Base
 
 ## 图示
 
-![]($-20221218-18205495.png)
+![](/uploads/projects/ue-bluprint/20221218-18205495.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common Button Base Object Reference.
 
-In Style: Common Button Style Class Reference.  
+In Style: Common Button Style Class Reference.
 
 ## Outputs
 
 Out: Exec.
-

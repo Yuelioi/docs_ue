@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14235066.png)
+![](/uploads/projects/ue-bluprint/20221218-14235066.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESteamVRHand Enum。 
+选择。ESteamVRHand Enum。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 右边。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14235066.png)
+![](/uploads/projects/ue-bluprint/20221218-14235066.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESteamVRHand Enum.  
+Selection: ESteamVRHand Enum.
 
 ## Outputs
 
 Left: Exec.
 
 Right: Exec.
-

@@ -4,27 +4,28 @@
 
 ## 图示
 
-![]($-20221218-14291094.png)
+![](/uploads/projects/ue-bluprint/20221218-14291094.png)
 
 ## Inputs
 
-[ 0]: 通配符。 
+[ 0]: 通配符。
 
 ## Outputs
 
 集合。通配符的集合。
 
+<hr>
+
 Create a set from a series of items.
 
 ## 图示
 
-![]($-20221218-14291094.png)
+![](/uploads/projects/ue-bluprint/20221218-14291094.png)
 
 ## Inputs
 
-[ 0]: Wildcard.  
+[ 0]: Wildcard.
 
 ## Outputs
 
 Set: Set of Wildcards.
-

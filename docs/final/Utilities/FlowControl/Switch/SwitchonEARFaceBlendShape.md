@@ -4,13 +4,13 @@ Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14162541.png)
+![](/uploads/projects/ue-bluprint/20221218-14162541.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARFaceBlendShape Enum.  
+Selection: EARFaceBlendShape Enum.
 
 ## Outputs
 
@@ -135,18 +135,20 @@ Right Eye Yaw: Exec.
 Right Eye Pitch: Exec.
 
 Right Eye Roll: Exec.
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14162541.png)
+![](/uploads/projects/ue-bluprint/20221218-14162541.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARFaceBlendShape Enum.  
+Selection: EARFaceBlendShape Enum.
 
 ## Outputs
 
@@ -271,4 +273,3 @@ Right Eye Yaw: Exec.
 Right Eye Pitch: Exec.
 
 Right Eye Roll: Exec.
-

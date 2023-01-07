@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14174846.png)
+![](/uploads/projects/ue-bluprint/20221218-14174846.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EConsoleVariablesEditorRowDisplayType枚举。 
+选择。EConsoleVariablesEditorRowDisplayType 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 显示上次输入的值。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14174846.png)
+![](/uploads/projects/ue-bluprint/20221218-14174846.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EConsoleVariablesEditorRowDisplayType Enum.  
+Selection: EConsoleVariablesEditorRowDisplayType Enum.
 
 ## Outputs
 
 Show Current Value: Exec.
 
 Show Last Entered Value: Exec.
-

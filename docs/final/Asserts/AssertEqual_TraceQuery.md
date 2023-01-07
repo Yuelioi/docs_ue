@@ -1,12 +1,12 @@
 # AssertEqual_TraceQuery
 
-断言两个TraceQueryResults是相等的。
+断言两个 TraceQueryResults 是相等的。
 
 目标是功能测试
 
 ## 图示
 
-![]($-20221218-17592359.png)
+![](/uploads/projects/ue-bluprint/20221218-17592359.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 预期的。跟踪查询测试结果对象参考。
 
-What: 字符串。如果断言失败，在消息中使用的名称（"预期'什么'不是{预期}，但它是{实际}的上下文''"）。 
+What: 字符串。如果断言失败，在消息中使用的名称（"预期'什么'不是{预期}，但它是{实际}的上下文''"）。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ What: 字符串。如果断言失败，在消息中使用的名称（"预期'什
 
 返回值。布尔值。
 
+<hr>
+
 Assert that two TraceQueryResults are equal.
 
 Target is Functional Test
 
 ## 图示
 
-![]($-20221218-17592359.png)
+![](/uploads/projects/ue-bluprint/20221218-17592359.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Actual: Trace Query Test Results Object Reference.
 
 Expected: Trace Query Test Results Object Reference.
 
-What: String. A name to use in the message if the assert fails ("Expected 'What' not to be {Expected} but it was {Actual} for context ''").  
+What: String. A name to use in the message if the assert fails ("Expected 'What' not to be {Expected} but it was {Actual} for context ''").
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17332727.png)
+![](/uploads/projects/ue-bluprint/20221218-17332727.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 目标演员。演员对象参考。
 
-Only Trigger Once：布尔值。 
+Only Trigger Once：布尔值。
 
 ## Outputs
 
@@ -30,13 +30,15 @@ Async Action: Ability Async Wait Attribute Changed Object Reference.
 
 旧值。Float (single-precision).
 
+<hr>
+
 Wait for Attribute Changed
 
 Target is Ability Async Wait Attribute Changed
 
 ## 图示
 
-![]($-20221218-17332727.png)
+![](/uploads/projects/ue-bluprint/20221218-17332727.png)
 
 ## Inputs
 
@@ -46,7 +48,7 @@ Attribute: Gameplay Attribute Structure.
 
 Target Actor: Actor Object Reference.
 
-Only Trigger Once: Boolean.  
+Only Trigger Once: Boolean.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Changed: Exec. Changed.
 New Value: Float (single-precision).
 
 Old Value: Float (single-precision).
-

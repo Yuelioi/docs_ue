@@ -2,11 +2,11 @@
 
 资产失败
 
-目标是Editor Validator Base
+目标是 Editor Validator Base
 
 ## 图示
 
-![]($-20221218-18014939.png)
+![](/uploads/projects/ue-bluprint/20221218-18014939.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 在信息中。文本（通过参考）。
 
-验证错误。文本数组。 
+验证错误。文本数组。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Asset Fails
 
@@ -30,7 +32,7 @@ Target is Editor Validator Base
 
 ## 图示
 
-![]($-20221218-18014939.png)
+![](/uploads/projects/ue-bluprint/20221218-18014939.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ In Asset: Object Reference.
 
 In Message: Text (by ref).
 
-Validation Errors: Array of Texts.  
+Validation Errors: Array of Texts.
 
 ## Outputs
 
 Out: Exec.
-

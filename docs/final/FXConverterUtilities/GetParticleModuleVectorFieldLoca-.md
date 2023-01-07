@@ -2,11 +2,11 @@
 
 获取粒子模块向量场的本地道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19030577.png)
+![](/uploads/projects/ue-bluprint/20221218-19030577.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 粒子模块。本地矢量场对象参考。
 
-Out 矢量场。矢量场对象参考。  
+Out 矢量场。矢量场对象参考。
 
 ## Outputs
 
@@ -38,7 +38,9 @@ Out Tile Y：布尔值。
 
 Out Tile Z: Boolean.
 
-出使用修复DT：布尔值。
+出使用修复 DT：布尔值。
+
+<hr>
 
 Get Particle Module Vector Field Local Props
 
@@ -46,7 +48,7 @@ Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19030577.png)
+![](/uploads/projects/ue-bluprint/20221218-19030577.png)
 
 ## Inputs
 
@@ -54,7 +56,7 @@ In: Exec.
 
 Particle Module: Local Vector Field Object Reference.
 
-Out Vector Field: Vector Field Object Reference.  
+Out Vector Field: Vector Field Object Reference.
 
 ## Outputs
 
@@ -79,4 +81,3 @@ Out Tile Y: Boolean.
 Out Tile Z: Boolean.
 
 Out Use Fix DT: Boolean.
-

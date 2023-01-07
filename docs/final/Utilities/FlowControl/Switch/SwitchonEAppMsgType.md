@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14161513.png)
+![](/uploads/projects/ue-bluprint/20221218-14161513.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAppMsgType枚举。 
+选择。EAppMsgType 枚举。
 
 ## Outputs
 
@@ -30,17 +30,19 @@ OK 取消。Exec.
 
 是 否 是 所有。取消：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14161513.png)
+![](/uploads/projects/ue-bluprint/20221218-14161513.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAppMsgType Enum.  
+Selection: EAppMsgType Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Yes No Yes All No All: Exec.
 Yes No Yes All No All Cancel: Exec.
 
 Yes No Yes All: Exec.
-

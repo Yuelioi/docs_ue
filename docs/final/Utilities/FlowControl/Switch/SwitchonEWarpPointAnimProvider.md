@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14252372.png)
+![](/uploads/projects/ue-bluprint/20221218-14252372.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EWarpPointAnimProvider Enum.  
+选择。EWarpPointAnimProvider Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 骨骼：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14252372.png)
+![](/uploads/projects/ue-bluprint/20221218-14252372.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EWarpPointAnimProvider Enum.  
+Selection: EWarpPointAnimProvider Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ None: Exec.
 Static: Exec.
 
 Bone: Exec.
-

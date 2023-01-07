@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20530842.png)
+![](/uploads/projects/ue-bluprint/20221218-20530842.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。电影场景部分对象参考。
 
-在混合类型中。EMovieSceneBlendType枚举。  
+在混合类型中。EMovieSceneBlendType 枚举。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets this section's blend type
 
@@ -26,7 +28,7 @@ Target is Movie Scene Section
 
 ## 图示
 
-![]($-20221218-20530842.png)
+![](/uploads/projects/ue-bluprint/20221218-20530842.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Movie Scene Section Object Reference.
 
-In Blend Type: EMovieSceneBlendType Enum.  
+In Blend Type: EMovieSceneBlendType Enum.
 
 ## Outputs
 
 Out: Exec.
-

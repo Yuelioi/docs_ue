@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14233751.png)
+![](/uploads/projects/ue-bluprint/20221218-14233751.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESourceBusChannels Enum.  
+选择。ESourceBusChannels Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 立体声 Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14233751.png)
+![](/uploads/projects/ue-bluprint/20221218-14233751.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESourceBusChannels Enum.  
+Selection: ESourceBusChannels Enum.
 
 ## Outputs
 
 Mono: Exec.
 
 Stereo: Exec.
-

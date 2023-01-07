@@ -2,11 +2,11 @@
 
 获取这个网格上的材料数量
 
-目标是Datasmith Mesh Actor Element
+目标是 Datasmith Mesh Actor Element
 
 ## 图示
 
-![]($-20221218-18382468.png)
+![](/uploads/projects/ue-bluprint/20221218-18382468.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Datasmith Mesh Actor Element Object Reference。
 
-材料。Datasmith Material IDElement对象参考。  
+材料。Datasmith Material IDElement 对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Get the amount of materials on this mesh
 
@@ -26,7 +28,7 @@ Target is Datasmith Mesh Actor Element
 
 ## 图示
 
-![]($-20221218-18382468.png)
+![](/uploads/projects/ue-bluprint/20221218-18382468.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Datasmith Mesh Actor Element Object Reference.
 
-Material: Datasmith Material IDElement Object Reference.  
+Material: Datasmith Material IDElement Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

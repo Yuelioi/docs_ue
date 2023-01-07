@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21015429.png)
+![](/uploads/projects/ue-bluprint/20221218-21015429.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在边界最小。Float（单精度）。
 
-更新网格。布尔值。  
+更新网格。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the boundary min
 
@@ -28,7 +30,7 @@ Target is Spline Mesh Component
 
 ## 图示
 
-![]($-20221218-21015429.png)
+![](/uploads/projects/ue-bluprint/20221218-21015429.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Spline Mesh Component Object Reference.
 
 In Boundary Min: Float (single-precision).
 
-Update Mesh: Boolean.  
+Update Mesh: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20081896.png)
+![](/uploads/projects/ue-bluprint/20221218-20081896.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。电影管道配置基础对象参考。
 
-在配置中。电影管道配置基础对象参考。  
+在配置中。电影管道配置基础对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Copy this configuration from another existing configuration.
 
@@ -26,7 +28,7 @@ Target is Movie Pipeline Config Base
 
 ## 图示
 
-![]($-20221218-20081896.png)
+![](/uploads/projects/ue-bluprint/20221218-20081896.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Movie Pipeline Config Base Object Reference.
 
-In Config: Movie Pipeline Config Base Object Reference.  
+In Config: Movie Pipeline Config Base Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

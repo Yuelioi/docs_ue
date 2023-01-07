@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20554078.png)
+![](/uploads/projects/ue-bluprint/20221218-20554078.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 在序列中。电影场景序列对象参考。
 
-结束时间（秒）。Float（单精度）。  
+结束时间（秒）。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the sequence view range end in seconds
 
@@ -26,7 +28,7 @@ Target is Movie Scene Sequence Extensions
 
 ## 图示
 
-![]($-20221218-20554078.png)
+![](/uploads/projects/ue-bluprint/20221218-20554078.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 In Sequence: Movie Scene Sequence Object Reference.
 
-End Time in Seconds: Float (single-precision).  
+End Time in Seconds: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

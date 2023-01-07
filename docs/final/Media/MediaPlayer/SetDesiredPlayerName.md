@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20014211.png)
+![](/uploads/projects/ue-bluprint/20221218-20014211.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@
 
 出：执行。
 
+<hr>
+
 Set the name of the desired native player.
 
 Target is Media Player
 
 ## 图示
 
-![]($-20221218-20014211.png)
+![](/uploads/projects/ue-bluprint/20221218-20014211.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Media Player Object Reference.
 
-Player Name: Name. The name of the player to set..  
+Player Name: Name. The name of the player to set..
 
 ## Outputs
 
 Out: Exec.
-

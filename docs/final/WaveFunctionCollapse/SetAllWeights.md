@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21331329.png)
+![](/uploads/projects/ue-bluprint/20221218-21331329.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。波函数折叠模型对象参考。
 
-重量。Float（单精度）。  
+重量。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the weights of key objects to a given value
 
@@ -26,7 +28,7 @@ Target is Wave Function Collapse Model
 
 ## 图示
 
-![]($-20221218-21331329.png)
+![](/uploads/projects/ue-bluprint/20221218-21331329.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Wave Function Collapse Model Object Reference.
 
-Weight: Float (single-precision).  
+Weight: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

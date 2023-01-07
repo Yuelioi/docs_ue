@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-18430464.png)
+![](/uploads/projects/ue-bluprint/20221218-18430464.png)
 
 ## Inputs
 
 在。执行。
 
-在文件路径中。字符串。  
+在文件路径中。字符串。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。布尔值。发送场景。
 
+<hr>
+
 Send Scene
 
 Target is Direct Link Test Library
 
 ## 图示
 
-![]($-20221218-18430464.png)
+![](/uploads/projects/ue-bluprint/20221218-18430464.png)
 
 ## Inputs
 
 In: Exec.
 
-In File Path: String.  
+In File Path: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Send Scene.
-

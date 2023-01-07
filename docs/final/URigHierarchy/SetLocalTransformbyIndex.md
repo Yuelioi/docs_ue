@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21201932.png)
+![](/uploads/projects/ue-bluprint/20221218-21201932.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Rig Hierarchy对象参考。
+目标。Rig Hierarchy 对象参考。
 
 在元素索引中。整数。要设置转换的元素的索引。
 
@@ -24,11 +24,13 @@
 
 设置撤销。布尔值。如果为真，转换栈将被设置为撤销/重做。
 
-打印Python命令。布尔值。  
+打印 Python 命令。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the local current or initial transform for a given element index.
 
@@ -36,7 +38,7 @@ Target is Rig Hierarchy
 
 ## 图示
 
-![]($-20221218-21201932.png)
+![](/uploads/projects/ue-bluprint/20221218-21201932.png)
 
 ## Inputs
 
@@ -54,9 +56,8 @@ Affect Children: Boolean. If set to false children will not move (maintain globa
 
 Setup Undo: Boolean. If true the transform stack will be setup for undo / redo.
 
-Print Python Commands: Boolean.  
+Print Python Commands: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

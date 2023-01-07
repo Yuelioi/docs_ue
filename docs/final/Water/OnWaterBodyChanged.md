@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21323363.png)
+![](/uploads/projects/ue-bluprint/20221218-21323363.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 形状或位置改变了：布尔值。
 
-改变了权重图设置：布尔值。  
+改变了权重图设置：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 On Water Body Changed
 
@@ -28,7 +30,7 @@ Target is Water Body Component
 
 ## 图示
 
-![]($-20221218-21323363.png)
+![](/uploads/projects/ue-bluprint/20221218-21323363.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Water Body Component Object Reference.
 
 Shape or Position Changed: Boolean.
 
-Weightmap Settings Changed: Boolean.  
+Weightmap Settings Changed: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

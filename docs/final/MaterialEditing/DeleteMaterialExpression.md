@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19461621.png)
+![](/uploads/projects/ue-bluprint/20221218-19461621.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 材料。材料 对象参考。
 
-表达式。材料表达式对象参考。  
+表达式。材料表达式对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Delete a specific expression from a material. Will disconnect from other expressions.
 
@@ -26,7 +28,7 @@ Target is Material Editing Library
 
 ## 图示
 
-![]($-20221218-19461621.png)
+![](/uploads/projects/ue-bluprint/20221218-19461621.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Material: Material Object Reference.
 
-Expression: Material Expression Object Reference.  
+Expression: Material Expression Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

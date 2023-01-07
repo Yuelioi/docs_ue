@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14180606.png)
+![](/uploads/projects/ue-bluprint/20221218-14180606.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDataLayerState Enum.  
+选择。EDataLayerState Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 激活的。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14180606.png)
+![](/uploads/projects/ue-bluprint/20221218-14180606.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDataLayerState Enum.  
+Selection: EDataLayerState Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Unloaded: Exec.
 Loaded: Exec.
 
 Activated: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14164983.png)
+![](/uploads/projects/ue-bluprint/20221218-14164983.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARSessionType枚举。 
+选择。EARSessionType 枚举。
 
 ## Outputs
 
@@ -30,17 +30,19 @@
 
 地理跟踪: 执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14164983.png)
+![](/uploads/projects/ue-bluprint/20221218-14164983.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARSessionType Enum.  
+Selection: EARSessionType Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Object Scanning: Exec.
 Pose Tracking: Exec.
 
 Geo Tracking: Exec.
-

@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-18023599.png)
+![](/uploads/projects/ue-bluprint/20221218-18023599.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Sound Submix对象参考。
+目标。Sound Submix 对象参考。
 
-预期持续时间。浮点数（单精度）。 
+预期持续时间。浮点数（单精度）。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Start recording the audio from this submix.
 
@@ -26,7 +28,7 @@ Target is Sound Submix
 
 ## 图示
 
-![]($-20221218-18023599.png)
+![](/uploads/projects/ue-bluprint/20221218-18023599.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Sound Submix Object Reference.
 
-Expected Duration: Float (single-precision).  
+Expected Duration: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

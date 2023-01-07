@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20021184.png)
+![](/uploads/projects/ue-bluprint/20221218-20021184.png)
 
 ## Inputs
 
 在。执行。
 
-目标。媒体声音组件对象参考。  
+目标。媒体声音组件对象参考。
 
 ## Outputs
 
@@ -22,19 +22,21 @@
 
 返回值。布尔值。如果返回衰减设置，则为真，如果衰减被禁用，则为假。
 
+<hr>
+
 Get the attenuation settings based on the current component settings.
 
 Target is Media Sound Component
 
 ## 图示
 
-![]($-20221218-20021184.png)
+![](/uploads/projects/ue-bluprint/20221218-20021184.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Media Sound Component Object Reference.  
+Target: Media Sound Component Object Reference.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Out: Exec.
 Out Attenuation Settings: Sound Attenuation Settings Structure. Will contain the attenuation settings, if available..
 
 Return Value: Boolean. true if attenuation settings were returned, false if attenuation is disabled..
-

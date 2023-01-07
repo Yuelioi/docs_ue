@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21051987.png)
+![](/uploads/projects/ue-bluprint/20221218-21051987.png)
 
 ## Inputs
 
 数据。子对象数据结构（通过参考）。
 
-即使待杀。布尔值。  
+即使待杀。布尔值。
 
 ## Outputs
 
 返回值。对象参考。获取对象。
+
+<hr>
 
 Get Object
 
@@ -24,15 +26,14 @@ Target is Subobject Data Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-21051987.png)
+![](/uploads/projects/ue-bluprint/20221218-21051987.png)
 
 ## Inputs
 
 Data: Subobject Data Structure (by ref).
 
-Even if Pending Kill: Boolean.  
+Even if Pending Kill: Boolean.
 
 ## Outputs
 
 Return Value: Object Reference. Get Object.
-

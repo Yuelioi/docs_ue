@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20520605.png)
+![](/uploads/projects/ue-bluprint/20221218-20520605.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 在时间上。帧数结构。
 
-在价值上。线性色彩结构。  
+在价值上。线性色彩结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Adds a a key for a specific color parameter at the specified time with the specified value.
 
@@ -30,7 +32,7 @@ Target is Movie Scene Parameter Section
 
 ## 图示
 
-![]($-20221218-20520605.png)
+![](/uploads/projects/ue-bluprint/20221218-20520605.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ In Parameter Name: Name.
 
 In Time: Frame Number Structure.
 
-In Value: Linear Color Structure.  
+In Value: Linear Color Structure.
 
 ## Outputs
 
 Out: Exec.
-

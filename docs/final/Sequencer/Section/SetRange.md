@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20533016.png)
+![](/uploads/projects/ue-bluprint/20221218-20533016.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 开始帧。整数。本节所需的起始框架。
 
-末端框架。整数。本节所需的结束框架。  
+末端框架。整数。本节所需的结束框架。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set range
 
@@ -28,7 +30,7 @@ Target is Movie Scene Section Extensions
 
 ## 图示
 
-![]($-20221218-20533016.png)
+![](/uploads/projects/ue-bluprint/20221218-20533016.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Section: Movie Scene Section Object Reference. The section within which to set t
 
 Start Frame: Integer. The desired start frame for this section.
 
-End Frame: Integer. The desired end frame for this section.  
+End Frame: Integer. The desired end frame for this section.
 
 ## Outputs
 
 Out: Exec.
-

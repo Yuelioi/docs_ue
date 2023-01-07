@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20222027.png)
+![](/uploads/projects/ue-bluprint/20221218-20222027.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 新的位置。向量。
 
-新的旋转。旋转器。  
+新的旋转。旋转器。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set target location and rotation
 
@@ -28,7 +30,7 @@ Target is Physics Handle Component
 
 ## 图示
 
-![]($-20221218-20222027.png)
+![](/uploads/projects/ue-bluprint/20221218-20222027.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Physics Handle Component Object Reference.
 
 New Location: Vector.
 
-New Rotation: Rotator.  
+New Rotation: Rotator.
 
 ## Outputs
 
 Out: Exec.
-

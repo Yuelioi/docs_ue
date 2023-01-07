@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19415162.png)
+![](/uploads/projects/ue-bluprint/20221218-19415162.png)
 
 ## Inputs
 
 在。执行。
 
-新框架。整数。  
+新框架。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set global playback position for the current level sequence in frames
 
@@ -24,15 +26,14 @@ Target is Level Sequence Editor Blueprint Library
 
 ## 图示
 
-![]($-20221218-19415162.png)
+![](/uploads/projects/ue-bluprint/20221218-19415162.png)
 
 ## Inputs
 
 In: Exec.
 
-New Frame: Integer.  
+New Frame: Integer.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20512698.png)
+![](/uploads/projects/ue-bluprint/20221218-20512698.png)
 
 ## Inputs
 
-目标。电影场景序列播放器对象参考。  
+目标。电影场景序列播放器对象参考。
 
 ## Outputs
 
 返回值。帧速率结构。获取此序列的显示速率。
+
+<hr>
 
 Get this sequence's display rate.
 
@@ -22,13 +24,12 @@ Target is Movie Scene Sequence Player
 
 ## 图示
 
-![]($-20221218-20512698.png)
+![](/uploads/projects/ue-bluprint/20221218-20512698.png)
 
 ## Inputs
 
-Target: Movie Scene Sequence Player Object Reference.  
+Target: Movie Scene Sequence Player Object Reference.
 
 ## Outputs
 
 Return Value: Frame Rate Structure. Get this sequence's display rate..
-

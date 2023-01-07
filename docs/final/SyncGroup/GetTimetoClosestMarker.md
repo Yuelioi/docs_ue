@@ -1,12 +1,10 @@
 # GetTimetoClosestMarker
 
-
-
-目标是Anim Instance
+目标是 Anim Instance
 
 ## 图示
 
-![]($-20221218-21062233.png)
+![](/uploads/projects/ue-bluprint/20221218-21062233.png)
 
 ## Inputs
 
@@ -14,7 +12,7 @@
 
 同步组。名称。
 
-标志物名称：名称。  
+标志物名称：名称。
 
 ## Outputs
 
@@ -22,13 +20,15 @@
 
 返回值。布尔值。
 
+<hr>
+
 \--- AI communication end ---
 
 Target is Anim Instance
 
 ## 图示
 
-![]($-20221218-21062233.png)
+![](/uploads/projects/ue-bluprint/20221218-21062233.png)
 
 ## Inputs
 
@@ -36,11 +36,10 @@ Target: Anim Instance Object Reference.
 
 Sync Group: Name.
 
-Marker Name: Name.  
+Marker Name: Name.
 
 ## Outputs
 
 Out Marker Time: Float (single-precision).
 
 Return Value: Boolean. --- AI communication end ---.
-

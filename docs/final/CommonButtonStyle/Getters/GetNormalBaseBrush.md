@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18210973.png)
+![](/uploads/projects/ue-bluprint/20221218-18210973.png)
 
 ## Inputs
 
-目标。普通按钮样式对象参考。 
+目标。普通按钮样式对象参考。
 
 ## Outputs
 
 刷子。石板刷结构。
+
+<hr>
 
 Get Normal Base Brush
 
@@ -22,13 +24,12 @@ Target is Common Button Style
 
 ## 图示
 
-![]($-20221218-18210973.png)
+![](/uploads/projects/ue-bluprint/20221218-18210973.png)
 
 ## Inputs
 
-Target: Common Button Style Object Reference.  
+Target: Common Button Style Object Reference.
 
 ## Outputs
 
 Brush: Slate Brush Structure.
-

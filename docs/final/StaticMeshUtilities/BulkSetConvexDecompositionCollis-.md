@@ -1,12 +1,12 @@
 # BulkSetConvexDecompositionCollis-
 
-与SetConvexDecompositionCollisionsWithNotification相同，但变化会自动应用。
+与 SetConvexDecompositionCollisionsWithNotification 相同，但变化会自动应用。
 
 目标是静态网格编辑器子系统
 
 ## 图示
 
-![]($-20221218-21032839.png)
+![](/uploads/projects/ue-bluprint/20221218-21032839.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@
 
 Max Hull Verts: 整数。
 
-船体精度。整数。  
+船体精度。整数。
 
 ## Outputs
 
 出：执行。
 
-返回值。布尔值。与SetConvexDecompositionCollisionsWithNotification相同，但变化会自动应用。
+返回值。布尔值。与 SetConvexDecompositionCollisionsWithNotification 相同，但变化会自动应用。
+
+<hr>
 
 Same as SetConvexDecompositionCollisionsWithNotification but changes are automatically applied.
 
@@ -34,7 +36,7 @@ Target is Static Mesh Editor Subsystem
 
 ## 图示
 
-![]($-20221218-21032839.png)
+![](/uploads/projects/ue-bluprint/20221218-21032839.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Hull Count: Integer.
 
 Max Hull Verts: Integer.
 
-Hull Precision: Integer.  
+Hull Precision: Integer.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Same as SetConvexDecompositionCollisionsWithNotification but changes are automatically applied..
-

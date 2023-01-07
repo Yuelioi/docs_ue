@@ -4,17 +4,17 @@
 
 使用样本。
 
-TArray<AStaticMeshActor*> ActorsInSelectionRect; 。Canvas->GetActorsInSelectionRectangle<AStaticMeshActor>(FirstPoint,SecondPoint,ActorsInSelectionRect)。
+TArray<AStaticMeshActor\*> ActorsInSelectionRect; 。Canvas->GetActorsInSelectionRectangle<AStaticMeshActor>(FirstPoint,SecondPoint,ActorsInSelectionRect)。
 
-目标是HUD
+目标是 HUD
 
 ## 图示
 
-![]($-20221218-19162412.png)
+![](/uploads/projects/ue-bluprint/20221218-19162412.png)
 
 ## Inputs
 
-目标：HUD对象参考。
+目标：HUD 对象参考。
 
 类过滤器。演员类参考。
 
@@ -24,23 +24,25 @@ TArray<AStaticMeshActor*> ActorsInSelectionRect; 。Canvas->GetActorsInSelection
 
 包括非碰撞部件。布尔值。在确定行为体的边界时，是否包括行为体的非碰撞组件。
 
-演员必须是完全封闭的。布尔值。选择规则：选择框是否可以部分地与Actor相交，或者必须完全包围Actor。  
+演员必须是完全封闭的。布尔值。选择规则：选择框是否可以部分地与 Actor 相交，或者必须完全包围 Actor。
 
 ## Outputs
 
 出来的演员。演员对象参考数组。
 
+<hr>
+
 Returns the array of actors inside a selection rectangle, with a class filter.
 
 Sample usage:
 
-TArray<AStaticMeshActor*> ActorsInSelectionRect;. Canvas->GetActorsInSelectionRectangle<AStaticMeshActor>(FirstPoint,SecondPoint,ActorsInSelectionRect);
+TArray<AStaticMeshActor\*> ActorsInSelectionRect;. Canvas->GetActorsInSelectionRectangle<AStaticMeshActor>(FirstPoint,SecondPoint,ActorsInSelectionRect);
 
 Target is HUD
 
 ## 图示
 
-![]($-20221218-19162412.png)
+![](/uploads/projects/ue-bluprint/20221218-19162412.png)
 
 ## Inputs
 
@@ -54,9 +56,8 @@ Second Point: Vector 2D Structure (by ref). The second point, where the mouse cu
 
 Include Non Colliding Components: Boolean. Whether to include even non-colliding components of the actor when determining its bounds.
 
-Actor Must be Fully Enclosed: Boolean. The Selection rule: whether the selection box can partially intersect Actor, or must fully enclose the Actor..  
+Actor Must be Fully Enclosed: Boolean. The Selection rule: whether the selection box can partially intersect Actor, or must fully enclose the Actor..
 
 ## Outputs
 
 Out Actors: Array of Actor Object References.
-

@@ -4,27 +4,28 @@
 
 ## 图示
 
-![]($-20221218-18274168.png)
+![](/uploads/projects/ue-bluprint/20221218-18274168.png)
 
 ## Inputs
 
-目标。立体图层对象参考。 
+目标。立体图层对象参考。
 
 ## Outputs
 
 返回值。纹理对象参考。如果平台上支持立体层纹理，则映射到左眼的立体层的纹理。
 
+<hr>
+
 Target is Stereo Layer
 
 ## 图示
 
-![]($-20221218-18274168.png)
+![](/uploads/projects/ue-bluprint/20221218-18274168.png)
 
 ## Inputs
 
-Target: Stereo Layer Object Reference.  
+Target: Stereo Layer Object Reference.
 
 ## Outputs
 
 Return Value: Texture Object Reference. the texture mapped to the stereo layer for left eye, if stereoscopic layer textures are supported on the platform..
-

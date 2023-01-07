@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-17515882.png)
+![](/uploads/projects/ue-bluprint/20221218-17515882.png)
 
 ## Inputs
 
-动画序列基础。Anim Sequence Base对象参考。
+动画序列基础。Anim Sequence Base 对象参考。
 
-帧。整数。 
+帧。整数。
 
 ## Outputs
 
 时间。Float (single-precision).
+
+<hr>
 
 Retrieves the Time Value at the specified Frame Indexfor the given Animation Sequence
 
@@ -24,15 +26,14 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17515882.png)
+![](/uploads/projects/ue-bluprint/20221218-17515882.png)
 
 ## Inputs
 
 Animation Sequence Base: Anim Sequence Base Object Reference.
 
-Frame: Integer.  
+Frame: Integer.
 
 ## Outputs
 
 Time: Float (single-precision).
-

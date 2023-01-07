@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20365603.png)
+![](/uploads/projects/ue-bluprint/20221218-20365603.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。本地光组件对象参考。
 
-新的半径。Float（单精度）。  
+新的半径。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Attenuation Radius
 
@@ -26,7 +28,7 @@ Target is Local Light Component
 
 ## 图示
 
-![]($-20221218-20365603.png)
+![](/uploads/projects/ue-bluprint/20221218-20365603.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Local Light Component Object Reference.
 
-New Radius: Float (single-precision).  
+New Radius: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

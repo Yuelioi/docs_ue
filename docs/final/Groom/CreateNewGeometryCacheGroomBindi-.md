@@ -6,21 +6,21 @@
 
 ## 图示
 
-![]($-20221218-19154909.png)
+![](/uploads/projects/ue-bluprint/20221218-19154909.png)
 
 ## Inputs
 
 在。执行。
 
-Groom Asset: Groom资产对象参考。用于绑定的Groom资产。
+Groom Asset: Groom 资产对象参考。用于绑定的 Groom 资产。
 
 Geometry Cache:Geometry Cache Object Reference.
 
-Num Interpolation Points:整数。(可选）用于RBF约束的点的数量。
+Num Interpolation Points:整数。(可选）用于 RBF 约束的点的数量。
 
-转移的几何体缓存的来源。Geometry Cache对象参考。
+转移的几何体缓存的来源。Geometry Cache 对象参考。
 
-匹配的部分。整数。  
+匹配的部分。整数。
 
 ## Outputs
 
@@ -28,13 +28,15 @@ Num Interpolation Points:整数。(可选）用于RBF约束的点的数量。
 
 返回值。新郎绑定资产对象参考。
 
+<hr>
+
 Create a new groom binding asset within the contents space of the project. The asset name will be auto generated based on the groom asset name and the skeletal asset name
 
 Target is Groom Blueprint Library
 
 ## 图示
 
-![]($-20221218-19154909.png)
+![](/uploads/projects/ue-bluprint/20221218-19154909.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Num Interpolation Points: Integer. (Optional) Number of point used for RBF const
 
 Source Geometry Cache for Transfer: Geometry Cache Object Reference.
 
-Matching Section: Integer.  
+Matching Section: Integer.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Groom Binding Asset Object Reference.
-

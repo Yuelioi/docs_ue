@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19093634.png)
+![](/uploads/projects/ue-bluprint/20221218-19093634.png)
 
 ## Inputs
 
 目标。游戏性标签资产界面界面。
 
-要检查的标签。游戏性标签结构。标签来检查比赛。  
+要检查的标签。游戏性标签结构。标签来检查比赛。
 
 ## Outputs
 
 返回值。布尔值。如果该资产有匹配的游戏标签，则为真，如果没有，则为假。
+
+<hr>
 
 Check if the asset has a gameplay tag that matches against the specified tag (expands to include parents of asset tags)
 
@@ -24,15 +26,14 @@ Target is Gameplay Tag Asset Interface
 
 ## 图示
 
-![]($-20221218-19093634.png)
+![](/uploads/projects/ue-bluprint/20221218-19093634.png)
 
 ## Inputs
 
 Target: Gameplay Tag Asset Interface Interface.
 
-Tag to Check: Gameplay Tag Structure. Tag to check for a match.  
+Tag to Check: Gameplay Tag Structure. Tag to check for a match.
 
 ## Outputs
 
 Return Value: Boolean. True if the asset has a gameplay tag that matches, false if not.
-

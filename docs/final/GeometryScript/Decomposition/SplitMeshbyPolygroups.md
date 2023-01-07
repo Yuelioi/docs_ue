@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19103556.png)
+![](/uploads/projects/ue-bluprint/20221218-19103556.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 网格池。动态网格池对象参考。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -28,7 +28,9 @@
 
 元素聚类。整数的阵列。
 
-目标网格。动态网格对象参考。按Polygroups分割网格。
+目标网格。动态网格对象参考。按 Polygroups 分割网格。
+
+<hr>
 
 Split Mesh by Polygroups
 
@@ -36,7 +38,7 @@ Target is Geometry Script Library Mesh Decomposition Functions
 
 ## 图示
 
-![]($-20221218-19103556.png)
+![](/uploads/projects/ue-bluprint/20221218-19103556.png)
 
 ## Inputs
 
@@ -48,7 +50,7 @@ Group Layer: Geometry Script Group Layer Structure.
 
 Mesh Pool: Dynamic Mesh Pool Object Reference.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Component Meshes: Array of Dynamic Mesh Object References.
 Component Polygroups: Array of Integers.
 
 Target Mesh: Dynamic Mesh Object Reference. Split Mesh by Polygroups.
-

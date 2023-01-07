@@ -6,21 +6,23 @@
 
 ## 图示
 
-![]($-20221218-20293739.png)
+![](/uploads/projects/ue-bluprint/20221218-20293739.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 出：执行。
 
-通知推出的应用程序。布尔值。如果使用了通知来启动应用程序，则返回true。
+通知推出的应用程序。布尔值。如果使用了通知来启动应用程序，则返回 true。
 
-激活事件。字符串。如果使用通知来启动应用程序，则返回ActivationEvent的名称。
+激活事件。字符串。如果使用通知来启动应用程序，则返回 ActivationEvent 的名称。
 
 Fire Date: 整数。返回通知被激活的时间。
+
+<hr>
 
 Get the local notification that was used to launch the app
 
@@ -28,11 +30,11 @@ Target is Blueprint Platform Library
 
 ## 图示
 
-![]($-20221218-20293739.png)
+![](/uploads/projects/ue-bluprint/20221218-20293739.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Notification Launched App: Boolean. Return true if a notification was used to la
 Activation Event: String. Returns the name of the ActivationEvent if a notification was used to launch the app.
 
 Fire Date: Integer. Returns the time the notification was activated.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14170010.png)
+![](/uploads/projects/ue-bluprint/20221218-14170010.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAudioBusChannels Enum.  
+选择。EAudioBusChannels Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@
 
 七点一线：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14170010.png)
+![](/uploads/projects/ue-bluprint/20221218-14170010.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAudioBusChannels Enum.  
+Selection: EAudioBusChannels Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Quad: Exec.
 Five Point One: Exec.
 
 Seven Point One: Exec.
-

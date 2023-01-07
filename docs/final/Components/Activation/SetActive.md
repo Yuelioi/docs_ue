@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18222508.png)
+![](/uploads/projects/ue-bluprint/20221218-18222508.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 新的活动。布尔值。组件的新活动状态。
 
-重置。布尔值。即使ShouldActivate返回false，是否也要进行激活。 
+重置。布尔值。即使 ShouldActivate 返回 false，是否也要进行激活。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets whether the component is active or not
 
@@ -28,7 +30,7 @@ Target is Actor Component
 
 ## 图示
 
-![]($-20221218-18222508.png)
+![](/uploads/projects/ue-bluprint/20221218-18222508.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Actor Component Object Reference.
 
 New Active: Boolean. The new active state of the component.
 
-Reset: Boolean. Whether the activation should happen even if ShouldActivate returns false..  
+Reset: Boolean. Whether the activation should happen even if ShouldActivate returns false..
 
 ## Outputs
 
 Out: Exec.
-

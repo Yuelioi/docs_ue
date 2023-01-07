@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14202563.png)
+![](/uploads/projects/ue-bluprint/20221218-14202563.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EHandKeypoint Enum.  
+选择。EHandKeypoint Enum.
 
 ## Outputs
 
@@ -66,17 +66,19 @@
 
 小尖端 顶端.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14202563.png)
+![](/uploads/projects/ue-bluprint/20221218-14202563.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EHandKeypoint Enum.  
+Selection: EHandKeypoint Enum.
 
 ## Outputs
 
@@ -131,4 +133,3 @@ Little Intermediate: Exec.
 Little Distal: Exec.
 
 Little Tip: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19454093.png)
+![](/uploads/projects/ue-bluprint/20221218-19454093.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。普通输入对象参考。
 
+<hr>
+
 Get CommonInput (LocalPlayer Subsystem)
 
 Common Input Subsystem
 
 ## 图示
 
-![]($-20221218-19454093.png)
+![](/uploads/projects/ue-bluprint/20221218-19454093.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Common Input Object Reference.
-

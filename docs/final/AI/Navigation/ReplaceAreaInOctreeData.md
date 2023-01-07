@@ -1,24 +1,24 @@
 # ReplaceAreaInOctreeData
 
-K2 替换Octree数据中的区域
+K2 替换 Octree 数据中的区域
 
-目标是导航系统V1
+目标是导航系统 V1
 
 ## 图示
 
-![]($-20221218-17473984.png)
+![](/uploads/projects/ue-bluprint/20221218-17473984.png)
 
 ## Inputs
 
 在。执行。
 
-目标。导航系统V1对象参考。
+目标。导航系统 V1 对象参考。
 
 对象。对象参考。
 
 旧区域。导航区域类别参考。
 
-新区域。导航区类别参考。 
+新区域。导航区类别参考。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ K2 替换Octree数据中的区域
 
 返回值。布尔值。K2 替换八叉树数据中的区域。
 
+<hr>
+
 K2 Replace Area in Octree Data
 
 Target is Navigation System V1
 
 ## 图示
 
-![]($-20221218-17473984.png)
+![](/uploads/projects/ue-bluprint/20221218-17473984.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Object: Object Reference.
 
 Old Area: Nav Area Class Reference.
 
-New Area: Nav Area Class Reference.  
+New Area: Nav Area Class Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. K2 Replace Area in Octree Data.
-

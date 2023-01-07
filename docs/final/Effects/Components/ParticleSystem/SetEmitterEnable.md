@@ -2,17 +2,17 @@
 
 启用/禁用一个子发射器
 
-目标是FXSystem组件
+目标是 FXSystem 组件
 
 ## 图示
 
-![]($-20221218-18545747.png)
+![](/uploads/projects/ue-bluprint/20221218-18545747.png)
 
 ## Inputs
 
 在。执行。
 
-目标。FXSystem组件对象参考。
+目标。FXSystem 组件对象参考。
 
 发射器名称。名称。要设置的子发射器的名称。
 
@@ -21,13 +21,16 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Enables/Disables a sub-emitter
 
 Target is FXSystem Component
 
 ## 图示
 
-![]($-20221218-18545747.png)
+![](/uploads/projects/ue-bluprint/20221218-18545747.png)
 
 ## Inputs
 
@@ -37,9 +40,8 @@ Target: FXSystem Component Object Reference.
 
 Emitter Name: Name. The name of the sub-emitter to set it on.
 
-New Enable State: Boolean. The value to set it to.  
+New Enable State: Boolean. The value to set it to.
 
 ## Outputs
 
 Out: Exec.
-

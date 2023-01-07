@@ -4,17 +4,17 @@
 
 ## 图示
 
-![]($-20221218-14212118.png)
+![](/uploads/projects/ue-bluprint/20221218-14212118.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMaterialUsage枚举。 
+选择。EMaterialUsage 枚举。
 
 ## Outputs
 
-MATUSAGE骨骼网格。Exec.
+MATUSAGE 骨骼网格。Exec.
 
 MATUSAGE Particle Sprites: Exec.
 
@@ -30,7 +30,7 @@ MATUSAGE Spline Mesh: Exec.
 
 MATUSAGE Instanced Static Meshes: Exec.
 
-MATUSAGE几何体集合。Exec.
+MATUSAGE 几何体集合。Exec.
 
 MATUSAGE Clothing: Exec.
 
@@ -52,17 +52,19 @@ MATUSAGE 虚拟高度场网格。Exec.
 
 MATUSAGE Nanite: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14212118.png)
+![](/uploads/projects/ue-bluprint/20221218-14212118.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMaterialUsage Enum.  
+Selection: EMaterialUsage Enum.
 
 ## Outputs
 
@@ -103,4 +105,3 @@ MATUSAGE Lidar Point Cloud: Exec.
 MATUSAGE Virtual Heightfield Mesh: Exec.
 
 MATUSAGE Nanite: Exec.
-

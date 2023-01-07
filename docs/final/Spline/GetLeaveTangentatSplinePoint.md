@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21003397.png)
+![](/uploads/projects/ue-bluprint/20221218-21003397.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 点指数。整数。
 
-坐标空间。ESplineCoordinateSpace Enum.  
+坐标空间。ESplineCoordinateSpace Enum.
 
 ## Outputs
 
 返回值。矢量。获取花键点的离开切线。
+
+<hr>
 
 Get the leave tangent at spline point
 
@@ -26,7 +28,7 @@ Target is Spline Component
 
 ## 图示
 
-![]($-20221218-21003397.png)
+![](/uploads/projects/ue-bluprint/20221218-21003397.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Target: Spline Component Object Reference.
 
 Point Index: Integer.
 
-Coordinate Space: ESplineCoordinateSpace Enum.  
+Coordinate Space: ESplineCoordinateSpace Enum.
 
 ## Outputs
 
 Return Value: Vector. Get the leave tangent at spline point.
-

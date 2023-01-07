@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14155730.png)
+![](/uploads/projects/ue-bluprint/20221218-14155730.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。CurveInterpolationType Enum.  
+选择。CurveInterpolationType Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Linear：线性。Exec.
 
 常数: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14155730.png)
+![](/uploads/projects/ue-bluprint/20221218-14155730.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: CurveInterpolationType Enum.  
+Selection: CurveInterpolationType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Auto: Exec.
 Linear: Exec.
 
 Constant: Exec.
-

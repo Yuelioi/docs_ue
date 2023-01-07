@@ -2,11 +2,11 @@
 
 导航系统是否正在建设中
 
-目标是导航系统V1
+目标是导航系统 V1
 
 ## 图示
 
-![]($-20221218-17472515.png)
+![](/uploads/projects/ue-bluprint/20221218-17472515.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。布尔值。是否正在建立导航系统。
 
+<hr>
+
 Is Navigation Being Built
 
 Target is Navigation System V1
 
 ## 图示
 
-![]($-20221218-17472515.png)
+![](/uploads/projects/ue-bluprint/20221218-17472515.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Boolean. Is Navigation Being Built.
-

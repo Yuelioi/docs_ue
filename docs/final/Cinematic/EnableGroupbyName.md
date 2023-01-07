@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18162984.png)
+![](/uploads/projects/ue-bluprint/20221218-18162984.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 组名。字符串。
 
-启用。布尔值。 
+启用。布尔值。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Enable Group by Name
 
@@ -28,7 +30,7 @@ Target is Matinee Actor
 
 ## 图示
 
-![]($-20221218-18162984.png)
+![](/uploads/projects/ue-bluprint/20221218-18162984.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Matinee Actor Object Reference.
 
 Group Name: String.
 
-Enable: Boolean.  
+Enable: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

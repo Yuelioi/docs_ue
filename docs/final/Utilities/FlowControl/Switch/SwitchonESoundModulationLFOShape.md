@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14233487.png)
+![](/uploads/projects/ue-bluprint/20221218-14233487.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESoundModulationLFOShape Enum.  
+选择。ESoundModulationLFOShape Enum.
 
 ## Outputs
 
@@ -28,17 +28,19 @@ Saw (Up): Exec.
 
 随机的。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14233487.png)
+![](/uploads/projects/ue-bluprint/20221218-14233487.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESoundModulationLFOShape Enum.  
+Selection: ESoundModulationLFOShape Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Triangle: Exec.
 Exponential: Exec.
 
 Random: Exec.
-

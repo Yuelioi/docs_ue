@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21115147.png)
+![](/uploads/projects/ue-bluprint/20221218-21115147.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 文件名：字符串。要保存为磁盘上的文件名。
 
-选项。图像写入选项结构（通过参考）。定义各种导出选项的参数。  
+选项。图像写入选项结构（通过参考）。定义各种导出选项的参数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Export the specified texture to disk
 
@@ -28,7 +30,7 @@ Target is Image Write Blueprint Library
 
 ## 图示
 
-![]($-20221218-21115147.png)
+![](/uploads/projects/ue-bluprint/20221218-21115147.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Texture: Texture Object Reference. The texture or render target to export.
 
 Filename: String. The filename on disk to save as.
 
-Options: Image Write Options Structure (by ref). Parameters defining the various export options.  
+Options: Image Write Options Structure (by ref). Parameters defining the various export options.
 
 ## Outputs
 
 Out: Exec.
-

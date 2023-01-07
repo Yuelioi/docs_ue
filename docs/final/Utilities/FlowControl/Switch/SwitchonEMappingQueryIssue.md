@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14211680.png)
+![](/uploads/projects/ue-bluprint/20221218-14211680.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMappingQueryIssue Enum.  
+选择。EMappingQueryIssue Enum.
 
 ## Outputs
 
@@ -28,17 +28,19 @@
 
 部队类型降级。晋升: 军队类型
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14211680.png)
+![](/uploads/projects/ue-bluprint/20221218-14211680.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMappingQueryIssue Enum.  
+Selection: EMappingQueryIssue Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Collision With Mapping In Same Context: Exec.
 Forces Type Promotion: Exec.
 
 Forces Type Demotion: Exec.
-

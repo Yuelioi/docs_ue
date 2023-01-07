@@ -2,17 +2,17 @@
 
 获取来源名称
 
-目标是Datasmith 目的地
+目标是 Datasmith 目的地
 
 ## 图示
 
-![]($-20221218-18405046.png)
+![](/uploads/projects/ue-bluprint/20221218-18405046.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Datasmith 目的地对象参考。  
+目标。Datasmith 目的地对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。字符串。获取来源名称。
 
+<hr>
+
 Get Source Name
 
 Target is Datasmith Destination
 
 ## 图示
 
-![]($-20221218-18405046.png)
+![](/uploads/projects/ue-bluprint/20221218-18405046.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Datasmith Destination Object Reference.  
+Target: Datasmith Destination Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: String. Get Source Name.
-

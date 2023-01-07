@@ -2,15 +2,15 @@
 
 退货集
 
-目标是Py测试对象
+目标是 Py 测试对象
 
 ## 图示
 
-![]($-20221218-20315311.png)
+![](/uploads/projects/ue-bluprint/20221218-20315311.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。整数的集合。返回集合。
 
+<hr>
+
 Return Set
 
 Target is Py Test Object
 
 ## 图示
 
-![]($-20221218-20315311.png)
+![](/uploads/projects/ue-bluprint/20221218-20315311.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Set of Integers. Return Set.
-

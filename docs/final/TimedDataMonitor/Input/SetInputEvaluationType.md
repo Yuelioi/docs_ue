@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21131352.png)
+![](/uploads/projects/ue-bluprint/20221218-21131352.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 Identifier:定时数据监控器输入标识符结构（通过参考）。
 
-评价。ETimedDataInputEvaluationType枚举。  
+评价。ETimedDataInputEvaluationType 枚举。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set how the input is evaluated type.
 
@@ -28,7 +30,7 @@ Target is Timed Data Monitor Subsystem
 
 ## 图示
 
-![]($-20221218-21131352.png)
+![](/uploads/projects/ue-bluprint/20221218-21131352.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Timed Data Monitor Subsystem Object Reference.
 
 Identifier: Timed Data Monitor Input Identifier Structure (by ref).
 
-Evaluation: ETimedDataInputEvaluationType Enum.  
+Evaluation: ETimedDataInputEvaluationType Enum.
 
 ## Outputs
 
 Out: Exec.
-

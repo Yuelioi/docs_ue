@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18263827.png)
+![](/uploads/projects/ue-bluprint/20221218-18263827.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 忽略比例。Float（单精度）。(可选）如果指定，只考虑缩放比例大于指定系数的骨骼。
 
-Require Physics Asset（需要物理资产）：Boolean（可选），如果为真，则只考虑具有物理功能的骨骼。 
+Require Physics Asset（需要物理资产）：Boolean（可选），如果为真，则只考虑具有物理功能的骨骼。
 
 ## Outputs
 
@@ -24,13 +24,15 @@ Require Physics Asset（需要物理资产）：Boolean（可选），如果为�
 
 返回值。名称：找到的骨骼的名称，如果没有找到骨骼，则为'无'。
 
+<hr>
+
 finds the closest bone to the given location
 
 Target is Skinned Mesh Component
 
 ## 图示
 
-![]($-20221218-18263827.png)
+![](/uploads/projects/ue-bluprint/20221218-18263827.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Test Location: Vector. the location to test against.
 
 Ignore Scale: Float (single-precision). (optional) if specified, only bones with scaling larger than the specified factor are considered.
 
-Require Physics Asset: Boolean. (optional) if true, only bones with physics will be considered.  
+Require Physics Asset: Boolean. (optional) if true, only bones with physics will be considered.
 
 ## Outputs
 
 Bone Location: Vector. (optional, out) if specified, set to the world space location of the bone that was found, or (0,0,0) if no bone was found.
 
 Return Value: Name. the name of the bone that was found, or 'None' if no bone was found.
-

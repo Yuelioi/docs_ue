@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18462769.png)
+![](/uploads/projects/ue-bluprint/20221218-18462769.png)
 
 ## Inputs
 
@@ -17,21 +17,23 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Standard function to execute
 
 Target is Editor Utility Object
 
 ## 图示
 
-![]($-20221218-18462769.png)
+![](/uploads/projects/ue-bluprint/20221218-18462769.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Editor Utility Object Object Reference.  
+Target: Editor Utility Object Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

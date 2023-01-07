@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19335330.png)
+![](/uploads/projects/ue-bluprint/20221218-19335330.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标：互换静态网格工厂节点对象参考。
 
-属性值。布尔值（通过引用）。  
+属性值。布尔值（通过引用）。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。设置自定义顶点颜色忽略。
 
+<hr>
+
 Set Custom Vertex Color Ignore
 
 Target is Interchange Static Mesh Factory Node
 
 ## 图示
 
-![]($-20221218-19335330.png)
+![](/uploads/projects/ue-bluprint/20221218-19335330.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Interchange Static Mesh Factory Node Object Reference.
 
-Attribute Value: Boolean (by ref).  
+Attribute Value: Boolean (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Set Custom Vertex Color Ignore.
-

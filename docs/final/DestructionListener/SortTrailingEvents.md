@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18420692.png)
+![](/uploads/projects/ue-bluprint/20221218-18420692.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标。混沌毁灭听众对象参考。
 
-追踪事件。Chaos Trailing Event数据结构的阵列。
+追踪事件。Chaos Trailing Event 数据结构的阵列。
 
-排序方法。EChaosTrailingSortMethod Enum.  
+排序方法。EChaosTrailingSortMethod Enum.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sorts trailing events according to the given sort method
 
@@ -28,7 +30,7 @@ Target is Chaos Destruction Listener
 
 ## 图示
 
-![]($-20221218-18420692.png)
+![](/uploads/projects/ue-bluprint/20221218-18420692.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Chaos Destruction Listener Object Reference.
 
 Trailing Events: Array of Chaos Trailing Event Data Structures.
 
-Sort Method: EChaosTrailingSortMethod Enum.  
+Sort Method: EChaosTrailingSortMethod Enum.
 
 ## Outputs
 
 Out: Exec.
-

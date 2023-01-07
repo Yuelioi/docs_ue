@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19011228.png)
+![](/uploads/projects/ue-bluprint/20221218-19011228.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 Renderer Name String: String.
 
-新的渲染器属性。Niagara Renderer Properties 对象参考。  
+新的渲染器属性。Niagara Renderer Properties 对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add a renderer to this emitter conversion context through renderer properties.
 
@@ -28,7 +30,7 @@ Target is Niagara Emitter Conversion Context
 
 ## 图示
 
-![]($-20221218-19011228.png)
+![](/uploads/projects/ue-bluprint/20221218-19011228.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Niagara Emitter Conversion Context Object Reference.
 
 Renderer Name String: String.
 
-New Renderer Properties: Niagara Renderer Properties Object Reference.  
+New Renderer Properties: Niagara Renderer Properties Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

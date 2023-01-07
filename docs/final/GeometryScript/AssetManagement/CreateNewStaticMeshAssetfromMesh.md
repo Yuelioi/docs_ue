@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19100870.png)
+![](/uploads/projects/ue-bluprint/20221218-19100870.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 选项。Geometry Script Create New Static Mesh Asset Options Structure.
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 静态网格资产：静态网格对象参考。从网格中创建新的静态网格资产。
 
+<hr>
+
 Create New Static Mesh Asset from Mesh
 
 Target is Geometry Script Library Create New Asset Functions
 
 ## 图示
 
-![]($-20221218-19100870.png)
+![](/uploads/projects/ue-bluprint/20221218-19100870.png)
 
 ## Inputs
 
@@ -46,7 +48,7 @@ Asset Path and Name: String.
 
 Options: Geometry Script Create New Static Mesh Asset Options Structure.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Failure: Exec.
 Success: Exec.
 
 Static Mesh Asset: Static Mesh Object Reference. Create New Static Mesh Asset from Mesh.
-

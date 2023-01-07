@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18263481.png)
+![](/uploads/projects/ue-bluprint/20221218-18263481.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。蒙皮网格组件对象参考。
 
-LODIndex。整数。 
+LODIndex。整数。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Clear any applied skin weight override
 
@@ -26,7 +28,7 @@ Target is Skinned Mesh Component
 
 ## 图示
 
-![]($-20221218-18263481.png)
+![](/uploads/projects/ue-bluprint/20221218-18263481.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Skinned Mesh Component Object Reference.
 
-LODIndex: Integer.  
+LODIndex: Integer.
 
 ## Outputs
 
 Out: Exec.
-

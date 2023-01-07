@@ -1,12 +1,12 @@
 # DrawDebugArrow
 
-绘制方向性的箭头，从LineStart指向LineEnd。
+绘制方向性的箭头，从 LineStart 指向 LineEnd。
 
-目标是Kismet系统库
+目标是 Kismet 系统库
 
 ## 图示
 
-![]($-20221218-20355986.png)
+![](/uploads/projects/ue-bluprint/20221218-20355986.png)
 
 ## Inputs
 
@@ -22,11 +22,13 @@
 
 持续时间。浮点数（单精度）。
 
-厚度。Float（单精度）。  
+厚度。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Draw directional arrow, pointing from LineStart to LineEnd.
 
@@ -34,7 +36,7 @@ Target is Kismet System Library
 
 ## 图示
 
-![]($-20221218-20355986.png)
+![](/uploads/projects/ue-bluprint/20221218-20355986.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Line Color: Linear Color Structure.
 
 Duration: Float (single-precision).
 
-Thickness: Float (single-precision).  
+Thickness: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

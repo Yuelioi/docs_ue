@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18231909.png)
+![](/uploads/projects/ue-bluprint/20221218-18231909.png)
 
 ## Inputs
 
 在。执行。
 
-目标。自定义网格组件对象参考。 
+目标。自定义网格组件对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Removes all geometry from this triangle mesh. Does not deallocate memory, allowing new geometry to reuse the existing allocation.
 
@@ -24,15 +26,14 @@ Target is Custom Mesh Component
 
 ## 图示
 
-![]($-20221218-18231909.png)
+![](/uploads/projects/ue-bluprint/20221218-18231909.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Custom Mesh Component Object Reference.  
+Target: Custom Mesh Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

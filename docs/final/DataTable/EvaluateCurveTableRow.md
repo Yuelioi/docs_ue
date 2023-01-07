@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18410444.png)
+![](/uploads/projects/ue-bluprint/20221218-18410444.png)
 
 ## Inputs
 
@@ -16,9 +16,9 @@
 
 行名：姓名。
 
-在XY中：浮点数（单精度）。
+在 XY 中：浮点数（单精度）。
 
-语境字符串。字符串。  
+语境字符串。字符串。
 
 ## Outputs
 
@@ -26,7 +26,9 @@
 
 未找到行。执行。未能找到该行。
 
-输出XY：浮点数（单精度）。
+输出 XY：浮点数（单精度）。
+
+<hr>
 
 Evaluate Curve Table Row
 
@@ -34,7 +36,7 @@ Target is Data Table Function Library
 
 ## 图示
 
-![]($-20221218-18410444.png)
+![](/uploads/projects/ue-bluprint/20221218-18410444.png)
 
 ## Inputs
 
@@ -46,7 +48,7 @@ Row Name: Name.
 
 In XY: Float (single-precision).
 
-Context String: String.  
+Context String: String.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Row Found: Exec. Found the row successfully..
 Row Not Found: Exec. Failed to find the row..
 
 Out XY: Float (single-precision).
-

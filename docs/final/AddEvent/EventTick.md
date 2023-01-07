@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17450975.png)
+![](/uploads/projects/ue-bluprint/20221218-17450975.png)
 
 ## Inputs
 
@@ -18,13 +18,15 @@
 
 Delta Seconds: Float（单精度）。
 
+<hr>
+
 Event called every frame, if ticking is enabled
 
 Target is Actor
 
 ## 图示
 
-![]($-20221218-17450975.png)
+![](/uploads/projects/ue-bluprint/20221218-17450975.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Output Delegate: Delegate.
 Out: Exec.
 
 Delta Seconds: Float (single-precision).
-

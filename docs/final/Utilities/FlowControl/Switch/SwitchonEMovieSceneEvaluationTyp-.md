@@ -4,35 +4,36 @@
 
 ## 图示
 
-![]($-20221218-14215022.png)
+![](/uploads/projects/ue-bluprint/20221218-14215022.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMovieSceneEvaluationType枚举。 
+选择。EMovieSceneEvaluationType 枚举。
 
 ## Outputs
 
 Frame Locked: Exec.
 
 With Sub Frames: Exec.
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14215022.png)
+![](/uploads/projects/ue-bluprint/20221218-14215022.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMovieSceneEvaluationType Enum.  
+Selection: EMovieSceneEvaluationType Enum.
 
 ## Outputs
 
 Frame Locked: Exec.
 
 With Sub Frames: Exec.
-

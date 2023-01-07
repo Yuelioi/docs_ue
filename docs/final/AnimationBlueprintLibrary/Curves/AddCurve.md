@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17513838.png)
+![](/uploads/projects/ue-bluprint/20221218-17513838.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 曲线类型。ERawCurveTrackTypes Enum.
 
-Meta Data Curve: Boolean（布尔）。 
+Meta Data Curve: Boolean（布尔）。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Adds an Animation Curve by Type and Name to the given Animation Sequence
 
@@ -30,7 +32,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17513838.png)
+![](/uploads/projects/ue-bluprint/20221218-17513838.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Curve Name: Name.
 
 Curve Type: ERawCurveTrackTypes Enum.
 
-Meta Data Curve: Boolean.  
+Meta Data Curve: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

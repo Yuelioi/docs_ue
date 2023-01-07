@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14184293.png)
+![](/uploads/projects/ue-bluprint/20221218-14184293.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDynamicStateOverrideEnum枚举。 
+选择。EDynamicStateOverrideEnum 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 静态的。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14184293.png)
+![](/uploads/projects/ue-bluprint/20221218-14184293.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDynamicStateOverrideEnum Enum.  
+Selection: EDynamicStateOverrideEnum Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Sleeping: Exec.
 Kinematic: Exec.
 
 Static: Exec.
-

@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-18121898.png)
+![](/uploads/projects/ue-bluprint/20221218-18121898.png)
 
 ## Inputs
 
 在。执行。
 
-目标：浮力组件对象参考。 
+目标：浮力组件对象参考。
 
 ## Outputs
 
@@ -30,19 +30,21 @@ Out Water Body Idx: 整数。
 
 输出水的速度。矢量。
 
+<hr>
+
 Get Last Water Surface Info
 
 Target is Buoyancy Component
 
 ## 图示
 
-![]($-20221218-18121898.png)
+![](/uploads/projects/ue-bluprint/20221218-18121898.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Buoyancy Component Object Reference.  
+Target: Buoyancy Component Object Reference.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Out Water Depth: Float (single-precision).
 Out Water Body Idx: Integer.
 
 Out Water Velocity: Vector.
-

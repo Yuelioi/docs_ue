@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18454210.png)
+![](/uploads/projects/ue-bluprint/20221218-18454210.png)
 
 ## Inputs
 
@@ -17,21 +17,23 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Release all GeneratedMeshes back to the pool
 
 Target is Dynamic Mesh Pool
 
 ## 图示
 
-![]($-20221218-18454210.png)
+![](/uploads/projects/ue-bluprint/20221218-18454210.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Dynamic Mesh Pool Object Reference.  
+Target: Dynamic Mesh Pool Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

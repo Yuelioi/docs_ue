@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14244582.png)
+![](/uploads/projects/ue-bluprint/20221218-14244582.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETouchInputState Enum.  
+选择。ETouchInputState Enum.
 
 ## Outputs
 
@@ -26,17 +26,19 @@ Blueprint Defined: 执行。
 
 触摸并保持: 执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14244582.png)
+![](/uploads/projects/ue-bluprint/20221218-14244582.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETouchInputState Enum.  
+Selection: ETouchInputState Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Manual Touch Focus: Exec.
 Scrubbing: Exec.
 
 Touch And Hold: Exec.
-

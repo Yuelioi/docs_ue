@@ -2,11 +2,11 @@
 
 在关卡中创建一个新的组合体，没有任何父子关系。
 
-目标是Composure蓝图库
+目标是 Composure 蓝图库
 
 ## 图示
 
-![]($-20221218-18292875.png)
+![](/uploads/projects/ue-bluprint/20221218-18292875.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 班级类型。Empty Comp Shot Class Reference。新合成元素的类型。
 
-水平上下文。Actor Object Reference。当前关卡的关卡上下文。默认值为nullptr。 
+水平上下文。Actor Object Reference。当前关卡的关卡上下文。默认值为 nullptr。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。Empty Comp Shot Object Reference。CompositingElement 创建的合成元素。
 
+<hr>
+
 Create a new Composure in the level without any parenting relationship.
 
 Target is Composure Blueprint Library
 
 ## 图示
 
-![]($-20221218-18292875.png)
+![](/uploads/projects/ue-bluprint/20221218-18292875.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Element Name: Name. The name for the newly created composure element.
 
 Class Type: Empty Comp Shot Class Reference. The type for the new composure element.
 
-Level Context: Actor Object Reference. The level context of current level. Default value is nullptr..  
+Level Context: Actor Object Reference. The level context of current level. Default value is nullptr..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Empty Comp Shot Object Reference. CompositingElement The created composure element..
-

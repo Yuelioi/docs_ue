@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14215637.png)
+![](/uploads/projects/ue-bluprint/20221218-14215637.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMusicalNoteName枚举。 
+选择。EMusicalNoteName 枚举。
 
 ## Outputs
 
@@ -38,17 +38,19 @@ Bb: Exec.
 
 B: 执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14215637.png)
+![](/uploads/projects/ue-bluprint/20221218-14215637.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMusicalNoteName Enum.  
+Selection: EMusicalNoteName Enum.
 
 ## Outputs
 
@@ -75,4 +77,3 @@ A: Exec.
 Bb: Exec.
 
 B: Exec.
-

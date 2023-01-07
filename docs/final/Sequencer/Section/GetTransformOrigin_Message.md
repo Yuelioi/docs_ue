@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20525072.png)
+![](/uploads/projects/ue-bluprint/20221218-20525072.png)
 
 ## Inputs
 
 在。执行。
 
-目标。对象参考。  
+目标。对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。变换。获取所有绝对分量的变换部分应该是相对的变换。忽略比例。
 
+<hr>
+
 Get the transform from which all absolute component transform sections should be relative. Scale is ignored.
 
 Target is Transform Origin
 
 ## 图示
 
-![]($-20221218-20525072.png)
+![](/uploads/projects/ue-bluprint/20221218-20525072.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Object Reference.  
+Target: Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Transform. Get the transform from which all absolute component transform sections should be relative. Scale is ignored..
-

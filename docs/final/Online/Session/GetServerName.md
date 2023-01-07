@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20163645.png)
+![](/uploads/projects/ue-bluprint/20221218-20163645.png)
 
 ## Inputs
 
-结果。蓝图会议结果结构（按参考）。  
+结果。蓝图会议结果结构（按参考）。
 
 ## Outputs
 
 返回值。字符串。获取服务器名称。
+
+<hr>
 
 Get Server Name
 
@@ -22,13 +24,12 @@ Target is Find Sessions Callback Proxy
 
 ## 图示
 
-![]($-20221218-20163645.png)
+![](/uploads/projects/ue-bluprint/20221218-20163645.png)
 
 ## Inputs
 
-Result: Blueprint Session Result Structure (by ref).  
+Result: Blueprint Session Result Structure (by ref).
 
 ## Outputs
 
 Return Value: String. Get Server Name.
-

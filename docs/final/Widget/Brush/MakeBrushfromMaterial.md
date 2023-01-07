@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21333809.png)
+![](/uploads/projects/ue-bluprint/20221218-21333809.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 宽度：整数。
 
-高度：整数。  
+高度：整数。
 
 ## Outputs
 
 返回值。石板刷结构。一个新的石板刷，使用材料。
+
+<hr>
 
 Creates a Slate Brush from a Material. Materials don't have an implicit size, so providing a widget and height. is required to hint slate with how large the image wants to be by default.
 
@@ -26,7 +28,7 @@ Target is Widget Blueprint Library
 
 ## 图示
 
-![]($-20221218-21333809.png)
+![](/uploads/projects/ue-bluprint/20221218-21333809.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Material: Material Interface Object Reference.
 
 Width: Integer.
 
-Height: Integer.  
+Height: Integer.
 
 ## Outputs
 
 Return Value: Slate Brush Structure. A new slate brush using the material..
-

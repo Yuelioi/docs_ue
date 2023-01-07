@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20301560.png)
+![](/uploads/projects/ue-bluprint/20221218-20301560.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。点云组件对象参考。
 
-点。矢量数组。要使用的新的点集。  
+点。矢量数组。要使用的新的点集。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Updates the point cloud data with the new set of points
 
@@ -26,7 +28,7 @@ Target is Point Cloud Component
 
 ## 图示
 
-![]($-20221218-20301560.png)
+![](/uploads/projects/ue-bluprint/20221218-20301560.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Point Cloud Component Object Reference.
 
-Points: Array of Vectors. the new set of points to use.  
+Points: Array of Vectors. the new set of points to use.
 
 ## Outputs
 
 Out: Exec.
-

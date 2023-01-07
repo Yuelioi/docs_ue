@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14241227.png)
+![](/uploads/projects/ue-bluprint/20221218-14241227.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESynthFilterAlgorithm Enum.  
+选择。ESynthFilterAlgorithm Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 梯子。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14241227.png)
+![](/uploads/projects/ue-bluprint/20221218-14241227.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESynthFilterAlgorithm Enum.  
+Selection: ESynthFilterAlgorithm Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ One Pole: Exec.
 State Variable: Exec.
 
 Ladder: Exec.
-

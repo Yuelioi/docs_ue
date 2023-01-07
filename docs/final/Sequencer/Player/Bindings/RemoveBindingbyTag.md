@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20510925.png)
+![](/uploads/projects/ue-bluprint/20221218-20510925.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 标签：名称。
 
-演员。Actor Object Reference.  
+演员。Actor Object Reference.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Removes the specified actor from the specified binding's actor array
 
@@ -28,7 +30,7 @@ Target is Level Sequence Actor
 
 ## 图示
 
-![]($-20221218-20510925.png)
+![](/uploads/projects/ue-bluprint/20221218-20510925.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Level Sequence Actor Object Reference.
 
 Tag: Name.
 
-Actor: Actor Object Reference.  
+Actor: Actor Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

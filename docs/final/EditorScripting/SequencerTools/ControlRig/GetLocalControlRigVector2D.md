@@ -1,12 +1,12 @@
 # GetLocalControlRigVector2D
 
-获取ControlRig控件在一个特定时间的Vector2D值
+获取 ControlRig 控件在一个特定时间的 Vector2D 值
 
-目标是Control Rig Sequencer Editor Library
+目标是 Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18525898.png)
+![](/uploads/projects/ue-bluprint/20221218-18525898.png)
 
 ## Inputs
 
@@ -16,24 +16,27 @@
 
 控制装置。控制装置对象参考。The ControlRig.
 
-控制名称。名称。控件的名称，应该是一个Vector2D控件。
+控制名称。名称。控件的名称，应该是一个 Vector2D 控件。
 
 框架。帧号结构。获取数值的时间。
 
-时间单位。ESequenceTimeUnit枚举。帧值的单位，可以是显示率，也可以是tick分辨率。
+时间单位。ESequenceTimeUnit 枚举。帧值的单位，可以是显示率，也可以是 tick 分辨率。
 
 ## Outputs
 
 出：执行。
 
-返回值。矢量2D结构。返回当时的值。
+返回值。矢量 2D 结构。返回当时的值。
+
+<hr>
+
 Get ControlRig Control's Vector2D value at a specific time
 
 Target is Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18525898.png)
+![](/uploads/projects/ue-bluprint/20221218-18525898.png)
 
 ## Inputs
 
@@ -47,11 +50,10 @@ Control Name: Name. Name of the Control, should be a Vector2D control.
 
 Frame: Frame Number Structure. Time to get the value.
 
-Time Unit: ESequenceTimeUnit Enum. Unit for frame values, either in display rate or tick resolution.  
+Time Unit: ESequenceTimeUnit Enum. Unit for frame values, either in display rate or tick resolution.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Vector 2D Structure. Returns Value at that time.
-

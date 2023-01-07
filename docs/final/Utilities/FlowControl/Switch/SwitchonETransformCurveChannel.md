@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14245285.png)
+![](/uploads/projects/ue-bluprint/20221218-14245285.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETTransformCurveChannel Enum.  
+选择。ETTransformCurveChannel Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Rotation(旋转) Exec.
 
 无效。执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14245285.png)
+![](/uploads/projects/ue-bluprint/20221218-14245285.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETransformCurveChannel Enum.  
+Selection: ETransformCurveChannel Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Rotation: Exec.
 Scale: Exec.
 
 Invalid: Exec.
-

@@ -2,11 +2,11 @@
 
 将位置记录为给定半径的球体--必须启用视觉日志的记录功能来记录这一数据。
 
-目标是Visual Logger Kismet库
+目标是 Visual Logger Kismet 库
 
 ## 图示
 
-![]($-20221218-18412624.png)
+![](/uploads/projects/ue-bluprint/20221218-18412624.png)
 
 ## Inputs
 
@@ -24,11 +24,13 @@
 
 日志类别。名称。
 
-添加到消息日志。布尔值。  
+添加到消息日志。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Logs location as sphere with given radius - recording for Visual Logs has to be enabled to record this data
 
@@ -36,7 +38,7 @@ Target is Visual Logger Kismet Library
 
 ## 图示
 
-![]($-20221218-18412624.png)
+![](/uploads/projects/ue-bluprint/20221218-18412624.png)
 
 ## Inputs
 
@@ -54,9 +56,8 @@ Radius: Float (single-precision).
 
 Log Category: Name.
 
-Add to Message Log: Boolean.  
+Add to Message Log: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

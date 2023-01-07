@@ -2,11 +2,11 @@
 
 设置显示名称
 
-目标是测试类型的元素界面A
+目标是测试类型的元素界面 A
 
 ## 图示
 
-![]($-20221218-21172707.png)
+![](/uploads/projects/ue-bluprint/20221218-21172707.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 在新名称中：文本。
 
-通知。布尔值。  
+通知。布尔值。
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 返回值。布尔值。设置显示名称。
 
+<hr>
+
 Set Display Name
 
 Target is Test Typed Element Interface A
 
 ## 图示
 
-![]($-20221218-21172707.png)
+![](/uploads/projects/ue-bluprint/20221218-21172707.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ In Element Handle: Script Typed Element Handle Structure (by ref).
 
 In New Name: Text.
 
-Notify: Boolean.  
+Notify: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Set Display Name.
-

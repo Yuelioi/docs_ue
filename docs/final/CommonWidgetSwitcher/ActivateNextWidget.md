@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18215712.png)
+![](/uploads/projects/ue-bluprint/20221218-18215712.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。普通动画切换器对象参考。
 
-可以包起来。布尔值。 
+可以包起来。布尔值。
 
 ## Outputs
 
 出来。执行：执行。
+
+<hr>
 
 Activate Next Widget
 
@@ -26,7 +28,7 @@ Target is Common Animated Switcher
 
 ## 图示
 
-![]($-20221218-18215712.png)
+![](/uploads/projects/ue-bluprint/20221218-18215712.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common Animated Switcher Object Reference.
 
-Can Wrap: Boolean.  
+Can Wrap: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

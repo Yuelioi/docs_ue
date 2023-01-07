@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21071126.png)
+![](/uploads/projects/ue-bluprint/20221218-21071126.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Modular Synth Component Object Reference。
 
-衰减时间Msec:Float（单精度）。  
+衰减时间 Msec:Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the envelope decay time in msec.
 
@@ -26,7 +28,7 @@ Target is Modular Synth Component
 
 ## 图示
 
-![]($-20221218-21071126.png)
+![](/uploads/projects/ue-bluprint/20221218-21071126.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Modular Synth Component Object Reference.
 
-Decay Time Msec: Float (single-precision).  
+Decay Time Msec: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

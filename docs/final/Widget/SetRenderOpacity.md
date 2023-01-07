@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21363435.png)
+![](/uploads/projects/ue-bluprint/20221218-21363435.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。小工具对象参考。
 
-在不透明度中。Float（单精度）。  
+在不透明度中。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the visibility of the widget.
 
@@ -26,7 +28,7 @@ Target is Widget
 
 ## 图示
 
-![]($-20221218-21363435.png)
+![](/uploads/projects/ue-bluprint/20221218-21363435.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Widget Object Reference.
 
-In Opacity: Float (single-precision).  
+In Opacity: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

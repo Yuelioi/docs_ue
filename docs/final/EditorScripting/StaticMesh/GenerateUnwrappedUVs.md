@@ -1,12 +1,12 @@
 # GenerateUnwrappedUVs
 
-生成扁平化贴图的UV
+生成扁平化贴图的 UV
 
-目标是UVGeneration扁平化映射
+目标是 UVGeneration 扁平化映射
 
 ## 图示
 
-![]($-20221218-18540374.png)
+![](/uploads/projects/ue-bluprint/20221218-18540374.png)
 
 ## Inputs
 
@@ -21,13 +21,16 @@ UVChannel: 整数。
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Generate Flatten Mapping UVs
 
 Target is UVGeneration Flatten Mapping
 
 ## 图示
 
-![]($-20221218-18540374.png)
+![](/uploads/projects/ue-bluprint/20221218-18540374.png)
 
 ## Inputs
 
@@ -37,9 +40,8 @@ In Static Mesh: Static Mesh Object Reference.
 
 UVChannel: Integer.
 
-Angle Threshold: Float (single-precision).  
+Angle Threshold: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

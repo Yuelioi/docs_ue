@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20563179.png)
+![](/uploads/projects/ue-bluprint/20221218-20563179.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 更新频率。Float（单精度），以毫秒为单位。(仅限安卓)。
 
-最小距离过滤器。Float（单精度）。  
+最小距离过滤器。Float（单精度）。
 
 ## Outputs
 
 出：执行。
 
-返回值。布尔值。如果初始化成功则为true。
+返回值。布尔值。如果初始化成功则为 true。
+
+<hr>
 
 Called to set up the Location Service before use
 
@@ -30,7 +32,7 @@ Target is Location Services
 
 ## 图示
 
-![]($-20221218-20563179.png)
+![](/uploads/projects/ue-bluprint/20221218-20563179.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Accuracy: ELocationAccuracy Enum. as seen in the enum above.
 
 Update Frequency: Float (single-precision). in milliseconds. (Android only).
 
-Min Distance Filter: Float (single-precision).  
+Min Distance Filter: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if Initialization was succesful.
-

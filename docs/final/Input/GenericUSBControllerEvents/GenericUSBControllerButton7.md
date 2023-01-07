@@ -1,10 +1,10 @@
 # GenericUSBControllerButton7
 
-当GenericUSBController Button 7键被按下或释放时的事件。
+当 GenericUSBController Button 7 键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19233534.png)
+![](/uploads/projects/ue-bluprint/20221218-19233534.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 钥匙。关键的结构。
 
+<hr>
+
 Events for when the GenericUSBController Button 7 key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19233534.png)
+![](/uploads/projects/ue-bluprint/20221218-19233534.png)
 
 ## Inputs
 
@@ -31,4 +33,3 @@ Pressed: Exec.
 Released: Exec.
 
 Key: Key Structure.
-

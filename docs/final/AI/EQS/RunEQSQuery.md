@@ -1,12 +1,12 @@
 # RunEQSQuery
 
-运行EQS查询
+运行 EQS 查询
 
 目标是环境查询管理器
 
 ## 图示
 
-![]($-20221218-17463228.png)
+![](/uploads/projects/ue-bluprint/20221218-17463228.png)
 
 ## Inputs
 
@@ -16,15 +16,17 @@
 
 查询者。对象参考。
 
-运行模式。EEnvQueryRunMode枚举。
+运行模式。EEnvQueryRunMode 枚举。
 
-包裹类。EQS查询实例类参考。 
+包裹类。EQS 查询实例类参考。
 
 ## Outputs
 
 输出。执行。
 
-返回值。EQS查询实例对象参考。运行EQS查询。
+返回值。EQS 查询实例对象参考。运行 EQS 查询。
+
+<hr>
 
 Run EQSQuery
 
@@ -32,7 +34,7 @@ Target is Env Query Manager
 
 ## 图示
 
-![]($-20221218-17463228.png)
+![](/uploads/projects/ue-bluprint/20221218-17463228.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Querier: Object Reference.
 
 Run Mode: EEnvQueryRunMode Enum.
 
-Wrapper Class: EQS Query Instance Class Reference.  
+Wrapper Class: EQS Query Instance Class Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: EQS Query Instance Object Reference. Run EQSQuery.
-

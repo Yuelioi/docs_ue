@@ -1,20 +1,20 @@
 # TryOverrideControllerType
 
-临时设置这是什么控制器类型，用于非对称控制方案。如果已经有一个控制器类型被覆盖，你就不能再覆盖了。用EControllerType::Unknown删除临时控制器类型。
+临时设置这是什么控制器类型，用于非对称控制方案。如果已经有一个控制器类型被覆盖，你就不能再覆盖了。用 EControllerType::Unknown 删除临时控制器类型。
 
-目标是VREditor Interactor
+目标是 VREditor Interactor
 
 ## 图示
 
-![]($-20221218-21320399.png)
+![](/uploads/projects/ue-bluprint/20221218-21320399.png)
 
 ## Inputs
 
 在。执行。
 
-目标。VREditor Interactor对象参考。
+目标。VREditor Interactor 对象参考。
 
-在控制器类型中。EControllerType Enum.  
+在控制器类型中。EControllerType Enum.
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。如果控制器类型被改变，则为真。
 
+<hr>
+
 Temporary set what controller type this is for asymmetric control schemes.. You can't override the controller type when there's already an override.. Remove the temporary controller type with EControllerType::Unknown
 
 Target is VREditor Interactor
 
 ## 图示
 
-![]($-20221218-21320399.png)
+![](/uploads/projects/ue-bluprint/20221218-21320399.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: VREditor Interactor Object Reference.
 
-In Controller Type: EControllerType Enum.  
+In Controller Type: EControllerType Enum.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if the controller type was changed.
-

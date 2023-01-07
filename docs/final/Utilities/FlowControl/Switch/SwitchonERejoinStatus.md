@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14225086.png)
+![](/uploads/projects/ue-bluprint/20221218-14225086.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERejoinStatus枚举。 
+选择。ERejoinStatus 枚举。
 
 ## Outputs
 
@@ -24,17 +24,19 @@ No Match To Rejoin: 执行。
 
 没有匹配的要重新加入 匹配结束了。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14225086.png)
+![](/uploads/projects/ue-bluprint/20221218-14225086.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERejoinStatus Enum.  
+Selection: ERejoinStatus Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Updating Status: Exec.
 Needs Recheck: Exec.
 
 No Match To Rejoin Match Ended: Exec.
-

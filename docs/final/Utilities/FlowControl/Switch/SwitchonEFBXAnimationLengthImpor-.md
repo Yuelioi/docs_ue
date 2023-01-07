@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14185253.png)
+![](/uploads/projects/ue-bluprint/20221218-14185253.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFBXAnimationLengthImportType枚举。 
+选择。EFBXAnimationLengthImportType 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 Set Range: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14185253.png)
+![](/uploads/projects/ue-bluprint/20221218-14185253.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFBXAnimationLengthImportType Enum.  
+Selection: EFBXAnimationLengthImportType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Exported Time: Exec.
 Animated Time: Exec.
 
 Set Range: Exec.
-

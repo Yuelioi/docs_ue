@@ -2,11 +2,11 @@
 
 用索引打开连接
 
-目标是Datasmith 目的地
+目标是 Datasmith 目的地
 
 ## 图示
 
-![]($-20221218-18405517.png)
+![](/uploads/projects/ue-bluprint/20221218-18405517.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。Datasmith 目的地对象参考。
 
-来源索引。整数。  
+来源索引。整数。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。用索引打开连接。
 
+<hr>
+
 Open Connection with Index
 
 Target is Datasmith Destination
 
 ## 图示
 
-![]($-20221218-18405517.png)
+![](/uploads/projects/ue-bluprint/20221218-18405517.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Datasmith Destination Object Reference.
 
-Source Index: Integer.  
+Source Index: Integer.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Open Connection with Index.
-

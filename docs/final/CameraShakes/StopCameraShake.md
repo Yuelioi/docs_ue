@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18143354.png)
+![](/uploads/projects/ue-bluprint/20221218-18143354.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 摇动实例。相机摇动基本对象参考。
 
-即时。布尔值。 
+即时。布尔值。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Immediately stops the given shake instance and invalidates it.
 
@@ -28,7 +30,7 @@ Target is Player Camera Manager
 
 ## 图示
 
-![]($-20221218-18143354.png)
+![](/uploads/projects/ue-bluprint/20221218-18143354.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Player Camera Manager Object Reference.
 
 Shake Instance: Camera Shake Base Object Reference.
 
-Immediately: Boolean.  
+Immediately: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

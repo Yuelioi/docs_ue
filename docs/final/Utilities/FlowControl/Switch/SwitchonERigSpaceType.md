@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14230585.png)
+![](/uploads/projects/ue-bluprint/20221218-14230585.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERigSpaceType枚举。 
+选择。ERigSpaceType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 空间。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14230585.png)
+![](/uploads/projects/ue-bluprint/20221218-14230585.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERigSpaceType Enum.  
+Selection: ERigSpaceType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Bone: Exec.
 Control: Exec.
 
 Space: Exec.
-

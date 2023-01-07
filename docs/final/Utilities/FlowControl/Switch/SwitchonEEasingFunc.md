@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14184380.png)
+![](/uploads/projects/ue-bluprint/20221218-14184380.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EEasingFunc Enum.  
+选择。EEasingFunc Enum.
 
 ## Outputs
 
@@ -42,17 +42,19 @@
 
 循环输入 循环输出。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14184380.png)
+![](/uploads/projects/ue-bluprint/20221218-14184380.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EEasingFunc Enum.  
+Selection: EEasingFunc Enum.
 
 ## Outputs
 
@@ -83,4 +85,3 @@ Circular In: Exec.
 Circular Out: Exec.
 
 Circular In Out: Exec.
-

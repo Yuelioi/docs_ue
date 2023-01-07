@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20404399.png)
+![](/uploads/projects/ue-bluprint/20221218-20404399.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Indicates the end of the work
 
@@ -22,13 +24,12 @@ Target is Dataprep Operation
 
 ## 图示
 
-![]($-20221218-20404399.png)
+![](/uploads/projects/ue-bluprint/20221218-20404399.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17543927.png)
+![](/uploads/projects/ue-bluprint/20221218-17543927.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标：图像对象参考。
 
-色调颜色：石板颜色结构。 
+色调颜色：石板颜色结构。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Brush Tint Color
 
@@ -26,7 +28,7 @@ Target is Image
 
 ## 图示
 
-![]($-20221218-17543927.png)
+![](/uploads/projects/ue-bluprint/20221218-17543927.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Image Object Reference.
 
-Tint Color: Slate Color Structure.  
+Tint Color: Slate Color Structure.
 
 ## Outputs
 
 Out: Exec.
-

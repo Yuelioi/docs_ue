@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20354463.png)
+![](/uploads/projects/ue-bluprint/20221218-20354463.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。文本渲染组件对象参考。
 
-材料。材料界面对象参考。  
+材料。材料界面对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Change the text material and signal the primitives to be rebuilt
 
@@ -26,7 +28,7 @@ Target is Text Render Component
 
 ## 图示
 
-![]($-20221218-20354463.png)
+![](/uploads/projects/ue-bluprint/20221218-20354463.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Text Render Component Object Reference.
 
-Material: Material Interface Object Reference.  
+Material: Material Interface Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

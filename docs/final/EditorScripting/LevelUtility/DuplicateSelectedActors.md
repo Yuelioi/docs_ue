@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18504263.png)
+![](/uploads/projects/ue-bluprint/20221218-18504263.png)
 
 ## Inputs
 
@@ -19,13 +19,16 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Duplicate all the selected actors in the given world
 
 Target is Editor Actor Subsystem
 
 ## 图示
 
-![]($-20221218-18504263.png)
+![](/uploads/projects/ue-bluprint/20221218-18504263.png)
 
 ## Inputs
 
@@ -33,9 +36,8 @@ In: Exec.
 
 Target: Editor Actor Subsystem Object Reference.
 
-In World: World Object Reference. The world the actors are selected in..  
+In World: World Object Reference. The world the actors are selected in..
 
 ## Outputs
 
 Out: Exec.
-

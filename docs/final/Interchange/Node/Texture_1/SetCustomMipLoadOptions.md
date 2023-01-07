@@ -1,12 +1,12 @@
 # SetCustomMipLoadOptions
 
-设置自定义Mip负载选项
+设置自定义 Mip 负载选项
 
 目标是互换纹理工厂节点
 
 ## 图示
 
-![]($-20221218-19353731.png)
+![](/uploads/projects/ue-bluprint/20221218-19353731.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 属性值。字节（通过引用）。
 
-添加应用代表。Boolean.  
+添加应用代表。Boolean.
 
 ## Outputs
 
 出：执行。
 
-返回值。布尔值。设置自定义Mip加载选项。
+返回值。布尔值。设置自定义 Mip 加载选项。
+
+<hr>
 
 Set Custom Mip Load Options
 
@@ -30,7 +32,7 @@ Target is Interchange Texture Factory Node
 
 ## 图示
 
-![]($-20221218-19353731.png)
+![](/uploads/projects/ue-bluprint/20221218-19353731.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Interchange Texture Factory Node Object Reference.
 
 Attribute Value: Byte (by ref).
 
-Add Apply Delegate: Boolean.  
+Add Apply Delegate: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Set Custom Mip Load Options.
-

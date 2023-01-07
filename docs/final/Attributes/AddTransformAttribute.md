@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18021445.png)
+![](/uploads/projects/ue-bluprint/20221218-18021445.png)
 
 ## Inputs
 
@@ -20,7 +20,7 @@ Anim Sequence Base: Anim Sequence Base 对象参考.
 
 键。Float（单精度）的数组。
 
-值。变换的数组。 
+值。变换的数组。
 
 ## Outputs
 
@@ -28,13 +28,15 @@ Anim Sequence Base: Anim Sequence Base 对象参考.
 
 返回值。布尔值。添加变换属性。
 
+<hr>
+
 Add Transform Attribute
 
 Target is Built in Attributes Extensions
 
 ## 图示
 
-![]($-20221218-18021445.png)
+![](/uploads/projects/ue-bluprint/20221218-18021445.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Bone Name: Name (by ref).
 
 Keys: Array of Float (single-precision)s.
 
-Values: Array of Transforms.  
+Values: Array of Transforms.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Add Transform Attribute.
-

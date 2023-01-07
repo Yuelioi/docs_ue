@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21052920.png)
+![](/uploads/projects/ue-bluprint/20221218-21052920.png)
 
 ## Inputs
 
-数据。子对象数据结构（通过参考）。  
+数据。子对象数据结构（通过参考）。
 
 ## Outputs
 
 返回值。布尔值。是继承的组件。
+
+<hr>
 
 Is Inherited Component
 
@@ -22,13 +24,12 @@ Target is Subobject Data Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-21052920.png)
+![](/uploads/projects/ue-bluprint/20221218-21052920.png)
 
 ## Inputs
 
-Data: Subobject Data Structure (by ref).  
+Data: Subobject Data Structure (by ref).
 
 ## Outputs
 
 Return Value: Boolean. Is Inherited Component.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18315964.png)
+![](/uploads/projects/ue-bluprint/20221218-18315964.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在绝对时间。浮点数（单精度）。
 
-在设置三角洲时间零点：布尔值。 
+在设置三角洲时间零点：布尔值。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set the current absolute time
 
@@ -28,7 +30,7 @@ Target is Control Rig
 
 ## 图示
 
-![]($-20221218-18315964.png)
+![](/uploads/projects/ue-bluprint/20221218-18315964.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Control Rig Object Reference.
 
 In Absolute Time: Float (single-precision).
 
-In Set Delta Time Zero: Boolean.  
+In Set Delta Time Zero: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

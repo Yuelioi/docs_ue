@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21054439.png)
+![](/uploads/projects/ue-bluprint/20221218-21054439.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 手柄。子对象数据处理结构的阵列。
 
-Bp Context:蓝图对象参考。  
+Bp Context:蓝图对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Copy Subobjects
 
@@ -28,7 +30,7 @@ Target is Subobject Data Subsystem
 
 ## 图示
 
-![]($-20221218-21054439.png)
+![](/uploads/projects/ue-bluprint/20221218-21054439.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Subobject Data Subsystem Object Reference.
 
 Handles: Array of Subobject Data Handle Structures.
 
-Bp Context: Blueprint Object Reference.  
+Bp Context: Blueprint Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

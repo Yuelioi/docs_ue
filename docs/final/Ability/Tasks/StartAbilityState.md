@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17331608.png)
+![](/uploads/projects/ue-bluprint/20221218-17331608.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 状态名称。名称。状态的名称。
 
-结束 当前状态。布尔值。如果为真，所有其他活动能力状态将被结束。 
+结束 当前状态。布尔值。如果为真，所有其他活动能力状态将被结束。
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 在状态中断时。执行。On State Interrupted:.状态中断时。如果能力被中断，并且这个状态处于激活状态，则调用。
 
+<hr>
+
 Starts a new ability state.
 
 Target is Ability Task Start Ability State
 
 ## 图示
 
-![]($-20221218-17331608.png)
+![](/uploads/projects/ue-bluprint/20221218-17331608.png)
 
 ## Inputs
 
@@ -40,7 +42,7 @@ In: Exec.
 
 State Name: Name. The name of the state..
 
-End Current State: Boolean. If true, all other active ability states will be ended..  
+End Current State: Boolean. If true, all other active ability states will be ended..
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Async Task: Ability Task Start Ability State Object Reference.
 On State Ended: Exec. On State Ended:. Invoked if 'EndAbilityState' is called or if 'EndAbility' is called and this state is active..
 
 On State Interrupted: Exec. On State Interrupted:. Invoked if the ability was interrupted and this state is active..
-

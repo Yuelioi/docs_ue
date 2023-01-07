@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18544573.png)
+![](/uploads/projects/ue-bluprint/20221218-18544573.png)
 
 ## Inputs
 
@@ -21,13 +21,16 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Set the beam end point
 
 Target is Particle System Component
 
 ## 图示
 
-![]($-20221218-18544573.png)
+![](/uploads/projects/ue-bluprint/20221218-18544573.png)
 
 ## Inputs
 
@@ -37,9 +40,8 @@ Target: Particle System Component Object Reference.
 
 Emitter Index: Integer. The index of the emitter to set it on.
 
-New End Point: Vector. The value to set it to.  
+New End Point: Vector. The value to set it to.
 
 ## Outputs
 
 Out: Exec.
-

@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-18453646.png)
+![](/uploads/projects/ue-bluprint/20221218-18453646.png)
 
 ## Inputs
 
@@ -13,17 +13,19 @@
 ## Outputs
 
 三角形计数。整数。网格中三角形的数量。
+
+<hr>
+
 Target is Dynamic Mesh
 
 ## 图示
 
-![]($-20221218-18453646.png)
+![](/uploads/projects/ue-bluprint/20221218-18453646.png)
 
 ## Inputs
 
-Target: Dynamic Mesh Object Reference.  
+Target: Dynamic Mesh Object Reference.
 
 ## Outputs
 
 Triangle Count: Integer. number of triangles in the mesh.
-

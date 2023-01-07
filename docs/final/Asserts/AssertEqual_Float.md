@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17591664.png)
+![](/uploads/projects/ue-bluprint/20221218-17591664.png)
 
 ## Inputs
 
@@ -20,7 +20,7 @@
 
 What：字符串。如果断言失败，在消息中使用的名称（What: expected {Actual} to be Equal To {Expected} within Tolerance for context '' ）。
 
-Tolerance。浮点数（单精度）。 
+Tolerance。浮点数（单精度）。
 
 ## Outputs
 
@@ -28,13 +28,15 @@ Tolerance。浮点数（单精度）。
 
 返回值。布尔值。
 
+<hr>
+
 Assert that two floats are equal within tolerance between two floats.
 
 Target is Functional Test
 
 ## 图示
 
-![]($-20221218-17591664.png)
+![](/uploads/projects/ue-bluprint/20221218-17591664.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Expected: Float (single-precision).
 
 What: String. A name to use in the message if the assert fails (What: expected {Actual} to be Equal To {Expected} within Tolerance for context '').
 
-Tolerance: Float (single-precision).  
+Tolerance: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

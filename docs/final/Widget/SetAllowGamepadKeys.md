@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21355198.png)
+![](/uploads/projects/ue-bluprint/20221218-21355198.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标：输入键选择器对象参考。
 
-在允许游戏手柄键。布尔值。  
+在允许游戏手柄键。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets whether or not gamepad keys are allowed in the selected key.
 
@@ -26,7 +28,7 @@ Target is Input Key Selector
 
 ## 图示
 
-![]($-20221218-21355198.png)
+![](/uploads/projects/ue-bluprint/20221218-21355198.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Input Key Selector Object Reference.
 
-In Allow Gamepad Keys: Boolean.  
+In Allow Gamepad Keys: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

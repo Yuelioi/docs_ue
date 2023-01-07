@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-20351981.png)
+![](/uploads/projects/ue-bluprint/20221218-20351981.png)
 
 ## Inputs
 
 在。执行。
 
-目标。文本 3DComponent对象参考。
+目标。文本 3DComponent 对象参考。
 
-冻结。布尔值。  
+冻结。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Freeze mesh rebuild, to avoid unnecessary mesh rebuilds when setting a few properties together
 
@@ -26,7 +28,7 @@ Target is Text 3DComponent
 
 ## 图示
 
-![]($-20221218-20351981.png)
+![](/uploads/projects/ue-bluprint/20221218-20351981.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Text 3DComponent Object Reference.
 
-Freeze: Boolean.  
+Freeze: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

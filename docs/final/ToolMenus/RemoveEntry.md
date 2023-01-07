@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21135575.png)
+![](/uploads/projects/ue-bluprint/20221218-21135575.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 节。名称：
 
-姓名：姓名  
+姓名：姓名
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Removes a menu entry from a given menu and section
 
@@ -30,7 +32,7 @@ Target is Tool Menus
 
 ## 图示
 
-![]($-20221218-21135575.png)
+![](/uploads/projects/ue-bluprint/20221218-21135575.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Menu Name: Name.
 
 Section: Name.
 
-Name: Name.  
+Name: Name.
 
 ## Outputs
 
 Out: Exec.
-

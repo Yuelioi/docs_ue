@@ -6,21 +6,23 @@
 
 ## 图示
 
-![]($-20221218-17524205.png)
+![](/uploads/projects/ue-bluprint/20221218-17524205.png)
 
 ## Inputs
 
 动画序列基础。动画序列基础对象参考。
 
-轨道名称。名称.  
+轨道名称。名称.
 
 ## Outputs
 
 位置键。矢量数组。
 
-Rotation Keys: Quat结构的数组。
+Rotation Keys: Quat 结构的数组。
 
 缩放键。矢量数组。
+
+<hr>
 
 Retrieves the Raw Animation Data for the given Animation Track Name and Animation Sequence
 
@@ -28,13 +30,13 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17524205.png)
+![](/uploads/projects/ue-bluprint/20221218-17524205.png)
 
 ## Inputs
 
 Animation Sequence Base: Anim Sequence Base Object Reference.
 
-Track Name: Name.  
+Track Name: Name.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Position Keys: Array of Vectors.
 Rotation Keys: Array of Quat Structures.
 
 Scaling Keys: Array of Vectors.
-

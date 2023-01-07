@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-19373259.png)
+![](/uploads/projects/ue-bluprint/20221218-19373259.png)
 
 ## Inputs
 
-目标。分层子系统对象参考。  
+目标。分层子系统对象参考。
 
 ## Outputs
 
 Out Layers:层对象参考数组。
+
+<hr>
 
 Gets all known layers and appends them to the provided array
 
@@ -22,13 +24,12 @@ Target is Layers Subsystem
 
 ## 图示
 
-![]($-20221218-19373259.png)
+![](/uploads/projects/ue-bluprint/20221218-19373259.png)
 
 ## Inputs
 
-Target: Layers Subsystem Object Reference.  
+Target: Layers Subsystem Object Reference.
 
 ## Outputs
 
 Out Layers: Array of Layer Object References.
-

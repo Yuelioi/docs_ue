@@ -1,20 +1,22 @@
 # GetDuration
 
-返回A的绝对值
+返回 A 的绝对值
 
-目标是Kismet数学图书馆
+目标是 Kismet 数学图书馆
 
 ## 图示
 
-![]($-20221218-19550735.png)
+![](/uploads/projects/ue-bluprint/20221218-19550735.png)
 
 ## Inputs
 
-答：时间跨度结构。  
+答：时间跨度结构。
 
 ## Outputs
 
-返回值。Timespan结构。返回A的绝对值。
+返回值。Timespan 结构。返回 A 的绝对值。
+
+<hr>
 
 Returns the absolute value of A
 
@@ -22,13 +24,12 @@ Target is Kismet Math Library
 
 ## 图示
 
-![]($-20221218-19550735.png)
+![](/uploads/projects/ue-bluprint/20221218-19550735.png)
 
 ## Inputs
 
-A: Timespan Structure.  
+A: Timespan Structure.
 
 ## Outputs
 
 Return Value: Timespan Structure. Returns the absolute value of A.
-

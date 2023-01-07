@@ -2,11 +2,11 @@
 
 检查给定的命令是否在子系统中注册。使用名称、集合和上下文进行比较
 
-目标是UICommands脚本子系统
+目标是 UICommands 脚本子系统
 
 ## 图示
 
-![]($-20221218-18483209.png)
+![](/uploads/projects/ue-bluprint/20221218-18483209.png)
 
 ## Inputs
 
@@ -18,14 +18,17 @@
 
 ## Outputs
 
-返回值。布尔值。检查给定的命令是否已在子系统中注册。使用name、set和context进行比较。
+返回值。布尔值。检查给定的命令是否已在子系统中注册。使用 name、set 和 context 进行比较。
+
+<hr>
+
 Checks whether the given command is registered within the subsystem. Using name, set and context for comparison
 
 Target is UICommands Scripting Subsystem
 
 ## 图示
 
-![]($-20221218-18483209.png)
+![](/uploads/projects/ue-bluprint/20221218-18483209.png)
 
 ## Inputs
 
@@ -33,9 +36,8 @@ Target: UICommands Scripting Subsystem Object Reference.
 
 Command Info: Scripting Command Info Structure.
 
-Check Input Chord: Boolean.  
+Check Input Chord: Boolean.
 
 ## Outputs
 
 Return Value: Boolean. Checks whether the given command is registered within the subsystem. Using name, set and context for comparison.
-

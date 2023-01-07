@@ -1,12 +1,12 @@
 # SetSendIPAddress
 
-设置OSC客户端的IP地址和端口。返回地址和端口是否被成功设置。
+设置 OSC 客户端的 IP 地址和端口。返回地址和端口是否被成功设置。
 
-目标是OSCClient
+目标是 OSCClient
 
 ## 图示
 
-![]($-20221218-18063169.png)
+![](/uploads/projects/ue-bluprint/20221218-18063169.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 IPAddress。字符串。
 
-Port: 整数。 
+Port: 整数。
 
 ## Outputs
 
 输出。Exec。
 
-返回值。布尔值。设置OSC客户端的IP地址和端口。返回地址和端口是否被成功设置。
+返回值。布尔值。设置 OSC 客户端的 IP 地址和端口。返回地址和端口是否被成功设置。
+
+<hr>
 
 Sets the OSC Client IP address and port. Returns whether. address and port was successfully set.
 
@@ -30,7 +32,7 @@ Target is OSCClient
 
 ## 图示
 
-![]($-20221218-18063169.png)
+![](/uploads/projects/ue-bluprint/20221218-18063169.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: OSCClient Object Reference.
 
 IPAddress: String.
 
-Port: Integer.  
+Port: Integer.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Sets the OSC Client IP address and port. Returns whether. address and port was successfully set..
-

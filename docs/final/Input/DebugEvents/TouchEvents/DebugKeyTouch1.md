@@ -1,10 +1,10 @@
 # DebugKeyTouch1
 
-触摸1键被按下或释放时的事件。
+触摸 1 键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19215298.png)
+![](/uploads/projects/ue-bluprint/20221218-19215298.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 行动值。输入行动值结构。
 
+<hr>
+
 Events for when the Touch 1 key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19215298.png)
+![](/uploads/projects/ue-bluprint/20221218-19215298.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

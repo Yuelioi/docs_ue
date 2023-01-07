@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14181927.png)
+![](/uploads/projects/ue-bluprint/20221218-14181927.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDisplayClusterNodeRole Enum.  
+选择。EDisplayClusterNodeRole Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Primary（主要）：Exec.
 
 备份：Exec: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14181927.png)
+![](/uploads/projects/ue-bluprint/20221218-14181927.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDisplayClusterNodeRole Enum.  
+Selection: EDisplayClusterNodeRole Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Primary: Exec.
 Secondary: Exec.
 
 Backup: Exec.
-

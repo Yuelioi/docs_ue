@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19043784.png)
+![](/uploads/projects/ue-bluprint/20221218-19043784.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 车轮索引：整数。
 
-在车轮类。混沌车辆轮子类参考。  
+在车轮类。混沌车辆轮子类参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Wheel Class
 
@@ -28,7 +30,7 @@ Target is Chaos Wheeled Vehicle Movement Component
 
 ## 图示
 
-![]($-20221218-19043784.png)
+![](/uploads/projects/ue-bluprint/20221218-19043784.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Chaos Wheeled Vehicle Movement Component Object Reference.
 
 Wheel Index: Integer.
 
-In Wheel Class: Chaos Vehicle Wheel Class Reference.  
+In Wheel Class: Chaos Vehicle Wheel Class Reference.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18114155.png)
+![](/uploads/projects/ue-bluprint/20221218-18114155.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 蓝图。蓝图对象参考。要搜索的蓝图。
 
-图形名称。名称。要搜索的图的名称。 
+图形名称。名称。要搜索的图的名称。
 
 ## Outputs
 
 Out: 执行。
 
-返回值。Ed Graph对象参考。UEdGraph* 指向具有给定名称的图的指针，如果没有找到则为空。
+返回值。Ed Graph 对象参考。UEdGraph\* 指向具有给定名称的图的指针，如果没有找到则为空。
+
+<hr>
 
 Finds the graph with the given name on the blueprint. Null if it doesn't have one.
 
@@ -28,7 +30,7 @@ Target is Blueprint Editor Library
 
 ## 图示
 
-![]($-20221218-18114155.png)
+![](/uploads/projects/ue-bluprint/20221218-18114155.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Blueprint: Blueprint Object Reference. Blueprint to search.
 
-Graph Name: Name. The name of the graph to search for.  
+Graph Name: Name. The name of the graph to search for.
 
 ## Outputs
 
 Out: Exec.
 
-Return Value: Ed Graph Object Reference. UEdGraph* Pointer to the graph with the given name, null if not found.
-
+Return Value: Ed Graph Object Reference. UEdGraph\* Pointer to the graph with the given name, null if not found.

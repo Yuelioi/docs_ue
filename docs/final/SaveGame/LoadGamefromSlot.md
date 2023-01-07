@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20470505.png)
+![](/uploads/projects/ue-bluprint/20221218-20470505.png)
 
 ## Inputs
 
@@ -20,7 +20,9 @@
 
 出：执行。
 
-返回值。保存游戏对象参考。包含加载的游戏状态的对象（如果加载失败则为nullptr）。
+返回值。保存游戏对象参考。包含加载的游戏状态的对象（如果加载失败则为 nullptr）。
+
+<hr>
 
 Load the contents from a given slot.
 
@@ -28,7 +30,7 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-20470505.png)
+![](/uploads/projects/ue-bluprint/20221218-20470505.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Slot Name: String. Name of the save game slot to load from..
 
-User Index: Integer. For some platforms, master user index to identify the user doing the loading..  
+User Index: Integer. For some platforms, master user index to identify the user doing the loading..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Save Game Object Reference. Object containing loaded game state (nullptr if load fails).
-

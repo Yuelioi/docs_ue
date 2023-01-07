@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17542333.png)
+![](/uploads/projects/ue-bluprint/20221218-17542333.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。文本对象参考。
 
-在自动文本包络。布尔值。打开或关闭换行。 
+在自动文本包络。布尔值。打开或关闭换行。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set the auto wrap for this text block.
 
@@ -26,7 +28,7 @@ Target is Text
 
 ## 图示
 
-![]($-20221218-17542333.png)
+![](/uploads/projects/ue-bluprint/20221218-17542333.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Text Object Reference.
 
-In Auto Text Wrap: Boolean. to turn wrap on or off..  
+In Auto Text Wrap: Boolean. to turn wrap on or off..
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18274869.png)
+![](/uploads/projects/ue-bluprint/20221218-18274869.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标：高质量层（Steam VR）对象参考。
 
-在反别名中：布尔值。 
+在反别名中：布尔值。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Anti Alias
 
@@ -26,7 +28,7 @@ Target is High Quality Layer (SteamVR)
 
 ## 图示
 
-![]($-20221218-18274869.png)
+![](/uploads/projects/ue-bluprint/20221218-18274869.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: High Quality Layer (Steam VR) Object Reference.
 
-In Anti Alias: Boolean.  
+In Anti Alias: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

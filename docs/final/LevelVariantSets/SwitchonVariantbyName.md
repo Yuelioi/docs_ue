@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19424364.png)
+![](/uploads/projects/ue-bluprint/20221218-19424364.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 变体集名称。字符串。
 
-变体名称。字符串。  
+变体名称。字符串。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。按名称打开变体。
 
+<hr>
+
 Switch on Variant by Name
 
 Target is Level Variant Sets Actor
 
 ## 图示
 
-![]($-20221218-19424364.png)
+![](/uploads/projects/ue-bluprint/20221218-19424364.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Level Variant Sets Actor Object Reference.
 
 Variant Set Name: String.
 
-Variant Name: String.  
+Variant Name: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Switch on Variant by Name.
-

@@ -1,20 +1,22 @@
 # MakeSoftObjectPath
 
-构建一个 SoftObjectPath 结构。一般来说，你应该使用软对象引用/Ptr类型来代替。
+构建一个 SoftObjectPath 结构。一般来说，你应该使用软对象引用/Ptr 类型来代替。
 
-目标是Kismet系统库
+目标是 Kismet 系统库
 
 ## 图示
 
-![]($-20221218-14265255.png)
+![](/uploads/projects/ue-bluprint/20221218-14265255.png)
 
 ## Inputs
 
-路径字符串：字符串。  
+路径字符串：字符串。
 
 ## Outputs
 
-返回值。软对象路径结构。构建一个SoftObjectPath结构。一般来说，你应该使用软对象引用/Ptr类型来代替。
+返回值。软对象路径结构。构建一个 SoftObjectPath 结构。一般来说，你应该使用软对象引用/Ptr 类型来代替。
+
+<hr>
 
 Builds a SoftObjectPath struct. Generally you should be using Soft Object References/Ptr types instead
 
@@ -22,13 +24,12 @@ Target is Kismet System Library
 
 ## 图示
 
-![]($-20221218-14265255.png)
+![](/uploads/projects/ue-bluprint/20221218-14265255.png)
 
 ## Inputs
 
-Path String: String.  
+Path String: String.
 
 ## Outputs
 
 Return Value: Soft Object Path Structure. Builds a SoftObjectPath struct. Generally you should be using Soft Object References/Ptr types instead.
-

@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20542254.png)
+![](/uploads/projects/ue-bluprint/20221218-20542254.png)
 
 ## Inputs
 
 在。执行。
 
-范围。序列器脚本的范围结构（通过引用）。从中获取终点的范围。  
+范围。序列器脚本的范围结构（通过引用）。从中获取终点的范围。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。整数。
 
+<hr>
+
 Get the ending frame for the specified range, if it has one. Defined as the first subsequent frame that is outside of the range.
 
 Target is Sequencer Scripting Range Extensions
 
 ## 图示
 
-![]($-20221218-20542254.png)
+![](/uploads/projects/ue-bluprint/20221218-20542254.png)
 
 ## Inputs
 
 In: Exec.
 
-Range: Sequencer Scripting Range Structure (by ref). The range to get the end from.  
+Range: Sequencer Scripting Range Structure (by ref). The range to get the end from.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer.
-

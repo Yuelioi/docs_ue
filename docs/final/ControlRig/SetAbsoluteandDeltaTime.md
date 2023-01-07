@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18315840.png)
+![](/uploads/projects/ue-bluprint/20221218-18315840.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在绝对时间。浮点数（单精度）。
 
-在Delta时间中。浮点数（单精度）。 
+在 Delta 时间中。浮点数（单精度）。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set the current absolute and delta times
 
@@ -28,7 +30,7 @@ Target is Control Rig
 
 ## 图示
 
-![]($-20221218-18315840.png)
+![](/uploads/projects/ue-bluprint/20221218-18315840.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Control Rig Object Reference.
 
 In Absolute Time: Float (single-precision).
 
-In Delta Time: Float (single-precision).  
+In Delta Time: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

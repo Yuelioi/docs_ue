@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14190305.png)
+![](/uploads/projects/ue-bluprint/20221218-14190305.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFieldFalloffType枚举。 
+选择。EFieldFalloffType 枚举。
 
 ## Outputs
 
@@ -24,17 +24,19 @@
 
 对数。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14190305.png)
+![](/uploads/projects/ue-bluprint/20221218-14190305.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFieldFalloffType Enum.  
+Selection: EFieldFalloffType Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Inverse: Exec.
 Squared: Exec.
 
 Logarithmic: Exec.
-

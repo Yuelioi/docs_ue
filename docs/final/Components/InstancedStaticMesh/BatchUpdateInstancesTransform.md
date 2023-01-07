@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18243316.png)
+![](/uploads/projects/ue-bluprint/20221218-18243316.png)
 
 ## Inputs
 
@@ -24,7 +24,7 @@ New Instances Transform: 变换（通过引用）。新的变换。
 
 Mark Render State Dirty（标记渲染状态）。布尔值。如果为真，变化应该立即可见。如果你要更新许多实例，你应该只为最后一个实例设置为真。
 
-传送。布尔值。实例物理是否应该被正常移动，或者被传送（瞬间移动，忽略速度）。 
+传送。布尔值。实例物理是否应该被正常移动，或者被传送（瞬间移动，忽略速度）。
 
 ## Outputs
 
@@ -32,13 +32,15 @@ Mark Render State Dirty（标记渲染状态）。布尔值。如果为真，变
 
 返回值。布尔值。成功时为真。
 
+<hr>
+
 Update the transform for a number of instances.
 
 Target is Instanced Static Mesh Component
 
 ## 图示
 
-![]($-20221218-18243316.png)
+![](/uploads/projects/ue-bluprint/20221218-18243316.png)
 
 ## Inputs
 
@@ -56,11 +58,10 @@ World Space: Boolean. If true, the new transform is interpreted as a World Space
 
 Mark Render State Dirty: Boolean. If true, the change should be visible immediately. If you are updating many instances you should only set this to true for the last instance..
 
-Teleport: Boolean. Whether or not the instances physics should be moved normally, or teleported (moved instantly, ignoring velocity)..  
+Teleport: Boolean. Whether or not the instances physics should be moved normally, or teleported (moved instantly, ignoring velocity)..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. True on success..
-

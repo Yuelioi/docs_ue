@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21135695.png)
+![](/uploads/projects/ue-bluprint/20221218-21135695.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。工具菜单对象参考。
 
-菜单名称：名称。  
+菜单名称：名称。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Unregisters a menu by name
 
@@ -26,7 +28,7 @@ Target is Tool Menus
 
 ## 图示
 
-![]($-20221218-21135695.png)
+![](/uploads/projects/ue-bluprint/20221218-21135695.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Tool Menus Object Reference.
 
-Menu Name: Name.  
+Menu Name: Name.
 
 ## Outputs
 
 Out: Exec.
-

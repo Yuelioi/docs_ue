@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20344921.png)
+![](/uploads/projects/ue-bluprint/20221218-20344921.png)
 
 ## Inputs
 
 在。执行。
 
-目标。天空之光组件对象参考。  
+目标。天空之光组件对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Recaptures the scene for the skylight.. This is useful for making sure the sky light is up to date after changing something in the world that it would capture.. Warning: this is very costly and will definitely cause a hitch.
 
@@ -24,15 +26,14 @@ Target is Sky Light Component
 
 ## 图示
 
-![]($-20221218-20344921.png)
+![](/uploads/projects/ue-bluprint/20221218-20344921.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Sky Light Component Object Reference.  
+Target: Sky Light Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

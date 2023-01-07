@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21154824.png)
+![](/uploads/projects/ue-bluprint/20221218-21154824.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 目的地位置。矢量。目标目的点。
 
-命运轮回。旋转器。目的地的目标旋转。  
+命运轮回。旋转器。目的地的目标旋转。
 
 ## Outputs
 
 出：执行。
 
-返回值。布尔值。如果演员被成功移动，则为true，如果不能适应，则为false。
+返回值。布尔值。如果演员被成功移动，则为 true，如果不能适应，则为 false。
+
+<hr>
 
 Teleport this actor to a new location. If the actor doesn't fit exactly at the location specified, tries to slightly move it out of walls and such.
 
@@ -30,7 +32,7 @@ Target is Actor
 
 ## 图示
 
-![]($-20221218-21154824.png)
+![](/uploads/projects/ue-bluprint/20221218-21154824.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Actor Object Reference.
 
 Dest Location: Vector. The target destination point.
 
-Dest Rotation: Rotator. The target rotation at the destination.  
+Dest Rotation: Rotator. The target rotation at the destination.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if the actor has been successfully moved, or false if it couldn't fit..
-

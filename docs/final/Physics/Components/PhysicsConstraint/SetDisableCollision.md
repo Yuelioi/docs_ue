@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20211805.png)
+![](/uploads/projects/ue-bluprint/20221218-20211805.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。物理约束组件对象参考。
 
-禁用碰撞。布尔型。  
+禁用碰撞。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 If true, the collision between the two rigid bodies of the constraint will be disabled.
 
@@ -26,7 +28,7 @@ Target is Physics Constraint Component
 
 ## 图示
 
-![]($-20221218-20211805.png)
+![](/uploads/projects/ue-bluprint/20221218-20211805.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Physics Constraint Component Object Reference.
 
-Disable Collision: Boolean.  
+Disable Collision: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

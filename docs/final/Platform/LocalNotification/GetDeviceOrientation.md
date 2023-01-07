@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-20293627.png)
+![](/uploads/projects/ue-bluprint/20221218-20293627.png)
 
 ## Inputs
 
@@ -12,15 +12,16 @@
 
 返回值。EScreenOrientation Enum.当前设备方向。
 
+<hr>
+
 Target is Blueprint Platform Library
 
 ## 图示
 
-![]($-20221218-20293627.png)
+![](/uploads/projects/ue-bluprint/20221218-20293627.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: EScreenOrientation Enum. the current device orientation.
-

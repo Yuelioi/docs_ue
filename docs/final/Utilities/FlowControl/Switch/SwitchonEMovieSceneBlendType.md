@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14214762.png)
+![](/uploads/projects/ue-bluprint/20221218-14214762.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMovieSceneBlendType枚举。 
+选择。EMovieSceneBlendType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Relative（相对的）。Exec.
 
 从基础开始加法。执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14214762.png)
+![](/uploads/projects/ue-bluprint/20221218-14214762.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMovieSceneBlendType Enum.  
+Selection: EMovieSceneBlendType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Additive: Exec.
 Relative: Exec.
 
 Additive From Base: Exec.
-

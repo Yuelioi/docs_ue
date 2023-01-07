@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17350428.png)
+![](/uploads/projects/ue-bluprint/20221218-17350428.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。行为者对象参考。
 
-勾选间隔。Float（单精度）。这个行为者应该以何种速率进行滴答。 
+勾选间隔。Float（单精度）。这个行为者应该以何种速率进行滴答。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets the tick interval of this actor's primary tick function. Will not enable a disabled tick function. Takes effect on next tick.
 
@@ -26,7 +28,7 @@ Target is Actor
 
 ## 图示
 
-![]($-20221218-17350428.png)
+![](/uploads/projects/ue-bluprint/20221218-17350428.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Actor Object Reference.
 
-Tick Interval: Float (single-precision). The rate at which this actor should be ticking.  
+Tick Interval: Float (single-precision). The rate at which this actor should be ticking.
 
 ## Outputs
 
 Out: Exec.
-

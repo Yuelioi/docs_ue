@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17513156.png)
+![](/uploads/projects/ue-bluprint/20221218-17513156.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 动画序列基础。Anim Sequence Base 对象参考。
 
-通知轨道名称。名称：  
+通知轨道名称。名称：
 
 ## Outputs
 
 Out: Exec.
+
+<hr>
 
 Removes an Animation Notify Track from Animation Sequence by Name
 
@@ -26,7 +28,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17513156.png)
+![](/uploads/projects/ue-bluprint/20221218-17513156.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Animation Sequence Base: Anim Sequence Base Object Reference.
 
-Notify Track Name: Name.  
+Notify Track Name: Name.
 
 ## Outputs
 
 Out: Exec.
-

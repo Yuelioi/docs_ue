@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18213540.png)
+![](/uploads/projects/ue-bluprint/20221218-18213540.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。通用文本对象参考。
 
-在 包裹文本 在。整数。 
+在 包裹文本 在。整数。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set Wrap Text Width
 
@@ -26,7 +28,7 @@ Target is Common Text
 
 ## 图示
 
-![]($-20221218-18213540.png)
+![](/uploads/projects/ue-bluprint/20221218-18213540.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common Text Object Reference.
 
-In Wrap Text At: Integer.  
+In Wrap Text At: Integer.
 
 ## Outputs
 
 Out: Exec.
-

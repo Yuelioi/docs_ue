@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18270482.png)
+![](/uploads/projects/ue-bluprint/20221218-18270482.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 LODIndex。整数。
 
-偏移量。矢量数组。 
+偏移量。矢量数组。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set Post Skinning Offsets
 
@@ -28,7 +30,7 @@ Target is Skinned Mesh Component
 
 ## 图示
 
-![]($-20221218-18270482.png)
+![](/uploads/projects/ue-bluprint/20221218-18270482.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Skinned Mesh Component Object Reference.
 
 LODIndex: Integer.
 
-Offsets: Array of Vectors.  
+Offsets: Array of Vectors.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21121726.png)
+![](/uploads/projects/ue-bluprint/20221218-21121726.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 世界语境对象。对象参考。
 
-校准参数。定时数据监控器校准参数结构（按参考）。  
+校准参数。定时数据监控器校准参数结构（按参考）。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 结果。定时数据监控器校准结果结构。
 
+<hr>
+
 Change the Timecode Provider offset to align all inputs and channels.
 
 Target is Timed Data Monitor Subsystem
 
 ## 图示
 
-![]($-20221218-21121726.png)
+![](/uploads/projects/ue-bluprint/20221218-21121726.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Timed Data Monitor Subsystem Object Reference.
 
 World Context Object: Object Reference.
 
-Calibration Parameters: Timed Data Monitor Calibration Parameters Structure (by ref).  
+Calibration Parameters: Timed Data Monitor Calibration Parameters Structure (by ref).
 
 ## Outputs
 
 Completed: Exec.
 
 Result: Timed Data Monitor Calibration Result Structure.
-

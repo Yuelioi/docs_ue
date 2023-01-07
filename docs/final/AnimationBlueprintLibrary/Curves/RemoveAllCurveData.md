@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-17515310.png)
+![](/uploads/projects/ue-bluprint/20221218-17515310.png)
 
 ## Inputs
 
 在。执行。
 
-动画序列。Anim Sequence对象参考。 
+动画序列。Anim Sequence 对象参考。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Removes all Animation Curve Data from the given Animation Sequence (Raw Animation Curves [Names] may not be removed from the Skeleton)
 
@@ -24,15 +26,14 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17515310.png)
+![](/uploads/projects/ue-bluprint/20221218-17515310.png)
 
 ## Inputs
 
 In: Exec.
 
-Animation Sequence: Anim Sequence Object Reference.  
+Animation Sequence: Anim Sequence Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

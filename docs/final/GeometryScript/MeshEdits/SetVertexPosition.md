@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19114011.png)
+![](/uploads/projects/ue-bluprint/20221218-19114011.png)
 
 ## Inputs
 
@@ -14,11 +14,11 @@
 
 目标网格。动态网格对象参考。
 
-顶点ID：整数。
+顶点 ID：整数。
 
 新位置。向量。
 
-推迟更改通知。布尔值。  
+推迟更改通知。布尔值。
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 目标网格。动态网格对象参考。设置顶点位置。
 
+<hr>
+
 Set Vertex Position
 
 Target is Geometry Script Library Mesh Basic Edit Functions
 
 ## 图示
 
-![]($-20221218-19114011.png)
+![](/uploads/projects/ue-bluprint/20221218-19114011.png)
 
 ## Inputs
 
@@ -46,7 +48,7 @@ Vertex ID: Integer.
 
 New Position: Vector.
 
-Defer Change Notifications: Boolean.  
+Defer Change Notifications: Boolean.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Out: Exec.
 Is Valid Vertex: Boolean.
 
 Target Mesh: Dynamic Mesh Object Reference. Set Vertex Position.
-

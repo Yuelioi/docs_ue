@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20194440.png)
+![](/uploads/projects/ue-bluprint/20221218-20194440.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。立体捕捉卒的对象参考。
 
-世界语境对象。对象参考。  
+世界语境对象。对象参考。
 
 ## Outputs
 
 已完成。执行。
+
+<hr>
 
 Update Stereo Atlas
 
@@ -26,7 +28,7 @@ Target is Stereo Capture Pawn
 
 ## 图示
 
-![]($-20221218-20194440.png)
+![](/uploads/projects/ue-bluprint/20221218-20194440.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Stereo Capture Pawn Object Reference.
 
-World Context Object: Object Reference.  
+World Context Object: Object Reference.
 
 ## Outputs
 
 Completed: Exec.
-

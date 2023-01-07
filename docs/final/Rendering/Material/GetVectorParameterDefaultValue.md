@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20375846.png)
+![](/uploads/projects/ue-bluprint/20221218-20375846.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。材料参数收集对象参考。
 
-参数名称。名称。要获取的值的名称。  
+参数名称。名称。要获取的值的名称。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。线性颜色结构。参数的值。
 
+<hr>
+
 Gets the default value of a scalar parameter from a material collection.
 
 Target is Material Parameter Collection
 
 ## 图示
 
-![]($-20221218-20375846.png)
+![](/uploads/projects/ue-bluprint/20221218-20375846.png)
 
 ## Inputs
 
@@ -38,7 +40,7 @@ In: Exec.
 
 Target: Material Parameter Collection Object Reference.
 
-Parameter Name: Name. The name of the value to get the value of.  
+Parameter Name: Name. The name of the value to get the value of.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out: Exec.
 Parameter Found: Boolean. if a parameter with the input name was found.
 
 Return Value: Linear Color Structure. the value of the parameter.
-

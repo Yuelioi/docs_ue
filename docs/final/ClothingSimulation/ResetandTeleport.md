@@ -6,21 +6,23 @@
 
 ## 图示
 
-![]($-20221218-18180755.png)
+![](/uploads/projects/ue-bluprint/20221218-18180755.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Chaos Clothing Interactor对象参考。
+目标。Chaos Clothing Interactor 对象参考。
 
 重置。布尔值。
 
-远距传输。布尔值。 
+远距传输。布尔值。
 
 ## Outputs
 
 输出：布尔值。执行。
+
+<hr>
 
 Reset and Teleport
 
@@ -28,7 +30,7 @@ Target is Chaos Clothing Interactor
 
 ## 图示
 
-![]($-20221218-18180755.png)
+![](/uploads/projects/ue-bluprint/20221218-18180755.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Chaos Clothing Interactor Object Reference.
 
 Reset: Boolean.
 
-Teleport: Boolean.  
+Teleport: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

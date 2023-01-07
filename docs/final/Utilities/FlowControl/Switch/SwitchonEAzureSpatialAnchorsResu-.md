@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14171332.png)
+![](/uploads/projects/ue-bluprint/20221218-14171332.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAzureSpatialAnchorsResult枚举。 
+选择。EAzureSpatialAnchorsResult 枚举。
 
 ## Outputs
 
@@ -24,7 +24,7 @@
 
 失败 No ARPin: Exec.
 
-失败 本地锚点ID错误。执行。
+失败 本地锚点 ID 错误。执行。
 
 失败 糟糕的云端锚点标识符。执行。
 
@@ -56,17 +56,19 @@
 
 失败未知。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14171332.png)
+![](/uploads/projects/ue-bluprint/20221218-14171332.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAzureSpatialAnchorsResult Enum.  
+Selection: EAzureSpatialAnchorsResult Enum.
 
 ## Outputs
 
@@ -111,4 +113,3 @@ Not Located: Exec.
 Canceled: Exec.
 
 Fail Unknown: Exec.
-

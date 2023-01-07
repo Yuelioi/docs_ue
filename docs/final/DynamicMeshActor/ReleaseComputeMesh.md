@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18455387.png)
+![](/uploads/projects/ue-bluprint/20221218-18455387.png)
 
 ## Inputs
 
@@ -21,13 +21,16 @@
 出：执行。
 
 返回值。布尔值。将一个计算网格释放到池中。
+
+<hr>
+
 Release a compute mesh back to the Pool
 
 Target is Dynamic Mesh Actor
 
 ## 图示
 
-![]($-20221218-18455387.png)
+![](/uploads/projects/ue-bluprint/20221218-18455387.png)
 
 ## Inputs
 
@@ -35,11 +38,10 @@ In: Exec.
 
 Target: Dynamic Mesh Actor Object Reference.
 
-Mesh: Dynamic Mesh Object Reference.  
+Mesh: Dynamic Mesh Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Release a compute mesh back to the Pool.
-

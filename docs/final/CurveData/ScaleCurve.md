@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18334284.png)
+![](/uploads/projects/ue-bluprint/20221218-18334284.png)
 
 ## Inputs
 
@@ -14,13 +14,13 @@
 
 目标。动画数据控制器接口。
 
-曲线标识。Animation Curve Identifier结构（通过引用）。要缩放的曲线的标识符。
+曲线标识。Animation Curve Identifier 结构（通过引用）。要缩放的曲线的标识符。
 
 Origin（原点）。Float（单精度）。缩放曲线时作为原点的时间。
 
 因子。Float（单精度）。曲线应该被缩放的系数。
 
-应该交易。布尔型。是否应该产生任何撤销-重做的变化。 
+应该交易。布尔型。是否应该产生任何撤销-重做的变化。
 
 ## Outputs
 
@@ -28,13 +28,15 @@ Origin（原点）。Float（单精度）。缩放曲线时作为原点的时间
 
 返回值。布尔值。缩放曲线是否成功。
 
+<hr>
+
 Scales the curve with provided identifier. Broadcasts a EAnimDataModelNotifyType::CurveScaled notify if successful.
 
 Target is Animation Data Controller
 
 ## 图示
 
-![]($-20221218-18334284.png)
+![](/uploads/projects/ue-bluprint/20221218-18334284.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Origin: Float (single-precision). Time to use as the origin when scaling the cur
 
 Factor: Float (single-precision). Factor with which the curve is supposed to be scaled.
 
-Should Transact: Boolean. Whether or not any undo-redo changes should be generated.  
+Should Transact: Boolean. Whether or not any undo-redo changes should be generated.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Whether or not scaling the curve was successful.
-

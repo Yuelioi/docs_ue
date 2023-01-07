@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19381029.png)
+![](/uploads/projects/ue-bluprint/20221218-19381029.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 层名。名称（通过参考）。要影响的层的名称。
 
-是可见的。布尔值。如果为真，该层将是可见的；如果为假，该层将不可见。  
+是可见的。布尔值。如果为真，该层将是可见的；如果为假，该层将不可见。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Changes the named layer's visibility to the provided state
 
@@ -28,7 +30,7 @@ Target is Layers Subsystem
 
 ## 图示
 
-![]($-20221218-19381029.png)
+![](/uploads/projects/ue-bluprint/20221218-19381029.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Layers Subsystem Object Reference.
 
 Layer Name: Name (by ref). The name of the layer to affect..
 
-Is Visible: Boolean. If true the layer will be visible; if false, the layer will not be visible..  
+Is Visible: Boolean. If true the layer will be visible; if false, the layer will not be visible..
 
 ## Outputs
 
 Out: Exec.
-

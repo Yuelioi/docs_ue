@@ -6,13 +6,15 @@
 
 ## 图示
 
-![]($-20221218-21061129.png)
+![](/uploads/projects/ue-bluprint/20221218-21061129.png)
 
 ## Inputs
 
 ## Outputs
 
-返回值。Switchboard 编辑器设置对象 参考。获取Switchboard的编辑器设置对象。
+返回值。Switchboard 编辑器设置对象 参考。获取 Switchboard 的编辑器设置对象。
+
+<hr>
 
 Get Editor Settings object for Switchboard
 
@@ -20,11 +22,10 @@ Target is Switchboard Editor Settings
 
 ## 图示
 
-![]($-20221218-21061129.png)
+![](/uploads/projects/ue-bluprint/20221218-21061129.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Switchboard Editor Settings Object Reference. Get Editor Settings object for Switchboard.
-

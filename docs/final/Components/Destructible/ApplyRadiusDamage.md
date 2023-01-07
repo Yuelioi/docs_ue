@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18232369.png)
+![](/uploads/projects/ue-bluprint/20221218-18232369.png)
 
 ## Inputs
 
@@ -22,11 +22,13 @@
 
 冲动强度。浮点（单精度）。
 
-全面伤害。布尔值。 
+全面伤害。布尔值。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Take radius damage
 
@@ -34,7 +36,7 @@ Target is Destructible Component
 
 ## 图示
 
-![]($-20221218-18232369.png)
+![](/uploads/projects/ue-bluprint/20221218-18232369.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Damage Radius: Float (single-precision).
 
 Impulse Strength: Float (single-precision).
 
-Full Damage: Boolean.  
+Full Damage: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

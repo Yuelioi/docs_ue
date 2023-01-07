@@ -1,26 +1,28 @@
 # NiagaraSetVectorArray
 
-设置Niagara阵列FVector数据。
+设置 Niagara 阵列 FVector 数据。
 
-目标是Niagara数据接口阵列函数库
+目标是 Niagara 数据接口阵列函数库
 
 ## 图示
 
-![]($-20221218-20130757.png)
+![](/uploads/projects/ue-bluprint/20221218-20130757.png)
 
 ## Inputs
 
 在。执行。
 
-尼亚加拉系统。Niagara Particle System组件对象参考。
+尼亚加拉系统。Niagara Particle System 组件对象参考。
 
 覆盖名称：名称。
 
-阵列数据。阵列的载体。  
+阵列数据。阵列的载体。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets Niagara Array FVector Data.
 
@@ -28,7 +30,7 @@ Target is Niagara Data Interface Array Function Library
 
 ## 图示
 
-![]($-20221218-20130757.png)
+![](/uploads/projects/ue-bluprint/20221218-20130757.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Niagara System: Niagara Particle System Component Object Reference.
 
 Override Name: Name.
 
-Array Data: Array of Vectors.  
+Array Data: Array of Vectors.
 
 ## Outputs
 
 Out: Exec.
-

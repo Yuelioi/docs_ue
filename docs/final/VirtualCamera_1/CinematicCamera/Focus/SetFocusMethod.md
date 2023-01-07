@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21275042.png)
+![](/uploads/projects/ue-bluprint/20221218-21275042.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。虚拟摄像机播放器控制器基础对象参考。
 
-新的对焦方法。EVirtualCameraFocusMethod枚举。摄像机要使用的新对焦方法。  
+新的对焦方法。EVirtualCameraFocusMethod 枚举。摄像机要使用的新对焦方法。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the camera focus method.
 
@@ -26,7 +28,7 @@ Target is Virtual Camera Player Controller Base
 
 ## 图示
 
-![]($-20221218-21275042.png)
+![](/uploads/projects/ue-bluprint/20221218-21275042.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Virtual Camera Player Controller Base Object Reference.
 
-New Focus Method: EVirtualCameraFocusMethod Enum. The new focus method to be used by the camera.  
+New Focus Method: EVirtualCameraFocusMethod Enum. The new focus method to be used by the camera.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@ ApplyRadialForce（应用径向力）。这个函数将向物理线程派发一�
 
 ## 图示
 
-![]($-20221218-18594435.png)
+![](/uploads/projects/ue-bluprint/20221218-18594435.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@ ApplyRadialForce（应用径向力）。这个函数将向物理线程派发一�
 
 中心位置。矢量。力的原点。
 
-字段大小。Float（单精度）。线性力的大小...  
+字段大小。Float（单精度）。线性力的大小...
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 ApplyRadialForce. This function will dispatch a command to the physics thread to apply. a linear force that points away from a position.
 
@@ -30,7 +32,7 @@ Target is Field System Component
 
 ## 图示
 
-![]($-20221218-18594435.png)
+![](/uploads/projects/ue-bluprint/20221218-18594435.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Enable Field: Boolean. Is this force enabled for evaluation..
 
 Center Position: Vector. The origin point of the force.
 
-Field Magnitude: Float (single-precision). The size of the linear force..  
+Field Magnitude: Float (single-precision). The size of the linear force..
 
 ## Outputs
 
 Out: Exec.
-

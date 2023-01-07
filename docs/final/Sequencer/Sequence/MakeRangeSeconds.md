@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20550474.png)
+![](/uploads/projects/ue-bluprint/20221218-20550474.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 开始时间。Float（单精度）。以秒为单位的开始范围的时间。
 
-持续时间。Float（单精度）。范围的长度，以秒为单位。  
+持续时间。Float（单精度）。范围的长度，以秒为单位。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。序列器脚本范围结构。指定的序列器范围。
 
+<hr>
+
 Make a new range for this sequence in seconds
 
 Target is Movie Scene Sequence Extensions
 
 ## 图示
 
-![]($-20221218-20550474.png)
+![](/uploads/projects/ue-bluprint/20221218-20550474.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Sequence: Movie Scene Sequence Object Reference. The sequence within which to fi
 
 Start Time: Float (single-precision). The time in seconds at which to start the range.
 
-Duration: Float (single-precision). The length of the range in seconds.  
+Duration: Float (single-precision). The length of the range in seconds.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Sequencer Scripting Range Structure. Specified sequencer range.
-

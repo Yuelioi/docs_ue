@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20324238.png)
+![](/uploads/projects/ue-bluprint/20221218-20324238.png)
 
 ## Inputs
 
 在。执行。
 
-目标。石英对象参考。  
+目标。石英对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。浮点数（单精度）。获取往返最小延迟。
 
+<hr>
+
 Get Round Trip Min Latency
 
 Target is Quartz
 
 ## 图示
 
-![]($-20221218-20324238.png)
+![](/uploads/projects/ue-bluprint/20221218-20324238.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Quartz Object Reference.  
+Target: Quartz Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision). Get Round Trip Min Latency.
-

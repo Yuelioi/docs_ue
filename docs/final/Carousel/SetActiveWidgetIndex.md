@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18152656.png)
+![](/uploads/projects/ue-bluprint/20221218-18152656.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。通用小部件旋转木马对象参考。
 
-索引。整数。 
+索引。整数。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Activates the widget at the specified index.
 
@@ -26,7 +28,7 @@ Target is Common Widget Carousel
 
 ## 图示
 
-![]($-20221218-18152656.png)
+![](/uploads/projects/ue-bluprint/20221218-18152656.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common Widget Carousel Object Reference.
 
-Index: Integer.  
+Index: Integer.
 
 ## Outputs
 
 Out: Exec.
-

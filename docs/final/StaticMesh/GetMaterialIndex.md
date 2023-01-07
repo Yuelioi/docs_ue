@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21030839.png)
+![](/uploads/projects/ue-bluprint/20221218-21030839.png)
 
 ## Inputs
 
 目标。静态网格对象参考。
 
-材料槽名称。  
+材料槽名称。
 
 ## Outputs
 
 返回值。整数。要求的材料。
+
+<hr>
 
 Gets a Material index given a slot name
 
@@ -24,15 +26,14 @@ Target is Static Mesh
 
 ## 图示
 
-![]($-20221218-21030839.png)
+![](/uploads/projects/ue-bluprint/20221218-21030839.png)
 
 ## Inputs
 
 Target: Static Mesh Object Reference.
 
-Material Slot Name: Name.  
+Material Slot Name: Name.
 
 ## Outputs
 
 Return Value: Integer. Requested material.
-

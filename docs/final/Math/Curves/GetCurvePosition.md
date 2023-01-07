@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19485244.png)
+![](/uploads/projects/ue-bluprint/20221218-19485244.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。曲线线性色彩图谱对象参考。
 
-在曲线中。曲线线性颜色对象参考。  
+在曲线中。曲线线性颜色对象参考。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。获取曲线位置。
 
+<hr>
+
 Get Curve Position
 
 Target is Curve Linear Color Atlas
 
 ## 图示
 
-![]($-20221218-19485244.png)
+![](/uploads/projects/ue-bluprint/20221218-19485244.png)
 
 ## Inputs
 
@@ -38,7 +40,7 @@ In: Exec.
 
 Target: Curve Linear Color Atlas Object Reference.
 
-In Curve: Curve Linear Color Object Reference.  
+In Curve: Curve Linear Color Object Reference.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out: Exec.
 Position: Float (single-precision).
 
 Return Value: Boolean. Get Curve Position.
-

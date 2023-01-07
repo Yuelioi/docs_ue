@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19131377.png)
+![](/uploads/projects/ue-bluprint/20221218-19131377.png)
 
 ## Inputs
 
@@ -16,11 +16,11 @@
 
 到动态网格。动态网格对象参考。
 
-选项。Geometry Script Copy Mesh From Component Options结构。
+选项。Geometry Script Copy Mesh From Component Options 结构。
 
 转化为世界。布尔型。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -32,13 +32,15 @@
 
 动态网格。动态网格对象参考。从组件复制网格。
 
+<hr>
+
 Copy Mesh from Component
 
 Target is Geometry Script Library Scene Utility Functions
 
 ## 图示
 
-![]($-20221218-19131377.png)
+![](/uploads/projects/ue-bluprint/20221218-19131377.png)
 
 ## Inputs
 
@@ -52,7 +54,7 @@ Options: Geometry Script Copy Mesh From Component Options Structure.
 
 Transform to World: Boolean.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -63,4 +65,3 @@ Success: Exec.
 Local to World: Transform.
 
 Dynamic Mesh: Dynamic Mesh Object Reference. Copy Mesh from Component.
-

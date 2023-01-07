@@ -1,26 +1,22 @@
 # ImportFBXToControlRig
 
-  * * @InWorld 世界将被导入到
+- - @InWorld 世界将被导入到
 
-  * @InSequence 要导入的InSequence
+- @InSequence 要导入的 InSequence
 
-  * @ActorWithControlRigTrack ActorWithControlRigTrack 我们要导入的带有控制装置轨道的演员名称。
+- @ActorWithControlRigTrack ActorWithControlRigTrack 我们要导入的带有控制装置轨道的演员名称。
 
-  * @SelectedControlRigNames 所选控制装置名称的列表。如果ImportFBXControlRigSettings->bImportOntoSelectedControls为true，将使用它们。
+- @SelectedControlRigNames 所选控制装置名称的列表。如果 ImportFBXControlRigSettings->bImportOntoSelectedControls 为 true，将使用它们。
 
-  * @ImportFBXControlRigSettings 控制导入的设置。
+- @ImportFBXControlRigSettings 控制导入的设置。
 
-  * @InImportFileName 要创建的fbx文件的路径
+- @InImportFileName 要创建的 fbx 文件的路径
 
-
-
-
-
-目标是Sequencer Tools功能库
+目标是 Sequencer Tools 功能库
 
 ## 图示
 
-![]($-20221218-18534481.png)
+![](/uploads/projects/ue-bluprint/20221218-18534481.png)
 
 ## Inputs
 
@@ -42,28 +38,27 @@
 
 出：执行。
 
-返回值。布尔值。@InWorld 要导入的世界。@InSequence 要导入的InSequence。@ActorWithControlRigTrack 有控制装置轨道的演员 我们要导入的有控制装置轨道的演员的名字。@SelectedControlRigNames 所选控制设备名称的列表。如果ImportFBXControlRigSettings->bImportOntoSelectedControls为true，将使用它们。@ImportFBXControlRigSettings 用于控制导入的设置。@InImportFileName 要创建的fbx文件的路径。
-  *   * @InWorld World to import to
+返回值。布尔值。@InWorld 要导入的世界。@InSequence 要导入的 InSequence。@ActorWithControlRigTrack 有控制装置轨道的演员 我们要导入的有控制装置轨道的演员的名字。@SelectedControlRigNames 所选控制设备名称的列表。如果 ImportFBXControlRigSettings->bImportOntoSelectedControls 为 true，将使用它们。@ImportFBXControlRigSettings 用于控制导入的设置。@InImportFileName 要创建的 fbx 文件的路径。
 
-  * @InSequence InSequence to import
+<hr>
 
-  * @ActorWithControlRigTrack ActorWithControlRigTrack The name of the actor with the control rig track we are importing onto
+- - @InWorld World to import to
 
-  * @SelectedControlRigNames List of selected control rig names. Will use them if ImportFBXControlRigSettings->bImportOntoSelectedControls is true
+- @InSequence InSequence to import
 
-  * @ImportFBXControlRigSettings Settings to control import.
+- @ActorWithControlRigTrack ActorWithControlRigTrack The name of the actor with the control rig track we are importing onto
 
-  * @InImportFileName Path to fbx file to create
+- @SelectedControlRigNames List of selected control rig names. Will use them if ImportFBXControlRigSettings->bImportOntoSelectedControls is true
 
+- @ImportFBXControlRigSettings Settings to control import.
 
-
-
+- @InImportFileName Path to fbx file to create
 
 Target is Sequencer Tools Function Library
 
 ## 图示
 
-![]($-20221218-18534481.png)
+![](/uploads/projects/ue-bluprint/20221218-18534481.png)
 
 ## Inputs
 
@@ -79,11 +74,10 @@ Selected Control Rig Names: Array of Strings.
 
 Import FBXControl Rig Settings: Movie Scene User Import FBXControl Rig Settings Object Reference.
 
-Import Filename: String.  
+Import Filename: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. @InWorld World to import to: @InSequence InSequence to import: @ActorWithControlRigTrack ActorWithControlRigTrack The name of the actor with the control rig track we are importing onto: @SelectedControlRigNames List of selected control rig names. Will use them if ImportFBXControlRigSettings->bImportOntoSelectedControls is true: @ImportFBXControlRigSettings Settings to control import.: @InImportFileName Path to fbx file to create.
-

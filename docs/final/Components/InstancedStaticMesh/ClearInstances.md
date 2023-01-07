@@ -6,18 +6,19 @@ Target is Instanced Static Mesh Component
 
 ## 图示
 
-![]($-20221218-18243558.png)
+![](/uploads/projects/ue-bluprint/20221218-18243558.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Instanced Static Mesh Component Object Reference.  
+Target: Instanced Static Mesh Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
+<hr>
 
 Clear all instances being rendered by this component.
 
@@ -25,15 +26,14 @@ Target is Instanced Static Mesh Component
 
 ## 图示
 
-![]($-20221218-18243558.png)
+![](/uploads/projects/ue-bluprint/20221218-18243558.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Instanced Static Mesh Component Object Reference.  
+Target: Instanced Static Mesh Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

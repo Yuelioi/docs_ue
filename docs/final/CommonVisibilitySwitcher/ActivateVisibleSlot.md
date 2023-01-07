@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18214808.png)
+![](/uploads/projects/ue-bluprint/20221218-18214808.png)
 
 ## Inputs
 
 在。执行。
 
-目标。普通可见性切换器对象参考。 
+目标。普通可见性切换器对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Activate Visible Slot
 
@@ -24,15 +26,14 @@ Target is Common Visibility Switcher
 
 ## 图示
 
-![]($-20221218-18214808.png)
+![](/uploads/projects/ue-bluprint/20221218-18214808.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Common Visibility Switcher Object Reference.  
+Target: Common Visibility Switcher Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

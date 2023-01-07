@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14231470.png)
+![](/uploads/projects/ue-bluprint/20221218-14231470.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EScreenOrientation Enum.  
+选择。EScreenOrientation Enum.
 
 ## Outputs
 
@@ -28,17 +28,19 @@ Landscape Left: Exec.
 
 面朝下：执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14231470.png)
+![](/uploads/projects/ue-bluprint/20221218-14231470.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EScreenOrientation Enum.  
+Selection: EScreenOrientation Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Landscape Right: Exec.
 Face Up: Exec.
 
 Face Down: Exec.
-

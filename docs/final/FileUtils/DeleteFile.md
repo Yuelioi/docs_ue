@@ -2,11 +2,11 @@
 
 删除一个文件。
 
-目标是蓝图文件利用系统BPLibrary
+目标是蓝图文件利用系统 BPLibrary
 
 ## 图示
 
-![]($-20221218-19001715.png)
+![](/uploads/projects/ue-bluprint/20221218-19001715.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 必须存在。布尔型。
 
-即使只读。布尔型。  
+即使只读。布尔型。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。删除一个文件。
 
+<hr>
+
 Deletes a file.
 
 Target is Blueprint File Utils BPLibrary
 
 ## 图示
 
-![]($-20221218-19001715.png)
+![](/uploads/projects/ue-bluprint/20221218-19001715.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Filename: String.
 
 Must Exist: Boolean.
 
-Even if Read Only: Boolean.  
+Even if Read Only: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Deletes a file..
-

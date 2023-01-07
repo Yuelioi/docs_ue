@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18251494.png)
+![](/uploads/projects/ue-bluprint/20221218-18251494.png)
 
 ## Inputs
 
 在。执行。
 
-目标。运动组件对象参考。 
+目标。运动组件对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Snap the updated component to the plane constraint, if enabled.
 
@@ -24,15 +26,14 @@ Target is Movement Component
 
 ## 图示
 
-![]($-20221218-18251494.png)
+![](/uploads/projects/ue-bluprint/20221218-18251494.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Movement Component Object Reference.  
+Target: Movement Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20555371.png)
+![](/uploads/projects/ue-bluprint/20221218-20555371.png)
 
 ## Inputs
 
 在。执行。
 
-轨迹。电影场景对象属性 轨迹对象参考。要使用的轨道。  
+轨迹。电影场景对象属性 轨迹对象参考。要使用的轨道。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。对象类参考。该对象属性轨迹的属性类。
 
+<hr>
+
 Get this object property track's property class
 
 Target is Movie Scene Property Track Extensions
 
 ## 图示
 
-![]($-20221218-20555371.png)
+![](/uploads/projects/ue-bluprint/20221218-20555371.png)
 
 ## Inputs
 
 In: Exec.
 
-Track: Movie Scene Object Property Track Object Reference. The track to use.  
+Track: Movie Scene Object Property Track Object Reference. The track to use.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Object Class Reference. The property class for this object property track.
-

@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17583261.png)
+![](/uploads/projects/ue-bluprint/20221218-17583261.png)
 
 ## Inputs
 
-目标。ARSession配置对象参考。 
+目标。ARSession 配置对象参考。
 
 ## Outputs
 
-返回值。ARCandidate图像对象的数组参考。@see CandidateImages.
+返回值。ARCandidate 图像对象的数组参考。@see CandidateImages.
+
+<hr>
 
 See: CandidateImages
 
@@ -22,13 +24,12 @@ Target is ARSession Config
 
 ## 图示
 
-![]($-20221218-17583261.png)
+![](/uploads/projects/ue-bluprint/20221218-17583261.png)
 
 ## Inputs
 
-Target: ARSession Config Object Reference.  
+Target: ARSession Config Object Reference.
 
 ## Outputs
 
 Return Value: Array of ARCandidate Image Object References. @see CandidateImages.
-

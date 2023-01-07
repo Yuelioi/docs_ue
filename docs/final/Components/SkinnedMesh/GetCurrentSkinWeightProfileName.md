@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18264167.png)
+![](/uploads/projects/ue-bluprint/20221218-18264167.png)
 
 ## Inputs
 
-目标。皮肤网状组件对象参考。 
+目标。皮肤网状组件对象参考。
 
 ## Outputs
 
-返回值。名称。返回当前设置的Skin Weight Profile的名称，否则返回 "无"。
+返回值。名称。返回当前设置的 Skin Weight Profile 的名称，否则返回 "无"。
+
+<hr>
 
 Return the name of the Skin Weight Profile that is currently set otherwise returns 'None'
 
@@ -22,13 +24,12 @@ Target is Skinned Mesh Component
 
 ## 图示
 
-![]($-20221218-18264167.png)
+![](/uploads/projects/ue-bluprint/20221218-18264167.png)
 
 ## Inputs
 
-Target: Skinned Mesh Component Object Reference.  
+Target: Skinned Mesh Component Object Reference.
 
 ## Outputs
 
 Return Value: Name. Return the name of the Skin Weight Profile that is currently set otherwise returns 'None'.
-

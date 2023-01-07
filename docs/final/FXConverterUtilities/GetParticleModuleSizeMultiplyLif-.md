@@ -2,17 +2,17 @@
 
 获得粒子模块大小倍增的生命道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19025045.png)
+![](/uploads/projects/ue-bluprint/20221218-19025045.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。按生命物体大小参考。  
+粒子模块。按生命物体大小参考。
 
 ## Outputs
 
@@ -22,9 +22,11 @@
 
 Out Multiply X: 布尔值。
 
-出乘法Y：布尔值。
+出乘法 Y：布尔值。
 
 Out Multiply Z: Boolean.
+
+<hr>
 
 Get Particle Module Size Multiply Life Props
 
@@ -32,13 +34,13 @@ Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19025045.png)
+![](/uploads/projects/ue-bluprint/20221218-19025045.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Size by Life Object Reference.  
+Particle Module: Size by Life Object Reference.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Out Multiply X: Boolean.
 Out Multiply Y: Boolean.
 
 Out Multiply Z: Boolean.
-

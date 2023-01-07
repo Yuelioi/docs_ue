@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17335856.png)
+![](/uploads/projects/ue-bluprint/20221218-17335856.png)
 
 ## Inputs
 
@@ -14,9 +14,9 @@
 
 任务实例名称。名称：
 
-确认类型。EGameplayTargetingConfirmation枚举。
+确认类型。EGameplayTargetingConfirmation 枚举。
 
-类。Gameplay Ability Target Actor Class Reference。 
+类。Gameplay Ability Target Actor Class Reference。
 
 ## Outputs
 
@@ -30,13 +30,15 @@ Async Task: Ability Task Wait Target Data Object Reference.
 
 数据。Gameplay Ability Target Data Handle Structure（通过引用）。
 
+<hr>
+
 Spawns target actor and waits for it to return valid data or to be canceled.
 
 Target is Ability Task Wait Target Data
 
 ## 图示
 
-![]($-20221218-17335856.png)
+![](/uploads/projects/ue-bluprint/20221218-17335856.png)
 
 ## Inputs
 
@@ -46,7 +48,7 @@ Task Instance Name: Name.
 
 Confirmation Type: EGameplayTargetingConfirmation Enum.
 
-Class: Gameplay Ability Target Actor Class Reference.  
+Class: Gameplay Ability Target Actor Class Reference.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Valid Data: Exec. Valid Data.
 Cancelled: Exec. Cancelled.
 
 Data: Gameplay Ability Target Data Handle Structure (by ref).
-

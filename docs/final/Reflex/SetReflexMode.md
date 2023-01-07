@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20330078.png)
+![](/uploads/projects/ue-bluprint/20221218-20330078.png)
 
 ## Inputs
 
 在。执行。
 
-模式：EReflexMode Enum。  
+模式：EReflexMode Enum。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Reflex Mode
 
@@ -24,15 +26,14 @@ Target is Reflex Blueprint Library
 
 ## 图示
 
-![]($-20221218-20330078.png)
+![](/uploads/projects/ue-bluprint/20221218-20330078.png)
 
 ## Inputs
 
 In: Exec.
 
-Mode: EReflexMode Enum.  
+Mode: EReflexMode Enum.
 
 ## Outputs
 
 Out: Exec.
-

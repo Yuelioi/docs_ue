@@ -2,11 +2,11 @@
 
 返回一个给定函数名称的所有引用
 
-目标是Rig VMFunction库
+目标是 Rig VMFunction 库
 
 ## 图示
 
-![]($-20221218-20443115.png)
+![](/uploads/projects/ue-bluprint/20221218-20443115.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。Rig VMFunction Library Object Reference。
 
-在功能名称中。名称（通过参考）。  
+在功能名称中。名称（通过参考）。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。字符串的数组。返回一个给定函数名称的所有引用。
 
+<hr>
+
 Returns all references for a given function name
 
 Target is Rig VMFunction Library
 
 ## 图示
 
-![]($-20221218-20443115.png)
+![](/uploads/projects/ue-bluprint/20221218-20443115.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Rig VMFunction Library Object Reference.
 
-In Function Name: Name (by ref).  
+In Function Name: Name (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Array of Strings. Returns all references for a given function name.
-

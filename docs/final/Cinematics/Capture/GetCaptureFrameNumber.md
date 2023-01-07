@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18164578.png)
+![](/uploads/projects/ue-bluprint/20221218-18164578.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。整数。获取当前拍摄的帧数。
 
+<hr>
+
 Get the frame number of the current capture
 
 Target is Movie Scene Capture Environment
 
 ## 图示
 
-![]($-20221218-18164578.png)
+![](/uploads/projects/ue-bluprint/20221218-18164578.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Integer. Get the frame number of the current capture.
-

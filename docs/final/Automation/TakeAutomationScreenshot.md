@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18100041.png)
+![](/uploads/projects/ue-bluprint/20221218-18100041.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 备注。字符串。
 
-选项。自动化截图选项结构（通过参考）。 
+选项。自动化截图选项结构（通过参考）。
 
 ## Outputs
 
 已完成。执行。
+
+<hr>
 
 Takes a screenshot of the game's viewport. Does not capture any UI.
 
@@ -28,7 +30,7 @@ Target is Automation Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-18100041.png)
+![](/uploads/projects/ue-bluprint/20221218-18100041.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Name: String.
 
 Notes: String.
 
-Options: Automation Screenshot Options Structure (by ref).  
+Options: Automation Screenshot Options Structure (by ref).
 
 ## Outputs
 
 Completed: Exec.
-

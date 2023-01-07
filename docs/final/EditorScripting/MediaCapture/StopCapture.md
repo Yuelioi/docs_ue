@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18515901.png)
+![](/uploads/projects/ue-bluprint/20221218-18515901.png)
 
 ## Inputs
 
@@ -17,21 +17,23 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Stop the current capture.
 
 Target is Media Framework Capture Panel
 
 ## 图示
 
-![]($-20221218-18515901.png)
+![](/uploads/projects/ue-bluprint/20221218-18515901.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Media Framework Capture Panel Object Reference.  
+Target: Media Framework Capture Panel Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

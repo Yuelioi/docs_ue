@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14204866.png)
+![](/uploads/projects/ue-bluprint/20221218-14204866.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EInterchangeNodeContainerType枚举。 
+选择。EInterchangeNodeContainerType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Node Container Type Translated Asset: Exec.
 
 节点容器类型工厂数据。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14204866.png)
+![](/uploads/projects/ue-bluprint/20221218-14204866.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EInterchangeNodeContainerType Enum.  
+Selection: EInterchangeNodeContainerType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Node Container Type Translated Scene: Exec.
 Node Container Type Translated Asset: Exec.
 
 Node Container Type Factory Data: Exec.
-

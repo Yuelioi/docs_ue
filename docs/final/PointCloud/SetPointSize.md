@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20301917.png)
+![](/uploads/projects/ue-bluprint/20221218-20301917.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。点云组件对象参考。
 
-大小。浮点数（单精度）。  
+大小。浮点数（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Allows you to change the size of the points being rendered
 
@@ -26,7 +28,7 @@ Target is Point Cloud Component
 
 ## 图示
 
-![]($-20221218-20301917.png)
+![](/uploads/projects/ue-bluprint/20221218-20301917.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Point Cloud Component Object Reference.
 
-Size: Float (single-precision).  
+Size: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

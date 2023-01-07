@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19104385.png)
+![](/uploads/projects/ue-bluprint/20221218-19104385.png)
 
 ## Inputs
 
@@ -22,7 +22,7 @@
 
 扭曲范围。Float（单精度）。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -30,13 +30,15 @@
 
 目标网格。动态网格对象参考。对网格应用扭曲翘曲。
 
+<hr>
+
 Apply Twist Warp to Mesh
 
 Target is Geometry Script Library Mesh Deform Functions
 
 ## 图示
 
-![]($-20221218-19104385.png)
+![](/uploads/projects/ue-bluprint/20221218-19104385.png)
 
 ## Inputs
 
@@ -52,11 +54,10 @@ Twist Angle: Float (single-precision).
 
 Twist Extent: Float (single-precision).
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Apply Twist Warp to Mesh.
-

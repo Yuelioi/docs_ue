@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18251372.png)
+![](/uploads/projects/ue-bluprint/20221218-18251372.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。运动组件对象参考。
 
-平面原点。矢量。 
+平面原点。矢量。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets the origin of the plane that constrains movement, enforced if the plane constraint is enabled.
 
@@ -26,7 +28,7 @@ Target is Movement Component
 
 ## 图示
 
-![]($-20221218-18251372.png)
+![](/uploads/projects/ue-bluprint/20221218-18251372.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Movement Component Object Reference.
 
-Plane Origin: Vector.  
+Plane Origin: Vector.
 
 ## Outputs
 
 Out: Exec.
-

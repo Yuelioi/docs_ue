@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18252658.png)
+![](/uploads/projects/ue-bluprint/20221218-18252658.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 在位置上。矢量。
 
-Bone Space（骨空间）。EB boneSpaces Enum。 
+Bone Space（骨空间）。EB boneSpaces Enum。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Set Bone Location by Name
 
@@ -30,7 +32,7 @@ Target is Poseable Mesh Component
 
 ## 图示
 
-![]($-20221218-18252658.png)
+![](/uploads/projects/ue-bluprint/20221218-18252658.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Bone Name: Name.
 
 In Location: Vector.
 
-Bone Space: EBoneSpaces Enum.  
+Bone Space: EBoneSpaces Enum.
 
 ## Outputs
 
 Out: Exec.
-

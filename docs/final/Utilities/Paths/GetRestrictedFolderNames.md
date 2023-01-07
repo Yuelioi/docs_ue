@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-14280090.png)
+![](/uploads/projects/ue-bluprint/20221218-14280090.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。字符串的数组。返回一个受限/内部文件夹名称的列表（没有任何斜线），可与完整路径进行测试，以确定某个路径是否受限。
 
+<hr>
+
 Returns a list of restricted/internal folder names (without any slashes) which may be tested against full paths to determine if a path is restricted or not.
 
 Target is Blueprint Paths Library
 
 ## 图示
 
-![]($-20221218-14280090.png)
+![](/uploads/projects/ue-bluprint/20221218-14280090.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Array of Strings. Returns a list of restricted/internal folder names (without any slashes) which may be tested against full paths to determine if a path is restricted or not..
-

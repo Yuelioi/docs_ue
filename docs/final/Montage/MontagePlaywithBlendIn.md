@@ -1,12 +1,12 @@
 # MontagePlaywithBlendIn
 
-播放一个蒙太奇动画。与Montage_Play相同，但你可以指定一个AlphaBlend来进行混合设置。
+播放一个蒙太奇动画。与 Montage_Play 相同，但你可以指定一个 AlphaBlend 来进行混合设置。
 
-目标是Anim Instance
+目标是 Anim Instance
 
 ## 图示
 
-![]($-20221218-20071284.png)
+![](/uploads/projects/ue-bluprint/20221218-20071284.png)
 
 ## Inputs
 
@@ -24,13 +24,15 @@
 
 In Time to Start Montage At:Float（单精度）。
 
-停止所有蒙太奇。布尔型。  
+停止所有蒙太奇。布尔型。
 
 ## Outputs
 
 出：执行。
 
-返回值。浮点数（单精度）。播放一个蒙太奇动画。与Montage_Play相同，但你可以指定一个AlphaBlend用于混合设置。
+返回值。浮点数（单精度）。播放一个蒙太奇动画。与 Montage_Play 相同，但你可以指定一个 AlphaBlend 用于混合设置。
+
+<hr>
 
 Plays an animation montage. Same as Montage_Play, but you can specify an AlphaBlend for Blend In settings.
 
@@ -38,7 +40,7 @@ Target is Anim Instance
 
 ## 图示
 
-![]($-20221218-20071284.png)
+![](/uploads/projects/ue-bluprint/20221218-20071284.png)
 
 ## Inputs
 
@@ -56,11 +58,10 @@ Return Value Type: EMontagePlayReturnType Enum.
 
 In Time to Start Montage At: Float (single-precision).
 
-Stop All Montages: Boolean.  
+Stop All Montages: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision). Plays an animation montage. Same as Montage_Play, but you can specify an AlphaBlend for Blend In settings..
-

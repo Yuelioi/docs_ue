@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20022455.png)
+![](/uploads/projects/ue-bluprint/20221218-20022455.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 钥匙。姓名（按编号）。
 
-价值。字符串。  
+价值。字符串。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set a string parameter to pass to the player.
 
@@ -28,7 +30,7 @@ Target is Media Source
 
 ## 图示
 
-![]($-20221218-20022455.png)
+![](/uploads/projects/ue-bluprint/20221218-20022455.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Media Source Object Reference.
 
 Key: Name (by ref).
 
-Value: String.  
+Value: String.
 
 ## Outputs
 
 Out: Exec.
-

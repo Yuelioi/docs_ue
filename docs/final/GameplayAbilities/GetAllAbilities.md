@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-19082149.png)
+![](/uploads/projects/ue-bluprint/20221218-19082149.png)
 
 ## Inputs
 
 在。执行。
 
-目标。能力系统组件对象参考。  
+目标。能力系统组件对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 出来的能力手柄。游戏能力规格手柄结构的数组。这个数组将被填入授予的能力规格手柄。
 
+<hr>
+
 Returns an array with all granted ability handles. NOTE: currently this doesn't include abilities that are mid-activation
 
 Target is Ability System Component
 
 ## 图示
 
-![]($-20221218-19082149.png)
+![](/uploads/projects/ue-bluprint/20221218-19082149.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Ability System Component Object Reference.  
+Target: Ability System Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Out Ability Handles: Array of Gameplay Ability Spec Handle Structures. This array will be filled with the granted Ability Spec Handles.
-

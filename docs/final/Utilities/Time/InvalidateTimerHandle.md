@@ -1,12 +1,12 @@
 # InvalidateTimerHandle
 
-使提供的TimerHandle无效并返回。
+使提供的 TimerHandle 无效并返回。
 
-目标是Kismet系统库
+目标是 Kismet 系统库
 
 ## 图示
 
-![]($-20221218-15244906.png)
+![](/uploads/projects/ue-bluprint/20221218-15244906.png)
 
 ## Inputs
 
@@ -20,23 +20,24 @@
 
 返回值。计时器句柄结构。为方便起见，返回失效的定时器手柄。
 
+<hr>
+
 Invalidate the supplied TimerHandle and return it.
 
 Target is Kismet System Library
 
 ## 图示
 
-![]($-20221218-15244906.png)
+![](/uploads/projects/ue-bluprint/20221218-15244906.png)
 
 ## Inputs
 
 In: Exec.
 
-Handle: Timer Handle Structure (by ref). The handle of the timer to invalidate..  
+Handle: Timer Handle Structure (by ref). The handle of the timer to invalidate..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Timer Handle Structure. Return the invalidated timer handle for convenience..
-

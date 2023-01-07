@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18453064.png)
+![](/uploads/projects/ue-bluprint/20221218-18453064.png)
 
 ## Inputs
 
@@ -14,18 +14,21 @@
 
 目标。动态输入框对象参考。
 
-入口小工具。用户Widget对象参考。
+入口小工具。用户 Widget 对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Remove Entry
 
 Target is Dynamic Entry Box
 
 ## 图示
 
-![]($-20221218-18453064.png)
+![](/uploads/projects/ue-bluprint/20221218-18453064.png)
 
 ## Inputs
 
@@ -33,9 +36,8 @@ In: Exec.
 
 Target: Dynamic Entry Box Object Reference.
 
-Entry Widget: User Widget Object Reference.  
+Entry Widget: User Widget Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

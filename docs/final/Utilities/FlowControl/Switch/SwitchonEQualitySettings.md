@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14223506.png)
+![](/uploads/projects/ue-bluprint/20221218-14223506.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EQualitySettings Enum.  
+选择。EQualitySettings Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 自定义。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14223506.png)
+![](/uploads/projects/ue-bluprint/20221218-14223506.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EQualitySettings Enum.  
+Selection: EQualitySettings Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Medium: Exec.
 High: Exec.
 
 Custom: Exec.
-

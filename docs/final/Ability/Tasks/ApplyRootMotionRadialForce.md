@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17330843.png)
+![](/uploads/projects/ue-bluprint/20221218-17330843.png)
 
 ## Inputs
 
@@ -28,7 +28,7 @@
 
 是加法的。Boolean（布尔）。
 
-没有ZForce。布尔值。
+没有 ZForce。布尔值。
 
 强度距离落差。曲线浮点对象参考。
 
@@ -38,11 +38,11 @@
 
 固定世界方向。旋转器。
 
-完成模式下的速度。ERootMotionFinishVelocityMode枚举。
+完成模式下的速度。ERootMotionFinishVelocityMode 枚举。
 
 设置完成时的速度。Vector（向量）。
 
-完成时的夹持速度。Float（单精度）。 
+完成时的夹持速度。Float（单精度）。
 
 ## Outputs
 
@@ -52,13 +52,15 @@
 
 完成时。执行。在完成时。
 
+<hr>
+
 Apply force to character's movement
 
 Target is Ability Task Apply Root Motion Radial Force
 
 ## 图示
 
-![]($-20221218-17330843.png)
+![](/uploads/projects/ue-bluprint/20221218-17330843.png)
 
 ## Inputs
 
@@ -94,7 +96,7 @@ Velocity on Finish Mode: ERootMotionFinishVelocityMode Enum.
 
 Set Velocity on Finish: Vector.
 
-Clamp Velocity on Finish: Float (single-precision).  
+Clamp Velocity on Finish: Float (single-precision).
 
 ## Outputs
 
@@ -103,4 +105,3 @@ Out: Exec.
 Async Task: Ability Task Apply Root Motion Radial Force Object Reference.
 
 On Finish: Exec. On Finish.
-

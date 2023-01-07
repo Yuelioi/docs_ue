@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14195397.png)
+![](/uploads/projects/ue-bluprint/20221218-14195397.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGeometryScriptOutcomePins枚举。 
+选择。EGeometryScriptOutcomePins 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 成功。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14195397.png)
+![](/uploads/projects/ue-bluprint/20221218-14195397.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGeometryScriptOutcomePins Enum.  
+Selection: EGeometryScriptOutcomePins Enum.
 
 ## Outputs
 
 Failure: Exec.
 
 Success: Exec.
-

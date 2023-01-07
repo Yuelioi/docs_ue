@@ -1,12 +1,12 @@
 # OpenEditorforAssets
 
-试图为所有指定的资产打开一个编辑器。如果任何资产已经被打开，它将不会为它们创建一个新的编辑器。如果所有的资产都是相同的类型，支持的AssetTypeAction（如果它存在的话）负责如何处理一次打开多个资产的细节。
+试图为所有指定的资产打开一个编辑器。如果任何资产已经被打开，它将不会为它们创建一个新的编辑器。如果所有的资产都是相同的类型，支持的 AssetTypeAction（如果它存在的话）负责如何处理一次打开多个资产的细节。
 
 目标是资产编辑子系统
 
 ## 图示
 
-![]($-20221218-18481075.png)
+![](/uploads/projects/ue-bluprint/20221218-18481075.png)
 
 ## Inputs
 
@@ -20,14 +20,17 @@
 
 出：执行。
 
-返回值。布尔值。试图为所有指定的资产打开一个编辑器。如果任何资产已经打开，它将不会为它们创建一个新的编辑器。如果所有的资产都是同一类型，支持的AssetTypeAction（如果它存在的话）负责处理一次打开多个资产的细节。
+返回值。布尔值。试图为所有指定的资产打开一个编辑器。如果任何资产已经打开，它将不会为它们创建一个新的编辑器。如果所有的资产都是同一类型，支持的 AssetTypeAction（如果它存在的话）负责处理一次打开多个资产的细节。
+
+<hr>
+
 Tries to open an editor for all of the specified assets.. If any of the assets are already open, it will not create a new editor for them.. If all assets are of the same type, the supporting AssetTypeAction (if it exists) is responsible for the details of how to handle opening multiple assets at once.
 
 Target is Asset Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18481075.png)
+![](/uploads/projects/ue-bluprint/20221218-18481075.png)
 
 ## Inputs
 
@@ -35,11 +38,10 @@ In: Exec.
 
 Target: Asset Editor Subsystem Object Reference.
 
-Assets: Array of Object References.  
+Assets: Array of Object References.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Tries to open an editor for all of the specified assets.. If any of the assets are already open, it will not create a new editor for them.. If all assets are of the same type, the supporting AssetTypeAction (if it exists) is responsible for the details of how to handle opening multiple assets at once..
-

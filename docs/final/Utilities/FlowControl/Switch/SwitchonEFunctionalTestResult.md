@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14191798.png)
+![](/uploads/projects/ue-bluprint/20221218-14191798.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFunctionalTestResult枚举。 
+选择。EFunctionalTestResult 枚举。
 
 ## Outputs
 
@@ -26,17 +26,19 @@
 
 成功了。执行中
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14191798.png)
+![](/uploads/projects/ue-bluprint/20221218-14191798.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFunctionalTestResult Enum.  
+Selection: EFunctionalTestResult Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Running: Exec.
 Failed: Exec.
 
 Succeeded: Exec.
-

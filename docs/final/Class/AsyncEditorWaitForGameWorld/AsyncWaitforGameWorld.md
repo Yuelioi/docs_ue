@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18170406.png)
+![](/uploads/projects/ue-bluprint/20221218-18170406.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 索引。整数。
 
-服务器。布尔型。 
+服务器。布尔型。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 世界。世界对象参考。
 
+<hr>
+
 Async Wait for Game World
 
 Target is Async Editor Wait for Game World
 
 ## 图示
 
-![]($-20221218-18170406.png)
+![](/uploads/projects/ue-bluprint/20221218-18170406.png)
 
 ## Inputs
 
@@ -38,7 +40,7 @@ In: Exec.
 
 Index: Integer.
 
-Server: Boolean.  
+Server: Boolean.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out: Exec.
 Complete: Exec. Complete.
 
 World: World Object Reference.
-

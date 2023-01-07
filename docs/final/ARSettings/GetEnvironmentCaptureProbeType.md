@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17583712.png)
+![](/uploads/projects/ue-bluprint/20221218-17583712.png)
 
 ## Inputs
 
-目标。ARSession配置对象参考。 
+目标。ARSession 配置对象参考。
 
 ## Outputs
 
-返回值。EAREnvironmentCaptureProbeType枚举。@see EnvironmentCaptureProbeType.
+返回值。EAREnvironmentCaptureProbeType 枚举。@see EnvironmentCaptureProbeType.
+
+<hr>
 
 See: EnvironmentCaptureProbeType
 
@@ -22,13 +24,12 @@ Target is ARSession Config
 
 ## 图示
 
-![]($-20221218-17583712.png)
+![](/uploads/projects/ue-bluprint/20221218-17583712.png)
 
 ## Inputs
 
-Target: ARSession Config Object Reference.  
+Target: ARSession Config Object Reference.
 
 ## Outputs
 
 Return Value: EAREnvironmentCaptureProbeType Enum. @see EnvironmentCaptureProbeType.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20575066.png)
+![](/uploads/projects/ue-bluprint/20221218-20575066.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。游戏用户设置对象参考。
 
-质量等级。整数。  
+质量等级。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the user's audio quality level setting
 
@@ -26,7 +28,7 @@ Target is Game User Settings
 
 ## 图示
 
-![]($-20221218-20575066.png)
+![](/uploads/projects/ue-bluprint/20221218-20575066.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Game User Settings Object Reference.
 
-Quality Level: Integer.  
+Quality Level: Integer.
 
 ## Outputs
 
 Out: Exec.
-

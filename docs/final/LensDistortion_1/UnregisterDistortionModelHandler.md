@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19403235.png)
+![](/uploads/projects/ue-bluprint/20221218-19403235.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 组件。摄像机组件对象参考。
 
-处理程序：镜头失真模型处理程序基本对象参考。  
+处理程序：镜头失真模型处理程序基本对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Disassociate the input handler from the input camera component in the subsystem's handler map
 
@@ -28,7 +30,7 @@ Target is Camera Calibration Subsystem
 
 ## 图示
 
-![]($-20221218-19403235.png)
+![](/uploads/projects/ue-bluprint/20221218-19403235.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Camera Calibration Subsystem Object Reference.
 
 Component: Cine Camera Component Object Reference.
 
-Handler: Lens Distortion Model Handler Base Object Reference.  
+Handler: Lens Distortion Model Handler Base Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

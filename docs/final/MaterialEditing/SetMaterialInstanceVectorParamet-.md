@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19465734.png)
+![](/uploads/projects/ue-bluprint/20221218-19465734.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 价值。线性色彩结构。
 
-协会。EMaterialParameterAssociation Enum.  
+协会。EMaterialParameterAssociation Enum.
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 返回值。布尔值。设置一个材料实例的矢量参数值。
 
+<hr>
+
 Set the vector parameter value for a Material Instance
 
 Target is Material Editing Library
 
 ## 图示
 
-![]($-20221218-19465734.png)
+![](/uploads/projects/ue-bluprint/20221218-19465734.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Parameter Name: Name.
 
 Value: Linear Color Structure.
 
-Association: EMaterialParameterAssociation Enum.  
+Association: EMaterialParameterAssociation Enum.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Set the vector parameter value for a Material Instance.
-

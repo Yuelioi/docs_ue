@@ -1,24 +1,20 @@
 # ExportLevelSequenceFBX
 
-  * * @InWorld 世界将出口
+- - @InWorld 世界将出口
 
-  * @InSequence 要输出的序列
+- @InSequence 要输出的序列
 
-  * @InBindings 要输出的捆绑物
+- @InBindings 要输出的捆绑物
 
-  *@InMasterTracks 主轨道要出口
+\*@InMasterTracks 主轨道要出口
 
-  * @InFBXFileName 要创建的文件
+- @InFBXFileName 要创建的文件
 
-
-
-
-
-目标是Sequencer Tools功能库
+目标是 Sequencer Tools 功能库
 
 ## 图示
 
-![]($-20221218-18534345.png)
+![](/uploads/projects/ue-bluprint/20221218-18534345.png)
 
 ## Inputs
 
@@ -32,34 +28,33 @@
 
 在主轨道中。电影场景轨道对象参考数组。
 
-覆盖选项。Fbx导出选项对象参考。
+覆盖选项。Fbx 导出选项对象参考。
 
-在FBX文件名称中：字符串。
+在 FBX 文件名称中：字符串。
 
 ## Outputs
 
 出：执行。
 
 返回值。布尔值。@InWorld 要输出的世界。@InSequence 要输出的序列。@InBindings 要输出的绑定物。@InMasterTracks 要输出的主轨道。@InFBXFileName 要创建的文件。
-  *   * @InWorld World to export
 
-  * @InSequence Sequence to export
+<hr>
 
-  * @InBindings Bindings to export
+- - @InWorld World to export
 
-  * @InMasterTracks Master tracks to export
+- @InSequence Sequence to export
 
-  * @InFBXFileName File to create
+- @InBindings Bindings to export
 
+- @InMasterTracks Master tracks to export
 
-
-
+- @InFBXFileName File to create
 
 Target is Sequencer Tools Function Library
 
 ## 图示
 
-![]($-20221218-18534345.png)
+![](/uploads/projects/ue-bluprint/20221218-18534345.png)
 
 ## Inputs
 
@@ -75,11 +70,10 @@ In Master Tracks: Array of Movie Scene Track Object References.
 
 Override Options: Fbx Export Option Object Reference.
 
-In FBXFile Name: String.  
+In FBXFile Name: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. @InWorld World to export: @InSequence Sequence to export: @InBindings Bindings to export: @InMasterTracks Master tracks to export: @InFBXFileName File to create.
-

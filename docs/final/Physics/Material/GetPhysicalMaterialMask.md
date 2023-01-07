@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20281234.png)
+![](/uploads/projects/ue-bluprint/20221218-20281234.png)
 
 ## Inputs
 
-目标。材料界面对象参考。  
+目标。材料界面对象参考。
 
 ## Outputs
 
 返回值。物理材料掩码对象参考。物理材料。
+
+<hr>
 
 Return a pointer to the physical material mask used by this material instance.
 
@@ -22,13 +24,12 @@ Target is Material Interface
 
 ## 图示
 
-![]($-20221218-20281234.png)
+![](/uploads/projects/ue-bluprint/20221218-20281234.png)
 
 ## Inputs
 
-Target: Material Interface Object Reference.  
+Target: Material Interface Object Reference.
 
 ## Outputs
 
 Return Value: Physical Material Mask Object Reference. The physical material..
-

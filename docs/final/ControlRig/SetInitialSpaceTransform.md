@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18321727.png)
+![](/uploads/projects/ue-bluprint/20221218-18321727.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 初始变换。变换。
 
-空间。EControlRigComponentSpace枚举。要设置变换的空间。 
+空间。EControlRigComponentSpace 枚举。要设置变换的空间。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets the transform of the space in the requested space
 
@@ -30,7 +32,7 @@ Target is Control Rig Component
 
 ## 图示
 
-![]($-20221218-18321727.png)
+![](/uploads/projects/ue-bluprint/20221218-18321727.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Space Name: Name. The name of the space to set the transform for.
 
 Initial Transform: Transform.
 
-Space: EControlRigComponentSpace Enum. The space to set the transform in.  
+Space: EControlRigComponentSpace Enum. The space to set the transform in.
 
 ## Outputs
 
 Out: Exec.
-

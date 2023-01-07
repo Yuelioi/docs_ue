@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20564291.png)
+![](/uploads/projects/ue-bluprint/20221218-20564291.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。游戏用户设置对象参考。
 
-检查命令行重写。布尔型。  
+检查命令行重写。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Applies all current user settings to the game and saves to permanent storage (e.g. file), optionally checking for command line overrides.
 
@@ -26,7 +28,7 @@ Target is Game User Settings
 
 ## 图示
 
-![]($-20221218-20564291.png)
+![](/uploads/projects/ue-bluprint/20221218-20564291.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Game User Settings Object Reference.
 
-Check for Command Line Overrides: Boolean.  
+Check for Command Line Overrides: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

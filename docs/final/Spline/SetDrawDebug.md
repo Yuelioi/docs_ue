@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21012556.png)
+![](/uploads/projects/ue-bluprint/20221218-21012556.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。花键组件对象参考。
 
-显示。布尔值。  
+显示。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Specify whether this spline should be rendered when the Editor/Game spline show flag is set
 
@@ -26,7 +28,7 @@ Target is Spline Component
 
 ## 图示
 
-![]($-20221218-21012556.png)
+![](/uploads/projects/ue-bluprint/20221218-21012556.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Spline Component Object Reference.
 
-Show: Boolean.  
+Show: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

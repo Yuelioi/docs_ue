@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14200978.png)
+![](/uploads/projects/ue-bluprint/20221218-14200978.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGoogleARCoreTrackingState Enum。 
+选择。EGoogleARCoreTrackingState Enum。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 停止跟踪。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14200978.png)
+![](/uploads/projects/ue-bluprint/20221218-14200978.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGoogleARCoreTrackingState Enum.  
+Selection: EGoogleARCoreTrackingState Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Tracking: Exec.
 Not Tracking: Exec.
 
 Stopped Tracking: Exec.
-

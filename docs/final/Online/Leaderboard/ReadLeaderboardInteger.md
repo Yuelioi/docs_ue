@@ -2,11 +2,11 @@
 
 查询一个整数值的排行榜
 
-目标是Leaderboard查询回调代理
+目标是 Leaderboard 查询回调代理
 
 ## 图示
 
-![]($-20221218-20162580.png)
+![](/uploads/projects/ue-bluprint/20221218-20162580.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 播放器控制器。播放器控制器对象参考。
 
-Stat Name: 名字。  
+Stat Name: 名字。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ Stat Name: 名字。
 
 排行榜的价值。整数。
 
+<hr>
+
 Queries a leaderboard for an integer value
 
 Target is Leaderboard Query Callback Proxy
 
 ## 图示
 
-![]($-20221218-20162580.png)
+![](/uploads/projects/ue-bluprint/20221218-20162580.png)
 
 ## Inputs
 
@@ -40,7 +42,7 @@ In: Exec.
 
 Player Controller: Player Controller Object Reference.
 
-Stat Name: Name.  
+Stat Name: Name.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ On Success: Exec. On Success:. Called when there is a successful leaderboard que
 On Failure: Exec. On Failure:. Called when there is an unsuccessful leaderboard query.
 
 Leaderboard Value: Integer.
-

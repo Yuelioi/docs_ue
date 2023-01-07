@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14225612.png)
+![](/uploads/projects/ue-bluprint/20221218-14225612.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERichCurveExtrapolation Enum.  
+选择。ERichCurveExtrapolation Enum.
 
 ## Outputs
 
@@ -26,17 +26,19 @@ Cycle with Offset: Exec.
 
 没有。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14225612.png)
+![](/uploads/projects/ue-bluprint/20221218-14225612.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERichCurveExtrapolation Enum.  
+Selection: ERichCurveExtrapolation Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Linear: Exec.
 Constant: Exec.
 
 None: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14250609.png)
+![](/uploads/projects/ue-bluprint/20221218-14250609.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EUserInterfaceActionType枚举。 
+选择。EUserInterfaceActionType 枚举。
 
 ## Outputs
 
@@ -26,17 +26,19 @@ Toggle Button: 执行。
 
 塌陷的按钮。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14250609.png)
+![](/uploads/projects/ue-bluprint/20221218-14250609.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EUserInterfaceActionType Enum.  
+Selection: EUserInterfaceActionType Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Radio Button: Exec.
 Check: Exec.
 
 Collapsed Button: Exec.
-

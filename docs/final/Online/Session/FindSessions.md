@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20163157.png)
+![](/uploads/projects/ue-bluprint/20221218-20163157.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 最大结果。整数。
 
-使用局域网：布尔值。  
+使用局域网：布尔值。
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 结果。蓝图会话结果结构的数组。
 
+<hr>
+
 Searches for advertised sessions with the default online subsystem
 
 Target is Find Sessions Callback Proxy
 
 ## 图示
 
-![]($-20221218-20163157.png)
+![](/uploads/projects/ue-bluprint/20221218-20163157.png)
 
 ## Inputs
 
@@ -44,7 +46,7 @@ Player Controller: Player Controller Object Reference.
 
 Max Results: Integer.
 
-Use LAN: Boolean.  
+Use LAN: Boolean.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ On Success: Exec. On Success:. Called when there is a successful query.
 On Failure: Exec. On Failure:. Called when there is an unsuccessful query.
 
 Results: Array of Blueprint Session Result Structures.
-

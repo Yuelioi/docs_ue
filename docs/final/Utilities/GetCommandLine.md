@@ -2,15 +2,15 @@
 
 返回该进程启动时的命令行。
 
-目标是Kismet系统库
+目标是 Kismet 系统库
 
 ## 图示
 
-![]($-20221218-14255873.png)
+![](/uploads/projects/ue-bluprint/20221218-14255873.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。字符串。返回进程启动时使用的命令行。
 
+<hr>
+
 Returns the command line that the process was launched with.
 
 Target is Kismet System Library
 
 ## 图示
 
-![]($-20221218-14255873.png)
+![](/uploads/projects/ue-bluprint/20221218-14255873.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: String. Returns the command line that the process was launched with..
-

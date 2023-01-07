@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20325961.png)
+![](/uploads/projects/ue-bluprint/20221218-20325961.png)
 
 ## Inputs
 
 在。执行。
 
-已启用。布尔值。  
+已启用。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Flash Indicator Enabled
 
@@ -24,15 +26,14 @@ Target is Reflex Blueprint Library
 
 ## 图示
 
-![]($-20221218-20325961.png)
+![](/uploads/projects/ue-bluprint/20221218-20325961.png)
 
 ## Inputs
 
 In: Exec.
 
-Enabled: Boolean.  
+Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

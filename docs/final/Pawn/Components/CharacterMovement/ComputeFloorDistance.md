@@ -1,12 +1,12 @@
 # ComputeFloorDistance
 
-计算从胶囊底部球体到地面的距离，并将结果存储在FloorResult.中。这个距离是胶囊到被下半球撞击的第一个点的扫射距离，如果是直线追踪，则是胶囊底部的距离。这个函数并不关心胶囊上的碰撞是否被禁用（与FindFloor不同）。
+计算从胶囊底部球体到地面的距离，并将结果存储在 FloorResult.中。这个距离是胶囊到被下半球撞击的第一个点的扫射距离，如果是直线追踪，则是胶囊底部的距离。这个函数并不关心胶囊上的碰撞是否被禁用（与 FindFloor 不同）。
 
 目标是角色运动组件
 
 ## 图示
 
-![]($-20221218-20180728.png)
+![](/uploads/projects/ue-bluprint/20221218-20180728.png)
 
 ## Inputs
 
@@ -24,13 +24,15 @@
 
 楼层结果。查找楼层结果结构。楼层检查的结果。
 
+<hr>
+
 Compute distance to the floor from bottom sphere of capsule and store the result in FloorResult.. This distance is the swept distance of the capsule to the first point impacted by the lower hemisphere, or distance from the bottom of the capsule in the case of a line trace.. This function does not care if collision is disabled on the capsule (unlike FindFloor).
 
 Target is Character Movement Component
 
 ## 图示
 
-![]($-20221218-20180728.png)
+![](/uploads/projects/ue-bluprint/20221218-20180728.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Line Distance: Float (single-precision). If non-zero, max distance to test for a
 
 Sweep Distance: Float (single-precision). If non-zero, max distance to use when sweeping a capsule downwards for the test. MUST be greater than or equal to the line distance..
 
-Sweep Radius: Float (single-precision). The radius to use for sweep tests. Should be <= capsule radius..  
+Sweep Radius: Float (single-precision). The radius to use for sweep tests. Should be <= capsule radius..
 
 ## Outputs
 
 Floor Result: Find Floor Result Structure. Result of the floor check.
-

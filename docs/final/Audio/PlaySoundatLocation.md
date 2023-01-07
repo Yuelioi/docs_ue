@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18072724.png)
+![](/uploads/projects/ue-bluprint/20221218-18072724.png)
 
 ## Inputs
 
@@ -28,13 +28,15 @@ Volume Multiplier（音量乘数）。Float（单精度）。一个与音量相�
 
 并发设置。Sound Concurrency Object Reference. 覆盖并发设置包以播放声音。
 
-拥有的角色。Actor对象参考。在并发设置中作为 "所有者 "使用的角色。允许PlaySound调用每个所有者做并发限制。
+拥有的角色。Actor 对象参考。在并发设置中作为 "所有者 "使用的角色。允许 PlaySound 调用每个所有者做并发限制。
 
-Initial Params: 初始活动声音参数对象参考。 
+Initial Params: 初始活动声音参数对象参考。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Plays a sound at the given location. This is a fire and forget sound and does not travel with any actor.. Replication is also not handled at this point.
 
@@ -42,7 +44,7 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18072724.png)
+![](/uploads/projects/ue-bluprint/20221218-18072724.png)
 
 ## Inputs
 
@@ -66,9 +68,8 @@ Concurrency Settings: Sound Concurrency Object Reference. Override concurrency s
 
 Owning Actor: Actor Object Reference. The actor to use as the "owner" for concurrency settings purposes. Allows PlaySound calls to do a concurrency limit per owner..
 
-Initial Params: Initial Active Sound Params Object Reference.  
+Initial Params: Initial Active Sound Params Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

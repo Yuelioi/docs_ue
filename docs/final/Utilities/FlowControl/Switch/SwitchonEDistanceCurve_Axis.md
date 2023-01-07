@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14182190.png)
+![](/uploads/projects/ue-bluprint/20221218-14182190.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDistanceCurve_Axis Enum.  
+选择。EDistanceCurve_Axis Enum.
 
 ## Outputs
 
@@ -28,17 +28,19 @@ YZ: Exec.
 
 XYZ: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14182190.png)
+![](/uploads/projects/ue-bluprint/20221218-14182190.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDistanceCurve_Axis Enum.  
+Selection: EDistanceCurve_Axis Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ XZ: Exec.
 YZ: Exec.
 
 XYZ: Exec.
-

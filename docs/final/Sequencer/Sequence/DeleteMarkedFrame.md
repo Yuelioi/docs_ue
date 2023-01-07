@@ -1,16 +1,12 @@
 # DeleteMarkedFrame
 
-  * @DeleteIndex 要删除的用户标记框架的索引。
-
-
-
-
+- @DeleteIndex 要删除的用户标记框架的索引。
 
 目标是电影场景序列扩展
 
 ## 图示
 
-![]($-20221218-20535612.png)
+![](/uploads/projects/ue-bluprint/20221218-20535612.png)
 
 ## Inputs
 
@@ -18,23 +14,21 @@
 
 序列。电影场景序列对象参考。
 
-删除索引。整数。  
+删除索引。整数。
 
 ## Outputs
 
 出：执行。
 
-  *   * @DeleteIndex The index to the user marked frame to delete
+<hr>
 
-
-
-
+- - @DeleteIndex The index to the user marked frame to delete
 
 Target is Movie Scene Sequence Extensions
 
 ## 图示
 
-![]($-20221218-20535612.png)
+![](/uploads/projects/ue-bluprint/20221218-20535612.png)
 
 ## Inputs
 
@@ -42,9 +36,8 @@ In: Exec.
 
 Sequence: Movie Scene Sequence Object Reference.
 
-Delete Index: Integer.  
+Delete Index: Integer.
 
 ## Outputs
 
 Out: Exec.
-

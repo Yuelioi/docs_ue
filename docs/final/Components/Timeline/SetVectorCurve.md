@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18284192.png)
+![](/uploads/projects/ue-bluprint/20221218-18284192.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 新的矢量曲线。Curve Vector Object Reference.
 
-Vector Track Name: 名称。 
+Vector Track Name: 名称。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Update a certain vector track's curve
 
@@ -28,7 +30,7 @@ Target is Timeline Component
 
 ## 图示
 
-![]($-20221218-18284192.png)
+![](/uploads/projects/ue-bluprint/20221218-18284192.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Timeline Component Object Reference.
 
 New Vector Curve: Curve Vector Object Reference.
 
-Vector Track Name: Name.  
+Vector Track Name: Name.
 
 ## Outputs
 
 Out: Exec.
-

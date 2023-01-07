@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14185520.png)
+![](/uploads/projects/ue-bluprint/20221218-14185520.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFBXImportType Enum.  
+选择。EFBXImportType Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Skeletal Mesh: Exec.
 
 动画。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14185520.png)
+![](/uploads/projects/ue-bluprint/20221218-14185520.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFBXImportType Enum.  
+Selection: EFBXImportType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Static Mesh: Exec.
 Skeletal Mesh: Exec.
 
 Animation: Exec.
-

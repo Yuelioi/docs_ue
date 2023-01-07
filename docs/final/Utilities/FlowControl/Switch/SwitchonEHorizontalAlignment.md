@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14203088.png)
+![](/uploads/projects/ue-bluprint/20221218-14203088.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EHorizontalAlignment Enum.  
+选择。EHorizontalAlignment Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Left: Exec.
 
 右边 执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14203088.png)
+![](/uploads/projects/ue-bluprint/20221218-14203088.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EHorizontalAlignment Enum.  
+Selection: EHorizontalAlignment Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Left: Exec.
 Center: Exec.
 
 Right: Exec.
-

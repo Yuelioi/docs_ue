@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-18242179.png)
+![](/uploads/projects/ue-bluprint/20221218-18242179.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Geometry Cache Component对象参考。
+目标。Geometry Cache Component 对象参考。
 
-Color：线性颜色结构。 
+Color：线性颜色结构。
 
 ## Outputs
 
 OUT：输出。Exec.
+
+<hr>
 
 Set the color, used when overriding the wireframe color is enabled.
 
@@ -26,7 +28,7 @@ Target is Geometry Cache Component
 
 ## 图示
 
-![]($-20221218-18242179.png)
+![](/uploads/projects/ue-bluprint/20221218-18242179.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Geometry Cache Component Object Reference.
 
-Color: Linear Color Structure.  
+Color: Linear Color Structure.
 
 ## Outputs
 
 Out: Exec.
-

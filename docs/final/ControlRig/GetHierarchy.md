@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18313676.png)
+![](/uploads/projects/ue-bluprint/20221218-18313676.png)
 
 ## Inputs
 
-目标。控制钻机对象参考。 
+目标。控制钻机对象参考。
 
 ## Outputs
 
 返回值。钻机层次结构的对象参考。获取层次结构。
+
+<hr>
 
 Get Hierarchy
 
@@ -22,13 +24,12 @@ Target is Control Rig
 
 ## 图示
 
-![]($-20221218-18313676.png)
+![](/uploads/projects/ue-bluprint/20221218-18313676.png)
 
 ## Inputs
 
-Target: Control Rig Object Reference.  
+Target: Control Rig Object Reference.
 
 ## Outputs
 
 Return Value: Rig Hierarchy Object Reference. Get Hierarchy.
-

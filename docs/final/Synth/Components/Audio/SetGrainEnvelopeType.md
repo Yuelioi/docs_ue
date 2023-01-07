@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-21074132.png)
+![](/uploads/projects/ue-bluprint/20221218-21074132.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Granular Synth对象参考。
+目标。Granular Synth 对象参考。
 
-包络类型。EGranularSynthEnvelopeType枚举。  
+包络类型。EGranularSynthEnvelopeType 枚举。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Grain Envelope Type
 
@@ -26,7 +28,7 @@ Target is Granular Synth
 
 ## 图示
 
-![]($-20221218-21074132.png)
+![](/uploads/projects/ue-bluprint/20221218-21074132.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Granular Synth Object Reference.
 
-Envelope Type: EGranularSynthEnvelopeType Enum.  
+Envelope Type: EGranularSynthEnvelopeType Enum.
 
 ## Outputs
 
 Out: Exec.
-

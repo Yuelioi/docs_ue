@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20224477.png)
+![](/uploads/projects/ue-bluprint/20221218-20224477.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。径向力组件对象参考。
 
-对象类型。EObjectTypeQuery 枚举。  
+对象类型。EObjectTypeQuery 枚举。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add an object type for this radial force to affect
 
@@ -26,7 +28,7 @@ Target is Radial Force Component
 
 ## 图示
 
-![]($-20221218-20224477.png)
+![](/uploads/projects/ue-bluprint/20221218-20224477.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Radial Force Component Object Reference.
 
-Object Type: EObjectTypeQuery Enum.  
+Object Type: EObjectTypeQuery Enum.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19131515.png)
+![](/uploads/projects/ue-bluprint/20221218-19131515.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 材料列表。材料界面对象参考数组。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Component Material List
 
@@ -28,7 +30,7 @@ Target is Geometry Script Library Scene Utility Functions
 
 ## 图示
 
-![]($-20221218-19131515.png)
+![](/uploads/projects/ue-bluprint/20221218-19131515.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Component: Primitive Component Object Reference.
 
 Material List: Array of Material Interface Object References.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

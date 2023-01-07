@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18102417.png)
+![](/uploads/projects/ue-bluprint/20221218-18102417.png)
 
 ## Inputs
 
 在。Exec.
 
-目标。普通按钮组基础对象参考。 
+目标。普通按钮组基础对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Deselects all buttons in the group.
 
@@ -24,15 +26,14 @@ Target is Common Button Group Base
 
 ## 图示
 
-![]($-20221218-18102417.png)
+![](/uploads/projects/ue-bluprint/20221218-18102417.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Common Button Group Base Object Reference.  
+Target: Common Button Group Base Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

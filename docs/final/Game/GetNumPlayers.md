@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-19061523.png)
+![](/uploads/projects/ue-bluprint/20221218-19061523.png)
 
 ## Inputs
 
 在。执行。
 
-目标。游戏模式基本对象参考。  
+目标。游戏模式基本对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。整数。返回活跃的人类玩家的数量，不包括观众。
 
+<hr>
+
 Returns number of active human players, excluding spectators
 
 Target is Game Mode Base
 
 ## 图示
 
-![]($-20221218-19061523.png)
+![](/uploads/projects/ue-bluprint/20221218-19061523.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Game Mode Base Object Reference.  
+Target: Game Mode Base Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. Returns number of active human players, excluding spectators.
-

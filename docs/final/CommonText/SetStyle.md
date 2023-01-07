@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18213291.png)
+![](/uploads/projects/ue-bluprint/20221218-18213291.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。普通文本对象参考。
 
-风格中。普通文本样式类参考。 
+风格中。普通文本样式类参考。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set Style
 
@@ -26,7 +28,7 @@ Target is Common Text
 
 ## 图示
 
-![]($-20221218-18213291.png)
+![](/uploads/projects/ue-bluprint/20221218-18213291.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common Text Object Reference.
 
-In Style: Common Text Style Class Reference.  
+In Style: Common Text Style Class Reference.
 
 ## Outputs
 
 Out: Exec.
-

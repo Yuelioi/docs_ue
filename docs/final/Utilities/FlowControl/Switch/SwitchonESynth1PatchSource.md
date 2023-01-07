@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14241138.png)
+![](/uploads/projects/ue-bluprint/20221218-14241138.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESynth1PatchSource Enum.  
+选择。ESynth1PatchSource Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Envelope: Exec.
 
 偏置包络。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14241138.png)
+![](/uploads/projects/ue-bluprint/20221218-14241138.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESynth1PatchSource Enum.  
+Selection: ESynth1PatchSource Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ LFO2: Exec.
 Envelope: Exec.
 
 Bias Envelope: Exec.
-

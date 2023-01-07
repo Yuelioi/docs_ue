@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19373367.png)
+![](/uploads/projects/ue-bluprint/20221218-19373367.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。分层子系统对象参考。
 
-水平。级别对象参考。的过程。  
+水平。级别对象参考。的过程。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Aggregates any information regarding layers associated with the level and it contents
 
@@ -26,7 +28,7 @@ Target is Layers Subsystem
 
 ## 图示
 
-![]($-20221218-19373367.png)
+![](/uploads/projects/ue-bluprint/20221218-19373367.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Layers Subsystem Object Reference.
 
-Level: Level Object Reference. The process.  
+Level: Level Object Reference. The process.
 
 ## Outputs
 
 Out: Exec.
-

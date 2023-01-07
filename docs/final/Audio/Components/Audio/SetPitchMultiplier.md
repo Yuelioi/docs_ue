@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18031320.png)
+![](/uploads/projects/ue-bluprint/20221218-18031320.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。音频组件对象参考。
 
-新的音高乘数。Float（单精度）。 
+新的音高乘数。Float（单精度）。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set a new pitch multiplier
 
@@ -26,7 +28,7 @@ Target is Audio Component
 
 ## 图示
 
-![]($-20221218-18031320.png)
+![](/uploads/projects/ue-bluprint/20221218-18031320.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Audio Component Object Reference.
 
-New Pitch Multiplier: Float (single-precision).  
+New Pitch Multiplier: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

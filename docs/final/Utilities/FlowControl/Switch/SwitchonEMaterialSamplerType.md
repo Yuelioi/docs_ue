@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14211943.png)
+![](/uploads/projects/ue-bluprint/20221218-14211943.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMaterialSamplerType枚举。 
+选择。EMaterialSamplerType 枚举。
 
 ## Outputs
 
@@ -38,7 +38,7 @@ Linear Grayscale: Exec.
 
 虚拟灰度: 虚拟灰度: Exec.
 
-虚拟阿尔法 虚拟Alpha: Exec.
+虚拟阿尔法 虚拟 Alpha: Exec.
 
 虚拟正态 执行
 
@@ -48,17 +48,19 @@ Linear Grayscale: Exec.
 
 虚拟线性灰度: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14211943.png)
+![](/uploads/projects/ue-bluprint/20221218-14211943.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMaterialSamplerType Enum.  
+Selection: EMaterialSamplerType Enum.
 
 ## Outputs
 
@@ -95,4 +97,3 @@ Virtual Mask: Exec.
 Virtual Linear Color: Exec.
 
 Virtual Linear Grayscale: Exec.
-

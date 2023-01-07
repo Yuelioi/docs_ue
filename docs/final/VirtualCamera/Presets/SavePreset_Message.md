@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21263516.png)
+![](/uploads/projects/ue-bluprint/20221218-21263516.png)
 
 ## Inputs
 
@@ -20,7 +20,7 @@
 
 保存轴的锁定。布尔值。此预设是否应保存轴锁定设置。
 
-保存运动比例。布尔值。此预设是否应该保存运动比例设置。  
+保存运动比例。布尔值。此预设是否应该保存运动比例设置。
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 返回值。字符串。预设的名称。
 
+<hr>
+
 Saves a preset into the list of presets.
 
 Target is Virtual Camera Preset Container
 
 ## 图示
 
-![]($-20221218-21263516.png)
+![](/uploads/projects/ue-bluprint/20221218-21263516.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Save Stabilization: Boolean. Should this preset save stabilization settings.
 
 Save Axis Locking: Boolean. Should this preset save axis locking settings.
 
-Save Motion Scale: Boolean. Should this preset save motion scaled settings.  
+Save Motion Scale: Boolean. Should this preset save motion scaled settings.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: String. the name of the preset.
-

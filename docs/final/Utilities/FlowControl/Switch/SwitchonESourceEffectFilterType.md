@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14234541.png)
+![](/uploads/projects/ue-bluprint/20221218-14234541.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESourceEffectFilterType枚举。 
+选择。ESourceEffectFilterType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 带状停止：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14234541.png)
+![](/uploads/projects/ue-bluprint/20221218-14234541.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESourceEffectFilterType Enum.  
+Selection: ESourceEffectFilterType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ High Pass: Exec.
 Band Pass: Exec.
 
 Band Stop: Exec.
-

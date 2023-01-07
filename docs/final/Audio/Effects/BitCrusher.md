@@ -1,12 +1,8 @@
 # BitCrusher
 
-在这个页面上 
+在这个页面上
 
-  *行动
-
-
-
-
+\*行动
 
 ## Actions
 
@@ -22,13 +18,11 @@
 
 设置设置。只设置基本（即载波）设置值，不修改调制源参考。目标是源效应位粉碎器预置。
 
-On this page 
+<hr>
 
-  * Actions
+On this page
 
-
-
-
+- Actions
 
 ## Actions
 
@@ -43,4 +37,3 @@ Set Sample Rate. Set Sample Rate: Target is Source Effect Bit Crusher Preset.
 Set Sample Rate Modulator. Set Sample Rate Modulator: Target is Source Effect Bit Crusher Preset.
 
 Set Settings. Sets just base (i.e. carrier) setting values without modifying modulation source references: Target is Source Effect Bit Crusher Preset.
-

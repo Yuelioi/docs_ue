@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21020260.png)
+![](/uploads/projects/ue-bluprint/20221218-21020260.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标。花键网格组件对象参考。
 
-在Spline Up Dir: Vector (by ref).
+在 Spline Up Dir: Vector (by ref).
 
-更新网格。布尔值。  
+更新网格。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the spline up direction
 
@@ -28,7 +30,7 @@ Target is Spline Mesh Component
 
 ## 图示
 
-![]($-20221218-21020260.png)
+![](/uploads/projects/ue-bluprint/20221218-21020260.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Spline Mesh Component Object Reference.
 
 In Spline Up Dir: Vector (by ref).
 
-Update Mesh: Boolean.  
+Update Mesh: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20072850.png)
+![](/uploads/projects/ue-bluprint/20221218-20072850.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。运动控制器组件对象参考。
 
-联合指数。整数。  
+联合指数。整数。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。向量。获取手部关节位置。
 
+<hr>
+
 Get Hand Joint Position
 
 Target is Motion Controller Component
 
 ## 图示
 
-![]($-20221218-20072850.png)
+![](/uploads/projects/ue-bluprint/20221218-20072850.png)
 
 ## Inputs
 
@@ -38,7 +40,7 @@ In: Exec.
 
 Target: Motion Controller Component Object Reference.
 
-Joint Index: Integer.  
+Joint Index: Integer.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out: Exec.
 Value Found: Boolean.
 
 Return Value: Vector. Get Hand Joint Position.
-

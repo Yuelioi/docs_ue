@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18295025.png)
+![](/uploads/projects/ue-bluprint/20221218-18295025.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 Scene Capture（场景捕捉）。Scene Capture Component 2D Object Reference.
 
-输出的缓冲区。字符串阵列。 
+输出的缓冲区。字符串阵列。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Initialize the export to capture the specified named buffer visualization targets from a scene capture
 
@@ -30,7 +32,7 @@ Target is Movie Scene Composure Export Initializer
 
 ## 图示
 
-![]($-20221218-18295025.png)
+![](/uploads/projects/ue-bluprint/20221218-18295025.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Comp Shot Element: Empty Comp Shot Object Reference.
 
 Scene Capture: Scene Capture Component 2D Object Reference.
 
-Buffers to Export: Array of Strings.  
+Buffers to Export: Array of Strings.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19074075.png)
+![](/uploads/projects/ue-bluprint/20221218-19074075.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 新玩家。控制器对象参考。
 
-再生儿变身。转变（通过参考）。  
+再生儿变身。转变（通过参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Tries to spawn the player's pawn at a specific location
 
@@ -28,7 +30,7 @@ Target is Game Mode Base
 
 ## 图示
 
-![]($-20221218-19074075.png)
+![](/uploads/projects/ue-bluprint/20221218-19074075.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Game Mode Base Object Reference.
 
 New Player: Controller Object Reference.
 
-Spawn Transform: Transform (by ref).  
+Spawn Transform: Transform (by ref).
 
 ## Outputs
 
 Out: Exec.
-

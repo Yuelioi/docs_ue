@@ -2,19 +2,21 @@
 
 返回给定控制器当前使用的导航路径点的数组。
 
-目标是AIBlueprint Helper Library。
+目标是 AIBlueprint Helper Library。
 
 ## 图示
 
-![]($-20221218-17464039.png)
+![](/uploads/projects/ue-bluprint/20221218-17464039.png)
 
 ## Inputs
 
-控制器。控制器对象参考。 
+控制器。控制器对象参考。
 
 ## Outputs
 
 返回值。矢量数组。返回给定控制器当前使用的导航路径点的数组。
+
+<hr>
 
 Returns an array of navigation path points given controller is currently using.
 
@@ -22,13 +24,12 @@ Target is AIBlueprint Helper Library
 
 ## 图示
 
-![]($-20221218-17464039.png)
+![](/uploads/projects/ue-bluprint/20221218-17464039.png)
 
 ## Inputs
 
-Controller: Controller Object Reference.  
+Controller: Controller Object Reference.
 
 ## Outputs
 
 Return Value: Array of Vectors. Returns an array of navigation path points given controller is currently using..
-

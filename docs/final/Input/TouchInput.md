@@ -2,11 +2,7 @@
 
 在这一页
 
-  * 行动
-
-
-
-
+- 行动
 
 ## Actions
 
@@ -18,13 +14,11 @@
 
 输入时触摸离开。On Input Touch Leave:.当玩家控制器中的触摸事件被启用时，当手指从这个组件上移开时调用的事件。
 
-On this page 
+<hr>
 
-  * Actions
+On this page
 
-
-
-
+- Actions
 
 ## Actions
 
@@ -35,4 +29,3 @@ On Input Touch End. On Input Touch End:. Event called when a touch input is rele
 On Input Touch Enter. On Input Touch Enter:. Called when a finger is moved over this actor when touch over events are enabled in the player controller..
 
 On Input Touch Leave. On Input Touch Leave:. Event called when a finger is moved off this component when touch over events are enabled in the player controller.
-

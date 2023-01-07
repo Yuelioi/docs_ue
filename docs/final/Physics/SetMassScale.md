@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20284968.png)
+![](/uploads/projects/ue-bluprint/20221218-20284968.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 骨骼名称：名称。
 
-在质量刻度中。Float（单精度）。  
+在质量刻度中。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Change the mass scale used to calculate the mass of a single physics body
 
@@ -28,7 +30,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20284968.png)
+![](/uploads/projects/ue-bluprint/20221218-20284968.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Primitive Component Object Reference.
 
 Bone Name: Name.
 
-In Mass Scale: Float (single-precision).  
+In Mass Scale: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

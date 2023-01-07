@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19331655.png)
+![](/uploads/projects/ue-bluprint/20221218-19331655.png)
 
 ## Inputs
 
@@ -14,15 +14,17 @@
 
 目标：互换骨架网工厂节点对象参考。
 
-独特的ID：字符串。
+独特的 ID：字符串。
 
 显示标签。字符串。节点的名称。
 
-在资产类别中。字符串。SkeletalMesh工厂将为该节点创建的类。
+在资产类别中。字符串。SkeletalMesh 工厂将为该节点创建的类。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Initialize node data
 
@@ -30,7 +32,7 @@ Target is Interchange Skeletal Mesh Factory Node
 
 ## 图示
 
-![]($-20221218-19331655.png)
+![](/uploads/projects/ue-bluprint/20221218-19331655.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Unique ID: String.
 
 Display Label: String. The name of the node.
 
-In Asset Class: String. The class the SkeletalMesh factory will create for this node..  
+In Asset Class: String. The class the SkeletalMesh factory will create for this node..
 
 ## Outputs
 
 Out: Exec.
-

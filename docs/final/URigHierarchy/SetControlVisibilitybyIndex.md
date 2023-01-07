@@ -6,21 +6,23 @@
 
 ## 图示
 
-![]($-20221218-21201269.png)
+![](/uploads/projects/ue-bluprint/20221218-21201269.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Rig Hierarchy对象参考。
+目标。Rig Hierarchy 对象参考。
 
 在元素索引中。整数。要设置可见度的元素的索引。
 
-可见性。布尔型。控件上要设置的可见性。  
+可见性。布尔型。控件上要设置的可见性。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets a control's current visibility based on a key
 
@@ -28,7 +30,7 @@ Target is Rig Hierarchy
 
 ## 图示
 
-![]($-20221218-21201269.png)
+![](/uploads/projects/ue-bluprint/20221218-21201269.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Rig Hierarchy Object Reference.
 
 In Element Index: Integer. The index of the element to set the visibility for.
 
-Visibility: Boolean. The visibility to set on the control.  
+Visibility: Boolean. The visibility to set on the control.
 
 ## Outputs
 
 Out: Exec.
-

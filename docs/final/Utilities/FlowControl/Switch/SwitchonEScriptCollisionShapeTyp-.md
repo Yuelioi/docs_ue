@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14231562.png)
+![](/uploads/projects/ue-bluprint/20221218-14231562.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EScriptCollisionShapeType枚举。 
+选择。EScriptCollisionShapeType 枚举。
 
 ## Outputs
 
@@ -30,17 +30,19 @@ NDOP18：执行。
 
 NDOP26：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14231562.png)
+![](/uploads/projects/ue-bluprint/20221218-14231562.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EScriptCollisionShapeType Enum.  
+Selection: EScriptCollisionShapeType Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ NDOP10 Z: Exec.
 NDOP18: Exec.
 
 NDOP26: Exec.
-

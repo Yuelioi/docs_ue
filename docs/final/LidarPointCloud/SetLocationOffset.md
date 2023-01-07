@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19435176.png)
+![](/uploads/projects/ue-bluprint/20221218-19435176.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。激光雷达点云对象参考。
 
-偏移。矢量。  
+偏移。矢量。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Applies given offset to this point cloud.
 
@@ -26,7 +28,7 @@ Target is Lidar Point Cloud
 
 ## 图示
 
-![]($-20221218-19435176.png)
+![](/uploads/projects/ue-bluprint/20221218-19435176.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Lidar Point Cloud Object Reference.
 
-Offset: Vector.  
+Offset: Vector.
 
 ## Outputs
 
 Out: Exec.
-

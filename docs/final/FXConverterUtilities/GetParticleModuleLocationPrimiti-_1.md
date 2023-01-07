@@ -1,18 +1,18 @@
-# GetParticleModuleLocationPrimiti-_1
+# GetParticleModuleLocationPrimiti-\_1
 
 获取粒子模块位置原始球体道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19023303.png)
+![](/uploads/projects/ue-bluprint/20221218-19023303.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。Sphere Object Reference.  
+粒子模块。Sphere Object Reference.
 
 ## Outputs
 
@@ -40,19 +40,21 @@ Out Negative Z: Boolean.
 
 输出开始位置。分销对象参考。
 
+<hr>
+
 Get Particle Module Location Primitive Sphere Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19023303.png)
+![](/uploads/projects/ue-bluprint/20221218-19023303.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Sphere Object Reference.  
+Particle Module: Sphere Object Reference.
 
 ## Outputs
 
@@ -79,4 +81,3 @@ Out Velocity: Boolean.
 Out Velocity Scale: Distribution Object Reference.
 
 Out Start Location: Distribution Object Reference.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18505339.png)
+![](/uploads/projects/ue-bluprint/20221218-18505339.png)
 
 ## Inputs
 
@@ -19,23 +19,25 @@
 出：执行。
 
 返回值。名称。获取活动视口配置键。
+
+<hr>
+
 Get Active Viewport Config Key
 
 Target is Level Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18505339.png)
+![](/uploads/projects/ue-bluprint/20221218-18505339.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Level Editor Subsystem Object Reference.  
+Target: Level Editor Subsystem Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Name. Get Active Viewport Config Key.
-

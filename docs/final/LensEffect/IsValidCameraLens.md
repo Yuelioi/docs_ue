@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-19403443.png)
+![](/uploads/projects/ue-bluprint/20221218-19403443.png)
 
 ## Inputs
 
 在。执行。
 
-照相机镜头。相机镜头效果界面接口（由参考）。  
+照相机镜头。相机镜头效果界面接口（由参考）。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 无效。执行者。
 
+<hr>
+
 Evaluate the live interface to see if it is a valid reference.
 
 Target is Camera Lens Effect Interface Class Support Library
 
 ## 图示
 
-![]($-20221218-19403443.png)
+![](/uploads/projects/ue-bluprint/20221218-19403443.png)
 
 ## Inputs
 
 In: Exec.
 
-Camera Lens: Camera Lens Effect Interface Interface (by ref).  
+Camera Lens: Camera Lens Effect Interface Interface (by ref).
 
 ## Outputs
 
 Valid: Exec.
 
 Invalid: Exec.
-

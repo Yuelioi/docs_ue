@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14221917.png)
+![](/uploads/projects/ue-bluprint/20221218-14221917.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EPathFollowingResult Enum.  
+选择。EPathFollowingResult Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@
 
 无效。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14221917.png)
+![](/uploads/projects/ue-bluprint/20221218-14221917.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EPathFollowingResult Enum.  
+Selection: EPathFollowingResult Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Off Path: Exec.
 Aborted: Exec.
 
 Invalid: Exec.
-

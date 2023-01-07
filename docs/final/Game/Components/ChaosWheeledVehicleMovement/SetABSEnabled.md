@@ -1,12 +1,12 @@
 # SetABSEnabled
 
-设置ABSEnabled
+设置 ABSEnabled
 
 目标是混沌轮式车辆运动组件
 
 ## 图示
 
-![]($-20221218-19042516.png)
+![](/uploads/projects/ue-bluprint/20221218-19042516.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 车轮索引：整数。
 
-已启用。布尔值。  
+已启用。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set ABSEnabled
 
@@ -28,7 +30,7 @@ Target is Chaos Wheeled Vehicle Movement Component
 
 ## 图示
 
-![]($-20221218-19042516.png)
+![](/uploads/projects/ue-bluprint/20221218-19042516.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Chaos Wheeled Vehicle Movement Component Object Reference.
 
 Wheel Index: Integer.
 
-Enabled: Boolean.  
+Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

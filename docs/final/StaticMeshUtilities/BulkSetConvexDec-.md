@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21032728.png)
+![](/uploads/projects/ue-bluprint/20221218-21032728.png)
 
 ## Inputs
 
@@ -30,13 +30,15 @@
 
 返回值。布尔值。一个布尔值，表示加法是否成功。
 
+<hr>
+
 Compute convex collisions for a set of static meshes.. Any existing collisions will be removed from the static meshes.. This method replicates what is done when invoking menu entry "Collision > Auto Convex Collision" in the Mesh Editor.
 
 Target is Static Mesh Editor Subsystem
 
 ## 图示
 
-![]($-20221218-21032728.png)
+![](/uploads/projects/ue-bluprint/20221218-21032728.png)
 
 ## Inputs
 
@@ -52,11 +54,10 @@ Max Hull Verts: Integer. Maximum number of vertices allowed for any generated co
 
 Hull Precision: Integer. Number of voxels to use when generating collision. Must be positive..
 
-Apply Changes: Boolean. Indicates if changes must be apply or not..  
+Apply Changes: Boolean. Indicates if changes must be apply or not..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. A boolean indicating if the addition was successful or not..
-

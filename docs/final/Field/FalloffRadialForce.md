@@ -6,7 +6,7 @@ FalloffRadialForce。这个函数将向物理线程发送一个命令，以便�
 
 ## 图示
 
-![]($-20221218-18594678.png)
+![](/uploads/projects/ue-bluprint/20221218-18594678.png)
 
 ## Inputs
 
@@ -25,13 +25,16 @@ FalloffRadialForce。这个函数将向物理线程发送一个命令，以便�
 ## Outputs
 
 输出。执行。
+
+<hr>
+
 FalloffRadialForce. This function will dispatch a command to the physics thread to apply. a linear force from a position in space. The force vector is weaker as. it moves away from the center.
 
 Target is Field System Component
 
 ## 图示
 
-![]($-20221218-18594678.png)
+![](/uploads/projects/ue-bluprint/20221218-18594678.png)
 
 ## Inputs
 
@@ -45,9 +48,8 @@ Center Position: Vector. The origin point of the force.
 
 Falloff Radius: Float (single-precision). Radial influence from the position, positions further away are weaker..
 
-Field Magnitude: Float (single-precision). The size of the linear force..  
+Field Magnitude: Float (single-precision). The size of the linear force..
 
 ## Outputs
 
 Out: Exec.
-

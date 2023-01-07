@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21195807.png)
+![](/uploads/projects/ue-bluprint/20221218-21195807.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Rig Hierarchy对象参考。  
+目标。Rig Hierarchy 对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Clears the whole hierarchy and removes all elements.
 
@@ -24,15 +26,14 @@ Target is Rig Hierarchy
 
 ## 图示
 
-![]($-20221218-21195807.png)
+![](/uploads/projects/ue-bluprint/20221218-21195807.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Rig Hierarchy Object Reference.  
+Target: Rig Hierarchy Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

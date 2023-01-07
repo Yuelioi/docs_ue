@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20274331.png)
+![](/uploads/projects/ue-bluprint/20221218-20274331.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 约束力名称。名称。制约因素的名称。
 
-包括终止的。布尔型。  
+包括终止的。布尔型。
 
 ## Outputs
 
 出：执行。
 
-返回值。Constraint Instance Accessor结构。
+返回值。Constraint Instance Accessor 结构。
+
+<hr>
 
 Gets a constraint by its name
 
@@ -30,7 +32,7 @@ Target is Skeletal Mesh Component
 
 ## 图示
 
-![]($-20221218-20274331.png)
+![](/uploads/projects/ue-bluprint/20221218-20274331.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Skeletal Mesh Component Object Reference.
 
 Constraint Name: Name. name of the constraint.
 
-Includes Terminated: Boolean.  
+Includes Terminated: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Constraint Instance Accessor Structure.
-

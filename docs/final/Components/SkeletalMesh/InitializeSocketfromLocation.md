@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18261747.png)
+![](/uploads/projects/ue-bluprint/20221218-18261747.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@ Skel Comp: 骨骼网组件对象参考。
 
 世界位置。矢量。
 
-世界法线。向量。 
+世界法线。向量。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Sets BoneName, RelativeLocation and RelativeRotation based on closest bone to WorldLocation and WorldNormal
 
@@ -30,7 +32,7 @@ Target is Skeletal Mesh Socket
 
 ## 图示
 
-![]($-20221218-18261747.png)
+![](/uploads/projects/ue-bluprint/20221218-18261747.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Skel Comp: Skeletal Mesh Component Object Reference.
 
 World Location: Vector.
 
-World Normal: Vector.  
+World Normal: Vector.
 
 ## Outputs
 
 Out: Exec.
-

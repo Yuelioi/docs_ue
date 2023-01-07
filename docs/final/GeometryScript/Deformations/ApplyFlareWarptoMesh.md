@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19103915.png)
+![](/uploads/projects/ue-bluprint/20221218-19103915.png)
 
 ## Inputs
 
@@ -24,13 +24,15 @@ Flare Percent Y: Float（单精度）。
 
 Flare Extent。Float（单精度）。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
 出：执行。
 
-目标网格。动态网格对象参考。应用Flare Warp到网格。
+目标网格。动态网格对象参考。应用 Flare Warp 到网格。
+
+<hr>
 
 Apply Flare Warp to Mesh
 
@@ -38,7 +40,7 @@ Target is Geometry Script Library Mesh Deform Functions
 
 ## 图示
 
-![]($-20221218-19103915.png)
+![](/uploads/projects/ue-bluprint/20221218-19103915.png)
 
 ## Inputs
 
@@ -56,11 +58,10 @@ Flare Percent Y: Float (single-precision).
 
 Flare Extent: Float (single-precision).
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Apply Flare Warp to Mesh.
-

@@ -1,4 +1,4 @@
-# GetLinkedAnimLay-_1
+# GetLinkedAnimLay-\_1
 
 获取与指定组对应的图层链接实例。
 
@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18255781.png)
+![](/uploads/projects/ue-bluprint/20221218-18255781.png)
 
 ## Inputs
 
 目标。骨架网状结构组件对象参考。
 
-在组中。名称。 
+在组中。名称。
 
 ## Outputs
 
 返回值。动画实例对象参考。获取对应于指定组的图层链接实例。
+
+<hr>
 
 Gets the layer linked instance corresponding to the specified group
 
@@ -24,15 +26,14 @@ Target is Skeletal Mesh Component
 
 ## 图示
 
-![]($-20221218-18255781.png)
+![](/uploads/projects/ue-bluprint/20221218-18255781.png)
 
 ## Inputs
 
 Target: Skeletal Mesh Component Object Reference.
 
-In Group: Name.  
+In Group: Name.
 
 ## Outputs
 
 Return Value: Anim Instance Object Reference. Gets the layer linked instance corresponding to the specified group.
-

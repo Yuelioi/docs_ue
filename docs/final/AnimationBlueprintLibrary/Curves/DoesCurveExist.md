@@ -6,17 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17514746.png)
+![](/uploads/projects/ue-bluprint/20221218-17514746.png)
 
 ## Inputs
 
 在。执行。
 
-动画序列。Anim Sequence对象参考。
+动画序列。Anim Sequence 对象参考。
 
 曲线名称。名称.
 
-曲线类型。ERawCurveTrackTypes枚举。 
+曲线类型。ERawCurveTrackTypes 枚举。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。检查给定动画序列所引用的骨架上是否存在给定的曲线名称。
 
+<hr>
+
 Checks whether or not the given Curve Name exist on the Skeleton referenced by the given Animation Sequence
 
 Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17514746.png)
+![](/uploads/projects/ue-bluprint/20221218-17514746.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Animation Sequence: Anim Sequence Object Reference.
 
 Curve Name: Name.
 
-Curve Type: ERawCurveTrackTypes Enum.  
+Curve Type: ERawCurveTrackTypes Enum.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Checks whether or not the given Curve Name exist on the Skeleton referenced by the given Animation Sequence.
-

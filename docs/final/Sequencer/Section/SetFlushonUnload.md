@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20532062.png)
+![](/uploads/projects/ue-bluprint/20221218-20532062.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。电影场景数据层部分对象参考。
 
-卸载时刷新。布尔值。  
+卸载时刷新。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Flush on Unload
 
@@ -26,7 +28,7 @@ Target is Movie Scene Data Layer Section
 
 ## 图示
 
-![]($-20221218-20532062.png)
+![](/uploads/projects/ue-bluprint/20221218-20532062.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Movie Scene Data Layer Section Object Reference.
 
-Flush on Unload: Boolean.  
+Flush on Unload: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

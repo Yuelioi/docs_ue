@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19372809.png)
+![](/uploads/projects/ue-bluprint/20221218-19372809.png)
 
 ## Inputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。如果至少有一个演员被添加到至少一个层，则为真。如果所有的演员已经属于所有指定的层，则返回假。
 
+<hr>
+
 Add the actors to the named layers
 
 Target is Layers Subsystem
 
 ## 图示
 
-![]($-20221218-19372809.png)
+![](/uploads/projects/ue-bluprint/20221218-19372809.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Layers Subsystem Object Reference.
 
 Actors: Array of Actor Object References. The actors to add to the named layers.
 
-Layer Names: Array of Names. A valid list of layer names..  
+Layer Names: Array of Names. A valid list of layer names..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if at least one actor was added to at least one layer. false is returned if all the actors already belonged to all specified layers..
-

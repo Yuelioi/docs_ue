@@ -2,11 +2,11 @@
 
 附录胶囊
 
-目标是Geometry Script Library Mesh Primitive Functions
+目标是 Geometry Script Library Mesh Primitive Functions
 
 ## 图示
 
-![]($-20221218-19124761.png)
+![](/uploads/projects/ue-bluprint/20221218-19124761.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标网格。动态网格对象参考。
 
-原始选项。Geometry Script Primitive Options结构。
+原始选项。Geometry Script Primitive Options 结构。
 
 改造：改造。
 
@@ -26,9 +26,9 @@
 
 圈子的步骤。整数。
 
-原产地。EGeometryScriptPrimitiveOriginMode枚举。
+原产地。EGeometryScriptPrimitiveOriginMode 枚举。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -36,13 +36,15 @@
 
 目标网格。动态网格对象参考。附加胶囊。
 
+<hr>
+
 Append Capsule
 
 Target is Geometry Script Library Mesh Primitive Functions
 
 ## 图示
 
-![]($-20221218-19124761.png)
+![](/uploads/projects/ue-bluprint/20221218-19124761.png)
 
 ## Inputs
 
@@ -64,11 +66,10 @@ Circle Steps: Integer.
 
 Origin: EGeometryScriptPrimitiveOriginMode Enum.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Append Capsule.
-

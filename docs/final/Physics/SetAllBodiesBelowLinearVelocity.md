@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20281814.png)
+![](/uploads/projects/ue-bluprint/20221218-20281814.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 线性速度。矢量（通过参考）。
 
-包括自我：布尔值。  
+包括自我：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 set the linear velocity of the child bodies to match that of the given parent bone
 
@@ -30,7 +32,7 @@ Target is Skeletal Mesh Component
 
 ## 图示
 
-![]($-20221218-20281814.png)
+![](/uploads/projects/ue-bluprint/20221218-20281814.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ In Bone Name: Name (by ref).
 
 Linear Velocity: Vector (by ref).
 
-Include Self: Boolean.  
+Include Self: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

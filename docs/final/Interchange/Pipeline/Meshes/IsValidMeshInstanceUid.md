@@ -1,22 +1,24 @@
 # IsValidMeshInstanceUid
 
-如果有一个现有的FInterchangeMeshInstance与MeshInstanceUid键匹配，则返回true。
+如果有一个现有的 FInterchangeMeshInstance 与 MeshInstanceUid 键匹配，则返回 true。
 
 目标是互换管道中的公用事业
 
 ## 图示
 
-![]($-20221218-19364890.png)
+![](/uploads/projects/ue-bluprint/20221218-19364890.png)
 
 ## Inputs
 
 目标：互换管线网格公用事业对象参考。
 
-Mesh Instance Uid。字符串。  
+Mesh Instance Uid。字符串。
 
 ## Outputs
 
-返回值。布尔值。如果有一个现有的FInterchangeMeshInstance与MeshInstanceUid键匹配，则返回true。
+返回值。布尔值。如果有一个现有的 FInterchangeMeshInstance 与 MeshInstanceUid 键匹配，则返回 true。
+
+<hr>
 
 Return true if there is an existing FInterchangeMeshInstance matching the MeshInstanceUid key.
 
@@ -24,15 +26,14 @@ Target is Interchange Pipeline Meshes Utilities
 
 ## 图示
 
-![]($-20221218-19364890.png)
+![](/uploads/projects/ue-bluprint/20221218-19364890.png)
 
 ## Inputs
 
 Target: Interchange Pipeline Meshes Utilities Object Reference.
 
-Mesh Instance Uid: String.  
+Mesh Instance Uid: String.
 
 ## Outputs
 
 Return Value: Boolean. Return true if there is an existing FInterchangeMeshInstance matching the MeshInstanceUid key..
-

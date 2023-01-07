@@ -4,7 +4,8 @@
 
 注意：当组件被替换时，你将需要重新获得组件上的所有属性，如修改器和输出提供者。
 
+<hr>
+
 On Component Replaced:. There are situations in the editor where the component may be replaced by another component as part of the actor being reconstructed. This event will notify you of that change and give you a reference to the new component.. Bindings will be copied to the new component so you do not need to rebind this event
 
 Note: When the component is replaced you will need to get all properties on the component again such as Modifiers and Output Providers
-

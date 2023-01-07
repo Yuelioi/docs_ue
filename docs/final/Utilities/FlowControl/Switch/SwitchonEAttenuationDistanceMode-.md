@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14165823.png)
+![](/uploads/projects/ue-bluprint/20221218-14165823.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAttenuationDistanceModel Enum.  
+选择。EAttenuationDistanceModel Enum.
 
 ## Outputs
 
@@ -26,17 +26,19 @@ Logarithmic: Exec.
 
 自定义。执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14165823.png)
+![](/uploads/projects/ue-bluprint/20221218-14165823.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAttenuationDistanceModel Enum.  
+Selection: EAttenuationDistanceModel Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Log Reverse: Exec.
 Natural Sound: Exec.
 
 Custom: Exec.
-

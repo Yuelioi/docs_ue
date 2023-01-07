@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18272640.png)
+![](/uploads/projects/ue-bluprint/20221218-18272640.png)
 
 ## Inputs
 
-目标。Sphere Collision Object Reference。 
+目标。Sphere Collision Object Reference。
 
 ## Outputs
 
 返回值。Float（单精度）。这个形状所使用的比例。
+
+<hr>
 
 Get the scale used by this shape. This is a uniform scale that is the minimum of any non-uniform scaling.
 
@@ -22,13 +24,12 @@ Target is Sphere Collision
 
 ## 图示
 
-![]($-20221218-18272640.png)
+![](/uploads/projects/ue-bluprint/20221218-18272640.png)
 
 ## Inputs
 
-Target: Sphere Collision Object Reference.  
+Target: Sphere Collision Object Reference.
 
 ## Outputs
 
 Return Value: Float (single-precision). the scale used by this shape..
-

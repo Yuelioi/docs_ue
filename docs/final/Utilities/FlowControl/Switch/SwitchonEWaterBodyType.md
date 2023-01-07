@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14252460.png)
+![](/uploads/projects/ue-bluprint/20221218-14252460.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EWaterBodyType枚举。 
+选择。EWaterBodyType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Ocean: 高级的
 
 自定义。特级
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14252460.png)
+![](/uploads/projects/ue-bluprint/20221218-14252460.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EWaterBodyType Enum.  
+Selection: EWaterBodyType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Lake: Exec.
 Ocean: Exec.
 
 Custom: Exec.
-

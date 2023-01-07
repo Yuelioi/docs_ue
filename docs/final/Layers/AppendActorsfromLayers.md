@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19373821.png)
+![](/uploads/projects/ue-bluprint/20221218-19373821.png)
 
 ## Inputs
 
@@ -18,21 +18,22 @@
 
 In Out Actors:演员对象参考数组。将找到的演员追加到列表中。
 
+<hr>
+
 Appends all the actors associated with ANY of the specified layers.
 
 Target is Layers Subsystem
 
 ## 图示
 
-![]($-20221218-19373821.png)
+![](/uploads/projects/ue-bluprint/20221218-19373821.png)
 
 ## Inputs
 
 Target: Layers Subsystem Object Reference.
 
-Layer Names: Array of Names. The layers to find actors for..  
+Layer Names: Array of Names. The layers to find actors for..
 
 ## Outputs
 
 In Out Actors: Array of Actor Object References. The list to append the found actors to..
-

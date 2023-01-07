@@ -6,21 +6,21 @@
 
 ## 图示
 
-![]($-20221218-17332973.png)
+![](/uploads/projects/ue-bluprint/20221218-17332973.png)
 
 ## Inputs
 
 在。执行。
 
-属性。Gameplay Attribute结构。
+属性。Gameplay Attribute 结构。
 
-比较类型。EWaitAttributeChangeComparison枚举。
+比较类型。EWaitAttributeChangeComparison 枚举。
 
 比较值。Float（单精度）。
 
 触发一次：布尔值。
 
-可选的外部所有者：Actor对象参考。 
+可选的外部所有者：Actor 对象参考。
 
 ## Outputs
 
@@ -34,13 +34,15 @@ Async Task: Ability Task Wait Attribute Change Threshold Object Reference.
 
 当前值。浮点数（单精度）。
 
+<hr>
+
 Wait on attribute change meeting a comparison threshold.
 
 Target is Ability Task Wait Attribute Change Threshold
 
 ## 图示
 
-![]($-20221218-17332973.png)
+![](/uploads/projects/ue-bluprint/20221218-17332973.png)
 
 ## Inputs
 
@@ -54,7 +56,7 @@ Comparison Value: Float (single-precision).
 
 Trigger Once: Boolean.
 
-Optional External Owner: Actor Object Reference.  
+Optional External Owner: Actor Object Reference.
 
 ## Outputs
 
@@ -67,4 +69,3 @@ On Change: Exec. On Change.
 Matches Comparison: Boolean.
 
 Current Value: Float (single-precision).
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14222003.png)
+![](/uploads/projects/ue-bluprint/20221218-14222003.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EPathFollowingStatus枚举。 
+选择。EPathFollowingStatus 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 移动。执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14222003.png)
+![](/uploads/projects/ue-bluprint/20221218-14222003.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EPathFollowingStatus Enum.  
+Selection: EPathFollowingStatus Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Waiting: Exec.
 Paused: Exec.
 
 Moving: Exec.
-

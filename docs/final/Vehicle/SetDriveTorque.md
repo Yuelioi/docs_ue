@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21244808.png)
+![](/uploads/projects/ue-bluprint/20221218-21244808.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 驱动力矩。浮点（单精度）。
 
-车轮索引：整数。  
+车轮索引：整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the drive torque to be applied to a specific wheel
 
@@ -28,7 +30,7 @@ Target is Simple Wheeled Vehicle Movement Component
 
 ## 图示
 
-![]($-20221218-21244808.png)
+![](/uploads/projects/ue-bluprint/20221218-21244808.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Simple Wheeled Vehicle Movement Component Object Reference.
 
 Drive Torque: Float (single-precision).
 
-Wheel Index: Integer.  
+Wheel Index: Integer.
 
 ## Outputs
 
 Out: Exec.
-

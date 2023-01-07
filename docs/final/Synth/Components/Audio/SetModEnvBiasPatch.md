@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21080063.png)
+![](/uploads/projects/ue-bluprint/20221218-21080063.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Modular Synth Component Object Reference。
 
-In Patch Type: ESynthModEnvBiasPatch Enum.  
+In Patch Type: ESynthModEnvBiasPatch Enum.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets whether or not to modulate a param based on the envelope. Uses bias envelope output (offset from sustain gain).
 
@@ -26,7 +28,7 @@ Target is Modular Synth Component
 
 ## 图示
 
-![]($-20221218-21080063.png)
+![](/uploads/projects/ue-bluprint/20221218-21080063.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Modular Synth Component Object Reference.
 
-In Patch Type: ESynthModEnvBiasPatch Enum.  
+In Patch Type: ESynthModEnvBiasPatch Enum.
 
 ## Outputs
 
 Out: Exec.
-

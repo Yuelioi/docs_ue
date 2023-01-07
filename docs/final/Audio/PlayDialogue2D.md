@@ -2,19 +2,15 @@
 
 直接播放对话，没有衰减，非常适合用户界面。
 
-  * 火灾和遗忘。
+- 火灾和遗忘。
 
-  * 不复制。
-
-
-
-
+- 不复制。
 
 目标是游戏性的统计学
 
 ## 图示
 
-![]($-20221218-18072312.png)
+![](/uploads/projects/ue-bluprint/20221218-18072312.png)
 
 ## Inputs
 
@@ -28,27 +24,25 @@ Volume Multiplier（音量乘数）。Float（单精度）。一个与音量相�
 
 音高乘数。浮点数（单精度）。一个与音高相乘的线性标量。
 
-开始时间。Float（单精度）。从对话的多远开始播放。 
+开始时间。Float（单精度）。从对话的多远开始播放。
 
 ## Outputs
 
 输出。执行。
 
+<hr>
+
 Plays a dialogue directly with no attenuation, perfect for UI.
 
-  * Fire and Forget.
+- Fire and Forget.
 
-  * Not Replicated.
-
-
-
-
+- Not Replicated.
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18072312.png)
+![](/uploads/projects/ue-bluprint/20221218-18072312.png)
 
 ## Inputs
 
@@ -62,9 +56,8 @@ Volume Multiplier: Float (single-precision). A linear scalar multiplied with the
 
 Pitch Multiplier: Float (single-precision). A linear scalar multiplied with the pitch..
 
-Start Time: Float (single-precision). How far in to the dialogue to begin playback at.  
+Start Time: Float (single-precision). How far in to the dialogue to begin playback at.
 
 ## Outputs
 
 Out: Exec.
-

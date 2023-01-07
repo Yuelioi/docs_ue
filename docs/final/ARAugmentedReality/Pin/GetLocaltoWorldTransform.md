@@ -1,20 +1,22 @@
 # GetLocaltoWorldTransform
 
-方便的函数。与LocalToTrackingTransform相同，但是，附加TrackingToWorld Transform。
+方便的函数。与 LocalToTrackingTransform 相同，但是，附加 TrackingToWorld Transform。
 
-目标是ARPin
+目标是 ARPin
 
 ## 图示
 
-![]($-20221218-17571673.png)
+![](/uploads/projects/ue-bluprint/20221218-17571673.png)
 
 ## Inputs
 
-目标。ARPin对象参考。 
+目标。ARPin 对象参考。
 
 ## Outputs
 
-返回值。变形。方便的函数。与LocalToTrackingTransform相同，但是，附加TrackingToWorld Transform。
+返回值。变形。方便的函数。与 LocalToTrackingTransform 相同，但是，附加 TrackingToWorld Transform。
+
+<hr>
 
 Convenience function. Same as LocalToTrackingTransform, but. appends the TrackingToWorld Transform.
 
@@ -22,13 +24,12 @@ Target is ARPin
 
 ## 图示
 
-![]($-20221218-17571673.png)
+![](/uploads/projects/ue-bluprint/20221218-17571673.png)
 
 ## Inputs
 
-Target: ARPin Object Reference.  
+Target: ARPin Object Reference.
 
 ## Outputs
 
 Return Value: Transform. Convenience function. Same as LocalToTrackingTransform, but. appends the TrackingToWorld Transform..
-

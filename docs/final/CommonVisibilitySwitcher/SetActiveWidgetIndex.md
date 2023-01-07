@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18215599.png)
+![](/uploads/projects/ue-bluprint/20221218-18215599.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。普通可见性切换器对象参考。
 
-索引。整数。 
+索引。整数。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Active Widget Index
 
@@ -26,7 +28,7 @@ Target is Common Visibility Switcher
 
 ## 图示
 
-![]($-20221218-18215599.png)
+![](/uploads/projects/ue-bluprint/20221218-18215599.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common Visibility Switcher Object Reference.
 
-Index: Integer.  
+Index: Integer.
 
 ## Outputs
 
 Out: Exec.
-

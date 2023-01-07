@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19004519.png)
+![](/uploads/projects/ue-bluprint/20221218-19004519.png)
 
 ## Inputs
 
 在。执行。
 
-程序性叶子组件。程序性叶子组件对象参考数组。  
+程序性叶子组件。程序性叶子组件对象参考数组。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Resimulate Procedural Foliage Components
 
@@ -24,15 +26,14 @@ Target is Procedural Foliage Editor Library
 
 ## 图示
 
-![]($-20221218-19004519.png)
+![](/uploads/projects/ue-bluprint/20221218-19004519.png)
 
 ## Inputs
 
 In: Exec.
 
-Procedural Foliage Components: Array of Procedural Foliage Component Object References.  
+Procedural Foliage Components: Array of Procedural Foliage Component Object References.
 
 ## Outputs
 
 Out: Exec.
-

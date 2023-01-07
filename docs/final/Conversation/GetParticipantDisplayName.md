@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-18330251.png)
+![](/uploads/projects/ue-bluprint/20221218-18330251.png)
 
 ## Inputs
 
 在。执行。
 
-目标。对话参与者组件对象参考。 
+目标。对话参与者组件对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。文本。获取参与者显示名称。
 
+<hr>
+
 Get Participant Display Name
 
 Target is Conversation Participant Component
 
 ## 图示
 
-![]($-20221218-18330251.png)
+![](/uploads/projects/ue-bluprint/20221218-18330251.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Conversation Participant Component Object Reference.  
+Target: Conversation Participant Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Text. Get Participant Display Name.
-

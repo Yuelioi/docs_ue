@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14240964.png)
+![](/uploads/projects/ue-bluprint/20221218-14240964.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESynth1OscType枚举。 
+选择。ESynth1OscType 枚举。
 
 ## Outputs
 
@@ -24,17 +24,19 @@
 
 噪声 Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14240964.png)
+![](/uploads/projects/ue-bluprint/20221218-14240964.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESynth1OscType Enum.  
+Selection: ESynth1OscType Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Triangle: Exec.
 Square: Exec.
 
 Noise: Exec.
-

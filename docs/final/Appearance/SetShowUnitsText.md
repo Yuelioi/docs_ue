@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17552044.png)
+![](/uploads/projects/ue-bluprint/20221218-17552044.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Audio Radial Slider 对象参考。
 
-显示单位文本。Boolean（布尔）。 
+显示单位文本。Boolean（布尔）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets whether to show the units text
 
@@ -26,7 +28,7 @@ Target is Audio Radial Slider
 
 ## 图示
 
-![]($-20221218-17552044.png)
+![](/uploads/projects/ue-bluprint/20221218-17552044.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Audio Radial Slider Object Reference.
 
-Show Units Text: Boolean.  
+Show Units Text: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

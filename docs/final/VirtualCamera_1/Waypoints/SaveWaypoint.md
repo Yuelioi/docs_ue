@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21303218.png)
+![](/uploads/projects/ue-bluprint/20221218-21303218.png)
 
 ## Inputs
 
 在。执行。
 
-目标。虚拟摄像机播放器控制器基础对象参考。  
+目标。虚拟摄像机播放器控制器基础对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。字符串。新航点在保存的航点阵列中的索引。
 
+<hr>
+
 Stores the current pawn location as a waypoint.
 
 Target is Virtual Camera Player Controller Base
 
 ## 图示
 
-![]($-20221218-21303218.png)
+![](/uploads/projects/ue-bluprint/20221218-21303218.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Virtual Camera Player Controller Base Object Reference.  
+Target: Virtual Camera Player Controller Base Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: String. the index of the new waypoint in the saved waypoints array.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17331359.png)
+![](/uploads/projects/ue-bluprint/20221218-17331359.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 行动之间的时间。浮点数（单精度）。
 
-总行动数。整数。 
+总行动数。整数。
 
 ## Outputs
 
@@ -28,13 +28,15 @@ On Perform Action: 执行。On Perform Action.
 
 行动编号：整数。
 
+<hr>
+
 Start a task that repeats an action or set of actions.
 
 Target is Ability Task Repeat
 
 ## 图示
 
-![]($-20221218-17331359.png)
+![](/uploads/projects/ue-bluprint/20221218-17331359.png)
 
 ## Inputs
 
@@ -42,7 +44,7 @@ In: Exec.
 
 Time Between Actions: Float (single-precision).
 
-Total Action Count: Integer.  
+Total Action Count: Integer.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ On Perform Action: Exec. On Perform Action.
 On Finished: Exec. On Finished.
 
 Action Number: Integer.
-

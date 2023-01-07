@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18071101.png)
+![](/uploads/projects/ue-bluprint/20221218-18071101.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。对象参考。
 
-在参数中。音频参数结构的数组。 
+在参数中。音频参数结构的数组。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets an array of parameters as a batch
 
@@ -26,7 +28,7 @@ Target is Audio Parameter Controller Interface
 
 ## 图示
 
-![]($-20221218-18071101.png)
+![](/uploads/projects/ue-bluprint/20221218-18071101.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Object Reference.
 
-In Parameters: Array of Audio Parameter Structures.  
+In Parameters: Array of Audio Parameter Structures.
 
 ## Outputs
 
 Out: Exec.
-

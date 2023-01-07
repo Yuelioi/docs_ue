@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20074589.png)
+![](/uploads/projects/ue-bluprint/20221218-20074589.png)
 
 ## Inputs
 
 在。执行。
 
-运动翘曲组件。Motion Warping Component对象参考。
+运动翘曲组件。Motion Warping Component 对象参考。
 
 动画。Anim Sequence 基础对象参考。
 
@@ -20,7 +20,7 @@
 
 结束时间。Float（单精度）。
 
-规模：向量。  
+规模：向量。
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 返回值。刻度对象参考。添加根部运动修改器刻度。
 
+<hr>
+
 Add Root Motion Modifier Scale
 
 Target is Scale
 
 ## 图示
 
-![]($-20221218-20074589.png)
+![](/uploads/projects/ue-bluprint/20221218-20074589.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Start Time: Float (single-precision).
 
 End Time: Float (single-precision).
 
-Scale: Vector.  
+Scale: Vector.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Scale Object Reference. Add Root Motion Modifier Scale.
-

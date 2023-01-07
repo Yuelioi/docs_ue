@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21000494.png)
+![](/uploads/projects/ue-bluprint/20221218-21000494.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。花键组件对象参考。
 
-更新花键。布尔值。  
+更新花键。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Clears all the points in the spline
 
@@ -26,7 +28,7 @@ Target is Spline Component
 
 ## 图示
 
-![]($-20221218-21000494.png)
+![](/uploads/projects/ue-bluprint/20221218-21000494.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Spline Component Object Reference.
 
-Update Spline: Boolean.  
+Update Spline: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

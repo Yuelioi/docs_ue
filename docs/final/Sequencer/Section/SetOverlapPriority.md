@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20532540.png)
+![](/uploads/projects/ue-bluprint/20221218-20532540.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。电影场景部分对象参考。
 
-新的优先权。整数。  
+新的优先权。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets this section's priority over overlapping sections (higher wins)
 
@@ -26,7 +28,7 @@ Target is Movie Scene Section
 
 ## 图示
 
-![]($-20221218-20532540.png)
+![](/uploads/projects/ue-bluprint/20221218-20532540.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Movie Scene Section Object Reference.
 
-New Priority: Integer.  
+New Priority: Integer.
 
 ## Outputs
 
 Out: Exec.
-

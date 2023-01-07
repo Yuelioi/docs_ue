@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-17450065.png)
+![](/uploads/projects/ue-bluprint/20221218-17450065.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 输出。执行：执行。
 
+<hr>
+
 An event with customizable name and parameters.
 
 ## 图示
 
-![]($-20221218-17450065.png)
+![](/uploads/projects/ue-bluprint/20221218-17450065.png)
 
 ## Inputs
 
@@ -27,4 +29,3 @@ An event with customizable name and parameters.
 Output Delegate: Delegate.
 
 Out: Exec.
-

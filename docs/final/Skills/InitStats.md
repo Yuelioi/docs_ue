@@ -1,12 +1,12 @@
 # InitStats
 
-K2启动统计表
+K2 启动统计表
 
 目标是能力系统组件
 
 ## 图示
 
-![]($-20221218-20583626.png)
+![](/uploads/projects/ue-bluprint/20221218-20583626.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@ K2启动统计表
 
 属性。属性集类参考。
 
-数据表。数据表对象参考。  
+数据表。数据表对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 K2 Init Stats
 
@@ -28,7 +30,7 @@ Target is Ability System Component
 
 ## 图示
 
-![]($-20221218-20583626.png)
+![](/uploads/projects/ue-bluprint/20221218-20583626.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Ability System Component Object Reference.
 
 Attributes: Attribute Set Class Reference.
 
-Data Table: Data Table Object Reference.  
+Data Table: Data Table Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

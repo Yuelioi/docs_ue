@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21035338.png)
+![](/uploads/projects/ue-bluprint/20221218-21035338.png)
 
 ## Inputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。一个布尔值，表示删除是否成功。
 
+<hr>
+
 Remove collisions from a static mesh.. This method replicates what is done when invoking menu entries "Collision > Remove Collision" in the Mesh Editor.
 
 Target is Static Mesh Editor Subsystem
 
 ## 图示
 
-![]($-20221218-21035338.png)
+![](/uploads/projects/ue-bluprint/20221218-21035338.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Static Mesh Editor Subsystem Object Reference.
 
 Static Mesh: Static Mesh Object Reference. Static mesh to remove collisions from..
 
-Apply Changes: Boolean. Indicates if changes must be apply or not..  
+Apply Changes: Boolean. Indicates if changes must be apply or not..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. A boolean indicating if the removal was successful or not..
-

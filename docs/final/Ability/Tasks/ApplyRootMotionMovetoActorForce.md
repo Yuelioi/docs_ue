@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17330457.png)
+![](/uploads/projects/ue-bluprint/20221218-17330457.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 目标位置偏移。向量。
 
-Offset Alignment: ERootMotionMoveToActorTargetOffsetType枚举。
+Offset Alignment: ERootMotionMoveToActorTargetOffsetType 枚举。
 
 持续时间。Float（单精度）。
 
@@ -28,7 +28,7 @@ Target Lerp Speed Vertical（垂直目标速度）。曲线浮点对象参考。
 
 设置新的运动模式。布尔型。
 
-运动模式。EMovementMode枚举。
+运动模式。EMovementMode 枚举。
 
 将速度限制在预期范围内。Boolean（布尔）。
 
@@ -42,7 +42,7 @@ Velocity on Finish Mode: ERootMotionFinishVelocityMode Enum.
 
 完成时的夹持速度：向量。Float（单精度）。
 
-Disable Destination Reached Interrupt: 布尔值。 
+Disable Destination Reached Interrupt: 布尔值。
 
 ## Outputs
 
@@ -58,13 +58,15 @@ Disable Destination Reached Interrupt: 布尔值。
 
 最终目标位置。向量。
 
+<hr>
+
 Apply force to character's movement
 
 Target is Ability Task Apply Root Motion Move to Actor Force
 
 ## 图示
 
-![]($-20221218-17330457.png)
+![](/uploads/projects/ue-bluprint/20221218-17330457.png)
 
 ## Inputs
 
@@ -100,7 +102,7 @@ Set Velocity on Finish: Vector.
 
 Clamp Velocity on Finish: Float (single-precision).
 
-Disable Destination Reached Interrupt: Boolean.  
+Disable Destination Reached Interrupt: Boolean.
 
 ## Outputs
 
@@ -115,4 +117,3 @@ Destination Reached: Boolean.
 Timed Out: Boolean.
 
 Final Target Location: Vector.
-

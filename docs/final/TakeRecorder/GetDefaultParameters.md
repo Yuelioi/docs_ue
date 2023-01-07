@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-21101098.png)
+![](/uploads/projects/ue-bluprint/20221218-21101098.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。取录音机参数结构。根据项目和用户设置，获取默认的记录器参数。
 
+<hr>
+
 Get the default recorder parameters according to the project and user settings
 
 Target is Take Recorder Blueprint Library
 
 ## 图示
 
-![]($-20221218-21101098.png)
+![](/uploads/projects/ue-bluprint/20221218-21101098.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Take Recorder Parameters Structure. Get the default recorder parameters according to the project and user settings.
-

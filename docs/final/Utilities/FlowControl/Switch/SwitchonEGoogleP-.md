@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14201065.png)
+![](/uploads/projects/ue-bluprint/20221218-14201065.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGooglePADCellularDataConfirmStatus枚举。 
+选择。EGooglePADCellularDataConfirmStatus 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 资产包 CONFIRM USER CANCELED: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14201065.png)
+![](/uploads/projects/ue-bluprint/20221218-14201065.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGooglePADCellularDataConfirmStatus Enum.  
+Selection: EGooglePADCellularDataConfirmStatus Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Asset Pack CONFIRM PENDING: Exec.
 Asset Pack CONFIRM USER APPROVED: Exec.
 
 Asset Pack CONFIRM USER CANCELED: Exec.
-

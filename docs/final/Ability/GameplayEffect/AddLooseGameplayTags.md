@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17312477.png)
+![](/uploads/projects/ue-bluprint/20221218-17312477.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 Gameplay Tags: 游戏性标签容器结构（通过引用）。
 
-Should Replicate（应该复制）。Boolean（布尔）。 
+Should Replicate（应该复制）。Boolean（布尔）。
 
 ## Outputs
 
@@ -24,13 +24,15 @@ Should Replicate（应该复制）。Boolean（布尔）。
 
 返回值。布尔值。手动添加一组标签到一个给定的角色，并可选择复制它们。
 
+<hr>
+
 Manually adds a set of tags to a given actor, and optionally replicates them.
 
 Target is Ability System Blueprint Library
 
 ## 图示
 
-![]($-20221218-17312477.png)
+![](/uploads/projects/ue-bluprint/20221218-17312477.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Actor: Actor Object Reference.
 
 Gameplay Tags: Gameplay Tag Container Structure (by ref).
 
-Should Replicate: Boolean.  
+Should Replicate: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Manually adds a set of tags to a given actor, and optionally replicates them..
-

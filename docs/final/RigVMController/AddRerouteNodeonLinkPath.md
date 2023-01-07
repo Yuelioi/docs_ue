@@ -2,23 +2,19 @@
 
 在现有的链接上添加一个重路由节点到已编辑的图中，给定链接的字符串表示。改道节点可以用来直观地改善数据流，它们不需要任何额外的内存，而且是纯粹的
 
-  1.这将导致一个NodeAdded修改事件。
+1.这将导致一个 NodeAdded 修改事件。
 
-
-
-
-
-目标是Rig VMController
+目标是 Rig VMController
 
 ## 图示
 
-![]($-20221218-20421010.png)
+![](/uploads/projects/ue-bluprint/20221218-20421010.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Rig VMController对象参考。
+目标。Rig VMController 对象参考。
 
 在链接引脚路径表示法中。字符串。
 
@@ -30,27 +26,25 @@
 
 设置撤销重做：布尔值。
 
-打印Python命令。布尔值。  
+打印 Python 命令。布尔值。
 
 ## Outputs
 
 出：执行。
 
-返回值。Rig VMReroute Node对象参考。在现有链接上添加一个重路由节点到已编辑的图形中，给定链接的字符串表示。Reroute Nodes可以用来直观地改善数据流，它们不需要任何额外的内存，而且是纯粹的。这将导致一个NodeAdded修改事件。
+返回值。Rig VMReroute Node 对象参考。在现有链接上添加一个重路由节点到已编辑的图形中，给定链接的字符串表示。Reroute Nodes 可以用来直观地改善数据流，它们不需要任何额外的内存，而且是纯粹的。这将导致一个 NodeAdded 修改事件。
+
+<hr>
 
 Adds a Reroute Node on an existing Link to the edited Graph given the Link's string representation.. Reroute Nodes can be used to visually improve the data flow,. they don't require any additional memory though and are purely
 
-  1. This causes a NodeAdded modified event.
-
-
-
-
+1. This causes a NodeAdded modified event.
 
 Target is Rig VMController
 
 ## 图示
 
-![]($-20221218-20421010.png)
+![](/uploads/projects/ue-bluprint/20221218-20421010.png)
 
 ## Inputs
 
@@ -68,11 +62,10 @@ In Node Name: String.
 
 Setup Undo Redo: Boolean.
 
-Print Python Command: Boolean.  
+Print Python Command: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Rig VMReroute Node Object Reference. Adds a Reroute Node on an existing Link to the edited Graph given the Link's string representation.. Reroute Nodes can be used to visually improve the data flow,. they don't require any additional memory though and are purely: This causes a NodeAdded modified event..
-

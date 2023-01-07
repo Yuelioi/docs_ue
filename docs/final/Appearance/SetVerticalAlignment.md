@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17553961.png)
+![](/uploads/projects/ue-bluprint/20221218-17553961.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标：Border 对象参考。
 
-在垂直对齐中。EVerticalAlignment枚举。 
+在垂直对齐中。EVerticalAlignment 枚举。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Vertical Alignment
 
@@ -26,7 +28,7 @@ Target is Border
 
 ## 图示
 
-![]($-20221218-17553961.png)
+![](/uploads/projects/ue-bluprint/20221218-17553961.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Border Object Reference.
 
-In Vertical Alignment: EVerticalAlignment Enum.  
+In Vertical Alignment: EVerticalAlignment Enum.
 
 ## Outputs
 
 Out: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14174143.png)
+![](/uploads/projects/ue-bluprint/20221218-14174143.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ECommonInputMode枚举。 
+选择。ECommonInputMode 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 所有：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14174143.png)
+![](/uploads/projects/ue-bluprint/20221218-14174143.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ECommonInputMode Enum.  
+Selection: ECommonInputMode Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Menu: Exec.
 Game: Exec.
 
 All: Exec.
-

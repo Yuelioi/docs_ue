@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14221480.png)
+![](/uploads/projects/ue-bluprint/20221218-14221480.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EOutlinerItemNameEnum枚举。 
+选择。EOutlinerItemNameEnum 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 Bone Index: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14221480.png)
+![](/uploads/projects/ue-bluprint/20221218-14221480.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EOutlinerItemNameEnum Enum.  
+Selection: EOutlinerItemNameEnum Enum.
 
 ## Outputs
 
 Bone Name: Exec.
 
 Bone Index: Exec.
-

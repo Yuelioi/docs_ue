@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19292223.png)
+![](/uploads/projects/ue-bluprint/20221218-19292223.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 选项。修改上下文选项结构（通过引用）。移除该输入映射上下文时需要考虑的选项。
 
-重建类型。EInputMappingRebuildType枚举。  
+重建类型。EInputMappingRebuildType 枚举。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Flag player for reapplication of all mapping contexts at the end of this frame.. This is called automatically when adding or removing mappings contexts.
 
@@ -28,7 +30,7 @@ Target is Enhanced Input Subsystem Interface
 
 ## 图示
 
-![]($-20221218-19292223.png)
+![](/uploads/projects/ue-bluprint/20221218-19292223.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Enhanced Input Subsystem Interface Interface.
 
 Options: Modify Context Options Structure (by ref). Options to consider when removing this input mapping context.
 
-Rebuild Type: EInputMappingRebuildType Enum.  
+Rebuild Type: EInputMappingRebuildType Enum.
 
 ## Outputs
 
 Out: Exec.
-

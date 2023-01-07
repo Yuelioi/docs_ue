@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14244846.png)
+![](/uploads/projects/ue-bluprint/20221218-14244846.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETrackedDeviceType枚举。 
+选择。ETrackedDeviceType 枚举。
 
 ## Outputs
 
@@ -28,17 +28,19 @@ HMD: Exec.
 
 所有设备。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14244846.png)
+![](/uploads/projects/ue-bluprint/20221218-14244846.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETrackedDeviceType Enum.  
+Selection: ETrackedDeviceType Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ All Hands: Exec.
 Device Object Zero: Exec.
 
 All Devices: Exec.
-

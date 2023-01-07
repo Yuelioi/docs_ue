@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19032912.png)
+![](/uploads/projects/ue-bluprint/20221218-19032912.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 参数输入。Niagara Script Conversion Context Input Object Reference。
 
-设置参数执行类别。EScriptExecutionCategory Enum.  
+设置参数执行类别。EScriptExecutionCategory Enum.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add a set parameter module to the emitter handled by this emitter conversion context.
 
@@ -30,7 +32,7 @@ Target is Niagara Emitter Conversion Context
 
 ## 图示
 
-![]($-20221218-19032912.png)
+![](/uploads/projects/ue-bluprint/20221218-19032912.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Parameter Name String: String.
 
 Parameter Input: Niagara Script Conversion Context Input Object Reference.
 
-Set Parameter Execution Category: EScriptExecutionCategory Enum.  
+Set Parameter Execution Category: EScriptExecutionCategory Enum.
 
 ## Outputs
 
 Out: Exec.
-

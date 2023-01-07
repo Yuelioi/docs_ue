@@ -1,10 +1,10 @@
-# DebugKeyGenericU-_9
+# DebugKeyGenericU-\_9
 
-GenericUSBController Button 10键被按下或释放时的事件。
+GenericUSBController Button 10 键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19185281.png)
+![](/uploads/projects/ue-bluprint/20221218-19185281.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@ GenericUSBController Button 10键被按下或释放时的事件。
 
 行动值。输入行动值结构。
 
+<hr>
+
 Events for when the GenericUSBController Button 10 key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19185281.png)
+![](/uploads/projects/ue-bluprint/20221218-19185281.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

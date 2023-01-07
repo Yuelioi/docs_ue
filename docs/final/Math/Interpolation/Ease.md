@@ -1,30 +1,32 @@
 # Ease
 
-使用用户指定的缓和函数从A值内插到B值
+使用用户指定的缓和函数从 A 值内插到 B 值
 
 ## 图示
 
-![]($-20221218-19511256.png)
+![](/uploads/projects/ue-bluprint/20221218-19511256.png)
 
 ## Inputs
 
-功能。EEasingFunc Enum.EEasingFunc Enum函数。指定需要应用的缓解功能。如果连接了，则不可能进行定制。
+功能。EEasingFunc Enum.EEasingFunc Enum 函数。指定需要应用的缓解功能。如果连接了，则不可能进行定制。
 
-阿尔法。Float (double-precision).Float (double-precision) Alpha。用于指定缓和时间的Alpha值。
+阿尔法。Float (double-precision).Float (double-precision) Alpha。用于指定缓和时间的 Alpha 值。
 
-A：通配符。通配符A：缓和的起始值。
+A：通配符。通配符 A：缓和的起始值。
 
-B：通配符。通配符B：缓和终值。  
+B：通配符。通配符 B：缓和终值。
 
 ## Outputs
 
 结果。通配符。通配符结果。缓和的结果值。
 
+<hr>
+
 Interpolates from value A to value B using a user specified easing function
 
 ## 图示
 
-![]($-20221218-19511256.png)
+![](/uploads/projects/ue-bluprint/20221218-19511256.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Alpha: Float (double-precision). Float (double-precision) Alpha. Alpha value use
 
 A: Wildcard. Wildcard A. Easing start value.
 
-B: Wildcard. Wildcard B. Easing end value.  
+B: Wildcard. Wildcard B. Easing end value.
 
 ## Outputs
 
 Result: Wildcard. Wildcard Result. Easing result value.
-

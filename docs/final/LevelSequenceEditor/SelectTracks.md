@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19414957.png)
+![](/uploads/projects/ue-bluprint/20221218-19414957.png)
 
 ## Inputs
 
 在。执行。
 
-轨迹。电影场景轨道对象参考阵列。  
+轨迹。电影场景轨道对象参考阵列。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Select tracks
 
@@ -24,15 +26,14 @@ Target is Level Sequence Editor Blueprint Library
 
 ## 图示
 
-![]($-20221218-19414957.png)
+![](/uploads/projects/ue-bluprint/20221218-19414957.png)
 
 ## Inputs
 
 In: Exec.
 
-Tracks: Array of Movie Scene Track Object References.  
+Tracks: Array of Movie Scene Track Object References.
 
 ## Outputs
 
 Out: Exec.
-

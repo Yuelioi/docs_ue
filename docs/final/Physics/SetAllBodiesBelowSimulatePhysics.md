@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20282182.png)
+![](/uploads/projects/ue-bluprint/20221218-20282182.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 新的模拟。布尔型。
 
-包括自我：布尔值。  
+包括自我：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set all of the bones below passed in bone to be simulated
 
@@ -30,7 +32,7 @@ Target is Skeletal Mesh Component
 
 ## 图示
 
-![]($-20221218-20282182.png)
+![](/uploads/projects/ue-bluprint/20221218-20282182.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ In Bone Name: Name (by ref).
 
 New Simulate: Boolean.
 
-Include Self: Boolean.  
+Include Self: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

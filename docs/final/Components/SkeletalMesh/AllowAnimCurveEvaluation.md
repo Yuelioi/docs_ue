@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18255433.png)
+![](/uploads/projects/ue-bluprint/20221218-18255433.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 曲线的名称。名称。
 
-允许。Boolean（布尔）。 
+允许。Boolean（布尔）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Allow Anim Curve Evaluation
 
@@ -28,7 +30,7 @@ Target is Skeletal Mesh Component
 
 ## 图示
 
-![]($-20221218-18255433.png)
+![](/uploads/projects/ue-bluprint/20221218-18255433.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Skeletal Mesh Component Object Reference.
 
 Name Of Curve: Name.
 
-Allow: Boolean.  
+Allow: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -2,11 +2,11 @@
 
 在指定的纹理上绘制这个宾格。
 
-目标是Bink媒体播放器
+目标是 Bink 媒体播放器
 
 ## 图示
 
-![]($-20221218-19593596.png)
+![](/uploads/projects/ue-bluprint/20221218-19593596.png)
 
 ## Inputs
 
@@ -22,13 +22,15 @@ Tonemap:Boolean（布尔）。
 
 阿尔法。Float（单精度）。
 
-Srgb解码。布尔值。
+Srgb 解码。布尔值。
 
-Hdr: 布尔值。  
+Hdr: 布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Draws this bink to the specified texture
 
@@ -36,7 +38,7 @@ Target is Bink Media Player
 
 ## 图示
 
-![]($-20221218-19593596.png)
+![](/uploads/projects/ue-bluprint/20221218-19593596.png)
 
 ## Inputs
 
@@ -54,9 +56,8 @@ Alpha: Float (single-precision).
 
 Srgb Decode: Boolean.
 
-Hdr: Boolean.  
+Hdr: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

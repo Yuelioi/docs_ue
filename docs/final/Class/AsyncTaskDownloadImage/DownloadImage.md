@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-18170811.png)
+![](/uploads/projects/ue-bluprint/20221218-18170811.png)
 
 ## Inputs
 
 在。执行。
 
-URL。字符串。 
+URL。字符串。
 
 ## Outputs
 
@@ -22,7 +22,9 @@ URL。字符串。
 
 失败时。执行。失败时。
 
-纹理。Texture 2DD动态对象参考。
+纹理。Texture 2DD 动态对象参考。
+
+<hr>
 
 Download Image
 
@@ -30,13 +32,13 @@ Target is Async Task Download Image
 
 ## 图示
 
-![]($-20221218-18170811.png)
+![](/uploads/projects/ue-bluprint/20221218-18170811.png)
 
 ## Inputs
 
 In: Exec.
 
-URL: String.  
+URL: String.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ On Success: Exec. On Success.
 On Fail: Exec. On Fail.
 
 Texture: Texture 2DDynamic Object Reference.
-

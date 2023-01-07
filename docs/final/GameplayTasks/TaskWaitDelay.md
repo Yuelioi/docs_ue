@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19100051.png)
+![](/uploads/projects/ue-bluprint/20221218-19100051.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 时间。浮点数（单精度）。
 
-优先权。字节。  
+优先权。字节。
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 在完成时。执行。在完成时。
 
+<hr>
+
 Wait specified time. This is functionally the same as a standard Delay node.
 
 Target is Gameplay Task Wait Delay
 
 ## 图示
 
-![]($-20221218-19100051.png)
+![](/uploads/projects/ue-bluprint/20221218-19100051.png)
 
 ## Inputs
 
@@ -42,7 +44,7 @@ Task Owner: Gameplay Task Owner Interface Interface.
 
 Time: Float (single-precision).
 
-Priority: Byte.  
+Priority: Byte.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Out: Exec.
 Async Task: Gameplay Task Wait Delay Object Reference.
 
 On Finish: Exec. On Finish.
-

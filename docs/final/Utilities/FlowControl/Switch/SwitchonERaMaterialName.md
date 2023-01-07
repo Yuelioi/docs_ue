@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14224297.png)
+![](/uploads/projects/ue-bluprint/20221218-14224297.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERaMaterialName枚举。 
+选择。ERaMaterialName 枚举。
 
 ## Outputs
 
@@ -62,17 +62,19 @@ Acoustic Ceiling Tiles: Exec.
 
 统一的。执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14224297.png)
+![](/uploads/projects/ue-bluprint/20221218-14224297.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERaMaterialName Enum.  
+Selection: ERaMaterialName Enum.
 
 ## Outputs
 
@@ -123,4 +125,3 @@ Wood Ceiling: Exec.
 Wood Panel: Exec.
 
 Uniform: Exec.
-

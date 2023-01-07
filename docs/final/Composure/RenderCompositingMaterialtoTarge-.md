@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18294679.png)
+![](/uploads/projects/ue-bluprint/20221218-18294679.png)
 
 ## Inputs
 
@@ -18,13 +18,15 @@ Comp Material: Compositing Material Structure（合成材料结构）（通过�
 
 Render Target（渲染目标）。Texture Render Target 2D Object Reference。
 
-Result Lookup Name（结果查询）。Name（名称）。 
+Result Lookup Name（结果查询）。Name（名称）。
 
 ## Outputs
 
 输出。执行：执行。
 
-返回值。纹理 渲染目标2D对象参考。渲染合成材料到目标。
+返回值。纹理 渲染目标 2D 对象参考。渲染合成材料到目标。
+
+<hr>
 
 Render Compositing Material to Target
 
@@ -32,7 +34,7 @@ Target is Empty Comp Shot
 
 ## 图示
 
-![]($-20221218-18294679.png)
+![](/uploads/projects/ue-bluprint/20221218-18294679.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Comp Material: Compositing Material Structure (by ref).
 
 Render Target: Texture Render Target 2D Object Reference.
 
-Result Lookup Name: Name.  
+Result Lookup Name: Name.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Texture Render Target 2D Object Reference. Render Compositing Material to Target.
-

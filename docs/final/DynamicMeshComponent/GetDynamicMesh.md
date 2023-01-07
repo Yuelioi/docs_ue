@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-18455958.png)
+![](/uploads/projects/ue-bluprint/20221218-18455958.png)
 
 ## Inputs
 
@@ -16,22 +16,24 @@
 
 出：执行。
 
-返回值。动态网格对象参考，子UDynamicMesh。
+返回值。动态网格对象参考，子 UDynamicMesh。
+
+<hr>
+
 Target is Base Dynamic Mesh Component
 
 ## 图示
 
-![]($-20221218-18455958.png)
+![](/uploads/projects/ue-bluprint/20221218-18455958.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Base Dynamic Mesh Component Object Reference.  
+Target: Base Dynamic Mesh Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Dynamic Mesh Object Reference. the child UDynamicMesh.
-

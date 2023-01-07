@@ -1,10 +1,10 @@
 # DebugKeyB
 
-当B键被按下或释放时的事件。
+当 B 键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19191140.png)
+![](/uploads/projects/ue-bluprint/20221218-19191140.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 行动值。输入行动值结构。
 
+<hr>
+
 Events for when the B key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19191140.png)
+![](/uploads/projects/ue-bluprint/20221218-19191140.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

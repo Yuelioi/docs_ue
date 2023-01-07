@@ -4,17 +4,17 @@
 
 ## 图示
 
-![]($-20221218-14190743.png)
+![](/uploads/projects/ue-bluprint/20221218-14190743.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFieldPhysicsDefaultFields Enum.  
+选择。EFieldPhysicsDefaultFields Enum.
 
 ## Outputs
 
-径向Int Mask: Exec.Ltd.
+径向 Int Mask: Exec.Ltd.
 
 Radial Falloff: Exec.
 
@@ -24,17 +24,19 @@ Uniform Vector: Exec.
 
 Radial Vector Falloff: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14190743.png)
+![](/uploads/projects/ue-bluprint/20221218-14190743.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFieldPhysicsDefaultFields Enum.  
+Selection: EFieldPhysicsDefaultFields Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Uniform Vector: Exec.
 Radial Vector: Exec.
 
 Radial Vector Falloff: Exec.
-

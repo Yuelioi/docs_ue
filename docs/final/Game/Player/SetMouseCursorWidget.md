@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19071860.png)
+![](/uploads/projects/ue-bluprint/20221218-19071860.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 游标。EMouseCursor Enum.要设置小部件的游标。
 
-光标小部件。用户小部件对象参考。要设置光标的小部件。  
+光标小部件。用户小部件对象参考。要设置光标的小部件。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the Widget for the Mouse Cursor to display
 
@@ -28,7 +30,7 @@ Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19071860.png)
+![](/uploads/projects/ue-bluprint/20221218-19071860.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Player Controller Object Reference.
 
 Cursor: EMouseCursor Enum. the cursor to set the widget for.
 
-Cursor Widget: User Widget Object Reference. the widget to set the cursor to.  
+Cursor Widget: User Widget Object Reference. the widget to set the cursor to.
 
 ## Outputs
 
 Out: Exec.
-

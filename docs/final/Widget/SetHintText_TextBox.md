@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21361188.png)
+![](/uploads/projects/ue-bluprint/20221218-21361188.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。文本框对象参考。
 
-在文本中。文本。  
+在文本中。文本。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Hint Text
 
@@ -26,7 +28,7 @@ Target is Text Box
 
 ## 图示
 
-![]($-20221218-21361188.png)
+![](/uploads/projects/ue-bluprint/20221218-21361188.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Text Box Object Reference.
 
-In Text: Text.  
+In Text: Text.
 
 ## Outputs
 
 Out: Exec.
-

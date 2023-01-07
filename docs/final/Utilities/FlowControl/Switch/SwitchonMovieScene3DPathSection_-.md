@@ -1,16 +1,16 @@
-# SwitchonMovieScene3DPathSection_-
+# SwitchonMovieScene3DPathSection\_-
 
 选择一个与输入值相匹配的输出
 
 ## 图示
 
-![]($-20221218-14255348.png)
+![](/uploads/projects/ue-bluprint/20221218-14255348.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。MovieScene3DPathSection_Axis枚举。 
+选择。MovieScene3DPathSection_Axis 枚举。
 
 ## Outputs
 
@@ -26,17 +26,19 @@ Z: Exec.
 
 \- Z: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14255348.png)
+![](/uploads/projects/ue-bluprint/20221218-14255348.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: MovieScene3DPathSection_Axis Enum.  
+Selection: MovieScene3DPathSection_Axis Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Z: Exec.
 \- Y: Exec.
 
 \- Z: Exec.
-

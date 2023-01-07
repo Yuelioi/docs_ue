@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18291469.png)
+![](/uploads/projects/ue-bluprint/20221218-18291469.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 变换类型。Compositing Element Transform Class Reference.
 
-可选通行证名称。Name（名称）。 
+可选通行证名称。Name（名称）。
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 返回值。合成元素变换对象参考。查找变换通道。
 
+<hr>
+
 Find Transform Pass
 
 Target is Empty Comp Shot
 
 ## 图示
 
-![]($-20221218-18291469.png)
+![](/uploads/projects/ue-bluprint/20221218-18291469.png)
 
 ## Inputs
 
@@ -42,7 +44,7 @@ Target: Empty Comp Shot Object Reference.
 
 Transform Type: Compositing Element Transform Class Reference.
 
-Optional Pass Name: Name.  
+Optional Pass Name: Name.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Out: Exec.
 Pass Result: Texture Object Reference.
 
 Return Value: Compositing Element Transform Object Reference. Find Transform Pass.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20204287.png)
+![](/uploads/projects/ue-bluprint/20221218-20204287.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@
 
 强度。Float（单精度）。应用的力的强度...
 
-Falloff:ERadialImpulseFalloff枚举。允许你控制力的强度作为与原点距离的函数。
+Falloff:ERadialImpulseFalloff 枚举。允许你控制力的强度作为与原点距离的函数。
 
-加速变化。布尔值。如果为真，力量将被视为加速度的变化，而不是物理力（即质量没有影响）。  
+加速变化。布尔值。如果为真，力量将被视为加速度的变化，而不是物理力（即质量没有影响）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add a force to all bodies in this component, originating from the supplied world-space location.
 
@@ -34,7 +36,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20204287.png)
+![](/uploads/projects/ue-bluprint/20221218-20204287.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Strength: Float (single-precision). Strength of force to apply..
 
 Falloff: ERadialImpulseFalloff Enum. Allows you to control the strength of the force as a function of distance from Origin..
 
-Accel Change: Boolean. If true, Strength is taken as a change in acceleration instead of a physical force (i.e. mass will have no effect)..  
+Accel Change: Boolean. If true, Strength is taken as a change in acceleration instead of a physical force (i.e. mass will have no effect)..
 
 ## Outputs
 
 Out: Exec.
-

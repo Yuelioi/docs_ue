@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14193823.png)
+![](/uploads/projects/ue-bluprint/20221218-14193823.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGeometryCollectionPhysicsTypeEnum枚举。 
+选择。EGeometryCollectionPhysicsTypeEnum 枚举。
 
 ## Outputs
 
@@ -34,17 +34,19 @@ Linear Velocity: 执行。
 
 睡眠阈值: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14193823.png)
+![](/uploads/projects/ue-bluprint/20221218-14193823.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGeometryCollectionPhysicsTypeEnum Enum.  
+Selection: EGeometryCollectionPhysicsTypeEnum Enum.
 
 ## Outputs
 
@@ -67,4 +69,3 @@ Angular Torque: Exec.
 Disable Threshold: Exec.
 
 Sleeping Threshold: Exec.
-

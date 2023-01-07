@@ -1,12 +1,12 @@
 # GenerateParticleEvent
 
-记录一个Kismet事件。
+记录一个 Kismet 事件。
 
 目标是粒子系统组件
 
 ## 图示
 
-![]($-20221218-18542841.png)
+![](/uploads/projects/ue-bluprint/20221218-18542841.png)
 
 ## Inputs
 
@@ -27,13 +27,16 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Record a kismet event.
 
 Target is Particle System Component
 
 ## 图示
 
-![]($-20221218-18542841.png)
+![](/uploads/projects/ue-bluprint/20221218-18542841.png)
 
 ## Inputs
 
@@ -49,9 +52,8 @@ In Location: Vector. The location of the particle when the event fired..
 
 In Direction: Vector.
 
-In Velocity: Vector. The velocity of the particle when the event fired..  
+In Velocity: Vector. The velocity of the particle when the event fired..
 
 ## Outputs
 
 Out: Exec.
-

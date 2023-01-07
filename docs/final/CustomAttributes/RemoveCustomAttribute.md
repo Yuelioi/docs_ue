@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18342560.png)
+![](/uploads/projects/ue-bluprint/20221218-18342560.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 骨骼名称: 名称（通过参考）。
 
-属性名称。名称（通过参考）。 
+属性名称。名称（通过参考）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Remove Custom Attribute
 
@@ -28,7 +30,7 @@ Target is Anim Sequence
 
 ## 图示
 
-![]($-20221218-18342560.png)
+![](/uploads/projects/ue-bluprint/20221218-18342560.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Anim Sequence Object Reference.
 
 Bone Name: Name (by ref).
 
-Attribute Name: Name (by ref).  
+Attribute Name: Name (by ref).
 
 ## Outputs
 
 Out: Exec.
-

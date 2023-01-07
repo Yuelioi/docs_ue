@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18222000.png)
+![](/uploads/projects/ue-bluprint/20221218-18222000.png)
 
 ## Inputs
 
-目标。Actor Component对象参考。 
+目标。Actor Component 对象参考。
 
 ## Outputs
 
 返回值。布尔值。该组件的活动状态。
+
+<hr>
 
 Returns whether the component is active or not
 
@@ -22,13 +24,12 @@ Target is Actor Component
 
 ## 图示
 
-![]($-20221218-18222000.png)
+![](/uploads/projects/ue-bluprint/20221218-18222000.png)
 
 ## Inputs
 
-Target: Actor Component Object Reference.  
+Target: Actor Component Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. The active state of the component..
-

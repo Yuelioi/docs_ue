@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-19421285.png)
+![](/uploads/projects/ue-bluprint/20221218-19421285.png)
 
 ## Inputs
 
-财产。财产参考（通过参考）。  
+财产。财产参考（通过参考）。
 
 ## Outputs
 
 返回值。字符串。只获取一个属性的名称。
+
+<hr>
 
 Gets only the property name of a property.
 
@@ -22,13 +24,12 @@ Target is Property Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-19421285.png)
+![](/uploads/projects/ue-bluprint/20221218-19421285.png)
 
 ## Inputs
 
-Property: Property Reference (by ref).  
+Property: Property Reference (by ref).
 
 ## Outputs
 
 Return Value: String. Gets only the property name of a property..
-

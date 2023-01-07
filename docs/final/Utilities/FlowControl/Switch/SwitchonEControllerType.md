@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14175645.png)
+![](/uploads/projects/ue-bluprint/20221218-14175645.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EControllerType枚举。 
+选择。EControllerType 枚举。
 
 ## Outputs
 
@@ -24,17 +24,19 @@ UI: 执行。
 
 未知数。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14175645.png)
+![](/uploads/projects/ue-bluprint/20221218-14175645.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EControllerType Enum.  
+Selection: EControllerType Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ UI: Exec.
 Navigation: Exec.
 
 Unknown: Exec.
-

@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-19110016.png)
+![](/uploads/projects/ue-bluprint/20221218-19110016.png)
 
 ## Inputs
 
 索引列表。索引列表结构。
 
-索引：整数。  
+索引：整数。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。整数。获取索引列表项目。
 
+<hr>
+
 Get Index List Item
 
 Target is Geometry Script Library List Utility Functions
 
 ## 图示
 
-![]($-20221218-19110016.png)
+![](/uploads/projects/ue-bluprint/20221218-19110016.png)
 
 ## Inputs
 
 Index List: Index List Structure.
 
-Index: Integer.  
+Index: Integer.
 
 ## Outputs
 
 Is Valid Index: Boolean.
 
 Return Value: Integer. Get Index List Item.
-

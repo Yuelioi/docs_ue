@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21000623.png)
+![](/uploads/projects/ue-bluprint/20221218-21000623.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 坐标空间。ESplineCoordinateSpace Enum.
 
-与花键的最大平方距离。Float（单精度）。  
+与花键的最大平方距离。Float（单精度）。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。给定一个阈值，返回一个沿花键线段的顶点列表，该列表被视为一个线段列表（折线），与花键形状相匹配。
 
+<hr>
+
 Given a threshold, returns a list of vertices along the spline segment that, treated as a list of segments (polyline), matches the spline shape.
 
 Target is Spline Component
 
 ## 图示
 
-![]($-20221218-21000623.png)
+![](/uploads/projects/ue-bluprint/20221218-21000623.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Spline Point Start Index: Integer.
 
 Coordinate Space: ESplineCoordinateSpace Enum.
 
-Max Square Distance from Spline: Float (single-precision).  
+Max Square Distance from Spline: Float (single-precision).
 
 ## Outputs
 
 Out Points: Array of Vectors.
 
 Return Value: Boolean. Given a threshold, returns a list of vertices along the spline segment that, treated as a list of segments (polyline), matches the spline shape..
-

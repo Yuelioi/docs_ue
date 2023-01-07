@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-15250644.png)
+![](/uploads/projects/ue-bluprint/20221218-15250644.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。帧速率结构。获取当前时间码的帧速率。
 
+<hr>
+
 Gets the current timecode frame rate.
 
 Target is Time Management Blueprint Library
 
 ## 图示
 
-![]($-20221218-15250644.png)
+![](/uploads/projects/ue-bluprint/20221218-15250644.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Frame Rate Structure. Gets the current timecode frame rate..
-

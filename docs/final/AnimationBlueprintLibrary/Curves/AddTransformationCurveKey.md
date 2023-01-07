@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17514170.png)
+![](/uploads/projects/ue-bluprint/20221218-17514170.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 时间。Float (single-precision).
 
-变形。变换（通过引用）。 
+变形。变换（通过引用）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Adds a Transformation Key to the specified Animation Curve inside of the given Animation Sequence
 
@@ -30,7 +32,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17514170.png)
+![](/uploads/projects/ue-bluprint/20221218-17514170.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Curve Name: Name.
 
 Time: Float (single-precision).
 
-Transform: Transform (by ref).  
+Transform: Transform (by ref).
 
 ## Outputs
 
 Out: Exec.
-

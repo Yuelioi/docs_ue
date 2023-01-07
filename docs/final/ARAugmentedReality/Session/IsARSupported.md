@@ -1,22 +1,24 @@
 # IsARSupported
 
-检查当前设备是否能够支持AR
+检查当前设备是否能够支持 AR
 
-目标是ARBlueprint库
+目标是 ARBlueprint 库
 
 ## 图示
 
-![]($-20221218-17574043.png)
+![](/uploads/projects/ue-bluprint/20221218-17574043.png)
 
 ## Inputs
 
-在。执行。 
+在。执行。
 
 ## Outputs
 
 输出。执行。
 
-返回值。布尔值。检查当前设备是否可以支持AR。
+返回值。布尔值。检查当前设备是否可以支持 AR。
+
+<hr>
 
 Checks if the current device can support AR
 
@@ -24,15 +26,14 @@ Target is ARBlueprint Library
 
 ## 图示
 
-![]($-20221218-17574043.png)
+![](/uploads/projects/ue-bluprint/20221218-17574043.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Checks if the current device can support AR.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19005329.png)
+![](/uploads/projects/ue-bluprint/20221218-19005329.png)
 
 ## Inputs
 
@@ -26,7 +26,7 @@
 
 衰减设置。力反馈衰减对象参考。覆盖衰减设置包，发挥效果。
 
-自动销毁：布尔值。当反馈模式结束时（完成或停止），返回的力反馈组件是否会被自动清理，或者是否可以重新激活。  
+自动销毁：布尔值。当反馈模式结束时（完成或停止），返回的力反馈组件是否会被自动清理，或者是否可以重新激活。
 
 ## Outputs
 
@@ -34,13 +34,15 @@
 
 返回值。强制反馈组件对象参考。用来操纵播放反馈效果的强制反馈组件。
 
+<hr>
+
 Plays a force feedback effect at the given location. This is a fire and forget effect and does not travel with any actor. Replication is also not handled at this point.
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-19005329.png)
+![](/uploads/projects/ue-bluprint/20221218-19005329.png)
 
 ## Inputs
 
@@ -60,11 +62,10 @@ Start Time: Float (single-precision). How far in to the feedback effect to begin
 
 Attenuation Settings: Force Feedback Attenuation Object Reference. Override attenuation settings package to play effect with.
 
-Auto Destroy: Boolean. Whether the returned force feedback component will be automatically cleaned up when the feedback pattern finishes (by completing or stopping) or whether it can be reactivated.  
+Auto Destroy: Boolean. Whether the returned force feedback component will be automatically cleaned up when the feedback pattern finishes (by completing or stopping) or whether it can be reactivated.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Force Feedback Component Object Reference. Force Feedback Component to manipulate the playing feedback effect with.
-

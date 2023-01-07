@@ -1,12 +1,8 @@
 # Animation
 
-在这个页面上 
+在这个页面上
 
-  *行动
-
-
-
-
+\*行动
 
 ## Actions
 
@@ -16,13 +12,11 @@
 
 蒙太奇停止。停止当前的蒙太奇动画。目标是游戏能力。
 
-On this page 
+<hr>
 
-  * Actions
+On this page
 
-
-
-
+- Actions
 
 ## Actions
 
@@ -31,4 +25,3 @@ Montage Jump to Section. Immediately jumps the active montage to a section: Targ
 Montage Set Next Section Name. Sets pending section on active montage: Target is Gameplay Ability.
 
 Montage Stop. Stops the current animation montage.: Target is Gameplay Ability.
-

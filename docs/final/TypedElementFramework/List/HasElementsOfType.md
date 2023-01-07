@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21163170.png)
+![](/uploads/projects/ue-bluprint/20221218-21163170.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 元素列表。类型化的元素列表结构。
 
-元素类型名称：名称。  
+元素类型名称：名称。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。测试此列表中是否有指定类型的元素。
 
+<hr>
+
 Test whether there are elements in this list of the given type.
 
 Target is Typed Element List Library
 
 ## 图示
 
-![]($-20221218-21163170.png)
+![](/uploads/projects/ue-bluprint/20221218-21163170.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Element List: Typed Element List Structure.
 
-Element Type Name: Name.  
+Element Type Name: Name.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Test whether there are elements in this list of the given type..
-

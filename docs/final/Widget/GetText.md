@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21344884.png)
+![](/uploads/projects/ue-bluprint/20221218-21344884.png)
 
 ## Inputs
 
-目标。富文本块对象参考。  
+目标。富文本块对象参考。
 
 ## Outputs
 
 返回值。文本。返回小组件的文本。
+
+<hr>
 
 Returns widgets text.
 
@@ -22,13 +24,12 @@ Target is Rich Text Block
 
 ## 图示
 
-![]($-20221218-21344884.png)
+![](/uploads/projects/ue-bluprint/20221218-21344884.png)
 
 ## Inputs
 
-Target: Rich Text Block Object Reference.  
+Target: Rich Text Block Object Reference.
 
 ## Outputs
 
 Return Value: Text. Returns widgets text..
-

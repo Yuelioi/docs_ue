@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17514060.png)
+![](/uploads/projects/ue-bluprint/20221218-17514060.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 时间。Float（单精度）的数组。
 
-值。Float（单精度）的数组。 
+值。Float（单精度）的数组。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Adds a multiple of Float Keys to the specified Animation Curve inside of the given Animation Sequence
 
@@ -30,7 +32,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17514060.png)
+![](/uploads/projects/ue-bluprint/20221218-17514060.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Curve Name: Name.
 
 Times: Array of Float (single-precision)s.
 
-Values: Array of Float (single-precision)s.  
+Values: Array of Float (single-precision)s.
 
 ## Outputs
 
 Out: Exec.
-

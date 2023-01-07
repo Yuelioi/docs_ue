@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14220075.png)
+![](/uploads/projects/ue-bluprint/20221218-14220075.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EObjectStateTypeEnum枚举。 
+选择。EObjectStateTypeEnum 枚举。
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Kinematic: 执行。
 
 用户定义的。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14220075.png)
+![](/uploads/projects/ue-bluprint/20221218-14220075.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EObjectStateTypeEnum Enum.  
+Selection: EObjectStateTypeEnum Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Static: Exec.
 Dynamic: Exec.
 
 User Defined: Exec.
-

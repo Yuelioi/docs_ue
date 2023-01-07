@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14164043.png)
+![](/uploads/projects/ue-bluprint/20221218-14164043.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARPinCloudTaskResult枚举。 
+选择。EARPinCloudTaskResult 枚举。
 
 ## Outputs
 
@@ -20,7 +20,7 @@
 
 开始。执行。
 
-云ARPin未启用。Exec.
+云 ARPin 未启用。Exec.
 
 没有跟踪。执行。
 
@@ -30,17 +30,19 @@
 
 资源已用尽。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14164043.png)
+![](/uploads/projects/ue-bluprint/20221218-14164043.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARPinCloudTaskResult Enum.  
+Selection: EARPinCloudTaskResult Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Session Paused: Exec.
 Invalid Pin: Exec.
 
 Resource Exhausted: Exec.
-

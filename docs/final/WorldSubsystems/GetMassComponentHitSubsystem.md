@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21380051.png)
+![](/uploads/projects/ue-bluprint/20221218-21380051.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。质量组件击中子系统对象参考。
 
+<hr>
+
 Get Mass Component Hit Subsystem (World Subsystem)
 
 Subsystem that keeps track of the latest component hits and allow mass entities to retrieve and handle them
 
 ## 图示
 
-![]($-20221218-21380051.png)
+![](/uploads/projects/ue-bluprint/20221218-21380051.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Mass Component Hit Subsystem Object Reference.
-

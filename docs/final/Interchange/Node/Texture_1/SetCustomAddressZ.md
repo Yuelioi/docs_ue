@@ -1,28 +1,30 @@
 # SetCustomAddressZ
 
-设置自定义地址Z
+设置自定义地址 Z
 
-目标是互换纹理2DArray工厂节点
+目标是互换纹理 2DArray 工厂节点
 
 ## 图示
 
-![]($-20221218-19345918.png)
+![](/uploads/projects/ue-bluprint/20221218-19345918.png)
 
 ## Inputs
 
 在。执行。
 
-目标：互换纹理2DArray工厂节点对象参考。
+目标：互换纹理 2DArray 工厂节点对象参考。
 
 属性值： 字节。
 
-添加应用代表。Boolean.  
+添加应用代表。Boolean.
 
 ## Outputs
 
 出：执行。
 
-返回值。布尔值。设置自定义地址Z。
+返回值。布尔值。设置自定义地址 Z。
+
+<hr>
 
 Set Custom Address Z
 
@@ -30,7 +32,7 @@ Target is Interchange Texture 2DArray Factory Node
 
 ## 图示
 
-![]($-20221218-19345918.png)
+![](/uploads/projects/ue-bluprint/20221218-19345918.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Interchange Texture 2DArray Factory Node Object Reference.
 
 Attribute Value: Byte.
 
-Add Apply Delegate: Boolean.  
+Add Apply Delegate: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Set Custom Address Z.
-

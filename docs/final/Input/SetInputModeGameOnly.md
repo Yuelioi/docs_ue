@@ -8,17 +8,19 @@
 
 ## 图示
 
-![]($-20221218-19293240.png)
+![](/uploads/projects/ue-bluprint/20221218-19293240.png)
 
 ## Inputs
 
 在。执行。
 
-播放器控制器。播放器控制器对象参考。  
+播放器控制器。播放器控制器对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Setup an input mode that allows only player input / player controller to respond to user input.
 
@@ -28,15 +30,14 @@ Target is Widget Blueprint Library
 
 ## 图示
 
-![]($-20221218-19293240.png)
+![](/uploads/projects/ue-bluprint/20221218-19293240.png)
 
 ## Inputs
 
 In: Exec.
 
-Player Controller: Player Controller Object Reference.  
+Player Controller: Player Controller Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

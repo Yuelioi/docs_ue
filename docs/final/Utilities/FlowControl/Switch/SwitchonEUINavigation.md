@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14245727.png)
+![](/uploads/projects/ue-bluprint/20221218-14245727.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EUINavigation Enum。 
+选择。EUINavigation Enum。
 
 ## Outputs
 
@@ -28,17 +28,19 @@
 
 无效。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14245727.png)
+![](/uploads/projects/ue-bluprint/20221218-14245727.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EUINavigation Enum.  
+Selection: EUINavigation Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Next: Exec.
 Previous: Exec.
 
 Invalid: Exec.
-

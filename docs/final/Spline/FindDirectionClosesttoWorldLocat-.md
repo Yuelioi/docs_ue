@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21001001.png)
+![](/uploads/projects/ue-bluprint/20221218-21001001.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 世界的位置。向量（由裁判）。
 
-坐标空间。ESplineCoordinateSpace Enum.  
+坐标空间。ESplineCoordinateSpace Enum.
 
 ## Outputs
 
 返回值。向量。给定一个位置，在世界空间中，返回一个最接近该位置的花键切线的单位方向向量。
+
+<hr>
 
 Given a location, in world space, return a unit direction vector of the spline tangent closest to the location.
 
@@ -26,7 +28,7 @@ Target is Spline Component
 
 ## 图示
 
-![]($-20221218-21001001.png)
+![](/uploads/projects/ue-bluprint/20221218-21001001.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Target: Spline Component Object Reference.
 
 World Location: Vector (by ref).
 
-Coordinate Space: ESplineCoordinateSpace Enum.  
+Coordinate Space: ESplineCoordinateSpace Enum.
 
 ## Outputs
 
 Return Value: Vector. Given a location, in world space, return a unit direction vector of the spline tangent closest to the location..
-

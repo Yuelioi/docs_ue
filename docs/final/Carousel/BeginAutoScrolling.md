@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18151664.png)
+![](/uploads/projects/ue-bluprint/20221218-18151664.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。通用小部件旋转木马对象参考。
 
-滚动间隔。Float（单精度）。 
+滚动间隔。Float（单精度）。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Begin Auto Scrolling
 
@@ -26,7 +28,7 @@ Target is Common Widget Carousel
 
 ## 图示
 
-![]($-20221218-18151664.png)
+![](/uploads/projects/ue-bluprint/20221218-18151664.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common Widget Carousel Object Reference.
 
-Scroll Interval: Float (single-precision).  
+Scroll Interval: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20483579.png)
+![](/uploads/projects/ue-bluprint/20221218-20483579.png)
 
 ## Inputs
 
@@ -14,15 +14,15 @@
 
 目标。电影场景脚本的双通道对象参考。
 
-在时间上。帧号结构（通过参考）。这个键应该在哪个帧上。尊重TimeUnit，以确定它是一个显示速率帧还是一个tick分辨率帧。
+在时间上。帧号结构（通过参考）。这个键应该在哪个帧上。尊重 TimeUnit，以确定它是一个显示速率帧还是一个 tick 分辨率帧。
 
 新值。Float (double-precision).这个键应该被创建的值。
 
-子帧。Float（单精度）。可选的[0-1]钳制的子帧，将此键放在上面。如果时间单位被设置为Tick Resolution，则忽略。
+子帧。Float（单精度）。可选的[0-1]钳制的子帧，将此键放在上面。如果时间单位被设置为 Tick Resolution，则忽略。
 
-时间单位。ESequenceTimeUnit枚举。指定的InTime是以显示速率帧还是以Tick Resolution为单位。
+时间单位。ESequenceTimeUnit 枚举。指定的 InTime 是以显示速率帧还是以 Tick Resolution 为单位。
 
-在插值中。EMovieSceneKeyInterpolation枚举。键应该使用的插值方法。
+在插值中。EMovieSceneKeyInterpolation 枚举。键应该使用的插值方法。
 
 ## Outputs
 
@@ -30,13 +30,15 @@
 
 返回值。电影场景脚本双键对象参考。在指定时间用指定的值创建的钥匙。
 
+<hr>
+
 Add a key to this channel. This initializes a new key and returns a reference to it.
 
 Target is Movie Scene Scripting Double Channel
 
 ## 图示
 
-![]($-20221218-20483579.png)
+![](/uploads/projects/ue-bluprint/20221218-20483579.png)
 
 ## Inputs
 
@@ -52,11 +54,10 @@ Sub Frame: Float (single-precision). Optional [0-1) clamped sub-frame to put thi
 
 Time Unit: ESequenceTimeUnit Enum. Is the specified InTime in Display Rate frames or Tick Resolution..
 
-In Interpolation: EMovieSceneKeyInterpolation Enum. Interpolation method the key should use..  
+In Interpolation: EMovieSceneKeyInterpolation Enum. Interpolation method the key should use..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Movie Scene Scripting Double Key Object Reference. The key that was created with the specified values at the specified time..
-

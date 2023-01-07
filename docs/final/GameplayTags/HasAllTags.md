@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19093162.png)
+![](/uploads/projects/ue-bluprint/20221218-19093162.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 其他容器。Gameplay Tag 容器结构（通过参考）。要检查的容器。如果这个是空的，检查就会成功。
 
-完全匹配。布尔值。如果为真，则标签必须完全存在；如果为假，则TagContainer在匹配时将包括它的父标签。  
+完全匹配。布尔值。如果为真，则标签必须完全存在；如果为假，则 TagContainer 在匹配时将包括它的父标签。
 
 ## Outputs
 
 返回值。布尔值。如果该容器拥有其他容器中的所有标签，则为真。
+
+<hr>
 
 Check if the specified tag container has ALL of the tags in the other container
 
@@ -26,7 +28,7 @@ Target is Blueprint Gameplay Tag Library
 
 ## 图示
 
-![]($-20221218-19093162.png)
+![](/uploads/projects/ue-bluprint/20221218-19093162.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Tag Container: Gameplay Tag Container Structure (by ref). Container to check if 
 
 Other Container: Gameplay Tag Container Structure (by ref). Container to check against. If this is empty, the check will succeed.
 
-Exact Match: Boolean. If true, the tag has to be exactly present, if false then TagContainer will include it's parent tags while matching.  
+Exact Match: Boolean. If true, the tag has to be exactly present, if false then TagContainer will include it's parent tags while matching.
 
 ## Outputs
 
 Return Value: Boolean. True if the container has ALL of the tags in the other container.
-

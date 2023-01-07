@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-15244734.png)
+![](/uploads/projects/ue-bluprint/20221218-15244734.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。浮点数（单精度）。返回自世界被带入游戏以来的时间，以秒为单位，由时间膨胀调整，并且在游戏暂停时不停止。
 
+<hr>
+
 Returns time in seconds since world was brought up for play, adjusted by time dilation and IS NOT stopped when game pauses
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-15244734.png)
+![](/uploads/projects/ue-bluprint/20221218-15244734.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Float (single-precision). Returns time in seconds since world was brought up for play, adjusted by time dilation and IS NOT stopped when game pauses.
-

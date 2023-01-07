@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-21244113.png)
+![](/uploads/projects/ue-bluprint/20221218-21244113.png)
 
 ## Inputs
 
 在。执行。
 
-目标。变体组对象参考。  
+目标。变体组对象参考。
 
 ## Outputs
 
 出：执行。
 
-返回值。纹理2D对象参考。获取当前用于该变体集的缩略图。
+返回值。纹理 2D 对象参考。获取当前用于该变体集的缩略图。
+
+<hr>
 
 Gets the thumbnail currently used for this variant set
 
@@ -26,17 +28,16 @@ Target is Variant Set
 
 ## 图示
 
-![]($-20221218-21244113.png)
+![](/uploads/projects/ue-bluprint/20221218-21244113.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Variant Set Object Reference.  
+Target: Variant Set Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Texture 2D Object Reference. Gets the thumbnail currently used for this variant set.
-

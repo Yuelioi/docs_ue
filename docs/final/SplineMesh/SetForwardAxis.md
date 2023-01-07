@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21020146.png)
+![](/uploads/projects/ue-bluprint/20221218-21020146.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标。花键网格组件对象参考。
 
-在前进轴上：ESplineMeshAxis枚举。
+在前进轴上：ESplineMeshAxis 枚举。
 
-更新网格。布尔值。  
+更新网格。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the forward axis
 
@@ -28,7 +30,7 @@ Target is Spline Mesh Component
 
 ## 图示
 
-![]($-20221218-21020146.png)
+![](/uploads/projects/ue-bluprint/20221218-21020146.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Spline Mesh Component Object Reference.
 
 In Forward Axis: ESplineMeshAxis Enum.
 
-Update Mesh: Boolean.  
+Update Mesh: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

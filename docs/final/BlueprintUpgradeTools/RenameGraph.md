@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18114929.png)
+![](/uploads/projects/ue-bluprint/20221218-18114929.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 图形。Ed Graph Object Reference。要重命名的图形。
 
-New Name Str: 字符串。图形的新名称。 
+New Name Str: 字符串。图形的新名称。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Attempts to rename the given graph with a new name
 
@@ -26,7 +28,7 @@ Target is Blueprint Editor Library
 
 ## 图示
 
-![]($-20221218-18114929.png)
+![](/uploads/projects/ue-bluprint/20221218-18114929.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Graph: Ed Graph Object Reference. The graph to rename.
 
-New Name Str: String. The new name of the graph.  
+New Name Str: String. The new name of the graph.
 
 ## Outputs
 
 Out: Exec.
-

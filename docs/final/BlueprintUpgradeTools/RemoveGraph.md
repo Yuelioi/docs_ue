@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18114545.png)
+![](/uploads/projects/ue-bluprint/20221218-18114545.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 蓝图。蓝图对象参考。图形将被移除的蓝图。
 
-图形。Ed Graph Object Reference。要移除的图形。 
+图形。Ed Graph Object Reference。要移除的图形。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Removes the given graph from the blueprint if possible
 
@@ -26,7 +28,7 @@ Target is Blueprint Editor Library
 
 ## 图示
 
-![]($-20221218-18114545.png)
+![](/uploads/projects/ue-bluprint/20221218-18114545.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Blueprint: Blueprint Object Reference. The blueprint the graph will be removed from.
 
-Graph: Ed Graph Object Reference. The graph to remove.  
+Graph: Ed Graph Object Reference. The graph to remove.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17510540.png)
+![](/uploads/projects/ue-bluprint/20221218-17510540.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。用户小部件对象 参考。
 
-动画。小工具动画对象参考。 
+动画。小工具动画对象参考。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Unbind All from Animation Started
 
@@ -26,7 +28,7 @@ Target is User Widget
 
 ## 图示
 
-![]($-20221218-17510540.png)
+![](/uploads/projects/ue-bluprint/20221218-17510540.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: User Widget Object Reference.
 
-Animation: Widget Animation Object Reference.  
+Animation: Widget Animation Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

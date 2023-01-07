@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14181047.png)
+![](/uploads/projects/ue-bluprint/20221218-14181047.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDatasmithLightShape Enum.  
+选择。EDatasmithLightShape Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Disc: Exec.
 
 没有。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14181047.png)
+![](/uploads/projects/ue-bluprint/20221218-14181047.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDatasmithLightShape Enum.  
+Selection: EDatasmithLightShape Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Sphere: Exec.
 Cylinder: Exec.
 
 None: Exec.
-

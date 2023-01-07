@@ -2,15 +2,15 @@
 
 返回地图
 
-目标是Py测试对象
+目标是 Py 测试对象
 
 ## 图示
 
-![]($-20221218-20315197.png)
+![](/uploads/projects/ue-bluprint/20221218-20315197.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。整数到布尔运算的映射。返回地图。
 
+<hr>
+
 Return Map
 
 Target is Py Test Object
 
 ## 图示
 
-![]($-20221218-20315197.png)
+![](/uploads/projects/ue-bluprint/20221218-20315197.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Map of Integers to Booleans. Return Map.
-

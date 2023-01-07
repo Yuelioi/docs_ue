@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14165730.png)
+![](/uploads/projects/ue-bluprint/20221218-14165730.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARWorldMappingState Enum.  
+选择。EARWorldMappingState Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Still Mapping Relocalizable: Exec.
 
 已映射。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14165730.png)
+![](/uploads/projects/ue-bluprint/20221218-14165730.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARWorldMappingState Enum.  
+Selection: EARWorldMappingState Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Still Mapping Not Relocalizable: Exec.
 Still Mapping Relocalizable: Exec.
 
 Mapped: Exec.
-

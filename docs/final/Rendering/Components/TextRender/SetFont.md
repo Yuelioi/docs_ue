@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20353990.png)
+![](/uploads/projects/ue-bluprint/20221218-20353990.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。文本渲染组件对象参考。
 
-价值。字体对象参考。  
+价值。字体对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Change the font and signal the primitives to be rebuilt
 
@@ -26,7 +28,7 @@ Target is Text Render Component
 
 ## 图示
 
-![]($-20221218-20353990.png)
+![](/uploads/projects/ue-bluprint/20221218-20353990.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Text Render Component Object Reference.
 
-Value: Font Object Reference.  
+Value: Font Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

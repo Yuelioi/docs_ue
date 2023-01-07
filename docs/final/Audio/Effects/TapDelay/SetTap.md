@@ -2,11 +2,11 @@
 
 修改一个特定的抽头。
 
-目标是Submix Effect Tap Delay Preset。
+目标是 Submix Effect Tap Delay Preset。
 
 ## 图示
 
-![]($-20221218-18044331.png)
+![](/uploads/projects/ue-bluprint/20221218-18044331.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 Tap Id: Integer（整数）。
 
-Tap Info: Tap Delay Info Structure（分接延迟信息结构）。 
+Tap Info: Tap Delay Info Structure（分接延迟信息结构）。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Modify a specific tap.
 
@@ -28,7 +30,7 @@ Target is Submix Effect Tap Delay Preset
 
 ## 图示
 
-![]($-20221218-18044331.png)
+![](/uploads/projects/ue-bluprint/20221218-18044331.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Submix Effect Tap Delay Preset Object Reference.
 
 Tap Id: Integer.
 
-Tap Info: Tap Delay Info Structure (by ref).  
+Tap Info: Tap Delay Info Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

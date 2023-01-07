@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14243255.png)
+![](/uploads/projects/ue-bluprint/20221218-14243255.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETextOverflowPolicy Enum.  
+选择。ETextOverflowPolicy Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 Ellipsis: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14243255.png)
+![](/uploads/projects/ue-bluprint/20221218-14243255.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETextOverflowPolicy Enum.  
+Selection: ETextOverflowPolicy Enum.
 
 ## Outputs
 
 Clip: Exec.
 
 Ellipsis: Exec.
-

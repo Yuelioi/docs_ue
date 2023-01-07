@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14200538.png)
+![](/uploads/projects/ue-bluprint/20221218-14200538.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGoogleARCoreCameraFPS Enum.  
+选择。EGoogleARCoreCameraFPS Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ FPS 30: 执行。
 
 FPS 60: 执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14200538.png)
+![](/uploads/projects/ue-bluprint/20221218-14200538.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGoogleARCoreCameraFPS Enum.  
+Selection: EGoogleARCoreCameraFPS Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ FPS Any: Exec.
 FPS 30: Exec.
 
 FPS 60: Exec.
-

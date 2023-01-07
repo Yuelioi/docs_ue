@@ -1,20 +1,22 @@
 # ResetPyLatentCommand
 
-重置Py Latent命令
+重置 Py Latent 命令
 
-目标是Py自动化测试库
+目标是 Py 自动化测试库
 
 ## 图示
 
-![]($-20221218-20310823.png)
+![](/uploads/projects/ue-bluprint/20221218-20310823.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Reset Py Latent Command
 
@@ -22,13 +24,12 @@ Target is Py Automation Test Library
 
 ## 图示
 
-![]($-20221218-20310823.png)
+![](/uploads/projects/ue-bluprint/20221218-20310823.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
-

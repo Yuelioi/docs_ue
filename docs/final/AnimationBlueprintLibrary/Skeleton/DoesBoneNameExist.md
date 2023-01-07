@@ -6,15 +6,15 @@
 
 ## 图示
 
-![]($-20221218-17525331.png)
+![](/uploads/projects/ue-bluprint/20221218-17525331.png)
 
 ## Inputs
 
 在。执行。
 
-动画序列。Anim Sequence对象参考。
+动画序列。Anim Sequence 对象参考。
 
-骨骼名称。Name（名称）。 
+骨骼名称。Name（名称）。
 
 ## Outputs
 
@@ -22,13 +22,15 @@ Out: Exec.
 
 存在。Boolean.
 
+<hr>
+
 Checks whether or not the given Bone Name exist on the Skeleton referenced by the given Animation Sequence
 
 Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17525331.png)
+![](/uploads/projects/ue-bluprint/20221218-17525331.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Animation Sequence: Anim Sequence Object Reference.
 
-Bone Name: Name.  
+Bone Name: Name.
 
 ## Outputs
 
 Out: Exec.
 
 Exists: Boolean.
-

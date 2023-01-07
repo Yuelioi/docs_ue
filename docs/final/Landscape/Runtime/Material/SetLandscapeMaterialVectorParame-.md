@@ -1,12 +1,12 @@
 # SetLandscapeMaterialVectorParame-
 
-为所有景观组件设置一个MID矢量参数值。
+为所有景观组件设置一个 MID 矢量参数值。
 
 目标是景观代理
 
 ## 图示
 
-![]($-20221218-19372083.png)
+![](/uploads/projects/ue-bluprint/20221218-19372083.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 参数名称： 名称。
 
-价值。线性色彩结构。  
+价值。线性色彩结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set an MID vector parameter value for all landscape components.
 
@@ -28,7 +30,7 @@ Target is Landscape Proxy
 
 ## 图示
 
-![]($-20221218-19372083.png)
+![](/uploads/projects/ue-bluprint/20221218-19372083.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Landscape Proxy Object Reference.
 
 Parameter Name: Name.
 
-Value: Linear Color Structure.  
+Value: Linear Color Structure.
 
 ## Outputs
 
 Out: Exec.
-

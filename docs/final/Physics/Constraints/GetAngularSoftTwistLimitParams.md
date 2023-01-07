@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20263978.png)
+![](/uploads/projects/ue-bluprint/20221218-20263978.png)
 
 ## Inputs
 
 在。执行。
 
-访问器。Constraint Instance Accessor结构（通过ref）。用于查询的约束访问器 *。  
+访问器。Constraint Instance Accessor 结构（通过 ref）。用于查询的约束访问器 \*。
 
 ## Outputs
 
@@ -24,9 +24,11 @@
 
 扭转极限阻尼。Float（单精度）。软扭动极限的阻尼。只在软限制开启时使用（正值）。
 
-扭曲极限复原。Float（单精度）。控制违反约束时的弹跳量。回归值为1时，将以遇到极限时的相同速度反弹。值为0时，将停止运动。
+扭曲极限复原。Float（单精度）。控制违反约束时的弹跳量。回归值为 1 时，将以遇到极限时的相同速度反弹。值为 0 时，将停止运动。
 
 扭曲极限接触距离。浮点（单精度）。决定了在打开关节之前我们要多接近极限。较大的值会更昂贵，但会在不违反约束方面做得更好。一个较小的值将更有效，但更容易违反。
+
+<hr>
 
 Gets Constraint Angular Soft Twist Limit parameters
 
@@ -34,13 +36,13 @@ Target is Constraint Instance Blueprint Library
 
 ## 图示
 
-![]($-20221218-20263978.png)
+![](/uploads/projects/ue-bluprint/20221218-20263978.png)
 
 ## Inputs
 
 In: Exec.
 
-Accessor: Constraint Instance Accessor Structure (by ref). Constraint accessor to query *.  
+Accessor: Constraint Instance Accessor Structure (by ref). Constraint accessor to query \*.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Twist Limit Damping: Float (single-precision). Damping of the soft Twist limit. 
 Twist Limit Restitution: Float (single-precision). Controls the amount of bounce when the constraint is violated. A restitution value of 1 will bounce back with the same velocity the limit was hit. A value of 0 will stop dead..
 
 Twist Limit Contact Distance: Float (single-precision). Determines how close to the limit we have to get before turning the joint on. Larger value will be more expensive, but will do a better job not violating constraints. A smaller value will be more efficient, but easier to violate..
-

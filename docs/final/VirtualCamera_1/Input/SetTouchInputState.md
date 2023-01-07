@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21284502.png)
+![](/uploads/projects/ue-bluprint/20221218-21284502.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。虚拟摄像机播放器控制器基础对象参考。
 
-新的输入状态。ETouchInputState枚举。输入的新状态。  
+新的输入状态。ETouchInputState 枚举。输入的新状态。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the current state of touch input.
 
@@ -26,7 +28,7 @@ Target is Virtual Camera Player Controller Base
 
 ## 图示
 
-![]($-20221218-21284502.png)
+![](/uploads/projects/ue-bluprint/20221218-21284502.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Virtual Camera Player Controller Base Object Reference.
 
-New Input State: ETouchInputState Enum. The new state of the input.  
+New Input State: ETouchInputState Enum. The new state of the input.
 
 ## Outputs
 
 Out: Exec.
-

@@ -1,4 +1,4 @@
-# GetGameThreadtoAudioRenderThread-_1
+# GetGameThreadtoAudioRenderThread-\_1
 
 获取游戏线程到音频渲染线程的最大延时
 
@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20323762.png)
+![](/uploads/projects/ue-bluprint/20221218-20323762.png)
 
 ## Inputs
 
 在。执行。
 
-目标。石英对象参考。  
+目标。石英对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。浮点数（单精度）。获取游戏线程到音频渲染线程的最大延时。
 
+<hr>
+
 Get Game Thread to Audio Render Thread Max Latency
 
 Target is Quartz
 
 ## 图示
 
-![]($-20221218-20323762.png)
+![](/uploads/projects/ue-bluprint/20221218-20323762.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Quartz Object Reference.  
+Target: Quartz Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision). Get Game Thread to Audio Render Thread Max Latency.
-

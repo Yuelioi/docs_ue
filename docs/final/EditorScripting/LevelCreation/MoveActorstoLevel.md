@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18503315.png)
+![](/uploads/projects/ue-bluprint/20221218-18503315.png)
 
 ## Inputs
 
@@ -25,13 +25,16 @@ Dest Streaming Level:层流对象参考。当前世界的目标流层，将演�
 出：执行。
 
 返回值。整数。成功转移到新级别的演员的数量。
+
+<hr>
+
 Moves the specified list of actors to the specified streaming level. The new actors will be selected
 
 Target is Editor Level Utils
 
 ## 图示
 
-![]($-20221218-18503315.png)
+![](/uploads/projects/ue-bluprint/20221218-18503315.png)
 
 ## Inputs
 
@@ -43,11 +46,10 @@ Dest Streaming Level: Level Streaming Object Reference. The destination streamin
 
 Warn About References: Boolean. Whether or not to show a modal warning about referenced actors that may no longer function after being moved.
 
-Warn About Renaming: Boolean.  
+Warn About Renaming: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. The number of actors that were successfully moved to the new level.
-

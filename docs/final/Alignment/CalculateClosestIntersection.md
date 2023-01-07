@@ -2,11 +2,11 @@
 
 排列帮助器
 
-目标是ARBlueprint库
+目标是 ARBlueprint 库
 
 ## 图示
 
-![]($-20221218-17484960.png)
+![](/uploads/projects/ue-bluprint/20221218-17484960.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 起始点。矢量阵列。
 
-结束点。矢量数组。 
+结束点。矢量数组。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 最接近的交叉点。向量。
 
+<hr>
+
 Alignment helpers
 
 Target is ARBlueprint Library
 
 ## 图示
 
-![]($-20221218-17484960.png)
+![](/uploads/projects/ue-bluprint/20221218-17484960.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Start Points: Array of Vectors.
 
-End Points: Array of Vectors.  
+End Points: Array of Vectors.
 
 ## Outputs
 
 Out: Exec.
 
 Closest Intersection: Vector.
-

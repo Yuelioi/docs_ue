@@ -6,25 +6,25 @@
 
 ## 图示
 
-![]($-20221218-17333097.png)
+![](/uploads/projects/ue-bluprint/20221218-17333097.png)
 
 ## Inputs
 
 在。执行。
 
-In Attribute: Gameplay Attribute结构。
+In Attribute: Gameplay Attribute 结构。
 
-In with Tag: Gameplay Tag结构。
+In with Tag: Gameplay Tag 结构。
 
-In Without Tag: Gameplay Tag结构。
+In Without Tag: Gameplay Tag 结构。
 
-在比较类型中。EWaitAttributeChangeComparison枚举。
+在比较类型中。EWaitAttributeChangeComparison 枚举。
 
 在比较值中。Float（单精度）。
 
 触发一次：布尔值。
 
-可选的外部所有者：Actor对象参考。 
+可选的外部所有者：Actor 对象参考。
 
 ## Outputs
 
@@ -34,13 +34,15 @@ Async Task: Ability Task Wait Attribute Change Object Reference.
 
 变化时。Exec. 变化时。
 
+<hr>
+
 Wait until an attribute changes to pass a given test.
 
 Target is Ability Task Wait Attribute Change
 
 ## 图示
 
-![]($-20221218-17333097.png)
+![](/uploads/projects/ue-bluprint/20221218-17333097.png)
 
 ## Inputs
 
@@ -58,7 +60,7 @@ In Comparison Value: Float (single-precision).
 
 Trigger Once: Boolean.
 
-Optional External Owner: Actor Object Reference.  
+Optional External Owner: Actor Object Reference.
 
 ## Outputs
 
@@ -67,4 +69,3 @@ Out: Exec.
 Async Task: Ability Task Wait Attribute Change Object Reference.
 
 On Change: Exec. On Change.
-

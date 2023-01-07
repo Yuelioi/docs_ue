@@ -4,37 +4,39 @@
 
 ## 图示
 
-![]($-20221218-14250787.png)
+![](/uploads/projects/ue-bluprint/20221218-14250787.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EVCamTargetViewportID枚举。 
+选择。EVCamTargetViewportID 枚举。
 
 ## Outputs
 
 目前选择。Exec.
 
-视口1：执行。
+视口 1：执行。
 
-视口2: Exec.
+视口 2: Exec.
 
-视口3：执行。
+视口 3：执行。
 
-视口4：执行
+视口 4：执行
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14250787.png)
+![](/uploads/projects/ue-bluprint/20221218-14250787.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EVCamTargetViewportID Enum.  
+Selection: EVCamTargetViewportID Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Viewport 2: Exec.
 Viewport 3: Exec.
 
 Viewport 4: Exec.
-

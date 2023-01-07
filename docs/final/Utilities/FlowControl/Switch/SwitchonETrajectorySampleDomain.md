@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14245197.png)
+![](/uploads/projects/ue-bluprint/20221218-14245197.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETrajectorySampleDomain枚举。 
+选择。ETrajectorySampleDomain 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 距离。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14245197.png)
+![](/uploads/projects/ue-bluprint/20221218-14245197.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETrajectorySampleDomain Enum.  
+Selection: ETrajectorySampleDomain Enum.
 
 ## Outputs
 
 Time: Exec.
 
 Distance: Exec.
-

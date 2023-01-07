@@ -2,11 +2,11 @@
 
 在要求的控制器中产生触觉反馈
 
-目标是Steam VRInput设备功能库
+目标是 Steam VRInput 设备功能库
 
 ## 图示
 
-![]($-20221218-21044536.png)
+![](/uploads/projects/ue-bluprint/20221218-21044536.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 频率。Float（单精度）。触觉反馈中使用的频率。
 
-振幅。Float（单精度）。触觉反馈中使用的振幅。  
+振幅。Float（单精度）。触觉反馈中使用的振幅。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Generate haptic feedback in the requested controller
 
@@ -32,7 +34,7 @@ Target is Steam VRInput Device Function Library
 
 ## 图示
 
-![]($-20221218-21044536.png)
+![](/uploads/projects/ue-bluprint/20221218-21044536.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Duration Seconds: Float (single-precision). How long to have the haptic feedback
 
 Frequency: Float (single-precision). Frequency used in the haptic feedback.
 
-Amplitude: Float (single-precision). Amplitude used in the haptic feedback.  
+Amplitude: Float (single-precision). Amplitude used in the haptic feedback.
 
 ## Outputs
 
 Out: Exec.
-

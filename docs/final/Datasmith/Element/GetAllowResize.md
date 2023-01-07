@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18364514.png)
+![](/uploads/projects/ue-bluprint/20221218-18364514.png)
 
 ## Inputs
 
-目标。Datasmith Texture Element对象参考。 
+目标。Datasmith Texture Element 对象参考。
 
 ## Outputs
 
 返回值。布尔值。获取允许调整纹理的大小。
+
+<hr>
 
 Get allow texture resizing
 
@@ -22,13 +24,12 @@ Target is Datasmith Texture Element
 
 ## 图示
 
-![]($-20221218-18364514.png)
+![](/uploads/projects/ue-bluprint/20221218-18364514.png)
 
 ## Inputs
 
-Target: Datasmith Texture Element Object Reference.  
+Target: Datasmith Texture Element Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Get allow texture resizing.
-

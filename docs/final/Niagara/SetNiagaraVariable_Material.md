@@ -2,11 +2,11 @@
 
 设置可变的材料
 
-目标是Niagara粒子系统组件
+目标是 Niagara 粒子系统组件
 
 ## 图示
 
-![]($-20221218-20140134.png)
+![](/uploads/projects/ue-bluprint/20221218-20140134.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在变量 名称： 名称。
 
-对象。材料界面对象参考。  
+对象。材料界面对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Variable Material
 
@@ -28,7 +30,7 @@ Target is Niagara Particle System Component
 
 ## 图示
 
-![]($-20221218-20140134.png)
+![](/uploads/projects/ue-bluprint/20221218-20140134.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Niagara Particle System Component Object Reference.
 
 In Variable Name: Name.
 
-Object: Material Interface Object Reference.  
+Object: Material Interface Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

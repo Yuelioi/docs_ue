@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21081385.png)
+![](/uploads/projects/ue-bluprint/20221218-21081385.png)
 
 ## Inputs
 
@@ -22,13 +22,15 @@ Octave。浮点数（单精度）。将振荡器设置为哪个倍频程（相�
 
 出：执行。
 
+<hr>
+
 Sets the oscillator octaves
 
 Target is Modular Synth Component
 
 ## 图示
 
-![]($-20221218-21081385.png)
+![](/uploads/projects/ue-bluprint/20221218-21081385.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Modular Synth Component Object Reference.
 
 Osc Index: Integer. Which oscillator to set the type for..
 
-Octave: Float (single-precision). Which octave to set the oscillator to (relative to base frequency/pitch)..  
+Octave: Float (single-precision). Which octave to set the oscillator to (relative to base frequency/pitch)..
 
 ## Outputs
 
 Out: Exec.
-

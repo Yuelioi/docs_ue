@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14225874.png)
+![](/uploads/projects/ue-bluprint/20221218-14225874.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERichCurveTangentWeightMode枚举。 
+选择。ERichCurveTangentWeightMode 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 两次都是：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14225874.png)
+![](/uploads/projects/ue-bluprint/20221218-14225874.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERichCurveTangentWeightMode Enum.  
+Selection: ERichCurveTangentWeightMode Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Arrive: Exec.
 Leave: Exec.
 
 Both: Exec.
-

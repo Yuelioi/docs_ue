@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-17491890.png)
+![](/uploads/projects/ue-bluprint/20221218-17491890.png)
 
 ## Inputs
 
 在。执行。
 
-位置。字符串。 
+位置。字符串。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Sets the user's location (if supported) on the analytics provider
 
@@ -24,15 +26,14 @@ Target is Analytics Blueprint Library
 
 ## 图示
 
-![]($-20221218-17491890.png)
+![](/uploads/projects/ue-bluprint/20221218-17491890.png)
 
 ## Inputs
 
 In: Exec.
 
-Location: String.  
+Location: String.
 
 ## Outputs
 
 Out: Exec.
-

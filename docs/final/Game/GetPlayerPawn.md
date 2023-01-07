@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-19062316.png)
+![](/uploads/projects/ue-bluprint/20221218-19062316.png)
 
 ## Inputs
 
-球员指数。整数。玩家控制器列表中的索引，首先从本地玩家开始，然后是可用的远程玩家。  
+球员指数。整数。玩家控制器列表中的索引，首先从本地玩家开始，然后是可用的远程玩家。
 
 ## Outputs
 
 返回值。卒子对象参考。
+
+<hr>
 
 Returns the pawn for the player controller at the specified player index.. This will not include pawns of remote clients with no available player controller, you can use the player states list for that.
 
@@ -22,13 +24,12 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-19062316.png)
+![](/uploads/projects/ue-bluprint/20221218-19062316.png)
 
 ## Inputs
 
-Player Index: Integer. Index in the player controller list, starting first with local players and then available remote ones.  
+Player Index: Integer. Index in the player controller list, starting first with local players and then available remote ones.
 
 ## Outputs
 
 Return Value: Pawn Object Reference.
-

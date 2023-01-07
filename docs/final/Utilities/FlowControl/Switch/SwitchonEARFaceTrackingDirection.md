@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14162735.png)
+![](/uploads/projects/ue-bluprint/20221218-14162735.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARFaceTrackingDirection Enum.  
+选择。EARFaceTrackingDirection Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 Face Mirrored: 执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14162735.png)
+![](/uploads/projects/ue-bluprint/20221218-14162735.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARFaceTrackingDirection Enum.  
+Selection: EARFaceTrackingDirection Enum.
 
 ## Outputs
 
 Face Relative: Exec.
 
 Face Mirrored: Exec.
-

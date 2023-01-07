@@ -1,32 +1,34 @@
 # DrawTextureSimple
 
-在HUD上绘制一个有纹理的四边形。假设文本密度为1:1。
+在 HUD 上绘制一个有纹理的四边形。假设文本密度为 1:1。
 
-目标是HUD
+目标是 HUD
 
 ## 图示
 
-![]($-20221218-19162297.png)
+![](/uploads/projects/ue-bluprint/20221218-19162297.png)
 
 ## Inputs
 
 在。执行。
 
-目标：HUD对象参考。
+目标：HUD 对象参考。
 
 纹理。纹理对象参考。纹理的绘制...
 
-屏幕X。Float（单精度）。屏幕空间的X坐标，即四边形的左上角。
+屏幕 X。Float（单精度）。屏幕空间的 X 坐标，即四边形的左上角。
 
-屏幕Y。Float（单精度）。四边形左上角的屏幕空间Y坐标。
+屏幕 Y。Float（单精度）。四边形左上角的屏幕空间 Y 坐标。
 
 规模。Float (single-precision).缩放倍数，用于控制文本的大小。
 
-规模位置。布尔值。参数 "Scale "是否应同时缩放此绘图调用的位置。  
+规模位置。布尔值。参数 "Scale "是否应同时缩放此绘图调用的位置。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Draws a textured quad on the HUD. Assumes 1:1 texel density.
 
@@ -34,7 +36,7 @@ Target is HUD
 
 ## 图示
 
-![]($-20221218-19162297.png)
+![](/uploads/projects/ue-bluprint/20221218-19162297.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Screen Y: Float (single-precision). Screen-space Y coordinate of upper left corn
 
 Scale: Float (single-precision). Scale multiplier to control size of the text..
 
-Scale Position: Boolean. Whether the "Scale" parameter should also scale the position of this draw call..  
+Scale Position: Boolean. Whether the "Scale" parameter should also scale the position of this draw call..
 
 ## Outputs
 
 Out: Exec.
-

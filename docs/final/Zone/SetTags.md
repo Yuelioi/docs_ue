@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21390147.png)
+![](/uploads/projects/ue-bluprint/20221218-21390147.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@
 
 出：执行。
 
+<hr>
+
 Sets shape tags.
 
 Target is Zone Shape Component
 
 ## 图示
 
-![]($-20221218-21390147.png)
+![](/uploads/projects/ue-bluprint/20221218-21390147.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Zone Shape Component Object Reference.
 
-New Tags: Zone Graph Tag Mask Structure. New tags to set..  
+New Tags: Zone Graph Tag Mask Structure. New tags to set..
 
 ## Outputs
 
 Out: Exec.
-

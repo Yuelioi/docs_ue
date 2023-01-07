@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21040374.png)
+![](/uploads/projects/ue-bluprint/20221218-21040374.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 静态网格。静态网格对象参考。
 
-允许CPU访问。布尔值。  
+允许 CPU 访问。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets StaticMeshFlag bAllowCPUAccess
 
@@ -28,7 +30,7 @@ Target is Static Mesh Editor Subsystem
 
 ## 图示
 
-![]($-20221218-21040374.png)
+![](/uploads/projects/ue-bluprint/20221218-21040374.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Static Mesh Editor Subsystem Object Reference.
 
 Static Mesh: Static Mesh Object Reference.
 
-Allow CPUAccess: Boolean.  
+Allow CPUAccess: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

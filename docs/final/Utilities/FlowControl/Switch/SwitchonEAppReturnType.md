@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14161609.png)
+![](/uploads/projects/ue-bluprint/20221218-14161609.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAppReturnType枚举。 
+选择。EAppReturnType 枚举。
 
 ## Outputs
 
@@ -30,17 +30,19 @@ OK: 执行。
 
 继续。执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14161609.png)
+![](/uploads/projects/ue-bluprint/20221218-14161609.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAppReturnType Enum.  
+Selection: EAppReturnType Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Ok: Exec.
 Retry: Exec.
 
 Continue: Exec.
-

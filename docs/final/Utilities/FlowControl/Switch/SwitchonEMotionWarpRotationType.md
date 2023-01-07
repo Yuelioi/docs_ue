@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14214046.png)
+![](/uploads/projects/ue-bluprint/20221218-14214046.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMotionWarpRotationType枚举。 
+选择。EMotionWarpRotationType 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 朝向。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14214046.png)
+![](/uploads/projects/ue-bluprint/20221218-14214046.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMotionWarpRotationType Enum.  
+Selection: EMotionWarpRotationType Enum.
 
 ## Outputs
 
 Default: Exec.
 
 Facing: Exec.
-

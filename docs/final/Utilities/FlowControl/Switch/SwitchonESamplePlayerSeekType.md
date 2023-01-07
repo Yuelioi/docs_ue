@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14231289.png)
+![](/uploads/projects/ue-bluprint/20221218-14231289.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESamplePlayerSeekType枚举。 
+选择。ESamplePlayerSeekType 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 从终点。执行职务
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14231289.png)
+![](/uploads/projects/ue-bluprint/20221218-14231289.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESamplePlayerSeekType Enum.  
+Selection: ESamplePlayerSeekType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ From Beginning: Exec.
 From Current Position: Exec.
 
 From End: Exec.
-

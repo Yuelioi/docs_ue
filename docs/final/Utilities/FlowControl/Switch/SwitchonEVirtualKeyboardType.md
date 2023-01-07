@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14251494.png)
+![](/uploads/projects/ue-bluprint/20221218-14251494.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EVirtualKeyboardType枚举。 
+选择。EVirtualKeyboardType 枚举。
 
 ## Outputs
 
@@ -26,17 +26,19 @@
 
 阿尔法数字: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14251494.png)
+![](/uploads/projects/ue-bluprint/20221218-14251494.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EVirtualKeyboardType Enum.  
+Selection: EVirtualKeyboardType Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Email: Exec.
 Password: Exec.
 
 Alpha Numeric: Exec.
-

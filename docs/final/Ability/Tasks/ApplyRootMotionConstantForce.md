@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17330203.png)
+![](/uploads/projects/ue-bluprint/20221218-17330203.png)
 
 ## Inputs
 
@@ -24,13 +24,13 @@
 
 强度随时间变化：曲线浮点对象参考。
 
-完成时的速度模式。ERootMotionFinishVelocityMode枚举。
+完成时的速度模式。ERootMotionFinishVelocityMode 枚举。
 
 设置完成时的速度。Vector（向量）。
 
 完成时的夹持速度。Float（单精度）。
 
-Enable Gravity（启用重力）。布尔值。 
+Enable Gravity（启用重力）。布尔值。
 
 ## Outputs
 
@@ -40,13 +40,15 @@ Enable Gravity（启用重力）。布尔值。
 
 完成时。执行。在完成时。
 
+<hr>
+
 Apply force to character's movement
 
 Target is Ability Task Apply Root Motion Constant Force
 
 ## 图示
 
-![]($-20221218-17330203.png)
+![](/uploads/projects/ue-bluprint/20221218-17330203.png)
 
 ## Inputs
 
@@ -70,7 +72,7 @@ Set Velocity on Finish: Vector.
 
 Clamp Velocity on Finish: Float (single-precision).
 
-Enable Gravity: Boolean.  
+Enable Gravity: Boolean.
 
 ## Outputs
 
@@ -79,4 +81,3 @@ Out: Exec.
 Async Task: Ability Task Apply Root Motion Constant Force Object Reference.
 
 On Finish: Exec. On Finish.
-

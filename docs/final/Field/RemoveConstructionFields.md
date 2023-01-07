@@ -6,7 +6,7 @@ RemoveConstructionFields. 这个函数将从混沌中和世界中删除所有的
 
 ## 图示
 
-![]($-20221218-18594905.png)
+![](/uploads/projects/ue-bluprint/20221218-18594905.png)
 
 ## Inputs
 
@@ -17,21 +17,23 @@ RemoveConstructionFields. 这个函数将从混沌中和世界中删除所有的
 ## Outputs
 
 输出。执行。
+
+<hr>
+
 RemoveConstructionFields. This function will remove all the field component construction fields from chaos and from the world
 
 Target is Field System Component
 
 ## 图示
 
-![]($-20221218-18594905.png)
+![](/uploads/projects/ue-bluprint/20221218-18594905.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Field System Component Object Reference.  
+Target: Field System Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

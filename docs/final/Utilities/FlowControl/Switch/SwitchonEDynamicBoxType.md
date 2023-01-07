@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14184121.png)
+![](/uploads/projects/ue-bluprint/20221218-14184121.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDynamicBoxType枚举。 
+选择。EDynamicBoxType 枚举。
 
 ## Outputs
 
@@ -26,17 +26,19 @@ Vertical Wrap: Exec.
 
 叠加。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14184121.png)
+![](/uploads/projects/ue-bluprint/20221218-14184121.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDynamicBoxType Enum.  
+Selection: EDynamicBoxType Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Vertical Wrap: Exec.
 Radial: Exec.
 
 Overlay: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18131696.png)
+![](/uploads/projects/ue-bluprint/20221218-18131696.png)
 
 ## Inputs
 
@@ -18,15 +18,17 @@ Epicenter（中心）。向量。在世界空间中放置效果的位置。
 
 Inner Radius（内半径）。Float（单精度）。此半径内的相机将被忽略。
 
-外半径。Float（单精度）。在InnerRadius之外和在此范围内的相机会受到影响。
+外半径。Float（单精度）。在 InnerRadius 之外和在此范围内的相机会受到影响。
 
-衰减（Falloff）。Float（单精度）。在接近OuterRadius时影响效果的衰减。
+衰减（Falloff）。Float（单精度）。在接近 OuterRadius 时影响效果的衰减。
 
-Orient Shake Towards Epicenter（面向中心）。布尔值。改变摇动的旋转方向，使其指向震中而不是向前。 
+Orient Shake Towards Epicenter（面向中心）。布尔值。改变摇动的旋转方向，使其指向震中而不是向前。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Plays an in-world camera shake that affects all nearby local players, with distance-based attenuation. Does not replicate.
 
@@ -34,7 +36,7 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18131696.png)
+![](/uploads/projects/ue-bluprint/20221218-18131696.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Outer Radius: Float (single-precision). Cameras outside of InnerRadius and insid
 
 Falloff: Float (single-precision). Affects falloff of effect as it nears OuterRadius.
 
-Orient Shake Towards Epicenter: Boolean. Changes the rotation of shake to point towards epicenter instead of forward.  
+Orient Shake Towards Epicenter: Boolean. Changes the rotation of shake to point towards epicenter instead of forward.
 
 ## Outputs
 
 Out: Exec.
-

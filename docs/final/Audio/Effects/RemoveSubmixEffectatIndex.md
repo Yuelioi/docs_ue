@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18042536.png)
+![](/uploads/projects/ue-bluprint/20221218-18042536.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 Sound Submix: Sound Submix Object Reference.
 
-Submix Chain Index: 整数。 
+Submix Chain Index: 整数。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Removes the submix effect at the given submix chain index, if there is a submix effect at that index.
 
@@ -26,7 +28,7 @@ Target is Audio Mixer Blueprint Library
 
 ## 图示
 
-![]($-20221218-18042536.png)
+![](/uploads/projects/ue-bluprint/20221218-18042536.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Sound Submix: Sound Submix Object Reference.
 
-Submix Chain Index: Integer.  
+Submix Chain Index: Integer.
 
 ## Outputs
 
 Out: Exec.
-

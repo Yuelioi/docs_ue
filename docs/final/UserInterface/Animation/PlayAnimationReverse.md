@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21213284.png)
+![](/uploads/projects/ue-bluprint/20221218-21213284.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 播放速度。Float（单精度）。动画播放的速度。
 
-复原状态。布尔值。当动画停止时，将小部件恢复到它们预先的动画状态。  
+复原状态。布尔值。当动画停止时，将小部件恢复到它们预先的动画状态。
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 返回值。UMGSequence 播放器对象参考。
 
+<hr>
+
 Plays an animation on this widget relative to it's current state in reverse. You should use this version in situations where. say a user can click a button and that causes a panel to slide out, and you want to reverse that same animation to begin sliding. in the opposite direction.
 
 Target is User Widget
 
 ## 图示
 
-![]($-20221218-21213284.png)
+![](/uploads/projects/ue-bluprint/20221218-21213284.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ In Animation: Widget Animation Object Reference. The animation to play.
 
 Playback Speed: Float (single-precision). The speed at which the animation should play.
 
-Restore State: Boolean. Restores widgets to their pre-animated state when the animation stops.  
+Restore State: Boolean. Restores widgets to their pre-animated state when the animation stops.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: UMGSequence Player Object Reference.
-

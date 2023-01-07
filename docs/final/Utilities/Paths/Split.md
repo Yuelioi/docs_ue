@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-14283221.png)
+![](/uploads/projects/ue-bluprint/20221218-14283221.png)
 
 ## Inputs
 
-在路径中。字符串。 
+在路径中。字符串。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 扩展部分。字符串。
 
+<hr>
+
 Parses a fully qualified or relative filename into its components (filename, path, extension).
 
 Target is Blueprint Paths Library
 
 ## 图示
 
-![]($-20221218-14283221.png)
+![](/uploads/projects/ue-bluprint/20221218-14283221.png)
 
 ## Inputs
 
-In Path: String.  
+In Path: String.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Path Part: String.
 Filename Part: String.
 
 Extension Part: String.
-

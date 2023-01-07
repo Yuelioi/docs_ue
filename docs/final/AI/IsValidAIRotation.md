@@ -1,20 +1,22 @@
 # IsValidAIRotation
 
-是有效的AIRotation
+是有效的 AIRotation
 
-目标是AIBlueprint Helper Library
+目标是 AIBlueprint Helper Library
 
 ## 图示
 
-![]($-20221218-17465053.png)
+![](/uploads/projects/ue-bluprint/20221218-17465053.png)
 
 ## Inputs
 
-旋转。旋转器。 
+旋转。旋转器。
 
 ## Outputs
 
-返回值。布尔值。是有效的AIRotation。
+返回值。布尔值。是有效的 AIRotation。
+
+<hr>
 
 Is Valid AIRotation
 
@@ -22,13 +24,12 @@ Target is AIBlueprint Helper Library
 
 ## 图示
 
-![]($-20221218-17465053.png)
+![](/uploads/projects/ue-bluprint/20221218-17465053.png)
 
 ## Inputs
 
-Rotation: Rotator.  
+Rotation: Rotator.
 
 ## Outputs
 
 Return Value: Boolean. Is Valid AIRotation.
-

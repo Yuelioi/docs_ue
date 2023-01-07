@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18495635.png)
+![](/uploads/projects/ue-bluprint/20221218-18495635.png)
 
 ## Inputs
 
@@ -16,20 +16,23 @@ In File: 字符串。要签入的文件 - 可以是完全合格的路径、相�
 
 在描述中。字符串。签到的描述。
 
-Silent: 布尔值。如果是false（默认），那么就把任何错误信息写到日志中。任何错误文本都可以通过LastErrorMsg()检索到，无论如何。
+Silent: 布尔值。如果是 false（默认），那么就把任何错误信息写到日志中。任何错误文本都可以通过 LastErrorMsg()检索到，无论如何。
 
 ## Outputs
 
 出：执行。
 
-返回值。布尔值。如果成功则为true，失败则为false，可以调用LastErrorMsg()获取更多信息。
+返回值。布尔值。如果成功则为 true，失败则为 false，可以调用 LastErrorMsg()获取更多信息。
+
+<hr>
+
 Use currently set source control provider to check in a file.. Note: Blocks until action is complete.
 
 Target is Source Control Helpers
 
 ## 图示
 
-![]($-20221218-18495635.png)
+![](/uploads/projects/ue-bluprint/20221218-18495635.png)
 
 ## Inputs
 
@@ -39,11 +42,10 @@ In File: String. The file to check in - can be either fully qualified path, rela
 
 In Description: String. Description for check in.
 
-Silent: Boolean. if false (default) then write out any error info to the Log. Any error text can be retrieved by LastErrorMsg() regardless..  
+Silent: Boolean. if false (default) then write out any error info to the Log. Any error text can be retrieved by LastErrorMsg() regardless..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if succeeded, false if failed and can call LastErrorMsg() for more info..
-

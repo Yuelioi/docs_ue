@@ -1,12 +1,12 @@
 # AddtoAdjacencytoOptionsMap
 
-向AdjacencyToOptionsMap添加一个条目
+向 AdjacencyToOptionsMap 添加一个条目
 
-目标是波函数崩溃BPLibrary
+目标是波函数崩溃 BPLibrary
 
 ## 图示
 
-![]($-20221218-21324743.png)
+![](/uploads/projects/ue-bluprint/20221218-21324743.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 相邻关系。EWaveFunctionCollapseAdjacency Enum.
 
-选项。波函数折叠选项结构。  
+选项。波函数折叠选项结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add an entry to an AdjacencyToOptionsMap
 
@@ -28,7 +30,7 @@ Target is Wave Function Collapse BPLibrary
 
 ## 图示
 
-![]($-20221218-21324743.png)
+![](/uploads/projects/ue-bluprint/20221218-21324743.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Adjacency to Options Map: Wave Function Collapse Adjacency To Options Map Struct
 
 Adjacency: EWaveFunctionCollapseAdjacency Enum.
 
-Option: Wave Function Collapse Option Structure.  
+Option: Wave Function Collapse Option Structure.
 
 ## Outputs
 
 Out: Exec.
-

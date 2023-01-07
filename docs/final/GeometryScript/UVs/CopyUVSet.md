@@ -1,12 +1,12 @@
 # CopyUVSet
 
-复制UVSet
+复制 UVSet
 
-目标是Geometry Script Library Mesh UVFunctions
+目标是 Geometry Script Library Mesh UVFunctions
 
 ## 图示
 
-![]($-20221218-19134307.png)
+![](/uploads/projects/ue-bluprint/20221218-19134307.png)
 
 ## Inputs
 
@@ -14,17 +14,19 @@
 
 目标网格。动态网格对象参考。
 
-来自UVSet。整数。
+来自 UVSet。整数。
 
-到UVSet:Integer。
+到 UVSet:Integer。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
 出：执行。
 
-目标网格。动态网格对象参考。复制UVSet。
+目标网格。动态网格对象参考。复制 UVSet。
+
+<hr>
 
 Copy UVSet
 
@@ -32,7 +34,7 @@ Target is Geometry Script Library Mesh UVFunctions
 
 ## 图示
 
-![]($-20221218-19134307.png)
+![](/uploads/projects/ue-bluprint/20221218-19134307.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ From UVSet: Integer.
 
 To UVSet: Integer.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Copy UVSet.
-

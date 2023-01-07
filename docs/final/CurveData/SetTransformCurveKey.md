@@ -6,7 +6,7 @@ Target is Animation Data Controller
 
 ## 图示
 
-![]($-20221218-18335709.png)
+![](/uploads/projects/ue-bluprint/20221218-18335709.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@ Time: Float (single-precision). Time of the key to be set.
 
 Value: Transform (by ref). Value of the key to be set.
 
-Should Transact: Boolean. Whether or not any undo-redo changes should be generated.  
+Should Transact: Boolean. Whether or not any undo-redo changes should be generated.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Whether or not the transform curve key was successfully set.
+
+<hr>
 
 Sets a single key for the transform curve with provided identifier. Broadcasts a EAnimDataModelNotifyType::CurveChanged notify if successful.. In case a key for any of the individual transform channel curves already exists the value is replaced.
 
@@ -34,7 +36,7 @@ Target is Animation Data Controller
 
 ## 图示
 
-![]($-20221218-18335709.png)
+![](/uploads/projects/ue-bluprint/20221218-18335709.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Time: Float (single-precision). Time of the key to be set.
 
 Value: Transform (by ref). Value of the key to be set.
 
-Should Transact: Boolean. Whether or not any undo-redo changes should be generated.  
+Should Transact: Boolean. Whether or not any undo-redo changes should be generated.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Whether or not the transform curve key was successfully set.
-

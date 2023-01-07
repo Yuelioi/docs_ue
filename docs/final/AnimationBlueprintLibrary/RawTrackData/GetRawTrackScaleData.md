@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-17524541.png)
+![](/uploads/projects/ue-bluprint/20221218-17524541.png)
 
 ## Inputs
 
 动画序列基础。动画序列基础对象参考。
 
-轨道名称。名称。 
+轨道名称。名称。
 
 ## Outputs
 
 Scale Data（刻度数据）。矢量数组。
+
+<hr>
 
 Retrieves the Raw Scale Animation Data for the given Animation Track Name and Animation Sequence
 
@@ -24,15 +26,14 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17524541.png)
+![](/uploads/projects/ue-bluprint/20221218-17524541.png)
 
 ## Inputs
 
 Animation Sequence Base: Anim Sequence Base Object Reference.
 
-Track Name: Name.  
+Track Name: Name.
 
 ## Outputs
 
 Scale Data: Array of Vectors.
-

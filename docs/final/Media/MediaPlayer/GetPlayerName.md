@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20004173.png)
+![](/uploads/projects/ue-bluprint/20221218-20004173.png)
 
 ## Inputs
 
-目标。媒体播放器对象参考。  
+目标。媒体播放器对象参考。
 
 ## Outputs
 
-返回值。名称。球员姓名，如果没有，则NAME_NONE。
+返回值。名称。球员姓名，如果没有，则 NAME_NONE。
+
+<hr>
 
 Get the name of the current native media player.
 
@@ -22,13 +24,12 @@ Target is Media Player
 
 ## 图示
 
-![]($-20221218-20004173.png)
+![](/uploads/projects/ue-bluprint/20221218-20004173.png)
 
 ## Inputs
 
-Target: Media Player Object Reference.  
+Target: Media Player Object Reference.
 
 ## Outputs
 
 Return Value: Name. Player name, or NAME_None if not available..
-

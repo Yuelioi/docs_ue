@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21235648.png)
+![](/uploads/projects/ue-bluprint/20221218-21235648.png)
 
 ## Inputs
 
 在。执行。
 
-属性。属性值对象参考。  
+属性。属性值对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。线性颜色结构。Get Value Linear Color.
 
+<hr>
+
 Get Value Linear Color
 
 Target is Variant Manager Blueprint Library
 
 ## 图示
 
-![]($-20221218-21235648.png)
+![](/uploads/projects/ue-bluprint/20221218-21235648.png)
 
 ## Inputs
 
 In: Exec.
 
-Property: Property Value Object Reference.  
+Property: Property Value Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Linear Color Structure. Get Value Linear Color.
-

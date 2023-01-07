@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20022217.png)
+![](/uploads/projects/ue-bluprint/20221218-20022217.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 钥匙。姓名（按编号）。
 
-值。Float（单精度）。  
+值。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set a float parameter to pass to the player.
 
@@ -28,7 +30,7 @@ Target is Media Source
 
 ## 图示
 
-![]($-20221218-20022217.png)
+![](/uploads/projects/ue-bluprint/20221218-20022217.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Media Source Object Reference.
 
 Key: Name (by ref).
 
-Value: Float (single-precision).  
+Value: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

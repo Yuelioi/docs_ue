@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14195043.png)
+![](/uploads/projects/ue-bluprint/20221218-14195043.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGeometryScriptGridSizingMethod Enum.  
+选择。EGeometryScriptGridSizingMethod Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 网格分辨率。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14195043.png)
+![](/uploads/projects/ue-bluprint/20221218-14195043.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGeometryScriptGridSizingMethod Enum.  
+Selection: EGeometryScriptGridSizingMethod Enum.
 
 ## Outputs
 
 Grid Cell Size: Exec.
 
 Grid Resolution: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20374083.png)
+![](/uploads/projects/ue-bluprint/20221218-20374083.png)
 
 ## Inputs
 
@@ -18,21 +18,22 @@
 
 返回值。材料接口对象参考。这个网格的索引元素所使用的材料。
 
+<hr>
+
 Returns the material used by the element at the specified index
 
 Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20374083.png)
+![](/uploads/projects/ue-bluprint/20221218-20374083.png)
 
 ## Inputs
 
 Target: Primitive Component Object Reference.
 
-Element Index: Integer. The element to access the material of..  
+Element Index: Integer. The element to access the material of..
 
 ## Outputs
 
 Return Value: Material Interface Object Reference. the material used by the indexed element of this mesh..
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18252193.png)
+![](/uploads/projects/ue-bluprint/20221218-18252193.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 骨骼名称。名称。
 
-Bone Space（骨空间）。EBoneSpaces枚举。 
+Bone Space（骨空间）。EBoneSpaces 枚举。
 
 ## Outputs
 
@@ -24,13 +24,15 @@ Out: 执行：执行。
 
 返回值。旋转器。按名称获取骨骼旋转。
 
+<hr>
+
 Get Bone Rotation by Name
 
 Target is Poseable Mesh Component
 
 ## 图示
 
-![]($-20221218-18252193.png)
+![](/uploads/projects/ue-bluprint/20221218-18252193.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Poseable Mesh Component Object Reference.
 
 Bone Name: Name.
 
-Bone Space: EBoneSpaces Enum.  
+Bone Space: EBoneSpaces Enum.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Rotator. Get Bone Rotation by Name.
-

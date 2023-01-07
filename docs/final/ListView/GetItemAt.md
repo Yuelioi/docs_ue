@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19441550.png)
+![](/uploads/projects/ue-bluprint/20221218-19441550.png)
 
 ## Inputs
 
 目标。列表视图对象参考。
 
-索引：整数。  
+索引：整数。
 
 ## Outputs
 
 返回值。对象参考。返回给定索引上的项目。
+
+<hr>
 
 Returns the item at the given index
 
@@ -24,15 +26,14 @@ Target is List View
 
 ## 图示
 
-![]($-20221218-19441550.png)
+![](/uploads/projects/ue-bluprint/20221218-19441550.png)
 
 ## Inputs
 
 Target: List View Object Reference.
 
-Index: Integer.  
+Index: Integer.
 
 ## Outputs
 
 Return Value: Object Reference. Returns the item at the given index.
-

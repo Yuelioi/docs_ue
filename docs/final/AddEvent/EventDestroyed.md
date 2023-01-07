@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17450752.png)
+![](/uploads/projects/ue-bluprint/20221218-17450752.png)
 
 ## Inputs
 
 ## Outputs
 
-输出Delegate。委托人。
+输出 Delegate。委托人。
 
 输出。Exec.
+
+<hr>
 
 Called when the actor has been explicitly destroyed.
 
@@ -22,7 +24,7 @@ Target is Actor
 
 ## 图示
 
-![]($-20221218-17450752.png)
+![](/uploads/projects/ue-bluprint/20221218-17450752.png)
 
 ## Inputs
 
@@ -31,4 +33,3 @@ Target is Actor
 Output Delegate: Delegate.
 
 Out: Exec.
-

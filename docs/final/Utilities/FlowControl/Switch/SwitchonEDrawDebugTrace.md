@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14183947.png)
+![](/uploads/projects/ue-bluprint/20221218-14183947.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDrawDebugTrace Enum.  
+选择。EDrawDebugTrace Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 持久性。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14183947.png)
+![](/uploads/projects/ue-bluprint/20221218-14183947.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDrawDebugTrace Enum.  
+Selection: EDrawDebugTrace Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ For One Frame: Exec.
 For Duration: Exec.
 
 Persistent: Exec.
-

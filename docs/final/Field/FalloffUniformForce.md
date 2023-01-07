@@ -6,7 +6,7 @@ FalloffUniformForce。这个函数将向物理线程发送一条命令，以应�
 
 ## 图示
 
-![]($-20221218-18594793.png)
+![](/uploads/projects/ue-bluprint/20221218-18594793.png)
 
 ## Inputs
 
@@ -27,13 +27,16 @@ FalloffUniformForce。这个函数将向物理线程发送一条命令，以应�
 ## Outputs
 
 输出。执行。
+
+<hr>
+
 FalloffUniformForce. This function will dispatch a command to the physics thread to apply. a linear force in a uniform direction. The force vector is weaker as. it moves away from the center.
 
 Target is Field System Component
 
 ## 图示
 
-![]($-20221218-18594793.png)
+![](/uploads/projects/ue-bluprint/20221218-18594793.png)
 
 ## Inputs
 
@@ -49,9 +52,8 @@ Uniform Direction: Vector. The direction of the linear force.
 
 Falloff Radius: Float (single-precision). Radial influence from the position, positions further away are weaker..
 
-Field Magnitude: Float (single-precision). The size of the linear force..  
+Field Magnitude: Float (single-precision). The size of the linear force..
 
 ## Outputs
 
 Out: Exec.
-

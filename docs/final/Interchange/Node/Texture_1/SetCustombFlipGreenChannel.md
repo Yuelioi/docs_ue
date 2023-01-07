@@ -1,12 +1,12 @@
 # SetCustombFlipGreenChannel
 
-设置自定义b翻转绿色通道
+设置自定义 b 翻转绿色通道
 
 目标是互换纹理工厂节点
 
 ## 图示
 
-![]($-20221218-19351443.png)
+![](/uploads/projects/ue-bluprint/20221218-19351443.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 属性值。布尔值（通过引用）。
 
-添加应用代表。Boolean.  
+添加应用代表。Boolean.
 
 ## Outputs
 
 出：执行。
 
-返回值。布尔值。设置Customb翻转绿色通道。
+返回值。布尔值。设置 Customb 翻转绿色通道。
+
+<hr>
 
 Set Customb Flip Green Channel
 
@@ -30,7 +32,7 @@ Target is Interchange Texture Factory Node
 
 ## 图示
 
-![]($-20221218-19351443.png)
+![](/uploads/projects/ue-bluprint/20221218-19351443.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Interchange Texture Factory Node Object Reference.
 
 Attribute Value: Boolean (by ref).
 
-Add Apply Delegate: Boolean.  
+Add Apply Delegate: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Set Customb Flip Green Channel.
-

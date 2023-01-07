@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21123216.png)
+![](/uploads/projects/ue-bluprint/20221218-21123216.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。定时数据监控子系统对象参考。
 
-Identifier:定时数据监控通道标识符结构（通过参考）。  
+Identifier:定时数据监控通道标识符结构（通过参考）。
 
 ## Outputs
 
@@ -22,13 +22,15 @@ Identifier:定时数据监控通道标识符结构（通过参考）。
 
 返回值。计时数据的数组 通道采样时间结构。获取通道中每一帧的采样时间。
 
+<hr>
+
 Get the sample times for every frame in the channel
 
 Target is Timed Data Monitor Subsystem
 
 ## 图示
 
-![]($-20221218-21123216.png)
+![](/uploads/projects/ue-bluprint/20221218-21123216.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Timed Data Monitor Subsystem Object Reference.
 
-Identifier: Timed Data Monitor Channel Identifier Structure (by ref).  
+Identifier: Timed Data Monitor Channel Identifier Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Array of Timed Data Channel Sample Time Structures. Get the sample times for every frame in the channel.
-

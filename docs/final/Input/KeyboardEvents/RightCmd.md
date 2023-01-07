@@ -1,10 +1,10 @@
 # RightCmd
 
-当右Cmd键被按下或释放时的事件。
+当右 Cmd 键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19264313.png)
+![](/uploads/projects/ue-bluprint/20221218-19264313.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 钥匙。关键的结构。
 
+<hr>
+
 Events for when the Right Cmd key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19264313.png)
+![](/uploads/projects/ue-bluprint/20221218-19264313.png)
 
 ## Inputs
 
@@ -31,4 +33,3 @@ Pressed: Exec.
 Released: Exec.
 
 Key: Key Structure.
-

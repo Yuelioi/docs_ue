@@ -2,11 +2,11 @@
 
 将一个由四个索引指定的四边形作为两个三角形添加到一个三角形索引缓冲区。
 
-目标是Kismet程序网格库
+目标是 Kismet 程序网格库
 
 ## 图示
 
-![]($-20221218-18253689.png)
+![](/uploads/projects/ue-bluprint/20221218-18253689.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@ Vert 1: 整数。
 
 Vert 2: 整数。
 
-Vert 3: 整数。 
+Vert 3: 整数。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Add a quad, specified by four indices, to a triangle index buffer as two triangles.
 
@@ -32,7 +34,7 @@ Target is Kismet Procedural Mesh Library
 
 ## 图示
 
-![]($-20221218-18253689.png)
+![](/uploads/projects/ue-bluprint/20221218-18253689.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Vert 1: Integer.
 
 Vert 2: Integer.
 
-Vert 3: Integer.  
+Vert 3: Integer.
 
 ## Outputs
 
 Out: Exec.
-

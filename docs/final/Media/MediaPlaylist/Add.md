@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20015744.png)
+![](/uploads/projects/ue-bluprint/20221218-20015744.png)
 
 ## Inputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。如果媒体源被添加，则为真，否则为假。
 
+<hr>
+
 Add a media source to the play list.
 
 Target is Media Playlist
 
 ## 图示
 
-![]($-20221218-20015744.png)
+![](/uploads/projects/ue-bluprint/20221218-20015744.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Media Playlist Object Reference.
 
-Media Source: Media Source Object Reference. The media source to append..  
+Media Source: Media Source Object Reference. The media source to append..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if the media source was added, false otherwise..
-

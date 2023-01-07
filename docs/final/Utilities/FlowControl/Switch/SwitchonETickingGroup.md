@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14244056.png)
+![](/uploads/projects/ue-bluprint/20221218-14244056.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETickingGroup Enum.  
+选择。ETickingGroup Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Pre Physics: Exec.
 
 更新后的工作。执行中
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14244056.png)
+![](/uploads/projects/ue-bluprint/20221218-14244056.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETickingGroup Enum.  
+Selection: ETickingGroup Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ During Physics: Exec.
 Post Physics: Exec.
 
 Post Update Work: Exec.
-

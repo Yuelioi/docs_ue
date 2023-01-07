@@ -2,19 +2,21 @@
 
 如果该键是一个游戏手柄按钮，则返回真。
 
-目标是Kismet输入库
+目标是 Kismet 输入库
 
 ## 图示
 
-![]($-20221218-19245100.png)
+![](/uploads/projects/ue-bluprint/20221218-19245100.png)
 
 ## Inputs
 
-钥匙。关键结构（按参考文献）。  
+钥匙。关键结构（按参考文献）。
 
 ## Outputs
 
-返回值。布尔值。如果该键是一个游戏板按钮，则返回true。
+返回值。布尔值。如果该键是一个游戏板按钮，则返回 true。
+
+<hr>
 
 Returns true if the key is a gamepad button
 
@@ -22,13 +24,12 @@ Target is Kismet Input Library
 
 ## 图示
 
-![]($-20221218-19245100.png)
+![](/uploads/projects/ue-bluprint/20221218-19245100.png)
 
 ## Inputs
 
-Key: Key Structure (by ref).  
+Key: Key Structure (by ref).
 
 ## Outputs
 
 Return Value: Boolean. Returns true if the key is a gamepad button.
-

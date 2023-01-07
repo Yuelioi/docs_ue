@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18234256.png)
+![](/uploads/projects/ue-bluprint/20221218-18234256.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Paper Flipbook组件对象参考。 
+目标。Paper Flipbook 组件对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Start playback of flipbook in reverse
 
@@ -24,15 +26,14 @@ Target is Paper Flipbook Component
 
 ## 图示
 
-![]($-20221218-18234256.png)
+![](/uploads/projects/ue-bluprint/20221218-18234256.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Paper Flipbook Component Object Reference.  
+Target: Paper Flipbook Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

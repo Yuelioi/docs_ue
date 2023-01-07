@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14223680.png)
+![](/uploads/projects/ue-bluprint/20221218-14223680.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EQuartzCommandQuantization Enum.  
+选择。EQuartzCommandQuantization Enum.
 
 ## Outputs
 
@@ -48,21 +48,23 @@ Beat: 搏动。Exec.
 
 1/2 (三倍体): Exec.
 
-On Tick (最小的值，与1/32相同): 执行。
+On Tick (最小的值，与 1/32 相同): 执行。
 
 没有。执行。
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14223680.png)
+![](/uploads/projects/ue-bluprint/20221218-14223680.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EQuartzCommandQuantization Enum.  
+Selection: EQuartzCommandQuantization Enum.
 
 ## Outputs
 
@@ -103,4 +105,3 @@ Whole: Exec.
 On Tick (Smallest Value, Same As 1/32): Exec.
 
 None: Exec.
-

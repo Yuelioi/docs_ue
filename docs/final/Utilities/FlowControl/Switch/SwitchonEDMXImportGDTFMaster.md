@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14182892.png)
+![](/uploads/projects/ue-bluprint/20221218-14182892.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDMXImportGDTFMMaster Enum.  
+选择。EDMXImportGDTFMMaster Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Grand: Exec.
 
 组。行政人员: 行政人员
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14182892.png)
+![](/uploads/projects/ue-bluprint/20221218-14182892.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDMXImportGDTFMaster Enum.  
+Selection: EDMXImportGDTFMaster Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ None: Exec.
 Grand: Exec.
 
 Group: Exec.
-

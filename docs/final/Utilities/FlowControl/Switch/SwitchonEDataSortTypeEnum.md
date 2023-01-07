@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14181133.png)
+![](/uploads/projects/ue-bluprint/20221218-14181133.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDataSortTypeEnum 枚举。 
+选择。EDataSortTypeEnum 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Random Shuffle: 执行。
 
 按质量排序 - 最小到最大: 执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14181133.png)
+![](/uploads/projects/ue-bluprint/20221218-14181133.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDataSortTypeEnum Enum.  
+Selection: EDataSortTypeEnum Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Random Shuffle: Exec.
 Sort By Mass - Max To Min: Exec.
 
 Sort By Mass - Min To Max: Exec.
-

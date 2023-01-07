@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21270642.png)
+![](/uploads/projects/ue-bluprint/20221218-21270642.png)
 
 ## Inputs
 
 在。执行。
 
-目标。对象参考。  
+目标。对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。布尔值。是流媒体。
 
+<hr>
+
 Is Streaming
 
 Target is Virtual Camera Controller
 
 ## 图示
 
-![]($-20221218-21270642.png)
+![](/uploads/projects/ue-bluprint/20221218-21270642.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Object Reference.  
+Target: Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Is Streaming.
-

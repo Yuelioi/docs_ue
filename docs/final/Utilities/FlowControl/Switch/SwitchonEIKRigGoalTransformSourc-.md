@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14203388.png)
+![](/uploads/projects/ue-bluprint/20221218-14203388.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EIKRigGoalTransformSource Enum.  
+选择。EIKRigGoalTransformSource Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 Actor Component: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14203388.png)
+![](/uploads/projects/ue-bluprint/20221218-14203388.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EIKRigGoalTransformSource Enum.  
+Selection: EIKRigGoalTransformSource Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Manual Input: Exec.
 Bone: Exec.
 
 Actor Component: Exec.
-

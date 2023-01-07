@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19005919.png)
+![](/uploads/projects/ue-bluprint/20221218-19005919.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 测试结果。EFfunctionalTestResult Enum。
 
-消息：字符串。  
+消息：字符串。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Finish Test
 
@@ -28,7 +30,7 @@ Target is Functional Test
 
 ## 图示
 
-![]($-20221218-19005919.png)
+![](/uploads/projects/ue-bluprint/20221218-19005919.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Functional Test Object Reference.
 
 Test Result: EFunctionalTestResult Enum.
 
-Message: String.  
+Message: String.
 
 ## Outputs
 
 Out: Exec.
-

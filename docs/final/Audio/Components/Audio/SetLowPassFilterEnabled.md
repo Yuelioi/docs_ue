@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18030867.png)
+![](/uploads/projects/ue-bluprint/20221218-18030867.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。同步组件对象参考。
 
-在Low Pass Filter Enabled: Boolean（布尔）。 
+在 Low Pass Filter Enabled: Boolean（布尔）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets whether or not the low pass filter is enabled on the audio component.
 
@@ -26,7 +28,7 @@ Target is Synth Component
 
 ## 图示
 
-![]($-20221218-18030867.png)
+![](/uploads/projects/ue-bluprint/20221218-18030867.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Synth Component Object Reference.
 
-In Low Pass Filter Enabled: Boolean.  
+In Low Pass Filter Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

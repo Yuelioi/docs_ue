@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18321954.png)
+![](/uploads/projects/ue-bluprint/20221218-18321954.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 在变量名称中。名称（通过参考）。
 
-在值中。字符串。 
+在值中。字符串。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。以字符串形式返回给定变量的值。
 
+<hr>
+
 Returns the value of a given variable as a string
 
 Target is Control Rig
 
 ## 图示
 
-![]($-20221218-18321954.png)
+![](/uploads/projects/ue-bluprint/20221218-18321954.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Control Rig Object Reference.
 
 In Variable Name: Name (by ref).
 
-In Value: String.  
+In Value: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Returns the value of a given variable as a string.
-

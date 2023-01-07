@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18191826.png)
+![](/uploads/projects/ue-bluprint/20221218-18191826.png)
 
 ## Inputs
 
@@ -22,7 +22,7 @@ Trace Complex：布尔值。是否追踪复杂的物理表征，或者只追踪�
 
 显示追踪。布尔值。是否在世界空间中绘制轨迹（用于调试）。
 
-持久显示追踪。布尔值。是否让调试时的绘图永久停留在世界中。 
+持久显示追踪。布尔值。是否让调试时的绘图永久停留在世界中。
 
 ## Outputs
 
@@ -38,13 +38,15 @@ Out Hit: 命中结果结构。
 
 返回值。布尔值。
 
+<hr>
+
 Perform a line trace against a single component
 
 Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-18191826.png)
+![](/uploads/projects/ue-bluprint/20221218-18191826.png)
 
 ## Inputs
 
@@ -60,7 +62,7 @@ Trace Complex: Boolean. Whether or not to trace the complex physics representati
 
 Show Trace: Boolean. Whether or not to draw the trace in the world (for debugging).
 
-Persistent Show Trace: Boolean. Whether or not to make the debugging draw stay in the world permanently.  
+Persistent Show Trace: Boolean. Whether or not to make the debugging draw stay in the world permanently.
 
 ## Outputs
 
@@ -75,4 +77,3 @@ Bone Name: Name.
 Out Hit: Hit Result Structure.
 
 Return Value: Boolean.
-

@@ -1,10 +1,10 @@
 # DebugKeyMouseXY2D_Axis
 
-鼠标XY二维轴键被按下或释放时的事件。
+鼠标 XY 二维轴键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19211817.png)
+![](/uploads/projects/ue-bluprint/20221218-19211817.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 行动值。输入行动值结构。
 
+<hr>
+
 Events for when the Mouse XY 2D-Axis key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19211817.png)
+![](/uploads/projects/ue-bluprint/20221218-19211817.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

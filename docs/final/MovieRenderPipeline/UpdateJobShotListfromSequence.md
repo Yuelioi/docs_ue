@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20101265.png)
+![](/uploads/projects/ue-bluprint/20221218-20101265.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 在序列中。水平序列对象参考。
 
-在工作中。电影管道执行者工作对象参考。  
+在工作中。电影管道执行者工作对象参考。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 改变的镜头：布尔值。
 
+<hr>
+
 Scan the provided sequence in the job to see which camera cut sections we would try to render and update the job's shotlist.
 
 Target is Movie Pipeline Blueprint Library
 
 ## 图示
 
-![]($-20221218-20101265.png)
+![](/uploads/projects/ue-bluprint/20221218-20101265.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 In Sequence: Level Sequence Object Reference.
 
-In Job: Movie Pipeline Executor Job Object Reference.  
+In Job: Movie Pipeline Executor Job Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Shots Changed: Boolean.
-

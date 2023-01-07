@@ -2,6 +2,6 @@
 
 On Force Feedback Finished:. called when we finish playing audio, either because it played to completion or because a Stop() call turned it off early
 
+<hr>
 
 On Force Feedback Finished:. called when we finish playing audio, either because it played to completion or because a Stop() call turned it off early
-

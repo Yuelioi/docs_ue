@@ -1,4 +1,4 @@
-# SetDirectionalIn-_2
+# SetDirectionalIn-\_2
 
 设置定向散射的起始距离
 
@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20334674.png)
+![](/uploads/projects/ue-bluprint/20221218-20334674.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。指数高度雾化组件对象参考。
 
-值。Float（单精度）。  
+值。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Directional Inscattering Start Distance
 
@@ -26,7 +28,7 @@ Target is Exponential Height Fog Component
 
 ## 图示
 
-![]($-20221218-20334674.png)
+![](/uploads/projects/ue-bluprint/20221218-20334674.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Exponential Height Fog Component Object Reference.
 
-Value: Float (single-precision).  
+Value: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

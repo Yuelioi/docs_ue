@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18503048.png)
+![](/uploads/projects/ue-bluprint/20221218-18503048.png)
 
 ## Inputs
 
@@ -22,14 +22,17 @@
 
 出：执行。
 
-返回值。关卡流对象参考。返回新创建的级别，失败时返回NULL。
+返回值。关卡流对象参考。返回新创建的级别，失败时返回 NULL。
+
+<hr>
+
 Creates a new streaming level in the current world
 
 Target is Editor Level Utils
 
 ## 图示
 
-![]($-20221218-18503048.png)
+![](/uploads/projects/ue-bluprint/20221218-18503048.png)
 
 ## Inputs
 
@@ -39,11 +42,10 @@ Level Streaming Class: Level Streaming Class Reference. The streaming class type
 
 New Level Path: String. Optional path to the level package path format ("e.g /Game/MyLevel"). If empty, the user will be prompted during the save process..
 
-Move Selected Actors Into New Level: Boolean. If true, move any selected actors into the new level..  
+Move Selected Actors Into New Level: Boolean. If true, move any selected actors into the new level..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Level Streaming Object Reference. Returns the newly created level, or NULL on failure.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17493332.png)
+![](/uploads/projects/ue-bluprint/20221218-17493332.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 动画。小工具动画对象参考。要听的动画开始或结束。
 
-Delegate（委托）。Delegate：委托，当动画的状态发生变化时要调用的委托。 
+Delegate（委托）。Delegate：委托，当动画的状态发生变化时要调用的委托。
 
 ## Outputs
 
 Out: 输出。Exec.
+
+<hr>
 
 Bind an animation started delegate.
 
@@ -28,7 +30,7 @@ Target is User Widget
 
 ## 图示
 
-![]($-20221218-17493332.png)
+![](/uploads/projects/ue-bluprint/20221218-17493332.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: User Widget Object Reference.
 
 Animation: Widget Animation Object Reference. the animation to listen for starting or finishing..
 
-Delegate: Delegate. the delegate to call when the animation's state changes.  
+Delegate: Delegate. the delegate to call when the animation's state changes.
 
 ## Outputs
 
 Out: Exec.
-

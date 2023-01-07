@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20001986.png)
+![](/uploads/projects/ue-bluprint/20221218-20001986.png)
 
 ## Inputs
 
 在。执行。
 
-目标。媒体捆绑对象参考。  
+目标。媒体捆绑对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。媒体源对象参考。获取媒体源。
 
+<hr>
+
 Get the media source.
 
 Target is Media Bundle
 
 ## 图示
 
-![]($-20221218-20001986.png)
+![](/uploads/projects/ue-bluprint/20221218-20001986.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Media Bundle Object Reference.  
+Target: Media Bundle Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Media Source Object Reference. Get the media source..
-

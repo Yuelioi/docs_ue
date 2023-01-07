@@ -2,6 +2,6 @@
 
 On Removal Events:. Called when new trailing events are available.
 
+<hr>
 
 On Removal Events:. Called when new trailing events are available.
-

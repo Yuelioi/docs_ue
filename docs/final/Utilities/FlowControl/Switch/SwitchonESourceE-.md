@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14233837.png)
+![](/uploads/projects/ue-bluprint/20221218-14233837.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESourceEffectDynamicsProcessorType枚举。 
+选择。ESourceEffectDynamicsProcessorType 枚举。
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Gate（门）：Exec.
 
 Upward Compressor（向上压缩器）。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14233837.png)
+![](/uploads/projects/ue-bluprint/20221218-14233837.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESourceEffectDynamicsProcessorType Enum.  
+Selection: ESourceEffectDynamicsProcessorType Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Expander: Exec.
 Gate: Exec.
 
 Upwards Compressor: Exec.
-

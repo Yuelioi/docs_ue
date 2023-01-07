@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-19105787.png)
+![](/uploads/projects/ue-bluprint/20221218-19105787.png)
 
 ## Inputs
 
-颜色列表。颜色列表结构。  
+颜色列表。颜色列表结构。
 
 ## Outputs
 
 返回值。整数。获取颜色列表最后的索引。
+
+<hr>
 
 Get Color List Last Index
 
@@ -22,13 +24,12 @@ Target is Geometry Script Library List Utility Functions
 
 ## 图示
 
-![]($-20221218-19105787.png)
+![](/uploads/projects/ue-bluprint/20221218-19105787.png)
 
 ## Inputs
 
-Color List: Color List Structure.  
+Color List: Color List Structure.
 
 ## Outputs
 
 Return Value: Integer. Get Color List Last Index.
-

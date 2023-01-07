@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17340124.png)
+![](/uploads/projects/ue-bluprint/20221218-17340124.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 方向。矢量。
 
-最小幅度。Float (single-precision).  
+最小幅度。Float (single-precision).
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 在速度变化时。执行。On Velocity Chage:. 当速度要求得到满足时调用的委托。
 
+<hr>
+
 Wait for the actor's movement component velocity to be of minimum magnitude when projected along given direction
 
 Target is Ability Task Wait Velocity Change
 
 ## 图示
 
-![]($-20221218-17340124.png)
+![](/uploads/projects/ue-bluprint/20221218-17340124.png)
 
 ## Inputs
 
@@ -38,7 +40,7 @@ In: Exec.
 
 Direction: Vector.
 
-Minimum Magnitude: Float (single-precision).  
+Minimum Magnitude: Float (single-precision).
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out: Exec.
 Async Task: Ability Task Wait Velocity Change Object Reference.
 
 On Velocity Chage: Exec. On Velocity Chage:. Delegate called when velocity requirements are met.
-

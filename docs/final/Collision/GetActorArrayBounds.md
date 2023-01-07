@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18185033.png)
+![](/uploads/projects/ue-bluprint/20221218-18185033.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 演员。演员对象引用数组。
 
-只有碰撞部件。布尔值。 
+只有碰撞部件。布尔值。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 Box Extent: 向量。
 
+<hr>
+
 Bind the bounds of an array of Actors
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18185033.png)
+![](/uploads/projects/ue-bluprint/20221218-18185033.png)
 
 ## Inputs
 
@@ -38,7 +40,7 @@ In: Exec.
 
 Actors: Array of Actor Object References.
 
-Only Colliding Components: Boolean.  
+Only Colliding Components: Boolean.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out: Exec.
 Center: Vector.
 
 Box Extent: Vector.
-

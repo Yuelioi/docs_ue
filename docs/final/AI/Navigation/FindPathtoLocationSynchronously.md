@@ -1,12 +1,12 @@
 # FindPathtoLocationSynchronously
 
-在FindPath Synchronously中立即找到路径。
+在 FindPath Synchronously 中立即找到路径。
 
-目标是导航系统V1
+目标是导航系统 V1
 
 ## 图示
 
-![]($-20221218-17471026.png)
+![](/uploads/projects/ue-bluprint/20221218-17471026.png)
 
 ## Inputs
 
@@ -16,9 +16,9 @@
 
 路径结束。Vector (by ref).
 
-Pathfinding Context（寻路背景）。Actor对象参考。可以是以下之一。导航数据（如Navmesh角色），卒子或控制器。这个参数决定了特定寻路查询的参数。
+Pathfinding Context（寻路背景）。Actor 对象参考。可以是以下之一。导航数据（如 Navmesh 角色），卒子或控制器。这个参数决定了特定寻路查询的参数。
 
-过滤器类。导航查询过滤类参考。 
+过滤器类。导航查询过滤类参考。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ Pathfinding Context（寻路背景）。Actor对象参考。可以是以下之�
 
 返回值。导航路径对象参考。
 
+<hr>
+
 Finds path instantly, in a FindPath Synchronously.
 
 Target is Navigation System V1
 
 ## 图示
 
-![]($-20221218-17471026.png)
+![](/uploads/projects/ue-bluprint/20221218-17471026.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Path End: Vector (by ref).
 
 Pathfinding Context: Actor Object Reference. could be one of following: NavigationData (like Navmesh actor), Pawn or Controller. This parameter determines parameters of specific pathfinding query.
 
-Filter Class: Navigation Query Filter Class Reference.  
+Filter Class: Navigation Query Filter Class Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Navigation Path Object Reference.
-

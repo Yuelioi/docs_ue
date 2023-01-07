@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14211768.png)
+![](/uploads/projects/ue-bluprint/20221218-14211768.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMappingQueryResult Enum.  
+选择。EMappingQueryResult Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Error Input Context Not In Active Contexts: Exec.
 
 可用的映射。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14211768.png)
+![](/uploads/projects/ue-bluprint/20221218-14211768.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMappingQueryResult Enum.  
+Selection: EMappingQueryResult Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Error Invalid Action: Exec.
 Not Mappable: Exec.
 
 Mapping Available: Exec.
-

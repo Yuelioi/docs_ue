@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21344150.png)
+![](/uploads/projects/ue-bluprint/20221218-21344150.png)
 
 ## Inputs
 
-目标。小工具对象参考。  
+目标。小工具对象参考。
 
 ## Outputs
 
 返回值。几何结构（通过引用）。获取油漆空间的几何图形。
+
+<hr>
 
 Get Paint Space Geometry
 
@@ -22,13 +24,12 @@ Target is Widget
 
 ## 图示
 
-![]($-20221218-21344150.png)
+![](/uploads/projects/ue-bluprint/20221218-21344150.png)
 
 ## Inputs
 
-Target: Widget Object Reference.  
+Target: Widget Object Reference.
 
 ## Outputs
 
 Return Value: Geometry Structure (by ref). Get Paint Space Geometry.
-

@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-20060961.png)
+![](/uploads/projects/ue-bluprint/20221218-20060961.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。Float（单精度）。返回设备的温度，单位是摄氏度。
 
+<hr>
+
 Returns the device's temperature, in Celsius
 
 Target is Optional Mobile Features BPLibrary
 
 ## 图示
 
-![]($-20221218-20060961.png)
+![](/uploads/projects/ue-bluprint/20221218-20060961.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision). Returns the device's temperature, in Celsius.
-

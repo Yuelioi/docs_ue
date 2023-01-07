@@ -2,17 +2,17 @@
 
 获取粒子模块位置的骨质插座道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19022955.png)
+![](/uploads/projects/ue-bluprint/20221218-19022955.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。骨头/插座位置对象参考。  
+粒子模块。骨头/插座位置对象参考。
 
 ## Outputs
 
@@ -22,7 +22,7 @@
 
 输出通用偏移。矢量。
 
-输出源位置。位置骨架信息的数组 BP结构。
+输出源位置。位置骨架信息的数组 BP 结构。
 
 输出选择方法。ELocationBoneSocketSelectionMethod Enum.
 
@@ -40,19 +40,21 @@ Out Num Pre Selected Indices:整数。
 
 Out Editor Skel Mesh:骨架网状结构对象参考。
 
+<hr>
+
 Get Particle Module Location Bone Socket Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19022955.png)
+![](/uploads/projects/ue-bluprint/20221218-19022955.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Bone/ Socket Location Object Reference.  
+Particle Module: Bone/ Socket Location Object Reference.
 
 ## Outputs
 
@@ -79,4 +81,3 @@ Out Skel Mesh Actor Param Name: Name.
 Out Num Pre Selected Indices: Integer.
 
 Out Editor Skel Mesh: Skeletal Mesh Object Reference.
-

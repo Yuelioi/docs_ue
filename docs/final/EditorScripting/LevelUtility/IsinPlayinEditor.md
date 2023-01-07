@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18511092.png)
+![](/uploads/projects/ue-bluprint/20221218-18511092.png)
 
 ## Inputs
 
@@ -15,19 +15,21 @@
 ## Outputs
 
 返回值。布尔值。是否在编辑器中播放。
+
+<hr>
+
 Is in Play in Editor
 
 Target is Level Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18511092.png)
+![](/uploads/projects/ue-bluprint/20221218-18511092.png)
 
 ## Inputs
 
-Target: Level Editor Subsystem Object Reference.  
+Target: Level Editor Subsystem Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Is in Play in Editor.
-

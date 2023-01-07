@@ -1,12 +1,12 @@
 # SetFrameRate
 
-设置骨骼动画的采样帧率。如果成功的话，广播一个 EAnimDataModelNotifyType::FrameRateChanged 通知。根据UAnimDataModel::PlayLength的当前值，重新计算所提供的帧率的帧和键的数量。
+设置骨骼动画的采样帧率。如果成功的话，广播一个 EAnimDataModelNotifyType::FrameRateChanged 通知。根据 UAnimDataModel::PlayLength 的当前值，重新计算所提供的帧率的帧和键的数量。
 
 目标是动画数据控制器
 
 ## 图示
 
-![]($-20221218-17533767.png)
+![](/uploads/projects/ue-bluprint/20221218-17533767.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 帧率。帧率结构。新的采样帧率，必须是正数且非零。
 
-Should Transact。布尔值。是否应该产生任何撤销-重做的变化。 
+Should Transact。布尔值。是否应该产生任何撤销-重做的变化。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets the frame rate according to which the bone animation is expected to be sampled. Broadcasts a EAnimDataModelNotifyType::FrameRateChanged notify if successful.. The number of frames and keys for the provided frame rate is recalculated according to the current value of UAnimDataModel::PlayLength.
 
@@ -28,7 +30,7 @@ Target is Animation Data Controller
 
 ## 图示
 
-![]($-20221218-17533767.png)
+![](/uploads/projects/ue-bluprint/20221218-17533767.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Animation Data Controller Interface.
 
 Frame Rate: Frame Rate Structure. The new sampling frame rate, has to be positive and non-zero.
 
-Should Transact: Boolean. Whether or not any undo-redo changes should be generated.  
+Should Transact: Boolean. Whether or not any undo-redo changes should be generated.
 
 ## Outputs
 
 Out: Exec.
-

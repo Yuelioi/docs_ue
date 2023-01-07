@@ -1,12 +1,12 @@
 # GetSectionfromStaticMesh
 
-从StaticMesh资产中获取几何数据。
+从 StaticMesh 资产中获取几何数据。
 
-目标是Kismet程序网格库
+目标是 Kismet 程序网格库
 
 ## 图示
 
-![]($-20221218-18254733.png)
+![](/uploads/projects/ue-bluprint/20221218-18254733.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 LODIndex。整数。
 
-区段索引。整数。 
+区段索引。整数。
 
 ## Outputs
 
@@ -28,9 +28,11 @@ LODIndex。整数。
 
 法线。矢量数组。
 
-紫外线。矢量2D结构数组。
+紫外线。矢量 2D 结构数组。
 
-切线。Proc网格切线结构数组。
+切线。Proc 网格切线结构数组。
+
+<hr>
 
 Grab geometry data from a StaticMesh asset.
 
@@ -38,7 +40,7 @@ Target is Kismet Procedural Mesh Library
 
 ## 图示
 
-![]($-20221218-18254733.png)
+![](/uploads/projects/ue-bluprint/20221218-18254733.png)
 
 ## Inputs
 
@@ -48,7 +50,7 @@ In Mesh: Static Mesh Object Reference.
 
 LODIndex: Integer.
 
-Section Index: Integer.  
+Section Index: Integer.
 
 ## Outputs
 
@@ -63,4 +65,3 @@ Normals: Array of Vectors.
 UVs: Array of Vector 2D Structures.
 
 Tangents: Array of Proc Mesh Tangent Structures.
-

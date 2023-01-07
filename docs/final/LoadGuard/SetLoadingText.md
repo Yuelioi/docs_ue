@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19453988.png)
+![](/uploads/projects/ue-bluprint/20221218-19453988.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。通用负载保护对象参考。
 
-在加载文本。文本（通过参考）。  
+在加载文本。文本（通过参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Loading Text
 
@@ -26,7 +28,7 @@ Target is Common Load Guard
 
 ## 图示
 
-![]($-20221218-19453988.png)
+![](/uploads/projects/ue-bluprint/20221218-19453988.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common Load Guard Object Reference.
 
-In Loading Text: Text (by ref).  
+In Loading Text: Text (by ref).
 
 ## Outputs
 
 Out: Exec.
-

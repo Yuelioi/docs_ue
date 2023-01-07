@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18542023.png)
+![](/uploads/projects/ue-bluprint/20221218-18542023.png)
 
 ## Inputs
 
@@ -16,20 +16,23 @@
 
 Object Class: 对象类的引用。对象的类别。
 
-过滤器类型。EEditorScriptingFilterType枚举。如果尊重条件，应包括或不包括数组的项目。
+过滤器类型。EEditorScriptingFilterType 枚举。如果尊重条件，应包括或不包括数组的项目。
 
 ## Outputs
 
 输出。执行。
 
 返回值。对象引用的数组。过滤后的列表.
+
+<hr>
+
 Filter the array based on the Object's class.
 
 Target is Editor Filter Library
 
 ## 图示
 
-![]($-20221218-18542023.png)
+![](/uploads/projects/ue-bluprint/20221218-18542023.png)
 
 ## Inputs
 
@@ -39,11 +42,10 @@ Target Array: Array of Object References. Array of Object to filter. The array w
 
 Object Class: Object Class Reference. The Class of the object..
 
-Filter Type: EEditorScriptingFilterType Enum. Should include or not the array's item if it respects the condition..  
+Filter Type: EEditorScriptingFilterType Enum. Should include or not the array's item if it respects the condition..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Array of Object References. The filtered list..
-

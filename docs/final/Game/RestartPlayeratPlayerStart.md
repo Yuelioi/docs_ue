@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19073957.png)
+![](/uploads/projects/ue-bluprint/20221218-19073957.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 新玩家。控制器对象参考。
 
-起始点。演员对象参考。  
+起始点。演员对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Tries to spawn the player's pawn at the specified actor's location
 
@@ -28,7 +30,7 @@ Target is Game Mode Base
 
 ## 图示
 
-![]($-20221218-19073957.png)
+![](/uploads/projects/ue-bluprint/20221218-19073957.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Game Mode Base Object Reference.
 
 New Player: Controller Object Reference.
 
-Start Spot: Actor Object Reference.  
+Start Spot: Actor Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

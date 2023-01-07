@@ -1,22 +1,24 @@
 # GetInstance
 
-获取Python Shotgrid引擎的实例
+获取 Python Shotgrid 引擎的实例
 
-目标是Shotgrid引擎
+目标是 Shotgrid 引擎
 
 ## 图示
 
-![]($-20221218-20311902.png)
+![](/uploads/projects/ue-bluprint/20221218-20311902.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 出：执行。
 
-返回值。Shotgrid引擎对象参考。获取Python Shotgrid Engine的实例。
+返回值。Shotgrid 引擎对象参考。获取 Python Shotgrid Engine 的实例。
+
+<hr>
 
 Get the instance of the Python Shotgrid Engine
 
@@ -24,15 +26,14 @@ Target is Shotgrid Engine
 
 ## 图示
 
-![]($-20221218-20311902.png)
+![](/uploads/projects/ue-bluprint/20221218-20311902.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Shotgrid Engine Object Reference. Get the instance of the Python Shotgrid Engine.
-

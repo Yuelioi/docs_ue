@@ -1,16 +1,16 @@
 # BreakKey
 
-将XR键分解为交互特征、手性、运动源、指示器和组件。
+将 XR 键分解为交互特征、手性、运动源、指示器和组件。
 
 目标是头戴式显示器功能库
 
 ## 图示
 
-![]($-20221218-19300960.png)
+![](/uploads/projects/ue-bluprint/20221218-19300960.png)
 
 ## Inputs
 
-在钥匙。关键的结构。  
+在钥匙。关键的结构。
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Hand: EControllerHand Enum.
 
 组件。字符串。
 
+<hr>
+
 Breaks an XR key apart into the interaction profile, handedness, motion source, indentifier and component.
 
 Target is Head Mounted Display Function Library
 
 ## 图示
 
-![]($-20221218-19300960.png)
+![](/uploads/projects/ue-bluprint/20221218-19300960.png)
 
 ## Inputs
 
-In Key: Key Structure.  
+In Key: Key Structure.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Motion Source: Name.
 Indentifier: String.
 
 Component: String.
-

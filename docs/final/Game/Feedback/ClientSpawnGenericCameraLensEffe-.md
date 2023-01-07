@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19054154.png)
+![](/uploads/projects/ue-bluprint/20221218-19054154.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。玩家控制器对象参考。
 
-镜头效果发射器类。Actor Class Reference.  
+镜头效果发射器类。Actor Class Reference.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Spawn a camera lens effect (e.g. blood).
 
@@ -26,7 +28,7 @@ Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19054154.png)
+![](/uploads/projects/ue-bluprint/20221218-19054154.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Player Controller Object Reference.
 
-Lens Effect Emitter Class: Actor Class Reference.  
+Lens Effect Emitter Class: Actor Class Reference.
 
 ## Outputs
 
 Out: Exec.
-

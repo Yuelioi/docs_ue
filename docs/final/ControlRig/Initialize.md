@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18314740.png)
+![](/uploads/projects/ue-bluprint/20221218-18314740.png)
 
 ## Inputs
 
 在。执行。
 
-目标。控制钻机组件对象参考。 
+目标。控制钻机组件对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Initializes the rig's memory and calls the setup event
 
@@ -24,15 +26,14 @@ Target is Control Rig Component
 
 ## 图示
 
-![]($-20221218-18314740.png)
+![](/uploads/projects/ue-bluprint/20221218-18314740.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Control Rig Component Object Reference.  
+Target: Control Rig Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

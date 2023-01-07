@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14253777.png)
+![](/uploads/projects/ue-bluprint/20221218-14253777.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EXRDeviceConnectionResult Enum。 
+选择。EXRDeviceConnectionResult Enum。
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Miscure Failure: 执行。
 
 成功。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14253777.png)
+![](/uploads/projects/ue-bluprint/20221218-14253777.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EXRDeviceConnectionResult Enum.  
+Selection: EXRDeviceConnectionResult Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ No Valid Viewport: Exec.
 Misc Failure: Exec.
 
 Success: Exec.
-

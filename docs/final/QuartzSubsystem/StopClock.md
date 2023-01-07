@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20324472.png)
+![](/uploads/projects/ue-bluprint/20221218-20324472.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。石英钟手柄对象参考。
 
-取消待处理的事件。布尔型。  
+取消待处理的事件。布尔型。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 时钟拉手。石英钟拉手对象参考。
 
+<hr>
+
 Stop Clock
 
 Target is Quartz Clock Handle
 
 ## 图示
 
-![]($-20221218-20324472.png)
+![](/uploads/projects/ue-bluprint/20221218-20324472.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Quartz Clock Handle Object Reference.
 
-Cancel Pending Events: Boolean.  
+Cancel Pending Events: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Clock Handle: Quartz Clock Handle Object Reference.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19311837.png)
+![](/uploads/projects/ue-bluprint/20221218-19311837.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标：交换源数据对象参考。
 
-在文件名中：字符串。  
+在文件名中：字符串。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。设置文件名。
 
+<hr>
+
 Set Filename
 
 Target is Interchange Source Data
 
 ## 图示
 
-![]($-20221218-19311837.png)
+![](/uploads/projects/ue-bluprint/20221218-19311837.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Interchange Source Data Object Reference.
 
-In Filename: String.  
+In Filename: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Set Filename.
-

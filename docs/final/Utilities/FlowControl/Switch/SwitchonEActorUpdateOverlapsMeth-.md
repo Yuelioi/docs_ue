@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14160010.png)
+![](/uploads/projects/ue-bluprint/20221218-14160010.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EActorUpdateOverlapsMethod Enum.  
+选择。EActorUpdateOverlapsMethod Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 永不更新: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14160010.png)
+![](/uploads/projects/ue-bluprint/20221218-14160010.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EActorUpdateOverlapsMethod Enum.  
+Selection: EActorUpdateOverlapsMethod Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Always Update: Exec.
 Only Update Movable: Exec.
 
 Never Update: Exec.
-

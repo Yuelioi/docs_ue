@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20383723.png)
+![](/uploads/projects/ue-bluprint/20221218-20383723.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 大气层光指数。整数。
 
-光线方向。矢量（通过参考）。  
+光线方向。矢量（通过参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Override Atmosphere Light Direction
 
@@ -28,7 +30,7 @@ Target is Sky Atmosphere Component
 
 ## 图示
 
-![]($-20221218-20383723.png)
+![](/uploads/projects/ue-bluprint/20221218-20383723.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Sky Atmosphere Component Object Reference.
 
 Atmosphere Light Index: Integer.
 
-Light Direction: Vector (by ref).  
+Light Direction: Vector (by ref).
 
 ## Outputs
 
 Out: Exec.
-

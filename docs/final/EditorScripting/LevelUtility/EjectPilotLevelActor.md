@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18505211.png)
+![](/uploads/projects/ue-bluprint/20221218-18505211.png)
 
 ## Inputs
 
@@ -19,13 +19,16 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Eject Pilot Level Actor
 
 Target is Level Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18505211.png)
+![](/uploads/projects/ue-bluprint/20221218-18505211.png)
 
 ## Inputs
 
@@ -33,9 +36,8 @@ In: Exec.
 
 Target: Level Editor Subsystem Object Reference.
 
-Viewport Config Key: Name.  
+Viewport Config Key: Name.
 
 ## Outputs
 
 Out: Exec.
-

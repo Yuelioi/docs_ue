@@ -6,21 +6,23 @@
 
 ## 图示
 
-![]($-20221218-17461076.png)
+![](/uploads/projects/ue-bluprint/20221218-17461076.png)
 
 ## Inputs
 
 在。Exec.
 
-目标：Blackboard组件对象参考。
+目标：Blackboard 组件对象参考。
 
 关键名称。名称（通过参考）。
 
-矢量值。旋转器。 
+矢量值。旋转器。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set Value as Rotator
 
@@ -28,7 +30,7 @@ Target is Blackboard Component
 
 ## 图示
 
-![]($-20221218-17461076.png)
+![](/uploads/projects/ue-bluprint/20221218-17461076.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Blackboard Component Object Reference.
 
 Key Name: Name (by ref).
 
-Vector Value: Rotator.  
+Vector Value: Rotator.
 
 ## Outputs
 
 Out: Exec.
-

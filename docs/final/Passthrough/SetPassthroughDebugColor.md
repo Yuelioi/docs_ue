@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20180144.png)
+![](/uploads/projects/ue-bluprint/20221218-20180144.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。穿透式材料更新组件对象参考。
 
-新调试颜色：线性颜色结构。  
+新调试颜色：线性颜色结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Update the passthrough debug color
 
@@ -26,7 +28,7 @@ Target is Passthrough Material Update Component
 
 ## 图示
 
-![]($-20221218-20180144.png)
+![](/uploads/projects/ue-bluprint/20221218-20180144.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Passthrough Material Update Component Object Reference.
 
-New Debug Color: Linear Color Structure.  
+New Debug Color: Linear Color Structure.
 
 ## Outputs
 
 Out: Exec.
-

@@ -1,12 +1,12 @@
 # GetScalarParameterValueByInfo
 
-从MID中获取当前标量（浮点）参数值，使用MPI（以允许访问层参数）。
+从 MID 中获取当前标量（浮点）参数值，使用 MPI（以允许访问层参数）。
 
 目标是材料实例动态
 
 ## 图示
 
-![]($-20221218-20375490.png)
+![](/uploads/projects/ue-bluprint/20221218-20375490.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标。材料实例动态对象参考。
 
-参数信息。材料参数信息结构（通过参考）。  
+参数信息。材料参数信息结构（通过参考）。
 
 ## Outputs
 
 出：执行。
 
-返回值。浮点数（单精度）。从MID中获取当前标量（浮点）参数值，使用MPI（以允许访问层参数）。
+返回值。浮点数（单精度）。从 MID 中获取当前标量（浮点）参数值，使用 MPI（以允许访问层参数）。
+
+<hr>
 
 Get the current scalar (float) parameter value from an MID, using MPI (to allow access to layer parameters)
 
@@ -28,7 +30,7 @@ Target is Material Instance Dynamic
 
 ## 图示
 
-![]($-20221218-20375490.png)
+![](/uploads/projects/ue-bluprint/20221218-20375490.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Material Instance Dynamic Object Reference.
 
-Parameter Info: Material Parameter Info Structure (by ref).  
+Parameter Info: Material Parameter Info Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision). Get the current scalar (float) parameter value from an MID, using MPI (to allow access to layer parameters).
-

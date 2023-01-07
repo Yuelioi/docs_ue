@@ -2,17 +2,17 @@
 
 获取粒子模块的速度道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19031044.png)
+![](/uploads/projects/ue-bluprint/20221218-19031044.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。初始速度对象参考。  
+粒子模块。初始速度对象参考。
 
 ## Outputs
 
@@ -26,19 +26,21 @@
 
 出应用业主规模。布尔型。
 
+<hr>
+
 Get Particle Module Velocity Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19031044.png)
+![](/uploads/projects/ue-bluprint/20221218-19031044.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Initial Velocity Object Reference.  
+Particle Module: Initial Velocity Object Reference.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Out Start Velocity Radial: Distribution Object Reference.
 Out in World Space: Boolean.
 
 Out Apply Owner Scale: Boolean.
-

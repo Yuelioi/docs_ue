@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14195220.png)
+![](/uploads/projects/ue-bluprint/20221218-14195220.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGeometryScriptLODType枚举。 
+选择。EGeometryScriptLODType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 渲染数据。渲染数据: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14195220.png)
+![](/uploads/projects/ue-bluprint/20221218-14195220.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGeometryScriptLODType Enum.  
+Selection: EGeometryScriptLODType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Hi Res Source Model: Exec.
 Source Model: Exec.
 
 Render Data: Exec.
-

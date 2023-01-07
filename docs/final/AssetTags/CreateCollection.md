@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18013145.png)
+![](/uploads/projects/ue-bluprint/20221218-18013145.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 名称。名称。给予集合的名称。
 
-共享类型。ECollectionScriptingShareType枚举。集合是否应该是本地的，私有的，或者共享的？ 
+共享类型。ECollectionScriptingShareType 枚举。集合是否应该是本地的，私有的，或者共享的？
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。如果集合被创建，则为真，否则为假（关于错误的细节，请看输出日志）。
 
+<hr>
+
 Create a new collection with the given name and share type.
 
 Target is Asset Tags Subsystem
 
 ## 图示
 
-![]($-20221218-18013145.png)
+![](/uploads/projects/ue-bluprint/20221218-18013145.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Asset Tags Subsystem Object Reference.
 
 Name: Name. Name to give to the collection..
 
-Share Type: ECollectionScriptingShareType Enum. Whether the collection should be local, private, or shared?.  
+Share Type: ECollectionScriptingShareType Enum. Whether the collection should be local, private, or shared?.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. True if the collection was created, false otherwise (see the output log for details on error)..
-

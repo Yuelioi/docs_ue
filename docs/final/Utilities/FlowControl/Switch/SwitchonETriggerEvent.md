@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14245640.png)
+![](/uploads/projects/ue-bluprint/20221218-14245640.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETriggerEvent Enum.  
+选择。ETriggerEvent Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@
 
 已完成。执行中
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14245640.png)
+![](/uploads/projects/ue-bluprint/20221218-14245640.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETriggerEvent Enum.  
+Selection: ETriggerEvent Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Ongoing: Exec.
 Canceled: Exec.
 
 Completed: Exec.
-

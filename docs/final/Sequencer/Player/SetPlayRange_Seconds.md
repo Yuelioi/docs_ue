@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20515781.png)
+![](/uploads/projects/ue-bluprint/20221218-20515781.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 开始时间。Float（单精度）。开始播放序列的时间，单位是秒。
 
-持续时间。Float（单精度）。播放的长度。  
+持续时间。Float（单精度）。播放的长度。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the valid play range for this sequence, determined by a starting time and a duration (in seconds)
 
@@ -28,7 +30,7 @@ Target is Movie Scene Sequence Player
 
 ## 图示
 
-![]($-20221218-20515781.png)
+![](/uploads/projects/ue-bluprint/20221218-20515781.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Movie Scene Sequence Player Object Reference.
 
 Start Time: Float (single-precision). The time to start playing back the sequence in seconds.
 
-Duration: Float (single-precision). The length to play for.  
+Duration: Float (single-precision). The length to play for.
 
 ## Outputs
 
 Out: Exec.
-

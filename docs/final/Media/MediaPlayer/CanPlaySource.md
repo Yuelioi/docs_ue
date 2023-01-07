@@ -8,7 +8,7 @@
 
 ## 图示
 
-![]($-20221218-20002795.png)
+![](/uploads/projects/ue-bluprint/20221218-20002795.png)
 
 ## Inputs
 
@@ -22,7 +22,9 @@
 
 出：执行。
 
-返回值。布尔值。如果媒体源可以被打开，则为true，否则为false。
+返回值。布尔值。如果媒体源可以被打开，则为 true，否则为 false。
+
+<hr>
 
 Check whether the specified media source can be played by this player.
 
@@ -32,7 +34,7 @@ Target is Media Player
 
 ## 图示
 
-![]($-20221218-20002795.png)
+![](/uploads/projects/ue-bluprint/20221218-20002795.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ In: Exec.
 
 Target: Media Player Object Reference.
 
-Media Source: Media Source Object Reference. The media source to check..  
+Media Source: Media Source Object Reference. The media source to check..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if the media source can be opened, false otherwise..
-

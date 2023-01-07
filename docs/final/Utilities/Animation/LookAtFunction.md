@@ -2,11 +2,11 @@
 
 计算以本地轴线 "观察 "目标位置的变换。
 
-目标是Kismet动画库
+目标是 Kismet 动画库
 
 ## 图示
 
-![]($-20221218-12164668.png)
+![](/uploads/projects/ue-bluprint/20221218-12164668.png)
 
 ## Inputs
 
@@ -16,15 +16,17 @@
 
 看向量。矢量。与目标对齐的本地矢量。
 
-使用向上的矢量。布尔值。如果设置为true，lookat也会进行扭曲旋转。
+使用向上的矢量。布尔值。如果设置为 true，lookat 也会进行扭曲旋转。
 
-向量向上。矢量。用于上行矢量目标的位置（仅在bUseUpVector打开时使用）。
+向量向上。矢量。用于上行矢量目标的位置（仅在 bUseUpVector 打开时使用）。
 
-钳子锥度。浮点（单精度）。一个限制，只允许lookat旋转到浮点值所定义的程度。  
+钳子锥度。浮点（单精度）。一个限制，只允许 lookat 旋转到浮点值所定义的程度。
 
 ## Outputs
 
 返回值。转换。
+
+<hr>
 
 Computes the transform which is "looking" at target position with a local axis.
 
@@ -32,7 +34,7 @@ Target is Kismet Animation Library
 
 ## 图示
 
-![]($-20221218-12164668.png)
+![](/uploads/projects/ue-bluprint/20221218-12164668.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Use Up Vector: Boolean. If set to true the lookat will also perform a twist rota
 
 Up Vector: Vector. The position to use for the upvector target (only used is bUseUpVector is turned on).
 
-Clamp Cone in Degree: Float (single-precision). A limit for only allowing the lookat to rotate as much as defined by the float value.  
+Clamp Cone in Degree: Float (single-precision). A limit for only allowing the lookat to rotate as much as defined by the float value.
 
 ## Outputs
 
 Return Value: Transform.
-

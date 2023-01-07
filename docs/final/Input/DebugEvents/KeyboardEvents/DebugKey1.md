@@ -1,10 +1,10 @@
 # DebugKey1
 
-当1号键被按下或释放时的事件。
+当 1 号键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19185638.png)
+![](/uploads/projects/ue-bluprint/20221218-19185638.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 行动值。输入行动值结构。
 
+<hr>
+
 Events for when the 1 key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19185638.png)
+![](/uploads/projects/ue-bluprint/20221218-19185638.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

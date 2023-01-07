@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18550815.png)
+![](/uploads/projects/ue-bluprint/20221218-18550815.png)
 
 ## Inputs
 
@@ -18,20 +18,23 @@
 
 在第二个插座的名称。名称。第二套接字的名称，用于跟踪...
 
-在宽度模式下。ETrailWidthMode枚举。如何将宽度值应用到trail上。
+在宽度模式下。ETrailWidthMode 枚举。如何将宽度值应用到 trail 上。
 
 In Width: Float (single-precision).小路的宽度。
 
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Begins all trail emitters in this component.
 
 Target is Particle System Component
 
 ## 图示
 
-![]($-20221218-18550815.png)
+![](/uploads/projects/ue-bluprint/20221218-18550815.png)
 
 ## Inputs
 
@@ -45,9 +48,8 @@ In Second Socket Name: Name. The name of the second socket for the trail..
 
 In Width Mode: ETrailWidthMode Enum. How the width value is applied to the trail..
 
-In Width: Float (single-precision). The width of the trail..  
+In Width: Float (single-precision). The width of the trail..
 
 ## Outputs
 
 Out: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14221655.png)
+![](/uploads/projects/ue-bluprint/20221218-14221655.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EParticleSysParamType枚举。 
+选择。EParticleSysParamType 枚举。
 
 ## Outputs
 
@@ -32,17 +32,19 @@ Actor: 演员。Exec.
 
 矢量单位随机。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14221655.png)
+![](/uploads/projects/ue-bluprint/20221218-14221655.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EParticleSysParamType Enum.  
+Selection: EParticleSysParamType Enum.
 
 ## Outputs
 
@@ -63,4 +65,3 @@ Actor: Exec.
 Material: Exec.
 
 Vector Unit Random: Exec.
-

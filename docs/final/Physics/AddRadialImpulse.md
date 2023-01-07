@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20204399.png)
+![](/uploads/projects/ue-bluprint/20221218-20204399.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@
 
 强度。Float（单精度）。应用于身体的最大脉冲强度。
 
-Falloff:ERadialImpulseFalloff枚举。允许你控制脉冲的强度作为与原点的距离的函数。
+Falloff:ERadialImpulseFalloff 枚举。允许你控制脉冲的强度作为与原点的距离的函数。
 
-维尔变化。布尔值。如果为真，强度将被视为速度的变化而不是冲力（即质量没有影响）。  
+维尔变化。布尔值。如果为真，强度将被视为速度的变化而不是冲力（即质量没有影响）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add an impulse to all rigid bodies in this component, radiating out from the specified position.
 
@@ -34,7 +36,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20204399.png)
+![](/uploads/projects/ue-bluprint/20221218-20204399.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Strength: Float (single-precision). Maximum strength of impulse applied to body.
 
 Falloff: ERadialImpulseFalloff Enum. Allows you to control the strength of the impulse as a function of distance from Origin..
 
-Vel Change: Boolean. If true, the Strength is taken as a change in velocity instead of an impulse (ie. mass will have no effect)..  
+Vel Change: Boolean. If true, the Strength is taken as a change in velocity instead of an impulse (ie. mass will have no effect)..
 
 ## Outputs
 
 Out: Exec.
-

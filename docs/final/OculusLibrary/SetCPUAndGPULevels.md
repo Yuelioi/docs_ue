@@ -2,11 +2,11 @@
 
 返回设备当前是否被运行时跟踪。
 
-目标是Oculus功能库
+目标是 Oculus 功能库
 
 ## 图示
 
-![]($-20221218-20155296.png)
+![](/uploads/projects/ue-bluprint/20221218-20155296.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 CPULevel。整数。
 
-GPULevel。整数。  
+GPULevel。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Returns if the device is currently tracked by the runtime or not.
 
@@ -26,7 +28,7 @@ Target is Oculus Function Library
 
 ## 图示
 
-![]($-20221218-20155296.png)
+![](/uploads/projects/ue-bluprint/20221218-20155296.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 CPULevel: Integer.
 
-GPULevel: Integer.  
+GPULevel: Integer.
 
 ## Outputs
 
 Out: Exec.
-

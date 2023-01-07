@@ -2,17 +2,17 @@
 
 获取级联发射器名称
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19014721.png)
+![](/uploads/projects/ue-bluprint/20221218-19014721.png)
 
 ## Inputs
 
 在。执行。
 
-发射器。粒子发射器对象参考。  
+发射器。粒子发射器对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。名称。获取级联发射器名称。
 
+<hr>
+
 Get Cascade Emitter Name
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19014721.png)
+![](/uploads/projects/ue-bluprint/20221218-19014721.png)
 
 ## Inputs
 
 In: Exec.
 
-Emitter: Particle Emitter Object Reference.  
+Emitter: Particle Emitter Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Name. Get Cascade Emitter Name.
-

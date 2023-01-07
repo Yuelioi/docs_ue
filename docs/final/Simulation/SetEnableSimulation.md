@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-20581911.png)
+![](/uploads/projects/ue-bluprint/20221218-20581911.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Groom组件对象参考。
+目标。Groom 组件对象参考。
 
-在启用模拟。布尔型。  
+在启用模拟。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Accessor function for changing the enable simulation flag from blueprint/sequencer
 
@@ -26,7 +28,7 @@ Target is Groom Component
 
 ## 图示
 
-![]($-20221218-20581911.png)
+![](/uploads/projects/ue-bluprint/20221218-20581911.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Groom Component Object Reference.
 
-In Enable Simulation: Boolean.  
+In Enable Simulation: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

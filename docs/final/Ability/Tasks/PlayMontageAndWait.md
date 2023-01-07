@@ -1,12 +1,12 @@
 # PlayMontageAndWait
 
-开始在头像演员上播放一个动画蒙太奇，并等待它完成。如果StopWhenAbilityEnds为真，如果能力正常结束，这个蒙太奇将被中止。当能力被明确地取消时，它总是被停止。在正常执行时，当蒙太奇正在混合时，OnBlendOut被调用，而当它完全播放完毕时，OnCompleted被调用。如果另一个蒙太奇覆盖了它，OnInterrupted会被调用，如果能力或任务被取消了，OnCancelled会被调用。
+开始在头像演员上播放一个动画蒙太奇，并等待它完成。如果 StopWhenAbilityEnds 为真，如果能力正常结束，这个蒙太奇将被中止。当能力被明确地取消时，它总是被停止。在正常执行时，当蒙太奇正在混合时，OnBlendOut 被调用，而当它完全播放完毕时，OnCompleted 被调用。如果另一个蒙太奇覆盖了它，OnInterrupted 会被调用，如果能力或任务被取消了，OnCancelled 会被调用。
 
 目标是能力 任务 播放蒙太奇并等待
 
 ## 图示
 
-![]($-20221218-17331219.png)
+![](/uploads/projects/ue-bluprint/20221218-17331219.png)
 
 ## Inputs
 
@@ -22,9 +22,9 @@
 
 Stop when Ability Ends：布尔值。如果为真，如果能力正常结束，这个蒙太奇将被中止。当能力被明确取消时，它总是被停止。
 
-Anim Root Motion Translation Scale（动画根部运动转换比例）。Float（单精度）。改变以修改根部运动的大小，或者设置为0以完全阻止它。
+Anim Root Motion Translation Scale（动画根部运动转换比例）。Float（单精度）。改变以修改根部运动的大小，或者设置为 0 以完全阻止它。
 
-开始时间秒数。浮点（单精度）。蒙太奇中的起始时间偏移，如果StartSection也被设置的话，它将被StartSection所覆盖。 
+开始时间秒数。浮点（单精度）。蒙太奇中的起始时间偏移，如果 StartSection 也被设置的话，它将被 StartSection 所覆盖。
 
 ## Outputs
 
@@ -40,13 +40,15 @@ Anim Root Motion Translation Scale（动画根部运动转换比例）。Float�
 
 在取消时。执行。在取消时。
 
+<hr>
+
 Start playing an animation montage on the avatar actor and wait for it to finish. If StopWhenAbilityEnds is true, this montage will be aborted if the ability ends normally. It is always stopped when the ability is explicitly cancelled.. On normal execution, OnBlendOut is called when the montage is blending out, and OnCompleted when it is completely done playing. OnInterrupted is called if another montage overwrites this, and OnCancelled is called if the ability or task is cancelled
 
 Target is Ability Task Play Montage and Wait
 
 ## 图示
 
-![]($-20221218-17331219.png)
+![](/uploads/projects/ue-bluprint/20221218-17331219.png)
 
 ## Inputs
 
@@ -64,7 +66,7 @@ Stop when Ability Ends: Boolean. If true, this montage will be aborted if the ab
 
 Anim Root Motion Translation Scale: Float (single-precision). Change to modify size of root motion or set to 0 to block it entirely.
 
-Start Time Seconds: Float (single-precision). Starting time offset in montage, this will be overridden by StartSection if that is also set.  
+Start Time Seconds: Float (single-precision). Starting time offset in montage, this will be overridden by StartSection if that is also set.
 
 ## Outputs
 
@@ -79,4 +81,3 @@ On Blend Out: Exec. On Blend Out.
 On Interrupted: Exec. On Interrupted.
 
 On Cancelled: Exec. On Cancelled.
-

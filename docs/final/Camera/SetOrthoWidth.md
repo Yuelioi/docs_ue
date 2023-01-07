@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18132863.png)
+![](/uploads/projects/ue-bluprint/20221218-18132863.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。相机组件对象参考。
 
-In Ortho Width: Float (single-precision).  
+In Ortho Width: Float (single-precision).
 
 ## Outputs
 
 输出。输出：执行。
+
+<hr>
 
 Set Ortho Width
 
@@ -26,7 +28,7 @@ Target is Camera Component
 
 ## 图示
 
-![]($-20221218-18132863.png)
+![](/uploads/projects/ue-bluprint/20221218-18132863.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Camera Component Object Reference.
 
-In Ortho Width: Float (single-precision).  
+In Ortho Width: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

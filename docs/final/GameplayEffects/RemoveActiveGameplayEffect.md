@@ -1,12 +1,12 @@
 # RemoveActiveGameplayEffect
 
-通过手柄移除GameplayEffect。StacksToRemove=-1将删除所有的堆栈。
+通过手柄移除 GameplayEffect。StacksToRemove=-1 将删除所有的堆栈。
 
 目标是能力系统组件
 
 ## 图示
 
-![]($-20221218-19090607.png)
+![](/uploads/projects/ue-bluprint/20221218-19090607.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 办理。主动游戏效果手柄结构。
 
-要删除的堆栈。整数。  
+要删除的堆栈。整数。
 
 ## Outputs
 
 出：执行。
 
-返回值。布尔值。通过手柄移除GameplayEffect。StacksToRemove=-1将删除所有的堆栈。
+返回值。布尔值。通过手柄移除 GameplayEffect。StacksToRemove=-1 将删除所有的堆栈。
+
+<hr>
 
 Removes GameplayEffect by Handle. StacksToRemove=-1 will remove all stacks.
 
@@ -30,7 +32,7 @@ Target is Ability System Component
 
 ## 图示
 
-![]($-20221218-19090607.png)
+![](/uploads/projects/ue-bluprint/20221218-19090607.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Ability System Component Object Reference.
 
 Handle: Active Gameplay Effect Handle Structure.
 
-Stacks to Remove: Integer.  
+Stacks to Remove: Integer.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Removes GameplayEffect by Handle. StacksToRemove=-1 will remove all stacks..
-

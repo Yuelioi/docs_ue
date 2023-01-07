@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14221219.png)
+![](/uploads/projects/ue-bluprint/20221218-14221219.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EOpenCVArucoDictionarySize枚举。 
+选择。EOpenCVArucoDictionarySize 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 1000: 执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14221219.png)
+![](/uploads/projects/ue-bluprint/20221218-14221219.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EOpenCVArucoDictionarySize Enum.  
+Selection: EOpenCVArucoDictionarySize Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Selection: EOpenCVArucoDictionarySize Enum.
 250: Exec.
 
 1000: Exec.
-

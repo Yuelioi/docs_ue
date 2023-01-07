@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18473952.png)
+![](/uploads/projects/ue-bluprint/20221218-18473952.png)
 
 ## Inputs
 
@@ -22,20 +22,23 @@
 
 工厂。工厂对象参考。将建立新资产的工厂。
 
-Calling Context:名称：调用CreateAsset()的模块或方法的可选名称--这将传递给工厂。
+Calling Context:名称：调用 CreateAsset()的模块或方法的可选名称--这将传递给工厂。
 
 ## Outputs
 
 出：执行。
 
-返回值。新资产的对象参考，如果失败则为NULL。
+返回值。新资产的对象参考，如果失败则为 NULL。
+
+<hr>
+
 Creates an asset with the specified name, path, and factory
 
 Target is Asset Tools
 
 ## 图示
 
-![]($-20221218-18473952.png)
+![](/uploads/projects/ue-bluprint/20221218-18473952.png)
 
 ## Inputs
 
@@ -51,11 +54,10 @@ Asset Class: Object Class Reference. the class of the new asset.
 
 Factory: Factory Object Reference. the factory that will build the new asset.
 
-Calling Context: Name. optional name of the module or method calling CreateAsset() - this is passed to the factory.  
+Calling Context: Name. optional name of the module or method calling CreateAsset() - this is passed to the factory.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Object Reference. the new asset or NULL if it fails.
-

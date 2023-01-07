@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18505743.png)
+![](/uploads/projects/ue-bluprint/20221218-18505743.png)
 
 ## Inputs
 
@@ -21,13 +21,16 @@
 出：执行。
 
 返回值。布尔值。获取允许电影式控制。
+
+<hr>
+
 Get Allows Cinematic Control
 
 Target is Level Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18505743.png)
+![](/uploads/projects/ue-bluprint/20221218-18505743.png)
 
 ## Inputs
 
@@ -35,11 +38,10 @@ In: Exec.
 
 Target: Level Editor Subsystem Object Reference.
 
-Viewport Config Key: Name.  
+Viewport Config Key: Name.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Get Allows Cinematic Control.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14161887.png)
+![](/uploads/projects/ue-bluprint/20221218-14161887.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARCaptureType枚举。 
+选择。EARCaptureType 枚举。
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Spatial Mapping: 执行。
 
 手部网格。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14161887.png)
+![](/uploads/projects/ue-bluprint/20221218-14161887.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARCaptureType Enum.  
+Selection: EARCaptureType Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Spatial Mapping: Exec.
 Scene Understanding: Exec.
 
 Hand Mesh: Exec.
-

@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20022910.png)
+![](/uploads/projects/ue-bluprint/20221218-20022910.png)
 
 ## Inputs
 
-目标。媒体纹理对象参考。  
+目标。媒体纹理对象参考。
 
 ## Outputs
 
 返回值。整数。纹理高度（单位：像素）。
+
+<hr>
 
 Gets the current height of the texture.
 
@@ -22,13 +24,12 @@ Target is Media Texture
 
 ## 图示
 
-![]($-20221218-20022910.png)
+![](/uploads/projects/ue-bluprint/20221218-20022910.png)
 
 ## Inputs
 
-Target: Media Texture Object Reference.  
+Target: Media Texture Object Reference.
 
 ## Outputs
 
 Return Value: Integer. Texture height (in pixels)..
-

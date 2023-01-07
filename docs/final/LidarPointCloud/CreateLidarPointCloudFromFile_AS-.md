@@ -2,11 +2,11 @@
 
 从文件中创建点云
 
-目标是激光雷达点云文件IO ASCII
+目标是激光雷达点云文件 IO ASCII
 
 ## 图示
 
-![]($-20221218-19430116.png)
+![](/uploads/projects/ue-bluprint/20221218-19430116.png)
 
 ## Inputs
 
@@ -14,11 +14,11 @@
 
 文件名：字符串。
 
-使用Async。布尔值。
+使用 Async。布尔值。
 
-RGBRange。矢量2D结构。
+RGBRange。矢量 2D 结构。
 
-列。激光雷达点云导入设置ASCII列结构。  
+列。激光雷达点云导入设置 ASCII 列结构。
 
 ## Outputs
 
@@ -30,13 +30,15 @@ RGBRange。矢量2D结构。
 
 点云。激光雷达点云对象参考。
 
+<hr>
+
 Create Point Cloud from File
 
 Target is Lidar Point Cloud File IO ASCII
 
 ## 图示
 
-![]($-20221218-19430116.png)
+![](/uploads/projects/ue-bluprint/20221218-19430116.png)
 
 ## Inputs
 
@@ -48,7 +50,7 @@ Use Async: Boolean.
 
 RGBRange: Vector 2D Structure.
 
-Columns: Lidar Point Cloud Import Settings ASCII Columns Structure.  
+Columns: Lidar Point Cloud Import Settings ASCII Columns Structure.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Failure: Exec.
 Progress: Float (single-precision).
 
 Point Cloud: Lidar Point Cloud Object Reference.
-

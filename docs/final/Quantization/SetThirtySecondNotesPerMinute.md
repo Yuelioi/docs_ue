@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20320504.png)
+![](/uploads/projects/ue-bluprint/20221218-20320504.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 代表。代表（由裁判）。
 
-每分钟三十秒音符。Float（单精度）。  
+每分钟三十秒音符。Float（单精度）。
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 时钟拉手。石英钟拉手对象参考。
 
+<hr>
+
 Set Thirty Second Notes Per Minute
 
 Target is Quartz Clock Handle
 
 ## 图示
 
-![]($-20221218-20320504.png)
+![](/uploads/projects/ue-bluprint/20221218-20320504.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Quantization Boundary: Quartz Quantization Boundary Structure (by ref).
 
 Delegate: Delegate (by ref).
 
-Thirty Seconds Notes Per Minute: Float (single-precision).  
+Thirty Seconds Notes Per Minute: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Clock Handle: Quartz Clock Handle Object Reference.
-

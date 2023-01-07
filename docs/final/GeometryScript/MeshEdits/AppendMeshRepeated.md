@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19113313.png)
+![](/uploads/projects/ue-bluprint/20221218-19113313.png)
 
 ## Inputs
 
@@ -24,7 +24,7 @@
 
 推迟更改通知。布尔值。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -32,13 +32,15 @@
 
 目标网格。动态网格对象参考。重复追加网格。
 
+<hr>
+
 Append Mesh Repeated
 
 Target is Geometry Script Library Mesh Basic Edit Functions
 
 ## 图示
 
-![]($-20221218-19113313.png)
+![](/uploads/projects/ue-bluprint/20221218-19113313.png)
 
 ## Inputs
 
@@ -56,11 +58,10 @@ Apply Transform to First Instance: Boolean.
 
 Defer Change Notifications: Boolean.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Append Mesh Repeated.
-

@@ -4,37 +4,39 @@
 
 ## 图示
 
-![]($-20221218-14191360.png)
+![](/uploads/projects/ue-bluprint/20221218-14191360.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFixedFoveatedRenderingLevel Enum.  
+选择。EFixedFoveatedRenderingLevel Enum.
 
 ## Outputs
 
-FFR关闭：执行。
+FFR 关闭：执行。
 
-FFR低：执行。
+FFR 低：执行。
 
 FFR Medium: Exec.
 
-FFR高：执行。
+FFR 高：执行。
 
 FFR High Top: 执行。
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14191360.png)
+![](/uploads/projects/ue-bluprint/20221218-14191360.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFixedFoveatedRenderingLevel Enum.  
+Selection: EFixedFoveatedRenderingLevel Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ FFR Medium: Exec.
 FFR High: Exec.
 
 FFR High Top: Exec.
-

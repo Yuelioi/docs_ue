@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21071843.png)
+![](/uploads/projects/ue-bluprint/20221218-21071843.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Modular Synth Component Object Reference。
 
-过滤算法：ESynthFilterAlgorithm Enum。  
+过滤算法：ESynthFilterAlgorithm Enum。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the filter algorithm.
 
@@ -26,7 +28,7 @@ Target is Modular Synth Component
 
 ## 图示
 
-![]($-20221218-21071843.png)
+![](/uploads/projects/ue-bluprint/20221218-21071843.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Modular Synth Component Object Reference.
 
-Filter Algorithm: ESynthFilterAlgorithm Enum.  
+Filter Algorithm: ESynthFilterAlgorithm Enum.
 
 ## Outputs
 
 Out: Exec.
-

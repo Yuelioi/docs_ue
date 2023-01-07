@@ -1,12 +1,8 @@
 # Chorus
 
-在这个页面上 
+在这个页面上
 
-  *行动
-
-
-
-
+\*行动
 
 ## Actions
 
@@ -38,13 +34,11 @@
 
 设置湿润调制器。设置湿润调制器。目标是源效果和声预设。
 
-On this page 
+<hr>
 
-  * Actions
+On this page
 
-
-
-
+- Actions
 
 ## Actions
 
@@ -75,4 +69,3 @@ Set Spread Modulator. Set Spread Modulator: Target is Source Effect Chorus Prese
 Set Wet. Set Wet: Target is Source Effect Chorus Preset.
 
 Set Wet Modulator. Set Wet Modulator: Target is Source Effect Chorus Preset.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20290631.png)
+![](/uploads/projects/ue-bluprint/20221218-20290631.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。原始组件对象参考。
 
-新的凌驾。可行坡度覆盖结构（由参考）。  
+新的凌驾。可行坡度覆盖结构（由参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets a new slope override for this component instance.
 
@@ -26,7 +28,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20290631.png)
+![](/uploads/projects/ue-bluprint/20221218-20290631.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Primitive Component Object Reference.
 
-New Override: Walkable Slope Override Structure (by ref).  
+New Override: Walkable Slope Override Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

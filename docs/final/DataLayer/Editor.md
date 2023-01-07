@@ -1,12 +1,8 @@
 # Editor
 
-在这个页面上 
+在这个页面上
 
-  *行动
-
-
-
-
+\*行动
 
 ## Actions
 
@@ -16,13 +12,11 @@
 
 是可见的。是可见的。目标是数据层。
 
-On this page 
+<hr>
 
-  * Actions
+On this page
 
-
-
-
+- Actions
 
 ## Actions
 
@@ -31,4 +25,3 @@ Is Effective Visible. Is Effective Visible: Target is Data Layer.
 Is Initially Visible. Is Initially Visible: Target is Data Layer.
 
 Is Visible. Is Visible: Target is Data Layer.
-

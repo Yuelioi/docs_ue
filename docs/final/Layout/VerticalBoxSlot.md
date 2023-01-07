@@ -2,11 +2,7 @@
 
 在这一页
 
-  * 行动
-
-
-
-
+- 行动
 
 ## Actions
 
@@ -18,13 +14,11 @@
 
 设置垂直对齐。设置垂直对齐。目标是垂直盒槽。
 
-On this page 
+<hr>
 
-  * Actions
+On this page
 
-
-
-
+- Actions
 
 ## Actions
 
@@ -35,4 +29,3 @@ Set Padding. Set Padding: Target is Vertical Box Slot.
 Set Size. Set Size: Target is Vertical Box Slot.
 
 Set Vertical Alignment. Set Vertical Alignment: Target is Vertical Box Slot.
-

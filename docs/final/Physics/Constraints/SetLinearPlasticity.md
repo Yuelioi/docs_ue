@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20272545.png)
+![](/uploads/projects/ue-bluprint/20221218-20272545.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 线性可塑性。布尔型。是否可以通过线性位移重置目标位置。
 
-线性可塑性阈值。Float（单精度）。重置目标关节所需的离目标的Delta。
+线性可塑性阈值。Float（单精度）。重置目标关节所需的离目标的 Delta。
 
-塑性类型。EConstraintPlasticityType枚举。  
+塑性类型。EConstraintPlasticityType 枚举。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets Constraint Linear Plasticity properties
 
@@ -30,7 +32,7 @@ Target is Constraint Instance Blueprint Library
 
 ## 图示
 
-![]($-20221218-20272545.png)
+![](/uploads/projects/ue-bluprint/20221218-20272545.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Linear Plasticity: Boolean. Whether it is possible to reset the target position 
 
 Linear Plasticity Threshold: Float (single-precision). Delta from target needed to reset the target joint.
 
-Plasticity Type: EConstraintPlasticityType Enum.  
+Plasticity Type: EConstraintPlasticityType Enum.
 
 ## Outputs
 
 Out: Exec.
-

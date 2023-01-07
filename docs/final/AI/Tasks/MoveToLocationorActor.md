@@ -2,11 +2,11 @@
 
 AIMove To
 
-目标是AIT任务移动到
+目标是 AIT 任务移动到
 
 ## 图示
 
-![]($-20221218-17484157.png)
+![](/uploads/projects/ue-bluprint/20221218-17484157.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@ AIMove To
 
 目标位置。Vector（向量）。
 
-Goal Actor: Actor对象参考。
+Goal Actor: Actor 对象参考。
 
 接受半径。Float（单精度）。
 
@@ -26,11 +26,11 @@ Goal Actor: Actor对象参考。
 
 使用寻路。Boolean.
 
-锁定AILogic。布尔值。
+锁定 AILogic。布尔值。
 
 Use Continuos Goal Tracking: 布尔值。
 
-导航时的项目目标。EAIOptionFlag Enum.  
+导航时的项目目标。EAIOptionFlag Enum.
 
 ## Outputs
 
@@ -42,13 +42,15 @@ Use Continuos Goal Tracking: 布尔值。
 
 在移动完成后。执行。移动完毕。
 
+<hr>
+
 AIMove To
 
 Target is AITask Move To
 
 ## 图示
 
-![]($-20221218-17484157.png)
+![](/uploads/projects/ue-bluprint/20221218-17484157.png)
 
 ## Inputs
 
@@ -72,7 +74,7 @@ Lock AILogic: Boolean.
 
 Use Continuos Goal Tracking: Boolean.
 
-Project Goal on Navigation: EAIOptionFlag Enum.  
+Project Goal on Navigation: EAIOptionFlag Enum.
 
 ## Outputs
 
@@ -83,4 +85,3 @@ Async Task: AITask Move To Object Reference.
 On Request Failed: Exec. On Request Failed.
 
 On Move Finished: Exec. On Move Finished.
-

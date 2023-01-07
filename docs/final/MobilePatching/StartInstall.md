@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20062821.png)
+![](/uploads/projects/ue-bluprint/20221218-20062821.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 关于成功的。代表。
 
-关于失败。代表。  
+关于失败。代表。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Attempt to download and install remote content.. User can choose to mount installed content into the game.
 
@@ -28,7 +30,7 @@ Target is Mobile Pending Content
 
 ## 图示
 
-![]($-20221218-20062821.png)
+![](/uploads/projects/ue-bluprint/20221218-20062821.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Mobile Pending Content Object Reference.
 
 On Succeeded: Delegate.
 
-On Failed: Delegate.  
+On Failed: Delegate.
 
 ## Outputs
 
 Out: Exec.
-

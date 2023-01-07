@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-14282708.png)
+![](/uploads/projects/ue-bluprint/20221218-14282708.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。字符串。屏幕截图目录。
 
+<hr>
+
 Returns the directory the engine uses to output screenshot files.
 
 Target is Blueprint Paths Library
 
 ## 图示
 
-![]($-20221218-14282708.png)
+![](/uploads/projects/ue-bluprint/20221218-14282708.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: String. screenshot directory.
-

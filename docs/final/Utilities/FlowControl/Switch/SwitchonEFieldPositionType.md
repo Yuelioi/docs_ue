@@ -4,35 +4,36 @@
 
 ## 图示
 
-![]($-20221218-14190918.png)
+![](/uploads/projects/ue-bluprint/20221218-14190918.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFieldPositionType Enum.  
+选择。EFieldPositionType Enum.
 
 ## Outputs
 
 Center Of Mass: Exec.
 
 Pivot Point: Exec.
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14190918.png)
+![](/uploads/projects/ue-bluprint/20221218-14190918.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFieldPositionType Enum.  
+Selection: EFieldPositionType Enum.
 
 ## Outputs
 
 Center Of Mass: Exec.
 
 Pivot Point: Exec.
-

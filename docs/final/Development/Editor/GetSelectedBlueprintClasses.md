@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-18422064.png)
+![](/uploads/projects/ue-bluprint/20221218-18422064.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。对象类引用的数组。获取当前所选类的集合。
 
+<hr>
+
 Gets the set of currently selected classes
 
 Target is Editor Utility Library
 
 ## 图示
 
-![]($-20221218-18422064.png)
+![](/uploads/projects/ue-bluprint/20221218-18422064.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Array of Object Class References. Gets the set of currently selected classes.
-

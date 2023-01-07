@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17583485.png)
+![](/uploads/projects/ue-bluprint/20221218-17583485.png)
 
 ## Inputs
 
-目标。ARSession配置对象参考。 
+目标。ARSession 配置对象参考。
 
 ## Outputs
 
-返回值。ARVideo Format结构。@见DesiredVideoFormat。
+返回值。ARVideo Format 结构。@见 DesiredVideoFormat。
+
+<hr>
 
 See: DesiredVideoFormat
 
@@ -22,13 +24,12 @@ Target is ARSession Config
 
 ## 图示
 
-![]($-20221218-17583485.png)
+![](/uploads/projects/ue-bluprint/20221218-17583485.png)
 
 ## Inputs
 
-Target: ARSession Config Object Reference.  
+Target: ARSession Config Object Reference.
 
 ## Outputs
 
 Return Value: ARVideo Format Structure. @see DesiredVideoFormat.
-

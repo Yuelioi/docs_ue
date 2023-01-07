@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21071724.png)
+![](/uploads/projects/ue-bluprint/20221218-21071724.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Modular Synth Component Object Reference。
 
-启用联合声。布尔型。  
+启用联合声。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets whether or not the synth is in unison mode (i.e. no spread)
 
@@ -26,7 +28,7 @@ Target is Modular Synth Component
 
 ## 图示
 
-![]($-20221218-21071724.png)
+![](/uploads/projects/ue-bluprint/20221218-21071724.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Modular Synth Component Object Reference.
 
-Enable Unison: Boolean.  
+Enable Unison: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

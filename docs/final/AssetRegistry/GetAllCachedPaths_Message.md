@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-18002812.png)
+![](/uploads/projects/ue-bluprint/20221218-18002812.png)
 
 ## Inputs
 
 在。Exec.
 
-目标。对象参考。 
+目标。对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 输出路径列表。字符串阵列。
 
+<hr>
+
 Gets a list of all paths that are currently cached
 
 Target is Asset Registry
 
 ## 图示
 
-![]($-20221218-18002812.png)
+![](/uploads/projects/ue-bluprint/20221218-18002812.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Object Reference.  
+Target: Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Out Path List: Array of Strings.
-

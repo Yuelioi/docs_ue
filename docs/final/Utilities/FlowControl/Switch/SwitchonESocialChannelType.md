@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14233311.png)
+![](/uploads/projects/ue-bluprint/20221218-14233311.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESocialChannelType枚举。 
+选择。ESocialChannelType 枚举。
 
 ## Outputs
 
@@ -26,17 +26,19 @@
 
 私密性。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14233311.png)
+![](/uploads/projects/ue-bluprint/20221218-14233311.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESocialChannelType Enum.  
+Selection: ESocialChannelType Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Team: Exec.
 System: Exec.
 
 Private: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20303321.png)
+![](/uploads/projects/ue-bluprint/20221218-20303321.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 原先的姿势名称。名称（由参考）。
 
-新的姿势名称。名称（由参考）。  
+新的姿势名称。名称（由参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Renames a specific pose
 
@@ -28,7 +30,7 @@ Target is Pose Asset
 
 ## 图示
 
-![]($-20221218-20303321.png)
+![](/uploads/projects/ue-bluprint/20221218-20303321.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Pose Asset Object Reference.
 
 Original Pose Name: Name (by ref).
 
-New Pose Name: Name (by ref).  
+New Pose Name: Name (by ref).
 
 ## Outputs
 
 Out: Exec.
-

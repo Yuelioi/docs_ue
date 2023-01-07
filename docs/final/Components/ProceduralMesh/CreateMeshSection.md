@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18254257.png)
+![](/uploads/projects/ue-bluprint/20221218-18254257.png)
 
 ## Inputs
 
@@ -18,11 +18,11 @@
 
 顶点。矢量数组。网格断面的所有顶点的缓冲区。
 
-Triangles（三角形）。整数阵列。索引缓冲区，显示每个三角形的顶点。长度必须是3的倍数。
+Triangles（三角形）。整数阵列。索引缓冲区，显示每个三角形的顶点。长度必须是 3 的倍数。
 
-Normals（规范）。矢量数组。每个顶点的法线向量的可选数组。如果提供，必须与Vertices数组的长度相同。
+Normals（规范）。矢量数组。每个顶点的法线向量的可选数组。如果提供，必须与 Vertices 数组的长度相同。
 
-UV0: 矢量2D结构数组。每个顶点的纹理坐标的可选数组。如果提供，必须与Vertices数组的长度相同。
+UV0: 矢量 2D 结构数组。每个顶点的纹理坐标的可选数组。如果提供，必须与 Vertices 数组的长度相同。
 
 UV1：向量二维结构数组。矢量二维结构的数组。
 
@@ -32,13 +32,15 @@ UV3：矢量二维结构数组。
 
 顶点颜色。线性颜色结构的数组。每个顶点的可选颜色数组。如果提供，必须与顶点数组的长度相同。
 
-切线。Proc网格切线结构的数组。可选的每个顶点的切线向量数组。如果提供，必须与Vertices数组的长度相同。
+切线。Proc 网格切线结构的数组。可选的每个顶点的切线向量数组。如果提供，必须与 Vertices 数组的长度相同。
 
-创建碰撞。布尔值。表示是否要为这个部分创建碰撞。这将增加大量的成本。 
+创建碰撞。布尔值。表示是否要为这个部分创建碰撞。这将增加大量的成本。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Create/replace a section for this procedural mesh component.
 
@@ -46,7 +48,7 @@ Target is Procedural Mesh Component
 
 ## 图示
 
-![]($-20221218-18254257.png)
+![](/uploads/projects/ue-bluprint/20221218-18254257.png)
 
 ## Inputs
 
@@ -74,9 +76,8 @@ Vertex Colors: Array of Linear Color Structures. Optional array of colors for ea
 
 Tangents: Array of Proc Mesh Tangent Structures. Optional array of tangent vector for each vertex. If supplied, must be same length as Vertices array..
 
-Create Collision: Boolean. Indicates whether collision should be created for this section. This adds significant cost..  
+Create Collision: Boolean. Indicates whether collision should be created for this section. This adds significant cost..
 
 ## Outputs
 
 Out: Exec.
-

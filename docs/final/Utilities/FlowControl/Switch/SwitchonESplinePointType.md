@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14234892.png)
+![](/uploads/projects/ue-bluprint/20221218-14234892.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESplinePointType枚举。 
+选择。ESplinePointType 枚举。
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Constant: Exec.
 
 曲线自定义切线。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14234892.png)
+![](/uploads/projects/ue-bluprint/20221218-14234892.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESplinePointType Enum.  
+Selection: ESplinePointType Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Constant: Exec.
 Curve Clamped: Exec.
 
 Curve Custom Tangent: Exec.
-

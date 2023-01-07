@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21223798.png)
+![](/uploads/projects/ue-bluprint/20221218-21223798.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。小工具组件对象参考。
 
-在窗口中可关注。Boolean.  
+在窗口中可关注。Boolean.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 See: bWindowFocusable
 
@@ -26,7 +28,7 @@ Target is Widget Component
 
 ## 图示
 
-![]($-20221218-21223798.png)
+![](/uploads/projects/ue-bluprint/20221218-21223798.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Widget Component Object Reference.
 
-In Window Focusable: Boolean.  
+In Window Focusable: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

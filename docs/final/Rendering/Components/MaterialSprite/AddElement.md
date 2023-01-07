@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20344580.png)
+![](/uploads/projects/ue-bluprint/20221218-20344580.png)
 
 ## Inputs
 
@@ -20,15 +20,17 @@
 
 尺寸是在屏幕空间中。布尔型。
 
-基数大小X：浮点数（单精度）。
+基数大小 X：浮点数（单精度）。
 
-基准尺寸Y：浮点数（单精度）。
+基准尺寸 Y：浮点数（单精度）。
 
-与尺寸曲线的距离。曲线浮动对象参考。  
+与尺寸曲线的距离。曲线浮动对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Adds an element to the sprite.
 
@@ -36,7 +38,7 @@ Target is Material Billboard Component
 
 ## 图示
 
-![]($-20221218-20344580.png)
+![](/uploads/projects/ue-bluprint/20221218-20344580.png)
 
 ## Inputs
 
@@ -54,9 +56,8 @@ Base Size X: Float (single-precision).
 
 Base Size Y: Float (single-precision).
 
-Distance to Size Curve: Curve Float Object Reference.  
+Distance to Size Curve: Curve Float Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

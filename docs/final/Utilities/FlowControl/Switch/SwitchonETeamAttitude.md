@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14242734.png)
+![](/uploads/projects/ue-bluprint/20221218-14242734.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETeamAttitude Enum.  
+选择。ETeamAttitude Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 敌对的：Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14242734.png)
+![](/uploads/projects/ue-bluprint/20221218-14242734.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETeamAttitude Enum.  
+Selection: ETeamAttitude Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Friendly: Exec.
 Neutral: Exec.
 
 Hostile: Exec.
-

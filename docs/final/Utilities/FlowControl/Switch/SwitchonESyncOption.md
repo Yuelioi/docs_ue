@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14240842.png)
+![](/uploads/projects/ue-bluprint/20221218-14240842.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESyncOption Enum.  
+选择。ESyncOption Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 禁用。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14240842.png)
+![](/uploads/projects/ue-bluprint/20221218-14240842.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESyncOption Enum.  
+Selection: ESyncOption Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Drive: Exec.
 Passive: Exec.
 
 Disabled: Exec.
-

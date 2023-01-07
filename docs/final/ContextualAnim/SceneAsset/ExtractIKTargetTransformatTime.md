@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18304255.png)
+![](/uploads/projects/ue-bluprint/20221218-18304255.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 轨道名称: 名称.
 
-时间。Float（单精度）。 
+时间。Float（单精度）。
 
 ## Outputs
 
-返回值。变形。在时间上提取IKTarget变换。
+返回值。变形。在时间上提取 IKTarget 变换。
+
+<hr>
 
 Extract IKTarget Transform at Time
 
@@ -30,7 +32,7 @@ Target is Contextual Anim Scene Asset
 
 ## 图示
 
-![]($-20221218-18304255.png)
+![](/uploads/projects/ue-bluprint/20221218-18304255.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Anim Data Index: Integer.
 
 Track Name: Name.
 
-Time: Float (single-precision).  
+Time: Float (single-precision).
 
 ## Outputs
 
 Return Value: Transform. Extract IKTarget Transform at Time.
-

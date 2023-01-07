@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19072210.png)
+![](/uploads/projects/ue-bluprint/20221218-19072210.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。玩家控制器对象参考。
 
-可见。布尔型。  
+可见。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the virtual joystick visibility.
 
@@ -26,7 +28,7 @@ Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19072210.png)
+![](/uploads/projects/ue-bluprint/20221218-19072210.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Player Controller Object Reference.
 
-Visible: Boolean.  
+Visible: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

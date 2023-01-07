@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19063603.png)
+![](/uploads/projects/ue-bluprint/20221218-19063603.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。布尔值。游戏当前是否暂停。
 
+<hr>
+
 Returns the game's paused state
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-19063603.png)
+![](/uploads/projects/ue-bluprint/20221218-19063603.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Boolean. Whether the game is currently paused or not.
-

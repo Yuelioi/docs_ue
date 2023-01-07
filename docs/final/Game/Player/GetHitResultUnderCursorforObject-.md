@@ -6,15 +6,15 @@
 
 ## 图示
 
-![]($-20221218-19070207.png)
+![](/uploads/projects/ue-bluprint/20221218-19070207.png)
 
 ## Inputs
 
 目标。玩家控制器对象参考。
 
-对象类型。EObjectTypeQuery枚举的数组。
+对象类型。EObjectTypeQuery 枚举的数组。
 
-Trace Complex: Boolean.  
+Trace Complex: Boolean.
 
 ## Outputs
 
@@ -22,13 +22,15 @@ Trace Complex: Boolean.
 
 返回值。布尔值。在鼠标光标下执行碰撞查询，寻找物体类型。
 
+<hr>
+
 Performs a collision query under the mouse cursor, looking for object types
 
 Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19070207.png)
+![](/uploads/projects/ue-bluprint/20221218-19070207.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ Target: Player Controller Object Reference.
 
 Object Types: Array of EObjectTypeQuery Enums.
 
-Trace Complex: Boolean.  
+Trace Complex: Boolean.
 
 ## Outputs
 
 Hit Result: Hit Result Structure.
 
 Return Value: Boolean. Performs a collision query under the mouse cursor, looking for object types.
-

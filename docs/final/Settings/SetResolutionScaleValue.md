@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20580309.png)
+![](/uploads/projects/ue-bluprint/20221218-20580309.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。游戏用户设置对象参考。
 
-新的刻度值。Float（单精度）。  
+新的刻度值。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the current resolution scale
 
@@ -26,7 +28,7 @@ Target is Game User Settings
 
 ## 图示
 
-![]($-20221218-20580309.png)
+![](/uploads/projects/ue-bluprint/20221218-20580309.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Game User Settings Object Reference.
 
-New Scale Value: Float (single-precision).  
+New Scale Value: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

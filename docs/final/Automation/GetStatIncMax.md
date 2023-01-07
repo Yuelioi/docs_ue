@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-18094863.png)
+![](/uploads/projects/ue-bluprint/20221218-18094863.png)
 
 ## Inputs
 
 在。执行。
 
-统计数据名称。名称：  
+统计数据名称。名称：
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。浮点数（单精度）。Get Stat Inc Max.
 
+<hr>
+
 Get Stat Inc Max
 
 Target is Automation Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-18094863.png)
+![](/uploads/projects/ue-bluprint/20221218-18094863.png)
 
 ## Inputs
 
 In: Exec.
 
-Stat Name: Name.  
+Stat Name: Name.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision). Get Stat Inc Max.
-

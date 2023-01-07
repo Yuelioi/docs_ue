@@ -1,20 +1,22 @@
 # GetVProdPanelID
 
-获取VProd面板ID
+获取 VProd 面板 ID
 
-目标是VPScouting子系统
+目标是 VPScouting 子系统
 
 ## 图示
 
-![]($-20221218-21310000.png)
+![](/uploads/projects/ue-bluprint/20221218-21310000.png)
 
 ## Inputs
 
-Panel: EVProdPanelIDs Enum.  
+Panel: EVProdPanelIDs Enum.
 
 ## Outputs
 
-返回值。名称。获取VProd面板ID。
+返回值。名称。获取 VProd 面板 ID。
+
+<hr>
 
 Get VProd Panel ID
 
@@ -22,13 +24,12 @@ Target is VPScouting Subsystem
 
 ## 图示
 
-![]($-20221218-21310000.png)
+![](/uploads/projects/ue-bluprint/20221218-21310000.png)
 
 ## Inputs
 
-Panel: EVProdPanelIDs Enum.  
+Panel: EVProdPanelIDs Enum.
 
 ## Outputs
 
 Return Value: Name. Get VProd Panel ID.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19082265.png)
+![](/uploads/projects/ue-bluprint/20221218-19082265.png)
 
 ## Inputs
 
@@ -18,13 +18,15 @@
 
 水平。整数。授予该能力的等级。
 
-输入ID。整数。输入ID值，将能力激活绑定到...
+输入 ID。整数。输入 ID 值，将能力激活绑定到...
 
 ## Outputs
 
 出：执行。
 
-返回值。Gameplay Ability Spec Handle结构。
+返回值。Gameplay Ability Spec Handle 结构。
+
+<hr>
 
 Grants a Gameplay Ability and returns its handle.. This will be ignored if the actor is not authoritative.
 
@@ -32,7 +34,7 @@ Target is Ability System Component
 
 ## 图示
 
-![]($-20221218-19082265.png)
+![](/uploads/projects/ue-bluprint/20221218-19082265.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Ability Class: Gameplay Ability Class Reference. Type of ability to grant.
 
 Level: Integer. Level to grant the ability at.
 
-Input ID: Integer. Input ID value to bind ability activation to..  
+Input ID: Integer. Input ID value to bind ability activation to..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Gameplay Ability Spec Handle Structure.
-

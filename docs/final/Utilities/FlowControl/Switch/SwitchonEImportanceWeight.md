@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14203648.png)
+![](/uploads/projects/ue-bluprint/20221218-14203648.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EImportanceWeight Enum.  
+选择。EImportanceWeight Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Red: Exec.
 
 阿尔法 执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14203648.png)
+![](/uploads/projects/ue-bluprint/20221218-14203648.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EImportanceWeight Enum.  
+Selection: EImportanceWeight Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Green: Exec.
 Blue: Exec.
 
 Alpha: Exec.
-

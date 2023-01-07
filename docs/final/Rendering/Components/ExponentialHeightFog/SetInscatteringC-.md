@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20335511.png)
+![](/uploads/projects/ue-bluprint/20221218-20335511.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。指数高度雾化组件对象参考。
 
-价值。纹理立方体对象参考。  
+价值。纹理立方体对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Inscattering Color Cubemap
 
@@ -26,7 +28,7 @@ Target is Exponential Height Fog Component
 
 ## 图示
 
-![]($-20221218-20335511.png)
+![](/uploads/projects/ue-bluprint/20221218-20335511.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Exponential Height Fog Component Object Reference.
 
-Value: Texture Cube Object Reference.  
+Value: Texture Cube Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

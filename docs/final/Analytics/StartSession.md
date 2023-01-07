@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-17492225.png)
+![](/uploads/projects/ue-bluprint/20221218-17492225.png)
 
 ## Inputs
 
-在。执行。 
+在。执行。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 返回值。布尔值。启动一个没有指定任何自定义属性的分析会话。
 
+<hr>
+
 Starts an analytics session without any custom attributes specified
 
 Target is Analytics Blueprint Library
 
 ## 图示
 
-![]($-20221218-17492225.png)
+![](/uploads/projects/ue-bluprint/20221218-17492225.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Starts an analytics session without any custom attributes specified.
-

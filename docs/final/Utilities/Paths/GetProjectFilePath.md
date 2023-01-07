@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-14275748.png)
+![](/uploads/projects/ue-bluprint/20221218-14275748.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。字符串。项目文件路径。
 
+<hr>
+
 Gets the path to the project file.
 
 Target is Blueprint Paths Library
 
 ## 图示
 
-![]($-20221218-14275748.png)
+![](/uploads/projects/ue-bluprint/20221218-14275748.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: String. Project file path..
-

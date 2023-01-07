@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14254563.png)
+![](/uploads/projects/ue-bluprint/20221218-14254563.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。FControlRigChannelEnum枚举。 
+选择。FControlRigChannelEnum 枚举。
 
 ## Outputs
 
@@ -22,39 +22,41 @@ Bool: Exec.
 
 Float: Exec.
 
-矢量2DX: Exec.
+矢量 2DX: Exec.
 
-矢量2DY: 执行。
+矢量 2DY: 执行。
 
-位置X: 执行。
+位置 X: 执行。
 
-位置Y 执行。
+位置 Y 执行。
 
-位置Z：执行。
+位置 Z：执行。
 
 旋转器 X: 执行。
 
-旋转器Y：执行。
+旋转器 Y：执行。
 
-旋转器Z：执行。
+旋转器 Z：执行。
 
 刻度 X: 执行。
 
-比例尺Y：执行。
+比例尺 Y：执行。
 
-比例尺Z：执行。
+比例尺 Z：执行。
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14254563.png)
+![](/uploads/projects/ue-bluprint/20221218-14254563.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: FControlRigChannelEnum Enum.  
+Selection: FControlRigChannelEnum Enum.
 
 ## Outputs
 
@@ -87,4 +89,3 @@ Scale X: Exec.
 Scale Y: Exec.
 
 Scale Z: Exec.
-

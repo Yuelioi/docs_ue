@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18283143.png)
+![](/uploads/projects/ue-bluprint/20221218-18283143.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 新的浮动曲线。曲线浮动对象参考。
 
-浮动轨道名称。名称。 
+浮动轨道名称。名称。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Update a certain float track's curve
 
@@ -28,7 +30,7 @@ Target is Timeline Component
 
 ## 图示
 
-![]($-20221218-18283143.png)
+![](/uploads/projects/ue-bluprint/20221218-18283143.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Timeline Component Object Reference.
 
 New Float Curve: Curve Float Object Reference.
 
-Float Track Name: Name.  
+Float Track Name: Name.
 
 ## Outputs
 
 Out: Exec.
-

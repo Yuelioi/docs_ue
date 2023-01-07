@@ -1,12 +1,12 @@
 # ApplyTextureSharePostprocess_Mes-
 
-从Input[]发送，等待并接收来自远程进程的结果到Output[]。
+从 Input[]发送，等待并接收来自远程进程的结果到 Output[]。
 
-目标是纹理共享蓝图API
+目标是纹理共享蓝图 API
 
 ## 图示
 
-![]($-20221218-21115394.png)
+![](/uploads/projects/ue-bluprint/20221218-21115394.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 共享名称。字符串。唯一的共享名称（不区分大小写）。
 
-后处理。纹理共享 BPPostprocess 结构（通过引用）。要交换的纹理。  
+后处理。纹理共享 BPPostprocess 结构（通过引用）。要交换的纹理。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。如果成功，则为真。
 
+<hr>
+
 Send from Input[], wait and receive result to Output[] from the remote process
 
 Target is Texture Share Blueprint API
 
 ## 图示
 
-![]($-20221218-21115394.png)
+![](/uploads/projects/ue-bluprint/20221218-21115394.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Object Reference.
 
 Share Name: String. Unique share name (case insensitive).
 
-Postprocess: Texture Share BPPostprocess Structure (by ref). Textures to exchange.  
+Postprocess: Texture Share BPPostprocess Structure (by ref). Textures to exchange.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. True if the success.
-

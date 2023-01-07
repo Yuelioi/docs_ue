@@ -1,10 +1,10 @@
 # GenericUSBControllerAxis6
 
-当GenericUSBController Axis 6键被按下或释放时的事件。
+当 GenericUSBController Axis 6 键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19231197.png)
+![](/uploads/projects/ue-bluprint/20221218-19231197.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 钥匙。关键的结构。
 
+<hr>
+
 Events for when the GenericUSBController Axis 6 key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19231197.png)
+![](/uploads/projects/ue-bluprint/20221218-19231197.png)
 
 ## Inputs
 
@@ -31,4 +33,3 @@ Pressed: Exec.
 Released: Exec.
 
 Key: Key Structure.
-

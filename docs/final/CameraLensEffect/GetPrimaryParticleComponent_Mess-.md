@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-18140620.png)
+![](/uploads/projects/ue-bluprint/20221218-18140620.png)
 
 ## Inputs
 
 在。执行。
 
-目标。对象参考。 
+目标。对象参考。
 
 ## Outputs
 
 输出。执行。
 
-返回值。FXSystem组件对象参考。获取初级粒子组件。
+返回值。FXSystem 组件对象参考。获取初级粒子组件。
+
+<hr>
 
 Get Primary Particle Component
 
@@ -26,17 +28,16 @@ Target is Camera Lens Effect Interface
 
 ## 图示
 
-![]($-20221218-18140620.png)
+![](/uploads/projects/ue-bluprint/20221218-18140620.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Object Reference.  
+Target: Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: FXSystem Component Object Reference. Get Primary Particle Component.
-

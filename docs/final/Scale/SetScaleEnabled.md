@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20470853.png)
+![](/uploads/projects/ue-bluprint/20221218-20470853.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Text 3DCharacter Transform Object Reference。
 
-已启用。布尔值。  
+已启用。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Scale Enabled
 
@@ -26,7 +28,7 @@ Target is Text 3DCharacter Transform
 
 ## 图示
 
-![]($-20221218-20470853.png)
+![](/uploads/projects/ue-bluprint/20221218-20470853.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Text 3DCharacter Transform Object Reference.
 
-Enabled: Boolean.  
+Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17485848.png)
+![](/uploads/projects/ue-bluprint/20221218-17485848.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 真实货币成本。浮点数（单精度）。
 
-支付供应商。字符串。 
+支付供应商。字符串。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Records an in-game currency was purchased using real-world money
 
@@ -32,7 +34,7 @@ Target is Analytics Blueprint Library
 
 ## 图示
 
-![]($-20221218-17485848.png)
+![](/uploads/projects/ue-bluprint/20221218-17485848.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Real Currency Type: String.
 
 Real Money Cost: Float (single-precision).
 
-Payment Provider: String.  
+Payment Provider: String.
 
 ## Outputs
 
 Out: Exec.
-

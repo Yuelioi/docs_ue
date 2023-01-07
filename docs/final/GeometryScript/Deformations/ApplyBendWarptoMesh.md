@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19103678.png)
+![](/uploads/projects/ue-bluprint/20221218-19103678.png)
 
 ## Inputs
 
@@ -22,7 +22,7 @@
 
 弯曲的范围。Float（单精度）。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -30,13 +30,15 @@
 
 目标网格。动态网格对象参考。应用弯曲翘曲到网格。
 
+<hr>
+
 Apply Bend Warp to Mesh
 
 Target is Geometry Script Library Mesh Deform Functions
 
 ## 图示
 
-![]($-20221218-19103678.png)
+![](/uploads/projects/ue-bluprint/20221218-19103678.png)
 
 ## Inputs
 
@@ -52,11 +54,10 @@ Bend Angle: Float (single-precision).
 
 Bend Extent: Float (single-precision).
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Apply Bend Warp to Mesh.
-

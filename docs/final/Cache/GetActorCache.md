@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18124706.png)
+![](/uploads/projects/ue-bluprint/20221218-18124706.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 在演员中。Actor Object Reference.
 
-缓存类。对象类参考。 
+缓存类。对象类参考。
 
 ## Outputs
 
 返回值。对象引用。Get Actor Cache.
+
+<hr>
 
 Get Actor Cache
 
@@ -26,7 +28,7 @@ Target is Water Landscape Brush
 
 ## 图示
 
-![]($-20221218-18124706.png)
+![](/uploads/projects/ue-bluprint/20221218-18124706.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Target: Water Landscape Brush Object Reference.
 
 In Actor: Actor Object Reference.
 
-Cache Class: Object Class Reference.  
+Cache Class: Object Class Reference.
 
 ## Outputs
 
 Return Value: Object Reference. Get Actor Cache.
-

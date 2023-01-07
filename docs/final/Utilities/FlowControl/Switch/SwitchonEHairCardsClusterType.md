@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14202210.png)
+![](/uploads/projects/ue-bluprint/20221218-14202210.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EHairCardsClusterType枚举。 
+选择。EHairCardsClusterType 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 高：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14202210.png)
+![](/uploads/projects/ue-bluprint/20221218-14202210.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EHairCardsClusterType Enum.  
+Selection: EHairCardsClusterType Enum.
 
 ## Outputs
 
 Low: Exec.
 
 High: Exec.
-

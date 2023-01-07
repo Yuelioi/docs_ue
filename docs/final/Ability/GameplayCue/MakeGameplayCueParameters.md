@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17311462.png)
+![](/uploads/projects/ue-bluprint/20221218-17311462.png)
 
 ## Inputs
 
@@ -14,15 +14,15 @@
 
 原始幅值。浮点（单精度）。
 
-效果语境。Gameplay Effect Context Handle结构。
+效果语境。Gameplay Effect Context Handle 结构。
 
-匹配的标签名称。Gameplay Tag结构。
+匹配的标签名称。Gameplay Tag 结构。
 
-原始标签。Gameplay Tag结构。
+原始标签。Gameplay Tag 结构。
 
-Aggregated Source Tags: Gameplay Tag容器结构。
+Aggregated Source Tags: Gameplay Tag 容器结构。
 
-聚合的目标标签。Gameplay Tag容器结构。
+聚合的目标标签。Gameplay Tag 容器结构。
 
 位置。矢量。
 
@@ -42,11 +42,13 @@ Ability Level（能力等级）。整数。
 
 目标附加组件。场景组件对象参考。
 
-Replicate Location when Using Minimal Rep Proxy: 布尔值。 
+Replicate Location when Using Minimal Rep Proxy: 布尔值。
 
 ## Outputs
 
-返回值。Gameplay Cue参数结构。本地制作，以避免处理量化的矢量类型。
+返回值。Gameplay Cue 参数结构。本地制作，以避免处理量化的矢量类型。
+
+<hr>
 
 Native make, to avoid having to deal with quantized vector types
 
@@ -54,7 +56,7 @@ Target is Ability System Blueprint Library
 
 ## 图示
 
-![]($-20221218-17311462.png)
+![](/uploads/projects/ue-bluprint/20221218-17311462.png)
 
 ## Inputs
 
@@ -90,9 +92,8 @@ Ability Level: Integer.
 
 Target Attach Component: Scene Component Object Reference.
 
-Replicate Location when Using Minimal Rep Proxy: Boolean.  
+Replicate Location when Using Minimal Rep Proxy: Boolean.
 
 ## Outputs
 
 Return Value: Gameplay Cue Parameters Structure. Native make, to avoid having to deal with quantized vector types.
-

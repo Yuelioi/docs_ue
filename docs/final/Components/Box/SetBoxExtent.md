@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18225972.png)
+![](/uploads/projects/ue-bluprint/20221218-18225972.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在箱体范围内。向量。
 
-更新重叠。Boolean（布尔）。 
+更新重叠。Boolean（布尔）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Change the box extent size. This is the unscaled size, before component scale is applied.
 
@@ -28,7 +30,7 @@ Target is Box Collision
 
 ## 图示
 
-![]($-20221218-18225972.png)
+![](/uploads/projects/ue-bluprint/20221218-18225972.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Box Collision Object Reference.
 
 In Box Extent: Vector.
 
-Update Overlaps: Boolean.  
+Update Overlaps: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

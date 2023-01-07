@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14170197.png)
+![](/uploads/projects/ue-bluprint/20221218-14170197.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAudioDeviceChangedRole枚举。 
+选择。EAudioDeviceChangedRole 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 通信：执行 执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14170197.png)
+![](/uploads/projects/ue-bluprint/20221218-14170197.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAudioDeviceChangedRole Enum.  
+Selection: EAudioDeviceChangedRole Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Console: Exec.
 Multimedia: Exec.
 
 Communications: Exec.
-

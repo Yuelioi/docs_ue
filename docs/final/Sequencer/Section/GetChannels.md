@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20521899.png)
+![](/uploads/projects/ue-bluprint/20221218-20521899.png)
 
 ## Inputs
 
 在。执行。
 
-节。电影场景部分对象参考。  
+节。电影场景部分对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。电影场景脚本通道对象的数组参考。获取通道。
 
+<hr>
+
 Get Channels
 
 Target is Movie Scene Section Extensions
 
 ## 图示
 
-![]($-20221218-20521899.png)
+![](/uploads/projects/ue-bluprint/20221218-20521899.png)
 
 ## Inputs
 
 In: Exec.
 
-Section: Movie Scene Section Object Reference.  
+Section: Movie Scene Section Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Array of Movie Scene Scripting Channel Object References. Get Channels.
-

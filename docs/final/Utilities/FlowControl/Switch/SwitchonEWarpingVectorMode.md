@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14252280.png)
+![](/uploads/projects/ue-bluprint/20221218-14252280.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EWarpingVectorMode Enum.  
+选择。EWarpingVectorMode Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Actor Space Vector: Exec.
 
 IKFoot Root 本地空间向量。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14252280.png)
+![](/uploads/projects/ue-bluprint/20221218-14252280.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EWarpingVectorMode Enum.  
+Selection: EWarpingVectorMode Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Actor Space Vector: Exec.
 World Space Vector: Exec.
 
 IKFoot Root Local Space Vector: Exec.
-

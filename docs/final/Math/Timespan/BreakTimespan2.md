@@ -2,15 +2,15 @@
 
 将一个时间段分解成其组成部分
 
-目标是Kismet数学图书馆
+目标是 Kismet 数学图书馆
 
 ## 图示
 
-![]($-20221218-19545823.png)
+![](/uploads/projects/ue-bluprint/20221218-19545823.png)
 
 ## Inputs
 
-在Timespan。时间跨度结构。  
+在 Timespan。时间跨度结构。
 
 ## Outputs
 
@@ -24,17 +24,19 @@
 
 分数 Nano: 整数。
 
+<hr>
+
 Breaks a Timespan into its components
 
 Target is Kismet Math Library
 
 ## 图示
 
-![]($-20221218-19545823.png)
+![](/uploads/projects/ue-bluprint/20221218-19545823.png)
 
 ## Inputs
 
-In Timespan: Timespan Structure.  
+In Timespan: Timespan Structure.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Minutes: Integer.
 Seconds: Integer.
 
 Fraction Nano: Integer.
-

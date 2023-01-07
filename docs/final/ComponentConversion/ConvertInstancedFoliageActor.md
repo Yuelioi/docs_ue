@@ -2,11 +2,11 @@
 
 转换实例叶子的演员
 
-目标是Usd转换蓝图背景
+目标是 Usd 转换蓝图背景
 
 ## 图示
 
-![]($-20221218-18220612.png)
+![](/uploads/projects/ue-bluprint/20221218-18220612.png)
 
 ## Inputs
 
@@ -14,13 +14,13 @@
 
 目标。Usd Conversion Blueprint Context 对象参考。
 
-演员。Instanced Foliage Actor对象参考。
+演员。Instanced Foliage Actor 对象参考。
 
 原始路径。字符串。
 
 Instances Level: 等级对象参考。
 
-时间代码。Float (single-precision).  
+时间代码。Float (single-precision).
 
 ## Outputs
 
@@ -28,13 +28,15 @@ Instances Level: 等级对象参考。
 
 返回值。布尔值。转换实例叶子的演员。
 
+<hr>
+
 Convert Instanced Foliage Actor
 
 Target is Usd Conversion Blueprint Context
 
 ## 图示
 
-![]($-20221218-18220612.png)
+![](/uploads/projects/ue-bluprint/20221218-18220612.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Prim Path: String.
 
 Instances Level: Level Object Reference.
 
-Time Code: Float (single-precision).  
+Time Code: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Convert Instanced Foliage Actor.
-

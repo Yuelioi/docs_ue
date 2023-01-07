@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18420918.png)
+![](/uploads/projects/ue-bluprint/20221218-18420918.png)
 
 ## Inputs
 
 在。执行。
 
-目标。编辑器演员子系统对象参考。  
+目标。编辑器演员子系统对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Remove all actors from the selection set
 
@@ -24,15 +26,14 @@ Target is Editor Actor Subsystem
 
 ## 图示
 
-![]($-20221218-18420918.png)
+![](/uploads/projects/ue-bluprint/20221218-18420918.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Editor Actor Subsystem Object Reference.  
+Target: Editor Actor Subsystem Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

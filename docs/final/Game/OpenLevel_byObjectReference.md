@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19064790.png)
+![](/uploads/projects/ue-bluprint/20221218-19064790.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 绝对：布尔值。如果为真，选项将被重置，如果为假，选项将从当前级别延续。
 
-选项。字符串。一串用于旅行URL的选项。  
+选项。字符串。一串用于旅行 URL 的选项。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Travel to another level
 
@@ -28,7 +30,7 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-19064790.png)
+![](/uploads/projects/ue-bluprint/20221218-19064790.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Level: World Soft Object Reference. the level to open.
 
 Absolute: Boolean. if true options are reset, if false options are carried over from current level.
 
-Options: String. a string of options to use for the travel URL.  
+Options: String. a string of options to use for the travel URL.
 
 ## Outputs
 
 Out: Exec.
-

@@ -1,12 +1,12 @@
 # ConvertActors
 
-在关卡中用一个新的ActorClass类型的演员替换所有提供的演员。销毁所有提供的行为体。
+在关卡中用一个新的 ActorClass 类型的演员替换所有提供的演员。销毁所有提供的行为体。
 
 目标是编辑演员子系统
 
 ## 图示
 
-![]($-20221218-18484535.png)
+![](/uploads/projects/ue-bluprint/20221218-18484535.png)
 
 ## Inputs
 
@@ -25,13 +25,16 @@
 出：执行。
 
 返回值。角色对象引用的数组。
+
+<hr>
+
 Replace in the level all Actors provided with a new actor of type ActorClass. Destroy all Actors provided.
 
 Target is Editor Actor Subsystem
 
 ## 图示
 
-![]($-20221218-18484535.png)
+![](/uploads/projects/ue-bluprint/20221218-18484535.png)
 
 ## Inputs
 
@@ -43,11 +46,10 @@ Actors: Array of Actor Object References. List of Actors to replace..
 
 Actor Class: Actor Class Reference. Class/Blueprint of the new actor that will be spawn..
 
-Static Mesh Package Path: String. If the list contains Brushes and it is requested to change them to StaticMesh, StaticMeshPackagePath is the package path to where the StaticMesh will be created. ie. /Game/MyFolder/.  
+Static Mesh Package Path: String. If the list contains Brushes and it is requested to change them to StaticMesh, StaticMeshPackagePath is the package path to where the StaticMesh will be created. ie. /Game/MyFolder/.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Array of Actor Object References.
-

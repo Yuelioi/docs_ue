@@ -2,11 +2,11 @@
 
 将一个整数值写到指定的排行榜上。
 
-目标是Leaderboard蓝图库
+目标是 Leaderboard 蓝图库
 
 ## 图示
 
-![]($-20221218-20162702.png)
+![](/uploads/projects/ue-bluprint/20221218-20162702.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 Stat Name: 名字。
 
-统计值。整数。  
+统计值。整数。
 
 ## Outputs
 
@@ -24,13 +24,15 @@ Stat Name: 名字。
 
 返回值。布尔值。将一个整数值写到指定的排行榜上。
 
+<hr>
+
 Writes an integer value to the specified leaderboard
 
 Target is Leaderboard Blueprint Library
 
 ## 图示
 
-![]($-20221218-20162702.png)
+![](/uploads/projects/ue-bluprint/20221218-20162702.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Player Controller: Player Controller Object Reference.
 
 Stat Name: Name.
 
-Stat Value: Integer.  
+Stat Value: Integer.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Writes an integer value to the specified leaderboard.
-

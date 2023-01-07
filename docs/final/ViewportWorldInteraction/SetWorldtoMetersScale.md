@@ -1,12 +1,12 @@
 # SetWorldtoMetersScale
 
-设置GNewWorldToMetersScale
+设置 GNewWorldToMetersScale
 
 目标是视口世界的相互作用
 
 ## 图示
 
-![]($-20221218-21254484.png)
+![](/uploads/projects/ue-bluprint/20221218-21254484.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 新世界到米的刻度。Float（单精度）。
 
-补偿房间世界规模。布尔型。  
+补偿房间世界规模。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets GNewWorldToMetersScale
 
@@ -28,7 +30,7 @@ Target is Viewport World Interaction
 
 ## 图示
 
-![]($-20221218-21254484.png)
+![](/uploads/projects/ue-bluprint/20221218-21254484.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Viewport World Interaction Object Reference.
 
 New World to Meters Scale: Float (single-precision).
 
-Compensate Room World Scale: Boolean.  
+Compensate Room World Scale: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-18230542.png)
+![](/uploads/projects/ue-bluprint/20221218-18230542.png)
 
 ## Inputs
 
-目标。Capsule Collision Object Reference。 
+目标。Capsule Collision Object Reference。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 Out Half Height Without Hemisphere: Float（单精度）。胶囊的一半高度，按组件比例缩放。不包括半球端盖。
 
+<hr>
+
 Returns the capsule radius and half-height scaled by the component scale. Half-height excludes the hemisphere end cap.
 
 Target is Capsule Collision
 
 ## 图示
 
-![]($-20221218-18230542.png)
+![](/uploads/projects/ue-bluprint/20221218-18230542.png)
 
 ## Inputs
 
-Target: Capsule Collision Object Reference.  
+Target: Capsule Collision Object Reference.
 
 ## Outputs
 
 Out Radius: Float (single-precision). Radius of the capsule, ignoring component scaling..
 
 Out Half Height Without Hemisphere: Float (single-precision). Half-height of the capsule, scaled by the component scale. Excludes the hemisphere end cap..
-

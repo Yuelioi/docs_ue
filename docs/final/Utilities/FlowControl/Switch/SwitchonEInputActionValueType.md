@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14204084.png)
+![](/uploads/projects/ue-bluprint/20221218-14204084.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EInputActionValueType枚举。 
+选择。EInputActionValueType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Axis 2D (Vector 2D): Exec.
 
 Axis 3D (Vector): 执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14204084.png)
+![](/uploads/projects/ue-bluprint/20221218-14204084.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EInputActionValueType Enum.  
+Selection: EInputActionValueType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Axis 1D (Float): Exec.
 Axis 2D (Vector 2D): Exec.
 
 Axis 3D (Vector): Exec.
-

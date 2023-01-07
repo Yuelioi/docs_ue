@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20381864.png)
+![](/uploads/projects/ue-bluprint/20221218-20381864.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 材料槽的名称。名称。用于访问材料的槽位名称。
 
-材料。材料界面对象参考。  
+材料。材料界面对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Changes the material applied to an element of the mesh.
 
@@ -28,7 +30,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20381864.png)
+![](/uploads/projects/ue-bluprint/20221218-20381864.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Primitive Component Object Reference.
 
 Material Slot Name: Name. The slot name to access the material of..
 
-Material: Material Interface Object Reference.  
+Material: Material Interface Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

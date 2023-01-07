@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-20005437.png)
+![](/uploads/projects/ue-bluprint/20221218-20005437.png)
 
 ## Inputs
 
 目标。媒体播放器对象参考。
 
-轨迹类型。EMediaPlayerTrack枚举。轨迹的类型。
+轨迹类型。EMediaPlayerTrack 枚举。轨迹的类型。
 
-轨迹索引。整数。轨迹的索引，如果是选定的，则是INDEX_NONE。  
+轨迹索引。整数。轨迹的索引，如果是选定的，则是 INDEX_NONE。
 
 ## Outputs
 
 返回值。字符串。语言标签，即 "en-US "表示英语，或 "und "表示未定义。
+
+<hr>
 
 Get the language tag of the specified track.
 
@@ -26,7 +28,7 @@ Target is Media Player
 
 ## 图示
 
-![]($-20221218-20005437.png)
+![](/uploads/projects/ue-bluprint/20221218-20005437.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Target: Media Player Object Reference.
 
 Track Type: EMediaPlayerTrack Enum. The type of track..
 
-Track Index: Integer. The index of the track, or INDEX_NONE for the selected one..  
+Track Index: Integer. The index of the track, or INDEX_NONE for the selected one..
 
 ## Outputs
 
 Return Value: String. Language tag, i.e. "en-US" for English, or "und" for undefined..
-

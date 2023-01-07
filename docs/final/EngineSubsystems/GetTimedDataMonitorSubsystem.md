@@ -4,22 +4,24 @@
 
 ## 图示
 
-![]($-20221218-18554142.png)
+![](/uploads/projects/ue-bluprint/20221218-18554142.png)
 
 ## Inputs
 
 ## Outputs
 
 返回值。定时数据监控子系统对象参考。
+
+<hr>
+
 Get Timed Data Monitor Subsystem an Engine Subsystem
 
 ## 图示
 
-![]($-20221218-18554142.png)
+![](/uploads/projects/ue-bluprint/20221218-18554142.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Timed Data Monitor Subsystem Object Reference.
-

@@ -1,12 +1,12 @@
 # CreateVPBookmarkName
 
-创建VPBookmark名称
+创建 VPBookmark 名称
 
-目标是VPBookmark蓝图库
+目标是 VPBookmark 蓝图库
 
 ## 图示
 
-![]($-20221218-18115571.png)
+![](/uploads/projects/ue-bluprint/20221218-18115571.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 书签。演员对象参考。
 
-格式字符串。字符串。 
+格式字符串。字符串。
 
 ## Outputs
 
@@ -24,7 +24,9 @@
 
 生成的字母。字符串。
 
-返回值。布尔值。创建VPBookmark名称。
+返回值。布尔值。创建 VPBookmark 名称。
+
+<hr>
 
 Create VPBookmark Name
 
@@ -32,7 +34,7 @@ Target is VPBookmark Blueprint Library
 
 ## 图示
 
-![]($-20221218-18115571.png)
+![](/uploads/projects/ue-bluprint/20221218-18115571.png)
 
 ## Inputs
 
@@ -40,7 +42,7 @@ In: Exec.
 
 Bookmark: Actor Object Reference.
 
-Format String: String.  
+Format String: String.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Generated Number: String.
 Generated Letter: String.
 
 Return Value: Boolean. Create VPBookmark Name.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19055544.png)
+![](/uploads/projects/ue-bluprint/20221218-19055544.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。玩家控制器对象参考。
 
-手。EControllerHand Enum。为哪只手停止效果。  
+手。EControllerHand Enum。为哪只手停止效果。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Stops a playing haptic feedback curve
 
@@ -26,7 +28,7 @@ Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19055544.png)
+![](/uploads/projects/ue-bluprint/20221218-19055544.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Player Controller Object Reference.
 
-Hand: EControllerHand Enum. Which hand to stop the effect for.  
+Hand: EControllerHand Enum. Which hand to stop the effect for.
 
 ## Outputs
 
 Out: Exec.
-

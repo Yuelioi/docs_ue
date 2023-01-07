@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14175820.png)
+![](/uploads/projects/ue-bluprint/20221218-14175820.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EConversationTaskResultType枚举。 
+选择。EConversationTaskResultType 枚举。
 
 ## Outputs
 
@@ -30,17 +30,19 @@
 
 返回到对话的开始。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14175820.png)
+![](/uploads/projects/ue-bluprint/20221218-14175820.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EConversationTaskResultType Enum.  
+Selection: EConversationTaskResultType Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Return To Last Client Choice: Exec.
 Return To Current Client Choice: Exec.
 
 Return To Conversation Start: Exec.
-

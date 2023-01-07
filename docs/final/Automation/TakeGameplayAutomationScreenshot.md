@@ -2,11 +2,11 @@
 
 采取游戏自动化截图
 
-目标是自动化Utils蓝图库
+目标是自动化 Utils 蓝图库
 
 ## 图示
 
-![]($-20221218-18100446.png)
+![](/uploads/projects/ue-bluprint/20221218-18100446.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 最大本地错误。浮点数（单精度）。
 
-地图名称重写。字符串。 
+地图名称重写。字符串。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Take Gameplay Automation Screenshot
 
@@ -30,7 +32,7 @@ Target is Automation Utils Blueprint Library
 
 ## 图示
 
-![]($-20221218-18100446.png)
+![](/uploads/projects/ue-bluprint/20221218-18100446.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Max Global Error: Float (single-precision).
 
 Max Local Error: Float (single-precision).
 
-Map Name Override: String.  
+Map Name Override: String.
 
 ## Outputs
 
 Out: Exec.
-

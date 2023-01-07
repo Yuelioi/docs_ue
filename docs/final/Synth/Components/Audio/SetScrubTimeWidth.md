@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-21084352.png)
+![](/uploads/projects/ue-bluprint/20221218-21084352.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Synth Sample Player对象参考。
+目标。Synth Sample Player 对象参考。
 
-In Scrub Time Width Sec:Float（单精度）。  
+In Scrub Time Width Sec:Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Scrub Time Width
 
@@ -26,7 +28,7 @@ Target is Synth Sample Player
 
 ## 图示
 
-![]($-20221218-21084352.png)
+![](/uploads/projects/ue-bluprint/20221218-21084352.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Synth Sample Player Object Reference.
 
-In Scrub Time Width Sec: Float (single-precision).  
+In Scrub Time Width Sec: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

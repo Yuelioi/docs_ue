@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20102756.png)
+![](/uploads/projects/ue-bluprint/20221218-20102756.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 可见性。布尔型。
 
-传播给所有人：布尔值。  
+传播给所有人：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Presence Actor Visibility by display name
 
@@ -28,7 +30,7 @@ Target is Multi User Client Statics
 
 ## 图示
 
-![]($-20221218-20102756.png)
+![](/uploads/projects/ue-bluprint/20221218-20102756.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Name: String.
 
 Visibility: Boolean.
 
-Propagate to All: Boolean.  
+Propagate to All: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

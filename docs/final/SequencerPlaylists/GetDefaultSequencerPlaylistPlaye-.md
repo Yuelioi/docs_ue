@@ -6,13 +6,15 @@
 
 ## 图示
 
-![]($-20221218-20561666.png)
+![](/uploads/projects/ue-bluprint/20221218-20561666.png)
 
 ## Inputs
 
 ## Outputs
 
-返回值。Sequencer Playlist Player对象参考。获取默认播放器。
+返回值。Sequencer Playlist Player 对象参考。获取默认播放器。
+
+<hr>
 
 Get Default Player
 
@@ -20,11 +22,10 @@ Target is Sequencer Playlist Player
 
 ## 图示
 
-![]($-20221218-20561666.png)
+![](/uploads/projects/ue-bluprint/20221218-20561666.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Sequencer Playlist Player Object Reference. Get Default Player.
-

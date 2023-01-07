@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18463472.png)
+![](/uploads/projects/ue-bluprint/20221218-18463472.png)
 
 ## Inputs
 
@@ -15,19 +15,21 @@
 ## Outputs
 
 返回值。名称。返回这个角色的文件夹路径。演员的文件夹路径只在开发构建中可用。
+
+<hr>
+
 Returns this actor's folder path. Actor folder paths are only available in development builds.
 
 Target is Actor
 
 ## 图示
 
-![]($-20221218-18463472.png)
+![](/uploads/projects/ue-bluprint/20221218-18463472.png)
 
 ## Inputs
 
-Target: Actor Object Reference.  
+Target: Actor Object Reference.
 
 ## Outputs
 
 Return Value: Name. Returns this actor's folder path. Actor folder paths are only available in development builds..
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19415267.png)
+![](/uploads/projects/ue-bluprint/20221218-19415267.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 识别器：字符串。
 
-新的颜色：线性颜色结构（由参考）。  
+新的颜色：线性颜色结构（由参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Custom Color for specified channel idendified by it's class and identifier. This will be stored in editor user preferences.
 
@@ -28,7 +30,7 @@ Target is Level Sequence Editor Blueprint Library
 
 ## 图示
 
-![]($-20221218-19415267.png)
+![](/uploads/projects/ue-bluprint/20221218-19415267.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Class: Object Class Reference.
 
 Identifier: String.
 
-New Color: Linear Color Structure (by ref).  
+New Color: Linear Color Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

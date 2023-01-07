@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21102739.png)
+![](/uploads/projects/ue-bluprint/20221218-21102739.png)
 
 ## Inputs
 
-目标。采取记录仪面板对象参考。  
+目标。采取记录仪面板对象参考。
 
 ## Outputs
 
-返回值。ETakeRecorderPanelMode枚举。获取面板当前所处的模式。
+返回值。ETakeRecorderPanelMode 枚举。获取面板当前所处的模式。
+
+<hr>
 
 Get the mode that the panel is currently in
 
@@ -22,13 +24,12 @@ Target is Take Recorder Panel
 
 ## 图示
 
-![]($-20221218-21102739.png)
+![](/uploads/projects/ue-bluprint/20221218-21102739.png)
 
 ## Inputs
 
-Target: Take Recorder Panel Object Reference.  
+Target: Take Recorder Panel Object Reference.
 
 ## Outputs
 
 Return Value: ETakeRecorderPanelMode Enum. Get the mode that the panel is currently in.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18111668.png)
+![](/uploads/projects/ue-bluprint/20221218-18111668.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。通用旋转器对象参考。
 
-在值。整数。 
+在值。整数。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets the current value of the slider.
 
@@ -26,7 +28,7 @@ Target is Common Rotator
 
 ## 图示
 
-![]($-20221218-18111668.png)
+![](/uploads/projects/ue-bluprint/20221218-18111668.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common Rotator Object Reference.
 
-In Value: Integer.  
+In Value: Integer.
 
 ## Outputs
 
 Out: Exec.
-

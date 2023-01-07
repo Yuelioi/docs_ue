@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14172394.png)
+![](/uploads/projects/ue-bluprint/20221218-14172394.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EBTNodeResult Enum.  
+选择。EBTNodeResult Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 正在进行中。执行中
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14172394.png)
+![](/uploads/projects/ue-bluprint/20221218-14172394.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EBTNodeResult Enum.  
+Selection: EBTNodeResult Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Failed: Exec.
 Aborted: Exec.
 
 In Progress: Exec.
-

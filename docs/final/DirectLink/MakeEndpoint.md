@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18430342.png)
+![](/uploads/projects/ue-bluprint/20221218-18430342.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 好名字。字符串。
 
-冗长的。布尔值。  
+冗长的。布尔值。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。整数。制作端点。
 
+<hr>
+
 Make Endpoint
 
 Target is Direct Link Test Library
 
 ## 图示
 
-![]($-20221218-18430342.png)
+![](/uploads/projects/ue-bluprint/20221218-18430342.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Nice Name: String.
 
-Verbose: Boolean.  
+Verbose: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. Make Endpoint.
-

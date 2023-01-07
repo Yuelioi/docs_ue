@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14183065.png)
+![](/uploads/projects/ue-bluprint/20221218-14183065.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDMXImportGDTFPhysicalUnit Enum.  
+选择。EDMXImportGDTFPhysicalUnit Enum.
 
 ## Outputs
 
@@ -58,17 +58,19 @@
 
 颜色成分: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14183065.png)
+![](/uploads/projects/ue-bluprint/20221218-14183065.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDMXImportGDTFPhysicalUnit Enum.  
+Selection: EDMXImportGDTFPhysicalUnit Enum.
 
 ## Outputs
 
@@ -115,4 +117,3 @@ Angular Accc: Exec.
 Wave Length: Exec.
 
 Color Component: Exec.
-

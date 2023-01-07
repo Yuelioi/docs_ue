@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14220339.png)
+![](/uploads/projects/ue-bluprint/20221218-14220339.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EOculusDeviceType枚举。 
+选择。EOculusDeviceType 枚举。
 
 ## Outputs
 
@@ -30,17 +30,19 @@ Quest 2 链接。Exec.
 
 Oculus Unknown: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14220339.png)
+![](/uploads/projects/ue-bluprint/20221218-14220339.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EOculusDeviceType Enum.  
+Selection: EOculusDeviceType Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Quest Link: Exec.
 Quest 2 Link: Exec.
 
 Oculus Unknown: Exec.
-

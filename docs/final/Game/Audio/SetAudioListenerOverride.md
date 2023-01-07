@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19033753.png)
+![](/uploads/projects/ue-bluprint/20221218-19033753.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 附加到组件。场景组件对象参考。可选的组件，用于附加音频监听器。
 
-地点：向量。矢量。根据Component是否被附加，这要么是其位置的偏移，要么是绝对位置。
+地点：向量。矢量。根据 Component 是否被附加，这要么是其位置的偏移，要么是绝对位置。
 
-旋转。旋转器。根据组件是否被连接，这要么是其旋转的偏移，要么是绝对旋转。  
+旋转。旋转器。根据组件是否被连接，这要么是其旋转的偏移，要么是绝对旋转。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Used to override the default positioning of the audio listener
 
@@ -30,7 +32,7 @@ Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19033753.png)
+![](/uploads/projects/ue-bluprint/20221218-19033753.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Attach to Component: Scene Component Object Reference. Optional component to att
 
 Location: Vector. Depending on whether Component is attached this is either an offset from its location or an absolute position.
 
-Rotation: Rotator. Depending on whether Component is attached this is either an offset from its rotation or an absolute rotation.  
+Rotation: Rotator. Depending on whether Component is attached this is either an offset from its rotation or an absolute rotation.
 
 ## Outputs
 
 Out: Exec.
-

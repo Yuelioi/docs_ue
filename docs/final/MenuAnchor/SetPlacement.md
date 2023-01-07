@@ -1,12 +1,12 @@
 # SetPlacement
 
-TODO UMG添加设置菜单类
+TODO UMG 添加设置菜单类
 
 目标是菜单锚
 
 ## 图示
 
-![]($-20221218-20030422.png)
+![](/uploads/projects/ue-bluprint/20221218-20030422.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@ TODO UMG添加设置菜单类
 
 目标。菜单锚定对象参考。
 
-在放置中。EMenuPlacement Enum.  
+在放置中。EMenuPlacement Enum.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 TODO UMG Add Set MenuClass
 
@@ -26,7 +28,7 @@ Target is Menu Anchor
 
 ## 图示
 
-![]($-20221218-20030422.png)
+![](/uploads/projects/ue-bluprint/20221218-20030422.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Menu Anchor Object Reference.
 
-In Placement: EMenuPlacement Enum.  
+In Placement: EMenuPlacement Enum.
 
 ## Outputs
 
 Out: Exec.
-

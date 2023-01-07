@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17552614.png)
+![](/uploads/projects/ue-bluprint/20221218-17552614.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Audio Radial Slider 对象参考。
 
-在厚度。Float（单精度）。 
+在厚度。Float（单精度）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets the slider thickness
 
@@ -26,7 +28,7 @@ Target is Audio Radial Slider
 
 ## 图示
 
-![]($-20221218-17552614.png)
+![](/uploads/projects/ue-bluprint/20221218-17552614.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Audio Radial Slider Object Reference.
 
-In Thickness: Float (single-precision).  
+In Thickness: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

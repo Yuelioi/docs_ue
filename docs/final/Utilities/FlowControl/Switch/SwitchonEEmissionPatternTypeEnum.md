@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14184559.png)
+![](/uploads/projects/ue-bluprint/20221218-14184559.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EEmissionPatternTypeEnum枚举。 
+选择。EEmissionPatternTypeEnum 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 On Demand: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14184559.png)
+![](/uploads/projects/ue-bluprint/20221218-14184559.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EEmissionPatternTypeEnum Enum.  
+Selection: EEmissionPatternTypeEnum Enum.
 
 ## Outputs
 
 First Frame: Exec.
 
 On Demand: Exec.
-

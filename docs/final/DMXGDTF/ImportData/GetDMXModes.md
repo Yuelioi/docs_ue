@@ -1,33 +1,35 @@
 # GetDMXModes
 
-获取DMXModes
+获取 DMXModes
 
-目标是DMXImport GDTF
+目标是 DMXImport GDTF
 
 ## 图示
 
-![]($-20221218-18452052.png)
+![](/uploads/projects/ue-bluprint/20221218-18452052.png)
 
 ## Inputs
 
-目标。DMXImport GDTF对象参考。
+目标。DMXImport GDTF 对象参考。
 
 ## Outputs
 
-返回值。DMXImport GDTFDMXModes对象参考。获取DMXModes。
+返回值。DMXImport GDTFDMXModes 对象参考。获取 DMXModes。
+
+<hr>
+
 Get DMXModes
 
 Target is DMXImport GDTF
 
 ## 图示
 
-![]($-20221218-18452052.png)
+![](/uploads/projects/ue-bluprint/20221218-18452052.png)
 
 ## Inputs
 
-Target: DMXImport GDTF Object Reference.  
+Target: DMXImport GDTF Object Reference.
 
 ## Outputs
 
 Return Value: DMXImport GDTFDMXModes Object Reference. Get DMXModes.
-

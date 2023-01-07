@@ -1,4 +1,4 @@
-# GetAudioRenderThreadtoGameThread-_2
+# GetAudioRenderThreadtoGameThread-\_2
 
 获取音频渲染线程到游戏线程的最小延时
 
@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20323530.png)
+![](/uploads/projects/ue-bluprint/20221218-20323530.png)
 
 ## Inputs
 
 在。执行。
 
-目标。石英对象参考。  
+目标。石英对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。浮点数（单精度）。获取音频渲染线程到游戏线程的最小延迟。
 
+<hr>
+
 Get Audio Render Thread to Game Thread Min Latency
 
 Target is Quartz
 
 ## 图示
 
-![]($-20221218-20323530.png)
+![](/uploads/projects/ue-bluprint/20221218-20323530.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Quartz Object Reference.  
+Target: Quartz Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision). Get Audio Render Thread to Game Thread Min Latency.
-

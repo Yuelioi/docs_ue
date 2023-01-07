@@ -1,12 +1,12 @@
-# PlaySlotAnimationasDynamicMontag-_1
+# PlaySlotAnimationasDynamicMontag-\_1
 
-通过创建一个带有混合参数的动态的UAnimMontage，在槽节点上播放普通的动画资产。每个SlotGroup一次只能播放一个资产（无论是蒙太奇还是动画序列）。
+通过创建一个带有混合参数的动态的 UAnimMontage，在槽节点上播放普通的动画资产。每个 SlotGroup 一次只能播放一个资产（无论是蒙太奇还是动画序列）。
 
 目标是动画实例
 
 ## 图示
 
-![]($-20221218-17502544.png)
+![](/uploads/projects/ue-bluprint/20221218-17502544.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 插槽节点名称: 名称.
 
-Blend In: Alpha Blend Args结构（通过引用）。
+Blend In: Alpha Blend Args 结构（通过引用）。
 
 Blend Out: Alpha Blend Args Structure (by ref).
 
@@ -28,13 +28,15 @@ In Play Rate（播放率）。Float (single-precision).
 
 Blend Out Trigger Time: Float (single-precision).
 
-开始蒙太奇的时间。Float (single-precision).  
+开始蒙太奇的时间。Float (single-precision).
 
 ## Outputs
 
 Out（输出）。Exec.
 
-返回值。动画蒙太奇对象参考。通过创建一个动态的UAnimMontage与混合参数，在槽节点上播放普通的动画资产。每个槽组一次只能播放一个资产（无论是蒙太奇还是动画序列）。
+返回值。动画蒙太奇对象参考。通过创建一个动态的 UAnimMontage 与混合参数，在槽节点上播放普通的动画资产。每个槽组一次只能播放一个资产（无论是蒙太奇还是动画序列）。
+
+<hr>
 
 Play normal animation asset on the slot node by creating a dynamic UAnimMontage with blend in arguments. You can only play one asset (whether montage or animsequence) at a time per SlotGroup.
 
@@ -42,7 +44,7 @@ Target is Anim Instance
 
 ## 图示
 
-![]($-20221218-17502544.png)
+![](/uploads/projects/ue-bluprint/20221218-17502544.png)
 
 ## Inputs
 
@@ -64,11 +66,10 @@ Loop Count: Integer.
 
 Blend Out Trigger Time: Float (single-precision).
 
-In Time to Start Montage At: Float (single-precision).  
+In Time to Start Montage At: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Anim Montage Object Reference. Play normal animation asset on the slot node by creating a dynamic UAnimMontage with blend in arguments. You can only play one asset (whether montage or animsequence) at a time per SlotGroup..
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14183416.png)
+![](/uploads/projects/ue-bluprint/20221218-14183416.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDMXPixelMappingDistribution Enum.  
+选择。EDMXPixelMappingDistribution Enum.
 
 ## Outputs
 
@@ -46,17 +46,19 @@ Top Left To Bottom: Exec.
 
 右下角到逆时针：执行。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14183416.png)
+![](/uploads/projects/ue-bluprint/20221218-14183416.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDMXPixelMappingDistribution Enum.  
+Selection: EDMXPixelMappingDistribution Enum.
 
 ## Outputs
 
@@ -91,4 +93,3 @@ Bottom Right To Top: Exec.
 Bottom Right To Clockwise: Exec.
 
 Bottom Right To Anti Clockwise: Exec.
-

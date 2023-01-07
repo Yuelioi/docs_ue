@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19381507.png)
+![](/uploads/projects/ue-bluprint/20221218-19381507.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。分层子系统对象参考。
 
-演员。Actor Object Reference.要更新的演员。  
+演员。Actor Object Reference.要更新的演员。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Updates per-view visibility for the given actor for all views
 
@@ -26,7 +28,7 @@ Target is Layers Subsystem
 
 ## 图示
 
-![]($-20221218-19381507.png)
+![](/uploads/projects/ue-bluprint/20221218-19381507.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Layers Subsystem Object Reference.
 
-Actor: Actor Object Reference. Actor to update.  
+Actor: Actor Object Reference. Actor to update.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20081207.png)
+![](/uploads/projects/ue-bluprint/20221218-20081207.png)
 
 ## Inputs
 
@@ -14,9 +14,11 @@
 
 In Out Unreal URLParams。字符串（通过引用）。
 
-In Out Command Line Args: String (by ref).  
+In Out Command Line Args: String (by ref).
 
 ## Outputs
+
+<hr>
 
 Build New Process Command Line
 
@@ -24,7 +26,7 @@ Target is Movie Pipeline Setting
 
 ## 图示
 
-![]($-20221218-20081207.png)
+![](/uploads/projects/ue-bluprint/20221218-20081207.png)
 
 ## Inputs
 
@@ -32,7 +34,6 @@ Target: Movie Pipeline Setting Object Reference.
 
 In Out Unreal URLParams: String (by ref).
 
-In Out Command Line Args: String (by ref).  
+In Out Command Line Args: String (by ref).
 
 ## Outputs
-

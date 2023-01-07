@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14173709.png)
+![](/uploads/projects/ue-bluprint/20221218-14173709.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ECollisionEnabled Enum.  
+选择。ECollisionEnabled Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 启用碰撞（查询和物理）。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14173709.png)
+![](/uploads/projects/ue-bluprint/20221218-14173709.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ECollisionEnabled Enum.  
+Selection: ECollisionEnabled Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Query Only (No Physics Collision): Exec.
 Physics Only (No Query Collision): Exec.
 
 Collision Enabled (Query And Physics): Exec.
-

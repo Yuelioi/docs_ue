@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14222622.png)
+![](/uploads/projects/ue-bluprint/20221218-14222622.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EPlanetShape Enum.  
+选择。EPlanetShape Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 圆形行星。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14222622.png)
+![](/uploads/projects/ue-bluprint/20221218-14222622.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EPlanetShape Enum.  
+Selection: EPlanetShape Enum.
 
 ## Outputs
 
 Flat Planet: Exec.
 
 Round Planet: Exec.
-

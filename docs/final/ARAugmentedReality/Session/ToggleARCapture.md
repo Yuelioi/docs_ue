@@ -2,11 +2,11 @@
 
 启动或停止设备上的电池密集型服务。
 
-目标是ARBlueprint库
+目标是 ARBlueprint 库
 
 ## 图示
 
-![]($-20221218-17574515.png)
+![](/uploads/projects/ue-bluprint/20221218-17574515.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 开 关：布尔值。
 
-捕获类型。EARCaptureType枚举。 
+捕获类型。EARCaptureType 枚举。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。启动或停止设备上的电池密集型服务。
 
+<hr>
+
 Starts or stops a battery intensive service on device.
 
 Target is ARBlueprint Library
 
 ## 图示
 
-![]($-20221218-17574515.png)
+![](/uploads/projects/ue-bluprint/20221218-17574515.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 On Off: Boolean.
 
-Capture Type: EARCaptureType Enum.  
+Capture Type: EARCaptureType Enum.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Starts or stops a battery intensive service on device..
-

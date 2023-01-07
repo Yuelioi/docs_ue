@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17542562.png)
+![](/uploads/projects/ue-bluprint/20221218-17542562.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 Target: Background Blur Object Reference.
 
-In Blur Radius: 整数。 
+In Blur Radius: 整数。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Blur Radius
 
@@ -26,7 +28,7 @@ Target is Background Blur
 
 ## 图示
 
-![]($-20221218-17542562.png)
+![](/uploads/projects/ue-bluprint/20221218-17542562.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Background Blur Object Reference.
 
-In Blur Radius: Integer.  
+In Blur Radius: Integer.
 
 ## Outputs
 
 Out: Exec.
-

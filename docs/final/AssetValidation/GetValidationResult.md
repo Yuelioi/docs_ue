@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18015271.png)
+![](/uploads/projects/ue-bluprint/20221218-18015271.png)
 
 ## Inputs
 
-目标。编辑器验证器基本对象参考。 
+目标。编辑器验证器基本对象参考。
 
 ## Outputs
 
-返回值。EDataValidationResult枚举。获取验证结果。
+返回值。EDataValidationResult 枚举。获取验证结果。
+
+<hr>
 
 Get Validation Result
 
@@ -22,13 +24,12 @@ Target is Editor Validator Base
 
 ## 图示
 
-![]($-20221218-18015271.png)
+![](/uploads/projects/ue-bluprint/20221218-18015271.png)
 
 ## Inputs
 
-Target: Editor Validator Base Object Reference.  
+Target: Editor Validator Base Object Reference.
 
 ## Outputs
 
 Return Value: EDataValidationResult Enum. Get Validation Result.
-

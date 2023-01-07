@@ -1,12 +1,12 @@
 # ClientPlayCameraAnim
 
-在此相机上播放指定的CameraAnim。
+在此相机上播放指定的 CameraAnim。
 
 目标是玩家控制器
 
 ## 图示
 
-![]($-20221218-19053927.png)
+![](/uploads/projects/ue-bluprint/20221218-19053927.png)
 
 ## Inputs
 
@@ -26,15 +26,17 @@
 
 循环。布尔值。如果动画应该循环，则为真，否则为假。
 
-随机开始时间：布尔值。是否选择一个随机的时间来开始游戏。只有在bLoop = true时才真正有意义。
+随机开始时间：布尔值。是否选择一个随机的时间来开始游戏。只有在 bLoop = true 时才真正有意义。
 
-空间。ECameraShakePlaySpace枚举。动画播放区域。
+空间。ECameraShakePlaySpace 枚举。动画播放区域。
 
-自定义游戏空间。旋转器。当Space = CAPS_UserDefined时使用的矩阵。  
+自定义游戏空间。旋转器。当 Space = CAPS_UserDefined 时使用的矩阵。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Play the indicated CameraAnim on this camera.
 
@@ -42,7 +44,7 @@ Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19053927.png)
+![](/uploads/projects/ue-bluprint/20221218-19053927.png)
 
 ## Inputs
 
@@ -66,9 +68,8 @@ Random Start Time: Boolean. Whether or not to choose a random time to start play
 
 Space: ECameraShakePlaySpace Enum. Animation play area.
 
-Custom Play Space: Rotator. Matrix used when Space = CAPS_UserDefined.  
+Custom Play Space: Rotator. Matrix used when Space = CAPS_UserDefined.
 
 ## Outputs
 
 Out: Exec.
-

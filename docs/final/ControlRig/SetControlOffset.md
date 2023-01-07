@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18320653.png)
+![](/uploads/projects/ue-bluprint/20221218-18320653.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 偏移变换。变换。控件的新偏移变形。
 
-空间。EControlRigComponentSpace枚举。用于设置偏移变换的空间。 
+空间。EControlRigComponentSpace 枚举。用于设置偏移变换的空间。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets the offset transform of a control
 
@@ -30,7 +32,7 @@ Target is Control Rig Component
 
 ## 图示
 
-![]($-20221218-18320653.png)
+![](/uploads/projects/ue-bluprint/20221218-18320653.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Control Name: Name. The name of the control to set.
 
 Offset Transform: Transform. The new offset trasnform for the control.
 
-Space: EControlRigComponentSpace Enum. The space to set the offset transform in.  
+Space: EControlRigComponentSpace Enum. The space to set the offset transform in.
 
 ## Outputs
 
 Out: Exec.
-

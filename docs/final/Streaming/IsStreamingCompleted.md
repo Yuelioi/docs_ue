@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21050536.png)
+![](/uploads/projects/ue-bluprint/20221218-21050536.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 查询源。世界分区流查询源结构的阵列。
 
-确切的状态。布尔型。  
+确切的状态。布尔型。
 
 ## Outputs
 
 返回值。布尔值。流媒体是否完成。
+
+<hr>
 
 Is Streaming Completed
 
@@ -28,7 +30,7 @@ Target is World Partition Subsystem
 
 ## 图示
 
-![]($-20221218-21050536.png)
+![](/uploads/projects/ue-bluprint/20221218-21050536.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Query State: EWorldPartitionRuntimeCellState Enum.
 
 Query Sources: Array of World Partition Streaming Query Source Structures.
 
-Exact State: Boolean.  
+Exact State: Boolean.
 
 ## Outputs
 
 Return Value: Boolean. Is Streaming Completed.
-

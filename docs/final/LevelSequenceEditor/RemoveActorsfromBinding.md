@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19414120.png)
+![](/uploads/projects/ue-bluprint/20221218-19414120.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 演员。演员对象参考数组。
 
-对象绑定。定序器绑定代理结构（通过引用）。  
+对象绑定。定序器绑定代理结构（通过引用）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Removes the given actors from the binding
 
@@ -28,7 +30,7 @@ Target is Level Sequence Editor Subsystem
 
 ## 图示
 
-![]($-20221218-19414120.png)
+![](/uploads/projects/ue-bluprint/20221218-19414120.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Level Sequence Editor Subsystem Object Reference.
 
 Actors: Array of Actor Object References.
 
-Object Binding: Sequencer Binding Proxy Structure (by ref).  
+Object Binding: Sequencer Binding Proxy Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

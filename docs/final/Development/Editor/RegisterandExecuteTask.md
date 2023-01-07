@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18422415.png)
+![](/uploads/projects/ue-bluprint/20221218-18422415.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 新任务。编辑工具任务对象参考。
 
-可选的父任务。编辑工具任务 对象参考。  
+可选的父任务。编辑工具任务 对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Register and Execute Task
 
@@ -28,7 +30,7 @@ Target is Editor Utility Subsystem
 
 ## 图示
 
-![]($-20221218-18422415.png)
+![](/uploads/projects/ue-bluprint/20221218-18422415.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Editor Utility Subsystem Object Reference.
 
 New Task: Editor Utility Task Object Reference.
 
-Optional Parent Task: Editor Utility Task Object Reference.  
+Optional Parent Task: Editor Utility Task Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

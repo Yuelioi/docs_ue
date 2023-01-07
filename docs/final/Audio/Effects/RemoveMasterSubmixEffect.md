@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18042203.png)
+![](/uploads/projects/ue-bluprint/20221218-18042203.png)
 
 ## Inputs
 
 在。执行。
 
-Submix Effect Preset: Sound Effect Submix Preset 对象参考。 
+Submix Effect Preset: Sound Effect Submix Preset 对象参考。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Removes a submix effect preset from the master submix.
 
@@ -24,15 +26,14 @@ Target is Audio Mixer Blueprint Library
 
 ## 图示
 
-![]($-20221218-18042203.png)
+![](/uploads/projects/ue-bluprint/20221218-18042203.png)
 
 ## Inputs
 
 In: Exec.
 
-Submix Effect Preset: Sound Effect Submix Preset Object Reference.  
+Submix Effect Preset: Sound Effect Submix Preset Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

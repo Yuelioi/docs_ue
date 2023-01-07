@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21373485.png)
+![](/uploads/projects/ue-bluprint/20221218-21373485.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。风向源组件对象参考。
 
-在新的强度。Float（单精度）。  
+在新的强度。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the strength of the generated wind
 
@@ -26,7 +28,7 @@ Target is Wind Directional Source Component
 
 ## 图示
 
-![]($-20221218-21373485.png)
+![](/uploads/projects/ue-bluprint/20221218-21373485.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Wind Directional Source Component Object Reference.
 
-In New Strength: Float (single-precision).  
+In New Strength: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20044979.png)
+![](/uploads/projects/ue-bluprint/20221218-20044979.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。网格描述 基本对象参考。
 
-新边缘的数量。整数。  
+新边缘的数量。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Reserves space for this number of new edges
 
@@ -26,7 +28,7 @@ Target is Mesh Description Base
 
 ## 图示
 
-![]($-20221218-20044979.png)
+![](/uploads/projects/ue-bluprint/20221218-20044979.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Mesh Description Base Object Reference.
 
-Number Of New Edges: Integer.  
+Number Of New Edges: Integer.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20004402.png)
+![](/uploads/projects/ue-bluprint/20221218-20004402.png)
 
 ## Inputs
 
-目标。媒体播放器对象参考。  
+目标。媒体播放器对象参考。
 
 ## Outputs
 
 返回值。整数。播放列表索引...
+
+<hr>
 
 Get the current play list index.
 
@@ -22,13 +24,12 @@ Target is Media Player
 
 ## 图示
 
-![]($-20221218-20004402.png)
+![](/uploads/projects/ue-bluprint/20221218-20004402.png)
 
 ## Inputs
 
-Target: Media Player Object Reference.  
+Target: Media Player Object Reference.
 
 ## Outputs
 
 Return Value: Integer. Play list index..
-

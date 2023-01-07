@@ -1,12 +1,12 @@
 # ScheduleLocalNotificationatTime
 
-在一个特定的时间安排一个本地通知，inLocalTime指定当前的本地时间或是否应该使用UTC时间。
+在一个特定的时间安排一个本地通知，inLocalTime 指定当前的本地时间或是否应该使用 UTC 时间。
 
 目标是蓝图平台库
 
 ## 图示
 
-![]($-20221218-20293858.png)
+![](/uploads/projects/ue-bluprint/20221218-20293858.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 火灾日期时间。日期时间结构（按参考）。发射本地通知的时间。
 
-本地时间：布尔值。如果为真，则提供的时间为本地时区，如果为假，则为UTC。
+本地时间：布尔值。如果为真，则提供的时间为本地时区，如果为假，则为 UTC。
 
 标题。文本（按编号）。通知的标题。
 
@@ -22,7 +22,7 @@
 
 行动。文本（通过参考）。要在滑块控制器上显示的文本。
 
-激活事件。字符串。当应用程序从用户激活通知进入前台时，在委托回调中传递的一个字符串。  
+激活事件。字符串。当应用程序从用户激活通知进入前台时，在委托回调中传递的一个字符串。
 
 ## Outputs
 
@@ -30,13 +30,15 @@
 
 返回值。整数。
 
+<hr>
+
 Schedule a local notification at a specific time, inLocalTime specifies the current local time or if UTC time should be used
 
 Target is Blueprint Platform Library
 
 ## 图示
 
-![]($-20221218-20293858.png)
+![](/uploads/projects/ue-bluprint/20221218-20293858.png)
 
 ## Inputs
 
@@ -52,11 +54,10 @@ Body: Text (by ref). The more detailed description of the notification.
 
 Action: Text (by ref). The text to be displayed on the slider controller.
 
-Activation Event: String. A string that is passed in the delegate callback when the app is brought into the foreground from the user activating the notification.  
+Activation Event: String. A string that is passed in the delegate callback when the app is brought into the foreground from the user activating the notification.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer.
-

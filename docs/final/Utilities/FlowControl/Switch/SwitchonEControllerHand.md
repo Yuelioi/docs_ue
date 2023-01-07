@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14175557.png)
+![](/uploads/projects/ue-bluprint/20221218-14175557.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EControllerHand Enum。 
+选择。EControllerHand Enum。
 
 ## Outputs
 
@@ -28,39 +28,41 @@
 
 HMD：执行。
 
-特技1：执行。
+特技 1：执行。
 
-特殊2：执行。
+特殊 2：执行。
 
-特技3：执行。
+特技 3：执行。
 
-特殊4：执行。
+特殊 4：执行。
 
-特别5：执行。
+特别 5：执行。
 
-特殊6：执行。
+特殊 6：执行。
 
-特殊7：执行。
+特殊 7：执行。
 
-特别8：执行。
+特别 8：执行。
 
-特别9：执行。
+特别 9：执行。
 
-特殊10：执行。
+特殊 10：执行。
 
-特殊11：执行。
+特殊 11：执行。
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14175557.png)
+![](/uploads/projects/ue-bluprint/20221218-14175557.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EControllerHand Enum.  
+Selection: EControllerHand Enum.
 
 ## Outputs
 
@@ -99,4 +101,3 @@ Special 9: Exec.
 Special 10: Exec.
 
 Special 11: Exec.
-

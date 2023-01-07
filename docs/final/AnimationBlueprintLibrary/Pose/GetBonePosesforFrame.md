@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17523981.png)
+![](/uploads/projects/ue-bluprint/20221218-17523981.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@ Frame（帧）。整数。
 
 提取根部运动。Boolean（布尔）。
 
-预览网格。Skeletal Mesh对象参考。 
+预览网格。Skeletal Mesh 对象参考。
 
 ## Outputs
 
 姿态。变换的数组。
+
+<hr>
 
 Retrieves Bone Pose data for the given Bone Names at the specified Frame from the given Animation Sequence
 
@@ -30,7 +32,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17523981.png)
+![](/uploads/projects/ue-bluprint/20221218-17523981.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Frame: Integer.
 
 Extract Root Motion: Boolean.
 
-Preview Mesh: Skeletal Mesh Object Reference.  
+Preview Mesh: Skeletal Mesh Object Reference.
 
 ## Outputs
 
 Poses: Array of Transforms.
-

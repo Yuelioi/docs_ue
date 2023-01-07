@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21234658.png)
+![](/uploads/projects/ue-bluprint/20221218-21234658.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 变体。变体对象参考。
 
-索引：整数。  
+索引：整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Delete Dependency
 
@@ -26,7 +28,7 @@ Target is Variant Manager Blueprint Library
 
 ## 图示
 
-![]($-20221218-21234658.png)
+![](/uploads/projects/ue-bluprint/20221218-21234658.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Variant: Variant Object Reference.
 
-Index: Integer.  
+Index: Integer.
 
 ## Outputs
 
 Out: Exec.
-

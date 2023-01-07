@@ -2,19 +2,15 @@
 
 直接播放声音，没有衰减，非常适合用户界面的声音。
 
-  * 火灾和遗忘。
+- 火灾和遗忘。
 
-  * 不可复制。
-
-
-
-
+- 不可复制。
 
 目标是游戏的静力学
 
 ## 图示
 
-![]($-20221218-18072582.png)
+![](/uploads/projects/ue-bluprint/20221218-18072582.png)
 
 ## Inputs
 
@@ -30,29 +26,27 @@ Volume Multiplier（音量乘数）。Float（单精度）。一个与音量相�
 
 并发设置。声音并发对象参考。覆盖并发设置包，用它来播放声音。
 
-拥有的角色。Actor对象参考。在并发设置中作为 "所有者 "使用的角色。允许PlaySound调用每个所有者做一个并发限制。
+拥有的角色。Actor 对象参考。在并发设置中作为 "所有者 "使用的角色。允许 PlaySound 调用每个所有者做一个并发限制。
 
-是UISound。布尔值。如果声音是与用户界面相关的，则为真，否则为假。 
+是 UISound。布尔值。如果声音是与用户界面相关的，则为真，否则为假。
 
 ## Outputs
 
 输出。执行。
 
+<hr>
+
 Plays a sound directly with no attenuation, perfect for UI sounds.
 
-  * Fire and Forget.
+- Fire and Forget.
 
-  * Not Replicated.
-
-
-
-
+- Not Replicated.
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18072582.png)
+![](/uploads/projects/ue-bluprint/20221218-18072582.png)
 
 ## Inputs
 
@@ -70,9 +64,8 @@ Concurrency Settings: Sound Concurrency Object Reference. Override concurrency s
 
 Owning Actor: Actor Object Reference. The actor to use as the "owner" for concurrency settings purposes. Allows PlaySound calls to do a concurrency limit per owner..
 
-Is UISound: Boolean. True if sound is UI related, else false.  
+Is UISound: Boolean. True if sound is UI related, else false.
 
 ## Outputs
 
 Out: Exec.
-

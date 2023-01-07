@@ -1,4 +1,4 @@
-# ShouldSaveSettingsonStopStreamin-_1
+# ShouldSaveSettingsonStopStreamin-\_1
 
 检查流停止时是否应保存设置。
 
@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21270396.png)
+![](/uploads/projects/ue-bluprint/20221218-21270396.png)
 
 ## Inputs
 
 在。执行。
 
-目标。对象参考。  
+目标。对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。布尔值。检查流停止时是否应保存设置。
 
+<hr>
+
 Check whether settings should save when stream is stopped.
 
 Target is Virtual Camera Controller
 
 ## 图示
 
-![]($-20221218-21270396.png)
+![](/uploads/projects/ue-bluprint/20221218-21270396.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Object Reference.  
+Target: Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Check whether settings should save when stream is stopped..
-

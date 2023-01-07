@@ -1,12 +1,12 @@
 # AddControllerYawInput
 
-如果是本地的PlayerController，将输入（影响Yaw）添加到控制器的ControlRotation。这个值要乘以PlayerController的InputYawScale值。
+如果是本地的 PlayerController，将输入（影响 Yaw）添加到控制器的 ControlRotation。这个值要乘以 PlayerController 的 InputYawScale 值。
 
 目标是卒子
 
 ## 图示
 
-![]($-20221218-20191322.png)
+![](/uploads/projects/ue-bluprint/20221218-20191322.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。卒子对象参考。
 
-Val：浮点数（单精度）。添加到Yaw的数量。这个值要乘以PlayerController的InputYawScale值。
+Val：浮点数（单精度）。添加到 Yaw 的数量。这个值要乘以 PlayerController 的 InputYawScale 值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add input (affecting Yaw) to the Controller's ControlRotation, if it is a local PlayerController.. This value is multiplied by the PlayerController's InputYawScale value.
 
@@ -26,7 +28,7 @@ Target is Pawn
 
 ## 图示
 
-![]($-20221218-20191322.png)
+![](/uploads/projects/ue-bluprint/20221218-20191322.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Pawn Object Reference.
 
-Val: Float (single-precision). Amount to add to Yaw. This value is multiplied by the PlayerController's InputYawScale value..  
+Val: Float (single-precision). Amount to add to Yaw. This value is multiplied by the PlayerController's InputYawScale value..
 
 ## Outputs
 
 Out: Exec.
-

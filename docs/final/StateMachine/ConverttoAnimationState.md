@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21025583.png)
+![](/uploads/projects/ue-bluprint/20221218-21025583.png)
 
 ## Inputs
 
 在。执行。
 
-节点。Anim节点参考结构（通过参考）。  
+节点。Anim 节点参考结构（通过参考）。
 
 ## Outputs
 
@@ -22,19 +22,21 @@
 
 动画状态。动画状态参考结构。
 
+<hr>
+
 Get an anim state reference from an anim node reference
 
 Target is Animation State Machine Library
 
 ## 图示
 
-![]($-20221218-21025583.png)
+![](/uploads/projects/ue-bluprint/20221218-21025583.png)
 
 ## Inputs
 
 In: Exec.
 
-Node: Anim Node Reference Structure (by ref).  
+Node: Anim Node Reference Structure (by ref).
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Succeeded: Exec.
 Failed: Exec.
 
 Animation State: Animation State Reference Structure.
-

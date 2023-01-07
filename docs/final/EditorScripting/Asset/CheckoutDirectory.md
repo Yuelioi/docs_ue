@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18465878.png)
+![](/uploads/projects/ue-bluprint/20221218-18465878.png)
 
 ## Inputs
 
@@ -14,20 +14,23 @@
 
 目录路径。字符串。要检查的资产的目录。
 
-递归。布尔值。如果AssetPath是一个文件夹，搜索将是递归的，并将检查子文件夹中的资产。
+递归。布尔值。如果 AssetPath 是一个文件夹，搜索将是递归的，并将检查子文件夹中的资产。
 
 ## Outputs
 
 出：执行。
 
 返回值。布尔值。如果操作成功为真。
+
+<hr>
+
 Checkout assets from the Content Browser. It will load the assets if needed.. All objects that are in the directory will be checkout. Assets will be loaded before being checkout.
 
 Target is Editor Asset Library
 
 ## 图示
 
-![]($-20221218-18465878.png)
+![](/uploads/projects/ue-bluprint/20221218-18465878.png)
 
 ## Inputs
 
@@ -35,11 +38,10 @@ In: Exec.
 
 Directory Path: String. Directory of the assets that to checkout..
 
-Recursive: Boolean. If the AssetPath is a folder, the search will be recursive and will checkout the asset in the sub folders..  
+Recursive: Boolean. If the AssetPath is a folder, the search will be recursive and will checkout the asset in the sub folders..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. True if the operation succeeds..
-

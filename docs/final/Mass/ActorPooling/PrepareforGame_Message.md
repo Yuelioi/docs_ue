@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19460199.png)
+![](/uploads/projects/ue-bluprint/20221218-19460199.png)
 
 ## Inputs
 
 在。执行。
 
-目标。对象参考。  
+目标。对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Prepare for Game
 
@@ -24,15 +26,14 @@ Target is Mass Actor Poolable Interface
 
 ## 图示
 
-![]($-20221218-19460199.png)
+![](/uploads/projects/ue-bluprint/20221218-19460199.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Object Reference.  
+Target: Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

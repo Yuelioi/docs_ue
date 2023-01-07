@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20062344.png)
+![](/uploads/projects/ue-bluprint/20221218-20062344.png)
 
 ## Inputs
 
-目标。Mobile Pending Content Object Reference。  
+目标。Mobile Pending Content Object Reference。
 
 ## Outputs
 
 返回值。文本。获取下载状态文本。
+
+<hr>
 
 Get Download Status Text
 
@@ -22,13 +24,12 @@ Target is Mobile Pending Content
 
 ## 图示
 
-![]($-20221218-20062344.png)
+![](/uploads/projects/ue-bluprint/20221218-20062344.png)
 
 ## Inputs
 
-Target: Mobile Pending Content Object Reference.  
+Target: Mobile Pending Content Object Reference.
 
 ## Outputs
 
 Return Value: Text. Get Download Status Text.
-

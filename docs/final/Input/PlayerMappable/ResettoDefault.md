@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19290547.png)
+![](/uploads/projects/ue-bluprint/20221218-19290547.png)
 
 ## Inputs
 
 在。执行。
 
-目标。玩家可绑定的输入配置对象参考。  
+目标。玩家可绑定的输入配置对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Resets this mappable config to use the keys
 
@@ -24,15 +26,14 @@ Target is Player Bindable Input Config
 
 ## 图示
 
-![]($-20221218-19290547.png)
+![](/uploads/projects/ue-bluprint/20221218-19290547.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Player Bindable Input Config Object Reference.  
+Target: Player Bindable Input Config Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

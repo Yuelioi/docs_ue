@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18190772.png)
+![](/uploads/projects/ue-bluprint/20221218-18190772.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 行为者。Actor Object Reference（演员对象参考）。
 
-应该忽略。Boolean（布尔）。 
+应该忽略。Boolean（布尔）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Tells this component whether to ignore collision with all components of a specific Actor when this component is moved.. Components on the other Actor may also need to be told to do the same when they move.. Does not affect movement of this component when simulating physics.
 
@@ -28,7 +30,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-18190772.png)
+![](/uploads/projects/ue-bluprint/20221218-18190772.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Primitive Component Object Reference.
 
 Actor: Actor Object Reference.
 
-Should Ignore: Boolean.  
+Should Ignore: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20203576.png)
+![](/uploads/projects/ue-bluprint/20221218-20203576.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 地点：向量。矢量。施加力的位置，在世界空间中。
 
-骨骼名称。名称。如果是SkeletalMeshComponent，要施加力的主体名称。'无'表示根体。
+骨骼名称。名称。如果是 SkeletalMeshComponent，要施加力的主体名称。'无'表示根体。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add a force to a single rigid body at a particular location in world space.. This is like a 'thruster'. Good for adding a burst over some (non zero) time. Should be called every frame for the duration of the force.
 
@@ -30,7 +32,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20203576.png)
+![](/uploads/projects/ue-bluprint/20221218-20203576.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Force: Vector. Force vector to apply. Magnitude indicates strength of force..
 
 Location: Vector. Location to apply force, in world space..
 
-Bone Name: Name. If a SkeletalMeshComponent, name of body to apply force to. 'None' indicates root body..  
+Bone Name: Name. If a SkeletalMeshComponent, name of body to apply force to. 'None' indicates root body..
 
 ## Outputs
 
 Out: Exec.
-

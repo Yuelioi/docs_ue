@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19425218.png)
+![](/uploads/projects/ue-bluprint/20221218-19425218.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 延伸。向量。
 
-仅可见。布尔型。  
+仅可见。布尔型。
 
 ## Outputs
 
 返回值。布尔值。如果在给定的框内有任何点，则返回真。
+
+<hr>
 
 Returns true if there are any points within the given box.
 
@@ -26,7 +28,7 @@ Target is Lidar Point Cloud Blueprint Library
 
 ## 图示
 
-![]($-20221218-19425218.png)
+![](/uploads/projects/ue-bluprint/20221218-19425218.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Center: Vector.
 
 Extent: Vector.
 
-Visible Only: Boolean.  
+Visible Only: Boolean.
 
 ## Outputs
 
 Return Value: Boolean. Returns true if there are any points within the given box..
-

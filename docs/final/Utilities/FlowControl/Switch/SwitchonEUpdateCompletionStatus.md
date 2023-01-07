@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14250254.png)
+![](/uploads/projects/ue-bluprint/20221218-14250254.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EUpdateCompletionStatus枚举。 
+选择。EUpdateCompletionStatus 枚举。
 
 ## Outputs
 
@@ -32,17 +32,19 @@
 
 更新失败 未登录。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14250254.png)
+![](/uploads/projects/ue-bluprint/20221218-14250254.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EUpdateCompletionStatus Enum.  
+Selection: EUpdateCompletionStatus Enum.
 
 ## Outputs
 
@@ -63,4 +65,3 @@ Update Failure Patch Check: Exec.
 Update Failure Hotfix Check: Exec.
 
 Update Failure Not Logged In: Exec.
-

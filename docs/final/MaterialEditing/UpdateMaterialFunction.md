@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19465944.png)
+![](/uploads/projects/ue-bluprint/20221218-19465944.png)
 
 ## Inputs
 
 在。执行。
 
-材料功能。材料功能接口对象参考。  
+材料功能。材料功能接口对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Update a Material Function after edits have been made.. Will recompile any Materials that use the supplied Material Function.
 
@@ -24,15 +26,14 @@ Target is Material Editing Library
 
 ## 图示
 
-![]($-20221218-19465944.png)
+![](/uploads/projects/ue-bluprint/20221218-19465944.png)
 
 ## Inputs
 
 In: Exec.
 
-Material Function: Material Function Interface Object Reference.  
+Material Function: Material Function Interface Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

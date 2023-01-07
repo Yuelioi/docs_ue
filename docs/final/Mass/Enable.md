@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19460646.png)
+![](/uploads/projects/ue-bluprint/20221218-19460646.png)
 
 ## Inputs
 
 在。执行。
 
-目标。大众代理组件对象参考。  
+目标。大众代理组件对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Registers the component with the owner effectively turning it on. Calling it multiple times won't break anything
 
@@ -24,15 +26,14 @@ Target is Mass Agent Component
 
 ## 图示
 
-![]($-20221218-19460646.png)
+![](/uploads/projects/ue-bluprint/20221218-19460646.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Mass Agent Component Object Reference.  
+Target: Mass Agent Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

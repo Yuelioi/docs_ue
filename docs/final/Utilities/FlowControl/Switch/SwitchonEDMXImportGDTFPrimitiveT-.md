@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14183154.png)
+![](/uploads/projects/ue-bluprint/20221218-14183154.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDMXImportGDTFPrimitiveType枚举。 
+选择。EDMXImportGDTFPrimitiveType 枚举。
 
 ## Outputs
 
@@ -34,17 +34,19 @@ Cube: Exec.
 
 辫子。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14183154.png)
+![](/uploads/projects/ue-bluprint/20221218-14183154.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDMXImportGDTFPrimitiveType Enum.  
+Selection: EDMXImportGDTFPrimitiveType Enum.
 
 ## Outputs
 
@@ -67,4 +69,3 @@ Scanner: Exec.
 Conventional: Exec.
 
 Pigtail: Exec.
-

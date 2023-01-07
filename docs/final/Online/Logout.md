@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20162814.png)
+![](/uploads/projects/ue-bluprint/20221218-20162814.png)
 
 ## Inputs
 
 在。执行。
 
-播放器控制器。播放器控制器对象参考。  
+播放器控制器。播放器控制器对象参考。
 
 ## Outputs
 
@@ -22,19 +22,21 @@
 
 失败时。执行。失败时：。当注销完成不成功时被调用。
 
+<hr>
+
 Logs out of the online service
 
 Target is Logout Callback Proxy
 
 ## 图示
 
-![]($-20221218-20162814.png)
+![](/uploads/projects/ue-bluprint/20221218-20162814.png)
 
 ## Inputs
 
 In: Exec.
 
-Player Controller: Player Controller Object Reference.  
+Player Controller: Player Controller Object Reference.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Out: Exec.
 On Success: Exec. On Success:. Called when the logout completed successfully.
 
 On Failure: Exec. On Failure:. Called when the logout completed unsuccessfully.
-

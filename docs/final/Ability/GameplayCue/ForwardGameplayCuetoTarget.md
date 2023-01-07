@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17305957.png)
+![](/uploads/projects/ue-bluprint/20221218-17305957.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 事件类型。EGameplayCueEvent Enum。
 
-参数。Gameplay Cue Parameters结构。 
+参数。Gameplay Cue Parameters 结构。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Forwards the gameplay cue to another gameplay cue interface object
 
@@ -28,7 +30,7 @@ Target is Ability System Blueprint Library
 
 ## 图示
 
-![]($-20221218-17305957.png)
+![](/uploads/projects/ue-bluprint/20221218-17305957.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target Cue Interface: Gameplay Cue Interface Interface.
 
 Event Type: EGameplayCueEvent Enum.
 
-Parameters: Gameplay Cue Parameters Structure.  
+Parameters: Gameplay Cue Parameters Structure.
 
 ## Outputs
 
 Out: Exec.
-

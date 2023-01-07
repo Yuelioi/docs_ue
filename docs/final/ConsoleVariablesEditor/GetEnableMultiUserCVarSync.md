@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-18300061.png)
+![](/uploads/projects/ue-bluprint/20221218-18300061.png)
 
 ## Inputs
 
-在。Exec.  
+在。Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 返回值。布尔值。返回当前编辑器实例的多用户同步设置是否已启用。
 
+<hr>
+
 Return whether the Multi-user sync setting for the current instance of the editor is enabled.
 
 Target is Console Variables Editor Function Library
 
 ## 图示
 
-![]($-20221218-18300061.png)
+![](/uploads/projects/ue-bluprint/20221218-18300061.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Return whether the Multi-user sync setting for the current instance of the editor is enabled..
-

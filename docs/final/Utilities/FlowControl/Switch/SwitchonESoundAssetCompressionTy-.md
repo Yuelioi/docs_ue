@@ -4,17 +4,17 @@
 
 ## 图示
 
-![]($-20221218-14233399.png)
+![](/uploads/projects/ue-bluprint/20221218-14233399.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESoundAssetCompressionType枚举。 
+选择。ESoundAssetCompressionType 枚举。
 
 ## Outputs
 
-Bink音频。Exec.
+Bink 音频。Exec.
 
 ADPCM: Exec.
 
@@ -22,17 +22,19 @@ PCM: Exec.
 
 特定平台 Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14233399.png)
+![](/uploads/projects/ue-bluprint/20221218-14233399.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESoundAssetCompressionType Enum.  
+Selection: ESoundAssetCompressionType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ ADPCM: Exec.
 PCM: Exec.
 
 Platform Specific: Exec.
-

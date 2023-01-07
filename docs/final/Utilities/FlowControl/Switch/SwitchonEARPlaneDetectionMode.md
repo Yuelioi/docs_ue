@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14164137.png)
+![](/uploads/projects/ue-bluprint/20221218-14164137.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARPlaneDetectionMode枚举。 
+选择。EARPlaneDetectionMode 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 垂直平面检测。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14164137.png)
+![](/uploads/projects/ue-bluprint/20221218-14164137.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARPlaneDetectionMode Enum.  
+Selection: EARPlaneDetectionMode Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ None: Exec.
 Horizontal Plane Detection: Exec.
 
 Vertical Plane Detection: Exec.
-

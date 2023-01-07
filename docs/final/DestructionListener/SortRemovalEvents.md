@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18420580.png)
+![](/uploads/projects/ue-bluprint/20221218-18420580.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 移除事件。混沌移除事件的数据结构阵列。
 
-排序方法。EChaosRemovalSortMethod Enum.  
+排序方法。EChaosRemovalSortMethod Enum.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sorts removal events according to the given sort method
 
@@ -28,7 +30,7 @@ Target is Chaos Destruction Listener
 
 ## 图示
 
-![]($-20221218-18420580.png)
+![](/uploads/projects/ue-bluprint/20221218-18420580.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Chaos Destruction Listener Object Reference.
 
 Removal Events: Array of Chaos Removal Event Data Structures.
 
-Sort Method: EChaosRemovalSortMethod Enum.  
+Sort Method: EChaosRemovalSortMethod Enum.
 
 ## Outputs
 
 Out: Exec.
-

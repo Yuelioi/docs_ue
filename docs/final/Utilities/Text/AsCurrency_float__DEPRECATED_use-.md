@@ -1,12 +1,12 @@
-# AsCurrency_float__DEPRECATED_use-
+# AsCurrency_float\_\_DEPRECATED_use-
 
 将传入的浮动数据转换为格式化的货币文本
 
-目标是Kismet文本库
+目标是 Kismet 文本库
 
 ## 图示
 
-![]($-20221218-15235624.png)
+![](/uploads/projects/ue-bluprint/20221218-15235624.png)
 
 ## Inputs
 
@@ -26,11 +26,13 @@
 
 最大的小数位。整数。
 
-货币代码。字符串。  
+货币代码。字符串。
 
 ## Outputs
 
 返回值。文本。将传入的浮点数转换为货币格式的文本。
+
+<hr>
 
 Converts a passed in float to a text formatted as a currency
 
@@ -38,7 +40,7 @@ Target is Kismet Text Library
 
 ## 图示
 
-![]($-20221218-15235624.png)
+![](/uploads/projects/ue-bluprint/20221218-15235624.png)
 
 ## Inputs
 
@@ -58,9 +60,8 @@ Minimum Fractional Digits: Integer.
 
 Maximum Fractional Digits: Integer.
 
-Currency Code: String.  
+Currency Code: String.
 
 ## Outputs
 
 Return Value: Text. Converts a passed in float to a text formatted as a currency.
-

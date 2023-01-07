@@ -6,17 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17333718.png)
+![](/uploads/projects/ue-bluprint/20221218-17333718.png)
 
 ## Inputs
 
 在。执行。
 
-有标签。Gameplay Tag结构。
+有标签。Gameplay Tag 结构。
 
-没有标签。Gameplay Tag结构。
+没有标签。Gameplay Tag 结构。
 
-Trigger Once: 布尔值。 
+Trigger Once: 布尔值。
 
 ## Outputs
 
@@ -28,13 +28,15 @@ Async Task: Ability Task Wait Ability Commit Object Reference.
 
 激活的能力。Gameplay Ability 对象参考。
 
+<hr>
+
 Wait until a new ability (of the same or different type) is commited.
 
 Target is Ability Task Wait Ability Commit
 
 ## 图示
 
-![]($-20221218-17333718.png)
+![](/uploads/projects/ue-bluprint/20221218-17333718.png)
 
 ## Inputs
 
@@ -44,7 +46,7 @@ With Tag: Gameplay Tag Structure.
 
 Without Tage: Gameplay Tag Structure.
 
-Trigger Once: Boolean.  
+Trigger Once: Boolean.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Async Task: Ability Task Wait Ability Commit Object Reference.
 On Commit: Exec. On Commit.
 
 Activated Ability: Gameplay Ability Object Reference.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14233223.png)
+![](/uploads/projects/ue-bluprint/20221218-14233223.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESlateVisibility Enum.  
+选择。ESlateVisibility Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Collapsed（折叠）: Exec.
 
 未击中-可测试（仅自己）。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14233223.png)
+![](/uploads/projects/ue-bluprint/20221218-14233223.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESlateVisibility Enum.  
+Selection: ESlateVisibility Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Hidden: Exec.
 Not Hit- Testable (Self & All Children): Exec.
 
 Not Hit- Testable (Self Only): Exec.
-

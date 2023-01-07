@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-17525784.png)
+![](/uploads/projects/ue-bluprint/20221218-17525784.png)
 
 ## Inputs
 
 在。执行。
 
-动画序列。Anim Sequence对象参考。
+动画序列。Anim Sequence 对象参考。
 
-虚拟骨骼名称。名称的数组。 
+虚拟骨骼名称。名称的数组。
 
 ## Outputs
 
 出场。执行：执行。
+
+<hr>
 
 Removes Virtual Bones with the specified Bone Names from the given Animation Sequence
 
@@ -26,7 +28,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17525784.png)
+![](/uploads/projects/ue-bluprint/20221218-17525784.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Animation Sequence: Anim Sequence Object Reference.
 
-Virtual Bone Names: Array of Names.  
+Virtual Bone Names: Array of Names.
 
 ## Outputs
 
 Out: Exec.
-

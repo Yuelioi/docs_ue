@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14254738.png)
+![](/uploads/projects/ue-bluprint/20221218-14254738.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。FDataDrivenCVarType Enum.  
+选择。FDataDrivenCVarType Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ CVar Int: Exec.
 
 CVar Bool: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14254738.png)
+![](/uploads/projects/ue-bluprint/20221218-14254738.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: FDataDrivenCVarType Enum.  
+Selection: FDataDrivenCVarType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ CVar Float: Exec.
 CVar Int: Exec.
 
 CVar Bool: Exec.
-

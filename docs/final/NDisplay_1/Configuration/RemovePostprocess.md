@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20111827.png)
+![](/uploads/projects/ue-bluprint/20221218-20111827.png)
 
 ## Inputs
 
@@ -14,9 +14,9 @@
 
 目标。显示群集配置数据对象参考。
 
-节点ID：字符串。
+节点 ID：字符串。
 
-后处理Id：字符串。  
+后处理 Id：字符串。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。删除后处理。
 
+<hr>
+
 Remove Postprocess
 
 Target is Display Cluster Configuration Data
 
 ## 图示
 
-![]($-20221218-20111827.png)
+![](/uploads/projects/ue-bluprint/20221218-20111827.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Display Cluster Configuration Data Object Reference.
 
 Node Id: String.
 
-Postprocess Id: String.  
+Postprocess Id: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Remove Postprocess.
-

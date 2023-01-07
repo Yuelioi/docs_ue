@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21355606.png)
+![](/uploads/projects/ue-bluprint/20221218-21355606.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。小工具对象参考。
 
-在Clipping中。EWidgetClipping Enum.  
+在 Clipping 中。EWidgetClipping Enum.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the clipping state of this widget.
 
@@ -26,7 +28,7 @@ Target is Widget
 
 ## 图示
 
-![]($-20221218-21355606.png)
+![](/uploads/projects/ue-bluprint/20221218-21355606.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Widget Object Reference.
 
-In Clipping: EWidgetClipping Enum.  
+In Clipping: EWidgetClipping Enum.
 
 ## Outputs
 
 Out: Exec.
-

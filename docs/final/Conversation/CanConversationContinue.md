@@ -1,24 +1,26 @@
 # CanConversationContinue
 
-检查所提供的任务结果与任何会结束对话的结果，例如EConversationTaskResultType::Invalid.或EConversationTaskResultType::AbortConversation。
+检查所提供的任务结果与任何会结束对话的结果，例如 EConversationTaskResultType::Invalid.或 EConversationTaskResultType::AbortConversation。
 
 目标是对话上下文帮助器
 
 ## 图示
 
-![]($-20221218-18325441.png)
+![](/uploads/projects/ue-bluprint/20221218-18325441.png)
 
 ## Inputs
 
 在。执行。
 
-Conversation Tas Result: 对话任务结果结构（通过引用）。 
+Conversation Tas Result: 对话任务结果结构（通过引用）。
 
 ## Outputs
 
 出来。Exec.
 
-返回值。布尔值。检查所提供的任务结果与任何会结束对话的结果，例如EConversationTaskResultType::Invalid.或EConversationTaskResultType::AbortConversation。
+返回值。布尔值。检查所提供的任务结果与任何会结束对话的结果，例如 EConversationTaskResultType::Invalid.或 EConversationTaskResultType::AbortConversation。
+
+<hr>
 
 Checks the provided task result against any which would end the conversation e.g. EConversationTaskResultType::Invalid. or EConversationTaskResultType::AbortConversation
 
@@ -26,17 +28,16 @@ Target is Conversation Context Helpers
 
 ## 图示
 
-![]($-20221218-18325441.png)
+![](/uploads/projects/ue-bluprint/20221218-18325441.png)
 
 ## Inputs
 
 In: Exec.
 
-Conversation Tas Result: Conversation Task Result Structure (by ref).  
+Conversation Tas Result: Conversation Task Result Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Checks the provided task result against any which would end the conversation e.g. EConversationTaskResultType::Invalid. or EConversationTaskResultType::AbortConversation.
-

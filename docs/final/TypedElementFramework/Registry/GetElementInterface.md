@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21164312.png)
+![](/uploads/projects/ue-bluprint/20221218-21164312.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 在元素处理中。脚本类型的元素句柄结构（通过参考）。
 
-在基础接口类型。接口界面。  
+在基础接口类型。接口界面。
 
 ## Outputs
 
 返回值。对象参考。获取给定句柄所支持的元素接口，如果没有对该接口的支持或句柄无效，则为空。
+
+<hr>
 
 Get the element interface supported by the given handle, or null if there is no support for this interface or if the handle is invalid.
 
@@ -26,7 +28,7 @@ Target is Typed Element Registry
 
 ## 图示
 
-![]($-20221218-21164312.png)
+![](/uploads/projects/ue-bluprint/20221218-21164312.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Target: Typed Element Registry Object Reference.
 
 In Element Handle: Script Typed Element Handle Structure (by ref).
 
-In Base Interface Type: Interface Interface.  
+In Base Interface Type: Interface Interface.
 
 ## Outputs
 
 Return Value: Object Reference. Get the element interface supported by the given handle, or null if there is no support for this interface or if the handle is invalid..
-

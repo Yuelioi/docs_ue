@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21135326.png)
+![](/uploads/projects/ue-bluprint/20221218-21135326.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。工具菜单对象参考。
 
-姓名：姓名  
+姓名：姓名
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。重建由特定菜单生成的所有小部件。
 
+<hr>
+
 Rebuilds all widgets generated from a specific menu.
 
 Target is Tool Menus
 
 ## 图示
 
-![]($-20221218-21135326.png)
+![](/uploads/projects/ue-bluprint/20221218-21135326.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Tool Menus Object Reference.
 
-Name: Name.  
+Name: Name.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Rebuilds all widgets generated from a specific menu..
-

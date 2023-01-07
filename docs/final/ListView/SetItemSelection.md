@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19443080.png)
+![](/uploads/projects/ue-bluprint/20221218-19443080.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 项目。对象参考。
 
-选定。布尔型。  
+选定。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets whether the given item is selected.
 
@@ -28,7 +30,7 @@ Target is List View
 
 ## 图示
 
-![]($-20221218-19443080.png)
+![](/uploads/projects/ue-bluprint/20221218-19443080.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: List View Object Reference.
 
 Item: Object Reference.
 
-Selected: Boolean.  
+Selected: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

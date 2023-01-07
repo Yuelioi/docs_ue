@@ -1,20 +1,22 @@
 # GetRoomSpaceHeadTransform
 
-获取视口/用户的HMD在房间空间中的变换。
+获取视口/用户的 HMD 在房间空间中的变换。
 
 目标是视口世界的相互作用
 
 ## 图示
 
-![]($-20221218-21253674.png)
+![](/uploads/projects/ue-bluprint/20221218-21253674.png)
 
 ## Inputs
 
-目标。视口世界互动对象参考。  
+目标。视口世界互动对象参考。
 
 ## Outputs
 
-返回值。变换。获取视口/用户的HMD在房间空间中的变换。
+返回值。变换。获取视口/用户的 HMD 在房间空间中的变换。
+
+<hr>
 
 Gets the transform of the viewport / user's HMD in room space
 
@@ -22,13 +24,12 @@ Target is Viewport World Interaction
 
 ## 图示
 
-![]($-20221218-21253674.png)
+![](/uploads/projects/ue-bluprint/20221218-21253674.png)
 
 ## Inputs
 
-Target: Viewport World Interaction Object Reference.  
+Target: Viewport World Interaction Object Reference.
 
 ## Outputs
 
 Return Value: Transform. Gets the transform of the viewport / user's HMD in room space.
-

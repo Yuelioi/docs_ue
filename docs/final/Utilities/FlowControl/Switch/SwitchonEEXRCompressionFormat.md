@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14184993.png)
+![](/uploads/projects/ue-bluprint/20221218-14184993.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EEXRCompressionFormat枚举。 
+选择。EEXRCompressionFormat 枚举。
 
 ## Outputs
 
@@ -24,17 +24,19 @@ DWAA: 执行。
 
 DWAB: 执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14184993.png)
+![](/uploads/projects/ue-bluprint/20221218-14184993.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EEXRCompressionFormat Enum.  
+Selection: EEXRCompressionFormat Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ ZIP: Exec.
 DWAA: Exec.
 
 DWAB: Exec.
-

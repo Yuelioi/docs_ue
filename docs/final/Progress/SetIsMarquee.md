@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20305077.png)
+![](/uploads/projects/ue-bluprint/20221218-20305077.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。进度条对象参考。
 
-Inb是Marquee。布尔型。  
+Inb 是 Marquee。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the progress bar to show as a marquee.
 
@@ -26,7 +28,7 @@ Target is Progress Bar
 
 ## 图示
 
-![]($-20221218-20305077.png)
+![](/uploads/projects/ue-bluprint/20221218-20305077.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Progress Bar Object Reference.
 
-Inb Is Marquee: Boolean.  
+Inb Is Marquee: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

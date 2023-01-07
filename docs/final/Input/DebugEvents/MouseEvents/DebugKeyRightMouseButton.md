@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-19212044.png)
+![](/uploads/projects/ue-bluprint/20221218-19212044.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 行动值。输入行动值结构。
 
+<hr>
+
 Events for when the Right Mouse Button key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19212044.png)
+![](/uploads/projects/ue-bluprint/20221218-19212044.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

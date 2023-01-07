@@ -2,11 +2,11 @@
 
 设置是否由温度控制光的颜色
 
-目标是Datasmith Light Actor Element
+目标是 Datasmith Light Actor Element
 
 ## 图示
 
-![]($-20221218-18391908.png)
+![](/uploads/projects/ue-bluprint/20221218-18391908.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Datasmith Light Actor Element Object Reference。
 
-使用温度。布尔值。  
+使用温度。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set if the light color is controlled by temperature
 
@@ -26,7 +28,7 @@ Target is Datasmith Light Actor Element
 
 ## 图示
 
-![]($-20221218-18391908.png)
+![](/uploads/projects/ue-bluprint/20221218-18391908.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Datasmith Light Actor Element Object Reference.
 
-Use Temperature: Boolean.  
+Use Temperature: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

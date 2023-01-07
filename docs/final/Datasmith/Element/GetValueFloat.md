@@ -2,17 +2,17 @@
 
 获取此属性的记录值为浮点数。如果该属性不是浮动类型的，返回的值就没有意义。
 
-目标是Datasmith属性捕获元素
+目标是 Datasmith 属性捕获元素
 
 ## 图示
 
-![]($-20221218-18380165.png)
+![](/uploads/projects/ue-bluprint/20221218-18380165.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Datasmith属性捕获元素的对象参考。 
+目标。Datasmith 属性捕获元素的对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。浮点数（单精度）。获取该属性的记录值为浮点数。如果该属性不是浮点数类型，则返回的值没有意义。
 
+<hr>
+
 Get the recorded value for this property as a float.. Returned value is meaningless if the property is not of float type.
 
 Target is Datasmith Property Capture Element
 
 ## 图示
 
-![]($-20221218-18380165.png)
+![](/uploads/projects/ue-bluprint/20221218-18380165.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Datasmith Property Capture Element Object Reference.  
+Target: Datasmith Property Capture Element Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision). Get the recorded value for this property as a float.. Returned value is meaningless if the property is not of float type..
-

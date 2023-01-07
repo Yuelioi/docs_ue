@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18273577.png)
+![](/uploads/projects/ue-bluprint/20221218-18273577.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Paper Grouped Sprite Component 对象参考。
 
-World Space Sort Axis: Vector.  
+World Space Sort Axis: Vector.
 
 ## Outputs
 
 出：执行。Exec.
+
+<hr>
 
 Sort all instances by their world space position along the specified axis
 
@@ -26,7 +28,7 @@ Target is Paper Grouped Sprite Component
 
 ## 图示
 
-![]($-20221218-18273577.png)
+![](/uploads/projects/ue-bluprint/20221218-18273577.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Paper Grouped Sprite Component Object Reference.
 
-World Space Sort Axis: Vector.  
+World Space Sort Axis: Vector.
 
 ## Outputs
 
 Out: Exec.
-

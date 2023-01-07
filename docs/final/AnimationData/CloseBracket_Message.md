@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17531837.png)
+![](/uploads/projects/ue-bluprint/20221218-17531837.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。对象参考。
 
-应该交易。布尔型。是否应该产生任何撤销-重做的改变。 
+应该交易。布尔型。是否应该产生任何撤销-重做的改变。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Closes a previously opened interaction bracket, used for combining a set of controller actions. Broadcasts a EAnimDataModelNotifyType::BracketClosed notify.
 
@@ -26,7 +28,7 @@ Target is Animation Data Controller
 
 ## 图示
 
-![]($-20221218-17531837.png)
+![](/uploads/projects/ue-bluprint/20221218-17531837.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Object Reference.
 
-Should Transact: Boolean. Whether or not any undo-redo changes should be generated.  
+Should Transact: Boolean. Whether or not any undo-redo changes should be generated.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17452263.png)
+![](/uploads/projects/ue-bluprint/20221218-17452263.png)
 
 ## Inputs
 
@@ -18,13 +18,15 @@
 
 手指索引。ETouchIndex Enum.
 
+<hr>
+
 Event when this actor is touched when click events are enabled.
 
 Target is Actor
 
 ## 图示
 
-![]($-20221218-17452263.png)
+![](/uploads/projects/ue-bluprint/20221218-17452263.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Output Delegate: Delegate.
 Out: Exec.
 
 Finger Index: ETouchIndex Enum.
-

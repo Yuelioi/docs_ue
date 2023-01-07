@@ -1,12 +1,12 @@
 # BuildfromStaticMeshDescriptions
 
-从传入的StaticMeshDescriptions数组建立静态网格LODs。
+从传入的 StaticMeshDescriptions 数组建立静态网格 LODs。
 
 目标是静止的网格
 
 ## 图示
 
-![]($-20221218-21030144.png)
+![](/uploads/projects/ue-bluprint/20221218-21030144.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 建立简单的碰撞。布尔型。
 
-快速构建。布尔型。  
+快速构建。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Builds static mesh LODs from the array of StaticMeshDescriptions passed in
 
@@ -30,7 +32,7 @@ Target is Static Mesh
 
 ## 图示
 
-![]($-20221218-21030144.png)
+![](/uploads/projects/ue-bluprint/20221218-21030144.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Static Mesh Descriptions: Array of Static Mesh Description Object References.
 
 Build Simple Collision: Boolean.
 
-Fast Build: Boolean.  
+Fast Build: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

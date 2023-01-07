@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18100577.png)
+![](/uploads/projects/ue-bluprint/20221218-18100577.png)
 
 ## Inputs
 
@@ -28,7 +28,7 @@ Comparison Tolerance: EComparisonTolerance Enum.
 
 Comparison Notes: 字符串。
 
-延迟。Float（单精度）。 
+延迟。Float（单精度）。
 
 ## Outputs
 
@@ -36,13 +36,15 @@ Comparison Notes: 字符串。
 
 返回值。自动化编辑器任务对象参考。在编辑器中进行高清晰度的截图。
 
+<hr>
+
 take high res screenshot in editor.
 
 Target is Automation Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-18100577.png)
+![](/uploads/projects/ue-bluprint/20221218-18100577.png)
 
 ## Inputs
 
@@ -64,11 +66,10 @@ Comparison Tolerance: EComparisonTolerance Enum.
 
 Comparison Notes: String.
 
-Delay: Float (single-precision).  
+Delay: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Automation Editor Task Object Reference. take high res screenshot in editor..
-

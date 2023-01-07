@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20362102.png)
+![](/uploads/projects/ue-bluprint/20221218-20362102.png)
 
 ## Inputs
 
@@ -20,7 +20,7 @@
 
 旋转。旋转器。旋转将贴花放在世界空间中。
 
-寿命。浮点数（单精度）。时间用完后销毁贴花组件（0 = 无限）。  
+寿命。浮点数（单精度）。时间用完后销毁贴花组件（0 = 无限）。
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 返回值。贴花组件对象参考。
 
+<hr>
+
 Spawns a decal at the given location and rotation, fire and forget. Does not replicate.
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-20362102.png)
+![](/uploads/projects/ue-bluprint/20221218-20362102.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Location: Vector. location to place the decal in world space.
 
 Rotation: Rotator. rotation to place the decal in world space.
 
-Life Span: Float (single-precision). destroy decal component after time runs out (0 = infinite).  
+Life Span: Float (single-precision). destroy decal component after time runs out (0 = infinite).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Decal Component Object Reference.
-

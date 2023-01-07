@@ -2,11 +2,11 @@
 
 设置勾选行为
 
-目标是Niagara粒子系统组件
+目标是 Niagara 粒子系统组件
 
 ## 图示
 
-![]($-20221218-20142216.png)
+![](/uploads/projects/ue-bluprint/20221218-20142216.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。尼亚加拉粒子系统组件对象参考。
 
-新的Tick行为。ENiagaraTickBehavior Enum.  
+新的 Tick 行为。ENiagaraTickBehavior Enum.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Tick Behavior
 
@@ -26,7 +28,7 @@ Target is Niagara Particle System Component
 
 ## 图示
 
-![]($-20221218-20142216.png)
+![](/uploads/projects/ue-bluprint/20221218-20142216.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Niagara Particle System Component Object Reference.
 
-New Tick Behavior: ENiagaraTickBehavior Enum.  
+New Tick Behavior: ENiagaraTickBehavior Enum.
 
 ## Outputs
 
 Out: Exec.
-

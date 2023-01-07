@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17330587.png)
+![](/uploads/projects/ue-bluprint/20221218-17330587.png)
 
 ## Inputs
 
@@ -20,17 +20,17 @@
 
 设置新的运动模式。Boolean（布尔）。
 
-运动模式。EMovementMode枚举。
+运动模式。EMovementMode 枚举。
 
 将速度限制在预期范围内。Boolean（布尔）。
 
 Path Offset Curve: Curve Vector Object Reference.
 
-完成时的速度模式。ERootMotionFinishVelocityMode枚举。
+完成时的速度模式。ERootMotionFinishVelocityMode 枚举。
 
 设置完成时的速度。Vector.
 
-完成时夹持速度：向量。Float（单精度）。 
+完成时夹持速度：向量。Float（单精度）。
 
 ## Outputs
 
@@ -42,13 +42,15 @@ On Timed Out: 执行。计时结束时：执行。
 
 在超时且到达目的地时。执行。计时结束并到达目的地。
 
+<hr>
+
 Apply force to character's movement
 
 Target is Ability Task Apply Root Motion Move to Force
 
 ## 图示
 
-![]($-20221218-17330587.png)
+![](/uploads/projects/ue-bluprint/20221218-17330587.png)
 
 ## Inputs
 
@@ -72,7 +74,7 @@ Velocity on Finish Mode: ERootMotionFinishVelocityMode Enum.
 
 Set Velocity on Finish: Vector.
 
-Clamp Velocity on Finish: Float (single-precision).  
+Clamp Velocity on Finish: Float (single-precision).
 
 ## Outputs
 
@@ -83,4 +85,3 @@ Async Task: Ability Task Apply Root Motion Move To Force Object Reference.
 On Timed Out: Exec. On Timed Out.
 
 On Timed Out And Destination Reached: Exec. On Timed Out and Destination Reached.
-

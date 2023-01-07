@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-18460069.png)
+![](/uploads/projects/ue-bluprint/20221218-18460069.png)
 
 ## Inputs
 
@@ -12,18 +12,20 @@
 
 ## Outputs
 
-返回值。Boolean，如果当前启用了光线追踪支持，则为true。
+返回值。Boolean，如果当前启用了光线追踪支持，则为 true。
+
+<hr>
+
 Target is Base Dynamic Mesh Component
 
 ## 图示
 
-![]($-20221218-18460069.png)
+![](/uploads/projects/ue-bluprint/20221218-18460069.png)
 
 ## Inputs
 
-Target: Base Dynamic Mesh Component Object Reference.  
+Target: Base Dynamic Mesh Component Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. true if raytracing support is currently enabled.
-

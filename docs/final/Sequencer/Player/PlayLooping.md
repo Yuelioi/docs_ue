@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20514843.png)
+![](/uploads/projects/ue-bluprint/20221218-20514843.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。电影场景序列播放器对象参考。
 
-Num 循环。整数。要播放的循环次数。-1表示无限次循环。
+Num 循环。整数。要播放的循环次数。-1 表示无限次循环。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Start playback from the current time cursor position, looping the specified number of times.
 
@@ -26,7 +28,7 @@ Target is Movie Scene Sequence Player
 
 ## 图示
 
-![]($-20221218-20514843.png)
+![](/uploads/projects/ue-bluprint/20221218-20514843.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Movie Scene Sequence Player Object Reference.
 
-Num Loops: Integer. The number of loops to play. -1 indicates infinite looping..  
+Num Loops: Integer. The number of loops to play. -1 indicates infinite looping..
 
 ## Outputs
 
 Out: Exec.
-

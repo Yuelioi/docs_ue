@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18252990.png)
+![](/uploads/projects/ue-bluprint/20221218-18252990.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 变形中。Transform（通过引用）。
 
-Bone Space（骨空间）。EB boneSpaces Enum。 
+Bone Space（骨空间）。EB boneSpaces Enum。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Set Bone Transform by Name
 
@@ -30,7 +32,7 @@ Target is Poseable Mesh Component
 
 ## 图示
 
-![]($-20221218-18252990.png)
+![](/uploads/projects/ue-bluprint/20221218-18252990.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Bone Name: Name.
 
 In Transform: Transform (by ref).
 
-Bone Space: EBoneSpaces Enum.  
+Bone Space: EBoneSpaces Enum.
 
 ## Outputs
 
 Out: Exec.
-

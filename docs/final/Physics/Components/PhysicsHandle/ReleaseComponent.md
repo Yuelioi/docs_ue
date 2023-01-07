@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20214226.png)
+![](/uploads/projects/ue-bluprint/20221218-20214226.png)
 
 ## Inputs
 
 在。执行。
 
-目标。物理手柄组件对象参考。  
+目标。物理手柄组件对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Release the currently held component
 
@@ -24,15 +26,14 @@ Target is Physics Handle Component
 
 ## 图示
 
-![]($-20221218-20214226.png)
+![](/uploads/projects/ue-bluprint/20221218-20214226.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Physics Handle Component Object Reference.  
+Target: Physics Handle Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

@@ -1,12 +1,12 @@
 # MakeDateTime
 
-制作一个DateTime结构
+制作一个 DateTime 结构
 
-目标是Kismet数学图书馆
+目标是 Kismet 数学图书馆
 
 ## 图示
 
-![]($-20221218-19492551.png)
+![](/uploads/projects/ue-bluprint/20221218-19492551.png)
 
 ## Inputs
 
@@ -22,11 +22,13 @@
 
 第二：整数。
 
-毫秒：整数。  
+毫秒：整数。
 
 ## Outputs
 
-返回值。日期时间结构。制作一个DateTime结构。
+返回值。日期时间结构。制作一个 DateTime 结构。
+
+<hr>
 
 Makes a DateTime struct
 
@@ -34,7 +36,7 @@ Target is Kismet Math Library
 
 ## 图示
 
-![]($-20221218-19492551.png)
+![](/uploads/projects/ue-bluprint/20221218-19492551.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Minute: Integer.
 
 Second: Integer.
 
-Millisecond: Integer.  
+Millisecond: Integer.
 
 ## Outputs
 
 Return Value: Date Time Structure. Makes a DateTime struct.
-

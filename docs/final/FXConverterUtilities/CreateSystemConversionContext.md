@@ -2,17 +2,17 @@
 
 尼亚加拉系统和发射器助手
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19013464.png)
+![](/uploads/projects/ue-bluprint/20221218-19013464.png)
 
 ## Inputs
 
 在。执行。
 
-在系统中。Niagara系统对象参考。  
+在系统中。Niagara 系统对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。尼亚加拉系统转换语境对象参考。尼亚加拉系统和发射器帮助器。
 
+<hr>
+
 Niagara System and Emitter Helpers
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19013464.png)
+![](/uploads/projects/ue-bluprint/20221218-19013464.png)
 
 ## Inputs
 
 In: Exec.
 
-In System: Niagara System Object Reference.  
+In System: Niagara System Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Niagara System Conversion Context Object Reference. Niagara System and Emitter Helpers.
-

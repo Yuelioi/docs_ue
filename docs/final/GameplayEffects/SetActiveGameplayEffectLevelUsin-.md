@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19090953.png)
+![](/uploads/projects/ue-bluprint/20221218-19090953.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 查询。游戏效果查询结构。
 
-新级别。整数。  
+新级别。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Updates the level of an already applied gameplay effect. The intention is that this is 'seemless' and doesnt behave like removing/reapplying
 
@@ -28,7 +30,7 @@ Target is Ability System Component
 
 ## 图示
 
-![]($-20221218-19090953.png)
+![](/uploads/projects/ue-bluprint/20221218-19090953.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Ability System Component Object Reference.
 
 Query: Gameplay Effect Query Structure.
 
-New Level: Integer.  
+New Level: Integer.
 
 ## Outputs
 
 Out: Exec.
-

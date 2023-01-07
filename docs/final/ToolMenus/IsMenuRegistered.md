@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21134741.png)
+![](/uploads/projects/ue-bluprint/20221218-21134741.png)
 
 ## Inputs
 
 目标。工具菜单对象参考。
 
-姓名。名称.要找到的菜单的名称。  
+姓名。名称.要找到的菜单的名称。
 
 ## Outputs
 
-返回值。bool 如果菜单已经被注册，则为True。
+返回值。bool 如果菜单已经被注册，则为 True。
+
+<hr>
 
 Determines if a menu has already been registered.
 
@@ -24,15 +26,14 @@ Target is Tool Menus
 
 ## 图示
 
-![]($-20221218-21134741.png)
+![](/uploads/projects/ue-bluprint/20221218-21134741.png)
 
 ## Inputs
 
 Target: Tool Menus Object Reference.
 
-Name: Name. Name of the menu to find..  
+Name: Name. Name of the menu to find..
 
 ## Outputs
 
 Return Value: Boolean. bool True if menu has already been registered..
-

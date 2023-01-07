@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-17322338.png)
+![](/uploads/projects/ue-bluprint/20221218-17322338.png)
 
 ## Inputs
 
 在。执行。
 
-目标。游戏能力对象参考。 
+目标。游戏能力对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 错。执行。
 
+<hr>
+
 True if the owning actor is locally controlled, true in single player
 
 Target is Gameplay Ability
 
 ## 图示
 
-![]($-20221218-17322338.png)
+![](/uploads/projects/ue-bluprint/20221218-17322338.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Gameplay Ability Object Reference.  
+Target: Gameplay Ability Object Reference.
 
 ## Outputs
 
 True: Exec.
 
 False: Exec.
-

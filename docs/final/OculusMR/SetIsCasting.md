@@ -1,24 +1,26 @@
 # SetIsCasting
 
-打开和关闭MRC
+打开和关闭 MRC
 
-目标是Oculus MR设置
+目标是 Oculus MR 设置
 
 ## 图示
 
-![]($-20221218-20160699.png)
+![](/uploads/projects/ue-bluprint/20221218-20160699.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Oculus MR设置对象参考。
+目标。Oculus MR 设置对象参考。
 
-Val：布尔值。  
+Val：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Turns MRC on and off
 
@@ -26,7 +28,7 @@ Target is Oculus MR Settings
 
 ## 图示
 
-![]($-20221218-20160699.png)
+![](/uploads/projects/ue-bluprint/20221218-20160699.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Oculus MR Settings Object Reference.
 
-Val: Boolean.  
+Val: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

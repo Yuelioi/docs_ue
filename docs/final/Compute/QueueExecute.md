@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18295365.png)
+![](/uploads/projects/ue-bluprint/20221218-18295365.png)
 
 ## Inputs
 
 在。执行。
 
-目标。计算图形组件对象参考。 
+目标。计算图形组件对象参考。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Queue the graph for execution at the next render update.
 
@@ -24,15 +26,14 @@ Target is Compute Graph Component
 
 ## 图示
 
-![]($-20221218-18295365.png)
+![](/uploads/projects/ue-bluprint/20221218-18295365.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Compute Graph Component Object Reference.  
+Target: Compute Graph Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20080388.png)
+![](/uploads/projects/ue-bluprint/20221218-20080388.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。物理运动组件对象参考。
 
-制动强度。浮动式（单精度）。  
+制动强度。浮动式（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Auto Brake Strength
 
@@ -26,7 +28,7 @@ Target is Physics Movement Component
 
 ## 图示
 
-![]($-20221218-20080388.png)
+![](/uploads/projects/ue-bluprint/20221218-20080388.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Physics Movement Component Object Reference.
 
-Brake Strength: Float (single-precision).  
+Brake Strength: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

@@ -8,13 +8,13 @@
 
 ## 图示
 
-![]($-20221218-18265197.png)
+![](/uploads/projects/ue-bluprint/20221218-18265197.png)
 
 ## Inputs
 
 目标。剥皮的网状构件对象参考。
 
-骨骼名称。名称。骨头的名称。 
+骨骼名称。名称。骨头的名称。
 
 ## Outputs
 
@@ -22,7 +22,9 @@ Out Twist Angle（扭曲角度）。Float（单精度）。扭转角度，度数
 
 输出摆动角度。Float（单精度）。摆动角度，度数。
 
-返回值。布尔值。如果成功，为true。否则为假。通常是由于骨骼名称不正确。
+返回值。布尔值。如果成功，为 true。否则为假。通常是由于骨骼名称不正确。
+
+<hr>
 
 Get Twist and Swing Angle in Degree of Delta Rotation from Reference Pose in Local space
 
@@ -32,13 +34,13 @@ Target is Skinned Mesh Component
 
 ## 图示
 
-![]($-20221218-18265197.png)
+![](/uploads/projects/ue-bluprint/20221218-18265197.png)
 
 ## Inputs
 
 Target: Skinned Mesh Component Object Reference.
 
-Bone Name: Name. Name of the bone.  
+Bone Name: Name. Name of the bone.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out Twist Angle: Float (single-precision). TwistAngle in degree.
 Out Swing Angle: Float (single-precision). SwingAngle in degree.
 
 Return Value: Boolean. true if succeed. False otherwise. Often due to incorrect bone name..
-

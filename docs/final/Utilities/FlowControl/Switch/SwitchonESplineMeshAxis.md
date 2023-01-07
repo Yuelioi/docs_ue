@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14234804.png)
+![](/uploads/projects/ue-bluprint/20221218-14234804.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESplineMeshAxis Enum.  
+选择。ESplineMeshAxis Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Y：执行。
 
 Z：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14234804.png)
+![](/uploads/projects/ue-bluprint/20221218-14234804.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESplineMeshAxis Enum.  
+Selection: ESplineMeshAxis Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ X: Exec.
 Y: Exec.
 
 Z: Exec.
-

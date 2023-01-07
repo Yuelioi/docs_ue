@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19080544.png)
+![](/uploads/projects/ue-bluprint/20221218-19080544.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。网络预测额外的字符对象参考。
 
-加法最大移动速度。Float（单精度）。  
+加法最大移动速度。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add Max Move Speed
 
@@ -26,7 +28,7 @@ Target is Network Prediction Extras Character
 
 ## 图示
 
-![]($-20221218-19080544.png)
+![](/uploads/projects/ue-bluprint/20221218-19080544.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Network Prediction Extras Character Object Reference.
 
-Additive Max Move Speed: Float (single-precision).  
+Additive Max Move Speed: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

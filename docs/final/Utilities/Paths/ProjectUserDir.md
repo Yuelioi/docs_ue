@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-14282358.png)
+![](/uploads/projects/ue-bluprint/20221218-14282358.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。字符串。游戏用户目录。
 
+<hr>
+
 Returns the root directory for user-specific game files.
 
 Target is Blueprint Paths Library
 
 ## 图示
 
-![]($-20221218-14282358.png)
+![](/uploads/projects/ue-bluprint/20221218-14282358.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: String. game user directory.
-

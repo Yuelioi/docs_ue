@@ -2,17 +2,17 @@
 
 获取粒子模块类型数据的带状道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19030439.png)
+![](/uploads/projects/ue-bluprint/20221218-19030439.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。带状数据对象参考。  
+粒子模块。带状数据对象参考。
 
 ## Outputs
 
@@ -50,11 +50,13 @@ Out Render Tessellation:Boolean.
 
 铺设距离。Float（单精度）。
 
-Out Distance Tessellation步骤大小。Float（单精度）。
+Out Distance Tessellation 步骤大小。Float（单精度）。
 
 Out Enable Tangent Diff Interp Scale:布尔型。
 
 Out Tangent Tessellation Scalar。Float（单精度）。
+
+<hr>
 
 Get Particle Module Type Data Ribbon Props
 
@@ -62,13 +64,13 @@ Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19030439.png)
+![](/uploads/projects/ue-bluprint/20221218-19030439.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Ribbon Data Object Reference.  
+Particle Module: Ribbon Data Object Reference.
 
 ## Outputs
 
@@ -111,4 +113,3 @@ Out Distance Tessellation Step Size: Float (single-precision).
 Out Enable Tangent Diff Interp Scale: Boolean.
 
 Out Tangent Tessellation Scalar: Float (single-precision).
-

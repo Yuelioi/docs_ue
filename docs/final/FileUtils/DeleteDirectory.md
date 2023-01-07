@@ -2,11 +2,11 @@
 
 删除一个目录和其中的所有文件，也可以选择删除其中的所有子目录和文件。
 
-目标是蓝图文件利用系统BPLibrary
+目标是蓝图文件利用系统 BPLibrary
 
 ## 图示
 
-![]($-20221218-19001600.png)
+![](/uploads/projects/ue-bluprint/20221218-19001600.png)
 
 ## Inputs
 
@@ -22,7 +22,9 @@
 
 出：执行。
 
-返回值。布尔值。如果目录被成功删除，则为true，否则为false。
+返回值。布尔值。如果目录被成功删除，则为 true，否则为 false。
+
+<hr>
 
 Deletes a directory and all the files in it and optionally all sub-directories and files within it
 
@@ -30,7 +32,7 @@ Target is Blueprint File Utils BPLibrary
 
 ## 图示
 
-![]($-20221218-19001600.png)
+![](/uploads/projects/ue-bluprint/20221218-19001600.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Directory: String. The Directory to delete.
 
 Must Exist: Boolean. If true, the directory must exist or the return value will be false.
 
-Delete Recursively: Boolean. If true, all sub-directories will be deleted as well. If false and there are contents in the directory, the delete operation will fail..  
+Delete Recursively: Boolean. If true, all sub-directories will be deleted as well. If false and there are contents in the directory, the delete operation will fail..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if the directory was succesfully deleted, false otherwise.
-

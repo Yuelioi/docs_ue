@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17312851.png)
+![](/uploads/projects/ue-bluprint/20221218-17312851.png)
 
 ## Inputs
 
-活动手柄。活动的游戏效果手柄结构。 
+活动手柄。活动的游戏效果手柄结构。
 
 ## Outputs
 
 返回值。字符串。返回一个用于显示的调试字符串。
+
+<hr>
 
 Returns a debug string for display
 
@@ -22,13 +24,12 @@ Target is Ability System Blueprint Library
 
 ## 图示
 
-![]($-20221218-17312851.png)
+![](/uploads/projects/ue-bluprint/20221218-17312851.png)
 
 ## Inputs
 
-Active Handle: Active Gameplay Effect Handle Structure.  
+Active Handle: Active Gameplay Effect Handle Structure.
 
 ## Outputs
 
 Return Value: String. Returns a debug string for display.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14235767.png)
+![](/uploads/projects/ue-bluprint/20221218-14235767.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EStreamingSourcePriority Enum.  
+选择。EStreamingSourcePriority Enum.
 
 ## Outputs
 
@@ -26,17 +26,19 @@
 
 默认值。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14235767.png)
+![](/uploads/projects/ue-bluprint/20221218-14235767.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EStreamingSourcePriority Enum.  
+Selection: EStreamingSourcePriority Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Low: Exec.
 Lowest: Exec.
 
 Default: Exec.
-

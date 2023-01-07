@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14244673.png)
+![](/uploads/projects/ue-bluprint/20221218-14244673.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETouchSwipeDirection Enum.  
+选择。ETouchSwipeDirection Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Left: Exec.
 
 下：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14244673.png)
+![](/uploads/projects/ue-bluprint/20221218-14244673.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETouchSwipeDirection Enum.  
+Selection: ETouchSwipeDirection Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Right: Exec.
 Up: Exec.
 
 Down: Exec.
-

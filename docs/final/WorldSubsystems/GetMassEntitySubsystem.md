@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21380736.png)
+![](/uploads/projects/ue-bluprint/20221218-21380736.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。质量实体子系统对象参考。
 
+<hr>
+
 Get Mass Entity Subsystem (World Subsystem)
 
 @TODO: Comment this guy
 
 ## 图示
 
-![]($-20221218-21380736.png)
+![](/uploads/projects/ue-bluprint/20221218-21380736.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Mass Entity Subsystem Object Reference.
-

@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21354116.png)
+![](/uploads/projects/ue-bluprint/20221218-21354116.png)
 
 ## Inputs
 
 在。执行。
 
-目标。富文本块对象参考。  
+目标。富文本块对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Causes the text to reflow it's layout and re-evaluate any decorators
 
@@ -24,15 +26,14 @@ Target is Rich Text Block
 
 ## 图示
 
-![]($-20221218-21354116.png)
+![](/uploads/projects/ue-bluprint/20221218-21354116.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Rich Text Block Object Reference.  
+Target: Rich Text Block Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

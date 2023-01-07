@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21235315.png)
+![](/uploads/projects/ue-bluprint/20221218-21235315.png)
 
 ## Inputs
 
 在。执行。
 
-属性。属性值对象参考。  
+属性。属性值对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。浮点数（单精度）。获取浮点值。
 
+<hr>
+
 Get Value Float
 
 Target is Variant Manager Blueprint Library
 
 ## 图示
 
-![]($-20221218-21235315.png)
+![](/uploads/projects/ue-bluprint/20221218-21235315.png)
 
 ## Inputs
 
 In: Exec.
 
-Property: Property Value Object Reference.  
+Property: Property Value Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision). Get Value Float.
-

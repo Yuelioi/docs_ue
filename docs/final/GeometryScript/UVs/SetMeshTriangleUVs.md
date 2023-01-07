@@ -1,12 +1,12 @@
 # SetMeshTriangleUVs
 
-设置网格三角形的UV
+设置网格三角形的 UV
 
-目标是Geometry Script Library Mesh UVFunctions
+目标是 Geometry Script Library Mesh UVFunctions
 
 ## 图示
 
-![]($-20221218-19134878.png)
+![](/uploads/projects/ue-bluprint/20221218-19134878.png)
 
 ## Inputs
 
@@ -14,13 +14,13 @@
 
 目标网格。动态网格对象参考。
 
-UVSet索引。整数。
+UVSet 索引。整数。
 
-三角形ID：整数。
+三角形 ID：整数。
 
 紫外线。Geometry Script UVTriangle Structure.
 
-推迟更改通知。布尔值。  
+推迟更改通知。布尔值。
 
 ## Outputs
 
@@ -28,7 +28,9 @@ UVSet索引。整数。
 
 是有效三角。布尔型。
 
-目标网格。动态网格对象参考。设置网格三角形的UV。
+目标网格。动态网格对象参考。设置网格三角形的 UV。
+
+<hr>
 
 Set Mesh Triangle UVs
 
@@ -36,7 +38,7 @@ Target is Geometry Script Library Mesh UVFunctions
 
 ## 图示
 
-![]($-20221218-19134878.png)
+![](/uploads/projects/ue-bluprint/20221218-19134878.png)
 
 ## Inputs
 
@@ -50,7 +52,7 @@ Triangle ID: Integer.
 
 UVs: Geometry Script UVTriangle Structure.
 
-Defer Change Notifications: Boolean.  
+Defer Change Notifications: Boolean.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Out: Exec.
 Is Valid Triangle: Boolean.
 
 Target Mesh: Dynamic Mesh Object Reference. Set Mesh Triangle UVs.
-

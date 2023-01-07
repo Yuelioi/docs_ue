@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14243081.png)
+![](/uploads/projects/ue-bluprint/20221218-14243081.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETextGender Enum.  
+选择。ETextGender Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Feminine: 雌性：Exec.
 
 中性。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14243081.png)
+![](/uploads/projects/ue-bluprint/20221218-14243081.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETextGender Enum.  
+Selection: ETextGender Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Masculine: Exec.
 Feminine: Exec.
 
 Neuter: Exec.
-

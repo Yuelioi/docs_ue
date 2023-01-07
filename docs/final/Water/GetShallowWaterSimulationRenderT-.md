@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-21321714.png)
+![](/uploads/projects/ue-bluprint/20221218-21321714.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。整数。获取浅水模拟的渲染目标尺寸。
 
+<hr>
+
 Get Shallow Water Simulation Render Target Size
 
 Target is Water Subsystem
 
 ## 图示
 
-![]($-20221218-21321714.png)
+![](/uploads/projects/ue-bluprint/20221218-21321714.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. Get Shallow Water Simulation Render Target Size.
-

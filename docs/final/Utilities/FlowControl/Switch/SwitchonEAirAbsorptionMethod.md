@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14160103.png)
+![](/uploads/projects/ue-bluprint/20221218-14160103.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAirAbsorptionMethod Enum.  
+选择。EAirAbsorptionMethod Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 Custom Curve: 执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14160103.png)
+![](/uploads/projects/ue-bluprint/20221218-14160103.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAirAbsorptionMethod Enum.  
+Selection: EAirAbsorptionMethod Enum.
 
 ## Outputs
 
 Linear: Exec.
 
 Custom Curve: Exec.
-

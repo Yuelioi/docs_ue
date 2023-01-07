@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21163748.png)
+![](/uploads/projects/ue-bluprint/20221218-21163748.png)
 
 ## Inputs
 
 在。执行。
 
-元素列表。类型化的元素列表结构。  
+元素列表。类型化的元素列表结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Remove all entries from this element list, preserving existing allocations.
 
@@ -24,15 +26,14 @@ Target is Typed Element List Library
 
 ## 图示
 
-![]($-20221218-21163748.png)
+![](/uploads/projects/ue-bluprint/20221218-21163748.png)
 
 ## Inputs
 
 In: Exec.
 
-Element List: Typed Element List Structure.  
+Element List: Typed Element List Structure.
 
 ## Outputs
 
 Out: Exec.
-

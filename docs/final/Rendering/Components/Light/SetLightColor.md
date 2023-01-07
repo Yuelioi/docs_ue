@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20342818.png)
+![](/uploads/projects/ue-bluprint/20221218-20342818.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 新的灯光颜色：线性颜色结构。
 
-SRGB：布尔值。  
+SRGB：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set color of the light
 
@@ -28,7 +30,7 @@ Target is Light Component
 
 ## 图示
 
-![]($-20221218-20342818.png)
+![](/uploads/projects/ue-bluprint/20221218-20342818.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Light Component Object Reference.
 
 New Light Color: Linear Color Structure.
 
-SRGB: Boolean.  
+SRGB: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

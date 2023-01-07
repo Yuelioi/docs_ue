@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-17513044.png)
+![](/uploads/projects/ue-bluprint/20221218-17513044.png)
 
 ## Inputs
 
 在。执行。
 
-动画序列基础。Anim Sequence Base Object Reference.  
+动画序列基础。Anim Sequence Base Object Reference.
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Removes All Animation Notify Tracks from Animation Sequence
 
@@ -24,15 +26,14 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17513044.png)
+![](/uploads/projects/ue-bluprint/20221218-17513044.png)
 
 ## Inputs
 
 In: Exec.
 
-Animation Sequence Base: Anim Sequence Base Object Reference.  
+Animation Sequence Base: Anim Sequence Base Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

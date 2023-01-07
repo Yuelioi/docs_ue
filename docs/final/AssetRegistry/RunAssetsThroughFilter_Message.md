@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18010308.png)
+![](/uploads/projects/ue-bluprint/20221218-18010308.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 资产数据列表。资产数据结构的数组。
 
-过滤器。ARFilter结构（通过引用）。 
+过滤器。ARFilter 结构（通过引用）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Trims items out of the asset data list that do not pass the supplied filter
 
@@ -28,7 +30,7 @@ Target is Asset Registry
 
 ## 图示
 
-![]($-20221218-18010308.png)
+![](/uploads/projects/ue-bluprint/20221218-18010308.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Object Reference.
 
 Asset Data List: Array of Asset Data Structures.
 
-Filter: ARFilter Structure (by ref).  
+Filter: ARFilter Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

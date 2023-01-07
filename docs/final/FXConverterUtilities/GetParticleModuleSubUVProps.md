@@ -1,18 +1,18 @@
 # GetParticleModuleSubUVProps
 
-获取粒子模块子UVProps
+获取粒子模块子 UVProps
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19025872.png)
+![](/uploads/projects/ue-bluprint/20221218-19025872.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。子图像索引对象参考。  
+粒子模块。子图像索引对象参考。
 
 ## Outputs
 
@@ -24,19 +24,21 @@
 
 Out Use Real Time: Boolean.
 
+<hr>
+
 Get Particle Module Sub UVProps
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19025872.png)
+![](/uploads/projects/ue-bluprint/20221218-19025872.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Sub Image Index Object Reference.  
+Particle Module: Sub Image Index Object Reference.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out Animation: Sub UVAnimation Object Reference.
 Out Sub Image Index: Distribution Object Reference.
 
 Out Use Real Time: Boolean.
-

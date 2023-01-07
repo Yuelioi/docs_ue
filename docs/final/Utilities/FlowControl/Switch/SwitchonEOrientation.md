@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14221307.png)
+![](/uploads/projects/ue-bluprint/20221218-14221307.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EOrientation Enum.  
+选择。EOrientation Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 垂直：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14221307.png)
+![](/uploads/projects/ue-bluprint/20221218-14221307.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EOrientation Enum.  
+Selection: EOrientation Enum.
 
 ## Outputs
 
 Horizontal: Exec.
 
 Vertical: Exec.
-

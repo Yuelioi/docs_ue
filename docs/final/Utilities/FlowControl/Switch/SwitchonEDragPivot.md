@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14183860.png)
+![](/uploads/projects/ue-bluprint/20221218-14183860.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDragPivot Enum.  
+选择。EDragPivot Enum.
 
 ## Outputs
 
@@ -34,17 +34,19 @@
 
 右下角：执行 执行者
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14183860.png)
+![](/uploads/projects/ue-bluprint/20221218-14183860.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDragPivot Enum.  
+Selection: EDragPivot Enum.
 
 ## Outputs
 
@@ -67,4 +69,3 @@ Bottom Left: Exec.
 Bottom Center: Exec.
 
 Bottom Right: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17543004.png)
+![](/uploads/projects/ue-bluprint/20221218-17543004.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标：边框对象参考。
 
-资产：石板刷资产对象参考。 
+资产：石板刷资产对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Brush from Asset
 
@@ -26,7 +28,7 @@ Target is Border
 
 ## 图示
 
-![]($-20221218-17543004.png)
+![](/uploads/projects/ue-bluprint/20221218-17543004.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Border Object Reference.
 
-Asset: Slate Brush Asset Object Reference.  
+Asset: Slate Brush Asset Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

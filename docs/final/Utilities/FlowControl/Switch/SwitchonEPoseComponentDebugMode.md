@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14222708.png)
+![](/uploads/projects/ue-bluprint/20221218-14222708.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EPoseComponentDebugMode Enum.  
+选择。EPoseComponentDebugMode Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 Show Skeleton: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14222708.png)
+![](/uploads/projects/ue-bluprint/20221218-14222708.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EPoseComponentDebugMode Enum.  
+Selection: EPoseComponentDebugMode Enum.
 
 ## Outputs
 
 None: Exec.
 
 Show Skeleton: Exec.
-

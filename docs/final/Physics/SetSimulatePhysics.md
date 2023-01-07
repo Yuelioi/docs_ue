@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20290387.png)
+![](/uploads/projects/ue-bluprint/20221218-20290387.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。原始组件对象参考。
 
-模拟。布尔值。单体的新模拟状态。  
+模拟。布尔值。单体的新模拟状态。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets whether or not a single body should use physics simulation, or should be 'fixed' (kinematic).. Note that if this component is currently attached to something, beginning simulation will detach it.
 
@@ -26,7 +28,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20290387.png)
+![](/uploads/projects/ue-bluprint/20221218-20290387.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Primitive Component Object Reference.
 
-Simulate: Boolean. New simulation state for single body.  
+Simulate: Boolean. New simulation state for single body.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21062982.png)
+![](/uploads/projects/ue-bluprint/20221218-21062982.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。水平序列媒体控制器对象参考。
 
-去同步阈值秒。Float（单精度）。  
+去同步阈值秒。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Forcibly synchronize the sequence to the server's position if it has diverged by more than the specified threshold
 
@@ -26,7 +28,7 @@ Target is Level Sequence Media Controller
 
 ## 图示
 
-![]($-20221218-21062982.png)
+![](/uploads/projects/ue-bluprint/20221218-21062982.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Level Sequence Media Controller Object Reference.
 
-Desync Threshold Seconds: Float (single-precision).  
+Desync Threshold Seconds: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

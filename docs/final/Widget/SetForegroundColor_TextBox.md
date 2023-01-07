@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21360653.png)
+![](/uploads/projects/ue-bluprint/20221218-21360653.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。文本框对象参考。
 
-颜色：线性颜色结构。  
+颜色：线性颜色结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Foreground Color
 
@@ -26,7 +28,7 @@ Target is Text Box
 
 ## 图示
 
-![]($-20221218-21360653.png)
+![](/uploads/projects/ue-bluprint/20221218-21360653.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Text Box Object Reference.
 
-Color: Linear Color Structure.  
+Color: Linear Color Structure.
 
 ## Outputs
 
 Out: Exec.
-

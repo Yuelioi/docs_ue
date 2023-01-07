@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-18460432.png)
+![](/uploads/projects/ue-bluprint/20221218-18460432.png)
 
 ## Inputs
 
@@ -13,17 +13,19 @@
 ## Outputs
 
 返回值。布尔值。如果二级缓冲区当前被设置为可见，则为真。
+
+<hr>
+
 Target is Base Dynamic Mesh Component
 
 ## 图示
 
-![]($-20221218-18460432.png)
+![](/uploads/projects/ue-bluprint/20221218-18460432.png)
 
 ## Inputs
 
-Target: Base Dynamic Mesh Component Object Reference.  
+Target: Base Dynamic Mesh Component Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. true if secondary buffers are currently set to be visible.
-

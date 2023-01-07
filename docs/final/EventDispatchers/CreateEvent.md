@@ -4,7 +4,7 @@ K2Node Create Delegate
 
 ## 图示
 
-![]($-20221218-18563405.png)
+![](/uploads/projects/ue-bluprint/20221218-18563405.png)
 
 ## Inputs
 
@@ -13,17 +13,19 @@ K2Node Create Delegate
 ## Outputs
 
 事件：代表。
+
+<hr>
+
 K2Node Create Delegate
 
 ## 图示
 
-![]($-20221218-18563405.png)
+![](/uploads/projects/ue-bluprint/20221218-18563405.png)
 
 ## Inputs
 
-Object: Object Reference.  
+Object: Object Reference.
 
 ## Outputs
 
 Event: Delegate.
-

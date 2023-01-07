@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-19411225.png)
+![](/uploads/projects/ue-bluprint/20221218-19411225.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Empties the current selection.
 
@@ -22,13 +24,12 @@ Target is Level Sequence Editor Blueprint Library
 
 ## 图示
 
-![]($-20221218-19411225.png)
+![](/uploads/projects/ue-bluprint/20221218-19411225.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
-

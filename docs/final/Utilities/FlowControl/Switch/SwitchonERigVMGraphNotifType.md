@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14230672.png)
+![](/uploads/projects/ue-bluprint/20221218-14230672.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERigVMGraphNotifType枚举。 
+选择。ERigVMGraphNotifType 枚举。
 
 ## Outputs
 
@@ -94,17 +94,19 @@ Reroute Compactness 变更: Exec.
 
 无效的。更改了: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14230672.png)
+![](/uploads/projects/ue-bluprint/20221218-14230672.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERigVMGraphNotifType Enum.  
+Selection: ERigVMGraphNotifType Enum.
 
 ## Outputs
 
@@ -187,4 +189,3 @@ Node Description Changed: Exec.
 Variable Remapping Changed: Exec.
 
 Invalid: Exec.
-

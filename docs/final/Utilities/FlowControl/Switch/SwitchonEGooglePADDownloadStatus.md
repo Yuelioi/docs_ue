@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14201152.png)
+![](/uploads/projects/ue-bluprint/20221218-14201152.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGooglePADDownloadStatus枚举。 
+选择。EGooglePADDownloadStatus 枚举。
 
 ## Outputs
 
@@ -28,7 +28,7 @@ Asset Pack TRANSFERRING: Exec.
 
 资产包下载取消。Exec.
 
-资产包正在等待WIFI。Exec.
+资产包正在等待 WIFI。Exec.
 
 资产包未安装。Exec.
 
@@ -40,17 +40,19 @@ Asset Pack TRANSFERRING: Exec.
 
 资产包删除失败。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14201152.png)
+![](/uploads/projects/ue-bluprint/20221218-14201152.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGooglePADDownloadStatus Enum.  
+Selection: EGooglePADDownloadStatus Enum.
 
 ## Outputs
 
@@ -79,4 +81,3 @@ Asset Pack INFO FAILED: Exec.
 Asset Pack REMOVAL PENDING: Exec.
 
 Asset Pack REMOVAL FAILED: Exec.
-

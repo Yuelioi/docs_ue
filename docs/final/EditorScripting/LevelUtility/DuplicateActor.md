@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18503987.png)
+![](/uploads/projects/ue-bluprint/20221218-18503987.png)
 
 ## Inputs
 
@@ -25,13 +25,16 @@
 出：执行。
 
 返回值。演员对象参考。被复制的演员，如果没有成功，则没有。
+
+<hr>
+
 Duplicate an actor from the world editor.
 
 Target is Editor Actor Subsystem
 
 ## 图示
 
-![]($-20221218-18503987.png)
+![](/uploads/projects/ue-bluprint/20221218-18503987.png)
 
 ## Inputs
 
@@ -43,11 +46,10 @@ Actor to Duplicate: Actor Object Reference. Actor to duplicate..
 
 To World: World Object Reference. World to place the duplicated actor in..
 
-Offset: Vector. Translation to offset duplicated actor by..  
+Offset: Vector. Translation to offset duplicated actor by..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Actor Object Reference. The duplicated actor, or none if it didn't succeed.
-

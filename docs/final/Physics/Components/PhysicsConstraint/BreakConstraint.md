@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20204984.png)
+![](/uploads/projects/ue-bluprint/20221218-20204984.png)
 
 ## Inputs
 
 在。执行。
 
-目标。物理约束组件对象参考。  
+目标。物理约束组件对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Break this constraint
 
@@ -24,15 +26,14 @@ Target is Physics Constraint Component
 
 ## 图示
 
-![]($-20221218-20204984.png)
+![](/uploads/projects/ue-bluprint/20221218-20204984.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Physics Constraint Component Object Reference.  
+Target: Physics Constraint Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

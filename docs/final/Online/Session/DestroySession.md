@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20163044.png)
+![](/uploads/projects/ue-bluprint/20221218-20163044.png)
 
 ## Inputs
 
 在。执行。
 
-播放器控制器。播放器控制器对象参考。  
+播放器控制器。播放器控制器对象参考。
 
 ## Outputs
 
@@ -22,19 +22,21 @@
 
 失败时。执行。失败时：。当有一个不成功的销毁时被调用。
 
+<hr>
+
 Destroys a session previously created by the default online subsystem
 
 Target is Destroy Session Callback Proxy
 
 ## 图示
 
-![]($-20221218-20163044.png)
+![](/uploads/projects/ue-bluprint/20221218-20163044.png)
 
 ## Inputs
 
 In: Exec.
 
-Player Controller: Player Controller Object Reference.  
+Player Controller: Player Controller Object Reference.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Out: Exec.
 On Success: Exec. On Success:. Called when there is a successful destroy.
 
 On Failure: Exec. On Failure:. Called when there is an unsuccessful destroy.
-

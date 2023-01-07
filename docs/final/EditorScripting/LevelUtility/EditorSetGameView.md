@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18505082.png)
+![](/uploads/projects/ue-bluprint/20221218-18505082.png)
 
 ## Inputs
 
@@ -21,13 +21,16 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Editor Set Game View
 
 Target is Level Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18505082.png)
+![](/uploads/projects/ue-bluprint/20221218-18505082.png)
 
 ## Inputs
 
@@ -37,9 +40,8 @@ Target: Level Editor Subsystem Object Reference.
 
 Game View: Boolean.
 
-Viewport Config Key: Name.  
+Viewport Config Key: Name.
 
 ## Outputs
 
 Out: Exec.
-

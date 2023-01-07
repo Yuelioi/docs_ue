@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21104284.png)
+![](/uploads/projects/ue-bluprint/20221218-21104284.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。采取记录器来源对象参考。
 
-在源头。采取录音机源对象参考。要删除的源。  
+在源头。采取录音机源对象参考。要删除的源。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Remove the specified source from this list
 
@@ -26,7 +28,7 @@ Target is Take Recorder Sources
 
 ## 图示
 
-![]($-20221218-21104284.png)
+![](/uploads/projects/ue-bluprint/20221218-21104284.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Take Recorder Sources Object Reference.
 
-In Source: Take Recorder Source Object Reference. The source to remove.  
+In Source: Take Recorder Source Object Reference. The source to remove.
 
 ## Outputs
 
 Out: Exec.
-

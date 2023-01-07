@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14224119.png)
+![](/uploads/projects/ue-bluprint/20221218-14224119.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EQuarztQuantizationReference Enum.  
+选择。EQuarztQuantizationReference Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Transport Relative: Exec.
 
 目前的时间相对于。执行中。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14224119.png)
+![](/uploads/projects/ue-bluprint/20221218-14224119.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EQuarztQuantizationReference Enum.  
+Selection: EQuarztQuantizationReference Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Bar Relative: Exec.
 Transport Relative: Exec.
 
 Current Time Relative: Exec.
-

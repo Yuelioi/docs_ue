@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20410856.png)
+![](/uploads/projects/ue-bluprint/20221218-20410856.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 渲染阶段：整数。
 
-阶段总数。整数。  
+阶段总数。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Requests the retainer redrawn the contents it has.
 
@@ -28,7 +30,7 @@ Target is Retainer Box
 
 ## 图示
 
-![]($-20221218-20410856.png)
+![](/uploads/projects/ue-bluprint/20221218-20410856.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Retainer Box Object Reference.
 
 Render Phase: Integer.
 
-Total Phases: Integer.  
+Total Phases: Integer.
 
 ## Outputs
 
 Out: Exec.
-

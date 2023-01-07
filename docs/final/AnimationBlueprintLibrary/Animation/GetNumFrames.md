@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17512034.png)
+![](/uploads/projects/ue-bluprint/20221218-17512034.png)
 
 ## Inputs
 
-动画序列基础。Anim Sequence Base Object Reference.  
+动画序列基础。Anim Sequence Base Object Reference.
 
 ## Outputs
 
 Num Frames（帧数）。整数。
+
+<hr>
 
 Retrieves the number of animation frames for the given Animation Sequence
 
@@ -22,13 +24,12 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17512034.png)
+![](/uploads/projects/ue-bluprint/20221218-17512034.png)
 
 ## Inputs
 
-Animation Sequence Base: Anim Sequence Base Object Reference.  
+Animation Sequence Base: Anim Sequence Base Object Reference.
 
 ## Outputs
 
 Num Frames: Integer.
-

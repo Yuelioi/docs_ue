@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21351060.png)
+![](/uploads/projects/ue-bluprint/20221218-21351060.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 用户索引：整数。
 
-指针索引。整数。  
+指针索引。整数。
 
 ## Outputs
 
 返回值。布尔值。如果这个小部件已经捕获了给定用户和指针的鼠标，则为真。
+
+<hr>
 
 Checks to see if this widget is the current mouse captor
 
@@ -26,7 +28,7 @@ Target is Widget
 
 ## 图示
 
-![]($-20221218-21351060.png)
+![](/uploads/projects/ue-bluprint/20221218-21351060.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Target: Widget Object Reference.
 
 User Index: Integer.
 
-Pointer Index: Integer.  
+Pointer Index: Integer.
 
 ## Outputs
 
 Return Value: Boolean. True if this widget has captured the mouse with given user and pointer.
-

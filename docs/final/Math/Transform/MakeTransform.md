@@ -2,11 +2,11 @@
 
 从位置、旋转和比例进行转换
 
-目标是Kismet数学图书馆
+目标是 Kismet 数学图书馆
 
 ## 图示
 
-![]($-20221218-19554300.png)
+![](/uploads/projects/ue-bluprint/20221218-19554300.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 旋转： 旋转器。
 
-规模：向量。  
+规模：向量。
 
 ## Outputs
 
 返回值。变换。从位置、旋转和比例做一个变换。
+
+<hr>
 
 Make a transform from location, rotation and scale
 
@@ -26,7 +28,7 @@ Target is Kismet Math Library
 
 ## 图示
 
-![]($-20221218-19554300.png)
+![](/uploads/projects/ue-bluprint/20221218-19554300.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Location: Vector.
 
 Rotation: Rotator.
 
-Scale: Vector.  
+Scale: Vector.
 
 ## Outputs
 
 Return Value: Transform. Make a transform from location, rotation and scale.
-

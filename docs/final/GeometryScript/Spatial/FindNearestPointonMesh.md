@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19132325.png)
+![](/uploads/projects/ue-bluprint/20221218-19132325.png)
 
 ## Inputs
 
@@ -14,13 +14,13 @@
 
 目标网格。动态网格对象参考。
 
-查询BVH：动态网格BVH缓存结构（通过参考）。
+查询 BVH：动态网格 BVH 缓存结构（通过参考）。
 
 查询点。向量。
 
-选项。BVH查询选项结构。
+选项。BVH 查询选项结构。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -32,13 +32,15 @@
 
 目标网格。动态网格对象参考。在网格上寻找最近的点。
 
+<hr>
+
 Find Nearest Point on Mesh
 
 Target is Geometry Script Library Mesh Spatial
 
 ## 图示
 
-![]($-20221218-19132325.png)
+![](/uploads/projects/ue-bluprint/20221218-19132325.png)
 
 ## Inputs
 
@@ -52,7 +54,7 @@ Query Point: Vector.
 
 Options: BVH Query Options Structure.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -63,4 +65,3 @@ Not Found: Exec.
 Nearest Result: Geometry Script Triangle Point Structure.
 
 Target Mesh: Dynamic Mesh Object Reference. Find Nearest Point on Mesh.
-

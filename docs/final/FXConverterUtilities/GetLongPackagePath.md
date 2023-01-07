@@ -2,17 +2,17 @@
 
 通用工具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19020703.png)
+![](/uploads/projects/ue-bluprint/20221218-19020703.png)
 
 ## Inputs
 
 在。执行。
 
-在长包名称。绳索。  
+在长包名称。绳索。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。字符串。通用的实用程序。
 
+<hr>
+
 Generic Utilities
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19020703.png)
+![](/uploads/projects/ue-bluprint/20221218-19020703.png)
 
 ## Inputs
 
 In: Exec.
 
-In Long Package Name: String.  
+In Long Package Name: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: String. Generic Utilities.
-

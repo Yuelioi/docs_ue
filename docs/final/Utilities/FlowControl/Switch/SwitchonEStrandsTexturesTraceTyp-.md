@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14235680.png)
+![](/uploads/projects/ue-bluprint/20221218-14235680.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EStrandsTexturesTraceType枚举。 
+选择。EStrandsTexturesTraceType 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Trace Ouside: Exec.
 
 Trace Bidirectional: 执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14235680.png)
+![](/uploads/projects/ue-bluprint/20221218-14235680.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EStrandsTexturesTraceType Enum.  
+Selection: EStrandsTexturesTraceType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Trace Inside: Exec.
 Trace Ouside: Exec.
 
 Trace Bidirectional: Exec.
-

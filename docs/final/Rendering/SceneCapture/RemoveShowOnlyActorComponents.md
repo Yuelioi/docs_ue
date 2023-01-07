@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20385948.png)
+![](/uploads/projects/ue-bluprint/20221218-20385948.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在演员中。演员对象参考。
 
-从儿童演员中包括。布尔值。是否从子演员中移除组件。  
+从儿童演员中包括。布尔值。是否从子演员中移除组件。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Removes an actor's components from the Show Only list.
 
@@ -28,7 +30,7 @@ Target is Scene Capture Component
 
 ## 图示
 
-![]($-20221218-20385948.png)
+![](/uploads/projects/ue-bluprint/20221218-20385948.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Scene Capture Component Object Reference.
 
 In Actor: Actor Object Reference.
 
-Include from Child Actors: Boolean. Whether to remove the components from child actors.  
+Include from Child Actors: Boolean. Whether to remove the components from child actors.
 
 ## Outputs
 
 Out: Exec.
-

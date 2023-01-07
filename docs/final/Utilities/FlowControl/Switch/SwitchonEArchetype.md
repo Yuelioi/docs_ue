@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14161980.png)
+![](/uploads/projects/ue-bluprint/20221218-14161980.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EArchetype Enum.  
+选择。EArchetype Enum.
 
 ## Outputs
 
@@ -26,17 +26,19 @@
 
 其他 执行者
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14161980.png)
+![](/uploads/projects/ue-bluprint/20221218-14161980.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EArchetype Enum.  
+Selection: EArchetype Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Hispanic: Exec.
 Alien: Exec.
 
 Other: Exec.
-

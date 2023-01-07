@@ -2,11 +2,7 @@
 
 在这一页
 
-  * 行动
-
-
-
-
+- 行动
 
 ## Actions
 
@@ -20,25 +16,23 @@
 
 鼠标滚轮向上。鼠标滚轮向上键被按下或释放时的事件。
 
-鼠标X：当输入被启用时，每帧提供一次鼠标X轴的当前值的事件，包含演员。
+鼠标 X：当输入被启用时，每帧提供一次鼠标 X 轴的当前值的事件，包含演员。
 
-鼠标XY二维轴。当输入功能被激活时，每帧提供一次鼠标XY 2D轴的当前值的事件。
+鼠标 XY 二维轴。当输入功能被激活时，每帧提供一次鼠标 XY 2D 轴的当前值的事件。
 
-鼠标Y：当输入被启用时，每帧提供一次鼠标Y轴的当前值的事件，包含演员。
+鼠标 Y：当输入被启用时，每帧提供一次鼠标 Y 轴的当前值的事件，包含演员。
 
 鼠标右键。当鼠标右键被按下或释放时的事件。
 
 拇指鼠标按钮。拇指鼠标按钮键被按下或释放时的事件。
 
-拇指鼠标按钮2。当拇指鼠标按钮2键被按下或释放时的事件。
+拇指鼠标按钮 2。当拇指鼠标按钮 2 键被按下或释放时的事件。
 
-On this page 
+<hr>
 
-  * Actions
+On this page
 
-
-
-
+- Actions
 
 ## Actions
 
@@ -63,4 +57,3 @@ Right Mouse Button. Events for when the Right Mouse Button key is pressed or rel
 Thumb Mouse Button. Events for when the Thumb Mouse Button key is pressed or released..
 
 Thumb Mouse Button 2. Events for when the Thumb Mouse Button 2 key is pressed or released..
-

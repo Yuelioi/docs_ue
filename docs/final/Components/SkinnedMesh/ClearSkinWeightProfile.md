@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18263595.png)
+![](/uploads/projects/ue-bluprint/20221218-18263595.png)
 
 ## Inputs
 
 在。执行。
 
-目标。剥皮网状组件对象参考。 
+目标。剥皮网状组件对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Clear the Skin Weight Profile from this component, in case it is set
 
@@ -24,15 +26,14 @@ Target is Skinned Mesh Component
 
 ## 图示
 
-![]($-20221218-18263595.png)
+![](/uploads/projects/ue-bluprint/20221218-18263595.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Skinned Mesh Component Object Reference.  
+Target: Skinned Mesh Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

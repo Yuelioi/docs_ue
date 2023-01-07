@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19123946.png)
+![](/uploads/projects/ue-bluprint/20221218-19123946.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标网格。动态网格对象参考。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
 出：执行。
 
-目标网格。动态网格对象参考。启用Polygroups。
+目标网格。动态网格对象参考。启用 Polygroups。
+
+<hr>
 
 Enable Polygroups
 
@@ -28,7 +30,7 @@ Target is Geometry Script Library Mesh Polygroup Functions
 
 ## 图示
 
-![]($-20221218-19123946.png)
+![](/uploads/projects/ue-bluprint/20221218-19123946.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Enable Polygroups.
-

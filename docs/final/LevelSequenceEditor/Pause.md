@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-19413600.png)
+![](/uploads/projects/ue-bluprint/20221218-19413600.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Pause the current level sequence
 
@@ -22,13 +24,12 @@ Target is Level Sequence Editor Blueprint Library
 
 ## 图示
 
-![]($-20221218-19413600.png)
+![](/uploads/projects/ue-bluprint/20221218-19413600.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
-

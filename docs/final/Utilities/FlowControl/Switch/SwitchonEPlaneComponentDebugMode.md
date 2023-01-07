@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14222443.png)
+![](/uploads/projects/ue-bluprint/20221218-14222443.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EPlaneComponentDebugMode枚举。 
+选择。EPlaneComponentDebugMode 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 显示分类。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14222443.png)
+![](/uploads/projects/ue-bluprint/20221218-14222443.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EPlaneComponentDebugMode Enum.  
+Selection: EPlaneComponentDebugMode Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ None: Exec.
 Show Network Role: Exec.
 
 Show Classification: Exec.
-

@@ -1,12 +1,12 @@
 # TriggerBehavior
 
-K2触发行为
+K2 触发行为
 
 目标是游戏行为
 
 ## 图示
 
-![]($-20221218-19083667.png)
+![](/uploads/projects/ue-bluprint/20221218-19083667.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@ K2触发行为
 
 阿凡达：演员对象参考。
 
-配置。Gameplay Behavior配置对象参考。
+配置。Gameplay Behavior 配置对象参考。
 
-Smart Object Owner: Actor Object Reference.  
+Smart Object Owner: Actor Object Reference.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 K2 Trigger Behavior
 
@@ -30,7 +32,7 @@ Target is Gameplay Behavior
 
 ## 图示
 
-![]($-20221218-19083667.png)
+![](/uploads/projects/ue-bluprint/20221218-19083667.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Avatar: Actor Object Reference.
 
 Config: Gameplay Behavior Config Object Reference.
 
-Smart Object Owner: Actor Object Reference.  
+Smart Object Owner: Actor Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

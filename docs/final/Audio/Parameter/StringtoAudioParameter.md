@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18072177.png)
+![](/uploads/projects/ue-bluprint/20221218-18072177.png)
 
 ## Inputs
 
 名称。名称.
 
-字符串。字符串。 
+字符串。字符串。
 
 ## Outputs
 
 Parameter（参数）。音频参数结构。String to Audio Parameter.
+
+<hr>
 
 String to Audio Parameter
 
@@ -24,15 +26,14 @@ Target is Audio Parameter Conversion Statics
 
 ## 图示
 
-![]($-20221218-18072177.png)
+![](/uploads/projects/ue-bluprint/20221218-18072177.png)
 
 ## Inputs
 
 Name: Name.
 
-String: String.  
+String: String.
 
 ## Outputs
 
 Parameter: Audio Parameter Structure. String to Audio Parameter.
-

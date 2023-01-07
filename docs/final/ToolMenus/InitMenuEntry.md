@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21134621.png)
+![](/uploads/projects/ue-bluprint/20221218-21134621.png)
 
 ## Inputs
 
@@ -20,11 +20,11 @@
 
 在工具提示中。文本（通过参考）。
 
-命令类型。EToolMenuStringCommandType枚举。
+命令类型。EToolMenuStringCommandType 枚举。
 
 自定义命令类型。名称。
 
-命令字符串。字符串。  
+命令字符串。字符串。
 
 ## Outputs
 
@@ -32,13 +32,15 @@
 
 返回值。工具菜单条目结构。启动菜单条目。
 
+<hr>
+
 Init Menu Entry
 
 Target is Tool Menu Entry Extensions
 
 ## 图示
 
-![]($-20221218-21134621.png)
+![](/uploads/projects/ue-bluprint/20221218-21134621.png)
 
 ## Inputs
 
@@ -56,11 +58,10 @@ Command Type: EToolMenuStringCommandType Enum.
 
 Custom Command Type: Name.
 
-Command String: String.  
+Command String: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Tool Menu Entry Structure. Init Menu Entry.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17483242.png)
+![](/uploads/projects/ue-bluprint/20221218-17483242.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。游戏模式对象参考。
 
-Msg: 字符串。 
+Msg: 字符串。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Exec command to broadcast a string to all players
 
@@ -26,7 +28,7 @@ Target is Game Mode
 
 ## 图示
 
-![]($-20221218-17483242.png)
+![](/uploads/projects/ue-bluprint/20221218-17483242.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Game Mode Object Reference.
 
-Msg: String.  
+Msg: String.
 
 ## Outputs
 
 Out: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14243169.png)
+![](/uploads/projects/ue-bluprint/20221218-14243169.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETextJustify Enum.  
+选择。ETextJustify Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 右边 执笔：执笔
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14243169.png)
+![](/uploads/projects/ue-bluprint/20221218-14243169.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETextJustify Enum.  
+Selection: ETextJustify Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Left: Exec.
 Center: Exec.
 
 Right: Exec.
-

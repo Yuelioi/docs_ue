@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18042753.png)
+![](/uploads/projects/ue-bluprint/20221218-18042753.png)
 
 ## Inputs
 
 在。Exec.
 
-目标。Submix Effect Dynamics Processor Preset对象参考。 
+目标。Submix Effect Dynamics Processor Preset 对象参考。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Reset Key
 
@@ -24,15 +26,14 @@ Target is Submix Effect Dynamics Processor Preset
 
 ## 图示
 
-![]($-20221218-18042753.png)
+![](/uploads/projects/ue-bluprint/20221218-18042753.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Submix Effect Dynamics Processor Preset Object Reference.  
+Target: Submix Effect Dynamics Processor Preset Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

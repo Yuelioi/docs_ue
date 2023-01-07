@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18505877.png)
+![](/uploads/projects/ue-bluprint/20221218-18505877.png)
 
 ## Inputs
 
@@ -19,23 +19,25 @@
 出：执行。
 
 返回值。等级对象参考。当前级别。
+
+<hr>
+
 Get the current level used by the world editor.
 
 Target is Level Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18505877.png)
+![](/uploads/projects/ue-bluprint/20221218-18505877.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Level Editor Subsystem Object Reference.  
+Target: Level Editor Subsystem Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Level Object Reference. The current level.
-

@@ -1,10 +1,10 @@
-# DebugKeyGenericU-_2
+# DebugKeyGenericU-\_2
 
-GenericUSBController轴3键被按下或释放时的事件。
+GenericUSBController 轴 3 键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19183556.png)
+![](/uploads/projects/ue-bluprint/20221218-19183556.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@ GenericUSBController轴3键被按下或释放时的事件。
 
 行动值。输入行动值结构。
 
+<hr>
+
 Events for when the GenericUSBController Axis 3 key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19183556.png)
+![](/uploads/projects/ue-bluprint/20221218-19183556.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20114515.png)
+![](/uploads/projects/ue-bluprint/20221218-20114515.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。演员对象参考。
 
-新的休眠期。ENetDormancy 枚举。  
+新的休眠期。ENetDormancy 枚举。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Puts actor in dormant networking state
 
@@ -26,7 +28,7 @@ Target is Actor
 
 ## 图示
 
-![]($-20221218-20114515.png)
+![](/uploads/projects/ue-bluprint/20221218-20114515.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Actor Object Reference.
 
-New Dormancy: ENetDormancy Enum.  
+New Dormancy: ENetDormancy Enum.
 
 ## Outputs
 
 Out: Exec.
-

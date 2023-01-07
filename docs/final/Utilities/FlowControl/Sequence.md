@@ -4,31 +4,32 @@
 
 ## 图示
 
-![]($-20221218-14155546.png)
+![](/uploads/projects/ue-bluprint/20221218-14155546.png)
 
 ## Inputs
 
-在。执行。 
+在。执行。
 
 ## Outputs
 
-然后0：执行。
+然后 0：执行。
 
-然后1：执行。
+然后 1：执行。
+
+<hr>
 
 Executes a series of pins in order
 
 ## 图示
 
-![]($-20221218-14155546.png)
+![](/uploads/projects/ue-bluprint/20221218-14155546.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Then 0: Exec.
 
 Then 1: Exec.
-

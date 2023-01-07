@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19322764.png)
+![](/uploads/projects/ue-bluprint/20221218-19322764.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标：交换网格节点对象参考。
 
-属性值。箱体结构（通过参考）。  
+属性值。箱体结构（通过参考）。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。设置自定义包围盒。
 
+<hr>
+
 Set Custom Bounding Box
 
 Target is Interchange Mesh Node
 
 ## 图示
 
-![]($-20221218-19322764.png)
+![](/uploads/projects/ue-bluprint/20221218-19322764.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Interchange Mesh Node Object Reference.
 
-Attribute Value: Box Structure (by ref).  
+Attribute Value: Box Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Set Custom Bounding Box.
-

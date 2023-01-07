@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14212562.png)
+![](/uploads/projects/ue-bluprint/20221218-14212562.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMediaPlayerOptionBooleanOverride枚举。 
+选择。EMediaPlayerOptionBooleanOverride 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 禁用。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14212562.png)
+![](/uploads/projects/ue-bluprint/20221218-14212562.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMediaPlayerOptionBooleanOverride Enum.  
+Selection: EMediaPlayerOptionBooleanOverride Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Use Media Player Setting: Exec.
 Enabled: Exec.
 
 Disabled: Exec.
-

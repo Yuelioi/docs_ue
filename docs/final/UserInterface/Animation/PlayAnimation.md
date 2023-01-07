@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21213038.png)
+![](/uploads/projects/ue-bluprint/20221218-21213038.png)
 
 ## Inputs
 
@@ -18,13 +18,13 @@
 
 始于时间。Float（单精度）。动画中开始播放的时间，相对于起始位置。对于循环的动画，这只影响动画的第一次播放。
 
-Num Loops to Play: 整数。循环播放该动画的次数（0表示无限循环）。
+Num Loops to Play: 整数。循环播放该动画的次数（0 表示无限循环）。
 
-播放模式。EUMGSequencePlayMode枚举。指定播放模式。
+播放模式。EUMGSequencePlayMode 枚举。指定播放模式。
 
 播放速度。Float（单精度）。动画播放的速度。
 
-复原状态。布尔值。当动画停止时，将小部件恢复到它们预先的动画状态。  
+复原状态。布尔值。当动画停止时，将小部件恢复到它们预先的动画状态。
 
 ## Outputs
 
@@ -32,13 +32,15 @@ Num Loops to Play: 整数。循环播放该动画的次数（0表示无限循环
 
 返回值。UMGSequence 播放器对象参考。
 
+<hr>
+
 Plays an animation in this widget a specified number of times
 
 Target is User Widget
 
 ## 图示
 
-![]($-20221218-21213038.png)
+![](/uploads/projects/ue-bluprint/20221218-21213038.png)
 
 ## Inputs
 
@@ -56,11 +58,10 @@ Play Mode: EUMGSequencePlayMode Enum. Specifies the playback mode.
 
 Playback Speed: Float (single-precision). The speed at which the animation should play.
 
-Restore State: Boolean. Restores widgets to their pre-animated state when the animation stops.  
+Restore State: Boolean. Restores widgets to their pre-animated state when the animation stops.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: UMGSequence Player Object Reference.
-

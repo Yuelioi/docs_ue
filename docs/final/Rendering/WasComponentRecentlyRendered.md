@@ -1,22 +1,24 @@
 # WasComponentRecentlyRendered
 
-如果该组件 "最近 "被渲染，则返回 "true"，并以秒为单位定义 "最近 "的含义，例如。如果使用0.1的公差，这个函数将只在演员在游戏时间的最后0.1秒内被渲染时返回真。
+如果该组件 "最近 "被渲染，则返回 "true"，并以秒为单位定义 "最近 "的含义，例如。如果使用 0.1 的公差，这个函数将只在演员在游戏时间的最后 0.1 秒内被渲染时返回真。
 
 目标是原始组件
 
 ## 图示
 
-![]($-20221218-20403592.png)
+![](/uploads/projects/ue-bluprint/20221218-20403592.png)
 
 ## Inputs
 
 目标。原始组件对象参考。
 
-误差。浮点数（单精度）。演员最后一次渲染的时间是多少秒前，仍然可以算作 "最近 "渲染的时间。  
+误差。浮点数（单精度）。演员最后一次渲染的时间是多少秒前，仍然可以算作 "最近 "渲染的时间。
 
 ## Outputs
 
 返回值。布尔值。该演员是否最近被渲染过。
+
+<hr>
 
 Returns true if this component has been rendered "recently", with a tolerance in seconds to define what "recent" means.. e.g.: If a tolerance of 0.1 is used, this function will return true only if the actor was rendered in the last 0.1 seconds of game time.
 
@@ -24,15 +26,14 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20403592.png)
+![](/uploads/projects/ue-bluprint/20221218-20403592.png)
 
 ## Inputs
 
 Target: Primitive Component Object Reference.
 
-Tolerance: Float (single-precision). How many seconds ago the actor last render time can be and still count as having been "recently" rendered..  
+Tolerance: Float (single-precision). How many seconds ago the actor last render time can be and still count as having been "recently" rendered..
 
 ## Outputs
 
 Return Value: Boolean. Whether this actor was recently rendered..
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14223944.png)
+![](/uploads/projects/ue-bluprint/20221218-14223944.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EQuartzTimeSignatureQuantization Enum.  
+选择。EQuartzTimeSignatureQuantization Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@
 
 / 32：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14223944.png)
+![](/uploads/projects/ue-bluprint/20221218-14223944.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EQuartzTimeSignatureQuantization Enum.  
+Selection: EQuartzTimeSignatureQuantization Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Selection: EQuartzTimeSignatureQuantization Enum.
 / 16: Exec.
 
 / 32: Exec.
-

@@ -1,12 +1,12 @@
 # FindorAddModuleScript
 
-寻找或添加一个脚本转换环境到这个发射器转换环境。如果通过名称字符串没有找到一个脚本转换上下文，那么将从NiagaraScriptAssetData中创建并初始化一个新的脚本转换上下文。
+寻找或添加一个脚本转换环境到这个发射器转换环境。如果通过名称字符串没有找到一个脚本转换上下文，那么将从 NiagaraScriptAssetData 中创建并初始化一个新的脚本转换上下文。
 
 目标是尼亚加拉发射器转换背景
 
 ## 图示
 
-![]($-20221218-19014257.png)
+![](/uploads/projects/ue-bluprint/20221218-19014257.png)
 
 ## Inputs
 
@@ -18,13 +18,15 @@
 
 创建脚本上下文阿尔格。创建脚本上下文 Args 结构。
 
-模块脚本执行类别。EScriptExecutionCategory Enum.  
+模块脚本执行类别。EScriptExecutionCategory Enum.
 
 ## Outputs
 
 出：执行。
 
-返回值。Niagara脚本转换上下文对象参考。寻找或添加一个脚本转换上下文到这个发射器转换上下文。如果通过名称字符串没有找到一个脚本转换上下文，那么将从NiagaraScriptAssetData.中创建并初始化一个新的脚本转换上下文。
+返回值。Niagara 脚本转换上下文对象参考。寻找或添加一个脚本转换上下文到这个发射器转换上下文。如果通过名称字符串没有找到一个脚本转换上下文，那么将从 NiagaraScriptAssetData.中创建并初始化一个新的脚本转换上下文。
+
+<hr>
 
 Find or add a script conversion context to this emitter conversion context. If a script conversion context. is not found by name string then a new one is created and initialized from the NiagaraScriptAssetData.
 
@@ -32,7 +34,7 @@ Target is Niagara Emitter Conversion Context
 
 ## 图示
 
-![]($-20221218-19014257.png)
+![](/uploads/projects/ue-bluprint/20221218-19014257.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Script Name String: String.
 
 Create Script Context Args: Create Script Context Args Structure.
 
-Module Script Execution Category: EScriptExecutionCategory Enum.  
+Module Script Execution Category: EScriptExecutionCategory Enum.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Niagara Script Conversion Context Object Reference. Find or add a script conversion context to this emitter conversion context. If a script conversion context. is not found by name string then a new one is created and initialized from the NiagaraScriptAssetData..
-

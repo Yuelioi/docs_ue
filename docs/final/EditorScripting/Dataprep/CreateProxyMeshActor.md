@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18484672.png)
+![](/uploads/projects/ue-bluprint/20221218-18484672.png)
 
 ## Inputs
 
@@ -25,13 +25,16 @@
 出合并的角色。静态网格演员对象参考。如果要求的话，生成演员。
 
 返回值。布尔值。代理创建成功。
+
+<hr>
+
 Build a proxy mesh actor that can replace a set of mesh actors.
 
 Target is Static Mesh Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18484672.png)
+![](/uploads/projects/ue-bluprint/20221218-18484672.png)
 
 ## Inputs
 
@@ -41,7 +44,7 @@ Target: Static Mesh Editor Subsystem Object Reference.
 
 Actors to Merge: Array of Static Mesh Actor Object References. List of actors to build a proxy for..
 
-Merge Options: Create Proxy Mesh Actor Options Structure (by ref).  
+Merge Options: Create Proxy Mesh Actor Options Structure (by ref).
 
 ## Outputs
 
@@ -50,4 +53,3 @@ Out: Exec.
 Out Merged Actor: Static Mesh Actor Object Reference. generated actor if requested.
 
 Return Value: Boolean. Success of the proxy creation.
-

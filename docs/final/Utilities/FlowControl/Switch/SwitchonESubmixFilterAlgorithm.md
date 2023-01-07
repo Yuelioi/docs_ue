@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14240399.png)
+![](/uploads/projects/ue-bluprint/20221218-14240399.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESubmixFilterAlgorithm枚举。 
+选择。ESubmixFilterAlgorithm 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@ State Variable: Exec.
 
 梯子。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14240399.png)
+![](/uploads/projects/ue-bluprint/20221218-14240399.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESubmixFilterAlgorithm Enum.  
+Selection: ESubmixFilterAlgorithm Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ One Pole: Exec.
 State Variable: Exec.
 
 Ladder: Exec.
-

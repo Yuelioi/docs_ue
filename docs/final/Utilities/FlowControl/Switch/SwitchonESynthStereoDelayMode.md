@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14242103.png)
+![](/uploads/projects/ue-bluprint/20221218-14242103.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESynthStereoDelayMode枚举。 
+选择。ESynthStereoDelayMode 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Cross: Exec.
 
 Ping Pong: 执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14242103.png)
+![](/uploads/projects/ue-bluprint/20221218-14242103.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESynthStereoDelayMode Enum.  
+Selection: ESynthStereoDelayMode Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Normal: Exec.
 Cross: Exec.
 
 Ping Pong: Exec.
-

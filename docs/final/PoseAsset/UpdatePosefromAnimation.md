@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20303440.png)
+![](/uploads/projects/ue-bluprint/20221218-20303440.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。姿势资产对象参考。
 
-Anim Sequence:Anim Sequence Object Reference.  
+Anim Sequence:Anim Sequence Object Reference.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Contained poses are re-generated from the provided Animation Sequence
 
@@ -26,7 +28,7 @@ Target is Pose Asset
 
 ## 图示
 
-![]($-20221218-20303440.png)
+![](/uploads/projects/ue-bluprint/20221218-20303440.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Pose Asset Object Reference.
 
-Anim Sequence: Anim Sequence Object Reference.  
+Anim Sequence: Anim Sequence Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

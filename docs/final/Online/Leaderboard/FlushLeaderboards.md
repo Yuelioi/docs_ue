@@ -4,7 +4,7 @@
 
 ## 图示
 
-![]($-20221218-20162465.png)
+![](/uploads/projects/ue-bluprint/20221218-20162465.png)
 
 ## Inputs
 
@@ -12,7 +12,7 @@
 
 会议名称：名称。
 
-播放器控制器。播放器控制器对象参考。  
+播放器控制器。播放器控制器对象参考。
 
 ## Outputs
 
@@ -22,11 +22,13 @@
 
 失败时。执行。失败时：。当有一个不成功的排行榜刷新时被调用。
 
+<hr>
+
 Flushes leaderboards for a session
 
 ## 图示
 
-![]($-20221218-20162465.png)
+![](/uploads/projects/ue-bluprint/20221218-20162465.png)
 
 ## Inputs
 
@@ -34,7 +36,7 @@ In: Exec.
 
 Session Name: Name.
 
-Player Controller: Player Controller Object Reference.  
+Player Controller: Player Controller Object Reference.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Out: Exec.
 On Success: Exec. On Success:. Called when there is a successful leaderboard flush.
 
 On Failure: Exec. On Failure:. Called when there is an unsuccessful leaderboard flush.
-

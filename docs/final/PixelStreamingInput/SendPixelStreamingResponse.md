@@ -1,12 +1,12 @@
 # SendPixelStreamingResponse
 
-向UI交互的源头送回一个响应。
+向 UI 交互的源头送回一个响应。
 
 目标是像素流输入
 
 ## 图示
 
-![]($-20221218-20292925.png)
+![](/uploads/projects/ue-bluprint/20221218-20292925.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@
 
 出：执行。
 
+<hr>
+
 Send a response back to the source of the UI interactions.
 
 Target is Pixel Streaming Input
 
 ## 图示
 
-![]($-20221218-20292925.png)
+![](/uploads/projects/ue-bluprint/20221218-20292925.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Pixel Streaming Input Object Reference.
 
-Descriptor: String. A generic descriptor string..  
+Descriptor: String. A generic descriptor string..
 
 ## Outputs
 
 Out: Exec.
-

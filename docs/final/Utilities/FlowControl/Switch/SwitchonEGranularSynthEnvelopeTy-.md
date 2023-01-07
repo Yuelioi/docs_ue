@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14201419.png)
+![](/uploads/projects/ue-bluprint/20221218-14201419.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGranularSynthEnvelopeType枚举。 
+选择。EGranularSynthEnvelopeType 枚举。
 
 ## Outputs
 
@@ -42,17 +42,19 @@ Lanczos: Exec.
 
 Blackman Harris: 执行董事
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14201419.png)
+![](/uploads/projects/ue-bluprint/20221218-14201419.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGranularSynthEnvelopeType Enum.  
+Selection: EGranularSynthEnvelopeType Enum.
 
 ## Outputs
 
@@ -83,4 +85,3 @@ Welch: Exec.
 Blackman: Exec.
 
 Blackman Harris: Exec.
-

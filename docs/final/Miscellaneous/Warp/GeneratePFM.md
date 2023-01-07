@@ -1,12 +1,12 @@
 # GeneratePFM
 
-生成并保存数据到PFM文件中
+生成并保存数据到 PFM 文件中
 
-目标是Warp Utils蓝图库
+目标是 Warp Utils 蓝图库
 
 ## 图示
 
-![]($-20221218-20060149.png)
+![](/uploads/projects/ue-bluprint/20221218-20060149.png)
 
 ## Inputs
 
@@ -34,13 +34,15 @@ PFMOrigin:Actor Object Reference.
 
 瓦片像素垂直：整数。
 
-添加保证金。布尔值。  
+添加保证金。布尔值。
 
 ## Outputs
 
 出：执行。
 
-返回值。布尔值。生成并保存数据到一个PFM文件。
+返回值。布尔值。生成并保存数据到一个 PFM 文件。
+
+<hr>
 
 Generate and save data to a PFM file
 
@@ -48,7 +50,7 @@ Target is Warp Utils Blueprint Library
 
 ## 图示
 
-![]($-20221218-20060149.png)
+![](/uploads/projects/ue-bluprint/20221218-20060149.png)
 
 ## Inputs
 
@@ -76,11 +78,10 @@ Tile Pixels Horizontal: Integer.
 
 Tile Pixels Vertical: Integer.
 
-Add Margin: Boolean.  
+Add Margin: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Generate and save data to a PFM file.
-

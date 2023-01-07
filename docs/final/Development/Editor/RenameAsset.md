@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18422767.png)
+![](/uploads/projects/ue-bluprint/20221218-18422767.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 资产：对象参考。
 
-新名称。字符串。  
+新名称。字符串。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Renames an asset (cannot move folders)
 
@@ -26,7 +28,7 @@ Target is Editor Utility Library
 
 ## 图示
 
-![]($-20221218-18422767.png)
+![](/uploads/projects/ue-bluprint/20221218-18422767.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Asset: Object Reference.
 
-New Name: String.  
+New Name: String.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20073305.png)
+![](/uploads/projects/ue-bluprint/20221218-20073305.png)
 
 ## Inputs
 
@@ -22,11 +22,13 @@
 
 播放率。Float（单精度）。
 
-循环。布尔型。  
+循环。布尔型。
 
 ## Outputs
 
 返回值。Float（单精度）。为给定的播放序列资产计算一个动态调整的播放率值。
+
+<hr>
 
 Computes a dynamically adjusted play rate value for a given playing sequence asset
 
@@ -34,7 +36,7 @@ Target is Dynamic Play Rate Library
 
 ## 图示
 
-![]($-20221218-20073305.png)
+![](/uploads/projects/ue-bluprint/20221218-20073305.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Accumulated Time: Float (single-precision).
 
 Play Rate: Float (single-precision).
 
-Looping: Boolean.  
+Looping: Boolean.
 
 ## Outputs
 
 Return Value: Float (single-precision). Computes a dynamically adjusted play rate value for a given playing sequence asset.
-

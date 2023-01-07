@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14170385.png)
+![](/uploads/projects/ue-bluprint/20221218-14170385.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAudioFaderCurve Enum.  
+选择。EAudioFaderCurve Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Sin (S- Curve): Exec.
 
 Sin (Equal Power): 执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14170385.png)
+![](/uploads/projects/ue-bluprint/20221218-14170385.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAudioFaderCurve Enum.  
+Selection: EAudioFaderCurve Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Logarithmic: Exec.
 Sin (S- Curve): Exec.
 
 Sin (Equal Power): Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14220164.png)
+![](/uploads/projects/ue-bluprint/20221218-14220164.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EObjectTypeQuery Enum.  
+选择。EObjectTypeQuery Enum.
 
 ## Outputs
 
@@ -26,17 +26,19 @@
 
 可毁坏。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14220164.png)
+![](/uploads/projects/ue-bluprint/20221218-14220164.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EObjectTypeQuery Enum.  
+Selection: EObjectTypeQuery Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Physics Body: Exec.
 Vehicle: Exec.
 
 Destructible: Exec.
-

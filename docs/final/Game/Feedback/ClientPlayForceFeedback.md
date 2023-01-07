@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19054040.png)
+![](/uploads/projects/ue-bluprint/20221218-19054040.png)
 
 ## Inputs
 
@@ -22,11 +22,13 @@
 
 忽略时间膨胀。布尔值。该模式是否应忽略时间膨胀。
 
-暂停时播放。布尔值。游戏暂停时，图案是否应继续播放。  
+暂停时播放。布尔值。游戏暂停时，图案是否应继续播放。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Play a force feedback pattern on the player's controller
 
@@ -34,7 +36,7 @@ Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19054040.png)
+![](/uploads/projects/ue-bluprint/20221218-19054040.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Looping: Boolean. Whether the pattern should be played repeatedly or be a single
 
 Ignore Time Dilation: Boolean. Whether the pattern should ignore time dilation.
 
-Play While Paused: Boolean. Whether the pattern should continue to play while the game is paused.  
+Play While Paused: Boolean. Whether the pattern should continue to play while the game is paused.
 
 ## Outputs
 
 Out: Exec.
-

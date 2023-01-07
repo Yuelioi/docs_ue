@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19423624.png)
+![](/uploads/projects/ue-bluprint/20221218-19423624.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。水平流对象参考。
 
-在是请求卸货和移除。布尔型。  
+在是请求卸货和移除。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets if the streaming level should be unloaded and removed.
 
@@ -26,7 +28,7 @@ Target is Level Streaming
 
 ## 图示
 
-![]($-20221218-19423624.png)
+![](/uploads/projects/ue-bluprint/20221218-19423624.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Level Streaming Object Reference.
 
-In Is Requesting Unload and Removal: Boolean.  
+In Is Requesting Unload and Removal: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

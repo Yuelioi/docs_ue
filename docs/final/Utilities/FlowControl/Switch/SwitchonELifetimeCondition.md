@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14210708.png)
+![](/uploads/projects/ue-bluprint/20221218-14210708.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ELifetimeCondition Enum.  
+选择。ELifetimeCondition Enum.
 
 ## Outputs
 
@@ -42,17 +42,19 @@
 
 跳过重播。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14210708.png)
+![](/uploads/projects/ue-bluprint/20221218-14210708.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ELifetimeCondition Enum.  
+Selection: ELifetimeCondition Enum.
 
 ## Outputs
 
@@ -83,4 +85,3 @@ Simulated Only No Replay: Exec.
 Simulated or Physics No Replay: Exec.
 
 Skip Replay: Exec.
-

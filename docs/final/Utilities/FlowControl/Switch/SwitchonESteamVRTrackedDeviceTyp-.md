@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14235242.png)
+![](/uploads/projects/ue-bluprint/20221218-14235242.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESteamVRTrackedDeviceType枚举。 
+选择。ESteamVRTrackedDeviceType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Other: 执行.
 
 无效。执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14235242.png)
+![](/uploads/projects/ue-bluprint/20221218-14235242.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESteamVRTrackedDeviceType Enum.  
+Selection: ESteamVRTrackedDeviceType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Tracking Reference: Exec.
 Other: Exec.
 
 Invalid: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20505631.png)
+![](/uploads/projects/ue-bluprint/20221218-20505631.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@
 
 出：执行。
 
+<hr>
+
 Sets the value for this key, reflecting it in the owning channel.
 
 Target is Movie Scene Scripting Byte Key
 
 ## 图示
 
-![]($-20221218-20505631.png)
+![](/uploads/projects/ue-bluprint/20221218-20505631.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Movie Scene Scripting Byte Key Object Reference.
 
-In New Value: Byte. The new value for this key..  
+In New Value: Byte. The new value for this key..
 
 ## Outputs
 
 Out: Exec.
-

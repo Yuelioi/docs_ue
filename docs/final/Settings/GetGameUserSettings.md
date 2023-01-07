@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-20570924.png)
+![](/uploads/projects/ue-bluprint/20221218-20570924.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。游戏用户设置对象参考。返回游戏本机设置（分辨率、窗口模式、可扩展性设置等...）。
 
+<hr>
+
 Returns the game local machine settings (resolution, windowing mode, scalability settings, etc...)
 
 Target is Game User Settings
 
 ## 图示
 
-![]($-20221218-20570924.png)
+![](/uploads/projects/ue-bluprint/20221218-20570924.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Game User Settings Object Reference. Returns the game local machine settings (resolution, windowing mode, scalability settings, etc...).
-

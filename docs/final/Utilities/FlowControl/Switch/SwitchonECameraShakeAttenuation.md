@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14172921.png)
+![](/uploads/projects/ue-bluprint/20221218-14172921.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ECameraShakeAttenuation Enum.  
+选择。ECameraShakeAttenuation Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 二次方：执行 Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14172921.png)
+![](/uploads/projects/ue-bluprint/20221218-14172921.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ECameraShakeAttenuation Enum.  
+Selection: ECameraShakeAttenuation Enum.
 
 ## Outputs
 
 Linear: Exec.
 
 Quadratic: Exec.
-

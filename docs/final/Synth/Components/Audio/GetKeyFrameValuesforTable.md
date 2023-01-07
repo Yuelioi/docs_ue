@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21063724.png)
+![](/uploads/projects/ue-bluprint/20221218-21063724.png)
 
 ## Inputs
 
-目标。Synth Component Mono Wave Table对象参考。
+目标。Synth Component Mono Wave Table 对象参考。
 
-表的索引。Float（单精度）。  
+表的索引。Float（单精度）。
 
 ## Outputs
 
 返回值。Float（单精度）数组。获取一个浮点数组，代表请求的曲线中的关键帧。
+
+<hr>
 
 Get an array of floats that represent the key frames in the requested curve
 
@@ -24,15 +26,14 @@ Target is Synth Component Mono Wave Table
 
 ## 图示
 
-![]($-20221218-21063724.png)
+![](/uploads/projects/ue-bluprint/20221218-21063724.png)
 
 ## Inputs
 
 Target: Synth Component Mono Wave Table Object Reference.
 
-Table Index: Float (single-precision).  
+Table Index: Float (single-precision).
 
 ## Outputs
 
 Return Value: Array of Float (single-precision)s. Get an array of floats that represent the key frames in the requested curve.
-

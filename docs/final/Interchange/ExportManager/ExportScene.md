@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19310886.png)
+![](/uploads/projects/ue-bluprint/20221218-19310886.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 世界。对象参考。
 
-是自动的。布尔值。如果为真，导入资产将不显示任何用户界面或对话框。  
+是自动的。布尔值。如果为真，导入资产将不显示任何用户界面或对话框。
 
 ## Outputs
 
 出：执行。
 
-返回值。布尔值。如果导入成功则为true，否则为false。
+返回值。布尔值。如果导入成功则为 true，否则为 false。
+
+<hr>
 
 Call this to start an export scene process, the caller must specify a source data. This import process can import many different asset and there transform (USceneComponent) and store the result in a blueprint and add the blueprint to the level.
 
@@ -30,7 +32,7 @@ Target is Interchange Manager
 
 ## 图示
 
-![]($-20221218-19310886.png)
+![](/uploads/projects/ue-bluprint/20221218-19310886.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Interchange Manager Object Reference.
 
 World: Object Reference.
 
-Is Automated: Boolean. If true the import asset will not show any UI or dialog.  
+Is Automated: Boolean. If true the import asset will not show any UI or dialog.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if the import succeed, false otherwise..
-

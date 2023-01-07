@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19123248.png)
+![](/uploads/projects/ue-bluprint/20221218-19123248.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 清除值。整数。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 目标网格。动态网格对象参考。清理群组。
 
+<hr>
+
 Clear Polygroups
 
 Target is Geometry Script Library Mesh Polygroup Functions
 
 ## 图示
 
-![]($-20221218-19123248.png)
+![](/uploads/projects/ue-bluprint/20221218-19123248.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Group Layer: Geometry Script Group Layer Structure.
 
 Clear Value: Integer.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Clear Polygroups.
-

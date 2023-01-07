@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19123827.png)
+![](/uploads/projects/ue-bluprint/20221218-19123827.png)
 
 ## Inputs
 
@@ -20,7 +20,7 @@ Polygroup ID。整数。
 
 推迟更改通知。布尔值。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -28,7 +28,9 @@ Polygroup ID。整数。
 
 Num Deleted:整数。
 
-目标网格。动态网格对象参考。删除Polygroup中的三角形。
+目标网格。动态网格对象参考。删除 Polygroup 中的三角形。
+
+<hr>
 
 Delete Triangles in Polygroup
 
@@ -36,7 +38,7 @@ Target is Geometry Script Library Mesh Polygroup Functions
 
 ## 图示
 
-![]($-20221218-19123827.png)
+![](/uploads/projects/ue-bluprint/20221218-19123827.png)
 
 ## Inputs
 
@@ -50,7 +52,7 @@ Polygroup ID: Integer.
 
 Defer Change Notifications: Boolean.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Out: Exec.
 Num Deleted: Integer.
 
 Target Mesh: Dynamic Mesh Object Reference. Delete Triangles in Polygroup.
-

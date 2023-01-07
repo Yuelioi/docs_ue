@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18293981.png)
+![](/uploads/projects/ue-bluprint/20221218-18293981.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 通过名称。名称。新通行证的名称。
 
-输出类型。Compositing Element Output Class Reference。创建的通行证的类别类型。 
+输出类型。Compositing Element Output Class Reference。创建的通行证的类别类型。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。Compositing Element Output Object Reference.合成元素输出对象。CompositingElementOutput 新创建的输出通道对象。
 
+<hr>
+
 Create a new Output pass into the public list which directly shows in the editor.
 
 Target is Empty Comp Shot
 
 ## 图示
 
-![]($-20221218-18293981.png)
+![](/uploads/projects/ue-bluprint/20221218-18293981.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Empty Comp Shot Object Reference.
 
 Pass Name: Name. The name for the new pass..
 
-Output Type: Compositing Element Output Class Reference. The class type of the created pass..  
+Output Type: Compositing Element Output Class Reference. The class type of the created pass..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Compositing Element Output Object Reference. CompositingElementOutput The newly created output pass object..
-

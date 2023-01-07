@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18304600.png)
+![](/uploads/projects/ue-bluprint/20221218-18304600.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 查询参数: Contextual Anim Query Params Structure (by ref).
 
-To World Transform: 变换（通过参考）。 
+To World Transform: 变换（通过参考）。
 
 ## Outputs
 
-输出结果。Contextual Anim查询结果结构。
+输出结果。Contextual Anim 查询结果结构。
 
 返回值。布尔值。查询。
+
+<hr>
 
 Query
 
@@ -30,7 +32,7 @@ Target is Contextual Anim Scene Asset
 
 ## 图示
 
-![]($-20221218-18304600.png)
+![](/uploads/projects/ue-bluprint/20221218-18304600.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Role: Name (by ref).
 
 Query Params: Contextual Anim Query Params Structure (by ref).
 
-To World Transform: Transform (by ref).  
+To World Transform: Transform (by ref).
 
 ## Outputs
 
 Out Result: Contextual Anim Query Result Structure.
 
 Return Value: Boolean. Query.
-

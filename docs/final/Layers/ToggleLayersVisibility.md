@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19381144.png)
+![](/uploads/projects/ue-bluprint/20221218-19381144.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。分层子系统对象参考。
 
-图层名称。名称的数组。要影响的层的名称。  
+图层名称。名称的数组。要影响的层的名称。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Toggles the visibility of all of the named layers
 
@@ -26,7 +28,7 @@ Target is Layers Subsystem
 
 ## 图示
 
-![]($-20221218-19381144.png)
+![](/uploads/projects/ue-bluprint/20221218-19381144.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Layers Subsystem Object Reference.
 
-Layer Names: Array of Names. The names of the layers to affect.  
+Layer Names: Array of Names. The names of the layers to affect.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18164838.png)
+![](/uploads/projects/ue-bluprint/20221218-18164838.png)
 
 ## Inputs
 
@@ -14,9 +14,9 @@
 
 播放器。电影场景序列播放器对象参考。一个活动的、当前播放的序列播放器，用于预测变换。
 
-Target Component（目标组件）。Scene Component对象参考。用于预测世界变换的组件。
+Target Component（目标组件）。Scene Component 对象参考。用于预测世界变换的组件。
 
-Frame Time（帧时间）。帧时间结构。在序列的显示速率中要预测的帧时间。 
+Frame Time（帧时间）。帧时间结构。在序列的显示速率中要预测的帧时间。
 
 ## Outputs
 
@@ -24,13 +24,15 @@ Frame Time（帧时间）。帧时间结构。在序列的显示速率中要预�
 
 返回值。电影场景非同步动作序列预测对象参考。一个异步预测对象，包含结果和失败委托。
 
+<hr>
+
 Initiate an asynchronous prediction for the specified component's local transform at a specific time in a sequence. Changes in attachment between the sequence's current time, and the predicted time are not accounted for. Calling this function on a stopped sequence player is undefined.
 
 Target is Movie Scene Async Action Sequence Prediction
 
 ## 图示
 
-![]($-20221218-18164838.png)
+![](/uploads/projects/ue-bluprint/20221218-18164838.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Player: Movie Scene Sequence Player Object Reference. An active, currently playi
 
 Target Component: Scene Component Object Reference. The component to predict a world transform for.
 
-Frame Time: Frame Time Structure. The frame time to predict at in the sequence's display rate.  
+Frame Time: Frame Time Structure. The frame time to predict at in the sequence's display rate.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Movie Scene Async Action Sequence Prediction Object Reference. An asynchronous prediction object that contains Result and Failure delegates.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21012301.png)
+![](/uploads/projects/ue-bluprint/20221218-21012301.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 键。Float（单精度）。
 
-更新花键。布尔值。  
+更新花键。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Specify whether the spline is a closed loop or not, and if so, the input key corresponding to the loop point
 
@@ -30,7 +32,7 @@ Target is Spline Component
 
 ## 图示
 
-![]($-20221218-21012301.png)
+![](/uploads/projects/ue-bluprint/20221218-21012301.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ In Closed Loop: Boolean.
 
 Key: Float (single-precision).
 
-Update Spline: Boolean.  
+Update Spline: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

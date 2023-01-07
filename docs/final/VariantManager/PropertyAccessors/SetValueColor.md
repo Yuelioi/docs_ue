@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21240825.png)
+![](/uploads/projects/ue-bluprint/20221218-21240825.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 属性。属性值对象参考。
 
-在价值。颜色结构。  
+在价值。颜色结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Value Color
 
@@ -26,7 +28,7 @@ Target is Variant Manager Blueprint Library
 
 ## 图示
 
-![]($-20221218-21240825.png)
+![](/uploads/projects/ue-bluprint/20221218-21240825.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Property: Property Value Object Reference.
 
-In Value: Color Structure.  
+In Value: Color Structure.
 
 ## Outputs
 
 Out: Exec.
-

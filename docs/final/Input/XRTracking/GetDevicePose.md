@@ -1,18 +1,18 @@
 # GetDevicePose
 
-交叉XR-系统查询，返回特定设备的跟踪位置和方向（在跟踪空间）。
+交叉 XR-系统查询，返回特定设备的跟踪位置和方向（在跟踪空间）。
 
 目标是头戴式显示器功能库
 
 ## 图示
 
-![]($-20221218-19301535.png)
+![](/uploads/projects/ue-bluprint/20221218-19301535.png)
 
 ## Inputs
 
 在。执行。
 
-XRDevice Id。XRDevice Id结构（通过ref）。指定你要查询的设备。
+XRDevice Id。XRDevice Id 结构（通过 ref）。指定你要查询的设备。
 
 ## Outputs
 
@@ -26,19 +26,21 @@ XRDevice Id。XRDevice Id结构（通过ref）。指定你要查询的设备。
 
 位置。向量。[out] 代表设备的当前位置 - 注意：这个值不会延迟更新，会在渲染线程后面。
 
+<hr>
+
 Cross XR-System query that returns a specific device's tracked position and orientation (in tracking space).
 
 Target is Head Mounted Display Function Library
 
 ## 图示
 
-![]($-20221218-19301535.png)
+![](/uploads/projects/ue-bluprint/20221218-19301535.png)
 
 ## Inputs
 
 In: Exec.
 
-XRDevice Id: XRDevice Id Structure (by ref). Specifies the device you're querying for..  
+XRDevice Id: XRDevice Id Structure (by ref). Specifies the device you're querying for..
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Orientation: Rotator. [out] Represents the device's current rotation - NOTE: thi
 Has Positional Tracking: Boolean. [out] Details if the specified device has positional tracking (i.e. if the position output should be used).
 
 Position: Vector. [out] Represents the device's current position - NOTE: this value is not late updated and will be behind the render thread.
-

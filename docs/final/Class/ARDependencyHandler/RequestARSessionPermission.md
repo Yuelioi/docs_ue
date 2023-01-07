@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18165761.png)
+![](/uploads/projects/ue-bluprint/20221218-18165761.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。ARDependency Handler 对象参考。
 
-会话配置。ARSession配置对象参考。 
+会话配置。ARSession 配置对象参考。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 Out Permission Result: EARServicePermissionRequestResult Enum.
 
+<hr>
+
 Latent action to request permission to run the supplied session configuration.
 
 Target is ARDependency Handler
 
 ## 图示
 
-![]($-20221218-18165761.png)
+![](/uploads/projects/ue-bluprint/20221218-18165761.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: ARDependency Handler Object Reference.
 
-Session Config: ARSession Config Object Reference.  
+Session Config: ARSession Config Object Reference.
 
 ## Outputs
 
 Completed: Exec.
 
 Out Permission Result: EARServicePermissionRequestResult Enum.
-

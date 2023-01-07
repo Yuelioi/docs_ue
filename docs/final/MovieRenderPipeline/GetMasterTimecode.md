@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20090045.png)
+![](/uploads/projects/ue-bluprint/20221218-20090045.png)
 
 ## Inputs
 
-在电影管道中。电影管道对象参考。  
+在电影管道中。电影管道对象参考。
 
 ## Outputs
 
 返回值。时间码结构。获取主时间码。
+
+<hr>
 
 Get Master Timecode
 
@@ -22,13 +24,12 @@ Target is Movie Pipeline Blueprint Library
 
 ## 图示
 
-![]($-20221218-20090045.png)
+![](/uploads/projects/ue-bluprint/20221218-20090045.png)
 
 ## Inputs
 
-In Movie Pipeline: Movie Pipeline Object Reference.  
+In Movie Pipeline: Movie Pipeline Object Reference.
 
 ## Outputs
 
 Return Value: Timecode Structure. Get Master Timecode.
-

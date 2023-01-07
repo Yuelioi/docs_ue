@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19052715.png)
+![](/uploads/projects/ue-bluprint/20221218-19052715.png)
 
 ## Inputs
 
@@ -24,7 +24,7 @@
 
 损害造成者。Actor Object Reference.实际造成伤害的行为体（例如，爆炸的手榴弹）。
 
-伤害类型类。伤害类型类参考。描述所造成的损害的类。  
+伤害类型类。伤害类型类参考。描述所造成的损害的类。
 
 ## Outputs
 
@@ -32,13 +32,15 @@
 
 返回值。浮点数（单精度）。最终应用在演员身上的实际伤害。
 
+<hr>
+
 Hurts the specified actor with the specified impact.
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-19052715.png)
+![](/uploads/projects/ue-bluprint/20221218-19052715.png)
 
 ## Inputs
 
@@ -56,11 +58,10 @@ Event Instigator: Controller Object Reference. Controller that was responsible f
 
 Damage Causer: Actor Object Reference. Actor that actually caused the damage (e.g. the grenade that exploded).
 
-Damage Type Class: Damage Type Class Reference. Class that describes the damage that was done..  
+Damage Type Class: Damage Type Class Reference. Class that describes the damage that was done..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision). Actual damage the ended up being applied to the actor..
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14214399.png)
+![](/uploads/projects/ue-bluprint/20221218-14214399.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMoviePipelineEncodeQuality枚举。 
+选择。EMoviePipelineEncodeQuality 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 高：执行。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14214399.png)
+![](/uploads/projects/ue-bluprint/20221218-14214399.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMoviePipelineEncodeQuality Enum.  
+Selection: EMoviePipelineEncodeQuality Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Medium: Exec.
 High: Exec.
 
 Epic: Exec.
-

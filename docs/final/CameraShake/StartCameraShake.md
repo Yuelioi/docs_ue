@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18141786.png)
+![](/uploads/projects/ue-bluprint/20221218-18141786.png)
 
 ## Inputs
 
@@ -18,13 +18,15 @@
 
 尺度。Float（单精度）。
 
-播放空间。ECameraShakePlaySpace枚举。
+播放空间。ECameraShakePlaySpace 枚举。
 
-用户播放空间旋转。旋转器。 
+用户播放空间旋转。旋转器。
 
 ## Outputs
 
 输出：输出。执行：执行。
+
+<hr>
 
 Starts a new camera shake originating from this source, and apply it on all player controllers
 
@@ -32,7 +34,7 @@ Target is Camera Shake Source Component
 
 ## 图示
 
-![]($-20221218-18141786.png)
+![](/uploads/projects/ue-bluprint/20221218-18141786.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Scale: Float (single-precision).
 
 Play Space: ECameraShakePlaySpace Enum.
 
-User Play Space Rot: Rotator.  
+User Play Space Rot: Rotator.
 
 ## Outputs
 
 Out: Exec.
-

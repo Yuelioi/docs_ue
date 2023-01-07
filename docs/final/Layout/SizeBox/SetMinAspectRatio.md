@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19393137.png)
+![](/uploads/projects/ue-bluprint/20221218-19393137.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。尺寸盒对象参考。
 
-在最小纵横比。Float（单精度）。  
+在最小纵横比。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Min Aspect Ratio
 
@@ -26,7 +28,7 @@ Target is Size Box
 
 ## 图示
 
-![]($-20221218-19393137.png)
+![](/uploads/projects/ue-bluprint/20221218-19393137.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Size Box Object Reference.
 
-In Min Aspect Ratio: Float (single-precision).  
+In Min Aspect Ratio: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

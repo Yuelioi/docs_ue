@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18261976.png)
+![](/uploads/projects/ue-bluprint/20221218-18261976.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。骨架网状组件对象参考。
 
-在Teleport类型中。ETeleportType枚举。 
+在 Teleport 类型中。ETeleportType 枚举。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Informs any active anim instances (main instance, linked instances, post instance) that a dynamics reset is required. for example if a teleport occurs.
 
@@ -26,7 +28,7 @@ Target is Skeletal Mesh Component
 
 ## 图示
 
-![]($-20221218-18261976.png)
+![](/uploads/projects/ue-bluprint/20221218-18261976.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Skeletal Mesh Component Object Reference.
 
-In Teleport Type: ETeleportType Enum.  
+In Teleport Type: ETeleportType Enum.
 
 ## Outputs
 
 Out: Exec.
-

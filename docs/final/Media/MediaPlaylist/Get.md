@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20020098.png)
+![](/uploads/projects/ue-bluprint/20221218-20020098.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标。媒体播放列表对象参考。
 
-索引。整数。要获取的媒体源的索引。  
+索引。整数。要获取的媒体源的索引。
 
 ## Outputs
 
 出：执行。
 
-返回值。媒体源对象参考。媒体源，如果索引不存在，则为nullptr。
+返回值。媒体源对象参考。媒体源，如果索引不存在，则为 nullptr。
+
+<hr>
 
 Get the media source at the specified index.
 
@@ -28,7 +30,7 @@ Target is Media Playlist
 
 ## 图示
 
-![]($-20221218-20020098.png)
+![](/uploads/projects/ue-bluprint/20221218-20020098.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Media Playlist Object Reference.
 
-Index: Integer. The index of the media source to get..  
+Index: Integer. The index of the media source to get..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Media Source Object Reference. The media source, or nullptr if the index doesn't exist..
-

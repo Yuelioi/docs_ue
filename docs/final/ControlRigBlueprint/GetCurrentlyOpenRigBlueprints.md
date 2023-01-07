@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18323156.png)
+![](/uploads/projects/ue-bluprint/20221218-18323156.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。控制钻机蓝图对象的数组参考。获取当前打开的钻机蓝图。
 
+<hr>
+
 Get Currently Open Rig Blueprints
 
 Target is Control Rig Blueprint Editor Library
 
 ## 图示
 
-![]($-20221218-18323156.png)
+![](/uploads/projects/ue-bluprint/20221218-18323156.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Array of Control Rig Blueprint Object References. Get Currently Open Rig Blueprints.
-

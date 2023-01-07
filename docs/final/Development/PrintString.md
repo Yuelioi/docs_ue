@@ -2,11 +2,11 @@
 
 打印一个字符串到日志，也可以选择打印到屏幕。如果打印到日志为真，它将在输出日志窗口中可见。否则，它将只被记录为 "Verbose"，所以一般不会显示出来。
 
-目标是Kismet系统库
+目标是 Kismet 系统库
 
 ## 图示
 
-![]($-20221218-18424811.png)
+![](/uploads/projects/ue-bluprint/20221218-18424811.png)
 
 ## Inputs
 
@@ -28,13 +28,15 @@
 
 出：执行。
 
+<hr>
+
 Prints a string to the log, and optionally, to the screen. If Print To Log is true, it will be visible in the Output Log window. Otherwise it will be logged only as 'Verbose', so it generally won't show up.
 
 Target is Kismet System Library
 
 ## 图示
 
-![]($-20221218-18424811.png)
+![](/uploads/projects/ue-bluprint/20221218-18424811.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Text Color: Linear Color Structure. The color of the text to display.
 
 Duration: Float (single-precision). The display duration (if Print to Screen is True). Using negative number will result in loading the duration time from the config..
 
-Key: Name. If a non-empty key is provided, the message will replace any existing on-screen messages with the same key..  
+Key: Name. If a non-empty key is provided, the message will replace any existing on-screen messages with the same key..
 
 ## Outputs
 
 Out: Exec.
-

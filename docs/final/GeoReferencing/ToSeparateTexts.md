@@ -1,12 +1,12 @@
 # ToSeparateTexts
 
-将一个地理坐标值转换为3个独立的文本值
+将一个地理坐标值转换为 3 个独立的文本值
 
 目标是地理坐标功能库
 
 ## 图示
 
-![]($-20221218-19142390.png)
+![](/uploads/projects/ue-bluprint/20221218-19142390.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 整数位 Alti: 整数。
 
-作为DMS：布尔值。  
+作为 DMS：布尔值。
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 出海拔。文字。
 
+<hr>
+
 Converts a GeographicCoordinates value to 3 separate text values
 
 Target is Geographic Coordinates Function Library
 
 ## 图示
 
-![]($-20221218-19142390.png)
+![](/uploads/projects/ue-bluprint/20221218-19142390.png)
 
 ## Inputs
 
@@ -42,7 +44,7 @@ Integral Digits Lat Lon: Integer.
 
 Integral Digits Alti: Integer.
 
-As DMS: Boolean.  
+As DMS: Boolean.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Out Latitude: Text.
 Out Longitude: Text.
 
 Out Altitude: Text.
-

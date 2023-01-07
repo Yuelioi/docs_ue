@@ -2,11 +2,11 @@
 
 转换景观代理演员材料
 
-目标是Usd转换蓝图的背景
+目标是 Usd 转换蓝图的背景
 
 ## 图示
 
-![]($-20221218-18220723.png)
+![](/uploads/projects/ue-bluprint/20221218-18220723.png)
 
 ## Inputs
 
@@ -20,11 +20,11 @@
 
 要烘烤的属性。属性条目结构的数组。
 
-默认纹理尺寸。Int Point结构（通过引用）。
+默认纹理尺寸。Int Point 结构（通过引用）。
 
 Textures Dir：目录路径结构（通过引用）。
 
-时间代码。Float（单精度）。 
+时间代码。Float（单精度）。
 
 ## Outputs
 
@@ -32,13 +32,15 @@ Textures Dir：目录路径结构（通过引用）。
 
 返回值。布尔值。转换景观代理演员材料。
 
+<hr>
+
 Convert Landscape Proxy Actor Material
 
 Target is Usd Conversion Blueprint Context
 
 ## 图示
 
-![]($-20221218-18220723.png)
+![](/uploads/projects/ue-bluprint/20221218-18220723.png)
 
 ## Inputs
 
@@ -56,11 +58,10 @@ Default Texture Size: Int Point Structure (by ref).
 
 Textures Dir: Directory Path Structure (by ref).
 
-Time Code: Float (single-precision).  
+Time Code: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Convert Landscape Proxy Actor Material.
-

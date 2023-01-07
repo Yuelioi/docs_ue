@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14231200.png)
+![](/uploads/projects/ue-bluprint/20221218-14231200.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERoundingMode Enum.  
+选择。ERoundingMode Enum.
 
 ## Outputs
 
@@ -28,17 +28,19 @@
 
 至正无穷大。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14231200.png)
+![](/uploads/projects/ue-bluprint/20221218-14231200.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERoundingMode Enum.  
+Selection: ERoundingMode Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ To Zero: Exec.
 To Negative Infinity: Exec.
 
 To Positive Infinity: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14253340.png)
+![](/uploads/projects/ue-bluprint/20221218-14253340.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EWidgetSpace Enum.  
+选择。EWidgetSpace Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 屏风 Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14253340.png)
+![](/uploads/projects/ue-bluprint/20221218-14253340.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EWidgetSpace Enum.  
+Selection: EWidgetSpace Enum.
 
 ## Outputs
 
 World: Exec.
 
 Screen: Exec.
-

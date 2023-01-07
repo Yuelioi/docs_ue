@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14184207.png)
+![](/uploads/projects/ue-bluprint/20221218-14184207.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDynamicMeshChangeType枚举。 
+选择。EDynamicMeshChangeType 枚举。
 
 ## Outputs
 
@@ -26,17 +26,19 @@ Mesh Replacement Change（网格替换变更）。Exec.
 
 属性编辑：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14184207.png)
+![](/uploads/projects/ue-bluprint/20221218-14184207.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDynamicMeshChangeType Enum.  
+Selection: EDynamicMeshChangeType Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Mesh Vertex Change: Exec.
 Deformation Edit: Exec.
 
 Attribute Edit: Exec.
-

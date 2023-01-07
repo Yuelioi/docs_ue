@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-17491670.png)
+![](/uploads/projects/ue-bluprint/20221218-17491670.png)
 
 ## Inputs
 
 在。执行。
 
-构建信息。字符串。 
+构建信息。字符串。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Sets the game's build info (if supported) on the analytics provider
 
@@ -24,15 +26,14 @@ Target is Analytics Blueprint Library
 
 ## 图示
 
-![]($-20221218-17491670.png)
+![](/uploads/projects/ue-bluprint/20221218-17491670.png)
 
 ## Inputs
 
 In: Exec.
 
-Build Info: String.  
+Build Info: String.
 
 ## Outputs
 
 Out: Exec.
-

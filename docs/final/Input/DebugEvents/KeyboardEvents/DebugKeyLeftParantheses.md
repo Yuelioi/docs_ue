@@ -1,10 +1,10 @@
 # DebugKeyLeftParantheses
 
-当按下或松开Left Parantheses键时的事件。
+当按下或松开 Left Parantheses 键时的事件。
 
 ## 图示
 
-![]($-20221218-19200377.png)
+![](/uploads/projects/ue-bluprint/20221218-19200377.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 行动值。输入行动值结构。
 
+<hr>
+
 Events for when the Left Parantheses key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19200377.png)
+![](/uploads/projects/ue-bluprint/20221218-19200377.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

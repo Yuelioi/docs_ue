@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14253079.png)
+![](/uploads/projects/ue-bluprint/20221218-14253079.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EWidgetClipping Enum.  
+选择。EWidgetClipping Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Clip to Bounds - Without Intersecting (Advanced): 执行。
 
 On Demand (高级): 执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14253079.png)
+![](/uploads/projects/ue-bluprint/20221218-14253079.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EWidgetClipping Enum.  
+Selection: EWidgetClipping Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Clip to Bounds - Without Intersecting (Advanced): Exec.
 Clip to Bounds - Always (Advanced): Exec.
 
 On Demand (Advanced): Exec.
-

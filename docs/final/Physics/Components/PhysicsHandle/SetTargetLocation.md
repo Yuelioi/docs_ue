@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20220955.png)
+![](/uploads/projects/ue-bluprint/20221218-20220955.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。物理手柄组件对象参考。
 
-新的位置。向量。  
+新的位置。向量。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the target location
 
@@ -26,7 +28,7 @@ Target is Physics Handle Component
 
 ## 图示
 
-![]($-20221218-20220955.png)
+![](/uploads/projects/ue-bluprint/20221218-20220955.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Physics Handle Component Object Reference.
 
-New Location: Vector.  
+New Location: Vector.
 
 ## Outputs
 
 Out: Exec.
-

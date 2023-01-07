@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-18431039.png)
+![](/uploads/projects/ue-bluprint/20221218-18431039.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。布尔值。停止接收者。
 
+<hr>
+
 Stop Receiver
 
 Target is Direct Link Test Library
 
 ## 图示
 
-![]($-20221218-18431039.png)
+![](/uploads/projects/ue-bluprint/20221218-18431039.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Stop Receiver.
-

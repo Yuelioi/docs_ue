@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18415417.png)
+![](/uploads/projects/ue-bluprint/20221218-18415417.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。混沌毁灭听众对象参考。
 
-是否启用。布尔值。  
+是否启用。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Enables or disables breaking event listening
 
@@ -26,7 +28,7 @@ Target is Chaos Destruction Listener
 
 ## 图示
 
-![]($-20221218-18415417.png)
+![](/uploads/projects/ue-bluprint/20221218-18415417.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Chaos Destruction Listener Object Reference.
 
-Is Enabled: Boolean.  
+Is Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20324934.png)
+![](/uploads/projects/ue-bluprint/20221218-20324934.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。静态网格组件对象参考。
 
-新值。布尔值。  
+新值。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Evaluate World Position Offset in Ray Tracing
 
@@ -26,7 +28,7 @@ Target is Static Mesh Component
 
 ## 图示
 
-![]($-20221218-20324934.png)
+![](/uploads/projects/ue-bluprint/20221218-20324934.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Static Mesh Component Object Reference.
 
-New Value: Boolean.  
+New Value: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

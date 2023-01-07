@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20320251.png)
+![](/uploads/projects/ue-bluprint/20221218-20320251.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 代表。代表（由裁判）。
 
-每滴答的毫秒数。Float（单精度）。  
+每滴答的毫秒数。Float（单精度）。
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 时钟拉手。石英钟拉手对象参考。
 
+<hr>
+
 Metronome Alteration (setters)
 
 Target is Quartz Clock Handle
 
 ## 图示
 
-![]($-20221218-20320251.png)
+![](/uploads/projects/ue-bluprint/20221218-20320251.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Quantization Boundary: Quartz Quantization Boundary Structure (by ref).
 
 Delegate: Delegate (by ref).
 
-Milliseconds Per Tick: Float (single-precision).  
+Milliseconds Per Tick: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Clock Handle: Quartz Clock Handle Object Reference.
-

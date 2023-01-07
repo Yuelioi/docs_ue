@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21105248.png)
+![](/uploads/projects/ue-bluprint/20221218-21105248.png)
 
 ## Inputs
 
 在。执行。
 
-On Take Recorder Stopped:代表。  
+On Take Recorder Stopped:代表。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Called when take recording is stopped.
 
@@ -24,15 +26,14 @@ Target is Take Recorder Blueprint Library
 
 ## 图示
 
-![]($-20221218-21105248.png)
+![](/uploads/projects/ue-bluprint/20221218-21105248.png)
 
 ## Inputs
 
 In: Exec.
 
-On Take Recorder Stopped: Delegate.  
+On Take Recorder Stopped: Delegate.
 
 ## Outputs
 
 Out: Exec.
-

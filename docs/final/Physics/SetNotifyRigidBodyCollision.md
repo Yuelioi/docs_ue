@@ -1,12 +1,12 @@
 # SetNotifyRigidBodyCollision
 
-改变bNotifyRigidBodyCollision的值。
+改变 bNotifyRigidBodyCollision 的值。
 
 目标是原始组件
 
 ## 图示
 
-![]($-20221218-20285323.png)
+![](/uploads/projects/ue-bluprint/20221218-20285323.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。原始组件对象参考。
 
-新的通知刚体碰撞。布尔值。  
+新的通知刚体碰撞。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Changes the value of bNotifyRigidBodyCollision
 
@@ -26,7 +28,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20285323.png)
+![](/uploads/projects/ue-bluprint/20221218-20285323.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Primitive Component Object Reference.
 
-New Notify Rigid Body Collision: Boolean.  
+New Notify Rigid Body Collision: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

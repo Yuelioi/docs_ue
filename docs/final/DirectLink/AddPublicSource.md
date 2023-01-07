@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18425635.png)
+![](/uploads/projects/ue-bluprint/20221218-18425635.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 端点标识。整数。
 
-来源名称。字符串。  
+来源名称。字符串。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。添加公共来源。
 
+<hr>
+
 Add Public Source
 
 Target is Direct Link Test Library
 
 ## 图示
 
-![]($-20221218-18425635.png)
+![](/uploads/projects/ue-bluprint/20221218-18425635.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Endpoint Id: Integer.
 
-Source Name: String.  
+Source Name: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Add Public Source.
-

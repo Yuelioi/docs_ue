@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21370819.png)
+![](/uploads/projects/ue-bluprint/20221218-21370819.png)
 
 ## Inputs
 
 在。执行。
 
-活跃。布尔型。  
+活跃。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Window Title Bar Close Button Active
 
@@ -24,15 +26,14 @@ Target is Widget Blueprint Library
 
 ## 图示
 
-![]($-20221218-21370819.png)
+![](/uploads/projects/ue-bluprint/20221218-21370819.png)
 
 ## Inputs
 
 In: Exec.
 
-Active: Boolean.  
+Active: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18304487.png)
+![](/uploads/projects/ue-bluprint/20221218-18304487.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 角色: 名称.
 
-索引: 整数。 
+索引: 整数。
 
 ## Outputs
 
 返回值: 动画蒙太奇对象参考。为索引处的角色获取动画。
+
+<hr>
 
 Get Animation for Role at Index
 
@@ -26,7 +28,7 @@ Target is Contextual Anim Scene Asset
 
 ## 图示
 
-![]($-20221218-18304487.png)
+![](/uploads/projects/ue-bluprint/20221218-18304487.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Target: Contextual Anim Scene Asset Object Reference.
 
 Role: Name.
 
-Index: Integer.  
+Index: Integer.
 
 ## Outputs
 
 Return Value: Anim Montage Object Reference. Get Animation for Role at Index.
-

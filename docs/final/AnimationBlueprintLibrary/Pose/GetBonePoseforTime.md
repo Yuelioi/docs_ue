@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17523869.png)
+![](/uploads/projects/ue-bluprint/20221218-17523869.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 时间。Float (single-precision).
 
-提取根部运动。Boolean（布尔）。 
+提取根部运动。Boolean（布尔）。
 
 ## Outputs
 
 姿势。变换。
+
+<hr>
 
 Retrieves Bone Pose data for the given Bone Name at the specified Time from the given Animation Sequence
 
@@ -28,7 +30,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17523869.png)
+![](/uploads/projects/ue-bluprint/20221218-17523869.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Bone Name: Name.
 
 Time: Float (single-precision).
 
-Extract Root Motion: Boolean.  
+Extract Root Motion: Boolean.
 
 ## Outputs
 
 Pose: Transform.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19071977.png)
+![](/uploads/projects/ue-bluprint/20221218-19071977.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 X：整数。
 
-Y：整数。  
+Y：整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Positions the mouse cursor in screen space, in pixels.
 
@@ -28,7 +30,7 @@ Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19071977.png)
+![](/uploads/projects/ue-bluprint/20221218-19071977.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Player Controller Object Reference.
 
 X: Integer.
 
-Y: Integer.  
+Y: Integer.
 
 ## Outputs
 
 Out: Exec.
-

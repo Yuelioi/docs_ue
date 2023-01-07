@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14193382.png)
+![](/uploads/projects/ue-bluprint/20221218-14193382.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGameplayModOp Enum.  
+选择。EGameplayModOp Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@
 
 无效。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14193382.png)
+![](/uploads/projects/ue-bluprint/20221218-14193382.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGameplayModOp Enum.  
+Selection: EGameplayModOp Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Divide: Exec.
 Override: Exec.
 
 Invalid: Exec.
-

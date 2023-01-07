@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-21101994.png)
+![](/uploads/projects/ue-bluprint/20221218-21101994.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。拍摄记录器面板对象参考。获取当前打开的采集器面板，如果有的话，就打开一个新的。
 
+<hr>
+
 Get the currently open take recorder panel, if one is open, opening a new one if not
 
 Target is Take Recorder Blueprint Library
 
 ## 图示
 
-![]($-20221218-21101994.png)
+![](/uploads/projects/ue-bluprint/20221218-21101994.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Take Recorder Panel Object Reference. Get the currently open take recorder panel, if one is open, opening a new one if not.
-

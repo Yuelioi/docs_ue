@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21092425.png)
+![](/uploads/projects/ue-bluprint/20221218-21092425.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。普通标签列表小工具基础对象参考。
 
-应该听。布尔型。  
+应该听。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Listening for Input
 
@@ -26,7 +28,7 @@ Target is Common Tab List Widget Base
 
 ## 图示
 
-![]($-20221218-21092425.png)
+![](/uploads/projects/ue-bluprint/20221218-21092425.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common Tab List Widget Base Object Reference.
 
-Should Listen: Boolean.  
+Should Listen: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

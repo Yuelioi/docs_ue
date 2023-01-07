@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17491213.png)
+![](/uploads/projects/ue-bluprint/20221218-17491213.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 项目标识。字符串。
 
-项目数量。整数。 
+项目数量。整数。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Records an in-game item was purchased
 
@@ -26,7 +28,7 @@ Target is Analytics Blueprint Library
 
 ## 图示
 
-![]($-20221218-17491213.png)
+![](/uploads/projects/ue-bluprint/20221218-17491213.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Item Id: String.
 
-Item Quantity: Integer.  
+Item Quantity: Integer.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18254958.png)
+![](/uploads/projects/ue-bluprint/20221218-18254958.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 章节索引。整数。
 
-新的可见性。Boolean（布尔）。 
+新的可见性。Boolean（布尔）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Control visibility of a particular section
 
@@ -28,7 +30,7 @@ Target is Procedural Mesh Component
 
 ## 图示
 
-![]($-20221218-18254958.png)
+![](/uploads/projects/ue-bluprint/20221218-18254958.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Procedural Mesh Component Object Reference.
 
 Section Index: Integer.
 
-New Visibility: Boolean.  
+New Visibility: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

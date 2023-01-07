@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14165168.png)
+![](/uploads/projects/ue-bluprint/20221218-14165168.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARTextureType枚举。 
+选择。EARTextureType 枚举。
 
 ## Outputs
 
@@ -30,17 +30,19 @@ Camera Depth: Exec.
 
 场景深度置信度图: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14165168.png)
+![](/uploads/projects/ue-bluprint/20221218-14165168.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARTextureType Enum.  
+Selection: EARTextureType Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Person Segmentation Depth: Exec.
 Scene Depth Map: Exec.
 
 Scene Depth Confidence Map: Exec.
-

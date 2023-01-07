@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14201777.png)
+![](/uploads/projects/ue-bluprint/20221218-14201777.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGroomGeometryType枚举。 
+选择。EGroomGeometryType 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Cards: Exec.
 
 Meshes: 执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14201777.png)
+![](/uploads/projects/ue-bluprint/20221218-14201777.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGroomGeometryType Enum.  
+Selection: EGroomGeometryType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Strands: Exec.
 Cards: Exec.
 
 Meshes: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14190217.png)
+![](/uploads/projects/ue-bluprint/20221218-14190217.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFieldCullingOperationType枚举。 
+选择。EFieldCullingOperationType 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 外侧：Exec: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14190217.png)
+![](/uploads/projects/ue-bluprint/20221218-14190217.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFieldCullingOperationType Enum.  
+Selection: EFieldCullingOperationType Enum.
 
 ## Outputs
 
 Inside: Exec.
 
 Outside: Exec.
-

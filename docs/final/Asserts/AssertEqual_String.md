@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17592243.png)
+![](/uploads/projects/ue-bluprint/20221218-17592243.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 预期的。字符串。
 
-What: 字符串。如果断言失败，在信息中使用的名称（"预期'什么'是{预期}，但对于上下文''是{实际}"）。 
+What: 字符串。如果断言失败，在信息中使用的名称（"预期'什么'是{预期}，但对于上下文''是{实际}"）。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ What: 字符串。如果断言失败，在信息中使用的名称（"预期'什
 
 返回值。布尔值。
 
+<hr>
+
 Assert that two Strings are equal.
 
 Target is Functional Test
 
 ## 图示
 
-![]($-20221218-17592243.png)
+![](/uploads/projects/ue-bluprint/20221218-17592243.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Actual: String.
 
 Expected: String.
 
-What: String. A name to use in the message if the assert fails ("Expected 'What' to be {Expected} but it was {Actual} for context ''").  
+What: String. A name to use in the message if the assert fails ("Expected 'What' to be {Expected} but it was {Actual} for context ''").
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20024575.png)
+![](/uploads/projects/ue-bluprint/20221218-20024575.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@
 
 出：执行。
 
+<hr>
+
 Stop the previous requested capture.
 
 Target is Media Capture
 
 ## 图示
 
-![]($-20221218-20024575.png)
+![](/uploads/projects/ue-bluprint/20221218-20024575.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Media Capture Object Reference.
 
-Allow Pending Frame to be Process: Boolean. Keep copying the pending frames asynchronously or stop immediately without copying the pending frames..  
+Allow Pending Frame to be Process: Boolean. Keep copying the pending frames asynchronously or stop immediately without copying the pending frames..
 
 ## Outputs
 
 Out: Exec.
-

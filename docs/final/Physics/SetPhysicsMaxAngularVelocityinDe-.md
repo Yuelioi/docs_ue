@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20290145.png)
+![](/uploads/projects/ue-bluprint/20221218-20290145.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 新的最大角度速度。Float（单精度）。应用于身体的新的最大角速度，单位是度/秒。
 
-添加到当前：布尔值。如果为真，NewMaxAngVel将被添加到身体现有的最大角速度中。
+添加到当前：布尔值。如果为真，NewMaxAngVel 将被添加到身体现有的最大角速度中。
 
-骨骼名称。名称。如果是SkeletalMeshComponent，要修改最大角速度的体的名称。'无'表示根体。
+骨骼名称。名称。如果是 SkeletalMeshComponent，要修改最大角速度的体的名称。'无'表示根体。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the maximum angular velocity of a single body.
 
@@ -30,7 +32,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20290145.png)
+![](/uploads/projects/ue-bluprint/20221218-20290145.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ New Max Ang Vel: Float (single-precision). New maximum angular velocity to apply
 
 Add to Current: Boolean. If true, NewMaxAngVel is added to the existing maximum angular velocity of the body..
 
-Bone Name: Name. If a SkeletalMeshComponent, name of body to modify maximum angular velocity of. 'None' indicates root body..  
+Bone Name: Name. If a SkeletalMeshComponent, name of body to modify maximum angular velocity of. 'None' indicates root body..
 
 ## Outputs
 
 Out: Exec.
-

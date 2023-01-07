@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18194456.png)
+![](/uploads/projects/ue-bluprint/20221218-18194456.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。原始组件对象参考。
 
-新类型。ECollisionEnabled Enum。 
+新类型。ECollisionEnabled Enum。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Controls what kind of collision is enabled for this body
 
@@ -26,7 +28,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-18194456.png)
+![](/uploads/projects/ue-bluprint/20221218-18194456.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Primitive Component Object Reference.
 
-New Type: ECollisionEnabled Enum.  
+New Type: ECollisionEnabled Enum.
 
 ## Outputs
 
 Out: Exec.
-

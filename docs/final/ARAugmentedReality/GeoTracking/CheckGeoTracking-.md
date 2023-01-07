@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17563828.png)
+![](/uploads/projects/ue-bluprint/20221218-17563828.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 经度。Float（单精度）。
 
-纬度。Float (single-precision).  
+纬度。Float (single-precision).
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 错误。字符串。
 
+<hr>
+
 Check Geo tracking availability at a specific Geo location.
 
 Target is Check Geo Tracking Availability Async Task Blueprint Proxy
 
 ## 图示
 
-![]($-20221218-17563828.png)
+![](/uploads/projects/ue-bluprint/20221218-17563828.png)
 
 ## Inputs
 
@@ -42,7 +44,7 @@ In: Exec.
 
 Longitude: Float (single-precision).
 
-Latitude: Float (single-precision).  
+Latitude: Float (single-precision).
 
 ## Outputs
 
@@ -55,4 +57,3 @@ On Failed: Exec. On Failed.
 Is Available: Boolean.
 
 Error: String.
-

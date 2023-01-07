@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18024936.png)
+![](/uploads/projects/ue-bluprint/20221218-18024936.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 调整音量水平。Float（单精度）。设置音频组件的新音量。
 
-渐变曲线。EAudioFaderCurve枚举。在新旧音量之间进行插值时使用的曲线。 
+渐变曲线。EAudioFaderCurve 枚举。在新旧音量之间进行插值时使用的曲线。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 This function allows designers to trigger an adjustment to the sound instance?s playback Volume with options for smoothly applying a curve over time.
 
@@ -30,7 +32,7 @@ Target is Audio Component
 
 ## 图示
 
-![]($-20221218-18024936.png)
+![](/uploads/projects/ue-bluprint/20221218-18024936.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Adjust Volume Duration: Float (single-precision). The length of time in which to
 
 Adjust Volume Level: Float (single-precision). The new volume to set the Audio Component to..
 
-Fade Curve: EAudioFaderCurve Enum. The curve used when interpolating between the old and new volume..  
+Fade Curve: EAudioFaderCurve Enum. The curve used when interpolating between the old and new volume..
 
 ## Outputs
 
 Out: Exec.
-

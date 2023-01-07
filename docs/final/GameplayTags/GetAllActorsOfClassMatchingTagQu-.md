@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19091779.png)
+![](/uploads/projects/ue-bluprint/20221218-19091779.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 行为者类。演员类参考。要取的演员类。
 
-Gameplay Tag查询。Gameplay Tag查询结构（由裁判）。匹配的查询。  
+Gameplay Tag 查询。Gameplay Tag 查询结构（由裁判）。匹配的查询。
 
 ## Outputs
 
@@ -22,13 +22,15 @@ Gameplay Tag查询。Gameplay Tag查询结构（由裁判）。匹配的查询�
 
 出来的演员。演员对象参考数组。
 
+<hr>
+
 Get an array of all actors of a specific class (or subclass of that class) which match the specified gameplay tag query.
 
 Target is Blueprint Gameplay Tag Library
 
 ## 图示
 
-![]($-20221218-19091779.png)
+![](/uploads/projects/ue-bluprint/20221218-19091779.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Actor Class: Actor Class Reference. Class of actors to fetch.
 
-Gameplay Tag Query: Gameplay Tag Query Structure (by ref). Query to match against.  
+Gameplay Tag Query: Gameplay Tag Query Structure (by ref). Query to match against.
 
 ## Outputs
 
 Out: Exec.
 
 Out Actors: Array of Actor Object References.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14232348.png)
+![](/uploads/projects/ue-bluprint/20221218-14232348.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESimulationOverlap Enum.  
+选择。ESimulationOverlap Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 无。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14232348.png)
+![](/uploads/projects/ue-bluprint/20221218-14232348.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESimulationOverlap Enum.  
+Selection: ESimulationOverlap Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Collision Overlap: Exec.
 Shade Overlap: Exec.
 
 None: Exec.
-

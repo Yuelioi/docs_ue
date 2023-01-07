@@ -1,12 +1,12 @@
 # WriteAchievementProgress
 
-将某项成就的进展写入默认的在线子系统中。AchievementName是要更新进度的成就的ID。进度是完成成就的报告进度。UserTag不在内部使用，但它会在成功或失败时返回。
+将某项成就的进展写入默认的在线子系统中。AchievementName 是要更新进度的成就的 ID。进度是完成成就的报告进度。UserTag 不在内部使用，但它会在成功或失败时返回。
 
 目标是成就写回调代理
 
 ## 图示
 
-![]($-20221218-20161282.png)
+![](/uploads/projects/ue-bluprint/20221218-20161282.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 进度。Float（单精度）。
 
-用户标签：整数。  
+用户标签：整数。
 
 ## Outputs
 
@@ -34,13 +34,15 @@
 
 书面用户标签：整数。
 
+<hr>
+
 Writes progress about an achievement to the default online subsystem. AchievementName is the ID of the achievement to update progress on. Progress is the reported progress toward accomplishing the achievement. UserTag is not used internally, but it is returned on success or failure
 
 Target is Achievement Write Callback Proxy
 
 ## 图示
 
-![]($-20221218-20161282.png)
+![](/uploads/projects/ue-bluprint/20221218-20161282.png)
 
 ## Inputs
 
@@ -52,7 +54,7 @@ Achievement Name: Name.
 
 Progress: Float (single-precision).
 
-User Tag: Integer.  
+User Tag: Integer.
 
 ## Outputs
 
@@ -67,4 +69,3 @@ Written Achievement Name: Name.
 Written Progress: Float (single-precision).
 
 Written User Tag: Integer.
-

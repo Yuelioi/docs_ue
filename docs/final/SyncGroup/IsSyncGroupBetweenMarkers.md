@@ -2,11 +2,11 @@
 
 是标记之间的同步组
 
-目标是Anim Instance
+目标是 Anim Instance
 
 ## 图示
 
-![]($-20221218-21062520.png)
+![](/uploads/projects/ue-bluprint/20221218-21062520.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@ In Sync Group Name: 名称。
 
 下一个标记: 名称。
 
-尊重标记顺序。布尔值。  
+尊重标记顺序。布尔值。
 
 ## Outputs
 
 返回值。布尔值。标记之间是否为同步组。
+
+<hr>
 
 Is Sync Group Between Markers
 
@@ -30,7 +32,7 @@ Target is Anim Instance
 
 ## 图示
 
-![]($-20221218-21062520.png)
+![](/uploads/projects/ue-bluprint/20221218-21062520.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Previous Marker: Name.
 
 Next Marker: Name.
 
-Respect Marker Order: Boolean.  
+Respect Marker Order: Boolean.
 
 ## Outputs
 
 Return Value: Boolean. Is Sync Group Between Markers.
-

@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20102067.png)
+![](/uploads/projects/ue-bluprint/20221218-20102067.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 出：执行。
 
-返回值。EMultiUserConnectionStatus枚举。获取多用户连接状态。
+返回值。EMultiUserConnectionStatus 枚举。获取多用户连接状态。
+
+<hr>
 
 Get Multi-User connection status.
 
@@ -24,15 +26,14 @@ Target is Multi User Client Statics
 
 ## 图示
 
-![]($-20221218-20102067.png)
+![](/uploads/projects/ue-bluprint/20221218-20102067.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: EMultiUserConnectionStatus Enum. Get Multi-User connection status..
-

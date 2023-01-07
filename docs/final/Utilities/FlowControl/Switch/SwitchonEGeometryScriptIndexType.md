@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14195133.png)
+![](/uploads/projects/ue-bluprint/20221218-14195133.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGeometryScriptIndexType枚举。 
+选择。EGeometryScriptIndexType 枚举。
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Material ID: Exec.
 
 Polygroup ID: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14195133.png)
+![](/uploads/projects/ue-bluprint/20221218-14195133.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGeometryScriptIndexType Enum.  
+Selection: EGeometryScriptIndexType Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Vertex: Exec.
 Material ID: Exec.
 
 Polygroup ID: Exec.
-

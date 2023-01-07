@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14175470.png)
+![](/uploads/projects/ue-bluprint/20221218-14175470.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EControllerFidelity Enum.  
+选择。EControllerFidelity Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Controller Fidelity Full: Exec.
 
 控制器保真度部分。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14175470.png)
+![](/uploads/projects/ue-bluprint/20221218-14175470.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EControllerFidelity Enum.  
+Selection: EControllerFidelity Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Controller Fidelity Estimated: Exec.
 Controller Fidelity Full: Exec.
 
 Controller Fidelity Partial: Exec.
-

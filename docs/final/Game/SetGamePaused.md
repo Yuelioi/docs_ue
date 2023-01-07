@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-19074306.png)
+![](/uploads/projects/ue-bluprint/20221218-19074306.png)
 
 ## Inputs
 
 在。执行。
 
-暂停。布尔值。游戏是否应该暂停。  
+暂停。布尔值。游戏是否应该暂停。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。布尔值。游戏是否成功暂停/不暂停。
 
+<hr>
+
 Sets the game's paused state
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-19074306.png)
+![](/uploads/projects/ue-bluprint/20221218-19074306.png)
 
 ## Inputs
 
 In: Exec.
 
-Paused: Boolean. Whether the game should be paused or not.  
+Paused: Boolean. Whether the game should be paused or not.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Whether the game was successfully paused/unpaused.
-

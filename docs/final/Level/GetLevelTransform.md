@@ -1,20 +1,22 @@
 # GetLevelTransform
 
-返回这个角色所处的关卡的FT变换。
+返回这个角色所处的关卡的 FT 变换。
 
 目标是演员
 
 ## 图示
 
-![]($-20221218-19410194.png)
+![](/uploads/projects/ue-bluprint/20221218-19410194.png)
 
 ## Inputs
 
-目标。演员对象参考。  
+目标。演员对象参考。
 
 ## Outputs
 
-返回值。变形。返回该演员所在关卡的FT变换。
+返回值。变形。返回该演员所在关卡的 FT 变换。
+
+<hr>
 
 Return the FTransform of the level this actor is a part of.
 
@@ -22,13 +24,12 @@ Target is Actor
 
 ## 图示
 
-![]($-20221218-19410194.png)
+![](/uploads/projects/ue-bluprint/20221218-19410194.png)
 
 ## Inputs
 
-Target: Actor Object Reference.  
+Target: Actor Object Reference.
 
 ## Outputs
 
 Return Value: Transform. Return the FTransform of the level this actor is a part of..
-

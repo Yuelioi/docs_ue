@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14162922.png)
+![](/uploads/projects/ue-bluprint/20221218-14162922.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARFaceTrackingUpdate Enum.  
+选择。EARFaceTrackingUpdate Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 仅限曲线。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14162922.png)
+![](/uploads/projects/ue-bluprint/20221218-14162922.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARFaceTrackingUpdate Enum.  
+Selection: EARFaceTrackingUpdate Enum.
 
 ## Outputs
 
 Curves And Geo: Exec.
 
 Curves Only: Exec.
-

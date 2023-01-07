@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17480031.png)
+![](/uploads/projects/ue-bluprint/20221218-17480031.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 行动。卒的行动对象参考。
 
-优先级。EAIRequestPriority Enum。 
+优先级。EAIRequestPriority Enum。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。蓝图接口。
 
+<hr>
+
 blueprint interface
 
 Target is Pawn Actions Component
 
 ## 图示
 
-![]($-20221218-17480031.png)
+![](/uploads/projects/ue-bluprint/20221218-17480031.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Pawn: Pawn Object Reference.
 
 Action: Pawn Action Object Reference.
 
-Priority: EAIRequestPriority Enum.  
+Priority: EAIRequestPriority Enum.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. blueprint interface.
-

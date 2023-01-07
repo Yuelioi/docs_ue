@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20164681.png)
+![](/uploads/projects/ue-bluprint/20221218-20164681.png)
 
 ## Inputs
 
@@ -14,11 +14,11 @@
 
 播放器控制器。播放器控制器对象参考。
 
-匹配ID：字符串。
+匹配 ID：字符串。
 
 结果。EMPMatchOutcome Enum。
 
-转弯超时（秒）。整数。  
+转弯超时（秒）。整数。
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 失败时。执行。失败时：。当有一个不成功的查询时被调用。
 
+<hr>
+
 Quits the turn based match
 
 Target is Quit Match Callback Proxy
 
 ## 图示
 
-![]($-20221218-20164681.png)
+![](/uploads/projects/ue-bluprint/20221218-20164681.png)
 
 ## Inputs
 
@@ -46,7 +48,7 @@ Match ID: String.
 
 Outcome: EMPMatchOutcome Enum.
 
-Turn Timeout in Seconds: Integer.  
+Turn Timeout in Seconds: Integer.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Out: Exec.
 On Success: Exec. On Success:. Called when there is a successful query.
 
 On Failure: Exec. On Failure:. Called when there is an unsuccessful query.
-

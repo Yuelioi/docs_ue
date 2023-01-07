@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-20474552.png)
+![](/uploads/projects/ue-bluprint/20221218-20474552.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Scroll Box对象参考。
+目标。Scroll Box 对象参考。
 
-新的总是显示滚动条。布尔值。  
+新的总是显示滚动条。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Always Show Scrollbar
 
@@ -26,7 +28,7 @@ Target is Scroll Box
 
 ## 图示
 
-![]($-20221218-20474552.png)
+![](/uploads/projects/ue-bluprint/20221218-20474552.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Scroll Box Object Reference.
 
-New Always Show Scrollbar: Boolean.  
+New Always Show Scrollbar: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20002331.png)
+![](/uploads/projects/ue-bluprint/20221218-20002331.png)
 
 ## Inputs
 
 在。执行。
 
-目标。媒体捆绑演员基本对象参考。  
+目标。媒体捆绑演员基本对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Close the Media Source.
 
@@ -24,15 +26,14 @@ Target is Media Bundle Actor Base
 
 ## 图示
 
-![]($-20221218-20002331.png)
+![](/uploads/projects/ue-bluprint/20221218-20002331.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Media Bundle Actor Base Object Reference.  
+Target: Media Bundle Actor Base Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

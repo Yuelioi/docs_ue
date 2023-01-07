@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20321577.png)
+![](/uploads/projects/ue-bluprint/20221218-20321577.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 在量化边界：EQuartzCommandQuantization Enum。
 
-在量化事件中。代表（通过引用）。  
+在量化事件中。代表（通过引用）。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 时钟拉手。石英钟拉手对象参考。
 
+<hr>
+
 Metronome subscription
 
 Target is Quartz Clock Handle
 
 ## 图示
 
-![]($-20221218-20321577.png)
+![](/uploads/projects/ue-bluprint/20221218-20321577.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Quartz Clock Handle Object Reference.
 
 In Quantization Boundary: EQuartzCommandQuantization Enum.
 
-On Quantization Event: Delegate (by ref).  
+On Quantization Event: Delegate (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Clock Handle: Quartz Clock Handle Object Reference.
-

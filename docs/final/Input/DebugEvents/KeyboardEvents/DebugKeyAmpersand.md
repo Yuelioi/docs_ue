@@ -1,10 +1,10 @@
 # DebugKeyAmpersand
 
-当Ampersand键被按下或释放时的事件。
+当 Ampersand 键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19190801.png)
+![](/uploads/projects/ue-bluprint/20221218-19190801.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 行动值。输入行动值结构。
 
+<hr>
+
 Events for when the Ampersand key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19190801.png)
+![](/uploads/projects/ue-bluprint/20221218-19190801.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

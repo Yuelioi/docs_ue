@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19005218.png)
+![](/uploads/projects/ue-bluprint/20221218-19005218.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。力反馈组件对象参考。
 
-新的强度乘法器。Float（单精度）。  
+新的强度乘法器。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set a new intensity multiplier
 
@@ -26,7 +28,7 @@ Target is Force Feedback Component
 
 ## 图示
 
-![]($-20221218-19005218.png)
+![](/uploads/projects/ue-bluprint/20221218-19005218.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Force Feedback Component Object Reference.
 
-New Intensity Multiplier: Float (single-precision).  
+New Intensity Multiplier: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

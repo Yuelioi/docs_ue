@@ -1,12 +1,12 @@
 # RequestPawnPredictionEvent
 
-要求感知系统在PredictionTime秒内向请求者提供PredictedActor的预测位置。位置是根据预测者角色的当前位置和速度来预测的。
+要求感知系统在 PredictionTime 秒内向请求者提供 PredictedActor 的预测位置。位置是根据预测者角色的当前位置和速度来预测的。
 
-目标是AISense的预测
+目标是 AISense 的预测
 
 ## 图示
 
-![]($-20221218-17482426.png)
+![](/uploads/projects/ue-bluprint/20221218-17482426.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 预测的演员。Actor Object Reference.
 
-预测时间。Float（单精度）。 
+预测时间。Float（单精度）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Asks perception system to supply Requestor with PredictedActor's predicted location in PredictionTime seconds. Location is being predicted based on PredicterActor's current location and velocity
 
@@ -28,7 +30,7 @@ Target is AISense Prediction
 
 ## 图示
 
-![]($-20221218-17482426.png)
+![](/uploads/projects/ue-bluprint/20221218-17482426.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Requestor: Pawn Object Reference.
 
 Predicted Actor: Actor Object Reference.
 
-Prediction Time: Float (single-precision).  
+Prediction Time: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

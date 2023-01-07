@@ -1,10 +1,10 @@
 # RightCtrl
 
-当按下或释放右Ctrl键时的事件。
+当按下或释放右 Ctrl 键时的事件。
 
 ## 图示
 
-![]($-20221218-19264435.png)
+![](/uploads/projects/ue-bluprint/20221218-19264435.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 钥匙。关键的结构。
 
+<hr>
+
 Events for when the Right Ctrl key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19264435.png)
+![](/uploads/projects/ue-bluprint/20221218-19264435.png)
 
 ## Inputs
 
@@ -31,4 +33,3 @@ Pressed: Exec.
 Released: Exec.
 
 Key: Key Structure.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14243520.png)
+![](/uploads/projects/ue-bluprint/20221218-14243520.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETextureRenderTargetFormat枚举。 
+选择。ETextureRenderTargetFormat 枚举。
 
 ## Outputs
 
@@ -36,17 +36,19 @@ RTF RGBA32f: Exec.
 
 RTF RGB10A2: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14243520.png)
+![](/uploads/projects/ue-bluprint/20221218-14243520.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETextureRenderTargetFormat Enum.  
+Selection: ETextureRenderTargetFormat Enum.
 
 ## Outputs
 
@@ -71,4 +73,3 @@ RTF RG32f: Exec.
 RTF RGBA32f: Exec.
 
 RTF RGB10A2: Exec.
-

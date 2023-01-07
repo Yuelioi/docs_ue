@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21293451.png)
+![](/uploads/projects/ue-bluprint/20221218-21293451.png)
 
 ## Inputs
 
-目标。虚拟摄像机播放器控制器基础对象参考。  
+目标。虚拟摄像机播放器控制器基础对象参考。
 
 ## Outputs
 
-返回值。帧号结构。在FrameNumber中，序列的起始位置。
+返回值。帧号结构。在 FrameNumber 中，序列的起始位置。
+
+<hr>
 
 Get the start position of the currently selected sequence
 
@@ -22,13 +24,12 @@ Target is Virtual Camera Player Controller Base
 
 ## 图示
 
-![]($-20221218-21293451.png)
+![](/uploads/projects/ue-bluprint/20221218-21293451.png)
 
 ## Inputs
 
-Target: Virtual Camera Player Controller Base Object Reference.  
+Target: Virtual Camera Player Controller Base Object Reference.
 
 ## Outputs
 
 Return Value: Frame Number Structure. the start position of the sequence in FrameNumber.
-

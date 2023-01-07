@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18315728.png)
+![](/uploads/projects/ue-bluprint/20221218-18315728.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在控制名称。名称（通过参考）。
 
-选择。Boolean（布尔）。 
+选择。Boolean（布尔）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Select Control
 
@@ -28,7 +30,7 @@ Target is Control Rig
 
 ## 图示
 
-![]($-20221218-18315728.png)
+![](/uploads/projects/ue-bluprint/20221218-18315728.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Control Rig Object Reference.
 
 In Control Name: Name (by ref).
 
-Select: Boolean.  
+Select: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

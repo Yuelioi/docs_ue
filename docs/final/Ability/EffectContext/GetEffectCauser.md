@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17303128.png)
+![](/uploads/projects/ue-bluprint/20221218-17303128.png)
 
 ## Inputs
 
-效果语境。Gameplay Effect Context Handle结构。 
+效果语境。Gameplay Effect Context Handle 结构。
 
 ## Outputs
 
 返回值。演员对象参考。获取引起该效果的物理角色，可能是一个弹丸或武器。
+
+<hr>
 
 Gets the physical actor that caused the effect, possibly a projectile or weapon
 
@@ -22,13 +24,12 @@ Target is Ability System Blueprint Library
 
 ## 图示
 
-![]($-20221218-17303128.png)
+![](/uploads/projects/ue-bluprint/20221218-17303128.png)
 
 ## Inputs
 
-Effect Context: Gameplay Effect Context Handle Structure.  
+Effect Context: Gameplay Effect Context Handle Structure.
 
 ## Outputs
 
 Return Value: Actor Object Reference. Gets the physical actor that caused the effect, possibly a projectile or weapon.
-

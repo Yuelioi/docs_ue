@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14182805.png)
+![](/uploads/projects/ue-bluprint/20221218-14182805.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDMXImportGDTFLampType枚举。 
+选择。EDMXImportGDTFLampType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 LED: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14182805.png)
+![](/uploads/projects/ue-bluprint/20221218-14182805.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDMXImportGDTFLampType Enum.  
+Selection: EDMXImportGDTFLampType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Tungsten: Exec.
 Halogen: Exec.
 
 LED: Exec.
-

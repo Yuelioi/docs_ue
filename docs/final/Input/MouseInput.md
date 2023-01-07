@@ -2,11 +2,7 @@
 
 在这一页
 
-  * 行动
-
-
-
-
+- 行动
 
 ## Actions
 
@@ -18,13 +14,11 @@
 
 在发布。On Released:.当鼠标在该组件上时，鼠标左键被释放时调用的事件，点击事件在播放器控制器中被启用。
 
-On this page 
+<hr>
 
-  * Actions
+On this page
 
-
-
-
+- Actions
 
 ## Actions
 
@@ -35,4 +29,3 @@ On Clicked. On Clicked:. Event called when the left mouse button is clicked whil
 On End Cursor Over. On End Cursor Over:. Called when the mouse cursor is moved off this actor if mouse over events are enabled in the player controller..
 
 On Released. On Released:. Event called when the left mouse button is released while the mouse is over this component click events are enabled in the player controller.
-

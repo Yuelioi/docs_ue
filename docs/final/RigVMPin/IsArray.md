@@ -1,20 +1,22 @@
 # IsArray
 
-如果Pin的数据类型是一个数组，则返回true。
+如果 Pin 的数据类型是一个数组，则返回 true。
 
-目标是Rig VMPin
+目标是 Rig VMPin
 
 ## 图示
 
-![]($-20221218-20461649.png)
+![](/uploads/projects/ue-bluprint/20221218-20461649.png)
 
 ## Inputs
 
-目标。Rig VMPin对象参考。  
+目标。Rig VMPin 对象参考。
 
 ## Outputs
 
-返回值。布尔值。如果Pin的数据类型是一个数组，则返回true。
+返回值。布尔值。如果 Pin 的数据类型是一个数组，则返回 true。
+
+<hr>
 
 Returns true if the data type of the Pin is an array
 
@@ -22,13 +24,12 @@ Target is Rig VMPin
 
 ## 图示
 
-![]($-20221218-20461649.png)
+![](/uploads/projects/ue-bluprint/20221218-20461649.png)
 
 ## Inputs
 
-Target: Rig VMPin Object Reference.  
+Target: Rig VMPin Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Returns true if the data type of the Pin is an array.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14203002.png)
+![](/uploads/projects/ue-bluprint/20221218-14203002.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EHitResultGizmoFilterMode枚举。 
+选择。EHitResultGizmoFilterMode 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@ No Gizmos: Exec.
 
 仅仅是小工具。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14203002.png)
+![](/uploads/projects/ue-bluprint/20221218-14203002.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EHitResultGizmoFilterMode Enum.  
+Selection: EHitResultGizmoFilterMode Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ All: Exec.
 No Gizmos: Exec.
 
 Gizmos Only: Exec.
-

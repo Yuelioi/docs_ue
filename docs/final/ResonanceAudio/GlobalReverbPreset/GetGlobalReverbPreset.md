@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-20404859.png)
+![](/uploads/projects/ue-bluprint/20221218-20404859.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。Resonance Audio 混响插件预置对象参考。此函数检索共振音频的全局混响预置。
 
+<hr>
+
 This function retrieves the Global Reverb Preset for Resonance Audio
 
 Target is Resonance Audio Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-20404859.png)
+![](/uploads/projects/ue-bluprint/20221218-20404859.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Resonance Audio Reverb Plugin Preset Object Reference. This function retrieves the Global Reverb Preset for Resonance Audio.
-

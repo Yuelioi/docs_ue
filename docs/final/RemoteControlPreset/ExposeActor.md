@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20330195.png)
+![](/uploads/projects/ue-bluprint/20221218-20330195.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 演员。Actor Object Reference. Actor to expose...
 
-Args:可选的参数...。  
+Args:可选的参数...。
 
 ## Outputs
 
@@ -24,13 +24,15 @@ Args:可选的参数...。
 
 返回值。布尔值。操作是否成功。
 
+<hr>
+
 Expose an actor in a remote control preset.
 
 Target is Remote Control Function Library
 
 ## 图示
 
-![]($-20221218-20330195.png)
+![](/uploads/projects/ue-bluprint/20221218-20330195.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Preset: Remote Control Preset Object Reference. the preset to expose the propert
 
 Actor: Actor Object Reference. the actor to expose..
 
-Args: Remote Control Optional Expose Args Structure. optional arguments..  
+Args: Remote Control Optional Expose Args Structure. optional arguments..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Whether the operation was successful..
-

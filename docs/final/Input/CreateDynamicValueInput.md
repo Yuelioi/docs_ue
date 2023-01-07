@@ -2,11 +2,11 @@
 
 创建动态值输入
 
-目标是Niagara剪贴板编辑器的脚本实用程序
+目标是 Niagara 剪贴板编辑器的脚本实用程序
 
 ## 图示
 
-![]($-20221218-19172046.png)
+![](/uploads/projects/ue-bluprint/20221218-19172046.png)
 
 ## Inputs
 
@@ -22,11 +22,13 @@
 
 在动态值名称。字符串。
 
-在动态值中。Niagara脚本对象参考。  
+在动态值中。Niagara 脚本对象参考。
 
 ## Outputs
 
 返回值。尼亚加拉剪贴板函数输入对象参考。创建动态值输入。
+
+<hr>
 
 Create Dynamic Value Input
 
@@ -34,7 +36,7 @@ Target is Niagara Clipboard Editor Scripting Utilities
 
 ## 图示
 
-![]($-20221218-19172046.png)
+![](/uploads/projects/ue-bluprint/20221218-19172046.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ In Edit Condition Value: Boolean.
 
 In Dynamic Value Name: String.
 
-In Dynamic Value: Niagara Script Object Reference.  
+In Dynamic Value: Niagara Script Object Reference.
 
 ## Outputs
 
 Return Value: Niagara Clipboard Function Input Object Reference. Create Dynamic Value Input.
-

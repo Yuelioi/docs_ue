@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18341711.png)
+![](/uploads/projects/ue-bluprint/20221218-18341711.png)
 
 ## Inputs
 
@@ -18,9 +18,9 @@
 
 Attribute Name（属性名称）。名称（通过引用）。要检索的属性的名称。
 
-输出值。整数（通过引用）。(参考）如果找到的话，检索的属性值，否则被设置为DefaultValue。
+输出值。整数（通过引用）。(参考）如果找到的话，检索的属性值，否则被设置为 DefaultValue。
 
-查询类型。ECustomBoneAttributeLookup枚举。决定如何从指定的BoneName检索属性（见ECustomBoneAttributeLookup）。 
+查询类型。ECustomBoneAttributeLookup 枚举。决定如何从指定的 BoneName 检索属性（见 ECustomBoneAttributeLookup）。
 
 ## Outputs
 
@@ -28,13 +28,15 @@ Attribute Name（属性名称）。名称（通过引用）。要检索的属性
 
 返回值。布尔值。属性是否被成功检索到。
 
+<hr>
+
 Get integer type attribute value.
 
 Target is Skeletal Mesh Component
 
 ## 图示
 
-![]($-20221218-18341711.png)
+![](/uploads/projects/ue-bluprint/20221218-18341711.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Attribute Name: Name (by ref). Name of the attribute to retrieve.
 
 Out Value: Integer (by ref). (reference) Retrieved attribute value if found, otherwise is set to DefaultValue.
 
-Lookup Type: ECustomBoneAttributeLookup Enum. Determines how the attribute is retrieved from the specified BoneName (see ECustomBoneAttributeLookup).  
+Lookup Type: ECustomBoneAttributeLookup Enum. Determines how the attribute is retrieved from the specified BoneName (see ECustomBoneAttributeLookup).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Whether or not the atttribute was successfully retrieved.
-

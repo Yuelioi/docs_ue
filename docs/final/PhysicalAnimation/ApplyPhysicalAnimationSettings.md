@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20202526.png)
+![](/uploads/projects/ue-bluprint/20221218-20202526.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 机构名称：名称。
 
-物理动画数据。物理动画数据结构（由参考）。  
+物理动画数据。物理动画数据结构（由参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Applies the physical animation settings to the body given.
 
@@ -28,7 +30,7 @@ Target is Physical Animation Component
 
 ## 图示
 
-![]($-20221218-20202526.png)
+![](/uploads/projects/ue-bluprint/20221218-20202526.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Physical Animation Component Object Reference.
 
 Body Name: Name.
 
-Physical Animation Data: Physical Animation Data Structure (by ref).  
+Physical Animation Data: Physical Animation Data Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

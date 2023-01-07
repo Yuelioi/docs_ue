@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14240578.png)
+![](/uploads/projects/ue-bluprint/20221218-14240578.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESubmixSendMethod Enum.  
+选择。ESubmixSendMethod Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Custom Curve: Exec.
 
 手动发送。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14240578.png)
+![](/uploads/projects/ue-bluprint/20221218-14240578.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESubmixSendMethod Enum.  
+Selection: ESubmixSendMethod Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Linear: Exec.
 Custom Curve: Exec.
 
 Manual: Exec.
-

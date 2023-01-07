@@ -1,18 +1,18 @@
 # GetParticleModuleSubUVMovieProps
 
-获取粒子模块子UVMovie道具
+获取粒子模块子 UVMovie 道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19025753.png)
+![](/uploads/projects/ue-bluprint/20221218-19025753.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。Sub UV Movie Object Reference.  
+粒子模块。Sub UV Movie Object Reference.
 
 ## Outputs
 
@@ -24,19 +24,21 @@
 
 输出起始帧。整数。
 
+<hr>
+
 Get Particle Module Sub UVMovie Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19025753.png)
+![](/uploads/projects/ue-bluprint/20221218-19025753.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Sub UV Movie Object Reference.  
+Particle Module: Sub UV Movie Object Reference.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out Use Emitter Time: Boolean.
 Out Frame Rate: Distribution Object Reference.
 
 Out Starting Frame: Integer.
-

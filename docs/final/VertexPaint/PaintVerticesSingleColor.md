@@ -2,11 +2,11 @@
 
 将网格组件的顶点颜色涂成指定的颜色。
 
-目标是Mesh Vertex Painter Kismet库
+目标是 Mesh Vertex Painter Kismet 库
 
 ## 图示
 
-![]($-20221218-21245847.png)
+![](/uploads/projects/ue-bluprint/20221218-21245847.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 填充颜色：线性颜色结构（通过参考）。
 
-转换为SRGB：布尔值。  
+转换为 SRGB：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Paints vertex colors on a mesh component in a specified color.
 
@@ -28,7 +30,7 @@ Target is Mesh Vertex Painter Kismet Library
 
 ## 图示
 
-![]($-20221218-21245847.png)
+![](/uploads/projects/ue-bluprint/20221218-21245847.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Static Mesh Component: Static Mesh Component Object Reference.
 
 Fill Color: Linear Color Structure (by ref).
 
-Convert to SRGB: Boolean.  
+Convert to SRGB: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

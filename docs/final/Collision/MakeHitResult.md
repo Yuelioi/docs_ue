@@ -6,7 +6,7 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18192050.png)
+![](/uploads/projects/ue-bluprint/20221218-18192050.png)
 
 ## Inputs
 
@@ -44,18 +44,21 @@ Face Index: Integer. If colliding with trimesh or landscape, index of face that 
 
 Trace Start: Vector.
 
-Trace End: Vector.  
+Trace End: Vector.
 
 ## Outputs
 
 Return Value: Hit Result Structure.
+
+<hr>
+
 Create a HitResult struct
 
 Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18192050.png)
+![](/uploads/projects/ue-bluprint/20221218-18192050.png)
 
 ## Inputs
 
@@ -93,9 +96,8 @@ Face Index: Integer. If colliding with trimesh or landscape, index of face that 
 
 Trace Start: Vector.
 
-Trace End: Vector.  
+Trace End: Vector.
 
 ## Outputs
 
 Return Value: Hit Result Structure.
-

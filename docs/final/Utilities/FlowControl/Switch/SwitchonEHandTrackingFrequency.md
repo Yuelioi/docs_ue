@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14202740.png)
+![](/uploads/projects/ue-bluprint/20221218-14202740.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EHandTrackingFrequency Enum.  
+选择。EHandTrackingFrequency Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ LOW：执行。
 
 高：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14202740.png)
+![](/uploads/projects/ue-bluprint/20221218-14202740.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EHandTrackingFrequency Enum.  
+Selection: EHandTrackingFrequency Enum.
 
 ## Outputs
 
 LOW: Exec.
 
 HIGH: Exec.
-

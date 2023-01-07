@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21084834.png)
+![](/uploads/projects/ue-bluprint/20221218-21084834.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Modular Synth Component Object Reference。
 
-启用立体声延时。布尔型。  
+启用立体声延时。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets whether not stereo delay is enabled.
 
@@ -26,7 +28,7 @@ Target is Modular Synth Component
 
 ## 图示
 
-![]($-20221218-21084834.png)
+![](/uploads/projects/ue-bluprint/20221218-21084834.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Modular Synth Component Object Reference.
 
-Stereo Delay Enabled: Boolean.  
+Stereo Delay Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

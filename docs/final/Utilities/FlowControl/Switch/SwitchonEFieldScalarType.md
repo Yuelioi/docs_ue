@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14191091.png)
+![](/uploads/projects/ue-bluprint/20221218-14191091.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFieldScalarType Enum.  
+选择。EFieldScalarType Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Sleeping Threshold: Exec.
 
 内部应变: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14191091.png)
+![](/uploads/projects/ue-bluprint/20221218-14191091.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFieldScalarType Enum.  
+Selection: EFieldScalarType Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Disabled Threshold: Exec.
 Sleeping Threshold: Exec.
 
 Internal Strain: Exec.
-

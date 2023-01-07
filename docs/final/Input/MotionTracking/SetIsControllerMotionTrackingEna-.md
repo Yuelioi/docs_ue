@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19274960.png)
+![](/uploads/projects/ue-bluprint/20221218-19274960.png)
 
 ## Inputs
 
 在。执行。
 
-启用。布尔值。  
+启用。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set whether motion tracked controllers activate on creation by default, or do not and must be explicitly activated.
 
@@ -24,15 +26,14 @@ Target is Motion Tracked Device Function Library
 
 ## 图示
 
-![]($-20221218-19274960.png)
+![](/uploads/projects/ue-bluprint/20221218-19274960.png)
 
 ## Inputs
 
 In: Exec.
 
-Enable: Boolean.  
+Enable: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

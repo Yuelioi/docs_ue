@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18233680.png)
+![](/uploads/projects/ue-bluprint/20221218-18233680.png)
 
 ## Inputs
 
-目标。Paper Flipbook组件对象参考。 
+目标。Paper Flipbook 组件对象参考。
 
 ## Outputs
 
 返回值。布尔值。获取我们是否在进行循环。
+
+<hr>
 
 Get whether we are looping or not
 
@@ -22,13 +24,12 @@ Target is Paper Flipbook Component
 
 ## 图示
 
-![]($-20221218-18233680.png)
+![](/uploads/projects/ue-bluprint/20221218-18233680.png)
 
 ## Inputs
 
-Target: Paper Flipbook Component Object Reference.  
+Target: Paper Flipbook Component Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Get whether we are looping or not.
-

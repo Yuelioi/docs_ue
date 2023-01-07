@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20572657.png)
+![](/uploads/projects/ue-bluprint/20221218-20572657.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。整数。获取同步间隔。
 
+<hr>
+
 Get Sync Interval
 
 Target is Game User Settings
 
 ## 图示
 
-![]($-20221218-20572657.png)
+![](/uploads/projects/ue-bluprint/20221218-20572657.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Integer. Get Sync Interval.
-

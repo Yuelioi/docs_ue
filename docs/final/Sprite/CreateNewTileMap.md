@@ -1,12 +1,12 @@
 # CreateNewTileMap
 
-创建一个指定大小的新瓦片地图，取代TileMap引用（或放弃之前拥有的瓦片地图）。
+创建一个指定大小的新瓦片地图，取代 TileMap 引用（或放弃之前拥有的瓦片地图）。
 
 目标是纸质瓦片地图组件
 
 ## 图示
 
-![]($-20221218-21021513.png)
+![](/uploads/projects/ue-bluprint/20221218-21021513.png)
 
 ## Inputs
 
@@ -24,11 +24,13 @@
 
 每虚幻单位的像素。Float（单精度）。
 
-创建图层。布尔值。是否应该创建一个空层？  
+创建图层。布尔值。是否应该创建一个空层？
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Creates a new tile map of the specified size, replacing the TileMap reference (or dropping the previous owned one)
 
@@ -36,7 +38,7 @@ Target is Paper Tile Map Component
 
 ## 图示
 
-![]($-20221218-21021513.png)
+![](/uploads/projects/ue-bluprint/20221218-21021513.png)
 
 ## Inputs
 
@@ -54,9 +56,8 @@ Tile Height: Integer. Height of one tile (in pixels).
 
 Pixels Per Unreal Unit: Float (single-precision).
 
-Create Layer: Boolean. Should an empty layer be created?.  
+Create Layer: Boolean. Should an empty layer be created?.
 
 ## Outputs
 
 Out: Exec.
-

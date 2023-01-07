@@ -2,17 +2,17 @@
 
 获取浮动分布参数值
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19015759.png)
+![](/uploads/projects/ue-bluprint/20221218-19015759.png)
 
 ## Inputs
 
 在。执行。
 
-分布。分布浮动参数基础对象参考。  
+分布。分布浮动参数基础对象参考。
 
 ## Outputs
 
@@ -28,19 +28,21 @@ Out 最小输出。浮点数（单精度）。
 
 Out 最大输出。浮点数（单精度）。
 
+<hr>
+
 Get Float Distribution Parameter Values
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19015759.png)
+![](/uploads/projects/ue-bluprint/20221218-19015759.png)
 
 ## Inputs
 
 In: Exec.
 
-Distribution: Distribution Float Parameter Base Object Reference.  
+Distribution: Distribution Float Parameter Base Object Reference.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Out Max Input: Float (single-precision).
 Out Min Output: Float (single-precision).
 
 Out Max Output: Float (single-precision).
-

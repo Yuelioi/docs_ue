@@ -1,12 +1,12 @@
 # CreateChild
 
-创建一个实例化的孩子。如果你打算保存这个过滤器，你应该使用这个函数而不是SetExternalChild。
+创建一个实例化的孩子。如果你打算保存这个过滤器，你应该使用这个函数而不是 SetExternalChild。
 
 目标是否定式过滤器
 
 ## 图示
 
-![]($-20221218-19420550.png)
+![](/uploads/projects/ue-bluprint/20221218-19420550.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标: 否定过滤器对象参考。
 
-子类。水平快照过滤器类参考（通过参考）。  
+子类。水平快照过滤器类参考（通过参考）。
 
 ## Outputs
 
 出：执行。
 
-返回值。水平快照过滤器对象参考。创建一个实例化的孩子。如果你打算保存这个过滤器，你应该使用这个函数而不是SetExternalChild;。
+返回值。水平快照过滤器对象参考。创建一个实例化的孩子。如果你打算保存这个过滤器，你应该使用这个函数而不是 SetExternalChild;。
+
+<hr>
 
 Creates an instanced child.. If you intend to save this filter, you should use this function instead of SetExternalChild;
 
@@ -28,7 +30,7 @@ Target is Negation Filter
 
 ## 图示
 
-![]($-20221218-19420550.png)
+![](/uploads/projects/ue-bluprint/20221218-19420550.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Negation Filter Object Reference.
 
-Child Class: Level Snapshot Filter Class Reference (by ref).  
+Child Class: Level Snapshot Filter Class Reference (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Level Snapshot Filter Object Reference. Creates an instanced child.. If you intend to save this filter, you should use this function instead of SetExternalChild;.
-

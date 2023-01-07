@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21380184.png)
+![](/uploads/projects/ue-bluprint/20221218-21380184.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。群众代表子系统对象参考。
 
+<hr>
+
 Get Mass Crowd Representation Subsystem (World Subsystem)
 
 Subsystem responsible for all visual of mass crowd agents, will handle actors spawning and static mesh instances
 
 ## 图示
 
-![]($-20221218-21380184.png)
+![](/uploads/projects/ue-bluprint/20221218-21380184.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Mass Crowd Representation Subsystem Object Reference.
-

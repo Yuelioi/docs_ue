@@ -6,32 +6,34 @@
 
 ## 图示
 
-![]($-20221218-18464947.png)
+![](/uploads/projects/ue-bluprint/20221218-18464947.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 出：执行。
 
 返回值。布尔值。分组是否有效。
+
+<hr>
+
 Is Grouping Active
 
 Target is Actor Grouping Utils
 
 ## 图示
 
-![]($-20221218-18464947.png)
+![](/uploads/projects/ue-bluprint/20221218-18464947.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Is Grouping Active.
-

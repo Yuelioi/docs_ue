@@ -2,19 +2,19 @@
 
 在图中添加一个函数引用/调用。
 
-目标是Rig VMController
+目标是 Rig VMController
 
 ## 图示
 
-![]($-20221218-20415439.png)
+![](/uploads/projects/ue-bluprint/20221218-20415439.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Rig VMController对象参考。
+目标。Rig VMController 对象参考。
 
-在函数定义中。Rig VMLibrary节点对象参考。
+在函数定义中。Rig VMLibrary 节点对象参考。
 
 在节点位置。矢量二维结构（通过参考）。
 
@@ -22,7 +22,7 @@
 
 设置撤销重做：布尔值。
 
-打印Python命令。布尔值。  
+打印 Python 命令。布尔值。
 
 ## Outputs
 
@@ -30,13 +30,15 @@
 
 返回值。Rig VMFunction Reference Node Object Reference。将一个函数引用/调用添加到图中。
 
+<hr>
+
 Adds a function reference / invocation to the graph
 
 Target is Rig VMController
 
 ## 图示
 
-![]($-20221218-20415439.png)
+![](/uploads/projects/ue-bluprint/20221218-20415439.png)
 
 ## Inputs
 
@@ -52,11 +54,10 @@ In Node Name: String.
 
 Setup Undo Redo: Boolean.
 
-Print Python Command: Boolean.  
+Print Python Command: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Rig VMFunction Reference Node Object Reference. Adds a function reference / invocation to the graph.
-

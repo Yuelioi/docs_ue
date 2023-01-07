@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14242457.png)
+![](/uploads/projects/ue-bluprint/20221218-14242457.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETakeRecorderState枚举。 
+选择。ETakeRecorderState 枚举。
 
 ## Outputs
 
@@ -26,17 +26,19 @@ Ticking After Pre: Exec.
 
 取消了。执行.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14242457.png)
+![](/uploads/projects/ue-bluprint/20221218-14242457.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETakeRecorderState Enum.  
+Selection: ETakeRecorderState Enum.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Started: Exec.
 Stopped: Exec.
 
 Cancelled: Exec.
-

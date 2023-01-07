@@ -2,17 +2,17 @@
 
 直接设置矢量的值。
 
-目标是Kismet数学图书馆
+目标是 Kismet 数学图书馆
 
 ## 图示
 
-![]($-20221218-19593020.png)
+![](/uploads/projects/ue-bluprint/20221218-19593020.png)
 
 ## Inputs
 
 在。执行。
 
-答：向量4结构（由参考文献）。
+答：向量 4 结构（由参考文献）。
 
 X：浮点数（双精度）。
 
@@ -20,11 +20,13 @@ Y：浮点数（双精度）。
 
 Z：浮点数（双精度）。
 
-W：浮点数（双精度）。  
+W：浮点数（双精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the values of the vector directly.
 
@@ -32,7 +34,7 @@ Target is Kismet Math Library
 
 ## 图示
 
-![]($-20221218-19593020.png)
+![](/uploads/projects/ue-bluprint/20221218-19593020.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Y: Float (double-precision).
 
 Z: Float (double-precision).
 
-W: Float (double-precision).  
+W: Float (double-precision).
 
 ## Outputs
 
 Out: Exec.
-

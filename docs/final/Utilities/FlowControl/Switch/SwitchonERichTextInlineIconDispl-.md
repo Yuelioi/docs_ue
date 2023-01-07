@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14225961.png)
+![](/uploads/projects/ue-bluprint/20221218-14225961.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERichTextInlineIconDisplayMode枚举。 
+选择。ERichTextInlineIconDisplayMode 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 Icon and Text: 执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14225961.png)
+![](/uploads/projects/ue-bluprint/20221218-14225961.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERichTextInlineIconDisplayMode Enum.  
+Selection: ERichTextInlineIconDisplayMode Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Icon Only: Exec.
 Text Only: Exec.
 
 Icon And Text: Exec.
-

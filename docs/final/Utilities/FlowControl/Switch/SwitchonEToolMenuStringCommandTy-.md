@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14244402.png)
+![](/uploads/projects/ue-bluprint/20221218-14244402.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EToolMenuStringCommandType枚举。 
+选择。EToolMenuStringCommandType 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Python。Exec.
 
 自定义。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14244402.png)
+![](/uploads/projects/ue-bluprint/20221218-14244402.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EToolMenuStringCommandType Enum.  
+Selection: EToolMenuStringCommandType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Command: Exec.
 Python: Exec.
 
 Custom: Exec.
-

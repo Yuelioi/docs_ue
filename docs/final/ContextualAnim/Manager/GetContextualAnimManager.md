@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18303212.png)
+![](/uploads/projects/ue-bluprint/20221218-18303212.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。上下文动画管理器对象参考。获取上下文动画管理器.
 
+<hr>
+
 Get Contextual Anim Manager
 
 Target is Contextual Anim Manager
 
 ## 图示
 
-![]($-20221218-18303212.png)
+![](/uploads/projects/ue-bluprint/20221218-18303212.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Contextual Anim Manager Object Reference. Get Contextual Anim Manager.
-

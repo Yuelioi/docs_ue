@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14242547.png)
+![](/uploads/projects/ue-bluprint/20221218-14242547.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETargetDataFilterSelf Enum.  
+选择。ETargetDataFilterSelf Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 滤除他人：执行。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14242547.png)
+![](/uploads/projects/ue-bluprint/20221218-14242547.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETargetDataFilterSelf Enum.  
+Selection: ETargetDataFilterSelf Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Allow Self Or Others: Exec.
 Filter Self Out: Exec.
 
 Filter Others Out: Exec.
-

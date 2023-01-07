@@ -2,17 +2,17 @@
 
 获取粒子模块位置的直接道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19023074.png)
+![](/uploads/projects/ue-bluprint/20221218-19023074.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。直接定位对象参考。  
+粒子模块。直接定位对象参考。
 
 ## Outputs
 
@@ -24,19 +24,21 @@
 
 输出比例系数。分布对象参考。
 
+<hr>
+
 Get Particle Module Location Direct Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19023074.png)
+![](/uploads/projects/ue-bluprint/20221218-19023074.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Direct Location Object Reference.  
+Particle Module: Direct Location Object Reference.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out Location: Distribution Object Reference.
 Out Location Offset: Distribution Object Reference.
 
 Out Scale Factor: Distribution Object Reference.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17512604.png)
+![](/uploads/projects/ue-bluprint/20221218-17512604.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 通知轨道名称。Name: 名称。
 
-Track Color: 线性颜色结构。 
+Track Color: 线性颜色结构。
 
 ## Outputs
 
 Out: 执行：执行。
+
+<hr>
 
 Adds an Animation Notify Track to the Animation Sequence
 
@@ -28,7 +30,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17512604.png)
+![](/uploads/projects/ue-bluprint/20221218-17512604.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Animation Sequence Base: Anim Sequence Base Object Reference.
 
 Notify Track Name: Name.
 
-Track Color: Linear Color Structure.  
+Track Color: Linear Color Structure.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19065977.png)
+![](/uploads/projects/ue-bluprint/20221218-19065977.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。玩家相机管理器对象参考。
 
-修改器类。相机修改器类参考。  
+修改器类。相机修改器类参考。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。相机修饰器对象参考。返回给定类别的此相机的相机修改器，如果它存在的话。仅限精确的类别匹配。如果有多个相同类别的修改器，则返回第一个。
 
+<hr>
+
 Returns camera modifier for this camera of the given class, if it exists.. Exact class match only. If there are multiple modifiers of the same class, the first one is returned.
 
 Target is Player Camera Manager
 
 ## 图示
 
-![]($-20221218-19065977.png)
+![](/uploads/projects/ue-bluprint/20221218-19065977.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Player Camera Manager Object Reference.
 
-Modifier Class: Camera Modifier Class Reference.  
+Modifier Class: Camera Modifier Class Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Camera Modifier Object Reference. Returns camera modifier for this camera of the given class, if it exists.. Exact class match only. If there are multiple modifiers of the same class, the first one is returned..
-

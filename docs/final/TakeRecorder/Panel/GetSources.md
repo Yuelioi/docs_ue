@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21102856.png)
+![](/uploads/projects/ue-bluprint/20221218-21102856.png)
 
 ## Inputs
 
-目标。采取记录仪面板对象参考。  
+目标。采取记录仪面板对象参考。
 
 ## Outputs
 
-返回值。Take Recorder Sources对象参考。访问将要（或曾经）用于记录这个片段的源。
+返回值。Take Recorder Sources 对象参考。访问将要（或曾经）用于记录这个片段的源。
+
+<hr>
 
 Access the sources that are to be (or were) used for recording this take
 
@@ -22,13 +24,12 @@ Target is Take Recorder Panel
 
 ## 图示
 
-![]($-20221218-21102856.png)
+![](/uploads/projects/ue-bluprint/20221218-21102856.png)
 
 ## Inputs
 
-Target: Take Recorder Panel Object Reference.  
+Target: Take Recorder Panel Object Reference.
 
 ## Outputs
 
 Return Value: Take Recorder Sources Object Reference. Access the sources that are to be (or were) used for recording this take.
-

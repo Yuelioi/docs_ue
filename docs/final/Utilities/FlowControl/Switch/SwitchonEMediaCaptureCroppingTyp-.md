@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14212383.png)
+![](/uploads/projects/ue-bluprint/20221218-14212383.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMediaCaptureCroppingType枚举。 
+选择。EMediaCaptureCroppingType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 自定义。执法者
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14212383.png)
+![](/uploads/projects/ue-bluprint/20221218-14212383.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMediaCaptureCroppingType Enum.  
+Selection: EMediaCaptureCroppingType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Center: Exec.
 Top Left: Exec.
 
 Custom: Exec.
-

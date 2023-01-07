@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14231741.png)
+![](/uploads/projects/ue-bluprint/20221218-14231741.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EScrollDirection Enum.  
+选择。EScrollDirection Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 向上。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14231741.png)
+![](/uploads/projects/ue-bluprint/20221218-14231741.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EScrollDirection Enum.  
+Selection: EScrollDirection Enum.
 
 ## Outputs
 
 Down: Exec.
 
 Up: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21132964.png)
+![](/uploads/projects/ue-bluprint/20221218-21132964.png)
 
 ## Inputs
 
@@ -22,7 +22,7 @@
 
 标签。文本（由参考文献）。
 
-工具提示。文本（按参考）。  
+工具提示。文本（按参考）。
 
 ## Outputs
 
@@ -30,13 +30,15 @@
 
 返回值。工具菜单对象参考。添加子菜单脚本。
 
+<hr>
+
 Add Sub Menu Script
 
 Target is Tool Menu
 
 ## 图示
 
-![]($-20221218-21132964.png)
+![](/uploads/projects/ue-bluprint/20221218-21132964.png)
 
 ## Inputs
 
@@ -52,11 +54,10 @@ Name: Name.
 
 Label: Text (by ref).
 
-Tool Tip: Text (by ref).  
+Tool Tip: Text (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Tool Menu Object Reference. Add Sub Menu Script.
-

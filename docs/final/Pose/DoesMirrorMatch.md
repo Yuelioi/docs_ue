@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20302032.png)
+![](/uploads/projects/ue-bluprint/20221218-20302032.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 控制装置。控制钻机对象参考。
 
-控制名称。名称（按编号）。  
+控制名称。名称（按编号）。
 
 ## Outputs
 
 返回值。布尔值。是否镜像匹配。
+
+<hr>
 
 Does Mirror Match
 
@@ -26,7 +28,7 @@ Target is Control Rig Pose Asset
 
 ## 图示
 
-![]($-20221218-20302032.png)
+![](/uploads/projects/ue-bluprint/20221218-20302032.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Target: Control Rig Pose Asset Object Reference.
 
 Control Rig: Control Rig Object Reference.
 
-Control Name: Name (by ref).  
+Control Name: Name (by ref).
 
 ## Outputs
 
 Return Value: Boolean. Does Mirror Match.
-

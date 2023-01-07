@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14243969.png)
+![](/uploads/projects/ue-bluprint/20221218-14243969.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETextWrappingPolicy Enum.  
+选择。ETextWrappingPolicy Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 允许每个字符的包装。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14243969.png)
+![](/uploads/projects/ue-bluprint/20221218-14243969.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETextWrappingPolicy Enum.  
+Selection: ETextWrappingPolicy Enum.
 
 ## Outputs
 
 Default Wrapping: Exec.
 
 Allow Per Character Wrapping: Exec.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14171619.png)
+![](/uploads/projects/ue-bluprint/20221218-14171619.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EBone Enum.  
+选择。EBone Enum.
 
 ## Outputs
 
@@ -20,39 +20,39 @@ Hand Start: Exec.
 
 前臂根部。Exec.
 
-拇指0：执行。
+拇指 0：执行。
 
-拇指1：执行。
+拇指 1：执行。
 
-拇指2：执行
+拇指 2：执行
 
-拇指3: 执行
+拇指 3: 执行
 
-索引1：执行。
+索引 1：执行。
 
-索引2：执行。
+索引 2：执行。
 
-指数3：执行
+指数 3：执行
 
-中间1：执行。
+中间 1：执行。
 
-中部2：执行。
+中部 2：执行。
 
-中间3：执行。
+中间 3：执行。
 
-环节1：执行。
+环节 1：执行。
 
 第二环：执行。
 
-戒指3：执行。
+戒指 3：执行。
 
-小指0：执行。
+小指 0：执行。
 
-小指1：执行。
+小指 1：执行。
 
-小指2：执行。
+小指 2：执行。
 
-小指3：执行。
+小指 3：执行。
 
 拇指尖。执行
 
@@ -72,17 +72,19 @@ Hand Start: Exec.
 
 无效。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14171619.png)
+![](/uploads/projects/ue-bluprint/20221218-14171619.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EBone Enum.  
+Selection: EBone Enum.
 
 ## Outputs
 
@@ -143,4 +145,3 @@ Hand End: Exec.
 Hand Max: Exec.
 
 Invalid: Exec.
-

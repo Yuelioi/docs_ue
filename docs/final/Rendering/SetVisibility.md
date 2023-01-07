@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20401955.png)
+![](/uploads/projects/ue-bluprint/20221218-20401955.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 新的可见性。布尔型。
 
-传播给孩子。布尔型。  
+传播给孩子。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set visibility of the component, if during game use this to turn on/off
 
@@ -28,7 +30,7 @@ Target is Scene Component
 
 ## 图示
 
-![]($-20221218-20401955.png)
+![](/uploads/projects/ue-bluprint/20221218-20401955.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Scene Component Object Reference.
 
 New Visibility: Boolean.
 
-Propagate to Children: Boolean.  
+Propagate to Children: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

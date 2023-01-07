@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19423514.png)
+![](/uploads/projects/ue-bluprint/20221218-19423514.png)
 
 ## Inputs
 
@@ -22,7 +22,7 @@
 
 可选的水平流类。水平流动态类参考。
 
-作为Temp包加载。布尔值。  
+作为 Temp 包加载。布尔值。
 
 ## Outputs
 
@@ -32,13 +32,15 @@
 
 返回值。水平流动态对象参考。通过软对象索引加载级别实例。
 
+<hr>
+
 Load Level Instance by Soft Object Ptr
 
 Target is Level Streaming Dynamic
 
 ## 图示
 
-![]($-20221218-19423514.png)
+![](/uploads/projects/ue-bluprint/20221218-19423514.png)
 
 ## Inputs
 
@@ -54,7 +56,7 @@ Optional Level Name Override: String.
 
 Optional Level Streaming Class: Level Streaming Dynamic Class Reference.
 
-Load as Temp Package: Boolean.  
+Load as Temp Package: Boolean.
 
 ## Outputs
 
@@ -63,4 +65,3 @@ Out: Exec.
 Out Success: Boolean.
 
 Return Value: Level Streaming Dynamic Object Reference. Load Level Instance by Soft Object Ptr.
-

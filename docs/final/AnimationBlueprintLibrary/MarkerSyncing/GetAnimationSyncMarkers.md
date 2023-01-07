@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17520899.png)
+![](/uploads/projects/ue-bluprint/20221218-17520899.png)
 
 ## Inputs
 
-动画序列。Anim Sequence Object Reference.  
+动画序列。Anim Sequence Object Reference.
 
 ## Outputs
 
-Markers: Anim Sync Marker结构的数组。
+Markers: Anim Sync Marker 结构的数组。
+
+<hr>
 
 Retrieves all the Animation Sync Markers for the given Animation Sequence
 
@@ -22,13 +24,12 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17520899.png)
+![](/uploads/projects/ue-bluprint/20221218-17520899.png)
 
 ## Inputs
 
-Animation Sequence: Anim Sequence Object Reference.  
+Animation Sequence: Anim Sequence Object Reference.
 
 ## Outputs
 
 Markers: Array of Anim Sync Marker Structures.
-

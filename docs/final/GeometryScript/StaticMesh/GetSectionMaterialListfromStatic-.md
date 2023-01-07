@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19133246.png)
+![](/uploads/projects/ue-bluprint/20221218-19133246.png)
 
 ## Inputs
 
@@ -14,9 +14,9 @@
 
 来自静态网格资产： 静态网格对象参考。
 
-请求的LOD：Geometry Script Mesh Read LOD Structure.
+请求的 LOD：Geometry Script Mesh Read LOD Structure.
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -28,13 +28,15 @@
 
 材料索引。整数的数组。
 
+<hr>
+
 Get Section Material List from Static Mesh
 
 Target is Geometry Script Library Static Mesh Functions
 
 ## 图示
 
-![]($-20221218-19133246.png)
+![](/uploads/projects/ue-bluprint/20221218-19133246.png)
 
 ## Inputs
 
@@ -44,7 +46,7 @@ From Static Mesh Asset: Static Mesh Object Reference.
 
 Requested LOD: Geometry Script Mesh Read LOD Structure.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Success: Exec.
 Material List: Array of Material Interface Object References.
 
 Material Index: Array of Integers.
-

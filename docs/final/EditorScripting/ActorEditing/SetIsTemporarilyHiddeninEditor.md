@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18464369.png)
+![](/uploads/projects/ue-bluprint/20221218-18464369.png)
 
 ## Inputs
 
@@ -19,13 +19,16 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Explicitly sets whether or not this actor is hidden in the editor for the duration of the current editor session
 
 Target is Actor
 
 ## 图示
 
-![]($-20221218-18464369.png)
+![](/uploads/projects/ue-bluprint/20221218-18464369.png)
 
 ## Inputs
 
@@ -33,9 +36,8 @@ In: Exec.
 
 Target: Actor Object Reference.
 
-Is Hidden: Boolean. True if the actor is hidden.  
+Is Hidden: Boolean. True if the actor is hidden.
 
 ## Outputs
 
 Out: Exec.
-

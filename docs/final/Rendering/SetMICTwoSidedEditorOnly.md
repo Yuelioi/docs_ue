@@ -2,11 +2,11 @@
 
 覆盖材料实例常量的两面设置。只在编辑器中起作用
 
-目标是蓝图材料纹理节点BPLibrary
+目标是蓝图材料纹理节点 BPLibrary
 
 ## 图示
 
-![]($-20221218-20393963.png)
+![](/uploads/projects/ue-bluprint/20221218-20393963.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 材料。Material Instance Constant Object Reference.
 
-双面的。布尔型。  
+双面的。布尔型。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。覆盖材料实例常量的双面设置。只在编辑器中起作用。
 
+<hr>
+
 Overrides the Two Sided setting of a Material Instance Constant. Only works in the editor
 
 Target is Blueprint Material Texture Nodes BPLibrary
 
 ## 图示
 
-![]($-20221218-20393963.png)
+![](/uploads/projects/ue-bluprint/20221218-20393963.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Material: Material Instance Constant Object Reference.
 
-Two Sided: Boolean.  
+Two Sided: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Overrides the Two Sided setting of a Material Instance Constant. Only works in the editor.
-

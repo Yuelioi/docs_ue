@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19381620.png)
+![](/uploads/projects/ue-bluprint/20221218-19381620.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 通知选择变化。布尔值。如果为真，编辑部会被通知选择的变化；如果为假，编辑部将不会被通知。
 
-重新绘制视口。布尔值。如果为真，视口将被重绘；如果为假，则不重绘。  
+重新绘制视口。布尔值。如果为真，视口将被重绘；如果为假，则不重绘。
 
 ## Outputs
 
@@ -30,13 +30,15 @@ Out Selection Changed: Boolean.[OUT] 编辑部的选择是否改变。
 
 返回值。布尔值。
 
+<hr>
+
 Updates the provided actors visibility in the viewports
 
 Target is Layers Subsystem
 
 ## 图示
 
-![]($-20221218-19381620.png)
+![](/uploads/projects/ue-bluprint/20221218-19381620.png)
 
 ## Inputs
 
@@ -48,7 +50,7 @@ Actor: Actor Object Reference. Actor to update.
 
 Notify Selection Change: Boolean. If true the Editor is notified of the selection change; if false, the Editor will not be notified.
 
-Redraw Viewports: Boolean. If true the viewports will be redrawn; if false, they will not.  
+Redraw Viewports: Boolean. If true the viewports will be redrawn; if false, they will not.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Out Selection Changed: Boolean. [OUT] Whether the Editors selection changed.
 Out Actor Modified: Boolean. [OUT] Whether the actor was modified.
 
 Return Value: Boolean.
-

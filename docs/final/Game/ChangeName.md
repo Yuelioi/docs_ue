@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19033989.png)
+![](/uploads/projects/ue-bluprint/20221218-19033989.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 新名称。字符串。将播放器设置为的名称。
 
-改名。布尔值。名称是否在改变，或者这是第一次设置。  
+改名。布尔值。名称是否在改变，或者这是第一次设置。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the name for a controller
 
@@ -30,7 +32,7 @@ Target is Game Mode Base
 
 ## 图示
 
-![]($-20221218-19033989.png)
+![](/uploads/projects/ue-bluprint/20221218-19033989.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Controller: Controller Object Reference. The controller of the player to change 
 
 New Name: String. The name to set the player to.
 
-Name Change: Boolean. Whether the name is changing or if this is the first time it has been set.  
+Name Change: Boolean. Whether the name is changing or if this is the first time it has been set.
 
 ## Outputs
 
 Out: Exec.
-

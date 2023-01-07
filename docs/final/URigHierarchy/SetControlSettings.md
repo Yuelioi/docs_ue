@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21200474.png)
+![](/uploads/projects/ue-bluprint/20221218-21200474.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Rig Hierarchy对象参考。
+目标。Rig Hierarchy 对象参考。
 
 在关键。Rig Element Key Structure.要设置的控制元素的键。
 
@@ -22,11 +22,13 @@
 
 力量。布尔型。
 
-打印Python命令。布尔值。  
+打印 Python 命令。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the control settings for a given control element by key
 
@@ -34,7 +36,7 @@ Target is Rig Hierarchy
 
 ## 图示
 
-![]($-20221218-21200474.png)
+![](/uploads/projects/ue-bluprint/20221218-21200474.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Setup Undo: Boolean. If true the transform stack will be setup for undo / redo.
 
 Force: Boolean.
 
-Print Python Commands: Boolean.  
+Print Python Commands: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

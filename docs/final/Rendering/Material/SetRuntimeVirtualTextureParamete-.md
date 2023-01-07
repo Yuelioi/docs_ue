@@ -1,12 +1,12 @@
 # SetRuntimeVirtualTextureParamete-
 
-设置一个MID纹理参数值
+设置一个 MID 纹理参数值
 
 目标是材料实例动态
 
 ## 图示
 
-![]($-20221218-20381982.png)
+![](/uploads/projects/ue-bluprint/20221218-20381982.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 参数名称： 名称。
 
-值。Runtime Virtual Texture Object Reference.  
+值。Runtime Virtual Texture Object Reference.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set an MID texture parameter value
 
@@ -28,7 +30,7 @@ Target is Material Instance Dynamic
 
 ## 图示
 
-![]($-20221218-20381982.png)
+![](/uploads/projects/ue-bluprint/20221218-20381982.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Material Instance Dynamic Object Reference.
 
 Parameter Name: Name.
 
-Value: Runtime Virtual Texture Object Reference.  
+Value: Runtime Virtual Texture Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

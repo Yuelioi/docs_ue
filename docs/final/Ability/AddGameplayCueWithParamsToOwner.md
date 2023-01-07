@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17295590.png)
+![](/uploads/projects/ue-bluprint/20221218-17295590.png)
 
 ## Inputs
 
@@ -14,15 +14,17 @@
 
 目标。游戏能力对象参考。
 
-游戏提示标签。Gameplay Tag结构。
+游戏提示标签。Gameplay Tag 结构。
 
 Gameplay Cue Parameter（游戏提示参数）。Gameplay Cue Parameters 结构（通过参考）。
 
-Remove on Ability End: 布尔值。 
+Remove on Ability End: 布尔值。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Adds a persistent gameplay cue to the ability owner. Optionally will remove if ability ends
 
@@ -30,7 +32,7 @@ Target is Gameplay Ability
 
 ## 图示
 
-![]($-20221218-17295590.png)
+![](/uploads/projects/ue-bluprint/20221218-17295590.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Gameplay Cue Tag: Gameplay Tag Structure.
 
 Gameplay Cue Parameter: Gameplay Cue Parameters Structure (by ref).
 
-Remove on Ability End: Boolean.  
+Remove on Ability End: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

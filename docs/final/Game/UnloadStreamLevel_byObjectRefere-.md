@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19075606.png)
+![](/uploads/projects/ue-bluprint/20221218-19075606.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 水平。世界软对象参考。
 
-卸载时应阻止。布尔值。  
+卸载时应阻止。布尔值。
 
 ## Outputs
 
 已完成。执行。
+
+<hr>
 
 Unload a streamed in level (by Object Reference)
 
@@ -26,7 +28,7 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-19075606.png)
+![](/uploads/projects/ue-bluprint/20221218-19075606.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Level: World Soft Object Reference.
 
-Should Block on Unload: Boolean.  
+Should Block on Unload: Boolean.
 
 ## Outputs
 
 Completed: Exec.
-

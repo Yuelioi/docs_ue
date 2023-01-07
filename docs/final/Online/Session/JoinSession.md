@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20163758.png)
+![](/uploads/projects/ue-bluprint/20221218-20163758.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 播放器控制器。播放器控制器对象参考。
 
-搜索结果。蓝图会议结果结构（按参考）。  
+搜索结果。蓝图会议结果结构（按参考）。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 失败时。执行。失败时：。当有一个不成功的连接时被调用。
 
+<hr>
+
 Joins a remote session with the default online subsystem
 
 Target is Join Session Callback Proxy
 
 ## 图示
 
-![]($-20221218-20163758.png)
+![](/uploads/projects/ue-bluprint/20221218-20163758.png)
 
 ## Inputs
 
@@ -38,7 +40,7 @@ In: Exec.
 
 Player Controller: Player Controller Object Reference.
 
-Search Result: Blueprint Session Result Structure (by ref).  
+Search Result: Blueprint Session Result Structure (by ref).
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out: Exec.
 On Success: Exec. On Success:. Called when there is a successful join.
 
 On Failure: Exec. On Failure:. Called when there is an unsuccessful join.
-

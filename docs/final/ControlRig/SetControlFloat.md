@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18320433.png)
+![](/uploads/projects/ue-bluprint/20221218-18320433.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 控制名称。名称。要设置的控件的名称。
 
-值。Float（单精度）。控件的新值。 
+值。Float（单精度）。控件的新值。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets the value of a float control
 
@@ -28,7 +30,7 @@ Target is Control Rig Component
 
 ## 图示
 
-![]($-20221218-18320433.png)
+![](/uploads/projects/ue-bluprint/20221218-18320433.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Control Rig Component Object Reference.
 
 Control Name: Name. The name of the control to set.
 
-Value: Float (single-precision). The new value for the control.  
+Value: Float (single-precision). The new value for the control.
 
 ## Outputs
 
 Out: Exec.
-

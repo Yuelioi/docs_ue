@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18494281.png)
+![](/uploads/projects/ue-bluprint/20221218-18494281.png)
 
 ## Inputs
 
@@ -19,23 +19,25 @@
 出：执行。
 
 返回值。世界对象参考。新的空白地图。
+
+<hr>
+
 New Blank Map
 
 Target is Editor Loading and Saving Utils
 
 ## 图示
 
-![]($-20221218-18494281.png)
+![](/uploads/projects/ue-bluprint/20221218-18494281.png)
 
 ## Inputs
 
 In: Exec.
 
-Save Existing Map: Boolean.  
+Save Existing Map: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: World Object Reference. New Blank Map.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14254652.png)
+![](/uploads/projects/ue-bluprint/20221218-14254652.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。FCPXMLExportDataSource Enum.  
+选择。FCPXMLExportDataSource Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 序列数据。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14254652.png)
+![](/uploads/projects/ue-bluprint/20221218-14254652.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: FCPXMLExportDataSource Enum.  
+Selection: FCPXMLExportDataSource Enum.
 
 ## Outputs
 
 Output Metadata: Exec.
 
 Sequence Data: Exec.
-

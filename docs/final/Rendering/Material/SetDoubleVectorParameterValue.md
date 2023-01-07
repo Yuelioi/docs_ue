@@ -1,12 +1,12 @@
 # SetDoubleVectorParameterValue
 
-设置一个MID矢量参数值
+设置一个 MID 矢量参数值
 
 目标是材料实例动态
 
 ## 图示
 
-![]($-20221218-20381511.png)
+![](/uploads/projects/ue-bluprint/20221218-20381511.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 参数名称： 名称。
 
-价值。向量。  
+价值。向量。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set an MID vector parameter value
 
@@ -28,7 +30,7 @@ Target is Material Instance Dynamic
 
 ## 图示
 
-![]($-20221218-20381511.png)
+![](/uploads/projects/ue-bluprint/20221218-20381511.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Material Instance Dynamic Object Reference.
 
 Parameter Name: Name.
 
-Value: Vector.  
+Value: Vector.
 
 ## Outputs
 
 Out: Exec.
-

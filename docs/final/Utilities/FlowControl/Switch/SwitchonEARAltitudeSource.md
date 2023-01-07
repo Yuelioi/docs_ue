@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14161702.png)
+![](/uploads/projects/ue-bluprint/20221218-14161702.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARAltitudeSource Enum.  
+选择。EARAltitudeSource Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 未知 Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14161702.png)
+![](/uploads/projects/ue-bluprint/20221218-14161702.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARAltitudeSource Enum.  
+Selection: EARAltitudeSource Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Coarse: Exec.
 User Defined: Exec.
 
 Unknown: Exec.
-

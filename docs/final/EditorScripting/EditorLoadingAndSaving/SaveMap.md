@@ -1,12 +1,12 @@
 # SaveMap
 
-保存指定的地图，成功后返回true。
+保存指定的地图，成功后返回 true。
 
 目标是编辑器加载和保存工具
 
 ## 图示
 
-![]($-20221218-18495081.png)
+![](/uploads/projects/ue-bluprint/20221218-18495081.png)
 
 ## Inputs
 
@@ -21,13 +21,16 @@
 出：执行。
 
 返回值。布尔值。如果地图被成功保存，则为真。
+
+<hr>
+
 Saves the specified map, returning true on success.
 
 Target is Editor Loading and Saving Utils
 
 ## 图示
 
-![]($-20221218-18495081.png)
+![](/uploads/projects/ue-bluprint/20221218-18495081.png)
 
 ## Inputs
 
@@ -35,11 +38,10 @@ In: Exec.
 
 World: World Object Reference. The world to save..
 
-Asset Path: String. The valid content directory path and name for the asset. E.g "/Game/MyMap".  
+Asset Path: String. The valid content directory path and name for the asset. E.g "/Game/MyMap".
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if the map was saved successfully..
-

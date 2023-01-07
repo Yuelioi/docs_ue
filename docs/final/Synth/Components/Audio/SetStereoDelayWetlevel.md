@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21085293.png)
+![](/uploads/projects/ue-bluprint/20221218-21085293.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Modular Synth Component Object Reference。
 
-Delay Wetlevel:Float（单精度）。  
+Delay Wetlevel:Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the amount of stereo delay wetlevel [0.0, 1.0]
 
@@ -26,7 +28,7 @@ Target is Modular Synth Component
 
 ## 图示
 
-![]($-20221218-21085293.png)
+![](/uploads/projects/ue-bluprint/20221218-21085293.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Modular Synth Component Object Reference.
 
-Delay Wetlevel: Float (single-precision).  
+Delay Wetlevel: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

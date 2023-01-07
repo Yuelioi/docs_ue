@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14241577.png)
+![](/uploads/projects/ue-bluprint/20221218-14241577.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESynthLFOPatchType Enum.  
+选择。ESynthLFOPatchType Enum.
 
 ## Outputs
 
@@ -28,21 +28,23 @@ Patch To Osc Pulse Width（滤波脉冲宽度）：Exec.
 
 Patch To Osc Pan: 执行。
 
-Patch LFO1 to LFO2F频率: 执行。
+Patch LFO1 to LFO2F 频率: 执行。
 
 Patch LFO1To LFO2Gain: 执行。
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14241577.png)
+![](/uploads/projects/ue-bluprint/20221218-14241577.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESynthLFOPatchType Enum.  
+Selection: ESynthLFOPatchType Enum.
 
 ## Outputs
 
@@ -63,4 +65,3 @@ Patch To Osc Pan: Exec.
 Patch LFO1To LFO2Frequency: Exec.
 
 Patch LFO1To LFO2Gain: Exec.
-

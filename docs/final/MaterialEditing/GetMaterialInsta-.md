@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19462597.png)
+![](/uploads/projects/ue-bluprint/20221218-19462597.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 参数名称： 名称。
 
-协会。EMaterialParameterAssociation Enum.  
+协会。EMaterialParameterAssociation Enum.
 
 ## Outputs
 
 返回值。Runtime Virtual Texture Object Reference。从一个材质实例中获取当前的纹理参数值。
+
+<hr>
 
 Get the current texture parameter value from a Material Instance
 
@@ -26,7 +28,7 @@ Target is Material Editing Library
 
 ## 图示
 
-![]($-20221218-19462597.png)
+![](/uploads/projects/ue-bluprint/20221218-19462597.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Instance: Material Instance Constant Object Reference.
 
 Parameter Name: Name.
 
-Association: EMaterialParameterAssociation Enum.  
+Association: EMaterialParameterAssociation Enum.
 
 ## Outputs
 
 Return Value: Runtime Virtual Texture Object Reference. Get the current texture parameter value from a Material Instance.
-

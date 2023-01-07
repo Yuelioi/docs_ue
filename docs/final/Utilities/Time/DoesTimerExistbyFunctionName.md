@@ -1,22 +1,24 @@
 # DoesTimerExistbyFunctionName
 
-如果给定委托的定时器存在，返回true，否则返回false。
+如果给定委托的定时器存在，返回 true，否则返回 false。
 
-目标是Kismet系统库
+目标是 Kismet 系统库
 
 ## 图示
 
-![]($-20221218-15243697.png)
+![](/uploads/projects/ue-bluprint/20221218-15243697.png)
 
 ## Inputs
 
 对象。对象参考。实现委托功能的对象。默认为自我（此蓝图）。
 
-函数名称。字符串。委托函数名称。可以是一个K2函数或一个自定义事件。  
+函数名称。字符串。委托函数名称。可以是一个 K2 函数或一个自定义事件。
 
 ## Outputs
 
 返回值。布尔值。如果定时器存在，则为真。
+
+<hr>
 
 Returns true is a timer for the given delegate exists, false otherwise.
 
@@ -24,15 +26,14 @@ Target is Kismet System Library
 
 ## 图示
 
-![]($-20221218-15243697.png)
+![](/uploads/projects/ue-bluprint/20221218-15243697.png)
 
 ## Inputs
 
 Object: Object Reference. Object that implements the delegate function. Defaults to self (this blueprint).
 
-Function Name: String. Delegate function name. Can be a K2 function or a Custom Event..  
+Function Name: String. Delegate function name. Can be a K2 function or a Custom Event..
 
 ## Outputs
 
 Return Value: Boolean. True if the timer exists..
-

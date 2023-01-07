@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14190656.png)
+![](/uploads/projects/ue-bluprint/20221218-14190656.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFieldOperationType Enum.  
+选择。EFieldOperationType Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 减：执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14190656.png)
+![](/uploads/projects/ue-bluprint/20221218-14190656.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFieldOperationType Enum.  
+Selection: EFieldOperationType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Divide: Exec.
 Add: Exec.
 
 Subtract: Exec.
-

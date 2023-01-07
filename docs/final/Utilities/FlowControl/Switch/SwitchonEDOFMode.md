@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14183773.png)
+![](/uploads/projects/ue-bluprint/20221218-14183773.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDOFMode枚举。 
+选择。EDOFMode 枚举。
 
 ## Outputs
 
@@ -20,25 +20,27 @@
 
 YZPlane: 执行。
 
-XZ平面。执行。
+XZ 平面。执行。
 
-XY平面。Exec.
+XY 平面。Exec.
 
 自定义平面。Exec.
 
 没有。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14183773.png)
+![](/uploads/projects/ue-bluprint/20221218-14183773.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDOFMode Enum.  
+Selection: EDOFMode Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ XYPlane: Exec.
 Custom Plane: Exec.
 
 None: Exec.
-

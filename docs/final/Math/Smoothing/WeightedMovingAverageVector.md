@@ -2,11 +2,11 @@
 
 使用前一个值和权重计算加权移动平均数系列中的新值
 
-目标是Kismet数学图书馆
+目标是 Kismet 数学图书馆
 
 ## 图示
 
-![]($-20221218-19545569.png)
+![](/uploads/projects/ue-bluprint/20221218-19545569.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 以前的样品。向量。该系列的最后一个值。
 
-重量。Float（单精度）。要混合的重量。  
+重量。Float（单精度）。要混合的重量。
 
 ## Outputs
 
 返回值。矢量。系列中的下一个值。
+
+<hr>
 
 Calculates the new value in a weighted moving average series using the previous value and the weight
 
@@ -26,7 +28,7 @@ Target is Kismet Math Library
 
 ## 图示
 
-![]($-20221218-19545569.png)
+![](/uploads/projects/ue-bluprint/20221218-19545569.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Current Sample: Vector. The value to blend with the previous sample to get a new
 
 Previous Sample: Vector. The last value from the series.
 
-Weight: Float (single-precision). The weight to blend with.  
+Weight: Float (single-precision). The weight to blend with.
 
 ## Outputs
 
 Return Value: Vector. the next value in the series.
-

@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14191973.png)
+![](/uploads/projects/ue-bluprint/20221218-14191973.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGainParamMode Enum.  
+选择。EGainParamMode Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 Decibels: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14191973.png)
+![](/uploads/projects/ue-bluprint/20221218-14191973.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGainParamMode Enum.  
+Selection: EGainParamMode Enum.
 
 ## Outputs
 
 Linear: Exec.
 
 Decibels: Exec.
-

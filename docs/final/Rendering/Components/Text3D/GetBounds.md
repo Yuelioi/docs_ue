@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20350320.png)
+![](/uploads/projects/ue-bluprint/20221218-20350320.png)
 
 ## Inputs
 
 在。执行。
 
-目标。文本 3DComponent对象参考。  
+目标。文本 3DComponent 对象参考。
 
 ## Outputs
 
@@ -22,19 +22,21 @@
 
 箱子的范围。向量。
 
+<hr>
+
 Get Bounds
 
 Target is Text 3DComponent
 
 ## 图示
 
-![]($-20221218-20350320.png)
+![](/uploads/projects/ue-bluprint/20221218-20350320.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Text 3DComponent Object Reference.  
+Target: Text 3DComponent Object Reference.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Out: Exec.
 Origin: Vector.
 
 Box Extent: Vector.
-

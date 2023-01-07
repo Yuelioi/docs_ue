@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20552131.png)
+![](/uploads/projects/ue-bluprint/20221218-20552131.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 范围。序列器脚本的范围结构（通过参考）。要设置结束的范围。
 
-结束：整数。  
+结束：整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the ending frame for the specified range. Interpreted as the first subsequent frame that is outside of the range.
 
@@ -26,7 +28,7 @@ Target is Sequencer Scripting Range Extensions
 
 ## 图示
 
-![]($-20221218-20552131.png)
+![](/uploads/projects/ue-bluprint/20221218-20552131.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Range: Sequencer Scripting Range Structure (by ref). The range to set the end on.
 
-End: Integer.  
+End: Integer.
 
 ## Outputs
 
 Out: Exec.
-

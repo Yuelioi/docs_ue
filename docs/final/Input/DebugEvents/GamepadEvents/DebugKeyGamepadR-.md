@@ -1,10 +1,10 @@
 # DebugKeyGamepadR-
 
-当游戏手柄右拇指杆2D-轴键被按下或释放时的事件。
+当游戏手柄右拇指杆 2D-轴键被按下或释放时的事件。
 
 ## 图示
 
-![]($-20221218-19175913.png)
+![](/uploads/projects/ue-bluprint/20221218-19175913.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 行动值。输入行动值结构。
 
+<hr>
+
 Events for when the Gamepad Right Thumbstick 2D-Axis key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19175913.png)
+![](/uploads/projects/ue-bluprint/20221218-19175913.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

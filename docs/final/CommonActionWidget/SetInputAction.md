@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18201909.png)
+![](/uploads/projects/ue-bluprint/20221218-18201909.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。通用动作小工具对象参考。
 
-输入动作行。数据表行处理结构。 
+输入动作行。数据表行处理结构。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Input Action
 
@@ -26,7 +28,7 @@ Target is Common Action Widget
 
 ## 图示
 
-![]($-20221218-18201909.png)
+![](/uploads/projects/ue-bluprint/20221218-18201909.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common Action Widget Object Reference.
 
-Input Action Row: Data Table Row Handle Structure.  
+Input Action Row: Data Table Row Handle Structure.
 
 ## Outputs
 
 Out: Exec.
-

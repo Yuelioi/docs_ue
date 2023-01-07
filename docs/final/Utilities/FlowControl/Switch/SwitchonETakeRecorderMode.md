@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14242369.png)
+![](/uploads/projects/ue-bluprint/20221218-14242369.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETakeRecorderMode Enum.  
+选择。ETakeRecorderMode Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 记录到序列中。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14242369.png)
+![](/uploads/projects/ue-bluprint/20221218-14242369.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETakeRecorderMode Enum.  
+Selection: ETakeRecorderMode Enum.
 
 ## Outputs
 
 Record New Sequence: Exec.
 
 Record Into Sequence: Exec.
-

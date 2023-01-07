@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14162260.png)
+![](/uploads/projects/ue-bluprint/20221218-14162260.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARDepthQuality Enum.  
+选择。EARDepthQuality Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 高：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14162260.png)
+![](/uploads/projects/ue-bluprint/20221218-14162260.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARDepthQuality Enum.  
+Selection: EARDepthQuality Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Unkown: Exec.
 Low: Exec.
 
 High: Exec.
-

@@ -6,7 +6,7 @@ Target is Functional Test Utility Library
 
 ## 图示
 
-![]($-20221218-13351403.png)
+![](/uploads/projects/ue-bluprint/20221218-13351403.png)
 
 ## Inputs
 
@@ -44,13 +44,15 @@ Trace Color: Linear Color Structure.
 
 Trace Hit Color: Linear Color Structure.
 
-Draw Time: Float (single-precision).  
+Draw Time: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Trace Query Test Results Object Reference. Helper function to trace and permute many options at once.
+
+<hr>
 
 Helper function to trace and permute many options at once
 
@@ -58,7 +60,7 @@ Target is Functional Test Utility Library
 
 ## 图示
 
-![]($-20221218-13351403.png)
+![](/uploads/projects/ue-bluprint/20221218-13351403.png)
 
 ## Inputs
 
@@ -96,11 +98,10 @@ Trace Color: Linear Color Structure.
 
 Trace Hit Color: Linear Color Structure.
 
-Draw Time: Float (single-precision).  
+Draw Time: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Trace Query Test Results Object Reference. Helper function to trace and permute many options at once.
-

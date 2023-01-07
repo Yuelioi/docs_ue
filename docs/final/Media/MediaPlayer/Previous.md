@@ -8,19 +8,21 @@
 
 ## 图示
 
-![]($-20221218-20013507.png)
+![](/uploads/projects/ue-bluprint/20221218-20013507.png)
 
 ## Inputs
 
 在。执行。
 
-目标。媒体播放器对象参考。  
+目标。媒体播放器对象参考。
 
 ## Outputs
 
 出：执行。
 
 返回值。布尔值。成功时为真，否则为假。
+
+<hr>
 
 Open the previous item in the current play list.
 
@@ -30,17 +32,16 @@ Target is Media Player
 
 ## 图示
 
-![]($-20221218-20013507.png)
+![](/uploads/projects/ue-bluprint/20221218-20013507.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Media Player Object Reference.  
+Target: Media Player Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true on success, false otherwise..
-

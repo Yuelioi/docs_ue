@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19091306.png)
+![](/uploads/projects/ue-bluprint/20221218-19091306.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 标签容器。游戏性标签容器结构（由参考）。
 
-标签。Gameplay标签结构。要添加到容器中的标签。  
+标签。Gameplay 标签结构。要添加到容器中的标签。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Adds a single tag to the passed in tag container
 
@@ -26,7 +28,7 @@ Target is Blueprint Gameplay Tag Library
 
 ## 图示
 
-![]($-20221218-19091306.png)
+![](/uploads/projects/ue-bluprint/20221218-19091306.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Tag Container: Gameplay Tag Container Structure (by ref).
 
-Tag: Gameplay Tag Structure. The tag to add to the container.  
+Tag: Gameplay Tag Structure. The tag to add to the container.
 
 ## Outputs
 
 Out: Exec.
-

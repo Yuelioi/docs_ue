@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19413237.png)
+![](/uploads/projects/ue-bluprint/20221218-19413237.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。布尔值。检查该序列是否在主动播放。
 
+<hr>
+
 Check whether the sequence is actively playing.
 
 Target is Level Sequence Editor Blueprint Library
 
 ## 图示
 
-![]($-20221218-19413237.png)
+![](/uploads/projects/ue-bluprint/20221218-19413237.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Boolean. Check whether the sequence is actively playing..
-

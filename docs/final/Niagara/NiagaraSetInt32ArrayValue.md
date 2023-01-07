@@ -1,18 +1,18 @@
 # NiagaraSetInt32ArrayValue
 
-在一个Niagara Array Int32中设置一个单一的值。
+在一个 Niagara Array Int32 中设置一个单一的值。
 
-目标是Niagara数据接口阵列函数库
+目标是 Niagara 数据接口阵列函数库
 
 ## 图示
 
-![]($-20221218-20125695.png)
+![](/uploads/projects/ue-bluprint/20221218-20125695.png)
 
 ## Inputs
 
 在。执行。
 
-尼亚加拉系统。Niagara Particle System组件对象参考。
+尼亚加拉系统。Niagara Particle System 组件对象参考。
 
 覆盖名称：名称。
 
@@ -20,11 +20,13 @@
 
 值。整数。
 
-适合的大小。布尔值。  
+适合的大小。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets a single value within a Niagara Array Int32.
 
@@ -32,7 +34,7 @@ Target is Niagara Data Interface Array Function Library
 
 ## 图示
 
-![]($-20221218-20125695.png)
+![](/uploads/projects/ue-bluprint/20221218-20125695.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Index: Integer.
 
 Value: Integer.
 
-Size to Fit: Boolean.  
+Size to Fit: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17483016.png)
+![](/uploads/projects/ue-bluprint/20221218-17483016.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 运动组件。Movement Component（运动组件）对象参考。
 
-避免权重。浮点（单精度）。当相互避开时，演员按其相对权重的比例改变路线。范围是0.0到1.0。特别是：在1.0时，演员根本不会改变路线。 
+避免权重。浮点（单精度）。当相互避开时，演员按其相对权重的比例改变路线。范围是 0.0 到 1.0。特别是：在 1.0 时，演员根本不会改变路线。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。
 
+<hr>
+
 Register with the given avoidance manager.
 
 Target is Avoidance Manager
 
 ## 图示
 
-![]($-20221218-17483016.png)
+![](/uploads/projects/ue-bluprint/20221218-17483016.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Avoidance Manager Object Reference.
 
 Movement Comp: Movement Component Object Reference.
 
-Avoidance Weight: Float (single-precision). When avoiding each other, actors divert course in proportion to their relative weights. Range is 0.0 to 1.0. Special: at 1.0, actor will not divert course at all..  
+Avoidance Weight: Float (single-precision). When avoiding each other, actors divert course in proportion to their relative weights. Range is 0.0 to 1.0. Special: at 1.0, actor will not divert course at all..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

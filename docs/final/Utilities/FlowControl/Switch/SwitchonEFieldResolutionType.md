@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14191005.png)
+![](/uploads/projects/ue-bluprint/20221218-14191005.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFieldResolutionType Enum.  
+选择。EFieldResolutionType Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Parents: Exec.
 
 最大。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14191005.png)
+![](/uploads/projects/ue-bluprint/20221218-14191005.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFieldResolutionType Enum.  
+Selection: EFieldResolutionType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Minimum: Exec.
 Parents: Exec.
 
 Maximum: Exec.
-

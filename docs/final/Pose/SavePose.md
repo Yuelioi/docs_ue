@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20302737.png)
+![](/uploads/projects/ue-bluprint/20221218-20302737.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在控制钻机中。控制装置对象参考。
 
-全部使用：布尔值。  
+全部使用：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Save Pose
 
@@ -28,7 +30,7 @@ Target is Control Rig Pose Asset
 
 ## 图示
 
-![]($-20221218-20302737.png)
+![](/uploads/projects/ue-bluprint/20221218-20302737.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Control Rig Pose Asset Object Reference.
 
 In Control Rig: Control Rig Object Reference.
 
-Use All: Boolean.  
+Use All: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

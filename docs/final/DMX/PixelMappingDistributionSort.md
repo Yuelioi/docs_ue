@@ -2,21 +2,21 @@
 
 根据选定的分布模式对一个数组进行排序。
 
-目标是DMXSubsystem
+目标是 DMXSubsystem
 
 ## 图示
 
-![]($-20221218-18445062.png)
+![](/uploads/projects/ue-bluprint/20221218-18445062.png)
 
 ## Inputs
 
 在。执行。
 
-目标。DMXSubsystem对象参考。
+目标。DMXSubsystem 对象参考。
 
 在分布中。EDMXPixelMappingDistribution Enum.
 
-在Num XPanels: 整数。
+在 Num XPanels: 整数。
 
 Num YPanels in: integer.
 
@@ -27,13 +27,16 @@ Num YPanels in: integer.
 出：执行。
 
 输出排序的列表。整数的数组。
+
+<hr>
+
 Sort an array according to the selected distribution pattern.
 
 Target is DMXSubsystem
 
 ## 图示
 
-![]($-20221218-18445062.png)
+![](/uploads/projects/ue-bluprint/20221218-18445062.png)
 
 ## Inputs
 
@@ -47,11 +50,10 @@ In Num XPanels: Integer.
 
 In Num YPanels: Integer.
 
-In Unordered List: Array of Integers.  
+In Unordered List: Array of Integers.
 
 ## Outputs
 
 Out: Exec.
 
 Out Sorted List: Array of Integers.
-

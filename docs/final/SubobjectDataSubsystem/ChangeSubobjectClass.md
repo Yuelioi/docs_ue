@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21054318.png)
+![](/uploads/projects/ue-bluprint/20221218-21054318.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 手柄。子对象数据处理结构（通过引用）。子对象的句柄，用于改变子对象的类别。
 
-新类。对象类参考。给定的子对象需要的新类。  
+新类。对象类参考。给定的子对象需要的新类。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。如果改类成功则为真，否则为假。
 
+<hr>
+
 Attempts to change the subclass of a native component
 
 Target is Subobject Data Subsystem
 
 ## 图示
 
-![]($-20221218-21054318.png)
+![](/uploads/projects/ue-bluprint/20221218-21054318.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Subobject Data Subsystem Object Reference.
 
 Handle: Subobject Data Handle Structure (by ref). Handle to the subobject to change class of.
 
-New Class: Object Class Reference. The new class that is desired for the given subobject.  
+New Class: Object Class Reference. The new class that is desired for the given subobject.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. True if the class change was successful, false otherwise..
-

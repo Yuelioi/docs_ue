@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21273309.png)
+![](/uploads/projects/ue-bluprint/20221218-21273309.png)
 
 ## Inputs
 
-目标。虚拟摄像机播放器控制器基础对象参考。  
+目标。虚拟摄像机播放器控制器基础对象参考。
 
 ## Outputs
 
 返回值。浮点数（单精度）。需要使用的哑光不透明度。
+
+<hr>
 
 Set the matte aspect ratio to a new value.
 
@@ -22,13 +24,12 @@ Target is Virtual Camera Player Controller Base
 
 ## 图示
 
-![]($-20221218-21273309.png)
+![](/uploads/projects/ue-bluprint/20221218-21273309.png)
 
 ## Inputs
 
-Target: Virtual Camera Player Controller Base Object Reference.  
+Target: Virtual Camera Player Controller Base Object Reference.
 
 ## Outputs
 
 Return Value: Float (single-precision). The desired matte opacity to use.
-

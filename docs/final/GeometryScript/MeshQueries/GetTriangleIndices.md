@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-19120680.png)
+![](/uploads/projects/ue-bluprint/20221218-19120680.png)
 
 ## Inputs
 
 目标网格。动态网格对象参考。
 
-三角形ID：整数。  
+三角形 ID：整数。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 指数。Int 矢量结构。获取三角形指数。
 
+<hr>
+
 Get Triangle Indices
 
 Target is Geometry Script Library Mesh Query Functions
 
 ## 图示
 
-![]($-20221218-19120680.png)
+![](/uploads/projects/ue-bluprint/20221218-19120680.png)
 
 ## Inputs
 
 Target Mesh: Dynamic Mesh Object Reference.
 
-Triangle ID: Integer.  
+Triangle ID: Integer.
 
 ## Outputs
 
 Is Valid Triangle: Boolean.
 
 Indices: Int Vector Structure. Get Triangle Indices.
-

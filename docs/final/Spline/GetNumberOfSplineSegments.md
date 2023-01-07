@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21004198.png)
+![](/uploads/projects/ue-bluprint/20221218-21004198.png)
 
 ## Inputs
 
-目标。花键组件对象参考。  
+目标。花键组件对象参考。
 
 ## Outputs
 
 返回值。整数。获取组成此花键的段数。
+
+<hr>
 
 Get the number of segments that make up this spline
 
@@ -22,13 +24,12 @@ Target is Spline Component
 
 ## 图示
 
-![]($-20221218-21004198.png)
+![](/uploads/projects/ue-bluprint/20221218-21004198.png)
 
 ## Inputs
 
-Target: Spline Component Object Reference.  
+Target: Spline Component Object Reference.
 
 ## Outputs
 
 Return Value: Integer. Get the number of segments that make up this spline.
-

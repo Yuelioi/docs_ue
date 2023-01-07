@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-21292766.png)
+![](/uploads/projects/ue-bluprint/20221218-21292766.png)
 
 ## Inputs
 
 在。执行。
 
-目标。虚拟摄像机播放器控制器基础对象参考。  
+目标。虚拟摄像机播放器控制器基础对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。字符串。屏幕截图数组中保存的屏幕截图的索引。
 
+<hr>
+
 Takes a screenshot from the current view and saves the location and camera settings.
 
 Target is Virtual Camera Player Controller Base
 
 ## 图示
 
-![]($-20221218-21292766.png)
+![](/uploads/projects/ue-bluprint/20221218-21292766.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Virtual Camera Player Controller Base Object Reference.  
+Target: Virtual Camera Player Controller Base Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: String. the index of the saved screenshot in the screenshots array.
-

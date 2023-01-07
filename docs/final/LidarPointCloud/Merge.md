@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19433470.png)
+![](/uploads/projects/ue-bluprint/20221218-19433470.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。激光雷达点云对象参考。
 
-要合并的点云。激光雷达点云对象参考阵列。  
+要合并的点云。激光雷达点云对象参考阵列。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Merges this point cloud with the ones provided
 
@@ -26,7 +28,7 @@ Target is Lidar Point Cloud
 
 ## 图示
 
-![]($-20221218-19433470.png)
+![](/uploads/projects/ue-bluprint/20221218-19433470.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Lidar Point Cloud Object Reference.
 
-Point Clouds to Merge: Array of Lidar Point Cloud Object References.  
+Point Clouds to Merge: Array of Lidar Point Cloud Object References.
 
 ## Outputs
 
 Out: Exec.
-

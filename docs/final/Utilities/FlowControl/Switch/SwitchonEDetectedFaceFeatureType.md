@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14181751.png)
+![](/uploads/projects/ue-bluprint/20221218-14181751.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDetectedFaceFeatureType枚举。 
+选择。EDetectedFaceFeatureType 枚举。
 
 ## Outputs
 
@@ -40,17 +40,19 @@ Inner Lips: Exec.
 
 右眼瞳孔: 清除
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14181751.png)
+![](/uploads/projects/ue-bluprint/20221218-14181751.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDetectedFaceFeatureType Enum.  
+Selection: EDetectedFaceFeatureType Enum.
 
 ## Outputs
 
@@ -79,4 +81,3 @@ Right Eye: Exec.
 Right Eyebrow: Exec.
 
 Right Pupil: Exec.
-

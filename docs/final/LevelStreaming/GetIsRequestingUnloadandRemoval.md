@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-19423297.png)
+![](/uploads/projects/ue-bluprint/20221218-19423297.png)
 
 ## Inputs
 
-目标。水平流对象参考。  
+目标。水平流对象参考。
 
 ## Outputs
 
 返回值。布尔值。返回流媒体级别是否要求被卸载和删除。
+
+<hr>
 
 Returns if the streaming level has requested to be unloaded and removed.
 
@@ -22,13 +24,12 @@ Target is Level Streaming
 
 ## 图示
 
-![]($-20221218-19423297.png)
+![](/uploads/projects/ue-bluprint/20221218-19423297.png)
 
 ## Inputs
 
-Target: Level Streaming Object Reference.  
+Target: Level Streaming Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Returns if the streaming level has requested to be unloaded and removed..
-

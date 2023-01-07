@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20030898.png)
+![](/uploads/projects/ue-bluprint/20221218-20030898.png)
 
 ## Inputs
 
-目标。骨架网格对象参考。  
+目标。骨架网格对象参考。
 
 ## Outputs
 
-返回值。Box Sphere Bounds结构。获取此网格的扩展边界（导入的边界加上扩展的边界）。
+返回值。Box Sphere Bounds 结构。获取此网格的扩展边界（导入的边界加上扩展的边界）。
+
+<hr>
 
 Get the extended bounds of this mesh (imported bounds plus bounds extension)
 
@@ -22,13 +24,12 @@ Target is Skeletal Mesh
 
 ## 图示
 
-![]($-20221218-20030898.png)
+![](/uploads/projects/ue-bluprint/20221218-20030898.png)
 
 ## Inputs
 
-Target: Skeletal Mesh Object Reference.  
+Target: Skeletal Mesh Object Reference.
 
 ## Outputs
 
 Return Value: Box Sphere Bounds Structure. Get the extended bounds of this mesh (imported bounds plus bounds extension).
-

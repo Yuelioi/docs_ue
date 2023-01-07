@@ -6,7 +6,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-18195129.png)
+![](/uploads/projects/ue-bluprint/20221218-18195129.png)
 
 ## Inputs
 
@@ -22,7 +22,7 @@ Trace Complex: Boolean. Whether or not to trace the complex physics representati
 
 Show Trace: Boolean. Whether or not to draw the trace in the world (for debugging).
 
-Persistent Show Trace: Boolean. Whether or not to make the debugging draw stay in the world permanently.  
+Persistent Show Trace: Boolean. Whether or not to make the debugging draw stay in the world permanently.
 
 ## Outputs
 
@@ -37,6 +37,8 @@ Bone Name: Name.
 Out Hit: Hit Result Structure.
 
 Return Value: Boolean.
+
+<hr>
 
 Perform a sphere overlap against a single component
 
@@ -44,7 +46,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-18195129.png)
+![](/uploads/projects/ue-bluprint/20221218-18195129.png)
 
 ## Inputs
 
@@ -60,7 +62,7 @@ Trace Complex: Boolean. Whether or not to trace the complex physics representati
 
 Show Trace: Boolean. Whether or not to draw the trace in the world (for debugging).
 
-Persistent Show Trace: Boolean. Whether or not to make the debugging draw stay in the world permanently.  
+Persistent Show Trace: Boolean. Whether or not to make the debugging draw stay in the world permanently.
 
 ## Outputs
 
@@ -75,4 +77,3 @@ Bone Name: Name.
 Out Hit: Hit Result Structure.
 
 Return Value: Boolean.
-

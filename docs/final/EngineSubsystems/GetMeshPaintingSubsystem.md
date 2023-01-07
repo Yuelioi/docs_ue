@@ -4,22 +4,24 @@
 
 ## 图示
 
-![]($-20221218-18553056.png)
+![](/uploads/projects/ue-bluprint/20221218-18553056.png)
 
 ## Inputs
 
 ## Outputs
 
 返回值。网格绘制子系统对象参考。
+
+<hr>
+
 Get Mesh Painting Subsystem an Engine Subsystem
 
 ## 图示
 
-![]($-20221218-18553056.png)
+![](/uploads/projects/ue-bluprint/20221218-18553056.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Mesh Painting Subsystem Object Reference.
-

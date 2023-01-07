@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14200272.png)
+![](/uploads/projects/ue-bluprint/20221218-14200272.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGoogleARCoreAugmentedFaceMode枚举。 
+选择。EGoogleARCoreAugmentedFaceMode 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 Pose and Mesh: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14200272.png)
+![](/uploads/projects/ue-bluprint/20221218-14200272.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGoogleARCoreAugmentedFaceMode Enum.  
+Selection: EGoogleARCoreAugmentedFaceMode Enum.
 
 ## Outputs
 
 Disabled: Exec.
 
 Pose And Mesh: Exec.
-

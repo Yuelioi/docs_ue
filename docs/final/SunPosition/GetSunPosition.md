@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21060640.png)
+![](/uploads/projects/ue-bluprint/20221218-21060640.png)
 
 ## Inputs
 
@@ -30,7 +30,7 @@
 
 分钟。整数。
 
-秒数。整数。  
+秒数。整数。
 
 ## Outputs
 
@@ -38,13 +38,15 @@
 
 太阳位置数据：太阳位置数据结构。
 
+<hr>
+
 Get the sun's position data based on position, date and time
 
 Target is Sun Position Function Library
 
 ## 图示
 
-![]($-20221218-21060640.png)
+![](/uploads/projects/ue-bluprint/20221218-21060640.png)
 
 ## Inputs
 
@@ -68,11 +70,10 @@ Hours: Integer.
 
 Minutes: Integer.
 
-Seconds: Integer.  
+Seconds: Integer.
 
 ## Outputs
 
 Out: Exec.
 
 Sun Position Data: Sun Position Data Structure.
-

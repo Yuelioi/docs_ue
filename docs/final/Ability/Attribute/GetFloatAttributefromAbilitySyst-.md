@@ -6,19 +6,21 @@ Target is Ability System Blueprint Library
 
 ## 图示
 
-![]($-20221218-17301685.png)
+![](/uploads/projects/ue-bluprint/20221218-17301685.png)
 
 ## Inputs
 
 Ability System: Ability System Component Object Reference.
 
-Attribute: Gameplay Attribute Structure.  
+Attribute: Gameplay Attribute Structure.
 
 ## Outputs
 
 Successfully Found Attribute: Boolean.
 
 Return Value: Float (single-precision). Returns the value of Attribute from the ability system component AbilitySystem..
+
+<hr>
 
 Returns the value of Attribute from the ability system component AbilitySystem.
 
@@ -26,17 +28,16 @@ Target is Ability System Blueprint Library
 
 ## 图示
 
-![]($-20221218-17301685.png)
+![](/uploads/projects/ue-bluprint/20221218-17301685.png)
 
 ## Inputs
 
 Ability System: Ability System Component Object Reference.
 
-Attribute: Gameplay Attribute Structure.  
+Attribute: Gameplay Attribute Structure.
 
 ## Outputs
 
 Successfully Found Attribute: Boolean.
 
 Return Value: Float (single-precision). Returns the value of Attribute from the ability system component AbilitySystem..
-

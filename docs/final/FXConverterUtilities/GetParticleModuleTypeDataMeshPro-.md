@@ -2,17 +2,17 @@
 
 获取粒子模块类型数据 网格道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19030210.png)
+![](/uploads/projects/ue-bluprint/20221218-19030210.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。网格数据对象参考。  
+粒子模块。网格数据对象参考。
 
 ## Outputs
 
@@ -28,7 +28,7 @@ Out Use Static Mesh LODs:布尔值。
 
 Out Do Collisions:布尔值。
 
-Out Mesh Alignment。EMeshScreenAlignment枚举。
+Out Mesh Alignment。EMeshScreenAlignment 枚举。
 
 Out Override Material:布尔值。
 
@@ -52,19 +52,21 @@ Out Apply Particle Rotation as Spin: Boolean.
 
 淘汰碰撞考虑粒子大小。布尔型。
 
+<hr>
+
 Get Particle Module Type Data Mesh Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19030210.png)
+![](/uploads/projects/ue-bluprint/20221218-19030210.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Mesh Data Object Reference.  
+Particle Module: Mesh Data Object Reference.
 
 ## Outputs
 
@@ -103,4 +105,3 @@ Out Apply Particle Rotation as Spin: Boolean.
 Out Facing Camera Direction Rather Than Position: Boolean.
 
 Out Collisions Consider Particle Size: Boolean.
-

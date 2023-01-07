@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18473474.png)
+![](/uploads/projects/ue-bluprint/20221218-18473474.png)
 
 ## Inputs
 
@@ -21,13 +21,16 @@
 出：执行。
 
 返回值。整数。关闭提供的资产的所有活动编辑器，并返回被关闭的资产编辑器的数量。
+
+<hr>
+
 Close all active editors for the supplied asset and return the number of asset editors that were closed
 
 Target is Asset Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18473474.png)
+![](/uploads/projects/ue-bluprint/20221218-18473474.png)
 
 ## Inputs
 
@@ -35,11 +38,10 @@ In: Exec.
 
 Target: Asset Editor Subsystem Object Reference.
 
-Asset: Object Reference.  
+Asset: Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. Close all active editors for the supplied asset and return the number of asset editors that were closed.
-

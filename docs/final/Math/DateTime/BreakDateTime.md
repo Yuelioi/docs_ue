@@ -1,16 +1,16 @@
 # BreakDateTime
 
-将一个DateTime分解成其组成部分
+将一个 DateTime 分解成其组成部分
 
-目标是Kismet数学图书馆
+目标是 Kismet 数学图书馆
 
 ## 图示
 
-![]($-20221218-19490159.png)
+![](/uploads/projects/ue-bluprint/20221218-19490159.png)
 
 ## Inputs
 
-在日期时间。日期时间结构。  
+在日期时间。日期时间结构。
 
 ## Outputs
 
@@ -28,17 +28,19 @@
 
 毫秒：整数。
 
+<hr>
+
 Breaks a DateTime into its components
 
 Target is Kismet Math Library
 
 ## 图示
 
-![]($-20221218-19490159.png)
+![](/uploads/projects/ue-bluprint/20221218-19490159.png)
 
 ## Inputs
 
-In Date Time: Date Time Structure.  
+In Date Time: Date Time Structure.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Minute: Integer.
 Second: Integer.
 
 Millisecond: Integer.
-

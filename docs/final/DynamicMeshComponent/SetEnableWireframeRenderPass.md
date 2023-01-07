@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18461602.png)
+![](/uploads/projects/ue-bluprint/20221218-18461602.png)
 
 ## Inputs
 
@@ -19,13 +19,16 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Configure whether wireframe rendering is enabled or not
 
 Target is Base Dynamic Mesh Component
 
 ## 图示
 
-![]($-20221218-18461602.png)
+![](/uploads/projects/ue-bluprint/20221218-18461602.png)
 
 ## Inputs
 
@@ -33,9 +36,8 @@ In: Exec.
 
 Target: Base Dynamic Mesh Component Object Reference.
 
-Enable: Boolean.  
+Enable: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

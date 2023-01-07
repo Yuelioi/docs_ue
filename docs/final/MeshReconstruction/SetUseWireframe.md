@@ -2,23 +2,25 @@
 
 设置使用线框
 
-目标是MRMesh组件
+目标是 MRMesh 组件
 
 ## 图示
 
-![]($-20221218-20052257.png)
+![](/uploads/projects/ue-bluprint/20221218-20052257.png)
 
 ## Inputs
 
 在。执行。
 
-目标。MRMesh组件对象参考。
+目标。MRMesh 组件对象参考。
 
-使用线框。布尔值。  
+使用线框。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Use Wireframe
 
@@ -26,7 +28,7 @@ Target is MRMesh Component
 
 ## 图示
 
-![]($-20221218-20052257.png)
+![](/uploads/projects/ue-bluprint/20221218-20052257.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: MRMesh Component Object Reference.
 
-Use Wireframe: Boolean.  
+Use Wireframe: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

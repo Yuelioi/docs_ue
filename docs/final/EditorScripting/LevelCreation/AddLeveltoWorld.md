@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18502770.png)
+![](/uploads/projects/ue-bluprint/20221218-18502770.png)
 
 ## Inputs
 
@@ -22,14 +22,17 @@
 
 出：执行。
 
-返回值。关卡流对象参考。新的级别，如果不能添加级别，则为NULL。
+返回值。关卡流对象参考。新的级别，如果不能添加级别，则为 NULL。
+
+<hr>
+
 Adds the named level package to the world. Does nothing if the level already exists in the world.
 
 Target is Editor Level Utils
 
 ## 图示
 
-![]($-20221218-18502770.png)
+![](/uploads/projects/ue-bluprint/20221218-18502770.png)
 
 ## Inputs
 
@@ -39,11 +42,10 @@ World: World Object Reference.
 
 Level Package Name: String. The package name ("e.g /Game/MyLevel") of the level package to add..
 
-Level Streaming Class: Level Streaming Class Reference. The streaming class type to use for the level..  
+Level Streaming Class: Level Streaming Class Reference. The streaming class type to use for the level..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Level Streaming Object Reference. The new level, or NULL if the level couldn't added..
-

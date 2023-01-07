@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-18050009.png)
+![](/uploads/projects/ue-bluprint/20221218-18050009.png)
 
 ## Inputs
 
-在。Exec.  
+在。Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 返回值。颜色结构。获取调制发生器颜色。
 
+<hr>
+
 Get Modulation Generator Color
 
 Target is Audio Modulation Style
 
 ## 图示
 
-![]($-20221218-18050009.png)
+![](/uploads/projects/ue-bluprint/20221218-18050009.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Color Structure. Get Modulation Generator Color.
-

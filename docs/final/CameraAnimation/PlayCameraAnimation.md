@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18134295.png)
+![](/uploads/projects/ue-bluprint/20221218-18134295.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 序列。摄像机动画序列对象参考。新的摄像机动画要使用的序列。
 
-Params（参数）。摄像机动画参数结构。新的摄像机动画实例的参数。 
+Params（参数）。摄像机动画参数结构。新的摄像机动画实例的参数。
 
 ## Outputs
 
@@ -24,13 +24,15 @@ Params（参数）。摄像机动画参数结构。新的摄像机动画实例�
 
 返回值。摄像机动画句柄结构。
 
+<hr>
+
 Play a new camera animation sequence.
 
 Target is Camera Animation Camera Modifier
 
 ## 图示
 
-![]($-20221218-18134295.png)
+![](/uploads/projects/ue-bluprint/20221218-18134295.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Camera Animation Camera Modifier Object Reference.
 
 Sequence: Camera Animation Sequence Object Reference. The sequence to use for the new camera animation..
 
-Params: Camera Animation Params Structure. The parameters for the new camera animation instance..  
+Params: Camera Animation Params Structure. The parameters for the new camera animation instance..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Camera Animation Handle Structure.
-

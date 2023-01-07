@@ -1,12 +1,12 @@
 # SelectObject
 
-如果bPickA为真，则返回A，否则返回B。
+如果 bPickA 为真，则返回 A，否则返回 B。
 
-目标是Kismet数学图书馆
+目标是 Kismet 数学图书馆
 
 ## 图示
 
-![]($-20221218-14290225.png)
+![](/uploads/projects/ue-bluprint/20221218-14290225.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 B: 对象参考。
 
-选择A：布尔值。  
+选择 A：布尔值。
 
 ## Outputs
 
-返回值。对象参考。如果bPickA为真，则返回A，否则为B。
+返回值。对象参考。如果 bPickA 为真，则返回 A，否则为 B。
+
+<hr>
 
 If bPickA is true, A is returned, otherwise B is
 
@@ -26,7 +28,7 @@ Target is Kismet Math Library
 
 ## 图示
 
-![]($-20221218-14290225.png)
+![](/uploads/projects/ue-bluprint/20221218-14290225.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ A: Object Reference.
 
 B: Object Reference.
 
-Select A: Boolean.  
+Select A: Boolean.
 
 ## Outputs
 
 Return Value: Object Reference. If bPickA is true, A is returned, otherwise B is.
-

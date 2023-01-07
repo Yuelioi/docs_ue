@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17593159.png)
+![](/uploads/projects/ue-bluprint/20221218-17593159.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 非预期。变换（通过引用）。
 
-What：字符串。如果断言失败，在信息中使用的名称（"预期'什么'不是{预期}，但对于上下文''是{实际}"）。 
+What：字符串。如果断言失败，在信息中使用的名称（"预期'什么'不是{预期}，但对于上下文''是{实际}"）。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ What：字符串。如果断言失败，在信息中使用的名称（"预期'�
 
 返回值。布尔值。
 
+<hr>
+
 Assert that two transforms are (components memberwise - translation, rotation, scale) not equal within a small tolerance.
 
 Target is Functional Test
 
 ## 图示
 
-![]($-20221218-17593159.png)
+![](/uploads/projects/ue-bluprint/20221218-17593159.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Actual: Transform (by ref).
 
 Not Expected: Transform (by ref).
 
-What: String. A name to use in the message if the assert fails ("Expected 'What' not to be {Expected} but it was {Actual} for context ''").  
+What: String. A name to use in the message if the assert fails ("Expected 'What' not to be {Expected} but it was {Actual} for context ''").
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

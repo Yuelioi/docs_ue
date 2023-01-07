@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20025373.png)
+![](/uploads/projects/ue-bluprint/20221218-20025373.png)
 
 ## Inputs
 
 在。执行。
 
-媒体简介。媒体配置文件对象参考。  
+媒体简介。媒体配置文件对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Media Profile
 
@@ -24,15 +26,14 @@ Target is Media Profile Blueprint Library
 
 ## 图示
 
-![]($-20221218-20025373.png)
+![](/uploads/projects/ue-bluprint/20221218-20025373.png)
 
 ## Inputs
 
 In: Exec.
 
-Media Profile: Media Profile Object Reference.  
+Media Profile: Media Profile Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

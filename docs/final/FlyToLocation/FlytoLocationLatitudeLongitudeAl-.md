@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19003223.png)
+![](/uploads/projects/ue-bluprint/20221218-19003223.png)
 
 ## Inputs
 
@@ -24,11 +24,13 @@
 
 目的地的间距。Float (double-precision).
 
-可以通过移动中断。布尔型。  
+可以通过移动中断。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Begin a smooth camera flight to the given Latitude/Longitude destination such that the camera ends at the specified yaw and pitch.. The flight can be enforced or canceled if the user moves the pawn
 
@@ -36,7 +38,7 @@ Target is Round Planet Pawn
 
 ## 图示
 
-![]($-20221218-19003223.png)
+![](/uploads/projects/ue-bluprint/20221218-19003223.png)
 
 ## Inputs
 
@@ -54,9 +56,8 @@ Yaw at Destination: Float (double-precision).
 
 Pitch at Destination: Float (double-precision).
 
-Can Interrupt by Moving: Boolean.  
+Can Interrupt by Moving: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

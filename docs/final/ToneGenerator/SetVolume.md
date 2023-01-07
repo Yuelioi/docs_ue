@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21132134.png)
+![](/uploads/projects/ue-bluprint/20221218-21132134.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Synth Component Tone Generator 对象参考。
 
-在体积上。Float（单精度）。  
+在体积上。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the volume of the tone generator
 
@@ -26,7 +28,7 @@ Target is Synth Component Tone Generator
 
 ## 图示
 
-![]($-20221218-21132134.png)
+![](/uploads/projects/ue-bluprint/20221218-21132134.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Synth Component Tone Generator Object Reference.
 
-In Volume: Float (single-precision).  
+In Volume: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

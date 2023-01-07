@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18275794.png)
+![](/uploads/projects/ue-bluprint/20221218-18275794.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。立体图层对象参考。
 
-在优先级。整数。 
+在优先级。整数。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Change the layer's render priority, higher priorities render on top of lower priorities
 
@@ -26,7 +28,7 @@ Target is Stereo Layer
 
 ## 图示
 
-![]($-20221218-18275794.png)
+![](/uploads/projects/ue-bluprint/20221218-18275794.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Stereo Layer Object Reference.
 
-In Priority: Integer.  
+In Priority: Integer.
 
 ## Outputs
 
 Out: Exec.
-

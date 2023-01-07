@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19004636.png)
+![](/uploads/projects/ue-bluprint/20221218-19004636.png)
 
 ## Inputs
 
 在。执行。
 
-程序性叶子卷。程序性叶子卷对象参考数组。  
+程序性叶子卷。程序性叶子卷对象参考数组。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Resimulate Procedural Foliage Volumes
 
@@ -24,15 +26,14 @@ Target is Procedural Foliage Editor Library
 
 ## 图示
 
-![]($-20221218-19004636.png)
+![](/uploads/projects/ue-bluprint/20221218-19004636.png)
 
 ## Inputs
 
 In: Exec.
 
-Procedural Foliage Volumes: Array of Procedural Foliage Volume Object References.  
+Procedural Foliage Volumes: Array of Procedural Foliage Volume Object References.
 
 ## Outputs
 
 Out: Exec.
-

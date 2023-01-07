@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-20572086.png)
+![](/uploads/projects/ue-bluprint/20221218-20572086.png)
 
 ## Inputs
 
-目标。游戏用户设置对象参考。  
+目标。游戏用户设置对象参考。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 最大刻度值。Float（单精度）。
 
+<hr>
+
 Returns the current resolution scale and the range
 
 Target is Game User Settings
 
 ## 图示
 
-![]($-20221218-20572086.png)
+![](/uploads/projects/ue-bluprint/20221218-20572086.png)
 
 ## Inputs
 
-Target: Game User Settings Object Reference.  
+Target: Game User Settings Object Reference.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Current Scale Value: Float (single-precision).
 Min Scale Value: Float (single-precision).
 
 Max Scale Value: Float (single-precision).
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20021888.png)
+![](/uploads/projects/ue-bluprint/20221218-20021888.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在要分析的频率中。Float（单精度）的数组。
 
-在FFTSize中。EMediaSoundComponentFFTSize Enum。  
+在 FFTSize 中。EMediaSoundComponentFFTSize Enum。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the settings to use for spectral analysis.
 
@@ -28,7 +30,7 @@ Target is Media Sound Component
 
 ## 图示
 
-![]($-20221218-20021888.png)
+![](/uploads/projects/ue-bluprint/20221218-20021888.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Media Sound Component Object Reference.
 
 In Frequencies to Analyze: Array of Float (single-precision)s.
 
-In FFTSize: EMediaSoundComponentFFTSize Enum.  
+In FFTSize: EMediaSoundComponentFFTSize Enum.
 
 ## Outputs
 
 Out: Exec.
-

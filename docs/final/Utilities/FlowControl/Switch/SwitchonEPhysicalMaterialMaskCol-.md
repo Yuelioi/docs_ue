@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14222266.png)
+![](/uploads/projects/ue-bluprint/20221218-14222266.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EPhysicalMaterialMaskColor Enum.  
+选择。EPhysicalMaterialMaskColor Enum.
 
 ## Outputs
 
@@ -30,17 +30,19 @@
 
 黑色：执行。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14222266.png)
+![](/uploads/projects/ue-bluprint/20221218-14222266.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EPhysicalMaterialMaskColor Enum.  
+Selection: EPhysicalMaterialMaskColor Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Yellow: Exec.
 White: Exec.
 
 Black: Exec.
-

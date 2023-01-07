@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14171525.png)
+![](/uploads/projects/ue-bluprint/20221218-14171525.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EBlendMode Enum.  
+选择。EBlendMode Enum.
 
 ## Outputs
 
@@ -24,21 +24,23 @@ Masked: Exec.
 
 调制: Exec.
 
-α复合（预乘α）。Exec.
+α 复合（预乘 α）。Exec.
 
 阿尔法保持。Exec.
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14171525.png)
+![](/uploads/projects/ue-bluprint/20221218-14171525.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EBlendMode Enum.  
+Selection: EBlendMode Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Modulate: Exec.
 Alpha Composite (Premultiplied Alpha): Exec.
 
 Alpha Holdout: Exec.
-

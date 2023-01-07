@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18321115.png)
+![](/uploads/projects/ue-bluprint/20221218-18321115.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 值。变换。控件的新值。
 
-空间。EControlRigComponentSpace枚举。用于设置值的空间。 
+空间。EControlRigComponentSpace 枚举。用于设置值的空间。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets the value of a transform control
 
@@ -30,7 +32,7 @@ Target is Control Rig Component
 
 ## 图示
 
-![]($-20221218-18321115.png)
+![](/uploads/projects/ue-bluprint/20221218-18321115.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Control Name: Name. The name of the control to set.
 
 Value: Transform. The new value for the control.
 
-Space: EControlRigComponentSpace Enum. The space to set the value in.  
+Space: EControlRigComponentSpace Enum. The space to set the value in.
 
 ## Outputs
 
 Out: Exec.
-

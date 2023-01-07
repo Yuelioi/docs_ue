@@ -6,21 +6,23 @@
 
 ## 图示
 
-![]($-20221218-20175559.png)
+![](/uploads/projects/ue-bluprint/20221218-20175559.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Wrap Box对象参考。
+目标。Wrap Box 对象参考。
 
-内容。小工具对象参考。  
+内容。小工具对象参考。
 
 ## Outputs
 
 出：执行。
 
-返回值。Wrap Box Slot对象参考。将子代添加到包络盒。
+返回值。Wrap Box Slot 对象参考。将子代添加到包络盒。
+
+<hr>
 
 Add Child to Wrap Box
 
@@ -28,7 +30,7 @@ Target is Wrap Box
 
 ## 图示
 
-![]($-20221218-20175559.png)
+![](/uploads/projects/ue-bluprint/20221218-20175559.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Wrap Box Object Reference.
 
-Content: Widget Object Reference.  
+Content: Widget Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Wrap Box Slot Object Reference. Add Child to Wrap Box.
-

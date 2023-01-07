@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-20305655.png)
+![](/uploads/projects/ue-bluprint/20221218-20305655.png)
 
 ## Inputs
 
 在。执行。
 
-目标。时间码提供者对象参考。  
+目标。时间码提供者对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Update the state of the provider. Call it to ensure timecode and state are updated.. It is suggested to fetch timecode from its source and cache it for the getters.
 
@@ -24,15 +26,14 @@ Target is Timecode Provider
 
 ## 图示
 
-![]($-20221218-20305655.png)
+![](/uploads/projects/ue-bluprint/20221218-20305655.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Timecode Provider Object Reference.  
+Target: Timecode Provider Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

@@ -1,22 +1,24 @@
 # InvertTransform
 
-返回给定变换T的逆值。
+返回给定变换 T 的逆值。
 
-例子。给出一个LocalToWorld的转换，WorldToLocal将被返回。
+例子。给出一个 LocalToWorld 的转换，WorldToLocal 将被返回。
 
-目标是Kismet数学图书馆
+目标是 Kismet 数学图书馆
 
 ## 图示
 
-![]($-20221218-19553902.png)
+![](/uploads/projects/ue-bluprint/20221218-19553902.png)
 
 ## Inputs
 
-T: 变换（通过参考）。你想反转的变换。  
+T: 变换（通过参考）。你想反转的变换。
 
 ## Outputs
 
 返回值。变换。T.的倒数。
+
+<hr>
 
 Returns the inverse of the given transform T.
 
@@ -26,13 +28,12 @@ Target is Kismet Math Library
 
 ## 图示
 
-![]($-20221218-19553902.png)
+![](/uploads/projects/ue-bluprint/20221218-19553902.png)
 
 ## Inputs
 
-T: Transform (by ref). The transform you wish to invert.  
+T: Transform (by ref). The transform you wish to invert.
 
 ## Outputs
 
 Return Value: Transform. The inverse of T..
-

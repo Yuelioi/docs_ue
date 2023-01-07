@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14245109.png)
+![](/uploads/projects/ue-bluprint/20221218-14245109.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETTrackingStatus枚举。 
+选择。ETTrackingStatus 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 已跟踪。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14245109.png)
+![](/uploads/projects/ue-bluprint/20221218-14245109.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETrackingStatus Enum.  
+Selection: ETrackingStatus Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Not Tracked: Exec.
 Inertial Only: Exec.
 
 Tracked: Exec.
-

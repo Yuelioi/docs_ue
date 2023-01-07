@@ -1,12 +1,12 @@
-# AsCurrency_integer__DEPRECATED_u-
+# AsCurrency_integer\_\_DEPRECATED_u-
 
 将一个传入的整数转换为一个格式化的货币文本
 
-目标是Kismet文本库
+目标是 Kismet 文本库
 
 ## 图示
 
-![]($-20221218-15235713.png)
+![](/uploads/projects/ue-bluprint/20221218-15235713.png)
 
 ## Inputs
 
@@ -26,11 +26,13 @@
 
 最大的小数位。整数。
 
-货币代码。字符串。  
+货币代码。字符串。
 
 ## Outputs
 
 返回值。文本。将传入的整数转换为格式化的货币文本。
+
+<hr>
 
 Converts a passed in integer to a text formatted as a currency
 
@@ -38,7 +40,7 @@ Target is Kismet Text Library
 
 ## 图示
 
-![]($-20221218-15235713.png)
+![](/uploads/projects/ue-bluprint/20221218-15235713.png)
 
 ## Inputs
 
@@ -58,9 +60,8 @@ Minimum Fractional Digits: Integer.
 
 Maximum Fractional Digits: Integer.
 
-Currency Code: String.  
+Currency Code: String.
 
 ## Outputs
 
 Return Value: Text. Converts a passed in integer to a text formatted as a currency.
-

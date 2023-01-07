@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14243882.png)
+![](/uploads/projects/ue-bluprint/20221218-14243882.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETextureShareBPSyncSurface枚举。 
+选择。ETextureShareBPSyncSurface 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 同步配对读取。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14243882.png)
+![](/uploads/projects/ue-bluprint/20221218-14243882.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETextureShareBPSyncSurface Enum.  
+Selection: ETextureShareBPSyncSurface Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ None: Exec.
 Sync Read: Exec.
 
 Sync Pairing Read: Exec.
-

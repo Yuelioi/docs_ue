@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14254825.png)
+![](/uploads/projects/ue-bluprint/20221218-14254825.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。FTransformChannelEnum枚举。 
+选择。FTransformChannelEnum 枚举。
 
 ## Outputs
 
@@ -18,31 +18,33 @@ Translate X: Exec.
 
 Translate Y: Exec.
 
-平移Z：执行。
+平移 Z：执行。
 
-旋转X：执行。
+旋转 X：执行。
 
-旋转Y：执行。
+旋转 Y：执行。
 
-旋转Z：执行。
+旋转 Z：执行。
 
-缩放X：执行。
+缩放 X：执行。
 
-缩放Y：执行。
+缩放 Y：执行。
 
-缩放Z：执行。
+缩放 Z：执行。
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14254825.png)
+![](/uploads/projects/ue-bluprint/20221218-14254825.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: FTransformChannelEnum Enum.  
+Selection: FTransformChannelEnum Enum.
 
 ## Outputs
 
@@ -63,4 +65,3 @@ Scale X: Exec.
 Scale Y: Exec.
 
 Scale Z: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18292405.png)
+![](/uploads/projects/ue-bluprint/20221218-18292405.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Empty Comp Shot 对象参考。
 
-新相机演员。Camera Actor Object Reference.  
+新相机演员。Camera Actor Object Reference.
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set Target Camera
 
@@ -26,7 +28,7 @@ Target is Empty Comp Shot
 
 ## 图示
 
-![]($-20221218-18292405.png)
+![](/uploads/projects/ue-bluprint/20221218-18292405.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Empty Comp Shot Object Reference.
 
-New Camera Actor: Camera Actor Object Reference.  
+New Camera Actor: Camera Actor Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

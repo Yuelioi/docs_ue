@@ -1,12 +1,12 @@
 # AddTextureParameterData
 
-为指定的ParameterName添加一个纹理参数。
+为指定的 ParameterName 添加一个纹理参数。
 
 目标是交换材料节点
 
 ## 图示
 
-![]($-20221218-19312520.png)
+![](/uploads/projects/ue-bluprint/20221218-19312520.png)
 
 ## Inputs
 
@@ -14,19 +14,21 @@
 
 目标：交换材料节点对象参考。
 
-参数名称。EInterchangeMaterialNodeParameterName枚举。我们要为其设置纹理的参数。
+参数名称。EInterchangeMaterialNodeParameterName 枚举。我们要为其设置纹理的参数。
 
-纹理Uid。String（字符串）。纹理节点的唯一ID，该节点有我们想设置为指定参数的纹理。
+纹理 Uid。String（字符串）。纹理节点的唯一 ID，该节点有我们想设置为指定参数的纹理。
 
-UVSet索引。整数。
+UVSet 索引。整数。
 
-规模U：浮动（单精度）。
+规模 U：浮动（单精度）。
 
-刻度V。Float（单精度）。  
+刻度 V。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Add a texture parameter for the specified ParameterName.
 
@@ -34,7 +36,7 @@ Target is Interchange Material Node
 
 ## 图示
 
-![]($-20221218-19312520.png)
+![](/uploads/projects/ue-bluprint/20221218-19312520.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ UVSet Index: Integer.
 
 Scale U: Float (single-precision).
 
-Scale V: Float (single-precision).  
+Scale V: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

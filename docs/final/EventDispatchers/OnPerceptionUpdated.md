@@ -2,6 +2,6 @@
 
 On Perception Updated:. Might want to move these to special "BP_AIPerceptionComponent"
 
+<hr>
 
 On Perception Updated:. Might want to move these to special "BP_AIPerceptionComponent"
-

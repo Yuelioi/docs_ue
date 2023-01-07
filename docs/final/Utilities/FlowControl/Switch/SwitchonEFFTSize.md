@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14190130.png)
+![](/uploads/projects/ue-bluprint/20221218-14190130.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFFTSize Enum.  
+选择。EFFTSize Enum.
 
 ## Outputs
 
@@ -28,17 +28,19 @@
 
 最大：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14190130.png)
+![](/uploads/projects/ue-bluprint/20221218-14190130.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFFTSize Enum.  
+Selection: EFFTSize Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Large: Exec.
 Very Large: Exec.
 
 Max: Exec.
-

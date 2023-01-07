@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21285671.png)
+![](/uploads/projects/ue-bluprint/20221218-21285671.png)
 
 ## Inputs
 
-目标。虚拟摄像机播放器控制器基础对象参考。  
+目标。虚拟摄像机播放器控制器基础对象参考。
 
 ## Outputs
 
 返回值。布尔值。
+
+<hr>
 
 Get whether or not global boom is being used when navigating with the joysticks
 
@@ -22,13 +24,12 @@ Target is Virtual Camera Player Controller Base
 
 ## 图示
 
-![]($-20221218-21285671.png)
+![](/uploads/projects/ue-bluprint/20221218-21285671.png)
 
 ## Inputs
 
-Target: Virtual Camera Player Controller Base Object Reference.  
+Target: Virtual Camera Player Controller Base Object Reference.
 
 ## Outputs
 
 Return Value: Boolean.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21060260.png)
+![](/uploads/projects/ue-bluprint/20221218-21060260.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@ BPContext。蓝图对象参考。
 
 在处理。子对象数据手柄结构（通过引用）。
 
-新名称：名称。  
+新名称：名称。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Rename Subobject Member Variable
 
@@ -28,7 +30,7 @@ Target is Subobject Data Subsystem
 
 ## 图示
 
-![]($-20221218-21060260.png)
+![](/uploads/projects/ue-bluprint/20221218-21060260.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ BPContext: Blueprint Object Reference.
 
 In Handle: Subobject Data Handle Structure (by ref).
 
-New Name: Name.  
+New Name: Name.
 
 ## Outputs
 
 Out: Exec.
-

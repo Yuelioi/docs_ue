@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19054620.png)
+![](/uploads/projects/ue-bluprint/20221218-19054620.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 源组件。相机抖动源组件对象参考。
 
-马上。布尔型。  
+马上。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Stop camera shake on client.
 
@@ -28,7 +30,7 @@ Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19054620.png)
+![](/uploads/projects/ue-bluprint/20221218-19054620.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Player Controller Object Reference.
 
 Source Component: Camera Shake Source Component Object Reference.
 
-Immediately: Boolean.  
+Immediately: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

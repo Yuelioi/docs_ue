@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20063400.png)
+![](/uploads/projects/ue-bluprint/20221218-20063400.png)
 
 ## Inputs
 
-目标。模仿角色能力组件对象参考。  
+目标。模仿角色能力组件对象参考。
 
 ## Outputs
 
 返回值。布尔值。我们目前是否处于闪烁（启动）状态。
+
+<hr>
 
 Are we currently in the blinking (startup) state
 
@@ -22,13 +24,12 @@ Target is Mock Character Ability Component
 
 ## 图示
 
-![]($-20221218-20063400.png)
+![](/uploads/projects/ue-bluprint/20221218-20063400.png)
 
 ## Inputs
 
-Target: Mock Character Ability Component Object Reference.  
+Target: Mock Character Ability Component Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Are we currently in the blinking (startup) state.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18350260.png)
+![](/uploads/projects/ue-bluprint/20221218-18350260.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。数据层编辑子系统对象参考。
 
-行为者。Actor对象参考。要验证的行为者。 
+行为者。Actor 对象参考。要验证的行为者。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。
 
+<hr>
+
 Checks to see if the specified actor is in an appropriate state to interact with DataLayers
 
 Target is Data Layer Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18350260.png)
+![](/uploads/projects/ue-bluprint/20221218-18350260.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Data Layer Editor Subsystem Object Reference.
 
-Actor: Actor Object Reference. The actor to validate.  
+Actor: Actor Object Reference. The actor to validate.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

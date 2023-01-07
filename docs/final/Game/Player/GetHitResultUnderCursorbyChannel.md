@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19070092.png)
+![](/uploads/projects/ue-bluprint/20221218-19070092.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 追踪通道。ETraceTypeQuery 枚举。
 
-Trace Complex: Boolean.  
+Trace Complex: Boolean.
 
 ## Outputs
 
@@ -22,13 +22,15 @@ Trace Complex: Boolean.
 
 返回值。布尔值。在鼠标光标下执行碰撞查询，在一个跟踪通道上寻找。
 
+<hr>
+
 Performs a collision query under the mouse cursor, looking on a trace channel
 
 Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19070092.png)
+![](/uploads/projects/ue-bluprint/20221218-19070092.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ Target: Player Controller Object Reference.
 
 Trace Channel: ETraceTypeQuery Enum.
 
-Trace Complex: Boolean.  
+Trace Complex: Boolean.
 
 ## Outputs
 
 Hit Result: Hit Result Structure.
 
 Return Value: Boolean. Performs a collision query under the mouse cursor, looking on a trace channel.
-

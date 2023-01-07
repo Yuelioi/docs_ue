@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21361767.png)
+![](/uploads/projects/ue-bluprint/20221218-21361767.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。可编辑的文本对象参考。
 
-只准备好。布尔型。  
+只准备好。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Is Read Only
 
@@ -26,7 +28,7 @@ Target is Editable Text
 
 ## 图示
 
-![]($-20221218-21361767.png)
+![](/uploads/projects/ue-bluprint/20221218-21361767.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Editable Text Object Reference.
 
-Ready Only: Boolean.  
+Ready Only: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

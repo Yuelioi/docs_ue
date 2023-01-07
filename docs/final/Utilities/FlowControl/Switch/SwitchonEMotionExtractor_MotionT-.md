@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14213787.png)
+![](/uploads/projects/ue-bluprint/20221218-14213787.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMotionExtractor_MotionType枚举。 
+选择。EMotionExtractor_MotionType 枚举。
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Rotation（旋转）。旋转: Exec.
 
 旋转速度：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14213787.png)
+![](/uploads/projects/ue-bluprint/20221218-14213787.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMotionExtractor_MotionType Enum.  
+Selection: EMotionExtractor_MotionType Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Scale: Exec.
 Translation Speed: Exec.
 
 Rotation Speed: Exec.
-

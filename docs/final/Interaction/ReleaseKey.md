@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19303880.png)
+![](/uploads/projects/ue-bluprint/20221218-19303880.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。小工具交互组件对象参考。
 
-钥匙。关键的结构。  
+钥匙。关键的结构。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。释放一个键，就像它被键盘释放了一样。
 
+<hr>
+
 Releases a key as if it had been released by the keyboard.
 
 Target is Widget Interaction Component
 
 ## 图示
 
-![]($-20221218-19303880.png)
+![](/uploads/projects/ue-bluprint/20221218-19303880.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Widget Interaction Component Object Reference.
 
-Key: Key Structure.  
+Key: Key Structure.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Releases a key as if it had been released by the keyboard..
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18010765.png)
+![](/uploads/projects/ue-bluprint/20221218-18010765.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。对象参考。
 
-在文件路径中。字符串阵列。 
+在文件路径中。字符串阵列。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Forces a rescan of specific filenames, call this when you need to refresh from disk
 
@@ -26,7 +28,7 @@ Target is Asset Registry
 
 ## 图示
 
-![]($-20221218-18010765.png)
+![](/uploads/projects/ue-bluprint/20221218-18010765.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Object Reference.
 
-In File Paths: Array of Strings.  
+In File Paths: Array of Strings.
 
 ## Outputs
 
 Out: Exec.
-

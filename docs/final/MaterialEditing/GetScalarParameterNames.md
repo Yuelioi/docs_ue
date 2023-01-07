@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-19463554.png)
+![](/uploads/projects/ue-bluprint/20221218-19463554.png)
 
 ## Inputs
 
 在。执行。
 
-材料。材料界面对象参考。  
+材料。材料界面对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 参数名称。名称的数组。
 
+<hr>
+
 Gets all scalar parameter names
 
 Target is Material Editing Library
 
 ## 图示
 
-![]($-20221218-19463554.png)
+![](/uploads/projects/ue-bluprint/20221218-19463554.png)
 
 ## Inputs
 
 In: Exec.
 
-Material: Material Interface Object Reference.  
+Material: Material Interface Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Parameter Names: Array of Names.
-

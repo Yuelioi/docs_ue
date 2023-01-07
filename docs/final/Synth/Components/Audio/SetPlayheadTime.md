@@ -6,23 +6,25 @@
 
 ## 图示
 
-![]($-20221218-21082462.png)
+![](/uploads/projects/ue-bluprint/20221218-21082462.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Granular Synth对象参考。
+目标。Granular Synth 对象参考。
 
 在位秒。Float（单精度）。
 
 Lerp Time Sec:浮点数（单精度）。
 
-寻求类型。EGranularSynthSeekType枚举。  
+寻求类型。EGranularSynthSeekType 枚举。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Playhead Time
 
@@ -30,7 +32,7 @@ Target is Granular Synth
 
 ## 图示
 
-![]($-20221218-21082462.png)
+![](/uploads/projects/ue-bluprint/20221218-21082462.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ In Position Sec: Float (single-precision).
 
 Lerp Time Sec: Float (single-precision).
 
-Seek Type: EGranularSynthSeekType Enum.  
+Seek Type: EGranularSynthSeekType Enum.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18182027.png)
+![](/uploads/projects/ue-bluprint/20221218-18182027.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 Tether Stiffness: Float (single-precision).
 
-Tether Scale: 浮点（单精度）。 
+Tether Scale: 浮点（单精度）。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Long Range Attachment Linear
 
@@ -28,7 +30,7 @@ Target is Chaos Clothing Interactor
 
 ## 图示
 
-![]($-20221218-18182027.png)
+![](/uploads/projects/ue-bluprint/20221218-18182027.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Chaos Clothing Interactor Object Reference.
 
 Tether Stiffness: Float (single-precision).
 
-Tether Scale: Float (single-precision).  
+Tether Scale: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

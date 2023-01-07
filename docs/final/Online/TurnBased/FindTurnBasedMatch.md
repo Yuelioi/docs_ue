@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20164227.png)
+![](/uploads/projects/ue-bluprint/20221218-20164227.png)
 
 ## Inputs
 
@@ -22,7 +22,7 @@
 
 球员组。整数。
 
-显示现有的匹配。布尔型。  
+显示现有的匹配。布尔型。
 
 ## Outputs
 
@@ -32,7 +32,9 @@
 
 失败时。执行。失败时：。匹配失败时调用。
 
-匹配ID：字符串。
+匹配 ID：字符串。
+
+<hr>
 
 Use the platform matchmaking service (like Game Center) to find a match.
 
@@ -40,7 +42,7 @@ Target is Find Turn Based Match Callback Proxy
 
 ## 图示
 
-![]($-20221218-20164227.png)
+![](/uploads/projects/ue-bluprint/20221218-20164227.png)
 
 ## Inputs
 
@@ -56,7 +58,7 @@ Max Players: Integer.
 
 Player Group: Integer.
 
-Show Existing Matches: Boolean.  
+Show Existing Matches: Boolean.
 
 ## Outputs
 
@@ -67,4 +69,3 @@ On Success: Exec. On Success:. Called when matchmaking succeeded..
 On Failure: Exec. On Failure:. Called when matchmaking failed.
 
 Match ID: String.
-

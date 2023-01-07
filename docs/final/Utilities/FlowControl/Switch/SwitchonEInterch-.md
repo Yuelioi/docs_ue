@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14204518.png)
+![](/uploads/projects/ue-bluprint/20221218-14204518.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EInterchangeMaterialNodeParameterName枚举。 
+选择。EInterchangeMaterialNodeParameterName 枚举。
 
 ## Outputs
 
@@ -30,17 +30,19 @@ Roughness（粗糙度）。Exec.
 
 Opacity Mask: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14204518.png)
+![](/uploads/projects/ue-bluprint/20221218-14204518.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EInterchangeMaterialNodeParameterName Enum.  
+Selection: EInterchangeMaterialNodeParameterName Enum.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Normal: Exec.
 Opacity: Exec.
 
 Opacity Mask: Exec.
-

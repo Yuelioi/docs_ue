@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20530369.png)
+![](/uploads/projects/ue-bluprint/20221218-20530369.png)
 
 ## Inputs
 
@@ -22,13 +22,15 @@
 
 返回值。布尔值。如果找到并删除了具有该名称的参数，则为真，否则为假。
 
+<hr>
+
 Removes a scalar parameter from this section.
 
 Target is Movie Scene Parameter Section
 
 ## 图示
 
-![]($-20221218-20530369.png)
+![](/uploads/projects/ue-bluprint/20221218-20530369.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Movie Scene Parameter Section Object Reference.
 
-In Parameter Name: Name. The name of the scalar parameter to remove..  
+In Parameter Name: Name. The name of the scalar parameter to remove..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. True if a parameter with that name was found and removed, otherwise false..
-

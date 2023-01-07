@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21355736.png)
+![](/uploads/projects/ue-bluprint/20221218-21355736.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 列索引。整数。
 
-系数。浮点数（单精度）。  
+系数。浮点数（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Column Fill
 
@@ -28,7 +30,7 @@ Target is Grid Panel
 
 ## 图示
 
-![]($-20221218-21355736.png)
+![](/uploads/projects/ue-bluprint/20221218-21355736.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Grid Panel Object Reference.
 
 Column Index: Integer.
 
-Coefficient: Float (single-precision).  
+Coefficient: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

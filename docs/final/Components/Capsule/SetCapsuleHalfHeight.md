@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18231344.png)
+![](/uploads/projects/ue-bluprint/20221218-18231344.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 半高。Float (single-precision). : 半高，从胶囊中心到顶部或底部半球形的末端。
 
-更新重叠。布尔值。 
+更新重叠。布尔值。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set the capsule half-height. This is the unscaled half-height, before component scale is applied.. If this capsule collides, updates touching array for owner actor.
 
@@ -28,7 +30,7 @@ Target is Capsule Collision
 
 ## 图示
 
-![]($-20221218-18231344.png)
+![](/uploads/projects/ue-bluprint/20221218-18231344.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Capsule Collision Object Reference.
 
 Half Height: Float (single-precision). : half-height, from capsule center to end of top or bottom hemisphere..
 
-Update Overlaps: Boolean.  
+Update Overlaps: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

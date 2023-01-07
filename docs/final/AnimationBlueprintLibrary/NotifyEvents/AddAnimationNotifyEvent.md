@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17522478.png)
+![](/uploads/projects/ue-bluprint/20221218-17522478.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 开始时间。Float (single-precision).
 
-Notify Class: Anim Notify Class Reference.  
+Notify Class: Anim Notify Class Reference.
 
 ## Outputs
 
@@ -26,13 +26,15 @@ Notify Class: Anim Notify Class Reference.
 
 返回值: 动画通知对象参考。在给定的动画中，用给定的通知创建数据向通知轨道添加一个动画通知事件。
 
+<hr>
+
 Adds an Animation Notify Event to Notify track in the given Animation with the given Notify creation data
 
 Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17522478.png)
+![](/uploads/projects/ue-bluprint/20221218-17522478.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Notify Track Name: Name.
 
 Start Time: Float (single-precision).
 
-Notify Class: Anim Notify Class Reference.  
+Notify Class: Anim Notify Class Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Anim Notify Object Reference. Adds an Animation Notify Event to Notify track in the given Animation with the given Notify creation data.
-

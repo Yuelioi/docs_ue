@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20553625.png)
+![](/uploads/projects/ue-bluprint/20221218-20553625.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 范围。序列器脚本的范围结构（通过参考）。设置开始的范围。
 
-开始：整数。  
+开始：整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the starting frame for the specified range. Interpreted as the first valid frame that is inside the range.
 
@@ -26,7 +28,7 @@ Target is Sequencer Scripting Range Extensions
 
 ## 图示
 
-![]($-20221218-20553625.png)
+![](/uploads/projects/ue-bluprint/20221218-20553625.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Range: Sequencer Scripting Range Structure (by ref). The range to set the start on.
 
-Start: Integer.  
+Start: Integer.
 
 ## Outputs
 
 Out: Exec.
-

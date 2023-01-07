@@ -1,12 +1,12 @@
 # GetSectionStartAndEndTime
 
-BP蒙太奇获取章节开始和结束时间
+BP 蒙太奇获取章节开始和结束时间
 
 目标是上下文 Anim Utilities
 
 ## 图示
 
-![]($-20221218-18305287.png)
+![](/uploads/projects/ue-bluprint/20221218-18305287.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@ BP蒙太奇获取章节开始和结束时间
 
 蒙太奇: Anim 蒙太奇对象参考。
 
-部分索引: 整数。 
+部分索引: 整数。
 
 ## Outputs
 
@@ -24,13 +24,15 @@ BP蒙太奇获取章节开始和结束时间
 
 输出结束时间。Float (single-precision).
 
+<hr>
+
 BP Montage Get Section Start and End Time
 
 Target is Contextual Anim Utilities
 
 ## 图示
 
-![]($-20221218-18305287.png)
+![](/uploads/projects/ue-bluprint/20221218-18305287.png)
 
 ## Inputs
 
@@ -38,7 +40,7 @@ In: Exec.
 
 Montage: Anim Montage Object Reference.
 
-Section Index: Integer.  
+Section Index: Integer.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out: Exec.
 Out Start Time: Float (single-precision).
 
 Out End Time: Float (single-precision).
-

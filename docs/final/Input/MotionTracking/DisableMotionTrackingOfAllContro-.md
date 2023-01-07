@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-19273446.png)
+![](/uploads/projects/ue-bluprint/20221218-19273446.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Disable tracking for all controllers.
 
@@ -22,13 +24,12 @@ Target is Motion Tracked Device Function Library
 
 ## 图示
 
-![]($-20221218-19273446.png)
+![](/uploads/projects/ue-bluprint/20221218-19273446.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-20002212.png)
+![](/uploads/projects/ue-bluprint/20221218-20002212.png)
 
 ## Inputs
 
 在。执行。
 
-目标。媒体捆绑对象参考。  
+目标。媒体捆绑对象参考。
 
 ## Outputs
 
 出：执行。
 
-返回值。打开CVCamera视图信息结构。获取未变形的空间摄像机视图信息。
+返回值。打开 CVCamera 视图信息结构。获取未变形的空间摄像机视图信息。
+
+<hr>
 
 Get the undistorted space camera view information.
 
@@ -26,17 +28,16 @@ Target is Media Bundle
 
 ## 图示
 
-![]($-20221218-20002212.png)
+![](/uploads/projects/ue-bluprint/20221218-20002212.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Media Bundle Object Reference.  
+Target: Media Bundle Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Open CVCamera View Info Structure. Get the undistorted space camera view information..
-

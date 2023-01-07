@@ -1,22 +1,18 @@
 # OpenLevelSequence
 
-  * 打开一个级别序列资产
-
-
-
-
+- 打开一个级别序列资产
 
 目标是水平序列编辑器蓝图库
 
 ## 图示
 
-![]($-20221218-19413491.png)
+![](/uploads/projects/ue-bluprint/20221218-19413491.png)
 
 ## Inputs
 
 在。执行。
 
-水平序列。水平序列对象参考。  
+水平序列。水平序列对象参考。
 
 ## Outputs
 
@@ -24,27 +20,24 @@
 
 返回值。布尔值。打开一个等级序列资产。
 
-  * Open a level sequence asset
+<hr>
 
-
-
-
+- Open a level sequence asset
 
 Target is Level Sequence Editor Blueprint Library
 
 ## 图示
 
-![]($-20221218-19413491.png)
+![](/uploads/projects/ue-bluprint/20221218-19413491.png)
 
 ## Inputs
 
 In: Exec.
 
-Level Sequence: Level Sequence Object Reference.  
+Level Sequence: Level Sequence Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Open a level sequence asset.
-

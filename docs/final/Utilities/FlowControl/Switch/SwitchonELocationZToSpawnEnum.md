@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14211417.png)
+![](/uploads/projects/ue-bluprint/20221218-14211417.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ELocationZToSpawnEnum枚举。 
+选择。ELocationZToSpawnEnum 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Location Z <= Max: Exec.
 
 Min <= Location Z <= Max: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14211417.png)
+![](/uploads/projects/ue-bluprint/20221218-14211417.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ELocationZToSpawnEnum Enum.  
+Selection: ELocationZToSpawnEnum Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Min <= Location Z: Exec.
 Location Z <= Max: Exec.
 
 Min <= Location Z <= Max: Exec.
-

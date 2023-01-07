@@ -2,11 +2,11 @@
 
 从积分中产生摄像机设备
 
-目标是VPCamera蓝图库
+目标是 VPCamera 蓝图库
 
 ## 图示
 
-![]($-20221218-21313508.png)
+![](/uploads/projects/ue-bluprint/20221218-21313508.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 点。矢量的阵列。
 
-Params:VPCamera Rig Spawn Params结构（通过参考）。  
+Params:VPCamera Rig Spawn Params 结构（通过参考）。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ Params:VPCamera Rig Spawn Params结构（通过参考）。
 
 返回值。相机钻机轨道对象参考。从点上生成相机钻机。
 
+<hr>
+
 Spawn Camera Rig from Points
 
 Target is VPCamera Blueprint Library
 
 ## 图示
 
-![]($-20221218-21313508.png)
+![](/uploads/projects/ue-bluprint/20221218-21313508.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Rig Transform: Transform (by ref).
 
 Points: Array of Vectors.
 
-Params: VPCamera Rig Spawn Params Structure (by ref).  
+Params: VPCamera Rig Spawn Params Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Camera Rig Rail Object Reference. Spawn Camera Rig from Points.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18075197.png)
+![](/uploads/projects/ue-bluprint/20221218-18075197.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 在声音混合修改器中。声音混合对象参考。要修改的声音组合。
 
-在Sound Class中。声音类对象参考。在混合声中覆盖（或添加）的声音类。
+在 Sound Class 中。声音类对象参考。在混合声中覆盖（或添加）的声音类。
 
 音量。Float（单精度）。设置声音类调整器的音量比例。
 
@@ -22,11 +22,13 @@
 
 淡入时间。浮点（单精度）。从当前的声类调整器值到新值的插值时间。
 
-应用于儿童。布尔值。是否将此覆盖应用于声音类的子代，或只应用于指定的声音类。 
+应用于儿童。布尔值。是否将此覆盖应用于声音类的子代，或只应用于指定的声音类。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Overrides the sound class adjuster in the given sound mix. If the sound class does not exist in the input sound mix,. the sound class adjuster will be added to the list of active sound mix modifiers.
 
@@ -34,7 +36,7 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18075197.png)
+![](/uploads/projects/ue-bluprint/20221218-18075197.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Pitch: Float (single-precision). The pitch scale to set the sound class adjuster
 
 Fade in Time: Float (single-precision). The interpolation time to use to go from the current sound class adjuster values to the new values..
 
-Apply to Children: Boolean. Whether or not to apply this override to the sound class' children or to just the specified sound class..  
+Apply to Children: Boolean. Whether or not to apply this override to the sound class' children or to just the specified sound class..
 
 ## Outputs
 
 Out: Exec.
-

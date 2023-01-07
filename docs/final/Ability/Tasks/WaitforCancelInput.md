@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-17333220.png)
+![](/uploads/projects/ue-bluprint/20221218-17333220.png)
 
 ## Inputs
 
-在。执行。 
+在。执行。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 取消时。执行。取消时：执行。
 
+<hr>
+
 Wait Cancel
 
 Target is Ability Task Wait Cancel
 
 ## 图示
 
-![]($-20221218-17333220.png)
+![](/uploads/projects/ue-bluprint/20221218-17333220.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Out: Exec.
 Async Task: Ability Task Wait Cancel Object Reference.
 
 On Cancel: Exec. On Cancel.
-

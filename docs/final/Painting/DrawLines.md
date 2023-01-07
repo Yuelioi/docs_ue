@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20175194.png)
+![](/uploads/projects/ue-bluprint/20221218-20175194.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 语境。油漆背景结构（按参考）。
 
-点。矢量二维结构的数组。线对，每条线需要是数组中的2个独立点。
+点。矢量二维结构的数组。线对，每条线需要是数组中的 2 个独立点。
 
 色调。线性色彩结构。用颜色来呈现线...
 
@@ -26,13 +26,15 @@
 
 出：执行。
 
+<hr>
+
 Draws several line segments.
 
 Target is Widget Blueprint Library
 
 ## 图示
 
-![]($-20221218-20175194.png)
+![](/uploads/projects/ue-bluprint/20221218-20175194.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Tint: Linear Color Structure. Color to render the line..
 
 Anti Alias: Boolean. Whether the line should be antialiased..
 
-Thickness: Float (single-precision). How many pixels thick this line should be..  
+Thickness: Float (single-precision). How many pixels thick this line should be..
 
 ## Outputs
 
 Out: Exec.
-

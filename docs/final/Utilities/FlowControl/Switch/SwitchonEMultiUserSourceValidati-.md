@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14215550.png)
+![](/uploads/projects/ue-bluprint/20221218-14215550.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMultiUserSourceValidationMode枚举。 
+选择。EMultiUserSourceValidationMode 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 Soft Auto Proceed: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14215550.png)
+![](/uploads/projects/ue-bluprint/20221218-14215550.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMultiUserSourceValidationMode Enum.  
+Selection: EMultiUserSourceValidationMode Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Hard: Exec.
 Soft: Exec.
 
 Soft Auto Proceed: Exec.
-

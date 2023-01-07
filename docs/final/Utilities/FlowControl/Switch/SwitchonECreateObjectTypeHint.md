@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14180169.png)
+![](/uploads/projects/ue-bluprint/20221218-14180169.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ECreateObjectTypeHint枚举。 
+选择。ECreateObjectTypeHint 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 Dynamic Mesh Actor: 执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14180169.png)
+![](/uploads/projects/ue-bluprint/20221218-14180169.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ECreateObjectTypeHint Enum.  
+Selection: ECreateObjectTypeHint Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Static Mesh: Exec.
 Volume: Exec.
 
 Dynamic Mesh Actor: Exec.
-

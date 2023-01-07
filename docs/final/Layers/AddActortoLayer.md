@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19372919.png)
+![](/uploads/projects/ue-bluprint/20221218-19372919.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 演员。演员对象参考。要添加到指定图层中的演员。
 
-层名。名称（通过引用）。要添加演员的层的名称。  
+层名。名称（通过引用）。要添加演员的层的名称。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。如果演员被添加，则为真。如果演员已经属于该层，则返回假。
 
+<hr>
+
 Adds the actor to the named layer.
 
 Target is Layers Subsystem
 
 ## 图示
 
-![]($-20221218-19372919.png)
+![](/uploads/projects/ue-bluprint/20221218-19372919.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Layers Subsystem Object Reference.
 
 Actor: Actor Object Reference. The actor to add to the named layer.
 
-Layer Name: Name (by ref). The name of the layer to add the actor to.  
+Layer Name: Name (by ref). The name of the layer to add the actor to.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if the actor was added. false is returned if the actor already belongs to the layer..
-

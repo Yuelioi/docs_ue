@@ -1,12 +1,12 @@
 # SetLandscapeMaterialScalarParame-
 
-为所有景观组件设置一个MID标量（浮点数）参数值。
+为所有景观组件设置一个 MID 标量（浮点数）参数值。
 
 目标是景观代理
 
 ## 图示
 
-![]($-20221218-19371856.png)
+![](/uploads/projects/ue-bluprint/20221218-19371856.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 参数名称： 名称。
 
-值。Float（单精度）。  
+值。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set a MID scalar (float) parameter value for all landscape components.
 
@@ -28,7 +30,7 @@ Target is Landscape Proxy
 
 ## 图示
 
-![]($-20221218-19371856.png)
+![](/uploads/projects/ue-bluprint/20221218-19371856.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Landscape Proxy Object Reference.
 
 Parameter Name: Name.
 
-Value: Float (single-precision).  
+Value: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

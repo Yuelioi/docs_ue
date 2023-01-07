@@ -2,11 +2,11 @@
 
 保存以指定位置为中心的点云，捕捉指定范围内的所有特征，作为以后可以检测的对象。
 
-目标是ARGet Candidate Object Async Task Blueprint Proxy
+目标是 ARGet Candidate Object Async Task Blueprint Proxy
 
 ## 图示
 
-![]($-20221218-18092658.png)
+![](/uploads/projects/ue-bluprint/20221218-18092658.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 位置。向量。要抓取特征的范围的中心。
 
-Extent（范围）。Vector：向量，要抓取特征点的区域大小。 
+Extent（范围）。Vector：向量，要抓取特征点的区域大小。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ Out：输出。执行：执行。
 
 保存的对象。ARCandidate Object Object Reference.
 
+<hr>
+
 Saves the point cloud centered at the specified location capturing all of the features within the specified extent as an object that can be detected later
 
 Target is ARGet Candidate Object Async Task Blueprint Proxy
 
 ## 图示
 
-![]($-20221218-18092658.png)
+![](/uploads/projects/ue-bluprint/20221218-18092658.png)
 
 ## Inputs
 
@@ -40,7 +42,7 @@ In: Exec.
 
 Location: Vector. the center of the extent to grab features at.
 
-Extent: Vector. the size of the region to grab feature points.  
+Extent: Vector. the size of the region to grab feature points.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ On Success: Exec. On Success.
 On Failed: Exec. On Failed.
 
 Saved Object: ARCandidate Object Object Reference.
-

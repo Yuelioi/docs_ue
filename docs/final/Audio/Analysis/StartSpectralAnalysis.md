@@ -2,17 +2,17 @@
 
 开始对音频输出进行频谱分析。
 
-目标是Sound Submix
+目标是 Sound Submix
 
 ## 图示
 
-![]($-20221218-18022812.png)
+![](/uploads/projects/ue-bluprint/20221218-18022812.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Sound Submix对象参考。
+目标。Sound Submix 对象参考。
 
 FFTSize: EFFTSize Enum.
 
@@ -22,11 +22,13 @@ FFTSize: EFFTSize Enum.
 
 合尺寸。Float（单精度）。
 
-频谱类型。EAudioSpectrumType枚举。 
+频谱类型。EAudioSpectrumType 枚举。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Start spectrum analysis of the audio output.
 
@@ -34,7 +36,7 @@ Target is Sound Submix
 
 ## 图示
 
-![]($-20221218-18022812.png)
+![](/uploads/projects/ue-bluprint/20221218-18022812.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Window Type: EFFTWindowType Enum.
 
 Hop Size: Float (single-precision).
 
-Spectrum Type: EAudioSpectrumType Enum.  
+Spectrum Type: EAudioSpectrumType Enum.
 
 ## Outputs
 
 Out: Exec.
-

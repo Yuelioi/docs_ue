@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18244916.png)
+![](/uploads/projects/ue-bluprint/20221218-18244916.png)
 
 ## Inputs
 
-目标。Lidar Point Cloud Component对象参考。 
+目标。Lidar Point Cloud Component 对象参考。
 
 ## Outputs
 
 返回值。Lidar Point Cloud Object Reference。获取点云。
+
+<hr>
 
 Get Point Cloud
 
@@ -22,13 +24,12 @@ Target is Lidar Point Cloud Component
 
 ## 图示
 
-![]($-20221218-18244916.png)
+![](/uploads/projects/ue-bluprint/20221218-18244916.png)
 
 ## Inputs
 
-Target: Lidar Point Cloud Component Object Reference.  
+Target: Lidar Point Cloud Component Object Reference.
 
 ## Outputs
 
 Return Value: Lidar Point Cloud Object Reference. Get Point Cloud.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18271286.png)
+![](/uploads/projects/ue-bluprint/20221218-18271286.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 LODIndex。整数。
 
-用法。整数。 
+用法。整数。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Vertex Offset Usage
 
@@ -28,7 +30,7 @@ Target is Skinned Mesh Component
 
 ## 图示
 
-![]($-20221218-18271286.png)
+![](/uploads/projects/ue-bluprint/20221218-18271286.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Skinned Mesh Component Object Reference.
 
 LODIndex: Integer.
 
-Usage: Integer.  
+Usage: Integer.
 
 ## Outputs
 
 Out: Exec.
-

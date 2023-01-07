@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14214134.png)
+![](/uploads/projects/ue-bluprint/20221218-14214134.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMovementMode Enum.  
+选择。EMovementMode Enum.
 
 ## Outputs
 
@@ -18,7 +18,7 @@
 
 步行。Exec.
 
-Navmesh行走。执行.
+Navmesh 行走。执行.
 
 摔倒。执行。
 
@@ -28,17 +28,19 @@ Navmesh行走。执行.
 
 自定义。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14214134.png)
+![](/uploads/projects/ue-bluprint/20221218-14214134.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMovementMode Enum.  
+Selection: EMovementMode Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Swimming: Exec.
 Flying: Exec.
 
 Custom: Exec.
-

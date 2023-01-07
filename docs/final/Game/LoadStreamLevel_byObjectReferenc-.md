@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19064387.png)
+![](/uploads/projects/ue-bluprint/20221218-19064387.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 加载后可见：布尔值。
 
-负载时应阻止：布尔值。  
+负载时应阻止：布尔值。
 
 ## Outputs
 
 已完成。执行。
+
+<hr>
 
 Stream the level (by Object Reference); Calling again before it finishes has no effect
 
@@ -28,7 +30,7 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-19064387.png)
+![](/uploads/projects/ue-bluprint/20221218-19064387.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Level: World Soft Object Reference.
 
 Make Visible After Load: Boolean.
 
-Should Block on Load: Boolean.  
+Should Block on Load: Boolean.
 
 ## Outputs
 
 Completed: Exec.
-

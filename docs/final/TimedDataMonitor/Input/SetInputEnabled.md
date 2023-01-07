@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21131092.png)
+![](/uploads/projects/ue-bluprint/20221218-21131092.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 Identifier:定时数据监控器输入标识符结构（通过参考）。
 
-在已启用。布尔值。  
+在已启用。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set all channels for the input enabled in the monitor.
 
@@ -28,7 +30,7 @@ Target is Timed Data Monitor Subsystem
 
 ## 图示
 
-![]($-20221218-21131092.png)
+![](/uploads/projects/ue-bluprint/20221218-21131092.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Timed Data Monitor Subsystem Object Reference.
 
 Identifier: Timed Data Monitor Input Identifier Structure (by ref).
 
-In Enabled: Boolean.  
+In Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

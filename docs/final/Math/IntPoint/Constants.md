@@ -2,33 +2,27 @@
 
 在这一页
 
-  * 行动
-
-
-
-
+- 行动
 
 ## Actions
 
-Int点向下。Down Int Point (0, 1):目标是Kismet数学库。
+Int 点向下。Down Int Point (0, 1):目标是 Kismet 数学库。
 
-Int Point Left.左边的Int点（-1, 0）。目标是Kismet数学库。
+Int Point Left.左边的 Int 点（-1, 0）。目标是 Kismet 数学库。
 
-国际点一。一个Int点（1，1）。目标是Kismet数学库。
+国际点一。一个 Int 点（1，1）。目标是 Kismet 数学库。
 
-右边的Int点。右边的Int点（1，0）。目标是Kismet数学库。
+右边的 Int 点。右边的 Int 点（1，0）。目标是 Kismet 数学库。
 
-Int点向上。上升Int点（0，-1）。目标是Kismet数学库。
+Int 点向上。上升 Int 点（0，-1）。目标是 Kismet 数学库。
 
-Int点零。Zero Int Point (0, 0):目标是Kismet数学库。
+Int 点零。Zero Int Point (0, 0):目标是 Kismet 数学库。
 
-On this page 
+<hr>
 
-  * Actions
+On this page
 
-
-
-
+- Actions
 
 ## Actions
 
@@ -43,4 +37,3 @@ Int Point Right. Right Int Point (1, 0): Target is Kismet Math Library.
 Int Point Up. Up Int Point (0, -1): Target is Kismet Math Library.
 
 Int Point Zero. Zero Int Point (0, 0): Target is Kismet Math Library.
-

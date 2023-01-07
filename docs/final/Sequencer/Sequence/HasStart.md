@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20545838.png)
+![](/uploads/projects/ue-bluprint/20221218-20545838.png)
 
 ## Inputs
 
 在。执行。
 
-范围。序列器脚本的范围结构（通过参考）。要检查的范围。  
+范围。序列器脚本的范围结构（通过参考）。要检查的范围。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。布尔值。
 
+<hr>
+
 Check whether this range has a start
 
 Target is Sequencer Scripting Range Extensions
 
 ## 图示
 
-![]($-20221218-20545838.png)
+![](/uploads/projects/ue-bluprint/20221218-20545838.png)
 
 ## Inputs
 
 In: Exec.
 
-Range: Sequencer Scripting Range Structure (by ref). The range to check.  
+Range: Sequencer Scripting Range Structure (by ref). The range to check.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18304140.png)
+![](/uploads/projects/ue-bluprint/20221218-18304140.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 动画数据索引: 整数.
 
-时间: Float（单精度）。 
+时间: Float（单精度）。
 
 ## Outputs
 
 返回值。变形。在时间上提取对齐变换。
+
+<hr>
 
 Extract Alignment Transform at Time
 
@@ -28,7 +30,7 @@ Target is Contextual Anim Scene Asset
 
 ## 图示
 
-![]($-20221218-18304140.png)
+![](/uploads/projects/ue-bluprint/20221218-18304140.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Role: Name.
 
 Anim Data Index: Integer.
 
-Time: Float (single-precision).  
+Time: Float (single-precision).
 
 ## Outputs
 
 Return Value: Transform. Extract Alignment Transform at Time.
-

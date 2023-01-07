@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19095934.png)
+![](/uploads/projects/ue-bluprint/20221218-19095934.png)
 
 ## Inputs
 
@@ -20,7 +20,7 @@
 
 类。演员类参考。
 
-只在权威机构产卵。布尔值。  
+只在权威机构产卵。布尔值。
 
 ## Outputs
 
@@ -34,13 +34,15 @@
 
 生成的演员。Actor Object Reference.
 
+<hr>
+
 Spawn new Actor on the network authority (server)
 
 Target is Gameplay Task Spawn Actor
 
 ## 图示
 
-![]($-20221218-19095934.png)
+![](/uploads/projects/ue-bluprint/20221218-19095934.png)
 
 ## Inputs
 
@@ -54,7 +56,7 @@ Spawn Rotation: Rotator.
 
 Class: Actor Class Reference.
 
-Spawn Only on Authority: Boolean.  
+Spawn Only on Authority: Boolean.
 
 ## Outputs
 
@@ -67,4 +69,3 @@ Success: Exec. Success.
 Did Not Spawn: Exec. Did Not Spawn:. Called when we can't spawn: on clients or potentially on server if they fail to spawn (rare).
 
 Spawned Actor: Actor Object Reference.
-

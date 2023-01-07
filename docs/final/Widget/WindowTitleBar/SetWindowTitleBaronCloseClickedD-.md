@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21370956.png)
+![](/uploads/projects/ue-bluprint/20221218-21370956.png)
 
 ## Inputs
 
 在。执行。
 
-代表：代表。  
+代表：代表。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Window Title Bar on Close Clicked Delegate
 
@@ -24,15 +26,14 @@ Target is Widget Blueprint Library
 
 ## 图示
 
-![]($-20221218-21370956.png)
+![](/uploads/projects/ue-bluprint/20221218-21370956.png)
 
 ## Inputs
 
 In: Exec.
 
-Delegate: Delegate.  
+Delegate: Delegate.
 
 ## Outputs
 
 Out: Exec.
-

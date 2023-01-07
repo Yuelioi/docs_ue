@@ -6,21 +6,23 @@
 
 ## 图示
 
-![]($-20221218-20595543.png)
+![](/uploads/projects/ue-bluprint/20221218-20595543.png)
 
 ## Inputs
 
 在游戏效果中。Gameplay Effect Object Reference.
 
-在Instigator中。演员对象参考。
+在 Instigator 中。演员对象参考。
 
 生效的原因者。演员对象参考。
 
-在水平上。Float（单精度）。  
+在水平上。Float（单精度）。
 
 ## Outputs
 
-返回值。Gameplay Effect Spec Handle结构。创建一个规范手柄，填写所有字段。
+返回值。Gameplay Effect Spec Handle 结构。创建一个规范手柄，填写所有字段。
+
+<hr>
 
 Create a spec handle, filling out all fields
 
@@ -28,7 +30,7 @@ Target is Ability System Blueprint Library
 
 ## 图示
 
-![]($-20221218-20595543.png)
+![](/uploads/projects/ue-bluprint/20221218-20595543.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ In Instigator: Actor Object Reference.
 
 In Effect Causer: Actor Object Reference.
 
-In Level: Float (single-precision).  
+In Level: Float (single-precision).
 
 ## Outputs
 
 Return Value: Gameplay Effect Spec Handle Structure. Create a spec handle, filling out all fields.
-

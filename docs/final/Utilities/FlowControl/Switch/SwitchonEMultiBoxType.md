@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14215371.png)
+![](/uploads/projects/ue-bluprint/20221218-14215371.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMultiBoxType枚举。 
+选择。EMultiBoxType 枚举。
 
 ## Outputs
 
@@ -28,17 +28,19 @@ Uniform Tool Bar: Exec.
 
 按钮行: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14215371.png)
+![](/uploads/projects/ue-bluprint/20221218-14215371.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMultiBoxType Enum.  
+Selection: EMultiBoxType Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Uniform Tool Bar: Exec.
 Menu: Exec.
 
 Button Row: Exec.
-

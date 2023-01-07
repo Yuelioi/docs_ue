@@ -6,7 +6,7 @@ RemovePersistentFields. 这个函数将从混沌和世界中删除所有的字�
 
 ## 图示
 
-![]($-20221218-18595018.png)
+![](/uploads/projects/ue-bluprint/20221218-18595018.png)
 
 ## Inputs
 
@@ -17,21 +17,23 @@ RemovePersistentFields. 这个函数将从混沌和世界中删除所有的字�
 ## Outputs
 
 输出。执行。
+
+<hr>
+
 RemovePersistentFields. This function will remove all the field component persistent fields from chaos and from the world
 
 Target is Field System Component
 
 ## 图示
 
-![]($-20221218-18595018.png)
+![](/uploads/projects/ue-bluprint/20221218-18595018.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Field System Component Object Reference.  
+Target: Field System Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

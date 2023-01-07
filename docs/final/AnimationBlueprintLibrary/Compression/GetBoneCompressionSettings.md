@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17513380.png)
+![](/uploads/projects/ue-bluprint/20221218-17513380.png)
 
 ## Inputs
 
-动画序列。Anim Sequence Object Reference.  
+动画序列。Anim Sequence Object Reference.
 
 ## Outputs
 
 压缩设置。Anim Bone Compression Settings（动画骨骼压缩设置）对象参考。
+
+<hr>
 
 Retrieves the Bone Compression Settings for the given Animation Sequence
 
@@ -22,13 +24,12 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17513380.png)
+![](/uploads/projects/ue-bluprint/20221218-17513380.png)
 
 ## Inputs
 
-Animation Sequence: Anim Sequence Object Reference.  
+Animation Sequence: Anim Sequence Object Reference.
 
 ## Outputs
 
 Compression Settings: Anim Bone Compression Settings Object Reference.
-

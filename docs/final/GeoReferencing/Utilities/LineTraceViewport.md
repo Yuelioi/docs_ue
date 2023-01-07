@@ -2,11 +2,11 @@
 
 在鼠标光标下进行行迹跟踪并返回各种信息
 
-目标是Geo Referencing Editor BPLibrary
+目标是 Geo Referencing Editor BPLibrary
 
 ## 图示
 
-![]($-20221218-19144284.png)
+![](/uploads/projects/ue-bluprint/20221218-19144284.png)
 
 ## Inputs
 
@@ -16,17 +16,19 @@
 
 Trace Complex: Boolean.
 
-显示跟踪。布尔型。  
+显示跟踪。布尔型。
 
 ## Outputs
 
 出：执行。
 
-屏幕位置。矢量2D结构。视口-光标的空间位置...
+屏幕位置。矢量 2D 结构。视口-光标的空间位置...
 
 成功。布尔值。
 
 命中结果。命中结果结构。追踪命中结果...
+
+<hr>
 
 LineTrace under mouse cursor and return various information
 
@@ -34,7 +36,7 @@ Target is Geo Referencing Editor BPLibrary
 
 ## 图示
 
-![]($-20221218-19144284.png)
+![](/uploads/projects/ue-bluprint/20221218-19144284.png)
 
 ## Inputs
 
@@ -44,7 +46,7 @@ Actors to Ignore: Array of Actor Object References. Collection of actors for thi
 
 Trace Complex: Boolean.
 
-Show Trace: Boolean.  
+Show Trace: Boolean.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Screen Location: Vector 2D Structure. Viewport-Space position of cursor..
 Success: Boolean.
 
 Hit Result: Hit Result Structure. The trace hits result..
-

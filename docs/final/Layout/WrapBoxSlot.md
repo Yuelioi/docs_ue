@@ -2,11 +2,7 @@
 
 在这一页
 
-  * 行动
-
-
-
-
+- 行动
 
 ## Actions
 
@@ -22,13 +18,11 @@
 
 设置垂直对齐。设置垂直对齐。目标是包装盒槽。
 
-On this page 
+<hr>
 
-  * Actions
+On this page
 
-
-
-
+- Actions
 
 ## Actions
 
@@ -43,4 +37,3 @@ Set New Line. Set New Line: Target is Wrap Box Slot.
 Set Padding. Set Padding: Target is Wrap Box Slot.
 
 Set Vertical Alignment. Set Vertical Alignment: Target is Wrap Box Slot.
-

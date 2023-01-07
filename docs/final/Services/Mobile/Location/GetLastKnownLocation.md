@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-20562952.png)
+![](/uploads/projects/ue-bluprint/20221218-20562952.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。位置服务数据结构。来自更新的最后已知位置。
 
+<hr>
+
 Returns the last location information returned by the location service. If no location update has been made, will return. a default-value-filled struct.
 
 Target is Location Services
 
 ## 图示
 
-![]($-20221218-20562952.png)
+![](/uploads/projects/ue-bluprint/20221218-20562952.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Location Services Data Structure. the last known location from updates.
-

@@ -2,11 +2,11 @@
 
 创建一个快速绑定到演员的成员方法，用于事件序列中。
 
-目标是Sequencer Tools功能库
+目标是 Sequencer Tools 功能库
 
 ## 图示
 
-![]($-20221218-18521274.png)
+![](/uploads/projects/ue-bluprint/20221218-18521274.png)
 
 ## Inputs
 
@@ -25,13 +25,16 @@
 出：执行。
 
 返回值。序列器快速绑定结果结构。创建的绑定...
+
+<hr>
+
 Create a quick binding to an actor's member method to be used in an event sequence.
 
 Target is Sequencer Tools Function Library
 
 ## 图示
 
-![]($-20221218-18521274.png)
+![](/uploads/projects/ue-bluprint/20221218-18521274.png)
 
 ## Inputs
 
@@ -43,11 +46,10 @@ In Object: Object Reference.
 
 In Function Name: String. Name of the method, as it is displayed in the Blueprint Editor. eg. "Set Actor Scale 3D".
 
-Call in Editor: Boolean. Should the event be callable in editor..  
+Call in Editor: Boolean. Should the event be callable in editor..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Sequencer Quick Binding Result Structure. The created binding..
-

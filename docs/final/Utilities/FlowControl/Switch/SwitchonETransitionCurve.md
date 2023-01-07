@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14245372.png)
+![](/uploads/projects/ue-bluprint/20221218-14245372.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ETTransitionCurve 枚举。 
+选择。ETTransitionCurve 枚举。
 
 ## Outputs
 
@@ -28,17 +28,19 @@ Quad Out: 执行。
 
 立方体输入输出。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14245372.png)
+![](/uploads/projects/ue-bluprint/20221218-14245372.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ETransitionCurve Enum.  
+Selection: ETransitionCurve Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Cubic In: Exec.
 Cubic Out: Exec.
 
 Cubic In Out: Exec.
-

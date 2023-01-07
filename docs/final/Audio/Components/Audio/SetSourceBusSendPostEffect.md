@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18031558.png)
+![](/uploads/projects/ue-bluprint/20221218-18031558.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 Sound Source Bus: 声源总线对象参考。要发送信号的总线。
 
-Source Bus Send Level（源总线发送电平）。Float（单精度）。用来改变复制信号音量的标量。 
+Source Bus Send Level（源总线发送电平）。Float（单精度）。用来改变复制信号音量的标量。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Allows designers to target a specific Audio Component instance?s sound and set the send level (volume of sound copied). to the indicated Source Bus. If the Source Bus is not already part of the sound?s sends, the reference will be added to. this instance?s Override sends. This particular send occurs after the Source Effect processing chain.
 
@@ -28,7 +30,7 @@ Target is Audio Component
 
 ## 图示
 
-![]($-20221218-18031558.png)
+![](/uploads/projects/ue-bluprint/20221218-18031558.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Audio Component Object Reference.
 
 Sound Source Bus: Sound Source Bus Object Reference. The Bus to send the signal to.
 
-Source Bus Send Level: Float (single-precision). The scalar used to alter the volume of the copied signal.  
+Source Bus Send Level: Float (single-precision). The scalar used to alter the volume of the copied signal.
 
 ## Outputs
 
 Out: Exec.
-

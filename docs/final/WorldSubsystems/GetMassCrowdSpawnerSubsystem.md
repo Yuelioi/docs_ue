@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21380327.png)
+![](/uploads/projects/ue-bluprint/20221218-21380327.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。群众产卵器子系统对象参考。
 
+<hr>
+
 Get Mass Crowd Spawner Subsystem (World Subsystem)
 
 A subsystem managing spawning of crowd
 
 ## 图示
 
-![]($-20221218-21380327.png)
+![](/uploads/projects/ue-bluprint/20221218-21380327.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Mass Crowd Spawner Subsystem Object Reference.
-

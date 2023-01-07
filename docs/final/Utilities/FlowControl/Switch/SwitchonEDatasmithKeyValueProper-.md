@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14180959.png)
+![](/uploads/projects/ue-bluprint/20221218-14180959.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDatasmithKeyValuePropertyType枚举。 
+选择。EDatasmithKeyValuePropertyType 枚举。
 
 ## Outputs
 
@@ -28,17 +28,19 @@ Vector: Exec.
 
 整数。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14180959.png)
+![](/uploads/projects/ue-bluprint/20221218-14180959.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDatasmithKeyValuePropertyType Enum.  
+Selection: EDatasmithKeyValuePropertyType Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Texture: Exec.
 Vector: Exec.
 
 Integer: Exec.
-

@@ -6,21 +6,23 @@
 
 ## 图示
 
-![]($-20221218-18031787.png)
+![](/uploads/projects/ue-bluprint/20221218-18031787.png)
 
 ## Inputs
 
 在。Exec.
 
-目标。Synth Component对象参考。
+目标。Synth Component 对象参考。
 
 子混音。Sound Submix 基础对象参考。
 
-发送电平。Float（单精度）。 
+发送电平。Float（单精度）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets how much audio the sound should send to the given submix.
 
@@ -28,7 +30,7 @@ Target is Synth Component
 
 ## 图示
 
-![]($-20221218-18031787.png)
+![](/uploads/projects/ue-bluprint/20221218-18031787.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Synth Component Object Reference.
 
 Submix: Sound Submix Base Object Reference.
 
-Send Level: Float (single-precision).  
+Send Level: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

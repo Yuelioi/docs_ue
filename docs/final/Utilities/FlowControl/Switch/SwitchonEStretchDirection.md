@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14235942.png)
+![](/uploads/projects/ue-bluprint/20221218-14235942.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EStretchDirection Enum.  
+选择。EStretchDirection Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Both: Exec.
 
 仅限向上。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14235942.png)
+![](/uploads/projects/ue-bluprint/20221218-14235942.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EStretchDirection Enum.  
+Selection: EStretchDirection Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Both: Exec.
 Down Only: Exec.
 
 Up Only: Exec.
-

@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18175380.png)
+![](/uploads/projects/ue-bluprint/20221218-18175380.png)
 
 ## Inputs
 
 在。执行。
 
-目标。衣服模拟交互器对象参考。 
+目标。衣服模拟交互器对象参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Called to update the cloth config without restarting the simulation.
 
@@ -24,15 +26,14 @@ Target is Clothing Simulation Interactor
 
 ## 图示
 
-![]($-20221218-18175380.png)
+![](/uploads/projects/ue-bluprint/20221218-18175380.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Clothing Simulation Interactor Object Reference.  
+Target: Clothing Simulation Interactor Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

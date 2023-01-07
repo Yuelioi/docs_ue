@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18095786.png)
+![](/uploads/projects/ue-bluprint/20221218-18095786.png)
 
 ## Inputs
 
-在。执行。 
+在。执行。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Scalability Quality to Low
 
@@ -22,13 +24,12 @@ Target is Automation Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-18095786.png)
+![](/uploads/projects/ue-bluprint/20221218-18095786.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
-

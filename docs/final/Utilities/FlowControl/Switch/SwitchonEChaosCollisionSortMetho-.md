@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14173182.png)
+![](/uploads/projects/ue-bluprint/20221218-14173182.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EChaosCollisionSortMethod Enum.  
+选择。EChaosCollisionSortMethod Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Sort By Highest Mass: 执行。
 
 按最接近的优先顺序排序。按最接近的第一时间排序：Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14173182.png)
+![](/uploads/projects/ue-bluprint/20221218-14173182.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EChaosCollisionSortMethod Enum.  
+Selection: EChaosCollisionSortMethod Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Sort By Highest Speed: Exec.
 Sort By Highest Impulse: Exec.
 
 Sort By Nearest First: Exec.
-

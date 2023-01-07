@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17475811.png)
+![](/uploads/projects/ue-bluprint/20221218-17475811.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。卒子行动对象参考。
 
-有结果。EPawnActionResult枚举。 
+有结果。EPawnActionResult 枚举。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Finish
 
@@ -26,7 +28,7 @@ Target is Pawn Action
 
 ## 图示
 
-![]($-20221218-17475811.png)
+![](/uploads/projects/ue-bluprint/20221218-17475811.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Pawn Action Object Reference.
 
-With Result: EPawnActionResult Enum.  
+With Result: EPawnActionResult Enum.
 
 ## Outputs
 
 Out: Exec.
-

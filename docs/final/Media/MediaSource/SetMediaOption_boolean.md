@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20022110.png)
+![](/uploads/projects/ue-bluprint/20221218-20022110.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 钥匙。姓名（按编号）。
 
-值。布尔值。  
+值。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set a boolean parameter to pass to the player.
 
@@ -28,7 +30,7 @@ Target is Media Source
 
 ## 图示
 
-![]($-20221218-20022110.png)
+![](/uploads/projects/ue-bluprint/20221218-20022110.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Media Source Object Reference.
 
 Key: Name (by ref).
 
-Value: Boolean.  
+Value: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-21193097.png)
+![](/uploads/projects/ue-bluprint/20221218-21193097.png)
 
 ## Inputs
 
-目标。Rig Hierarchy对象参考。
+目标。Rig Hierarchy 对象参考。
 
-在关键。Rig Element Key Structure (by ref).要申请旧名称的元素的键。  
+在关键。Rig Element Key Structure (by ref).要申请旧名称的元素的键。
 
 ## Outputs
 
 返回值。名称。
+
+<hr>
 
 Returns the previous name of an element prior to a rename operation
 
@@ -24,15 +26,14 @@ Target is Rig Hierarchy
 
 ## 图示
 
-![]($-20221218-21193097.png)
+![](/uploads/projects/ue-bluprint/20221218-21193097.png)
 
 ## Inputs
 
 Target: Rig Hierarchy Object Reference.
 
-In Key: Rig Element Key Structure (by ref). The key of the element to request the old name for.  
+In Key: Rig Element Key Structure (by ref). The key of the element to request the old name for.
 
 ## Outputs
 
 Return Value: Name.
-

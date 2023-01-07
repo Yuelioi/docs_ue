@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18205608.png)
+![](/uploads/projects/ue-bluprint/20221218-18205608.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。普通按钮底座对象参考。
 
-在触摸方法。EButtonTouchMethod Enum。 
+在触摸方法。EButtonTouchMethod Enum。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set the click method for touch interaction
 
@@ -26,7 +28,7 @@ Target is Common Button Base
 
 ## 图示
 
-![]($-20221218-18205608.png)
+![](/uploads/projects/ue-bluprint/20221218-18205608.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common Button Base Object Reference.
 
-In Touch Method: EButtonTouchMethod Enum.  
+In Touch Method: EButtonTouchMethod Enum.
 
 ## Outputs
 
 Out: Exec.
-

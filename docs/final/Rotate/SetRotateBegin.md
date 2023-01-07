@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20465076.png)
+![](/uploads/projects/ue-bluprint/20221218-20465076.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Text 3DCharacter Transform Object Reference。
 
-价值。旋转器。  
+价值。旋转器。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Rotate Begin
 
@@ -26,7 +28,7 @@ Target is Text 3DCharacter Transform
 
 ## 图示
 
-![]($-20221218-20465076.png)
+![](/uploads/projects/ue-bluprint/20221218-20465076.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Text 3DCharacter Transform Object Reference.
 
-Value: Rotator.  
+Value: Rotator.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20505859.png)
+![](/uploads/projects/ue-bluprint/20221218-20505859.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@
 
 出：执行。
 
+<hr>
+
 Sets the value for this key, reflecting it in the owning channel.
 
 Target is Movie Scene Scripting Integer Key
 
 ## 图示
 
-![]($-20221218-20505859.png)
+![](/uploads/projects/ue-bluprint/20221218-20505859.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Movie Scene Scripting Integer Key Object Reference.
 
-In New Value: Integer. The new value for this key..  
+In New Value: Integer. The new value for this key..
 
 ## Outputs
 
 Out: Exec.
-

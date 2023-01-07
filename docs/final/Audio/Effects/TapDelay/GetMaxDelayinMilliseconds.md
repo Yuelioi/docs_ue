@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-18043669.png)
+![](/uploads/projects/ue-bluprint/20221218-18043669.png)
 
 ## Inputs
 
 输入。执行。
 
-目标。Submix Effect Tap Delay Preset对象参考。 
+目标。Submix Effect Tap Delay Preset 对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。Float（单精度）。获取可能的最大延迟。
 
+<hr>
+
 Get the maximum delay possible.
 
 Target is Submix Effect Tap Delay Preset
 
 ## 图示
 
-![]($-20221218-18043669.png)
+![](/uploads/projects/ue-bluprint/20221218-18043669.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Submix Effect Tap Delay Preset Object Reference.  
+Target: Submix Effect Tap Delay Preset Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision). Get the maximum delay possible..
-

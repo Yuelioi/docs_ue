@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20302974.png)
+![](/uploads/projects/ue-bluprint/20221218-20302974.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在控制钻机中。控制装置对象参考。
 
-做镜像。布尔型。  
+做镜像。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Select Controls
 
@@ -28,7 +30,7 @@ Target is Control Rig Pose Asset
 
 ## 图示
 
-![]($-20221218-20302974.png)
+![](/uploads/projects/ue-bluprint/20221218-20302974.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Control Rig Pose Asset Object Reference.
 
 In Control Rig: Control Rig Object Reference.
 
-Do Mirror: Boolean.  
+Do Mirror: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21341500.png)
+![](/uploads/projects/ue-bluprint/20221218-21341500.png)
 
 ## Inputs
 
@@ -22,13 +22,15 @@
 
 找到的小部件。用户部件对象参考数组。输出实现指定接口的小部件数组。
 
+<hr>
+
 Find all widgets in the world with the specified interface.. This is a slow operation, use with caution e.g. do not use every frame.
 
 Target is Widget Blueprint Library
 
 ## 图示
 
-![]($-20221218-21341500.png)
+![](/uploads/projects/ue-bluprint/20221218-21341500.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Interface: Interface Interface. The interface to find. Must be specified or result array will be empty..
 
-Top Level Only: Boolean. Only the widgets that are direct children of the viewport will be returned..  
+Top Level Only: Boolean. Only the widgets that are direct children of the viewport will be returned..
 
 ## Outputs
 
 Out: Exec.
 
 Found Widgets: Array of User Widget Object References. Output array of widgets that implement the specified interface..
-

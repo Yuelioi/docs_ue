@@ -2,17 +2,17 @@
 
 检查该权限是否已被授予
 
-目标是Android权限函数库
+目标是 Android 权限函数库
 
 ## 图示
 
-![]($-20221218-17492804.png)
+![](/uploads/projects/ue-bluprint/20221218-17492804.png)
 
 ## Inputs
 
 在。执行。
 
-权限。字符串。 
+权限。字符串。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。Boolean。检查是否已经授予了该权限。
 
+<hr>
+
 check if the permission is already granted
 
 Target is Android Permission Function Library
 
 ## 图示
 
-![]($-20221218-17492804.png)
+![](/uploads/projects/ue-bluprint/20221218-17492804.png)
 
 ## Inputs
 
 In: Exec.
 
-Permission: String.  
+Permission: String.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. check if the permission is already granted.
-

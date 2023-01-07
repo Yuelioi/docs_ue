@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-20304846.png)
+![](/uploads/projects/ue-bluprint/20221218-20304846.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Procedural Foliage Spawner对象参考。
+目标。Procedural Foliage Spawner 对象参考。
 
-Num Steps:整数。  
+Num Steps:整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Simulate
 
@@ -26,7 +28,7 @@ Target is Procedural Foliage Spawner
 
 ## 图示
 
-![]($-20221218-20304846.png)
+![](/uploads/projects/ue-bluprint/20221218-20304846.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Procedural Foliage Spawner Object Reference.
 
-Num Steps: Integer.  
+Num Steps: Integer.
 
 ## Outputs
 
 Out: Exec.
-

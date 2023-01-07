@@ -2,17 +2,17 @@
 
 获取粒子模块位置道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19023422.png)
+![](/uploads/projects/ue-bluprint/20221218-19023422.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。初始位置对象参考。  
+粒子模块。初始位置对象参考。
 
 ## Outputs
 
@@ -24,19 +24,21 @@ Out Distribution Over NPoints:Float（单精度）。
 
 输出分布阈值。Float (single-precision).
 
+<hr>
+
 Get Particle Module Location Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19023422.png)
+![](/uploads/projects/ue-bluprint/20221218-19023422.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Initial Location Object Reference.  
+Particle Module: Initial Location Object Reference.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out Start Location: Distribution Object Reference.
 Out Distribute Over NPoints: Float (single-precision).
 
 Out Distribute Threshold: Float (single-precision).
-

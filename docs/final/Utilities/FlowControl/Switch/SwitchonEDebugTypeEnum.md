@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14181489.png)
+![](/uploads/projects/ue-bluprint/20221218-14181489.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDebugTypeEnum枚举。 
+选择。EDebugTypeEnum 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Color By Solver: 执行。
 
 按粒子指数着色。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14181489.png)
+![](/uploads/projects/ue-bluprint/20221218-14181489.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDebugTypeEnum Enum.  
+Selection: EDebugTypeEnum Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ No Debug: Exec.
 Color By Solver: Exec.
 
 Color By Particle Index: Exec.
-

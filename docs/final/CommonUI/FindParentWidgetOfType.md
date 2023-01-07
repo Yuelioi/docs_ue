@@ -2,11 +2,11 @@
 
 查找给定类型的第一个父部件并返回，如果没有找到父部件，则返回空。
 
-目标是普通的UILibrary
+目标是普通的 UILibrary
 
 ## 图示
 
-![]($-20221218-18214459.png)
+![](/uploads/projects/ue-bluprint/20221218-18214459.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 启动小部件。小部件对象参考。
 
-类型。小工具类参考。 
+类型。小工具类参考。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。小工具对象参考。找到给定类型的第一个父部件并返回，如果没有找到父部件，则返回空。
 
+<hr>
+
 Finds the first parent widget of the given type and returns it, or null if no parent could be found.
 
 Target is Common UILibrary
 
 ## 图示
 
-![]($-20221218-18214459.png)
+![](/uploads/projects/ue-bluprint/20221218-18214459.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Starting Widget: Widget Object Reference.
 
-Type: Widget Class Reference.  
+Type: Widget Class Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Widget Object Reference. Finds the first parent widget of the given type and returns it, or null if no parent could be found..
-

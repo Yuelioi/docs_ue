@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14154990.png)
+![](/uploads/projects/ue-bluprint/20221218-14154990.png)
 
 ## Inputs
 
 在。执行。
 
-条件。布尔型。 
+条件。布尔型。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 False（假）。执行。
 
+<hr>
+
 Branch Statement. If Condition is true, execution goes to True, otherwise it goes to False
 
 ## 图示
 
-![]($-20221218-14154990.png)
+![](/uploads/projects/ue-bluprint/20221218-14154990.png)
 
 ## Inputs
 
 In: Exec.
 
-Condition: Boolean.  
+Condition: Boolean.
 
 ## Outputs
 
 True: Exec.
 
 False: Exec.
-

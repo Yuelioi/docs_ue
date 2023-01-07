@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17553059.png)
+![](/uploads/projects/ue-bluprint/20221218-17553059.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。文本对象参考。
 
-在罢工刷。石板刷结构。用来击穿文本的新笔刷。 
+在罢工刷。石板刷结构。用来击穿文本的新笔刷。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Dynamically set the strike brush for this text block
 
@@ -26,7 +28,7 @@ Target is Text
 
 ## 图示
 
-![]($-20221218-17553059.png)
+![](/uploads/projects/ue-bluprint/20221218-17553059.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Text Object Reference.
 
-In Strike Brush: Slate Brush Structure. The new brush to use to strike through text.  
+In Strike Brush: Slate Brush Structure. The new brush to use to strike through text.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17593390.png)
+![](/uploads/projects/ue-bluprint/20221218-17593390.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 条件。布尔值。
 
-消息。字符串。如果断言失败，显示的信息（"断言失败：'Message'for context ''"）。 
+消息。字符串。如果断言失败，显示的信息（"断言失败：'Message'for context ''"）。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。
 
+<hr>
+
 Assert that a boolean value is true.
 
 Target is Functional Test
 
 ## 图示
 
-![]($-20221218-17593390.png)
+![](/uploads/projects/ue-bluprint/20221218-17593390.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Functional Test Object Reference.
 
 Condition: Boolean.
 
-Message: String. The message to display if the assert fails ("Assertion Failed: 'Message' for context ''").  
+Message: String. The message to display if the assert fails ("Assertion Failed: 'Message' for context ''").
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

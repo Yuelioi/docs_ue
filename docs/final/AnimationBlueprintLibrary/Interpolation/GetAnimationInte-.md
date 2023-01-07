@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17520446.png)
+![](/uploads/projects/ue-bluprint/20221218-17520446.png)
 
 ## Inputs
 
-动画序列。Anim Sequence 对象参考。 
+动画序列。Anim Sequence 对象参考。
 
 ## Outputs
 
-插值类型。EAnimInterpolationType枚举。
+插值类型。EAnimInterpolationType 枚举。
+
+<hr>
 
 Retrieves the Animation Interpolation type for the given Animation Sequence
 
@@ -22,13 +24,12 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17520446.png)
+![](/uploads/projects/ue-bluprint/20221218-17520446.png)
 
 ## Inputs
 
-Animation Sequence: Anim Sequence Object Reference.  
+Animation Sequence: Anim Sequence Object Reference.
 
 ## Outputs
 
 Interpolation Type: EAnimInterpolationType Enum.
-

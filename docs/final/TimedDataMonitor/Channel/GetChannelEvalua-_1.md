@@ -1,4 +1,4 @@
-# GetChannelEvalua-_1
+# GetChannelEvalua-\_1
 
 返回评估时间和最新样本之间的距离的标准偏差，单位是秒。
 
@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21122732.png)
+![](/uploads/projects/ue-bluprint/20221218-21122732.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。定时数据监控子系统对象参考。
 
-Identifier:定时数据监控通道标识符结构（通过参考）。  
+Identifier:定时数据监控通道标识符结构（通过参考）。
 
 ## Outputs
 
@@ -22,13 +22,15 @@ Identifier:定时数据监控通道标识符结构（通过参考）。
 
 返回值。浮点数（单精度）。返回评估时间和最新样本之间距离的标准偏差，以秒为单位。
 
+<hr>
+
 Returns the standard deviation of the distance, in seconds, between evaluation time and newest sample
 
 Target is Timed Data Monitor Subsystem
 
 ## 图示
 
-![]($-20221218-21122732.png)
+![](/uploads/projects/ue-bluprint/20221218-21122732.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Timed Data Monitor Subsystem Object Reference.
 
-Identifier: Timed Data Monitor Channel Identifier Structure (by ref).  
+Identifier: Timed Data Monitor Channel Identifier Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Float (single-precision). Returns the standard deviation of the distance, in seconds, between evaluation time and newest sample.
-

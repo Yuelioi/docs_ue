@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14230939.png)
+![](/uploads/projects/ue-bluprint/20221218-14230939.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ERingModulatorTypeSourceEffect Enum.  
+选择。ERingModulatorTypeSourceEffect Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 正方形 执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14230939.png)
+![](/uploads/projects/ue-bluprint/20221218-14230939.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ERingModulatorTypeSourceEffect Enum.  
+Selection: ERingModulatorTypeSourceEffect Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Saw: Exec.
 Triangle: Exec.
 
 Square: Exec.
-

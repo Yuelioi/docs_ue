@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20114401.png)
+![](/uploads/projects/ue-bluprint/20221218-20114401.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 对象。对象参考。
 
-财产名称。名称。  
+财产名称。名称。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Mark replicated property as dirty with the Push Model networking system
 
@@ -26,7 +28,7 @@ Target is Net Push Model Helpers
 
 ## 图示
 
-![]($-20221218-20114401.png)
+![](/uploads/projects/ue-bluprint/20221218-20114401.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Object: Object Reference.
 
-Property Name: Name.  
+Property Name: Name.
 
 ## Outputs
 
 Out: Exec.
-

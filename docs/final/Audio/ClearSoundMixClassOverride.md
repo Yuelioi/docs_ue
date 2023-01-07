@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18024608.png)
+![](/uploads/projects/ue-bluprint/20221218-18024608.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 在声音混合修改器中。声音混合对象参考。要修改的声音组合。
 
-在Sound Class中。Sound Class Object Reference. 在声音混合中清除覆盖的声音类。
+在 Sound Class 中。Sound Class Object Reference. 在声音混合中清除覆盖的声音类。
 
-淡出时间。浮点数（单精度）。从当前的声音类调整器覆盖值到非覆盖值所使用的插值时间。 
+淡出时间。浮点数（单精度）。从当前的声音类调整器覆盖值到非覆盖值所使用的插值时间。
 
 ## Outputs
 
 出来。执行。
+
+<hr>
 
 Clears any existing override of the Sound Class Adjuster in the given Sound Mix
 
@@ -28,7 +30,7 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-18024608.png)
+![](/uploads/projects/ue-bluprint/20221218-18024608.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ In Sound Mix Modifier: Sound Mix Object Reference. The sound mix to modify..
 
 In Sound Class: Sound Class Object Reference. The sound class in the sound mix to clear overrides from..
 
-Fade Out Time: Float (single-precision). The interpolation time to use to go from the current sound class adjuster override values to the non-override values..  
+Fade Out Time: Float (single-precision). The interpolation time to use to go from the current sound class adjuster override values to the non-override values..
 
 ## Outputs
 
 Out: Exec.
-

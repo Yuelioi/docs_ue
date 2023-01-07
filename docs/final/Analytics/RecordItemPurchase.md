@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17490534.png)
+![](/uploads/projects/ue-bluprint/20221218-17490534.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 每件物品的成本: 整数。
 
-项目数量。整数。 
+项目数量。整数。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Records an in-game item was purchased using the specified in-game currency
 
@@ -30,7 +32,7 @@ Target is Analytics Blueprint Library
 
 ## 图示
 
-![]($-20221218-17490534.png)
+![](/uploads/projects/ue-bluprint/20221218-17490534.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Currency: String.
 
 Per Item Cost: Integer.
 
-Item Quantity: Integer.  
+Item Quantity: Integer.
 
 ## Outputs
 
 Out: Exec.
-

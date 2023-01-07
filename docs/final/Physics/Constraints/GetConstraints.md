@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20264805.png)
+![](/uploads/projects/ue-bluprint/20221218-20264805.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标。物理资产对象参考。
 
-包括终止的。布尔型。  
+包括终止的。布尔型。
 
 ## Outputs
 
 出：执行。
 
-Out Constraints:Constraint Instance Accessor结构的数组。返回与参数相匹配的约束列表。
+Out Constraints:Constraint Instance Accessor 结构的数组。返回与参数相匹配的约束列表。
+
+<hr>
 
 Gets all constraints
 
@@ -28,7 +30,7 @@ Target is Physics Asset
 
 ## 图示
 
-![]($-20221218-20264805.png)
+![](/uploads/projects/ue-bluprint/20221218-20264805.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Physics Asset Object Reference.
 
-Includes Terminated: Boolean.  
+Includes Terminated: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Out Constraints: Array of Constraint Instance Accessor Structures. returned list of constraints matching the parameters.
-

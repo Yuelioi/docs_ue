@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14215283.png)
+![](/uploads/projects/ue-bluprint/20221218-14215283.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMultiBlockType枚举。 
+选择。EMultiBlockType 枚举。
 
 ## Outputs
 
@@ -32,17 +32,19 @@
 
 小工具。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14215283.png)
+![](/uploads/projects/ue-bluprint/20221218-14215283.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMultiBlockType Enum.  
+Selection: EMultiBlockType Enum.
 
 ## Outputs
 
@@ -63,4 +65,3 @@ Tool Bar Button: Exec.
 Tool Bar Combo Button: Exec.
 
 Widget: Exec.
-

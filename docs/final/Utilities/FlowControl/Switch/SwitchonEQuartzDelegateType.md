@@ -4,35 +4,36 @@
 
 ## 图示
 
-![]($-20221218-14223857.png)
+![](/uploads/projects/ue-bluprint/20221218-14223857.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EQuartzDelegateType Enum.  
+选择。EQuartzDelegateType Enum.
 
 ## Outputs
 
-节拍器Tick。Exec.
+节拍器 Tick。Exec.
 
 命令事件。Exec.
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14223857.png)
+![](/uploads/projects/ue-bluprint/20221218-14223857.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EQuartzDelegateType Enum.  
+Selection: EQuartzDelegateType Enum.
 
 ## Outputs
 
 Metronome Tick: Exec.
 
 Command Event: Exec.
-

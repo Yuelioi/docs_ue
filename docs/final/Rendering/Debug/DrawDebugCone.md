@@ -2,11 +2,11 @@
 
 绘制一个调试圆锥体。角度以度数指定
 
-目标是Kismet系统库
+目标是 Kismet 系统库
 
 ## 图示
 
-![]($-20221218-20360579.png)
+![](/uploads/projects/ue-bluprint/20221218-20360579.png)
 
 ## Inputs
 
@@ -28,11 +28,13 @@ Num Sides: 整数。
 
 持续时间。Float（单精度）。
 
-厚度。Float（单精度）。  
+厚度。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Draw a debug cone. Angles are specified in degrees
 
@@ -40,7 +42,7 @@ Target is Kismet System Library
 
 ## 图示
 
-![]($-20221218-20360579.png)
+![](/uploads/projects/ue-bluprint/20221218-20360579.png)
 
 ## Inputs
 
@@ -62,9 +64,8 @@ Line Color: Linear Color Structure.
 
 Duration: Float (single-precision).
 
-Thickness: Float (single-precision).  
+Thickness: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

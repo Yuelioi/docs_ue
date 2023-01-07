@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19375881.png)
+![](/uploads/projects/ue-bluprint/20221218-19375881.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 图层名称。名称的数组。一个有效的图层名称列表。
 
-更新统计资料。布尔型。  
+更新统计资料。布尔型。
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 返回值。布尔值。如果该演员至少从所提供的一个层中被移除，则为真。
 
+<hr>
+
 Removes the provided actor from the named layers.
 
 Target is Layers Subsystem
 
 ## 图示
 
-![]($-20221218-19375881.png)
+![](/uploads/projects/ue-bluprint/20221218-19375881.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Actor: Actor Object Reference. The actor to remove from the provided layers.
 
 Layer Names: Array of Names. A valid list of layer names..
 
-Update Stats: Boolean.  
+Update Stats: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if the actor was removed from at least one of the provided layers..
-

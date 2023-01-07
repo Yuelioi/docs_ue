@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14205571.png)
+![](/uploads/projects/ue-bluprint/20221218-14205571.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EIplRayTracerType枚举。 
+选择。EIplRayTracerType 枚举。
 
 ## Outputs
 
@@ -19,18 +19,20 @@ Phonon: Exec.
 Intel Embree: Exec.
 
 AMD Radeon Rays: Exec.
+
+<hr>
 
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14205571.png)
+![](/uploads/projects/ue-bluprint/20221218-14205571.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EIplRayTracerType Enum.  
+Selection: EIplRayTracerType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Phonon: Exec.
 Intel Embree: Exec.
 
 AMD Radeon Rays: Exec.
-

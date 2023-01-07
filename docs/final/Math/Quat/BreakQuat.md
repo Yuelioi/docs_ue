@@ -1,16 +1,16 @@
 # BreakQuat
 
-将一个四分法分解成X、Y、Z、W
+将一个四分法分解成 X、Y、Z、W
 
-目标是Kismet数学图书馆
+目标是 Kismet 数学图书馆
 
 ## 图示
 
-![]($-20221218-19524891.png)
+![](/uploads/projects/ue-bluprint/20221218-19524891.png)
 
 ## Inputs
 
-在Quat。Quat结构（由参考文献）。  
+在 Quat。Quat 结构（由参考文献）。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Z：浮点数（单精度）。
 
 W：浮点数（单精度）。
 
+<hr>
+
 Breaks a quat apart into X, Y, Z, W
 
 Target is Kismet Math Library
 
 ## 图示
 
-![]($-20221218-19524891.png)
+![](/uploads/projects/ue-bluprint/20221218-19524891.png)
 
 ## Inputs
 
-In Quat: Quat Structure (by ref).  
+In Quat: Quat Structure (by ref).
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Y: Float (single-precision).
 Z: Float (single-precision).
 
 W: Float (single-precision).
-

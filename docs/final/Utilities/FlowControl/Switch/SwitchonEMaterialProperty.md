@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14211856.png)
+![](/uploads/projects/ue-bluprint/20221218-14211856.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMaterialProperty Enum.  
+选择。EMaterialProperty Enum.
 
 ## Outputs
 
@@ -40,17 +40,19 @@ Ambient Occlusion（环境遮蔽）。执行。
 
 折射。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14211856.png)
+![](/uploads/projects/ue-bluprint/20221218-14211856.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMaterialProperty Enum.  
+Selection: EMaterialProperty Enum.
 
 ## Outputs
 
@@ -79,4 +81,3 @@ Subsurface: Exec.
 Ambient Occlusion: Exec.
 
 Refraction: Exec.
-

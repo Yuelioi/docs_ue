@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-19091543.png)
+![](/uploads/projects/ue-bluprint/20221218-19091543.png)
 
 ## Inputs
 
-Gameplay Tag容器。游戏性标签容器结构（按参考）。  
+Gameplay Tag 容器。游戏性标签容器结构（按参考）。
 
 ## Outputs
 
 游戏性标签。游戏性标签结构的阵列。
+
+<hr>
 
 Breaks tag container into explicit array of tags
 
@@ -22,13 +24,12 @@ Target is Blueprint Gameplay Tag Library
 
 ## 图示
 
-![]($-20221218-19091543.png)
+![](/uploads/projects/ue-bluprint/20221218-19091543.png)
 
 ## Inputs
 
-Gameplay Tag Container: Gameplay Tag Container Structure (by ref).  
+Gameplay Tag Container: Gameplay Tag Container Structure (by ref).
 
 ## Outputs
 
 Gameplay Tags: Array of Gameplay Tag Structures.
-

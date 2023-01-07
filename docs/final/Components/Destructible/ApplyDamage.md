@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18232259.png)
+![](/uploads/projects/ue-bluprint/20221218-18232259.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 脉冲方向: 向量(参考)。
 
-脉冲强度。浮点（单精度）。 
+脉冲强度。浮点（单精度）。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Take damage
 
@@ -32,7 +34,7 @@ Target is Destructible Component
 
 ## 图示
 
-![]($-20221218-18232259.png)
+![](/uploads/projects/ue-bluprint/20221218-18232259.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Hit Location: Vector (by ref).
 
 Impulse Dir: Vector (by ref).
 
-Impulse Strength: Float (single-precision).  
+Impulse Strength: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

@@ -1,12 +1,12 @@
 # EnableSectionCollision
 
-启用/禁用特定LOD的网格段碰撞。
+启用/禁用特定 LOD 的网格段碰撞。
 
 目标是静态网格编辑器子系统
 
 ## 图示
 
-![]($-20221218-21033068.png)
+![](/uploads/projects/ue-bluprint/20221218-21033068.png)
 
 ## Inputs
 
@@ -18,13 +18,15 @@
 
 启用碰撞。布尔值。如果碰撞被启用或未被启用。
 
-LODIndex。整数。StaticMesh LOD的索引。
+LODIndex。整数。StaticMesh LOD 的索引。
 
-科目索引。整数。StaticMesh截面的索引。  
+科目索引。整数。StaticMesh 截面的索引。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Enables/disables mesh section collision for a specific LOD.
 
@@ -32,7 +34,7 @@ Target is Static Mesh Editor Subsystem
 
 ## 图示
 
-![]($-20221218-21033068.png)
+![](/uploads/projects/ue-bluprint/20221218-21033068.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Collision Enabled: Boolean. If the collision is enabled or not..
 
 LODIndex: Integer. Index of the StaticMesh LOD..
 
-Section Index: Integer. Index of the StaticMesh Section..  
+Section Index: Integer. Index of the StaticMesh Section..
 
 ## Outputs
 
 Out: Exec.
-

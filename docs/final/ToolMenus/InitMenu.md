@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21134503.png)
+![](/uploads/projects/ue-bluprint/20221218-21134503.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 父母：姓名。
 
-类型。EMultiBoxType枚举。  
+类型。EMultiBoxType 枚举。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Init Menu
 
@@ -32,7 +34,7 @@ Target is Tool Menu
 
 ## 图示
 
-![]($-20221218-21134503.png)
+![](/uploads/projects/ue-bluprint/20221218-21134503.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Name: Name.
 
 Parent: Name.
 
-Type: EMultiBoxType Enum.  
+Type: EMultiBoxType Enum.
 
 ## Outputs
 
 Out: Exec.
-

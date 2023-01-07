@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19123367.png)
+![](/uploads/projects/ue-bluprint/20221218-19123367.png)
 
 ## Inputs
 
@@ -20,13 +20,15 @@
 
 最小群组大小。整数。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
 出：执行。
 
-目标网格。动态网格对象参考。从角度阈值计算Polygroups。
+目标网格。动态网格对象参考。从角度阈值计算 Polygroups。
+
+<hr>
 
 Compute Polygroups from Angle Threshold
 
@@ -34,7 +36,7 @@ Target is Geometry Script Library Mesh Polygroup Functions
 
 ## 图示
 
-![]($-20221218-19123367.png)
+![](/uploads/projects/ue-bluprint/20221218-19123367.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Crease Angle: Float (single-precision).
 
 Min Group Size: Integer.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Compute Polygroups from Angle Threshold.
-

@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20494189.png)
+![](/uploads/projects/ue-bluprint/20221218-20494189.png)
 
 ## Inputs
 
-目标。电影场景脚本演员参考关键对象参考。  
+目标。电影场景脚本演员参考关键对象参考。
 
 ## Outputs
 
-返回值。电影场景对象绑定的ID结构。此键的对象绑定。
+返回值。电影场景对象绑定的 ID 结构。此键的对象绑定。
+
+<hr>
 
 Gets the value for this key from the owning channel.
 
@@ -22,13 +24,12 @@ Target is Movie Scene Scripting Actor Reference Key
 
 ## 图示
 
-![]($-20221218-20494189.png)
+![](/uploads/projects/ue-bluprint/20221218-20494189.png)
 
 ## Inputs
 
-Target: Movie Scene Scripting Actor Reference Key Object Reference.  
+Target: Movie Scene Scripting Actor Reference Key Object Reference.
 
 ## Outputs
 
 Return Value: Movie Scene Object Binding ID Structure. The object binding for this key..
-

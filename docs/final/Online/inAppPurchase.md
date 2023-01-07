@@ -2,11 +2,7 @@
 
 在这一页
 
-  * 行动
-
-
-
-
+- 行动
 
 ## Actions
 
@@ -18,21 +14,19 @@ Make an In-App Purchase v2.为所提供的产品标识符启动一个交易。�
 
 查询拥有的购买。创建应用内购买查询拥有的代理对象。目标是应用内购买回调代理 2.
 
-读取应用内购买信息。查询一个InAppPurchase的整数值。目标是In App Purchase Query Callback Proxy。
+读取应用内购买信息。查询一个 InAppPurchase 的整数值。目标是 In App Purchase Query Callback Proxy。
 
-读取应用内购买信息2。查询一个InAppPurchase的整数值。目标是In App Purchase查询回调代理2。
+读取应用内购买信息 2。查询一个 InAppPurchase 的整数值。目标是 In App Purchase 查询回调代理 2。
 
 恢复应用内购买。为提供的产品标识符启动一个交易。目标是应用内购买恢复回调代理。
 
-恢复应用内购买2。为提供的产品标识符启动一个交易。目标是应用内购买恢复回调代理2。
+恢复应用内购买 2。为提供的产品标识符启动一个交易。目标是应用内购买恢复回调代理 2。
 
-On this page 
+<hr>
 
-  * Actions
+On this page
 
-
-
-
+- Actions
 
 ## Actions
 
@@ -51,4 +45,3 @@ Read In App Purchase Information2. Queries a InAppPurchase for an integer value:
 Restore In-App Purchases. Kicks off a transaction for the provided product identifier: Target is In App Purchase Restore Callback Proxy.
 
 Restore In-App Purchases2. Kicks off a transaction for the provided product identifier: Target is In App Purchase Restore Callback Proxy 2.
-

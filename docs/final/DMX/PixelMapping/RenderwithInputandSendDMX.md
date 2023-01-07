@@ -1,12 +1,12 @@
 # RenderwithInputandSendDMX
 
-为降采样纹理渲染输入纹理，为这个组件做降采样并发送DMX。
+为降采样纹理渲染输入纹理，为这个组件做降采样并发送 DMX。
 
-目标是DMXPixel映射输出DMXComponent
+目标是 DMXPixel 映射输出 DMXComponent
 
 ## 图示
 
-![]($-20221218-18444717.png)
+![](/uploads/projects/ue-bluprint/20221218-18444717.png)
 
 ## Inputs
 
@@ -17,21 +17,23 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Render input texture for downsample texture, donwsample and send DMX for this component
 
 Target is DMXPixel Mapping Output DMXComponent
 
 ## 图示
 
-![]($-20221218-18444717.png)
+![](/uploads/projects/ue-bluprint/20221218-18444717.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: DMXPixel Mapping Output DMXComponent Object Reference.  
+Target: DMXPixel Mapping Output DMXComponent Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

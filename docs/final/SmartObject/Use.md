@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20593010.png)
+![](/uploads/projects/ue-bluprint/20221218-20593010.png)
 
 ## Inputs
 
@@ -24,13 +24,15 @@
 
 返回值。智能对象行为定义对象参考。与槽相关的请求的行为定义类的基类指针。
 
+<hr>
+
 Start using a claimed smart object slot.
 
 Target is Smart Object Subsystem
 
 ## 图示
 
-![]($-20221218-20593010.png)
+![](/uploads/projects/ue-bluprint/20221218-20593010.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Smart Object Subsystem Object Reference.
 
 Claim Handle: Smart Object Claim Handle Structure (by ref). Handle for given pair of user and smart object. Error will be reported if the handle is invalid..
 
-Definition Class: Smart Object Behavior Definition Class Reference (by ref). The type of behavior definition the user wants to use..  
+Definition Class: Smart Object Behavior Definition Class Reference (by ref). The type of behavior definition the user wants to use..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Smart Object Behavior Definition Object Reference. The base class pointer of the requested behavior definition class associated to the slot.
-

@@ -1,12 +1,12 @@
 # SetControlVector2D
 
-设置一个vector2D控件的值
+设置一个 vector2D 控件的值
 
 目标是控制钻机组件
 
 ## 图示
 
-![]($-20221218-18321232.png)
+![](/uploads/projects/ue-bluprint/20221218-18321232.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 控制名称。名称。要设置的控件的名称。
 
-值。矢量2D结构。控件的新值。 
+值。矢量 2D 结构。控件的新值。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets the value of a vector2D control
 
@@ -28,7 +30,7 @@ Target is Control Rig Component
 
 ## 图示
 
-![]($-20221218-18321232.png)
+![](/uploads/projects/ue-bluprint/20221218-18321232.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Control Rig Component Object Reference.
 
 Control Name: Name. The name of the control to set.
 
-Value: Vector 2D Structure. The new value for the control.  
+Value: Vector 2D Structure. The new value for the control.
 
 ## Outputs
 
 Out: Exec.
-

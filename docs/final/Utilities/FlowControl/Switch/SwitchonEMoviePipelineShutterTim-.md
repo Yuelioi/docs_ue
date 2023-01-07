@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14214494.png)
+![](/uploads/projects/ue-bluprint/20221218-14214494.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EMoviePipelineShutterTiming枚举。 
+选择。EMoviePipelineShutterTiming 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 画面关闭。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14214494.png)
+![](/uploads/projects/ue-bluprint/20221218-14214494.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EMoviePipelineShutterTiming Enum.  
+Selection: EMoviePipelineShutterTiming Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Frame Open: Exec.
 Frame Center: Exec.
 
 Frame Close: Exec.
-

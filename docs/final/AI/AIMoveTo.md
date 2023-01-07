@@ -1,10 +1,10 @@
 # AIMoveTo
 
-用AIController控制卒子移动到特定位置的简单命令
+用 AIController 控制卒子移动到特定位置的简单命令
 
 ## 图示
 
-![]($-20221218-17453386.png)
+![](/uploads/projects/ue-bluprint/20221218-17453386.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 接受半径。Float（单精度）。
 
-重叠时停止。布尔值。 
+重叠时停止。布尔值。
 
 ## Outputs
 
@@ -30,11 +30,13 @@
 
 运动结果。EPathFollowingResult Enum.
 
+<hr>
+
 Simple order for Pawn with AIController to move to a specific location
 
 ## 图示
 
-![]($-20221218-17453386.png)
+![](/uploads/projects/ue-bluprint/20221218-17453386.png)
 
 ## Inputs
 
@@ -48,7 +50,7 @@ Target Actor: Actor Object Reference.
 
 Acceptance Radius: Float (single-precision).
 
-Stop on Overlap: Boolean.  
+Stop on Overlap: Boolean.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ On Success: Exec. On Success.
 On Fail: Exec. On Fail.
 
 Movement Result: EPathFollowingResult Enum.
-

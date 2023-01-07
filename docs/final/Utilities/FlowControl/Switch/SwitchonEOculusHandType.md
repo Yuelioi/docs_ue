@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14220520.png)
+![](/uploads/projects/ue-bluprint/20221218-14220520.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EOculusHandType枚举。 
+选择。EOculusHandType 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 右手。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14220520.png)
+![](/uploads/projects/ue-bluprint/20221218-14220520.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EOculusHandType Enum.  
+Selection: EOculusHandType Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ None: Exec.
 Hand Left: Exec.
 
 Hand Right: Exec.
-

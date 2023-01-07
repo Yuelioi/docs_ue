@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19072093.png)
+![](/uploads/projects/ue-bluprint/20221218-19072093.png)
 
 ## Inputs
 
@@ -28,13 +28,15 @@ Blend Func:EViewTargetBlendFunction Enum.用于混合的立方、线性等函数
 
 出：执行。
 
+<hr>
+
 Set the view target blending with variable control
 
 Target is Player Controller
 
 ## 图示
 
-![]($-20221218-19072093.png)
+![](/uploads/projects/ue-bluprint/20221218-19072093.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Blend Func: EViewTargetBlendFunction Enum. Cubic, Linear etc functions for blend
 
 Blend Exp: Float (single-precision). Exponent, used by certain blend functions to control the shape of the curve..
 
-Lock Outgoing: Boolean. If true, lock outgoing viewtarget to last frame's camera position for the remainder of the blend..  
+Lock Outgoing: Boolean. If true, lock outgoing viewtarget to last frame's camera position for the remainder of the blend..
 
 ## Outputs
 
 Out: Exec.
-

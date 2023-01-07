@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17465975.png)
+![](/uploads/projects/ue-bluprint/20221218-17465975.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标：大脑组件对象参考。
 
-原因。字符串。 
+原因。字符串。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Stops currently running brain logic.
 
@@ -26,7 +28,7 @@ Target is Brain Component
 
 ## 图示
 
-![]($-20221218-17465975.png)
+![](/uploads/projects/ue-bluprint/20221218-17465975.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Brain Component Object Reference.
 
-Reason: String.  
+Reason: String.
 
 ## Outputs
 
 Out: Exec.
-

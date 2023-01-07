@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18152048.png)
+![](/uploads/projects/ue-bluprint/20221218-18152048.png)
 
 ## Inputs
 
 目标。通用小部件旋转木马对象参考。
 
-索引。整数。 
+索引。整数。
 
 ## Outputs
 
-返回值。小工具对象参考。在提供的索引处获取一个Widget。
+返回值。小工具对象参考。在提供的索引处获取一个 Widget。
+
+<hr>
 
 Get a widget at the provided index
 
@@ -24,15 +26,14 @@ Target is Common Widget Carousel
 
 ## 图示
 
-![]($-20221218-18152048.png)
+![](/uploads/projects/ue-bluprint/20221218-18152048.png)
 
 ## Inputs
 
 Target: Common Widget Carousel Object Reference.
 
-Index: Integer.  
+Index: Integer.
 
 ## Outputs
 
 Return Value: Widget Object Reference. Get a widget at the provided index.
-

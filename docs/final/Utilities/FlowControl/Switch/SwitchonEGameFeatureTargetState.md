@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14192060.png)
+![](/uploads/projects/ue-bluprint/20221218-14192060.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EGameFeatureTargetState Enum.  
+选择。EGameFeatureTargetState Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 活跃。执行中
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14192060.png)
+![](/uploads/projects/ue-bluprint/20221218-14192060.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EGameFeatureTargetState Enum.  
+Selection: EGameFeatureTargetState Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Registered: Exec.
 Loaded: Exec.
 
 Active: Exec.
-

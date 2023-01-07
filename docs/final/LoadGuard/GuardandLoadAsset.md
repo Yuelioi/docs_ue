@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19453599.png)
+![](/uploads/projects/ue-bluprint/20221218-19453599.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标。通用负载保护对象参考。
 
-在Lazy Asset: Soft Object Reference（由参考文献）。
+在 Lazy Asset: Soft Object Reference（由参考文献）。
 
-在资产加载时。代表（通过参考）。  
+在资产加载时。代表（通过参考）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 BP Guard and Load Asset
 
@@ -28,7 +30,7 @@ Target is Common Load Guard
 
 ## 图示
 
-![]($-20221218-19453599.png)
+![](/uploads/projects/ue-bluprint/20221218-19453599.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Common Load Guard Object Reference.
 
 In Lazy Asset: Soft Object Reference (by ref).
 
-On Asset Loaded: Delegate (by ref).  
+On Asset Loaded: Delegate (by ref).
 
 ## Outputs
 
 Out: Exec.
-

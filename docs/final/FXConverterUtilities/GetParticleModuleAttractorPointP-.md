@@ -2,17 +2,17 @@
 
 获取粒子模块吸引点道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19021780.png)
+![](/uploads/projects/ue-bluprint/20221218-19021780.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。点吸引器对象参考。  
+粒子模块。点吸引器对象参考。
 
 ## Outputs
 
@@ -44,19 +44,21 @@ Out Negative Y: Boolean.
 
 Out Negative Z: Boolean.
 
+<hr>
+
 Get Particle Module Attractor Point Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19021780.png)
+![](/uploads/projects/ue-bluprint/20221218-19021780.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Point Attractor Object Reference.  
+Particle Module: Point Attractor Object Reference.
 
 ## Outputs
 
@@ -87,4 +89,3 @@ Out Negative X: Boolean.
 Out Negative Y: Boolean.
 
 Out Negative Z: Boolean.
-

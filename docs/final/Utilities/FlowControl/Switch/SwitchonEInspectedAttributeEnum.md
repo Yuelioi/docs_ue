@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14204257.png)
+![](/uploads/projects/ue-bluprint/20221218-14204257.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EInspectedAttributeEnum枚举。 
+选择。EInspectedAttributeEnum 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Level: Exec.
 
 相对大小: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14204257.png)
+![](/uploads/projects/ue-bluprint/20221218-14204257.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EInspectedAttributeEnum Enum.  
+Selection: EInspectedAttributeEnum Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Level: Exec.
 Initial Dynamic State: Exec.
 
 Relative Size: Exec.
-

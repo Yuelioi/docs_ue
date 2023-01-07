@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20202868.png)
+![](/uploads/projects/ue-bluprint/20221218-20202868.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。物理动画组件对象参考。
 
-在Skeletal Mesh Component中。骨骼网组件对象参考。  
+在 Skeletal Mesh Component 中。骨骼网组件对象参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the skeletal mesh we are driving through physical animation. Will erase any existing physical animation data.
 
@@ -26,7 +28,7 @@ Target is Physical Animation Component
 
 ## 图示
 
-![]($-20221218-20202868.png)
+![](/uploads/projects/ue-bluprint/20221218-20202868.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Physical Animation Component Object Reference.
 
-In Skeletal Mesh Component: Skeletal Mesh Component Object Reference.  
+In Skeletal Mesh Component: Skeletal Mesh Component Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

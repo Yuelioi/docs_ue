@@ -1,12 +1,12 @@
-# SetlocalprocessSyncPolicySetting-_1
+# SetlocalprocessSyncPolicySetting-\_1
 
 获取全局同步设置
 
-目标是纹理共享蓝图API
+目标是纹理共享蓝图 API
 
 ## 图示
 
-![]($-20221218-21120624.png)
+![](/uploads/projects/ue-bluprint/20221218-21120624.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。对象参考。
 
-在同步策略设置中。纹理共享BPSync政策设置结构（通过参考）。 设置数据结构。  
+在同步策略设置中。纹理共享 BPSync 政策设置结构（通过参考）。 设置数据结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Get global synchronization settings
 
@@ -26,7 +28,7 @@ Target is Texture Share Blueprint API
 
 ## 图示
 
-![]($-20221218-21120624.png)
+![](/uploads/projects/ue-bluprint/20221218-21120624.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Object Reference.
 
-In Sync Policy Settings: Texture Share BPSync Policy Settings Structure (by ref). settings data struct.  
+In Sync Policy Settings: Texture Share BPSync Policy Settings Structure (by ref). settings data struct.
 
 ## Outputs
 
 Out: Exec.
-

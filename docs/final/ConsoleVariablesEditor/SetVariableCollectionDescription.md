@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18301236.png)
+![](/uploads/projects/ue-bluprint/20221218-18301236.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。控制台变量 资产对象参考。
 
-在变量集合描述。字符串。 
+在变量集合描述。字符串。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Sets a description for this variable collection.
 
@@ -26,7 +28,7 @@ Target is Console Variables Asset
 
 ## 图示
 
-![]($-20221218-18301236.png)
+![](/uploads/projects/ue-bluprint/20221218-18301236.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Console Variables Asset Object Reference.
 
-In Variable Collection Description: String.  
+In Variable Collection Description: String.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18473704.png)
+![](/uploads/projects/ue-bluprint/20221218-18473704.png)
 
 ## Inputs
 
@@ -31,13 +31,16 @@
 出：执行。
 
 返回值。对象参考。打开一个资产选择器对话框，用指定的名称和路径创建一个资产。
+
+<hr>
+
 Opens an asset picker dialog and creates an asset with the specified name and path
 
 Target is Asset Tools
 
 ## 图示
 
-![]($-20221218-18473704.png)
+![](/uploads/projects/ue-bluprint/20221218-18473704.png)
 
 ## Inputs
 
@@ -55,11 +58,10 @@ Factory: Factory Object Reference.
 
 Calling Context: Name.
 
-Call Configure Properties: Boolean.  
+Call Configure Properties: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Object Reference. Opens an asset picker dialog and creates an asset with the specified name and path.
-

@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-19342593.png)
+![](/uploads/projects/ue-bluprint/20221218-19342593.png)
 
 ## Inputs
 
-目标：互换纹理灯光配置文件工厂节点对象参考。  
+目标：互换纹理灯光配置文件工厂节点对象参考。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 返回值。布尔值。获取自定义亮度。
 
+<hr>
+
 Get Custom Brightness
 
 Target is Interchange Texture Light Profile Factory Node
 
 ## 图示
 
-![]($-20221218-19342593.png)
+![](/uploads/projects/ue-bluprint/20221218-19342593.png)
 
 ## Inputs
 
-Target: Interchange Texture Light Profile Factory Node Object Reference.  
+Target: Interchange Texture Light Profile Factory Node Object Reference.
 
 ## Outputs
 
 Attribute Value: Float (single-precision).
 
 Return Value: Boolean. Get Custom Brightness.
-

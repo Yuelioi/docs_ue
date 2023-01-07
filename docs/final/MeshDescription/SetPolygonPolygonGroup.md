@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20045922.png)
+![](/uploads/projects/ue-bluprint/20221218-20045922.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标。网格描述 基本对象参考。
 
-多边形ID：多边形ID结构。
+多边形 ID：多边形 ID 结构。
 
-多边形组ID。多边形组ID结构。  
+多边形组 ID。多边形组 ID 结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the polygon group associated with a polygon
 
@@ -28,7 +30,7 @@ Target is Mesh Description Base
 
 ## 图示
 
-![]($-20221218-20045922.png)
+![](/uploads/projects/ue-bluprint/20221218-20045922.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Mesh Description Base Object Reference.
 
 Polygon ID: Polygon ID Structure.
 
-Polygon Group ID: Polygon Group ID Structure.  
+Polygon Group ID: Polygon Group ID Structure.
 
 ## Outputs
 
 Out: Exec.
-

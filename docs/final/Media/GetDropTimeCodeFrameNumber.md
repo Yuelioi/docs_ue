@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20001124.png)
+![](/uploads/projects/ue-bluprint/20221218-20001124.png)
 
 ## Inputs
 
 在。执行。
 
-时间码。Drop Timecode结构（通过引用）。用于访问帧速率，以及下降标志。  
+时间码。Drop Timecode 结构（通过引用）。用于访问帧速率，以及下降标志。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 帧数：整数。返回计算的帧数。
 
+<hr>
+
 Convert a drop timecode into a frame number
 
 Target is Linear Timecode Component
 
 ## 图示
 
-![]($-20221218-20001124.png)
+![](/uploads/projects/ue-bluprint/20221218-20001124.png)
 
 ## Inputs
 
 In: Exec.
 
-Timecode: Drop Timecode Structure (by ref). Used to access the framerate, and drop flag.  
+Timecode: Drop Timecode Structure (by ref). Used to access the framerate, and drop flag.
 
 ## Outputs
 
 Out: Exec.
 
 Frame Number: Integer. returned calculated frame number.
-

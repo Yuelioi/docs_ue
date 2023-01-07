@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21071373.png)
+![](/uploads/projects/ue-bluprint/20221218-21071373.png)
 
 ## Inputs
 
@@ -14,9 +14,9 @@
 
 目标。Modular Synth Component Object Reference。
 
-补丁标识。补丁Id结构。
+补丁标识。补丁 Id 结构。
 
-是否启用。布尔值。  
+是否启用。布尔值。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。设置启用补丁。
 
+<hr>
+
 Set Enable Patch
 
 Target is Modular Synth Component
 
 ## 图示
 
-![]($-20221218-21071373.png)
+![](/uploads/projects/ue-bluprint/20221218-21071373.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Modular Synth Component Object Reference.
 
 Patch Id: Patch Id Structure.
 
-Is Enabled: Boolean.  
+Is Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Set Enable Patch.
-

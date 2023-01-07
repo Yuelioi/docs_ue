@@ -2,11 +2,11 @@
 
 在网格组件上绘制顶点颜色，沿着指定的轴线从起点到终点的颜色。
 
-目标是Mesh Vertex Painter Kismet库
+目标是 Mesh Vertex Painter Kismet 库
 
 ## 图示
 
-![]($-20221218-21245736.png)
+![](/uploads/projects/ue-bluprint/20221218-21245736.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 Axis: EVertexPaintAxis Enum.
 
-转换为SRGB：布尔值。  
+转换为 SRGB：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Paints vertex colors on a mesh component lerping from the start to the end color along the specified axis.
 
@@ -32,7 +34,7 @@ Target is Mesh Vertex Painter Kismet Library
 
 ## 图示
 
-![]($-20221218-21245736.png)
+![](/uploads/projects/ue-bluprint/20221218-21245736.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ End Color: Linear Color Structure (by ref).
 
 Axis: EVertexPaintAxis Enum.
 
-Convert to SRGB: Boolean.  
+Convert to SRGB: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

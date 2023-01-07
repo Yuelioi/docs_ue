@@ -2,23 +2,25 @@
 
 取消任务资源
 
-目标是AIController
+目标是 AIController
 
 ## 图示
 
-![]($-20221218-17484387.png)
+![](/uploads/projects/ue-bluprint/20221218-17484387.png)
 
 ## Inputs
 
 在。执行。
 
-目标。AIController对象参考。
+目标。AIController 对象参考。
 
-资源类。Gameplay Task资源类参考。 
+资源类。Gameplay Task 资源类参考。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Unclaim Task Resource
 
@@ -26,7 +28,7 @@ Target is AIController
 
 ## 图示
 
-![]($-20221218-17484387.png)
+![](/uploads/projects/ue-bluprint/20221218-17484387.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: AIController Object Reference.
 
-Resource Class: Gameplay Task Resource Class Reference.  
+Resource Class: Gameplay Task Resource Class Reference.
 
 ## Outputs
 
 Out: Exec.
-

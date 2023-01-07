@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14165637.png)
+![](/uploads/projects/ue-bluprint/20221218-14165637.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EARWorldAlignment Enum.  
+选择。EARWorldAlignment Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@ Gravity and Heading: Exec.
 
 照相机 Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14165637.png)
+![](/uploads/projects/ue-bluprint/20221218-14165637.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EARWorldAlignment Enum.  
+Selection: EARWorldAlignment Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Gravity: Exec.
 Gravity And Heading: Exec.
 
 Camera: Exec.
-

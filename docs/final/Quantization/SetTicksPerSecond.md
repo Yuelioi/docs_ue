@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20320627.png)
+![](/uploads/projects/ue-bluprint/20221218-20320627.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 代表。代表（由裁判）。
 
-每秒钟的Ticks：浮点数（单精度）。  
+每秒钟的 Ticks：浮点数（单精度）。
 
 ## Outputs
 
@@ -26,13 +26,15 @@
 
 时钟拉手。石英钟拉手对象参考。
 
+<hr>
+
 Set Ticks Per Second
 
 Target is Quartz Clock Handle
 
 ## 图示
 
-![]($-20221218-20320627.png)
+![](/uploads/projects/ue-bluprint/20221218-20320627.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Quantization Boundary: Quartz Quantization Boundary Structure (by ref).
 
 Delegate: Delegate (by ref).
 
-Ticks Per Second: Float (single-precision).  
+Ticks Per Second: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
 
 Clock Handle: Quartz Clock Handle Object Reference.
-

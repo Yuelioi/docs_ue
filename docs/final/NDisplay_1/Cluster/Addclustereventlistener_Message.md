@@ -2,11 +2,11 @@
 
 添加集群事件监听器。
 
-目标是显示集群蓝图API
+目标是显示集群蓝图 API
 
 ## 图示
 
-![]($-20221218-20103675.png)
+![](/uploads/projects/ue-bluprint/20221218-20103675.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。对象参考。
 
-倾听者。显示群集群集事件监听器接口。  
+倾听者。显示群集群集事件监听器接口。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Adds cluster event listener.
 
@@ -26,7 +28,7 @@ Target is Display Cluster Blueprint API
 
 ## 图示
 
-![]($-20221218-20103675.png)
+![](/uploads/projects/ue-bluprint/20221218-20103675.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Object Reference.
 
-Listener: Display Cluster Cluster Event Listener Interface.  
+Listener: Display Cluster Cluster Event Listener Interface.
 
 ## Outputs
 
 Out: Exec.
-

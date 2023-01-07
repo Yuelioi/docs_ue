@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19285512.png)
+![](/uploads/projects/ue-bluprint/20221218-19285512.png)
 
 ## Inputs
 
 目标。玩家可绑定的输入配置对象参考。
 
-映射名称：名称。  
+映射名称：名称。
 
 ## Outputs
 
 返回值。增强型动作键映射结构。返回与给定名称相匹配的映射的动作键映射。
+
+<hr>
 
 Returns the action key mapping for the mapping that matches the given name
 
@@ -24,15 +26,14 @@ Target is Player Bindable Input Config
 
 ## 图示
 
-![]($-20221218-19285512.png)
+![](/uploads/projects/ue-bluprint/20221218-19285512.png)
 
 ## Inputs
 
 Target: Player Bindable Input Config Object Reference.
 
-Mapping Name: Name.  
+Mapping Name: Name.
 
 ## Outputs
 
 Return Value: Enhanced Action Key Mapping Structure. Returns the action key mapping for the mapping that matches the given name.
-

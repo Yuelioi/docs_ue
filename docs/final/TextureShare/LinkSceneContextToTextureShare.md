@@ -2,23 +2,23 @@
 
 Link/Unlink SceneContext capture (for specified StereoscopicPass) to exist textureshare object.
 
-目标是纹理共享蓝图API
+目标是纹理共享蓝图 API
 
 ## 图示
 
-![]($-20221218-21120235.png)
+![](/uploads/projects/ue-bluprint/20221218-21120235.png)
 
 ## Inputs
 
 在。执行。
 
-目标。纹理共享蓝图API接口。
+目标。纹理共享蓝图 API 接口。
 
 共享名称。字符串。唯一的共享名称（不区分大小写）。
 
-Stereoscopic Pass:整数。立体渲染和nDisplay目的。
+Stereoscopic Pass:整数。立体渲染和 nDisplay 目的。
 
-是否启用。Boolean（布尔），为true则创建链接。  
+是否启用。Boolean（布尔），为 true 则创建链接。
 
 ## Outputs
 
@@ -26,13 +26,15 @@ Stereoscopic Pass:整数。立体渲染和nDisplay目的。
 
 返回值。布尔值。如果成功，则为真。
 
+<hr>
+
 Link\Unlink SceneContext capture (for specified StereoscopicPass) to exist textureshare object
 
 Target is Texture Share Blueprint API
 
 ## 图示
 
-![]($-20221218-21120235.png)
+![](/uploads/projects/ue-bluprint/20221218-21120235.png)
 
 ## Inputs
 
@@ -44,11 +46,10 @@ Share Name: String. Unique share name (case insensitive).
 
 Stereoscopic Pass: Integer. stereo rendering and nDisplay purpose.
 
-Is Enabled: Boolean. true to create link.  
+Is Enabled: Boolean. true to create link.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. True if the success.
-

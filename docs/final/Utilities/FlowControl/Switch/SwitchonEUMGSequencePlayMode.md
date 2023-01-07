@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14245988.png)
+![](/uploads/projects/ue-bluprint/20221218-14245988.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EUMGSequencePlayMode枚举。 
+选择。EUMGSequencePlayMode 枚举。
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 Ping Pong（乒乓）。Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14245988.png)
+![](/uploads/projects/ue-bluprint/20221218-14245988.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EUMGSequencePlayMode Enum.  
+Selection: EUMGSequencePlayMode Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Forward: Exec.
 Reverse: Exec.
 
 Ping Pong: Exec.
-

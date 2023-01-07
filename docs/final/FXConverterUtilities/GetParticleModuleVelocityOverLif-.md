@@ -2,17 +2,17 @@
 
 获取粒子模块速度超过寿命的道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19030930.png)
+![](/uploads/projects/ue-bluprint/20221218-19030930.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。速度/生命对象参考。  
+粒子模块。速度/生命对象参考。
 
 ## Outputs
 
@@ -26,19 +26,21 @@ Out Vel Over Life:分销对象参考。
 
 出应用业主规模。布尔型。
 
+<hr>
+
 Get Particle Module Velocity Over Lifetime Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19030930.png)
+![](/uploads/projects/ue-bluprint/20221218-19030930.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Velocity/ Life Object Reference.  
+Particle Module: Velocity/ Life Object Reference.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Out Absolute: Boolean.
 Out in World Space: Boolean.
 
 Out Apply Owner Scale: Boolean.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17305206.png)
+![](/uploads/projects/ue-bluprint/20221218-17305206.png)
 
 ## Inputs
 
@@ -14,13 +14,15 @@
 
 目标。游戏能力对象参考。
 
-游戏提示标签。Gameplay Tag结构。
+游戏提示标签。Gameplay Tag 结构。
 
-Gameplay Cue Parameters（游戏提示参数）。Gameplay Cue Parameters结构（通过参考）。 
+Gameplay Cue Parameters（游戏提示参数）。Gameplay Cue Parameters 结构（通过参考）。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Invoke a gameplay cue on the ability owner, with extra parameters
 
@@ -28,7 +30,7 @@ Target is Gameplay Ability
 
 ## 图示
 
-![]($-20221218-17305206.png)
+![](/uploads/projects/ue-bluprint/20221218-17305206.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Gameplay Ability Object Reference.
 
 Gameplay Cue Tag: Gameplay Tag Structure.
 
-Gameplay Cue Parameters: Gameplay Cue Parameters Structure (by ref).  
+Gameplay Cue Parameters: Gameplay Cue Parameters Structure (by ref).
 
 ## Outputs
 
 Out: Exec.
-

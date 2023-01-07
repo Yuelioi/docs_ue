@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19435486.png)
+![](/uploads/projects/ue-bluprint/20221218-19435486.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 方向。矢量。
 
-半径。Float（单精度）。  
+半径。Float（单精度）。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets visibility of the first point hit by the given ray.
 
@@ -30,7 +32,7 @@ Target is Lidar Point Cloud Blueprint Library
 
 ## 图示
 
-![]($-20221218-19435486.png)
+![](/uploads/projects/ue-bluprint/20221218-19435486.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Origin: Vector.
 
 Direction: Vector.
 
-Radius: Float (single-precision).  
+Radius: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

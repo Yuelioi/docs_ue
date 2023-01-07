@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19001364.png)
+![](/uploads/projects/ue-bluprint/20221218-19001364.png)
 
 ## Inputs
 
@@ -16,17 +16,19 @@
 
 中心位置。矢量。波场的中心位置。
 
-波长。浮点数（单精度）。2个波峰之间的距离。
+波长。浮点数（单精度）。2 个波峰之间的距离。
 
 波动周期。Float（单精度）。波浪从一个波峰到另一个波峰所需的时间。波速与波长/周期成正比。
 
-波浪函数。EWaveFunctionType枚举。用于该领域的波浪函数。
+波浪函数。EWaveFunctionType 枚举。用于该领域的波浪函数。
 
-漂移类型。EFieldFalloffType枚举。如果选择了falloff函数，则使用falloff函数的类型。  
+漂移类型。EFieldFalloffType 枚举。如果选择了 falloff 函数，则使用 falloff 函数的类型。
 
 ## Outputs
 
-返回值。Wave Scalar对象参考。
+返回值。Wave Scalar 对象参考。
+
+<hr>
 
 Set a temporal wave scalar value according to the sample distance from the field position.
 
@@ -34,7 +36,7 @@ Target is Wave Scalar
 
 ## 图示
 
-![]($-20221218-19001364.png)
+![](/uploads/projects/ue-bluprint/20221218-19001364.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Wave Period: Float (single-precision). Time over which the wave will travel from
 
 Wave Function: EWaveFunctionType Enum. Wave function used for the field.
 
-Falloff Type: EFieldFalloffType Enum. Type of falloff function used if the falloff function is picked.  
+Falloff Type: EFieldFalloffType Enum. Type of falloff function used if the falloff function is picked.
 
 ## Outputs
 
 Return Value: Wave Scalar Object Reference.
-

@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-20474794.png)
+![](/uploads/projects/ue-bluprint/20221218-20474794.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Scroll Box对象参考。
+目标。Scroll Box 对象参考。
 
-新的消耗鼠标轮。EConsumeMouseWheel Enum.  
+新的消耗鼠标轮。EConsumeMouseWheel Enum.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Consume Mouse Wheel
 
@@ -26,7 +28,7 @@ Target is Scroll Box
 
 ## 图示
 
-![]($-20221218-20474794.png)
+![](/uploads/projects/ue-bluprint/20221218-20474794.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Scroll Box Object Reference.
 
-New Consume Mouse Wheel: EConsumeMouseWheel Enum.  
+New Consume Mouse Wheel: EConsumeMouseWheel Enum.
 
 ## Outputs
 
 Out: Exec.
-

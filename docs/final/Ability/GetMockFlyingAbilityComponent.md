@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17321478.png)
+![](/uploads/projects/ue-bluprint/20221218-17321478.png)
 
 ## Inputs
 
-目标。Network Prediction Extras Flying Pawn Mock Ability对象参考。 
+目标。Network Prediction Extras Flying Pawn Mock Ability 对象参考。
 
 ## Outputs
 
 返回值。模拟飞行能力组件对象参考。获取模拟飞行能力组件。
+
+<hr>
 
 Get Mock Flying Ability Component
 
@@ -22,13 +24,12 @@ Target is Network Prediction Extras Flying Pawn Mock Ability
 
 ## 图示
 
-![]($-20221218-17321478.png)
+![](/uploads/projects/ue-bluprint/20221218-17321478.png)
 
 ## Inputs
 
-Target: Network Prediction Extras Flying Pawn Mock Ability Object Reference.  
+Target: Network Prediction Extras Flying Pawn Mock Ability Object Reference.
 
 ## Outputs
 
 Return Value: Mock Flying Ability Component Object Reference. Get Mock Flying Ability Component.
-

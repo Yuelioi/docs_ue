@@ -4,22 +4,24 @@
 
 ## 图示
 
-![]($-20221218-18552548.png)
+![](/uploads/projects/ue-bluprint/20221218-18552548.png)
 
 ## Inputs
 
 ## Outputs
 
 返回值。游戏功能子系统对象参考。
+
+<hr>
+
 Get Game Features Subsystem an Engine Subsystem
 
 ## 图示
 
-![]($-20221218-18552548.png)
+![](/uploads/projects/ue-bluprint/20221218-18552548.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Game Features Subsystem Object Reference.
-

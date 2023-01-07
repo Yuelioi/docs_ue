@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-20192126.png)
+![](/uploads/projects/ue-bluprint/20221218-20192126.png)
 
 ## Inputs
 
-目标。卒子对象参考。  
+目标。卒子对象参考。
 
 ## Outputs
 
 返回值。布尔值。是否被控制。
+
+<hr>
 
 Is Controlled
 
@@ -22,13 +24,12 @@ Target is Pawn
 
 ## 图示
 
-![]($-20221218-20192126.png)
+![](/uploads/projects/ue-bluprint/20221218-20192126.png)
 
 ## Inputs
 
-Target: Pawn Object Reference.  
+Target: Pawn Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Is Controlled.
-

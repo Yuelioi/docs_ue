@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-20563493.png)
+![](/uploads/projects/ue-bluprint/20221218-20563493.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
@@ -18,21 +18,22 @@ In: Exec.
 
 返回值。布尔值。如果启动成功则为真。
 
+<hr>
+
 Starts requesting location updates from the appropriate Location Service
 
 Target is Location Services
 
 ## 图示
 
-![]($-20221218-20563493.png)
+![](/uploads/projects/ue-bluprint/20221218-20563493.png)
 
 ## Inputs
 
-In: Exec.  
+In: Exec.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if startup successful.
-

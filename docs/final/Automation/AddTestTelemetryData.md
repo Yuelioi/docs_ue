@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18093045.png)
+![](/uploads/projects/ue-bluprint/20221218-18093045.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 测量值。Float (single-precision).
 
-语境。字符串。 
+语境。字符串。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Add Telemetry data to currently running automated test.
 
@@ -28,7 +30,7 @@ Target is Automation Blueprint Function Library
 
 ## 图示
 
-![]($-20221218-18093045.png)
+![](/uploads/projects/ue-bluprint/20221218-18093045.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Data Point: String.
 
 Measurement: Float (single-precision).
 
-Context: String.  
+Context: String.
 
 ## Outputs
 
 Out: Exec.
-

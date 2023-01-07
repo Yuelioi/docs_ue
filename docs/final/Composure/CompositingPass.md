@@ -1,12 +1,8 @@
 # CompositingPass
 
-On this page 
+On this page
 
-  * Actions
-
-
-
-
+- Actions
 
 ## Actions
 
@@ -16,14 +12,11 @@ Request Natively Formatted Target. , meta = (BlueprintProtected = "true"): Targe
 
 Request Render Target. , meta = (BlueprintProtected = "true"): Target is Compositing Element Pass.
 
+<hr>
 
-On this page 
+On this page
 
-  * Actions
-
-
-
-
+- Actions
 
 ## Actions
 
@@ -32,4 +25,3 @@ Release Render Target. , meta = (BlueprintProtected = "true"): Target is Composi
 Request Natively Formatted Target. , meta = (BlueprintProtected = "true"): Target is Compositing Element Pass.
 
 Request Render Target. , meta = (BlueprintProtected = "true"): Target is Compositing Element Pass.
-

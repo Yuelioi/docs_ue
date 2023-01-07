@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20562609.png)
+![](/uploads/projects/ue-bluprint/20221218-20562609.png)
 
 ## Inputs
 
 在。执行。
 
-目标。Sequencer Playlist Player对象参考。  
+目标。Sequencer Playlist Player 对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。布尔值。全部停止。
 
+<hr>
+
 Stop All
 
 Target is Sequencer Playlist Player
 
 ## 图示
 
-![]($-20221218-20562609.png)
+![](/uploads/projects/ue-bluprint/20221218-20562609.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Sequencer Playlist Player Object Reference.  
+Target: Sequencer Playlist Player Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Stop All.
-

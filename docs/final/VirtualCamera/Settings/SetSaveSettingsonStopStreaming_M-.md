@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21270171.png)
+![](/uploads/projects/ue-bluprint/20221218-21270171.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。对象参考。
 
-应该保存设置。布尔值。  
+应该保存设置。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets whether settings should be saved when stream is stopped.
 
@@ -26,7 +28,7 @@ Target is Virtual Camera Controller
 
 ## 图示
 
-![]($-20221218-21270171.png)
+![](/uploads/projects/ue-bluprint/20221218-21270171.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Object Reference.
 
-Should Settings Save: Boolean.  
+Should Settings Save: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

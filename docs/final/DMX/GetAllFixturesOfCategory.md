@@ -1,28 +1,30 @@
 # GetAllFixturesOfCategory
 
-返回给定类别的Fixture Patch对象数组的引用。
+返回给定类别的 Fixture Patch 对象数组的引用。
 
-目标是DMXSubsystem
+目标是 DMXSubsystem
 
 ## 图示
 
-![]($-20221218-18440339.png)
+![](/uploads/projects/ue-bluprint/20221218-18440339.png)
 
 ## Inputs
 
 在。执行。
 
-目标。DMXSubsystem对象参考。
+目标。DMXSubsystem 对象参考。
 
-DMXLibrary。DMXLibrary对象参考。
+DMXLibrary。DMXLibrary 对象参考。
 
-类别。DMXFixture类别结构。  
+类别。DMXFixture 类别结构。
 
 ## Outputs
 
 出：执行。
 
-输出结果。DMX灯具补丁对象的数组参考。
+输出结果。DMX 灯具补丁对象的数组参考。
+
+<hr>
 
 Return reference to array of Fixture Patch objects of a given category.
 
@@ -30,7 +32,7 @@ Target is DMXSubsystem
 
 ## 图示
 
-![]($-20221218-18440339.png)
+![](/uploads/projects/ue-bluprint/20221218-18440339.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: DMXSubsystem Object Reference.
 
 DMXLibrary: DMXLibrary Object Reference.
 
-Category: DMXFixture Category Structure.  
+Category: DMXFixture Category Structure.
 
 ## Outputs
 
 Out: Exec.
 
 Out Result: Array of DMX Fixture Patch Object References.
-

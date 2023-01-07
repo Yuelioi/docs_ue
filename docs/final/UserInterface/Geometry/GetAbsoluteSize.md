@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21214878.png)
+![](/uploads/projects/ue-bluprint/20221218-21214878.png)
 
 ## Inputs
 
-几何学。几何结构（由裁判）。  
+几何学。几何结构（由裁判）。
 
 ## Outputs
 
-返回值。矢量2D结构。返回几何体在绝对空间中的大小。
+返回值。矢量 2D 结构。返回几何体在绝对空间中的大小。
+
+<hr>
 
 Returns the size of the geometry in absolute space.
 
@@ -22,13 +24,12 @@ Target is Slate Blueprint Library
 
 ## 图示
 
-![]($-20221218-21214878.png)
+![](/uploads/projects/ue-bluprint/20221218-21214878.png)
 
 ## Inputs
 
-Geometry: Geometry Structure (by ref).  
+Geometry: Geometry Structure (by ref).
 
 ## Outputs
 
 Return Value: Vector 2D Structure. Returns the size of the geometry in absolute space..
-

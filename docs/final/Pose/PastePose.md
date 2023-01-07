@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20302376.png)
+![](/uploads/projects/ue-bluprint/20221218-20302376.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 做键。布尔型。
 
-做镜像。布尔型。  
+做镜像。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Paste Pose
 
@@ -30,7 +32,7 @@ Target is Control Rig Pose Asset
 
 ## 图示
 
-![]($-20221218-20302376.png)
+![](/uploads/projects/ue-bluprint/20221218-20302376.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ In Control Rig: Control Rig Object Reference.
 
 Do Key: Boolean.
 
-Do Mirror: Boolean.  
+Do Mirror: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

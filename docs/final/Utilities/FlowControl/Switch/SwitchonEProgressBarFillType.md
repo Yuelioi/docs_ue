@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14223150.png)
+![](/uploads/projects/ue-bluprint/20221218-14223150.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EProgressBarFillType枚举。 
+选择。EProgressBarFillType 枚举。
 
 ## Outputs
 
@@ -28,17 +28,19 @@ Right To Left: 从右到左：Exec.
 
 底部到顶部：执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14223150.png)
+![](/uploads/projects/ue-bluprint/20221218-14223150.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EProgressBarFillType Enum.  
+Selection: EProgressBarFillType Enum.
 
 ## Outputs
 
@@ -55,4 +57,3 @@ Fill From Center Vertical: Exec.
 Top To Bottom: Exec.
 
 Bottom To Top: Exec.
-

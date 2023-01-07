@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18510140.png)
+![](/uploads/projects/ue-bluprint/20221218-18510140.png)
 
 ## Inputs
 
@@ -19,23 +19,25 @@
 出：执行。
 
 返回值。世界对象参考。获取游戏世界。
+
+<hr>
+
 Get Game World
 
 Target is Unreal Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18510140.png)
+![](/uploads/projects/ue-bluprint/20221218-18510140.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Unreal Editor Subsystem Object Reference.  
+Target: Unreal Editor Subsystem Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: World Object Reference. Get Game World.
-

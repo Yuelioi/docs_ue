@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-18425876.png)
+![](/uploads/projects/ue-bluprint/20221218-18425876.png)
 
 ## Inputs
 
 在。执行。
 
-端点标识。整数。  
+端点标识。整数。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。布尔值。删除端点。
 
+<hr>
+
 Delete Endpoint
 
 Target is Direct Link Test Library
 
 ## 图示
 
-![]($-20221218-18425876.png)
+![](/uploads/projects/ue-bluprint/20221218-18425876.png)
 
 ## Inputs
 
 In: Exec.
 
-Endpoint Id: Integer.  
+Endpoint Id: Integer.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Delete Endpoint.
-

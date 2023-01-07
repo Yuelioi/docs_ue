@@ -6,11 +6,11 @@
 
 ## 图示
 
-![]($-20221218-18273935.png)
+![](/uploads/projects/ue-bluprint/20221218-18273935.png)
 
 ## Inputs
 
-目标。静态网格组件对象参考。 
+目标。静态网格组件对象参考。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 最大：向量。
 
+<hr>
+
 Get Local bounds
 
 Target is Static Mesh Component
 
 ## 图示
 
-![]($-20221218-18273935.png)
+![](/uploads/projects/ue-bluprint/20221218-18273935.png)
 
 ## Inputs
 
-Target: Static Mesh Component Object Reference.  
+Target: Static Mesh Component Object Reference.
 
 ## Outputs
 
 Min: Vector.
 
 Max: Vector.
-

@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20560164.png)
+![](/uploads/projects/ue-bluprint/20221218-20560164.png)
 
 ## Inputs
 
 在。执行。
 
-轨迹。电影场景属性 轨迹对象参考。要使用的轨道。  
+轨迹。电影场景属性 轨迹对象参考。要使用的轨道。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。名称。该轨道的唯一名称。
 
+<hr>
+
 Get this track's unique name
 
 Target is Movie Scene Property Track Extensions
 
 ## 图示
 
-![]($-20221218-20560164.png)
+![](/uploads/projects/ue-bluprint/20221218-20560164.png)
 
 ## Inputs
 
 In: Exec.
 
-Track: Movie Scene Property Track Object Reference. The track to use.  
+Track: Movie Scene Property Track Object Reference. The track to use.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Name. This track's unique name.
-

@@ -2,11 +2,11 @@
 
 设置加载屏幕
 
-目标是XRLoading屏幕功能库
+目标是 XRLoading 屏幕功能库
 
 ## 图示
 
-![]($-20221218-19240442.png)
+![](/uploads/projects/ue-bluprint/20221218-19240442.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@
 
 显示加载中的电影。布尔值。
 
-设置时显示。布尔型。  
+设置时显示。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set Loading Screen
 
@@ -32,7 +34,7 @@ Target is XRLoading Screen Function Library
 
 ## 图示
 
-![]($-20221218-19240442.png)
+![](/uploads/projects/ue-bluprint/20221218-19240442.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Offset: Vector.
 
 Show Loading Movie: Boolean.
 
-Show on Set: Boolean.  
+Show on Set: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -4,13 +4,13 @@ Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14160577.png)
+![](/uploads/projects/ue-bluprint/20221218-14160577.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAnimDataModelNotifyType Enum.  
+Selection: EAnimDataModelNotifyType Enum.
 
 ## Outputs
 
@@ -53,17 +53,20 @@ Populated: Exec.
 Reset: Exec.
 
 Invalid: Exec.
+
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14160577.png)
+![](/uploads/projects/ue-bluprint/20221218-14160577.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAnimDataModelNotifyType Enum.  
+Selection: EAnimDataModelNotifyType Enum.
 
 ## Outputs
 
@@ -106,4 +109,3 @@ Populated: Exec.
 Reset: Exec.
 
 Invalid: Exec.
-

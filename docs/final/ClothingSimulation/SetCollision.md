@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18181564.png)
+![](/uploads/projects/ue-bluprint/20221218-18181564.png)
 
 ## Inputs
 
@@ -18,13 +18,15 @@
 
 摩擦系数。浮点（单精度）。
 
-使用CCD：布尔值。
+使用 CCD：布尔值。
 
-自身碰撞厚度。浮点（单精度）。 
+自身碰撞厚度。浮点（单精度）。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Collision
 
@@ -32,7 +34,7 @@ Target is Chaos Clothing Interactor
 
 ## 图示
 
-![]($-20221218-18181564.png)
+![](/uploads/projects/ue-bluprint/20221218-18181564.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Friction Coefficient: Float (single-precision).
 
 Use CCD: Boolean.
 
-Self Collision Thickness: Float (single-precision).  
+Self Collision Thickness: Float (single-precision).
 
 ## Outputs
 
 Out: Exec.
-

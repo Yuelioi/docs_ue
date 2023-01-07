@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18040164.png)
+![](/uploads/projects/ue-bluprint/20221218-18040164.png)
 
 ## Inputs
 
 在。执行。
 
-Sound Submix: 声音子混音对象参考。 
+Sound Submix: 声音子混音对象参考。
 
 ## Outputs
 
 输出。Exec.
+
+<hr>
 
 Clears all submix effects on the given submix.
 
@@ -24,15 +26,14 @@ Target is Audio Mixer Blueprint Library
 
 ## 图示
 
-![]($-20221218-18040164.png)
+![](/uploads/projects/ue-bluprint/20221218-18040164.png)
 
 ## Inputs
 
 In: Exec.
 
-Sound Submix: Sound Submix Object Reference.  
+Sound Submix: Sound Submix Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

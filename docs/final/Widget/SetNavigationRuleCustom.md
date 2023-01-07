@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21362888.png)
+![](/uploads/projects/ue-bluprint/20221218-21362888.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 方向。EUINavigation Enum.
 
-在自定义委托。代表。将被调用的自定义委托。  
+在自定义委托。代表。将被调用的自定义委托。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets the widget navigation rules for a specific direction. This can only be called on widgets that are in a widget tree. This works only for Custom Rule.
 
@@ -28,7 +30,7 @@ Target is Widget
 
 ## 图示
 
-![]($-20221218-21362888.png)
+![](/uploads/projects/ue-bluprint/20221218-21362888.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Widget Object Reference.
 
 Direction: EUINavigation Enum.
 
-In Custom Delegate: Delegate. Custom Delegate that will be called.  
+In Custom Delegate: Delegate. Custom Delegate that will be called.
 
 ## Outputs
 
 Out: Exec.
-

@@ -2,11 +2,11 @@
 
 按预设名称设置当前的预设设置。
 
-目标是Cine Camera组件
+目标是 Cine Camera 组件
 
 ## 图示
 
-![]($-20221218-18162598.png)
+![](/uploads/projects/ue-bluprint/20221218-18162598.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Cine Camera Component 对象参考。
 
-在预设名称。字符串。 
+在预设名称。字符串。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set the current preset settings by preset name.
 
@@ -26,7 +28,7 @@ Target is Cine Camera Component
 
 ## 图示
 
-![]($-20221218-18162598.png)
+![](/uploads/projects/ue-bluprint/20221218-18162598.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Cine Camera Component Object Reference.
 
-In Preset Name: String.  
+In Preset Name: String.
 
 ## Outputs
 
 Out: Exec.
-

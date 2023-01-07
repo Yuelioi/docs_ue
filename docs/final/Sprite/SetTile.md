@@ -1,12 +1,12 @@
 # SetTile
 
-修改指定的瓦片单元的内容（注意：这只对拥有自己瓦片图的组件有效（OwnsTileMap返回true），你不能修改独立的瓦片图资产）。注意：默认情况下不更新碰撞，如果有必要，在一帧中完成所有编辑后再调用RebuildCollision。
+修改指定的瓦片单元的内容（注意：这只对拥有自己瓦片图的组件有效（OwnsTileMap 返回 true），你不能修改独立的瓦片图资产）。注意：默认情况下不更新碰撞，如果有必要，在一帧中完成所有编辑后再调用 RebuildCollision。
 
 目标是纸质瓦片地图组件
 
 ## 图示
 
-![]($-20221218-21025229.png)
+![](/uploads/projects/ue-bluprint/20221218-21025229.png)
 
 ## Inputs
 
@@ -20,11 +20,13 @@ Y：整数。
 
 层：整数。
 
-新的价值。Paper Tile 信息结构。  
+新的价值。Paper Tile 信息结构。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Modifies the contents of a specified tile cell (Note: This will only work on components that own their own tile map (OwnsTileMap returns true), you cannot modify standalone tile map assets). Note: Does not update collision by default, call RebuildCollision after all edits have been done in a frame if necessary
 
@@ -32,7 +34,7 @@ Target is Paper Tile Map Component
 
 ## 图示
 
-![]($-20221218-21025229.png)
+![](/uploads/projects/ue-bluprint/20221218-21025229.png)
 
 ## Inputs
 
@@ -46,9 +48,8 @@ Y: Integer.
 
 Layer: Integer.
 
-New Value: Paper Tile Info Structure.  
+New Value: Paper Tile Info Structure.
 
 ## Outputs
 
 Out: Exec.
-

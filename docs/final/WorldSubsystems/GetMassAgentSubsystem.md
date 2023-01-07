@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21375919.png)
+![](/uploads/projects/ue-bluprint/20221218-21375919.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。质量代理子系统对象参考。
 
+<hr>
+
 Get Mass Agent Subsystem (World Subsystem)
 
 A subsystem managing communication between Actors and Mass
 
 ## 图示
 
-![]($-20221218-21375919.png)
+![](/uploads/projects/ue-bluprint/20221218-21375919.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Mass Agent Subsystem Object Reference.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17300467.png)
+![](/uploads/projects/ue-bluprint/20221218-17300467.png)
 
 ## Inputs
 
@@ -14,13 +14,13 @@
 
 目标。游戏能力对象参考。
 
-目标数据。Gameplay Ability Target Data Handle结构。
+目标数据。Gameplay Ability Target Data Handle 结构。
 
 Gameplay Effect Class: Gameplay Effect Class Reference（游戏效果类别参考）。
 
 Gameplay Effect Level（游戏效果等级）。整数。
 
-堆栈。整数。 
+堆栈。整数。
 
 ## Outputs
 
@@ -28,13 +28,15 @@ Gameplay Effect Level（游戏效果等级）。整数。
 
 返回值。活动的游戏效果处理结构数组。将一个游戏效果应用于一个目标。
 
+<hr>
+
 Apply a gameplay effect to a Target
 
 Target is Gameplay Ability
 
 ## 图示
 
-![]($-20221218-17300467.png)
+![](/uploads/projects/ue-bluprint/20221218-17300467.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Gameplay Effect Class: Gameplay Effect Class Reference.
 
 Gameplay Effect Level: Integer.
 
-Stacks: Integer.  
+Stacks: Integer.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Array of Active Gameplay Effect Handle Structures. Apply a gameplay effect to a Target.
-

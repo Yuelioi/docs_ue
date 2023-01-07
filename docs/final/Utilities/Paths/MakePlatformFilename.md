@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-14281062.png)
+![](/uploads/projects/ue-bluprint/20221218-14281062.png)
 
 ## Inputs
 
-在路径中。字符串。 
+在路径中。字符串。
 
 ## Outputs
 
 输出路径。字符串。
+
+<hr>
 
 Takes an "Unreal" pathname and converts it to a platform filename.
 
@@ -22,13 +24,12 @@ Target is Blueprint Paths Library
 
 ## 图示
 
-![]($-20221218-14281062.png)
+![](/uploads/projects/ue-bluprint/20221218-14281062.png)
 
 ## Inputs
 
-In Path: String.  
+In Path: String.
 
 ## Outputs
 
 Out Path: String.
-

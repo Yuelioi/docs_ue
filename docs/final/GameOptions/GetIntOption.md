@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19080077.png)
+![](/uploads/projects/ue-bluprint/20221218-19080077.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 钥匙。字符串。要在选项中查找的键值...
 
-默认值。整数。  
+默认值。整数。
 
 ## Outputs
 
-返回值。整数。如果在选项字符串中找到Key，则为整数，否则为默认值。
+返回值。整数。如果在选项字符串中找到 Key，则为整数，否则为默认值。
+
+<hr>
 
 Find an option in the options string and return it as an integer.
 
@@ -26,7 +28,7 @@ Target is Gameplay Statics
 
 ## 图示
 
-![]($-20221218-19080077.png)
+![](/uploads/projects/ue-bluprint/20221218-19080077.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ Options: String. The string containing the options..
 
 Key: String. The key to find the value of in Options..
 
-Default Value: Integer.  
+Default Value: Integer.
 
 ## Outputs
 
 Return Value: Integer. The value associated with Key as an integer if Key found in Options string, otherwise DefaultValue..
-

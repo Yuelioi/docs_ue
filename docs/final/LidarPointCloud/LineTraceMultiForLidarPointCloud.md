@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19433036.png)
+![](/uploads/projects/ue-bluprint/20221218-19433036.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 半径。Float（单精度）。
 
-仅可见。布尔型。  
+仅可见。布尔型。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。沿着给定的线路进行碰撞追踪，并返回所有遇到的撞击，包括第一个阻挡撞击。
 
+<hr>
+
 Does a collision trace along the given line and returns all hits encountered up to and including the first blocking hit.
 
 Target is Lidar Point Cloud Blueprint Library
 
 ## 图示
 
-![]($-20221218-19433036.png)
+![](/uploads/projects/ue-bluprint/20221218-19433036.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Direction: Vector.
 
 Radius: Float (single-precision).
 
-Visible Only: Boolean.  
+Visible Only: Boolean.
 
 ## Outputs
 
 Hits: Array of Lidar Point Cloud Trace Hit Structures.
 
 Return Value: Boolean. Does a collision trace along the given line and returns all hits encountered up to and including the first blocking hit..
-

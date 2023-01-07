@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20520014.png)
+![](/uploads/projects/ue-bluprint/20221218-20520014.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。模板序列演员对象参考。
 
-在序列中。Template Sequence Object Reference.  
+在序列中。Template Sequence Object Reference.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the template sequence being played by this actor.
 
@@ -26,7 +28,7 @@ Target is Template Sequence Actor
 
 ## 图示
 
-![]($-20221218-20520014.png)
+![](/uploads/projects/ue-bluprint/20221218-20520014.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Template Sequence Actor Object Reference.
 
-In Sequence: Template Sequence Object Reference.  
+In Sequence: Template Sequence Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-19455891.png)
+![](/uploads/projects/ue-bluprint/20221218-19455891.png)
 
 ## Inputs
 
 在。执行。
 
-目标。大众演员可汇集的界面界面。  
+目标。大众演员可汇集的界面界面。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。布尔值。可以是集合的。
 
+<hr>
+
 Can be Pooled
 
 Target is Mass Actor Poolable Interface
 
 ## 图示
 
-![]($-20221218-19455891.png)
+![](/uploads/projects/ue-bluprint/20221218-19455891.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Mass Actor Poolable Interface Interface.  
+Target: Mass Actor Poolable Interface Interface.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Can be Pooled.
-

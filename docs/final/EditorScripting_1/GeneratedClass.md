@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18542703.png)
+![](/uploads/projects/ue-bluprint/20221218-18542703.png)
 
 ## Inputs
 
@@ -18,24 +18,26 @@ Blueprint Obj: 蓝图对象参考。蓝图对象。
 
 输出。执行。
 
-返回值。对象类参考。UClass* 生成的类。
+返回值。对象类参考。UClass\* 生成的类。
+
+<hr>
+
 Gets the class generated when this blueprint is compiled
 
 Target is Blueprint Editor Library
 
 ## 图示
 
-![]($-20221218-18542703.png)
+![](/uploads/projects/ue-bluprint/20221218-18542703.png)
 
 ## Inputs
 
 In: Exec.
 
-Blueprint Obj: Blueprint Object Reference. The blueprint object.  
+Blueprint Obj: Blueprint Object Reference. The blueprint object.
 
 ## Outputs
 
 Out: Exec.
 
-Return Value: Object Class Reference. UClass* The generated class.
-
+Return Value: Object Class Reference. UClass\* The generated class.

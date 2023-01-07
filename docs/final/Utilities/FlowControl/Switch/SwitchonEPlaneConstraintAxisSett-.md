@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14222534.png)
+![](/uploads/projects/ue-bluprint/20221218-14222534.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EPlaneConstraintAxisSetting枚举。 
+选择。EPlaneConstraintAxisSetting 枚举。
 
 ## Outputs
 
@@ -24,17 +24,19 @@ Z：执行。
 
 使用全局物理设置。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14222534.png)
+![](/uploads/projects/ue-bluprint/20221218-14222534.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EPlaneConstraintAxisSetting Enum.  
+Selection: EPlaneConstraintAxisSetting Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Y: Exec.
 Z: Exec.
 
 Use Global Physics Setting: Exec.
-

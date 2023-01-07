@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18465760.png)
+![](/uploads/projects/ue-bluprint/20221218-18465760.png)
 
 ## Inputs
 
@@ -19,23 +19,25 @@
 出：执行。
 
 返回值。布尔值。如果操作成功为真。
+
+<hr>
+
 Checkout the asset from the Content Browser.
 
 Target is Editor Asset Library
 
 ## 图示
 
-![]($-20221218-18465760.png)
+![](/uploads/projects/ue-bluprint/20221218-18465760.png)
 
 ## Inputs
 
 In: Exec.
 
-Asset to Checkout: String. Asset Path of the asset that we want to checkout..  
+Asset to Checkout: String. Asset Path of the asset that we want to checkout..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. True if the operation succeeds..
-

@@ -1,12 +1,12 @@
 # SphereTraceByChannel
 
-沿着给定的线扫过一个球体，并返回遇到的第一个阻断点。该跟踪找到响应给定TraceChannel的对象
+沿着给定的线扫过一个球体，并返回遇到的第一个阻断点。该跟踪找到响应给定 TraceChannel 的对象
 
-目标是Kismet系统库
+目标是 Kismet 系统库
 
 ## 图示
 
-![]($-20221218-18195361.png)
+![](/uploads/projects/ue-bluprint/20221218-18195361.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 半径。Float（单精度）。要扫描的球体的半径。
 
-追踪通道。ETraceTypeQuery枚举。
+追踪通道。ETraceTypeQuery 枚举。
 
 Trace Complex：布尔值。为真，测试复杂碰撞；为假，测试简化碰撞。
 
@@ -32,7 +32,7 @@ Trace Complex：布尔值。为真，测试复杂碰撞；为假，测试简化�
 
 Trace Hit Color: 线性颜色结构。
 
-绘制时间。浮点数（单精度）。 
+绘制时间。浮点数（单精度）。
 
 ## Outputs
 
@@ -42,13 +42,15 @@ Out Hit: 命中结果结构。追踪命中的属性。
 
 返回值。布尔值。如果有一个命中，则为真，否则为假。
 
+<hr>
+
 Sweeps a sphere along the given line and returns the first blocking hit encountered.. This trace finds the objects that RESPONDS to the given TraceChannel
 
 Target is Kismet System Library
 
 ## 图示
 
-![]($-20221218-18195361.png)
+![](/uploads/projects/ue-bluprint/20221218-18195361.png)
 
 ## Inputs
 
@@ -74,7 +76,7 @@ Trace Color: Linear Color Structure.
 
 Trace Hit Color: Linear Color Structure.
 
-Draw Time: Float (single-precision).  
+Draw Time: Float (single-precision).
 
 ## Outputs
 
@@ -83,4 +85,3 @@ Out: Exec.
 Out Hit: Hit Result Structure. Properties of the trace hit..
 
 Return Value: Boolean. True if there was a hit, false otherwise..
-

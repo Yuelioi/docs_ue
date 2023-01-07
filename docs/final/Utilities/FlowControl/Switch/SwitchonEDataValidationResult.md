@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14181311.png)
+![](/uploads/projects/ue-bluprint/20221218-14181311.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EDataValidationResult Enum.  
+选择。EDataValidationResult Enum.
 
 ## Outputs
 
@@ -20,17 +20,19 @@
 
 未验证。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14181311.png)
+![](/uploads/projects/ue-bluprint/20221218-14181311.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EDataValidationResult Enum.  
+Selection: EDataValidationResult Enum.
 
 ## Outputs
 
@@ -39,4 +41,3 @@ Invalid: Exec.
 Valid: Exec.
 
 Not Validated: Exec.
-

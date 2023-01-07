@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-17512715.png)
+![](/uploads/projects/ue-bluprint/20221218-17512715.png)
 
 ## Inputs
 
-动画序列基础。动画序列基础对象参考。 
+动画序列基础。动画序列基础对象参考。
 
 ## Outputs
 
 轨道名称。名称的数组。
+
+<hr>
 
 Retrieves all Unique Animation Notify Track Names found within the given Animation Sequence
 
@@ -22,13 +24,12 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17512715.png)
+![](/uploads/projects/ue-bluprint/20221218-17512715.png)
 
 ## Inputs
 
-Animation Sequence Base: Anim Sequence Base Object Reference.  
+Animation Sequence Base: Anim Sequence Base Object Reference.
 
 ## Outputs
 
 Track Names: Array of Names.
-

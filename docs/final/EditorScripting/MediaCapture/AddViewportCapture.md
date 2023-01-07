@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18515076.png)
+![](/uploads/projects/ue-bluprint/20221218-18515076.png)
 
 ## Inputs
 
@@ -25,13 +25,16 @@
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Add a camera to be used when capturing the current viewport.
 
 Target is Media Framework Capture Panel
 
 ## 图示
 
-![]($-20221218-18515076.png)
+![](/uploads/projects/ue-bluprint/20221218-18515076.png)
 
 ## Inputs
 
@@ -45,9 +48,8 @@ Camera: Actor Object Reference.
 
 Capture Options: Media Capture Options Structure.
 
-View Mode: EViewModeIndex Enum.  
+View Mode: EViewModeIndex Enum.
 
 ## Outputs
 
 Out: Exec.
-

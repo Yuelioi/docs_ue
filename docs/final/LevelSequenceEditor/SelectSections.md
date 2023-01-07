@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-19414857.png)
+![](/uploads/projects/ue-bluprint/20221218-19414857.png)
 
 ## Inputs
 
 在。执行。
 
-节段。电影场景部分对象的数组参考。  
+节段。电影场景部分对象的数组参考。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Select sections
 
@@ -24,15 +26,14 @@ Target is Level Sequence Editor Blueprint Library
 
 ## 图示
 
-![]($-20221218-19414857.png)
+![](/uploads/projects/ue-bluprint/20221218-19414857.png)
 
 ## Inputs
 
 In: Exec.
 
-Sections: Array of Movie Scene Section Object References.  
+Sections: Array of Movie Scene Section Object References.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21232596.png)
+![](/uploads/projects/ue-bluprint/20221218-21232596.png)
 
 ## Inputs
 
-目标。变体对象参考。  
+目标。变体对象参考。
 
 ## Outputs
 
 返回值。文本。获取显示文本。
+
+<hr>
 
 Get Display Text
 
@@ -22,13 +24,12 @@ Target is Variant
 
 ## 图示
 
-![]($-20221218-21232596.png)
+![](/uploads/projects/ue-bluprint/20221218-21232596.png)
 
 ## Inputs
 
-Target: Variant Object Reference.  
+Target: Variant Object Reference.
 
 ## Outputs
 
 Return Value: Text. Get Display Text.
-

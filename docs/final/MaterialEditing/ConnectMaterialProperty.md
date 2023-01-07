@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19461041.png)
+![](/uploads/projects/ue-bluprint/20221218-19461041.png)
 
 ## Inputs
 
@@ -14,9 +14,9 @@
 
 从表达式。材料表达式对象参考。进行连接的表达式。
 
-从输出名称。字符串。从FromExpression输出的名称，用于建立连接。
+从输出名称。字符串。从 FromExpression 输出的名称，用于建立连接。
 
-属性。EMaterialProperty 枚举。输入材料的属性，以进行连接。  
+属性。EMaterialProperty 枚举。输入材料的属性，以进行连接。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。
 
+<hr>
+
 Connect a material expression output to one of the material property inputs (e.g. diffuse color, opacity etc)
 
 Target is Material Editing Library
 
 ## 图示
 
-![]($-20221218-19461041.png)
+![](/uploads/projects/ue-bluprint/20221218-19461041.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ From Expression: Material Expression Object Reference. Expression to make connec
 
 From Output Name: String. Name of output of FromExpression to make connection from.
 
-Property: EMaterialProperty Enum. Property input on material to make connection to.  
+Property: EMaterialProperty Enum. Property input on material to make connection to.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean.
-

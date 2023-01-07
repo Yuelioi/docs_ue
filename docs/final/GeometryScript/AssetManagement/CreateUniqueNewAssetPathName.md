@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19101104.png)
+![](/uploads/projects/ue-bluprint/20221218-19101104.png)
 
 ## Inputs
 
@@ -18,7 +18,7 @@
 
 选项。Geometry Script Unique Asset Name Options 结构。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -30,13 +30,15 @@
 
 唯一的资产名称。字符串。
 
+<hr>
+
 Create Unique New Asset Path Name
 
 Target is Geometry Script Library Create New Asset Functions
 
 ## 图示
 
-![]($-20221218-19101104.png)
+![](/uploads/projects/ue-bluprint/20221218-19101104.png)
 
 ## Inputs
 
@@ -48,7 +50,7 @@ Base Asset Name: String.
 
 Options: Geometry Script Unique Asset Name Options Structure.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -59,4 +61,3 @@ Success: Exec.
 Unique Asset Path and Name: String.
 
 Unique Asset Name: String.
-

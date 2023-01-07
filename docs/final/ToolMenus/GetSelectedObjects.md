@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21134258.png)
+![](/uploads/projects/ue-bluprint/20221218-21134258.png)
 
 ## Inputs
 
-目标。内容浏览器资产上下文菜单上下文对象参考。  
+目标。内容浏览器资产上下文菜单上下文对象参考。
 
 ## Outputs
 
 返回值。对象引用的数组。获取选定的对象。
+
+<hr>
 
 Get Selected Objects
 
@@ -22,13 +24,12 @@ Target is Content Browser Asset Context Menu Context
 
 ## 图示
 
-![]($-20221218-21134258.png)
+![](/uploads/projects/ue-bluprint/20221218-21134258.png)
 
 ## Inputs
 
-Target: Content Browser Asset Context Menu Context Object Reference.  
+Target: Content Browser Asset Context Menu Context Object Reference.
 
 ## Outputs
 
 Return Value: Array of Object References. Get Selected Objects.
-

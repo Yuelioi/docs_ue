@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19314570.png)
+![](/uploads/projects/ue-bluprint/20221218-19314570.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标：交换材料工厂节点对象参考。
 
-独特的ID：字符串。
+独特的 ID：字符串。
 
 显示标签。字符串。节点的名称。
 
@@ -24,13 +24,15 @@
 
 出：执行。
 
+<hr>
+
 Initialize node data
 
 Target is Interchange Material Factory Node
 
 ## 图示
 
-![]($-20221218-19314570.png)
+![](/uploads/projects/ue-bluprint/20221218-19314570.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Unique ID: String.
 
 Display Label: String. The name of the node.
 
-In Asset Class: String. The class the material factory will create for this node..  
+In Asset Class: String. The class the material factory will create for this node..
 
 ## Outputs
 
 Out: Exec.
-

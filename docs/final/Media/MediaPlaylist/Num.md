@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20020719.png)
+![](/uploads/projects/ue-bluprint/20221218-20020719.png)
 
 ## Inputs
 
 在。执行。
 
-目标。媒体播放列表对象参考。  
+目标。媒体播放列表对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。整数。媒体来源的数量。
 
+<hr>
+
 Get the number of media sources in the play list.
 
 Target is Media Playlist
 
 ## 图示
 
-![]($-20221218-20020719.png)
+![](/uploads/projects/ue-bluprint/20221218-20020719.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Media Playlist Object Reference.  
+Target: Media Playlist Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. Number of media sources..
-

@@ -6,17 +6,19 @@
 
 ## 图示
 
-![]($-20221218-18303099.png)
+![](/uploads/projects/ue-bluprint/20221218-18303099.png)
 
 ## Inputs
 
 目标。上下文动画管理器对象参考。
 
-演员。演员对象参考。 
+演员。演员对象参考。
 
 ## Outputs
 
 返回值: 上下文动画的场景演员组件对象参考。找到最接近演员的场景演员组件。
+
+<hr>
 
 Find Closest Scene Actor Comp to Actor
 
@@ -24,15 +26,14 @@ Target is Contextual Anim Manager
 
 ## 图示
 
-![]($-20221218-18303099.png)
+![](/uploads/projects/ue-bluprint/20221218-18303099.png)
 
 ## Inputs
 
 Target: Contextual Anim Manager Object Reference.
 
-Actor: Actor Object Reference.  
+Actor: Actor Object Reference.
 
 ## Outputs
 
 Return Value: Contextual Anim Scene Actor Component Object Reference. Find Closest Scene Actor Comp to Actor.
-

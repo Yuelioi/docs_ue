@@ -4,23 +4,26 @@
 
 如果自动分配地址被设置为真，则关闭自动分配地址。
 
-目标是DMX灯具补丁
+目标是 DMX 灯具补丁
 
 ## 图示
 
-![]($-20221218-18435885.png)
+![](/uploads/projects/ue-bluprint/20221218-18435885.png)
 
 ## Inputs
 
 在。执行。
 
-目标。DMX灯具补丁对象参考。
+目标。DMX 灯具补丁对象参考。
 
 新的起始通道。整数。
 
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Sets the starting channel of the Fixture Patch.
 
 If Auto Assign Address was set to true, turns off Auto Assign Address.
@@ -29,7 +32,7 @@ Target is DMX Fixture Patch
 
 ## 图示
 
-![]($-20221218-18435885.png)
+![](/uploads/projects/ue-bluprint/20221218-18435885.png)
 
 ## Inputs
 
@@ -37,9 +40,8 @@ In: Exec.
 
 Target: DMX Fixture Patch Object Reference.
 
-New Starting Channel: Integer.  
+New Starting Channel: Integer.
 
 ## Outputs
 
 Out: Exec.
-

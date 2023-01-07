@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18314627.png)
+![](/uploads/projects/ue-bluprint/20221218-18314627.png)
 
 ## Inputs
 
-目标。控制钻机对象参考。 
+目标。控制钻机对象参考。
 
 ## Outputs
 
-返回值。Rig VM对象参考。获取虚拟机。
+返回值。Rig VM 对象参考。获取虚拟机。
+
+<hr>
 
 Get VM
 
@@ -22,13 +24,12 @@ Target is Control Rig
 
 ## 图示
 
-![]($-20221218-18314627.png)
+![](/uploads/projects/ue-bluprint/20221218-18314627.png)
 
 ## Inputs
 
-Target: Control Rig Object Reference.  
+Target: Control Rig Object Reference.
 
 ## Outputs
 
 Return Value: Rig VM Object Reference. Get VM.
-

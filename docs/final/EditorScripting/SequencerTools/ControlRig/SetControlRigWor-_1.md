@@ -1,12 +1,12 @@
-# SetControlRigWor-_1
+# SetControlRigWor-\_1
 
-将ControlRig Control的世界变换设置在一个特定的时间。
+将 ControlRig Control 的世界变换设置在一个特定的时间。
 
-目标是Control Rig Sequencer Editor Library
+目标是 Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18531259.png)
+![](/uploads/projects/ue-bluprint/20221218-18531259.png)
 
 ## Inputs
 
@@ -22,18 +22,21 @@
 
 世界变换。转化的阵列。
 
-时间单位。ESequenceTimeUnit枚举。帧值的单位，可以是显示率，也可以是tick分辨率。
+时间单位。ESequenceTimeUnit 枚举。帧值的单位，可以是显示率，也可以是 tick 分辨率。
 
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Set ControlRig Control's World Transforms at a specific times.
 
 Target is Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18531259.png)
+![](/uploads/projects/ue-bluprint/20221218-18531259.png)
 
 ## Inputs
 
@@ -49,9 +52,8 @@ Frames: Array of Frame Number Structures. Times to set the transform.
 
 World Transforms: Array of Transforms.
 
-Time Unit: ESequenceTimeUnit Enum. Unit for frame values, either in display rate or tick resolution.  
+Time Unit: ESequenceTimeUnit Enum. Unit for frame values, either in display rate or tick resolution.
 
 ## Outputs
 
 Out: Exec.
-

@@ -2,11 +2,11 @@
 
 日志框的形状 - 视觉日志的记录必须启用，以记录该数据。
 
-目标是Visual Logger Kismet库
+目标是 Visual Logger Kismet 库
 
 ## 图示
 
-![]($-20221218-18412503.png)
+![](/uploads/projects/ue-bluprint/20221218-18412503.png)
 
 ## Inputs
 
@@ -22,11 +22,13 @@
 
 日志类别。名称。
 
-添加到消息日志。布尔值。  
+添加到消息日志。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Logs box shape - recording for Visual Logs has to be enabled to record this data
 
@@ -34,7 +36,7 @@ Target is Visual Logger Kismet Library
 
 ## 图示
 
-![]($-20221218-18412503.png)
+![](/uploads/projects/ue-bluprint/20221218-18412503.png)
 
 ## Inputs
 
@@ -50,9 +52,8 @@ Object Color: Linear Color Structure.
 
 Log Category: Name.
 
-Add to Message Log: Boolean.  
+Add to Message Log: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

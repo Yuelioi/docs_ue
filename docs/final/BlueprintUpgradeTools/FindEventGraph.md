@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-18114030.png)
+![](/uploads/projects/ue-bluprint/20221218-18114030.png)
 
 ## Inputs
 
 在。执行。
 
-蓝图。Blueprint Object Reference. 要搜索事件图的蓝图。 
+蓝图。Blueprint Object Reference. 要搜索事件图的蓝图。
 
 ## Outputs
 
 输出。执行。
 
-返回值。Ed Graph对象参考。UEdGraph* 蓝图的事件图（如果它有的话），如果它没有的话则为空。
+返回值。Ed Graph 对象参考。UEdGraph\* 蓝图的事件图（如果它有的话），如果它没有的话则为空。
+
+<hr>
 
 Finds the event graph of the given blueprint. Null if it doesn't have one. This will only return. the primary event graph of the blueprint (the graph named "EventGraph").
 
@@ -26,17 +28,16 @@ Target is Blueprint Editor Library
 
 ## 图示
 
-![]($-20221218-18114030.png)
+![](/uploads/projects/ue-bluprint/20221218-18114030.png)
 
 ## Inputs
 
 In: Exec.
 
-Blueprint: Blueprint Object Reference. Blueprint to search for the event graph on.  
+Blueprint: Blueprint Object Reference. Blueprint to search for the event graph on.
 
 ## Outputs
 
 Out: Exec.
 
-Return Value: Ed Graph Object Reference. UEdGraph* Event graph of the blueprint if it has one, null if it doesn't have one.
-
+Return Value: Ed Graph Object Reference. UEdGraph\* Event graph of the blueprint if it has one, null if it doesn't have one.

@@ -2,11 +2,7 @@
 
 在这一页
 
-  * 行动
-
-
-
-
+- 行动
 
 ## Actions
 
@@ -18,13 +14,11 @@
 
 设置垂直对齐。设置垂直对齐。目标是统一的网格槽。
 
-On this page 
+<hr>
 
-  * Actions
+On this page
 
-
-
-
+- Actions
 
 ## Actions
 
@@ -35,4 +29,3 @@ Set Horizontal Alignment. Set Horizontal Alignment: Target is Uniform Grid Slot.
 Set Row. Sets the row index of the slot, this determines what cell the slot is in the panel: Target is Uniform Grid Slot.
 
 Set Vertical Alignment. Set Vertical Alignment: Target is Uniform Grid Slot.
-

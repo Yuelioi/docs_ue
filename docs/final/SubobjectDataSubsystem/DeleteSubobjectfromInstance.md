@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21054914.png)
+![](/uploads/projects/ue-bluprint/20221218-21054914.png)
 
 ## Inputs
 
@@ -16,7 +16,7 @@
 
 上下文手柄。子对象数据句柄结构（通过引用）。应该被删除的子对象的所属上下文。
 
-要删除的子对象。子对象数据句柄结构（通过引用）。应该被删除的子对象句柄。  
+要删除的子对象。子对象数据句柄结构（通过引用）。应该被删除的子对象句柄。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。整数。成功删除的子对象的数量。
 
+<hr>
+
 Attempts to delete the given subobject from its context
 
 Target is Subobject Data Subsystem
 
 ## 图示
 
-![]($-20221218-21054914.png)
+![](/uploads/projects/ue-bluprint/20221218-21054914.png)
 
 ## Inputs
 
@@ -40,11 +42,10 @@ Target: Subobject Data Subsystem Object Reference.
 
 Context Handle: Subobject Data Handle Structure (by ref). The owning context of the subobjects that should be removed.
 
-Subobject to Delete: Subobject Data Handle Structure (by ref). The subobject handles that should be deleted.  
+Subobject to Delete: Subobject Data Handle Structure (by ref). The subobject handles that should be deleted.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Integer. The number of subobjects successfully deleted.
-

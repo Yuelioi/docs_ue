@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20021535.png)
+![](/uploads/projects/ue-bluprint/20221218-20021535.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。媒体声音组件对象参考。
 
-在频谱分析的启用。布尔型。  
+在频谱分析的启用。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Turns on spectral analysis of the audio generated in the media sound component.
 
@@ -26,7 +28,7 @@ Target is Media Sound Component
 
 ## 图示
 
-![]($-20221218-20021535.png)
+![](/uploads/projects/ue-bluprint/20221218-20021535.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Media Sound Component Object Reference.
 
-In Spectral Analysis Enabled: Boolean.  
+In Spectral Analysis Enabled: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

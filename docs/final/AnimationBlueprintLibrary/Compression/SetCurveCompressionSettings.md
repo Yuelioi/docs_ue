@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17513726.png)
+![](/uploads/projects/ue-bluprint/20221218-17513726.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 动画序列。Anim Sequence Object Reference.
 
-压缩设置。Anim Curve Compression Settings（动画曲线压缩设置）对象参考。 
+压缩设置。Anim Curve Compression Settings（动画曲线压缩设置）对象参考。
 
 ## Outputs
 
 Out: Exec.
+
+<hr>
 
 Sets the Curve Compression Settings for the given Animation Sequence
 
@@ -26,7 +28,7 @@ Target is Animation Blueprint Library
 
 ## 图示
 
-![]($-20221218-17513726.png)
+![](/uploads/projects/ue-bluprint/20221218-17513726.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Animation Sequence: Anim Sequence Object Reference.
 
-Compression Settings: Anim Curve Compression Settings Object Reference.  
+Compression Settings: Anim Curve Compression Settings Object Reference.
 
 ## Outputs
 
 Out: Exec.
-

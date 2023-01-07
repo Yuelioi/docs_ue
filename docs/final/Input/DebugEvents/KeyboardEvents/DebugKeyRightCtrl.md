@@ -1,10 +1,10 @@
 # DebugKeyRightCtrl
 
-当按下或释放右Ctrl键时的事件。
+当按下或释放右 Ctrl 键时的事件。
 
 ## 图示
 
-![]($-20221218-19204222.png)
+![](/uploads/projects/ue-bluprint/20221218-19204222.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 行动值。输入行动值结构。
 
+<hr>
+
 Events for when the Right Ctrl key is pressed or released.
 
 ## 图示
 
-![]($-20221218-19204222.png)
+![](/uploads/projects/ue-bluprint/20221218-19204222.png)
 
 ## Inputs
 
@@ -35,4 +37,3 @@ Released: Exec.
 Key: Key Structure.
 
 Action Value: Input Action Value Structure.
-

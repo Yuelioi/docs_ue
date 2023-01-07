@@ -6,13 +6,13 @@
 
 ## 图示
 
-![]($-20221218-20320859.png)
+![](/uploads/projects/ue-bluprint/20221218-20320859.png)
 
 ## Inputs
 
 在。执行。
 
-目标。石英钟手柄对象参考。  
+目标。石英钟手柄对象参考。
 
 ## Outputs
 
@@ -20,23 +20,24 @@
 
 返回值。布尔值。是否正在运行时钟。
 
+<hr>
+
 Is Clock Running
 
 Target is Quartz Clock Handle
 
 ## 图示
 
-![]($-20221218-20320859.png)
+![](/uploads/projects/ue-bluprint/20221218-20320859.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Quartz Clock Handle Object Reference.  
+Target: Quartz Clock Handle Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Is Clock Running.
-

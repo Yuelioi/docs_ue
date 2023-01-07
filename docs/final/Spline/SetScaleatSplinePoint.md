@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21012895.png)
+![](/uploads/projects/ue-bluprint/20221218-21012895.png)
 
 ## Inputs
 
@@ -18,11 +18,13 @@
 
 按比例向量。矢量（通过参考）。
 
-更新花键。布尔值。  
+更新花键。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the scale at a given spline point
 
@@ -30,7 +32,7 @@ Target is Spline Component
 
 ## 图示
 
-![]($-20221218-21012895.png)
+![](/uploads/projects/ue-bluprint/20221218-21012895.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Point Index: Integer.
 
 In Scale Vector: Vector (by ref).
 
-Update Spline: Boolean.  
+Update Spline: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18002480.png)
+![](/uploads/projects/ue-bluprint/20221218-18002480.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。资产注册表 接口。
 
-只包括在磁盘资产上。布尔值。 
+只包括在磁盘资产上。布尔值。
 
 ## Outputs
 
@@ -24,13 +24,15 @@
 
 返回值。布尔值。
 
+<hr>
+
 Gets asset data for all assets in the registry.. This method may be slow, use a filter if possible to avoid iterating over the entire registry.
 
 Target is Asset Registry
 
 ## 图示
 
-![]($-20221218-18002480.png)
+![](/uploads/projects/ue-bluprint/20221218-18002480.png)
 
 ## Inputs
 
@@ -38,7 +40,7 @@ In: Exec.
 
 Target: Asset Registry Interface.
 
-Include Only on Disk Assets: Boolean.  
+Include Only on Disk Assets: Boolean.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Out: Exec.
 Out Asset Data: Array of Asset Data Structures. the list of assets in this path.
 
 Return Value: Boolean.
-

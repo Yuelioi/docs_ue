@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-17350675.png)
+![](/uploads/projects/ue-bluprint/20221218-17350675.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。Actor Object Reference.
 
-新滴答组。ETickingGroup Enum.要分配的新值。 
+新滴答组。ETickingGroup Enum.要分配的新值。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Sets the ticking group for this actor.
 
@@ -26,7 +28,7 @@ Target is Actor
 
 ## 图示
 
-![]($-20221218-17350675.png)
+![](/uploads/projects/ue-bluprint/20221218-17350675.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Actor Object Reference.
 
-New Tick Group: ETickingGroup Enum. the new value to assign.  
+New Tick Group: ETickingGroup Enum. the new value to assign.
 
 ## Outputs
 
 Out: Exec.
-

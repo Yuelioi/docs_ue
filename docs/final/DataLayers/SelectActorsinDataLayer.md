@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18351557.png)
+![](/uploads/projects/ue-bluprint/20221218-18351557.png)
 
 ## Inputs
 
@@ -14,13 +14,13 @@
 
 目标。数据层编辑子系统对象参考。
 
-数据层。数据层对象参考。一个有效的DataLayer。
+数据层。数据层对象参考。一个有效的 DataLayer。
 
 选择。布尔值。如果为真，演员被选中；如果为假，演员被取消选择。
 
 Notify（通知）。布尔值。如果是真的，编辑会被通知选择的变化；如果是假的，编辑不会被通知。
 
-即使隐藏也要选择。布尔值。[可选]如果是真的，即使是隐藏的演员也会被选中；如果是假的，隐藏的演员就不会被选中。 
+即使隐藏也要选择。布尔值。[可选]如果是真的，即使是隐藏的演员也会被选中；如果是假的，隐藏的演员就不会被选中。
 
 ## Outputs
 
@@ -28,13 +28,15 @@ Notify（通知）。布尔值。如果是真的，编辑会被通知选择的�
 
 返回值。布尔值。如果至少有一个演员被选择/取消选择，则为真。
 
+<hr>
+
 Selects/de-selects actors belonging to the DataLayer.
 
 Target is Data Layer Editor Subsystem
 
 ## 图示
 
-![]($-20221218-18351557.png)
+![](/uploads/projects/ue-bluprint/20221218-18351557.png)
 
 ## Inputs
 
@@ -48,11 +50,10 @@ Select: Boolean. If true actors are selected; if false, actors are deselected..
 
 Notify: Boolean. If true the Editor is notified of the selection change; if false, the Editor will not be notified..
 
-Select Even if Hidden: Boolean. [optional] If true even hidden actors will be selected; if false, hidden actors won't be selected..  
+Select Even if Hidden: Boolean. [optional] If true even hidden actors will be selected; if false, hidden actors won't be selected..
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. true if at least one actor was selected/deselected..
-

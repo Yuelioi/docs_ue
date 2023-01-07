@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14210622.png)
+![](/uploads/projects/ue-bluprint/20221218-14210622.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ELidarPointCloudSpriteShape枚举。 
+选择。ELidarPointCloudSpriteShape 枚举。
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 圆圈 Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14210622.png)
+![](/uploads/projects/ue-bluprint/20221218-14210622.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ELidarPointCloudSpriteShape Enum.  
+Selection: ELidarPointCloudSpriteShape Enum.
 
 ## Outputs
 
 Square: Exec.
 
 Circle: Exec.
-

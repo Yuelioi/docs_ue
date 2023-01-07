@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18220159.png)
+![](/uploads/projects/ue-bluprint/20221218-18220159.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。普通动画切换器对象参考。
 
-禁用动画。布尔值。 
+禁用动画。布尔值。
 
 ## Outputs
 
 输出。执行。
+
+<hr>
 
 Set Disable Transition Animation
 
@@ -26,7 +28,7 @@ Target is Common Animated Switcher
 
 ## 图示
 
-![]($-20221218-18220159.png)
+![](/uploads/projects/ue-bluprint/20221218-18220159.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Common Animated Switcher Object Reference.
 
-Disable Animation: Boolean.  
+Disable Animation: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

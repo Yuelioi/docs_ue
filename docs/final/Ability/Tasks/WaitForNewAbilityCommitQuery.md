@@ -6,15 +6,15 @@
 
 ## 图示
 
-![]($-20221218-17333838.png)
+![](/uploads/projects/ue-bluprint/20221218-17333838.png)
 
 ## Inputs
 
 在。执行。
 
-查询。Gameplay Tag查询结构。
+查询。Gameplay Tag 查询结构。
 
-Trigger Once: Boolean.  
+Trigger Once: Boolean.
 
 ## Outputs
 
@@ -26,13 +26,15 @@ Async Task: Ability Task Wait Ability Commit Object Reference.
 
 激活的能力。Gameplay Ability 对象参考。
 
+<hr>
+
 Wait for Ability Commit Query
 
 Target is Ability Task Wait Ability Commit
 
 ## 图示
 
-![]($-20221218-17333838.png)
+![](/uploads/projects/ue-bluprint/20221218-17333838.png)
 
 ## Inputs
 
@@ -40,7 +42,7 @@ In: Exec.
 
 Query: Gameplay Tag Query Structure.
 
-Trigger Once: Boolean.  
+Trigger Once: Boolean.
 
 ## Outputs
 
@@ -51,4 +53,3 @@ Async Task: Ability Task Wait Ability Commit Object Reference.
 On Commit: Exec. On Commit.
 
 Activated Ability: Gameplay Ability Object Reference.
-

@@ -2,17 +2,17 @@
 
 获取粒子模块碰撞道具
 
-目标是FXConverter Utilities Library
+目标是 FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19022013.png)
+![](/uploads/projects/ue-bluprint/20221218-19022013.png)
 
 ## Inputs
 
 在。执行。
 
-粒子模块。Actor Collision Object Reference.  
+粒子模块。Actor Collision Object Reference.
 
 ## Outputs
 
@@ -26,7 +26,7 @@
 
 Out Collision Complete Option。EParticleCollisionComplete Enum.
 
-出碰撞类型。EObjectTypeQuery枚举的数组。
+出碰撞类型。EObjectTypeQuery 枚举的数组。
 
 出应用物理学。布尔运算。
 
@@ -52,19 +52,21 @@ Out Drop Detail:布尔值。
 
 出最大碰撞距离。Float（单精度）。
 
+<hr>
+
 Get Particle Module Collision Props
 
 Target is FXConverter Utilities Library
 
 ## 图示
 
-![]($-20221218-19022013.png)
+![](/uploads/projects/ue-bluprint/20221218-19022013.png)
 
 ## Inputs
 
 In: Exec.
 
-Particle Module: Actor Collision Object Reference.  
+Particle Module: Actor Collision Object Reference.
 
 ## Outputs
 
@@ -103,4 +105,3 @@ Out Collide Only if Visible: Boolean.
 Out Ignore Source Actor: Boolean.
 
 Out Max Collision Distance: Float (single-precision).
-

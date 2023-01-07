@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21103208.png)
+![](/uploads/projects/ue-bluprint/20221218-21103208.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。采取记录仪面板对象参考。
 
-从时间码进入。布尔型。  
+从时间码进入。布尔型。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set if the frame rate is set from the Timecode frame rate
 
@@ -26,7 +28,7 @@ Target is Take Recorder Panel
 
 ## 图示
 
-![]($-20221218-21103208.png)
+![](/uploads/projects/ue-bluprint/20221218-21103208.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Take Recorder Panel Object Reference.
 
-In from Timecode: Boolean.  
+In from Timecode: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

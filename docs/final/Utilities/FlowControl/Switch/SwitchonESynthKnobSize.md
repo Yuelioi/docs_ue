@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14241403.png)
+![](/uploads/projects/ue-bluprint/20221218-14241403.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESynthKnobSize Enum.  
+选择。ESynthKnobSize Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 大号 大：执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14241403.png)
+![](/uploads/projects/ue-bluprint/20221218-14241403.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESynthKnobSize Enum.  
+Selection: ESynthKnobSize Enum.
 
 ## Outputs
 
 Medium: Exec.
 
 Large: Exec.
-

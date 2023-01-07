@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-21221895.png)
+![](/uploads/projects/ue-bluprint/20221218-21221895.png)
 
 ## Inputs
 
-目标。小工具组件对象参考。  
+目标。小工具组件对象参考。
 
 ## Outputs
 
-返回值。布尔值。@见bWindowFocusable。
+返回值。布尔值。@见 bWindowFocusable。
+
+<hr>
 
 See: bWindowFocusable
 
@@ -22,13 +24,12 @@ Target is Widget Component
 
 ## 图示
 
-![]($-20221218-21221895.png)
+![](/uploads/projects/ue-bluprint/20221218-21221895.png)
 
 ## Inputs
 
-Target: Widget Component Object Reference.  
+Target: Widget Component Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. @see bWindowFocusable.
-

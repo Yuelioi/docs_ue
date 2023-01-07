@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21081040.png)
+![](/uploads/projects/ue-bluprint/20221218-21081040.png)
 
 ## Inputs
 
@@ -22,13 +22,15 @@ Osc Freq Mod:Float（单精度）。使用的振荡器频率调制。
 
 出：执行。
 
+<hr>
+
 Set the oscillator frequency modulation
 
 Target is Modular Synth Component
 
 ## 图示
 
-![]($-20221218-21081040.png)
+![](/uploads/projects/ue-bluprint/20221218-21081040.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Modular Synth Component Object Reference.
 
 Osc Index: Integer. Which oscillator to set the type for..
 
-Osc Freq Mod: Float (single-precision). The oscillator frequency modulation to use..  
+Osc Freq Mod: Float (single-precision). The oscillator frequency modulation to use..
 
 ## Outputs
 
 Out: Exec.
-

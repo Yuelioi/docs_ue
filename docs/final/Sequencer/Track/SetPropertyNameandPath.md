@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20560864.png)
+![](/uploads/projects/ue-bluprint/20221218-20560864.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 在财产名称。名称（通过引用）。属性的名称。
 
-在属性路径中。字符串。属性路径。  
+在属性路径中。字符串。属性路径。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set this track's property name and path
 
@@ -28,7 +30,7 @@ Target is Movie Scene Property Track Extensions
 
 ## 图示
 
-![]($-20221218-20560864.png)
+![](/uploads/projects/ue-bluprint/20221218-20560864.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Track: Movie Scene Property Track Object Reference. The track to use.
 
 In Property Name: Name (by ref). The property name.
 
-In Property Path: String. The property path.  
+In Property Path: String. The property path.
 
 ## Outputs
 
 Out: Exec.
-

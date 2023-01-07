@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18324183.png)
+![](/uploads/projects/ue-bluprint/20221218-18324183.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 预览网格。Skeletal Mesh Object Reference.
 
-Mark as Dirty（标记为脏）。Boolean（布尔）。 
+Mark as Dirty（标记为脏）。Boolean（布尔）。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 Set Preview Mesh
 
@@ -28,7 +30,7 @@ Target is Control Rig Blueprint Editor Library
 
 ## 图示
 
-![]($-20221218-18324183.png)
+![](/uploads/projects/ue-bluprint/20221218-18324183.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ In Rig Blueprint: Control Rig Blueprint Object Reference.
 
 Preview Mesh: Skeletal Mesh Object Reference.
 
-Mark as Dirty: Boolean.  
+Mark as Dirty: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

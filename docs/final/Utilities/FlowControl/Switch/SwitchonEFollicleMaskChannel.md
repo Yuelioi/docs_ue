@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14191448.png)
+![](/uploads/projects/ue-bluprint/20221218-14191448.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EFollicleMaskChannel Enum.  
+选择。EFollicleMaskChannel Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@ B：执行。
 
 A: 执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14191448.png)
+![](/uploads/projects/ue-bluprint/20221218-14191448.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EFollicleMaskChannel Enum.  
+Selection: EFollicleMaskChannel Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ G: Exec.
 B: Exec.
 
 A: Exec.
-

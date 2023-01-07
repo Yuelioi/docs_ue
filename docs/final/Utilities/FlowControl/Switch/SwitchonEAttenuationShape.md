@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14165917.png)
+![](/uploads/projects/ue-bluprint/20221218-14165917.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAttenuationShape Enum.  
+选择。EAttenuationShape Enum.
 
 ## Outputs
 
@@ -22,17 +22,19 @@ Capsule: Exec.
 
 锥体 Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14165917.png)
+![](/uploads/projects/ue-bluprint/20221218-14165917.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAttenuationShape Enum.  
+Selection: EAttenuationShape Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Capsule: Exec.
 Box: Exec.
 
 Cone: Exec.
-

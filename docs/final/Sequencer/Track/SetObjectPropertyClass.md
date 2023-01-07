@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20560753.png)
+![](/uploads/projects/ue-bluprint/20221218-20560753.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 轨迹。电影场景对象属性 轨迹对象参考。要使用的轨道。
 
-属性类。对象类参考。要设置的属性类。  
+属性类。对象类参考。要设置的属性类。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set this object property track's property class
 
@@ -26,7 +28,7 @@ Target is Movie Scene Property Track Extensions
 
 ## 图示
 
-![]($-20221218-20560753.png)
+![](/uploads/projects/ue-bluprint/20221218-20560753.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Track: Movie Scene Object Property Track Object Reference. The track to use.
 
-Property Class: Object Class Reference. The property class to set.  
+Property Class: Object Class Reference. The property class to set.
 
 ## Outputs
 
 Out: Exec.
-

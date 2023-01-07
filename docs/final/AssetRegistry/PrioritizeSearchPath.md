@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18005970.png)
+![](/uploads/projects/ue-bluprint/20221218-18005970.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。资产注册处界面。
 
-要优先考虑的路径。字符串。 
+要优先考虑的路径。字符串。
 
 ## Outputs
 
 输出。执行：执行。
+
+<hr>
 
 If assets are currently being asynchronously scanned in the specified path, this will cause them to be scanned before other assets.
 
@@ -26,7 +28,7 @@ Target is Asset Registry
 
 ## 图示
 
-![]($-20221218-18005970.png)
+![](/uploads/projects/ue-bluprint/20221218-18005970.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Asset Registry Interface.
 
-Path to Prioritize: String.  
+Path to Prioritize: String.
 
 ## Outputs
 
 Out: Exec.
-

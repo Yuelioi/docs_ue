@@ -6,15 +6,17 @@
 
 ## 图示
 
-![]($-20221218-18343471.png)
+![](/uploads/projects/ue-bluprint/20221218-18343471.png)
 
 ## Inputs
 
-目标。数据层对象参考。 
+目标。数据层对象参考。
 
 ## Outputs
 
 返回值。名称。获取数据层标签。
+
+<hr>
 
 Get Data Layer Label
 
@@ -22,13 +24,12 @@ Target is Data Layer
 
 ## 图示
 
-![]($-20221218-18343471.png)
+![](/uploads/projects/ue-bluprint/20221218-18343471.png)
 
 ## Inputs
 
-Target: Data Layer Object Reference.  
+Target: Data Layer Object Reference.
 
 ## Outputs
 
 Return Value: Name. Get Data Layer Label.
-

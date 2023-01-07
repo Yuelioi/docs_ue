@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21375656.png)
+![](/uploads/projects/ue-bluprint/20221218-21375656.png)
 
 ## Inputs
 
@@ -14,17 +14,18 @@
 
 返回值。质量行为者再生器子系统对象参考。
 
+<hr>
+
 Get Mass Actor Spawner Subsystem (World Subsystem)
 
 A subsystem managing spawning of actors for all mass subsystems
 
 ## 图示
 
-![]($-20221218-21375656.png)
+![](/uploads/projects/ue-bluprint/20221218-21375656.png)
 
 ## Inputs
 
 ## Outputs
 
 Return Value: Mass Actor Spawner Subsystem Object Reference.
-

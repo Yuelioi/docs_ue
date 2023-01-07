@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-19122087.png)
+![](/uploads/projects/ue-bluprint/20221218-19122087.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标网格。动态网格对象参考。
 
-调试。Geometry Script Debug Object Reference.  
+调试。Geometry Script Debug Object Reference.
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 目标网格。动态网格对象参考。自动修复规范。
 
+<hr>
+
 Auto Repair Normals
 
 Target is Geometry Script Library Mesh Normals Functions
 
 ## 图示
 
-![]($-20221218-19122087.png)
+![](/uploads/projects/ue-bluprint/20221218-19122087.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference.
 
-Debug: Geometry Script Debug Object Reference.  
+Debug: Geometry Script Debug Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Target Mesh: Dynamic Mesh Object Reference. Auto Repair Normals.
-

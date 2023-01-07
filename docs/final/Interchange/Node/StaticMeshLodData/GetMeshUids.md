@@ -1,12 +1,12 @@
 # GetMeshUids
 
-获取网格Uids
+获取网格 Uids
 
-目标是Interchange Static Mesh Lod Data Node。
+目标是 Interchange Static Mesh Lod Data Node。
 
 ## 图示
 
-![]($-20221218-19335798.png)
+![](/uploads/projects/ue-bluprint/20221218-19335798.png)
 
 ## Inputs
 
@@ -15,19 +15,21 @@
 ## Outputs
 
 输出网格名称。字符串数组。
+
+<hr>
+
 Get Mesh Uids
 
 Target is Interchange Static Mesh Lod Data Node
 
 ## 图示
 
-![]($-20221218-19335798.png)
+![](/uploads/projects/ue-bluprint/20221218-19335798.png)
 
 ## Inputs
 
-Target: Interchange Static Mesh Lod Data Node Object Reference.  
+Target: Interchange Static Mesh Lod Data Node Object Reference.
 
 ## Outputs
 
 Out Mesh Names: Array of Strings.
-

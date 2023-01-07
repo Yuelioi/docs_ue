@@ -1,12 +1,12 @@
 # SetNiagaraVariableByString_Bool
 
-设置一个Niagara浮动参数的名称，如果需要的话，在本地覆盖。
+设置一个 Niagara 浮动参数的名称，如果需要的话，在本地覆盖。
 
-目标是Niagara粒子系统组件
+目标是 Niagara 粒子系统组件
 
 ## 图示
 
-![]($-20221218-20134399.png)
+![](/uploads/projects/ue-bluprint/20221218-20134399.png)
 
 ## Inputs
 
@@ -16,11 +16,13 @@
 
 变量名称中：字符串。
 
-在值。布尔值。  
+在值。布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Sets a Niagara float parameter by name, overriding locally if necessary.
 
@@ -28,7 +30,7 @@ Target is Niagara Particle System Component
 
 ## 图示
 
-![]($-20221218-20134399.png)
+![](/uploads/projects/ue-bluprint/20221218-20134399.png)
 
 ## Inputs
 
@@ -38,9 +40,8 @@ Target: Niagara Particle System Component Object Reference.
 
 In Variable Name: String.
 
-In Value: Boolean.  
+In Value: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

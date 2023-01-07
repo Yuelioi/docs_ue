@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14232789.png)
+![](/uploads/projects/ue-bluprint/20221218-14232789.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。ESlateBrushTileType枚举。 
+选择。ESlateBrushTileType 枚举。
 
 ## Outputs
 
@@ -22,17 +22,19 @@
 
 Both: Exec.
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14232789.png)
+![](/uploads/projects/ue-bluprint/20221218-14232789.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: ESlateBrushTileType Enum.  
+Selection: ESlateBrushTileType Enum.
 
 ## Outputs
 
@@ -43,4 +45,3 @@ Horizontal: Exec.
 Vertical: Exec.
 
 Both: Exec.
-

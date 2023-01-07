@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20342701.png)
+![](/uploads/projects/ue-bluprint/20221218-20342701.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。本地光组件对象参考。
 
-新的强度单位。ELightUnits Enum.  
+新的强度单位。ELightUnits Enum.
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set the units used for the intensity of the light
 
@@ -26,7 +28,7 @@ Target is Local Light Component
 
 ## 图示
 
-![]($-20221218-20342701.png)
+![](/uploads/projects/ue-bluprint/20221218-20342701.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Local Light Component Object Reference.
 
-New Intensity Units: ELightUnits Enum.  
+New Intensity Units: ELightUnits Enum.
 
 ## Outputs
 
 Out: Exec.
-

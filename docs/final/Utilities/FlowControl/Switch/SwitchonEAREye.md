@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14162448.png)
+![](/uploads/projects/ue-bluprint/20221218-14162448.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EAREye Enum.  
+选择。EAREye Enum.
 
 ## Outputs
 
@@ -18,21 +18,22 @@
 
 右眼。执行。
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14162448.png)
+![](/uploads/projects/ue-bluprint/20221218-14162448.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EAREye Enum.  
+Selection: EAREye Enum.
 
 ## Outputs
 
 Left Eye: Exec.
 
 Right Eye: Exec.
-

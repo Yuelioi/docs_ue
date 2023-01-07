@@ -8,7 +8,7 @@
 
 ## 图示
 
-![]($-20221218-19293356.png)
+![](/uploads/projects/ue-bluprint/20221218-19293356.png)
 
 ## Inputs
 
@@ -16,13 +16,15 @@
 
 播放器控制器。播放器控制器对象参考。
 
-在Widget to Focus:小工具对象参考。
+在 Widget to Focus:小工具对象参考。
 
-在鼠标锁定模式下。EMouseLockMode枚举。  
+在鼠标锁定模式下。EMouseLockMode 枚举。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Setup an input mode that allows only the UI to respond to user input.
 
@@ -32,7 +34,7 @@ Target is Widget Blueprint Library
 
 ## 图示
 
-![]($-20221218-19293356.png)
+![](/uploads/projects/ue-bluprint/20221218-19293356.png)
 
 ## Inputs
 
@@ -42,9 +44,8 @@ Player Controller: Player Controller Object Reference.
 
 In Widget to Focus: Widget Object Reference.
 
-In Mouse Lock Mode: EMouseLockMode Enum.  
+In Mouse Lock Mode: EMouseLockMode Enum.
 
 ## Outputs
 
 Out: Exec.
-

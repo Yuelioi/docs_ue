@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-21342059.png)
+![](/uploads/projects/ue-bluprint/20221218-21342059.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 目标。富文本块对象参考。
 
-装饰器类。富文本块装饰器类参考。  
+装饰器类。富文本块装饰器类参考。
 
 ## Outputs
 
@@ -22,13 +22,15 @@
 
 返回值。富文本块装饰器对象参考。按类别获取装饰器。
 
+<hr>
+
 Get Decorator by Class
 
 Target is Rich Text Block
 
 ## 图示
 
-![]($-20221218-21342059.png)
+![](/uploads/projects/ue-bluprint/20221218-21342059.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Target: Rich Text Block Object Reference.
 
-Decorator Class: Rich Text Block Decorator Class Reference.  
+Decorator Class: Rich Text Block Decorator Class Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Rich Text Block Decorator Object Reference. Get Decorator by Class.
-

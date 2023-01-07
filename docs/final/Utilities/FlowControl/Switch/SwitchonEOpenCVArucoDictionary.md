@@ -4,13 +4,13 @@
 
 ## 图示
 
-![]($-20221218-14221131.png)
+![](/uploads/projects/ue-bluprint/20221218-14221131.png)
 
 ## Inputs
 
 在。执行：执行。
 
-选择。EOpenCVArucoDictionary Enum.  
+选择。EOpenCVArucoDictionary Enum.
 
 ## Outputs
 
@@ -24,17 +24,19 @@
 
 原始的。执行
 
+<hr>
+
 Selects an output that matches the input value
 
 ## 图示
 
-![]($-20221218-14221131.png)
+![](/uploads/projects/ue-bluprint/20221218-14221131.png)
 
 ## Inputs
 
 In: Exec.
 
-Selection: EOpenCVArucoDictionary Enum.  
+Selection: EOpenCVArucoDictionary Enum.
 
 ## Outputs
 
@@ -47,4 +49,3 @@ Selection: EOpenCVArucoDictionary Enum.
 7x 7: Exec.
 
 Original: Exec.
-

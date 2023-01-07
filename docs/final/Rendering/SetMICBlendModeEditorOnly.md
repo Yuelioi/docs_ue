@@ -2,11 +2,11 @@
 
 覆盖材料实例常量的混合模式。只在编辑器中起作用
 
-目标是蓝图材料纹理节点BPLibrary
+目标是蓝图材料纹理节点 BPLibrary
 
 ## 图示
 
-![]($-20221218-20393376.png)
+![](/uploads/projects/ue-bluprint/20221218-20393376.png)
 
 ## Inputs
 
@@ -14,7 +14,7 @@
 
 材料。Material Instance Constant Object Reference.
 
-Blend Mode: EBlendMode Enum.  
+Blend Mode: EBlendMode Enum.
 
 ## Outputs
 
@@ -22,13 +22,15 @@ Blend Mode: EBlendMode Enum.
 
 返回值。布尔值。重写材料实例常量的混合模式。只在编辑器中起作用。
 
+<hr>
+
 Overrides the Blend Mode of a Material Instance Constant. Only works in the editor
 
 Target is Blueprint Material Texture Nodes BPLibrary
 
 ## 图示
 
-![]($-20221218-20393376.png)
+![](/uploads/projects/ue-bluprint/20221218-20393376.png)
 
 ## Inputs
 
@@ -36,11 +38,10 @@ In: Exec.
 
 Material: Material Instance Constant Object Reference.
 
-Blend Mode: EBlendMode Enum.  
+Blend Mode: EBlendMode Enum.
 
 ## Outputs
 
 Out: Exec.
 
 Return Value: Boolean. Overrides the Blend Mode of a Material Instance Constant. Only works in the editor.
-

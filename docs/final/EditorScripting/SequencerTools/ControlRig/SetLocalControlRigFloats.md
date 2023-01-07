@@ -1,12 +1,12 @@
 # SetLocalControlRigFloats
 
-在特定时间设置ControlRig控件的浮动值
+在特定时间设置 ControlRig 控件的浮动值
 
-目标是Control Rig Sequencer Editor Library
+目标是 Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18532884.png)
+![](/uploads/projects/ue-bluprint/20221218-18532884.png)
 
 ## Inputs
 
@@ -22,18 +22,21 @@
 
 值。Float（单精度）的数组。
 
-时间单位。ESequenceTimeUnit枚举。帧值的单位，可以是显示率，也可以是tick分辨率。
+时间单位。ESequenceTimeUnit 枚举。帧值的单位，可以是显示率，也可以是 tick 分辨率。
 
 ## Outputs
 
 出：执行。
+
+<hr>
+
 Set ControlRig Control's float values at specific times
 
 Target is Control Rig Sequencer Editor Library
 
 ## 图示
 
-![]($-20221218-18532884.png)
+![](/uploads/projects/ue-bluprint/20221218-18532884.png)
 
 ## Inputs
 
@@ -49,9 +52,8 @@ Frames: Array of Frame Number Structures. Times to set the values.
 
 Values: Array of Float (single-precision)s. to set at those times.
 
-Time Unit: ESequenceTimeUnit Enum. Unit for frame values, either in display rate or tick resolution.  
+Time Unit: ESequenceTimeUnit Enum. Unit for frame values, either in display rate or tick resolution.
 
 ## Outputs
 
 Out: Exec.
-

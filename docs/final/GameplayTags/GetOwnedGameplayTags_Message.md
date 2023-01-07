@@ -6,19 +6,21 @@
 
 ## 图示
 
-![]($-20221218-19092696.png)
+![](/uploads/projects/ue-bluprint/20221218-19092696.png)
 
 ## Inputs
 
 在。执行。
 
-目标。对象参考。  
+目标。对象参考。
 
 ## Outputs
 
 出：执行。
 
-标签容器。Gameplay Tag Container结构。
+标签容器。Gameplay Tag Container 结构。
+
+<hr>
 
 Get any owned gameplay tags on the asset
 
@@ -26,17 +28,16 @@ Target is Gameplay Tag Asset Interface
 
 ## 图示
 
-![]($-20221218-19092696.png)
+![](/uploads/projects/ue-bluprint/20221218-19092696.png)
 
 ## Inputs
 
 In: Exec.
 
-Target: Object Reference.  
+Target: Object Reference.
 
 ## Outputs
 
 Out: Exec.
 
 Tag Container: Gameplay Tag Container Structure.
-

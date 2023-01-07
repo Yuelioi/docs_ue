@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-20283342.png)
+![](/uploads/projects/ue-bluprint/20221218-20283342.png)
 
 ## Inputs
 
@@ -14,11 +14,13 @@
 
 目标。原始组件对象参考。
 
-使用中的CCD：布尔值。  
+使用中的 CCD：布尔值。
 
 ## Outputs
 
 出：执行。
+
+<hr>
 
 Set whether all bodies in this component should use Continuous Collision Detection
 
@@ -26,7 +28,7 @@ Target is Primitive Component
 
 ## 图示
 
-![]($-20221218-20283342.png)
+![](/uploads/projects/ue-bluprint/20221218-20283342.png)
 
 ## Inputs
 
@@ -34,9 +36,8 @@ In: Exec.
 
 Target: Primitive Component Object Reference.
 
-In Use CCD: Boolean.  
+In Use CCD: Boolean.
 
 ## Outputs
 
 Out: Exec.
-

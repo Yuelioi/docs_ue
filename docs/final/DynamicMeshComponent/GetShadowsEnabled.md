@@ -6,7 +6,7 @@
 
 ## 图示
 
-![]($-20221218-18460670.png)
+![](/uploads/projects/ue-bluprint/20221218-18460670.png)
 
 ## Inputs
 
@@ -15,19 +15,21 @@
 ## Outputs
 
 返回值。布尔值。获取启用的阴影。
+
+<hr>
+
 Get Shadows Enabled
 
 Target is Base Dynamic Mesh Component
 
 ## 图示
 
-![]($-20221218-18460670.png)
+![](/uploads/projects/ue-bluprint/20221218-18460670.png)
 
 ## Inputs
 
-Target: Base Dynamic Mesh Component Object Reference.  
+Target: Base Dynamic Mesh Component Object Reference.
 
 ## Outputs
 
 Return Value: Boolean. Get Shadows Enabled.
-
